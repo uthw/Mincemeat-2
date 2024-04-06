@@ -1,5 +1,5 @@
 #List of curio slot type settings
-keepCurios = "ON"
+# keepCurios = "ON"
 # [[curiosSettings]]
 #   identifier = "ring"
 #   size = 2
@@ -18,7 +18,7 @@ override = true
 # override = true
 [[curiosSettings]]
 identifier = "ring"
-size = 2
+size = 1
 override = true
 [[curiosSettings]]
 identifier = "belt"
@@ -26,7 +26,7 @@ size = 1
 override = true
 [[curiosSettings]]
 identifier = "charm"
-size = 2
+size = 1
 override = true
 [[curiosSettings]]
 identifier = "bracelet"
@@ -34,7 +34,7 @@ size = 1
 override = true
 [[curiosSettings]]
 identifier = "hands"
-size = 1
+size = 0
 override = true
 [[curiosSettings]]
 identifier = "back"
