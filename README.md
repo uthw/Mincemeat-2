@@ -15,7 +15,7 @@ A modpack for Minecraft 1.20.1 that focuses on providing a challenging yet forgi
 6. Set minimum and maximum memory allocation to 8192 MiB
 7. Type in [these](https://gist.github.com/uthw/3648819b8acf988ed21260f62f83e05f) JVM arguments
 
-8. Press play. It's normal for the game to crash on the loading screen. Simply relaunch Minecraft if this happens.
+8. Press play. It's normal for the game to crash on the loading screen the first time. Simply relaunch Minecraft if this happens.
 
 ## Tips
 
