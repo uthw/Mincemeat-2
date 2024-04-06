@@ -5,12 +5,12 @@
 	group: "357B296D74E0575E"
 	icon: "botania:livingwood_twig"
 	id: "4BF77CB28691F71E"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Inside this strange journal you found is a strange note."
+				"Inside this strange book you found is a note."
 				""
 				"\"This is the journal that reveals the secrets, mysteries, and techniques passed down through the centuries. As your journey advances, obtain this knowledge and venture forth.\""
 			]
@@ -23,8 +23,15 @@
 					type: "command"
 				}
 				{
+					auto: "invisible"
 					command: "/give @p ftbquests:book"
 					id: "70A7C1BBD451E9E3"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/clear @p enigmaticlegacy:cursed_ring"
+					id: "661115E4F0228140"
 					type: "command"
 				}
 			]
@@ -901,7 +908,7 @@
 		{
 			dependencies: ["16C996E71E9BABC3"]
 			description: [
-				"You can modify and combine your Relics at this table."
+				"You can level up and combine Relics at this table."
 				""
 				"Make sure you are trying to modify your relics and not artifacts (check the mod name)"
 			]
@@ -913,6 +920,29 @@
 			}]
 			x: 1.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["3571CB6136F6E3EB"]
+			description: [
+				"Do you want to cause yourself unnecessary pain? If so, equip this ring."
+				""
+				"Fair warning: you can't unequip it."
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "6015707B798A004F"
+			rewards: [{
+				auto: "enabled"
+				id: "0DC8E287624317EF"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2593FED31B0FA2A6"
+				title: "Seven Curses"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
 		}
 	]
 	title: "Getting Started"
