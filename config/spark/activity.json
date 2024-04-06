@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "uthw",
+      "uniqueId": "20c841d9-4402-42f0-a51c-c57aa8b28d7f"
+    },
+    "time": 1711830567056,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/B5ZcTax3Cf"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "uthw",
+      "uniqueId": "20c841d9-4402-42f0-a51c-c57aa8b28d7f"
+    },
+    "time": 1711830155604,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/yj2bWDHXOg"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "uthw",
+      "uniqueId": "20c841d9-4402-42f0-a51c-c57aa8b28d7f"
+    },
+    "time": 1711829656292,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vGJeeJCVVX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "uthw",
+      "uniqueId": "20c841d9-4402-42f0-a51c-c57aa8b28d7f"
+    },
+    "time": 1711828518067,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6y7Kr2ipOy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "uthw",
+      "uniqueId": "20c841d9-4402-42f0-a51c-c57aa8b28d7f"
+    },
+    "time": 1711828355227,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OyyKEGaOEl"
+    }
+  }
+]

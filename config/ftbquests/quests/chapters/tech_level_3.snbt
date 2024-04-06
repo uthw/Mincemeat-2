@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_level_3"
+	group: "575079378E827F8C"
+	icon: "thermal:ruby_gear"
+	id: "7FEB510403B4E9F7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tech Level 3"
+}

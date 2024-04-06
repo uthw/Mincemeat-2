@@ -1,0 +1,1480 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "aether:candy_cane_sword": [
+      1362,
+      3.0519345
+    ],
+    "aether:flaming_sword": [
+      1107,
+      3.3259296
+    ],
+    "aether:gravitite_axe": [
+      693,
+      3.277826
+    ],
+    "aether:gravitite_sword": [
+      789,
+      3.35481
+    ],
+    "aether:hammer_of_kingbdogz": [
+      1225,
+      3.2233663
+    ],
+    "aether:holy_sword": [
+      1107,
+      3.3259296
+    ],
+    "aether:holystone_axe": [
+      1122,
+      3.3153648
+    ],
+    "aether:holystone_sword": [
+      1298,
+      3.138668
+    ],
+    "aether:lightning_sword": [
+      1107,
+      3.3259296
+    ],
+    "aether:phoenix_bow": [
+      1108,
+      3.3252485
+    ],
+    "aether:pig_slayer": [
+      1240,
+      3.2072408
+    ],
+    "aether:skyroot_axe": [
+      1240,
+      3.2072408
+    ],
+    "aether:skyroot_sword": [
+      1354,
+      3.0633936
+    ],
+    "aether:valkyrie_axe": [
+      693,
+      3.277826
+    ],
+    "aether:valkyrie_lance": [
+      789,
+      3.35481
+    ],
+    "aether:vampire_blade": [
+      648,
+      3.2252514
+    ],
+    "aether:zanite_axe": [
+      1087,
+      3.3388495
+    ],
+    "aether:zanite_sword": [
+      1225,
+      3.2233663
+    ],
+    "alexsmobs:skelewag_sword": [
+      1226,
+      3.2223125
+    ],
+    "alexsmobs:tendon_whip": [
+      1203,
+      3.2457914
+    ],
+    "betterend:aeternium_axe": [
+      420,
+      3.5907993
+    ],
+    "betterend:aeternium_sword": [
+      528,
+      3.0263207
+    ],
+    "betterend:terminite_axe": [
+      739,
+      3.3204415
+    ],
+    "betterend:terminite_sword": [
+      889,
+      3.389202
+    ],
+    "betterend:thallasium_axe": [
+      1091,
+      3.3363736
+    ],
+    "betterend:thallasium_sword": [
+      1223,
+      3.2254653
+    ],
+    "betternether:cincinnasite_axe": [
+      981,
+      3.3840606
+    ],
+    "betternether:cincinnasite_axe_diamond": [
+      506,
+      2.979556
+    ],
+    "betternether:cincinnasite_sword": [
+      1125,
+      3.313163
+    ],
+    "betternether:cincinnasite_sword_diamond": [
+      607,
+      3.1673403
+    ],
+    "betternether:flaming_ruby_axe": [
+      129,
+      2.523082
+    ],
+    "betternether:flaming_ruby_sword": [
+      249,
+      3.307148
+    ],
+    "betternether:nether_ruby_axe": [
+      388,
+      3.5919316
+    ],
+    "betternether:nether_ruby_sword": [
+      485,
+      3.5262084
+    ],
+    "bloodmagic:soulaxe": [
+      1294,
+      3.143709
+    ],
+    "bloodmagic:soulsword": [
+      1294,
+      3.143709
+    ],
+    "blue_skies:aquite_axe": [
+      1081,
+      3.3424618
+    ],
+    "blue_skies:aquite_sword": [
+      1219,
+      3.2296283
+    ],
+    "blue_skies:bluebright_axe": [
+      1240,
+      3.2072408
+    ],
+    "blue_skies:bluebright_sword": [
+      1354,
+      3.0633936
+    ],
+    "blue_skies:charoite_axe": [
+      693,
+      3.277826
+    ],
+    "blue_skies:charoite_sword": [
+      789,
+      3.35481
+    ],
+    "blue_skies:comet_axe": [
+      1205,
+      3.243814
+    ],
+    "blue_skies:comet_sword": [
+      1325,
+      3.103464
+    ],
+    "blue_skies:debug_sword": [
+      1,
+      0.004
+    ],
+    "blue_skies:different_sword": [
+      750,
+      3.3290434
+    ],
+    "blue_skies:diopside_axe": [
+      489,
+      3.519706
+    ],
+    "blue_skies:diopside_sword": [
+      663,
+      3.2440176
+    ],
+    "blue_skies:dusk_axe": [
+      1240,
+      3.2072408
+    ],
+    "blue_skies:dusk_sword": [
+      1354,
+      3.0633936
+    ],
+    "blue_skies:frostbright_axe": [
+      1240,
+      3.2072408
+    ],
+    "blue_skies:frostbright_sword": [
+      1354,
+      3.0633936
+    ],
+    "blue_skies:horizonite_axe": [
+      1087,
+      3.3388495
+    ],
+    "blue_skies:horizonite_sword": [
+      1225,
+      3.2233663
+    ],
+    "blue_skies:infused_arc_sword": [
+      892,
+      3.3895693
+    ],
+    "blue_skies:lunar_axe": [
+      1240,
+      3.2072408
+    ],
+    "blue_skies:lunar_stone_axe": [
+      1122,
+      3.3153648
+    ],
+    "blue_skies:lunar_stone_sword": [
+      1298,
+      3.138668
+    ],
+    "blue_skies:lunar_sword": [
+      1354,
+      3.0633936
+    ],
+    "blue_skies:maple_axe": [
+      1240,
+      3.2072408
+    ],
+    "blue_skies:maple_sword": [
+      1354,
+      3.0633936
+    ],
+    "blue_skies:pyrope_axe": [
+      1127,
+      3.3116786
+    ],
+    "blue_skies:pyrope_sword": [
+      1259,
+      3.1858554
+    ],
+    "blue_skies:starlit_axe": [
+      1240,
+      3.2072408
+    ],
+    "blue_skies:starlit_sword": [
+      1354,
+      3.0633936
+    ],
+    "blue_skies:turquoise_stone_axe": [
+      1122,
+      3.3153648
+    ],
+    "blue_skies:turquoise_stone_sword": [
+      1298,
+      3.138668
+    ],
+    "deeperdarker:warden_axe": [
+      294,
+      3.457625
+    ],
+    "deeperdarker:warden_sword": [
+      406,
+      3.593941
+    ],
+    "enderio:dark_steel_sword": [
+      658,
+      3.2379029
+    ],
+    "forbidden_arcanus:draco_arcanus_axe": [
+      53,
+      1.5655679
+    ],
+    "forbidden_arcanus:draco_arcanus_sword": [
+      189,
+      2.9965076
+    ],
+    "forbidden_arcanus:mystical_dagger": [
+      1203,
+      3.2457914
+    ],
+    "forbidden_arcanus:reinforced_deorum_axe": [
+      367,
+      3.5805972
+    ],
+    "forbidden_arcanus:reinforced_deorum_sword": [
+      467,
+      3.5519643
+    ],
+    "lost_aether_content:phoenix_axe": [
+      519,
+      3.007606
+    ],
+    "lost_aether_content:phoenix_sword": [
+      639,
+      3.2133799
+    ],
+    "mekanism:electric_bow": [
+      1300,
+      3.1361308
+    ],
+    "mekanismtools:bronze_axe": [
+      995,
+      3.380415
+    ],
+    "mekanismtools:bronze_sword": [
+      1187,
+      3.2611713
+    ],
+    "mekanismtools:lapis_lazuli_axe": [
+      1261,
+      3.183544
+    ],
+    "mekanismtools:lapis_lazuli_sword": [
+      1299,
+      3.1374013
+    ],
+    "mekanismtools:osmium_axe": [
+      614,
+      3.1779315
+    ],
+    "mekanismtools:osmium_sword": [
+      904,
+      3.390666
+    ],
+    "mekanismtools:refined_glowstone_axe": [
+      1046,
+      3.3610682
+    ],
+    "mekanismtools:refined_glowstone_sword": [
+      1184,
+      3.2639668
+    ],
+    "mekanismtools:refined_obsidian_axe": [
+      1,
+      0.57488
+    ],
+    "mekanismtools:refined_obsidian_sword": [
+      1,
+      0.58640003
+    ],
+    "mekanismtools:steel_axe": [
+      900,
+      3.3903658
+    ],
+    "mekanismtools:steel_sword": [
+      1108,
+      3.3252485
+    ],
+    "minecraft:bow": [
+      1108,
+      3.3252485
+    ],
+    "minecraft:crossbow": [
+      1000,
+      3.3789356
+    ],
+    "minecraft:diamond_axe": [
+      693,
+      3.277826
+    ],
+    "minecraft:diamond_sword": [
+      789,
+      3.35481
+    ],
+    "minecraft:enchanted_book": [
+      1100,
+      3.330605
+    ],
+    "minecraft:golden_axe": [
+      1248,
+      3.1983666
+    ],
+    "minecraft:golden_sword": [
+      1362,
+      3.0519345
+    ],
+    "minecraft:iron_axe": [
+      1087,
+      3.3388495
+    ],
+    "minecraft:iron_sword": [
+      1225,
+      3.2233663
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      3.3591573
+    ],
+    "minecraft:netherite_axe": [
+      498,
+      3.5040615
+    ],
+    "minecraft:netherite_sword": [
+      602,
+      3.1595929
+    ],
+    "minecraft:snowball": [
+      1400,
+      2.99516
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      3.3591573
+    ],
+    "minecraft:stone_axe": [
+      1122,
+      3.3153648
+    ],
+    "minecraft:stone_sword": [
+      1298,
+      3.138668
+    ],
+    "minecraft:tnt": [
+      800,
+      3.3607779
+    ],
+    "minecraft:trident": [
+      900,
+      3.3903658
+    ],
+    "minecraft:wooden_axe": [
+      1240,
+      3.2072408
+    ],
+    "minecraft:wooden_sword": [
+      1354,
+      3.0633936
+    ],
+    "nethersdelight:diamond_machete": [
+      831,
+      3.3746235
+    ],
+    "nethersdelight:golden_machete": [
+      1392,
+      3.0074317
+    ],
+    "nethersdelight:iron_machete": [
+      1263,
+      3.1812177
+    ],
+    "nethersdelight:netherite_machete": [
+      648,
+      3.2252514
+    ],
+    "reliquary:magicbane": [
+      1333,
+      3.0926406
+    ],
+    "reliquary:mercy_cross": [
+      1088,
+      3.3382354
+    ],
+    "techreborn:advanced_chainsaw": [
+      1162,
+      3.2836075
+    ],
+    "techreborn:basic_chainsaw": [
+      1212,
+      3.2367954
+    ],
+    "techreborn:bronze_axe": [
+      1207,
+      3.2418242
+    ],
+    "techreborn:bronze_sword": [
+      1177,
+      3.270381
+    ],
+    "techreborn:industrial_chainsaw": [
+      1162,
+      3.2836075
+    ],
+    "techreborn:nanosaber": [
+      1450,
+      2.9146826
+    ],
+    "techreborn:peridot_axe": [
+      1147,
+      3.2961206
+    ],
+    "techreborn:peridot_sword": [
+      1094,
+      3.3344805
+    ],
+    "techreborn:ruby_axe": [
+      1147,
+      3.2961206
+    ],
+    "techreborn:ruby_sword": [
+      1094,
+      3.3344805
+    ],
+    "techreborn:sapphire_axe": [
+      1072,
+      3.3476508
+    ],
+    "techreborn:sapphire_sword": [
+      1019,
+      3.3724809
+    ]
+  },
+  "OFFHAND": {
+    "blue_skies:moonstone_shield": [
+      1350,
+      3.0690577
+    ],
+    "blue_skies:spike_shield": [
+      1350,
+      3.0690577
+    ],
+    "lost_aether_content:gravitite_shield": [
+      1350,
+      3.0690577
+    ],
+    "lost_aether_content:shield_of_emile": [
+      1350,
+      3.0690577
+    ],
+    "lost_aether_content:zanite_shield": [
+      1350,
+      3.0690577
+    ],
+    "mekanismtools:bronze_shield": [
+      1350,
+      3.0690577
+    ],
+    "mekanismtools:lapis_lazuli_shield": [
+      1350,
+      3.0690577
+    ],
+    "mekanismtools:osmium_shield": [
+      1350,
+      3.0690577
+    ],
+    "mekanismtools:refined_glowstone_shield": [
+      1350,
+      3.0690577
+    ],
+    "mekanismtools:refined_obsidian_shield": [
+      1350,
+      3.0690577
+    ],
+    "mekanismtools:steel_shield": [
+      1350,
+      3.0690577
+    ],
+    "minecraft:ender_pearl": [
+      1100,
+      3.330605
+    ],
+    "minecraft:flint_and_steel": [
+      1200,
+      3.248736
+    ],
+    "minecraft:lava_bucket": [
+      900,
+      3.3903658
+    ],
+    "minecraft:shield": [
+      1350,
+      3.0690577
+    ]
+  },
+  "FEET": {
+    "aether:gravitite_boots": [
+      48,
+      1.4826714
+    ],
+    "aether:neptune_boots": [
+      737,
+      3.3188126
+    ],
+    "aether:obsidian_boots": [
+      1,
+      0.5934
+    ],
+    "aether:phoenix_boots": [
+      48,
+      1.4826714
+    ],
+    "aether:sentry_boots": [
+      750,
+      3.3290434
+    ],
+    "aether:valkyrie_boots": [
+      48,
+      1.4826714
+    ],
+    "aether:zanite_boots": [
+      750,
+      3.3290434
+    ],
+    "alexsmobs:flying_fish_boots": [
+      1298,
+      3.138668
+    ],
+    "alexsmobs:roadrunner_boots": [
+      737,
+      3.3188126
+    ],
+    "betterend:aeternium_boots": [
+      1,
+      0.57288
+    ],
+    "betterend:crystalite_boots": [
+      101,
+      2.227818
+    ],
+    "betterend:terminite_boots": [
+      262,
+      3.3571904
+    ],
+    "betterend:thallasium_boots": [
+      923,
+      3.391205
+    ],
+    "betternether:cincinnasite_boots": [
+      606,
+      3.1658027
+    ],
+    "betternether:flaming_ruby_boots": [
+      32,
+      1.205861
+    ],
+    "betternether:nether_ruby_boots": [
+      429,
+      3.5866778
+    ],
+    "bloodmagic:livingboots": [
+      529,
+      3.0283651
+    ],
+    "blue_skies:aquite_boots": [
+      750,
+      3.3290434
+    ],
+    "blue_skies:charoite_boots": [
+      48,
+      1.4826714
+    ],
+    "blue_skies:diopside_boots": [
+      175,
+      2.90254
+    ],
+    "blue_skies:horizonite_boots": [
+      947,
+      3.389831
+    ],
+    "blue_skies:pyrope_boots": [
+      947,
+      3.389831
+    ],
+    "blue_skies:shadow_boots": [
+      1,
+      0.59459996
+    ],
+    "create:copper_diving_boots": [
+      1141,
+      3.3009238
+    ],
+    "create:netherite_diving_boots": [
+      361,
+      3.5755088
+    ],
+    "deeperdarker:warden_boots": [
+      1,
+      0.57108
+    ],
+    "forbidden_arcanus:draco_arcanus_boots": [
+      1,
+      0.54244
+    ],
+    "forbidden_arcanus:mortem_boots": [
+      692,
+      3.2767782
+    ],
+    "forbidden_arcanus:tyr_boots": [
+      1,
+      0.4878
+    ],
+    "grapplemod:longfallboots": [
+      444,
+      3.5762582
+    ],
+    "lost_aether_content:agility_boots": [
+      48,
+      1.4826714
+    ],
+    "mekanism:free_runners": [
+      1500,
+      2.8278525
+    ],
+    "mekanism:free_runners_armored": [
+      1410,
+      2.979584
+    ],
+    "mekanism:hazmat_boots": [
+      1500,
+      2.8278525
+    ],
+    "mekanism:mekasuit_boots": [
+      98,
+      2.1927092
+    ],
+    "mekanismtools:bronze_boots": [
+      455,
+      3.5658715
+    ],
+    "mekanismtools:lapis_lazuli_boots": [
+      1145,
+      3.2977343
+    ],
+    "mekanismtools:osmium_boots": [
+      1,
+      0.59284
+    ],
+    "mekanismtools:refined_glowstone_boots": [
+      281,
+      3.4205756
+    ],
+    "mekanismtools:refined_obsidian_boots": [
+      1,
+      0.51152
+    ],
+    "mekanismtools:steel_boots": [
+      201,
+      3.0700805
+    ],
+    "minecraft:chainmail_boots": [
+      1098,
+      3.3319101
+    ],
+    "minecraft:diamond_boots": [
+      444,
+      3.5762582
+    ],
+    "minecraft:golden_boots": [
+      1201,
+      3.2477574
+    ],
+    "minecraft:iron_boots": [
+      954,
+      3.3890054
+    ],
+    "minecraft:leather_boots": [
+      1356,
+      3.060545
+    ],
+    "minecraft:netherite_boots": [
+      361,
+      3.5755088
+    ],
+    "techreborn:bronze_boots": [
+      650,
+      3.2278266
+    ],
+    "techreborn:nano_boots": [
+      1,
+      0.55796003
+    ],
+    "techreborn:peridot_boots": [
+      642,
+      3.2173886
+    ],
+    "techreborn:quantum_boots": [
+      1,
+      0.55796003
+    ],
+    "techreborn:ruby_boots": [
+      660,
+      3.2403657
+    ],
+    "techreborn:sapphire_boots": [
+      625,
+      3.1939814
+    ],
+    "techreborn:silver_boots": [
+      1009,
+      3.3760424
+    ],
+    "techreborn:steel_boots": [
+      531,
+      3.0324335
+    ]
+  },
+  "LEGS": {
+    "aether:gravitite_leggings": [
+      48,
+      1.4826714
+    ],
+    "aether:neptune_leggings": [
+      737,
+      3.3188126
+    ],
+    "aether:obsidian_leggings": [
+      1,
+      0.5934
+    ],
+    "aether:phoenix_leggings": [
+      48,
+      1.4826714
+    ],
+    "aether:valkyrie_leggings": [
+      48,
+      1.4826714
+    ],
+    "aether:zanite_leggings": [
+      750,
+      3.3290434
+    ],
+    "alexsmobs:centipede_leggings": [
+      1,
+      0.56935996
+    ],
+    "alexsmobs:emu_leggings": [
+      520,
+      3.0097134
+    ],
+    "betterend:aeternium_leggings": [
+      1,
+      0.57288
+    ],
+    "betterend:crystalite_leggings": [
+      101,
+      2.227818
+    ],
+    "betterend:terminite_leggings": [
+      262,
+      3.3571904
+    ],
+    "betterend:thallasium_leggings": [
+      923,
+      3.391205
+    ],
+    "betternether:cincinnasite_leggings": [
+      606,
+      3.1658027
+    ],
+    "betternether:flaming_ruby_leggings": [
+      32,
+      1.205861
+    ],
+    "betternether:nether_ruby_leggings": [
+      429,
+      3.5866778
+    ],
+    "bloodmagic:livingleggings": [
+      529,
+      3.0283651
+    ],
+    "blue_skies:aquite_leggings": [
+      750,
+      3.3290434
+    ],
+    "blue_skies:charoite_leggings": [
+      48,
+      1.4826714
+    ],
+    "blue_skies:diopside_leggings": [
+      175,
+      2.90254
+    ],
+    "blue_skies:horizonite_leggings": [
+      947,
+      3.389831
+    ],
+    "blue_skies:pyrope_leggings": [
+      947,
+      3.389831
+    ],
+    "blue_skies:shadow_leggings": [
+      1,
+      0.59459996
+    ],
+    "deeperdarker:warden_leggings": [
+      1,
+      0.57108
+    ],
+    "forbidden_arcanus:draco_arcanus_leggings": [
+      1,
+      0.54244
+    ],
+    "forbidden_arcanus:mortem_leggings": [
+      692,
+      3.2767782
+    ],
+    "forbidden_arcanus:tyr_leggings": [
+      1,
+      0.4878
+    ],
+    "mekanism:hazmat_pants": [
+      1500,
+      2.8278525
+    ],
+    "mekanism:mekasuit_pants": [
+      98,
+      2.1927092
+    ],
+    "mekanismtools:bronze_leggings": [
+      455,
+      3.5658715
+    ],
+    "mekanismtools:lapis_lazuli_leggings": [
+      1145,
+      3.2977343
+    ],
+    "mekanismtools:osmium_leggings": [
+      1,
+      0.59284
+    ],
+    "mekanismtools:refined_glowstone_leggings": [
+      281,
+      3.4205756
+    ],
+    "mekanismtools:refined_obsidian_leggings": [
+      1,
+      0.51152
+    ],
+    "mekanismtools:steel_leggings": [
+      201,
+      3.0700805
+    ],
+    "minecraft:chainmail_leggings": [
+      1098,
+      3.3319101
+    ],
+    "minecraft:diamond_leggings": [
+      444,
+      3.5762582
+    ],
+    "minecraft:golden_leggings": [
+      1201,
+      3.2477574
+    ],
+    "minecraft:iron_leggings": [
+      954,
+      3.3890054
+    ],
+    "minecraft:leather_leggings": [
+      1356,
+      3.060545
+    ],
+    "minecraft:netherite_leggings": [
+      361,
+      3.5755088
+    ],
+    "techreborn:bronze_leggings": [
+      650,
+      3.2278266
+    ],
+    "techreborn:nano_leggings": [
+      1,
+      0.55796003
+    ],
+    "techreborn:peridot_leggings": [
+      642,
+      3.2173886
+    ],
+    "techreborn:quantum_leggings": [
+      1,
+      0.55796003
+    ],
+    "techreborn:ruby_leggings": [
+      660,
+      3.2403657
+    ],
+    "techreborn:sapphire_leggings": [
+      625,
+      3.1939814
+    ],
+    "techreborn:silver_leggings": [
+      1009,
+      3.3760424
+    ],
+    "techreborn:steel_leggings": [
+      531,
+      3.0324335
+    ]
+  },
+  "CHEST": {
+    "aether:gravitite_chestplate": [
+      48,
+      1.4826714
+    ],
+    "aether:neptune_chestplate": [
+      737,
+      3.3188126
+    ],
+    "aether:obsidian_chestplate": [
+      1,
+      0.5934
+    ],
+    "aether:phoenix_chestplate": [
+      48,
+      1.4826714
+    ],
+    "aether:valkyrie_chestplate": [
+      48,
+      1.4826714
+    ],
+    "aether:zanite_chestplate": [
+      750,
+      3.3290434
+    ],
+    "alexsmobs:crocodile_chestplate": [
+      194,
+      3.0279198
+    ],
+    "alexsmobs:rocky_chestplate": [
+      256,
+      3.334789
+    ],
+    "alexsmobs:tarantula_hawk_elytra": [
+      897,
+      3.3900976
+    ],
+    "alexsmobs:unsettling_kimono": [
+      900,
+      3.3903658
+    ],
+    "betterend:aeternium_chestplate": [
+      1,
+      0.57288
+    ],
+    "betterend:crystalite_chestplate": [
+      101,
+      2.227818
+    ],
+    "betterend:elytra_armored": [
+      1,
+      0.57288
+    ],
+    "betterend:elytra_crystalite": [
+      101,
+      2.227818
+    ],
+    "betterend:terminite_chestplate": [
+      262,
+      3.3571904
+    ],
+    "betterend:thallasium_chestplate": [
+      923,
+      3.391205
+    ],
+    "betternether:cincinnasite_chestplate": [
+      606,
+      3.1658027
+    ],
+    "betternether:flaming_ruby_chestplate": [
+      32,
+      1.205861
+    ],
+    "betternether:nether_ruby_chestplate": [
+      429,
+      3.5866778
+    ],
+    "bloodmagic:livingplate": [
+      529,
+      3.0283651
+    ],
+    "blue_skies:aquite_chestplate": [
+      750,
+      3.3290434
+    ],
+    "blue_skies:charoite_chestplate": [
+      48,
+      1.4826714
+    ],
+    "blue_skies:diopside_chestplate": [
+      175,
+      2.90254
+    ],
+    "blue_skies:horizonite_chestplate": [
+      947,
+      3.389831
+    ],
+    "blue_skies:pyrope_chestplate": [
+      947,
+      3.389831
+    ],
+    "blue_skies:shadow_chestplate": [
+      1,
+      0.59459996
+    ],
+    "create:copper_backtank": [
+      1141,
+      3.3009238
+    ],
+    "create:netherite_backtank": [
+      361,
+      3.5755088
+    ],
+    "deeperdarker:warden_chestplate": [
+      1,
+      0.57108
+    ],
+    "forbidden_arcanus:draco_arcanus_chestplate": [
+      1,
+      0.54244
+    ],
+    "forbidden_arcanus:mortem_chestplate": [
+      692,
+      3.2767782
+    ],
+    "forbidden_arcanus:tyr_chestplate": [
+      1,
+      0.4878
+    ],
+    "mekanism:hazmat_gown": [
+      1500,
+      2.8278525
+    ],
+    "mekanism:jetpack": [
+      1500,
+      2.8278525
+    ],
+    "mekanism:jetpack_armored": [
+      1236,
+      3.2116065
+    ],
+    "mekanism:mekasuit_bodyarmor": [
+      98,
+      2.1927092
+    ],
+    "mekanism:scuba_tank": [
+      1500,
+      2.8278525
+    ],
+    "mekanismtools:bronze_chestplate": [
+      455,
+      3.5658715
+    ],
+    "mekanismtools:lapis_lazuli_chestplate": [
+      1145,
+      3.2977343
+    ],
+    "mekanismtools:osmium_chestplate": [
+      1,
+      0.59284
+    ],
+    "mekanismtools:refined_glowstone_chestplate": [
+      281,
+      3.4205756
+    ],
+    "mekanismtools:refined_obsidian_chestplate": [
+      1,
+      0.51152
+    ],
+    "mekanismtools:steel_chestplate": [
+      201,
+      3.0700805
+    ],
+    "minecraft:chainmail_chestplate": [
+      1098,
+      3.3319101
+    ],
+    "minecraft:diamond_chestplate": [
+      444,
+      3.5762582
+    ],
+    "minecraft:golden_chestplate": [
+      1201,
+      3.2477574
+    ],
+    "minecraft:iron_chestplate": [
+      954,
+      3.3890054
+    ],
+    "minecraft:leather_chestplate": [
+      1356,
+      3.060545
+    ],
+    "minecraft:netherite_chestplate": [
+      361,
+      3.5755088
+    ],
+    "techreborn:bronze_chestplate": [
+      650,
+      3.2278266
+    ],
+    "techreborn:cloaking_device": [
+      1409,
+      2.9811523
+    ],
+    "techreborn:lapotronic_orbpack": [
+      796,
+      3.3586724
+    ],
+    "techreborn:lithium_ion_batpack": [
+      1016,
+      3.3735878
+    ],
+    "techreborn:nano_chestplate": [
+      1,
+      0.55796003
+    ],
+    "techreborn:peridot_chestplate": [
+      642,
+      3.2173886
+    ],
+    "techreborn:quantum_chestplate": [
+      1,
+      0.55796003
+    ],
+    "techreborn:ruby_chestplate": [
+      660,
+      3.2403657
+    ],
+    "techreborn:sapphire_chestplate": [
+      625,
+      3.1939814
+    ],
+    "techreborn:silver_chestplate": [
+      1009,
+      3.3760424
+    ],
+    "techreborn:steel_chestplate": [
+      531,
+      3.0324335
+    ]
+  },
+  "HEAD": {
+    "aether:gravitite_helmet": [
+      48,
+      1.4826714
+    ],
+    "aether:neptune_helmet": [
+      737,
+      3.3188126
+    ],
+    "aether:obsidian_helmet": [
+      1,
+      0.5934
+    ],
+    "aether:phoenix_helmet": [
+      48,
+      1.4826714
+    ],
+    "aether:valkyrie_helmet": [
+      48,
+      1.4826714
+    ],
+    "aether:zanite_helmet": [
+      750,
+      3.3290434
+    ],
+    "alexsmobs:fedora": [
+      1099,
+      3.3312583
+    ],
+    "alexsmobs:frontier_cap": [
+      657,
+      3.236663
+    ],
+    "alexsmobs:froststalker_helmet": [
+      880,
+      3.3878775
+    ],
+    "alexsmobs:moose_headgear": [
+      716,
+      3.3004956
+    ],
+    "alexsmobs:novelty_hat": [
+      1103,
+      3.3286211
+    ],
+    "alexsmobs:sombrero": [
+      1036,
+      3.3655982
+    ],
+    "alexsmobs:spiked_turtle_shell": [
+      443,
+      3.5770888
+    ],
+    "betterend:aeternium_helmet": [
+      1,
+      0.57288
+    ],
+    "betterend:crystalite_helmet": [
+      101,
+      2.227818
+    ],
+    "betterend:terminite_helmet": [
+      262,
+      3.3571904
+    ],
+    "betterend:thallasium_helmet": [
+      923,
+      3.391205
+    ],
+    "betternether:cincinnasite_helmet": [
+      606,
+      3.1658027
+    ],
+    "betternether:flaming_ruby_helmet": [
+      32,
+      1.205861
+    ],
+    "betternether:nether_ruby_helmet": [
+      429,
+      3.5866778
+    ],
+    "bloodmagic:livinghelmet": [
+      529,
+      3.0283651
+    ],
+    "blue_skies:aquite_helmet": [
+      750,
+      3.3290434
+    ],
+    "blue_skies:charoite_helmet": [
+      48,
+      1.4826714
+    ],
+    "blue_skies:diopside_helmet": [
+      175,
+      2.90254
+    ],
+    "blue_skies:horizonite_helmet": [
+      947,
+      3.389831
+    ],
+    "blue_skies:pyrope_helmet": [
+      947,
+      3.389831
+    ],
+    "blue_skies:shadow_helmet": [
+      1,
+      0.59459996
+    ],
+    "create:copper_diving_helmet": [
+      1141,
+      3.3009238
+    ],
+    "create:netherite_diving_helmet": [
+      361,
+      3.5755088
+    ],
+    "deeperdarker:warden_helmet": [
+      1,
+      0.57108
+    ],
+    "forbidden_arcanus:draco_arcanus_helmet": [
+      1,
+      0.54244
+    ],
+    "forbidden_arcanus:mortem_helmet": [
+      692,
+      3.2767782
+    ],
+    "forbidden_arcanus:tyr_helmet": [
+      1,
+      0.4878
+    ],
+    "mekanism:hazmat_mask": [
+      1500,
+      2.8278525
+    ],
+    "mekanism:mekasuit_helmet": [
+      98,
+      2.1927092
+    ],
+    "mekanism:scuba_mask": [
+      1500,
+      2.8278525
+    ],
+    "mekanismtools:bronze_helmet": [
+      455,
+      3.5658715
+    ],
+    "mekanismtools:lapis_lazuli_helmet": [
+      1145,
+      3.2977343
+    ],
+    "mekanismtools:osmium_helmet": [
+      1,
+      0.59284
+    ],
+    "mekanismtools:refined_glowstone_helmet": [
+      281,
+      3.4205756
+    ],
+    "mekanismtools:refined_obsidian_helmet": [
+      1,
+      0.51152
+    ],
+    "mekanismtools:steel_helmet": [
+      201,
+      3.0700805
+    ],
+    "minecraft:chainmail_helmet": [
+      1098,
+      3.3319101
+    ],
+    "minecraft:diamond_helmet": [
+      444,
+      3.5762582
+    ],
+    "minecraft:golden_helmet": [
+      1201,
+      3.2477574
+    ],
+    "minecraft:iron_helmet": [
+      954,
+      3.3890054
+    ],
+    "minecraft:leather_helmet": [
+      1356,
+      3.060545
+    ],
+    "minecraft:netherite_helmet": [
+      361,
+      3.5755088
+    ],
+    "minecraft:shulker_shell": [
+      1328,
+      3.0994248
+    ],
+    "minecraft:turtle_helmet": [
+      865,
+      3.3849142
+    ],
+    "reliquary:witch_hat": [
+      1500,
+      2.8278525
+    ],
+    "techreborn:bronze_helmet": [
+      650,
+      3.2278266
+    ],
+    "techreborn:nano_helmet": [
+      1,
+      0.55796003
+    ],
+    "techreborn:peridot_helmet": [
+      642,
+      3.2173886
+    ],
+    "techreborn:quantum_helmet": [
+      1,
+      0.55796003
+    ],
+    "techreborn:ruby_helmet": [
+      660,
+      3.2403657
+    ],
+    "techreborn:sapphire_helmet": [
+      625,
+      3.1939814
+    ],
+    "techreborn:silver_helmet": [
+      1009,
+      3.3760424
+    ],
+    "techreborn:steel_helmet": [
+      531,
+      3.0324335
+    ]
+  }
+}

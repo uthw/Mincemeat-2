@@ -1,0 +1,919 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "357B296D74E0575E"
+	icon: "botania:livingwood_twig"
+	id: "4BF77CB28691F71E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Inside this strange journal you found is a strange note."
+				""
+				"\"This is the journal that reveals the secrets, mysteries, and techniques passed down through the centuries. As your journey advances, obtain this knowledge and venture forth.\""
+			]
+			id: "2BE6B05790E5A2DE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/clear @p patchouli:guide_book"
+					id: "2EBA59B439B64B4C"
+					type: "command"
+				}
+				{
+					command: "/give @p ftbquests:book"
+					id: "70A7C1BBD451E9E3"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3E387AF76AB6D8A3"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			title: "Welcome!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BE6B05790E5A2DE"]
+			description: [
+				"Report issues to this modpack's GitHub page first. Do not report mod-related problems to the original mod developer before I confirm it's not related to the modpack."
+				""
+				"Before reporting, be sure of the following things:"
+				""
+				"- You &cdid not add mods&f to the pack, &cespecially&f Optifine."
+				"- The &cpower limit/clock speeds&r on your computer's hardware are set to the default/manufacturer recommended levels."
+				"- Your allocated RAM is between &c6 and 8 GB&r. You typically set this through this instance's settings."
+				""
+				"&dWell, that was a pretty boring secret...&r"
+			]
+			id: "5220B018D9E7F614"
+			subtitle: "What could it be?"
+			tasks: [{
+				id: "512B8167BBCB6EB2"
+				title: "Reporting issues"
+				type: "checkmark"
+			}]
+			title: "The first arcane secret"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BE6B05790E5A2DE"]
+			id: "50D43AFA6402629F"
+			tasks: [
+				{
+					id: "443ECEC7319521B0"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "4603D9444387E808"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "3FBEF32A1749D957"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Starter Set"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50D43AFA6402629F"]
+			description: [
+				"&lTorches&r provide a strong, temporary light. Their downside is that they (don't) &cburn out after one hour.&r"
+				""
+				"(the mod that does this is disabled for the time being)"
+				""
+				"They're nice for lighting up caves and keeping mobs away while you're building, but you're going to need something like a &llantern&r or &lchandelier&r for permanent light."
+			]
+			id: "0A6DBC786BCF967E"
+			tasks: [{
+				id: "6040BD17B8C52FA6"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "Tips from a Survivor: #1"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BE6B05790E5A2DE"]
+			description: [
+				"The pack is far from complete! I'd estimate around 25% right now."
+				""
+				"Quests, recipes, textures, other customization, lots of things aren't done."
+				""
+				"Plus, here's a list of major mods that haven't been ported to 1.20.x"
+				""
+				"- Mowzie's Mobs"
+				"- Meet Your Fight"
+				"- Immersive Engineering \\& Engineer's Decor/Tools"
+				"- Unqiue Enchantments"
+				"- Astral Sorcery"
+				"- Charm"
+				"- Abnormals mods"
+				"- Hats"
+				"- Tinkers' Construct"
+				"- Modular Powersuits"
+				"- Infernal Expansion"
+				"- Spartan Weaponry"
+				"- Atum 2"
+				""
+				"I hope this list gets smaller, but it will be a matter of months (maybe even years in Astral Sorcery's case) before it's empty!"
+			]
+			id: "0744F31452AD387B"
+			tasks: [{
+				id: "6F793B05394C0161"
+				title: "Disclaimer"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50D43AFA6402629F"]
+			description: [
+				"There is an &dancient technique&r of increasing your inventory space known as crafting the &lbackpack&r."
+				""
+				"The &lbackpack&r gives you an extra 3 rows of space, like carrying a chest on your back."
+				""
+				"You can set a &ahotkey&r to open the &lbackpack&r in your Controls settings."
+				""
+				"There is an assortment of &dupgrades&r you can use, and the amount your &lbackpack&r can handle at once increases with its tier. Try searching \"backpack upgrade\" in your recipe browser."
+			]
+			id: "03B0D122AD821C0D"
+			rewards: [{
+				id: "644EA08953E0366B"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F328F129A7073D4"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Upgrade your Inventory"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50D43AFA6402629F"]
+			description: [
+				"1. base slot for bread and bowl"
+				"{image:kubejs:item/culinary_gui width:334 height:145 align:1 fit:true}"
+				""
+				"2. ingredients: any food item you want. fluids are possible if you have a bowl."
+				""
+				"3. rename"
+				""
+				"4. output"
+				""
+				"Your meal will have the combined food value of all ingredients, and saturation equal to the average of all relative to their contribution to food value."
+				""
+				"Your food's saturation is further altered by its quality, assigned randomly."
+				""
+				"If your sandwich would've restored a large amount of food, it will be cut into multiple smaller sandwiches."
+			]
+			id: "7029D04BC1F6A923"
+			tasks: [{
+				id: "736405064B121227"
+				item: "culinaryconstruct:culinary_station"
+				type: "item"
+			}]
+			title: "Make Soups and Sandwiches"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["50D43AFA6402629F"]
+			description: [
+				"The &lJumbo Furnace&r is an upgraded furnace. It is a 3x3x3 multiblock entirely composed of furnaces. As such, it has &a9 input slots, 9 fuel slots,&r and &a9 output slots."
+				""
+				"Unlike super smelters, the &lJumbo Furnace&r initially can't smelt multiple items at once. You need to give it an upgrade for this functionality."
+			]
+			id: "74F529B8810608A5"
+			subtitle: "Don't make a super smelter!"
+			tasks: [{
+				advancement: "jumbofurnace:assemble_jumbo_furnace"
+				criterion: ""
+				id: "21F01CB0CA571E69"
+				title: "Jumbo Furnace"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7029D04BC1F6A923"]
+			description: [
+				"With the &lCutting Board&r, you can chop an item into &emultiple&r other smaller items."
+				""
+				"For example, try the Amethyst Blocks you got as a reward. The tool matters -- use your brain!"
+			]
+			id: "51A20901B9871737"
+			rewards: [
+				{
+					count: 4
+					id: "76A48FD971963ABF"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "0A53AFAE879F6747"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4EA95082394C971B"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "67BFEE4894093413"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Any #farmersdelight:tools/knives"
+					type: "item"
+				}
+			]
+			title: "Cutting Board"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["51A20901B9871737"]
+			description: ["The &lcooking pot&r lets you make some nice, cozy stews from Farmer's Delight."]
+			id: "28D91722F8C4E87D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "08E3BACCB13F8044"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Cooking Pot"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			id: "3571CB6136F6E3EB"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "5B147F40E2B6243D"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74F529B8810608A5"]
+			description: [
+				"You should regonize this!"
+				""
+				"In go useless items, out come valuable raw ores and gemstones!"
+				""
+				"If you're lucky, you might even get gems from other dimensions!"
+				""
+				"Look at how pretty its model is!!!"
+			]
+			id: "6C08AF09C8F20F4F"
+			tasks: [{
+				id: "72D0F18AF65EFF81"
+				item: "extractinator:extractinator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6C08AF09C8F20F4F"]
+			description: [
+				"&oYou spin me right 'round, baby 'right round...&r"
+				""
+				"Try making the Water Wheel spin!"
+				""
+				"Here's a hint: place a water source above it in such a way that the water flows across and down the wheel before going back across again."
+				""
+				"Here's a picture:"
+				""
+				"{image:kubejs:item/water_wheel width:200 height:100 align:1 fit:true}"
+				""
+				"Once you're done with that, put shafts on the end of the water wheel to allow things you attach to them to spin!"
+			]
+			icon: "create:water_wheel"
+			id: "2F5046E30C8273CB"
+			rewards: [{
+				count: 8
+				id: "0C313AEFBC911691"
+				item: "create:shaft"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Ready for Technology \\& Magic!"
+			tasks: [{
+				id: "0121321C135DFD07"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Water Wheel"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2BE6B05790E5A2DE"]
+			description: [
+				"When you open your inventory, you're met with a &dbunch of item icons&r on the right and a &dsearch bar&r on the bottom."
+				""
+				"This is &9EMI&r, this modpack's recipe browser! &9EMI&r is similar to JEI, in fact, this modpack also contains JEI to show you some modded recipes! Here are some shortcuts:"
+				""
+				"&2CTRL + F&r: focus on the search bar."
+				"&2CTRL + O&r: hide EMI."
+				"&2r or Mouse 1&r: view recipes for an item."
+				"&2u or Mouse 2&r: view recipes an item is used in."
+				"&2CTRL + R&r: view recipe tree of an item."
+				""
+				"&2@&r: search for items from a certain mod. Example: &a@alexscaves&r"
+				"&2$&r: search for items with a specific tag. Example: &a$ores/nickel&r"
+				""
+				"-----"
+				""
+				"On the bottom left, there is a button to access &9EMI&r's settings, and a button to view recipe trees for items (in case you're a fan of neat visuals)."
+			]
+			id: "2EDABA0479433172"
+			subtitle: "The Recipe Book is out of style!"
+			tasks: [{
+				id: "3C448260626BBAF1"
+				title: "EMI (JEI)"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50D43AFA6402629F"]
+			description: [
+				"These &acompasses&r can guide you to &astructures&r and &abiomes&r."
+				""
+				"Since a lot of the progression revolves around exploring for specific, notable &astructures&r, never let these &acompasses&r leave your backpack!"
+			]
+			id: "7C2D35E29A7FF6A2"
+			tasks: [
+				{
+					id: "411B55C3CA73E44F"
+					item: {
+						Count: 1b
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4FA90D766DCF3936"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Guiding Compasses"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03B0D122AD821C0D"]
+			description: ["&oHint:&r It's often faster to get the &2books&r for &abookshelves&r by &cdestroying&r &abookshelves&r in existing structures (like a village), instead of setting up a cow farm."]
+			id: "479B3130EB602E62"
+			tasks: [
+				{
+					id: "13BC146CD41C16D6"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "4B0E196D3AC972B1"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "5004024D9A58279A"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "Enchanting Essentials"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3571CB6136F6E3EB"]
+			description: [
+				"Obtain &5Spirit Orbs&r by breaking &eSpawners&r in structures like dungeons underground."
+				""
+				"Four can be exchanged for a &2stamina vessel&r in villages. Look for the small stone statue."
+				""
+				"By crafting four with five &cheart crystals&r from Scaling Health (which drop from more powerful mobs), you can make a &cHeart&c Container&r&r."
+			]
+			id: "649F0F57EC7E387E"
+			tasks: [{
+				count: 4L
+				id: "7AD134D30B2E9839"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A6DBC786BCF967E"]
+			description: [
+				"A fun and practical form of transportation. It can be upgraded for various use cases. It may be a good idea to carry multiple grappling hooks, each with different upgrades, at a time to fit your scenario."
+				""
+				"&7&oDid you know: this item is used in RLCraft speedruns to fling Battle Tower Golems to their deaths?&r"
+			]
+			id: "378BAA7FDE9DA51C"
+			tasks: [{
+				id: "70E71543A196274D"
+				item: {
+					Count: 1b
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 673503158L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 3.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["378BAA7FDE9DA51C"]
+			id: "5C1C3593AF332AA4"
+			tasks: [{
+				id: "05D98B1E7EB11BF8"
+				item: "grapplemod:motorupgradeitem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74F529B8810608A5"]
+			description: ["The &amega torch &ris a useful item for your base that &bprevents hostile mobs from spawning nearby&r."]
+			id: "054958A1638D1D71"
+			tasks: [{
+				id: "7F3742E10EF006BD"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["054958A1638D1D71"]
+			description: ["The &amega torch &ris a useful item for your base that &bprevents passive and neutral mobs from spawning nearby&r."]
+			id: "2162E9E7105B7FBB"
+			tasks: [{
+				id: "64552ADA68F4C964"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A6DBC786BCF967E"]
+			description: ["A useful item that lets you place blocks in the distance."]
+			id: "443B7A38B97BD04B"
+			tasks: [{
+				id: "54E57F763B0C2565"
+				item: {
+					Count: 1b
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28D91722F8C4E87D"]
+			id: "7816E6089A4F0846"
+			tasks: [
+				{
+					id: "7C63D7F25E098E27"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "69503C6E3D8EA7C1"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "More Delightful Cooking Devices"
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["378BAA7FDE9DA51C"]
+			description: ["Mitigates fall damage."]
+			id: "1A246434519F75C5"
+			tasks: [{
+				id: "1E8C0A16093607D0"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51A20901B9871737"]
+			description: [
+				"There are many new fish in Mincemeat. How many of them can you catch?"
+				""
+				"You can use a cutting board to cut fish into fillets."
+			]
+			id: "368309757EB6EC56"
+			tasks: [
+				{
+					id: "5CB3C67295B386F6"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1150266BABD693B5"
+					item: "aquaculture:fish_fillet_raw"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03B0D122AD821C0D"]
+			description: [
+				"&dChests, barrels, and shulker boxes&r can be &dcolor coded&r by combining them with &cdye&r in the &ccrafting grid&r."
+				""
+				"What part gets colored depends on what side of the crafting grid you place the dye on (top/bottom/left/right)."
+				""
+				"You can mix and match multiple colors in different parts of the container."
+			]
+			id: "4EB10737C5B7CBAE"
+			tasks: [{
+				id: "339E95D8EF7E3B07"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:chest"
+							}
+							{
+								Count: 1b
+								id: "minecraft:barrel"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Color Coding"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EB10737C5B7CBAE"]
+			description: ["&cRight click&r your container to upgrade it, increasing its storage capacity and upgrade slots on the left."]
+			id: "23B75CD0B5815418"
+			tasks: [{
+				id: "711CBA81AE80E322"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrade"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57CC360D12424B1C"]
+			description: [
+				"This book shows the food that can be made using what you currently have access to."
+				""
+				"It can also automatically cook these foods for you."
+			]
+			id: "6266A08FE8D95523"
+			tasks: [{
+				id: "71B5F01BE076399B"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7816E6089A4F0846"]
+			description: ["This modpack has over 400 foods to eat. Trying more unique foods gives you &dpermanent increases to max HP&r. This book can track your progress towards each milestone."]
+			id: "57CC360D12424B1C"
+			tasks: [{
+				id: "6CE227D6C3F13239"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["368309757EB6EC56"]
+			id: "54F75CF16EC2305D"
+			tasks: [{
+				id: "2E2DBB720917E034"
+				item: "aquaculture:sushi"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["368309757EB6EC56"]
+			id: "693F2D3F38A6814F"
+			tasks: [{
+				id: "50D44289A64B4076"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7C2D35E29A7FF6A2"]
+			id: "16C996E71E9BABC3"
+			tasks: [{
+				id: "2265D95BB5829294"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4EB10737C5B7CBAE"]
+			description: [
+				"Drawers are a visually pleasing way of organizing your items."
+				""
+				"Fortunately for you, drawers come in many varieties! The basic 1x1 version can hold 32 stacks of a single item, 1x2 drawers can hold 16 stacks each of 2 different items, and so on."
+				""
+				"There are also drawers which are half the size but also store half the items."
+				"{@pagebreak}"
+				"Controls:"
+				""
+				"Right click: add the stack you're holding to the drawer"
+				""
+				"Double right click: add all matching items from your inventory"
+				""
+				"Left click: remove an item"
+				""
+				"Shift + left click: remove a stack of items"
+			]
+			id: "78CFC81068655538"
+			tasks: [{
+				id: "58BC94529670D983"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78CFC81068655538"]
+			description: ["Needed by every storage network. This item does not require energy to be given to it in order to function."]
+			id: "124F78ABE60D125F"
+			subtitle: "For all your storage needs"
+			tasks: [{
+				id: "15A0E1F3A21D3944"
+				item: "storagenetwork:master"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["124F78ABE60D125F"]
+			description: ["Place this adjacent to or linked to the storage root using network cables."]
+			id: "5D90018D6FA71B0A"
+			subtitle: "Access all inventories on your network"
+			tasks: [{
+				id: "41A8F02BEA449A61"
+				item: "storagenetwork:inventory"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D90018D6FA71B0A"]
+			description: ["Run these between your root and various inventories (chests and the like) to connect them."]
+			id: "1E50764219F50711"
+			subtitle: "Add inventories to your network"
+			tasks: [{
+				id: "30417D3950C8B870"
+				item: "storagenetwork:storage_kabel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C08AF09C8F20F4F"]
+			description: ["An ingredient with no effects. Type &a#flat&r to see what you can make with it (it's useful for mob farms)."]
+			id: "1A0BCE5BB7716C0F"
+			tasks: [{
+				id: "07CC791D8B1C9D07"
+				item: "darkutils:blank_plate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479B3130EB602E62"]
+			description: ["By this point you might have a lot of weapons you rotate through. The Tool Belt solves this problem."]
+			id: "29FD143B5932E299"
+			tasks: [{
+				id: "10587E4686C41870"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F5046E30C8273CB"]
+			description: [
+				"Press N to put the tank into bucket mode, letting you use it as a bucket. Shift Rclick to empty 1 block of water at the location."
+				""
+				"This item can hold many buckets of any liquid."
+			]
+			id: "1B1350D0F4D41FA6"
+			tasks: [{
+				id: "1C8C54A3FBD24042"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F5046E30C8273CB"]
+			description: [
+				"Shows the distance between locations in the world."
+				""
+				"Semi-related: the shortcut to turn on chunk borders is F3 + G."
+			]
+			id: "7086E70956F7DC48"
+			tasks: [{
+				id: "1DB180A1CA7D2241"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["16C996E71E9BABC3"]
+			description: [
+				"You can modify and combine your Relics at this table."
+				""
+				"Make sure you are trying to modify your relics and not artifacts (check the mod name)"
+			]
+			id: "7B3D2B0D239513D7"
+			tasks: [{
+				id: "67326D0E36575DB0"
+				item: "relics:researching_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+	]
+	title: "Getting Started"
+}

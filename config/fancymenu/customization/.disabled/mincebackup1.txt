@@ -1,0 +1,242 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menu/20240330124732_1.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 70
+  action = movebutton
+  y = 124
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 98
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Online
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = top-left
+  x = 48
+  action = movebutton
+  y = 166
+}
+
+customization {
+  identifier = %id=4936%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = 70
+  advanced_posy = 256
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 70
+  action = movebutton
+  y = 100
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 98
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Offline
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=49361%
+  orientation = top-left
+  x = 70
+  action = movebutton
+  y = 214
+}
+
+customization {
+  identifier = %id=49361%
+  width = 50
+  action = resizebutton
+  advanced_width = 98
+  height = 20
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = top-left
+  x = 170
+  action = movebutton
+  y = 190
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 170
+  action = movebutton
+  y = 214
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 70
+  action = movebutton
+  y = 190
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 48
+  action = movebutton
+  y = 214
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 20
+  action = resizebutton
+  height = 19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 70
+  action = movebutton
+  y = 166
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 48
+  action = movebutton
+  y = 190
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 185
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = b807012c-2794-4de1-a67b-3fc85ebc17b01711819684014
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 128
+  action = deep_customization_element:title_screen_branding
+  actionid = 2fecc22f-de3a-429f-9d87-1e8aba7c2d261711819684015
+  y = 280
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 410
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = eb4e9604-b1e2-42cc-8206-5ec63ebb2e661711819684015
+  y = 312
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 422
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5cb573d4-d9b7-4ace-bd7e-54547815b5e51711819684015
+  y = 183
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 182
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = fa943de6-fc36-4635-b8b1-34d8a4ce509f1711819684015
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 611150d6-6c9f-48b4-9e4c-f83aedb98d7f1711819684015
+  y = 0
+  height = 30
+}
+
+customization {
+  path = menu/mincemeat2title.png
+  orientation = top-left
+  x = 31
+  width = 166
+  action = addtexture
+  actionid = 23d8fae9-de39-4e45-b483-99b3b566c6611711821977350
+  y = 10
+  height = 100
+}
+

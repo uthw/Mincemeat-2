@@ -1,0 +1,205 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				axolotl = true
+				bee = true
+				arrow = true
+				cow = true
+				pig = true
+				skeleton = true
+				bat = true
+				husk = true
+				rabbit = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				salmon = true
+				goat = true
+				ocelot = true
+				item_frame = true
+				horse = true
+				vindicator = true
+				phantom = true
+				minecart = true
+				evoker = true
+				mooshroom = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				parrot = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				chicken = true
+				donkey = true
+				chest_minecart = true
+				tropical_fish = true
+				fox = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				cat = true
+				zombie = true
+				guardian = true
+				sheep = true
+				player = true
+				illusioner = true
+				pufferfish = true
+				villager = true
+				wolf = true
+				skeleton_horse = true
+				zombie_villager = true
+				tnt_minecart = true
+				painting = true
+				cave_spider = true
+				cod = true
+				witch = true
+				spider = true
+
+			[light_sources.settings.entities.irons_spellbooks]
+				necromancer = true
+				archevoker = true
+				cryomancer = true
+				priest = true
+
+			[light_sources.settings.entities.blue_skies]
+				gatekeeper = true
+
+			[light_sources.settings.entities.endermanoverhaul]
+				mushroom_fields_enderman = true
+				savanna_enderman = true
+				cave_enderman = true
+				desert_enderman = true
+				dark_oak_enderman = true
+				badlands_enderman = true
+
+			[light_sources.settings.entities.alexsmobs]
+				kangaroo = true
+				gelada_monkey = true
+				blue_jay = true
+				emu = true
+				triops = true
+				cachalot_echo = true
+				catfish = true
+				anteater = true
+				tarantula_hawk = true
+				tasmanian_devil = true
+				centipede_tail = true
+				underminer = true
+				roadrunner = true
+				terrapin = true
+				rattlesnake = true
+				platypus = true
+				flying_fish = true
+				leafcutter_ant = true
+				capuchin_monkey = true
+				cockroach = true
+				lobster = true
+				grizzly_bear = true
+				centipede_body = true
+				bald_eagle = true
+				froststalker = true
+				rocky_roller = true
+				centipede_head = true
+				raccoon = true
+				fly = true
+				cachalot_whale = true
+				orca = true
+				hummingbird = true
+				crow = true
+				frilled_shark = true
+				bison = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				bamboo_creeper = true
+				snowy_creeper = true
+				badlands_creeper = true
+				ocean_creeper = true
+				dark_oak_creeper = true
+				dripstone_creeper = true
+				jungle_creeper = true
+				cave_creeper = true
+				spruce_creeper = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.forbidden_arcanus]
+				lost_soul = true
+
+			[light_sources.settings.entities.bosses_of_mass_destruction]
+				lich = true
+
+			[light_sources.settings.entities.productivebees]
+				blue_banded_bee = true
+				yellow_black_carpenter_bee = true
+				reed_bee = true
+				ashy_mining_bee = true
+				mason_bee = true
+				bumble_bee = true
+				green_carpenter_bee = true
+				digger_bee = true
+				configurable_bee = true
+
+			[light_sources.settings.entities.galosphere]
+				sparkle = true
+
+			[light_sources.settings.entities.aquaculture]
+				atlantic_halibut = true
+				jellyfish = true
+				bluegill = true
+				red_grouper = true
+				muskellunge = true
+				brown_shrooma = true
+				catfish = true
+				atlantic_herring = true
+				carp = true
+				red_shrooma = true
+				gar = true
+				perch = true
+				brown_trout = true
+				arrau_turtle = true
+				synodontis = true
+				smallmouth_bass = true
+				minnow = true
+
+			[light_sources.settings.entities.cataclysm]
+				deepling = true
+				deepling_brute = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				copper_golem = true
+				moobloom = true
+				mauler = true
+				rascal = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+

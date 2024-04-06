@@ -1,0 +1,8 @@
+{
+    "version": 1,
+    "hiddenMods": ["guardvillagers", "guard_villagers"],
+    "globalModAliases": {
+        "cloth_config": "cloth-config2",
+        "embeddium": ["sodium", "magnesium"]
+    }
+}

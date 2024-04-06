@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary"
+	group: "357B296D74E0575E"
+	id: "66CDE9F7944EB83D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bestiary"
+}

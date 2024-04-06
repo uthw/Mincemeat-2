@@ -1,0 +1,30 @@
+
+[ShieldList]
+	#
+	#List of items to considered as shields, any item with right-click functionality will theoretically work
+	#Automatically populated with items that have parrying stats set by active datapacks
+	shieldList = ["blue_skies:spike_shield", "shieldexp:wooden_shield", "shieldexp:griefer_shield", "blue_skies:moonstone_shield", "shieldexp:iron_shield", "twilightforest:knightmetal_shield", "shieldexp:netherite_shield", "alexsmobs:shield_of_the_deep", "minecraft:shield", "shieldexp:golden_shield", "shieldexp:diamond_shield", "shieldexp:paragon_shield", "artifacts:umbrella", "mekanismtools:osmium_shield", "mekanismtools:bronze_shield", "forbidden_arcanus:obsidian_skull_shield", "ars_nouveau:enchanters_shield", "mekanismtools:refined_glowstone_shield", "undergarden:cloggrum_shield", "mekanismtools:refined_obsidian_shield", "cataclysm:bulwark_of_the_flame", "mekanismtools:lapis_lazuli_shield", "mekanismtools:steel_shield", "lost_aether_content:shield_of_emile", "endermanoverhaul:corrupted_shield", "lost_aether_content:zanite_shield", "alexscaves:resistor_shield", "lost_aether_content:gravitite_shield"]
+	#
+	#List of items to not consider as shields, even if they have stats set by a datapack
+	shieldBlacklist = []
+
+[Modifiers]
+	#
+	#Disable the cooldown when the player lowers their shield
+	noLoweringCooldown = false
+	#
+	#Disable putting shields on cooldown at all
+	noCooldown = false
+	#
+	#Make all shields have vanilla movement speed
+	noSpeedModifier = false
+	#
+	#Make shields only block partial damage from explosions when not parrying
+	harderExplosions = false
+	#
+	#Double the parry window for a more relaxed experience
+	lenientParryMode = false
+	#
+	#Double the shield stamina for a more relaxed experience
+	lenientStaminaMode = false
+

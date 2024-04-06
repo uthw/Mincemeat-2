@@ -1,0 +1,69 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = M I N C E M E A T
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = 3dsaul
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 187
+  width = 480
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 3ef92ca2-2695-4c76-82b3-f1ab0cf9dc8d1687834015123
+  y = 180
+  height = 120
+}
+
+customization {
+  custom_color_hex = #000000
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 11f88d88-7689-4886-8ab1-d9e5138472471687834015124
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 93
+  width = 240
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 0848b44d-9253-4859-ad51-4817034c60e61687834015124
+  y = 194
+  height = 10
+}
+
+customization {
+  path = menu/mincemeat2.png
+  orientation = mid-centered
+  x = -150
+  width = 300
+  action = addtexture
+  actionid = 590ead83-cb72-41e3-96cb-db37b77413ab1711819013289
+  y = -50
+  height = 100
+}
+

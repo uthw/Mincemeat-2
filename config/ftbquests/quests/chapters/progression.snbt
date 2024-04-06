@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "progression"
+	group: "357B296D74E0575E"
+	icon: "botania:world_seed"
+	id: "12EFFEFA52DA688B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Here I've made a little tracker for you to easily gauge how much of the pack is left."
+				""
+				"To the bottom left and right, you can find the tech and magic progression, respectively."
+				""
+				"On top of this quest is the boss / main game progression."
+				""
+				"You can click the checkmarks to note when you're done with tech/magic mods and ready to move on (note one mod will often require previous mods, being \"locked\" behind it)."
+				""
+				"This definitely isn't as many mods as Mincemeat 1, but the list is growing by the day and your favorites will eventually be in this pack!"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DEAC972117F045B"
+			subtitle: "(This chapter will be complete in a later version)"
+			tasks: [{
+				id: "130899EEC60B93AF"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			title: "What's this?"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DEAC972117F045B"]
+			id: "630B1C4C9BE35418"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5FDF87D158E169EB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["630B1C4C9BE35418"]
+			id: "4F12BE39095A1B81"
+			tasks: [{
+				entity: "frostiful:frostologer"
+				id: "7E90BDDCA54DD9F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+	]
+	title: "Progression"
+}

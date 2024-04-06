@@ -1,0 +1,31 @@
+{
+  "enchantconfigs": {
+    "enableEnchantments": true,
+    "enableDoubleJumpEnchantment": true,
+    "doublejump_maxlevel": 2,
+    "enableSpeedboostEnchantment": true,
+    "speedboost_maxlevel": 3,
+    "enableWallJumpEnchantment": true,
+    "walljump_maxlevel": 1
+  },
+  "doubleconfigs": {
+    "useDoubleJump": false,
+    "minFallDistance": 7.5
+  },
+  "speedconfigs": {
+    "sprintSpeedBoost": 0.0,
+    "elytraSpeedBoost": 0.0
+  },
+  "jumpconfigs": {
+    "useWallJump": true,
+    "wallJumpHeight": 0.55,
+    "wallJumpXextra": 0.0,
+    "wallJumpZextra": 0.0,
+    "allowReClinging": false,
+    "wallSlideDelay": 15,
+    "autoRotation": false,
+    "exhaustionWallJump": 0.8
+  },
+  "playFallSound": true,
+  "stepAssist": true
+}

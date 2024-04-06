@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "overrides": {
+        "adventurez": {
+            "-depends": {
+                "cloth-config2": "IGNORED"
+            },
+            "+depends": {
+                "cloth_config": "*"
+            }
+        },
+        "voidz": {
+            "-depends": {
+                "cloth-config2": "IGNORED"
+            },
+            "+depends": {
+                "cloth_config": "*"
+            }
+        },
+        "chatpatches": {
+            "-depends": {
+                "modmenu": "IGNORED"
+            }
+        }
+    }
+}

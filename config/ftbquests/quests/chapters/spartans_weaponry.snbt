@@ -1,0 +1,1104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spartans_weaponry"
+	group: "575079378E827F8C"
+	icon: "toolbelt:belt"
+	id: "2BED532CEDEE8CE1"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "spartanweaponry:textures/item/arrow_invar.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "spartanweaponry:textures/item/bolt.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: -5.0d
+			y: 2.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Used to make weapons with hilts from Spartan Weaponry."]
+			id: "49B5EDFE27638246"
+			rewards: [{
+				id: "2C3B32367FBC50CE"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36A7384EBC627C3D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "spartanweaponry:handle"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			description: ["Used to make various sorts of polearms, which forfeit speed for extended reach when compared to weapons made using a handle instead."]
+			id: "5A7EB91CAA850380"
+			rewards: [{
+				id: "6F39D13FD027F5EC"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "219770537A6951A3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "spartanweaponry:pole"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Special bows that have longer range but take longer to charge."]
+			id: "2D088240BCB28026"
+			rewards: [{
+				id: "5F7EF85E7FF8164F"
+				type: "custom"
+			}]
+			subtitle: "* disabled"
+			tasks: [{
+				id: "7F6390057149BAAF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:longbows"
+					}
+				}
+				title: "Any #spartanweaponry:longbows"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "11F289EBEC076F40"
+			subtitle: "* disabled"
+			tasks: [{
+				id: "4E0BAA9A670B6A4B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spartanweaponry:heavy_crossbows"
+					}
+				}
+				title: "Any #spartanweaponry:heavy_crossbows"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "7EAF35C011CE5446"
+			rewards: [{
+				id: "7AA7B2A2BD8F556D"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "4444705D82D185B4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "spartanweaponry:quiver_arrow_small"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "78DBA203AC60E450"
+			rewards: [{
+				id: "7D287B97E24E4A3E"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "1C89F50166DA5F8A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "spartanweaponry:quiver_bolt_small"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["The same as a wooden crude shield, except you can attach banners to these."]
+			id: "02BE8A9158F97D86"
+			rewards: [{
+				id: "618B67D95F1E7B9F"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "132040AA6F419080"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "spartanshields:shield_tower_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A basic shield you can get within 5 minutes of starting a new world."
+				""
+				"Undamaged shields can be upgraded by surrounding them with 4 materials."
+				""
+				"One reason why these are better than vanilla shields because you can press LMB while blocking to shield bash, pushing enemies away!"
+				""
+				"Also, you can enchant them using an enchanting table with shield-specific enchantments added by Spartan's Weaponry!"
+			]
+			id: "008906B840FB20B7"
+			rewards: [{
+				id: "10C7352BF6592D80"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "537EA873A8C91AA2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "spartanshields:shield_basic_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Tetra lets you create modular weapons. What this means is, you can choose the material and attributes of every part of your sword, like the hilt and blade."
+				""
+				"Since all guidance for Tetra is already in its advancements, the quests you see here are directly based on them."
+				""
+				"You should have a base before starting Tetra because some Tetra items require Create machines."
+				""
+				"All ruins items are craftable, but since the advancements don't check for them, the quests may not work too well."
+			]
+			disable_toast: true
+			id: "0E74F410F706E1D6"
+			rewards: [
+				{
+					id: "1E0E265CB1D33835"
+					type: "custom"
+				}
+				{
+					count: 4
+					id: "0D62D78D64A0B62C"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "tetra:spelunking/root"
+				criterion: ""
+				id: "270B58A885CFDD90"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E74F410F706E1D6"]
+			description: [
+				"You can use your iron hammer to break geodes open on a workbench, forged blocks in ruins, and for upgrading your Tetra tools."
+				""
+				"Note: for upgrading hammers , you will need a hammer of the same tier. This is why I give you a tier 3 hammer. If you lose it, you can buy it again in the item exchange chapter."
+			]
+			id: "7D1E20910E3D620F"
+			rewards: [
+				{
+					id: "6F2B7B467913F850"
+					type: "custom"
+				}
+				{
+					id: "19F5D026410EC961"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							AS_Amulet_Holder: [I;
+								549994969
+								1140998896
+								-1524841094
+								-1464693377
+							]
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/iron"
+							"double/basic_hammer_right_material": "basic_hammer/iron"
+							"double/basic_handle_material": "basic_handle/spruce"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "50f808b4-8323-43bf-a830-e77af5141f8f"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find ancient ruins deep down in cold or mountainous biomes"
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "2BB3B4C440C8B791"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E74F410F706E1D6"]
+			id: "6EB85D1B47187447"
+			rewards: [
+				{
+					id: "6C242768217CBA9A"
+					type: "custom"
+				}
+				{
+					id: "7E92F2C21AF599F2"
+					type: "custom"
+				}
+			]
+			subtitle: "Find a scroll in the world or purchase one from a villager"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll"
+				criterion: ""
+				id: "585886542C0B0AE8"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6EB85D1B47187447"]
+			id: "28213EB64F07A3EE"
+			rewards: [{
+				id: "467E631D450FA59B"
+				type: "custom"
+			}]
+			subtitle: "Find a throwing knife schematic in a dungeon"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_throwing"
+				criterion: ""
+				id: "53A54A7695DDAF31"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6EB85D1B47187447"]
+			id: "5D3C1BE9AFEC217C"
+			rewards: [{
+				id: "04902DF2E706FCD7"
+				type: "custom"
+			}]
+			subtitle: "Find a chapter of the Tools of War in a bastion, or barter for one with a Piglin"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_warforge"
+				criterion: ""
+				id: "2409C9BD6E5134A1"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EB85D1B47187447"]
+			id: "52E6762F75571666"
+			rewards: [{
+				id: "0F60E170467C65CA"
+				type: "custom"
+			}]
+			subtitle: "Find a Gliding Scroll in a nether fortress"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_gild"
+				criterion: ""
+				id: "333390EAC28A95CA"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6EB85D1B47187447"]
+			id: "45E28B4173E7D3A0"
+			rewards: [{
+				id: "41D715F70CC5951C"
+				type: "custom"
+			}]
+			subtitle: "Purchase all treatises on tool efficiency from villagers. Sometimes sold by those who leveled up"
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_efficiency"
+				criterion: ""
+				id: "54536F38B0AEC408"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EB85D1B47187447"]
+			id: "25D9DA8E9BAA79A8"
+			rewards: [{
+				id: "7AC79523DA3987AF"
+				type: "custom"
+			}]
+			subtitle: "Find a sturdy guard schematic in a dungeon "
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_sturdy"
+				criterion: ""
+				id: "4D559343155DC0FF"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EB85D1B47187447"]
+			id: "40AB83DC9EF48453"
+			rewards: [{
+				id: "15BD885AC38FEB6A"
+				type: "custom"
+			}]
+			subtitle: "Find a howling blade schematic in a dungeon "
+			tasks: [{
+				advancement: "tetra:spelunking/find_scroll_howling"
+				criterion: ""
+				id: "10389314D49AE2E5"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E74F410F706E1D6"]
+			id: "380B8F1081522542"
+			rewards: [{
+				count: 5
+				id: "64C45E0A66AC07D5"
+				item: "iceandfire:silver_ingot"
+				type: "item"
+			}]
+			subtitle: "Find a geode, sometimes found in stone variants underground"
+			tasks: [{
+				advancement: "tetra:spelunking/geode"
+				criterion: ""
+				id: "173544E40CD1462B"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["380B8F1081522542"]
+			id: "68AE40FBB80FA3BA"
+			rewards: [{
+				id: "249C985A16C3328B"
+				type: "custom"
+			}]
+			subtitle: "Use an upgraded mallet to break open a geode at a workbench"
+			tasks: [{
+				advancement: "tetra:spelunking/geode_open"
+				criterion: ""
+				id: "00A3FBF1FD0972D9"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D1E20910E3D620F"]
+			id: "1930E12CB3889D2D"
+			rewards: [{
+				id: "5D489B85F9B3A152"
+				type: "custom"
+			}]
+			subtitle: "Use a workbench to upgrade the holosphere with a scanner, which can detect nearby ruins"
+			tasks: [{
+				advancement: "tetra:spelunking/scanner"
+				criterion: ""
+				id: "6556D1AE17576F38"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Use the hammer to turn your crafting table into a workbench (right click)"
+				""
+				"Holosphere is given to you as a reward for this quest. You can use it to see a list of available materials. The STRC and SYST tabs are not currently implemented."
+				""
+				"Tetra has compatibility for materials from a lot of mods in this modpack. Here they are:"
+				"BetterEnd, Create, Eidolon, Endergetic Expansion, Upgrade Aquatic, Quark, The Undergarden, Atmospheric, Autumnity, Environmental, Bayou Blues, BYG, Ice and Fire, The Outer End, The Twilight Forest, Atum 2, Botania, Thermal, IE, Mystical Agriculture"
+			]
+			id: "228A8A1872F92337"
+			rewards: [
+				{
+					id: "012821C9D513A455"
+					type: "custom"
+				}
+				{
+					id: "1373D94964E6A093"
+					type: "custom"
+				}
+			]
+			subtitle: "Craft a wooden hammer from two sticks and two planks"
+			tasks: [{
+				advancement: "tetra:story/more_upgrades"
+				criterion: ""
+				id: "4B3816F8E631D067"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["228A8A1872F92337"]
+			id: "0184D8E3B75E86E6"
+			rewards: [
+				{
+					id: "2BC158931871F18D"
+					type: "custom"
+				}
+				{
+					id: "36E1A7D23C233AB5"
+					type: "custom"
+				}
+			]
+			subtitle: "Upgrade a crafting table by right-clicking with a mallet"
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "1741AD8F9A322E84"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0184D8E3B75E86E6"]
+			id: "62CB1847B438E978"
+			rewards: [
+				{
+					id: "2B15EA26A42BA2E1"
+					type: "custom"
+				}
+				{
+					id: "337270938B1FEF32"
+					type: "custom"
+				}
+			]
+			subtitle: "Place a rack near your workbench for easy access to your tools"
+			tasks: [{
+				advancement: "tetra:upgrades/rack"
+				criterion: ""
+				id: "25B97109EB310380"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0184D8E3B75E86E6"]
+			id: "642495B2404AD289"
+			rewards: [{
+				id: "41D35AA611FE8417"
+				type: "custom"
+			}]
+			subtitle: "Upgrade a vanilla tool at a workbench"
+			tasks: [{
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+				id: "647E20835CE9BDDA"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0184D8E3B75E86E6"]
+			id: "026F96C0D105CF5D"
+			rewards: [{
+				id: "6CFC8ABB67606331"
+				type: "custom"
+			}]
+			subtitle: "Upgrade a bow at a workbench"
+			tasks: [{
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+				id: "5552B6507D786FFC"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0184D8E3B75E86E6"]
+			id: "4FFEC39D3C5ABBAB"
+			rewards: [{
+				id: "45FD5662E7B6EA27"
+				type: "custom"
+			}]
+			subtitle: "Upgrade a vanilla sword at a workbench"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+				id: "4008622857EBD979"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0184D8E3B75E86E6"]
+			id: "7A908E93F1ED227D"
+			rewards: [{
+				id: "260E7F4180367C67"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "6BFC4946A323BF98"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A908E93F1ED227D"]
+			id: "0BE514BC4A9E4A8C"
+			rewards: [{
+				id: "6FD39BF711CF3D4E"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				id: "440673DB9B426AC6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BE514BC4A9E4A8C"]
+			id: "3D2E19A989958D90"
+			rewards: [{
+				id: "75B7260676506F2B"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				id: "23B1EC67DFD724B8"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["228A8A1872F92337"]
+			id: "098CEBCBC23A812A"
+			rewards: [{
+				id: "04AB148490F2698F"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/toolbelt"
+				criterion: ""
+				id: "39BA257153ED1242"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FFEC39D3C5ABBAB"]
+			id: "062AD6C428ED39C0"
+			rewards: [{
+				id: "0C073641369C4051"
+				type: "custom"
+			}]
+			subtitle: "Use a sword until it can be honed, and then hone it at a workbench"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_hone"
+				criterion: ""
+				id: "3CB2E09A58E316B9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FFEC39D3C5ABBAB"]
+			id: "2B0183A42F521CDB"
+			rewards: [{
+				id: "1A7429E0624F38BB"
+				type: "custom"
+			}]
+			subtitle: "Upgrade a sword's hilt or strengthen the sword with a binding to increase its integrity "
+			tasks: [{
+				advancement: "tetra:upgrades/sword_integrity"
+				criterion: ""
+				id: "701DEFD35A98411F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["062AD6C428ED39C0"]
+			id: "7C882E6B8F4255EC"
+			rewards: [{
+				id: "730C0987BDDD4F8B"
+				type: "custom"
+			}]
+			subtitle: " Apply an improvement to a sword module, and then hone that improvement to increase its effect "
+			tasks: [{
+				advancement: "tetra:upgrades/sword_improvement_hone"
+				criterion: ""
+				id: "2A111E063C18D8C9"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["062AD6C428ED39C0"]
+			id: "4B4638D44D59476D"
+			rewards: [{
+				id: "24269C7917A9101D"
+				type: "custom"
+			}]
+			subtitle: "Hone the speed or damage of a hilt or a blade to level 5 "
+			tasks: [{
+				advancement: "tetra:upgrades/sword_hone_peak"
+				criterion: ""
+				id: "74AAE01164B210C3"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["098CEBCBC23A812A"]
+			id: "21C23191F1D1CA07"
+			rewards: [{
+				id: "2E7C42867C7953C7"
+				type: "custom"
+			}]
+			subtitle: "Fully upgrade a toolbelt"
+			tasks: [{
+				advancement: "tetra:upgrades/toolbelt_upgraded"
+				criterion: ""
+				id: "3C73C61E8B8CE178"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1930E12CB3889D2D"]
+			id: "5232C40A22D69081"
+			rewards: [{
+				id: "1E1099ADDF923EF2"
+				type: "custom"
+			}]
+			subtitle: "Salvage bolts from the ancient ruins"
+			tasks: [{
+				advancement: "tetra:spelunking/find_bolt"
+				criterion: ""
+				id: "4ABA798EEFFA7459"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1930E12CB3889D2D"]
+			id: "4731956E9725495F"
+			rewards: [{
+				id: "4BBFD36E6D58C0F2"
+				type: "custom"
+			}]
+			subtitle: "Salvage a quick latch from the ancient ruins and use it to improve a toolbelt attachment"
+			tasks: [{
+				advancement: "tetra:spelunking/find_latch"
+				criterion: ""
+				id: "3B0E5B09E38E9EC0"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1930E12CB3889D2D"]
+			id: "0434B4B74EA4F78E"
+			rewards: [{
+				id: "3FBD344E069F0C9A"
+				type: "custom"
+			}]
+			subtitle: "Use a cthonic extractor on a crate or container"
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_extractor"
+				criterion: ""
+				id: "28C8537AA7ACD2AF"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1930E12CB3889D2D"]
+			id: "016DD9A838F5921A"
+			rewards: [{
+				id: "56887AAE7B397610"
+				type: "custom"
+			}]
+			subtitle: "Find a stonecutter in a container and attach it to a hilt, the stonecutter can cut through stone in wide swathes "
+			tasks: [{
+				advancement: "tetra:spelunking/stonecutter"
+				criterion: ""
+				id: "6A1088AAA42CC9CE"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1930E12CB3889D2D"]
+			id: "5D28849EBB904661"
+			rewards: [{
+				id: "4568C219B4D7BEE9"
+				type: "custom"
+			}]
+			subtitle: "Find an earthpiercer in a container and attach it to a handle, the earthpiercer can break several blocks in a line "
+			tasks: [{
+				advancement: "tetra:spelunking/earthpiercer"
+				criterion: ""
+				id: "33F7E38359163022"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1930E12CB3889D2D"]
+			id: "7D62239D04C6D862"
+			rewards: [{
+				id: "10D2321D56DF2228"
+				type: "custom"
+			}]
+			subtitle: "Find a planar stabilizer in the ancient ruins "
+			tasks: [{
+				advancement: "tetra:spelunking/find_planar"
+				criterion: ""
+				id: "21D5DDA55547EDA5"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D62239D04C6D862"]
+			id: "55DE4FD93CC03719"
+			rewards: [{
+				id: "1394F013AF2900BA"
+				type: "custom"
+			}]
+			subtitle: "Find an earthpiercer in a container and attach it to a handle, the earthpiercer can break several blocks in a line "
+			tasks: [{
+				advancement: "tetra:spelunking/suspend_bow"
+				criterion: ""
+				id: "13E7B6D885EDD776"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D62239D04C6D862"]
+			id: "663B74394DEE98AD"
+			rewards: [{
+				id: "25B4EFFDE14201FC"
+				type: "custom"
+			}]
+			subtitle: "Use a planar stabilizer to craft a powerful belt attachment "
+			tasks: [{
+				advancement: "tetra:spelunking/suspend_belt"
+				criterion: ""
+				id: "23FA686112DE90A0"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0434B4B74EA4F78E"]
+			id: "66FEB143F6FB7CC2"
+			rewards: [{
+				id: "1B49C1DCA930AE13"
+				type: "custom"
+			}]
+			subtitle: "Place a chthonic extractor on bedrock and hit the top with a hammer "
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_hammer"
+				criterion: ""
+				id: "5CB0994A3844CB56"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66FEB143F6FB7CC2"]
+			id: "65EFBAEE0F11FA92"
+			rewards: [{
+				id: "5D285195196891C3"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "tetra:spelunking/chthonic_automation"
+				criterion: ""
+				id: "44C039702429D8CE"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D1E20910E3D620F"]
+			id: "65DF390C46F79C54"
+			rewards: [{
+				id: "617A91A1E30DDD3E"
+				type: "custom"
+			}]
+			subtitle: "Find a thermal cell in the ancient ruins "
+			tasks: [{
+				advancement: "tetra:spelunking/find_cell"
+				criterion: ""
+				id: "6349485A30EE72FC"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65DF390C46F79C54"]
+			id: "095AF7601C3C7D16"
+			rewards: [{
+				id: "2A759F91A7CFEE32"
+				type: "custom"
+			}]
+			subtitle: "Fix up a forge hammer by attaching two charged thermal cells and two upgrades "
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_fix"
+				criterion: ""
+				id: "774EF4248EDBFE95"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65DF390C46F79C54"]
+			id: "117B48C97C414023"
+			rewards: [{
+				id: "343C49B33FC57A1D"
+				type: "custom"
+			}]
+			subtitle: " Use a transfer unit or a core extractor to fully charge a thermal cell "
+			tasks: [{
+				advancement: "tetra:spelunking/refill_cell"
+				criterion: ""
+				id: "11B335E2EA0B1AAB"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["095AF7601C3C7D16"]
+			id: "0F8AEA0359E2B514"
+			rewards: [{
+				id: "79210AE0622446B8"
+				type: "custom"
+			}]
+			subtitle: "Use a claw to remove an upgrade from a forge hammer"
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_remove"
+				criterion: ""
+				id: "1F2E088A8B1988A0"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["095AF7601C3C7D16"]
+			id: "027E7B8382F980A7"
+			rewards: [{
+				id: "1050236D9BC19DB3"
+				type: "custom"
+			}]
+			subtitle: "Use a forge hammer to craft a module requiring tier 5+ hammering "
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_craft"
+				criterion: ""
+				id: "54F39795E7B5E7EA"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65DF390C46F79C54"]
+			description: ["Hammer UPGRADES like the combustion chamber can be found in crates and containers."]
+			id: "49C801B90259A6EC"
+			rewards: [{
+				id: "57FB20B22CA8E388"
+				type: "custom"
+			}]
+			subtitle: "Attach a combustion chamber to a forge hammer to increase its hammer tier by 1"
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_power"
+				criterion: ""
+				id: "2D76C66762F1ABEA"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["027E7B8382F980A7"]
+			description: ["According to Tetra's wiki, this mechanic was removed in 1.16."]
+			id: "7B82AAAAE76DDFBC"
+			rewards: [{
+				id: "167EB44BC9D61F28"
+				type: "custom"
+			}]
+			subtitle: "Experience a forge hammer head jam, the hammer will not be usable until the head is un-jammed "
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_jam"
+				criterion: ""
+				id: "322F728998DAC1FB"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B82AAAAE76DDFBC"]
+			id: "4E578EB0287B6819"
+			rewards: [{
+				id: "359D5E6E4460B0C3"
+				type: "custom"
+			}]
+			subtitle: "Smack a jammed hammer head with a handheld hammer of at least tier 4 to get the forge hammer back into a working state "
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_unjam"
+				criterion: ""
+				id: "719123C458232729"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FFEC39D3C5ABBAB"]
+			description: [
+				"Strength: how powerful the material is (for weapons)"
+				"Weight: influences attack speed, lighter = faster"
+				"Ductility: how powerful the material is (for bows)"
+				""
+				"Integrity: the capacity for upgrades possessed by the tool. For weapons, this is determined by the handle/hilt"
+			]
+			hide_dependency_lines: true
+			id: "2599FC3B79773909"
+			tasks: [{
+				id: "21AD3430E3C7BCBD"
+				title: "Weapon Attributes"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+	]
+	subtitle: ["Don't Play Vanilla Weapons, Play This"]
+	title: "Equipment"
+}

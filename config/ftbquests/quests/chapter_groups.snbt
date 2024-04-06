@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "357B296D74E0575E", title: "Adventure" }
+		{ id: "575079378E827F8C", title: "Technology" }
+		{ id: "1D1CECCF47A202B0", title: "Magic" }
+	]
+}

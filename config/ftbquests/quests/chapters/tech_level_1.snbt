@@ -1,0 +1,1604 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_level_1"
+	group: "575079378E827F8C"
+	icon: "thermal:iron_gear"
+	id: "00A6D240015C5D79"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&o&7Create is a big mod! Don't worry, you'll be rewarded with ... rock candy for sticking through to the end ;)"
+				""
+				"Click on the &lgoggles&r in the pause menu and then select &lPonder Index&r to read up about the different items in create while these quests are being made!"
+			]
+			disable_toast: true
+			id: "019D4506638BC007"
+			subtitle: "See Getting Started for the description"
+			tasks: [{
+				id: "546DC499D94AAF1F"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["019D4506638BC007"]
+			description: [
+				"You're going to make a machine that can turn things like &9ingots&r into &9plates&r using the &dMechanical Press&r and mix things like &9tomatoes&r into &9tomato soup&r using the &dMechanical Mixer&r."
+				""
+				"It'd be harder to give you an instruction manual, so here's an image to copy off of. Don't forget about Create's Ponder system for help with mechanics."
+				""
+				""
+				"{image:kubejs:item/create1 width:180 height:100 align:1 fit:true}"
+				""
+				"All &emachines&r use an amount of &6stress units&r. Some, like the Press, use more than others. If your factory becomes &coverworked&r, it'll stop! Be sure to never &coverstress&r your machines."
+			]
+			id: "6E51F7DE0D0CC8CB"
+			tasks: [
+				{
+					count: 8L
+					id: "060B5931F9CE4B6E"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "185BE584652E4478"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4FC2773058A7F43F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7C8F5164409D473D"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "1A1F906D4859E84D"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "3BB698C2678387BB"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "5E76CD823B654A61"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "First machine"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E51F7DE0D0CC8CB"]
+			description: [
+				"The &6Engineer's Goggles&r, when worn, show you the &estress units&r and other key details of Create machines."
+				""
+				"The &6Wrench&r lets you rotate and change the behavior of Create Machines. You can also instantly break blocks from Create using it."
+			]
+			icon: "create:goggles"
+			id: "791DF6ADBF550A3F"
+			subtitle: "Engineer's &mOnly&r Best Friends"
+			tasks: [
+				{
+					id: "2B459A5F66AB7EB5"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "4CD1BC1DBD0F5BC6"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "Get Fitted"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E51F7DE0D0CC8CB"]
+			id: "334D40427C78EFB2"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Ready for magic!"
+			tasks: [
+				{
+					id: "44B4AA78A60CAD64"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "37DEC3C4CBB15A39"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+			]
+			title: "Rituals"
+			x: 3.487755102040829d
+			y: -2.0d
+		}
+		{
+			dependencies: ["791DF6ADBF550A3F"]
+			description: [
+				"If you're an &l&oattentative little adventurer&r and are lost with power, no need to be worried. As you expand your factory, &6let the knowledge come to you&r."
+				""
+				"Create has quite a few ways of &6making power &ralready available to you with more coming your way later in the pack."
+				""
+				"You can use Ponder to read about them, but if you want a rundown, here it is:"
+				""
+				"&eHand Cranks&r are sort of like levers. You must interact with them before they make power."
+				""
+				"&eWindmills&r will generate more power the more bearings are stuck to them."
+				""
+				"&eSteam Engines&r are the most potent of these sources, and work by heating water in a &6Fluid Tank.&r"
+				""
+				"Not every power source works for every situation; a &6large, sliding door&r will work better with a &ehand crank&r while a &6burger warehouse&r might want to use a &esteam engine&r."
+				""
+				"Oh yeah! &e&lOverstressing&r&r! Or... nevermind. You'll learn that one as you go."
+			]
+			id: "7D336EA43CCF5FD5"
+			rewards: [{
+				id: "44FB2615CD10A7DD"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F234B2F8E37FB46"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:windmill_bearing"
+								}
+								{
+									Count: 1b
+									id: "create:steam_engine"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F39BD6A5FFEEBE"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Wait. Power? Stress units? Who're they?"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			description: [
+				"You've learned how &6fans&r work! On their own they produce a bit of wind that pushes things around, but the real magic happens when you direct their airflow through."
+				""
+				"&eLava heats up&r the air to extreme temperatures, gaining the ability to smelt items &owithout&r a furnace in the process!"
+				""
+				"&eFire also heats up&r the air to high temperatures, just enough to quickly smelt food like a Smoker!"
+				""
+				"&eWater moistens&r the air, permitting washing items!"
+				""
+				"You can also haunt items with Soul Sand, but I have no idea how that works."
+				""
+				"..."
+				""
+				"&eI&r am not liable for any damage caused by a player standing in lava-heated air."
+			]
+			id: "71F6B210686685F3"
+			tasks: [{
+				id: "79951539AD4CC9C7"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Effortless Smelting"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			id: "426B2D26B6AF75C6"
+			tasks: [{
+				id: "5E26DBC8B653E959"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			description: [
+				"The &6Mechanical Belt&r is a crucial piece of any factory, permitting the automatic transportation of items from point A to point B. All you have to do is &erotate the &r&6shaft&r &ethe belt is placed on."
+				""
+				"&6Funnels &rcan take items off &6chutes&r, inducting them into a storage inventory."
+				""
+				"&6Chutes&r are similar to &6mechanical belts&r, but move items vertically instead of horizontally."
+			]
+			id: "7A3E1BC754A91448"
+			tasks: [
+				{
+					id: "0B652333A4263687"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "06134A4049EF97D7"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "0D38D8934C351853"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			title: "Item Transportation"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			description: ["All of these accessible blocks can do neat things to &6shafts&r, manipulating how and when they power other blocks with &erotational force&r."]
+			id: "1BCFF5B040A3D70E"
+			tasks: [
+				{
+					id: "7DA5EF75671D6375"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "70B0805DBBE0F6D5"
+					item: "create:gearshift"
+					type: "item"
+				}
+				{
+					id: "5228EFB273F0A178"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "6EAC8AA1A6F8F700"
+					item: "create:clutch"
+					type: "item"
+				}
+			]
+			title: "Some Useful Blocks"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A3E1BC754A91448"]
+			description: [
+				"The &6rolling mill&r can roll &eingots&r into &erods&r and &eplates&r into &ewires&r."
+				""
+				"This is your only way of obtaining &emetal rods&r for now."
+				""
+				"Note that various &erods&r are needed to progress further."
+				""
+				"I know what you're thinking."
+			]
+			id: "0B332B12ED9F9FA8"
+			subtitle: "What you know about rollin' down in the deep?"
+			tasks: [{
+				id: "75B1D30D0EA7CE95"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			description: [
+				"&o&7It would be wise to also grab a block that can store items, like a chest or barrel&r"
+				""
+				"This basic farm setup will automatically harvest and replant crops, and then place them in the chest you place on the chassis."
+				""
+				"The &6mechanical bearing&r spins the block placed directly atop it."
+				""
+				"Adjacently placing &6linear chassis&r connects them together, allowing &omultiple&r blocks to be spinned on &oone&r axis."
+				""
+				"Then, place the &6mechanical harvester&r where you want the crops to be harvested."
+				""
+				"Don't forget to &eprovide power to &rthe whole thing!"
+			]
+			id: "048233AB927943AD"
+			optional: true
+			rewards: [
+				{
+					id: "281EDA9ACAE17AE7"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "14C314D7EE6FA895"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			subtitle: "Arrays of pistons with observers? You're better than that! Try this"
+			tasks: [
+				{
+					id: "7F1429B5424DD4CF"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "60EC08DF4BB427B7"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					id: "1279AD5BECD51C1A"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+			]
+			title: "Build an Automatic Farm"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["048233AB927943AD"]
+			description: [
+				"If you want a toned-down version of the big Create farm, let the &6Botany Pot&r be your friend."
+				""
+				"This small but powerful pot can grow plants and even automatically harvest and replant them."
+				""
+				"Place an item transport system (like a &6hopper&r) to put it into a &6furnace&r or other inventory afterwards!"
+			]
+			id: "70F3F301E295897A"
+			optional: true
+			tasks: [{
+				id: "18C148347CAA6D31"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:all_botany_pots"
+					}
+				}
+				title: "Any #botanypots:all_botany_pots"
+				type: "item"
+			}]
+			title: "Botany Pot"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			hide_dependency_lines: true
+			id: "5C2FC374E95F0CC4"
+			subtitle: "Launches blocks and items up to 32 blocks away. Blasting off again!"
+			tasks: [{
+				id: "0FE5475E231FBC7D"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			description: [
+				"The &6mechanical drill&r breaks the block in front of it when powered. "
+				"The most simple application of this is &ecobblestone generators&r. Simply place the &6drill&r such that it &efaces&r where the &ecobblestone&r will appear."
+				""
+				"There's a lot more you can do with this. You can even build onto your &ecobblestone generator&r. Right click &ecobblestone&r in EMI and see what it can turn into!"
+			]
+			icon: "create:mechanical_drill"
+			id: "6996A69FC311A78F"
+			tasks: [
+				{
+					id: "5DAA37F8719EC19B"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "34EFCA2132C6B95F"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6F23F7926B473F9F"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "Breaking Block with the Mechanical Drill"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6996A69FC311A78F"]
+			description: [
+				"Not all &6cobblestone &ris pure. Some of it contains traces of &eore&r."
+				""
+				"When placed in the space above an &6extractionator&r, &ecobblestone&r has a chance of turning into &evaluable raw ore &r(but usually nothing)."
+				""
+				"The most accessible way of placing the cobblestone is using an &6andesite filter&r and &6conveyors&r to load the &6cobblestone&r into a continuously signalled* &6dispenser&r (when activated with a block inside, it will try to place the block)."
+				""
+				"Be sure to restrict the &espace around the&r &6extractionator&r in a way that prevents the yields from flying everywhere. This will simplify your &eextraction system&r to the point where you can just use a &6hopper&r."
+				""
+				"&o&7* using a redstone clock (look it up)"
+			]
+			id: "2F96EF10492DB5FC"
+			optional: true
+			tasks: [
+				{
+					id: "47229602AA5EEC11"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					id: "5435849C08ADCA7A"
+					item: "extractinator:extractinator"
+					type: "item"
+				}
+				{
+					id: "7A577D7E3444FF4B"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "0EF851B6C8DCAC10"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "79D29FC3E8383C93"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Try this"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0A26B049A30FF9DA"]
+			description: ["&6Copper casing&r opens the door to the next tier of Create items."]
+			id: "02AC20A93D39F2C6"
+			tasks: [{
+				id: "766A14F944FE6C79"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			description: [
+				"&lWarning: &rYou're going to need to go to the &4Nether&r to progress any further. This requires beating &efive bosses&r (more if you're a completionist). "
+				""
+				"Anyways."
+				""
+				"Craft an &6empty blaze burner&r. Find a &eFortress&r, &eMineshaft&r, or really any other structure where &eblazes&r can be found."
+				""
+				"&eRight click a blaze &rwhile holding the &6burner&r to capture it inside."
+				"{@pagebreak}"
+				"Place the &6blaze burner&r under a &ebasin&r."
+				""
+				"The &6blaze&r will provide &eheat&r to your &ebasin&r, unlocking recipes in EMI that claim to &erequire heat&r."
+			]
+			id: "2CB2CB53F495DEC9"
+			subtitle: "&6&oThe air is getting warmer around you."
+			tasks: [
+				{
+					id: "630B2B285334BEE3"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "25A2483937B6092C"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Heated Recipes with a Basin"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2CB2CB53F495DEC9"]
+			description: ["You've unlocked &6Brass&r! Well done getting this far!"]
+			id: "3DEAE7C404A35245"
+			tasks: [{
+				id: "0FD758DB610336E0"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "The Brass Age"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3DEAE7C404A35245"]
+			id: "0A26B049A30FF9DA"
+			subtitle: "TAKE A LOOK AT THESE HANDS"
+			tasks: [{
+				id: "3E346A5753C725F4"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0A26B049A30FF9DA"]
+			id: "2A31B4314985CDF6"
+			tasks: [{
+				id: "08A8DC409914DCD6"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["02AC20A93D39F2C6"]
+			description: ["Some recipes will call for &efluids&r: these can be your &ewaters&r, &elavas&r, and as you get later into the game, &egases&r."]
+			id: "2635DBAEEA555FE2"
+			tasks: [
+				{
+					count: 8L
+					id: "25231A309D2D52E1"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3D830E2F50590485"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C5F3CF7B5351A7D"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "506BA646A26C6994"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "4F3EE459BEE3E17E"
+					item: "create:item_drain"
+					type: "item"
+				}
+			]
+			title: "Fluid Transport with Create"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2635DBAEEA555FE2"]
+			description: [
+				"The &6spout&r has two uses: &efilling items that store liquid &rsuch as &ebuckets&r and &ecrafting with liquids&r."
+				""
+				"The &6portable fluid interface&r can add &eor remove liquids &rfrom a contraption's fluid inventory."
+				""
+				"The &6hose pulley&r drains bodies of liquid. If the body is big enough (such as an &eocean&r), it &edoesn't actually consume liquid&r."
+			]
+			id: "1F0A5F83AD3401F9"
+			tasks: [
+				{
+					id: "51C8268315787B3B"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "68325160146097B7"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+				{
+					id: "701A83CBE2FA8262"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+			]
+			title: "Odds and Ends of Fluid Transport"
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2A31B4314985CDF6"]
+			description: [
+				"&6Mechanical Crafters&r can automate &eshaped crafting recipes&r. "
+				""
+				"There are also items which can only be made using &6mechanical crafters&r."
+			]
+			id: "678E6CB5A7AB483B"
+			tasks: [{
+				count: 9L
+				id: "2E6678DC5A0902CB"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2A31B4314985CDF6"]
+			description: [
+				"The &6mechanical arm &rtransports &eitems&r between &eblocks&r."
+				""
+				"Use the &ewrench&r to select the &eblocks&r."
+			]
+			id: "4A6C9F622CE2066A"
+			tasks: [{
+				id: "6DBD26EFD9DAD3DD"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0B332B12ED9F9FA8"]
+			description: [
+				"You should hopefully be used to &erotational force&r. Now, it's time to delve a little deeper."
+				""
+				"It's common for tech mods, including Create, use the &6Forge Energy system&r (FE) to handle power. This means you can use &ea generator from one mod to power machines from another.&r"
+				""
+				"You can see this in action using an &eelectric motor&r from Create Additions, but typically you don't need a special item to convert the energy; it'll just work."
+				"{@pagebreak}"
+				"The most accessible foray into &eFE&r is the &6Stirling Dynamo&r. This is an item that slowly but steadily generates &6power&r using &efuel for furnaces&r."
+				""
+				"Since this item is from the &eThermal Series&r, it calls its power &eredstone flux&r (RF), but it's really the same as &eFE&r."
+				""
+				"To put this power into use, make the &6stirling dynamo&r face &eany item powered by FE&r. Interact with that item and you &cshould see its power meter start to fill&r."
+			]
+			id: "16CCD414DF230E54"
+			rewards: [
+				{
+					count: 4
+					id: "434846E7A6B61DB3"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+				{
+					id: "6915065A2D4FF6DB"
+					item: {
+						Count: 1b
+						id: "thermal:wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0DFA2AB1FE8ECECC"
+					item: "thermal:dynamo_stirling"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "31F27BBE4F597FF3"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+				{
+					id: "4B5EB1F665E78F9A"
+					item: "thermal:machine_furnace"
+					type: "item"
+				}
+			]
+			title: "Generating Energy"
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16CCD414DF230E54"]
+			description: [
+				"As it turns out, &eburning your ores in a furnace&r is quite inefficient, wasting a lot of the potential of the ore. The &6pulverizer&r partially helps to control this by turning &eore&r into &edust&r. This dust can then be smelted into &eingots&r."
+				""
+				"Send each piece of &edust&r to any type of &efurnace&r (like the redstone one you made) to profit!"
+				""
+				"&7&oYou can use fluxducts to power multiple machines using one dynamo.&r"
+				""
+				"&7&oClick on \"configuration\" to choose where inputs come from and where outputs go to on machines. This will avoid any need for hoppers since you can directly output the pulverizer to the input side of the furnace.&r"
+			]
+			id: "4DBC82BD55237E6A"
+			tasks: [{
+				id: "08EDC54EF0C1FE0D"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			title: "Turn 1 Ore into 2 Ingots"
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16CCD414DF230E54"]
+			description: [
+				"Each &6dynamo&r offers a different way of generating &eredstone flux (aka FE)&r."
+				""
+				"&6Compression&r: consumes liquid fuel (such as oil)"
+				""
+				"&6Magmatic&r: consumes molten liquids (such as lava)"
+				""
+				"&6Numismatic&r: currency (coins made by the multiservo press)"
+				""
+				"&6Lapidary&r: gems (search &o#gems&r in EMI)"
+				""
+				"&6Disenchantment&r: enchanted items"
+				""
+				"&6Gournamd&r: edible items"
+			]
+			id: "377ABE3893DBCCAF"
+			optional: true
+			tasks: [
+				{
+					id: "6BEA2CCD74556E12"
+					item: "thermal:dynamo_compression"
+					type: "item"
+				}
+				{
+					id: "18FEF427B6CD0303"
+					item: "thermal:dynamo_magmatic"
+					type: "item"
+				}
+				{
+					id: "27E659234D10DB67"
+					item: "thermal:dynamo_numismatic"
+					type: "item"
+				}
+				{
+					id: "44DFD81AF64E9429"
+					item: "thermal:dynamo_lapidary"
+					type: "item"
+				}
+				{
+					id: "6CAF961FF9717AA2"
+					item: "thermal:dynamo_disenchantment"
+					type: "item"
+				}
+				{
+					id: "64C6511537911F7B"
+					item: "thermal:dynamo_gourmand"
+					type: "item"
+				}
+			]
+			title: "Collect (almost) All Dynamos"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DBC82BD55237E6A"]
+			description: ["Machines can get more material from a log than what you can do by hand."]
+			id: "2F65AA378ABCB05C"
+			tasks: [{
+				id: "47205F1FB627E79C"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			title: "Turn 1 Log into 6 Planks"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2F65AA378ABCB05C"]
+			id: "42F8AD78D500C942"
+			tasks: [{
+				id: "0B140041CC5B0A2E"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			title: "Make Alloys of Different Metals"
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["42F8AD78D500C942"]
+			description: ["Search &o&9@thermal&r &omachine&r in EMI to see every machine you can make."]
+			id: "201BC1FF4067A4D2"
+			subtitle: "Scratch the surface"
+			tasks: [{
+				id: "4AD6447FC4B57EC5"
+				title: "More Machines"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2BFF61AFF24B0404"]
+			id: "472EC26B3D7A1533"
+			subtitle: "Don't worry, no calculus here"
+			tasks: [{
+				id: "3E67972A13363221"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			title: "Integral Augment"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16CCD414DF230E54"]
+			description: ["You can place these in the &eaugments menu&r seen in Thermal machine GUIs."]
+			id: "2BFF61AFF24B0404"
+			tasks: [
+				{
+					id: "53B129D6E512D7C6"
+					item: "thermal:machine_efficiency_augment"
+					type: "item"
+				}
+				{
+					id: "2395AF565BB59822"
+					item: "thermal:dynamo_output_augment"
+					type: "item"
+				}
+			]
+			title: "Augments"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["472EC26B3D7A1533"]
+			id: "1FCF7D204368C33E"
+			tasks: [{
+				id: "61F313361C9E0EB4"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FCF7D204368C33E"]
+			id: "424D8D4B8D4B3D33"
+			tasks: [{
+				id: "31DAD36CD5FF5D09"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The &6magmator&r generates energy using &emolten liquids&r.  It requires no coolant, making it easy to set up and use."
+				""
+				"Like with basically all other blocks from &ePowah&r, there are &e7&r tiers of &6magmators&r, each one more potent than the last. This means these generators can &elast you a while&r."
+			]
+			id: "5AB2B311B9B179B9"
+			invisible: true
+			tasks: [{
+				id: "720073CCC5F7E444"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			title: "Magmators"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AB2B311B9B179B9"]
+			description: ["This generators is able to harness more energy from &emolten liquids&r than the &emagmator&r, but runs pretty hot and, as such, requires &ewater&r to keep it cool."]
+			id: "2414EF97B942ED2A"
+			tasks: [{
+				id: "3F17A454A2F007A6"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			title: "Thermo Generators"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2414EF97B942ED2A"]
+			id: "5F6F1D26EFEE17D2"
+			tasks: [{
+				id: "08AE5E907BE288C8"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B332B12ED9F9FA8"]
+			description: [
+				"This device &etakes sap from trees&r. This can be useful for certain types of &epower generation&r which rely on it&r."
+				""
+				"The &6arboreal extractor&r does not need RF and is boosted with &6phyto-gro&r. You will need &6fluiducts&r to transfer liquid to machines that need it."
+			]
+			id: "1970165E2199C721"
+			rewards: [{
+				id: "49A5A79F7E374692"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C4D3321145659E2"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "4B4D74B083981826"
+					item: "thermal:phytogro"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1AF5824EBC1AFF14"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+			]
+			title: "Acquire Sap"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1970165E2199C721"]
+			description: [
+				"The &6fisher&r catches &efish&r. (Wow!)"
+				""
+				"It's not very good at catching &efish&r initially. You can increase its speed by placing it in a &eriver&r or &eocean (better)&r."
+				""
+				"Also, use &6aqua chow&r (bait) to speed up the fishing process."
+			]
+			id: "7F0338C4AF8661C0"
+			subtitle: "Throw away your fishing rod."
+			tasks: [
+				{
+					id: "6B9DCD428A5AC868"
+					item: "thermal:device_fisher"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3A99CEDFFAAAFA49"
+					item: "thermal:aquachow"
+					type: "item"
+				}
+			]
+			title: "Autofishing"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1970165E2199C721"]
+			description: [
+				"Combining any 9 items in the &6Composter&r's crafting grid yields &6Compost&r."
+				""
+				"This can be used as bone meal or as a powerful catalyst in the &ephytogenic insolator&r."
+			]
+			id: "2B39981C511EEB61"
+			tasks: [
+				{
+					id: "7003DE0D32BB4FE0"
+					item: "thermal:device_composter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "69A83412474C48DA"
+					item: "thermal:compost"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11FEA8EE423542D3"]
+			description: [
+				"The &6tinker's workbench&r is a block that can store &eliquid&r and &eenergy&r, as well as &echarge&r and &eaugment&r handheld items that need energy."
+				""
+				"You can charge the &eCapacitato&r, for example. Make sure to feed energy to the &6workbench&r using a &edynamo&r or other source."
+				""
+				"By &epumping liquids&r into the &6workbench&r, you can &edrain its storage &rto fill &ebuckets&r and similar items."
+			]
+			id: "49E17DAC684FAC93"
+			tasks: [{
+				id: "013F76D380F8199D"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16CCD414DF230E54"]
+			description: [
+				"You will find items that require &eenergy&r to be used, or incorporate it in their functions."
+				""
+				"The &6Capacitato&r is an example of this. It &estores&r up to 100,000 RF."
+			]
+			id: "11FEA8EE423542D3"
+			rewards: [{
+				id: "04AF334FA09C219C"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "cofh_core:holding"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08D5998B59548E20"
+				item: {
+					Count: 1b
+					id: "thermal:rf_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Storing Energy"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49E17DAC684FAC93"]
+			id: "1B55948DCE7F4F34"
+			tasks: [
+				{
+					id: "4146C13809A9EE6F"
+					item: {
+						Count: 1b
+						id: "thermal:flux_drill"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0D4513FFA2737DCF"
+					item: {
+						Count: 1b
+						id: "thermal:flux_saw"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Energized Block Breaking"
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["49E17DAC684FAC93"]
+			description: [
+				"You can use a &6flux capacitator&r to &echarge items with batteries&r from within your inventory, without needing a special block."
+				""
+				"Make sure the &6capacitor&r itself is charged!"
+			]
+			id: "009B15D7455CBB05"
+			subtitle: "OUTATIME"
+			tasks: [{
+				id: "547FE896ABA4CD3E"
+				item: {
+					Count: 1b
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["49E17DAC684FAC93"]
+			description: ["This item can charge upwards of &e9 items that need energy&r at a time."]
+			id: "3B65FE1645F3BB9D"
+			tasks: [{
+				id: "49822D9521245AFD"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BCE10D50BB54C12"]
+			description: [
+				"Now, let's see what else we can do with &eenergy&r using Create!"
+				""
+				"First up is the &6accumulator&r. This multiblock structure works as &ebasic energy storage&r. You can connect and configure &6connectors&r to &etransfer energy to and from &rthe &6accumulator&r, or place an &einput above &rand output&e below&r."
+				""
+				"&7&o*The accumulator doesn't have to be a multiblock, but by placing more than one in a square/cube shape, you can unify them, increasing your energy storage.&r"
+				""
+				"{@pagebreak}"
+				"While they can obviously be attached to contraptions, the &6accumulator&r can't &etransfer energy &rto stationary blocks &ewhile it's moving&r."
+				""
+				"That's where the &6Portable Energy Interface&r comes in! If attached to a &emoving contraption&r that has an &6accumulator&r, it will automatically &etrade energy&r with &6other interfaces&r within 2 blocks."
+				""
+				"Make sure you configure the &6interfaces&r to your liking and place a &6connector&r on top of the stationary &6interface&r to &emove energy elsewhere&r. "
+			]
+			id: "7D263E9149AD8158"
+			tasks: [
+				{
+					id: "2BA37C17F521619E"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0F7A1E9A6FE27FB4"
+					item: "createaddition:portable_energy_interface"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0D0FC253B00814ED"
+					item: "createaddition:connector"
+					type: "item"
+				}
+			]
+			title: "Moving Energy"
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["678E6CB5A7AB483B"]
+			description: [
+				"The &6alternator&r and &6electric motor&r are super-useful machines that &econvert&r between &erotational force&r and &eforge energy&r (Redstone Flux)."
+				""
+				"&o&7The Electric Motor converts FE into rotation."
+				""
+				"&o&7The Alternator converts rotation into FE.&r"
+			]
+			id: "7BCE10D50BB54C12"
+			tasks: [
+				{
+					id: "5098E226F6A250E7"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+				{
+					id: "1D8F0D391CBDAFFC"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+			]
+			title: "Intro to Energy with Create"
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7BCE10D50BB54C12"]
+			description: [
+				"The &6Tesla Coil&r &echarges items that use FE as durability &r(like the Flux Capacitor) on the &6depot&r under it."
+				""
+				"If it has &eenergy&r, the &6Tesla Coil&r can be powered with redstone to &eshock&r nearby living things."
+			]
+			id: "7699DFE3E93CF011"
+			tasks: [
+				{
+					id: "3CCB7B12FA6B7C58"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+				{
+					id: "356F78D42F0C382B"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Charging Items"
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["048233AB927943AD"]
+			id: "35BF0E849AB4F00A"
+			tasks: [{
+				id: "25CBEA27B82A44F5"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7A3E1BC754A91448"
+				"3DEAE7C404A35245"
+			]
+			description: ["Can extract &estacks of items&r, instead of only one at a time."]
+			id: "54E46805990C15F2"
+			tasks: [{
+				id: "089C4F5550250E61"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"678E6CB5A7AB483B"
+				"42F8AD78D500C942"
+			]
+			description: [
+				"When two &6crushing wheels&r are placed with a 1 block gap in between and powered such that &eeach spins towards the other&r, you get a machine capable of &ecrushing blocks (and mobs)&r into pieces."
+				""
+				"You can now &ecrush&r your ores, making each block into more ingots, for example."
+				""
+				"The &6crushing wheels&r can also make &enew materials&r, like aluminum."
+			]
+			id: "2222A4CF9318FB92"
+			subtitle: "Make sure you have an Induction Smelter for Invar!"
+			tasks: [{
+				id: "14FDFD2979CE8F11"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0A26B049A30FF9DA"]
+			description: [
+				"This may come as a surprise to you coming from 1.16, but Create now has &6trains&r! These will allow you to &emove contraptions and yourself&r around the world efficiently in an&e aesthetically pleasing way&r."
+				""
+				"To get started, place &6tracks&r and then &eright click &ron one with a &6train station&r. Place the &6station&r &eclose to&r the track you'd like to link to."
+				""
+				"Then, right click the &6train station&r to begin building your train."
+				"{@pagebreak}"
+				"From there, put a few &6train casings&r where you see &eblue highlighted tracks&r to add &ebogeys&r to your track. Now, &ebuild your train&r by building on your &ebogeys&r."
+				""
+				"The &6station&r will now tell you to place &6train controls&r in a direction. Look for arrows on the selected track."
+				""
+				"You can place another &6train controls&r in the opposite direction to &emove the train in both directions&r. Place a &6seat&r &ebehind the train controls&r."
+				""
+				"Now, attach the train blocks together using &6super glue&r or similar items, then return to the &6station block&r to finalize your &etrain&r."
+				""
+				"Use the Create Wiki if you get an error."
+				"{@pagebreak}"
+				"Right click a train with a &ewrench&r to relocate it to a nearby set of &6tracks&r."
+				""
+				"&eMachines on the train&r can only see &einventories&r in &etheir own carriages&r."
+			]
+			id: "6C59243E9AAADB66"
+			rewards: [{
+				count: 2
+				id: "2D263112C38EF750"
+				item: "railways:smokestack_coalburner"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1DBF1ABFCFC5AAEE"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "4D1360684FF4B4ED"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "0E045FC07CA0B0EF"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "359044DAEF64F049"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "1FB0DD75380EC0E6"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EA1232BAAACA5C5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:seats"
+						}
+					}
+					title: "Any #create:seats"
+					type: "item"
+				}
+			]
+			title: "Train"
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6C59243E9AAADB66"]
+			id: "334B373D6E77103A"
+			tasks: [{
+				id: "1BBB50E2095CAD9E"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6C59243E9AAADB66"]
+			description: [
+				"Build a &econductor&r by deploying a &6conductor cap&r to &6andesite casing&r."
+				""
+				"Alongside being adorable, &econductors&r can activate redstone switches (&elevers&r and &ebuttons&r) when &eyou&r look at them."
+			]
+			id: "18E25A1E2145948B"
+			tasks: [
+				{
+					id: "79E846071B7D6508"
+					item: "railways:white_conductor_cap"
+					type: "item"
+				}
+				{
+					id: "05AB08392B67481E"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			title: "Conductor"
+			x: 0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["18E25A1E2145948B"]
+			description: [
+				"There isn't documentation on this item apart from:"
+				""
+				"whistles that can summon a train driven by a conductor"
+			]
+			id: "361B007EE6359691"
+			tasks: [{
+				id: "75DFD1D746865E3A"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["334B373D6E77103A"]
+			id: "0FAF0F4DF51C38DC"
+			tasks: [
+				{
+					id: "51DA975062FE8B9B"
+					item: "railways:track_switch_andesite"
+					type: "item"
+				}
+				{
+					id: "13D0E90864CAB5A3"
+					item: "railways:track_switch_brass"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3D0B489D17FE81FA"]
+			description: ["Looks for &eoil&r. Check the &ecompass on top&r."]
+			id: "7CAA5018EEE42BEE"
+			tasks: [{
+				id: "201FB48160C3E4C7"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2222A4CF9318FB92"]
+			description: ["TFMG is complicated. Comfy reading recommended!"]
+			id: "3D0B489D17FE81FA"
+			tasks: [{
+				id: "63D31672BDA63147"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7CAA5018EEE42BEE"]
+			description: ["&6Oil&r is found at &ebedrock level&r. You should use your &esurface scanner&r to locate it."]
+			icon: "tfmg:oil_deposit"
+			id: "147733C2B5FC9D8F"
+			tasks: [{
+				id: "165A93E6F6BAF7E4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tfmg:oil_deposit"
+				type: "observation"
+			}]
+			title: "Oil in its Crudest Form"
+			x: 11.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["147733C2B5FC9D8F"]
+			id: "0110621094190688"
+			tasks: [{
+				count: 128L
+				id: "19D95DD7136A5E64"
+				item: "tfmg:industrial_pipe"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7A3E1BC754A91448"]
+			description: [
+				"Pretty Pipes is a mod only adds a pipe that can move items around."
+				""
+				"These pipes can be fitted with modules that let it filter, import, export, and more."
+				""
+				"They're a great option for small-scale setups, and will hold off well until you get modular routers!"
+			]
+			id: "6E77A3D78F1891FE"
+			tasks: [{
+				id: "357B6310F88B091C"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49E17DAC684FAC93"]
+			description: ["By interacting with an explosive block, you can link it so you can detonate it from any distance. This can affect multiple explosives at once."]
+			id: "0AB45DEA1D8C8865"
+			subtitle: "Bazinga!"
+			tasks: [{
+				id: "5BC4005D9721594F"
+				item: {
+					Count: 1b
+					id: "thermal:detonator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6E77A3D78F1891FE"]
+			id: "0C48A615F6ED8FE2"
+			tasks: [{
+				id: "2C1B07CF8F735801"
+				item: "prettypipes:pressurizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E77A3D78F1891FE"]
+			description: [
+				"You can even make a full-on storage network using only Pretty Pipes!"
+				""
+				"This would end up functioning similarly to what you get with Simple Storage Network, but here you arguably get more flexibility with your modules."
+			]
+			id: "6CDC24AA62B61106"
+			tasks: [{
+				id: "776B825E2CE5C1EF"
+				item: "prettypipes:item_terminal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CDC24AA62B61106"]
+			id: "00B3DD86512994FA"
+			tasks: [{
+				id: "560E6082A9434917"
+				item: "prettypipes:crafting_terminal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49E17DAC684FAC93"]
+			description: ["By interacting with any block that can hold liquid potions, the liquid is transferred. Alternatively, you can combine it with a potion in a crafting grid."]
+			id: "77ADA528C452276C"
+			tasks: [{
+				id: "56E38A0772DA8602"
+				item: {
+					Count: 1b
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["49E17DAC684FAC93"]
+			description: ["Infuses you with the effects of a potion. Fill it with potion liquid at a workbench. You can use a hotkey to infuse yourself automatically every so often."]
+			id: "01D953FA3239DA91"
+			tasks: [{
+				id: "39353F700ACCAE29"
+				item: {
+					Count: 1b
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["16CCD414DF230E54"]
+			description: [
+				"You can use cables to feed energy to the plug, or have it next to the output."
+				""
+				"First thing is to create a flux network. This is easy to do with the pretty GUI."
+				""
+				"Multiple flux plugs on the same network add RF to that network, while flux points extract it."
+			]
+			id: "05D9F73F36C26C96"
+			subtitle: "Adds energy to an RF network, enabling wireless flux transportation, even across dimensions"
+			tasks: [
+				{
+					id: "51EB9EB7D326CC94"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "4F1C0284AD36761E"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "Set up an Energy Network"
+			x: 6.0d
+			y: -7.5d
+		}
+	]
+	title: "Tech Level 1"
+}

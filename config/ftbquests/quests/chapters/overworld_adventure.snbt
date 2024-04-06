@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld_adventure"
+	group: "357B296D74E0575E"
+	icon: "minecraft:grass_block"
+	id: "6855AEB6DE78FCD3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: ["Found in the &5Theatre&r."]
+			id: "4493D9650B5D1F71"
+			subtitle: "Kill the &5Conjurer"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "02C951936916A7B7"
+				title: "Illagin' for a Pillagin'"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Found in the &5Hunter's House&r, or in the wild."]
+			icon: {
+				Count: 1b
+				id: "hunters_return:boomerang"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67EDF8A2B69A158D"
+			subtitle: "Kill the &5Hunter"
+			tasks: [{
+				entity: "hunters_return:hunter"
+				icon: "hunters_return:spawnegg_hunter"
+				id: "6B1957C06EE38BD9"
+				title: "Wild Hunt"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			description: ["*to access dimensions be sure to check off the next quest"]
+			id: "4753A368F0639E4F"
+			subtitle: "Kill the &5Frostologer"
+			tasks: [{
+				entity: "frostiful:frostologer"
+				icon: "reliquary:frozen_core"
+				id: "369B4193CCF27E24"
+				title: "Chilly Reception"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4753A368F0639E4F"]
+			description: ["You'll be back in the Overworld before long..."]
+			icon: "forbidden_arcanus:whirlwind_prism"
+			id: "18D1EA8E41311823"
+			rewards: [{
+				auto: "invisible"
+				id: "3194D1EFED4F6662"
+				ignore_reward_blocking: true
+				stage: "dimension_access"
+				type: "gamestage"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Dimensional Adventure Unlocked"
+			tasks: [{
+				id: "35DC9AEEC3C595A6"
+				title: "Extraterrestrial Foes Await!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4753A368F0639E4F"]
+			description: [
+				"The tower can be found using &bSoul Stars&r."
+				""
+				"You'll then need to put 4, one on each &baltar&r to spawn the &9Night Lich&r."
+				""
+				"Be sure to bring a &branged weapon&r!"
+			]
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "0579360EE0F0D4AD"
+			tasks: [
+				{
+					id: "7A1E3F0D2492CFC4"
+					structure: "bosses_of_mass_destruction:lich_tower"
+					type: "structure"
+				}
+				{
+					count: 4L
+					id: "483BCC1ACECD25F2"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "1F9F1BAA3250D23E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Night Lich"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4753A368F0639E4F"]
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "21D6AB95329A4EEF"
+			tasks: [
+				{
+					id: "2E2EEA7E34DC9762"
+					structure: "bosses_of_mass_destruction:void_blossom"
+					type: "structure"
+				}
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "5341E9DB541C10B2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Void Blossom"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4753A368F0639E4F"]
+			icon: "aquamirae:ship_graveyard_echo"
+			id: "1808E3ABC3AF6D82"
+			tasks: [
+				{
+					id: "38F2586A4F22A244"
+					structure: "aquamirae:ice_maze/common"
+					type: "structure"
+				}
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "077204BEBBA2496B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ice Maze"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4753A368F0639E4F"]
+			description: [
+				""
+				"    Collect the three bone staff pieces (Ominous Bone Staff Fragment) from the Ruins structure."
+				"Every Ruin has a unique fragment (upper, middle and lower bone staff fragment). These structures spawn in forests and are 1) a broken tower (head fragment) 2) a bloody hill (middle fragment) and 3) a campsite (lower fragment)"
+				""
+				"    All three staff pieces can also sometimes be bought by the Nameless Hanged located at the Dead Tree structure for a price of 64 Corruption."
+				""
+				"    Obtain a bone dagger from an Acolyte, or craft it yourself."
+				""
+				"    Hold a glass bottle in your offhand and start killing villagers with the bone dagger. You'll get a Vial of Blood. Fill the vial to the limit."
+				""
+				"    Find the Lich Prison structure, a large floating island above the oceans."
+				""
+				"    Wait until it is night, place the bone staff pieces (from upper to lower) on the dark corrupted deepslate blocks in front of the altar (they should fairly stand out)."
+				""
+				"    Pour the Vial of Blood into the altar."
+			]
+			id: "5FD7C7EDDE0E119C"
+			subtitle: "descrption from Graveyard Mod GitHub Wiki for now"
+			tasks: [{
+				entity: "graveyard:lich"
+				id: "14138C08BFD56EC6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Corrupted Champion"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4753A368F0639E4F"]
+			description: [
+				"An easy setup is to dig a 2x2 tunnel more than 15 blocks long and then start using ranged attacks on the Warden. This is because it will only use its sonic shriek if you're within 15 blocks of it."
+				""
+				"{@pagebreak}"
+				"You can also dig 2x2 pit in front of the tunnel covered in open trapdoors to trap the Warden. In case you didn't know, open trapdoors are seen as solid blocks by Minecraft mobs, making them useful in vanilla mob farms which require trapping."
+				""
+				"You can use the Warden's drops to upgrade netherite gear. Upgrading the helmet makes you immune to the Darkness effect. Be cautious though, as you can't upgrade Warden gear into Ignitium."
+			]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "71358BBA8D60E6CD"
+			tasks: [
+				{
+					id: "59DD6C6431563EBB"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					advancement: "deeperdarker:main/kill_warden"
+					criterion: ""
+					id: "0A4FA129A659813C"
+					type: "advancement"
+				}
+			]
+			title: "Kill the Warden"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"&lNote:&r you would have to be &2very lucky&r to stumble upon a cave biome considering how rare they are."
+				""
+				"Also, your &2Nature's Compass&r isn't able to detect them, so there's no easy way of finding cave biomes without &athese quests&r."
+			]
+			id: "391AAC02FA3ADE08"
+			rewards: [{
+				id: "59EA64E725A43E50"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6DEAD7909CB17C80"
+					structure: "alexscaves:underground_cabin"
+					type: "structure"
+				}
+				{
+					id: "7902E6A0305E09D4"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Loot an Underground Cabin"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["391AAC02FA3ADE08"]
+			description: [
+				"Place a &2cave tablet&r and &2paper&r in the table and then play the minigame."
+				""
+				"&lHint:&r the words on the tablet are in the &2Standard Galactic Alphabet, &rwhich is also what the cryptic letters from the enchanting table uses."
+				"&7"
+				"&o[Go to the next page for an easy way of solving the puzzle]&r&r "
+				"{@pagebreak}"
+				"You can use"
+				""
+				"https://lingojam.com/StandardGalacticAlphabet "
+				""
+				"and enter the word it wants you to find, then look for something resembling what the website gives you in the tablet."
+			]
+			id: "56DDF65F9F368790"
+			tasks: [
+				{
+					icon: "alexscaves:spelunkery_table"
+					id: "43B40DCC97FFCF9F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "alexscaves:spelunkery_table"
+					type: "observation"
+				}
+				{
+					id: "71BC577A28229B66"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			title: "Decode a Tablet"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56DDF65F9F368790"]
+			description: [
+				"When you're done, you'll receive a &2cave codex&r. Surround it with paper for a &2cave biome map&r."
+				""
+				"As these caves can be &2far away&r, make sure you gear up and brace yourself for &2highly scaled-up enemies&r &7&o(which haven't been playtested yet and may be unbalanced)&r."
+				""
+				"The subsequent quests will be revealed as you locate the various caves."
+			]
+			id: "2287726086131598"
+			tasks: [{
+				id: "4C1ACBAB4DA4BFDB"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:magnetic_caves"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2287726086131598"]
+			description: [
+				"Welcome to the &1magnetic&r &ccaves&r!"
+				""
+				"Your &cmetal armor&r may be hazardous to you due to the abundance of &1powerful magnets&r."
+			]
+			icon: "alexscaves:scarlet_magnet"
+			id: "0A6104C04414F37B"
+			invisible: true
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				id: "1004FCE1585BE694"
+				type: "biome"
+			}]
+			title: "Magnetic Caves"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2287726086131598"]
+			icon: "alexscaves:dinosaur_nugget"
+			id: "114699FC353B18CE"
+			invisible: true
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				id: "6A447A8AD0C94510"
+				type: "biome"
+			}]
+			title: "Primordial Caves"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2287726086131598"]
+			icon: "alexscaves:nuclear_bomb"
+			id: "6202F882D0377E6B"
+			invisible: true
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				id: "3A8D9805EA1EFAB3"
+				type: "biome"
+			}]
+			title: "Toxic Caves"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2287726086131598"]
+			icon: "alexscaves:copper_valve"
+			id: "403B8F4A5838932B"
+			invisible: true
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				id: "4A1D983D8F1D4D95"
+				type: "biome"
+			}]
+			title: "Abyssal chasm"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2287726086131598"]
+			icon: "alexscaves:pure_darkness"
+			id: "06D8CD953FBEE3D2"
+			invisible: true
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				id: "0BDB0115785CD6F0"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+	]
+	title: "Overworld Adventure"
+}
