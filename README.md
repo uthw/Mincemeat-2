@@ -24,6 +24,6 @@ A modpack for Minecraft 1.20.1 that focuses on providing a challenging yet forgi
 -   Make an issue here if something isn't right.
 -   Don't set allocated RAM above 10 GB.
 
-# Credits
+## Credits
 
 I used some scripts from the KubeJS discord server, credit is given at the top of files with code from there
