@@ -5,7 +5,7 @@
 	group: "357B296D74E0575E"
 	icon: "minecraft:grass_block"
 	id: "6855AEB6DE78FCD3"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

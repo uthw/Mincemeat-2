@@ -5,7 +5,7 @@
 	group: "357B296D74E0575E"
 	icon: "botania:world_seed"
 	id: "12EFFEFA52DA688B"
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
