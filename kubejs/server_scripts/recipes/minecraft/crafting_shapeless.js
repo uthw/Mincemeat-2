@@ -68,6 +68,7 @@ ServerEvents.recipes((event) => {
             "reliquary:infernal_claw",
             ["alexsmobs:dropbear_claw", "betternether:nether_ruby"],
         ],
+        ["ftbquests:book", ["minecraft:book", "minecraft:paper"]],
     ];
 
     recipes.forEach((recipe) => {
