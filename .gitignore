@@ -50,3 +50,4 @@ config/jei/recipe-category-sort-order.ini
 kubejs/assets/kubejs/textures/item/message.txt
 servers.dat
 servers.dat_old
+config/controlify.json
