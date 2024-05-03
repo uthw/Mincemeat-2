@@ -16,7 +16,7 @@
 	"block_ice": true,
 	"block_lava": true,
 	"block_leaves": true,
-	"block_mesoglea": true,
+	"block_mesoglea": false,
 	"block_reinforced_deepslate": true,
 	"block_spawner": true,
 	"block_termite": true,

@@ -174,7 +174,10 @@
     },
     "dynamicIcons": {
       "uthw": "https://mc-heads.net/avatar/20c841d9440242f0a51cc57aa8b28d7f",
-      "default": "https://via.placeholder.com/256.png"
+      "default": "https://via.placeholder.com/256.png",
+      "rail-coffee.us.e4mc.link": "https://api.mcsrvstat.us/icon/rail-coffee.us.e4mc.link",
+      "nose-expand.us.e4mc.link": "https://api.mcsrvstat.us/icon/nose-expand.us.e4mc.link",
+      "localhost": "https://api.mcsrvstat.us/icon/localhost"
     },
     "dynamicVariables": {
       "default": "Example Text",
