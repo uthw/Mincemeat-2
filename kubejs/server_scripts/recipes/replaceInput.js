@@ -643,8 +643,8 @@ ServerEvents.recipes((event) => {
             { output: "grapplemod:swingupgradeitem" },
             "minecraft:feather",
             "aquaculture:iron_hook",
-            [{ mod: "grapplemod" }, "minecraft:lead", "#supplementaries:ropes"],
         ],
+        [{ mod: "grapplemod" }, "minecraft:lead", "#supplementaries:ropes"],
         [
             { mod: "sophisticatedbackpacks" },
             "#forge:ingots/iron",
