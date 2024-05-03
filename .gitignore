@@ -51,3 +51,9 @@ kubejs/assets/kubejs/textures/item/message.txt
 servers.dat
 servers.dat_old
 config/controlify.json
+config/everycomp-hazardous.properties
+config/oculus.properties
+config/xaerominimap_entities.json
+config/fabric/indigo-renderer.properties
+config/sound_physics_remastered/occlusion.properties
+config/sound_physics_remastered/reflectivity.properties
