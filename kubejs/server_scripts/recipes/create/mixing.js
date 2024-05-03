@@ -25,6 +25,16 @@ ServerEvents.recipes((event) => {
             heated: false,
             // superheated: true
         },
+        {
+            output: "4x forbidden_arcanus:corrupti_dust",
+            inputs: [
+                "#forge:ingots/obsidian",
+                "#forge:dusts/lapis",
+                "minecraft:nether_wart",
+                "forbidden_arcanus:arcane_crystal_dust",
+            ],
+            heated: true,
+        },
     ];
 
     recipes.forEach((recipe) => {
