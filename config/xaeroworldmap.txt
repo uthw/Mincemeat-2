@@ -1,4 +1,4 @@
-ignoreUpdate:176
+ignoreUpdate:177
 updateNotification:true
 allowInternetAccess:true
 differentiateByServerAddress:true
@@ -36,7 +36,7 @@ renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true
 caveModeDepth:30
-caveModeStart:-22
+caveModeStart:2147483647
 autoCaveMode:3
 legibleCaveMaps:false
 displayCaveModeStart:true
