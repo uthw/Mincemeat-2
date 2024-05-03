@@ -1,0 +1,110 @@
+let lootTable = {
+    type: "minecraft:chest",
+    pools: [
+        {
+            bonus_rolls: 0.0,
+            entries: [
+                {
+                    type: "minecraft:item",
+                    conditions: [
+                        {
+                            chance: 0.25,
+                            condition: "minecraft:random_chance",
+                        },
+                    ],
+                    functions: [
+                        {
+                            add: false,
+                            count: {
+                                type: "minecraft:uniform",
+                                max: 3.0,
+                                min: 1.0,
+                            },
+                            function: "minecraft:set_count",
+                        },
+                    ],
+                    name: "enderio:dark_steel_ingot",
+                },
+                {
+                    type: "minecraft:item",
+                    conditions: [
+                        {
+                            chance: 0.3,
+                            condition: "minecraft:random_chance",
+                        },
+                    ],
+                    functions: [
+                        {
+                            add: false,
+                            count: 1.0,
+                            function: "minecraft:set_count",
+                        },
+                    ],
+                    name: "minecraft:ender_pearl",
+                },
+                {
+                    type: "minecraft:item",
+                    conditions: [
+                        {
+                            chance: 0.5,
+                            condition: "minecraft:random_chance",
+                        },
+                    ],
+                    name: "enderio:wood_gear",
+                },
+                {
+                    type: "minecraft:item",
+                    conditions: [
+                        {
+                            chance: 0.15,
+                            condition: "minecraft:random_chance",
+                        },
+                    ],
+                    functions: [
+                        {
+                            function: "enderio:set_loot_capacitor",
+                            range: {
+                                type: "minecraft:uniform",
+                                max: 4.0,
+                                min: 1.0,
+                            },
+                        },
+                    ],
+                    name: "enderio:loot_capacitor",
+                },
+                {
+                    type: "minecraft:item",
+                    conditions: [
+                        {
+                            chance: 0,
+                            condition: "minecraft:random_chance",
+                        },
+                    ],
+                    functions: [
+                        {
+                            add: false,
+                            damage: {
+                                type: "minecraft:uniform",
+                                max: 2000.0,
+                                min: 1.0,
+                            },
+                            function: "minecraft:set_damage",
+                        },
+                    ],
+                    name: "enderio:dark_steel_sword",
+                },
+            ],
+            name: "Ender IO",
+            rolls: {
+                type: "minecraft:uniform",
+                max: 3.0,
+                min: 1.0,
+            },
+        },
+    ],
+    random_sequence: "enderio:chests/common_loot",
+};
+
+ServerEvents.highPriorityData((event) => {
+    event.addJson("enderio:loot_tables/chests/common_loot.json", lootTable);
+});
