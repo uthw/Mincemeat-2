@@ -19,6 +19,7 @@ EntityEvents.death("minecraft:player", (event) => {
     //     }
     // });
 
+    // command that sets hp to 9999 for nonplayer entities within 50 blocks of the player who dies
     event.server.runCommandSilent(
         `execute positioned ${x} ${y} ${z} as @e[type=!minecraft:player,distance=..50] run data modify entity @s Health set value 9999.0d`
     );
