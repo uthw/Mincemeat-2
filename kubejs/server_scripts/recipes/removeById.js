@@ -22,6 +22,9 @@ ServerEvents.recipes((event) => {
         "reliquary:infernal_chalice",
         "reliquary:infernal_claw",
         "reliquary:magicbane",
+        "forbidden_arcanus:corrupti_dust",
+        "forbidden_arcanus:dragon_scale",
+        "forbidden_arcanus:deorum_ingot",
         // "null",
     ];
 
