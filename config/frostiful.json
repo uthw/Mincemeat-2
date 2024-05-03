@@ -12,12 +12,12 @@
     "enableConfigUpdates": true
   },
   "environmentConfig": {
-    "doDryBiomeNightFreezing": true,
-    "nightTemperatureShift": -1,
-    "coldBiomeTemperatureChange": -1,
-    "freezingBiomeTemperatureChange": -3,
+    "doDryBiomeNightFreezing": false,
+    "nightTemperatureShift": 0,
+    "coldBiomeTemperatureChange": 0,
+    "freezingBiomeTemperatureChange": 0,
     "rainWetnessIncrease": 1,
-    "touchingWaterWetnessIncrease": 5,
+    "touchingWaterWetnessIncrease": 1,
     "dryRate": 1,
     "onFireDryDate": 50,
     "onFireWarmRate": 50,
@@ -25,7 +25,7 @@
     "warmthPerLightLevel": 2,
     "minLightForWarmth": 5,
     "ultrawarmWarmRate": 15,
-    "winterTemperatureShift": -1,
+    "winterTemperatureShift": 0,
     "isNightColdInSummer": false
   },
   "combatConfig": {
@@ -50,7 +50,7 @@
     "skateUpgradeTemplateGenerateChance": 0.33
   },
   "freezingConfig": {
-    "doPassiveFreezing": true,
+    "doPassiveFreezing": false,
     "doWindSpawning": false,
     "windSpawnStrategy": "ENTITY",
     "spawnWindInAir": false,
