@@ -48,3 +48,5 @@ config/sound_physics_remastered/reflectivity.properties
 config/sound_physics_remastered/occlusion.properties
 config/jei/recipe-category-sort-order.ini
 kubejs/assets/kubejs/textures/item/message.txt
+servers.dat
+servers.dat_old
