@@ -11,7 +11,7 @@
 [Modifiers]
 	#
 	#Disable the cooldown when the player lowers their shield
-	noLoweringCooldown = false
+	noLoweringCooldown = true
 	#
 	#Disable putting shields on cooldown at all
 	noCooldown = false
