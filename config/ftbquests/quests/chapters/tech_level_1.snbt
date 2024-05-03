@@ -1416,58 +1416,6 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["3D0B489D17FE81FA"]
-			description: ["Looks for &eoil&r. Check the &ecompass on top&r."]
-			id: "7CAA5018EEE42BEE"
-			tasks: [{
-				id: "201FB48160C3E4C7"
-				item: "tfmg:surface_scanner"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["2222A4CF9318FB92"]
-			description: ["TFMG is complicated. Comfy reading recommended!"]
-			id: "3D0B489D17FE81FA"
-			tasks: [{
-				id: "63D31672BDA63147"
-				item: "tfmg:steel_mechanism"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -13.5d
-		}
-		{
-			dependencies: ["7CAA5018EEE42BEE"]
-			description: ["&6Oil&r is found at &ebedrock level&r. You should use your &esurface scanner&r to locate it."]
-			icon: "tfmg:oil_deposit"
-			id: "147733C2B5FC9D8F"
-			tasks: [{
-				id: "165A93E6F6BAF7E4"
-				observe_type: 0
-				timer: 0L
-				to_observe: "tfmg:oil_deposit"
-				type: "observation"
-			}]
-			title: "Oil in its Crudest Form"
-			x: 11.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["147733C2B5FC9D8F"]
-			id: "0110621094190688"
-			tasks: [{
-				count: 128L
-				id: "19D95DD7136A5E64"
-				item: "tfmg:industrial_pipe"
-				type: "item"
-			}]
-			x: 13.5d
-			y: -14.0d
-		}
-		{
 			dependencies: ["7A3E1BC754A91448"]
 			description: [
 				"Pretty Pipes is a mod only adds a pipe that can move items around."

@@ -4,7 +4,7 @@
 	[items.orb_of_temporary_flight]
 		#Flight Time the Orb grants (in ticks) [default: 6000]
 		#Range: 20 ~ 120000
-		time = 6000
+		time = 600
 
 	[items.edelwood_bucket]
 		#How many Water Blocks the Edelwood Bucket can store [default: 4]
