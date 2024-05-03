@@ -14,7 +14,16 @@ ItemEvents.modification((event) => {
         if (item.maxDamage != 0) {
             // Double the durability of every item
             event.modify(item, (tool) => {
-                tool.maxDamage *= 2;
+                if (item.hasTag("minecraft:trimmable_armor")) {
+                    tool.maxDamage *= 4;
+                } else if (
+                    item.hasTag("c:shields") ||
+                    item.hasTag("forge:shields")
+                ) {
+                    tool.maxDamage *= 3;
+                } else {
+                    tool.maxDamage *= 2;
+                }
             });
 
             // // Hotfix lol
