@@ -69,6 +69,10 @@ ServerEvents.recipes((event) => {
             ["alexsmobs:dropbear_claw", "betternether:nether_ruby"],
         ],
         ["ftbquests:book", ["minecraft:book", "minecraft:paper"]],
+        [
+            "kubejs:grave_scroll",
+            ["enigmaticlegacy:thiccscroll", "iceandfire:ectoplasm"],
+        ],
     ];
 
     recipes.forEach((recipe) => {
