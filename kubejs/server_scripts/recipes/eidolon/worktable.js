@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
             key: {
                 A: "kubejs:cell",
                 B: "ars_nouveau:source_gem",
-                C: "frostiful:frost_wand",
+                C: "aquamirae:esca",
             },
         },
         {
