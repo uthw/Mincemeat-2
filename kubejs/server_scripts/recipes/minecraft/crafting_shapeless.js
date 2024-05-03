@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
         ["ftbquests:book", ["minecraft:book", "minecraft:paper"]],
         [
             "kubejs:grave_scroll",
-            ["enigmaticlegacy:thiccscroll", "iceandfire:ectoplasm"],
+            ["enigmaticlegacy:thicc_scroll", "iceandfire:ectoplasm"],
         ],
     ];
 
