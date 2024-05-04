@@ -259,15 +259,15 @@
 					type: "item"
 				}
 				{
-					id: "67BFEE4894093413"
+					id: "0CC4E6E56AB03038"
 					item: {
 						Count: 1b
 						id: "itemfilters:tag"
 						tag: {
-							value: "farmersdelight:tools/knives"
+							value: "forge:tools/knives"
 						}
 					}
-					title: "Any #farmersdelight:tools/knives"
+					title: "Any #forge:tools/knives"
 					type: "item"
 				}
 			]
@@ -419,7 +419,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["03B0D122AD821C0D"]
+			dependencies: ["5A9940962797FE6E"]
 			description: ["&oHint:&r It's often faster to get the &2books&r for &abookshelves&r by &cdestroying&r &abookshelves&r in existing structures (like a village), instead of setting up a cow farm."]
 			id: "479B3130EB602E62"
 			tasks: [
@@ -441,8 +441,8 @@
 				}
 			]
 			title: "Enchanting Essentials"
-			x: 4.0d
-			y: -2.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3571CB6136F6E3EB"]
@@ -820,7 +820,7 @@
 				item: "storagenetwork:master"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -833,8 +833,8 @@
 				item: "storagenetwork:inventory"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5D90018D6FA71B0A"]
@@ -846,8 +846,8 @@
 				item: "storagenetwork:storage_kabel"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6C08AF09C8F20F4F"]
@@ -871,7 +871,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2F5046E30C8273CB"]
@@ -943,6 +943,70 @@
 			}]
 			x: -4.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["479B3130EB602E62"]
+			description: ["If you have unused affix items, you can use this to destroy them for useful materials."]
+			id: "36F98327138AA247"
+			tasks: [{
+				id: "4FDE38375348AF4C"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03B0D122AD821C0D"]
+			description: [
+				"Some items can be &dsocketed&r with &dgems&r, giving them extra buffs like max HP or permanent potion effects."
+				""
+				"To do this, combine the item with the &dgem&r at a smithing table."
+			]
+			id: "5A9940962797FE6E"
+			tasks: [
+				{
+					id: "68AA38DEF6DD257F"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "5096386E2188E217"
+					item: {
+						Count: 1b
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:common"
+							}
+							gem: "irons_spellbooks:blood"
+						}
+					}
+					title: "Gem"
+					type: "item"
+				}
+			]
+			title: "Gems"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36F98327138AA247"]
+			id: "5D43A2BA54C9EC1C"
+			tasks: [
+				{
+					id: "6EE73E2FE0D16B9F"
+					item: "apotheosis:gem_cutting_table"
+					type: "item"
+				}
+				{
+					id: "642C3C77385AC8AF"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
 		}
 	]
 	title: "Getting Started"
