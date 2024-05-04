@@ -17,11 +17,7 @@
 	id: "151DB3F06C437377"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "kubejs:textures/item/arsnouveau.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -29,11 +25,7 @@
 			y: 0.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
 			image: "kubejs:textures/item/eidolon.png"
 			rotation: 0.0d
 			width: 6.0d
