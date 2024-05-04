@@ -96,7 +96,7 @@ ServerEvents.recipes((event) => {
                 A: "ars_nouveau:source_gem",
                 B: "irons_spellbooks:arcane_essence",
                 C: "minecraft:book",
-                D: "eidolon:lesser_soul_gem",
+                D: "forbidden_arcanus:arcane_crystal",
                 E: "minecraft:iron_shovel",
                 F: "minecraft:iron_pickaxe",
                 G: "minecraft:iron_axe",
@@ -123,6 +123,19 @@ ServerEvents.recipes((event) => {
         //         d: { tag: "forge:rods/wooden" },
         //     },
         // },
+        {
+            result: "ars_nouveau:apprentice_spell_book",
+            pattern: [" A ", "BCB", " D "],
+            reagents: "EFEF",
+            key: {
+                A: "eidolon:lesser_soul_gem",
+                B: "aether:zanite_gemstone",
+                C: "ars_nouveau:novice_spell_book",
+                D: "#minecraft:candles",
+                E: "minecraft:diamond",
+                F: "cataclysm:koboleton_bone",
+            },
+        },
     ];
 
     recipes.forEach((recipe) => {
