@@ -192,6 +192,15 @@ ServerEvents.recipes((event) => {
                 "forbidden_arcanus:arcane_crystal_block",
             ],
         },
+        {
+            output: "ars_nouveau:archmage_spell_book",
+            reagent: "ars_nouveau:apprentice_spell_book",
+            inputs: [
+                "ars_nouveau:wilden_tribute",
+                "cataclysm:amethyst_crab_shell",
+                "alexsmobs:rainbow_jelly",
+            ],
+        },
     ];
 
     recipes.forEach((recipe) => {
