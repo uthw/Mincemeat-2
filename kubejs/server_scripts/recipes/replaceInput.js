@@ -755,6 +755,31 @@ ServerEvents.recipes((event) => {
             "forbidden_arcanus:arcane_crystal",
         ],
         [{ mod: "storagenetwork" }, "storagenetwork:kabel", "prettypipes:pipe"],
+        [
+            { output: "forbidden_arcanus:cloth" },
+            "minecraft:white_wool",
+            "eidolon:tattered_cloth",
+        ],
+        [
+            { output: "minecraft:item_frame" },
+            "minecraft:leather",
+            "eidolon:tattered_cloth",
+        ],
+        [
+            { output: "create_new_age:nuclear_fuel" },
+            "create_new_age:radioactive_thorium",
+            "alexscaves:uranium",
+        ],
+        [
+            { output: "create_new_age:heat_pump" },
+            "create_new_age:thorium",
+            "#forge:ingots/nickel",
+        ],
+        [
+            { output: "create_new_age:heat_pipe" },
+            "#minecraft:terracotta",
+            "create:ochrum",
+        ],
     ];
 
     replacements.forEach((replacement) => {
