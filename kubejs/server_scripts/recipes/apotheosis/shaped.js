@@ -141,8 +141,8 @@ ServerEvents.recipes((event) => {
             output: "apotheosis:reforging_table",
             inputs: [" A ", "BCB", "DDD"],
             keys: {
-                A: "minecraft:netherite_ingot",
-                B: "apotheosis:epic_material",
+                A: "blue_skies:charoite",
+                B: "ars_nouveau:wilden_horn",
                 C: "apotheosis:simple_reforging_table",
                 D: "eidolon:polished_planks",
             },
@@ -158,6 +158,19 @@ ServerEvents.recipes((event) => {
                 D: "apotheosis:gem_dust",
             },
             id: "apotheosis:gem_cutting_table",
+        },
+        {
+            output: "apotheosis:salvaging_table",
+            inputs: ["AAA", "BCD", "EFE"],
+            keys: {
+                A: "minecraft:copper_ingot",
+                B: "betterend:iron_hammer",
+                C: "quark:crate",
+                D: "forbidden_arcanus:xpetrified_orb",
+                E: "minecraft:magma_block",
+                F: "enigmaticlegacy:earth_heart",
+            },
+            id: "apotheosis:salvaging_table",
         },
     ];
 
