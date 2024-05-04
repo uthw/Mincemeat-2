@@ -64,6 +64,9 @@ WorldgenEvents.remove((event) => {
             "eidolon:deepslate_lead_ore",
             "thermal:tin_ore",
             "thermal:deepslate_tin_ore",
+
+            "create_new_age:thorium_ore",
+            "create_new_age:deepslate_thorium_ore",
         ];
     });
 });
