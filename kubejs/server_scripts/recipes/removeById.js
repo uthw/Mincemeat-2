@@ -25,7 +25,12 @@ ServerEvents.recipes((event) => {
         "forbidden_arcanus:corrupti_dust",
         "forbidden_arcanus:dragon_scale",
         "forbidden_arcanus:deorum_ingot",
-        // "null",
+        "iceandfire:dragonbone_sword",
+        "iceandfire:dragonbone_pickaxe",
+        "iceandfire:dragonbone_axe",
+        "iceandfire:dragonbone_hoe",
+        "ars_nouveau:apprentice_spell_book_upgrade",
+        "ars_nouveau:archmage_spell_book_upgrade",
     ];
 
     toRemove.forEach((recipeId) => {
