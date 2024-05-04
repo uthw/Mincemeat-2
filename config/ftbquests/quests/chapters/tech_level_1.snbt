@@ -1547,6 +1547,62 @@
 			x: 6.0d
 			y: -7.5d
 		}
+		{
+			dependencies: ["1F0A5F83AD3401F9"]
+			description: [
+				"This item converts &eenchantments on items&r into &eexperience&r. "
+				""
+				"You'll need &efluid tanks&r for storing the experience."
+				""
+				"You can run a &epipe&r out of the &efluid tank&r without connecting it to anything and &eexperience orbs&r will leak out of it."
+			]
+			id: "004EC4F43533B12C"
+			tasks: [{
+				id: "3BEFDD9A2D5FA6DF"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["004EC4F43533B12C"]
+			description: ["The &6printer&r can duplicate various written items, like &eenchanted books&r and &etrain schedules&r."]
+			id: "5794C4195BB5D0C6"
+			tasks: [{
+				id: "1CA71611236B697A"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7BCE10D50BB54C12"]
+			id: "067561E11F848EBB"
+			tasks: [
+				{
+					count: 24L
+					id: "4339B9E982949828"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "18B62D682AD55ED1"
+					item: "create_new_age:basic_motor"
+					type: "item"
+				}
+				{
+					id: "62F736251C3B22EE"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+			]
+			title: "Electricity"
+			x: 7.5d
+			y: -13.5d
+		}
 	]
 	title: "Tech Level 1"
 }
