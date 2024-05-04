@@ -80,7 +80,7 @@ ServerEvents.highPriorityData((event) => {
             placement: [
                 {
                     type: "minecraft:count",
-                    count: 12,
+                    count: 2,
                 },
                 {
                     type: "minecraft:in_square",
@@ -114,7 +114,7 @@ ServerEvents.highPriorityData((event) => {
             placement: [
                 {
                     type: "minecraft:count",
-                    count: 12,
+                    count: 2,
                 },
                 {
                     type: "minecraft:in_square",
