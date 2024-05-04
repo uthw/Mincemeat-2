@@ -28,7 +28,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			description: ["Found in the &5Hunter's House&r, or in the wild."]
@@ -54,22 +54,6 @@
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
-			description: ["*to access dimensions be sure to check off the next quest"]
-			id: "4753A368F0639E4F"
-			subtitle: "Kill the &5Frostologer"
-			tasks: [{
-				entity: "frostiful:frostologer"
-				icon: "reliquary:frozen_core"
-				id: "369B4193CCF27E24"
-				title: "Chilly Reception"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4753A368F0639E4F"]
 			description: ["You'll be back in the Overworld before long..."]
 			icon: "forbidden_arcanus:whirlwind_prism"
 			id: "18D1EA8E41311823"
@@ -88,11 +72,11 @@
 				title: "Extraterrestrial Foes Await!"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -3.75d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["4753A368F0639E4F"]
+			dependencies: ["4493D9650B5D1F71"]
 			description: [
 				"The tower can be found using &bSoul Stars&r."
 				""
@@ -122,11 +106,11 @@
 				}
 			]
 			title: "Night Lich"
-			x: 1.5d
-			y: -3.5d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4753A368F0639E4F"]
+			dependencies: ["4493D9650B5D1F71"]
 			icon: "bosses_of_mass_destruction:void_lily"
 			id: "21D6AB95329A4EEF"
 			tasks: [
@@ -143,11 +127,11 @@
 				}
 			]
 			title: "Void Blossom"
-			x: 2.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4753A368F0639E4F"]
+			dependencies: ["4493D9650B5D1F71"]
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
 			tasks: [
@@ -164,11 +148,11 @@
 				}
 			]
 			title: "Ice Maze"
-			x: -2.5d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4753A368F0639E4F"]
+			dependencies: ["4493D9650B5D1F71"]
 			description: [
 				""
 				"    Collect the three bone staff pieces (Ominous Bone Staff Fragment) from the Ruins structure."
@@ -199,7 +183,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4753A368F0639E4F"]
+			dependencies: ["4493D9650B5D1F71"]
 			description: [
 				"An easy setup is to dig a 2x2 tunnel more than 15 blocks long and then start using ranged attacks on the Warden. This is because it will only use its sonic shriek if you're within 15 blocks of it."
 				""
