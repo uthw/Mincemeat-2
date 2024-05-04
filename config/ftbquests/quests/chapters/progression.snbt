@@ -58,18 +58,6 @@
 			x: -0.5d
 			y: -3.0d
 		}
-		{
-			dependencies: ["630B1C4C9BE35418"]
-			id: "4F12BE39095A1B81"
-			tasks: [{
-				entity: "frostiful:frostologer"
-				id: "7E90BDDCA54DD9F6"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.5d
-			y: -5.0d
-		}
 	]
 	title: "Progression"
 }
