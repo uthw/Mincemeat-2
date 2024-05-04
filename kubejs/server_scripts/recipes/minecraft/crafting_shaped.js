@@ -489,6 +489,42 @@ ServerEvents.recipes((event) => {
                 E: "#minecraft:planks",
             },
         ],
+        [
+            "iceandfire:dragonbone_sword",
+            [" A ", " B ", " C "],
+            {
+                A: "iceandfire:dragonbone",
+                B: "alexscaves:heavy_bone",
+                C: "iceandfire:witherbone",
+            },
+        ],
+        [
+            "iceandfire:dragonbone_pickaxe",
+            ["ABA", " C ", " C "],
+            {
+                A: "iceandfire:dragonbone",
+                B: "alexscaves:heavy_bone",
+                C: "iceandfire:witherbone",
+            },
+        ],
+        [
+            "iceandfire:dragonbone_axe",
+            ["AB ", "BC ", " C "],
+            {
+                A: "alexscaves:heavy_bone",
+                B: "iceandfire:dragonbone",
+                C: "iceandfire:heavy_bone",
+            },
+        ],
+        [
+            "iceandfire:dragonbone_hoe",
+            ["AB ", " C ", " C "],
+            {
+                A: "iceandfire:dragonbone",
+                B: "alexscaves:heavy_bone",
+                C: "iceandfire:witherbone",
+            },
+        ],
     ];
 
     recipes.forEach((recipe) => {
