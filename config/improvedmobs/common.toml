@@ -162,7 +162,7 @@
 	"Item Whitelist" = false
 	#Blacklist for items mobs should never be able to use.
 	#Use as in using the item similar to players (e.g. shooting bows)
-	"Item Use Blacklist" = ["bigbrain:buckler", "minecraft:tnt"]
+	"Item Use Blacklist" = ["bigbrain:buckler", "minecraft:tnt", "enigmaticlegacy:the_judgement"]
 	#Turn the use blacklist into a whitelist
 	"Item Use Whitelist" = false
 	#Blacklist for specific mobs and items they shouldnt use (e.g. skeletons already use bows)
