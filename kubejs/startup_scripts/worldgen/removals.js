@@ -67,6 +67,10 @@ WorldgenEvents.remove((event) => {
 
             "create_new_age:thorium_ore",
             "create_new_age:deepslate_thorium_ore",
+
+            "rftoolsbase:dimensionalshard_overworld",
+            "rftoolsbase:dimensionalshard_nether",
+            "rftoolsbase:dimensionalshard_end",
         ];
     });
 });
