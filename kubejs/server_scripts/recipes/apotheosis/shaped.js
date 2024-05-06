@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:prismarine_bricks",
                 B: "irons_spellbooks:arcane_essence",
                 C: "#c:bookshelves",
-                D: "thermal:apatite",
+                D: "upgrade_aquatic:thrasher_tooth",
             },
             id: "apotheosis:seashelf",
         },
@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
             output: "apotheosis:crystal_seashelf",
             inputs: [" A ", " B ", "ACA"],
             keys: {
-                A: "forbidden_arcanus:arcane_crystal_dust",
+                A: "#forge:death_worm_chitins",
                 B: "apotheosis:infused_seashelf",
                 C: "alexsmobs:fish_bones",
             },
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
             keys: {
                 A: "minecraft:echo_shard",
                 B: "apotheosis:deepshelf",
-                C: "eidolon:tattered_cloth",
+                C: "forbidden_arcanus:soul",
             },
             id: "apotheosis:echoing_deepshelf",
         },
@@ -154,7 +154,7 @@ ServerEvents.recipes((event) => {
             keys: {
                 A: "farmersdelight:diamond_knife",
                 B: "thermal:apatite",
-                C: "#handcrafted:tables",
+                C: "#valhelsia_furniture:tables",
                 D: "apotheosis:gem_dust",
             },
             id: "apotheosis:gem_cutting_table",

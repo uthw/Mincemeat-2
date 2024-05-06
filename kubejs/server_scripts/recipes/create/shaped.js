@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             ["AB ", "BA ", "   "],
             {
                 A: "minecraft:andesite",
-                B: "#forge:salt",
+                B: "architects_palette:algal_blend",
             },
         ],
         [

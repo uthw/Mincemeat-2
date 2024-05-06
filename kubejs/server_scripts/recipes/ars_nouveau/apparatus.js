@@ -201,6 +201,16 @@ ServerEvents.recipes((event) => {
                 "alexsmobs:rainbow_jelly",
             ],
         },
+        {
+            output: "forbidden_arcanus:deorum_ingot",
+            reagent: "minecraft:gold_ingot",
+            inputs: [
+                "create:asurine",
+                "paraglider:spirit_orb",
+                "betternether:black_apple",
+                "blue_skies:moonstone",
+            ],
+        },
     ];
 
     recipes.forEach((recipe) => {

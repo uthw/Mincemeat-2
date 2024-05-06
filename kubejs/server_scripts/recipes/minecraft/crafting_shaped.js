@@ -463,7 +463,7 @@ ServerEvents.recipes((event) => {
             "prettypipes:pipe",
             ["ABA", " C ", "   "],
             {
-                A: "#forge:ingots/iron",
+                A: "#forge:ingots/copper",
                 B: "create:belt_connector",
                 C: "minecraft:redstone",
             },
@@ -523,6 +523,17 @@ ServerEvents.recipes((event) => {
                 A: "iceandfire:dragonbone",
                 B: "alexscaves:heavy_bone",
                 C: "iceandfire:witherbone",
+            },
+        ],
+        [
+            "createoreexcavation:vein_finder",
+            ["AB ", "CD ", " E "],
+            {
+                A: "forbidden_arcanus:xpetrified_orb",
+                B: "tetra:geode",
+                C: "ars_nouveau:starbuncle_shards",
+                D: "thermal:blizz_rod",
+                E: "#forge:rods/wooden",
             },
         ],
     ];
