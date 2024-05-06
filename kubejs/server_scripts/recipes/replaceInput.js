@@ -780,6 +780,111 @@ ServerEvents.recipes((event) => {
             "#minecraft:terracotta",
             "create:ochrum",
         ],
+        [
+            { output: "create_enchantment_industry:printer" },
+            "minecraft:dried_kelp",
+            "ars_nouveau:runic_chalk",
+        ],
+        [
+            { output: "ars_nouveau:manipulation_essence" },
+            "minecraft:stone_button",
+            "thermal:apatite",
+        ],
+        [
+            { output: "ars_nouveau:manipulation_essence" },
+            "minecraft:clock",
+            "delightful:green_tea_leaf",
+        ],
+        [
+            { output: "ars_nouveau:glyph_aoe" },
+            "minecraft:firework_star",
+            "thermal:basalz_rod",
+        ],
+        [
+            { output: "ars_nouveau:glyph_accelerate" },
+            "minecraft:powered_rail",
+            "neapolitan:chocolate_bar",
+        ],
+        [
+            { output: "ars_nouveau:glyph_accelerate" },
+            "minecraft:clock",
+            "blue_skies:moonstone_shard",
+        ],
+        [
+            { output: "ars_nouveau:glyph_amplify" },
+            "minecraft:diamond_pickaxe",
+            "#forge:scales/sea_serpent",
+        ],
+        [
+            { output: "ars_nouveau:glyph_dampen" },
+            "minecraft:nether_brick",
+            "#forge:death_worm_chitins",
+        ],
+        [
+            { output: "ars_nouveau:glyph_decelerate" },
+            "minecraft:clock",
+            "autumnity:snail_goo",
+        ],
+        [
+            { output: "ars_nouveau:glyph_decelerate" },
+            "minecraft:soul_sand",
+            "alexsmobs:banana_slug_slime",
+        ],
+        [
+            { output: "ars_nouveau:glyph_duration_down" },
+            "minecraft:glowstone_dust",
+            "autumnity:snail_goo",
+        ],
+        [
+            { output: "ars_nouveau:glyph_extend_time" },
+            "minecraft:redstone_block",
+            "thermal:cured_rubber",
+        ],
+        [
+            { output: "ars_nouveau:glyph_fortune" },
+            "minecraft:rabbit_foot",
+            "eidolon:zombie_heart",
+        ],
+        [
+            { output: "ars_nouveau:glyph_pierce" },
+            "minecraft:arrow",
+            "blue_skies:moonstone_shard",
+        ],
+        [
+            { output: "ars_nouveau:glyph_randomize" },
+            "minecraft:pink_carpet",
+            "forbidden_arcanus:dark_matter",
+        ],
+        [
+            { output: "ars_nouveau:glyph_sensitive" },
+            "minecraft:scaffolding",
+            "delightful:salmonberries",
+        ],
+        [
+            { output: "ars_nouveau:glyph_sensitive" },
+            "minecraft:water_bucket",
+            "delightful:salmonberries",
+        ],
+        [
+            { output: "ars_nouveau:glyph_split" },
+            "minecraft:stonecutter",
+            "#quark:shards",
+        ],
+        [
+            { output: "ars_nouveau:glyph_animate_block" },
+            "#forge:obsidian",
+            "create_new_age:magnetite_block",
+        ],
+        [
+            { output: "ars_nouveau:glyph_blink" },
+            "#forge:ender_pearls",
+            "eidolon:wraith_heart",
+        ],
+        [
+            { output: "ars_nouveau:glyph_break" },
+            "minecraft:iron_pickaxe",
+            "createoreexcavation:drill",
+        ],
     ];
 
     replacements.forEach((replacement) => {
