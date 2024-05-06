@@ -106,6 +106,7 @@ ServerEvents.recipes((event) => {
         "sophisticatedstorage:filter_upgrade",
         "relics:researching_table",
         "buildersaddition:iron_rod",
+        "#valhelsia_furniture:chairs",
     ];
 
     toRemove.forEach((item) => {
