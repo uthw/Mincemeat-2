@@ -26,6 +26,6 @@
     "autoRotation": false,
     "exhaustionWallJump": 0.8
   },
-  "playFallSound": true,
+  "playFallSound": false,
   "stepAssist": true
 }
