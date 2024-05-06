@@ -31,6 +31,7 @@ ServerEvents.recipes((event) => {
         "iceandfire:dragonbone_hoe",
         "ars_nouveau:apprentice_spell_book_upgrade",
         "ars_nouveau:archmage_spell_book_upgrade",
+        "createoreexcavation:vein_finder",
     ];
 
     toRemove.forEach((recipeId) => {
