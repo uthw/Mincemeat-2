@@ -130,6 +130,9 @@
 				orange_maple = true
 				red_maple = true
 
+			[general.types.leaves_type.architects_palette]
+				twisted = true
+
 		[general.types.cake]
 
 			[general.types.cake.createaddition]
@@ -249,6 +252,9 @@
 
 			[general.types.wood_type.autumnity]
 				maple = true
+
+			[general.types.wood_type.architects_palette]
+				twisted = true
 
 	#Disables specific entries
 	[general.entries]
@@ -420,4 +426,11 @@
 				rope_bridge_stair = true
 				log_bridge_stair = true
 				rail_bridge = true
+
+			[general.entries.wood_type.architects_palette]
+				board_stairs = true
+				board_wall = true
+				railing = true
+				boards = true
+				board_slab = true
 
