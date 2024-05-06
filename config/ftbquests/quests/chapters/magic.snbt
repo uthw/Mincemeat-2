@@ -185,11 +185,11 @@
 		{
 			dependencies: ["49079A4790CE0545"]
 			description: [
-				"This arcane gem is found in the underground Everbright."
+				"An imbuement chamber can turn items into other items."
 				""
-				"Later I will show you how to make them renewably."
+				"Place Arcane Crystals or Amethyst inside to turn them into source gems."
 				""
-				"While you may have Source Gems, you need it without the gems in order to create glyphs."
+				"Later, mana from Source Jars can speed up this process."
 			]
 			icon: "ars_nouveau:source_gem"
 			id: "72096F084142B453"
@@ -228,11 +228,30 @@
 					type: "custom"
 				}
 			]
-			tasks: [{
-				id: "3608E3713CD5C8BC"
-				item: "ars_nouveau:source_gem"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4FECDACFC154AE4F"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:dowsing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "568BD6111024F305"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "2BD7321AF7BD01A3"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "How to Get Source Gems"
 			x: 6.0d
 			y: -3.0d
 		}
