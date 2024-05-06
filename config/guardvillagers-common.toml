@@ -49,6 +49,8 @@
 	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard"]
 	#Guards will additionally attack mobs ids put in this list, for example, putting "minecraft:cow" in this list will make guards attack cows.
 	"Mob Whitelist" = []
+	#Hostiles attack guards, by default only illagers and zombies will attack guards, the mob blacklist below will effect this option
+	"All mobs attack guards" = false
 
 ["villager stuff"]
 	#This makes villagers run from polar bears, as anyone with common sense would.
