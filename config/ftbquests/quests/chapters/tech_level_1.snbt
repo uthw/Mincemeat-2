@@ -1264,8 +1264,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -12.0d
+			x: 5.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0A26B049A30FF9DA"]
@@ -1579,6 +1579,11 @@
 		}
 		{
 			dependencies: ["7BCE10D50BB54C12"]
+			description: [
+				"Place the magnets around the wheel and then start generating energy from the &eelectromagnetism&r. The motors can turn this into &erotational force&r."
+				""
+				"The &6motor&r can transfer its &6electricity&r to adjacent blocks."
+			]
 			id: "067561E11F848EBB"
 			tasks: [
 				{
@@ -1602,6 +1607,53 @@
 			title: "Electricity"
 			x: 7.5d
 			y: -13.5d
+		}
+		{
+			dependencies: ["067561E11F848EBB"]
+			description: ["The &6energizer&r provides electricity to items on belts and depots under it."]
+			id: "6C5D061B5AFEC926"
+			tasks: [{
+				id: "323BA25D43A97F32"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["678E6CB5A7AB483B"]
+			description: ["WIP"]
+			id: "49A781E15CF02B22"
+			tasks: [
+				{
+					id: "0379A846C1AF6849"
+					item: "createoreexcavation:drill"
+					type: "item"
+				}
+				{
+					id: "3925A7A3E43BEFF2"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createoreexcavation:drilling_machine"
+								}
+								{
+									Count: 1b
+									id: "createoreexcavation:extractor"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ore Excavation"
+			x: 6.0d
+			y: -12.5d
 		}
 	]
 	title: "Tech Level 1"
