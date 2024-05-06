@@ -15,28 +15,9 @@
 				"\"This is the journal that reveals the secrets, mysteries, and techniques passed down through the centuries. As your journey advances, obtain this knowledge and venture forth.\""
 			]
 			id: "2BE6B05790E5A2DE"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/clear @p patchouli:guide_book"
-					id: "2EBA59B439B64B4C"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/give @p ftbquests:book"
-					id: "70A7C1BBD451E9E3"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/clear @p enigmaticlegacy:cursed_ring"
-					id: "661115E4F0228140"
-					type: "command"
-				}
-			]
 			tasks: [{
-				id: "3E387AF76AB6D8A3"
+				icon: "botania:cosmetic_clock_eye"
+				id: "7ABAEA70F4D6542F"
 				stat: "minecraft:play_time"
 				type: "stat"
 				value: 1
@@ -862,7 +843,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["479B3130EB602E62"]
+			dependencies: ["5A9940962797FE6E"]
 			description: ["By this point you might have a lot of weapons you rotate through. The Tool Belt solves this problem."]
 			id: "29FD143B5932E299"
 			tasks: [{
@@ -1007,6 +988,19 @@
 			]
 			x: 9.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["479B3130EB602E62"]
+			description: ["The &3seashelf&r is more potent than regular bookshelves, allowing you to enchant above&d level 30&r. With &315 seashelves&r, you can enchant at &dlevel 40&r."]
+			id: "6B9C52397843B044"
+			tasks: [{
+				count: 5L
+				id: "798EE2298D81F730"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
 		}
 	]
 	title: "Getting Started"
