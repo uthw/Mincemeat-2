@@ -32,6 +32,15 @@ ServerEvents.recipes((event) => {
         "ars_nouveau:apprentice_spell_book_upgrade",
         "ars_nouveau:archmage_spell_book_upgrade",
         "createoreexcavation:vein_finder",
+        "mekanism:fluid_tank/basic",
+        "mekanism:tier_installer/basic",
+        "mekanism:tier_installer/advanced",
+        "mekanism:tier_installer/elite",
+        "mekanism:tier_installer/ultimate",
+        "mekanism:digital_miner",
+        "mekanism:teleportation_core",
+        "powersuits:tinkertable",
+        "littlelogistics:transmitter_component",
     ];
 
     toRemove.forEach((recipeId) => {

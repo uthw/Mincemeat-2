@@ -159,7 +159,7 @@
 				{
 					id: "7F234B2F8E37FB46"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -373,7 +373,7 @@
 			tasks: [{
 				id: "18C148347CAA6D31"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "botanypots:all_botany_pots"
@@ -684,7 +684,7 @@
 				{
 					id: "6915065A2D4FF6DB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "thermal:wrench"
 						tag: { }
 					}
@@ -890,6 +890,7 @@
 			]
 			id: "5AB2B311B9B179B9"
 			invisible: true
+			optional: true
 			tasks: [{
 				id: "720073CCC5F7E444"
 				item: "powah:magmator_starter"
@@ -903,6 +904,7 @@
 			dependencies: ["5AB2B311B9B179B9"]
 			description: ["This generators is able to harness more energy from &emolten liquids&r than the &emagmator&r, but runs pretty hot and, as such, requires &ewater&r to keep it cool."]
 			id: "2414EF97B942ED2A"
+			optional: true
 			tasks: [{
 				id: "3F17A454A2F007A6"
 				item: "powah:thermo_generator_starter"
@@ -915,6 +917,7 @@
 		{
 			dependencies: ["2414EF97B942ED2A"]
 			id: "5F6F1D26EFEE17D2"
+			optional: true
 			tasks: [{
 				id: "08AE5E907BE288C8"
 				item: "powah:reactor_starter"
@@ -1039,7 +1042,7 @@
 			rewards: [{
 				id: "04AF334FA09C219C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -1053,7 +1056,7 @@
 			tasks: [{
 				id: "08D5998B59548E20"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:rf_potato"
 					tag: { }
 				}
@@ -1070,7 +1073,7 @@
 				{
 					id: "4146C13809A9EE6F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "thermal:flux_drill"
 						tag: { }
 					}
@@ -1079,7 +1082,7 @@
 				{
 					id: "0D4513FFA2737DCF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "thermal:flux_saw"
 						tag: { }
 					}
@@ -1102,7 +1105,7 @@
 			tasks: [{
 				id: "547FE896ABA4CD3E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:flux_capacitor"
 					tag: { }
 				}
@@ -1219,7 +1222,7 @@
 			tasks: [{
 				id: "25CBEA27B82A44F5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 0
@@ -1321,7 +1324,7 @@
 				{
 					id: "1FB0DD75380EC0E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:super_glue"
 						tag: {
 							Damage: 0
@@ -1332,7 +1335,7 @@
 				{
 					id: "1EA1232BAAACA5C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "create:seats"
@@ -1441,7 +1444,7 @@
 			tasks: [{
 				id: "5BC4005D9721594F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:detonator"
 					tag: { }
 				}
@@ -1495,7 +1498,7 @@
 			tasks: [{
 				id: "56E38A0772DA8602"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:potion_quiver"
 					tag: { }
 				}
@@ -1511,7 +1514,7 @@
 			tasks: [{
 				id: "39353F700ACCAE29"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "thermal:potion_infuser"
 					tag: { }
 				}
@@ -1633,7 +1636,7 @@
 				{
 					id: "3925A7A3E43BEFF2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1654,6 +1657,210 @@
 			title: "Ore Excavation"
 			x: 6.0d
 			y: -12.5d
+		}
+		{
+			dependencies: ["6E51F7DE0D0CC8CB"]
+			description: [
+				"The tug route stores a route for the tug. Right click the tug and put the route in the slot."
+				""
+				"Before that, we have to set a route. Right click to set nodes on the route to that position. Red and black striped beams appear where you've set these. You can remove nodes by Rclicking at the position of the beam, or you can open an advanced GUI with shift Rclick."
+				""
+				"*I remember writing these descriptions for mincemeat 1 at 3 am so if they make no sense I'm sorry"
+			]
+			id: "18D5766DA3ACAEF3"
+			subtitle: "Cute trains (real) and boats"
+			tasks: [{
+				id: "0D50686233CB2463"
+				item: "littlelogistics:tug_route"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22CD98412754D6B5"]
+			description: ["&6Guide rails&r are paths that &etugboats will follow&r when placed under water. &6Corner guides&r are useful for sharp corners."]
+			id: "4303A5763DE99D5E"
+			tasks: [
+				{
+					id: "0041238B79A289C8"
+					item: "littlelogistics:guide_rail_tug"
+					type: "item"
+				}
+				{
+					id: "2BB9D31ADBDF0F9D"
+					item: "littlelogistics:guide_rail_corner"
+					type: "item"
+				}
+			]
+			title: "Guide Rails"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22CD98412754D6B5"]
+			id: "7D73D350CF15B5EA"
+			tasks: [{
+				id: "7317A7CC2D56DFC6"
+				item: "littlelogistics:tug_dock"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18D5766DA3ACAEF3"]
+			description: ["&eLink barges or cars&r together, forming a train."]
+			id: "22CD98412754D6B5"
+			tasks: [{
+				id: "39FB278B8C8FEBF9"
+				item: "littlelogistics:spring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22CD98412754D6B5"]
+			id: "3A102D4559D4268E"
+			subtitle: "Powered with furnace fuel, loaded manually or automatically using hoppers on top of tug docks"
+			tasks: [{
+				id: "3B1C1DCA9FA625CA"
+				item: "littlelogistics:tug"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22CD98412754D6B5"]
+			description: ["Has a slot for a capacitor for longer trips."]
+			id: "5FE32E36F5E50636"
+			subtitle: "Powered with energy, charged when docked with a vessel charger"
+			tasks: [{
+				id: "4DF9A85EAE8C3C84"
+				item: "littlelogistics:energy_tug"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5FE32E36F5E50636"
+				"3A102D4559D4268E"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Some things can be placed inside &6tugs&r to give them &efunctions&r."
+				""
+				"&6Tugs with inventories&r can be loaded and unloaded using &ehoppers&r (or the liquid equivalent)"
+			]
+			id: "0810BF748CEE5680"
+			rewards: [{
+				id: "4AA995FDD3980D50"
+				item: "littlelogistics:fluid_hopper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5FBD931C6F65B11A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "littlelogistics:barrel_barge"
+								}
+								{
+									Count: 1b
+									id: "littlelogistics:barge"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F0984B6449239FA"
+					item: "littlelogistics:fishing_barge"
+					type: "item"
+				}
+				{
+					id: "2A586F04D19A8554"
+					item: "littlelogistics:fluid_barge"
+					type: "item"
+				}
+				{
+					id: "4A8D130EE6A8849B"
+					item: "littlelogistics:seater_barge"
+					type: "item"
+				}
+				{
+					id: "10D2A21ADB4A2EE6"
+					item: "littlelogistics:vacuum_barge"
+					type: "item"
+				}
+				{
+					id: "7E254B21E2FA8ADA"
+					item: "littlecontraptions:contraption_barge"
+					type: "item"
+				}
+			]
+			title: "Make Every Tug"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C6E8209B322BCAB"]
+			id: "3C11DA9FBC69444C"
+			tasks: [{
+				id: "631F998F7807AF5F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "littlelogistics:steam_locomotive"
+							}
+							{
+								Count: 1b
+								id: "littlelogistics:energy_locomotive"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Locomotive"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18D5766DA3ACAEF3"]
+			id: "5C6E8209B322BCAB"
+			tasks: [{
+				id: "6FDCCD7A8F6B2F07"
+				item: "littlelogistics:locomotive_route"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0810BF748CEE5680"]
+			id: "3CF2F65233C67347"
+			tasks: [{
+				id: "401CB6729DDC8619"
+				item: "littlecontraptions:barge_assembler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
 		}
 	]
 	title: "Tech Level 1"

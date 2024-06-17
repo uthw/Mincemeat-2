@@ -211,6 +211,11 @@ ServerEvents.recipes((event) => {
                 "blue_skies:moonstone",
             ],
         },
+        {
+            output: "eidolon:tattered_cloth",
+            reagent: "forbidden_arcanus:cloth",
+            inputs: ["minecraft:rotten_flesh", "minecraft:rotten_flesh"],
+        },
     ];
 
     recipes.forEach((recipe) => {

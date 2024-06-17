@@ -19,10 +19,18 @@ A modpack for Minecraft 1.20.1 that focuses on providing a challenging yet forgi
 
 ## Tips
 
--   Never update mods.
+-   Never update mods unless I tell you to.
 -   Don't add OptiFine.
 -   Make an issue here if something isn't right.
 -   Don't set allocated RAM above 10 GB.
+
+## Versioning
+
+I use something similar to semantic versioning for releases. Until the modpack is complete, it will always be v0.x.x.x
+
+If the first x changes with a new release, it means worlds from old versions will fail to load or new chunks in those worlds will be significantly different from old chunks to the point where making a new world is recommended.
+If only the second x changes, worlds from old versions are compatible with the new release, but you should read the patch notes to see if new chunks will have any differences from old ones.
+Once guineapigboyx gets a server running, I might add a fourth number that indicates whether a new release is compatible with old servers.
 
 ## Credits
 

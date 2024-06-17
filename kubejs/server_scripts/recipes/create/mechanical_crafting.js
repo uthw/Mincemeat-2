@@ -74,6 +74,32 @@ ServerEvents.recipes((event) => {
                 D: "#forge:wires/copper",
             },
         },
+        {
+            output: "mekanism:digital_miner",
+            inputs: [" ABCBA", "  DED ", "FGHIHG"],
+            keys: {
+                A: "mekanism:alloy_atomic",
+                B: "createaddition:gold_wire",
+                C: "thermal:rf_potato",
+                D: "mekanism:digital_sorter",
+                E: "mekanism:robit",
+                F: "mekanism:teleportation_core",
+                G: "create_new_age:overcharged_diamond",
+                H: "mekanism:teleportation_core",
+                I: "mekanism:steel_casing",
+            },
+        },
+        // {
+        //     output: "powersuits:tinkertable",
+        //     inputs: [" A ", "BCB", "CDC", "BEB"],
+        //     keys: {
+        //         A: "alexscaves:uranium",
+        //         B: "refinedstorage:machine_casing",
+        //         C: "architects_palette:nether_brass_ingot",
+        //         D: "alexscaves:fissile_core",
+        //         E: "littlelogistics:transmitter_component",
+        //     },
+        // },
     ];
 
     recipes.forEach((recipe) => {

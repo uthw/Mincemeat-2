@@ -10,7 +10,7 @@
   },
   "doubleconfigs": {
     "useDoubleJump": false,
-    "minFallDistance": 7.5
+    "minFallDistance": 5.5
   },
   "speedconfigs": {
     "sprintSpeedBoost": 0.0,

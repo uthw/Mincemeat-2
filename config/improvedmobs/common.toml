@@ -153,6 +153,10 @@
 	#This will not restore block entity data!
 	#Range: > 0
 	"Restore delay" = 0
+	#By default mobs can only break the block they can harvest with the current tool they holding. Set this to true to disable that check (The block will not drop if they cant harvest it though!).
+	"Ignore Harvest Check" = false
+	#Set this to true to allow tnt thrown by mobs to destroy blocks
+	"TNT Block Destruction" = false
 
 #Configs regarding mobs spawning with equipment
 [equipment]

@@ -14,6 +14,7 @@
 				""
 				"\"This is the journal that reveals the secrets, mysteries, and techniques passed down through the centuries. As your journey advances, obtain this knowledge and venture forth.\""
 			]
+			icon: "minecraft:oak_sapling"
 			id: "2BE6B05790E5A2DE"
 			tasks: [{
 				icon: "botania:cosmetic_clock_eye"
@@ -38,6 +39,12 @@
 				"- Your allocated RAM is between &c6 and 8 GB&r. You typically set this through this instance's settings."
 				""
 				"&dWell, that was a pretty boring secret...&r"
+				"{@pagebreak}"
+				"&dHello!&r"
+				""
+				"Many other quests have other pages with more information like what you see here."
+				""
+				"Another disclaimer: a lot of quests are directly ripped from the &coriginal Mincemeat&r. These may have &cless cohesive descriptions&r or &cinconsistent progression&r design compared to the &cMincemeat 2&r quests. "
 			]
 			id: "5220B018D9E7F614"
 			subtitle: "What could it be?"
@@ -67,7 +74,7 @@
 				{
 					id: "3FBEF32A1749D957"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_pickaxe"
 						tag: {
 							Damage: 0
@@ -85,9 +92,11 @@
 			description: [
 				"&lTorches&r provide a strong, temporary light. Their downside is that they (don't) &cburn out after one hour.&r"
 				""
-				"(the mod that does this is disabled for the time being)"
+				"&7&o(the mod that does this is disabled for the time being)&r&r"
 				""
 				"They're nice for lighting up caves and keeping mobs away while you're building, but you're going to need something like a &llantern&r or &lchandelier&r for permanent light."
+				""
+				"&m&8(torches are ugly and think about how you've degraded this far if you choose to use them in your builds)&r&r"
 			]
 			id: "0A6DBC786BCF967E"
 			tasks: [{
@@ -102,27 +111,25 @@
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
 			description: [
-				"The pack is far from complete! I'd estimate around 25% right now."
+				"The pack is far from complete! I'd estimate around 35% right now."
 				""
 				"Quests, recipes, textures, other customization, lots of things aren't done."
 				""
-				"Plus, here's a list of major mods that haven't been ported to 1.20.x"
+				"Plus, here's a list of major mods that haven't been ported to 1.20.x &7(and were important in Mincemeat 1)&r"
 				""
-				"- Mowzie's Mobs"
 				"- Meet Your Fight"
-				"- Immersive Engineering \\& Engineer's Decor/Tools"
 				"- Unqiue Enchantments"
 				"- Astral Sorcery"
 				"- Charm"
-				"- Abnormals mods"
 				"- Hats"
 				"- Tinkers' Construct"
 				"- Modular Powersuits"
 				"- Infernal Expansion"
-				"- Spartan Weaponry"
 				"- Atum 2"
 				""
 				"I hope this list gets smaller, but it will be a matter of months (maybe even years in Astral Sorcery's case) before it's empty!"
+				""
+				"&7It's been fun for me crossing mods off this list :)&r"
 			]
 			id: "0744F31452AD387B"
 			tasks: [{
@@ -224,7 +231,7 @@
 				{
 					id: "0A53AFAE879F6747"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:stone_pickaxe"
 						tag: {
 							Damage: 0
@@ -242,7 +249,7 @@
 				{
 					id: "0CC4E6E56AB03038"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:tools/knives"
@@ -272,6 +279,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["0A6DBC786BCF967E"]
 			id: "3571CB6136F6E3EB"
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
@@ -279,11 +287,11 @@
 				id: "5B147F40E2B6243D"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["74F529B8810608A5"]
+			dependencies: ["5AA15937C7BBDF98"]
 			description: [
 				"You should regonize this!"
 				""
@@ -299,8 +307,8 @@
 				item: "extractinator:extractinator"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6C08AF09C8F20F4F"]
@@ -334,8 +342,8 @@
 				type: "item"
 			}]
 			title: "Water Wheel"
-			x: 4.0d
-			y: -6.5d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
@@ -379,7 +387,7 @@
 				{
 					id: "411B55C3CA73E44F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "explorerscompass:explorerscompass"
 						tag: { }
 					}
@@ -388,7 +396,7 @@
 				{
 					id: "4FA90D766DCF3936"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "naturescompass:naturescompass"
 						tag: { }
 					}
@@ -401,7 +409,11 @@
 		}
 		{
 			dependencies: ["5A9940962797FE6E"]
-			description: ["&oHint:&r It's often faster to get the &2books&r for &abookshelves&r by &cdestroying&r &abookshelves&r in existing structures (like a village), instead of setting up a cow farm."]
+			description: [
+				"&oHint:&r It's often faster to get the &2books&r for &abookshelves&r by &cdestroying&r &abookshelves&r in existing structures (like a village), instead of setting up a cow farm."
+				""
+				"Certain blocks affect the &aeterna (max enchant level)&r, &cquanta (variance of results)&r, and &5arcana (likelihood of rare enchants and quantity of enchantments) &rof the enchanting table. These effects are listed in tooltips of such items."
+			]
 			id: "479B3130EB602E62"
 			tasks: [
 				{
@@ -435,14 +447,15 @@
 				"By crafting four with five &cheart crystals&r from Scaling Health (which drop from more powerful mobs), you can make a &cHeart&c Container&r&r."
 			]
 			id: "649F0F57EC7E387E"
+			subtitle: "Turn that orange into blue"
 			tasks: [{
 				count: 4L
 				id: "7AD134D30B2E9839"
 				item: "paraglider:spirit_orb"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -455,7 +468,7 @@
 			tasks: [{
 				id: "70E71543A196274D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "grapplemod:grapplinghook"
 					tag: {
 						Damage: 0
@@ -522,19 +535,19 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["054958A1638D1D71"]
-			description: ["The &amega torch &ris a useful item for your base that &bprevents passive and neutral mobs from spawning nearby&r."]
+			description: ["The &adread lamp &ris a useful item for your farms that &bincreases passive and neutral mobs spawns nearby&r."]
 			id: "2162E9E7105B7FBB"
 			tasks: [{
 				id: "64552ADA68F4C964"
 				item: "torchmaster:dreadlamp"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -3.5d
 		}
 		{
@@ -544,7 +557,7 @@
 			tasks: [{
 				id: "54E57F763B0C2565"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:slingshot"
 					tag: {
 						Damage: 0
@@ -552,8 +565,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["28D91722F8C4E87D"]
@@ -567,7 +580,7 @@
 				{
 					id: "69503C6E3D8EA7C1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "farmersdelight:skillet"
 						tag: {
 							Damage: 0
@@ -604,7 +617,7 @@
 				{
 					id: "5CB3C67295B386F6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:fishing_rod"
 						tag: {
 							Damage: 0
@@ -634,7 +647,7 @@
 			tasks: [{
 				id: "339E95D8EF7E3B07"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -662,7 +675,7 @@
 			tasks: [{
 				id: "711CBA81AE80E322"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -731,8 +744,8 @@
 				item: "aquaculture:sushi"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: -1.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["368309757EB6EC56"]
@@ -742,8 +755,8 @@
 				item: "aquaculture:tackle_box"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7C2D35E29A7FF6A2"]
@@ -753,8 +766,8 @@
 				item: "paraglider:paraglider"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4EB10737C5B7CBAE"]
@@ -779,7 +792,7 @@
 			tasks: [{
 				id: "58BC94529670D983"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "storagedrawers:drawers"
@@ -839,19 +852,23 @@
 				item: "darkutils:blank_plate"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.5d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5A9940962797FE6E"]
-			description: ["By this point you might have a lot of weapons you rotate through. The Tool Belt solves this problem."]
+			description: [
+				"By this point you might have a lot of tools and weapons you rotate through. The Tool Belt solves this problem."
+				""
+				"You will need to open the controls and bind keys as you see fit for the Tool Belt. I'd recommend using some keys on the third row of your keyboard, that way they're accessible but also out of the way. "
+			]
 			id: "29FD143B5932E299"
 			tasks: [{
 				id: "10587E4686C41870"
 				item: "toolbelt:belt"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -2.5d
 		}
 		{
@@ -867,8 +884,8 @@
 				item: "mekanism:basic_fluid_tank"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.5d
+			x: 6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2F5046E30C8273CB"]
@@ -883,8 +900,8 @@
 				item: "quark:abacus"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["16C996E71E9BABC3"]
@@ -899,7 +916,7 @@
 				item: "relics:researching_table"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -922,8 +939,8 @@
 				title: "Seven Curses"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["479B3130EB602E62"]
@@ -934,7 +951,7 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -954,7 +971,7 @@
 				{
 					id: "5096386E2188E217"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "apotheosis:gem"
 						tag: {
 							affix_data: {
@@ -986,7 +1003,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -999,8 +1016,269 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74F529B8810608A5"]
+			description: ["This item can be useful for labelling contraptions and other things you make throughout your time here."]
+			id: "4676178D308CEE55"
+			tasks: [{
+				id: "6502A66A396F9600"
+				item: "quark:glass_item_frame"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28D91722F8C4E87D"]
+			id: "2DA46F0A7B32DEBC"
+			tasks: [{
+				id: "438D9C0BDE1AA28B"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["479B3130EB602E62"]
+			description: ["Read the description of the item!"]
+			id: "047E69405C7A2588"
+			tasks: [{
+				id: "255F132EF0BA2077"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
 			x: 7.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["74F529B8810608A5"]
+			description: [
+				"I don't know about you, but I personally find redstone VERY complicated. It's weird because I understand far more complicated things like Mekanism just fine, but I just can't make any sense out of redstone."
+				""
+				"It's really tough when there's no resource in-game that teaches you about it besides a hidden basement in Ancient Cities which probably no one has even heard of."
+				""
+				"These next few quests are designed to help you learn (or relearn) redstone, it can be pretty useful in this modpack and modded MC in general."
+				""
+				"These quests are optional and you don't have to do them if all you care for is doing the tech tree."
+				"{@pagebreak}"
+				"Let's start with &credstone dust&r itself. It acts like a wire, and can be placed on blocks. Lines of redstone dust light up if a redstone-emitting block is touching it."
+				""
+				"On its own, you can have a line of up to 15 dust before it's too far and the signal stops reaching. The further away from the source, the weaker the redstone signal is."
+			]
+			id: "5AA15937C7BBDF98"
+			subtitle: "Re-introduction to Redstone - REDS101"
+			tasks: [{
+				id: "02E8724166D9556F"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AA15937C7BBDF98"]
+			description: [
+				"- Placing a torch on a block provides a signal to all adjacent blocks except the one it's attached to."
+				""
+				"- Placing a torch on a powered block will deactivate it."
+				""
+				"Try these mechanics on the redstone lamps included for completing this quest."
+			]
+			id: "60908EB38E53D39E"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "2CB185507D40F6F1"
+				item: "minecraft:redstone_lamp"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B5911971D26EC7C"
+				item: "minecraft:redstone_torch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["60908EB38E53D39E"]
+			description: [""]
+			id: "7DC01C4737C759C5"
+			optional: true
+			subtitle: "Always emits a signal in all directions"
+			tasks: [{
+				id: "575BD19AB161F1BE"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AA15937C7BBDF98"]
+			description: ["Emits 15 power in a direction. It can extend the signal from redstone dust. You can right click the repeater to add a delay to it."]
+			id: "20D956D4F4DFF0A1"
+			optional: true
+			subtitle: "Extends redstone signals"
+			tasks: [{
+				id: "795302432C8D97B8"
+				item: "minecraft:repeater"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20D956D4F4DFF0A1"]
+			description: [
+				"This block also has some wonky features, indicated by whether the torch is on. It can stop signal emittance when the torch is on, or subtract the side inputs strength from its output (off)."
+				""
+				"Why would this be important in modded Minecraft? Well, for example, if you point it at an empty container, the comparator will not have a signal. This is useful when working with machines, because it effectively lets you turn machines off when they aren't in use, allowing you to save power (some machines do this automatically)."
+			]
+			id: "05416B7F1CC1849F"
+			optional: true
+			subtitle: "Important in modded MC! Produces a signal based on the block its arrow points at"
+			tasks: [{
+				id: "40D85F1E75D99E8D"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["05416B7F1CC1849F"]
+			description: ["When powered from the back (the base of the T), it randomly outputs the signal to the left or right."]
+			id: "68BF59DD76897182"
+			subtitle: "Have some modded redstone blocks as a bonus!"
+			tasks: [{
+				id: "2DE95CFA79E521AF"
+				item: "quark:redstone_randomizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["68BF59DD76897182"]
+			id: "6FD9046E210E49DF"
+			subtitle: "Alternative randomizer. Choose the one you want to use."
+			tasks: [{
+				id: "27C0954E6259BC9C"
+				item: "darkutils:redstone_randomizer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0A6DBC786BCF967E"]
+			id: "207D37FD2A45D7AC"
+			tasks: [{
+				id: "1C7E914DAC215C91"
+				item: {
+					Count: 1
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03B0D122AD821C0D"]
+			description: [
+				"&bSleeping bags&r let you skip the night without setting your spawn point."
+				""
+				"It's useful if people are yelling at you to sleep on a server but you're out caving, or if you're just exploring."
+				""
+				"The &bsleeping bag&r breaks after it's used, so you don't need to manually pick it up."
+				""
+				"---"
+				""
+				"&bHammocks&r let you skip the day, also without setting your spawn point."
+				""
+				"You need a &brope and nail&r to set it up; have two blocks with a 4-block gap between them and put two &brope and nails&r facing each other."
+				""
+				"Then, right click one of them with the &bhammock&r."
+			]
+			id: "3276690B1BAE040E"
+			tasks: [
+				{
+					id: "14D0256FEDA3A1C5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					title: "Any #comforts:sleeping_bags"
+					type: "item"
+				}
+				{
+					id: "2CD5F3BC687264A8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+			]
+			title: "Wasting Time"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3276690B1BAE040E"]
+			description: ["Just as it was meant to be."]
+			id: "66F4EB10A562866A"
+			subtitle: "No more phantoms"
+			tasks: [{
+				id: "705186ADBCC99590"
+				item: "darkutils:charm_sleep"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["649F0F57EC7E387E"]
+			id: "5D629B3D9A8495D4"
+			tasks: [{
+				id: "0D72F2BA832D04C5"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3571CB6136F6E3EB"]
+			description: [
+				"Find yourself &cdying&r quite often? No judgment. This item might be helpful though, as it &dteleports you to the location where you died most recently&r."
+				""
+				"&o&7Well, it's useful provided you're not playing on hardcore.&r&r"
+			]
+			id: "58131AE32AFDECC9"
+			tasks: [{
+				id: "09C3A097095A5CCA"
+				item: "kubejs:grave_scroll"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
 		}
 	]
 	title: "Getting Started"

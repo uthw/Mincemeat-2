@@ -73,6 +73,22 @@ ServerEvents.recipes((event) => {
             "kubejs:grave_scroll",
             ["enigmaticlegacy:thicc_scroll", "iceandfire:ectoplasm"],
         ],
+        [
+            "4x spartanweaponry:handle",
+            ["4x #forge:rods/wooden", "forbidden_arcanus:cloth"],
+        ],
+        [
+            "4x spartanweaponry:handle",
+            ["4x #forge:rods/wooden", "eidolon:tattered_cloth"],
+        ],
+        [
+            "4x spartanweaponry:pole",
+            ["8x #forge:rods/wooden", "forbidden_arcanus:cloth"],
+        ],
+        [
+            "4x spartanweaponry:pole",
+            ["8x #forge:rods/wooden", "eidolon:tattered_cloth"],
+        ],
     ];
 
     recipes.forEach((recipe) => {

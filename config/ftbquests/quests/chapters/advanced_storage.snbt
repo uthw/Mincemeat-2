@@ -4,7 +4,7 @@
 	filename: "advanced_storage"
 	group: "575079378E827F8C"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "quark:backpack"
 		tag: {
 			Inventory: [

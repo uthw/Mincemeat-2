@@ -41,13 +41,6 @@
 				maple = true
 				comet = true
 
-			[general.types.leaves_type.traverse]
-				red_autumnal = true
-				brown_autumnal = true
-				orange_autumnal = true
-				yellow_autumnal = true
-				fir = true
-
 			[general.types.leaves_type.minecells]
 				wilted = true
 				orange_wilted = true
@@ -60,11 +53,6 @@
 			[general.types.leaves_type.naturesaura]
 				ancient = true
 				golden = true
-
-			[general.types.leaves_type.undergarden]
-				smogstem = true
-				wigglewood = true
-				grongle = true
 
 			[general.types.leaves_type.quark]
 				ancient = true
@@ -133,6 +121,18 @@
 			[general.types.leaves_type.architects_palette]
 				twisted = true
 
+			[general.types.leaves_type.traverse]
+				red_autumnal = true
+				brown_autumnal = true
+				orange_autumnal = true
+				yellow_autumnal = true
+				fir = true
+
+			[general.types.leaves_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
+
 		[general.types.cake]
 
 			[general.types.cake.createaddition]
@@ -178,9 +178,6 @@
 				ancient = true
 				blossom = true
 
-			[general.types.wood_type.traverse]
-				fir = true
-
 			[general.types.wood_type.minecells]
 				putrid = true
 
@@ -188,11 +185,6 @@
 				baobab = true
 				cypress = true
 				palm = true
-
-			[general.types.wood_type.undergarden]
-				smogstem = true
-				wigglewood = true
-				grongle = true
 
 			[general.types.wood_type.thermal]
 				rubberwood = true
@@ -256,6 +248,21 @@
 			[general.types.wood_type.architects_palette]
 				twisted = true
 
+			[general.types.wood_type.traverse]
+				fir = true
+
+			[general.types.wood_type.cataclysm]
+				chorus = true
+
+			[general.types.wood_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
+
+			[general.types.wood_type.botania]
+				livingwood = true
+				dreamwood = true
+
 	#Disables specific entries
 	[general.entries]
 
@@ -264,9 +271,6 @@
 			[general.entries.leaves_type.quark]
 				hedge = true
 				leaf_carpet = true
-
-			[general.entries.leaves_type.buildersaddition]
-				hedge = true
 
 			[general.entries.leaves_type.mcwfences]
 				hedge = true
@@ -282,26 +286,6 @@
 				hollow_log = true
 				bookshelf = true
 				stripped_post = true
-
-			[general.entries.wood_type.buildersaddition]
-				chair = true
-				counter_granite = true
-				support_bracket = true
-				cabinet = true
-				stool = true
-				counter_blackstone = true
-				bookshelf = true
-				cupboard = true
-				arcade = true
-				counter_deepslate = true
-				bench = true
-				table = true
-				bedside_table = true
-				small_cupboard = true
-				counter_diorite = true
-				shelf = true
-				vertical_slab = true
-				counter_andesite = true
 
 			[general.entries.wood_type.decorative_blocks]
 				seat = true
@@ -341,24 +325,6 @@
 				planks_steep_roof = true
 				planks_lower_roof = true
 
-			[general.entries.wood_type.mcwtrpdoors]
-				ranch_trapdoor = true
-				beach_trapdoor = true
-				swamp_trapdoor = true
-				glass_trapdoor = true
-				blossom_trapdoor = true
-				tropical_trapdoor = true
-				cottage_trapdoor = true
-				paper_trapdoor = true
-				bark_trapdoor = true
-				classic_trapdoor = true
-				bamboo_trapdoor = true
-				barn_trapdoor = true
-				four_panel_trapdoor = true
-				barred_trapdoor = true
-				mystic_trapdoor = true
-				barrel_trapdoor = true
-
 			[general.entries.wood_type.mcwwindows]
 				louvered_shutter = true
 				plank_pane_window = true
@@ -378,29 +344,6 @@
 				window = true
 				shutter = true
 
-			[general.entries.wood_type.mcwdoors]
-				japanese2_door = true
-				tropical_door = true
-				barn_glass_door = true
-				four_panel_door = true
-				beach_door = true
-				waffle_door = true
-				japanese_door = true
-				stable_door = true
-				modern_door = true
-				nether_door = true
-				stable_head_door = true
-				cottage_door = true
-				western_door = true
-				paper_door = true
-				bamboo_door = true
-				swamp_door = true
-				glass_door = true
-				barn_door = true
-				mystic_door = true
-				bark_glass_door = true
-				classic_door = true
-
 			[general.entries.wood_type.mcwfences]
 				highley_gate = true
 				picket_fence = true
@@ -412,12 +355,6 @@
 			[general.entries.wood_type.mcwlights]
 				tiki_torch = true
 				soul_tiki_torch = true
-
-			[general.entries.wood_type.valhelsia_structures]
-				post = true
-				cut_stripped_post = true
-				stripped_post = true
-				cut_post = true
 
 			[general.entries.wood_type.mcwbridges]
 				bridge_pier = true
@@ -433,4 +370,13 @@
 				railing = true
 				boards = true
 				board_slab = true
+
+			[general.entries.wood_type.another_furniture]
+				flower_box = true
+				shutter = true
+				drawer = true
+				shelf = true
+				bench = true
+				table = true
+				chair = true
 

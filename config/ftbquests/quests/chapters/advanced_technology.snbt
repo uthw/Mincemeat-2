@@ -45,7 +45,7 @@
 				{
 					id: "7DA43E7EF7C8EB3E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "modularrouters:sender_module_2"
 						tag: {
 							modularrouters: {
@@ -58,7 +58,7 @@
 				{
 					id: "01C0D121E4799127"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "modularrouters:puller_module_2"
 						tag: {
 							modularrouters: {
@@ -70,8 +70,8 @@
 				}
 			]
 			title: "Item Transport with Routers"
-			x: -3.0d
-			y: 0.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -136,7 +136,7 @@
 			tasks: [{
 				id: "6CE1FC291DB17FC7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:efficiency_addon_1"
 					tag: {
 						TitaniumAugment: {
@@ -156,7 +156,7 @@
 			tasks: [{
 				id: "6DAB6627B2E2B2B9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:range_addon0"
 					tag: {
 						TitaniumAugment: {
@@ -175,7 +175,7 @@
 			tasks: [{
 				id: "5F2D2D5D4C3B53FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:processing_addon_1"
 					tag: {
 						TitaniumAugment: {
@@ -195,7 +195,7 @@
 			tasks: [{
 				id: "12EDE66562BDF405"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:speed_addon_1"
 					tag: {
 						TitaniumAugment: {
@@ -452,7 +452,7 @@
 			tasks: [{
 				id: "6C9971409DFE210E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:infinity_backpack"
 					tag: {
 						CanCharge: 1b
@@ -472,7 +472,7 @@
 			tasks: [{
 				id: "60FCD455C25A8983"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:infinity_drill"
 					tag: {
 						CanCharge: 1b
@@ -514,7 +514,7 @@
 			tasks: [{
 				id: "42C1C106AF5A4B9B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "industrialforegoing:infinity_saw"
 					tag: {
 						CanCharge: 1b
@@ -897,6 +897,252 @@
 				type: "checkmark"
 			}]
 			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["615FC6EA071C8ED5"]
+			description: ["&eCoal &rcan be enriched to &6carbon&r, which you can use to &einfuse&r to your &emetallurgic infuser&r."]
+			id: "560B0F3B066129AC"
+			tasks: [
+				{
+					id: "482292413C54C030"
+					item: "mekanism:enriched_carbon"
+					type: "item"
+				}
+				{
+					id: "267EC1FAE49DD8DC"
+					item: "mekanism:enriched_redstone"
+					type: "item"
+				}
+				{
+					id: "50262A98DBF9ED9F"
+					item: "mekanism:enriched_diamond"
+					type: "item"
+				}
+			]
+			title: "Enriched Materials"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["615FC6EA071C8ED5"]
+			description: [
+				"&6Tier installers&r can upgrade machines by interacting with them."
+				""
+				"These will expand their capabilities."
+				""
+				"For example, the &ebasic enriching factory&r has 3 slots instead of its standard counterpart's one."
+				""
+				"Keep in mind that an upgraded machine's &eenergy usage &rincreases proportionally to its output."
+			]
+			id: "71B5319AD4CD5432"
+			tasks: [{
+				id: "0FEB0A1ABDEC00DD"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71B5319AD4CD5432"]
+			description: [
+				"First, place &6osmium ingots or blocks&r in the bottom slot to &eliquify&r them. This is required for each process with the &6osmium compressor&r."
+				""
+				"To make &6refined glowstone ingots&r, feed &eglowstone dust&r to the top slot of the &6osmium compressor&r."
+				""
+				"For &6refined obsidian ingots&r, feed &eobsidian dust&r to the input instead."
+				""
+				"&o&7Hint: you can use &ecrushing wheels&7 to turn obsidian into dust when you're starting out. However, an &eenriching factory&7 yields more dust per obsidian.&r&r"
+			]
+			id: "3F37880D357B0BEA"
+			tasks: [
+				{
+					id: "5C653E42D5AF78CB"
+					item: "mekanism:osmium_compressor"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "03203F4275584E7C"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					id: "2B8422BAF24C4AE4"
+					item: "mekanism:ingot_refined_glowstone"
+					type: "item"
+				}
+				{
+					id: "669E2B9EF07CDFF9"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+			]
+			title: "Refined Glowstone and Obsidian"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71B5319AD4CD5432"]
+			id: "6DFB27BB8E824A4B"
+			tasks: [
+				{
+					id: "7C608809F0826789"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+				{
+					id: "6542D32B91D4AD1E"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+				{
+					id: "6C0B2C20BE6EC986"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
+			title: "All Tier Installers"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E12FB5830AC5E5C"]
+			description: ["WIP"]
+			id: "3083AE45932729EC"
+			tasks: [{
+				id: "660DB69EA1010FB9"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1CB095891B94A06A"]
+			description: ["A backpack"]
+			id: "770B05A88274E043"
+			tasks: [{
+				id: "0F302426F20C4B7A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:personal_barrel"
+							}
+							{
+								Count: 1b
+								id: "mekanism:personal_chest"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Personal Storage"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F65521A3542AA88"
+				"770B05A88274E043"
+				"3F37880D357B0BEA"
+			]
+			description: [
+				"The &6robit&r is bound to the &6chargepad&r, which is responsible for &eproviding power&r. &6Robit&r will drop as an item if its &6chargepad&r is broken."
+				""
+				"Use the &6robit&r's GUI (right click on it) to give it &ecommands&r or access luxuries such as its &ecrafting grid&r and &eanvil&r."
+			]
+			id: "2E12FB5830AC5E5C"
+			tasks: [
+				{
+					id: "6D2C5C5715E2AA52"
+					item: "mekanism:robit"
+					type: "item"
+				}
+				{
+					id: "2588AB31F2C5279D"
+					item: "mekanism:chargepad"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"With the &6tinker table&r, you can make armor and tools that're &efilled with useful gadgets&r. The &ecomponents&r you'll need are listed in the &6tinker table&r."
+				""
+				"Equip the &6power armor or fist&r before right clicking the &6tinker table&r. Then, use the tab on the left to &ebrowse possible upgrades&r."
+				""
+				"Don't forget to &epower your equipment&r."
+			]
+			id: "496636ABAEDE6F20"
+			invisible: true
+			optional: true
+			shape: "gear"
+			subtitle: "Ad victoriam!"
+			tasks: [
+				{
+					id: "0E6A2B2043ED962F"
+					item: "powersuits:tinkertable"
+					type: "item"
+				}
+				{
+					id: "535DA5BFC6D79A71"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powersuits:powerfist"
+									tag: {
+										MMModItem: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "powersuits:powerarmor_feet"
+									tag: {
+										MMModItem: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "powersuits:powerarmor_legs"
+									tag: {
+										MMModItem: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "powersuits:powerarmor_torso"
+									tag: {
+										MMModItem: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "powersuits:powerarmor_head"
+									tag: {
+										MMModItem: { }
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Modular Power Suits"
+			x: -3.0d
 			y: 6.0d
 		}
 	]

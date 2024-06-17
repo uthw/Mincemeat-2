@@ -46,7 +46,7 @@
 			tasks: [{
 				id: "28151A690876E3FE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:zeal_lighter"
 					tag: {
 						Damage: 0
@@ -62,7 +62,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "blue_skies:loot_bag_summoner"
 				tag: {
 					LootTable: "blue_skies:loot_bags/summoner/common"
@@ -84,7 +84,7 @@
 		{
 			dependencies: ["0063059B2778D392"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "blue_skies:loot_bag_alchemist"
 				tag: {
 					LootTable: "blue_skies:loot_bags/alchemist/common"
@@ -110,7 +110,7 @@
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:loot_bag_starlit_crusher"
 					tag: {
 						LootTable: "blue_skies:loot_bags/starlit_crusher/common"
@@ -132,7 +132,7 @@
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:loot_bag_arachnarch"
 					tag: {
 						LootTable: "blue_skies:loot_bags/arachnarch/common"
@@ -187,7 +187,7 @@
 				"Can you find the &bsecret boss&r?"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecells:prison_doorway"
 				tag: {
 					BlockEntityTag: { }
@@ -279,7 +279,7 @@
 			tasks: [{
 				dimension: "minecells:promenade"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecells:promenade_doorway"
 					tag: {
 						BlockEntityTag: { }
@@ -299,7 +299,7 @@
 			tasks: [{
 				id: "3F0B848DC0BB554D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecells:vine_rune"
 					tag: {
 						Damage: 0
@@ -337,7 +337,7 @@
 		{
 			dependencies: ["63BA6016847B8ECB"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecells:insufferable_crypt_doorway"
 				tag: {
 					BlockEntityTag: { }
@@ -364,7 +364,7 @@
 		{
 			dependencies: ["4525CD09B5BCCE1E"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecells:ramparts_doorway"
 				tag: {
 					BlockEntityTag: { }
@@ -405,7 +405,7 @@
 		{
 			dependencies: ["0F41407DF2EDE343"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecells:black_bridge_doorway"
 				tag: {
 					BlockEntityTag: { }
@@ -452,7 +452,7 @@
 				{
 					id: "48A8A895B1434C0E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:flint_and_steel"
 						tag: {
 							Damage: 0
@@ -534,7 +534,7 @@
 		{
 			dependencies: ["086E8054D516AFF4"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "cataclysm:infernal_forge"
 				tag: {
 					Damage: 0
@@ -623,7 +623,7 @@
 			dependencies: ["520A629F81C286FF"]
 			description: [""]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "cataclysm:ignitium_helmet"
 				tag: {
 					Damage: 0
@@ -1029,7 +1029,7 @@
 			tasks: [{
 				id: "6C2A1E1EC18F7B03"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "reliquary:mercy_cross"
 					tag: {
 						Damage: 0
@@ -1055,8 +1055,8 @@
 				type: "dimension"
 			}]
 			title: "Go to the Otherside"
-			x: 4.0d
-			y: -4.5d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2AD8DC509ABFBDCC"]
@@ -1064,7 +1064,7 @@
 			tasks: [{
 				id: "16BE4218EEE90908"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:soul_elytra"
 					tag: {
 						Damage: 0
@@ -1072,8 +1072,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 3.5d
+			y: -3.5d
 		}
 	]
 	title: "Dimensional Adventure"

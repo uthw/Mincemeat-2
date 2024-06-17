@@ -9,14 +9,14 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["67EDF8A2B69A158D"]
+			dependencies: ["00294FF7CDCA91F0"]
 			description: ["Found in the &5Theatre&r."]
 			id: "4493D9650B5D1F71"
 			subtitle: "Kill the &5Conjurer"
 			tasks: [{
 				entity: "conjurer_illager:conjurer"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "conjurer_illager:conjurer_hat"
 					tag: {
 						Damage: 0
@@ -28,12 +28,12 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			description: ["Found in the &5Hunter's House&r, or in the wild."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "hunters_return:boomerang"
 				tag: {
 					Damage: 0
@@ -72,7 +72,7 @@
 				title: "Extraterrestrial Foes Await!"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.75d
 			y: -3.0d
 		}
 		{
@@ -106,8 +106,8 @@
 				}
 			]
 			title: "Night Lich"
-			x: -1.5d
-			y: -2.5d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -127,11 +127,11 @@
 				}
 			]
 			title: "Void Blossom"
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["3F9A7DCBF8CE1DCB"]
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
 			tasks: [
@@ -148,8 +148,8 @@
 				}
 			]
 			title: "Ice Maze"
-			x: -2.0d
-			y: -1.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -179,8 +179,8 @@
 				value: 1L
 			}]
 			title: "Corrupted Champion"
-			x: -1.5d
-			y: -0.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -208,8 +208,8 @@
 				}
 			]
 			title: "Kill the Warden"
-			x: 1.5d
-			y: -0.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -233,7 +233,7 @@
 				{
 					id: "7902E6A0305E09D4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "alexscaves:cave_tablet"
 						tag: {
 							CaveBiome: "alexscaves:forlorn_hollows"
@@ -294,7 +294,7 @@
 			tasks: [{
 				id: "4C1ACBAB4DA4BFDB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexscaves:cave_map"
 					tag: {
 						BiomeTargetResourceKey: "alexscaves:magnetic_caves"
@@ -379,6 +379,40 @@
 			}]
 			x: -2.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			id: "00294FF7CDCA91F0"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "5E886F22456D9A83"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Ferrous Wroughtnaut"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F9A7DCBF8CE1DCB"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "199F0F3977DD1D20"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Frostmaw"
+			x: -1.5d
+			y: -2.0d
 		}
 	]
 	title: "Overworld Adventure"

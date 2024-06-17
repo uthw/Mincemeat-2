@@ -31,5 +31,5 @@
 	ItemWhiteList = ["minecraft:cobblestone"]
 
 [Misc]
-	SendWarningMessageWhenPlayerLogIn = true
+	SendWarningMessageWhenPlayerLogIn = false
 

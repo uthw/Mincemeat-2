@@ -4,7 +4,7 @@
 	filename: "botania"
 	group: "1D1CECCF47A202B0"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "botania:lexicon"
 		tag: {
 			"botania:elven_unlock": 1b
@@ -26,7 +26,7 @@
 			tasks: [{
 				id: "200F14C1733610F1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:lexicon"
 					tag: { }
 				}
@@ -48,7 +48,7 @@
 			tasks: [{
 				id: "5524616673CACB0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "botania:petals"
@@ -217,7 +217,7 @@
 			tasks: [{
 				id: "01A0904D069AD210"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -249,7 +249,7 @@
 			tasks: [{
 				id: "1DB59F8D37EBCDC2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:mana_tablet"
 					tag: { }
 				}
@@ -277,7 +277,7 @@
 			tasks: [{
 				id: "0A2F14175F317CF1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:lens_normal"
 					tag: { }
 				}
@@ -345,7 +345,7 @@
 			tasks: [{
 				id: "7A4F5092CE85FC51"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:mana_mirror"
 					tag: { }
 				}
@@ -595,7 +595,7 @@
 			tasks: [{
 				id: "1F7606558F437AD1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -751,7 +751,7 @@
 			tasks: [{
 				id: "1FEFCC0172B5DA01"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:mana_ring"
 					tag: { }
 				}
@@ -766,7 +766,7 @@
 			tasks: [{
 				id: "000AC231F01AF31A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:mana_ring_greater"
 					tag: { }
 				}
@@ -785,7 +785,7 @@
 			tasks: [{
 				id: "172EDC603B825F1E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:crystal_bow"
 					tag: {
 						Damage: 0
@@ -817,7 +817,7 @@
 			tasks: [{
 				id: "705006991D12309D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:reach_ring"
 					tag: {
 						baubleUUIDLeast: -6064837934332946333L
@@ -840,7 +840,7 @@
 			tasks: [{
 				id: "5B61D76FFB7EECCE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:travel_belt"
 					tag: { }
 				}
@@ -860,7 +860,7 @@
 			tasks: [{
 				id: "7DC25F63919B165C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:cloud_pendant"
 					tag: { }
 				}
@@ -880,7 +880,7 @@
 			tasks: [{
 				id: "0213CE5448E76F35"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:goddess_charm"
 					tag: { }
 				}
@@ -895,7 +895,7 @@
 			tasks: [{
 				id: "449B298312BEDD4E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:terra_pick"
 					tag: {
 						Damage: 0
@@ -927,7 +927,7 @@
 			tasks: [{
 				id: "098C31404282FB77"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:super_travel_belt"
 					tag: { }
 				}
@@ -1085,7 +1085,7 @@
 			tasks: [{
 				id: "16D9EFC4B5DC6BFC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:terra_sword"
 					tag: {
 						Damage: 0
@@ -1239,7 +1239,7 @@
 			tasks: [{
 				id: "2265F058A7D921FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "naturesaura:book"
@@ -1332,7 +1332,7 @@
 				{
 					id: "47E3625953E31829"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "minecraft:saplings"
@@ -1393,7 +1393,7 @@
 			tasks: [{
 				id: "19EA50B7C5AE4D00"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturesaura:aura_bottle"
 					tag: {
 						stored_type: "naturesaura:overworld"
@@ -1460,7 +1460,7 @@
 			tasks: [{
 				id: "13B3BF6F9D97159F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturesaura:infused_iron_shovel"
 					tag: {
 						Damage: 0
@@ -1482,7 +1482,7 @@
 			tasks: [{
 				id: "4E6A1198EC571F0A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturesaura:infused_iron_sword"
 					tag: {
 						Damage: 0
@@ -1504,7 +1504,7 @@
 			tasks: [{
 				id: "748F7F20754CA9E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturesaura:infused_iron_hoe"
 					tag: {
 						Damage: 0
@@ -1518,7 +1518,7 @@
 		{
 			dependencies: ["465A8A2181D95F8A"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "naturesaura:infused_iron_chest"
 				tag: {
 					Damage: 0
@@ -1534,7 +1534,7 @@
 				{
 					id: "1659A1430145068D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "naturesaura:infused_iron_helmet"
 						tag: {
 							Damage: 0
@@ -1545,7 +1545,7 @@
 				{
 					id: "619AC7BD1AFF0AC1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "naturesaura:infused_iron_chest"
 						tag: {
 							Damage: 0
@@ -1556,7 +1556,7 @@
 				{
 					id: "43E2630148EA9A73"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "naturesaura:infused_iron_pants"
 						tag: {
 							Damage: 0
@@ -1567,7 +1567,7 @@
 				{
 					id: "130E29E1CC8D0D33"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "naturesaura:infused_iron_shoes"
 						tag: {
 							Damage: 0
@@ -1639,7 +1639,7 @@
 			tasks: [{
 				id: "0A03804614A281CA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturesaura:aura_bottle"
 					tag: {
 						stored_type: "naturesaura:nether"
@@ -1758,7 +1758,7 @@
 			tasks: [{
 				id: "19BE4BB21891253E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturesaura:aura_bottle"
 					tag: {
 						stored_type: "naturesaura:end"

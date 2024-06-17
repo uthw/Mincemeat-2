@@ -107,6 +107,8 @@ ServerEvents.recipes((event) => {
         "relics:researching_table",
         "buildersaddition:iron_rod",
         "#valhelsia_furniture:chairs",
+        "spartanweaponry:handle",
+        "spartanweaponry:pole",
     ];
 
     toRemove.forEach((item) => {

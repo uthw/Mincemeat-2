@@ -37,7 +37,7 @@
 			tasks: [{
 				id: "36A7384EBC627C3D"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -61,7 +61,7 @@
 			tasks: [{
 				id: "219770537A6951A3"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -85,7 +85,7 @@
 			tasks: [{
 				id: "7F6390057149BAAF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "spartanweaponry:longbows"
@@ -103,7 +103,7 @@
 			tasks: [{
 				id: "4E0BAA9A670B6A4B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "spartanweaponry:heavy_crossbows"
@@ -122,20 +122,19 @@
 				type: "custom"
 			}]
 			tasks: [{
-				id: "4444705D82D185B4"
+				id: "7DDBBFB4B2A6FF8A"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
-						Parent: {
+						Parent: { }
+					}
+					id: "spartanweaponry:small_arrow_quiver"
+					tag: {
+						Ammo: {
 							Items: [ ]
 							Size: 4
 						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
 					}
-					id: "spartanweaponry:quiver_arrow_small"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -149,20 +148,19 @@
 				type: "custom"
 			}]
 			tasks: [{
-				id: "1C89F50166DA5F8A"
+				id: "6D7E4E3C8520F26E"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
-						Parent: {
+						Parent: { }
+					}
+					id: "spartanweaponry:small_bolt_quiver"
+					tag: {
+						Ammo: {
 							Items: [ ]
 							Size: 4
 						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
 					}
-					id: "spartanweaponry:quiver_bolt_small"
-					tag: { }
 				}
 				type: "item"
 			}]
@@ -177,15 +175,10 @@
 				type: "custom"
 			}]
 			tasks: [{
-				id: "132040AA6F419080"
+				id: "1788654F514E97D5"
 				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "spartanshields:shield_tower_wood"
+					Count: 1
+					id: "spartanshields:wooden_tower_shield"
 					tag: {
 						Damage: 0
 					}
@@ -211,15 +204,10 @@
 				type: "custom"
 			}]
 			tasks: [{
-				id: "537EA873A8C91AA2"
+				id: "0E69698E9766083B"
 				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "spartanshields:shield_basic_wood"
+					Count: 1
+					id: "spartanshields:wooden_basic_shield"
 					tag: {
 						Damage: 0
 					}
@@ -278,7 +266,7 @@
 				{
 					id: "19F5D026410EC961"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:modular_double"
 						tag: {
 							AS_Amulet_Holder: [I;

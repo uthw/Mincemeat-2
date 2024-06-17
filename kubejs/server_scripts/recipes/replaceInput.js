@@ -555,7 +555,7 @@ ServerEvents.recipes((event) => {
             "#thermal:glass/hardened",
         ],
         [
-            { output: "#botanypots:botany_pots" },
+            { output: "#botanypots:all_botany_pots" },
             "minecraft:flower_pot",
             "supplementaries:planter",
         ],
@@ -884,6 +884,16 @@ ServerEvents.recipes((event) => {
             { output: "ars_nouveau:glyph_break" },
             "minecraft:iron_pickaxe",
             "createoreexcavation:drill",
+        ],
+        [
+            { output: "mekanism:osmium_compressor" },
+            "minecraft:bucket",
+            "thermal:rose_gold_gear",
+        ],
+        [
+            { output: "eidolon:planter" },
+            "minecraft:dirt",
+            "farmersdelight:rich_soil",
         ],
     ];
 

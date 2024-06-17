@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "#forge:string",
                 B: "forbidden_arcanus:darkstone",
-                C: "undergardent:catalyst",
+                C: "undergarden:catalyst",
                 D: "#forge:obsidian",
             },
         ],
@@ -78,9 +78,9 @@ ServerEvents.recipes((event) => {
             ["ABA", "CDC", "AEA"],
             {
                 A: "#forge:ingots/steel",
-                B: "minecraft:furnace",
-                C: "minecraft:redstone",
-                D: "#forge:ingots/osmium",
+                B: "create:asurine",
+                C: "#forge:ingots/osmium",
+                D: "alexscaves:fissile_core",
                 E: "thermal:machine_furnace",
             },
         ],
@@ -306,9 +306,9 @@ ServerEvents.recipes((event) => {
             "undergarden:catalyst",
             ["ABA", "BCB", "ABA"],
             {
-                A: "kubejs:cell",
-                B: "#forge:gems/source",
-                C: "minecells:blank_rune",
+                A: "thermal:apatite",
+                B: "blue_skies:moonstone",
+                C: "forbidden_arcanus:rune",
             },
         ],
         // Enigmatic Legacy recipes
@@ -534,6 +534,15 @@ ServerEvents.recipes((event) => {
                 C: "ars_nouveau:starbuncle_shards",
                 D: "thermal:blizz_rod",
                 E: "#forge:rods/wooden",
+            },
+        ],
+        [
+            "mekanism:basic_fluid_tank",
+            ["ABA", "B B", "ACA"],
+            {
+                A: "create:andesite_alloy",
+                B: "#forge:glass",
+                C: "create:fluid_tank",
             },
         ],
     ];

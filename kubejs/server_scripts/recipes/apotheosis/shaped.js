@@ -154,7 +154,7 @@ ServerEvents.recipes((event) => {
             keys: {
                 A: "farmersdelight:diamond_knife",
                 B: "thermal:apatite",
-                C: "#valhelsia_furniture:tables",
+                C: "minecraft:smithing_table",
                 D: "apotheosis:gem_dust",
             },
             id: "apotheosis:gem_cutting_table",

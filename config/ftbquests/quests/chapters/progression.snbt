@@ -3,7 +3,7 @@
 	default_quest_shape: "diamond"
 	filename: "progression"
 	group: "357B296D74E0575E"
-	icon: "botania:world_seed"
+	icon: "prettypipes:high_speed_module"
 	id: "12EFFEFA52DA688B"
 	order_index: 5
 	quest_links: [ ]
@@ -21,7 +21,7 @@
 				"This definitely isn't as many mods as Mincemeat 1, but the list is growing by the day and your favorites will eventually be in this pack!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:stone_pickaxe"
 				tag: {
 					Damage: 0
@@ -45,7 +45,7 @@
 			tasks: [{
 				entity: "conjurer_illager:conjurer"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "conjurer_illager:conjurer_hat"
 					tag: {
 						Damage: 0
