@@ -895,6 +895,11 @@ ServerEvents.recipes((event) => {
             "minecraft:dirt",
             "farmersdelight:rich_soil",
         ],
+        [
+            { output: "explorerscompass:explorerscompass" },
+            "minecraft:cobweb",
+            "thermal:apatite",
+        ],
     ];
 
     replacements.forEach((replacement) => {
