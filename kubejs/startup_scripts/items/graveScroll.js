@@ -91,9 +91,13 @@ global.gravescroll = (entity) => {
 
         console.log(targetDimension);
 
+        entity.server.runCommand(
+            `execute as ${entity.username} run effect give @p minecraft:resistance 8 4 true`
+        );
+
         effects.forEach((effect) => {
             entity.server.runCommand(
-                `execute as ${entity.username} run effect give @p ${effect} 20 0 true`
+                `execute as ${entity.username} run effect give @p ${effect} 20 true`
             );
         });
 
@@ -161,15 +165,15 @@ global.gravescroll = (entity) => {
 
         console.log(targetDimension);
 
+        entity.server.runCommand(
+            `execute as ${entity.username} run effect give @p minecraft:resistance 8 4 true`
+        );
+
         effects.forEach((effect) => {
             entity.server.runCommand(
                 `execute as ${entity.username} run effect give @p ${effect} 20 true`
             );
         });
-
-        entity.server.runCommand(
-            `execute as ${entity.username} run effect give @p minecraft:resistance 5 4 true`
-        );
 
         entity.server.runCommand(
             `execute in ${targetDimension} run tp ${entity.username} ${pData.deathx} ${pData.deathy} ${pData.deathz}`
