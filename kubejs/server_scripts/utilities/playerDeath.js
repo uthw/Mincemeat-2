@@ -21,7 +21,7 @@ PlayerEvents.respawned((event) => {
     // 25% chance the player gets a gravescroll when they respawn
     let rng = Math.random();
     console.log("generated " + rng);
-    if (rng > 0.75) {
+    if (rng > 0.55) {
         event.entity.server.runCommand(
             `execute as ${event.entity.username} run give @p kubejs:grave_scroll`
         );
