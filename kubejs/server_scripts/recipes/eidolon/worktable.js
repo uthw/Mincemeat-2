@@ -133,7 +133,7 @@ ServerEvents.recipes((event) => {
                 C: "ars_nouveau:novice_spell_book",
                 D: "#minecraft:candles",
                 E: "minecraft:diamond",
-                F: "cataclysm:koboleton_bone",
+                F: "irons_spellbooks:frozen_bone",
             },
         },
     ];
