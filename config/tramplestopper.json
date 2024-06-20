@@ -1,4 +1,4 @@
 {
-  "type": "FEATHER_FALLING",
-  "featherFallingLevel": 1
+    "type": "NEVER",
+    "featherFallingLevel": 1
 }
