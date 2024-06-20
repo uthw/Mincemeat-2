@@ -121,6 +121,11 @@
 			[general.types.leaves_type.architects_palette]
 				twisted = true
 
+			[general.types.leaves_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
+
 			[general.types.leaves_type.traverse]
 				red_autumnal = true
 				brown_autumnal = true
@@ -128,10 +133,10 @@
 				yellow_autumnal = true
 				fir = true
 
-			[general.types.leaves_type.undergarden]
-				smogstem = true
-				wigglewood = true
-				grongle = true
+			[general.types.leaves_type.hexerei]
+				mahogany = true
+				willow = true
+				witch_hazel = true
 
 		[general.types.cake]
 
@@ -248,9 +253,6 @@
 			[general.types.wood_type.architects_palette]
 				twisted = true
 
-			[general.types.wood_type.traverse]
-				fir = true
-
 			[general.types.wood_type.cataclysm]
 				chorus = true
 
@@ -262,6 +264,14 @@
 			[general.types.wood_type.botania]
 				livingwood = true
 				dreamwood = true
+
+			[general.types.wood_type.traverse]
+				fir = true
+
+			[general.types.wood_type.hexerei]
+				mahogany = true
+				willow = true
+				witch_hazel = true
 
 	#Disables specific entries
 	[general.entries]
