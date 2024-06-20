@@ -2,10 +2,10 @@
 [blocks]
 	Sawmill = true
 	"Wooden boards" = true
-	"Wooden bookshelves" = true
-	"Wooden ladders" = true
+	"Wooden bookshelves" = false
+	"Wooden ladders" = false
 	"Wooden beehives" = true
-	"Wooden chests" = true
+	"Wooden chests" = false
 	"Leaf piles" = true
 
 [generation]
