@@ -307,7 +307,7 @@ ServerEvents.recipes((event) => {
             ["ABA", "BCB", "ABA"],
             {
                 A: "thermal:apatite",
-                B: "blue_skies:moonstone",
+                B: "aether:ambrosium_shard",
                 C: "forbidden_arcanus:rune",
             },
         ],
@@ -543,6 +543,42 @@ ServerEvents.recipes((event) => {
                 A: "create:andesite_alloy",
                 B: "#forge:glass",
                 C: "create:fluid_tank",
+            },
+        ],
+        [
+            "miners_delight:copper_pot",
+            [" A ", "BCB", " B "],
+            {
+                A: "iceandfire:copper_shovel",
+                B: "minecraft:copper_ingot",
+                C: "farmersdelight:cooking_pot",
+            },
+        ],
+        [
+            "hexerei:mixing_cauldron",
+            ["A A", "BCB", "BBB"],
+            {
+                A: "eidolon:soul_shard",
+                B: "#forge:ingots/silver",
+                C: "minecraft:cauldron",
+            },
+        ],
+        [
+            "minecraft:candle",
+            [" A ", " B ", "   "],
+            {
+                A: "#forge:string",
+                B: "eidolon:tallow",
+            },
+        ],
+        [
+            "hexerei:herb_drying_rack",
+            [" A ", " B ", "CDC"],
+            {
+                A: "aquaculture:iron_hook",
+                B: "minecraft:string",
+                C: "#forge:rods/wooden",
+                D: "#minecraft:wooden_slabs",
             },
         ],
     ];
