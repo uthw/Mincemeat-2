@@ -219,7 +219,16 @@
 				"With the &lCutting Board&r, you can chop an item into &emultiple&r other smaller items."
 				""
 				"For example, try the Amethyst Blocks you got as a reward. The tool matters -- use your brain!"
+				""
+				"You can find straw by using the knife on grass."
 			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "51A20901B9871737"
 			rewards: [
 				{
@@ -240,6 +249,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Nice Knife..."
 			tasks: [
 				{
 					id: "4EA95082394C971B"
@@ -258,8 +268,13 @@
 					title: "Any #forge:tools/knives"
 					type: "item"
 				}
+				{
+					id: "6F844EEC1E9EF27A"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
 			]
-			title: "Cutting Board"
+			title: "Knives and Cutting"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -414,6 +429,7 @@
 				""
 				"Certain blocks affect the &aeterna (max enchant level)&r, &cquanta (variance of results)&r, and &5arcana (likelihood of rare enchants and quantity of enchantments) &rof the enchanting table. These effects are listed in tooltips of such items."
 			]
+			icon: "minecraft:enchanting_table"
 			id: "479B3130EB602E62"
 			tasks: [
 				{
@@ -427,9 +443,15 @@
 					type: "item"
 				}
 				{
-					count: 15L
 					id: "5004024D9A58279A"
-					item: "minecraft:bookshelf"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any #forge:bookshelves"
 					type: "item"
 				}
 			]
@@ -512,8 +534,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["378BAA7FDE9DA51C"]
@@ -523,8 +545,8 @@
 				item: "grapplemod:motorupgradeitem"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74F529B8810608A5"]
@@ -594,7 +616,11 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["378BAA7FDE9DA51C"]
+			dependencies: [
+				"378BAA7FDE9DA51C"
+				"51A20901B9871737"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Mitigates fall damage."]
 			id: "1A246434519F75C5"
 			tasks: [{
@@ -602,8 +628,8 @@
 				item: "farmersdelight:safety_net"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51A20901B9871737"]
@@ -762,11 +788,27 @@
 			dependencies: ["7C2D35E29A7FF6A2"]
 			id: "16C996E71E9BABC3"
 			tasks: [{
-				id: "2265D95BB5829294"
-				item: "paraglider:paraglider"
+				id: "0177EE85C3C27FB1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "paraglider:paraglider"
+							}
+							{
+								Count: 1b
+								id: "paraglider:deku_leaf"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
-			x: 0.0d
+			title: "Paraglider"
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -916,7 +958,7 @@
 				item: "relics:researching_table"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -8.0d
 		}
 		{
@@ -1115,8 +1157,8 @@
 				item: "minecraft:redstone_block"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -8.5d
+			x: 2.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5AA15937C7BBDF98"]
@@ -1172,8 +1214,8 @@
 				item: "darkutils:redstone_randomizer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -11.0d
+			x: 6.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -1189,7 +1231,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -1279,6 +1321,91 @@
 			}]
 			x: -3.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["28D91722F8C4E87D"]
+			description: ["Soups made using the &6copper pot&r are &chalf as filling&r but &atwice as quick to drink&r."]
+			id: "6C976B8ECF935F65"
+			tasks: [{
+				id: "6BB727CDF1A83AB0"
+				item: "miners_delight:copper_pot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["368309757EB6EC56"]
+			id: "2679271970C50541"
+			tasks: [{
+				id: "4A397093D60261DC"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			title: "Neptune's Bounty"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"048233AB927943AD"
+				"51A20901B9871737"
+			]
+			description: [
+				"If you want a toned-down version of the big Create farm, let the &6Botany Pot&r be your friend."
+				""
+				"This small but powerful pot can grow plants and even automatically harvest and replant them."
+				""
+				"Place an item transport system (like a &6hopper&r) to put it into a &6furnace&r or other inventory afterwards!"
+			]
+			id: "70F3F301E295897A"
+			tasks: [{
+				id: "18C148347CAA6D31"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:all_botany_pots"
+					}
+				}
+				title: "Any #botanypots:all_botany_pots"
+				type: "item"
+			}]
+			title: "Botany Pot"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["649F0F57EC7E387E"]
+			description: ["Convert &dspirit orbs&r into &astamina upgrades&r."]
+			icon: "paraglider:goddess_statue"
+			id: "1BB40176C79A18D0"
+			tasks: [{
+				id: "6C2787380F6BF16D"
+				observe_type: 1
+				timer: 0L
+				to_observe: "paraglider:goddess_statues"
+				type: "observation"
+			}]
+			title: "Goddess Statue"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BB40176C79A18D0"]
+			icon: "paraglider:horned_statue"
+			id: "77058380D7029C96"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "772C1A98C08FBF3B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "paraglider:horned_statue"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: 1.5d
 		}
 	]
 	title: "Getting Started"

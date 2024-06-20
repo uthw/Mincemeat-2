@@ -1145,7 +1145,34 @@
 			x: -3.0d
 			y: 6.0d
 		}
+		{
+			description: [
+				"Adds energy to an RF network, enabling wireless flux transportation, even across dimensions."
+				""
+				"You can use cables to feed energy to the plug, or have it next to the output."
+				""
+				"First thing is to create a flux network. This is easy to due with the pretty GUI."
+				""
+				"Multiple flux plugs on the same network add RF to that network, while flux points extract it."
+			]
+			id: "2E7D2F50E760381A"
+			shape: "gear"
+			tasks: [
+				{
+					id: "4E4FC7A4D353AD33"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "7BBFD76F40A14535"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "Flux Networks"
+			x: 1.0d
+			y: 0.0d
+		}
 	]
-	subtitle: [""]
-	title: "TechLevel 2"
+	title: "Tech Level 2"
 }

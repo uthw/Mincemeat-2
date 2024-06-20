@@ -211,7 +211,7 @@
 			}]
 			title: "Effortless Smelting"
 			x: -2.5d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7D336EA43CCF5FD5"]
@@ -358,33 +358,6 @@
 			title: "Build an Automatic Farm"
 			x: -2.0d
 			y: -7.0d
-		}
-		{
-			dependencies: ["048233AB927943AD"]
-			description: [
-				"If you want a toned-down version of the big Create farm, let the &6Botany Pot&r be your friend."
-				""
-				"This small but powerful pot can grow plants and even automatically harvest and replant them."
-				""
-				"Place an item transport system (like a &6hopper&r) to put it into a &6furnace&r or other inventory afterwards!"
-			]
-			id: "70F3F301E295897A"
-			optional: true
-			tasks: [{
-				id: "18C148347CAA6D31"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "botanypots:all_botany_pots"
-					}
-				}
-				title: "Any #botanypots:all_botany_pots"
-				type: "item"
-			}]
-			title: "Botany Pot"
-			x: -4.0d
-			y: -6.5d
 		}
 		{
 			dependencies: ["7D336EA43CCF5FD5"]
@@ -1357,8 +1330,8 @@
 				item: "railways:semaphore"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.0d
+			x: -0.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["6C59243E9AAADB66"]
@@ -1415,8 +1388,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -12.0d
+			x: -3.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["7A3E1BC754A91448"]
@@ -1861,6 +1834,30 @@
 			}]
 			x: 9.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2635DBAEEA555FE2"]
+			description: ["&eWaters crops&r below it."]
+			id: "2C5AA0A1DB97778A"
+			tasks: [{
+				id: "213035D6CA602B04"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["048233AB927943AD"]
+			description: ["A turntable stuck onto a mechanical press. Stick a knife to it and it becomes a reverse garbage disposal that's really precise."]
+			id: "6EBA8FD6B1771AC0"
+			tasks: [{
+				id: "1C5DEFFF9FDEFA5E"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
 		}
 	]
 	title: "Tech Level 1"

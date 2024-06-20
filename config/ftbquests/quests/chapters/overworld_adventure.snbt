@@ -11,6 +11,7 @@
 		{
 			dependencies: ["00294FF7CDCA91F0"]
 			description: ["Found in the &5Theatre&r."]
+			hide_dependent_lines: true
 			id: "4493D9650B5D1F71"
 			subtitle: "Kill the &5Conjurer"
 			tasks: [{
@@ -72,7 +73,7 @@
 				title: "Extraterrestrial Foes Await!"
 				type: "checkmark"
 			}]
-			x: 0.75d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -106,8 +107,8 @@
 				}
 			]
 			title: "Night Lich"
-			x: -0.5d
-			y: -3.0d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -127,11 +128,11 @@
 				}
 			]
 			title: "Void Blossom"
-			x: 1.5d
-			y: -2.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["3F9A7DCBF8CE1DCB"]
+			dependencies: ["4493D9650B5D1F71"]
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
 			tasks: [
@@ -148,8 +149,8 @@
 				}
 			]
 			title: "Ice Maze"
-			x: -3.0d
-			y: -2.5d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -170,6 +171,7 @@
 				""
 				"    Pour the Vial of Blood into the altar."
 			]
+			icon: "minecells:skeleton"
 			id: "5FD7C7EDDE0E119C"
 			subtitle: "descrption from Graveyard Mod GitHub Wiki for now"
 			tasks: [{
@@ -180,7 +182,7 @@
 			}]
 			title: "Corrupted Champion"
 			x: -2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -208,8 +210,8 @@
 				}
 			]
 			title: "Kill the Warden"
-			x: 2.0d
-			y: -1.0d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -382,6 +384,7 @@
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
+			description: ["Found in &7wrought lairs&r below the ground."]
 			id: "00294FF7CDCA91F0"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
@@ -410,9 +413,203 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill Frostmaw"
-			x: -1.5d
+			title: "Frostmaw"
+			x: -2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Found in mountains and beaches, sometimes in groups."
+				""
+				"Its weakness is being hit out of the air with an arrow."
+				""
+				"However, since it's very good at dodging arrows, you should bring an Infinity bow so you don't need to worry about running out."
+			]
+			icon: "mowziesmobs:naga_fang"
+			id: "40108CC36E0CA635"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				id: "60DFE07C939A6C44"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a Naga"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			description: ["He can be found &6on his throne&r in savannas."]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_faith"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09F0100DAEDAD582"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "34857EEFF05576C1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Umvuthi, The Sunbird"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: [
+				"Summoned when a Vesper is sacrificed by Underzealots."
+				""
+				"This is a truly formidable foe with multiple phases and many attacks."
+			]
+			icon: "alexscaves:pure_darkness"
+			id: "6B15B902E71DC308"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "7562AFA6DBE112F7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Forsaken"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			icon: "botania:elementium_ingot"
+			id: "3DA23607574A2168"
+			tasks: [{
+				entity: "botania:doppleganger"
+				id: "11C0973C74F195D3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Guardian of Gaia"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			description: [
+				"An Abyssal Sacrifice is necessary to fight the boss."
+				""
+				"You need to get to The Nether before fighting The Leviathan. It's one of the hardest bosses in Mincemeat 2, so prepare sufficiently."
+				""
+				"You can use Blessed Amethyst Crab Meat, dropped by Amethyt Crabs in lush caves, to nullify the debuffs this boss gives."
+			]
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "05765DE630B7CDC2"
+			tasks: [
+				{
+					id: "1DDC078C6D091C79"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "72E1AD4B8BA5F853"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "35CA98792D926FB8"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+			]
+			title: "Leviathan"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			description: [
+				"These structures stick out in the desert like sore thumbs, you'll know it when you see it."
+				""
+				"Make sure you bring some Koboleton Bones back with you to make the Heart of the Golem if nothing else."
+				""
+				"Find the Necklace of the Desert by brushing blocks called \"suspicious sand.\" To wake up the Remnant, right click it with the Necklace."
+			]
+			icon: "cataclysm:necklace_of_the_desert"
+			id: "4C66466F73102684"
+			tasks: [
+				{
+					id: "2E23C2AF514C1561"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+				{
+					id: "7E0DC1D573B5072B"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "368111B28F939589"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ancient Remnant"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			icon: "cataclysm:wither_assault_shoulder_weapon"
+			id: "690AAE1274B3821D"
+			tasks: [
+				{
+					id: "58877D004CD49D45"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+				{
+					id: "269D2E96EE4F4619"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "135F59F7707AEA3D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Harbringer"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			icon: "minecraft:ender_eye"
+			id: "0522653117110CC8"
+			tasks: [{
+				id: "182AF139AFB5C642"
+				structure: "integrated_stronghold:stronghold"
+				type: "structure"
+			}]
+			title: "Find the Stronghold"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			icon: "ars_nouveau:ritual_wilden_summon"
+			id: "732BF9F02A4D0E26"
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "22CECCE6030A1AA8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wilden Chimera"
+			x: -6.5d
+			y: -0.5d
 		}
 	]
 	title: "Overworld Adventure"

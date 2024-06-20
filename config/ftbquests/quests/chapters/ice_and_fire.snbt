@@ -189,15 +189,15 @@
 			]
 			subtitle: "Should've gone for the horn..."
 			tasks: [{
-				id: "54740690BAC54DA1"
+				id: "0A9F9CBCED3A82CB"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:scales/dragon"
+						value: "iceandfire:scales/dragon"
 					}
 				}
-				title: "Any #forge:scales/dragon"
+				title: "Any #iceandfire:scales/dragon"
 				type: "item"
 			}]
 			title: "Dragon Scale"
@@ -642,164 +642,62 @@
 				}
 			]
 			subtitle: "Airborne epic troop that shoots AoE fireballs"
-			tasks: [
-				{
-					id: "1530D0AC3FF249D7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+			tasks: [{
+				id: "4853FA400AEB3C6A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_electric"
 							}
-						}
-						id: "iceandfire:dragonegg_red"
-					}
-					type: "item"
-				}
-				{
-					id: "28D6E5EE16708768"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_silver"
 							}
-						}
-						id: "iceandfire:dragonegg_green"
-					}
-					type: "item"
-				}
-				{
-					id: "1D12EA9772B56CBF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_sapphire"
 							}
-						}
-						id: "iceandfire:dragonegg_bronze"
-					}
-					type: "item"
-				}
-				{
-					id: "0A46B0429E5CB180"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_blue"
 							}
-						}
-						id: "iceandfire:dragonegg_gray"
-					}
-					type: "item"
-				}
-				{
-					id: "5CFD4C80146D1C36"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_gray"
 							}
-						}
-						id: "iceandfire:dragonegg_blue"
-					}
-					type: "item"
-				}
-				{
-					id: "783CE24A7C0251CF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_bronze"
 							}
-						}
-						id: "iceandfire:dragonegg_white"
-					}
-					type: "item"
-				}
-				{
-					id: "717AA7BD17432916"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_green"
 							}
-						}
-						id: "iceandfire:dragonegg_sapphire"
-					}
-					type: "item"
-				}
-				{
-					id: "541DF01F602DD790"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_red"
 							}
-						}
-						id: "iceandfire:dragonegg_silver"
-					}
-					type: "item"
-				}
-				{
-					id: "11A9EB024D363089"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_amythest"
 							}
-						}
-						id: "iceandfire:dragonegg_electric"
-					}
-					type: "item"
-				}
-				{
-					id: "180E29F06D0568D0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_copper"
 							}
-						}
-						id: "iceandfire:dragonegg_amythest"
-					}
-					type: "item"
-				}
-				{
-					id: "457A45E03E99E8B8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_black"
 							}
-						}
-						id: "iceandfire:dragonegg_copper"
+						]
 					}
-					type: "item"
 				}
-				{
-					id: "54E3EDAB20D6483B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "iceandfire:dragonegg_black"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Raising your own dragon"
 			x: 2.0d
 			y: -6.5d

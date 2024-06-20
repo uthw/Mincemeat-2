@@ -21,8 +21,8 @@
 			image: "kubejs:textures/item/arsnouveau.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 5.0d
-			y: 0.0d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			height: 1.0d
@@ -41,7 +41,9 @@
 			description: [
 				"Ars Nouveau provides spell crafting, magical devices, powerful trinkets, and magical entity automation."
 				""
-				"My Ars Nouveau quests aren't done yet so prefer to the one imported from Enigmatica 6"
+				"*Ars Nouveau quests still follow the 1.16 progression which has changed, so some things might not make sense."
+				""
+				"*These quests have limited coverage of Ars Nouveau addons which were not in Mincemeat 1, or may mention glyphs from mods which aren't in Mincemeat 2."
 			]
 			id: "49079A4790CE0545"
 			rewards: [{
@@ -557,19 +559,19 @@
 			]
 			icon: {
 				Count: 1
-				id: "reliquary:alkahestry_tome"
-				tag: {
-					Damage: 1001
-				}
+				id: "enigmaticlegacy:tattered_tome"
+				tag: { }
 			}
 			id: "2A2B25F44A4AE27B"
 			shape: "gear"
 			size: 2.0d
 			subtitle: "So glad you've come here!"
 			tasks: [{
-				id: "30A85248FC5ED140"
-				title: "Magic"
-				type: "checkmark"
+				icon: "supplementaries:clock_block"
+				id: "7FD71E4503CE7C3D"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
 			title: "Magic"
 			x: -0.5d
@@ -1672,7 +1674,7 @@
 		}
 		{
 			dependencies: ["2A2B25F44A4AE27B"]
-			description: ["As the creator put it, Eidolon is a new magic mod with elements of alchemy, theurgy, and necromancy."]
+			description: ["Eidolon is a dark magic mod."]
 			id: "44061A57BC1657E2"
 			rewards: [{
 				count: 8
@@ -2357,7 +2359,7 @@
 				""
 				"Also, it is very costly."
 				""
-				"The total number of enchantment levels available on an item is capped at 30, so use the soul enchanter wisely."
+				"The total number of enchantment levels available on an item is limited, so use the soul enchanter wisely."
 			]
 			id: "4CA96CEC9C42B665"
 			rewards: [{
@@ -2883,13 +2885,14 @@
 				id: "2F7CC80DA6994FA5"
 				type: "custom"
 			}]
+			subtitle: "To start Blood Magic, you need to do some natural magic first."
 			tasks: [{
 				id: "1D1FD45C329440DF"
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1C2300F8EFEE7A81"]
@@ -2909,8 +2912,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0FB32BA9C9A5EBD4"]
@@ -2939,8 +2942,8 @@
 				}
 			]
 			title: "Blood Orb"
-			x: -4.0d
-			y: 5.5d
+			x: -8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0FB32BA9C9A5EBD4"]
@@ -2955,8 +2958,8 @@
 				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: -9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0FB32BA9C9A5EBD4"]
@@ -2984,8 +2987,8 @@
 				}
 			]
 			title: "Soul Snares"
-			x: -4.5d
-			y: 4.0d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -3004,8 +3007,8 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 6.5d
+			x: -10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2B77E1A67BA9E56E"]
@@ -3034,8 +3037,8 @@
 				}
 			]
 			title: "Crafting with Arcane Ashes"
-			x: -4.5d
-			y: 7.0d
+			x: -9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["331CFB1DC66B5ACF"]
@@ -3050,8 +3053,8 @@
 				item: "bloodmagic:divinationsigil"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["290C930615FC3838"]
@@ -3073,8 +3076,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -11.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["705CBB50048920B5"]
@@ -3088,8 +3091,8 @@
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.5d
+			x: -11.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -3114,8 +3117,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.5d
+			x: -13.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["45F21FF6E1BE1F4E"]
@@ -3137,8 +3140,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 6.5d
+			x: -11.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["45F21FF6E1BE1F4E"]
@@ -3159,8 +3162,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 7.0d
+			x: -13.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3D6EDD521E81A5E3"]
@@ -3177,8 +3180,8 @@
 				item: "bloodmagic:blankrune"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.0d
+			x: -7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["366E5D97F0DC7487"]
@@ -3198,8 +3201,8 @@
 				item: "bloodmagic:daggerofsacrifice"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.5d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["366E5D97F0DC7487"]
@@ -3214,8 +3217,8 @@
 				item: "bloodmagic:apprenticebloodorb"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: -6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["366E5D97F0DC7487"]
@@ -3230,8 +3233,8 @@
 				item: "bloodmagic:reinforcedslate"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["506ACE31DF99D0EE"]
@@ -3270,8 +3273,8 @@
 				type: "item"
 			}]
 			title: "Runes"
-			x: -1.5d
-			y: 4.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3D6EDD521E81A5E3"]
@@ -3314,8 +3317,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 6.5d
+			x: -8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3DBD694675234BDE"]
@@ -3329,8 +3332,8 @@
 				item: "bloodmagic:stonebrickpath"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 8.5d
+			x: -8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["58907ACB39904795"]
@@ -3344,8 +3347,8 @@
 				item: "bloodmagic:wornstonebrickpath"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 9.5d
+			x: -8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3DBD694675234BDE"]
@@ -3361,8 +3364,8 @@
 				title: "Tranquility"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 7.5d
+			x: -8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4764A4936EB22022"]
@@ -3379,8 +3382,8 @@
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: -5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4764A4936EB22022"]
@@ -3391,8 +3394,8 @@
 				item: "bloodmagic:infusedslate"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: -6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["215ECC1648CF2ADB"]
@@ -3409,8 +3412,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 9.0d
+			x: -14.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["56FBC814A80FAAD5"]
@@ -3422,8 +3425,8 @@
 				item: "bloodmagic:demoncrystallizer"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 8.5d
+			x: -15.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7E0FCB80CD8BD11D"]
@@ -3433,8 +3436,8 @@
 				item: "bloodmagic:demoncrucible"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 7.5d
+			x: -17.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["331CFB1DC66B5ACF"]
@@ -3445,8 +3448,8 @@
 				item: "bloodmagic:reagentbinding"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 8.5d
+			x: -10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["45F21FF6E1BE1F4E"]
@@ -3461,8 +3464,8 @@
 				item: "bloodmagic:shaped_charge"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 6.5d
+			x: -14.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2B77E1A67BA9E56E"]
@@ -3502,8 +3505,8 @@
 				}
 			]
 			title: "Beginning of Occultism"
-			x: -7.0d
-			y: 8.5d
+			x: -11.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["77219718DABB8F62"]
@@ -3517,8 +3520,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 10.5d
+			x: -9.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["421227890C2EBBA4"]
@@ -3540,8 +3543,8 @@
 				item: "tomeofblood:novice_tome_of_blood"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
@@ -4148,6 +4151,457 @@
 				type: "item"
 			}]
 			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["31302C25EFA8B097"]
+			description: [
+				"Hexerei is a mod about witchery."
+				""
+				"The Mixing Cauldron is where you'll do lots of crafting if you plan to progress through this mod."
+				""
+				"It can be filled with water. Each recipe uses a little water (or lava sometimes), so you might want to hook a pump up to the cauldron."
+				""
+				"Crafting using the Cauldron can be done by right clicking on it or dropping/throwing items on top of it. The latter method might be useful if you're interested in automation."
+			]
+			id: "19E62F587AB8AB1D"
+			rewards: [
+				{
+					id: "06AF114F18AE4992"
+					item: "hexerei:book_of_shadows_altar"
+					type: "item"
+				}
+				{
+					id: "7543D98A0F9D7835"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "36A3B52104E7C949"
+					item: "hexerei:dowsing_rod"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "It's witching hour"
+			tasks: [{
+				id: "43909B0EF1260721"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			title: "Hexerei"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19E62F587AB8AB1D"]
+			id: "710393BF8AD587A8"
+			tasks: [{
+				count: 8L
+				id: "0E6D9AAC9929BF1B"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["710393BF8AD587A8"]
+			description: [
+				"Does not have leggings. Guess witches are too good for them."
+				""
+				"Provides partial and full set bonuses."
+			]
+			id: "13AAAAA5402CB031"
+			tasks: [
+				{
+					id: "5591266FBB2AE9B1"
+					item: {
+						Count: 1
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05A8F80AC23A9F59"
+					item: {
+						Count: 1
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5099D9E4A5B54CF3"
+					item: {
+						Count: 1
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Witch Set"
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19E62F587AB8AB1D"]
+			description: [
+				"Obtained from killing animals with a low chance."
+				""
+				"You can drop this in the Mixing Cauldron to convert the water inside into liquid tallow."
+				""
+				"This also works with honey or candles."
+			]
+			id: "5FB569C730DF2C0B"
+			tasks: [{
+				id: "73BE718D1AA4F8FB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 1b
+								id: "hexerei:animal_fat"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tallow"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5FB569C730DF2C0B"]
+			description: ["The &ddipper&r provides a more atmospheric way of making candles, much like real life by dipping string in tallow."]
+			id: "23EFBC312E339635"
+			tasks: [{
+				id: "7182E0CBB09E856E"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19E62F587AB8AB1D"]
+			description: [
+				"1. Get a &ddrying rack&r and hang it under a block."
+				""
+				"2. Hang the &dsage bundles&r on the &ddrying rack&r and wait."
+				""
+				"3. Place the dried &dsage bundles&r on a &dsage burning plate&r."
+				""
+				"4. Immolate the &dsage bundle&r with flint and steel to prevent hostile mobs from spawning in a large radius (it's better and prettier than the Mega Torch)."
+			]
+			id: "2F3578061762DC8C"
+			tasks: [
+				{
+					id: "04B1D3E4796E1B64"
+					item: "hexerei:herb_drying_rack"
+					type: "item"
+				}
+				{
+					id: "76407F1FAE9F80AC"
+					item: "hexerei:sage_burning_plate"
+					type: "item"
+				}
+				{
+					id: "15C2EC1D429F1195"
+					item: {
+						Count: 1
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19E62F587AB8AB1D"]
+			id: "0DF34F2A925C8A0C"
+			tasks: [{
+				id: "5CA434AFC4647EF0"
+				item: "hexerei:coffer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19E62F587AB8AB1D"]
+			description: ["Mahogany brooms are fire resistant and overall superior, but much harder to make!"]
+			id: "565166C1F792A623"
+			tasks: [{
+				id: "524BE6405A9F81A4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+								tag: {
+									broomUUID: [I;
+										-922599469
+										37701033
+										-1625664279
+										-1060097313
+									]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Broom"
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["565166C1F792A623"]
+			id: "63721096865F10AD"
+			tasks: [{
+				id: "4CF39D86C102EF08"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexerei:all_satchels"
+					}
+				}
+				title: "Any #hexerei:all_satchels"
+				type: "item"
+			}]
+			title: "Satchel"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["565166C1F792A623"]
+			id: "7F50583D85346B23"
+			tasks: [{
+				id: "5FB487E88C73A640"
+				item: {
+					Count: 1
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["19E62F587AB8AB1D"]
+			description: ["Right click your crow to cycle commands. For more advanced control, shift right click."]
+			id: "0129870BD87086C9"
+			tasks: [
+				{
+					id: "41A5ED8F7AE28314"
+					item: "hexerei:pestle_and_mortar"
+					type: "item"
+				}
+				{
+					id: "0CDB95A149492688"
+					item: "hexerei:seed_mixture"
+					type: "item"
+				}
+			]
+			title: "To Tame a Crow"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["565166C1F792A623"]
+			description: ["Search \"broom attachment\" in EMI for more possibilities."]
+			id: "1C36656D4E915F5C"
+			tasks: [{
+				id: "11688AE329474759"
+				item: {
+					Count: 1
+					id: "hexerei:broom_keychain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["565166C1F792A623"]
+			id: "57464EC4F262D535"
+			tasks: [{
+				id: "2E0F45941A9BEBBC"
+				item: {
+					Count: 1
+					id: "hexerei:broom_whistle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0129870BD87086C9"]
+			description: ["Right click a block with the flute to set a crow's perch position."]
+			id: "28704D846601B79A"
+			tasks: [{
+				id: "0D00E24CA39214B6"
+				item: {
+					Count: 1
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["335E26285D11AB8A"]
+			description: [
+				"You can inscribe spells onto these items using the Scribe's Table."
+				""
+				"Instead of placing parchment on the table, instead place one of these items. Many of them exist, such as a crossbow, sword, and wand."
+				""
+				"You will cast the spell when using the item for mana, instead of using your spell book."
+				""
+				"&7&oBows with Explosion are perfectly balanced and have no issues&r"
+			]
+			id: "5D8B655C8EFB7A7F"
+			tasks: [{
+				id: "0C9E0CB697315E26"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_bow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_mirror"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_crossbow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_eye"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:spell_horn"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:base_bangle"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:wand"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enchanter's Items"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0AA8E8253E201B38"]
+			hide_dependency_lines: true
+			id: "70F5B2D7182D151B"
+			tasks: [{
+				id: "4A98D19B285DE87D"
+				item: "ars_nouveau:ritual_disintegration"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5DB7162A1CF3DB61"]
+			description: ["You can spy on locations far away using the Oculus and Crystal."]
+			id: "65CE4F118890E6C5"
+			tasks: [
+				{
+					id: "7353D63E7C37C3EB"
+					item: "ars_nouveau:scryers_crystal"
+					type: "item"
+				}
+				{
+					id: "40DC82497315D005"
+					item: "ars_nouveau:scryers_oculus"
+					type: "item"
+				}
+			]
+			x: 1.5d
 			y: -5.5d
 		}
 	]

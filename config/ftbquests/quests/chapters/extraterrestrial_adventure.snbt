@@ -541,6 +541,13 @@
 				}
 			}
 			id: "520A629F81C286FF"
+			rewards: [{
+				auto: "invisible"
+				id: "325D23DD5A481E11"
+				ignore_reward_blocking: true
+				stage: "end_access"
+				type: "gamestage"
+			}]
 			subtitle: "and kill the Netherite Monstrosity"
 			tasks: [
 				{
@@ -754,6 +761,7 @@
 		}
 		{
 			dependencies: ["43C5DFBA3E25CC38"]
+			icon: "minecraft:chest"
 			id: "1BE8177C3FD3227A"
 			subtitle: "(Kill a Mimic)"
 			tasks: [{
@@ -1001,28 +1009,6 @@
 			y: -4.0d
 		}
 		{
-			id: "29C6BB774B29D690"
-			tasks: [{
-				id: "3370888FD85B662A"
-				structure: "#betterstrongholds:better_strongholds"
-				type: "structure"
-			}]
-			x: 7.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["086E8054D516AFF4"]
-			id: "0CB6D002AE6EC30D"
-			tasks: [{
-				entity: "adventurez:blackstone_golem"
-				id: "1C113D19919C5F02"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["70795731019BA757"]
 			description: ["Deals a ton of damage to undead creatures, making it a top consideration for fighting the Wither."]
 			id: "2DBDDEE400EB8E8D"
@@ -1037,8 +1023,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["71358BBA8D60E6CD"]
@@ -1074,6 +1060,60 @@
 			}]
 			x: 3.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["70795731019BA757"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "080F3639CF9971BF"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "0FB7A3F9990809BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wither"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["520A629F81C286FF"]
+			id: "29D52E88824CB90D"
+			tasks: [{
+				count: 8L
+				id: "04677A4FBA9D8B9D"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29D52E88824CB90D"]
+			disable_toast: true
+			icon: "quark:tuff_bricks"
+			id: "1B06AB14ACC698BD"
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "5E775570F33485FD"
+				type: "advancement"
+			}]
+			title: "Find the Stronghold"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B06AB14ACC698BD"]
+			icon: "minecraft:end_portal_frame"
+			id: "112C59D69077AED4"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "533B96E2C67DBE50"
+				type: "dimension"
+			}]
+			title: "Go to the End"
+			x: 3.5d
+			y: 0.5d
 		}
 	]
 	title: "Dimensional Adventure"
