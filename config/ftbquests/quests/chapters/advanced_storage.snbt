@@ -297,12 +297,16 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["23B75CD0B5815418"]
+			icon: "aquaculture:treasure_chest"
 			id: "050E820868DD4EC3"
 			tasks: [{
-				id: "58A94937B0C5B04E"
-				title: "Advanced Storage"
-				type: "checkmark"
+				id: "66F9CA117F1F559C"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
+			title: "Advanced Storage"
 			x: 2.0d
 			y: -2.0d
 		}
