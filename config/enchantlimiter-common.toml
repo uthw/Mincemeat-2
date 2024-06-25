@@ -8,7 +8,7 @@
 	granularity = 0.1
 	#how many enchantment points an item starts with
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"base points" = 12.0
+	"base points" = 7.0
 	#the default cost to add a new enchantment onto an item.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"base cost" = 0.0
@@ -18,5 +18,5 @@
 	#Items that have their own enchantment point cap. Format is name, base enchantability, increment per extra point of enchantability.
 	"custom items" = ["minecraft:fishing_rod, 20, 0.5", "minecraft:bow, 15, 1", "minecraft:enchanted_book, 30, 0"]
 	#It's really irritating how nightconfig doesn't keep the entries in separate lines, but alas. Define enchantments here. Format is name, base cost, incremental cost.
-	enchantments = ["minecraft:mending, 5, 0", "ensorcellation:soulbound, 3, 0", "minecraft:infinity, 3, 0"]
+	enchantments = ["minecraft:mending, 0, 0", "ensorcellation:soulbound, 0, 0", "minecraft:infinity, 3, 0", "minecraft:unbreaking, 0, 0"]
 

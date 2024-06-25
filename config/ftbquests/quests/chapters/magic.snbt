@@ -2746,7 +2746,7 @@
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
-			description: ["When summoned as an ally, bookwyrms use their power to buff your spells and increase their mana efficiency."]
+			description: ["Bookwyrms pick up items and experience."]
 			id: "2626C487E7BA6230"
 			rewards: [
 				{
@@ -2760,16 +2760,8 @@
 				}
 			]
 			tasks: [{
-				id: "71C70A2DB6EBDD1F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:familiar_bookwyrm"
-				}
+				id: "6FF248D0BDC1B2E5"
+				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
 			x: 9.5d
@@ -2777,7 +2769,13 @@
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
-			description: ["Drygmy familiars can increase your looting level and buff your Earth spells."]
+			description: [
+				"Drygmys like Wilden Horns (drop it in front of them) and can be found anywhere in the Overworld. You can use the Summon Drygmy ritual to create one yourself or just stumble across one."
+				""
+				"Interact with Mossy Cobblestone while holding a Drygmy Charm to summon it. Within 10 blocks of this block, the Drygmy will peacefully cause nearby entities to drop their loot tables as if they were killed."
+				""
+				"More information about Drygmys is in the Worn Notebook."
+			]
 			id: "62A650D0391A90B5"
 			rewards: [{
 				count: 2
@@ -2800,16 +2798,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1F3CD4F8BCA4A664"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:familiar_drygmy"
-				}
+				id: "4D60DD44917FB295"
+				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
 			x: 11.5d
@@ -2817,23 +2807,21 @@
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
-			description: ["Summoned wixies seek to assist mages in combat, tossing their concoctions at adversaries."]
+			description: [
+				"Wixies are skilled in crafting, and can spend their owner's source to craft items for them."
+				""
+				"Right click the Wixie Charm on a Cauldron to summon it."
+				""
+				"Summoned wixies seek to assist mages in combat, tossing their concoctions at adversaries."
+			]
 			id: "0FC6F8A814D4DF45"
 			rewards: [{
 				id: "582ABC5338DA644E"
 				type: "loot"
 			}]
 			tasks: [{
-				id: "500BB31CD30E41FA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ars_nouveau:familiar_wixie"
-				}
+				id: "3B080D1B8D24D16D"
+				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
 			x: 11.5d
@@ -3548,10 +3536,27 @@
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
+			description: [
+				"Starbuncles are elusive rodents found in forests who aren't so fond of players, but love golden nuggets. They will not flee if you're holding one while approaching."
+				""
+				"Give your golden nugget to the Starbuncle and it will turn into a charm. You can use the Charm on the ground to summon the Starbuncle."
+				""
+				"{@pagebreak}"
+				"The Starbuncle, like the hoarder it is, will pick up items from the ground and can move items across storage containers. Right click the Starbuncle with the Dominion Wand and then right click the container to tell it to place items into it."
+				""
+				"To take from the container, interact with the container and then the Starbuncle."
+				""
+				"You can get much more precise with these little critters. Refer to your Worn Notebook for more."
+			]
 			id: "421227890C2EBBA4"
+			subtitle: "My precious!"
 			tasks: [{
-				id: "039A87BF08B0C191"
-				item: "ars_nouveau:familiar_starbuncle"
+				id: "07EFB57A97A4FE84"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 10.5d

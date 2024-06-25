@@ -3,21 +3,19 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1719150682489
+  last_edited_time = 1719150735431
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = M I N C E M E A T
-  [loading_requirement_container_meta:85986ef1-06ee-477a-86be-315d96882097-1719150553333] = [groups:][instances:]
+  [loading_requirement_container_meta:9a6ef6f7-22a7-4230-94be-d05638c4c5b0-1719150682490] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/3dsaul/frames_intro/1.png
-  slide = false
-  repeat_texture = false
-  background_type = image
+  color = #141414
+  background_type = drippy_color_background
 }
 
 customization {

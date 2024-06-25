@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "spartans_weaponry"
-	group: "575079378E827F8C"
+	group: "357B296D74E0575E"
 	icon: "toolbelt:belt"
 	id: "2BED532CEDEE8CE1"
 	images: [
@@ -23,7 +23,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

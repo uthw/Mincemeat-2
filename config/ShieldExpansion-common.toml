@@ -20,7 +20,7 @@
 	noSpeedModifier = false
 	#
 	#Make shields only block partial damage from explosions when not parrying
-	harderExplosions = false
+	harderExplosions = true
 	#
 	#Double the parry window for a more relaxed experience
 	lenientParryMode = false

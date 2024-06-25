@@ -97,7 +97,7 @@
 		[tools_and_abilities.naga_fang_dagger.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 3.0
+			attack_damage = 6.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 2.0

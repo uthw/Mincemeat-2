@@ -118,13 +118,18 @@
 				orange_maple = true
 				red_maple = true
 
-			[general.types.leaves_type.architects_palette]
-				twisted = true
-
 			[general.types.leaves_type.undergarden]
 				smogstem = true
 				wigglewood = true
 				grongle = true
+
+			[general.types.leaves_type.hexerei]
+				mahogany = true
+				willow = true
+				witch_hazel = true
+
+			[general.types.leaves_type.architects_palette]
+				twisted = true
 
 			[general.types.leaves_type.traverse]
 				red_autumnal = true
@@ -132,11 +137,6 @@
 				orange_autumnal = true
 				yellow_autumnal = true
 				fir = true
-
-			[general.types.leaves_type.hexerei]
-				mahogany = true
-				willow = true
-				witch_hazel = true
 
 		[general.types.cake]
 
@@ -250,9 +250,6 @@
 			[general.types.wood_type.autumnity]
 				maple = true
 
-			[general.types.wood_type.architects_palette]
-				twisted = true
-
 			[general.types.wood_type.cataclysm]
 				chorus = true
 
@@ -265,13 +262,16 @@
 				livingwood = true
 				dreamwood = true
 
-			[general.types.wood_type.traverse]
-				fir = true
-
 			[general.types.wood_type.hexerei]
 				mahogany = true
 				willow = true
 				witch_hazel = true
+
+			[general.types.wood_type.architects_palette]
+				twisted = true
+
+			[general.types.wood_type.traverse]
+				fir = true
 
 	#Disables specific entries
 	[general.entries]
@@ -281,9 +281,6 @@
 			[general.entries.leaves_type.quark]
 				hedge = true
 				leaf_carpet = true
-
-			[general.entries.leaves_type.mcwfences]
-				hedge = true
 
 		[general.entries.wood_type]
 
@@ -354,18 +351,6 @@
 				window = true
 				shutter = true
 
-			[general.entries.wood_type.mcwfences]
-				highley_gate = true
-				picket_fence = true
-				stockade_fence = true
-				wired_fence = true
-				horse_fence = true
-				pyramid_gate = true
-
-			[general.entries.wood_type.mcwlights]
-				tiki_torch = true
-				soul_tiki_torch = true
-
 			[general.entries.wood_type.mcwbridges]
 				bridge_pier = true
 				rope_bridge = true
@@ -373,13 +358,6 @@
 				rope_bridge_stair = true
 				log_bridge_stair = true
 				rail_bridge = true
-
-			[general.entries.wood_type.architects_palette]
-				board_stairs = true
-				board_wall = true
-				railing = true
-				boards = true
-				board_slab = true
 
 			[general.entries.wood_type.another_furniture]
 				flower_box = true
@@ -389,4 +367,11 @@
 				bench = true
 				table = true
 				chair = true
+
+			[general.entries.wood_type.architects_palette]
+				board_stairs = true
+				railing = true
+				boards = true
+				board_slab = true
+				board_wall = true
 

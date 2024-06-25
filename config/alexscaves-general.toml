@@ -11,7 +11,7 @@
 	cave_biome_width_randomness = 0.15
 	#Average spacing in between Alex's Caves cave biomes. 0 = all biomes nearly perfectly equidistant. 1 = biomes completely randomly spread out, sometimes next to eachother.
 	#Range: 0.0 ~ 1.0
-	cave_biome_spacing_randomness = 0.2
+	cave_biome_spacing_randomness = 0.25
 	#Whether to warn users when a server starts if an incompatible generation mod is detected.
 	warn_generation_incompatibility = true
 

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			description: [
 				"Inside this strange book you found is a note."
 				""
@@ -16,6 +17,175 @@
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2BE6B05790E5A2DE"
+			rewards: [{
+				id: "4B918DFBA85EB7A9"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							advancedperipherals: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
+									}
+								}
+							}
+							aether: {
+								0: {
+									Count: 1b
+									id: "aether:book_of_lore"
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							betterend: {
+								0: {
+									Count: 1b
+									id: "betterend:guidebook"
+								}
+							}
+							bloodmagic: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "bloodmagic:guide"
+									}
+								}
+							}
+							botania: {
+								0: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+								1: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+							}
+							eidolon: {
+								0: {
+									Count: 1b
+									id: "eidolon:codex"
+								}
+							}
+							enderio: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "enderio:guide"
+									}
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							minecells: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "minecells:minecells_guidebook"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							naturesaura: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
+							storagenetwork: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "storagenetwork:network_book"
+									}
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: "botania:cosmetic_clock_eye"
 				id: "7ABAEA70F4D6542F"
@@ -59,6 +229,7 @@
 		}
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
+			description: ["Tip: you can pick some blocks and mobs up and carry them around by sneaking and interacting with them. This includes most tile entities and passive mobs, as long as they aren't too big."]
 			id: "50D43AFA6402629F"
 			tasks: [
 				{
@@ -546,7 +717,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["74F529B8810608A5"]
@@ -1232,7 +1403,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["03B0D122AD821C0D"]
@@ -1338,8 +1509,8 @@
 			dependencies: ["368309757EB6EC56"]
 			id: "2679271970C50541"
 			tasks: [{
-				id: "4A397093D60261DC"
-				item: "aquaculture:neptunium_ingot"
+				id: "0A8AF47A290E7E1B"
+				item: "aquaculture:neptunes_bounty"
 				type: "item"
 			}]
 			title: "Neptune's Bounty"
@@ -1349,7 +1520,7 @@
 		{
 			dependencies: [
 				"048233AB927943AD"
-				"51A20901B9871737"
+				"7CBCC47AA6904CFD"
 			]
 			description: [
 				"If you want a toned-down version of the big Create farm, let the &6Botany Pot&r be your friend."
@@ -1372,8 +1543,8 @@
 				type: "item"
 			}]
 			title: "Botany Pot"
-			x: -4.0d
-			y: -4.5d
+			x: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["649F0F57EC7E387E"]
@@ -1404,8 +1575,46 @@
 				to_observe: "paraglider:horned_statue"
 				type: "observation"
 			}]
+			title: "Horned Statue"
 			x: -8.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["51A20901B9871737"]
+			description: ["Craft &aorganic compost&r and place it &bnext to water&r. Eventually, it will turn into &arich soil&r, which can &bgrow crops faster than regular soil&r when tilled."]
+			id: "7CBCC47AA6904CFD"
+			tasks: [
+				{
+					id: "307B4AF33526F541"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "3910E9F2782C1539"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			title: "Creation of Rich Soil"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03B0D122AD821C0D"]
+			description: [
+				"Add a villager to your inventory by holding shift and right clicking. You may need to rebind this key in the \"Easy Villagers\" category of the controls menu (it may conflict with Carry On)."
+				""
+				"You can safely carry this villager around and place it back down when you feel like it by right clicking the ground."
+			]
+			id: "6AAC671A5A3A8E24"
+			tasks: [{
+				id: "59922A000F7FAB03"
+				item: "easy_villagers:villager"
+				title: "Villager"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
 		}
 	]
 	title: "Getting Started"

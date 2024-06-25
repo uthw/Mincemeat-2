@@ -306,7 +306,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2287726086131598"]
@@ -318,14 +318,15 @@
 			icon: "alexscaves:scarlet_magnet"
 			id: "0A6104C04414F37B"
 			invisible: true
+			subtitle: "Yeah, (dog)! Magnets!"
 			tasks: [{
 				biome: "alexscaves:magnetic_caves"
 				id: "1004FCE1585BE694"
 				type: "biome"
 			}]
 			title: "Magnetic Caves"
-			x: -2.0d
-			y: 4.0d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2287726086131598"]
@@ -338,40 +339,47 @@
 				type: "biome"
 			}]
 			title: "Primordial Caves"
-			x: -1.5d
-			y: 6.0d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2287726086131598"]
+			description: [
+				"Being in the caves or having radioactive items in your inventory may give you the &2irradiated&r effect, which prevents you from healing."
+				""
+				"More potent sources of radiation can cause damage over time, like withering."
+			]
 			icon: "alexscaves:nuclear_bomb"
 			id: "6202F882D0377E6B"
 			invisible: true
+			subtitle: "War. War never changes."
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
 				id: "3A8D9805EA1EFAB3"
 				type: "biome"
 			}]
 			title: "Toxic Caves"
-			x: -0.5d
-			y: 6.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2287726086131598"]
 			icon: "alexscaves:copper_valve"
 			id: "403B8F4A5838932B"
 			invisible: true
+			subtitle: "Don't use your Rod of Discord :)"
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
 				id: "4A1D983D8F1D4D95"
 				type: "biome"
 			}]
 			title: "Abyssal chasm"
-			x: 0.5d
-			y: 6.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2287726086131598"]
-			icon: "alexscaves:pure_darkness"
+			icon: "alexscaves:darkened_apple"
 			id: "06D8CD953FBEE3D2"
 			invisible: true
 			tasks: [{
@@ -379,8 +387,9 @@
 				id: "0BDB0115785CD6F0"
 				type: "biome"
 			}]
+			title: "Forlorn Hollows"
 			x: -2.0d
-			y: 5.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -466,6 +475,7 @@
 				""
 				"This is a truly formidable foe with multiple phases and many attacks."
 			]
+			hide_dependency_lines: true
 			icon: "alexscaves:pure_darkness"
 			id: "6B15B902E71DC308"
 			tasks: [{
@@ -475,8 +485,8 @@
 				value: 1L
 			}]
 			title: "Forsaken"
-			x: -3.5d
-			y: 5.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -610,6 +620,843 @@
 			title: "Wilden Chimera"
 			x: -6.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: [
+				"An underwater society who is willing to trade pearls (sometimes obtained from breaking mussels) for valuables."
+				""
+				"Place a pearl or heart of the sea on an abyssal altar to round them in."
+				""
+				"The item you put on the altar will be exchanged for a random item like how piglin bartering works."
+			]
+			id: "06D1991EE22CF1B3"
+			tasks: [
+				{
+					icon: "alexscaves:gazing_pearl"
+					id: "5D4DB5EAAEB5E528"
+					observe_type: 0
+					timer: 0L
+					title: "Deep One"
+					to_observe: "minecraft:air"
+					type: "observation"
+				}
+				{
+					id: "2AB928FA3E63FA0D"
+					item: "alexscaves:abyssal_altar"
+					type: "item"
+				}
+				{
+					id: "0181AD7B93D5C30B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "alexscaves:pearl"
+								}
+								{
+									Count: 1b
+									id: "minecraft:heart_of_the_sea"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Deep One Bartering"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: [
+				"Sometimes, when mining &6amber&r, you may find an &eamber curiosity&r."
+				""
+				"Fortune increases your likelihood."
+			]
+			id: "0958E22D0265B1EF"
+			tasks: [
+				{
+					icon: "alexscaves:amber"
+					id: "7BEDBF8D47DCA614"
+					observe_type: 0
+					timer: 0L
+					to_observe: "alexscaves:amber"
+					type: "observation"
+				}
+				{
+					id: "1D46975F8E3D9896"
+					item: "alexscaves:amber_curiosity"
+					type: "item"
+				}
+			]
+			title: "Amber Curiosity"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0958E22D0265B1EF"]
+			description: ["Spawns mobs from the primordial caves."]
+			id: "08813A660A2B1A5A"
+			tasks: [{
+				id: "4F3B3866EAABEEDD"
+				item: "alexscaves:amber_monolith"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			id: "5B149E24369F09ED"
+			tasks: [{
+				id: "176DCD4BEB888685"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B149E24369F09ED"]
+			description: ["This armor lets your body absorb more nutrients from raw meat."]
+			id: "56792465EBD9F4C1"
+			tasks: [
+				{
+					id: "26E06A3165BB4B1E"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "759B62C331E48AC3"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07E6FDD75CD9BA9B"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Primordial Style"
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5B149E24369F09ED"]
+			description: [
+				"If you've been to the Nether and found a dragon corpse while exploring (in the Overworld), these tools may be for you."
+				""
+				"Dragonbone tools deal the same damage as netherite tools, but have more enchantability."
+				""
+				"You can also coat swords to increase their damage and give them special effects if you've killed a dragon; see how in the Mythical Creatures quests."
+			]
+			id: "4FBF403602D611F5"
+			tasks: [
+				{
+					id: "75CAFF8D6B85DC67"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30AC9C4FD806A9A3"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79DEB580ABFC645B"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dragon Bone Set"
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"5B149E24369F09ED"
+				"0958E22D0265B1EF"
+			]
+			id: "365E0C8A9768664A"
+			tasks: [{
+				id: "190500731F261980"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			description: ["You can use the gauntlet to shoot netherite tools and use them from afar. That means you can remotely mine blocks and attack mobs."]
+			id: "7491B85F3E282774"
+			tasks: [{
+				id: "0B65521BD75CBAA8"
+				item: {
+					Count: 1
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			description: [
+				"It will not work unless you mark a rectangular area with Magnetic Lights. The radius of this rectangle can reach 20 blocks."
+				""
+				"Place the smasher in the center and the quarry can go wherever."
+				""
+				"This does not need any sort of energy or fuel; magnetic energy is the source of power."
+			]
+			id: "66A3D9F944D1965A"
+			subtitle: "Tunneling Machine"
+			tasks: [
+				{
+					id: "64CF4806EEECDC02"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					id: "63E112C8EEADDB1C"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			id: "104229AD939B60C2"
+			tasks: [{
+				id: "6F9B0FCA3CF4DDDC"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexscaves:magnetizing"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0A6104C04414F37B"
+				"146B68D99E7A92FE"
+			]
+			description: [
+				"One of the best shields in the modpack."
+				""
+				"Blocks attacks while doing damage in a radius."
+				""
+				"If the red pole is on the bottom, the shield pushes surrounding mobs away. If the blue pole is on the bottom, it pulls them closer."
+				""
+				"Has unique enchantments."
+			]
+			id: "66379C8C9AB2C51B"
+			tasks: [{
+				id: "00E0E23D5315CB9D"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			id: "665D577C17F2A23D"
+			tasks: [{
+				id: "4B6AF53561189609"
+				item: "alexscaves:seeking_arrow"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: [
+				"Drops from underzealots."
+				""
+				"For every attack, another blade burrows itself inside the target."
+			]
+			id: "7ABBA605B0C18FBD"
+			subtitle: "Sephiroth Side Special Simulator"
+			tasks: [{
+				id: "103A46F89C568BBF"
+				item: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6B15B902E71DC308"]
+			hide_dependency_lines: true
+			id: "65853019D72D1C19"
+			tasks: [{
+				id: "263695347D478A8D"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: [
+				"A helmet-and-chestpiece set that has a powerful set bonus."
+				""
+				"When both are equipped, being in darker areas charges a meter, shown on screen. When this meter is full, press a hotkey to get a powerful effect."
+				""
+				"The effect will only activate if you're in a dark or dim area."
+			]
+			id: "14912F7215D1DA76"
+			tasks: [
+				{
+					id: "47647906649384DC"
+					item: {
+						Count: 1
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "530EFFB449F49BE8"
+					item: {
+						Count: 1
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: [
+				"Attacking a mob with this allows you to possess them."
+				""
+				"Mobs with more than 100 HP cannot be possessed."
+				""
+				"When you have control over a mob, right clicking a mob that isn't of the same type will aggravate the controlled entity against it. "
+			]
+			id: "037FF3083AB9540A"
+			tasks: [{
+				id: "48A93391D3FE3AF1"
+				item: {
+					Count: 1
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: ["Use a glass bottle on a vent to obtain this."]
+			id: "446B39B10B58282C"
+			tasks: [{
+				id: "2CEBC1A707A0A929"
+				item: "alexscaves:radon_bottle"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: ["Immunize yourself to radiation."]
+			id: "3BF2B14D3C047D6D"
+			tasks: [
+				{
+					id: "0C78AE2098A6358A"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C7AEE0F3DD25A8E"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66B6A8D3C0E6D33A"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B7D8683DBDA67CF"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat Style"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: ["Food that heals you bypassing the effects of radiation."]
+			id: "3D5E13147B9022C3"
+			tasks: [
+				{
+					id: "14F1C8D328985946"
+					item: "alexscaves:slam"
+					type: "item"
+				}
+				{
+					id: "3D945ED0F8BFA0A7"
+					item: "alexscaves:spelunkie"
+					type: "item"
+				}
+				{
+					id: "1EDFC591765E2C9E"
+					item: "alexscaves:green_soylent"
+					type: "item"
+				}
+			]
+			title: "Spelunker's Foods"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			id: "4F0B0E1714000C18"
+			tasks: [{
+				id: "50ED2F36C303B9A1"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: [
+				"Detonates TNT and Nuclear Bombs from any distance, even across dimensions."
+				""
+				"Interact with the explosive while holding the Detonator to link them together."
+			]
+			id: "0D24AF036EA999ED"
+			tasks: [{
+				id: "38A43D24A3AB366B"
+				item: "alexscaves:remote_detonator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0D24AF036EA999ED"]
+			id: "6AA9EFDF2749A2FB"
+			tasks: [
+				{
+					id: "6C04BBA44F8D4C86"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+				{
+					id: "22B5E184632CEFF5"
+					item: "alexscaves:nuclear_siren"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			id: "5DBFCD2E79D22E51"
+			subtitle: "Aquatic Ascend"
+			tasks: [{
+				id: "4F48607DA7C7868E"
+				item: "alexscaves:floater"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: ["Throwable explosives."]
+			id: "4E163D969F4B9C9F"
+			tasks: [{
+				id: "61C9231FA0B078F4"
+				item: "alexscaves:depth_charge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: ["Helps you navigate the Chasm more easily."]
+			id: "7ACC2DAC646A3E89"
+			tasks: [
+				{
+					id: "473282FCABEC0096"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AE7A8FB69CAD2E9"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D5118B0C194B06D"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59BD7E839715696F"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diving Style"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			hide_dependency_lines: true
+			icon: "alexscaves:immortal_embryo"
+			id: "6A8DF7B095C4D714"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "7AF5F021009B11EC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hullbreaker"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6AA9EFDF2749A2FB"
+				"6A8DF7B095C4D714"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7EB9F437E980E400"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "747CCCB94B8F8CA2"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			hide_dependency_lines: true
+			icon: "alexscaves:tectonic_shard"
+			id: "4093A51E42C29851"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "1FF828D8BD3EFFFF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "I'm not even going to try spelling it"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			hide_dependency_lines: true
+			icon: "alexscaves:heart_of_iron"
+			id: "146B68D99E7A92FE"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "0CE49F9151DA9229"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06D1991EE22CF1B3"]
+			id: "2161A23771C7D7BC"
+			tasks: [{
+				id: "0D19FFEE5FD3F4C2"
+				item: {
+					Count: 1
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: [
+				"&o&7Multiblock structure&r"
+				""
+				"You will need:"
+				""
+				"20x any copper"
+				"6x depth class"
+				"enigmatic engine"
+				""
+				"to build this."
+				""
+				"Use a Schematicannon or, if preferring manually building or low on gunpowder, build it yourself referring to the Cave Compendium."
+				""
+				"If you choose the former method, manually place the last copper block in the top center to complete the multiblock."
+				""
+				"{@pagebreak}"
+				"&6SUBMARINE OWNER'S MANUAL&r"
+				""
+				"Submarines are a new way of aquatic transportation which are faster and more durable than boats while being able to go under the water."
+				""
+				"Being made of copper, your submarine is prone to oxidation. Using an axe can reverse this, if you'd like. You may wax your submarine."
+				""
+				"Submarines can take damage and start showing it after enough has built up. You can repair your submarine using copper ingots."
+			]
+			id: "6B27AAA29B087E79"
+			subtitle: "Ah, look at all the lonely people!"
+			tasks: [{
+				id: "066B08F419FD2749"
+				item: "alexscaves:submarine"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06D1991EE22CF1B3"]
+			description: ["Distress signal-like item that lets you summon Deep Ones to aid you in battle."]
+			id: "4EBF7BC295F4BA5C"
+			tasks: [{
+				id: "6A3EE359357DA95D"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: ["Obtained by feeding muck, mud, or clay balls to a sea pig."]
+			id: "3A5FA73FC7EBA22C"
+			tasks: [
+				{
+					id: "0D385844A1F616A3"
+					item: "alexscaves:marine_snow"
+					type: "item"
+				}
+				{
+					id: "0C4BCF1C02E5A89B"
+					observe_type: 5
+					timer: 0L
+					to_observe: "alexscaves:sea_pig"
+					type: "observation"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:deepslate"
+			id: "30B48BBA0773D7A5"
+			tasks: [{
+				advancement: "tetra:spelunking/root"
+				criterion: ""
+				id: "49DCC1FB89942AB9"
+				type: "advancement"
+			}]
+			title: "Go Below the Surface"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06D1991EE22CF1B3"]
+			id: "482C2813DBA6D925"
+			tasks: [{
+				id: "67289A007D7D1912"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["30B48BBA0773D7A5"]
+			description: [""]
+			id: "2E0B72762B703990"
+			subtitle: "Improvised Food for Miners"
+			tasks: [{
+				id: "3BEEA16471F9BC5C"
+				item: "miners_delight:cave_carrot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30B48BBA0773D7A5"]
+			id: "12D63FD1D98A6DB5"
+			tasks: [{
+				id: "16434BC8BF282B4E"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: -2.5d
 		}
 	]
 	title: "Overworld Adventure"
