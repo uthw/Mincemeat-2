@@ -7,6 +7,11 @@ ServerEvents.tags("block", (event) => {
     const remove = [
         ["minecraft:needs_stone_tool", "mekanism:osmium_ore"],
         ["minecraft:needs_stone_tool", "mekanism:deepslate_osmium_ore"],
+        ["minecraft:mineable/hammer", "#waystones:waystones"],
+        ["minecraft:mineable/pickaxe", "#waystones:waystones"],
+        ["artifacts:mineable/digging_claws", "#waystones:waystones"],
+        ["forge:mineable/paxel", "#waystones:waystones"],
+        ["c:mineable/hammer", "#waystones:waystones"],
     ];
 
     add.forEach((addition) => {

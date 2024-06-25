@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Found a problem?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Before submitting an issue, make sure you: removed OptiFine, disabled any mods you added, turned off hardware overclocking, and allocated enough RAM."
+    }
+}

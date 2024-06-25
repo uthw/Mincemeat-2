@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Build your base wherever you want, but it's good to find a flat area for extra space. If you're concerned for mob spawns, try the top of a mountain."
+    }
+}

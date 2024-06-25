@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "There are dozens of bosses in this modpack. Can you kill them all?"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Quark Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Dispensers can place blocks."
+    }
+}

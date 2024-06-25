@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Easy Villagers Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can cycle through villager trades by pressing a button in the trade interface."
+    }
+}

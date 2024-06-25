@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ars Nouveau Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The Potion Melder is useful for combining two potion effects into one potion."
+    }
+}

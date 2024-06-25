@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Combat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Shields aren't able to completely nullify explosion damage. They can only block part of the damage unless you parry the explosion."
+    }
+}

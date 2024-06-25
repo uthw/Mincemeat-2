@@ -35,6 +35,19 @@ ServerEvents.recipes((event) => {
             ],
             heated: true,
         },
+        {
+            output: "3x thermal:invar_dust",
+            inputs: ["2x #forge:ingots/iron", "#forge:ingots/nickel"],
+            heated: false,
+        },
+        {
+            output: "enderio:dark_steel_ingot",
+            inputs: [
+                "minecraft:iron_ingot",
+                "#forge:dusts/coal",
+                "#forge:obsidian",
+            ],
+        },
     ];
 
     recipes.forEach((recipe) => {

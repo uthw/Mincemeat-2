@@ -140,13 +140,13 @@ ServerEvents.highPriorityData((event) => {
                     quality: 6,
                 },
 
-                { item: "iceandfire:armor_silver_metal_helmet", weight: 30 },
+                { item: "eidolon:silver_helmet", weight: 30 },
                 {
-                    item: "iceandfire:armor_silver_metal_chestplate",
+                    item: "eidolon:silver_chestplate",
                     weight: 30,
                 },
-                { item: "iceandfire:armor_silver_metal_leggings", weight: 30 },
-                { item: "iceandfire:armor_silver_metal_boots", weight: 30 },
+                { item: "eidolon:silver_leggings", weight: 30 },
+                { item: "eidolon:silver_boots", weight: 30 },
 
                 { item: "botania:manasteel_helmet", weight: 25, quality: 4.5 },
                 {

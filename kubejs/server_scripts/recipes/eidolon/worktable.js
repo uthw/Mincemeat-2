@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
             pattern: [" A ", "BCB", " D "],
             reagents: "EFGH",
             key: {
-                A: "ars_nouveau:source_gem",
+                A: "eidolon:wicked_weave",
                 B: "irons_spellbooks:arcane_essence",
                 C: "minecraft:book",
                 D: "forbidden_arcanus:arcane_crystal",

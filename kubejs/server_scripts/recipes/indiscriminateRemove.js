@@ -1,3 +1,5 @@
+// Items in toRemove are not craftable in any way.
+
 ServerEvents.recipes((event) => {
     const toRemove = [
         "eidolon:pewter_blend",
@@ -109,6 +111,19 @@ ServerEvents.recipes((event) => {
         "#valhelsia_furniture:chairs",
         "spartanweaponry:handle",
         "spartanweaponry:pole",
+        "eidolon:candle",
+        "eidolon:silver_sword",
+        "eidolon:silver_pickaxe",
+        "eidolon:silver_axe",
+        "eidolon:silver_hoe",
+        "eidolon:silver_shovel",
+        "iceandfire:armor_silver_metal_helmet",
+        "iceandfire:armor_silver_metal_chestplate",
+        "iceandfire:armor_silver_metal_leggings",
+        "iceandfire:armor_silver_metal_boots",
+        "#waystones:waystones",
+        "waystones:warp_stone",
+        "forbidden_arcanus:quantum_catcher",
     ];
 
     toRemove.forEach((item) => {

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Quark Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can kill all mobs spawned by Monster Boxes except Spiders by placing a 3x3 solid platform above them."
+    }
+}

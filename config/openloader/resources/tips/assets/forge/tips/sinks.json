@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cooking for Blockheads Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Sinks hold infinite water which can be extracted using pipes."
+    }
+}

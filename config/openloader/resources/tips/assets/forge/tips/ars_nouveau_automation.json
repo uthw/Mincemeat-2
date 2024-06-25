@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ars Nouveau Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Much of the content from Ars Nouveau can be automated."
+    }
+}

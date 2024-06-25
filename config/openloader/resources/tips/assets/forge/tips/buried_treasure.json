@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "When you get close to the X on a buried treasure map, remember the treasure ALWAYS spawns at 9, x, 9 in the chunk."
+    }
+}

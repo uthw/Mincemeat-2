@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Polymorph Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If a crafting recipe has more than one possible output, an icon with two arrows may appear in the GUI. Click this to select the output item you want."
+    }
+}

@@ -5,7 +5,7 @@
 	enableRegeneration = true
 	#Change this value to cause Mekanism to regen its ore in all loaded chunks.
 	#Range: > 0
-	userWorldGenVersion = 0
+	userWorldGenVersion = 1
 
 	#Generation Settings for tin ore.
 	[world_generation.tin]
@@ -18,7 +18,7 @@
 			shouldGenerate = true
 			#Chance that small tin veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 14
+			perChunk = 8
 			#Maximum number of blocks in a small tin vein.
 			#Range: 1 ~ 64
 			maxVeinSize = 4
@@ -59,10 +59,10 @@
 			shouldGenerate = true
 			#Chance that large tin veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 12
+			perChunk = 4
 			#Maximum number of blocks in a large tin vein.
 			#Range: 1 ~ 64
-			maxVeinSize = 9
+			maxVeinSize = 8
 			#Chance that blocks that are directly exposed to air in a large tin vein are not placed.
 			#Range: 0.0 ~ 1.0
 			discardChanceOnAirExposure = 0.0
@@ -312,7 +312,7 @@
 	#Generation Settings for fluorite ore.
 	[world_generation.fluorite]
 		#Determines if fluorite ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#normal fluorite vein Generation Settings.
 		[world_generation.fluorite.normal]
@@ -399,7 +399,7 @@
 	#Generation Settings for lead ore.
 	[world_generation.lead]
 		#Determines if lead ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 
 		#normal lead vein Generation Settings.
 		[world_generation.lead.normal]
@@ -407,7 +407,7 @@
 			shouldGenerate = true
 			#Chance that normal lead veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 8
+			perChunk = 6
 			#Maximum number of blocks in a normal lead vein.
 			#Range: 1 ~ 64
 			maxVeinSize = 9

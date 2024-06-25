@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "FTB Ultimine Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can vein strip logs by holding the vein mine key and right clicking one with an axe."
+    }
+}

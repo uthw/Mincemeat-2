@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "FPS Boost Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "For better performance with shaders without compromising quality, set mipmap levels to 0, disable Vsync, and turn off waving leaves/grass."
+    }
+}

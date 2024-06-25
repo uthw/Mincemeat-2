@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Quark Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Dragon scales can be used to duplicate elytras."
+    }
+}

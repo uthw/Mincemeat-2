@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Pointing a fan down at lava or fire can turn a pair of crusher wheels."
+    }
+}

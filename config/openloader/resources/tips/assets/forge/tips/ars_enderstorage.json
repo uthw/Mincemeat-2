@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "EnderStorage Tip",
+        "bold": true,
+        "color": "gray"
+    },
+    "tip": {
+        "text": "You can access all of your EnderStorages with one item using Ars Nouveau."
+    }
+}

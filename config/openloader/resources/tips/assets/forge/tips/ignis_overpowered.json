@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cataclysm Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Ignis disables shields and heals a little every time it hits you."
+    }
+}

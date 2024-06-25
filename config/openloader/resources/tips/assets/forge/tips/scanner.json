@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Scannable Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "The scanner can search the world for various things. It's like having x-ray!"
+    }
+}

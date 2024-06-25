@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Modded Minecraft can take lots of space on your computer because of your instance's \"backups\" and \"logs\" folders."
+    }
+}

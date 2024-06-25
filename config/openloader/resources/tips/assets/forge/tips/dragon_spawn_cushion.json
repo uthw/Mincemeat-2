@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ice and Fire Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Having trouble finding dragon nests/dens? They can only spawn around 2,500 blocks away from 0, 0."
+    }
+}

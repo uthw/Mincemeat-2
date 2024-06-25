@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "What are these?",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "These tips cover a broad range of subjects, like optimizing your FPS, avoiding death, QoL improvements, mod usage instructions, and information about machines."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Additions Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Electric motors can power Create contraptions using Forge Energy."
+    }
+}

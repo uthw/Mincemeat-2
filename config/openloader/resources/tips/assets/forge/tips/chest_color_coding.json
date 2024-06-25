@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Sophisticated Storage Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Vanilla chests, barrels, and shulker boxes can have their colors changed by combining them in the crafting grid with a dye."
+    }
+}

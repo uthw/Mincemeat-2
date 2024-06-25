@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Adventuring Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Wraiths are fast and powerful but always float on water. You can defeat them by going underwater and attacking them from their bottom."
+    }
+}

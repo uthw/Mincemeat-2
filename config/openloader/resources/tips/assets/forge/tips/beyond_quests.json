@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Progression Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Quests are a good way of learning about mods, but if you want to dive deeper, you can read the mod's guidebook in the Eccentric Tome."
+    }
+}

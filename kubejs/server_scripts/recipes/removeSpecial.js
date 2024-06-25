@@ -18,6 +18,14 @@ ServerEvents.recipes((event) => {
             output: "mekanism:ingot_osmium",
             type: "jumbofurnace:jumbo_smelting",
         },
+        {
+            input: "#forge:tools/knives",
+            type: "minecraft:crafting",
+        },
+        {
+            input: "mekanism:dust_fluorite",
+            type: "mekanism:combiner",
+        },
     ];
 
     toRemove.forEach((item) => {

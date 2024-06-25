@@ -100,6 +100,14 @@ ServerEvents.recipes((event) => {
         //         E: "littlelogistics:transmitter_component",
         //     },
         // },
+        {
+            output: "4x fluxnetworks:flux_core",
+            inputs: [" A ", "ABA", " A "],
+            keys: {
+                A: "enderio:dark_steel_ingot",
+                B: "fluxnetworks:flux_dust",
+            },
+        },
     ];
 
     recipes.forEach((recipe) => {

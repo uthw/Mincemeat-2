@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Custom Title",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Waystones are unbreakable and the only places where they can be found are BotW-style towers and villages."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Integrated Tunnels Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "You can waterlog cables from Integrated Tunnels."
+    }
+}

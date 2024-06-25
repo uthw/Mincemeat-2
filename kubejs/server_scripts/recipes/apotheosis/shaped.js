@@ -166,11 +166,20 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:copper_ingot",
                 B: "betterend:iron_hammer",
                 C: "quark:crate",
-                D: "forbidden_arcanus:xpetrified_orb",
-                E: "minecraft:magma_block",
+                D: "mowziesmobs:naga_fang",
+                E: "forbidden_arcanus:aurum_planks",
                 F: "enigmaticlegacy:earth_heart",
             },
             id: "apotheosis:salvaging_table",
+        },
+        {
+            output: "minecraft:cobweb",
+            inputs: ["A A", " B ", "A A"],
+            keys: {
+                A: "minecraft:string",
+                B: "minecraft:honeycomb",
+            },
+            id: "apotheosis:cobweb",
         },
     ];
 

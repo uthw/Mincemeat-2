@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Grappling Hook Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "It is hard to stay in control of motorized grappling hooks."
+    }
+}

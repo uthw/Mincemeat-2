@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Jumo Furnace Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can make a super smelter using a 3x3x3 cube of furnaces. It can even receive upgrades like being able to double ores."
+    }
+}

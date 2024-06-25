@@ -116,7 +116,7 @@ ServerEvents.recipes((event) => {
             "minecraft:prismarine_crystals",
             "#blue_skies:gems/aquite",
         ],
-        [{ mod: "botania" }, "minecraft:quartz", "#forge:gems/fluorite"],
+        [{ mod: "botania" }, "minecraft:quartz", "thermal:sulfur"],
         [{}, "mythicbotany:alfsteel_pylon", "botania:natura_pylon"],
         [{ mod: "capsule" }, "minecraft:ender_pearl", "paraglider:spirit_orb"],
         // create
@@ -632,7 +632,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "storagenetwork:request" },
             "minecraft:gold_ingot",
-            "#forge:ingots/brass",
+            "#forge:ingots/pewter",
         ],
         [
             { output: "storagenetwork:request" },
@@ -900,6 +900,213 @@ ServerEvents.recipes((event) => {
             "minecraft:cobweb",
             "thermal:apatite",
         ],
+        [{}, "eidolon:candle", "#minecraft:candles"],
+        [
+            { output: "hexerei:tallow" },
+            "minecraft:string",
+            "supplementaries:ash",
+        ],
+        [{}, "delightful:animal_fat", "hexerei:animal_fat"],
+        [
+            { output: "hexerei:willow_broom" },
+            "minecraft:gold_block",
+            "apotheosis:uncommon_material",
+        ],
+        [
+            { output: "hexerei:witch_hazel_broom" },
+            "minecraft:diamond",
+            "apotheosis:rare_material",
+        ],
+        [
+            { output: "hexerei:mahogany_broom" },
+            "minecraft:netherite_ingot",
+            "alexscaves:occult_gem",
+        ],
+        [{ mod: "hexerei" }, "minecraft:wheat", "farmersdelight:straw"],
+        [
+            { output: "hexerei:pestle_and_mortar" },
+            "minecraft:quartz",
+            "create:shaft",
+        ],
+        [
+            { output: "botania:travel_belt" },
+            "botania:manasteel_ingot",
+            "miners_delight:gossypium",
+        ],
+        [
+            { output: "botania:speed_up_belt" },
+            "minecraft:sugar",
+            "neapolitan:chocolate_bar",
+        ],
+        [
+            { output: "botania:cloud_pendant" },
+            "botania:manasteel_ingot",
+            "#aether:aerclouds",
+        ],
+        [
+            { output: "ars_nouevau:ritual_cloudshaping" },
+            "minecraft:feather",
+            "#aether:aerclouds",
+        ],
+        [
+            { output: "ars_elemental:glyph_arc_projectile" },
+            "minecraft:slime_ball",
+            "undergarden:goo_ball",
+        ],
+        [
+            { output: "ars_elemental:glyph_homing_projectile" },
+            "minecraft:ender_eye",
+            "alexsmobs:guster_eye",
+        ],
+        [
+            { output: "ars_elemental:glyph_homing_projectile" },
+            "minecraft:nether_star",
+            "alexscaves:notor_gizmo",
+        ],
+        [
+            { output: "ars_nouveau:glyph_extract" },
+            "minecraft:emerald",
+            "alexsmobs:shark_tooth",
+        ],
+        [
+            { output: "ars_nouveau:glyph_bounce" },
+            "#forge:slimeballs",
+            "thermal:florb",
+        ],
+        // [
+        //     { output: "relics:researching_table" },
+        //     "#minecraft:wooden_slabs",
+        //     "forbidden_arcanus:aurum_slab",
+        // ],
+        // [
+        //     { output: "relics:researching_table" },
+        //     "#minecraft:wooden_planks",
+        //     "forbidden_arcanus:aurum_planks",
+        // ],
+        [
+            { output: "ars_nouveau:burst" },
+            "minecraft:fire_charge",
+            "thermal:earth_charge",
+        ],
+        [
+            { output: "ars_elemental:glyph_discharge" },
+            "minecraft:lightning_rod",
+            "thermal:lightning_charge",
+        ],
+        [
+            { output: "ars_elemental:glyph_charm" },
+            "minecraft:cake",
+            "famersdelight:apple_pie_slice",
+        ],
+        [
+            { output: "ars_elemental:glyph_charm" },
+            "minecraft:golden_carrot",
+            "famersdelight:chocolate_pie_slice",
+        ],
+        [
+            { output: "ars_elemental:glyph_charm" },
+            "ars_nouveau:source_berry_pie",
+            "delightful:source_berry_pie_slice",
+        ],
+        [
+            { output: "ars_nouveau:glyph_cold_snap" },
+            "minecraft:ice",
+            "irons_spellbooks:frozen_bone",
+        ],
+        [
+            { output: "ars_elemental:glyph_conjure_terrain" },
+            "minecraft:dirt",
+            "farmersdelight:organic_compost",
+        ],
+        [
+            { output: "ars_nouveau:glyph_craft" },
+            "minecraft:crafting_table",
+            "eidolon:worktable",
+        ],
+        [
+            { output: "ars_nouveau:glyph_crush" },
+            "minecraft:piston",
+            "create:mechanical_press",
+        ],
+        [
+            { output: "ars_nouveau:glyph_crush" },
+            "minecraft:grindstone",
+            "betterend:iron_hammer",
+        ],
+        [
+            { output: "ars_nouveau:glyph_cut" },
+            "minecraft:iron_sword",
+            "farmersdelight:iron_knife",
+        ],
+        [
+            { output: "ars_elemental:glyph_discharge" },
+            "minecraft:lightning_rod",
+            "thermal:lightning_charge",
+        ],
+        [
+            { output: "ars_elemental:glyph_envenom" },
+            "minecraft:poisonous_potato",
+            "mowziesmobs:naga_fang",
+        ],
+        [
+            { output: "ars_elemental:glyph_envenom" },
+            "minecraft:suspicious_stew",
+            "mowziesmobs:dart",
+        ],
+        [
+            { output: "ars_elemental:glyph_envenom" },
+            "minecraft:fermented_spider_eye",
+            "miners_delight:squid",
+        ],
+        [
+            { output: "ars_nouveau:glyph_evaporate" },
+            "minecraft:sponge",
+            "irons_spellbooks:ice_rune",
+        ],
+        [
+            { output: "ars_nouveau:glyph_exchange" },
+            "#forge:ender_pearls",
+            "#wilderwild:nematocysts",
+        ],
+        [
+            { output: "create:weighted_ejector" },
+            "create:depot",
+            "supplementaries:spring_launcher",
+        ],
+        [{}, "mekanism:fluorite_gem", "thermal:sulfur"],
+        [{}, "mekanism:dust_fluorite", "thermal:sulfur_dust"],
+        [
+            { output: "ars_nouveau:vitalic_sourcelink" },
+            "minecraft:glistering_melon_slice",
+            "delightful:matcha",
+        ],
+        [
+            { output: "ars_nouveau:alchemical_sourcelink" },
+            "minecraft:brewing_stand",
+            "eidolon:wooden_brewing_stand",
+        ],
+        [
+            { output: "ars_nouveau:mycelial_sourcelink" },
+            "minecraft:mushroom_stew",
+            "thermal:slime_mushroom_spores",
+        ],
+        [{}, "forbidden_arcanus:spawner_scrap", "paraglider:spirit_orb"],
+        [
+            { output: "enderio:primitive_alloy_smelter" },
+            "minecraft:deepslate",
+            "create:andesite_alloy",
+        ],
+        [
+            { output: "enderio:primitive_alloy_smelter" },
+            "enderio:grains_of_infinity",
+            "create:cogwheel",
+        ],
+        [
+            { output: "enderio:basic_capacitor" },
+            "minecraft:gold_nugget",
+            "#forge:nuggets/zinc",
+        ],
+        //
     ];
 
     replacements.forEach((replacement) => {

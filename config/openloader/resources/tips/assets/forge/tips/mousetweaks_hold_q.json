@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mouse Tweaks Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "If you want to transfer many items at once, hold down shift AND LMB instead of spamming LMB."
+    }
+}

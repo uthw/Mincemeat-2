@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"&o&7Create is a big mod! Don't worry, you'll be rewarded with ... rock candy for sticking through to the end ;)"
+				"&o&7Welcome to Create!"
 				""
 				"Click on the &lgoggles&r in the pause menu and then select &lPonder Index&r to read up about the different items in create while these quests are being made!"
 			]
@@ -127,8 +127,8 @@
 				}
 			]
 			title: "Rituals"
-			x: 3.487755102040829d
-			y: -2.0d
+			x: -2.25d
+			y: -0.75d
 		}
 		{
 			dependencies: ["791DF6ADBF550A3F"]
@@ -282,8 +282,8 @@
 				}
 			]
 			title: "Some Useful Blocks"
-			x: 2.5d
-			y: -4.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7A3E1BC754A91448"]
@@ -369,8 +369,8 @@
 				item: "create:weighted_ejector"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7D336EA43CCF5FD5"]
@@ -450,7 +450,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["0A26B049A30FF9DA"]
+			dependencies: ["7D336EA43CCF5FD5"]
 			description: ["&6Copper casing&r opens the door to the next tier of Create items."]
 			id: "02AC20A93D39F2C6"
 			tasks: [{
@@ -458,8 +458,8 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -11.0d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7D336EA43CCF5FD5"]
@@ -564,8 +564,8 @@
 				}
 			]
 			title: "Fluid Transport with Create"
-			x: 0.0d
-			y: -10.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2635DBAEEA555FE2"]
@@ -595,8 +595,8 @@
 				}
 			]
 			title: "Odds and Ends of Fluid Transport"
-			x: -2.5d
-			y: -10.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2A31B4314985CDF6"]
@@ -760,7 +760,7 @@
 			]
 			title: "Collect (almost) All Dynamos"
 			x: 9.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4DBC82BD55237E6A"]
@@ -777,6 +777,7 @@
 		}
 		{
 			dependencies: ["2F65AA378ABCB05C"]
+			description: ["&eInvar blend&r can be made by mixing, which can then be smelted or bulk blasted into &einvar ingots&r."]
 			id: "42F8AD78D500C942"
 			tasks: [{
 				id: "0B140041CC5B0A2E"
@@ -830,7 +831,7 @@
 				}
 			]
 			title: "Augments"
-			x: 8.0d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -841,8 +842,8 @@
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 11.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1FCF7D204368C33E"]
@@ -852,8 +853,8 @@
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -870,8 +871,8 @@
 				type: "item"
 			}]
 			title: "Magmators"
-			x: -5.5d
-			y: -3.0d
+			x: -8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5AB2B311B9B179B9"]
@@ -884,8 +885,8 @@
 				type: "item"
 			}]
 			title: "Thermo Generators"
-			x: -4.0d
-			y: -1.0d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2414EF97B942ED2A"]
@@ -896,8 +897,8 @@
 				item: "powah:reactor_starter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0B332B12ED9F9FA8"]
@@ -931,8 +932,8 @@
 				}
 			]
 			title: "Acquire Sap"
-			x: 6.0d
-			y: -4.0d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1970165E2199C721"]
@@ -959,8 +960,8 @@
 				}
 			]
 			title: "Autofishing"
-			x: 6.5d
-			y: -2.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1970165E2199C721"]
@@ -983,8 +984,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -3.0d
+			x: 6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["11FEA8EE423542D3"]
@@ -1037,7 +1038,7 @@
 			}]
 			title: "Storing Energy"
 			x: 10.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["49E17DAC684FAC93"]
@@ -1096,8 +1097,8 @@
 				item: "thermal:charge_bench"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.0d
+			x: 14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7BCE10D50BB54C12"]
@@ -1331,7 +1332,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6C59243E9AAADB66"]
@@ -1355,7 +1356,7 @@
 			]
 			title: "Conductor"
 			x: 0.5d
-			y: -14.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["18E25A1E2145948B"]
@@ -1371,7 +1372,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -14.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["334B373D6E77103A"]
@@ -1389,7 +1390,7 @@
 				}
 			]
 			x: -3.5d
-			y: -12.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["7A3E1BC754A91448"]
@@ -1435,7 +1436,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E77A3D78F1891FE"]
@@ -1451,7 +1452,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6CDC24AA62B61106"]
@@ -1461,8 +1462,8 @@
 				item: "prettypipes:crafting_terminal"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["49E17DAC684FAC93"]
@@ -1497,33 +1498,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["16CCD414DF230E54"]
-			description: [
-				"You can use cables to feed energy to the plug, or have it next to the output."
-				""
-				"First thing is to create a flux network. This is easy to do with the pretty GUI."
-				""
-				"Multiple flux plugs on the same network add RF to that network, while flux points extract it."
-			]
-			id: "05D9F73F36C26C96"
-			subtitle: "Adds energy to an RF network, enabling wireless flux transportation, even across dimensions"
-			tasks: [
-				{
-					id: "51EB9EB7D326CC94"
-					item: "fluxnetworks:flux_plug"
-					type: "item"
-				}
-				{
-					id: "4F1C0284AD36761E"
-					item: "fluxnetworks:flux_point"
-					type: "item"
-				}
-			]
-			title: "Set up an Energy Network"
-			x: 6.0d
-			y: -7.5d
-		}
-		{
 			dependencies: ["1F0A5F83AD3401F9"]
 			description: [
 				"This item converts &eenchantments on items&r into &eexperience&r. "
@@ -1538,8 +1512,8 @@
 				item: "create_enchantment_industry:disenchanter"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -9.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["004EC4F43533B12C"]
@@ -1550,8 +1524,8 @@
 				item: "create_enchantment_industry:printer"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -8.5d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7BCE10D50BB54C12"]
@@ -1597,8 +1571,12 @@
 			y: -14.5d
 		}
 		{
-			dependencies: ["678E6CB5A7AB483B"]
-			description: ["WIP"]
+			dependencies: ["72083B3DB68503A5"]
+			description: [
+				"Using your &eore vein finder&r, find a chunk that has a &emassive supply of resources&r hidden beneath bedrock."
+				""
+				"Once in this chunk, place the &6drilling machine&r or &6fluid extractor&r and give it a &6drill&r and &6rotational force&r. It will then start working. Congratulations; you've now &eautomated ore&r!"
+			]
 			id: "49A781E15CF02B22"
 			tasks: [
 				{
@@ -1628,8 +1606,8 @@
 				}
 			]
 			title: "Ore Excavation"
-			x: 6.0d
-			y: -12.5d
+			x: 8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6E51F7DE0D0CC8CB"]
@@ -1844,8 +1822,8 @@
 				item: "sliceanddice:sprinkler"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -11.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["048233AB927943AD"]
@@ -1858,6 +1836,193 @@
 			}]
 			x: -4.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["678E6CB5A7AB483B"]
+			id: "72083B3DB68503A5"
+			tasks: [{
+				id: "693EE9EFC762FE62"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6E77A3D78F1891FE"]
+			id: "4D384000D7499C30"
+			tasks: [{
+				id: "5F2BA7E0C8CBE18C"
+				item: "rangedpumps:pump"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E51F7DE0D0CC8CB"]
+			description: ["Simple machine that is capable of &ecreating certain alloys&r, prominently &6Dark Steel&r."]
+			id: "3AD7E8EA4A09F91C"
+			tasks: [
+				{
+					id: "0082D23BF81354C6"
+					item: "enderio:primitive_alloy_smelter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E7C73E59F06C84C"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "4228D27A0FC3CFE0"
+					item: "enderio:basic_capacitor"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3AD7E8EA4A09F91C"
+				"16CCD414DF230E54"
+			]
+			description: [
+				"An energy-based machine that can &ecreate alloys&r."
+				""
+				"You can configure which faces should act as input and output."
+				""
+				"There is also an &eaugment slot&r where items can be added to &ebolster&r the machine. Try using&6 flint&r, for example."
+			]
+			id: "5F68AE8317D33D19"
+			tasks: [
+				{
+					id: "6450AF44C45E8A1C"
+					item: "enderio:alloy_smelter"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "090C4EFC37FAB7C7"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F68AE8317D33D19"]
+			description: [
+				"This machine has a similar premise to the &epulverizer&r, being able to &eincrease the resources&r you can get from one block or item."
+				""
+				"&eIt works on many vanilla Minecraft items&r. You can right click on it in EMI and check the &6SAG Mill&r tab to see what you can do."
+			]
+			id: "47542F849F8E385F"
+			tasks: [{
+				id: "092185AA928FE44C"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16CCD414DF230E54"]
+			description: [
+				"You've seen the concept of &ea block that transports energy, items, liquids, and so on&r. There are, like, a half dozen of them in this modpack. So why would you want to use &6conduits&r?"
+				""
+				"&eYou can run multiple&r &6conduits&r&e in the same block&r. This lets you create much more condensed contraptions than you would be able to with other cables. "
+				""
+				"The &6yeta wrench&r can configure &ewhat direction objects move&r in &6conduits&r."
+				""
+				"Interact with &6conduits &rin the world to open a &egeneral configuration menu&r."
+			]
+			id: "7040378812F9AF81"
+			tasks: [
+				{
+					count: 6L
+					id: "2AE08AC48A8252EC"
+					item: "enderio:conduit_binder"
+					type: "item"
+				}
+				{
+					id: "2B7AE548E010002A"
+					item: "enderio:yeta_wrench"
+					type: "item"
+				}
+				{
+					id: "50D2F91A588E584A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "enderio:fluid_conduit"
+								}
+								{
+									Count: 1b
+									id: "enderio:redstone_conduit"
+								}
+								{
+									Count: 1b
+									id: "enderio:item_conduit"
+								}
+								{
+									Count: 1b
+									id: "enderio:chemical_conduit"
+								}
+								{
+									Count: 1b
+									id: "enderio:heat_conduit"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Conduits"
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3AD7E8EA4A09F91C"]
+			description: ["A unique way of enchanting that lets you select an enchantment to put on a book, but for more experience levels and a certain item."]
+			id: "4C215D71E9472F27"
+			tasks: [{
+				id: "4C17F86176B2D25F"
+				item: "enderio:enchanter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F68AE8317D33D19"]
+			id: "25819302349171D0"
+			tasks: [{
+				id: "13BADF7FDAB301B9"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25819302349171D0"]
+			id: "0D61BCD990BBAC5D"
+			tasks: [{
+				id: "2F3654FAE66F2440"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
 		}
 	]
 	title: "Tech Level 1"

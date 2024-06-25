@@ -68,8 +68,8 @@ ServerEvents.recipes((event) => {
             "integrateddynamics:drying_basin",
             [" A ", "BCB", " A "],
             {
-                A: "wilderwild:small_sponge",
-                B: "#forge:ingots/aluminum",
+                A: "architects_palette:algal_brick",
+                B: "#forge:ingots/tin",
                 C: "create:basin",
             },
         ],
@@ -266,7 +266,7 @@ ServerEvents.recipes((event) => {
             "storagenetwork:inventory",
             ["ABA", "BCB", "ABA"],
             {
-                A: "#forge:nuggets/brass",
+                A: "#forge:nuggets/silver",
                 B: "forbidden_arcanus:darkstone",
                 C: "minecraft:diamond",
             },
@@ -278,7 +278,7 @@ ServerEvents.recipes((event) => {
                 A: "createaddition:connector",
                 B: "create:andesite_alloy",
                 C: "#forge:gears/copper",
-                D: "#forge:ingots/aluminum",
+                D: "#forge:ingots/silver",
                 E: "storagenetwork:master",
             },
         ],
@@ -288,8 +288,8 @@ ServerEvents.recipes((event) => {
             {
                 A: "createaddition:large_connector",
                 B: "#forge:silicon",
-                C: "#charm:crafting_tables",
-                D: "#forge:ingots/aluminum",
+                C: "minecraft:crafting_table",
+                D: "#forge:ingots/silver",
                 E: "storagenetwork:master",
             },
         ],
@@ -460,7 +460,7 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "prettypipes:pipe",
+            "4x prettypipes:pipe",
             ["ABA", " C ", "   "],
             {
                 A: "#forge:ingots/copper",
@@ -483,10 +483,10 @@ ServerEvents.recipes((event) => {
             ["ABA", " C ", "DED"],
             {
                 A: "minecraft:red_wool",
-                B: "blue_skies:moonstone_shard",
+                B: "irons_spellbooks:arcane_essence",
                 C: "#forge:storage_blocks/gold",
-                D: "#minecraft:wooden_slabs",
-                E: "#minecraft:planks",
+                D: "forbidden_arcanus:aurum_slab",
+                E: "forbidden_arcanus:aurum_planks",
             },
         ],
         [
@@ -513,7 +513,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "alexscaves:heavy_bone",
                 B: "iceandfire:dragonbone",
-                C: "iceandfire:heavy_bone",
+                C: "iceandfire:witherbone",
             },
         ],
         [
@@ -530,8 +530,8 @@ ServerEvents.recipes((event) => {
             ["AB ", "CD ", " E "],
             {
                 A: "forbidden_arcanus:xpetrified_orb",
-                B: "tetra:geode",
-                C: "ars_nouveau:starbuncle_shards",
+                B: "alexscaves:telecore",
+                C: "tetra:geode",
                 D: "thermal:blizz_rod",
                 E: "#forge:rods/wooden",
             },
@@ -579,6 +579,46 @@ ServerEvents.recipes((event) => {
                 B: "minecraft:string",
                 C: "#forge:rods/wooden",
                 D: "#minecraft:wooden_slabs",
+            },
+        ],
+        [
+            "waystones:warp_stone",
+            ["ABA", "BCB", "ABA"],
+            {
+                A: "aether:zanite_gemstone",
+                B: "forbidden_arcanus:arcane_crystal",
+                C: "alexscaves:pearl",
+            },
+        ],
+        [
+            "enderio:alloy_smelter",
+            ["ABA", "BCB", "DED"],
+            {
+                A: "enderio:dark_steel_ingot",
+                B: "minecraft:furnace",
+                C: "enderio:void_chassis",
+                D: "#forge:plates/zinc",
+                E: "#forge:dusts/copper",
+            },
+        ],
+        [
+            "enderio:sag_mill",
+            ["AAA", "BCB", "DED"],
+            {
+                A: "minecraft:flint",
+                B: "enderio:dark_steel_ingot",
+                C: "enderio:void_chassis",
+                D: "enderio:dark_bimetal_gear",
+                E: "#forge:dusts/copper",
+            },
+        ],
+        [
+            "2x prettypipes:blank_module",
+            [" A ", "ABA", " C "],
+            {
+                A: "#forge:ingots/nickel",
+                B: "minecraft:paper",
+                C: "thermal:cinnabar",
             },
         ],
     ];

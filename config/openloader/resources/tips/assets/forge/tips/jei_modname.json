@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "EMI Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can search for items from a specific mod in EMI by typing @[mod ID]."
+    }
+}

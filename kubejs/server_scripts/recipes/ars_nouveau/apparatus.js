@@ -197,8 +197,8 @@ ServerEvents.recipes((event) => {
             reagent: "ars_nouveau:apprentice_spell_book",
             inputs: [
                 "ars_nouveau:wilden_tribute",
-                "cataclysm:amethyst_crab_shell",
-                "alexsmobs:rainbow_jelly",
+                "cataclysm:ancient_metal_ingot",
+                "alexscaves:shadow_silk",
             ],
         },
         {

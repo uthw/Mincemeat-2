@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "JEI Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can prefix a term with - in EMI to exclude items with that term. Example: bucket -water"
+    }
+}

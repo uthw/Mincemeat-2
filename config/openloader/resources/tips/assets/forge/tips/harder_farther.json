@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Adventuring Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The health, damage, and equipment of hostile mobs slowly increase the further you get from the origin, but so does the experience they drop."
+    }
+}

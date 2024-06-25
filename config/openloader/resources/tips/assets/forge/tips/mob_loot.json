@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Found a mob wearing Dragonsteel? Too bad, it will not drop it when killed. Hostile mobs usually don't drop their equipment."
+    }
+}

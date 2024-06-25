@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "ToroHealth Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If a mob isn't at full HP, you can tell its alignment by the color of the health bar above its head."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Villagers have a bigger job market now, with openings for programmers, woodcutters, and summoners."
+    }
+}

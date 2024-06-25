@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Combat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If you're using a shield from the Spartan Shields mod, left click while holding it up to perform a damaging shield bash that knocks foes back ."
+    }
+}

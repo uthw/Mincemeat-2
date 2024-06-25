@@ -1,3 +1,5 @@
+// Recipe ids in toRemove are disabled, add an item here if you want to disable crafting it a certain way but not others, for example making brass in a crafting grid with iron and copper
+
 ServerEvents.recipes((event) => {
     console.log("Event handler called"); // Add a log statement
 
@@ -41,6 +43,12 @@ ServerEvents.recipes((event) => {
         "mekanism:teleportation_core",
         "powersuits:tinkertable",
         "littlelogistics:transmitter_component",
+        "miners_delight:copper_pot",
+        "hexerei:mixing_cauldron",
+        "hexerei:herb_drying_rack",
+        "fluxnetworks:fluxcore",
+        "enderio:alloy_smelter",
+        "enderio:sag_mill",
     ];
 
     toRemove.forEach((recipeId) => {

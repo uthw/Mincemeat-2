@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "FPS Boost Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Entity culling increases FPS by not rendering things you can't see. This is determined by path tracing, which can be demanding. If you're experiencing slowdowns (or on an IGPU), try disabling entity culling."
+    }
+}

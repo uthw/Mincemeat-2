@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Equipment Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Most curios are unbreakable, but those that are not may tell you how much durability is left in the tooltip."
+    }
+}

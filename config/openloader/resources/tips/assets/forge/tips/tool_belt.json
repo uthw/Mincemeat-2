@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Tool Belt Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Tool belts are so fancy that you can use a keybind to open a radial menu, allowing you to easily switch tools."
+    }
+}

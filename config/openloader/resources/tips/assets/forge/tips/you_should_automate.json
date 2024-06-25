@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you think you're going to need more than one of an item, you should automate it. This applies to almost every Minecraft modpack."
+    }
+}

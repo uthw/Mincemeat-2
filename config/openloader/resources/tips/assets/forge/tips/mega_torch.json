@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "There are several ways of preventing hostile mobs from spawning nearby, including the Mega Torch, Dried Sage, and Staff of Suppression."
+    }
+}

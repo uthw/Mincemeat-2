@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Optimization Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Your game \"collects garbage\" every few seconds depending on how fast you move. When garbage collection happens, your game will have a short lagspike. This can be improved by changing the JVM args (check GitHub)."
+    }
+}

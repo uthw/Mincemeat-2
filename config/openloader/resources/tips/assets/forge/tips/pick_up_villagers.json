@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Easy Villagers Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can add a villager to your inventory by right clicking while holding a key down."
+    }
+}

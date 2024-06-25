@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Botania Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Manasteel pickaxes can mine obsidian."
+    }
+}

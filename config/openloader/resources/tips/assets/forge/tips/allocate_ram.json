@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Game Optimization Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Make sure you allocate 8-10 GB of ram. Do not allocate more than 12 GB since this can cause freezes."
+    }
+}

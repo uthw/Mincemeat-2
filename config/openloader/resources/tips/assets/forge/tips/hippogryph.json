@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ice and Fire Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The hippogryph is ferocious, but can be tamed by feeding it rabbit legs. It's very good at flying."
+    }
+}

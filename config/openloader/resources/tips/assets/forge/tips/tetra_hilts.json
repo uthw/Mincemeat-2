@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Tetra Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "The hilt of a modular weapon determines its attack speed as well as its potential for upgrades (integrity)."
+    }
+}

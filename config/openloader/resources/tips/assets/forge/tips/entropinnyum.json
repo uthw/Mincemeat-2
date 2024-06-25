@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Botania Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "If you can automate gunpowder and sand to make TNT, entropinnyum can generate a lot of mana for you."
+    }
+}
