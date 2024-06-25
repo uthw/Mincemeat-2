@@ -11,17 +11,21 @@ EntityEvents.death("minecraft:player", (event) => {
     pData.deathz = z.toFixed(0);
     pData.deathreset = 1;
     pData.deathDimension = event.level.dimension.path;
-    console.log(event.level.dimension);
+    global.mostRecentlyDied = player.username;
+    console.log(global.mostRecentlyDied);
 });
 
 // TODO Wait for movement before giving a scroll
 PlayerEvents.respawned((event) => {
     console.log("PlayerEvents.respawned");
 
-    // 25% chance the player gets a gravescroll when they respawn
+    // 45% chance the player gets a gravescroll when they respawn
+    if (global.mostRecentlyDied != event.player.username) {
+        return;
+    }
     let rng = Math.random();
     console.log("generated " + rng);
-    if (rng > 0.55) {
+    if (rng > 0.45) {
         event.entity.server.runCommand(
             `execute as ${event.entity.username} run give @p kubejs:grave_scroll`
         );
