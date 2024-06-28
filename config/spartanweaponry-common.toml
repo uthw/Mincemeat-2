@@ -36,7 +36,7 @@
 	base_damage = 4.5
 	#Damage Multiplier for Longswords.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.5
+	damage_multiplier = 1.75
 
 [katana]
 	#Disables all recipes for all Katanas.
@@ -88,7 +88,7 @@
 	base_damage = 4.0
 	#Damage Multiplier for Greatswords.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.5
+	damage_multiplier = 1.75
 
 [club]
 	#Disables all recipes for all Clubs.
@@ -140,7 +140,7 @@
 	base_damage = 4.0
 	#Damage Multiplier for Warhammers.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.5
+	damage_multiplier = 1.75
 
 [spear]
 	#Disables all recipes for all Spears.
@@ -166,7 +166,7 @@
 	base_damage = 5.0
 	#Damage Multiplier for Halberds.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.5
+	damage_multiplier = 1.75
 
 [pike]
 	#Disables all recipes for all Pikes.
@@ -277,7 +277,7 @@
 	base_damage = 4.0
 	#Damage Multiplier for Battleaxes.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 2.0
+	damage_multiplier = 2.5
 
 [flanged_mace]
 	#Disables all recipes for all Flanged Maces.
@@ -303,7 +303,7 @@
 	base_damage = 4.0
 	#Damage Multiplier for Glaives.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.5
+	damage_multiplier = 1.75
 
 [quarterstaff]
 	#Disables all recipes for all Quarterstaves.
@@ -316,7 +316,7 @@
 	base_damage = 3.0
 	#Damage Multiplier for Quarterstaves.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.5
+	damage_multiplier = 1.75
 
 [scythes]
 	#Disables all recipes for all Scythes.
@@ -329,7 +329,7 @@
 	base_damage = 5.0
 	#Damage Multiplier for Scythes.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.0
+	damage_multiplier = 1.25
 
 [copper]
 	#Base Damage for copper weapons
