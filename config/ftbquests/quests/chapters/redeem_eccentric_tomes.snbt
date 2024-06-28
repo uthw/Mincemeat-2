@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "redeem_eccentric_tomes"
+	group: "375E2D7D7633EF28"
+	icon: "farmersdelight:minced_beef"
+	id: "547ADEB8389597AF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "farmersdelight:minced_beef"
+			id: "01DBC3B178C589E7"
+			rewards: [{
+				id: "090646A81881BCF9"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							advancedperipherals: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
+									}
+								}
+							}
+							aether: {
+								0: {
+									Count: 1b
+									id: "aether:book_of_lore"
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							betterend: {
+								0: {
+									Count: 1b
+									id: "betterend:guidebook"
+								}
+							}
+							bloodmagic: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "bloodmagic:guide"
+									}
+								}
+							}
+							botania: {
+								0: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+								1: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+							}
+							eidolon: {
+								0: {
+									Count: 1b
+									id: "eidolon:codex"
+								}
+							}
+							enderio: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "enderio:guide"
+									}
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							minecells: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "minecells:minecells_guidebook"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							naturesaura: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
+							storagenetwork: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "storagenetwork:network_book"
+									}
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				disable_toast: true
+				icon: "farmersdelight:minced_beef"
+				id: "7A9644623A439E81"
+				stat: "minecraft:play_time"
+				title: "Automatically Completed"
+				type: "stat"
+				value: 1
+			}]
+			title: "Redeem Eccentric Tomes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You are seeing this quest if you went into editing mode in FTB Quests, or if you went into this chapter's .snbt file."
+				""
+				"This quests exists so the \"Chapter complete!\" notification doesn't appear every time the user collects an Eccentric Tome using the other quest."
+			]
+			id: "2969FC522EE7C233"
+			invisible: true
+			tasks: [{
+				id: "17979268FAE488FE"
+				title: "asdasdasd"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+	]
+	title: "Redeem Eccentric Tomes"
+}
