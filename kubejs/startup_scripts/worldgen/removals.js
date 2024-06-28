@@ -60,10 +60,10 @@ WorldgenEvents.remove((event) => {
 
             "thermal:lead_ore",
             "thermal:deepslate_lead_ore",
-            "eidolon:lead_ore",
-            "eidolon:deepslate_lead_ore",
-            "thermal:tin_ore",
-            "thermal:deepslate_tin_ore",
+            // "eidolon:lead_ore",
+            // "eidolon:deepslate_lead_ore",
+            // "thermal:tin_ore",
+            // "thermal:deepslate_tin_ore",
 
             "create_new_age:thorium_ore",
             "create_new_age:deepslate_thorium_ore",
@@ -71,6 +71,9 @@ WorldgenEvents.remove((event) => {
             "rftoolsbase:dimensionalshard_overworld",
             "rftoolsbase:dimensionalshard_nether",
             "rftoolsbase:dimensionalshard_end",
+
+            "natures_spirit:willow_log",
+            "natures_spirit:willow_leaves",
         ];
     });
 });

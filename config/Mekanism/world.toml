@@ -2,7 +2,7 @@
 #World generation settings for Mekanism. This config is synced from server to client
 [world_generation]
 	#Allows chunks to retrogen Mekanism ore blocks.
-	enableRegeneration = true
+	enableRegeneration = false
 	#Change this value to cause Mekanism to regen its ore in all loaded chunks.
 	#Range: > 0
 	userWorldGenVersion = 1
@@ -10,7 +10,7 @@
 	#Generation Settings for tin ore.
 	[world_generation.tin]
 		#Determines if tin ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#small tin vein Generation Settings.
 		[world_generation.tin.small]
@@ -399,7 +399,7 @@
 	#Generation Settings for lead ore.
 	[world_generation.lead]
 		#Determines if lead ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#normal lead vein Generation Settings.
 		[world_generation.lead.normal]
