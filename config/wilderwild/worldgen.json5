@@ -38,7 +38,7 @@
 	},
 	"betaBeaches": true,
 	"dyingTrees": true,
-	"fallenLogs": true,
+	"fallenLogs": false,
 	"snappedLogs": true,
 	"wilderWildTreeGen": true,
 	"wilderWildGrassGen": true,
