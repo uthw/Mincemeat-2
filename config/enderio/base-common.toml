@@ -12,8 +12,8 @@
 [enchantments]
 
 	[enchantments.autoSmelt]
-		maxCost = 60
-		minCost = 15
+		maxCost = 0
+		minCost = 0
 
 	[enchantments.repellent]
 		maxLevel = 4
