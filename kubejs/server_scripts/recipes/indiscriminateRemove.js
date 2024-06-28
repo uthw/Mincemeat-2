@@ -76,6 +76,9 @@ ServerEvents.recipes((event) => {
         "enigmaticlegacy:cursed_stone",
         "enigmaticlegacy:infinimeal",
         "enigmaticlegacy:astral_dust",
+        "enigmaticlegacy:mining_charm",
+        "enigmaticlegacy:mega_sponge",
+        "enigmaticlegacy:recall_potion",
         "cataclysm:abyssal_sacrifice",
         "railcraft:steel_ingot",
         "ars_nouveau:enchanters_sword",
@@ -124,6 +127,7 @@ ServerEvents.recipes((event) => {
         "#waystones:waystones",
         "waystones:warp_stone",
         "forbidden_arcanus:quantum_catcher",
+        "forbidden_arcanus:mundabitur_dust",
     ];
 
     toRemove.forEach((item) => {

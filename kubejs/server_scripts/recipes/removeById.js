@@ -49,6 +49,8 @@ ServerEvents.recipes((event) => {
         "fluxnetworks:fluxcore",
         "enderio:alloy_smelter",
         "enderio:sag_mill",
+        "smallships:cannon",
+        "ars_nouveau:basic_spell_turret",
     ];
 
     toRemove.forEach((recipeId) => {
