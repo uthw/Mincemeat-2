@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Ships from the Small Ships mod stay in motion for a while even when you aren't rowing them."
+    }
+}

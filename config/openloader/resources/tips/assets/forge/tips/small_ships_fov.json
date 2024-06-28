@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Small Ships Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "While in third person, you can scroll to zoom out while in a ship from Small Ships."
+    }
+}
