@@ -14,5 +14,5 @@
 	# A 16x16 texture to use as a custom background, instead of the typical dirt.
 	# Only does anything if the Enable Custom Background Texture option is true.
 	# Default: minecraft:textures/block/dirt.png
-	"Custom Background Texture" = "eidolon:textures/block/elder_bricks.png"
+	"Custom Background Texture" = "alexsmobs:textures/block/rainbow_glass.png"
 
