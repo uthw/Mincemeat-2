@@ -4609,6 +4609,18 @@
 			x: 1.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["7C4AECE18FE4A6A1"]
+			description: ["Ars Nouveau armors can be woven using threads with this workbench. Place armor on the table, then interact with the tablet portion of the table to give and take threads."]
+			id: "7F0031ACDB5F570C"
+			tasks: [{
+				id: "5F82B96F51BF4F04"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
 	]
 	subtitle: ["Waiting Patiently for Electroblob's Wizardry"]
 	title: "Supernatural Magic (WIP)"
