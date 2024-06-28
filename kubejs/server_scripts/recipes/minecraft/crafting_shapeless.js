@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
     const recipes = [
         [
-            "forbidden_arcanus:mundabitur_dust",
+            "4x forbidden_arcanus:mundabitur_dust",
             [
                 "forbidden_arcanus:arcane_crystal_dust",
                 "minecraft:redstone",
@@ -16,7 +16,8 @@ ServerEvents.recipes((event) => {
             [
                 "minecraft:blaze_powder",
                 "betterend:crystal_shards",
-                "#forge:dusts/ender_pearl",
+                "forbidden_arcanus:arcane_crystal_dust",
+                // "#forge:dusts/ender_pearl",
             ],
         ],
         [
@@ -88,6 +89,14 @@ ServerEvents.recipes((event) => {
         [
             "4x spartanweaponry:pole",
             ["8x #forge:rods/wooden", "eidolon:tattered_cloth"],
+        ],
+        [
+            "irons_spellbooks:arcane_essence",
+            [
+                "forbidden_arcanus:arcane_crystal_dust",
+                "supplementaries:ash",
+                "mekanism:salt",
+            ],
         ],
     ];
 
