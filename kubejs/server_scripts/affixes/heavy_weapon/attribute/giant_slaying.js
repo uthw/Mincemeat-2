@@ -5,37 +5,36 @@ ServerEvents.highPriorityData((event) => {
         operation: "ADDITION",
         values: {
             common: {
-                min: 0.05,
+                min: 0.02,
                 steps: 5,
                 step: 0.01,
             },
             uncommon: {
-                min: 0.05,
+                min: 0.02,
                 steps: 5,
                 step: 0.01,
             },
             rare: {
-                min: 0.05,
+                min: 0.02,
                 steps: 5,
                 step: 0.01,
             },
             epic: {
-                min: 0.1,
+                min: 0.03,
                 steps: 5,
                 step: 0.01,
             },
             mythic: {
-                min: 0.1,
+                min: 0.03,
                 steps: 5,
                 step: 0.01,
             },
             ancient: {
-                min: 0.1,
+                min: 0.03,
                 steps: 10,
                 step: 0.01,
             },
-        },
-        types: [],
+        }// No comma allowed here
     };
 
     event.addJson(
