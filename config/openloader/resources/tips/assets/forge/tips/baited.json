@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Were you really expecting to learn something from this tip? You'll have to wait until the next one comes up in a few seconds."
+    }
+}

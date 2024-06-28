@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Show Me What You Got Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "By holding down the Control key and pressing the chat button while hovering over an item in the inventory, you can show it in the chat."
+    }
+}

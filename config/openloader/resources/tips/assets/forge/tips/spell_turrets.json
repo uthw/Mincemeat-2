@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ars Nouveau Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Spell Turrets are like dispensers but for spells. They can cast any spell in front of them as long as it has Touch or Projectile."
+    }
+}

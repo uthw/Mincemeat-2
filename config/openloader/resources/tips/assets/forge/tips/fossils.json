@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Better Archaeology Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Keep an eye out for Fossiliferous Dirt. It can be brushed to unveil fossilized mobs, which make for good decorations."
+    }
+}

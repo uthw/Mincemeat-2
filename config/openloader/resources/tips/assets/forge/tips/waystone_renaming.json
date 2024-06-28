@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Waystones Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Waystones that you discovered can be renamed by interacting with them and then clicking on their name."
+    }
+}

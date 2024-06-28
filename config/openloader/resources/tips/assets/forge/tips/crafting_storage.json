@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Visual Workbench Tip",
+        "bold": true,
+        "color": "gray"
+    },
+    "tip": {
+        "text": "Crafting tables retain their inventories even after their menus are closed."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Optimization Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "The maximum render distance on servers is controlled by the view_distance value in server.properties."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ice and Fire Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "It's a good idea to avoid small rocks in the middle of the ocean, as sirens can often be found on them."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Xaero's World Map Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you have a lot of waypoints cluttering your game, you can disable waypoints by right clicking them in the world map."
+    }
+}

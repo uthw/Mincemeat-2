@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Villager Names Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Every villager has a first and last name. If a baby villager is born, its last name will be inherited from one of its parents."
+    }
+}

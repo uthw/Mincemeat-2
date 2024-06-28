@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Ink can sometimes be obtained by throwing scrolls into an Alchemist Cauldron."
+    }
+}

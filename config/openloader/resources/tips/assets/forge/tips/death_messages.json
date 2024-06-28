@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Every time you die, a different message is shown on the You died! screen. Sometimes it's a good idea to take a few seconds to read this message and think about what went wrong."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Carry On Tip",
+        "bold": true,
+        "color": "gray"
+    },
+    "tip": {
+        "text": "Pick up boats by sneaking and interacting with them. Boats with chests can be a good early-game alternative to backpacks due to the way they don't greatly reduce your speed."
+    }
+}

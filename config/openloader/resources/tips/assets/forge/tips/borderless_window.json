@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Optimization Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Confused about the difference between Fullscreen and Borderless? Borderless is better with 2 monitors, since your game won't minimize when you change windows. Borderless isn't supported on macOS."
+    }
+}

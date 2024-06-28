@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Apotheosis Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "You can get a special type of critical hit in which blue stars come out of the opponent. By default, this has a 5% chance of happening but can be increased with equipment."
+    }
+}

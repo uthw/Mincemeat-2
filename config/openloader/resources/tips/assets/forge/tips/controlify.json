@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Controlify Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "This modpack supports controllers for those who prefer them, but it's recommended to use a keyboard if possible due to all the key bindings added by mods."
+    }
+}

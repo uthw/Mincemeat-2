@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Every minute, bee nests have a 1% chance of producing honey."
+    }
+}

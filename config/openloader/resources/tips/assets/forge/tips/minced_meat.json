@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmer's Delight Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can make mincemeat in Mincemeat 2 by cutting cow or bison meat."
+    }
+}

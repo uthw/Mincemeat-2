@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Spartan Weaponry Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Polearms deal less damage than swords, but make up for this with more range. They're useful when you need to safely kill melee attackers."
+    }
+}

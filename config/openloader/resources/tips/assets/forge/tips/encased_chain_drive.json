@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Encased chain drives mirror the rotation and speed of connected chain drives. This also works vertically. It's best to only have one source of rotation, since speeds can't mix and match."
+    }
+}

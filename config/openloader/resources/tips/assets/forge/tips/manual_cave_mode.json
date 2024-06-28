@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Xaero's Minimap Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can turn on Manual Cave Mode in the bottom left corner of the World Map to find interesting things underground while on the surface."
+    }
+}
