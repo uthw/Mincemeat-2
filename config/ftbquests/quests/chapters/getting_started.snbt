@@ -17,175 +17,6 @@
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2BE6B05790E5A2DE"
-			rewards: [{
-				id: "4B918DFBA85EB7A9"
-				item: {
-					Count: 1
-					id: "eccentrictome:tome"
-					tag: {
-						"eccentrictome:mods": {
-							advancedperipherals: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "advancedperipherals:manual"
-									}
-								}
-							}
-							aether: {
-								0: {
-									Count: 1b
-									id: "aether:book_of_lore"
-								}
-							}
-							apotheosis: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "apotheosis:apoth_chronicle"
-									}
-								}
-							}
-							ars_nouveau: {
-								0: {
-									Count: 1b
-									id: "ars_nouveau:worn_notebook"
-								}
-							}
-							betterend: {
-								0: {
-									Count: 1b
-									id: "betterend:guidebook"
-								}
-							}
-							bloodmagic: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "bloodmagic:guide"
-									}
-								}
-							}
-							botania: {
-								0: {
-									Count: 1b
-									id: "botania:lexicon"
-								}
-								1: {
-									Count: 1b
-									id: "botania:lexicon"
-								}
-							}
-							eidolon: {
-								0: {
-									Count: 1b
-									id: "eidolon:codex"
-								}
-							}
-							enderio: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "enderio:guide"
-									}
-								}
-							}
-							industrialforegoing: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "industrialforegoing:industrial_foregoing"
-									}
-								}
-							}
-							irons_spellbooks: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "irons_spellbooks:iss_guide_book"
-									}
-								}
-							}
-							littlelogistics: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "littlelogistics:guide"
-									}
-								}
-							}
-							minecells: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "minecells:minecells_guidebook"
-									}
-								}
-							}
-							modularrouters: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "modularrouters:book"
-									}
-								}
-							}
-							naturesaura: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "naturesaura:book"
-									}
-								}
-							}
-							pneumaticcraft: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "pneumaticcraft:book"
-									}
-								}
-							}
-							solcarrot: {
-								0: {
-									Count: 1b
-									id: "solcarrot:food_book"
-								}
-							}
-							storagenetwork: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "storagenetwork:network_book"
-									}
-								}
-							}
-							thermal: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "thermal:guidebook"
-									}
-								}
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				icon: "botania:cosmetic_clock_eye"
 				id: "7ABAEA70F4D6542F"
@@ -828,8 +659,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -6.0d
+			x: -2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["03B0D122AD821C0D"]
@@ -941,8 +772,8 @@
 				item: "aquaculture:sushi"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.0d
+			x: -2.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["368309757EB6EC56"]
@@ -952,8 +783,8 @@
 				item: "aquaculture:tackle_box"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: -3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["7C2D35E29A7FF6A2"]
@@ -1121,7 +952,9 @@
 			description: [
 				"You can level up and combine Relics at this table."
 				""
-				"Make sure you are trying to modify your relics and not artifacts (check the mod name)"
+				"The table is made using Aurum wood, which can be found in biomes such as Flower Forests."
+				""
+				"Make sure you are trying to modify your relics and not artifacts (check the mod name)."
 			]
 			id: "7B3D2B0D239513D7"
 			tasks: [{
@@ -1204,18 +1037,11 @@
 		{
 			dependencies: ["36F98327138AA247"]
 			id: "5D43A2BA54C9EC1C"
-			tasks: [
-				{
-					id: "6EE73E2FE0D16B9F"
-					item: "apotheosis:gem_cutting_table"
-					type: "item"
-				}
-				{
-					id: "642C3C77385AC8AF"
-					item: "apotheosis:simple_reforging_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6EE73E2FE0D16B9F"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
 			x: 9.5d
 			y: -2.0d
 		}
@@ -1252,7 +1078,7 @@
 				item: "quark:seed_pouch"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -1514,8 +1340,8 @@
 				type: "item"
 			}]
 			title: "Neptune's Bounty"
-			x: -0.5d
-			y: -7.5d
+			x: -1.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -1555,7 +1381,7 @@
 				id: "6C2787380F6BF16D"
 				observe_type: 1
 				timer: 0L
-				to_observe: "paraglider:goddess_statues"
+				to_observe: "paraglider:statues"
 				type: "observation"
 			}]
 			title: "Goddess Statue"
@@ -1615,6 +1441,121 @@
 			}]
 			x: 1.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["5D43A2BA54C9EC1C"]
+			description: [
+				"If you want to put an affix onto an item you crafted yourself, or something you found that doesn't have an affix, you can use a Reforging Table."
+				""
+				"You will need the item, Gem Dust, and a Rarity Material from salvaging a different affixed item."
+				""
+				"The reforging table works like an enchantment table. You pay in XP and the two materials to add affixes to your item."
+			]
+			id: "23575BBFCB90042C"
+			tasks: [{
+				id: "5A0C7EE1CF519EDC"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C2D35E29A7FF6A2"]
+			description: [
+				"Use this item to brush suspicious sand, gravel, or dirt in search of ancient relics."
+				""
+				"These suspicious blocks can be found in various structures, like at the bottom of desert wells."
+				""
+				"Pottery sherds can sometimes be found in suspicious blocks, and you can make a unique pot using 4 of them."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7198B814B286A3EC"
+			tasks: [
+				{
+					id: "0D320A16E4A4736B"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "minecraft:decorated_pot"
+					id: "53910411BBB30443"
+					structure: "minecraft:trail_ruins"
+					type: "structure"
+				}
+				{
+					id: "58963D1B27D925AF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:decorated_pot_sherds"
+						}
+					}
+					title: "Any #minecraft:decorated_pot_sherds"
+					type: "item"
+				}
+			]
+			title: "Trails \\& Tales"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7198B814B286A3EC"]
+			description: [
+				"The Archaeology Table is made using Artifact Shards, which are found by breaking pots or in suspicious blocks."
+				""
+				"When you find an Unidentified Artifact, this table has the resources to help you determine what it is."
+			]
+			id: "4B3D23126A7F3A9B"
+			tasks: [
+				{
+					id: "5291F7450911EC94"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+				{
+					id: "2696D8EB268CBDC9"
+					item: "betterarcheology:unidentified_artifact"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4B3D23126A7F3A9B"]
+			description: [
+				"Brush this block to obtain a Fossil!"
+				""
+				"This type of dirt can be found within small structures around the Overworld."
+				""
+				"The fossils you unearth are nice collectables, and some of them give benefits."
+			]
+			id: "28349CC99ECB374E"
+			tasks: [{
+				icon: "betterarcheology:fossiliferous_dirt"
+				id: "7456E5B89C61C1E9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "betterarcheology:fossiliferous_dirt"
+				type: "observation"
+			}]
+			title: "Fossiliferous Dirt"
+			x: -0.5d
+			y: -10.5d
 		}
 	]
 	title: "Getting Started"
