@@ -51,36 +51,36 @@ ServerEvents.recipes((event) => {
             ],
         },
         // Enigmatic Legacy recipes
-        //
-        // {
-        //     output: "enigmaticlegacy:recall_potion",
-        //     reagent: Item.of(
-        //         "naturesaura:aura_bottle",
-        //         '{stored_type:"naturesaura:overworld"}'
-        //     ),
-        //     inputs: ["forbidden_arcanus:rune", "alexsmobs:cockroach_wing"],
-        // },
-        // {
-        //     output: "enigmaticlegacy:mining_charm",
-        //     reagent: "ars_nouveau:dull_trinket",
-        //     inputs: [
-        //         "#forge:gems/sapphire",
-        //         "eidolon:gold_inlay",
-        //         "#forge:ingots/arcane_gold",
-        //         "#forge:ingots/arcane_gold",
-        //         "aquamirae:pirate_pouch",
-        //     ],
-        // },
-        // {
-        //     output: "enigmaticlegacy:mega_sponge",
-        //     reagent: "alexsmobs:soul_heart",
-        //     inputs: [
-        //         "minecraft:heart_of_the_sea",
-        //         "minecraft:sponge",
-        //         "minecraft:sponge",
-        //         "upgrade_aquatic:guardian_spine",
-        //     ],
-        // },
+
+        {
+            output: "enigmaticlegacy:recall_potion",
+            reagent: Item.of(
+                "naturesaura:aura_bottle",
+                '{stored_type:"naturesaura:overworld"}'
+            ),
+            inputs: ["forbidden_arcanus:rune", "alexsmobs:cockroach_wing"],
+        },
+        {
+            output: "enigmaticlegacy:mining_charm",
+            reagent: "ars_nouveau:dull_trinket",
+            inputs: [
+                "#forge:gems/sapphire",
+                "eidolon:gold_inlay",
+                "#forge:ingots/arcane_gold",
+                "#forge:ingots/arcane_gold",
+                "aquamirae:pirate_pouch",
+            ],
+        },
+        {
+            output: "enigmaticlegacy:mega_sponge",
+            reagent: "alexsmobs:soul_heart",
+            inputs: [
+                "minecraft:heart_of_the_sea",
+                "minecraft:sponge",
+                "minecraft:sponge",
+                "upgrade_aquatic:guardian_spine",
+            ],
+        },
         {
             output: "scalinghealth:enchanted_heart",
             reagent: "forbidden_arcanus:rune",
@@ -215,6 +215,71 @@ ServerEvents.recipes((event) => {
             output: "eidolon:tattered_cloth",
             reagent: "forbidden_arcanus:cloth",
             inputs: ["minecraft:rotten_flesh", "minecraft:rotten_flesh"],
+        },
+        // These used to be betterend infusion recipes but since xavier is bitching about wanting ReTerraForged I'm moving them to the apparatus for now
+        {
+            output: "aquamirae:terrible_sword",
+            reagent: "minecraft:iron_sword",
+            inputs: [
+                "aquamirae:ship_graveyard_echo",
+                "3x aquaculture:neptunium_ingot",
+                "2x aquamirae:anglers_fang",
+            ],
+        },
+        {
+            output: "forbidden_arcanus:spectral_eye_amulet",
+            reagent: "eidolon:basic_amulet",
+            inputs: [
+                "alexsmobs:void_worm_eye",
+                "2x eidolon:pewter_blend",
+                "alexsmobs:guster_eye",
+                "4x iceandfire:ectoplasm",
+            ],
+        },
+        {
+            output: "forbidden_arcanus:eternal_stella",
+            reagent: "forbidden_arcanus:stellarite_piece",
+            inputs: [
+                "alexscaves:tough_hide",
+                "3x forbidden_arcanus:xpetrified_orb",
+                "4x botania:elementium_ingot",
+            ],
+        },
+        {
+            output: "forbidden_arcanus:tyr_helmet",
+            reagent: "forbidden_arcanus:draco_arcanus_helmet",
+            inputs: [
+                "forbidden_arcanus:golden_dragon_scale",
+                "3x forbidden_arcanus:silver_dragon_scale",
+                "4x iceandfire:scales/dragon",
+            ],
+        },
+        {
+            output: "forbidden_arcanus:tyr_chestplate",
+            reagent: "forbidden_arcanus:draco_arcanus_chestplate",
+            inputs: [
+                "forbidden_arcanus:golden_dragon_scale",
+                "3x forbidden_arcanus:aquatic_dragon_scale",
+                "4x iceandfire:scales/dragon",
+            ],
+        },
+        {
+            output: "forbidden_arcanus:tyr_leggings",
+            reagent: "forbidden_arcanus:draco_arcanus_leggings",
+            inputs: [
+                "forbidden_arcanus:golden_dragon_scale",
+                "3x forbidden_arcanus:silver_dragon_scale",
+                "4x iceandfire:scales/dragon",
+            ],
+        },
+        {
+            output: "forbidden_arcanus:tyr_boots",
+            reagent: "forbidden_arcanus:draco_arcanus_boots",
+            inputs: [
+                "forbidden_arcanus:golden_dragon_scale",
+                "3x forbidden_arcanus:aquatic_dragon_scale",
+                "4x iceandfire:scales/dragon",
+            ],
         },
     ];
 
