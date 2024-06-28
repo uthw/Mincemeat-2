@@ -1106,6 +1106,10 @@ ServerEvents.recipes((event) => {
             "minecraft:gold_nugget",
             "#forge:nuggets/zinc",
         ],
+        [{ output: "smallships:sail" }, "#minecraft:wool", "create:white_sail"],
+        [{ mod: "smallships" }, "minecraft:lead", "#forge:rope"],
+        [{ output: "smallships:sail" }, "#minecraft:logs", "#quark:posts"],
+
         //
     ];
 
