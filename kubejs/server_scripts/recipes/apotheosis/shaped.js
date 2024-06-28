@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
             inputs: ["AAA", "BCD", "AAA"],
             keys: {
                 A: "minecraft:prismarine_bricks",
-                B: "irons_spellbooks:arcane_essence",
+                B: "graveyard:corruption",
                 C: "#c:bookshelves",
                 D: "upgrade_aquatic:thrasher_tooth",
             },
