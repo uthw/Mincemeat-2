@@ -14,15 +14,22 @@ ItemEvents.modification((event) => {
         if (item.maxDamage != 0) {
             // Double the durability of every item
             event.modify(item, (tool) => {
-                if (item.hasTag("minecraft:trimmable_armor")) {
+                // if ()
+
+                if (Item.of(item.id).hasTag("minecraft:trimmable_armor")) {
                     tool.maxDamage *= 4;
-                } else if (
-                    item.hasTag("c:shields") ||
-                    item.hasTag("forge:shields")
-                ) {
-                    tool.maxDamage *= 3;
+                    console.log(`${tool.id} is armor`);
                 } else {
                     tool.maxDamage *= 2;
+                    // console.log(`${tool} is not armor or shield`);
+                    // console.log(item.id);
+                    // console.log(Item.of(item.id).getTags().toString());
+                    // This causes an error for some reason
+                    // Item.of(tool)
+                    //     .getTags()
+                    //     .forEach((tag) => {
+                    //         console.log(tag);
+                    //     });
                 }
             });
 
