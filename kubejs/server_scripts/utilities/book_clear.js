@@ -7,12 +7,13 @@ PlayerEvents.advancement((event) => {
     // Utils.server.runCommandSilent("clear @p patchouli:guide_book");
 
     // initial inventory
-    event.server.runCommandSilent("clear @p patchouli:guide_book");
     event.server.runCommandSilent("give @p ftbquests:book");
     event.server.runCommandSilent("clear @p enigmaticlegacy:cursed_ring");
     event.server.runCommandSilent(
         'give @p delightful:smore{RepairCost:0,display:{Name:\'{"text":"Starting Gift"}\'}}'
     );
+    event.server.runCommandSilent("clear @p patchouli:guide_book");
+
     // Item.of(
     //     "delightful:cheeseburger",
     //     '{RepairCost:0,display:{Name:\'{"text":"Starting Gift 2"}\'}}'
