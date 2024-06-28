@@ -179,10 +179,10 @@
 	"Equipment Chance" = 0.1
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
-	"Additional Equipment Chance" = 0.3
+	"Additional Equipment Chance" = 0.27
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Equipment Addition" = 0.3
+	"Equipment Addition" = 0.24
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
 	"Weapon Chance" = 0.05
