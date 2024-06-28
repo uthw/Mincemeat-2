@@ -1109,7 +1109,36 @@ ServerEvents.recipes((event) => {
         [{ output: "smallships:sail" }, "#minecraft:wool", "create:white_sail"],
         [{ mod: "smallships" }, "minecraft:lead", "#forge:rope"],
         [{ output: "smallships:sail" }, "#minecraft:logs", "#quark:posts"],
-
+        [
+            { output: "botania:fel_pumpkin" },
+            "minecraft:string",
+            "blue_skies:bug_guts",
+        ],
+        [
+            { output: "easy_villagers:converter" },
+            "minecraft:rotten_flesh",
+            "eidolon:zombie_heart",
+        ],
+        [
+            { output: "easy_villagers:auto_trader" },
+            "minecraft:netherite_ingot",
+            "aether:swet_ball",
+        ],
+        [
+            { output: "easy_villagers:auto_trader" },
+            "minecraft:redstone",
+            "create:belt_connector",
+        ],
+        [
+            { output: "easy_villagers:farmer" },
+            "minecraft:dirt",
+            "farmersdelight:rich_soil",
+        ],
+        [
+            { output: "easy_villagers:iron_farm" },
+            "minecraft:stone",
+            "conjurer_illager:throwable_ball",
+        ],
         //
     ];
 
