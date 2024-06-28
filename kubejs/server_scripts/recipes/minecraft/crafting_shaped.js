@@ -460,7 +460,7 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "4x prettypipes:pipe",
+            "8x prettypipes:pipe",
             ["ABA", " C ", "   "],
             {
                 A: "#forge:ingots/copper",
@@ -619,6 +619,27 @@ ServerEvents.recipes((event) => {
                 A: "#forge:ingots/nickel",
                 B: "minecraft:paper",
                 C: "thermal:cinnabar",
+            },
+        ],
+        [
+            "smallships:cannon",
+            ["  A", "BBC", "DED"],
+            {
+                A: "minecraft:string",
+                B: "minecraft:iron_block",
+                C: "create:hand_crank",
+                D: "#minecraft:logs",
+                E: "#forge:gears/copper",
+            },
+        ],
+        [
+            "ars_nouveau:basic_spell_turret",
+            [" A ", "BCB", " BD"],
+            {
+                A: "minecraft:gold_ingot",
+                B: "ars_nouveau:source_gem",
+                C: "smallships:cannon",
+                D: "forbidden_arcanus:rune",
             },
         ],
     ];
