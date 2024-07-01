@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Adventuring Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Oceans are full of hostile mobs like Deeplings, Skelewags, and even Sea Serpents. The idea of discovering a new continent might be enticing, but you should stay away until you're prepared."
+    }
+}

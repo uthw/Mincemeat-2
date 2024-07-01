@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "All you need to increase your RPM is a couple of cogwheels. Do this by placing a small wheel diagonally to a large one, and then placing a large wheel directly above it. This can be chained together several times."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Better Combat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "By equipping any combination of one handed weapons in your main and off hands, you will alternate between them while attacking. You will also swing them more quickly."
+    }
+}
