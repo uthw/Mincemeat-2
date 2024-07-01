@@ -15,6 +15,66 @@
       "structure": "minecraft:mansion",
       "factor": 2
     },
+    {
+      "structure": "minecraft:village_plains",
+      "factor": 2.1
+    },
+    {
+      "structure": "totw_modded:aether",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:badlands",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:derelict",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:derelict_grass",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:desert",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:end",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:everbright",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:everdawn",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:ice",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:jungle",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:nether",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:ocean",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:ocean_warm",
+      "factor": 1
+    },
+    {
+      "structure": "totw_modded:regular",
+      "factor": 1
+    }
     // add the structures you want to modify in the format:
     // {
     //     "structure": "namespace:structure_name",
