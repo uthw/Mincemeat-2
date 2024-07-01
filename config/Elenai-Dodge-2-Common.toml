@@ -3,7 +3,7 @@
 	#How many ticks it takes after dodging before you can dodge again
 	"Dodge Cooldown" = 16
 	#How many ticks the player is invincible for after dodging
-	"Invincibility Ticks" = 12
+	"Invincibility Ticks" = 10
 	#How many half feathers it costs to dodge
 	"Dodge Cost" = 2
 	#How far the player moves when dodging
