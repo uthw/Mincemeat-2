@@ -98,6 +98,14 @@ ServerEvents.recipes((event) => {
                 "mekanism:salt",
             ],
         ],
+        [
+            "4x nomowanderer:trader_cloth_piece",
+            ["forbidden_arcanus:cloth", "#forge:dyes/red", "#forge:dyes/blue"],
+        ],
+        [
+            "4x computercraft:cable",
+            ["4x prettypipes:pipe", "createaddition:copper_wire"],
+        ],
     ];
 
     recipes.forEach((recipe) => {
