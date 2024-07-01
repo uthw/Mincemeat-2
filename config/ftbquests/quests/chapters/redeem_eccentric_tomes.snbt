@@ -201,7 +201,7 @@
 			description: [
 				"You are seeing this quest if you went into editing mode in FTB Quests, or if you went into this chapter's .snbt file."
 				""
-				"This quests exists so the \"Chapter complete!\" notification doesn't appear every time the user collects an Eccentric Tome using the other quest."
+				"This quest exists so that this chapter is never marked as complete."
 			]
 			id: "2969FC522EE7C233"
 			invisible: true
