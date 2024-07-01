@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "computer_programming_nyi"
 	group: "575079378E827F8C"
-	icon: "refinedstorage:wireless_crafting_monitor"
+	icon: "thermal:ruby_gear"
 	id: "5060CB512B950FD4"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -56,15 +56,15 @@
 					type: "item"
 				}
 				{
-					id: "2CE064FA8275E298"
+					id: "5AE32FBD8CD3A28F"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "rsgauges:pressure_plates"
+							value: "minecraft:wooden_pressure_plates"
 						}
 					}
-					title: "Any #rsgauges:pressure_plates"
+					title: "Any #minecraft:wooden_pressure_plates"
 					type: "item"
 				}
 			]
@@ -300,6 +300,219 @@
 			title: "Variable Store                                                                                              "
 			x: 3.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["35FEED7EF4C10A3E"]
+			description: [
+				"Welcome to your computer! First off, if you're looking for help outside your quest book, you can type &7&nhelp&r on the computer for some more detailed information."
+				""
+				"Notice that, when you type something into the computer, it will provide autocomplete suggestions like you're searching the Internet."
+				""
+				"You can use the vertical arrow keys to scroll through these suggestions alphabetically, or the right arrow key to accept it."
+				""
+				"{@pagebreak}"
+				"You can see what programs come pre-installed on your machine by typing &n&7programs&r&r. If one catches your eye, type &n&7help [program name]&r&r to see what it does."
+				""
+				"If the preloaded programs can do whatever you're looking for with CC, great! But if you'd rather make something yourself, you've come to the right place."
+				""
+				"Today, I'm going to show you how to use Lua to make custom programs."
+			]
+			disable_toast: true
+			id: "28108ED01F368BC5"
+			subtitle: "Credit to Direwolf20 for his YT tutorial"
+			tasks: [{
+				id: "508E532188806EBD"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28108ED01F368BC5"]
+			description: [
+				"&7&nls&r / &7&ndir&r"
+				""
+				"Prints the files in the folder you're currently in. If you type this without making or entering any folders (meaning you're in the root), you will see &2rom&r."
+				""
+				"&7&ncd [folder]&r"
+				""
+				"Short for &ochange directory&r. Moves you into the folder, if it exists."
+				""
+				"&7&nmkdir [name]&r"
+				""
+				"Creates a folder with the specified name."
+				""
+				"&7&n(up or down arrow)&r"
+				""
+				"Cycles through your command history. Useful if you need to do the same thing several times."
+			]
+			id: "01B25CE562E88913"
+			tasks: [{
+				id: "64B60001F38D840F"
+				title: "Basic Terminal Commands"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01B25CE562E88913"]
+			description: [
+				"&7&nhelp apis&r"
+				""
+				"The preinstalled APIs on your computer all provide commands which, in short, do things. If an API interests you, type &7&nhelp [api name]&r to see what it brings to the table."
+				""
+				"For your first program, you'll want to use &2term&r. As such, why not type &7&nhelp term&r and see what it offers?"
+				""
+				"&7&nedit MyFirstProgram&r"
+				""
+				"This command will create a new program, &2MyFirstProgram&r, and open the editor for you to write code."
+				"{@pagebreak}"
+				"Now, in the editor, type:"
+				""
+				"&7&nterm.write(\"Hello World!\")&r"
+				""
+				"Let's dissect that. First off, &2term&r is the library, or container, that we are accessing."
+				""
+				"&2write&r is a method that is provided by term. That is to say, it's an action, part of term, that is being performed."
+				""
+				"The &2parenthesis&r are what we put our arguments in. We only have one argument right now:"
+				""
+				"&2\"Hello world!\"&r -- the quotation marks are there to tell the computer where the string starts and ends."
+				"{@pagebreak}"
+				"To get analogous, this is a lot like a TV. &2term&r is the remote itself. It doesn't do much on its own, but it provides a lot of useful actions, which are the buttons on the remote."
+				""
+				"&2write&r is one of the buttons on the remote. Maybe it's the \"voice repeat\" button, which repeats something that you say on the screen. "
+				""
+				"When we press the &2write&r button, the remote wants a phrase. This is represented by &2\"Hello world!&r."
+				""
+				"In short, you press a button on the TV remote, say \"Hello world!\", and the TV shows \"Hello world!\""
+				"{@pagebreak}"
+				"Finalize your program by pressing &2control&r to bring up the menu, and then pressing enter to save the file as a .lua program."
+				""
+				"Then, press &2control&r again, press &2right arrow&r to select Exit, then press enter."
+				""
+				"You can now run your program by typing &7&nMyFirstProgram&r in the computer. It should autocomplete if you did it properly."
+				""
+				"Bonus: by using the &7&nprint()&r command instead of &7&nterm.write&r, you'll get a new line at the end of the message, so the >_ is not right after the \"!\" in \"Hello world!\""
+			]
+			id: "19498CFC6FBE3FAC"
+			tasks: [{
+				id: "4CCB1282EE3EB057"
+				title: "Hello World"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19498CFC6FBE3FAC"]
+			description: [
+				"Alright, now let's go back into &2MyFirstProgram.lua&r or whatever you may have called it by typing &7&nedit MyFirstProgram&r."
+				""
+				"If you don't remember the name, type &7&nls&r to see a list of files, yours should be whatever one is not called &2rom&r."
+				""
+				"Let's make MyFirstProgram do multiple things. Move the cursor to the end of the file, then press enter. Then, type &n&7term.clear()&r. Now, save and exit the way you did the first time."
+				""
+				"Your file might now say:"
+				"&7&nprint(\"Hello world!\")"
+				"&7&nterm.clear()&r"
+				"{@pagebreak}"
+				"Type &7&nMyFirstProgram&r to run the file. It should clear all the text in the terminal but not print anything."
+				""
+				"This is because computers read code from top to bottom. If we were to put &n&7term.clear()&r at the beginning of the file, it would clear the terminal and then print \"Hello world!\""
+				""
+				"Now, let's fix the issue with the text clearing by &2commenting out&r &7&nterm.clear()&r. Type the edit command in again and move the cursor to the beginning of the line and type &7&n--&r."
+				""
+				"This is referred to as a &2comment&r. The computer will treat everything after a &7&n--&r on a line as if it doesn't exist."
+				""
+				"If you put &7&n--&r in the middle of a line, the computer will still see the contents of that line before the &7&n--&r. &2Comments&r are useful for labelling parts of your code so that you, or programmer, knows what it does."
+				""
+				"If you were to save and run the code again, you'd notice that the terminal no longer clears itself."
+			]
+			id: "16AB43A8ADA45CAF"
+			tasks: [{
+				id: "65C391455A129742"
+				title: "Math"
+				type: "checkmark"
+			}]
+			title: "Comments and Multiple Lines"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19498CFC6FBE3FAC"]
+			description: [
+				"Let's start this off by creating a new file called &2Variables&r. Do you remember what command is used for this? If not, can you figure it out without looking at previous quests?"
+				""
+				"In the editor for &2Variables&r, type in &7&nlocal x&r."
+				""
+				"This creates a variable called &2x&r which is inaccessible to other files, hence the word &2local&r. Usually you will want to use local unless other files need access to the value."
+				""
+				"Give &2x&r a value by typing &7&nx = \"Hello world!\"&r. Afterwards, type &n&7print(x)&r. Seem familiar?"
+				"{@pagebreak}"
+				"Save and exit &2Variables&r, and then run it. You should see the same thing you got from your initial runs of &2MyFirstProgram&r."
+				""
+				"Go back into the editor and change &2x&r's value from &2\"Hello world!\"&r to &22&r, without quotation marks."
+				""
+				"Also, change the second line to"
+				"&7&nprint(x + 3)&r."
+				""
+				"If you save and run, you will see the number &25&r. How cool is that?"
+				""
+				"Now, add &7&nprint(x)&r to the bottom of &2Variables&r. You'll see that this returns 2, meaning the first &2print&r doesn't actually change &2x&r's value."
+				"{@pagebreak}"
+				"You may ask then, \"How do I change the value of &2x&r?\" Well, in the same way you set it originally: with an equals sign."
+				""
+				"Add &7&nx = x + 4&r to the end. Then, add another &7&nprint(x)&r after that. You'll see that the value of &2x&r has increased to 6. "
+				""
+				"Note that you can have multiple variables, and they can have any names you'd like so long as they don't already mean something else (for instance, you can't have a variable called \"print\")."
+				""
+				"Set a variable, called whatever you want, to &2x * 12&r. Then, print this variable. Interesting, right? I wonder if subtracting and dividing work this way too. Maybe even exponents?"
+				""
+				"Bonus: define a variable in one line like this: &7&nlocal x = 2&r"
+			]
+			id: "159DC1FED1B5C4CA"
+			tasks: [{
+				id: "6F143E88040F2E4E"
+				title: "Variables"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["159DC1FED1B5C4CA"]
+			description: [
+				"Boolean values are special in that they can be &2true&r or &2false&r (no quotation marks, they are not strings!)"
+				""
+				"Strings can be combined with the double-dot operator:"
+				""
+				"&7&nprint(\"Hello\"..\" World\"..\"!\")&r&r"
+				""
+				"Try typing &7&nhelp read&r"
+			]
+			id: "46C754C8EDE4EB54"
+			tasks: [{
+				id: "246AAC73A746D8AF"
+				title: "Booleans"
+				type: "checkmark"
+			}]
+			title: "More Basics"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["159DC1FED1B5C4CA"]
+			id: "48D2DEAD9FB62EF3"
+			tasks: [{
+				id: "6FB54FD9BECC8F5E"
+				item: "computercraft:turtle_normal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["This is CC50, Mincemeat's introduction to Computer Science"]
