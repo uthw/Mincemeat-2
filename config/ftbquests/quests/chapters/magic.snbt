@@ -30,7 +30,7 @@
 			rotation: 0.0d
 			width: 6.0d
 			x: 6.5d
-			y: 6.0d
+			y: 7.0d
 		}
 	]
 	order_index: 1
@@ -1070,7 +1070,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0F8FDFCE19B5216D"]
@@ -4620,6 +4620,119 @@
 			}]
 			x: 8.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["0BE3BABC55E29686"]
+			description: ["This &6legendary&r spell book requires killing a &5stage 4 or 5 dragon&r and raising its baby. "]
+			id: "278697F3FE8A0F06"
+			tasks: [{
+				id: "687DDB882779A6EE"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:dragonmancers_oathbook"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"11F9FFCB87A791C5"
+				"5099A90FA346D626"
+			]
+			id: "5BAF880232295138"
+			tasks: [{
+				id: "312656167FCF7325"
+				item: {
+					Count: 1
+					id: "eidolon:soulfire_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11F9FFCB87A791C5"]
+			id: "2148AB511DED55B7"
+			tasks: [{
+				id: "01F1DF60BBFC9D47"
+				item: "eidolon:soulbone_amulet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2148AB511DED55B7"]
+			id: "55291A04C1D9D4D9"
+			tasks: [
+				{
+					id: "529F45767B360C1B"
+					item: {
+						Count: 1
+						id: "eidolon:bonelord_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47303E5E8497626F"
+					item: {
+						Count: 1
+						id: "eidolon:bonelord_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6638FF9E00448557"
+					item: {
+						Count: 1
+						id: "eidolon:bonelord_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bone Paladin Style"
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C1618F02FE2E04C"]
+			id: "7C71D16AF35627AD"
+			tasks: [{
+				id: "2560F35C9AC77235"
+				item: {
+					Count: 1
+					id: "eidolon:deathbringer_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Waiting Patiently for Electroblob's Wizardry"]
