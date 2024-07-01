@@ -15,7 +15,7 @@
 let coeff = 1.25;
 
 let twoHandedWeaponsString =
-    "claymore|great_sword|greatsword|infinitum|great_hammer|greathammer|war_hammer|warhammer|maul|infernal_forge|blacksmith_gavel|double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe|scythe|halberd|glaive|anchor|shredder|katana|bardiche|fractal|meat_shredder|the_incinerator|void_forge|zwei";
+    "claymore|great_sword|greatsword|infinitum|great_hammer|greathammer|war_hammer|warhammer|maul|infernal_forge|blacksmith_gavel|double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe|scythe|halberd|glaive|anchor|shredder|katana|bardiche|fractal|meat_shredder|the_incinerator|void_forge|zwei|troll_weapon";
 
 let twoHandedWeaponsList = twoHandedWeaponsString.split("|");
 
