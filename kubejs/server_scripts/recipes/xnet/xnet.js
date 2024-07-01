@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
         B: "minecraft:comparator",
         C: "#forge:dusts/redstone",
         D: "thermal:machine_frame",
-        E: "#forge:ingots/copper",
-        F: "#forge:ingots/aluminum",
+        E: "#forge:ingots/electrum",
+        F: "create:precision_mechanism",
     });
 });
