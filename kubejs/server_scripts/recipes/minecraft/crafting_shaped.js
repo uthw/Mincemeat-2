@@ -138,7 +138,7 @@ ServerEvents.recipes((event) => {
             "sophisticatedstorage:pickup_upgrade",
             [" A ", "BCB", "DED"],
             {
-                A: "alexsmobs:bear_fur",
+                A: "enigmaticlegacy:magnet_ring",
                 B: "#forge:string",
                 C: "sophisticatedstorage:upgrade_base",
                 D: "#forge:gems/cinnabar",
@@ -640,6 +640,15 @@ ServerEvents.recipes((event) => {
                 B: "ars_nouveau:source_gem",
                 C: "smallships:cannon",
                 D: "forbidden_arcanus:rune",
+            },
+        ],
+        [
+            "irons_spellbooks:gold_spell_book",
+            ["ABB", "ACC", "ABB"],
+            {
+                A: "blue_skies:diopside_gem",
+                B: "irons_spellbooks:arcane_essence",
+                C: "forbidden_arcanus:cloth",
             },
         ],
     ];
