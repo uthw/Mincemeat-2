@@ -125,7 +125,6 @@
 				"- Charm"
 				"- Hats"
 				"- Tinkers' Construct"
-				"- Modular Powersuits"
 				"- Infernal Expansion"
 				"- Atum 2"
 				""
@@ -559,7 +558,7 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
@@ -576,7 +575,15 @@
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
-			description: ["A useful item that lets you place blocks in the distance."]
+			description: [
+				"A useful item that lets you place blocks in the distance."
+				""
+				"How about using torches for lighting up caves from afar?"
+				""
+				"Or slinging TNT and then lighting it with a flame bow?"
+				""
+				"There's a swath of possibilities."
+			]
 			id: "443B7A38B97BD04B"
 			tasks: [{
 				id: "54E57F763B0C2565"
@@ -589,7 +596,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -1304,7 +1311,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3571CB6136F6E3EB"]
+			dependencies: [
+				"3571CB6136F6E3EB"
+				"609E3CBD113337E6"
+			]
 			description: [
 				"Find yourself &cdying&r quite often? No judgment. This item might be helpful though, as it &dteleports you to the location where you died most recently&r."
 				""
@@ -1556,6 +1566,153 @@
 			title: "Fossiliferous Dirt"
 			x: -0.5d
 			y: -10.5d
+		}
+		{
+			dependencies: ["50D43AFA6402629F"]
+			description: [
+				"You can make several different types of ships, each of which having their advantages."
+				""
+				"Cogs, briggs, and drakkars are all designed for cold oceans and will move faster in them. Galleys are designed for warmer oceans and will move faster in them. Choose a ship based on what is closest to your base."
+				""
+				"All ships move faster than vanilla boats and can have their speed boosted by holding forward (paddling). They will move for a good while even if you aren't paddling."
+			]
+			id: "28B44DDB5378D2E6"
+			subtitle: "Sail the seven seas"
+			tasks: [{
+				id: "46E064570EBE6345"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:ships"
+					}
+				}
+				title: "Any #smallships:ships"
+				type: "item"
+			}]
+			title: "Small Ships"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"You can view a list of all of your deaths and various details surrounding them by pressing End (default) on your keyboard. If you don't have this key, you can rebind it in the settings."
+				""
+				"Xaero's Minimap makes a waypoint every time you die. It's automatically deleted when you get close enough to it."
+				""
+				"You still lose some experience when you die, but not as much as in vanilla."
+			]
+			icon: "betterarcheology:creeper_fossil_head"
+			id: "609E3CBD113337E6"
+			invisible: true
+			optional: true
+			subtitle: "What a shame!"
+			tasks: [{
+				id: "23CB041D97B15C01"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "Die"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28B44DDB5378D2E6"]
+			description: [
+				"Interact with the ship while holding a cannon to mount it."
+				""
+				"While in the ship, you can fire the cannon by first placing cannonballs in your ship's inventory and then pressing space while looking in the same direction as the cannon."
+				""
+				"Interact using an axe to remove the cannon."
+			]
+			id: "09513016F40818AF"
+			tasks: [
+				{
+					id: "587E194E9F5F488F"
+					item: "smallships:cannon"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "350FCBDB2643E61C"
+					item: "smallships:cannon_ball"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AAC671A5A3A8E24"]
+			description: ["If you hold the inventory version of your villager in your hand, you can put it in the trader and it will remain there."]
+			id: "035DF30F0AC35C07"
+			tasks: [{
+				id: "694E804C55BE3B9F"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["035DF30F0AC35C07"]
+			description: ["These blocks represent vanilla farms involving villagers, but highly simplified so that you can focus on building new, modded things instead of following a YouTube tutorial for something you've already made 10 times."]
+			id: "727FC48F7FCABDC8"
+			tasks: [
+				{
+					id: "37A7B108EF8A8EB4"
+					item: "easy_villagers:auto_trader"
+					type: "item"
+				}
+				{
+					id: "1858680235376C19"
+					item: "easy_villagers:farmer"
+					type: "item"
+				}
+				{
+					id: "7C42B15747DA74BF"
+					item: "easy_villagers:breeder"
+					type: "item"
+				}
+				{
+					id: "7A878D7C1B06A627"
+					item: "easy_villagers:converter"
+					type: "item"
+				}
+				{
+					id: "264704BC1A548EA2"
+					item: "easy_villagers:iron_farm"
+					type: "item"
+				}
+			]
+			title: "Block-Size Villager Farms"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78CFC81068655538"]
+			description: [
+				"If you're looking into storage, odds are that by now you've found a place you like enough to call home. That's good!"
+				""
+				"Here are some items you might find useful. If you don't want wandering traders spawning all the time, you can use the No Soliciting sign to make them go away. Or, if you want them to always spawn in a specific spot, the Rug lets you specify it."
+			]
+			id: "3A9ADABA568466BB"
+			tasks: [
+				{
+					id: "6C6C2D95F469CC73"
+					item: "nomowanderer:no_soliciting_sign"
+					type: "item"
+				}
+				{
+					id: "311DF9E55CB81FEB"
+					item: "nomowanderer:trader_rug"
+					type: "item"
+				}
+			]
+			title: "Wandering Trader Begone"
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 	title: "Getting Started"
