@@ -38,7 +38,7 @@ schematicVersion = 5
 			#Range: 0.0 ~ 600.0
 			shipGeneralDespawnTimeSunken = 15.0
 			#Entities in this list won't be able to mount a ship, for example: ["minecraft:creeper", "minecraft:sheep", ...]
-			mountBlackList = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:wither", "minecraft:ghast", "minecraft:warden", "minecraft:ravager", "alexmobs:cachalot_whale"]
+			mountBlackList = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:wither", "minecraft:ghast", "minecraft:warden", "minecraft:ravager", "alexmobs:cachalot_whale", "upgrade_aquatic:thrasher", "alexsmobs:orca"]
 			#Amount of damage a cannonball does on hit.
 			#Range: 0.0 ~ 100.0
 			shipGeneralCannonDamage = 25.0
@@ -62,7 +62,7 @@ schematicVersion = 5
 			#Range: 1.0 ~ 10000.0
 			shipAttributeCogMaxHealth = 300.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogMaxSpeed = 30.0
+			shipAttributeCogMaxSpeed = 35.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeCogMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
@@ -90,7 +90,7 @@ schematicVersion = 5
 			#Range: 0.0 ~ 10000.0
 			shipAttributeBriggMaxHealth = 450.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeBriggMaxSpeed = 35.0
+			shipAttributeBriggMaxSpeed = 40.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeBriggMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
@@ -118,7 +118,7 @@ schematicVersion = 5
 			#Range: 0.0 ~ 10000.0
 			shipAttributeGalleyMaxHealth = 200.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeGalleyMaxSpeed = 30.0
+			shipAttributeGalleyMaxSpeed = 35.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeGalleyMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
@@ -146,7 +146,7 @@ schematicVersion = 5
 			#Range: 0.0 ~ 10000.0
 			shipAttributeDrakkarMaxHealth = 200.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeDrakkarMaxSpeed = 30.0
+			shipAttributeDrakkarMaxSpeed = 35.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeDrakkarMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
