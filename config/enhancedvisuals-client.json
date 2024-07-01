@@ -306,7 +306,7 @@
     },
     "slender": {
       "enabled": true,
-      "opacity": 1.0,
+      "opacity": 0.50167227,
       "defaultIntensity": 0,
       "maxIntensity": 0.3,
       "distanceFactor": 0.25,
