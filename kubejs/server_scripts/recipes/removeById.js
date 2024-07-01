@@ -51,6 +51,8 @@ ServerEvents.recipes((event) => {
         "enderio:sag_mill",
         "smallships:cannon",
         "ars_nouveau:basic_spell_turret",
+        "computercraft:cable",
+        "xnet:controller",
     ];
 
     toRemove.forEach((recipeId) => {
