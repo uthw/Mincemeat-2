@@ -32,10 +32,30 @@
 				""
 				"It'd be harder to give you an instruction manual, so here's an image to copy off of. Don't forget about Create's Ponder system for help with mechanics."
 				""
+				"*This image is from the 1.16 version of Create. I will update it to match the new Mechanical Mixer in a later update. To power it, you will need to use more cogwheels to increase your RPM, see the next page."
 				""
 				"{image:kubejs:item/create1 width:180 height:100 align:1 fit:true}"
 				""
 				"All &emachines&r use an amount of &6stress units&r. Some, like the Press, use more than others. If your factory becomes &coverworked&r, it'll stop! Be sure to never &coverstress&r your machines."
+				"{@pagebreak}"
+				"You may notice that the &6press&r receives power from a &6rotating shaft&r, but the &6mixer&r gets its rotation from a cogwheel."
+				""
+				"You can try directly connecting &6shafts&r and a &6small cogwheel&r to the mixer, but &eit needs more speed &rthan this."
+				""
+				"Thankfully, all you need are &ea few small and large cogwheels&r. By placing a &6large cogwheel&r on the &6water wheel&r, and then &econnecting a &6small cogwheel&r &ediagonally&r, the &6small cogwheel&r rotates at &etwice the speed&r as the &6large water wheel&r."
+				""
+				"Confused? Look at this picture."
+				""
+				"{image:kubejs:item/cogwheel_setup width:896 height:504 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"That's not all. If you connect a &6large cogwheel&r through the shaft of the &6small cogwheel&r that is moving faster, &ethe large cogwheel will move at the same speed&r."
+				""
+				"You can then repeat this setup freely &euntil you overstress the water wheel&r (this happens when all the cogs stop moving). Take a look at the &eneedles on the speedometers&r in the last image and see how &ethey increase the further into the chain they are&r."
+				""
+				"In the screenshot below, I've done this several times. The &6small cogwheel&r I'm looking at &eis moving very quickly&r -- you can't see it in the picture so I attached a &espeedometer&r to quantify it (the reading is 256 RPM)."
+				""
+				"{image:kubejs:item/hovering_over_speedometer width:896 height:504 align:1 fit:true}"
 			]
 			id: "6E51F7DE0D0CC8CB"
 			tasks: [
@@ -105,7 +125,7 @@
 			]
 			title: "Get Fitted"
 			x: 0.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E51F7DE0D0CC8CB"]
@@ -131,7 +151,7 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["791DF6ADBF550A3F"]
+			dependencies: ["02AC20A93D39F2C6"]
 			description: [
 				"If you're an &l&oattentative little adventurer&r and are lost with power, no need to be worried. As you expand your factory, &6let the knowledge come to you&r."
 				""
@@ -184,7 +204,7 @@
 			]
 			title: "Wait. Power? Stress units? Who're they?"
 			x: 0.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7D336EA43CCF5FD5"]
@@ -322,7 +342,6 @@
 				"Don't forget to &eprovide power to &rthe whole thing!"
 			]
 			id: "048233AB927943AD"
-			optional: true
 			rewards: [
 				{
 					id: "281EDA9ACAE17AE7"
@@ -450,7 +469,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["7D336EA43CCF5FD5"]
+			dependencies: ["791DF6ADBF550A3F"]
 			description: ["&6Copper casing&r opens the door to the next tier of Create items."]
 			id: "02AC20A93D39F2C6"
 			tasks: [{
@@ -458,11 +477,15 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["7D336EA43CCF5FD5"]
+			dependencies: [
+				"7D336EA43CCF5FD5"
+				"00B285EA4937657F"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&lWarning: &rYou're going to need to go to the &4Nether&r to progress any further. This requires beating &efive bosses&r (more if you're a completionist). "
 				""
@@ -789,7 +812,7 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["42F8AD78D500C942"]
+			dependencies: ["329604AC74DDA615"]
 			description: ["Search &o&9@thermal&r &omachine&r in EMI to see every machine you can make."]
 			id: "201BC1FF4067A4D2"
 			subtitle: "Scratch the surface"
@@ -798,8 +821,8 @@
 				title: "More Machines"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: -10.5d
+			x: 10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2BFF61AFF24B0404"]
@@ -2023,6 +2046,104 @@
 			}]
 			x: 11.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["7D336EA43CCF5FD5"]
+			description: [
+				"If you're not far into the dimensional progression but are itching to get through technology, the &6Fel Pumpkin&r from Botania is going to be your friend."
+				""
+				"By &eplacing it atop two &6iron bars&r&r as you would for a snow golem, you will summon a &eblaze&r."
+				""
+				"This blaze is a little strapped-down in terms of its loot, but it still works perfectly fine if you capture it for your &eblaze burner&r."
+			]
+			id: "00B285EA4937657F"
+			optional: true
+			tasks: [
+				{
+					id: "7BA94FD3ED96D08E"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65FE3609C4C543B9"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["42F8AD78D500C942"]
+			description: [
+				"The &6pyrolyzer&r's main purpose is creating &6coal coke&r, which is alloyed with &eiron&r to make &6steel&r."
+				""
+				"&6Coke&r is also quite effective in a furnace, being able to smelt &etwice as many items&r as coal."
+				""
+				"For the &6pyrolyzer&r, you'll need some &econstantan gears&r, which you're now able to make using your &einduction smelter&r. "
+			]
+			id: "329604AC74DDA615"
+			tasks: [
+				{
+					id: "1AC9786C370AC7D8"
+					item: "thermal:machine_pyrolyzer"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1A22185381A819F3"
+					item: "thermal:coal_coke"
+					type: "item"
+				}
+				{
+					id: "7CA223CC9694BDE4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
+					title: "Any #forge:ingots/steel"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0A26B049A30FF9DA"]
+			description: [
+				"Some recipes are too complicated and intricate to simply use a mechanical press on and call it quits."
+				""
+				"For these items, you may need to apply &esequenced assembly&r. This involves having machines performing a set of actions on an item."
+				""
+				"A somewhat simple example of this is the &6precision mechanism&r. To make it, it needs to have a cogwheel, large cogwheel, and iron nugget &edeployed&r to it, in that order, &efive times&r."
+			]
+			id: "1495D2307BF91921"
+			tasks: [{
+				id: "499A167AE6B93E6E"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Sequenced Assembly"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1495D2307BF91921"]
+			id: "35FEED7EF4C10A3E"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Ready for computer science!"
+			tasks: [{
+				id: "5EBD89A7B171962D"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
 		}
 	]
 	title: "Tech Level 1"
