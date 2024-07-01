@@ -127,7 +127,7 @@ ServerEvents.recipes((event) => {
             "sophisticatedbackpacks:pickup_upgrade",
             [" A ", "BCB", "DED"],
             {
-                A: "alexsmobs:bear_fur",
+                A: "enigmaticlegacy:magnet_ring",
                 B: "#forge:string",
                 C: "sophisticatedbackpacks:upgrade_base",
                 D: "#forge:gems/cinnabar",
