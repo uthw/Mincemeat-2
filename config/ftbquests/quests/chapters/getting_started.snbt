@@ -222,6 +222,10 @@
 				"For example, try the Amethyst Blocks you got as a reward. The tool matters -- use your brain!"
 				""
 				"You can find straw by using the knife on grass."
+				""
+				"If you're having trouble harvesting straw from grass, first try it with a Farmer's Delight (not Delightful) knife."
+				""
+				"If that doesn't fix it, go in Better Combat's client config (pause --> Mods) and turn off Swing Through Grass."
 			]
 			icon: {
 				Count: 1
@@ -477,7 +481,7 @@
 				item: "paraglider:spirit_orb"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
@@ -570,8 +574,8 @@
 				item: "torchmaster:dreadlamp"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -666,6 +670,7 @@
 					type: "item"
 				}
 			]
+			title: "Basics of Fishing"
 			x: -2.5d
 			y: -7.5d
 		}
@@ -784,12 +789,56 @@
 		}
 		{
 			dependencies: ["368309757EB6EC56"]
+			description: ["The &btackle box&r allows you to upgrade your &6metal fishing rods&r with hooks, lines, bobbers, and bait."]
 			id: "693F2D3F38A6814F"
-			tasks: [{
-				id: "50D44289A64B4076"
-				item: "aquaculture:tackle_box"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "50D44289A64B4076"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "54981C19BA8EF100"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "aquaculture:iron_fishing_rod"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "aquaculture:gold_fishing_rod"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "aquaculture:diamond_fishing_rod"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "aquaculture:neptunium_fishing_rod"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advanced Fishing"
 			x: -3.5d
 			y: -9.0d
 		}
@@ -1235,8 +1284,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["03B0D122AD821C0D"]
@@ -1713,6 +1762,169 @@
 			title: "Wandering Trader Begone"
 			x: 5.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["03B0D122AD821C0D"]
+			description: ["Each upgrade increases the capacity of the backpack for storage and upgrades."]
+			id: "2F488600877607A8"
+			tasks: [
+				{
+					id: "5ACD4E260B8BDC65"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					id: "28DADD7C84F7DE09"
+					item: "sophisticatedbackpacks:gold_backpack"
+					type: "item"
+				}
+				{
+					id: "5E7019AD14B00409"
+					item: "sophisticatedbackpacks:diamond_backpack"
+					type: "item"
+				}
+				{
+					id: "031B84F83440EE7E"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+			]
+			title: "Upgrade your Backpack"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["693F2D3F38A6814F"]
+			description: ["To be used with the Tackle Box."]
+			id: "61931D13565403DF"
+			tasks: [
+				{
+					id: "373320ECC3806D96"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "aquaculture:iron_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:gold_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:diamond_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:light_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:heavy_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:double_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:redstone_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:note_hook"
+								}
+								{
+									Count: 1b
+									id: "aquaculture:nether_star_hook"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F8E8CF91554E78A"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "0DE511EF6E2DB6BC"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+			]
+			title: "One of Each Fishing Augment"
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3571CB6136F6E3EB"]
+			description: ["These discs play ambient sounds and can be obtained from a skeleton killing a spider."]
+			id: "2A03AD459C6EB4A1"
+			tasks: [{
+				id: "151CAE86ED65A525"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "quark:music_disc_rain"
+							}
+							{
+								Count: 1b
+								id: "quark:music_disc_drips"
+							}
+							{
+								Count: 1b
+								id: "quark:music_disc_ocean"
+							}
+							{
+								Count: 1b
+								id: "quark:music_disc_chatter"
+							}
+							{
+								Count: 1b
+								id: "quark:music_disc_crickets"
+							}
+							{
+								Count: 1b
+								id: "quark:music_disc_clock"
+							}
+							{
+								Count: 1b
+								id: "quark:music_disc_fire"
+							}
+							{
+								Count: 1b
+								id: "quark:music_disc_wind"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Ambience Disc"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A9940962797FE6E"]
+			description: ["When this is combined with an item and dye in a Smithing Table, the color of the item's enchantment glint can be customized."]
+			id: "6DB52129A5517DAB"
+			tasks: [{
+				id: "4FF00C65CE84E0A6"
+				item: "quark:smithing_template_rune"
+				type: "item"
+			}]
+			title: "Runic Etching"
+			x: 5.0d
+			y: -3.5d
 		}
 	]
 	title: "Getting Started"
