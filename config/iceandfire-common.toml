@@ -341,10 +341,10 @@
 		"Hydra Caves Gen Chance" = 60
 		#Maximum ghost health.
 		#Range: 1.0 ~ 10000.0
-		"Ghost Max Health" = 30.0
+		"Ghost Max Health" = 16.0
 		#Maximum ghost attack strength.
 		#Range: 0.0 ~ 10000.0
-		"Ghost Attack Strength" = 3.0
+		"Ghost Attack Strength" = 1.5
 		#True if ghosts can rarely spawn from brutal PvP deaths.
 		"Ghost Spawn from PvP deaths" = true
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
