@@ -13,4 +13,9 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         event.recipes.create.pressing(recipe.output, recipe.input);
     });
+
+    event.recipes.create.pressing(
+        Item.of("minecraft:quartz").withChance(0.1),
+        "minecraft:diorite"
+    );
 });
