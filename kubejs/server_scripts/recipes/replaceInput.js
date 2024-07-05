@@ -1140,6 +1140,21 @@ ServerEvents.recipes((event) => {
             "conjurer_illager:throwable_ball",
         ],
         //
+        [
+            { output: "enigmaticlegacy:insignia" },
+            "minecraft:ender_eye",
+            "irons_spellbooks:rare_ink",
+        ],
+        [
+            { output: "enigmaticlegacy:insignia" },
+            "minecraft:gold_ingot",
+            "#forge:ingots/horizonite",
+        ],
+        [
+            { output: "enigmaticlegacy:insignia" },
+            "minecraft:prismarine_crystals",
+            "forbidden_arcanus:arcane_crystal",
+        ],
     ];
 
     replacements.forEach((replacement) => {
