@@ -19,7 +19,7 @@
 			#REPLACE_AFTER_FIRST_ROW: Leave the first row vanilla style, Scaling Health style for additional rows
 			#VANILLA: Do not change heart rendering (use this if you want another mod to handle heart rendering)
 			#Allowed Values: REPLACE_ALL, REPLACE_AFTER_FIRST_ROW, VANILLA
-			style = "VANILLA"
+			style = "REPLACE_ALL"
 			#The color of each row of hearts. If the player has more rows than colors, it starts over from the beginning.
 			colors = ["#BF0000", "#E66000", "#E69900", "#E6D300", "#99E600", "#4CE600", "#00E699", "#00E6E6", "#0099E6", "#0000E6", "#9900E6", "#D580FF", "#8C8C8C", "#E6E6E6"]
 			#The player's highest heart will get an outline around it.
