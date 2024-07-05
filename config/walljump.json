@@ -1,11 +1,11 @@
 {
   "enchantconfigs": {
-    "enableEnchantments": true,
-    "enableDoubleJumpEnchantment": true,
+    "enableEnchantments": false,
+    "enableDoubleJumpEnchantment": false,
     "doublejump_maxlevel": 2,
-    "enableSpeedboostEnchantment": true,
+    "enableSpeedboostEnchantment": false,
     "speedboost_maxlevel": 3,
-    "enableWallJumpEnchantment": true,
+    "enableWallJumpEnchantment": false,
     "walljump_maxlevel": 1
   },
   "doubleconfigs": {
