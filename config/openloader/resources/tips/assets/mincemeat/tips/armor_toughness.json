@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "In vanilla Minecraft, armor toughness affects the amount of damage needed to penetrate each point of armor. In Mincemeat 2, it provides additional protection for more powerful attacks."
+    }
+}

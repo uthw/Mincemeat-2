@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "The square that fills up on the world loading screen represents the game loading 441 chunks."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Tech Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Items that use energy as durability can be charged at Tesla Coils or Tinkers Workbenches."
+    }
+}

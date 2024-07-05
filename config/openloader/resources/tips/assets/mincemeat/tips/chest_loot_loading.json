@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Generated chests' loot is not loaded until opened. This means chests can contain loot from mods that were not in your mod list when the chunk they're in was first loaded."
+    }
+}

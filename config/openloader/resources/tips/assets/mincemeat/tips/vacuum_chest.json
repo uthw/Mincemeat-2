@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ender IO Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "The Vacuum Chest collects items within a 6-block radius."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Forgiving Void Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you fall into the void, you'll be teleported to the height limit instead of dying. If you fall out of the Aether, you'll be teleported to the top of the Overworld. Have your paraglider ready!"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Quark Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Some wooden items, such as sticks and chests, can be crafted in bulk using logs."
+    }
+}

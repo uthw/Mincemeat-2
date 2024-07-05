@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmer's Delight Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you're having trouble harvesting straw from grass, first try it with a Farmer's Delight (not Delightful) knife. If that doesn't fix it, go in Better Combat's client config and turn off Swing Through Grass."
+    }
+}
