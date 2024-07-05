@@ -32,8 +32,8 @@
 		minCost = 1
 
 	[enchantments.soulBound]
-		maxCost = 60
-		minCost = 16
+		maxCost = 999
+		minCost = 999
 
 	[enchantments.witheringBlade]
 		maxCost = 100
