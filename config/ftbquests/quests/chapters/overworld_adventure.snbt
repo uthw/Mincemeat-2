@@ -59,7 +59,7 @@
 			icon: "forbidden_arcanus:whirlwind_prism"
 			id: "18D1EA8E41311823"
 			rewards: [{
-				auto: "invisible"
+				auto: "no_toast"
 				id: "3194D1EFED4F6662"
 				ignore_reward_blocking: true
 				stage: "dimension_access"
@@ -69,9 +69,10 @@
 			size: 1.5d
 			subtitle: "Dimensional Adventure Unlocked"
 			tasks: [{
-				id: "35DC9AEEC3C595A6"
-				title: "Extraterrestrial Foes Await!"
-				type: "checkmark"
+				id: "76A95517361039B9"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
 			x: 0.0d
 			y: -3.0d
