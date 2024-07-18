@@ -63,4 +63,12 @@ ItemEvents.modification((event) => {
             // item.attackSpeed = spd;
         });
     });
+
+    let copperTools = ["pickaxe", "shovel", "axe", "hoe"];
+
+    copperTools.forEach((copperTool) => {
+        event.modify(`iceandfire:copper_${copperTool}`, (item) => {
+            item.digSpeed *= 1.5;
+        });
+    });
 });
