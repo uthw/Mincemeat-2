@@ -233,7 +233,45 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/undergarden_cloggrum", durability: 572 },
         { name: "gem/undergarden_utherium", durability: 2558 },
 
-        // todo regions unexplored
+        // attempt disabling tetra extras create compat since Tetranomicon already adds it
+
+        // {
+        //     name: "metal/create/andesite_alloy",
+        //     hidden: true,
+        //     material: {
+        //         items: ["minecraft:nonexistent_material"],
+        //     },
+        // },
+        // {
+        //     hidden: true,
+        //     name: "metal/create/brass",
+        //     material: {
+        //         items: ["minecraft:nonexistent_material"],
+        //     },
+        // },
+        // {
+        //     hidden: true,
+        //     name: "metal/create/zinc",
+        //     material: {
+        //         items: ["minecraft:nonexistent_material"],
+        //     },
+        // },
+
+        // tetra extras
+
+        // { name: "bone/upgrade_aquatic/thrasher_tooth", durability: "210"},
+        { name: "metal/aquaculture/neptunium_ingot", durability: 3584 },
+        { name: "metal/cataclysm/ignitium_ingot", durability: 17260 },
+        { name: "metal/cataclysm/witherite_ingot", durability: 4062 },
+        { name: "metal/enigmatic_legacy/etherium", durability: 4852 },
+        { name: "metal/enigmatic_legacy/nefarious", durability: 6862 },
+        { name: "rod/enigmatic_legacy/ender_rod", durability: 1148 },
+        { name: "scale/quark/crab_shell", durability: 400 },
+        { name: "scale/quark/dragon_scale", durability: 400 },
+        { name: "skin/quark/ravager_hide", durability: 1200 },
+        // { name: "stone/quark/myalite", durability: 1200 },
+        { name: "wood/quark/azalea", durability: 108 },
+        { name: "wood/quark/blossom", durability: 108 },
     ];
     tweak.forEach((material) => {
         event.addJson(`tetra:materials/${material.name}.json`, material);
