@@ -11,7 +11,7 @@ secondChanceEnabled = true
 #Determines if the 'Second Chance' sound will play when the effect is activated.
 secondChanceSound = true
 #Determines if the 'Second Chance' feature will be activated by explosions.
-secondChanceExplosions = true
+secondChanceExplosions = false
 #Determines if the 'Second Chance' feature will be activated by mobs.
 secondChanceMobs = true
 #Determines if the 'Second Chance' feature will be activated by fall damage.
@@ -21,17 +21,17 @@ secondChanceAnvils = false
 #Determines if the 'Second Chance' feature will be activated by lightning.
 secondChanceLightning = false
 #Determines if the 'Second Chance' feature will be activated by crashing into a wall.
-secondChanceElytraCrash = false
+secondChanceElytraCrash = true
 #Determines if the 'Second Chance' feature will be activated by falling blocks.
 secondChanceFallingBlocks = false
 #Determines if the 'Second Chance' feature will be activated by magic, such as potions.
 secondChanceMagic = false
 #Determines if the 'Second Chance' feature will be activated by players.
-secondChancePlayers = false
+secondChancePlayers = true
 #Determines if the 'Second Chance' feature will be activated by thrown tridents.
-secondChanceTridents = false
+secondChanceTridents = true
 #Determines if the 'Second Chance' feature will be activated by arrows.
-secondChanceArrows = false
+secondChanceArrows = true
 #Determines if the 'Second Chance' feature will be activated by fireworks.
 secondChanceFireworks = false
 #Determines if the 'Second Chance' feature will be activated by wither skulls.
@@ -41,7 +41,7 @@ secondChanceStalactite = false
 #Determines if the 'Second Chance' feature will be activated by falling on a stalagmite.
 secondChanceStalagmite = false
 #Determines if the 'percentage of health' config values will be used instead of exact values.
-usePercentConfig = false
+usePercentConfig = true
 #Determines how much health the player must start with for 'Second Chance' to activate.
 #Range: 0.5 ~ 1.7976931348623157E308
 secondChanceActivationHealth = 13.5
@@ -50,7 +50,7 @@ secondChanceActivationHealth = 13.5
 secondChanceHealthRemainder = 1.0
 #Determines what percent of health the player must start with for 'Second Chance' to activate.
 #Range: 0.01 ~ 1.7976931348623157E308
-secondChanceActivationPercent = 0.65
+secondChanceActivationPercent = 0.859271523178808
 #Determines what percent health the player should be left with after 'Second Chance' activates.
 #Range: 0.01 ~ 1.7976931348623157E308
 secondChanceHealthPercent = 0.05
