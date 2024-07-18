@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "extraterrestrial_adventure"
 	group: "357B296D74E0575E"
+	hide_quest_until_deps_visible: true
 	icon: "minecells:wilted_grass_block"
 	id: "1AC1F4B3B76A6FAF"
 	order_index: 2
@@ -106,6 +107,11 @@
 		{
 			dependencies: ["792A8A1D64F2208D"]
 			id: "7179EC83E4723D95"
+			rewards: [{
+				id: "5D479C0FCCBEF98A"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "Found in large temples rarely found in the Everbright"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
@@ -128,6 +134,11 @@
 		{
 			dependencies: ["589E89E98F33C8D7"]
 			id: "354079B354E82E4E"
+			rewards: [{
+				id: "4CE0171C674FDBF7"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "Found in dungeons deep underground in the Everdawn"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
@@ -213,7 +224,7 @@
 		{
 			dependencies: ["7DE5018AC92F4971"]
 			description: [
-				"&oParrying is a combat technique in which a combatant raises their shield the instant before an attack would connect. The cancels the shield cooldown, giving you an opening to strike.&r"
+				"&oParrying is a combat technique in which a combatant raises their shield the instant before an attack would connect. The cancels the shield cooldown, giving an opening to strike.&r"
 				""
 				"These enemies might be recognizable. Even if they aren't, their combat patterns should become obvious without much time spent analyzing."
 			]
@@ -344,6 +355,11 @@
 				}
 			}
 			id: "00D6D925A67CDC78"
+			rewards: [{
+				id: "0F7B395A57E72316"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [
 				{
 					entity: "minecells:conjunctivius"
@@ -412,13 +428,20 @@
 				}
 			}
 			id: "47F8DC09096B0991"
-			rewards: [{
-				auto: "invisible"
-				id: "506301B4F58ABC89"
-				ignore_reward_blocking: true
-				stage: "nether_access"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "506301B4F58ABC89"
+					ignore_reward_blocking: true
+					stage: "nether_access"
+					type: "gamestage"
+				}
+				{
+					id: "0CF42BDE4F4EE010"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					dimension: "minecells:black_bridge"
@@ -493,6 +516,13 @@
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"The Netherite Monstrosity is an amalgamation of blackstone, magma, and netherite. It uses its heat and massive arms to attack those who enter the Infernal Forge."
+				""
+				"Once you get the hang of it, the Monstrosity is straightforward with two simple attacks: it slams the ground if you're close and shoots lava if you're far."
+				""
+				"Come in prepared for the Monstrosity's large pool of health with the intent to always go for the head (where the Monstrosity is vulnerable). Further capitalize on this by creating an epic affix weapon, which you have unlocked access to by entering the Nether."
+			]
 			icon: {
 				Count: 1
 				id: "cataclysm:infernal_forge"
@@ -501,13 +531,20 @@
 				}
 			}
 			id: "520A629F81C286FF"
-			rewards: [{
-				auto: "invisible"
-				id: "325D23DD5A481E11"
-				ignore_reward_blocking: true
-				stage: "end_access"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "325D23DD5A481E11"
+					ignore_reward_blocking: true
+					stage: "end_access"
+					type: "gamestage"
+				}
+				{
+					id: "647D30F09F7A93BF"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
 			subtitle: "and kill the Netherite Monstrosity"
 			tasks: [
 				{
@@ -598,6 +635,11 @@
 			}
 			id: "44F41502DDB1A529"
 			invisible: true
+			rewards: [{
+				id: "66543F7B2D618AB6"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "&4&oI am Ignis, blade of Miquella."
 			tasks: [
 				{
@@ -674,9 +716,14 @@
 		{
 			dependencies: ["43C5DFBA3E25CC38"]
 			description: ["Sliders drop a big cornucopia's worth of loot, which can take the form of tools and weapons or food."]
+			hide: true
 			icon: "aether:bronze_dungeon_key"
 			id: "125D0F9B857A3775"
-			invisible: true
+			rewards: [{
+				id: "366287D3F6066093"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "You must be strong. And pretty fast. Fast enough to beat me... Koopa the Quick?"
 			tasks: [{
 				entity: "aether:slider"
@@ -774,6 +821,11 @@
 			hide: true
 			icon: "aether:silver_dungeon_key"
 			id: "0FE391A15589A3C7"
+			rewards: [{
+				id: "01DCF812BAD96E29"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				id: "4EF522197084226C"
@@ -805,9 +857,14 @@
 		{
 			dependencies: ["111478A19955F8BF"]
 			description: ["The chest you're looking for is in the back wall of the arena."]
+			hide: true
 			icon: "aether:gold_dungeon_key"
 			id: "2C47A12A20C50CE6"
-			invisible: true
+			rewards: [{
+				id: "43DCB5BEB8612892"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "Don't fly too close to it"
 			tasks: [{
 				entity: "aether:sun_spirit"
@@ -878,6 +935,13 @@
 		}
 		{
 			dependencies: ["40C200D565731AC5"]
+			description: [
+				"Forgotten Guardians can be found in Undergarden Catacombs and have a straightforward moveset consisting of a simple attack."
+				""
+				"They can be dispatched easily by any attack that has more range than their arms, or any attack that kills them before they kill you."
+				""
+				"Stop overthinking it."
+			]
 			icon: "undergarden:forgotten_ingot"
 			id: "27442E9514BF4868"
 			tasks: [
@@ -919,8 +983,14 @@
 				""
 				"Click the &bsongstone&r to enrage the Aerwhale, activating a fight."
 			]
+			hide: true
 			icon: "lost_aether_content:platinum_key"
 			id: "1BA05933619C6884"
+			rewards: [{
+				id: "130A6959DB00107B"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "The final boss of the Aether"
 			tasks: [
 				{
@@ -946,6 +1016,11 @@
 			dependencies: ["086E8054D516AFF4"]
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "1DEE7C3ED8858245"
+			rewards: [{
+				id: "4D7B26BFB87CCC4D"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4C679D446B912BDB"
@@ -1023,6 +1098,13 @@
 		}
 		{
 			dependencies: ["70795731019BA757"]
+			description: [
+				"The wither is unchanged from vanilla. So underwhelming that there's a machine made using Nether Stars that automatically kills withers."
+				""
+				"Defeating the Wither unlocks Nether Stars, which are important crafting materials."
+				""
+				"You can also take the Nether Star back into the Overworld and use it to awaken the Harbringer."
+			]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "080F3639CF9971BF"
 			tasks: [{
@@ -1074,6 +1156,158 @@
 			title: "Go to the End"
 			x: 3.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"These Buzzwole-impersonating mosquitoes are minibosses who attack everything they see."
+				""
+				"If killed, it will drop some hemolymph sacs and warped mucus. These can be used to craft the Hemolymph Blaster, which is a gun with infinite ammo."
+				""
+				"To summon it, find a mungus in a mushroom field and place 5 warped mushrooms on it. Then, bring it into the Nether, which you can do by picking it up and going through a Nether portal."
+				""
+				"Then, have a crimson mosquito attack and kill the warped mushroom mungus."
+				""
+				"Afterwards, the warped mosco will be summoned."
+			]
+			id: "647269DF318F288C"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:warped_mosco"
+					}
+				}
+				id: "2D652F6E8AD4C6B7"
+				title: "Kill a Warped Mosco"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			icon: "minecraft:dragon_egg"
+			id: "20B6859C7A0C1D09"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "364CBD17846C1509"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ender Dragon"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20B6859C7A0C1D09"]
+			hide: true
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "283CD42DB879C756"
+			rewards: [{
+				id: "7A346ED16339D45C"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64A8D3A4B9EB1F5A"
+					structure: "bosses_of_mass_destruction:obsidilith_arena"
+					title: "Find Obsidilith's Arena"
+					type: "structure"
+				}
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6F5B03CA75E94249"
+					title: "Kill Obsidilith"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Obsidilith"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20B6859C7A0C1D09"]
+			hide: true
+			icon: "cataclysm:void_core"
+			id: "70E9EE74EE5A5D7F"
+			rewards: [{
+				id: "73A9DA321D34109E"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2631BEA2EB0DCF35"
+					structure: "cataclysm:ruined_citadel"
+					title: "Find the Ruined Citadel"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:void_eye"
+					id: "3BE27C188FC168EC"
+					title: "Kill the Ender Guardian"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ender Guardian"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20B6859C7A0C1D09"]
+			description: [
+				"The Mysterious Worm is obtained through an Enderiophage transforming Crimson Mosquito larva."
+				""
+				"Crimson Mosquito stingers are required for this. You must bring a fly into the nether, and then kill it."
+				""
+				"Maggots are found by killing flies and in some other places around the world."
+				""
+				"Then, drop the worm into the void."
+			]
+			hide: true
+			id: "07EF2C1B4D1EA725"
+			rewards: [{
+				id: "7424AB62C8E31BC7"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1744B9AF2B27D7E0"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07EF2C1B4D1EA725"]
+			description: [""]
+			id: "72E1C3F859844F04"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "59AD4F3EEA68AE0F"
+				title: "Void Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 	]
 	title: "Dimensional Adventure"
