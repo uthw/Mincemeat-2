@@ -43,7 +43,7 @@ ServerEvents.recipes((event) => {
                 A: "kubejs:cell",
                 B: "undergarden:froststeel_ingot",
                 C: "#forge:ingots/brass",
-                D: "betterend:leather_wrapped_stick",
+                D: "spartanweaponry:pole",
             },
         },
         {

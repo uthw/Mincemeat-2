@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
             "4x enigmaticlegacy:astral_dust",
             [
                 "minecraft:blaze_powder",
-                "betterend:crystal_shards",
+                "#outer_end:crystal_shards",
                 "forbidden_arcanus:arcane_crystal_dust",
                 // "#forge:dusts/ender_pearl",
             ],

@@ -108,6 +108,37 @@ ServerEvents.recipes((event) => {
                 B: "fluxnetworks:flux_dust",
             },
         },
+        {
+            output: "pneumaticcraft:fluid_mixer",
+            inputs: [" A ", "BCB", "DBD"],
+            keys: {
+                A: "pneumaticcraft:pressure_tube",
+                B: "pneumaticcraft:small_tank",
+                C: "enderio:dark_bimetal_gear",
+                D: "#forge:plates/electrum",
+            },
+        },
+        {
+            output: "pneumaticcraft:thermopneumatic_processing_plant",
+            inputs: [" A ", "BEB", "CDC", "BBB"],
+            keys: {
+                A: "createaddition:connector",
+                E: "littlelogistics:transmitter_component",
+                B: "pneumaticcraft:reinforced_stone_slab",
+                C: "pneumaticcraft:small_tank",
+                D: "pneumaticcraft:pressure_tube",
+            },
+        },
+        {
+            output: "pneumaticcraft:minigun",
+            inputs: ["A  ", "BC ", "E  "],
+            keys: {
+                A: "pneumaticcraft:air_canister",
+                B: "minecraft:iron_block",
+                C: "pneumaticcraft:cannon_barrel",
+                E: "minecraft:lever",
+            },
+        },
     ];
 
     recipes.forEach((recipe) => {

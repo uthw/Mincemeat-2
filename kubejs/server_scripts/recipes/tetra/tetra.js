@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
 
     event.shaped("tetra:forged_workbench", ["ABA", " C ", "AAA"], {
         A: "minecraft:polished_deepslate",
-        B: "#forge:ingots/bronze",
+        B: "#forge:ingots/invar",
         C: "minecraft:smithing_table",
     });
 
@@ -36,4 +36,10 @@ ServerEvents.recipes((event) => {
         "minecraft:string",
         "#forge:rope"
     );
+
+    event.shaped("tetra:thermal_cell", ["  A", " B ", "C  "], {
+        A: "minecraft:gunpowder",
+        B: "create:shaft",
+        C: "#forge:ingots/silver",
+    });
 });

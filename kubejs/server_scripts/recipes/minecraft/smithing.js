@@ -2,27 +2,27 @@ ServerEvents.recipes((event) => {
     const changes = [
         [
             "iceandfire:ghost_sword",
-            "betterend:aeternium_sword",
+            "outer_end:sinker_dagger",
             "iceandfire:ghost_ingot",
         ],
         [
             "enigmaticlegacy:etherium_helmet",
-            "betterend:aeternium_helmet",
+            "deeperdarker:warden_helmet",
             "enigmaticlegacy:etherium_ingot",
         ],
         [
             "enigmaticlegacy:etherium_chestplate",
-            "betterend:aeternium_chestplate",
+            "deeperdarker:warden_chestplate",
             "enigmaticlegacy:etherium_ingot",
         ],
         [
             "enigmaticlegacy:etherium_leggings",
-            "betterend:aeternium_leggings",
+            "deeperdarker:warden_leggings",
             "enigmaticlegacy:etherium_ingot",
         ],
         [
             "enigmaticlegacy:etherium_boots",
-            "betterend:aeternium_boots",
+            "deeperdarker:warden_boots",
             "enigmaticlegacy:etherium_ingot",
         ],
     ];

@@ -257,7 +257,7 @@ ServerEvents.recipes((event) => {
             "storagenetwork:master",
             ["ABA", "BCB", "ABA"],
             {
-                A: "#storagedrawers:drawers",
+                A: "sophisticatedstorage:upgrade_base",
                 B: "forbidden_arcanus:darkstone",
                 C: "minecraft:diamond",
             },
@@ -649,6 +649,88 @@ ServerEvents.recipes((event) => {
                 A: "blue_skies:diopside_gem",
                 B: "irons_spellbooks:arcane_essence",
                 C: "forbidden_arcanus:cloth",
+            },
+        ],
+        [
+            "4x enderstorage:ender_chest",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "eidolon:gold_inlay",
+                B: "aether_redux:veridium_ingot",
+                C: "#forge:ingots/obsidian",
+                D: "sophisticatedstorage:diamond_chest",
+                E: "#forge:obsidian",
+            },
+        ],
+        [
+            "4x enderstorage:ender_tank",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "eidolon:gold_inlay",
+                B: "aether_redux:veridium_ingot",
+                C: "#forge:ingots/obsidian",
+                D: "mekanism:basic_fluid_tank",
+                E: "#forge:obsidian",
+            },
+        ],
+        [
+            "enderstorage:ender_pouch",
+            ["ABA", "BCB", "ADA"],
+            {
+                A: "eidolon:gold_inlay",
+                B: "forbidden_arcanus:cloth",
+                C: "#forge:gems/mana",
+                D: "#thermal:rockwool",
+            },
+        ],
+        [
+            "pneumaticcraft:manual_compressor",
+            [" AB", " C ", "DED"],
+            {
+                A: "pneumaticcraft:iron_ingot_compressed",
+                B: "create:hand_crank",
+                C: "pneumaticcraft:pressure_tube",
+                D: "thermal:silver_gear",
+                E: "pneumaticcraft:stone_base",
+            },
+        ],
+        [
+            "pneumaticcraft:air_compressor",
+            ["AAA", "A B", "ACD"],
+            {
+                A: "pneumaticcraft:reinforced_bricks",
+                B: "thermal:invar_gear",
+                C: "create:encased_fan",
+                D: "#forge:storage_blocks/nickel",
+            },
+        ],
+        [
+            "movingelevators:elevator_block",
+            ["ABA", "ACA", "ADA"],
+            {
+                A: "#forge:ingots/silver",
+                B: "#forge:gears/nickel",
+                C: "create:mechanical_piston",
+                D: "forbidden_arcanus:arcane_crystal",
+            },
+        ],
+        [
+            "movingelevators:display_block",
+            ["ABA", "ACA", "ABA"],
+            {
+                A: "#forge:ingots/silver",
+                B: "forbidden_arcanus:xpetrified_orb",
+                C: "supplementaries:crystal_display",
+            },
+        ],
+        [
+            "movingelevators:button_block",
+            ["ABA", "ACA", "ADA"],
+            {
+                A: "#forge:ingots/silver",
+                B: "createaddition:connector",
+                C: "create:copper_casing",
+                D: "thermal:redstone_servo",
             },
         ],
     ];

@@ -8,6 +8,10 @@ ServerEvents.recipes((event) => {
             output: "littlelogistics:receiver_component",
             input: "littlelogistics:transmitter_component",
         },
+        {
+            output: "pneumaticcraft:empty_pcb",
+            input: "pneumaticcraft:failed_pcb",
+        },
     ];
 
     recipes.forEach((recipe) => {

@@ -100,6 +100,14 @@ ServerEvents.recipes((event) => {
             fish: "aquaculture:tuna",
             count: 10,
         },
+        {
+            fish: "aquaculture:pollock",
+            count: 2,
+        },
+        {
+            fish: "aquaculture:bayad",
+            count: 4,
+        },
     ];
 
     recipes.forEach((recipe) => {
