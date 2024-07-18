@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "e4mc Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Open a world to LAN and you'll get a link in the chat. Send this to other players and they can type type it into Direct Connect to join your world without needing a server."
+    }
+}

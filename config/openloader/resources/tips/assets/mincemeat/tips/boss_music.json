@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Most bosses have music specifically composed for them. If you want the full experience when fighting a boss, make sure all of your sounds are turned on in the options (different mods use different sources for boss music)."
+    }
+}

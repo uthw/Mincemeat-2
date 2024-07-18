@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Game Optimization Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Shaders can be quite resource-intensive. They're fully supported in Mincemeat 2, but you should allocate an extra 2 GB of RAM if you plan on using them."
+    }
+}

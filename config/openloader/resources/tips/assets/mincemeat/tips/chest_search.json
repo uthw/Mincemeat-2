@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Chest Tracker Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you misplace an item, use the magnifying glass button in the top right of your inventory to open the Chest Tracker and search for it in all chests you've opened before."
+    }
+}

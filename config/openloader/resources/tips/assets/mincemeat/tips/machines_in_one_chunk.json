@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Minecraft Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "The shortcut for toggling chunk border outines is F3 + G. When you're setting up a machine, build the entire thing in one chunk if possible. That way, you don't need to force load more chunks than is necessary."
+    }
+}

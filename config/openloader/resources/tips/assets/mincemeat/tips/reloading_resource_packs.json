@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mincemeat 2 Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Want to add your own resource pack? Reloading your resource packs takes much less time if done on the title screen than in a world."
+    }
+}

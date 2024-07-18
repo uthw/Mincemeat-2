@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "ItemPhysic Full Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Hold the drop button while not in the inventory to throw the item you're holding with power depending on how long you held the button for. Holding Control + Drop will throw the entire stack."
+    }
+}

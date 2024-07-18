@@ -5,6 +5,6 @@
         "color": "aqua"
     },
     "tip": {
-        "text": "Make sure you allocate 8-10 GB of ram. Do not allocate more than 12 GB since this can cause freezes."
+        "text": "Start by allocating 8 or 9 GB of RAM. If you find your game is frequently freezing for more than a second at a time, allocate 500 more MB."
     }
 }

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Second Chance Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If you're at or near full health, a single hit that deals a large amount of damage will bring you down to 1 HP instead of killing you. This does not apply to fall damage or explosions."
+    }
+}

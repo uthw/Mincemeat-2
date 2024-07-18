@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Xaero's Minimap Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Holding down the tab key reveals the names of every entity on the minimap or world map. This is particularly useful for seeing items on the ground and mobs who don't have icons."
+    }
+}

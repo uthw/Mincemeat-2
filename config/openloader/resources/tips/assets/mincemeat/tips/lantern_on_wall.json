@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Amendments Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Lanterns can attach to blocks if placed on the side of one."
+    }
+}

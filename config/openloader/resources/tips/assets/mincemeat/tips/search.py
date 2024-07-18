@@ -24,7 +24,7 @@ def search_phrase_in_json_files(directory, phrase):
 # Specify the directory and phrase
 directory = os.path.dirname(__file__)
 print(directory)
-phrase = "tall"
+phrase = "tab"
 
 # Perform the search
 results = search_phrase_in_json_files(directory, phrase)

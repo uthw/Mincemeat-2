@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Make Bubbles Pop Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Have you noticed that bubbles have popping animations, which don't exist in vanilla Minecraft? Next time you see bubbles, pay attention to them."
+    }
+}

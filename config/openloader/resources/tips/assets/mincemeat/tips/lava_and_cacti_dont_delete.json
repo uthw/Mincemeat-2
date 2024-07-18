@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "ItemPhysic Full Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Items dropped near cacti are not deleted. Items that fall in lava are only deleted if the item is flammable."
+    }
+}

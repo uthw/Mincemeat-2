@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "The Aether Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Clerics sell glowstone in exchange for emeralds at level 3, allowing for an early entrance to the Aether."
+    }
+}

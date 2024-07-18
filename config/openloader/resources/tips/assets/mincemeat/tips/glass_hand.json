@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Eidolon Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The Glass Hand doubles the damage you deal but quintuples the damage you take, making it ideal for the masochistic sort."
+    }
+}
