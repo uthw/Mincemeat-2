@@ -111,7 +111,7 @@
 
 	[Enchantments.Vigilante]
 		#If TRUE, the Vigilante Enchantment is available for various Weapons.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -149,7 +149,7 @@
 
 	[Enchantments.Instigating]
 		#If TRUE, the Instigating Enchantment is available for various Weapons.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 
@@ -164,7 +164,7 @@
 
 	[Enchantments."Magic Edge"]
 		#If TRUE, the Magic Edge Enchantment is available for various Weapons.
-		Enable = false
+		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
