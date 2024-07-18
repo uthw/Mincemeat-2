@@ -1,0 +1,1854 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquatic_creatures"
+	group: "2E16C686F58ACDBC"
+	icon: "minecraft:pufferfish"
+	id: "3CCF86851C135BA3"
+	images: [{
+		height: 1.0d
+		image: "minecraft:textures/block/bubble_coral_fan.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 4.0d
+		y: 2.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1144180201A60767"
+			rewards: [{
+				id: "58543CCEF6EB9CAF"
+				type: "custom"
+			}]
+			subtitle: "When will it be 79?"
+			tasks: [{
+				id: "70A460B43B95F022"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "upgrade_aquatic:nautilus_bucket"
+				}
+				type: "item"
+			}]
+			title: "Nautilus"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Reddit mods of the ocean."
+				""
+				"Gelatinous fish found deep below the surface of the ocean, staying away from all sources of vitamin D."
+				""
+				"While they normally suffocate on land, coating them in slime allows them to stay there infinitely."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:blobfish"
+				}
+			}
+			id: "4ADC083229035C40"
+			rewards: [{
+				id: "48096E1FAA22B022"
+				type: "custom"
+			}]
+			subtitle: "Has a funny face"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_blobfish"
+				}
+				id: "1D66BDACCE46CFCE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:blobfish"
+				type: "observation"
+			}]
+			title: "Blobfish"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4ADC083229035C40"]
+			description: ["Allows its drinker to float on water, as well as being used to tame eagles."]
+			id: "3CE63D27933D8AE4"
+			rewards: [
+				{
+					count: 3
+					id: "617420580C6DCA95"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:fish_oil"
+					}
+					type: "item"
+				}
+				{
+					id: "09D4CFA8164DF023"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Cover yourself in oil"
+			tasks: [{
+				id: "2CD3225DB305C9A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:fish_oil"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These octopuses like to steal ideas from others and will camouflage into different PNG-based textures they don’t own."
+				""
+				"You can tame them with lobster tails. But why would you want to do that? This guy is just going to steal all of your ideas and your house."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:mimic_octopus"
+				}
+			}
+			id: "59DDA941F5B31B54"
+			rewards: [{
+				id: "23325DAC9C75C960"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:mimic_octopus_bucket"
+				}
+				id: "3240F3E9D49BE0CD"
+				observe_type: 5
+				timer: 0L
+				title: "Mimic Octopus"
+				to_observe: "alexsmobs:mimic_octopus"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["Birds found on beaches who are inclined to steal your food"]
+			id: "1A94C812637EF3C6"
+			rewards: [{
+				id: "417D5A8D432328DA"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_seagull"
+				}
+				id: "7451347AAA9DDAE0"
+				observe_type: 5
+				timer: 0L
+				title: "Seagull"
+				to_observe: "alexsmobs:seagull"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Massive mammals who can be found in oceans. "
+				""
+				"During thunderstorms, whales will rarely be found beached on land. If you can manage to push it back into the water without doing damage to it, it'll give you a reward."
+			]
+			id: "23315511E4699748"
+			rewards: [{
+				id: "6012689468538CB6"
+				type: "custom"
+			}]
+			subtitle: "Mobius Richardson"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:cachalot_whale"
+					}
+				}
+				id: "0BA636A32562AFEF"
+				observe_type: 5
+				timer: 0L
+				title: "Cachalot Whale"
+				to_observe: "alexsmobs:cachalot_whale"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23315511E4699748"]
+			description: ["Cachalot whales give you Ambergris for doing this. It has a few uses, most notable being the Echolocator. It is also a highly potent fuel source and can be traded for a lot of emeralds."]
+			id: "6F8C0384B5BEFE65"
+			rewards: [{
+				id: "2D5C8AA4341D03DF"
+				type: "custom"
+			}]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+					criterion: ""
+					id: "0B49F175A0C4CEF5"
+					type: "advancement"
+				}
+				{
+					id: "092892CCF23992A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:ambergris"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F8C0384B5BEFE65"]
+			description: ["Shows the location of nearby caves. Caves are sort of everywhere so you won't really need one."]
+			id: "7AA68D711F3B3410"
+			rewards: [{
+				id: "69736D0B7AB5F80C"
+				type: "custom"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4320A396FAC9B00B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:echolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AA68D711F3B3410"]
+			description: ["Uses echolocation to find the nearest end portal frame. You may think it's overshadowed by the Explorer's Compass but it's not, since you can use it to save the hassle of scavenging the entire stronghold for the end portal."]
+			id: "6208D7C110AE38A6"
+			rewards: [{
+				count: 3
+				id: "50BB212DC4C2F9C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:apple_emerald"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "420E4551967C34D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Large predatory fish who hunt aquatic wildlife. They live their lives deep underwater, with the surface not being suitable for them."]
+			id: "11387B71AF56B5E1"
+			rewards: [{
+				id: "556D62AA60B73BB5"
+				type: "custom"
+			}]
+			subtitle: "Watch out for loan sharks!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:frilled_shark"
+					}
+				}
+				id: "02E4796FFFFE1B06"
+				observe_type: 5
+				timer: 0L
+				title: "Frilled Shark"
+				to_observe: "alexsmobs:frilled_shark"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11387B71AF56B5E1"]
+			description: ["Obtained from frilled sharks while they are attacking squids. Used to craft the Shield of the Deep."]
+			id: "6DBB737CE3192B13"
+			rewards: [{
+				id: "12A85631AE5502A6"
+				type: "custom"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2EAD26CC9F446C2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:serrated_shark_tooth"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Found underwater in beaches. Can survive on land and underwater."]
+			id: "33055C46A5B1F684"
+			rewards: [{
+				id: "00196151DADF5BC1"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:lobster"
+					}
+				}
+				id: "7BDC3B0137B4C48A"
+				observe_type: 5
+				timer: 0L
+				title: "Lobster"
+				to_observe: "alexsmobs:lobster"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Aquatic invertebrates. They can't survive on land."
+				""
+				"Tameable with tropical fish. They have the same commands as eagles. Since fists of mantis shrimp are so powerful they can set enemies on fire, they're pretty good at defending you."
+				""
+				"Shift RMB to give the shrimp the block in your hand. The shrimp will start exploring and break blocks identical to the one in its hands, which allows for some low-level automation!"
+				""
+				"healed with fish and bred with lobster tails."
+			]
+			id: "0BEA9586D1AD4D0D"
+			rewards: [{
+				id: "655EAFFE4F88749D"
+				type: "custom"
+			}]
+			subtitle: "You're telling me a shrimp fried this rice?"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:mantis_shrimp"
+					}
+				}
+				id: "59AE5F0E2323A4AA"
+				observe_type: 5
+				timer: 0L
+				title: "Mantis Shrimp"
+				to_observe: "alexsmobs:mantis_shrimp"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["Despite the nickname \"killer whale\", these aquatic mammals only attack you if provoked. They can be found in cold oceans."]
+			id: "0A28025EEBC6969D"
+			rewards: [{
+				id: "2A0BFFFABC01B440"
+				type: "custom"
+			}]
+			subtitle: "They're actually dolphins!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:orca"
+					}
+				}
+				id: "54BA2F1D66936EC1"
+				observe_type: 5
+				timer: 0L
+				title: "Orca"
+				to_observe: "alexsmobs:orca"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"This pickaxe looking fish is found terrorizing coral reefs by eating fish and octopus which did nothing wrong. "
+				""
+				"Their teeth, which they shed when attacking mobs, can be fashioned into arrows and be used to make the shield of the deep which makes blocked targets bleed."
+			]
+			id: "5C9202556AEBC6E4"
+			rewards: [{
+				id: "789D909CA68665F5"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:hammerhead_shark"
+					}
+				}
+				id: "17D5D7C0C82609D5"
+				observe_type: 5
+				timer: 0L
+				title: "Hammerhead Shark"
+				to_observe: "alexsmobs:hammerhead_shark"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C9202556AEBC6E4"]
+			description: ["Shed from hammerhead sharks when they are attacking any mob. Can be used to craft a special arrow that works better in water as well as the Shield of the Deep."]
+			id: "561828121FFD013E"
+			rewards: [{
+				count: 16
+				id: "5902ED18C429F773"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:shark_tooth_arrow"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5723A72F9CB7000F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:shark_tooth"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These jellies are on LSD. Kill one and you get some of their rainbow jelly-branded LSD."
+				""
+				"They have to hide from the authorities in frozen oceans at night, because otherwise, the cops would arrest them all for their drug abuse."
+			]
+			id: "1E3F1BDA39595DE5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:comb_jelly"
+					}
+				}
+				id: "2974B947D95F0C5A"
+				observe_type: 5
+				timer: 0L
+				title: "Comb Jelly"
+				to_observe: "alexsmobs:comb_jelly"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E3F1BDA39595DE5"]
+			description: ["Get some rainbow jelly branded LSD and feed it to your dog. He will trip and start looking like a rainbow road, flashing every color in the sRGB color space."]
+			id: "09B7B04B20EDBD79"
+			shape: "rsquare"
+			tasks: [{
+				id: "32DE78A65109E8C5"
+				item: "alexsmobs:rainbow_jelly"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6208D7C110AE38A6"]
+			id: "50302ADB0FF67F10"
+			shape: "rsquare"
+			tasks: [{
+				id: "4CC133728F43D2F3"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Good luck trying to find this. It's the rarest mob in the entire mod pack, only spawning in the underground layer of a world, below the surface, in a desert or badlands, and in the water. When generating the world, it will select one chunk where this fish can spawn. They do nothing, but finding one is the ultimate flex."
+				""
+				"If you want to find this fish, look for the Devil's Hole chunk, which is randomly generated and can be located with the Strange Fish Finder. If you find it, congratulations."
+			]
+			id: "75628E52D976FB40"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:devils_hole_pupfish"
+					}
+				}
+				id: "61DDF4CA6CF15BEC"
+				observe_type: 5
+				timer: 0L
+				title: "Devil's Hole Pupfish"
+				to_observe: "alexsmobs:devils_hole_pupfish"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "63387AE7F917C7DD"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:giant_squid"
+					}
+				}
+				id: "40961A9591657C00"
+				observe_type: 5
+				timer: 0L
+				title: "Giant Squid"
+				to_observe: "alexsmobs:giant_squid"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63387AE7F917C7DD"]
+			id: "594C6605006BC746"
+			shape: "rsquare"
+			tasks: [{
+				id: "61D183F42EB8B677"
+				item: {
+					Count: 1
+					id: "alexsmobs:squid_grapple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"This dead fish has come back from the dead and now swims around wrecked ships underwater or chases after people in boats. "
+				""
+				"It does not like people in boats because one day, this fish was caught and eaten alive on a boat, then thrown into a trash can. The people on the boat poured the trash can overboard, polluting the water."
+				""
+				"The pure rage of seeing these people pollute the water made this fish come back from the dead to attack anyone on a boat. Or at least that's my best guess as to why it doesn't like boats."
+				""
+				"If you kill this fish, it has a 1% chance to drop a hat with beer. It got this hat from the trash it was thrown out in, which was full of empty beer cans. "
+				""
+				"Additionally, if you kill it, there is a 5% chance of getting its skull, which is a crazy fast one-handed weapon with 4 attack speed and deals 4.5 damage per hit, making it better than even some enchanted two-handed diamond weapons."
+			]
+			id: "0102F0C19CA15387"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:skelewag"
+					}
+				}
+				id: "6C1BEBFA5B476D12"
+				observe_type: 5
+				timer: 0L
+				title: "Skelewag"
+				to_observe: "alexsmobs:skelewag"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"These money-hungry crabs are a bit like New Yorkers. If you get too close, they will punch you in the face."
+				""
+				"If you start playing some sick beats, they’ll begin to dance and show off their superior moves. If you kill these chill guys minding their own business, they will drop their legs, which can be cooked into delicious meals like some rangoons or a non-descript tropical stew."
+				""
+				"Additionally, they may drop their shell, which can be brewed into a potion of knockback resistance. Now that I think about it, these guys aren't so similar to New Yorkers."
+			]
+			id: "41ED84922099262C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "quark:crab"
+					}
+				}
+				id: "62B3B2BA2580CF45"
+				observe_type: 5
+				timer: 0L
+				title: "Crab"
+				to_observe: "quark:crab"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: ["Despite the cool name of Lionfish, these fish are actually quite generic. They can be found in warm oceans and will poison you if you get too close. They can also be rarely reeled in with a fishing rod. "]
+			id: "787807566EEFADE1"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:lionfish"
+					}
+				}
+				id: "39BCD9EB0ED68A9B"
+				observe_type: 5
+				timer: 0L
+				title: "Lionfish"
+				to_observe: "cataclysm:lionfish"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Have you ever been in the water and seen really bright lights? Well, you might have just encountered a jellyfish."
+				""
+				"While these glowing creatures might look intriguing, they don’t drop anything particularly exciting when killed. Instead, you’ll find different colors of nematocysts, which can be combined in a crafting grid to create glowing blocks."
+			]
+			id: "71BFBB9542319D3E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "wilderwild:jellyfish"
+					}
+				}
+				id: "5C34803F9EC0D183"
+				observe_type: 5
+				timer: 0L
+				title: "Jellyfish"
+				to_observe: "wilderwild:jellyfish"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These very common crabs spawn on beaches and can sometimes appear when a coconut falls from a tree."
+				""
+				"They mostly just roam around, but if you hit them enough, they will drop coconut slices. Coconut slices can be cooked in a cooking pot to create coconut curry or tropical stew. You can also use eaten coconut slices as bowls for a few different stew items."
+				""
+				"If you kill one of these crabs, you can obtain a crab claw, which can be used as shears or cooked for crab meat. The crab claw is also an ingredient in the Tide Trident."
+			]
+			id: "40CB201941711906"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "ecologics:coconut_crab"
+					}
+				}
+				id: "2686846E20BF0261"
+				observe_type: 5
+				timer: 0L
+				title: "Coconut Crab"
+				to_observe: "ecologics:coconut_crab"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["These creatures dawdle at the bottom of the ocean. You can kill them for their shells."]
+			id: "18C9C5CE6510693E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "upgrade_aquatic:nautilus"
+					}
+				}
+				id: "354BE99310F2EC1C"
+				observe_type: 5
+				timer: 0L
+				title: "Nautilus"
+				to_observe: "upgrade_aquatic:nautilus"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"This little version of the leviathan are found by hatching the Abyssal Egg, dropped by adult Leviathans. These creatures can be tamed with tropical fish."
+				""
+				"Despite their size and age, baby leviathans have lots of health, and regenerate quickly when hurt."
+				""
+				"They have a purple laser attack which deals large amounts of damage, and move quickly, making them one of the best pets in Mincemeat."
+			]
+			id: "3AFC6CE155DD2997"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:the_baby_leviathan"
+					}
+				}
+				id: "3EBAEB68A76B5547"
+				observe_type: 5
+				timer: 0L
+				title: "Baby Leviathan"
+				to_observe: "cataclysm:the_baby_leviathan"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These upgrades of trident drowned are found in deep oceans and attack those who get near. They sometimes drop coral spears and nautilus shells. "
+				""
+				"These deeplings have not proven themselves in combat, and as such use rudimentary spears made from coral. They hope to defeat aloof travelers so they will be gifted a better weapon."
+			]
+			id: "55AD09DC5242B726"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:deepling"
+					}
+				}
+				id: "02ED1095D04F4CB4"
+				observe_type: 5
+				timer: 0L
+				title: "Deepling"
+				to_observe: "cataclysm:deepling"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These deeplings are proficient in Riptide and wield glaives instead of the spears their subordinates use."
+				""
+				"They have mastered every form of attacking with their weapon, being able to propel themselves through the water, attack up close, or from a distance by throwing it."
+				""
+				"Deepling brutes don't like being on land, since they'll suffocate after spending too much time there. This means finding an island or digging beneath the ocean are good forms of escape."
+				""
+				"To kill a brute, never stop moving. They can be taken care of by going onto land and filling them up with arrows. If you can't find land, be sure to never stop moving and parry their attacks since you can't dodge underwater."
+				""
+				"They sometimes drop a coral bardiche, which are more powerful but slower than tridents."
+			]
+			id: "5C4E6500E68A91C6"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:deepling_brute"
+					}
+				}
+				id: "754D3FB59376190B"
+				observe_type: 5
+				timer: 0L
+				title: "Deepling Brute"
+				to_observe: "cataclysm:deepling_brute"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These deeplings are fishing masters, and can somehow fish underwater?"
+				""
+				"Deepling anglers are pretty bad in combat alone, with their true source of power coming from the lionfish they're often seen with."
+			]
+			id: "6BEF1C6BCBF8A881"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:deepling_angler"
+					}
+				}
+				id: "6983DF9F9D783FFB"
+				observe_type: 5
+				timer: 0L
+				title: "Deepling Angler"
+				to_observe: "cataclysm:deepling_angler"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["These religious deeplings can be found in Sunken Cities. They attack intruders using their knives. If you kill this priest, they may drop their knife, called the Athame."]
+			id: "14F2D4A16F588F17"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:deepling_priest"
+					}
+				}
+				id: "5A9E1A798B16FBFF"
+				observe_type: 5
+				timer: 0L
+				title: "Deepling Priest"
+				to_observe: "cataclysm:deepling_priest"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["These deeplings have made pacts with supernatural beings which allow them to practice magic, although they don't seem to like using it too much since they use their Athames in combat, much like clerics."]
+			id: "483DD98D1BD4CA35"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:deepling_warlock"
+					}
+				}
+				id: "0890A64A8FDCA155"
+				observe_type: 5
+				timer: 0L
+				title: "Deepling Warlock"
+				to_observe: "cataclysm:deepling_warlock"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These stealthy secret agents are hard to discover in the wild, sometimes acting like alligators in rivers to avoid being spotted during their top-secret missions. If you do spot one and attempt to get too close, they will inject you with a poisonous serum to neutralize you."
+				""
+				"A sad truth about these agents is that there are very few missions for them, so they are always strapped for cash. Because of this, you can give them some Redstone or a Redstone block to have them work for you and locate clay. If they find the clay, they will start digging into it, pulling out maggots and sometimes even a nice fedora."
+			]
+			id: "7D62F8EA0309690C"
+			rewards: [{
+				id: "162496DB8465E64A"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:platypus"
+					}
+				}
+				id: "2715CDC3EC7D2AA1"
+				observe_type: 5
+				timer: 0L
+				title: "Platypus"
+				to_observe: "alexsmobs:platypus"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Terrapin is a turtle which can be jumped on and launched into other mobs, dealing damage."
+				""
+				"Chris Pratt might know something about this."
+			]
+			id: "4E74013A3E25E386"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:terrapin"
+					}
+				}
+				id: "553C811FC5669D66"
+				observe_type: 5
+				timer: 0L
+				title: "Terrapin"
+				to_observe: "alexsmobs:terrapin"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These heartless monkeys just hang out in peaceful meadows."
+				""
+				"When they get bored, they start to rip up the grass for valueless objects, making the area look untidy. If they get into a fight, these monkeys will abandon their friends mid-fight."
+				""
+				"Worst of all, if given wheat, they will run around and start destroying all the tall grass."
+			]
+			id: "35B1C875E8F5240D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:gelada_monkey"
+					}
+				}
+				id: "4A9923A78C3E738E"
+				observe_type: 5
+				timer: 0L
+				title: "Gelada Monkey"
+				to_observe: "alexsmobs:gelada_monkey"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These ultra-thick pipe cleaners swim around in rivers, jungles, or wetland biomes like mangroves and are always stressed out. To mitigate their stress, they will target living beings to let out some of that tension, much like a stress ball. However, after they de-stress, they often end up hungry and will eat their \"stress ball.\""
+				""
+				"If they consume three \"stress balls,\" they will become fat and outgrow their old skin and shed it for a new one. With their shed skin, you can make a vine lasso, which is essentially a lead that can be used on all entities, including falling sand and dragons."
+			]
+			id: "213DBADFDB075999"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:anaconda"
+					}
+				}
+				id: "1F8C554C2371A240"
+				observe_type: 5
+				timer: 0L
+				title: "Anaconda"
+				to_observe: "alexsmobs:anaconda"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"This unique squid can be found by fishing in the water, but you can't get it by killing a regular squid. Regular squids are not great food, often causing hunger if eaten. However, the rare glow squid gives night vision instead of hunger."
+				""
+				"These squids are excellent cooking ingredients. You can cook them in a furnace or frying pan to create baked squid. They can also be used in a cooking pot with other ingredients to make stuffed squid. If you prefer not to cook this cute little squid whole, you can remove its tentacles and cook them separately to create fried tentacles or use them in a pot to make takoyaki."
+			]
+			id: "3AA03B67C0184E0B"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "minecraft:squid"
+						}
+					}
+					id: "49FA27E4E98BE5E8"
+					observe_type: 5
+					timer: 0L
+					title: "Squid"
+					to_observe: "minecraft:squid"
+					type: "observation"
+				}
+				{
+					id: "1C90CC455199839F"
+					item: "miners_delight:squid"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This dead fish can be found swimming near icemazes or fished up in any frozen ocean. It doesn’t exhibit any special behaviors, but it has an unusually high amount of HP for a fish."
+				""
+				"You can cook this fish, and the cooked version is an ingredient in Poseidon's Breakfast, which fully restores your saturation and hunger when eaten. "
+				""
+				"Additionally, it can be consumed to obtain sharp bones, which can also be eaten. These sharp bones, along with leather, can be crafted into a Remnants Saber—a powerful sword that deals 10 damage in water and has the swing speed of a knife."
+			]
+			id: "1B793CD69BCD02FD"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aquamirae:spinefish"
+					}
+				}
+				id: "55A9E315FE0F9381"
+				observe_type: 5
+				timer: 0L
+				title: "Spinefish"
+				to_observe: "aquamirae:spinefish"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "53C26B742AB74DAE"
+			shape: "rsquare"
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "2D33896C6C418D48"
+				structure: "aquamirae:ice_maze/common"
+				title: "Ice Maze"
+				type: "structure"
+			}]
+			title: "Find an Ice Maze"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"This small glowing moth spawns at night in the ice maze. It does nothing but fly around."
+				""
+				"It can be captured in a bottle to be used as decoration."
+			]
+			id: "21FC4288D67C1974"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aquamirae:golden_moth"
+					}
+				}
+				id: "206B4A2E561FB3DE"
+				observe_type: 5
+				timer: 0L
+				title: "Golden Moth"
+				to_observe: "aquamirae:golden_moth"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Despite their intimidating appearance, these large, surface-dwelling fish aren't that hard to kill."
+				""
+				"They drop fins and slime balls, the former of which being an ingredient in the Terrible weapon/armor set."
+			]
+			id: "69E0B594500EFAD8"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aquamirae:maw"
+					}
+				}
+				id: "08BE05716AE82C00"
+				observe_type: 5
+				timer: 0L
+				title: "Maw"
+				to_observe: "aquamirae:maw"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"This huge fish, found at the bottom of the frozen ocean below an ice maze, is a dangerous threat, capable of killing you very quickly if you are not careful. When it sees a player, it will wait a few seconds and then dash very quickly at the player, dealing very high damage."
+				""
+				"The key to killing the angler fish is by drawing it out of the water with a vine lasso or motor grappling hook or by swimming right up to it and trying to deal as much DPS as you can. "
+				""
+				"After killing it, it will drop esca, which can be used to make underwater torches and is a part of a few food items. "
+				""
+				"It will also drop an angler fang, which can be used to make the Terrible Armor and two weapons: the Poisoned Sword and Poisoned Chakram."
+			]
+			id: "269CF108719CCF44"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aquamirae:anglerfish"
+					}
+				}
+				id: "4FB7B14F115AA4C3"
+				observe_type: 5
+				timer: 0L
+				title: "Anglerfish"
+				to_observe: "aquamirae:anglerfish"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These dead sailors can be found in the ice maze and act just like zombies. "
+				""
+				"When killed, they can sometimes drop an Echo of Ship Graveyard. This item is required if you want to create any of Aquamirae's weapons or armor."
+			]
+			id: "125050E6A3436AFF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aquamirae:tortured_soul"
+					}
+				}
+				id: "44FCA0A4C27FD16F"
+				observe_type: 5
+				timer: 0L
+				title: "Tortured Soul"
+				to_observe: "aquamirae:tortured_soul"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This little black worm, with over 1,000 teeth, can be found by fishing in the jungle. While it cannot be eaten or cooked, it can be used as bait on a fishing rod. When placed in a tackle box with an upgraded fishing rod, it increases your chances of catching fish compared to using other items. The leech can only be used a total of 35 times before it breaks."
+				""
+				"It's puzzling why this harder-to-get, area-specific bait is less effective than bait that can be caught almost anywhere."
+				""
+				"Additionally, you can use two leeches in a potion mixing cauldron to create a large amount of mundane potion liquid. They can also be used in a normal brewing stand to create mundane potions."
+			]
+			disable_toast: true
+			id: "1B7423FBB75C42D0"
+			tasks: [{
+				id: "0EBF77823F89D435"
+				item: {
+					Count: 1
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "095F8932D99F2A08"
+			tasks: [{
+				id: "23271BF6EC2503D9"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "1B0938943DF35AE8"
+			tasks: [{
+				id: "07319C7F844EDBEF"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "149585B5531D21E0"
+			tasks: [{
+				id: "573BB512924636B5"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "2217237359C0CB91"
+			tasks: [{
+				id: "3D433BA725D7139E"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "1C1591DDBA16007B"
+			tasks: [{
+				id: "7A6D73EFF045C65B"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "4AE768A427A14342"
+			tasks: [{
+				id: "621EC4DFAFAD65A1"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "2540D912E2DC8B4E"
+			tasks: [{
+				id: "1D3706E30AB46332"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "1863D9499DCB0B39"
+			tasks: [{
+				id: "6A8C045248AF36F1"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "30D11229AC209A87"
+			tasks: [{
+				id: "34F1DD9E59E1313A"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "29170AF76939F173"
+			tasks: [{
+				id: "02A65D677E538F1C"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "1BC439BFF1BA35D0"
+			tasks: [{
+				id: "2BA28F7817F88859"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "257AB50C0C09A72B"
+			tasks: [{
+				id: "7DBAA46C0D953634"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "3ED0A7786EE4E65E"
+			tasks: [{
+				id: "6A0C34C5D6851932"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "7345C4871A148662"
+			tasks: [{
+				id: "4B0EEC22606ADD04"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "209D685CAF24C693"
+			tasks: [{
+				id: "10A821EB4A950577"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "50BCA96B68DC3F4C"
+			tasks: [{
+				id: "00A549B0A6262184"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			title: "Catfish (Aquaculture 2)"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "1778A8C70C9AAF26"
+			tasks: [{
+				id: "6180195E2C473636"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "0650B5D88757F417"
+			tasks: [{
+				id: "0297584A7BE3BE9F"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "59B5C63E1263F1E6"
+			tasks: [{
+				id: "4DE316DFF04C5B82"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			title: "Perch (Aquaculture 2)"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"This fish yields 10 fish fillets when cut. Although it doesn't explicitly state it, I suspect this fish is inspired by Terraria. In Terraria, there's a giant fish found in jungles during hard mode."
+				""
+				"Interestingly, this fish is small in Mincemeat, yet it provides a substantial amount of fish fillets when harvested, which makes me wonder if it was intended to be more significant at one point."
+			]
+			disable_toast: true
+			id: "4945AF7FAA48DC75"
+			subtitle: "a-crap-aima lol"
+			tasks: [{
+				id: "3C97AD350263E14A"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: ["This fish is the biggest letdown, giving only 1 fillet when cut and doesn't even bite you, despite that being what piranhas are famous for."]
+			disable_toast: true
+			id: "261D4DE4C30A96CB"
+			tasks: [{
+				id: "57D6690994D3041D"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "52159C48546AC297"
+			tasks: [{
+				id: "471DDA3D45BCD80A"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "4BD31FADA7878D76"
+			tasks: [{
+				id: "171A4EC1AD42C0BB"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "605C72C696B771E8"
+			tasks: [{
+				id: "16B91D69DCE1D60B"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"These very small turtles can be found swimming around in rivers in their natural habitat. Box turtles are typically found in swamps, while Arrau turtles can be spotted in jungles."
+				""
+				"You can also fish for these turtles in their respective biomes. If you kill or fish up these turtles, you can combine them with a water bucket to make turtle soup."
+			]
+			disable_toast: true
+			id: "36DA4C1DB9F06C8C"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "aquaculture:box_turtle"
+						}
+					}
+					id: "5D659B3855D99D61"
+					observe_type: 5
+					timer: 0L
+					title: "Box Turtle"
+					to_observe: "aquaculture:box_turtle"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "aquaculture:arrau_turtle"
+						}
+					}
+					id: "1C8B12CEF45BCE35"
+					observe_type: 5
+					timer: 0L
+					title: "Arrau Turtle"
+					to_observe: "aquaculture:arrau_turtle"
+					type: "observation"
+				}
+			]
+			title: "Box/Arrau Turtle"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "0711C7D4A09F3C12"
+			tasks: [{
+				id: "5FF66C6D059D2B04"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "7DF69A5D72B6E677"
+			tasks: [{
+				id: "485A30EF7044BCA0"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: ["They can be caught anywhere and, if put in a crafting table, you will get 1 gold nugget."]
+			disable_toast: true
+			id: "61D2C5A3FC8F44A1"
+			tasks: [{
+				id: "610623E4AC869D43"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "0D66977831260595"
+			tasks: [{
+				id: "6B5A6CF67151DEC7"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			title: "Jellyfish (Aquaculture 2)"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"These turtles from Florida have the longest name of any animal in Alexmobs, at a staggering 25 characters."
+				""
+				"Because of this very long name and having claws instead of hands, they don’t have enough space to write their name on any name line in school."
+				""
+				"As a result, they failed and dropped out of school in the 1st grade and never attended kindness class, where they would have learned not to bite people when they get close."
+			]
+			id: "256F160293629D49"
+			rewards: [{
+				id: "1BB01A8E76EB0245"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:alligator_snapping_turtle"
+					}
+				}
+				id: "34020399EDBDB7A8"
+				observe_type: 5
+				timer: 0L
+				title: "Alligator Snapping Turtle"
+				to_observe: "alexsmobs:alligator_snapping_turtle"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["256F160293629D49"]
+			description: ["Special helmet that gives knockback resistance"]
+			id: "1D43DB0DED395A85"
+			rewards: [{
+				count: 3
+				id: "2C1812B87B049404"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 8s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0AED5507C90ECA69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spiked_turtle_shell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"These Florida citizens are found lurking in rivers or wetlands and will bite animals or humans and start spinning rapidly. "
+				""
+				"While they are spinning, they deal very high damage and will continue spinning unless you sneak, which may give you a few seconds to get away."
+				""
+				"If you kill this Florida citizen, they will drop some of their super sunburned crocodile scutes, which can be made into a crocodile chestplate. Although it sounds impressive, it simply raises your swimming speed."
+			]
+			id: "32DB1B0F5535C113"
+			rewards: [{
+				id: "01044C858E9D8E69"
+				type: "custom"
+			}]
+			subtitle: "SPEEN"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:crocodile"
+					}
+				}
+				id: "4EB4CFFAA20E80A4"
+				observe_type: 0
+				timer: 0L
+				title: "Crocodile"
+				to_observe: "alexsmobs:crocodile"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["32DB1B0F5535C113"]
+			id: "4A103EDFAA3D9AB1"
+			rewards: [{
+				count: 3
+				id: "7C386A5822E14808"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:lockbox"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F189EDF53C0F648"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:crocodile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Cats don't like being in the water, which must be an anomaly."
+				""
+				"These cats in the water swim around without a care in the world and don't do much. However, they do taste really good. If you try chopping them up, they will drop their insides, which is likely kind of gross and hairy."
+				""
+				"Fun fact: catfish are also toxic in the real world. Some catfish can get quite big and have over 30 base HP. If you find one, you're pretty lucky."
+			]
+			id: "2D498CC9F5993FB0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:catfish"
+					}
+				}
+				id: "467F21851B2017F9"
+				observe_type: 5
+				timer: 0L
+				title: "Catfish"
+				to_observe: "alexsmobs:catfish"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Mudskippers love both dirt and lobster, which are two very different things. On one hand, dirt is considered a gross substance, but they also like lobsters, a gourmet delicacy at fine dining establishments."
+				""
+				"These mudskippers seem like gold diggers, living in mud but instantly becoming friendly if you feed them lobster tails. To be fair, anyone would appreciate free lobster."
+			]
+			id: "26B95348851E9652"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:mudskipper"
+					}
+				}
+				id: "5F3E0AC4E5BE5322"
+				observe_type: 5
+				timer: 0L
+				title: "Mudskipper"
+				to_observe: "alexsmobs:mudskipper"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: ["funny bird with log leg"]
+			id: "25B527AAB875C67E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:shoebill"
+					}
+				}
+				id: "5E04C8AD1981BDB4"
+				observe_type: 5
+				timer: 0L
+				title: "Shoebill"
+				to_observe: "alexsmobs:shoebill"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"This very nice gator will not rip you apart instantly like in real life but will instead be cool with your presence. You can even tame this gator if you stand around its eggs while they are hatching."
+				""
+				"The baby caiman will choose its owner based on whoever is closest to the gator after hatching. The gator will bite targets and slow them down, allowing you to stab, smash, or punch them to death with your mighty weapons or fists."
+			]
+			id: "043C612B18C4A7FE"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:caiman"
+					}
+				}
+				id: "2825331B0479C591"
+				observe_type: 5
+				timer: 0L
+				title: "Caiman"
+				to_observe: "alexsmobs:caiman"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+	]
+	title: "Aquatic Creatures"
+}

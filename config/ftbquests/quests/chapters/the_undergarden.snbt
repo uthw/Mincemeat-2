@@ -1,0 +1,354 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "2E16C686F58ACDBC"
+	icon: "undergarden:catalyst"
+	id: "738BE224A7874E53"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: ["This fish is a king and rules an entire dimension, being the only fish in the Undergarden. However, its fame ends there, as it doesn’t do much else besides being unique. It can be cooked."]
+			id: "56A23986A2737DFE"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:gwibling"
+					}
+				}
+				id: "26ACA8C9AF28DDD0"
+				observe_type: 5
+				timer: 0L
+				title: "Gwibling"
+				to_observe: "undergarden:gwibling"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: [
+				"Brutes, which look a bit like upright hoglins, are neutral creatures from the Undergarden."
+				""
+				"They're social animals that prefer traveling in packs. If you anger one brute, the whole posse goes out to get you."
+			]
+			id: "2BBCA092C66FB7AC"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:brute"
+					}
+				}
+				id: "603807E437C225E4"
+				observe_type: 5
+				timer: 0L
+				title: "Brute"
+				to_observe: "undergarden:brute"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: [
+				"Dwellers are strange, peaceful animals found in the Undergarden. Their favorite food is underbeans."
+				""
+				"They can be mounted if you have the foresight to bring a saddle."
+				""
+				"If you have bad taste, you may have gotten excited to find there is a Dweller in Mincemeat. Too bad for you though, it's only an abstract biped mosquito instead of a poorly-realized sleep paralysis demon that jumpscares you every 2 minutes."
+			]
+			id: "402CBAD75F9EC66D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:dweller"
+					}
+				}
+				id: "14FBF0097BF4B3C4"
+				observe_type: 5
+				timer: 0L
+				title: "Dweller"
+				to_observe: "undergarden:dweller"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: [
+				"Gloompers are passive mobs, but if attacked, they can create a cloud of poison around them."
+				""
+				"Gloompers are the result of frogs slipping through the bedrock and finding themselves in the Undergarden. Over the years, their love for gloomgourds turned them into the great purple beasts you see them as today."
+			]
+			id: "12B543A37A31020E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:gloomper"
+					}
+				}
+				id: "202E24F49FBDED40"
+				observe_type: 5
+				timer: 0L
+				title: "Gloomper"
+				to_observe: "undergarden:gloomper"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: [
+				"Gronglets are stationary bugs who are found on grongle trees."
+				""
+				"These friendly critters want to travel the dimensions, so they allow you to pick them up and wear them as helmets. "
+				""
+				"If you have added a dynamic lighting mod or are playing with shaders, they can light up your surroundings."
+			]
+			id: "60BDEF19ED239B54"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:gronglet"
+					}
+				}
+				id: "5EDB379282A37CC2"
+				observe_type: 5
+				timer: 0L
+				title: "Gronglet"
+				to_observe: "undergarden:gronglet"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: [
+				"Mog are more vertical turtles who grow a special type of moss on their shells. You can shear them like a sheep to obtain mogmoss."
+				""
+				"It's known that mogs love eating depthrock pebbles. Maybe they don't truly eat rocks, and instead store them in their shells?"
+				""
+				"We don't currently have the technology to separate the mog's body from its shell, so we'll never know for the time being."
+			]
+			id: "44D22EA2DAF66BE3"
+			subtitle: "Miquella is mine, and mine alone"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:mog"
+					}
+				}
+				id: "63424637571FD964"
+				observe_type: 5
+				timer: 0L
+				title: "Mog"
+				to_observe: "undergarden:mog"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: ["Munchers are voracious cavern creatures who enjoy eating blocks and players. They like players more, so sometimes they'll eat blocks in order to reach one."]
+			id: "4B86D2BBDCA7AFE9"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:muncher"
+					}
+				}
+				id: "05FD15F3D6048D85"
+				observe_type: 5
+				timer: 0L
+				title: "Muncher"
+				to_observe: "undergarden:muncher"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: ["Nargoyles are beefy, jumping cavern creatures who defend their dimension from evil players."]
+			id: "40E11E9814F63081"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:nargoyle"
+					}
+				}
+				id: "61A49A5F67A85786"
+				observe_type: 5
+				timer: 0L
+				title: "Nargoyle"
+				to_observe: "undergarden:nargoyle"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: ["The Rotbeast is one of the most powerful members of the Rotspawn. They are invasive with no predators in the Undergarden, and will attack most wildlife and players."]
+			id: "62D5F6E19E5D588A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:rotbeast"
+					}
+				}
+				id: "11FB8140D3414820"
+				observe_type: 5
+				timer: 0L
+				title: "Rotbeast"
+				to_observe: "undergarden:rotbeast"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			id: "48402ACE5F2CFC7E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:rotling"
+					}
+				}
+				id: "559B510FD7B00C61"
+				observe_type: 5
+				timer: 0L
+				title: "Rotling"
+				to_observe: "undergarden:rotling"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			id: "1BF84604B1B910BA"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:rotwalker"
+					}
+				}
+				id: "2F52C0EA0044D315"
+				observe_type: 5
+				timer: 0L
+				title: "Rotwalker"
+				to_observe: "undergarden:rotwalker"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: [
+				"These slugs might be bigger than what you're used to in the Overworld. Don't worry, though, since they're completely harmless."
+				""
+				"As they move, they spread scintling goo all across the ground. How disgusting."
+			]
+			id: "74497FFDF96669FD"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:scintling"
+					}
+				}
+				id: "1EDF7E04B5F90F9D"
+				observe_type: 5
+				timer: 0L
+				title: "Scintling"
+				to_observe: "undergarden:scintling"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: ["Sploogies are very interesting. They will fire pebbles at players, perhaps playfully. When attacked, they will run away and leave their former target alone."]
+			id: "4BD2663C842EF09C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:sploogie"
+					}
+				}
+				id: "4B2349E24E843315"
+				observe_type: 5
+				timer: 0L
+				title: "Sploogie"
+				to_observe: "undergarden:sploogie"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F0DFEA28729BEAE"]
+			description: [
+				"The most intelligent creatures in the Undergarden. They call forests and fields their home."
+				""
+				"Stoneborn use Regalium as currency, so you will need plenty of it in order to get lucrative trades."
+			]
+			id: "1FD2A9213930C709"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "undergarden:stoneborn"
+					}
+				}
+				id: "73428B0A3785454A"
+				observe_type: 5
+				timer: 0L
+				title: "Stoneborn"
+				to_observe: "undergarden:stoneborn"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "The Undergarden"
+}

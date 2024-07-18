@@ -1,0 +1,1260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hot_biomes"
+	group: "2E16C686F58ACDBC"
+	icon: "delightful:cactus_flesh"
+	id: "70A27220EC5522F2"
+	images: [
+		{
+			height: 1.0d
+			image: "create:textures/item/tree_fertilizer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/block/cactus_side.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Gazelles are mammals who live in savannas. When one is attacked, the entire herd normally runs away."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:gazelle"
+				}
+			}
+			id: "2B015BB165ADE187"
+			rewards: [{
+				id: "64898840E72D45F7"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:gazelle_horn"
+				}
+				id: "06A043E39DE92776"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:gazelle"
+				type: "observation"
+			}]
+			title: "Gazelle"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: ["Birds who feed on rattlesnakes."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:roadrunner"
+				}
+			}
+			id: "50DA5639B2066662"
+			rewards: [{
+				id: "0735C14643D10D7F"
+				type: "custom"
+			}]
+			subtitle: "Meep meep"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "exoticbirds:roadrunner_egg"
+				}
+				id: "643326D809AFDA3A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:roadrunner"
+				type: "observation"
+			}]
+			title: "Roadrunner"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50DA5639B2066662"]
+			id: "0EA4D579B28463AF"
+			rewards: [
+				{
+					id: "0C2436B752D1056B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:roadrunner_feather"
+					}
+					type: "item"
+				}
+				{
+					id: "4FA22C169CEF1107"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "You killed the server TPS optimization mod!"
+			tasks: [{
+				id: "7171CB5D06C5E46E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:roadrunner_feather"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EA4D579B28463AF"]
+			description: ["Diamond-equivalent boots. Useful for how early you can obtain them. They increase your speed on sand."]
+			id: "75F86AE01AEF6CB3"
+			rewards: [
+				{
+					count: 3
+					id: "01638682E2699685"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "445B7976C5218AF7"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "680AFFC6B5DB0DA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Majestic mammals native to savannas who travel in herds, each one led by a leader. Their size brings power, so you shouldn't mess with them."
+				""
+				"Sometimes, a wandering trader coming to a hot biome will be riding an elephant. These vendors have speical trades for items from Alex's Mobs, so be sure you check them out."
+			]
+			id: "57A650E23A9C2065"
+			rewards: [{
+				id: "75692BC46ED26E5C"
+				type: "custom"
+			}]
+			subtitle: "I hear a who!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:elephant"
+					}
+				}
+				id: "455A77545AE04509"
+				observe_type: 5
+				timer: 0L
+				title: "Elephant"
+				to_observe: "alexsmobs:elephant"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57A650E23A9C2065"]
+			description: [
+				"Tame an Elephant by feeding it Acacia Blossoms"
+				""
+				"Tamed elephants can be ridden and given carpets. They're like llamas but not pathetic. They also share the trait with many other animals of helping you in combat."
+				""
+				"Note: a leader elephant can only be tamed when it's a baby. They can charge at enemies by feeding them wheat while mounted."
+			]
+			id: "309664BBA2FE0E4D"
+			rewards: [
+				{
+					id: "22636CA3BDFB6212"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5CDBDE39111A4B41"
+					type: "custom"
+				}
+			]
+			subtitle: "tame an elephant"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+				id: "1D3A9AC2FC5F7702"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Flightless birds who travel in mobs (that's the name for a group of emus)."
+				""
+				"This mob is basically a very high-effort reference to the Great Emu War:"
+				"They can be fed wheat and this is also the food used for breeding them. This references how emus in Australia ate all the wheat."
+				"They are highly skilled in avoiding projectiles, which references the difficulty the military had with shooting emus."
+				"They attack any mob holding a ranged weapon."
+			]
+			id: "6E2605469A32266D"
+			rewards: [
+				{
+					id: "4F78211AC573A77D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B3AE77A95E04EE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "0F65C414E3D55F4E"
+					type: "custom"
+				}
+			]
+			subtitle: "They beat the Aussies!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:emu"
+					}
+				}
+				id: "3222E6DAE03A7E54"
+				observe_type: 5
+				timer: 0L
+				title: "Emu"
+				to_observe: "alexsmobs:emu"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Marsupials with powerful legs. They carry their young in pouches and like carrots. bred with grass or dead bushes."
+				""
+				"Tamed kangaroos can store items in their pouches. If you store a helmet, chestplate, or sword, the kangaroo equips it. Kangaroos also eat vegan food in their pouches autonomously."
+			]
+			id: "5D68CFC9BAA7D524"
+			rewards: [
+				{
+					id: "386CBDFF3965C6C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44F0B8E79858C315"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69A505C5B92242D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:armor_silver_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D2812A25B9FA714"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:kangaroo"
+					}
+				}
+				id: "26E22A48D1D56F98"
+				observe_type: 5
+				timer: 0L
+				title: "Kangaroo"
+				to_observe: "alexsmobs:kangaroo"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"While they are grotesque insects who may look hostile, they can be befriended pretty easily."
+				""
+				"Tarantula hawks love torturing spiders and frequently attack them. You may be able to tame them using a spider eye."
+			]
+			id: "6B0CBDB3A1614064"
+			rewards: [{
+				id: "6E29EF6C756D84BF"
+				type: "custom"
+			}]
+			subtitle: "What even is it?"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:tarantula_hawk"
+					}
+				}
+				id: "6B3041DFB42166DF"
+				observe_type: 5
+				timer: 0L
+				title: "Tarantula Hawk"
+				to_observe: "alexsmobs:tarantula_hawk"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B0CBDB3A1614064"]
+			description: [
+				"Tamed has three variants. Tired of typing this out."
+				""
+				"Heal with flowers and breed with fermented spider eyes (spider eye + mushrooms)."
+			]
+			id: "62CDDDCE8F8A3142"
+			subtitle: "On His Hip"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
+				criterion: ""
+				id: "40F96193D3F07621"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6E2605469A32266D"
+				"5D68CFC9BAA7D524"
+			]
+			description: ["A pair of pants that lets you occasionally negate projectile damage."]
+			id: "54E8F2C7FDB04D10"
+			shape: "rsquare"
+			subtitle: "Care for some steak?"
+			tasks: [{
+				id: "428DC3BE5B980D24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:emu_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"These pro baby rattler players love performing with their rattlers whenever they see someone. "
+				""
+				"However, they don't like it if you get too close because they have trauma from people attacking them and stealing their rattlers. "
+				""
+				"If they suspect you of being a thief, they will start biting you. If you rudely take their rattler, you can turn it into a maraca."
+			]
+			id: "351B1E68E56F1EC3"
+			rewards: [{
+				id: "1B7FD8247DBF5DAA"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+				id: "6B93F83C38BEF211"
+				title: "Rattlesnake"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"This tornado looks like a bunch of spaghetti—a twisting, evil bunch of spaghetti. You can tell it is evil by its glowing fiery eyes."
+				""
+				"Most people in deserts see this thing coming and don't fear that a tornado is approaching; instead, they wish for it to come closer so they can get free spaghetti."
+				""
+				"Though sadly, in the Soul Sand Valley, whoever cooked up this spaghetti really messed up and burnt it to a crisp. The noodles are as black as ash."
+			]
+			id: "04A2EE1D49A2279B"
+			rewards: [{
+				id: "501F6649C586A0E8"
+				type: "custom"
+			}]
+			subtitle: "Average day in Oklahoma"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/guster"
+				criterion: ""
+				id: "677A862C163C6846"
+				title: "Guster"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04A2EE1D49A2279B"]
+			description: [
+				"Can be used to craft some items."
+				""
+				"The gustmaker is a redstone device capable of moving enemies caught in its sand blasts."
+				""
+				"Pockets of sand use sand as ammunition and fires sand that deals minor damage."
+			]
+			id: "102313192FE132F8"
+			rewards: [
+				{
+					count: 64
+					id: "35491FE5878A5E0B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "42569EA201D9ED1C"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "30E8A8E527542B86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:guster_eye"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The blue jays is like that one neighbor that's really cool and a good guy and just great. His company overall makes life great with their singing and kindness."
+				""
+				"These blue jays are so giving will even join you in dangerous expeditions, if you feed them glow berries. "
+				""
+				"What a great neighbor."
+			]
+			id: "74F8F367A032D53A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:blue_jay"
+					}
+				}
+				id: "5676AF19234F4D3C"
+				observe_type: 5
+				timer: 0L
+				title: "Blue Jay"
+				to_observe: "alexsmobs:blue_jay"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["This mob will beg for seeds if you let it see that you have some."]
+			id: "0243B9C47AA57C86"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:jerboa"
+					}
+				}
+				id: "08624A462A94BACB"
+				observe_type: 5
+				timer: 0L
+				title: "Jerboa"
+				to_observe: "alexsmobs:jerboa"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Cute little puppers who can be fed apples to repel other animals. Completely innocent and not at all based on a vicious animal in real life!"]
+			id: "77ACDD688870C025"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:maned_wolf"
+					}
+				}
+				id: "5A03F2C0CF3DD7DD"
+				observe_type: 5
+				timer: 0L
+				title: "Maned Wolf"
+				to_observe: "alexsmobs:maned_wolf"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"These frogs are an anomaly and hide and sand, unlike other frogs and amphibians which will die and shrivel up when touching sand in the real world because salt dries them out. "
+				""
+				"You can only find this by just digging sand in a desert, or they spawn in the rain in a desert. Hence the name."
+			]
+			id: "3917E024045AC820"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:rain_frog"
+					}
+				}
+				id: "5EFDF553C74E1C51"
+				observe_type: 5
+				timer: 0L
+				title: "Rain Frog"
+				to_observe: "alexsmobs:rain_frog"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: ["These little bugs don't do a whole lot but sleep in rivers. A fun feature of them though is that, if a Crimson mosquito stings, it will act up."]
+			id: "33B9FEE3731D3601"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:triops"
+					}
+				}
+				id: "307E78FB4C1593CD"
+				observe_type: 5
+				timer: 0L
+				title: "Triops"
+				to_observe: "alexsmobs:triops"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"These ravager knock-offs are found in savannas and will attack illagers or players with their comically large horn if they get too close. "
+				""
+				"They don't do much during the day other than occasionally going on rampages, visiting pillager towers or villages in raids to eliminate pillagers, vindicators, and even their rival, the ravager."
+			]
+			id: "0A61CAF6BB189C7B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:rhinoceros"
+					}
+				}
+				id: "1247A95F02F4588C"
+				observe_type: 5
+				timer: 0L
+				title: "Rhinoceros"
+				to_observe: "alexsmobs:rhinoceros"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"This electro blaze can be found on beaches and in warm biomes like deserts. It shoots balls of electricity at players."
+				""
+				"To defeat this thunderous foe, the easiest strategy is to use a ranged weapon or a melee weapon with significant range, such as a pike."
+				""
+				"When killed, they drop Blitz Motes, which can be used for various purposes, including explosives, weapons, magic alterations, and tool upgrades."
+			]
+			id: "26F46682456A8018"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "thermal:blitz"
+					}
+				}
+				id: "1402A23EC56BCFB7"
+				observe_type: 5
+				timer: 0L
+				title: "Blitz"
+				to_observe: "thermal:blitz"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This baby skeletal dinosaur is found by using The Remnant Skull dropped by the Ancient Remnant boss. It can be tamed using sniffer eggs, sometimes found by brushing suspicious blocks in ruins."
+				""
+				"Its usefulness is sadly limited due to its tiny arms, but at least it does high damage and moves quickly."
+			]
+			id: "385C8818BEE81D51"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:modern_remnant"
+					}
+				}
+				id: "50F0DA20CE603A3D"
+				observe_type: 5
+				timer: 0L
+				title: "Modern Remnant"
+				to_observe: "cataclysm:modern_remnant"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: ["These mask-wearing avians hunt animals and can block attacks using their talons. Their masks are dropped on death and give buffs to those who wear them."]
+			id: "54C6A1443F3D3695"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "34E127C52A071D55"
+				observe_type: 0
+				timer: 0L
+				title: "Umvuthana"
+				to_observe: "mowziesmobs:umvuthana"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Hummingbirds are the best in the game for spreading flowers since they are twice as good at pollination than bees."
+				""
+				"Pollinating flowers increases honey collection from Bees and increases the chance for flowers to randomly spawn."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:hummingbird"
+				}
+			}
+			id: "41C4D1996B81CB20"
+			rewards: [{
+				id: "2C4BB7E8DB488B67"
+				type: "custom"
+			}]
+			subtitle: "Wings of fury"
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:pollen_dust"
+				}
+				id: "5A90B58C8C1BE9C0"
+				observe_type: 5
+				timer: 0L
+				title: "Hummingbird"
+				to_observe: "alexsmobs:hummingbird"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41C4D1996B81CB20"]
+			description: [
+				"Used to keep hummingbirds in place when it contains water or sugar."
+				""
+				"Hummingbird pollination becomes better with a feeder."
+			]
+			id: "51B7D1B22D45AFE2"
+			shape: "rsquare"
+			tasks: [{
+				id: "1CF02211D922EF9C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:hummingbird_feeder"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Primates who can be found in jungle biomes. When provoked, they will defend themselves by throwing rocks."
+				""
+				"Can be tamed using bananas. They have the same three commands as bald eagles. Healed using eggs."
+				""
+				"Like with dragons, shift + right click lets you put the monkey on your shoulder. While mounted, the monkeys help you by throwing cobblestone at your enemies. Sneak to remove."
+			]
+			id: "31BC99E933E863DE"
+			rewards: [
+				{
+					count: 8
+					id: "54B4F048CCA4B3C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:egg"
+					}
+					type: "item"
+				}
+				{
+					id: "703660637ED519CB"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:capuchin_monkey"
+					}
+				}
+				id: "30820A81814C4432"
+				observe_type: 5
+				timer: 0L
+				title: "Capuchin Monkey"
+				to_observe: "alexsmobs:capuchin_monkey"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31BC99E933E863DE"]
+			description: ["Can be given to your monkey to make their projectiles stronger."]
+			id: "782B309C36AEA759"
+			rewards: [{
+				count: 32
+				id: "09BA53240EDDB1D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:arrow"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "129370D010B1AE33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:ancient_dart"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Large, powerful primates who live in jungles. "
+				""
+				"Tamed easily using bananas."
+			]
+			id: "6703A6B64B9B9DE8"
+			rewards: [{
+				id: "1A1FEE5132D1F35A"
+				type: "custom"
+			}]
+			subtitle: "He's the leader of the pack"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:gorilla"
+					}
+				}
+				id: "04BDC8831814138E"
+				observe_type: 5
+				timer: 0L
+				title: "Gorilla"
+				to_observe: "alexsmobs:gorilla"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Large insects found in jungles. Do not step on or destroy their precious anthills, or else you'll be in for a fight."
+				""
+				"If you do destroy a colony, the queen leafcutter ant comes out to attack you."
+			]
+			id: "1B3989BD20DCF6F8"
+			rewards: [{
+				id: "0D6B2DB2B45C6B80"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:leafcutter_ant"
+					}
+				}
+				id: "0FD4004E9465F7BC"
+				observe_type: 5
+				timer: 0L
+				title: "Leafcutter Ant"
+				to_observe: "alexsmobs:leafcutter_ant"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"These huge lizards are found rarely on the edge of jungles or on sparse jungle islands. Most of the time, they are not doing much, but if they encounter another Komodo dragon, they will start to fight. "
+				""
+				"Usually, the outcome is inconclusive, but sometimes, especially if one of the Komodo dragons is weak or a baby, the stronger one will kill the other."
+				""
+				"They are very aggressive and will attack players with their venomous bite unless tamed with 64 rotten flesh. Once tamed, you can also ride them like a horse using a saddle."
+			]
+			id: "29089A51573B8D0B"
+			rewards: [{
+				id: "6E4BAA40B3615663"
+				type: "custom"
+			}]
+			subtitle: "It's poison in one bite"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:komodo_dragon"
+					}
+				}
+				id: "48DA4459A359372B"
+				observe_type: 5
+				timer: 0L
+				title: "Komodo Dragon"
+				to_observe: "alexsmobs:komodo_dragon"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29089A51573B8D0B"]
+			id: "466782C8CD6D0A3B"
+			rewards: [
+				{
+					id: "313B6C4BC00FDCCF"
+					type: "custom"
+				}
+				{
+					id: "41F2C82976241D58"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "14427CE3B232FDE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:komodo_spit"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["466782C8CD6D0A3B"]
+			description: ["Use these in place of awkward potions (with a cave centipede leg as ingredient) to make yourself Poison Resistance potions. I recommend bringing these to your fight against the Arachnarch."]
+			id: "10F4421FBAF0BD45"
+			rewards: [
+				{
+					id: "41D1413BBF7ED496"
+					type: "custom"
+				}
+				{
+					id: "1770E64BC22B7E81"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4107743AE17435AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:komodo_spit_bottle"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["10F4421FBAF0BD45"]
+			id: "6319364C7E399383"
+			rewards: [
+				{
+					id: "4E700BB86F647A0B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "42B87F461B2B4E05"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Get vaccinated"
+			tasks: [{
+				id: "7821E95C1C5CCD15"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:poison_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"These predators can be found in bamboo jungles and, for some bizarre reason, Cherry Groves. When tigers see a player, they will violently and aggressively jump at them, scaring the player's soul so much that they can't move. Then, the tigers will rip the player apart with their claws."
+				""
+				"If you kill one of these endangered animals, they will drop nothing, and you will gain the guilt of killing a majestic tiger."
+			]
+			id: "6740672CC296E9A7"
+			rewards: [{
+				id: "457DBA80F0834BC8"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:tiger"
+					}
+				}
+				id: "0CF8AB6E1DC28729"
+				observe_type: 5
+				timer: 0L
+				title: "Tiger"
+				to_observe: "alexsmobs:tiger"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Toucans can plant saplings if you give them an apple or banana. I'm pretty sure this is a reference to fruit loops but it could just be the fact toucans also like fruit."
+				""
+				"Giving a toucan a golden apple will transform it into a golden toucan, increasing the amount and speed toucans plant saplings if given fruit."
+				""
+				"If given an Enchanted golden apple the toucan will permanently plant saplings without end."
+			]
+			id: "02A062BE1D7A0A57"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:toucan"
+					}
+				}
+				id: "6BB434ED10CDE5AC"
+				observe_type: 5
+				timer: 0L
+				title: "Toucan"
+				to_observe: "alexsmobs:toucan"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			description: ["These guys have a very long nose to sniff dirt in their nose."]
+			id: "43AB0A64C5DB32B6"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:anteater"
+					}
+				}
+				id: "484C85C03D2EE237"
+				observe_type: 5
+				timer: 0L
+				title: "Anteater"
+				to_observe: "alexsmobs:anteater"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"These monkeys are found in tropical biomes close to banana trees. They are quite playful and social animals."
+				""
+				"If a mob is hit by a banana arrow, all chimpanzees will attack that mob."
+			]
+			id: "70FCA6E70E6E6EE3"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "neapolitan:chimpanzee"
+					}
+				}
+				id: "1C2D74E36C2C86F8"
+				observe_type: 5
+				timer: 0L
+				title: "Chimpanzee"
+				to_observe: "neapolitan:chimpanzee"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			description: ["This small yellow spider is occasionally found when harvesting banana trees. They act like normal spiders but give the slipping effect to those they hit."]
+			id: "056BEE6A38EAE8F8"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "neapolitan:plantain_spider"
+					}
+				}
+				id: "49F0E812DFEE0967"
+				observe_type: 5
+				timer: 0L
+				title: "Plantain Spider"
+				to_observe: "neapolitan:plantain_spider"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"These carnivorous plants hide in their ferns until something comes too close. When the opportunity arises, the foliaath never fails to take it."
+				""
+				"Foliaaths will eat anything, even other hostile mobs. So don't feel like you're being unfairly targeted."
+				""
+				"If you take one down, you can get a seed which you can grow your own foliaath with."
+				""
+				"Be warned though: there's no way to tame a foliaath, so foliaaths you grow are still hostile!"
+			]
+			id: "7B8FED88085D1325"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "mowziesmobs:foliaath"
+					}
+				}
+				id: "078E2BE99C816EE2"
+				observe_type: 5
+				timer: 0L
+				title: "Foliaath"
+				to_observe: "mowziesmobs:foliaath"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+	]
+	title: "Hot Biomes"
+}

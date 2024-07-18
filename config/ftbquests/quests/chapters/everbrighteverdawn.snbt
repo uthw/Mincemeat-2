@@ -1,0 +1,619 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everbrighteverdawn"
+	group: "2E16C686F58ACDBC"
+	icon: {
+		Count: 1
+		id: "blue_skies:zeal_lighter"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "115E4B3B45033221"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These purple foxes are found all over the Eversawn, most commonly spawning in patches of tall grass."
+				""
+				"They don't do much and behave just like the base game foxes. If you kill one of these foxes, they will drop their pelts, which can be made into a variety of items."
+				""
+				"The coolest of these items is the Bag of Spoils, which can hold five items and acts like an early-game bundle. To use this bag most effectively, putting five backpacks inside is the best strategy."
+			]
+			id: "127D1F0F30FBB1B0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:cosmic_fox"
+					}
+				}
+				id: "142AC75A14ABCBBD"
+				observe_type: 5
+				timer: 0L
+				title: "Cosmic Fox"
+				to_observe: "blue_skies:cosmic_fox"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"This flatbed truck-looking frog can be found in swamps in the Everdawn. Most of the time, it attacks insect mobs and hops around."
+				""
+				"You can tame this large frog to ride it. While riding, it jumps very high whenever you move, which can be useful for dodging most enemies."
+			]
+			id: "2CE5745D958F6A7A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:crogre"
+					}
+				}
+				id: "79484ABDA7FB33FE"
+				observe_type: 5
+				timer: 0L
+				title: "Crogre"
+				to_observe: "blue_skies:crogre"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These white camels can be found in shady parts of the Everdawn. They mostly hang out and don’t do much, but you can tame them with scale fruit."
+				""
+				"Taming these camels allows you to ride one. They act like a donkey that can't jump, but you can attach a chest and use a camel saddle for riding."
+			]
+			id: "7FDFF6E2D641183E"
+			subtitle: "The original camel"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:crystal_camel"
+					}
+				}
+				id: "76D5806F57A0E3A0"
+				observe_type: 5
+				timer: 0L
+				title: "Crystal Camel"
+				to_observe: "blue_skies:crystal_camel"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These annoying flaming bugs fly around, pestering anyone nearby."
+				""
+				"They can be quite a nuisance, especially in groups, so it's advisable to avoid them. If you must engage, use a shield after every hit to help guard against their attacks."
+			]
+			id: "05BBCBB220FED2D0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:emberback"
+					}
+				}
+				id: "423F96B087A6632E"
+				observe_type: 5
+				timer: 0L
+				title: "Emberback"
+				to_observe: "blue_skies:emberback"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These mutated bugs can be found in caves underground and will attempt to rush the player down."
+				""
+				"They have a lot of range and don’t do much damage per hit, but they attack rapidly. The best way to defeat these pests is by using a spear while walking toward them. This prevents them from rushing at you and getting a hit in."
+			]
+			id: "4B3F1C80DDAD2E93"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:infested_swarmer"
+					}
+				}
+				id: "457E2666684D5608"
+				observe_type: 5
+				timer: 0L
+				title: "Infested Swarmer"
+				to_observe: "blue_skies:infested_swarmer"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These common Austrian flies are found in the Everdawn and will chase the player."
+				""
+				"They are not as difficult as some other enemies to deal with and don’t have a complex strategy. The simplest way to fight them is just to hit them with a sword."
+			]
+			id: "3EDA894C5B9CC974"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:nyctofly"
+					}
+				}
+				id: "08D979C50D91BFAD"
+				observe_type: 5
+				timer: 0L
+				title: "Nyctofly"
+				to_observe: "blue_skies:nyctofly"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These creatures resemble the police of the Everdawn, which aligns with their personality."
+				""
+				"Most of the time, they do nothing unless you attack them, at which point they will come after you."
+				""
+				"If you defeat one of these cops, they will drop a monster tail, a basic food item that can be cooked for quick and easy nourishment."
+			]
+			id: "54D2A506DD2C4E33"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:shade_monitor"
+					}
+				}
+				id: "64B506E266000778"
+				observe_type: 5
+				timer: 0L
+				title: "Shade Monitor"
+				to_observe: "blue_skies:shade_monitor"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These green spiders can be found in most grassy areas of the Everdawn. They attack by spitting toxic saliva at players or using their poisonous bite if you get too close or pull up your shield."
+				""
+				"The main strategy for fighting these green spiders is to treat them like skeletons. Dodge away after you hit them to avoid their attacks."
+			]
+			id: "2DD363FC4F0BDCCC"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:venom_spider"
+					}
+				}
+				id: "291EDB413B00A76D"
+				observe_type: 5
+				timer: 0L
+				title: "Venom Spider"
+				to_observe: "blue_skies:venom_spider"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			id: "6FC8AA8B03110B1F"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:nested_spider"
+					}
+				}
+				id: "056C53593F68E826"
+				observe_type: 5
+				timer: 0L
+				title: "Nested Spider"
+				to_observe: "blue_skies:nested_spider"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: ["These bugs don't attack unlike the other bugs in the everdawn and just fly around in swamps."]
+			id: "7D8161604E78E176"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:firefly"
+					}
+				}
+				id: "20B09AD5592DADBD"
+				observe_type: 5
+				timer: 0L
+				title: "Firefly"
+				to_observe: "blue_skies:firefly"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: ["These blue zombies are just regular zombies, but icy. They can be killed very quickly—faster than with swords—using a pickaxe. After they die, their souls emerge, which can be killed for star flares that act like brighter torches."]
+			id: "6FD9C74699D47069"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:armored_frost_spirit"
+					}
+				}
+				id: "229CC78B6FBA4347"
+				observe_type: 5
+				timer: 0L
+				title: "Armored Frost Spirit"
+				to_observe: "blue_skies:armored_frost_spirit"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These blue buffalo roam in groups of 1 to 8, wandering aimlessly in open fields. When in groups, they act together as if they were one mob. If one is attacked, all buffalo will fight back, and if one moves up a hill, the others will follow."
+				""
+				"If you kill these blue buffalo, they will drop some meat that can be cooked, along with a horn that can be turned into bone meal."
+			]
+			id: "2372BF3D4E53BBFE"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:azulfo"
+					}
+				}
+				id: "698FCDF74A969D19"
+				observe_type: 5
+				timer: 0L
+				title: "Azulfo"
+				to_observe: "blue_skies:azulfo"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: ["These icey rhinos are like the much more common armored frost spirit, but are much stronger with their superior strength and range. Like their humanoid relatives, they are killed much more quickly by pickaxe strikes."]
+			id: "366E491862043D2D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:crynocerous"
+					}
+				}
+				id: "48894FD7073B95B4"
+				observe_type: 5
+				timer: 0L
+				title: "Crynocerous"
+				to_observe: "blue_skies:crynocerous"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"This ice tiger is found at high altitudes in the icy areas of the everbright. It will attack any player it encounters. The tiger attacks by circling around and then diving in to bite the player."
+				""
+				"It can be defeated fairly easily with a spear or fast weapons like the Pyrope sword. If you kill it, it will drop municipal monkfish, which can be cooked, along with leather."
+			]
+			id: "6C1D05C8070C8103"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:diophyde_prowler"
+					}
+				}
+				id: "186D2320B7819908"
+				observe_type: 5
+				timer: 0L
+				title: "Diophyde Prowler"
+				to_observe: "blue_skies:diophyde_prowler"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"This is just a polar bear, though it seems like an unnecessary addition for the everbright. The unique aspect of this bear is its drops."
+				""
+				"When killed, these polar bears have a chance to drop a soul fragment, which can be crafted into a soul pearl that acts like a mega torch. Soul fragments can also be used with the everdawn's alchemy table to create soul sand and soul soil."
+			]
+			id: "3297286CC43415CF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:polargeist"
+					}
+				}
+				id: "57C82D6716D5BB55"
+				observe_type: 5
+				timer: 0L
+				title: "Polargeist"
+				to_observe: "blue_skies:polargeist"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"Wanted to live out your dreams of being Santa Claus? Well, too bad! Instead, you get this horse reskin."
+				""
+				"This isn’t just any horse; it can be tamed with pine fruit and ridden like a horse at the speed of a horse, jumping up to 2 blocks high."
+				""
+				"If you kill this not-a-horse, you'll get venison, which is decent food that can be cooked."
+			]
+			id: "4C9F799ACD53BEA5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:reindeer"
+					}
+				}
+				id: "327045ED5546441C"
+				observe_type: 5
+				timer: 0L
+				title: "Reindeer"
+				to_observe: "blue_skies:reindeer"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"This clam can be found on the ocean floor, not doing much. You can pinch it to open its mouth and take its pearl."
+				""
+				"This pearl can be used to make a soul pearl, which acts like a mega torch."
+			]
+			id: "77199ADC583B3270"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:seclam"
+					}
+				}
+				id: "58CFD17C5CC67B62"
+				observe_type: 5
+				timer: 0L
+				title: "Seclam"
+				to_observe: "blue_skies:seclam"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"When it spots a player, this mob will hit the player and then run away. How rude."
+				""
+				"It does nothing else."
+			]
+			id: "1AB7FE827C637068"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:shrumpty"
+					}
+				}
+				id: "28FD0F0A479EE160"
+				observe_type: 5
+				timer: 0L
+				title: "Shrumpty"
+				to_observe: "blue_skies:shrumpty"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: ["They do nothing."]
+			id: "4E510CAAE4949A6C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:snow_owl"
+					}
+				}
+				id: "648CC74BE5036BFD"
+				observe_type: 5
+				timer: 0L
+				title: "Snow Owl"
+				to_observe: "blue_skies:snow_owl"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: ["Just like Overworld sheep, they can be sheared for wool or killed for wool and mutton."]
+			id: "2B8972B8BC16806C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:stardust_ram"
+					}
+				}
+				id: "0408D8E4111D6A06"
+				observe_type: 5
+				timer: 0L
+				title: "Stardust Ram"
+				to_observe: "blue_skies:stardust_ram"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These crabs can be found in the water or on beaches, where they will chase you at high speed."
+				""
+				"On land, they run at you and hit you like a fast zombie. However, in water, they behave differently, mostly floating and occasionally dashing at you."
+			]
+			id: "33C6CA49283B4FDD"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:whistleshell_crab"
+					}
+				}
+				id: "45CEB59546104668"
+				observe_type: 5
+				timer: 0L
+				title: "Whistleshell Crab"
+				to_observe: "blue_skies:whiteshell_crab"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: ["These jellyfish spawn in the ocean and will inflict you with a dose of their poison if you get too close."]
+			id: "72BED5DFAD61AFCF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:jelly_drifter"
+					}
+				}
+				id: "149F0FB5757A3184"
+				observe_type: 5
+				timer: 0L
+				title: "Jelly Drifter"
+				to_observe: "blue_skies:jelly_drifter"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: ["This pile of green stone bricks will attack anything that it sees in a nature dungeon. They can be dealt with quickly using pickaxes."]
+			id: "328559D368906B17"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:stonelet"
+					}
+				}
+				id: "79A816C2D37A5F6E"
+				observe_type: 5
+				timer: 0L
+				title: "Stonelet"
+				to_observe: "blue_skies:stonelet"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			description: [
+				"These golems are &osummoned&r by the Summoner in combat and have two different variants."
+				""
+				"Green golems shoot arrows while blue ones prefer melee attacks."
+				""
+				"It's best to prioritize killing blue golems since their attacks are harder to dodge and can be more overwhelming if too many are alive at once."
+			]
+			id: "40D7143A262B7C78"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:artificial_golem"
+					}
+				}
+				id: "36B0A0BDA9EEB0D3"
+				observe_type: 5
+				timer: 0L
+				title: "Artificial Golem"
+				to_observe: "blue_skies:artificial_golem"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+	]
+	title: "Everbright/Everdawn"
+}

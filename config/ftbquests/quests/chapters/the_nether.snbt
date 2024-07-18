@@ -1,0 +1,843 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "2E16C686F58ACDBC"
+	icon: {
+		Count: 1
+		id: "minecraft:flint_and_steel"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5D3A71291C0AC0C3"
+	images: [{
+		height: 1.0d
+		image: "minecraft:textures/block/chorus_flower.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 6.5d
+		y: 1.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["Passive mobs who feed on the undead. Spawns almost everywhere in the overworld."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:fly"
+				}
+			}
+			id: "13734115FC2A440E"
+			rewards: [{
+				id: "2EE3179065EC75D8"
+				type: "custom"
+			}]
+			subtitle: "A contaminant!"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_fly"
+				}
+				id: "2E35EA68AECA3D07"
+				observe_type: 5
+				timer: 0L
+				title: "Fly"
+				to_observe: "alexsmobs:fly"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Small, harmless amphibians that live in the lava pools of basalt deltas."
+				""
+				"They tolerate water and lava but not land, where they will helplessly flop around (they don't suffocate)."
+			]
+			id: "0AF7A2FFBEF1FB0B"
+			rewards: [{
+				id: "47213A8E81F474D2"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:stradpole"
+					}
+				}
+				id: "731B25CD6C03C2C8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:stradpole"
+				type: "observation"
+			}]
+			title: "Stradpole"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13734115FC2A440E"
+				"086E8054D516AFF4"
+			]
+			description: [
+				"No one likes mosquitoes; they fly around and suck your blood. After they suck your blood, they spit it at you and other things like a horrible prank. "
+				""
+				"If they have to take your blood, it would be nice if they donated it to a good cause, but no, these selfish flying pests just take it all for themselves and waste it."
+				""
+				"When you do kill these mosquitoes, they will drop a sac full of the blood they sucked from you or other things, and their proboscis (nose), which can be made into a blood sprayer that shoots out blood and consumes blood sacs as ammo. "
+				""
+				"Just saying, if you use this weapon, you are wasting blood instead of donating it to a hospital."
+			]
+			id: "03CA9C382BC1DC46"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:crimson_mosquito"
+					}
+				}
+				id: "354415DA83317A98"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:crimson_mosquito"
+				type: "observation"
+			}]
+			title: "Crimson Mosquito"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"03CA9C382BC1DC46"
+				"086E8054D516AFF4"
+			]
+			description: ["Guns that fire blood, like the crimson mosquito's attack. Consumes blood sacs as ammunition. The blood doesn't do that much damage."]
+			id: "10C650E7B6573865"
+			shape: "rsquare"
+			tasks: [{
+				id: "249FAE0FD0B41F67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:blood_sprayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"03CA9C382BC1DC46"
+				"086E8054D516AFF4"
+			]
+			id: "5F07A49042403BA6"
+			shape: "rsquare"
+			tasks: [{
+				id: "364E06236657DFE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:mosquito_proboscis"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Crafting ingredient useful for many things related to Alex's Mobs. Here's how to obtain them:"
+				"Killing flies, platypus digging, sugar glider foraging, trader elephants, and anteater raiding."
+				"You can use maggots to heal warped toads, crafting crimson mosquito larva, and breed mobs like blue jays, capuchin monkeys, and roadrunners."
+			]
+			id: "3CEDDC6B2F78DF73"
+			rewards: [{
+				id: "78C03FA4DE49BCB3"
+				type: "custom"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "01E851529E210B1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:maggot"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F07A49042403BA6"
+				"086E8054D516AFF4"
+			]
+			id: "4CD893C31D18B2A7"
+			shape: "rsquare"
+			tasks: [{
+				id: "74CEBFDE18CA42C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:mosquito_larva"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0AF7A2FFBEF1FB0B"
+				"4CD893C31D18B2A7"
+				"086E8054D516AFF4"
+			]
+			description: ["Feed a Stradpole Crimson Mosquito Larvae to turn it into a Straddler"]
+			id: "74A17975D32772B9"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/stradpole_feed"
+				criterion: ""
+				id: "4E45C5FA54D370B8"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Warped toads have many adaptations that allow them to survive in a variety of environments. Therefore, they can walk on land and swim in both water and lava."
+				""
+				"Tamed using crimson mosquito larvae. Healed using maggots."
+			]
+			id: "1D30B8B637D5218D"
+			rewards: [{
+				id: "0B7D6A181DB51989"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:warped_toad"
+					}
+				}
+				id: "47165BEEBDBC332D"
+				observe_type: 5
+				timer: 0L
+				title: "Warped Toad"
+				to_observe: "alexsmobs:warped_toad"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"I'm glad the bone serpent found a new job in Minecraft; I heard it is stressful working at Terraria."
+				""
+				"These sea serpents that live in lava are identical to their ocean-based relatives, even down to dropping their teeth when they die."
+				""
+				"However, the teeth the bone serpents drop are different from those of the sea serpents. Instead, the bone serpent's teeth can be put in a brewing stand to create a Potion of Lava Vision, which can be helpful for finding netherite at the bottom of lava oceans."
+			]
+			id: "62C136E530736DDB"
+			rewards: [{
+				id: "1BC8D36D32159B97"
+				type: "custom"
+			}]
+			subtitle: "At least they can't fly"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:bone_serpent"
+					}
+				}
+				id: "760D9ADC32D41058"
+				observe_type: 5
+				timer: 0L
+				title: "Bone Serpent"
+				to_observe: "alexsmobs:bone_serpent"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"62C136E530736DDB"
+				"086E8054D516AFF4"
+			]
+			description: ["Hard teeth from a Bone Serpent. Used to brew Lava Vision potions and craft the Tide Trident."]
+			id: "0B576C5033CDFDA0"
+			rewards: [
+				{
+					count: 2
+					id: "29AA3A9C9C680445"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "539EDD7D800A8ADE"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "37AAA76559E4A896"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:bone_serpent_tooth"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"These vultures, whose fur has the same coloration as a human's grey hair covered in water, are found on top of and near Nether fossils. Most of the time, they will fly around hunting for prey to eat, unlike most vultures that actually eat dead things. I guess these vultures are just extra or something."
+				""
+				"When they find something they want to eat, they will start to spin around their prey as if trying to land a commercial airliner at a busy airport but can't seem to get a spot. After a while, they will dive down and take a bite out of their target."
+				""
+				"If you kill one of these birds, they will drop some bones and coal, most likely from eating burnt things. They will also drop their soul heart if they took at least five bites out of you first. Sadly, their heart does not do much and only allows you to make a Potion of Soulsteel, which lets you heal when you hit something, kind of like reverse thorns."
+			]
+			id: "210FE9CF8396FDED"
+			rewards: [{
+				id: "3DB5CB3C1CF8EFA8"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/soul_vulture"
+				criterion: ""
+				id: "4F479637C5F43F54"
+				title: "Soul Vulture"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"These bears, which for some reason enjoy living in a place with the word \"waste\" in it, can be found on the ceiling. "
+				""
+				"They have the astonishing ability to break the world record for vertical jump height, being able to extremely rarely jump over 100 blocks high to reach the ceiling. "
+				""
+				"The only thing stopping these bears from jumping is your PC, which may cause them to disappear when they go too far away after making one of these incredible leaps."
+				""
+				"In addition to jumping, these bears will also drop down. After they land, they will viciously rip you apart with their claws, or they might unfortunately drop into lava."
+				""
+				"Upon dying, they will drop one of their claws, which can be made into flint and steel, a tendon whip, or even a Potion of Clinging. This potion allows you to walk on ceilings, at least until it runs out—ideally, avoid using it above lava."
+			]
+			id: "3A9C6B51E542F0C6"
+			rewards: [{
+				id: "4F18D04B3D8D7D33"
+				type: "custom"
+			}]
+			subtitle: "It's not real"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:dropbear"
+					}
+				}
+				id: "4054F7C03C8327A9"
+				observe_type: 0
+				timer: 0L
+				title: "Dropbear"
+				to_observe: "alexsmobs:dropbear"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["Hostile mobs found in Basalt Deltas that launch stradpoles to deal damage."]
+			id: "4EC428853B525545"
+			rewards: [{
+				id: "54B5574C9F636F50"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/straddler"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:straddler"
+					}
+				}
+				id: "51CDFBB75EBD7B1F"
+				title: "Straddler"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4EC428853B525545"
+				"086E8054D516AFF4"
+			]
+			description: [
+				"Crafted using straddlite (a rare drop from Straddlers) and netherite ingots."
+				""
+				"Place the Straddleboard and then ride it by right clicking. It can only be effectively ridden on lava."
+				""
+				"You can also jump while on a straddleboard. They can additionally receive a variety of enchantments."
+			]
+			id: "0FCF9E8A5D30560C"
+			tasks: [{
+				id: "341E1A11337D83A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:straddleboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"These massive turtles just swim around in the lava hanging out."
+				""
+				"They can escort you to wherever you need to be in the Nether by giving them Straddlite Saddles and Straddlite Tack."
+			]
+			id: "2AB2D357039E0497"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:laviathan"
+					}
+				}
+				id: "0037D2ADC81CE496"
+				observe_type: 5
+				timer: 0L
+				title: "Laviathan"
+				to_observe: "alexsmobs:laviathan"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["Don't be deceived—these are not actually ghosts; they're just zombies in ghost costumes. If you kill one of these trick-or-treaters, they will drop a soul bead, which acts like an Eye of Ender but is used for locating Nether fortresses."]
+			id: "6D93107A4AA2D868"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "quark:wraith"
+					}
+				}
+				id: "45371617D4948997"
+				observe_type: 5
+				timer: 0L
+				title: "Wraith (Quark)"
+				to_observe: "quark:wraith"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"These Nether dogs behave like normal dogs but have two unique traits. First, they are so hot that they will set you on fire if you get too close. Second, they can be tamed with coral instead of bones."
+				""
+				"Once tamed, one fun thing you can do is place your Nether dog on top of a furnace, which will make the furnace operate faster."
+			]
+			id: "1E33CBA3A1A2873C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "quark:foxhound"
+					}
+				}
+				id: "51FC4424C2739F77"
+				observe_type: 5
+				timer: 0L
+				title: "Foxhound"
+				to_observe: "quark:foxhound"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"This large, armored wither skeleton can be found around ancient battleground ruins in the Nether. It's a formidable foe, with high health and dealing significant damage per hit."
+				""
+				"The best strategy for defeating this skeleton is to strike with a high-damage weapon and then retreat before returning for another hit. This approach is crucial, as he can disable your shield with just one or two strikes and may follow up with multiple swings in a row."
+				""
+				"Upon defeat, he drops cinder essence and netherite scrap, with a rare chance to obtain the decrepit flameberge. This great sword deals 11 damage and grants an additional 5 armor points when equipped."
+			]
+			id: "3F7EE8543C47EE95"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "irons_spellbooks:citadel_keeper"
+					}
+				}
+				id: "2CC88A97F2DFBB2E"
+				observe_type: 5
+				timer: 0L
+				title: "Ancient Knight"
+				to_observe: "irons_spellbooks:citadel_keeper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"These guys are always using their anti Gravity cheats so they just always fly upwards into the sky."
+				""
+				"You can ride one of these and tame them by riding them with a saddle And using a chorus fruit on a stick. While riding they will also allow you to also abuse their anti-gravity cheats to join the fun."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:endergrade"
+				}
+			}
+			id: "5CAB8650497D31C3"
+			rewards: [{
+				id: "5076B92D0F00C6A3"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_endergrade"
+				}
+				id: "03E01C3B35968983"
+				observe_type: 0
+				timer: 0L
+				title: "Endergrade"
+				to_observe: "alexsmobs:endergrade"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"A relative of the phantom that lives in the End. You may find them flying around in the sky."
+				""
+				"You can hang onto it using a lead. Spectres are attracted to players holding Soul Hearts."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:spectre"
+				}
+			}
+			id: "3C4BAED281BDDC5E"
+			rewards: [{
+				id: "3D3EE5E0D52A0F85"
+				type: "custom"
+			}]
+			subtitle: "Who you gonna call?"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_spectre"
+				}
+				id: "6F3986BA24C21D75"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:spectre"
+				type: "observation"
+			}]
+			title: "Spectre"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"These huge viruses float around in the End islands or appear from people with ender flu."
+				""
+				"They don’t like spreading disease, so they will go after anyone with ender flu and eliminate them, believing this is a way of quarantining the virus, but it’s actually just murder."
+				""
+				"If you defeat an Enderdirophage, they will drop a capsid, which is just their head."
+				""
+				"They have some very strange abilities, such as being able to create rockets that produce DNA strands and transporting items upwards if stacked on top, similar to a hopper pointing upwards."
+			]
+			id: "346A96A8506C4B32"
+			rewards: [{
+				id: "572EB01B810FF390"
+				type: "custom"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+				id: "24A2EC6026353E8D"
+				title: "Enderiophage"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"Strange slime relatives found in End Cities. They are capable of copying whatever helmet or weapon you're using."
+				""
+				"They can also use your food to heal themselves, but can only do this if they see you holding food."
+			]
+			id: "1DFCDE2D39E93165"
+			rewards: [{
+				id: "0325981DFB452BCE"
+				type: "custom"
+			}]
+			subtitle: "Mimic tear ashes are OP!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:mimicube"
+					}
+				}
+				id: "68AF9386C911D723"
+				observe_type: 5
+				timer: 0L
+				title: "Mimicube"
+				to_observe: "alexsmobs:mimicube"
+				type: "observation"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1DFCDE2D39E93165"
+				"112C59D69077AED4"
+			]
+			description: ["Substance that powers Mimicubes. By surrounding an item with 8 mimicream, it will duplicate it. The item in question must be able to lose durability."]
+			id: "0B42EDCB9E69FBB7"
+			shape: "rsquare"
+			subtitle: "Also try Play-doh"
+			tasks: [{
+				id: "1461C3D8A8A2FAFE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:mimicream"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: ["These fish are dirty criminals; they constantly break the laws of physics and swim in the sky."]
+			id: "794D5A15807A2FC6"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:cosmic_cod"
+					}
+				}
+				id: "6B8A316E4E5E075C"
+				observe_type: 5
+				timer: 0L
+				title: "Cosmic Cod"
+				to_observe: "alexsmobs:cosmic_cod"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"This strange, elephant-looking, fish-bird Pokémon-sounding creature spawns in the outer end islands and will eat comic cod, which are minding their own business."
+				""
+				"They can be tamed with comic cod and will dive down to save you if you fall into the void."
+				""
+				"&7&oThe latter function is not all too useful since Forgiving Void exists. Still cool?"
+			]
+			id: "6FC2E6FB5C54D578"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:cosmaw"
+					}
+				}
+				id: "1F6EBC66CC140854"
+				observe_type: 5
+				timer: 0L
+				title: "Cosmaw"
+				to_observe: "alexsmobs:cosmaw"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"If you found this mob, congratulations! You most likely left your entire world behind to go to an area where this mob spawns, which is 30,000,000 blocks away. You had to progress through the entire game, defeat a pesky Ender Dragon boss, and obtain an obscure item by using mutation in a capsid."
+				""
+				"Your reward is being shot with a laser that deals as much damage as the /kill command. If you defeat this alien machine, it will drop Farseer Arms, which can be used for the Transmutation Table."
+				""
+				"{@pagebreak}"
+				"&oThe Transmutation Table will first display only certain items specified in the config, but will eventually start offering other items that have been previously transmuted. The most efficient way to make items start appearing in the Transmutation Table is by transmuting three items at a time. Only transmuting items in stacks of one will not make that item appear in the Transmutation Table, and stacks of two, as well as stack sizes four to sixty-four, slightly decrease the chance of seeing said item (per item transmuted) compared to stacks of three. However, stack sizes of two result in more random rolls, increasing the chance that you will see the item, even if the individual chance is lower."
+				""
+				"*bottom line from Alex's Mobs Unofficial Wiki"
+			]
+			id: "2EB51A011C248E18"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:farseer"
+					}
+				}
+				id: "08C6AE262D4187AF"
+				observe_type: 5
+				timer: 0L
+				title: "Farseer"
+				to_observe: "alexsmobs:farseer"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"These purple, bioluminescent spiders can be found in ruined citadels. They are fairly easy to deal with due to their low health."
+				""
+				"If you have trouble hitting them, you can use a greatsword for its wide sweeping attacks."
+			]
+			id: "4F2062EC8E9A31D1"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:endermaptera"
+					}
+				}
+				id: "3F0EF73650C77E9B"
+				observe_type: 5
+				timer: 0L
+				title: "Endermaptera"
+				to_observe: "cataclysm:endermaptera"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	title: "Nether and End"
+}

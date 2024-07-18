@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cold_biomes"
+	group: "2E16C686F58ACDBC"
+	icon: "wilderwild:alba_glory_of_the_snow"
+	id: "1949268E8BF9EBB7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Large mammals found in snowy biomes. Can be seen fighting amongst themselves."
+				""
+				"Moose shed their antlers every few in-game days."
+			]
+			id: "00E47A607130B3D0"
+			rewards: [{
+				id: "5CC4C0704563082E"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:moose"
+					}
+				}
+				id: "0CE0AB9E302729F1"
+				observe_type: 5
+				timer: 0L
+				title: "Moose"
+				to_observe: "alexsmobs:moose"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00E47A607130B3D0"]
+			id: "07BD13E01BF98CBD"
+			rewards: [{
+				id: "6A2B41AD7CAD1074"
+				type: "custom"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6BBA81B3E12D7773"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:moose_antler"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07BD13E01BF98CBD"]
+			description: ["Very protective early-game armor that provides knockback resistance. If you can believe it, this was actually nerfed by 1 point of defense for the modpack."]
+			id: "3ACBD44E6D604CE5"
+			shape: "rsquare"
+			tasks: [{
+				id: "21AE9E5287305402"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:moose_headgear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["Predatory felines that hunt many different species. Their three activities are sitting, resting, and hunting."]
+			id: "7F56EC1E532926FD"
+			rewards: [{
+				id: "72552F2CB8FDF9E4"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:snow_leopard"
+					}
+				}
+				id: "49F2301F2B79B4E7"
+				observe_type: 5
+				timer: 0L
+				title: "Snow Leopard"
+				to_observe: "alexsmobs:snow_leopard"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This wannabe Pokémon is upset that he never became one, but Ho-Oh did. Because of this, he is always trying to one-up Ho-Oh. While Ho-Oh flies over valleys, the Sunbird believes he is better, flying high above mountains in the sky. Ho-Oh respects the dead; however, the Sunbird will intentionally cause chaos and eliminate all undead mobs."
+				""
+				"While Ho-Oh flies around aimlessly, the Sunbird orbits beacons in the sky and blesses flying animals and people using Elytras with the power to avoid fall damage. However, if you try to insult him by slapping him, he will curse you and make you fall up to three times faster, potentially leading to an instant demise."
+			]
+			id: "36EE68A3E4196075"
+			rewards: [
+				{
+					count: 3
+					id: "44A512BB8FC089B7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5274D11EF44A55CC"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:sunbird"
+					}
+				}
+				id: "239868F2185A315F"
+				observe_type: 5
+				timer: 0L
+				title: "Sunbird"
+				to_observe: "alexsmobs:sunbird"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Banana slugs are just slipping and sliding around and having less notable features than silverfish."
+				""
+				"These little buggers are very deceitful and make you think that they have something to do with bananas. But they don't, they are just yellow and like living in cold places like taigas. "
+				""
+				"Honestly these slugs I think are Con artists or freeloaders since they take the likeness and name of bananas and just steal it."
+			]
+			id: "3A54565B924225CD"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:banana_slug"
+					}
+				}
+				id: "012AEC866B426FCE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:banana_slug"
+				type: "observation"
+			}]
+			title: "Banana Slug"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"These guys are basically fat sheep. The main difference from sheep to bison is that bison drop beef instead of mutton and bison fur instead of wool."
+				""
+				"If you want to collect bison fur, look for them in colder biomes since they can be sheared for more fur if they have their winter coat."
+			]
+			id: "47CEDF3FCF94819B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:bison"
+					}
+				}
+				id: "1666A9FD2C5BF347"
+				observe_type: 5
+				timer: 0L
+				title: "Bison"
+				to_observe: "alexsmobs:bison"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"These things? What even is this creature? It's kind of like a horse and kind of like a dragon. The closest comparison is a land dragon, which would mean it's like a Komodo dragon, but it looks nothing like one. So, I'll call it \"Icy Quadruped\" since it can walk on water."
+				""
+				"The Icy Quadruped is not as friendly as it might seem and will actually run at people, shoot spikes of ice in their face, and bite unsuspecting targets. "
+				""
+				"This beast lives in the mountains—not the normal windy ones or large hills, but the frigid ones that feature in documentaries about how hard they are to climb."
+				""
+				"If you show the Icy Quadruped who's boss and kill it, especially when it is covered in spikes, it will drop its horn and a lot of ice. The horns can be made into a Froststalker Helmet, which makes all icy quadrupeds not fight you anymore. Plus, it looks cool."
+			]
+			id: "681A6F1FF0D6F5A8"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:froststalker"
+					}
+				}
+				id: "6AB8622F784E5572"
+				observe_type: 5
+				timer: 0L
+				title: "Froststalker"
+				to_observe: "alexsmobs:froststalker"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"These massive pigs can be found in ice spikes and seem to have some sort of balding on their backs or a waxing prank gone wrong. These giant pigs have a very high amount of HP for the type of mob they are and drop pork chops when killed."
+				""
+				"The most interesting part is their evolution line. They start out as a Tuskin in the ice spikes, but you can evolve them by bringing them to the Nether, where they will become a Hoglin. Then, you can bring them back to the Overworld to transform them into a zombified Hoglin."
+			]
+			id: "066826F00ACD0F70"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:tusklin"
+					}
+				}
+				id: "781349C923C2EB66"
+				observe_type: 5
+				timer: 0L
+				title: "Tusklin"
+				to_observe: "alexsmobs:tuskin"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"These blazes, which are no longer blazing, spawn in cold biomes and will shoot ice balls at you."
+				""
+				"To defeat this blaze, which is actually not a traditional blaze, it's best to use a ranged weapon or a motor grappling hook to pull it closer."
+				""
+				"When killed, they drop a Blizz Cube, which can be crafted into various items. One of the cooler-looking items is the Ore Vein Finder."
+			]
+			id: "6F22199B6F48EA34"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "thermal:blizz"
+					}
+				}
+				id: "5B7E8D716BB6F218"
+				observe_type: 5
+				timer: 0L
+				to_observe: "thermal:blizz"
+				type: "observation"
+			}]
+			title: "Blizz"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"These 2023 mob vote rejects are found in frozen oceans or ice flats, sliding around on their bellies or swimming in the icy water."
+				""
+				"If you gather four penguins together, they create a structure similar to a beacon that grants regeneration."
+			]
+			id: "697E76E7720B3EC5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "ecologics:penguin"
+					}
+				}
+				id: "6E38FEE63794A9F3"
+				observe_type: 5
+				timer: 0L
+				title: "Penguin"
+				to_observe: "ecologics:penguin"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"This Wilden is more rare than the others since it's only found in cold biomes."
+				""
+				"When it, its spikes expand like a cat would with its claws. These spikes deal damage but with proper spacing can be avoided."
+				""
+				"The spikes dropped by the Guardian can create piercing arrows."
+			]
+			id: "1593F5EDDD4C4AD2"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "ars_nouveau:wilden_guardian"
+					}
+				}
+				id: "57ACAC4012EF9F27"
+				observe_type: 5
+				timer: 0L
+				title: "Wilden Defender"
+				to_observe: "ars_nouveau:wilden_guardian"
+				type: "observation"
+			}]
+			title: "Wilden Guardian"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"These green dragons fly around mountains and stony beaches and will attack any player who dares come close. They can dodge projectiles that come their way."
+				""
+				"They have two attacks: one in which they shoot a poisonous ball at you, and another where they divebomb you, which is unblockable and deals a lot of damage."
+				""
+				"To defeat nagas, you should shoot them with a ranged weapon, since they sometimes fail to dodge projectiles. They're especially vulnerable when they are inhaling for their poison attack."
+				""
+				"Nagas drop their teeth, which can make a variety of things including a dagger."
+			]
+			id: "2B72AC5BADC9DCFB"
+			tasks: [{
+				icon: "mowziesmobs:naga_fang"
+				id: "28AED5E016B2E685"
+				observe_type: 5
+				timer: 0L
+				title: "Naga"
+				to_observe: "mowziesmobs:naga"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+	title: "Cold Biomes"
+}

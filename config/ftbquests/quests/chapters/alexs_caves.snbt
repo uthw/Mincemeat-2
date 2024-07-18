@@ -1,0 +1,82 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_caves"
+	group: "2E16C686F58ACDBC"
+	icon: "alexscaves:cave_book"
+	id: "6877B56883BE0381"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["These fish don’t do much other than occasionally jumping out of acid pools. However, due to their toxic nature, eating one—even when cooked—will irradiate you, preventing HP regeneration."]
+			id: "7F101D376435DDC2"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:radgill"
+					}
+				}
+				id: "751678C804BC8861"
+				observe_type: 5
+				timer: 0L
+				title: "Radgill"
+				to_observe: "alexscaves:radgill"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"These tiny fish spawn in abyssal chasms in the ocean and can appear in groups of up to 20. While they can be cooked, they provide a very poor food source. "
+				""
+				"Typically, they stay in the abyssal chasms or at the bottom of deep oceans, but at night, they may occasionally swim up to the surface."
+				""
+				"This means, if you find one on the surface of the ocean, there is an abyssal chasm below you!"
+			]
+			id: "27E087FB711328A7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:lanternfish"
+					}
+				}
+				id: "0221782404888F1A"
+				observe_type: 5
+				timer: 0L
+				title: "Lanternfish"
+				to_observe: "alexscaves:lanternfish"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: ["This huge fish is found in abyssal chasms, spending its entire life at the bottom of these depths. It can occasionally stand upright like a tripod on its fins. This fish can be cooked and is considered the best food source in the abyssal chasm."]
+			id: "1211E47C96044512"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:tripodfish"
+					}
+				}
+				id: "680544C4A55FDC20"
+				observe_type: 5
+				timer: 0L
+				title: "Tripodfish"
+				to_observe: "alexscaves:tripodfish"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	title: "Alex's Caves"
+}

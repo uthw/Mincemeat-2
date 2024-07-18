@@ -1,0 +1,801 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "underground_and_hostiles"
+	group: "2E16C686F58ACDBC"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "086820295300F695"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Cockroaches like to live in dark dank places not doing much but if killed, they can drop a ton of different items even a fashionable hat and some maracas."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:cockroach"
+				}
+			}
+			id: "485C5F69DED25C21"
+			rewards: [{
+				id: "46BFE6A0A9DC1606"
+				type: "custom"
+			}]
+			subtitle: "Nuclear war champion"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_cockroach"
+				}
+				id: "024218C3C0A2FDF6"
+				observe_type: 5
+				timer: 0L
+				title: "Cockroach"
+				to_observe: "alexsmobs:cockroach"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["485C5F69DED25C21"]
+			description: ["Gives its drinker a status effect that makes all arthopods hostile towards them."]
+			id: "6871209975BF310F"
+			rewards: [{
+				count: 3
+				id: "0420F880445D0DA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "199665F69664B76D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: ["Enables Wall Climbing"]
+			id: "3624C8B952F9CF96"
+			shape: "rsquare"
+			tasks: [{
+				id: "4014263D329DBE1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:centipede_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"It's just a flower, nothing special. The developers didn't make everything super unique. However, you can become friends with these flowers if you let them engage in cannibalism by feeding them other flowers, but even then, they don't do much."
+				""
+				"Right click a tamed Flutter with a flower pot to imprison it."
+			]
+			id: "5BCFBA1E82FD5549"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:flutter"
+					}
+				}
+				id: "084BAA917B128815"
+				observe_type: 5
+				timer: 0L
+				title: "Flutter"
+				to_observe: "alexsmobs:flutter"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"These guys are the worst roommates ever. They are literally the biggest cowards; if they see anything moving, they freak out and start clapping and screaming like monkeys."
+				""
+				"If a Skreecher gets scared in the Deep Dark, its roommate, the Warden, will come out of the ground and kill the Skreecher."
+				""
+				"Afterwards, a Skreecher soul will emerge, which can be collected to make a sculk boomer that sends out shockwaves every time it hears the sound of a sculk sensor, but it is not powered by the skulk sensor."
+			]
+			id: "45A8DADC9567EAB7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:skreecher"
+					}
+				}
+				id: "1C80C51400254D35"
+				observe_type: 5
+				timer: 0L
+				title: "Skreecher"
+				to_observe: "alexsmobs:skreecher"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"These common Australian centipedes are found in caves, eating cockroaches and being a menace to anyone who explores the area."
+				""
+				"If you kill these centipedes, they will only drop a few of their legs, even though they have 100 legs. With these legs, you can craft some fashionable pants that allow you to climb up walls."
+			]
+			id: "54BE4BD1F2EABC79"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:centipede_body"
+					}
+				}
+				id: "358D6A2A2F55F200"
+				observe_type: 5
+				timer: 0L
+				title: "Cave Centipede"
+				to_observe: "alexsmobs:centipede_body"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This super common version of the creeper is made out of bones, being a mix between a skeleton and a creeper. "
+				""
+				"When it explodes it leaves a lingering cloud of blindness for a few seconds."
+			]
+			id: "5240A3559A80E171"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:skeleton_creeper"
+					}
+				}
+				id: "695B7E2E4F3F2335"
+				observe_type: 5
+				timer: 0L
+				title: "Skeleton Creeper"
+				to_observe: "graveyard:skeleton_creeper"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This fashionable skeleton appears in wanted locations like crypts and large graveyards. When it spots a player trespassing in these haunted areas, it will attack the player similarly to how a vindicator would."
+				""
+				"The best way to defeat this skeleton is by using fast weapons, as it deals a lot of damage per hit and moves very quickly. With slower weapons, it can sometimes hit you between swings."
+				""
+				"When you kill this skeleton, it will drop some corruption and a rare bone dagger, which is actually a pretty good weapon with a fast swing speed."
+			]
+			id: "6B2C58AFE657C0FF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:acolyte"
+					}
+				}
+				id: "3E8B5CB8632BBBA3"
+				observe_type: 5
+				timer: 0L
+				title: "Acolyte"
+				to_observe: "graveyard:acolyte"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This is the big brother of the zombie, and all the zombies wish they could be like the ghoul."
+				""
+				"The ghoul is simply a tougher version of the zombie, moving faster and dealing more damage. It spawns in the same locations as zombies and can often be found around them, as the ghoul is trying to teach the zombies how to improve their skills."
+			]
+			id: "27DA9EB0ABBF7579"
+			subtitle: "Don't ask me why the model is having an EDM party, I can't tell you"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:ghoul"
+					}
+				}
+				id: "39B486CB7DDE5ECC"
+				observe_type: 5
+				timer: 0L
+				title: "Ghoul"
+				to_observe: "graveyard:ghoul"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Do you like vexes? Of course, you don't! And if you do, then you might need help."
+				""
+				"The Reaper is a vex, but it has more HP, making it a creature that should not exist—but sadly, it does."
+				""
+				"The only good thing about this stronger vex is that it provides an easy way to get soul sand before heading to the Nether, as it rarely drops it."
+			]
+			id: "3D356F002AAD864D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:reaper"
+					}
+				}
+				id: "628E9F15CEAA3928"
+				observe_type: 5
+				timer: 0L
+				title: "Reaper"
+				to_observe: "graveyard:reaper"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This enderman has never brushed his teeth and suffers from a degenerative muscle disease, causing it to move extremely slowly."
+				""
+				"If it sees a player, it will attack by walking toward them or giving them blindness before teleporting behind them. However, this gingivitis-ridden enderman has a very low chance of actually reaching you due to its slow movement."
+				""
+				"To put this enderman out of its misery, simply stand still and attack it with a long-range weapon like a polearm."
+			]
+			id: "32D0AD2C7F40D516"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:nightmare"
+					}
+				}
+				id: "747AC7E23D1927D7"
+				observe_type: 5
+				timer: 0L
+				title: "Nightmare"
+				to_observe: "graveyard:nightmare"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"These vindicators have forgotten one crucial thing: their axes. As a result, they will instead hit you with their fists, which just doesn't work."
+				""
+				"To defeat these forgetful vindicators, simply poke them with a long-range weapon like a spear or greatsword."
+			]
+			id: "093FEA679B250DE0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:corrupted_vindicator"
+					}
+				}
+				id: "68E00C5C7D1A9094"
+				observe_type: 5
+				timer: 0L
+				title: "Corrupted Vindicator"
+				to_observe: "graveyard:corrupted_vindicator"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"These pillagers have dropped the idea of attacking from afar with a crossbow. Instead, they run toward enemies at high speed and punch them with both hands."
+				""
+				"This strategy of rushing in and punching is quite effective due to their speed. However, most fast weapons will defeat them quickly."
+			]
+			id: "13F79C18CCB72E5D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:corrupted_pillager"
+					}
+				}
+				id: "38C3D41C89A0ACC8"
+				observe_type: 5
+				timer: 0L
+				title: "Corrupted Pillager"
+				to_observe: "graveyard:corrupted_pillager"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"These ghosts float around and cause confusion, as there is another very common mob with a similar design called the wraith, which appears in caves and at night."
+				""
+				"However, this ghost is not that wraith; it instead spawns rarely when you loot graves and coffins."
+			]
+			id: "1A622CE74D8CD2EF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:wraith"
+					}
+				}
+				id: "485DAA7249D05A07"
+				observe_type: 5
+				timer: 0L
+				title: "Wraith"
+				to_observe: "graveyard:wraith"
+				type: "observation"
+			}]
+			title: "Wraith (The Graveyard)"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"These are common nighttime or cave enemies that float toward the player and hit rapidly if they get too close."
+				""
+				"The best way to defeat these ghosts is by going underwater. Wraiths, much like oil, float on water and are susceptible to being hit from their bottoms if you dive underwater while they're floating above it."
+				""
+				"They are the primary sources of Ectoplasm and Tattered Cloth, both of which are highly valuable crafting ingredients."
+			]
+			id: "0485158B3A565C80"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "eidolon:wraith"
+					}
+				}
+				id: "309B9678AD03998A"
+				observe_type: 5
+				timer: 0L
+				title: "Wraith"
+				to_observe: "eidolon:wraith"
+				type: "observation"
+			}]
+			title: "Wraith (Eidolon)"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"These giant turtles can be found underground, roaming around until they are hit by a player. When attacked, they will strike the ground, creating a shockwave. "
+				""
+				"You can use a pickaxe to mine the mineral on top of them. By feeding them glow berries, you can make them regrow the ore, allowing you to mine it again, but this only works once."
+			]
+			id: "171301AAE0F79884"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "quark:toretoise"
+					}
+				}
+				id: "154F26CE05FD7886"
+				observe_type: 5
+				timer: 0L
+				title: "Toretoise"
+				to_observe: "quark:toretoise"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"These fashionable skeletons can be found rarely in caves at deepslate levels. They shoot arrows of blindness at players, and if they hit, they will pull out a sword and charge at you, similar to how a baby zombie would."
+				""
+				"They can be quite challenging to defeat, but the best strategy is to block their arrows with a shield and prevent them from pulling out their sword. If you manage to defeat one, they will drop the forgotten hat, which increases your attack range by 2 and your luck by 1."
+			]
+			id: "5F6729AA911AE1D5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "quark:forgotten"
+					}
+				}
+				id: "1F4F31BDD0D4D99B"
+				observe_type: 5
+				timer: 0L
+				title: "Forgotten"
+				to_observe: "quark:forgotten"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Did you hear that scream? You might have just encountered a Stoneling! "
+				""
+				"These creatures appear in caves, usually at deepslate levels, and hold an item while screaming. They tend to disappear when you get too close, but they have a chance to hold a Heart of Diamond, which can be used to craft the Pickrang."
+				""
+				"However, defeating one is tricky since they vanish as soon as they see a player—unless you're holding a Glow Shroom, which can be found in underground Glimmering Wield biomes. "
+				""
+				"When you have a Glow Shroom, Stonelings will sense your presence and won't flee, allowing you to defeat them &o&7(I don't know why you would do that but this is a sandbox game so do what you want)&r&r."
+			]
+			id: "46367BF23F2886B6"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "quark:stoneling"
+					}
+				}
+				id: "3F7A17A9B2A347DA"
+				observe_type: 5
+				timer: 0L
+				title: "Stoneling"
+				to_observe: "quark:stoneling"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"These blazes, which are hotter than regular blazes, are surprisingly found on cold mountain tops in the overworld rather than in the Nether, where it's super hot."
+				""
+				"To defeat these blazes, it's best to use a ranged weapon and a shield for protection."
+				""
+				"Upon killing one, you'll receive Basalz Shards, which can be used to create earth changes that allow you to pulverize various materials without needing a pulverizer. Additionally, Basalz Shards can be crafted into different explosives."
+			]
+			id: "0EBE81E093473455"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "thermal:basalz"
+					}
+				}
+				id: "7B8CC5188920DDA4"
+				observe_type: 5
+				timer: 0L
+				title: "Basalz"
+				to_observe: "thermal:basalz"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"This skeleton has climbed the corporate ladder and is now the manager of Mobs Incorporated. You can find this successful skeleton rarely on stone at night, but more commonly inside catacombs."
+				""
+				"When he engages in combat, he summons various creatures, including sharks that poke out of the ground, skeletons armed with swords or bows, and even zombies. He can also cast spells, such as an ice ball that slows you down."
+				""
+				"Upon defeat, he drops arcane and cinder essence, and there's a rare chance to obtain a tarnished crown. This item lowers physical attack damage but enhances your magical abilities."
+			]
+			id: "40C8EAB3DC6A9041"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "irons_spellbooks:necromancer"
+					}
+				}
+				id: "2B9AE3009BA0B589"
+				observe_type: 5
+				timer: 0L
+				title: "Necromancer"
+				to_observe: "irons_spellbooks:necromancer"
+				type: "observation"
+			}]
+			title: "Necromancer (Iron's Spellbooks)"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Zombies with more strength and health. Unlike regular zombies, they typically travel alone instead of in groups."
+				""
+				"Zombie brutes can attack from further away than regular zombies. Most slashing weapons like swords have the same range as their arms, which means you'll be trading hits with them."
+				""
+				"Instead, opt for a ranged weapon or polearm to safely take them out."
+				""
+				"They drop their hearts sometimes, which can craft a few useful things."
+			]
+			id: "251BE603F6033B15"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "eidolon:zombie_brute"
+					}
+				}
+				id: "46DD121903A1ACCF"
+				observe_type: 5
+				timer: 0L
+				title: "Zombie Brute"
+				to_observe: "eidolon:zombie_brute"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"These larger skeletons have dropped the idea of using bows and now run at you to beat you to death."
+				""
+				"For strategy, it's pretty easy to defeat them by just using a long-range weapon like a spear."
+				""
+				"When killed, they will rarely drop imbued bones, which can be made into bone paladin armor. This armor gives a lot of defense, and with the full set, you gain one row of extra HP that heal independently of your hunger and effects like regeneration and radiation."
+			]
+			id: "01EB2BB2E5651BE1"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "eidolon:giant_skeleton"
+					}
+				}
+				id: "110C4C095954AC44"
+				observe_type: 5
+				timer: 0L
+				title: "Giant Skeleton"
+				to_observe: "eidolon:giant_skeleton"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"These villagers, whose skin looks like stone, are found at the end of village raids."
+				""
+				"They will spawn normal-sized skeletons and zombies, and sometimes gigantic versions of them that do more damage. They also occasionally shoot purple beams of magic at you."
+				""
+				"In a raid, I recommend fighting these guys first because otherwise, they will summon so many enemies that you'll feel like you are at a store on Black Friday."
+				""
+				"If you kill these stony-looking villagers, they will drop a Staff of Summoning, which can summon enemies captured inside of it. You can capture enemies inside of it by performing the Ritual of Capturing."
+			]
+			id: "0BF12BCC480D0DD4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "eidolon:necromancer"
+					}
+				}
+				id: "51DB002F72023189"
+				observe_type: 5
+				timer: 0L
+				title: "Necromancer"
+				to_observe: "eidolon:necromancer"
+				type: "observation"
+			}]
+			title: "Necromancer (Eidolon)"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"These monsters take the appearance of chests in small resting areas underground. Don't let your guard down! When these chests are killed, they will drop a random accessory from the Artifacts mod."
+				""
+				"Your minimap will show a chest icon if a mimic is nearby, so this can be an easy way of sleuthing them out."
+				""
+				"If you want to find what accessories this chest can drop, just look up in the EMI search bar @artifacts."
+			]
+			id: "42CE7229A3E5B3FE"
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "68FD24B4B6096D8C"
+				observe_type: 5
+				timer: 0L
+				title: "Mimic"
+				to_observe: "artifacts:mimic"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"These villagers who downloaded Better Combat can be found exploring around their house or sleeping in their bed if encountered at night. Sometimes, hunters build settlements which are around the size of small villages."
+				""
+				"Hunter houses/settlements have lots of arrows and food, which makes them good places to stock up for the early game."
+				""
+				"They are usually aggressive but if they're sleeping then they will not wake up unless you kill a mob or break a block near their house. "
+				""
+				"When killed, hunters will drop different raw and cooked meats, and arrows if they were using a bow. "
+			]
+			id: "50B3D24A3FE4E437"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "hunters_return:hunter"
+					}
+				}
+				id: "76C2BE65E6A2DA9A"
+				observe_type: 5
+				timer: 0L
+				title: "Hunter"
+				to_observe: "hunters_return:hunter"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["These are smaller versions of vanilla mobs, much like the baby zombie. They are faster with smaller hitboxes. In the baby creeper's case, its explosion is smaller."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "mekanismadditions:baby_creeper"
+				}
+			}
+			id: "1C692F3CC7ED1B47"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "mekanismadditions:baby_creeper"
+						}
+					}
+					id: "4915214DA37A3F44"
+					observe_type: 5
+					timer: 0L
+					title: "Baby Creeper"
+					to_observe: "mekanismadditions:baby_creeper"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "mekanismadditions:baby_enderman"
+						}
+					}
+					id: "4C40895680D8DE3B"
+					observe_type: 5
+					timer: 0L
+					title: "Baby Enderman"
+					to_observe: "mekanismadditions:baby_enderman"
+					type: "observation"
+				}
+				{
+					id: "037744D6EE5F1275"
+					observe_type: 5
+					timer: 0L
+					to_observe: "mekanismadditions:baby_wither_skeleton"
+					type: "observation"
+				}
+			]
+			title: "Baby Mobs"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This Destroyer Probe somehow ended up in the wrong game."
+				""
+				"It can shoot lasers and is capable of levitation."
+			]
+			id: "4D422E85DE744CBB"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:the_watcher"
+					}
+				}
+				id: "30CF193E6BE23F21"
+				observe_type: 5
+				timer: 0L
+				title: "Watcher"
+				to_observe: "cataclysm:the_watcher"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"These little arachnids grow diamonds on their shells and are quite evasive, running away whenever they see a player."
+				""
+				"Hitting them with an iron-tier or better pickaxe will instantly kill the grottol and break its shell, yieling diamonds. If you fail to do this fast enough, they'll dig into the ground and your opportunity will disappear."
+			]
+			id: "533E4B9B9D8BC40E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "mowziesmobs:grottol"
+					}
+				}
+				id: "2CF118592DF3D2E7"
+				observe_type: 5
+				timer: 0L
+				title: "Grottol"
+				to_observe: "mowziesmobs:grottol"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+	title: "Underground and Monsters"
+}

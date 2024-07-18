@@ -1,0 +1,457 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mine_cells"
+	group: "2E16C686F58ACDBC"
+	icon: "kubejs:cell"
+	id: "6A0C67FD0397CD9C"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"These bright green, glowing zombies are found in all regions of the prison."
+				""
+				"They have a scratch attack and a leaping attack, the latter does more damage. Both of these attacks are telegraphed, making parrying a good option."
+			]
+			id: "631F74D96F096C89"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:leaping_zombie"
+					}
+				}
+				id: "7D4E935B2ECF7B2F"
+				observe_type: 5
+				timer: 0L
+				title: "Leaping Zombie"
+				to_observe: "minecells:leaping_zombie"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"These purple creatures use tower shields, making them difficult to attack from the front."
+				""
+				"They will attack by performing their shield bash charge."
+				""
+				"They can be found in the Prisoner's Quarters and Ramparts."
+			]
+			id: "4495EB6C0A767843"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:shieldbearer"
+					}
+				}
+				id: "7067C19CAC4F7472"
+				observe_type: 5
+				timer: 0L
+				title: "Shieldbearer"
+				to_observe: "minecells:shieldbearer"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Sweepers are formidable foes found only in the Ramparts. They look like smaller versions of a boss you are about to face."
+				""
+				"They attack by dragging a piece of metal across the ground, sending out a wave of fire. This attack can be avoided by strafing left or right, as the AOE is quite narrow."
+				""
+				"They will dodge roll away if you get close to them."
+				""
+				"Fun fact: in Dead Cells, this attack is dodged by jumping. This can be done in Mincemeat too, but the timing is pretty narrow unless you have Jump Boost."
+			]
+			id: "7F03679791A3FA8C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:sweeper"
+					}
+				}
+				id: "7017A3EC1468A379"
+				observe_type: 5
+				timer: 0L
+				title: "Sweeper"
+				to_observe: "minecells:sweeper"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Shockers do not move. If a player comes close, they retaliate by creating a damaging aura in a large area around them."
+				""
+				"Using melee weapons against these enemies might as well be suicide. If you don't have a way of dealing damage from afar, it's not worth engaging with Shockers."
+				""
+				"Take advantage of the fact that shockers are stationary. Choose your fights wisely."
+			]
+			id: "5A2688EE11FDD684"
+			subtitle: "That's crazy! *not currently encounterable"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:shocker"
+					}
+				}
+				id: "3303630426A4254A"
+				observe_type: 5
+				timer: 0L
+				title: "Shocker"
+				to_observe: "minecells:shocker"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Scorpions are arachnids found in the Sewers who burrow into the ground and emerge when a player comes close. "
+				""
+				"Scorpions have two attacks. In their melee attack, they deal a large amount of damage and inflict poison using their teeth. Their ranged attack involves shooting a poisonous projectile."
+				""
+				"Scorpions use their ranged attack periodically regardless of how close the nearest player is."
+				""
+				"Fun fact: in Dead Cells, scorpions' melee attacks are tail stings."
+			]
+			icon: "minecells:scorpion_spawn_egg"
+			id: "3AA233F1365F54EF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:scorpion"
+					}
+				}
+				id: "32B8A65BCB478110"
+				observe_type: 5
+				timer: 0L
+				title: "Scorpion"
+				to_observe: "minecells:scorpion"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"This bat sleeps ub the Toxic Sewers and Promenade until a player comes close. It will then fly towards them and explode. "
+				""
+				"Because these bats only have 2 HP, they could die if someone sneezes in their general vicinity. That is, if you have the reaction speed and can sneeze at will."
+				""
+				"The explosion has a relatively small radius. Kamikazes aren't capable of canceling their explosion, unlike creepers, so they can be outran easily."
+			]
+			id: "16D81FA31EB0AC74"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:kamikaze"
+					}
+				}
+				id: "75F1A3C48E91A59F"
+				observe_type: 5
+				timer: 0L
+				title: "Kamikaze"
+				to_observe: "minecells:kamikaze"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Buzzcutters are red bats native to toxic sewers and ramparts, larger than kamikazes. They attack by slicing foes with a blade stored in their mouth."
+				""
+				"This attack doesn't have much range and can be outspaced easily."
+				""
+				"They have more health than kamikazes, but should still be instant-killed by a good critical hit."
+			]
+			id: "6260482E9B8BDBED"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:buzzcutter"
+					}
+				}
+				id: "191CF7463722111C"
+				observe_type: 5
+				timer: 0L
+				title: "Buzzcutter"
+				to_observe: "minecells:buzzcutter"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Rancid rats are frail rodents with two attacks. They also have disgusting bumps on their back.  They are found in the toxic sewers."
+				""
+				"Rancid rats have a melee attack which deals damage if you get too close. Watch out for their pounce, though, as it covers a deceptively large distance and does great damage."
+			]
+			id: "598ADD38A3255C15"
+			subtitle: "Runes..."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:rancid_rat"
+					}
+				}
+				id: "40DFF4F520EBB41C"
+				observe_type: 5
+				timer: 0L
+				title: "Rancid Rat"
+				to_observe: "minecells:rancid_rat"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"This is the standard bat, found in the Promenade. It attacks by performing aerial dashes into its target."
+				""
+				"In terms of vitality, it is a middle ground between the Kamikaze and Buzzcutter; in other words, hit it once with a wooden sword and it's dead."
+			]
+			id: "68103E1C2C9FB01E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:mutated_bat"
+					}
+				}
+				id: "7CC38A9CEC9DADAC"
+				observe_type: 5
+				timer: 0L
+				title: "Mutated Bat"
+				to_observe: "minecells:mutated_bat"
+				type: "observation"
+			}]
+			title: "Bat"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"It's debatable whether this guy should even be considered a mob; it is, after all, not much more than a target dummy."
+				""
+				"Regardless, this defenseless dummy's sole purpose is providing invincibility to nearby enemies. If you find your attacks aren't quite going through, there's probably one of these nearby."
+				""
+				"It's important to watch your back and not get overwhelmed trying to take down Protectors. They don't regenerate health, so you can always retreat to get some healing."
+			]
+			id: "642938EC7E39685D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:protector"
+					}
+				}
+				id: "4D68AAAD41202F18"
+				observe_type: 5
+				timer: 0L
+				title: "Protector"
+				to_observe: "minecells:protector"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Inquisitors are humanoid foes found in the Ramparts."
+				""
+				"They attack by shooting harmful orbs of energy from long distances."
+				""
+				"Inquisitors may seem formidable at first, but the trick is getting close to them. They have no melee attack and take a long time to charge their projectile, so they melt quickly from close combat."
+			]
+			id: "39E04314F315C01F"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:inquisitor"
+					}
+				}
+				id: "4C015BF86E1BA78F"
+				observe_type: 5
+				timer: 0L
+				title: "Inquisitor"
+				to_observe: "minecells:inquisitor"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Leech-like creatures found in the Toxic Sewers."
+				""
+				"They have a melee attack and an attack which triggers on death in which bombs scatter from the worm's body and explode. "
+			]
+			id: "1154F125035529FC"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:disgusting_worm"
+					}
+				}
+				id: "7813A9F2BB23149F"
+				observe_type: 5
+				timer: 0L
+				title: "Disgusting Worm"
+				to_observe: "minecells:disgusting_worm"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Grenadiers, found in the Promenade, sling pink grenades into the air from their backs."
+				""
+				"The grenade slides along the ground for a little bit before exploding."
+				""
+				"More caution is required around them since, unlike the inquisitor, their projectiles explode."
+			]
+			id: "4533838AA1FE082E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:grenadier"
+					}
+				}
+				id: "143B6163505694C2"
+				observe_type: 5
+				timer: 0L
+				title: "Grenadier"
+				to_observe: "minecells:grenadier"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Runners are dual-wielding humanoid warriors found in the Promenade of the Condemned."
+				""
+				"Disappointingly, they only attack with one sword at a time with a short-range slash."
+				""
+				"If you run too far from a Runner, it can teleport closer to you."
+				""
+				"If there's a runner in your vicinity, you should not run away and focus on taking it down. This is because, if multiple runners are alive at once, they can easily overwhelm you with their teleportation and strong attacks."
+			]
+			id: "0B0E42D0E7EBDD5B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:runner"
+					}
+				}
+				id: "13C806A5A39F3AB7"
+				observe_type: 5
+				timer: 0L
+				title: "Runner"
+				to_observe: "minecells:runner"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: [
+				"Undead archers can be found in many dimensions and act akin to regular skeletons, so your strategies for normal skeletons work here."
+				""
+				"The only thing they really have going for them is style."
+			]
+			id: "17574C22C0984E6C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:undead_archer"
+					}
+				}
+				id: "15D991EC77107A10"
+				observe_type: 5
+				timer: 0L
+				title: "Undead Archer"
+				to_observe: "minecells:undead_archer"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DE5018AC92F4971"]
+			description: ["These enemies can be found in the Ancient Sewers. They burrow into the ground and then surprise attacks the player, moving in a straight line along the floor."]
+			icon: "minecells:sewers_tentacle_spawn_egg"
+			id: "19223921426FCE03"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "minecells:sewers_tentacle"
+					}
+				}
+				id: "4F021EBE282DFAB8"
+				observe_type: 5
+				timer: 0L
+				title: "Sewers Tentacle"
+				to_observe: "minecells:sewers_tentacle"
+				type: "observation"
+			}]
+			title: "Sewer's Tentacle"
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "Mine Cells"
+}

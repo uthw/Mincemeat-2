@@ -1,0 +1,945 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creepers_and_endermen"
+	group: "2E16C686F58ACDBC"
+	icon: {
+		Count: 1
+		id: "endermanoverhaul:ancient_pearl"
+		tag: { }
+	}
+	id: "6A6465BBC7FB76E9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This creeper is unlike most creepers and will not attack the player. It drops gunpowder like other creepers but is otherwise just a chill creature."
+				""
+				"Legend tells of these creepers becoming passive because they ran away into a place their creeper fathers never told them to go: Mushroom Islands. After these creepers went to the Mushroom Islands, they got infected with a virus from mungus spores. This virus rendered them unable to explode. Over time, unable to defend themselves, they learned to be passive."
+			]
+			id: "383FE26D2D893DBB"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:mushroom_creeper"
+					}
+				}
+				id: "505E3BC4611C2FC1"
+				observe_type: 5
+				timer: 0L
+				title: "Mushroom Creeper"
+				to_observe: "creeperoverhaul:mushroom_creeper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"This totem pole-looking creeper has given up the ability to explode and instead finds joy in headbutting its targets. It drops gunpowder and rarely savannah wood."
+				""
+				"Legend tells of these creepers originally coming from the Mushroom Islands, where they contracted a virus that rendered them unable to explode. As a culture of non-aggression formed among these creatures, some creepers rejected this lifestyle and ran away. They found themselves in savannas, where they forged armor out of savannah wood, using it to headbutt their enemies."
+			]
+			id: "1EFC54DAB67F7051"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:savannah_creeper"
+					}
+				}
+				id: "6EF0076E84090BD9"
+				observe_type: 5
+				timer: 0L
+				title: "Savanna Creeper"
+				to_observe: "creeperoverhaul:savanna_creeper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These dirty-looking creepers with grass on their heads are just like normal creepers, but when killed, they may drop spruce wood."
+				""
+				"Legend tells of these creepers: one day, they walked into a spruce forest. Inside these forests, these creepers started to dig themselves into the ground, covering themselves with dirt and grass."
+			]
+			id: "1C24E48758AD8C4F"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:spruce_creeper"
+					}
+				}
+				id: "6FCB4FD6E292C861"
+				observe_type: 5
+				timer: 0L
+				title: "Spruce Creeper"
+				to_observe: "creeperoverhaul:spruce_creeper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"These creepers, which look more mossy than sandy, are just like normal creepers. When defeated, they can drop a variety of ocean and beach items, such as prismarine shards, sand, and seagrass."
+				""
+				"Legend tells of these creepers going to a beach for a vacation, as creeper life can be stressful since they might have to explode at any moment. After spending so much time at the beach, they changed and decided never to leave. They became so attached to the beach that they started to cover themselves in sand and even seagrass. No one really knows why they became so enamored with the beach, but some say that a group of Guardians came and possessed them."
+			]
+			id: "5D569C96A852F557"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:beach_creeper"
+					}
+				}
+				id: "0888F9E0E369577B"
+				observe_type: 5
+				timer: 0L
+				title: "Beach Creeper"
+				to_observe: "creeperoverhaul:beach_creeper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These creepers evolved to grow wool and horns. They will attack players if hit. They drop wool if killed."
+				""
+				"Depending on your definition of \"creeper,\" this might not even be a creeper to you, maybe just an upright sheep with horns. "
+			]
+			id: "61DFC4308A153AF0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:snowy_creeper"
+					}
+				}
+				id: "45DCED05A81E0074"
+				observe_type: 5
+				timer: 0L
+				title: "Snowy Creeper"
+				to_observe: "creeperoverhaul:snowy_creeper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"These superior forms of pufferfish like to feed on fish and players, resorting to melee attacks. They are part of the reason to avoid ocean travel in the early game."
+				""
+				"Legend tells of these creepers, once beach dwellers who decided to leave their sandy life. After departing the beach, their bodies began to transform, taking on a more fish-like appearance. Eventually, these creepers entered the water, finding it increasingly difficult to survive on land."
+				""
+				"Despite their aquatic adaptation, they yearn for the life of land-dwelling creepers. This longing has made them aggressive, leading them to hunt most creatures in the ocean. Some researchers suggest that this behavior could be evidence supporting the theory that Guardians infected the beach creepers."
+			]
+			id: "2C3139F9EE2CA7C0"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:ocean_creeper"
+					}
+				}
+				id: "1447EAA4848C3BEB"
+				observe_type: 5
+				timer: 0L
+				title: "Ocean Creeper"
+				to_observe: "creeperoverhaul:ocean_creeper"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: ["This variety of creeper will not attack you unless provoked. They don't drop anything other than gunpowder."]
+			id: "14BF70C2122CD2CB"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:hills_creeper"
+					}
+				}
+				id: "3CE88F1547B72D39"
+				observe_type: 5
+				timer: 0L
+				title: "Hills Creeper"
+				to_observe: "creeperoverhaul:hills_creeper"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["This creeper went to the badlands to get rich quick off of its gold. And they were successful, as evidenced by their entire bodies being covered in gold. They drop gold instead of gunpowder when killed."]
+			id: "35196EDDD7EED1F8"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:badlands_creeper"
+					}
+				}
+				id: "029A14575C216335"
+				observe_type: 5
+				timer: 0L
+				title: "Badlands Creeper"
+				to_observe: "creeperoverhaul:badlands_creeper"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"These creepers were cursed by the desert temple and had their bodies turned into sandstone. "
+				""
+				"This made them more eager to explode, for some reason, so they will follow players from longer distances."
+			]
+			id: "7C26D828D610FECA"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:desert_creeper"
+					}
+				}
+				id: "1BE08E2EA2E60BCF"
+				observe_type: 5
+				timer: 0L
+				title: "Desert Creeper"
+				to_observe: "creeperoverhaul:desert_creeper"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These overgrown creepers act like normal creepers, dropping gunpowder when killed. They have a shorter fuse though, so be more careful when close to them."
+				""
+				"The Jungle Creeper wanted to be in the wilderness instead of conforming to the style of its brethren. They donned a natural facade and a nomadic life of independence."
+			]
+			id: "47FE847335A822FF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:jungle_creeper"
+					}
+				}
+				id: "3C52CF0D2216A1E6"
+				observe_type: 5
+				timer: 0L
+				title: "Jungle Creeper"
+				to_observe: "creeperoverhaul:jungle_creeper"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"These neutral creepers drop bamboo and are more frail compared to other creepers."
+				""
+				"They are actually living bamboo trunks. After becoming tall enough, they will dig themselves out of the ground, roots and all."
+			]
+			id: "03FE295CA61BDE8B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:bamboo_creeper"
+					}
+				}
+				id: "44158B7368BA0234"
+				observe_type: 5
+				timer: 0L
+				title: "Bamboo Creeper"
+				to_observe: "creeperoverhaul:bamboo_creeper"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These hostile creepers drop bones along with gunpowder."
+				""
+				"This could be a failed experiment where a witch used so much gunpowder in a potion recipe that it turned into a live creeper. The witches harnessed this new recipe and they're now used to patrol swamps."
+			]
+			id: "247DE814BA2EE230"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:swamp_creeper"
+					}
+				}
+				id: "27DCCE50853C7E70"
+				observe_type: 5
+				timer: 0L
+				title: "Swamp Creeper"
+				to_observe: "creeperoverhaul:swamp_creeper"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"These large, hostile creepers have explosions that cover a larger area than regular creepers, but don't do more damage."
+				""
+				"According to folklore, they come from creepers possessing the earth after living for long enough without finding a player to explode. "
+				""
+				"It must also be mentioned that this process has not been observed before, and there's no concrete proof for where cave creepers come from."
+			]
+			id: "0208593182DE011B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:cave_creeper"
+					}
+				}
+				id: "4DF52E7484BBD6AF"
+				observe_type: 5
+				timer: 0L
+				title: "Cave Creeper"
+				to_observe: "creeperoverhaul:cave_creeper"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["These hostile creepers are found in dripstone caves."]
+			id: "4E57A23C94301F97"
+			subtitle: "Looking sharp"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:dripstone_creeper"
+					}
+				}
+				id: "6C441E40F6CBB9F3"
+				observe_type: 5
+				timer: 0L
+				title: "Dripstone Creeper"
+				to_observe: "creeperoverhaul:dripstone_creeper"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These hostile creepers act like the Skeleton Creepers, possessing a blinding explosion."
+				""
+				"They attempt to blend in with edelwood trees in dark forests. They were originally trees themselves, given life through the magic of conjurers who inhabited these forests."
+			]
+			id: "30557B2F7B9C901D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "creeperoverhaul:dark_oak_creeper"
+					}
+				}
+				id: "53F22BF2C15655E0"
+				observe_type: 5
+				timer: 0L
+				title: "Dark Oak Creeper"
+				to_observe: "creeperoverhaul:dark_oak_creeper"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"These enderman are slower and teleport less often."
+				""
+				"Warped pearls do not damage their throwers. Instead, they grant a brief period of resistance to them."
+				""
+				"These enderman who got lost in the warped forests which were once welcoming to them, entered a parasitic relationship with the spores found there. The mushrooms weakened the endermen and caused them to take the form you see now."
+			]
+			id: "354A6E7203D22256"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:warped_forest_enderman"
+					}
+				}
+				id: "4878C2DCCE7D2DBB"
+				observe_type: 5
+				timer: 0L
+				title: "Warped Forest Enderman"
+				to_observe: "endermanoverhaul:warped_forest_enderman"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These especially tall enderman move slowly and only teleport if you look directly at them. They can drop normal ender pearls or summoner pearls, which teleport nearby mobs."
+				""
+				"Endermen have thin bodies which are easily blown away by the wind. They evolved to have stone skin in windier biomes so they are not affected. However, this weighs down the endermen, making them slower."
+			]
+			id: "202EF5DC954E785C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:windswept_hills_enderman"
+					}
+				}
+				id: "02B608490093E626"
+				observe_type: 5
+				timer: 0L
+				title: "Windswept Hills Enderman"
+				to_observe: "endermanoverhaul:windswept_hills_enderman"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Found in warm oceans, these endermen are faster and have also overcome their sensitivity to water. They also tend to teleport more often."
+				""
+				"Their bubble pearls are slower and unaffected by gravity."
+				""
+				"Coral endermen are remarkable in that they are comfortable in water. Even the smartest clerics don't know how they shed their instinct to teleport. One cleric thinks it's the coral on their bodies giving them resistance. "
+			]
+			id: "5C0AFA905F5D546B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:coral_enderman"
+					}
+				}
+				id: "2E36F08DA06F1C6B"
+				observe_type: 5
+				timer: 0L
+				title: "Coral Enderman"
+				to_observe: "endermanoverhaul:coral_enderman"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"If you kill this enderman and don its hood, you'll be seen as part of their species."
+				""
+				"The hoods are fashioned with kangaroo hide toughened with extraterrestrial magic to the point of surpassing diamond armor."
+				""
+				"These endermen also have connections to baobab trees. Their behavior aligns with these oaths:"
+				"- Never be seen without a hood."
+				"- Do not wear a hood made of hide from a different animal."
+				"- Never leave the savanna, unless your reason for doing so is related to hoods."
+			]
+			id: "0CDEAA49739DC3BF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:savanna_enderman"
+					}
+				}
+				id: "16B7437044A4374B"
+				observe_type: 5
+				timer: 0L
+				title: "Savanna Enderman"
+				to_observe: "endermanoverhaul:savannah_enderman"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Scarabs come crawling out of desert endermen when they die."
+				""
+				"It is thought that the scarabs use the endermen as their home. It's unknown whether they're of benefit to the enderman, or if it even knows of the scarabs' presence."
+			]
+			id: "59F82D8778427869"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:desert_enderman"
+					}
+				}
+				id: "25693417845FDE77"
+				observe_type: 5
+				timer: 0L
+				title: "Desert Enderman"
+				to_observe: "endermanoverhaul:desert_enderman"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These enderman are native residents of the End. They are hostile, unlike other neutral endermen. "
+				""
+				"Their corrupted pearls teleport the mob they're thrown at, or can be used to craft the Corrupted Shield or Corrupted Blade, which have teleportation properties."
+				""
+				"Legend has it these are the original endermen, and all other endermen evolved from them. Many years of inhabiting the End have corrupted their minds, making their only desire to kill."
+			]
+			id: "24B8A5F6D83C3C45"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:end_enderman"
+					}
+				}
+				id: "18554F8572447BFA"
+				observe_type: 5
+				timer: 0L
+				title: "End Enderman"
+				to_observe: "endermanoverhaul:end_enderman"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"This is the tallest known enderman. It has never been seen teleporting. It can instead fire projectiles, which can teleport their targets. Their ancient pearls allow you to summon different enderman pets."
+				""
+				"The End Island Enderman is the closest relative to the End Enderman, possibly having evolved directly from it. They are not so suited for combat and stay far from players in the Outer End Islands."
+			]
+			id: "596F613DAE1CC2DE"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:end_islands_enderman"
+					}
+				}
+				id: "510113CDBF70D3DD"
+				observe_type: 0
+				timer: 0L
+				title: "End Islands Enderman"
+				to_observe: "endermanoverhaul:end_islands_enderman"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["596F613DAE1CC2DE"]
+			description: ["Throw the pearl to summon a friendly enderman who will assist you in combat. Interact with the enderman to reobtain its pearl, which you can use later to summon it again."]
+			id: "70ACF3EEB5681395"
+			shape: "rsquare"
+			tasks: [{
+				id: "1307C2E5EAF77C88"
+				item: {
+					Count: 1
+					id: "endermanoverhaul:ancient_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70ACF3EEB5681395"]
+			description: ["Hammerhead endermen can be summoned by throwing an Ancient Pearl and pack quite a punch."]
+			id: "2ECDF19920A0A8A3"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:hammerhead_pet_enderman"
+					}
+				}
+				id: "7A925A55746A8FA7"
+				observe_type: 5
+				timer: 0L
+				title: "Hammerhead Enderman"
+				to_observe: "endermanoverhaul:hammerhead_pet_enderman"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70ACF3EEB5681395"]
+			description: ["Axolotl enderman can be summoned using an ancient pearl. They can survive underwater."]
+			id: "2CA4ACC8C935C63D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:axolotl_pet_enderman"
+					}
+				}
+				id: "51CED6E6F118F550"
+				observe_type: 5
+				timer: 0L
+				title: "Axolotl Enderman"
+				to_observe: "endermanoverhaul:axolotl_pet_enderman"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70ACF3EEB5681395"]
+			description: ["A middle ground between the Axolotl and Hammerhead Endermen."]
+			id: "6718FFF6E0AF1C5E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:pet_enderman"
+					}
+				}
+				id: "13CE3AD39F4B5954"
+				observe_type: 5
+				timer: 0L
+				title: "Pet Enderman"
+				to_observe: "endermanoverhaul:pet_enderman"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These hooded endermen live in cold biomes. They drop a special ender pearl, the Icy Pearl, which freezes the mob it's thrown at. They can also drop their hoods like savanna endermen."
+				""
+				"Snowy endermen have reasons for wearing hoods since it lets them resist the cold more effectively, which their thin bodies don't normally permit. "
+			]
+			id: "354D379091E52A96"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:snowy_enderman"
+					}
+				}
+				id: "29F65BF653FEFBDD"
+				observe_type: 5
+				timer: 0L
+				title: "Snowy Enderman"
+				to_observe: "endermanoverhaul:snowy_enderman"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These endermen have adapted to the conditions of dark forests. They trick the local fauna using their tree-like appearance."
+				""
+				"Dark forests are rather safe homes for endermen due to the temperate conditions and protection from rain provided by the trees. It's thought dark oak endermen lead happier lives than other variants."
+			]
+			id: "7B5F9F5217231F76"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:dark_oak_enderman"
+					}
+				}
+				id: "764C1B232258EBCE"
+				observe_type: 5
+				timer: 0L
+				title: "Dark Oak Enderman"
+				to_observe: "endermanoverhaul:dark_oak_enderman"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Flower fields endermen are unique in that they are completely docile."
+				""
+				"These endermen have overcome their social anxiety and are able to make eye contact with players without trying to murder them."
+				""
+				"Instead of violently defending themselves, they use their lack of height to blend in with the abundant flowers in their home."
+				""
+				"Make sure to congratulate these endermen on their progress if you see one using the \"Cheer\" emote."
+			]
+			id: "12BCD1E7F055D6AC"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:flower_fields_enderman"
+					}
+				}
+				id: "76959D0A7D26521F"
+				observe_type: 5
+				timer: 0L
+				title: "Flower Fields Enderman"
+				to_observe: "endermanoverhaul:flower_fields_enderman"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"These icy endermen share the traits of other tall endermen, being slower and teleporting less often. THey drop icy pearls, which freeze the mob or player they're thrown at."
+				""
+				"Unlike the snowy endermen, this variant's skin has frozen over completely from the extreme cold of the ice spikes. "
+				""
+				"It's debated whether the source of their slower speed is caused by the lower body temperature or the increased height. Maybe a combination of the two?"
+			]
+			id: "7C1E9846DE670CD8"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:ice_spikes_enderman"
+					}
+				}
+				id: "4B51366E60308846"
+				observe_type: 5
+				timer: 0L
+				title: "Ice Spikes Enderman"
+				to_observe: "endermanoverhaul:ice_spikes_enderman"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Similar to Mushroom Fields Creepers, this enderman is passive."
+				""
+				"It's said an enderman defected from the End long ago and ended up in one of the rarest biomes, the mushroom fields."
+				""
+				"While mushroom fields are suitable habitats for endermen, it may be true that the same spores which affected creepers overtook the endermen too."
+			]
+			id: "1DCF9B3D8C22E884"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:mushroom_fields_enderman"
+					}
+				}
+				id: "3DEC83C90AEF61F1"
+				observe_type: 5
+				timer: 0L
+				title: "Mushroom Fields Enderman"
+				to_observe: "endermanoverhaul:mushroom_fields_enderman"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"This enderman is hostile towards players and is deadlier too, sporting higher speed and damage."
+				""
+				"Their soul pearls require you to select a target and then can be thrown to teleport them to the landing location."
+				""
+				"This enderman was absorbed by the souls in soul sand, becoming full of spite and rage. It's unknown why this happens. Maybe they want to protect something?"
+			]
+			id: "062130104951FC01"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:soulsand_valley_enderman"
+					}
+				}
+				id: "3FB1672FE46D68C2"
+				observe_type: 5
+				timer: 0L
+				title: "Soul Sand Valley Enderman"
+				to_observe: "endermanoverhaul:soulsand_valley_enderman"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This is perhaps the most uncommon hooded enderman, due to the rarity of the biome it calls home. "
+				""
+				"Badlands endermen left the baobab religion followed by savanna endermen, being forced out due to the different materials they used to fashion their hoods."
+				""
+				"It's thought that these endermen worship the death worm instead of baobab."
+			]
+			id: "6805EC0FE1BF7ECA"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:badlands_enderman"
+					}
+				}
+				id: "589D8811719D6BCE"
+				observe_type: 5
+				timer: 0L
+				title: "Badlands Enderman"
+				to_observe: "endermanoverhaul:badlands_enderman"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"This stone-covered enderman is hostile towards players. Use caution while underground."
+				""
+				"They were once very wealthy and traveled the world in search of great treasure. However, after trying to take from a crypt, they suffered a powerful curse."
+				""
+				"The curse petrified these endermen and forced them to live out their days underground. "
+			]
+			id: "2ACC1CC49E05F9D5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:cave_enderman"
+					}
+				}
+				id: "51435D75BA6213CD"
+				observe_type: 5
+				timer: 0L
+				title: "Cave Enderman"
+				to_observe: "endermanoverhaul:cave_enderman"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"These endermen are the hosts of crimson mushrooms. Their crimson pearls give strength to the user when they land, mirroring the effect of warped pearls."
+				""
+				"The source of this enderman's appearance is unknown. However, a traveler has witnessed a crimson mosquito fighting an enderman and losing."
+				""
+				"If this is a true story, it could be that the crimson mosquito passed a fungal infection onto the enderman, enveloping its body and giving it this appearance."
+			]
+			id: "605F48769557D655"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:crimson_forest_enderman"
+					}
+				}
+				id: "41E66AF6814CE9E9"
+				observe_type: 5
+				timer: 0L
+				title: "Crimson Forest Enderman"
+				to_observe: "endermanoverhaul:crimson_forest_enderman"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"These endermen are decorated by bones."
+				""
+				"They are survivors of the soul sand valley, only being partially affected by the souls. As such, they've entered a limbo state in which they are part alive and part dead, but not quite undead."
+			]
+			id: "607560F14AE6D361"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:nether_wastes_enderman"
+					}
+				}
+				id: "12007F4184EDD72C"
+				observe_type: 5
+				timer: 0L
+				title: "Nether Wastes Enderman"
+				to_observe: "endermanoverhaul:nether_wastes_enderman"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"These endermen are covered in swampy flora. Their natural coating gives them a poisonous touch, so bring buckets of milk if this concerns you."
+				""
+				"Legend has it these endermen wandered into the swamp after a long night of failing to find \"the eye.\" Their bodies were entirely consumed by the plants in the swamp, leading early adventurers to call them \"Plant Endermen.\""
+			]
+			id: "1E2685CBD620FA3C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endermanoverhaul:swamp_enderman"
+					}
+				}
+				id: "076B1F4E43147129"
+				observe_type: 5
+				timer: 0L
+				title: "Swamp Enderman"
+				to_observe: "endermanoverhaul:swamp_enderman"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "Creepers and Endermen"
+}
