@@ -702,7 +702,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "reliquary:harvest_rod" },
             "minecraft:rose_bush",
-            "botania:petals",
+            "#botania:petals",
         ],
         [
             { output: "reliquary:harvest_rod" },
@@ -1154,6 +1154,27 @@ ServerEvents.recipes((event) => {
             { output: "enigmaticlegacy:insignia" },
             "minecraft:prismarine_crystals",
             "forbidden_arcanus:arcane_crystal",
+        ],
+        [{}, "minecraft:bowl", "#forge:bowls"],
+        [
+            { output: "pneumaticcraft:turbine_blade" },
+            "minecraft:gold_ingot",
+            "#forge:ingots/zinc",
+        ],
+        [
+            { output: "pneumaticcraft:pneumatic_wrench" },
+            "minecraft:orange_dye",
+            "miners_delight:gossypium",
+        ],
+        [
+            { output: "pneumaticcraft:charging_station" },
+            "minecraft:brick",
+            "#forge:ingots/electrum",
+        ],
+        [
+            { output: "pneumaticcraft:jackhammer" },
+            "minecraft:diamond",
+            "deep_aether:skyjade_gemstone",
         ],
     ];
 

@@ -128,6 +128,20 @@ ServerEvents.recipes((event) => {
         "waystones:warp_stone",
         "forbidden_arcanus:quantum_catcher",
         "forbidden_arcanus:mundabitur_dust",
+        "enderstorage:ender_chest",
+        "enderstorage:ender_tank",
+        "enderstorage:ender_pouch",
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:copper_sword",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_axe",
+        "pneumaticcraft:memory_stick",
+        "pneumaticcraft:turbine_blade",
     ];
 
     toRemove.forEach((item) => {

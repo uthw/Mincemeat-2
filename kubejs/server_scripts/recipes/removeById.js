@@ -53,6 +53,16 @@ ServerEvents.recipes((event) => {
         "ars_nouveau:basic_spell_turret",
         "computercraft:cable",
         "xnet:controller",
+        "iceandfire:ghost_sword",
+        "pneumaticcraft:fluid_mixer",
+        "pneumaticcraft:manual_compressor",
+        "pneumaticcraft:air_compressor",
+        "pneumaticcraft:minigun",
+        "pneumaticcraft:empty_pcb_from_failed_pcb",
+        "pneumaticcraft:jet_boots_upgrade_1",
+        "movingelevators:button_block",
+        "movingelevators:elevator_block",
+        "movingelevators:display_block",
     ];
 
     toRemove.forEach((recipeId) => {
