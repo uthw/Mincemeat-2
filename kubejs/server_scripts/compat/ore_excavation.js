@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
     // vein generation
     let oregen = [
         {
-            desc: "Infinite veins",
+            desc: "Raw Osmium",
             // item can be an array that has Item.of and then .withChance if desired
             item: "mekanism:raw_osmium",
             minDist: 64,
@@ -13,26 +13,26 @@ ServerEvents.recipes((event) => {
             id: "mince_osmium",
             ticks: 120, // 32 rpm
         },
+        // {
+        //     desc: "Raw Tin",
+        //     item: "mekanism:raw_tin",
+        //     minDist: 48,
+        //     avgDist: 128,
+        //     salt: 337710759,
+        //     id: "mince_mekanism_tin",
+        //     ticks: 80,
+        // },
         {
-            desc: "Infinite veins",
-            item: "mekanism:raw_tin",
-            minDist: 48,
-            avgDist: 128,
-            salt: 337710759,
-            id: "mince_mekanism_tin",
-            ticks: 80,
-        },
-        {
-            desc: "Infinite veins",
-            item: "mekanism:raw_lead",
+            desc: "Raw Lead",
+            item: "thermal:raw_lead",
             minDist: 48,
             avgDist: 128,
             salt: 1782377640,
-            id: "mince_mekanism_lead",
+            id: "mince_thermal_lead",
             ticks: 80,
         },
         {
-            desc: "Infinite veins",
+            desc: "Raw Tin",
             item: "thermal:raw_tin",
             minDist: 48,
             avgDist: 128,
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
             ticks: 60,
         },
         {
-            desc: "Infinite veins",
+            desc: "Raw Silver",
             item: "thermal:raw_silver",
             minDist: 64,
             avgDist: 192,
@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
             ticks: 100,
         },
         {
-            desc: "Infinite Veins",
+            desc: "Raw Nickel",
             item: "thermal:raw_nickel",
             minDist: 48,
             avgDist: 192,
@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
             ticks: 80,
         },
         {
-            desc: "Infinite veins",
+            desc: "Apatite",
             item: "thermal:apatite",
             minDist: 64,
             avgDist: 256,
@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
             ticks: 120,
         },
         {
-            desc: "Infinite veins",
+            desc: "Cinnabar",
             item: "thermal:cinnabar",
             minDist: 64,
             avgDist: 256,
@@ -77,7 +77,7 @@ ServerEvents.recipes((event) => {
             ticks: 120,
         },
         {
-            desc: "Infinite veins",
+            desc: "Niter",
             item: "thermal:niter",
             minDist: 96,
             avgDist: 384,
@@ -86,7 +86,7 @@ ServerEvents.recipes((event) => {
             ticks: 140,
         },
         {
-            desc: "Infinite veins",
+            desc: "Sulfur",
             item: "thermal:sulfur",
             minDist: 96,
             avgDist: 384,
@@ -95,7 +95,7 @@ ServerEvents.recipes((event) => {
             ticks: 140,
         },
         {
-            desc: "Infinite veins",
+            desc: "Arcane Crystal",
             item: "forbidden_arcanus:arcane_crystal",
             minDist: 96,
             avgDist: 384,
@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
     oregen.forEach((ore) => {
         // placing down veins
         event.recipes.createoreexcavation
-            .vein(`{"text": "${ore.desc}"}`, ore.item)
+            .vein(ore.desc, ore.item)
             .placement(ore.avgDist, ore.minDist, ore.salt)
             .biomeWhitelist("forge:is_overworld")
             .id(`kubejs:${ore.id}`);
