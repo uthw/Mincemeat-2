@@ -5,7 +5,7 @@
 	group: "357B296D74E0575E"
 	icon: "prettypipes:high_speed_module"
 	id: "12EFFEFA52DA688B"
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,6 +20,7 @@
 				""
 				"This definitely isn't as many mods as Mincemeat 1, but the list is growing by the day and your favorites will eventually be in this pack!"
 			]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "minecraft:stone_pickaxe"
