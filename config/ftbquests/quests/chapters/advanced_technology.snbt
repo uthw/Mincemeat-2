@@ -816,22 +816,13 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["317406E8D0562528"]
-			id: "21388BCB9F1AB8A0"
-			tasks: [{
-				id: "15DC5A87BC259AAF"
-				item: "pneumaticcraft:pressure_tube"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["1CB095891B94A06A"]
 			description: [
 				"Throw your iron on the ground and blow it up. It will be turned into compressed iron."
 				""
-				"Worry not, as this will only be a temporary measure. Do not build a farm for this because you will lose some of the iron in the explosion"
+				"Worry not, as this will only be a temporary measure. Do not build a farm for this because you will lose some of the iron in the explosion."
+				""
+				"Then, surround a compressed iron ingot with compressed stone to craft reinforced stone. This can then be made into bricks in the same way you would stone bricks. Reinforced stone is another useful material in PneumaticCraft."
 				""
 				"While you're here, it's worth mentioning PNC's energy system. You will be dealing in bar from now on, which measures air pressure."
 			]
@@ -840,63 +831,20 @@
 			id: "317406E8D0562528"
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "60A27A7F16A51F59"
-				item: "pneumaticcraft:ingot_iron_compressed"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "60A27A7F16A51F59"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					type: "item"
+				}
+				{
+					id: "65FF210D799FBE86"
+					item: "pneumaticcraft:reinforced_bricks"
+					type: "item"
+				}
+			]
 			title: "PneumaticCraft"
 			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["21388BCB9F1AB8A0"]
-			description: [
-				"When you're done, you should find yourself with a big, hollow cube. Take note of the faces with blocks that have \"I\" and \"O\" etched into them."
-				""
-				"\"I\" is your input and \"O\" is your output. That's how you'll be inserting and extracting items with the pressure chamber. "
-				""
-				"You will need to have some way of handling these items without just right clicking; for example, Mekanism, Create, or Pretty Pipes. (input)"
-				""
-				"You can put an inventory adjacent to the interface (output)"
-				""
-				"As your reward, here's a pretty good amount of iron. I want you to try putting the iron blocks into the pressure chamber and then taking out your new compressed iron."
-			]
-			id: "71A954E60804A1CF"
-			rewards: [
-				{
-					count: 3
-					id: "12F41FE1EBBD069E"
-					item: "pneumaticcraft:pressure_chamber_valve"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "2B84B1E6B454602B"
-					item: "minecraft:iron_block"
-					type: "item"
-				}
-			]
-			subtitle: "Build yourself a pressure chamber"
-			tasks: [{
-				advancement: "pneumaticcraft:pressure_chamber"
-				criterion: ""
-				id: "783E83FF7FA67124"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["71A954E60804A1CF"]
-			description: ["You may notice your pressure chamber stalls for a little bit sometimes. This is because it's waiting for its compressed air to charge."]
-			id: "61DCBF5F73CC920A"
-			tasks: [{
-				id: "0FC1BB546E2298D7"
-				title: "Pressurized Air"
-				type: "checkmark"
-			}]
-			x: 7.5d
 			y: 6.0d
 		}
 		{
@@ -980,8 +928,8 @@
 				}
 			]
 			title: "Refined Glowstone and Obsidian"
-			x: 5.5d
-			y: 2.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["71B5319AD4CD5432"]
@@ -1016,8 +964,8 @@
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CB095891B94A06A"]
@@ -1071,8 +1019,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 4.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -1172,6 +1120,1962 @@
 			title: "Flux Networks"
 			x: 1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["317406E8D0562528"]
+			description: [
+				"The first step of making machines using compressed air is first getting compressed air. The simplest way is making a manual compressor, which is quite effective at supplying pneumatic devices and does not take any extra material to make. "
+				""
+				"You could also make a normal air compressor which is slower than the manual one but can compress air unsupervised."
+				""
+				"Also for the normal air compressor, you'll need a lot of coal or other fuel since this compressor is power-hungry."
+			]
+			id: "1D8E21B0BD044042"
+			tasks: [{
+				id: "31B6B64C96CEE48E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:manual_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:air_compressor"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Zip bomb"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D8E21B0BD044042"]
+			description: ["You can use this station to upgrade and charge your pneumatic items. Not that you have any right now, but this will be useful later."]
+			id: "0F1D88F754127603"
+			tasks: [{
+				id: "30A3525FB266708A"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			title: "Pneumatic Charging"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0F1D88F754127603"]
+			description: [
+				"There are many different types of upgrades inside of PNC. "
+				""
+				"Machines contain slots which are dedicated to holding upgrades. The upgrade slots are a small 2x2 grid in the corner on most pneumatic machines, but for pneumatic items they can be applied inside of a charging station. "
+				""
+				"You can also see which upgrades are compatible by putting an item inside the charging station or on pneumatic devices. There will be a blue pull tab for upgrade compatibility. "
+				""
+				"There are 4 main categories of upgrades; equipment, drone, transport, and sensing."
+			]
+			id: "1AF0FCCA38CDA801"
+			tasks: [{
+				id: "1A0489BA486BD2E0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:chunkloader_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:coordinate_tracker_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:elytra_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:ender_visor_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:entity_tracker_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:flippers_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:gilded_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:inventory_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:item_life_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:magnet_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:minigun_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:night_vision_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:radiation_shielding_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:range_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:scuba_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:search_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:charging_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:armor_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:block_tracker_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:air_conditioning_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:volume_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:stomp_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:standby_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:speed_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:security_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrades, ladies and gentlemen, upgrades"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07CBBDA417272C74"]
+			description: [
+				"PneumaticCraft's wrench. It can be charged at a charging station."
+				""
+				"The Manometer measures the air pressure in pipes and machines."
+			]
+			id: "0B988EB1DA24F75F"
+			tasks: [
+				{
+					id: "17C0383E2C3973E1"
+					item: "pneumaticcraft:pneumatic_wrench"
+					type: "item"
+				}
+				{
+					id: "1C7AEA8ADF7480B0"
+					item: "pneumaticcraft:manometer"
+					type: "item"
+				}
+			]
+			title: "Pneumatic Engineering Essentials"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1D8E21B0BD044042"]
+			description: [
+				"This tube is the easiest way to move pressurized air from one place to another. They act very similar to the fluid pipes from other mods. "
+				""
+				"These pipes can also be outfitted with modules which act as upgrades."
+			]
+			id: "6826BB2923EBEFA2"
+			tasks: [{
+				id: "388DC4A548D47402"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			title: "\"Pipes\""
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6826BB2923EBEFA2"]
+			description: [
+				"These are modules can be applied onto pressure tubes like upgrades. "
+				""
+				"Some of the more useful ones are the safety tube module, which will release air from over-pressurized systems instead of exploding. "
+				""
+				"The other very useful one is pressure gadge, a gadget that shows the pressure gauge in the pipe at all times."
+			]
+			id: "34CB47B496F5E80F"
+			tasks: [{
+				id: "0844B0F6CD26BD16"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:redstone_module"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:regulator_tube_module"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:safety_tube_module"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:charging_module"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:pressure_gauge_module"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:flow_detector_module"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tube upgrades"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"30A3525FB266708A"
+				"0F1D88F754127603"
+			]
+			description: [
+				"These canisters are like capacitatoes, but repurposed for storing compressed air instead."
+				""
+				"They can be filled at a charging station."
+			]
+			id: "07CBBDA417272C74"
+			tasks: [{
+				id: "7102A79974E7DFDE"
+				item: "pneumaticcraft:air_canister"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6826BB2923EBEFA2"]
+			description: [
+				"Pneumatic craft mainly uses gas and liquids but it does have some new ways of transferring normal items. "
+				""
+				"First up is the the omnidirectional Hopper, this hopper works differently from other hoppers and is more like a pipe with it sucking items on one end and pushing them out the other end. Also, this Hopper can be turned on its side for pointing up or pointing down so instead of haveing to take items from above it can take items from the west and move them to the up."
+				""
+				"In other words, it can import from any direction and export to any direction."
+				""
+				"Should the hopper be pointing in an undesired direction after being placed, you can use a wrench to rotate it to your liking."
+				""
+				"You can also use omnidirectional Hoppers as filters by switching their mode to \"leave one item per slot to filter\"."
+			]
+			id: "3159FEEDB7AC5956"
+			tasks: [{
+				id: "091DF3292B3D3038"
+				item: "pneumaticcraft:omnidirectional_hopper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EF5353C0E6D6503"]
+			description: [
+				"These chests have the same storage space as a gold chest, but but have built-in features such as acting like an omnidirectional hopper."
+				""
+				"An example of this item's application is in an extractinator cobblestone farm used for both getting cobblestone and getting other materials."
+			]
+			id: "3BE7C98DD84D5DBA"
+			tasks: [{
+				id: "363CF1C211145871"
+				item: "pneumaticcraft:smart_chest"
+				type: "item"
+			}]
+			title: "Chests with college degrees"
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0B988EB1DA24F75F"]
+			description: [
+				"This pneumatic gun can be used to transform the appearance of certain blocks. "
+				""
+				"This is done by interacting with the block whose appearance you want to imitate, then interacting with the PneumaticCraft block whose appearance you want to disguise."
+				""
+				"Valid blocks glow purple to help you."
+			]
+			id: "398BB7E0405761B6"
+			tasks: [{
+				id: "6566E8746C042918"
+				item: "pneumaticcraft:camo_applicator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6826BB2923EBEFA2"]
+			description: [
+				"This mutiblock chamber is used for various different crafting recipes in PNC. This chamber will be useful for you right now for making compressed iron more efficiently and quickly. To make this chamber, you will need:"
+				""
+				"22 Pressure chamber wall"
+				"2 Pressure chamber interface"
+				"pressure chamber Valve"
+				"pressure chamber glass"
+				"Chest"
+				"Hopper"
+				""
+				"go to the next page to see how to make"
+				""
+				"&6Or, of course, you could use the Schematicannon&r (I'm expecting you to do this and, as such, not grammar checking the next pages)"
+				""
+				"{@pagebreak}"
+				""
+				"To make it you will put pressure chamber walls in a flat 3x3 grid on the ground them you will put 4 Pressure chamber walls ontop of each corner of that 3x3 grid. Then you will make another 3x3 grid ontop. It should be a 3x3 cube with nothing in the center and blocks only on the corners and the bottem is identical to the top. After you make the frame what you will do is place the pressure chamber interface on one side and without moveing place it on the other side, the goal is is to make both of the pressure chamber interfaces pointing the same direction. After that you will then put the Pressure chamber glass in one of the holes on the side then on the other side you will put the pressure chamber valve. Pressure chamber interface. If you did correctly then it should explode with some fireworks sparks going every where."
+				""
+				"Currently your pressure chamber can hold pressure but you can't actually craft anything with it yet. To make it able to you will do is on the side what looks like a open hole you will place a hopper pointing ito it, and on the other side what looks like a golden o you will place a chest. Also if your pressure chamber does not have this golden O then that means that you placed both of the interfaces at opposite angles it's a easy fix you just need to turn the one of the pressure chamber interfaces around. Now you should have a automatic version of the pressure chamber it will gather items from the hopper side and pressurize them and then move them into the chest."
+				""
+				"go to next page to see how to use"
+				""
+				"{@pagebreak}"
+				""
+				"Now the last part is actually putting some pressure in the chamber.  For right now the best way is by useing a manual compressor since it's much faster and won't burn through as much fuel. Also quick tip whenever you are using a manual compressor it'll look like it will be loseing pressure immediately after but it only loses around .05 bar, this is actually not caused by the manual compressor but instead the delay that the valve on the pressure chamber gives."
+			]
+			id: "4160802E31D67A4B"
+			tasks: [{
+				advancement: "pneumaticcraft:pressure_chamber"
+				criterion: ""
+				id: "52F809644E85BF37"
+				type: "advancement"
+			}]
+			title: "                   Crafting under pressure               "
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["07CBBDA417272C74"]
+			description: [
+				"This gun what relies on the power of pressure to shoot out high-velocity bullets. "
+				""
+				"This gun can also be outfitted with various types of ammo. Ammo is loaded by shift clicking with the minigun in your hand."
+				""
+				"{@pagebreak}"
+				"Normal ammo: does 4 damge per hit at base level."
+				""
+				"Armor piercing: more powerful ammo that features partial armor penetration. This makes it good for mobs and bosses with heavy armor like Ghost of Captain Cornelia."
+				""
+				"Explosive: ammo which is made more powerful by exploding on impact. However, the magazine size for this type is inferior."
+				""
+				"Freezing: gives slowness on hit."
+				""
+				"Incendiary: immolates targets on hit."
+				""
+				"Weighted: more powerful than regular ammo, best suited for your run-of-the-mill zombies and skeletons"
+			]
+			id: "62AD4B45F2DF55D9"
+			tasks: [{
+				id: "2863496F298CAF7F"
+				item: "pneumaticcraft:minigun"
+				type: "item"
+			}]
+			title: "Funny Gun"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62AD4B45F2DF55D9"]
+			description: ["This gun pushes targets away. It can also be aimed into the ground with enough pressure to launch yourself into the air. The force of the gun diminishes with its charge."]
+			id: "1C9A5BEF712B20AB"
+			tasks: [{
+				id: "5E5E3988EAF7C1E1"
+				item: "pneumaticcraft:vortex_cannon"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"So now since we have this giant box I guess it should be put to use. "
+				""
+				"One thing that the pressure chamber can do is makeing compressed iron. Throwing compressed iron into a pressure chamber when it has enough pressure compress the iron. Try makeing a compressed iron block by useing The pressure chamber what takes 3bar or you can Make 9 ingots with 2bar. Also keep in mind every single time you make something with the chamber it loses a small amount of pressure so you'll have to repressurize it after using it enough."
+			]
+			id: "3920D39B364B0CEE"
+			invisible: true
+			subtitle: "Disabled for now"
+			tasks: [
+				{
+					id: "2A8914F5F20FDF46"
+					item: "pneumaticcraft:compressed_iron_block"
+					type: "item"
+				}
+				{
+					id: "73F8E2A1D412CE0C"
+					type: "checkmark"
+				}
+			]
+			x: 19.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4160802E31D67A4B"]
+			description: ["These little compressed iron cages can be placed on crops to speed up their growth. It's passive and takes no resources, so it's never a bad idea."]
+			id: "48057860AA9DB409"
+			tasks: [{
+				id: "56D0A88C76FE6CC6"
+				item: "pneumaticcraft:crop_support"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4160802E31D67A4B"]
+			description: [
+				"When pressure is applied to this tube it will start to heat up on one side and cool down on the other side very quickly. "
+				""
+				"This is a great way of creating heat early on. It's best practice to connect a heatsink on the cold side so the cold side won't be affecting the hot side. "
+				""
+				"Heatsinks basically act as batteries for heat, so you can store cold or heat inside. Then, you can route the heat with heat pipes to devices that need heat."
+			]
+			id: "00DC1217BFC0359B"
+			tasks: [
+				{
+					id: "328FF2602ACBC483"
+					item: "pneumaticcraft:vortex_tube"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7BA98202E5F3B0D7"
+					item: { Count: 8, id: "pneumaticcraft:heat_pipe" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00DC1217BFC0359B"]
+			description: [
+				"This module can be attached to pressure tubes and will blow out air in the direction it's pointing."
+				""
+				"It can be combined with a heatsink to better move heat or cold from something. This has a similar function to encased fans involving wind generation."
+			]
+			id: "49A9EA462CDEDE68"
+			tasks: [
+				{
+					id: "024CE4C1FF96ED78"
+					item: "pneumaticcraft:air_grate_module"
+					type: "item"
+				}
+				{
+					id: "1855E76A65131111"
+					item: "pneumaticcraft:heat_sink"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F6F1AD6B89BDF7D"]
+			description: [
+				"First step of makeing oil and other fuels is by createing a tool to find oil. You can use the seismic sensor to be able to scan for oil what is directly under you. "
+				""
+				"You could also use the scanner from Scannables to do this also, the difference with it is that it will scan the surronding area insted of below you to find oil."
+				""
+				"With any of these tools, you should be able to find some in the &mEverdawn&r Overworld &7&obut oil will move back to the Everdawn in a later update&r."
+			]
+			id: "0000B590B237BC35"
+			tasks: [
+				{
+					id: "4061822004A34B1B"
+					item: "pneumaticcraft:seismic_sensor"
+					type: "item"
+				}
+				{
+					id: "41837BA66249FB84"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "scannable:scanner"
+									tag: {
+										energy: 5000
+										items: [
+											{
+												item: {
+													Count: 1b
+													id: "scannable:range_module"
+												}
+												slot: 1b
+											}
+											{
+												item: {
+													Count: 1b
+													id: "scannable:range_module"
+												}
+												slot: 2b
+											}
+											{
+												item: {
+													Count: 1b
+													id: "scannable:range_module"
+												}
+												slot: 3b
+											}
+											{
+												item: {
+													Count: 1b
+													id: "scannable:range_module"
+												}
+												slot: 4b
+											}
+											{
+												item: {
+													Count: 1b
+													id: "scannable:range_module"
+												}
+												slot: 5b
+											}
+											{
+												item: {
+													Count: 1b
+													id: "scannable:range_module"
+												}
+												slot: 6b
+											}
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "scannable:fluid_module"
+								}
+							]
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Oil hunting"
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00DC1217BFC0359B"]
+			description: ["These tanks are useful materials, and can store liquid too, but you have pipes that are better than these, to be frank."]
+			id: "1F6F1AD6B89BDF7D"
+			subtitle: "Make the small fluid tank"
+			tasks: [{
+				id: "7CC6058D19AB299E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "pneumaticcraft:fluid_tanks"
+					}
+				}
+				title: "Any #pneumaticcraft:fluid_tanks"
+				type: "item"
+			}]
+			title: "Fluid tank"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00DC1217BFC0359B"]
+			description: [
+				"This Frame can be placed onto a chest and will turn the chests inventory into a furnace or a freezer depending on if you add heat to the chest or add cold to the chest. It's April to also cook or smell anything incredibly fast doping on how much hest it has, it needs 100 heat to be able to function and smelt/cook. And you're able to freeze things when it's below 0 heat."
+				""
+				"Inside of the heat frame you can freeze 3 things all of which are liquids, you can put buckets of the liquid inside of a chest or you can put the heat frame on top of a pneumatic craft fluid tank."
+				""
+				"Water --> ice "
+				"Lava --> Obsidian (you get 1% chance for every degree under zero of getting more than one obsidian per transformation.)"
+				"Molten plastic (you get 1% chance for every degree under zero of getting more than one obsidian per transformation.)"
+			]
+			id: "332CCCC5D904E7DF"
+			tasks: [{
+				id: "3D8AB57ACEE1CDB4"
+				item: "pneumaticcraft:heat_frame"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3159FEEDB7AC5956"]
+			description: [
+				"This little tiny hopper can be placed between chests and different containers without needing a full block of space. "
+				""
+				"With this hopper, to make one chest transfer to another chest, it'll only take two blocks of volume insted of 3 (2 for the chests and 1 for a hopper)."
+			]
+			id: "6EF5353C0E6D6503"
+			tasks: [{
+				id: "6698AAFF4F12B18C"
+				item: "pneumaticcraft:transfer_gadget"
+				type: "item"
+			}]
+			title: "Micro hopper"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["64206EB5A53F2A6F"]
+			description: [""]
+			icon: "pneumaticcraft:module_expansion_card"
+			id: "3ACA05C0D9266614"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "18B939CD0827CD5B"
+					item: "pneumaticcraft:pneumatic_cylinder"
+					type: "item"
+				}
+				{
+					id: "5FE7493764C14B6E"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "PCB and Pneumatic Cylinder"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ACA05C0D9266614"]
+			description: [
+				"You want the best pickaxe in the game here it is."
+				""
+				"But you need to upgrade it to make it the best. at the end it will auto vein mine and be able to mine 128 blocks at once."
+			]
+			id: "06FC9859182DAF30"
+			tasks: [{
+				id: "1F9054F174800ABC"
+				item: "pneumaticcraft:jackhammer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Any of these will suffice."
+				""
+				"The netherite drill bit requires the use of an assembly line."
+			]
+			id: "31314E6CE9435DC3"
+			tasks: [{
+				id: "6159DA67684A3C81"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:drill_bit_compressed_iron"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:drill_bit_diamond"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:drill_bit_iron"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:drill_bit_netherite"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Drill Bit"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			description: ["These doors are unlike most doors. These doors are smart and can have varios functions such as acting like one of the automatic doors they have in every super market. also the automatic door will only open to players and not anything else what can be a great altinitve for presure plates."]
+			id: "74BB062E3392501C"
+			invisible: true
+			tasks: [
+				{
+					id: "369F19B570E05D99"
+					item: "pneumaticcraft:pneumatic_door_base"
+					type: "item"
+				}
+				{
+					id: "74B313BADD00FA3D"
+					item: "pneumaticcraft:pneumatic_door"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3ACA05C0D9266614"]
+			description: [
+				"For a lot of the late game machines, you will need to use an assembly line. To make an assembly line, you will need a assembly platform with an assembly drill, laser, import/export units, and a controller with a program."
+				""
+				"To make the line itself, place the assembly platform and surround it with each of the four arms (&oit does not mater what side they are on&r)."
+				""
+				"Then, place the controller in front, connect it to pressure, and insert the program. Then, place a chest or other container to the side of the import and export arms. Then, place your materials in the container closest to the import arm."
+				""
+				"Also, make sure you get speed upgrades so the assembly line actually works at a reasonable speed."
+			]
+			id: "532FF26E3D8A4144"
+			tasks: [
+				{
+					id: "745FF9196713AAD7"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "3FD04E14C5A4FF1A"
+					item: { Count: 64, id: "pneumaticcraft:assembly_drill" }
+					type: "item"
+				}
+				{
+					id: "00B6BFC81083E49A"
+					item: { Count: 64, id: "pneumaticcraft:assembly_io_unit_export" }
+					type: "item"
+				}
+				{
+					id: "2219E76B4FFC09EB"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "31575F81C165C91D"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "600993B0930C3E4D"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7A6B28E298312912"
+					item: { Count: 10, id: "pneumaticcraft:speed_upgrade" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "                Assembly Line                   "
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F6F1AD6B89BDF7D"]
+			description: ["This machine is used for a lot of liquid base resipes. it need's both heat and Presure to be used . It after haveing enogh heat and presure you just put in a liquid it and a solid and it should produce new liquids that can be used for varios diffrent things."]
+			id: "0E0D1FD7FDF80488"
+			tasks: [{
+				id: "1684537AB3DAA070"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000B590B237BC35"]
+			description: [
+				"After finding oil, you will need to harvest it from the ground. "
+				""
+				"The best way of doing this is by useing the gas lift. You use the gas lift by placeing it right above where oil would be and feeding the gas lift a drill, pipes, and pressure to start lifting up oil."
+			]
+			id: "20AC5EF34A34D2F0"
+			tasks: [
+				{
+					id: "6B0AB2E382A1947D"
+					item: "pneumaticcraft:gas_lift"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "30C5DCE66BAD9804"
+					item: { Count: 20, id: "pneumaticcraft:drill_pipe" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			description: ["To make this oil you will need to progress though some create to the point you get compacting. After doing so you just make put seeds in a baisin to create seed oil."]
+			id: "2FEAE5424B5D2EE3"
+			invisible: true
+			tasks: [
+				{
+					id: "7F5A7E449D2A147E"
+					item: "createaddition:seed_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "01EFE3169480B1DD"
+					type: "checkmark"
+				}
+			]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"This Liquid is the eaiset to make out of any liquids with the thermopnumatic plant requireing any mushroom and water."
+				""
+				"it is not used for nothing much else but the production of plastic, but it can be used for sour dough what can make sour dough bread and salmon tempura which when cooked is a very good food."
+				""
+				"ethanol desc:"
+				""
+				"This substance is made by mixing yest with types of compost in a thermopneumatic plant. the best composts to use are poisonous potatoes and sugar."
+			]
+			id: "4EF75F543AD91E9D"
+			invisible: true
+			tasks: [
+				{
+					id: "56CEB30929507439"
+					item: "pneumaticcraft:yeast_culture_bucket"
+					type: "item"
+				}
+				{
+					id: "7DD5830DA9EAC39B"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0E0D1FD7FDF80488"]
+			description: [""]
+			id: "3CF34A4F1FB1DDE9"
+			tasks: [
+				{
+					id: "08761F5CDA563319"
+					item: "pneumaticcraft:ethanol_bucket"
+					type: "item"
+				}
+				{
+					id: "3FFA8B1C1CA35BE3"
+					item: "createaddition:seed_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "754DABCC03FEE6EF"
+					item: "pneumaticcraft:yeast_culture_bucket"
+					type: "item"
+				}
+			]
+			title: "Our Favorite Fluids"
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["551CC584ACFC9B34"]
+			description: ["This diesel is created by mixing togther seed oil and ethanol. It can be used as a fuel and has the same properties as normal diesel (apart from how you can't make plastic with this)."]
+			id: "3C4B139A57D7660B"
+			subtitle: "Eco-friendly Oil"
+			tasks: [{
+				id: "54A84DDF9D4E948A"
+				item: "pneumaticcraft:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C4B139A57D7660B"]
+			description: [
+				"After creating molten plastic, you will need to cool it down. "
+				""
+				"This can be achieved by either putting it out in the world and waiting for the plastic to cool down, or by using a heating frame to cool down the plastic."
+				""
+				"The heating frame is superior if you plan to automate, as it sometimes gives extra plastic."
+			]
+			id: "5A7F9642EDA6A2C3"
+			tasks: [
+				{
+					id: "31FCF1C83542B73D"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+				{
+					id: "40C0839B9373B851"
+					item: "pneumaticcraft:plastic_bucket"
+					type: "item"
+				}
+			]
+			title: "Plastic"
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E0D1FD7FDF80488"]
+			description: ["These are a cheaper way of creating Upgrades. Instead of using 4 lapis per upgrade, you can use 1 lapis to create 4 of these."]
+			id: "3B4C69C213BCADE1"
+			tasks: [{
+				id: "6F5AB0E9C47BF0AE"
+				item: "pneumaticcraft:upgrade_matrix"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0E0D1FD7FDF80488"]
+			description: ["This machine allows you to combine 2 different liquids to create new things. It only needs pressure to operate."]
+			id: "551CC584ACFC9B34"
+			tasks: [{
+				id: "6B21A0B588432AAB"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A7F9642EDA6A2C3"]
+			description: [
+				"These fancy sheets of plastic can be etched to make finished PCB, which are useful ingredients."
+				""
+				"You'll need a UV light box to expose them to light and increase their chance of being successfully etched."
+				""
+				"It's best to get this chance to 100% so you won't have to set up a mechanical press that resets PCBs in the case of failure."
+			]
+			id: "217B9547B555D382"
+			tasks: [
+				{
+					id: "582F1FA17FB10CC3"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+				{
+					id: "45E649C0D75EBAAC"
+					item: "pneumaticcraft:uv_light_box"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A7F9642EDA6A2C3"]
+			description: [
+				"This tablet is like a villager but without all the bells and whistles. It lets you buy special PNC items and trade with villages in the same biome as you."
+				""
+				"The main thing you will want to buy for right now is the PCB blueprint, which you'll need for an upcoming recipe."
+			]
+			id: "66A2FCC807306A32"
+			tasks: [
+				{
+					id: "605A1E38B42856F1"
+					item: "pneumaticcraft:amadron_tablet"
+					type: "item"
+				}
+				{
+					id: "1F903DFE8510C916"
+					item: "pneumaticcraft:pcb_blueprint"
+					type: "item"
+				}
+				{
+					id: "36C434E8BC9385B5"
+					item: "pneumaticcraft:gps_tool"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			description: ["This little stick allows you to store your exp/levels inside of it. you can also equip it to have it store exp automatily as you get some."]
+			id: "58FD171E4D6E745A"
+			invisible: true
+			tasks: [{
+				id: "31FA886D3602DC71"
+				item: "pneumaticcraft:memory_stick"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["217B9547B555D382"]
+			description: [
+				"After getting your acid from putting a bucket and some monster parts in a presure chamber, then making an etching tank and heating it up and filling it up with acid, you will see a huge and scary interface. "
+				""
+				"Don't fear it though, it is not scary as it looks. All the slots are used for etching PCBs"
+				""
+				"If you did it correctly, you should have some unfinished PCBs. You might get a failed PCB instead, which you can press to turn them back into normal empty PCBs."
+			]
+			id: "74358244B079DBAC"
+			tasks: [
+				{
+					id: "0E0CEBF796645C37"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "7E1EA22FC42369C8"
+					item: "pneumaticcraft:unassembled_pcb"
+					type: "item"
+				}
+				{
+					id: "4D9259922DC943FF"
+					item: "pneumaticcraft:etching_tank"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74358244B079DBAC"]
+			description: ["After getting some capacitors and transistors with the presure chamber, you can create a finished PCB."]
+			id: "64206EB5A53F2A6F"
+			tasks: [
+				{
+					id: "58AE7DDBFEA78FC2"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "22F2FB4C761D62C4"
+					item: "pneumaticcraft:capacitor"
+					type: "item"
+				}
+				{
+					id: "260D07F7BB712C84"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F77024B90F19740"]
+			description: [
+				"So this allows you to fully program a drone to do anything. such as stip mineing or stealing from every chest in your freinds house."
+				""
+				"I could try to explain it but it would be just ok at best so insted im going to tell you to make the exsample program from the book. it should give you a pretty good idea of how to do the programing."
+				""
+				"After you open the book go to drone programming then Basic drone tutourial."
+			]
+			id: "155B9879593542A6"
+			rewards: [{
+				id: "6402D1E910195CF8"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						display: {
+							Name: "{\"translate\":\"eccentrictome.name\",\"with\":[{\"color\":\"green\",\"translate\":\"pneumaticcraft.patchouli.book.name\"}]}"
+						}
+						"eccentrictome:is_tome": 1b
+						"eccentrictome:mods": {
+							advancedperipherals: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
+									}
+								}
+							}
+							aether: {
+								0: {
+									Count: 1b
+									id: "aether:book_of_lore"
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							betterend: {
+								0: {
+									Count: 1b
+									id: "betterend:guidebook"
+								}
+							}
+							bloodmagic: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "bloodmagic:guide"
+									}
+								}
+							}
+							botania: {
+								0: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+								1: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+							}
+							eidolon: {
+								0: {
+									Count: 1b
+									id: "eidolon:codex"
+								}
+							}
+							enderio: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "enderio:guide"
+									}
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							minecells: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "minecells:minecells_guidebook"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							naturesaura: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
+							storagenetwork: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "storagenetwork:network_book"
+									}
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This is the most complex part of this mod"
+			tasks: [
+				{
+					id: "5BAE8DBD94984777"
+					item: "pneumaticcraft:programmer"
+					type: "item"
+				}
+				{
+					id: "7002125B9C55E54D"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+				{
+					id: "68CF7A5B1BD66163"
+					item: "pneumaticcraft:gps_area_tool"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "586B99B87F87DD28"
+					item: { Count: 12, id: "pneumaticcraft:programming_puzzle" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3ACA05C0D9266614"]
+			description: [
+				"To set up an elevator, do these things:"
+				""
+				"1. place at least one elevator base on the bottom floor where you want the elevator to start."
+				""
+				"2. stack elevator frames on top of the base, ensuring you have at least two extra frames above the floor of your last floor."
+				""
+				"3. place callers one block above each place where you want your elevator to stop."
+				""
+				"Power the elevator bases at the bottom with at least 3 bar, and you'll have a functional elevator."
+			]
+			id: "2220D3592E181329"
+			tasks: [
+				{
+					id: "6B0F6A51465AD565"
+					item: "pneumaticcraft:elevator_base"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "318D1B2F5D540A5C"
+					item: { Count: 2, id: "pneumaticcraft:elevator_caller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "68D62201F01DCED1"
+					item: { Count: 4, id: "pneumaticcraft:elevator_frame" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ACA05C0D9266614"]
+			description: [
+				"These little flying drones can fly around and accomplish tasks like collecting items off the ground, shooting players on sight, or harvesting and replanting crops."
+				""
+				"They are pretty simple to use, only requiring you to charge them and placing them atop a barrel or chest (or any container)."
+				"{@pagebreak}"
+				"Harvesting drone"
+				""
+				"This drone, when placed atop a chest with a hoe inside, will break any fully grown crops and replant them."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Collector drone"
+				""
+				"This drone, when placed on a chest, will collect any items that it finds in the chest. In other words, the chest acts like a whitelist for the drone."
+				""
+				"{@pagebreak}"
+				""
+				"Security drone"
+				""
+				"This drone attacks nearby mobs using weapons it finds in the chests."
+			]
+			id: "5F77024B90F19740"
+			tasks: [
+				{
+					id: "29A7A121561FE22C"
+					item: "pneumaticcraft:collector_drone"
+					type: "item"
+				}
+				{
+					id: "6ED3E2F3E53D2637"
+					item: "pneumaticcraft:guard_drone"
+					type: "item"
+				}
+				{
+					id: "7F99BEF0D4E0AD3C"
+					item: "pneumaticcraft:harvesting_drone"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BA01F0BF154E2C1"]
+			description: ["The flux compressor allows compressed air to be generated using the Forge Energy you might be familiar with from Thermal, Mekanism, you name it."]
+			id: "2063BE715B4EB117"
+			tasks: [{
+				id: "1CE93C339C6920D1"
+				item: "pneumaticcraft:flux_compressor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2BA01F0BF154E2C1"]
+			description: ["If you have a state-of-the-art air compressor, use this machine to turn it into energy for use in machines from other tech mods."]
+			id: "25F68BF1F16E0477"
+			tasks: [
+				{
+					id: "0CB76692E5F5E5C5"
+					item: "pneumaticcraft:pneumatic_dynamo"
+					type: "item"
+				}
+				{
+					id: "465ABC37CF49D70A"
+					item: "pneumaticcraft:turbine_rotor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"62AD4B45F2DF55D9"
+				"30E6A6B2D0521477"
+			]
+			description: [
+				"This gun will shoot anything it sees on sight. It is recommended that you have this connected to a security station so it does not shoot you. In multiplayer, you can add other players so your turret won't shoot them either."
+				""
+				"It's a good form of base defense."
+			]
+			id: "6C32313C006D30C7"
+			tasks: [{
+				id: "3BD5C377A2CB1714"
+				item: "pneumaticcraft:sentry_turret"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3ACA05C0D9266614"]
+			description: [
+				"Tired of players waltzing into your house, stealing all your stuff, and blowing up your house? Well, it seems YOU are in the market for a brand new security station."
+				""
+				"All you need to know is that you need those 4 network things in the quest. To make it work, simply put them in a line in the station's inventory."
+				""
+				"Then, enable \"preview\" to see a protected radius. The radius can be expanded with range upgrades."
+				"{@pagebreak}"
+				"&lMultiplayer concerns:&r"
+				""
+				"If you are on a server, you will want to add any friends that are not going to steal your stuff. Do that by adding usernames to the \"trusted players\" field."
+				""
+				"Lastly, you should know about hacking. Without the proper precautions, security systems are easy to hack. If you hack someone else's station, you'll be falsely considered a trusted player until the system is somehow rebooted."
+			]
+			id: "30E6A6B2D0521477"
+			tasks: [
+				{
+					id: "0A6E1267A300FA69"
+					item: "pneumaticcraft:security_station"
+					type: "item"
+				}
+				{
+					id: "4F25695A16679FB8"
+					item: "pneumaticcraft:network_registry"
+					type: "item"
+				}
+				{
+					id: "31C42BB964C577F4"
+					item: "pneumaticcraft:network_io_port"
+					type: "item"
+				}
+				{
+					id: "245D2FCBCC0043DA"
+					item: "pneumaticcraft:network_node"
+					type: "item"
+				}
+				{
+					id: "04A9EEC5368BB4A7"
+					item: "pneumaticcraft:diagnostic_subroutine"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["155B9879593542A6"]
+			description: ["This allows you to save your programs to a diffrent item so you don't lose any of your programs if you lose the drone or have multiple programs but only 1 drone."]
+			id: "40AABDB7D48DC8DD"
+			tasks: [{
+				id: "4FBD7692F4E3BD8E"
+				item: "pneumaticcraft:network_data_storage"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30E6A6B2D0521477"]
+			description: [
+				"If you're concerned about hacking, here's how to take the proper precautions:"
+				""
+				"Get 12 entity tracker upgrades, so your diagnostics will always sense attempted hacks. Also, set your system up so there's a network node right next to the network IO port."
+				""
+				"Then, get 10 registries and diagnostics to increase the time it takes for the hack to finish."
+				""
+				"Doing this will force the hacker to have a ton of STOP! worms to even try to hack you."
+			]
+			id: "3F64A54C367FDA2D"
+			tasks: [
+				{
+					count: 12L
+					id: "6819C83FD473D9A0"
+					item: "pneumaticcraft:entity_tracker_upgrade"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "55A8EF152EE40CAC"
+					item: { Count: 20, id: "pneumaticcraft:diagnostic_subroutine" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4727C4456F6271FA"
+					item: { Count: 10, id: "pneumaticcraft:network_registry" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["532FF26E3D8A4144"]
+			description: ["Superior to the other pressure tube, and a crafting material as well."]
+			id: "2BA01F0BF154E2C1"
+			tasks: [{
+				id: "2FF9B07ED4035518"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2BA01F0BF154E2C1"]
+			description: ["The name says it all. It's a better version the normal one."]
+			id: "0CC167CD6A25E207"
+			tasks: [{
+				id: "0BD65FA6FF3C6C6A"
+				item: "pneumaticcraft:advanced_air_compressor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BA01F0BF154E2C1"]
+			description: [""]
+			id: "2FF4EC9EE6CA46E0"
+			tasks: [{
+				id: "0F105EE74C06CD55"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BA01F0BF154E2C1"]
+			description: ["This machine passively compresses air using sunlight."]
+			id: "76BD9A208C317520"
+			tasks: [{
+				id: "5FD564FA2FECAB29"
+				item: "pneumaticcraft:solar_compressor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3ACA05C0D9266614"]
+			description: ["To use the armor's features, you will want to set a keybind for configuring the armor."]
+			id: "24659EC79C6A595E"
+			tasks: [
+				{
+					id: "56F8DA0960DBF2A1"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FABCFE0AD3DD857"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1880FEDE68987129"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26357E63D85E9569"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pneumatic Style"
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00DC1217BFC0359B"]
+			description: ["These flat glass sheets can be attched to the sides of devices to let them maintain their heat. They can useful to save fuel in a compressor."]
+			id: "583BC98CD030E344"
+			tasks: [{
+				id: "6C4D14E77E199369"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20AC5EF34A34D2F0"]
+			description: [
+				"After getting oil, you will want to refine it."
+				""
+				"To make a refinery, all you need to do is place refinery controller on the ground and 4 refinery outputs on top. Then you just heat it up to unlock access to 4 diffrent oils: kerosene, diesel, gasoline, and LPG."
+				""
+				"Kerosene and diesel are for crafting and utility. while gasoline and LPG are mainly for fuel."
+				""
+				"LPG stands for Low Pier God. Mods, ban that guy."
+			]
+			id: "35F6AEB790B93C2C"
+			tasks: [
+				{
+					id: "64AD3A12548D3D86"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6CA81720830273D8"
+					item: { Count: 4, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["35F6AEB790B93C2C"]
+			description: ["This is a better version of the liquid compressor and can use liquid commpared to burnables. Its best to us LPG or Gasoline to produce the most presure possible. Also useing the thermpnumatic plant you can convert kerosene gasoline to LPG which can stream line the usage of this compressor"]
+			id: "2F023D420C554C63"
+			tasks: [{
+				id: "515FD2B053CC265C"
+				item: "pneumaticcraft:liquid_compressor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"35F6AEB790B93C2C"
+				"0E0D1FD7FDF80488"
+			]
+			description: ["Made by using some diesel with redstone in a thermopneumatic plant. It is used to make a very powerful pickaxe."]
+			id: "250C91034BA8A8AA"
+			tasks: [{
+				id: "4B2AD72E2C752A08"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["35F6AEB790B93C2C"]
+			description: ["After refining, you will get some kerosene. you can use this kerosene to power the lamp, which provides light in a large area around it."]
+			id: "615A645013260C8B"
+			optional: true
+			tasks: [{
+				id: "15735107C4DB17BB"
+				item: "pneumaticcraft:kerosene_lamp"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["532FF26E3D8A4144"]
+			description: ["An easier way of makeing these that does not take the time to UV cure and etch."]
+			id: "7C912A7F8CB15C4E"
+			tasks: [{
+				id: "0926FD2897567575"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F77024B90F19740"]
+			description: ["These upgrades are applied to drones at a charging station and allow for multiple different types of abilities such as not being unloaded when too far away or being able to attack enemies with a minigun."]
+			id: "011FBD53777EE966"
+			tasks: [{
+				id: "766EB3812EED6497"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:minigun_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:inventory_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:chunkloader_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:standby_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Drone upgrades"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24659EC79C6A595E"]
+			description: ["These upgrades are applied to the pneumatic armor at a charging station and allow for multiple different abilities."]
+			id: "7EEE2F478B258358"
+			tasks: [{
+				id: "126372DD2499BEBD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:radiation_shielding_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:night_vision_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:item_life_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:gilded_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:ender_visor_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:flippers_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:armor_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:elytra_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:air_conditioning_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:scuba_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:search_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:stomp_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Equipment Upgrades"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AF0FCCA38CDA801"]
+			description: ["These upgrades apply to anything that has to do with items, like armor, drones, and machines. When slotted in, they have various purposes such as increasing movement and capacity."]
+			id: "72663B5BA63AEAAB"
+			tasks: [{
+				id: "4D4DB80395965DE9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:volume_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:speed_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:dispenser_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:magnet_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Transport upgrades"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1AF0FCCA38CDA801"]
+			description: ["These upgrades are applied to various pneumatic machines and items. They have the ability to sense their surroundings like an omni-directional hopper sensing a entity and taking items or moving items to it."]
+			id: "1C746281E723B733"
+			tasks: [{
+				id: "1EBA017FC42DFF1F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:entity_tracker_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:coordinate_tracker_upgrade"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:block_tracker_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sensing "
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1AF0FCCA38CDA801"]
+			description: [
+				"This upgrade is usable in almost every single pneumatic device. It increases the range of machines. "
+				""
+				"Sometimes, this upgrade is even cross-compatible with other upgrades, such as the magnet upgrade."
+			]
+			id: "452470D56184ADE2"
+			tasks: [{
+				id: "5EAACAC4E5A51C65"
+				item: "pneumaticcraft:range_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1A0489BA486BD2E0"
+				"1AF0FCCA38CDA801"
+			]
+			description: ["This upgrade is used in various pneumatic machines. It is capable of adding safeguards to them, like preventing machines from exploding when they have too much air."]
+			id: "64588A41966059FC"
+			tasks: [{
+				id: "5B3967647670123D"
+				item: { Count: 64, id: "pneumaticcraft:security_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2220D3592E181329"]
+			description: [
+				"This upgrade is usable inside the elevator base. it can be put on a  elevator for it to regain some pressure when lowering. this just makes it so it saves more presure."
+				""
+				"It can also be used on the pneumatic chest plate to also retore presure when doing a action."
+			]
+			id: "1E7A680A7E0711E2"
+			tasks: [{
+				id: "0D6024740E3E7427"
+				item: "pneumaticcraft:charging_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["20AC5EF34A34D2F0"]
+			description: ["After setting up your gas lift, you can use liquid hoppers to move the oil to diffrent machines. This hopper also works with other mods and liquid and is an easy, pipeless solution for moving liquid."]
+			id: "5BC890428333B435"
+			tasks: [{
+				id: "73DDB9F84EFF0979"
+				item: "pneumaticcraft:liquid_hopper"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6826BB2923EBEFA2"]
+			id: "1DEBEEE7084BCD6A"
+			tasks: [{
+				id: "7423D72E0A633D1E"
+				item: "compressedcreativity:rotational_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
 		}
 	]
 	title: "Tech Level 2"
