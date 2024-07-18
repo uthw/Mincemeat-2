@@ -13,7 +13,7 @@ for filename in os.listdir(directory):
             data = toml.load(file)
 
         # Modify the per_spell_limit value
-        data["general"]["per_spell_limit"] = 2
+        data["general"]["per_spell_limit"] = 3
 
         # Write the modified data back to the file
         with open(filepath, "w") as file:
