@@ -29,7 +29,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			description: ["Found in the &5Hunter's House&r, or in the wild."]
@@ -74,8 +74,9 @@
 				type: "stat"
 				value: 1
 			}]
+			title: "Ready for Dimensional Adventures"
 			x: 0.0d
-			y: -3.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -88,6 +89,11 @@
 			]
 			icon: "bosses_of_mass_destruction:soul_star"
 			id: "0579360EE0F0D4AD"
+			rewards: [{
+				id: "6C6C4C139AC23996"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7A1E3F0D2492CFC4"
@@ -108,13 +114,18 @@
 				}
 			]
 			title: "Night Lich"
-			x: -3.5d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
 			icon: "bosses_of_mass_destruction:void_lily"
 			id: "21D6AB95329A4EEF"
+			rewards: [{
+				id: "7C65CB1D5B64E7F1"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2E2EEA7E34DC9762"
@@ -129,29 +140,22 @@
 				}
 			]
 			title: "Void Blossom"
-			x: -3.5d
-			y: 1.0d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
+			hide_dependent_lines: true
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
-			tasks: [
-				{
-					id: "38F2586A4F22A244"
-					structure: "aquamirae:ice_maze/common"
-					type: "structure"
-				}
-				{
-					entity: "aquamirae:captain_cornelia"
-					id: "077204BEBBA2496B"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				id: "38F2586A4F22A244"
+				structure: "aquamirae:ice_maze/common"
+				type: "structure"
+			}]
 			title: "Ice Maze"
-			x: -3.5d
-			y: -2.0d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -174,6 +178,11 @@
 			]
 			icon: "minecells:skeleton"
 			id: "5FD7C7EDDE0E119C"
+			rewards: [{
+				id: "334BB7C32ED77C91"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "descrption from Graveyard Mod GitHub Wiki for now"
 			tasks: [{
 				entity: "graveyard:lich"
@@ -182,7 +191,7 @@
 				value: 1L
 			}]
 			title: "Corrupted Champion"
-			x: -2.0d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -211,8 +220,8 @@
 				}
 			]
 			title: "Kill the Warden"
-			x: -5.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -394,8 +403,23 @@
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
-			description: ["Found in &7wrought lairs&r below the ground."]
+			description: [
+				"Found in &7wrought lairs&r below the ground."
+				""
+				"The Wroughtnaut's armor is powerful enough to nullify all attacks most of the time. "
+				""
+				"It can be hit once while pulling its axe out of the ground, so you should be ready to deal a lot of damage in one attack. I would suggest using an Iron Blacksmith Gavel since it's easy to make and deals more than 18 damage on a critical."
+				""
+				"You'll also want at least iron-tier armor. Any less and you risk being one-tapped by the Wroughtnaut's shockwave or 3-hit combo attacks."
+				""
+				"The Wroughtnaut drops its axe and helmet. You also get a heart container when you beat it the first time. You'll get a heart container every time you kill a major boss."
+			]
 			id: "00294FF7CDCA91F0"
+			rewards: [{
+				id: "4D4711C3B9B55805"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
@@ -409,6 +433,15 @@
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
+			description: [
+				"Frostmaws are monsters found in snowy biomes. Their size grants them great strength, so it's best to avoid them until you've prepared sufficiently."
+				""
+				"They're typically found sleeping initially. If you're confident, you can sneak right up to them and snatch their ice crystal, making the fight easier."
+				""
+				"The Frostmaw has a swipe attack and a frost breath attack capable of freezing foes, giving it an opportunity to attack."
+				""
+				"Frostmaw also has a second phase in which it uses a powerful ground slam, which does enough damage to wipe out 2 rows of hearts before accounting for armor and difficulty scaling. This is telegraphed by the beast standing upright for a while."
+			]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:ice_crystal"
@@ -417,6 +450,11 @@
 				}
 			}
 			id: "3F9A7DCBF8CE1DCB"
+			rewards: [{
+				id: "7619D1539550902F"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				id: "199F0F3977DD1D20"
@@ -424,8 +462,8 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -2.0d
-			y: -2.0d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -450,7 +488,13 @@
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
-			description: ["He can be found &6on his throne&r in savannas."]
+			description: [
+				"He can be found &6on his throne&r in savannas."
+				""
+				"Umvuthi has harnessed the power of the sun and can rain down solar flares on those who approach him. He can summon followers, which should be taken care of quickly lest they overwhelm you."
+				""
+				"Umvuthi doesn't move and is somewhat defenseless when you actually get to his throne. Even before you get diamonds, this fight can end favorably in a matter of seconds if you consider this."
+			]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:umvuthana_mask_faith"
@@ -459,6 +503,11 @@
 				}
 			}
 			id: "09F0100DAEDAD582"
+			rewards: [{
+				id: "0F089986D6233EAB"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				id: "34857EEFF05576C1"
@@ -466,8 +515,8 @@
 				value: 1L
 			}]
 			title: "Umvuthi, The Sunbird"
-			x: -2.0d
-			y: 1.0d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["06D8CD953FBEE3D2"]
@@ -479,6 +528,11 @@
 			hide_dependency_lines: true
 			icon: "alexscaves:pure_darkness"
 			id: "6B15B902E71DC308"
+			rewards: [{
+				id: "51DEF85D6877E65C"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "alexscaves:forsaken"
 				id: "7562AFA6DBE112F7"
@@ -486,13 +540,18 @@
 				value: 1L
 			}]
 			title: "Forsaken"
-			x: -2.0d
-			y: -3.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
 			icon: "botania:elementium_ingot"
 			id: "3DA23607574A2168"
+			rewards: [{
+				id: "27DF93B98445B622"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "botania:doppleganger"
 				id: "11C0973C74F195D3"
@@ -500,7 +559,7 @@
 				value: 1L
 			}]
 			title: "Guardian of Gaia"
-			x: -5.0d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -514,6 +573,11 @@
 			]
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "05765DE630B7CDC2"
+			rewards: [{
+				id: "22DE1515C3B2CA2A"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1DDC078C6D091C79"
@@ -533,8 +597,8 @@
 				}
 			]
 			title: "Leviathan"
-			x: -5.0d
-			y: 1.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
@@ -547,6 +611,11 @@
 			]
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "4C66466F73102684"
+			rewards: [{
+				id: "1BFC650C1CAECCB1"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2E23C2AF514C1561"
@@ -566,13 +635,18 @@
 				}
 			]
 			title: "Ancient Remnant"
-			x: -6.5d
-			y: 1.0d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
 			icon: "cataclysm:wither_assault_shoulder_weapon"
 			id: "690AAE1274B3821D"
+			rewards: [{
+				id: "585D0B46B9D01F75"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "58877D004CD49D45"
@@ -592,8 +666,8 @@
 				}
 			]
 			title: "Harbringer"
-			x: -6.5d
-			y: -2.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -610,8 +684,20 @@
 		}
 		{
 			dependencies: ["4493D9650B5D1F71"]
+			description: [
+				"The Chimera is encountered by completing the Ritual of Summon Wilden with body parts of all three Wilden enemies, as well as an Arcane Crystal Block and Vexing Archwood Log."
+				""
+				"This quest requires following the Ars Nouveau quest line in Supernatural Magic."
+				""
+				"The Chimera is up there for the highest-HP boss in the modpack and complements this with three attacks."
+			]
 			icon: "ars_nouveau:ritual_wilden_summon"
 			id: "732BF9F02A4D0E26"
+			rewards: [{
+				id: "3C844E038C348FC4"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
 				id: "22CECCE6030A1AA8"
@@ -619,7 +705,7 @@
 				value: 1L
 			}]
 			title: "Wilden Chimera"
-			x: -6.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -1256,6 +1342,11 @@
 			hide_dependency_lines: true
 			icon: "alexscaves:immortal_embryo"
 			id: "6A8DF7B095C4D714"
+			rewards: [{
+				id: "3012DB08431C490D"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "alexscaves:hullbreaker"
 				id: "7AF5F021009B11EC"
@@ -1263,8 +1354,8 @@
 				value: 1L
 			}]
 			title: "Hullbreaker"
-			x: -3.5d
-			y: -3.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1289,19 +1380,25 @@
 			hide_dependency_lines: true
 			icon: "alexscaves:tectonic_shard"
 			id: "4093A51E42C29851"
+			rewards: [{
+				id: "4213B4B6B71089BA"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"
 				id: "1FF828D8BD3EFFFF"
 				type: "kill"
 				value: 1L
 			}]
-			title: "I'm not even going to try spelling it"
+			title: "Luxtructosaurus"
 			x: -5.0d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A6104C04414F37B"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "alexscaves:heart_of_iron"
 			id: "146B68D99E7A92FE"
 			tasks: [{
@@ -1310,8 +1407,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06D1991EE22CF1B3"]
@@ -1458,6 +1555,82 @@
 			}]
 			x: 3.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["1808E3ABC3AF6D82"]
+			icon: "aquamirae:abyssal_amethyst"
+			id: "48F86079EE5DBE12"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "78A19B0B7F4F9068"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mother of the Maze"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1808E3ABC3AF6D82"]
+			icon: {
+				Count: 1
+				id: "aquamirae:coral_lance"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "71BD95734E41E591"
+			rewards: [{
+				id: "5E746BC171A9046A"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "1F4B16BC39F9A439"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ghost of Captain Cornelia"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1808E3ABC3AF6D82"]
+			icon: "aquamirae:fin"
+			id: "6F93B2E920857F55"
+			tasks: [{
+				entity: "aquamirae:eel"
+				id: "79DBE0D9A652C066"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eel"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4493D9650B5D1F71"]
+			id: "34A83BB5D5DEFC82"
+			rewards: [{
+				id: "5B3762CB4B335DBB"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "229070F98AC3E71A"
+				title: "The Dead King"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 0.5d
 		}
 	]
 	title: "Overworld Adventure"
