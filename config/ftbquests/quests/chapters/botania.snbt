@@ -1245,6 +1245,7 @@
 						"patchouli:book": "naturesaura:book"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Nature's Aura"
