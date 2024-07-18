@@ -473,7 +473,7 @@
 	#Disables Recipes for both Netherite Arrows and Netherite Bolts.
 	disable_netherite_ammo_recipes = false
 	#Disables all variants of the Arrow Quiver and the Bolt Quiver in this mod
-	disable_quiver_recipes = false
+	disable_quiver_recipes = true
 	#Bows in this blacklist will not get Arrows pulled out of the Arrow Quiver. Use the registry ID of the bow to add to this. e.g. "minecraft:bow"
 	quiver_bow_blacklist = ["botania:crystal_bow", "iceandfire:dragonbone_bow"]
 
