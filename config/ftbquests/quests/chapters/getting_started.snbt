@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
 			description: [
 				"Inside this strange book you found is a note."
 				""
@@ -17,6 +16,12 @@
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2BE6B05790E5A2DE"
+			rewards: [{
+				auto: "invisible"
+				command: "/gamerule playersSleepingPercentage 50"
+				id: "6BD729BA935D0569"
+				type: "command"
+			}]
 			tasks: [{
 				icon: "botania:cosmetic_clock_eye"
 				id: "7ABAEA70F4D6542F"
@@ -200,7 +205,11 @@
 			description: [
 				"The &lJumbo Furnace&r is an upgraded furnace. It is a 3x3x3 multiblock entirely composed of furnaces. As such, it has &a9 input slots, 9 fuel slots,&r and &a9 output slots."
 				""
-				"Unlike super smelters, the &lJumbo Furnace&r initially can't smelt multiple items at once. You need to give it an upgrade for this functionality."
+				"Unlike super smelters, the &lJumbo Furnace&r initially can't smelt multiple items at once."
+				""
+				"To do this, you will want to the inventory version of the Jumbo Furnace by either smelting 27 furnaces in a Jumbo Furnace or using shears on a Jumbo Furnace."
+				""
+				"Then, place the itemized Jumbo Furnace into the existing furnace's upgrade slot."
 			]
 			id: "74F529B8810608A5"
 			subtitle: "Don't make a super smelter!"
@@ -872,6 +881,8 @@
 		{
 			dependencies: ["4EB10737C5B7CBAE"]
 			description: [
+				"*Storage drawers has been removed and replaced with Sophisticated Storage. There may be some variance in the keybinds."
+				""
 				"Drawers are a visually pleasing way of organizing your items."
 				""
 				"Fortunately for you, drawers come in many varieties! The basic 1x1 version can hold 32 stacks of a single item, 1x2 drawers can hold 16 stacks each of 2 different items, and so on."
@@ -890,17 +901,18 @@
 			]
 			id: "78CFC81068655538"
 			tasks: [{
-				id: "58BC94529670D983"
+				id: "695EB1C9CE9DD250"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "sophisticatedstorage:limited_barrel_1"
 					tag: {
-						value: "storagedrawers:drawers"
+						accentColor: 16383998
+						mainColor: 16383998
 					}
 				}
-				title: "Any #storagedrawers:drawers"
 				type: "item"
 			}]
+			title: "Limited Barrels"
 			x: 4.0d
 			y: 0.5d
 		}
@@ -1345,8 +1357,8 @@
 				item: "darkutils:charm_sleep"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["649F0F57EC7E387E"]
@@ -1493,6 +1505,7 @@
 			]
 			id: "6AAC671A5A3A8E24"
 			tasks: [{
+				icon: "minecraft:emerald"
 				id: "59922A000F7FAB03"
 				item: "easy_villagers:villager"
 				title: "Villager"
@@ -1925,6 +1938,58 @@
 			title: "Runic Etching"
 			x: 5.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["2F5046E30C8273CB"]
+			description: [
+				"Elevators are useful contraptions that are surprisingly easy to get going and require no energy."
+				""
+				"First, you'll want at least two elevator controllers. Place them in the same x- and z-positions, but keep some distance between them vertically."
+				""
+				"Then, interact with one of the controllers from a side that doesn't have the buttons.  This will open a menu that lets you tell the elevator where the cabin is as well as rename the floor."
+				""
+				"Interact with the arrow buttons to go up and down, and the square button in the middle to call the elevator."
+				"{@pagebreak}"
+				"Elevator displays can be placed on top of controllers and will list the floors in the elevator system, highlighting the current position of the elevator."
+				""
+				"Interacting with floor labels in the display with dye will change the color of that label."
+				""
+				"Controllers and displays can have their appearances transformed by interacting a side without information on it while holding a block."
+				""
+				"These façades can be removed by shift right clicking with an empty hand."
+			]
+			id: "2828C315C94E06D3"
+			tasks: [
+				{
+					id: "0F04DCAD04FCE88E"
+					item: "movingelevators:elevator_block"
+					type: "item"
+				}
+				{
+					id: "58382911A5E074AD"
+					item: "movingelevators:display_block"
+					type: "item"
+				}
+			]
+			title: "Elevators"
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2828C315C94E06D3"]
+			description: [
+				"Remote elevator controllers can be bound by interacting with an existing regular controller while holding the remote."
+				""
+				"When placed, they can call and control the elevator from a different location."
+			]
+			id: "70618DCB0F4527EC"
+			tasks: [{
+				id: "46A18C0D724B9A69"
+				item: "movingelevators:button_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
 		}
 	]
 	title: "Getting Started"
