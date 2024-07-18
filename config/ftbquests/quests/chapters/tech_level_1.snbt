@@ -532,6 +532,7 @@
 		}
 		{
 			dependencies: ["3DEAE7C404A35245"]
+			hide: true
 			id: "0A26B049A30FF9DA"
 			subtitle: "TAKE A LOOK AT THESE HANDS"
 			tasks: [{
@@ -599,6 +600,7 @@
 				""
 				"The &6hose pulley&r drains bodies of liquid. If the body is big enough (such as an &eocean&r), it &edoesn't actually consume liquid&r."
 			]
+			hide: true
 			id: "1F0A5F83AD3401F9"
 			tasks: [
 				{
@@ -669,6 +671,7 @@
 				""
 				"To put this power into use, make the &6stirling dynamo&r face &eany item powered by FE&r. Interact with that item and you &cshould see its power meter start to fill&r."
 			]
+			hide: true
 			id: "16CCD414DF230E54"
 			rewards: [
 				{
@@ -930,6 +933,7 @@
 				""
 				"The &6arboreal extractor&r does not need RF and is boosted with &6phyto-gro&r. You will need &6fluiducts&r to transfer liquid to machines that need it."
 			]
+			hide: true
 			id: "1970165E2199C721"
 			rewards: [{
 				id: "49A5A79F7E374692"
@@ -1413,7 +1417,7 @@
 				}
 			]
 			x: -3.5d
-			y: -10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7A3E1BC754A91448"]
@@ -1424,6 +1428,7 @@
 				""
 				"They're a great option for small-scale setups, and will hold off well until you get modular routers!"
 			]
+			hide: true
 			id: "6E77A3D78F1891FE"
 			tasks: [{
 				id: "357B6310F88B091C"
@@ -1685,6 +1690,7 @@
 		{
 			dependencies: ["18D5766DA3ACAEF3"]
 			description: ["&eLink barges or cars&r together, forming a train."]
+			hide: true
 			id: "22CD98412754D6B5"
 			tasks: [{
 				id: "39FB278B8C8FEBF9"
@@ -1816,6 +1822,7 @@
 		}
 		{
 			dependencies: ["18D5766DA3ACAEF3"]
+			hide: true
 			id: "5C6E8209B322BCAB"
 			tasks: [{
 				id: "6FDCCD7A8F6B2F07"
@@ -1919,6 +1926,7 @@
 				""
 				"There is also an &eaugment slot&r where items can be added to &ebolster&r the machine. Try using&6 flint&r, for example."
 			]
+			hide: true
 			id: "5F68AE8317D33D19"
 			tasks: [
 				{
@@ -2142,8 +2150,25 @@
 				item: "computercraft:computer_normal"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: -9.0d
+		}
+		{
+			dependencies: ["1495D2307BF91921"]
+			id: "7D674D8DA6BF2107"
+			tasks: [{
+				id: "6BC8FB7236647695"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900.0f
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
 		}
 	]
 	title: "Tech Level 1"
