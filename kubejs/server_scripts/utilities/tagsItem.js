@@ -5,6 +5,7 @@ ServerEvents.tags("item", (event) => {
         ["forge:death_worm_chitins", "iceandfire:deathworm_chitin_yellow"],
         ["forge:death_worm_chitins", "iceandfire:deathworm_chitin_white"],
         ["forge:death_worm_chitins", "iceandfire:deathworm_chitin_red"],
+        ["forge:bowls", "ecologics:coconut_husk"],
     ];
 
     add.forEach((addition) => {
