@@ -6,7 +6,7 @@
   //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
   //        a spread factor above 1 means all structures are rarer
   //        a spread factor below 1 means all structure are more common
-  "spreadFactor": 1.3,
+  "spreadFactor": 1.25,
 
   // this is a list of custom spread factors
   "customSpreadFactors": [
@@ -74,7 +74,39 @@
     {
       "structure": "totw_modded:regular",
       "factor": 1
+    },
+    {
+      "structure": "alexscaves:underground_cabin",
+      "factor": 1
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "factor": 2
+    },
+    // {
+    //   "structure": "betterdungeons:skeleton_dungeon",
+    //   "factor": 1
+    // },
+    {
+      "structure": "betterdungeons:small_dungeon",
+      "factor": 1
+    },
+    {
+      "structure": "betterdungeons:small_nether_dungeon",
+      "factor": 1
+    },
+    {
+      "structure": "bettermineshafts:mineshaft_oak",
+      "factor": 1
     }
+    // {
+    //   "structure": "betterdungeons:spider_dungeon",
+    //   "factor": 1
+    // },
+    // {
+    //   "structure": "betterdungeons:zombie_dungeon",
+    //   "factor": 1
+    // }
     // add the structures you want to modify in the format:
     // {
     //     "structure": "namespace:structure_name",
