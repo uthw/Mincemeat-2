@@ -56,7 +56,7 @@
 	Crafter = true
 	"Dispensers Place Blocks" = true
 	"Ender Watcher" = true
-	"Feeding Trough" = true
+	"Feeding Trough" = false
 	Gravisand = true
 	"Iron Rod" = true
 	"Metal Buttons" = true
@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = true
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = true
@@ -510,6 +510,7 @@
 [tweaks]
 	"Armed Armor Stands" = true
 	"Automatic Recipe Unlock" = true
+	"Beach Villagers" = true
 	"Better Elytra Rocket" = true
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true
@@ -527,11 +528,13 @@
 	"Horses Swim" = true
 	"Improved Sponges" = true
 	"Lock Rotation" = true
+	"Magma Keeps Concrete Powder" = true
 	"Map Washing" = true
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
 	"No Durability On Cosmetics" = true
 	"Pat The Dogs" = true
+	"Petals On Water" = true
 	"Pig Litters" = true
 	"Poison Potato Usage" = true
 	"Reacharound Placing" = true
@@ -547,9 +550,6 @@
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
 	"Zombie Villagers On Normal" = true
-	"Magma Keeps Concrete Powder" = true
-	"Petals On Water" = true
-	"Beach Villagers" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -640,6 +640,10 @@
 		#Allowed values: [6,)
 		"Maximum Crawl Distance" = 10
 		"Enable Placing On Water" = true
+
+	[tweaks.lock_rotation]
+		#When true, lock rotation indicator in the same style as crosshair
+		"Render Like Cross Hair" = true
 
 	[tweaks.map_washing]
 		#This feature disables itself if any of the following mods are loaded:
@@ -754,10 +758,6 @@
 		#Can raw ore blocks be smelted, taking 9x the time a normal item?
 		"Smelt Raw Ore Blocks" = true
 
-	[tweaks.lock_rotation]
-		#When true, lock rotation indicator in the same style as crosshair
-		"Render Like Cross Hair" = true
-
 [world]
 	"Ancient Wood" = true
 	"Azalea Wood" = true
@@ -766,6 +766,7 @@
 	"Chorus Vegetation" = true
 	Corundum = true
 	"Fairy Rings" = true
+	"Fallen Logs" = true
 	"Glimmering Weald" = true
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
@@ -773,7 +774,6 @@
 	"No More Lava Pockets" = true
 	Permafrost = true
 	"Spiral Spires" = true
-	"Fallen Logs" = true
 
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
@@ -1120,6 +1120,18 @@
 			"Is Blacklist" = false
 			Dimensions = ["minecraft:overworld"]
 
+	[world.fallen_logs]
+		#Requires the Hollow Logs module to be enabled too
+		"Use Hollow Logs" = true
+		Rarity = 5
+		"Sparse Biome Rarity" = 12
+		#Tags that define which biomes can have which wood types
+		"Biome Tags" = ["quark:has_fallen_acacia=minecraft:acacia_log", "quark:has_fallen_birch=minecraft:birch_log", "quark:has_fallen_cherry=minecraft:cherry_log", "quark:has_fallen_dark_oak=minecraft:dark_oak_log", "quark:has_fallen_jungle=minecraft:jungle_log", "quark:has_fallen_mangrove=minecraft:mangrove_log", "quark:has_fallen_oak=minecraft:oak_log", "quark:has_fallen_spruce=minecraft:spruce_log"]
+
+		[world.fallen_logs.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk. 0 is 0%, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk.
@@ -1324,18 +1336,6 @@
 			[world.spiral_spires.biomes.biomes]
 				Biomes = ["minecraft:end_highlands"]
 				"Is Blacklist" = false
-
-	[world.fallen_logs]
-		#Requires the Hollow Logs module to be enabled too
-		"Use Hollow Logs" = true
-		Rarity = 5
-		"Sparse Biome Rarity" = 12
-		#Tags that define which biomes can have which wood types
-		"Biome Tags" = ["quark:has_fallen_acacia=minecraft:acacia_log", "quark:has_fallen_birch=minecraft:birch_log", "quark:has_fallen_cherry=minecraft:cherry_log", "quark:has_fallen_dark_oak=minecraft:dark_oak_log", "quark:has_fallen_jungle=minecraft:jungle_log", "quark:has_fallen_mangrove=minecraft:mangrove_log", "quark:has_fallen_oak=minecraft:oak_log", "quark:has_fallen_spruce=minecraft:spruce_log"]
-
-		[world.fallen_logs.dimensions]
-			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
 
 [mobs]
 	Crabs = true
@@ -1556,7 +1556,7 @@
 	"Soul Candles" = true
 	"Usage Ticker" = true
 	"Uses For Curses" = true
-	"Variant Animal Textures" = false
+	"Variant Animal Textures" = true
 	"Wool Shuts Up Minecarts" = true
 
 	[client.auto_walk_keybind]
@@ -1599,7 +1599,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = false
+		"Food Tooltips" = true
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1618,7 +1618,7 @@
 		#If set to false, item attributes will show in white or red if they're negative values.
 		"Show Upgrade Status" = true
 		"Animate Up Down Arrows" = true
-		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife"]
+		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang", "supplementaries:slingshot", "supplementaries:bubble_blower", "farmersdelight:diamond_knife", "the_bumblezone:stinger_spear", "the_bumblezone:crystal_cannon", "the_bumblezone:honey_crystal_shield", "the_bumblezone:honey_bee_leggings_2"]
 		#A list of additional stacks to display on each enchantment
 		#The format is as follows:
 		#enchant_id=item1,item2,item3...
@@ -1712,14 +1712,14 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Makes Mending II still work even if mending is nerfed.
 		#If you want Mending II, disable the sanity check on Ancient Tomes and add minecraft:mending to the tomes.
 		"No Nerf for Mending II" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
-		"Nerf Villager Discount" = true
+		"Nerf Villager Discount" = false
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
@@ -1830,9 +1830,9 @@
 
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
-		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
+		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "quark:gravisand"]
 		#Block/Item IDs to force-allow magnetism on, regardless of their crafting recipe
-		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
+		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil", "minecraft:iron_horse_armor", "minecraft:chainmail_helmet", "minecraft:chainmail_boots", "minecraft:chainmail_leggings", "minecraft:chainmail_chestplate"]
 		#Block/Item IDs to force-disable magnetism on, regardless of their crafting recipe
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
 		"Use Pre End Recipe" = false
