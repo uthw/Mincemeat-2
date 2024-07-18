@@ -557,6 +557,7 @@
 				""
 				"* This chapter is ripped from Mincemeat 1 with few changes. As the modpack grows, I'll remake them in the Poutine style."
 			]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "enigmaticlegacy:tattered_tome"
@@ -3917,8 +3918,8 @@
 				item: "irons_spellbooks:upgrade_orb"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -9.0d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1FAF889506FFFF18"]
@@ -3933,7 +3934,7 @@
 				value: 1L
 			}]
 			x: -3.0d
-			y: -8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5390B26927C70B16"]
@@ -4124,10 +4125,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"5961EDE9C0C037F8"
-				"5390B26927C70B16"
-			]
+			dependencies: ["5390B26927C70B16"]
 			dependency_requirement: "one_completed"
 			description: [
 				"A refined version of the material dropped by squids."
@@ -4148,15 +4146,15 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6ED5AF6D7BFF56E8"]
+			dependencies: ["5390B26927C70B16"]
 			id: "5961EDE9C0C037F8"
 			tasks: [{
 				id: "22D4EB001261882D"
 				item: "irons_spellbooks:alchemist_cauldron"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["31302C25EFA8B097"]
@@ -4437,7 +4435,29 @@
 		}
 		{
 			dependencies: ["19E62F587AB8AB1D"]
-			description: ["Right click your crow to cycle commands. For more advanced control, shift right click."]
+			description: [
+				"This bird may seem like a simple creature, but don’t be deceived—it’s the most complex pet in Mincemeat."
+				""
+				"First, it doesn’t drop anything when killed and can be found flying around swamps or in raised villages. You can tame it using a seed mixture made from wheat, pumpkin, melon, beetroot, and sunflower seeds, created in a mortar and pestle. The seed mixture can also be eaten."
+				""
+				"Once tamed, crows have six modes that you can switch between by shift-right-clicking on them. They also have three equipment slots: Hand (a weapon slot), Hat (an armor slot), and Misc (which can be anything)."
+				"{@pagebreak}"
+				"Here are the six modes explained:"
+				""
+				"Follow: The crow will follow the player, usually perching on their shoulder. While on your shoulder, it can attack other mobs, essentially dual-wielding. It’s best to equip the crow with a high-damage weapon since swing speed doesn’t affect them."
+				""
+				"Sit: This mode keeps the crow in place, nothing more."
+				""
+				"Wander: In this mode, the crow will follow the player in the air. However, this is risky, as it can easily get hit by enemies due to its low HP."
+				""
+				"(continued on next page)"
+				"{@pagebreak}"
+				"Gather: When in help mode and set to gather, crows will pick up any items on the ground that match items in a nearby coffer. For example, if a coffer contains gold ingots, the crow will collect those from the ground and return them to the coffer, ignoring items like dirt."
+				""
+				"Harvest: When set to harvest in help mode, crows will find fully grown crops, break them, and replant the seeds. It’s beneficial to have another crow in gather mode to collect the harvested items."
+				""
+				"Pickpocket: Crows will fly to villagers and steal items from them, typically items that the villager would be selling. The crow will then return the stolen items to the player."
+			]
 			id: "0129870BD87086C9"
 			tasks: [
 				{
