@@ -1,0 +1,49 @@
+[
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "dimension": "minecells:prison",
+        "result": "allow",
+        "healthmultiply": 1.75,
+        "damagemultiply": 1.75
+    },
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "dimension": "minecells:promenade",
+        "result": "allow",
+        "healthmultiply": 2,
+        "damagemultiply": 2
+    },
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "dimension": "minecells:ramparts",
+        "result": "allow",
+        "healthmultiply": 2.5,
+        "damagemultiply": 2
+    },
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "dimension": "minecells:black_bridge",
+        "result": "allow",
+        "healthmultiply": 1.75,
+        "damagemultiply": 1.75
+    },
+    {
+        "hostile": true,
+        "when": "onjoin",
+        "dimension": "minecells:insufferable_crypt",
+        "result": "allow",
+        "healthmultiply": 2.5,
+        "damagemultiply": 2
+    },
+    {
+        "when": "onjoin",
+        "mob": "graveyard:lich",
+        "result": "allow",
+        "healthmultiply": 1.8,
+        "damagemultiply": 1.5
+    }
+]
