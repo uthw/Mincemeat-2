@@ -269,7 +269,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["050E820868DD4EC3"]
 			description: [
 				"Did you know these Ender Chests existed before the vanilla item did, and it may be true that EnderStorage inspired vanilla ender chests?"
 				""
@@ -298,13 +297,19 @@
 		}
 		{
 			dependencies: ["23B75CD0B5815418"]
+			description: [
+				"Storage Drawers have been removed with Mincemeat 2 v0.4.0"
+				""
+				"This is mostly due to memory-related concerns and the fact that Sophisticated Storage adds drawer-like containers."
+				""
+				"If I add the mod back for whatever reason, these quests will become available again."
+			]
 			icon: "aquaculture:treasure_chest"
 			id: "050E820868DD4EC3"
+			invisible: true
 			tasks: [{
-				id: "66F9CA117F1F559C"
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 1
+				id: "5E9F73E075F9A559"
+				type: "checkmark"
 			}]
 			title: "Advanced Storage"
 			x: 2.0d
@@ -422,7 +427,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["050E820868DD4EC3"]
 			description: [
 				"Right click a &evanilla storage container&r with this to make it &6sophisticated&r."
 				""
@@ -436,8 +440,8 @@
 				type: "item"
 			}]
 			title: "Sophisticated Storage"
-			x: 4.0d
-			y: -1.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			description: [
