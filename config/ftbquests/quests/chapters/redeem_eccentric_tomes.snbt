@@ -14,7 +14,48 @@
 			icon: "farmersdelight:minced_beef"
 			id: "01DBC3B178C589E7"
 			rewards: [{
-				id: "090646A81881BCF9"
+				id: "6A2F00926B605077"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				disable_toast: true
+				icon: "farmersdelight:minced_beef"
+				id: "7A9644623A439E81"
+				stat: "minecraft:play_time"
+				title: "Automatically Completed"
+				type: "stat"
+				value: 1
+			}]
+			title: "Redeem Eccentric Tomes"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You are seeing this quest if you went into editing mode in FTB Quests, or if you went into this chapter's .snbt file."
+				""
+				"This quest exists so that this chapter is never marked as complete."
+			]
+			id: "2969FC522EE7C233"
+			invisible: true
+			tasks: [{
+				id: "17979268FAE488FE"
+				title: "asdasdasd"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "berry_good:sweet_berry_mince"
+			id: "34710AB0D1387508"
+			rewards: [{
+				id: "676ECFE1D0329B9A"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
@@ -186,33 +227,72 @@
 			size: 1.5d
 			tasks: [{
 				disable_toast: true
-				icon: "farmersdelight:minced_beef"
-				id: "7A9644623A439E81"
+				icon: "alexsdelight:bison_mince"
+				id: "3483C0D10596557F"
 				stat: "minecraft:play_time"
 				title: "Automatically Completed"
 				type: "stat"
 				value: 1
 			}]
-			title: "Redeem Eccentric Tomes"
+			title: "Redeem Quest Books"
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			description: [
-				"You are seeing this quest if you went into editing mode in FTB Quests, or if you went into this chapter's .snbt file."
-				""
-				"This quest exists so that this chapter is never marked as complete."
-			]
-			id: "2969FC522EE7C233"
-			invisible: true
-			tasks: [{
-				id: "17979268FAE488FE"
-				title: "asdasdasd"
-				type: "checkmark"
-			}]
-			x: -6.0d
 			y: -1.5d
 		}
+		{
+			can_repeat: true
+			description: [
+				"In Mincemeat 2, the proportion of players in bed required for the night to be skipped is automatically set to 0.5. If you want it back at 100% for some reason, click on the command block."
+				""
+				"Using the quest below this, you can set it back to 50% if you change your mind."
+			]
+			disable_toast: true
+			id: "322D3234C252BFB6"
+			rewards: [{
+				command: "/gamerule playersSleepingPercentage 100"
+				id: "0237D1867820C322"
+				title: "Set sleeping percentage to 100%?"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "forbidden_arcanus:crescent_moon"
+				id: "19218E86147860CB"
+				stat: "minecraft:play_time"
+				title: "Set Sleeping Percentage:  100%"
+				type: "stat"
+				value: 1
+			}]
+			title: "Set Sleeping Percentage to 100%"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["322D3234C252BFB6"]
+			disable_toast: true
+			id: "1321AB2B8D19C076"
+			invisible: true
+			rewards: [{
+				command: "/gamerule playersSleepingPercentage 50"
+				id: "3D4C27B6A0CF2092"
+				title: "Set sleeping percentage to 50%?"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "deep_aether:sun_core"
+				id: "1EAB325565E3A2B9"
+				stat: "minecraft:play_time"
+				title: "Set Sleeping Percentage to 50%"
+				type: "stat"
+				value: 1
+			}]
+			title: "Set Sleeping Percentage back to 50%"
+			x: 1.5d
+			y: 0.0d
+		}
 	]
-	title: "Redeem Eccentric Tomes"
+	title: "Player Utilities and Services"
 }
