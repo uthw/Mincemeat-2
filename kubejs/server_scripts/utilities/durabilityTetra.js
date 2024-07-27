@@ -3,22 +3,22 @@
 ServerEvents.highPriorityData((event) => {
     let tweak = [
         { name: "bone/bone", durability: 240 },
-        { name: "wool/wool", durability: 400 },
-        { name: "wool/wool_black", durability: 400 },
-        { name: "wool/wool_blue", durability: 400 },
-        { name: "wool/wool_brown", durability: 400 },
-        { name: "wool/wool_cyan", durability: 400 },
-        { name: "wool/wool_gray", durability: 400 },
-        { name: "wool/wool_green", durability: 400 },
-        { name: "wool/wool_light_blue", durability: 400 },
-        { name: "wool/wool_light_gray", durability: 400 },
-        { name: "wool/wool_lime", durability: 400 },
-        { name: "wool/wool_magenta", durability: 400 },
-        { name: "wool/wool_orange", durability: 400 },
-        { name: "wool/wool_pink", durability: 400 },
-        { name: "wool/wool_purple", durability: 400 },
-        { name: "wool/wool_red", durability: 400 },
-        { name: "wool/wool_yellow", durability: 400 },
+        // { name: "wool/wool", durability: 400 },
+        // { name: "wool/wool_black", durability: 400 },
+        // { name: "wool/wool_blue", durability: 400 },
+        // { name: "wool/wool_brown", durability: 400 },
+        // { name: "wool/wool_cyan", durability: 400 },
+        // { name: "wool/wool_gray", durability: 400 },
+        // { name: "wool/wool_green", durability: 400 },
+        // { name: "wool/wool_light_blue", durability: 400 },
+        // { name: "wool/wool_light_gray", durability: 400 },
+        // { name: "wool/wool_lime", durability: 400 },
+        // { name: "wool/wool_magenta", durability: 400 },
+        // { name: "wool/wool_orange", durability: 400 },
+        // { name: "wool/wool_pink", durability: 400 },
+        // { name: "wool/wool_purple", durability: 400 },
+        // { name: "wool/wool_red", durability: 400 },
+        // { name: "wool/wool_yellow", durability: 400 },
         { name: "fibre/dragon_sinew", durability: 2300 },
         { name: "fibre/phantom_membrane", durability: 2300 },
         { name: "fibre/string", durability: 400 },
@@ -32,7 +32,7 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/gold", durability: 64 },
         { name: "metal/iron", durability: 500 },
         { name: "metal/netherite", durability: 4062 },
-        { name: "misc/vent_plate", durability: 1200 },
+        // // { name: "misc/vent_plate", durability: 1200 },
         { name: "misc/vent_plate", durability: 1200 },
         { name: "rod/bamboo", durability: 30 },
         { name: "rod/blaze_rod", durability: 222 },
@@ -69,25 +69,25 @@ ServerEvents.highPriorityData((event) => {
         { name: "wood/spruce", durability: 108 },
         { name: "wood/warped", durability: 300 },
 
-        // Aetheric Tetranomicon
+        //     // Aetheric Tetranomicon
 
         { name: "fibre/aether_redux_gilded_vine", durability: 1536 },
         { name: "fibre/aether_redux_golden_vine", durability: 1536 },
         { name: "fibre/deep_aether_sunroot_hanger", durability: 2048 },
         { name: "fibre/deep_aether_yagroot_vines", durability: 2048 },
-        { name: "gem/aether_gravitite", durability: 3122 },
-        { name: "gem/aether_redux_gravitite", durability: 3122 },
-        { name: "gem/aether_zanite", durability: 500 },
-        { name: "gem/deep_aether_skyjade", durability: 300 },
-        { name: "metal/aether_phoenix", durability: 3122 },
+        { name: "gem/aether_gravitite", durability: 3122, primary: 7 }, // +2 buff for gravitite
+        { name: "gem/aether_redux_gravitite", durability: 3122, primary: 7 },
+        { name: "gem/aether_zanite", durability: 500, primary: 6 }, // +1
+        { name: "gem/deep_aether_skyjade", durability: 300, primary: 6 },
+        { name: "metal/aether_phoenix", durability: 3122, primary: 11 },
         { name: "metal/aether_redux_veridium", durability: 1500 },
-        { name: "metal/aether_valkyrie", durability: 3122 },
-        { name: "metal/ancient_aether_valkyrum", durability: 4062 },
-        { name: "metal/deep_aether_stratus", durability: 4062 },
+        { name: "metal/aether_valkyrie", durability: 3122, primary: 7 },
+        { name: "metal/ancient_aether_valkyrum", durability: 4062, primary: 9 },
+        { name: "metal/deep_aether_stratus", durability: 4062, primary: 10 },
         { name: "socket/socket_aether_golden_amber", durability: 1024.0 },
         { name: "socket/socket_aether_zanite", durability: 1024.0 },
         // Is this supposed to be 0.0? will leave it be for now ig
-        { name: "socket/socket_deep_aether_skyjade", durability: 0.0 },
+        // { name: "socket/socket_deep_aether_skyjade", durability: 0.0 },
         { name: "stone/deep_aether_clorite", durability: 896 },
         { name: "stone/deep_aether_aseterite", durability: 896 },
         { name: "stone/aether_redux_vitrium", durability: 1536 },
@@ -107,15 +107,20 @@ ServerEvents.highPriorityData((event) => {
         { name: "wood/aether_redux_cloudcap", durability: 2048 },
         { name: "wood/aether_redux_blightwillow", durability: 500 },
 
-        // Tetranomicon - I am only adding materials from mods in the pack currently
+        //     // Tetranomicon - I am only adding materials from mods in the pack currently
 
-        // wood - no support for wilderwild or natures_spirit sadly
+        //     // wood - no support for wilderwild or natures_spirit sadly
         { name: "wood/ecologics_walnut", durability: 1024 },
         { name: "wood/ecologics_flowering_azalea", durability: 768 },
         { name: "wood/ecologics_coconut", durability: 262 },
         { name: "wood/ecologics_azalea", durability: 768 },
-        { name: "wood/deeperdarker_echo_wood", durability: 4062 },
-        { name: "wood/blue_skies_starlit_wood", durability: 108 },
+        // { name: "wood/deeperdarker_echo_wood", durability: 4062 },
+        {
+            name: "wood/blue_skies_starlit_wood",
+            durability: 108,
+            replace: true,
+            key: "no",
+        },
         { name: "wood/blue_skies_maple", durability: 108 },
         { name: "wood/blue_skies_frostbright", durability: 108 },
         { name: "wood/blue_skies_dusk", durability: 108 },
@@ -125,8 +130,8 @@ ServerEvents.highPriorityData((event) => {
         { name: "wood/alexscaves_thornwood", durability: 1536 },
         { name: "wood/alexscaves_pewen", durability: 96 },
         // stone
-        { name: "stone/deeperdarker_sculk_stone", durability: 3122 },
-        { name: "stone/deeperdarker_gloomslate", durability: 2048 },
+        // { name: "stone/deeperdarker_sculk_stone", durability: 3122 },
+        // { name: "stone/deeperdarker_gloomslate", durability: 2048 },
         { name: "stone/create_veridium", durability: 262 },
         { name: "stone/create_scoria", durability: 192 },
         { name: "stone/create_scorchia", durability: 384 },
@@ -147,11 +152,11 @@ ServerEvents.highPriorityData((event) => {
         { name: "stone/alexscaves_flood_basalt", durability: 360 },
         { name: "stone/alexscaves_coprolith", durability: 262 },
         { name: "stone/alexscaves_abyssmarine", durability: 1024 },
-        { name: "socket/socket_deeperdarker_soul_crystal", durability: 1024.0 },
-        {
-            name: "socket/socket_deeperdarker_reinforced_echo_shard",
-            durability: 1024.0,
-        },
+        // { name: "socket/socket_deeperdarker_soul_crystal", durability: 1024.0 },
+        // {
+        //     name: "socket/socket_deeperdarker_reinforced_echo_shard",
+        //     durability: 1024.0,
+        // },
         {
             name: "socket/socket_blue_skies_sunstone_crystal",
             durability: 1024.0,
@@ -182,14 +187,14 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/create_brass", durability: 924 },
         { name: "metal/create_andesite_alloy", durability: 396 },
         { name: "metal/blue_skies_horizonite", durability: 500 },
-        { name: "gem/deeperdarker_warden", durability: 5038 },
+        // { name: "gem/deeperdarker_warden", durability: 5038, primary: 9 },
         { name: "gem/blue_skies_pyrope", durability: 400 },
         { name: "gem/blue_skies_moonstone", durability: 500 },
-        { name: "gem/blue_skies_diopside", durability: 3322 },
-        { name: "gem/blue_skies_charoite", durability: 3122 },
-        { name: "gem/blue_skies_aquite", durability: 540 },
-        { name: "gem/blue_skies_aquite", durability: 540 },
-        { name: "fibre/deeperdarker_sculk_vine", durability: 2560 },
+        { name: "gem/blue_skies_diopside", durability: 3322, hardness: 9 },
+        { name: "gem/blue_skies_charoite", durability: 3122, hardness: 7 },
+        { name: "gem/blue_skies_aquite", durability: 540, hardness: 6 },
+        // { name: "gem/blue_skies_aquite", durability: 540 },
+        // { name: "fibre/deeperdarker_sculk_vine", durability: 2560 },
         { name: "fibre/blue_skies_starlit_vine", durability: 640 },
         { name: "fibre/blue_skies_maple_vine", durability: 360 },
         { name: "fibre/blue_skies_lunar_vine", durability: 400 },
@@ -198,10 +203,10 @@ ServerEvents.highPriorityData((event) => {
         { name: "fibre/blue_skies_brumble_vine", durability: 640 },
         { name: "fibre/blue_skies_bluebright_vine", durability: 400 },
         { name: "fibre/alexscaves_archaic_vine", durability: 2560 },
-        { name: "bone/deeperdarker_sculk_bone", durability: 10 },
+        // { name: "bone/deeperdarker_sculk_bone", durability: 10 },
         { name: "bone/alexscaves_heavy_bone", durability: 1024 },
 
-        // Art of Forging
+        //     // Art of Forging
 
         { name: "socket/void_worm_eye", durability: 90 },
         { name: "socket/vobrite_crystal", durability: 30 },
@@ -236,25 +241,13 @@ ServerEvents.highPriorityData((event) => {
         // attempt disabling tetra extras create compat since Tetranomicon already adds it
 
         // {
-        //     name: "metal/create/andesite_alloy",
-        //     hidden: true,
-        //     material: {
-        //         items: ["minecraft:nonexistent_material"],
-        //     },
+        //     name: "metal/create/andesite_alloy"
         // },
         // {
-        //     hidden: true,
-        //     name: "metal/create/brass",
-        //     material: {
-        //         items: ["minecraft:nonexistent_material"],
-        //     },
+        //     name: "metal/create/brass"
         // },
         // {
-        //     hidden: true,
-        //     name: "metal/create/zinc",
-        //     material: {
-        //         items: ["minecraft:nonexistent_material"],
-        //     },
+        //     name: "metal/create/zinc"
         // },
 
         // tetra extras
@@ -263,7 +256,11 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/aquaculture/neptunium_ingot", durability: 3584 },
         { name: "metal/cataclysm/ignitium_ingot", durability: 17260 },
         { name: "metal/cataclysm/witherite_ingot", durability: 4062 },
-        { name: "metal/enigmatic_legacy/etherium", durability: 4852 },
+        {
+            name: "metal/enigmatic_legacy/etherium",
+            durability: 4852,
+            primary: 13.7,
+        },
         { name: "metal/enigmatic_legacy/nefarious", durability: 6862 },
         { name: "rod/enigmatic_legacy/ender_rod", durability: 1148 },
         { name: "scale/quark/crab_shell", durability: 400 },
