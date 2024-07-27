@@ -727,7 +727,7 @@
     "plainStoneErosion": false,
     "smoothLayerDecorator": true,
     "strataRegionSize": 600,
-    "strataDecorator": true
+    "strataDecorator": false
   },
   "terrain": {
     "torridonian": {
