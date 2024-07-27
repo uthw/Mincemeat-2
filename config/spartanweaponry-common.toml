@@ -628,6 +628,9 @@
 		#Changes the "Backstab Damage Bonus" Weapon Trait multiplier value
 		#Range: 1.0 ~ 50.0
 		backstab_multiplier = 3.0
+		#Changes the "Head Damage Bonus" Weapon Trait multiplier value
+		#Range: 1.0 ~ 50.0
+		head_multiplier = 1.5
 
 	[traits.damage_absorption]
 		#Changes the percentage of damage absorbed by the "Damage Absorption" Weapon Trait
