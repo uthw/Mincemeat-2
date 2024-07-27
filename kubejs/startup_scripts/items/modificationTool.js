@@ -37,22 +37,98 @@ ItemEvents.modification((event) => {
         //     damage: 5.5,
         // },
         // Not buffing the charoite/diopside weapons for now since it would mean I need to buff netherite and tetra
-        // {
-        //     name: "blue_skies:diopside_sword",
-        //     damage: 9,
-        // },
+        {
+            name: "blue_skies:diopside_sword",
+            damage: 9,
+        },
         // {
         //     name: "blue_skies:diopside_axe",
         //     damage: 12,
         // },
-        // {
-        //     name: "blue_skies:charoite_sword",
-        //     damage: 7,
-        // },
+        {
+            name: "blue_skies:charoite_sword",
+            damage: 7,
+        },
         // {
         //     name: "blue_skies:charoite_axe",
         //     damage: 9,
         // },
+        {
+            name: "blue_skies:aquite_sword",
+            damage: 6,
+        },
+        // {
+        //     name: "blue_skies:aquite_axe",
+        //     damage: 9,
+        // },
+        {
+            name: "aether:gravitite_sword",
+            damage: 7,
+        },
+        // {
+        //     name: "aether:gravitite_axe",
+        //     damage: 11,
+        // },
+        {
+            name: "aether:zanite_sword",
+            damage: 6,
+        },
+        // {
+        //     name: "aether:zanite_axe",
+        //     damage: 9,
+        // },
+        {
+            name: "aether:valkyrie_lance",
+            damage: 7,
+        },
+        {
+            name: "aether_lost_content:phoenix_sword",
+            damage: 11,
+        },
+        {
+            name: "ancient_aether:valkyrum_sword",
+            damage: 9,
+        },
+        {
+            name: "ancient_aether:valkyrum_lance",
+            damage: 8,
+        },
+        {
+            name: "deep_aether:stratus_sword",
+            damage: 10,
+        },
+        {
+            name: "ancient_aether:ancient_sword",
+            damage: 8,
+        },
+        {
+            name: "aether:flaming_sword",
+            damage: 8,
+        },
+        {
+            name: "aether:lightning_sword",
+            damage: 8,
+        },
+        {
+            name: "aether:holy_sword",
+            damage: 8,
+        },
+        {
+            name: "aether:vampire_blade",
+            damage: 8,
+        },
+        {
+            name: "deeperdarker:warden_sword",
+            damage: 9,
+        },
+        {
+            name: "enigmaticlegacy:etherium_sword",
+            damage: 14, // buff of +3
+        },
+        {
+            name: "enigmaticlegacy:etherium_scythe",
+            damage: 10, // buff of +2
+        },
     ];
 
     tools.forEach((tool) => {
