@@ -449,7 +449,7 @@ ServerEvents.highPriorityData((event) => {
         for (let i = 0; i < weaponMaterials.length; i++) {
             // adds a spartan weaponry item with the current material and type to the swords entries (3)
             equipment[3].entries.push({
-                item: `spartanweaponry:${weaponType}_${weaponMaterials[i]}`,
+                item: `spartanweaponry:${weaponMaterials[i]}_${weaponType}`,
                 weight: 1,
             });
         }
