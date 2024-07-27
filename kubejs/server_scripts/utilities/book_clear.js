@@ -12,7 +12,11 @@ PlayerEvents.advancement((event) => {
     event.server.runCommandSilent(
         'give @p delightful:smore{RepairCost:0,display:{Name:\'{"text":"Starting Gift"}\'}}'
     );
-    event.server.runCommandSilent("clear @p patchouli:guide_book");
+    event.server.runCommandSilent("gamerule playersSleepingPercentage 50");
+
+    setTimeout(() => {
+        event.server.runCommandSilent("clear @p patchouli:guide_book");
+    }, 200);
 
     // Item.of(
     //     "delightful:cheeseburger",
