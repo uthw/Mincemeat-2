@@ -694,11 +694,11 @@ ServerEvents.recipes((event) => {
             "minecraft:piston",
             "create:copper_valve_handle",
         ],
-        [
-            { output: "enigmaticlegacy:ender_rod" },
-            "#forge:ender_pearls",
-            "deeperdarker:soul_dust",
-        ],
+        // [
+        //     { output: "enigmaticlegacy:ender_rod" },
+        //     "#forge:ender_pearls",
+        //     "deeperdarker:soul_dust",
+        // ],
         [
             { output: "reliquary:harvest_rod" },
             "minecraft:rose_bush",
