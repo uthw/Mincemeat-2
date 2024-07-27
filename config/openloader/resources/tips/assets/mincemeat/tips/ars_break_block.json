@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ars Nouveau Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The Break Block starter spell instantly breaks most blocks. It also bypasses mining fatigue and penalties from being underwater or airborne, making it handy for exploration."
+    }
+}
