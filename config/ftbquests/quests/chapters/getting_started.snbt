@@ -16,12 +16,6 @@
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2BE6B05790E5A2DE"
-			rewards: [{
-				auto: "invisible"
-				command: "/gamerule playersSleepingPercentage 50"
-				id: "6BD729BA935D0569"
-				type: "command"
-			}]
 			tasks: [{
 				icon: "botania:cosmetic_clock_eye"
 				id: "7ABAEA70F4D6542F"

@@ -206,6 +206,7 @@
 			]
 			icon: "deeperdarker:heart_of_the_deep"
 			id: "71358BBA8D60E6CD"
+			invisible: true
 			tasks: [
 				{
 					id: "59DD6C6431563EBB"
