@@ -118,8 +118,6 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "wood/blue_skies_starlit_wood",
             durability: 108,
-            replace: true,
-            key: "no",
         },
         { name: "wood/blue_skies_maple", durability: 108 },
         { name: "wood/blue_skies_frostbright", durability: 108 },
