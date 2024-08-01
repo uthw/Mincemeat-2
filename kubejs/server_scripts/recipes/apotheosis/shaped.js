@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:end_stone_bricks",
                 B: "aether:zanite_gemstone",
                 C: "#c:bookshelves",
-                D: "betterend:crystal_shards",
+                D: "#outer_end:crystal_shards",
             },
             id: "apotheosis:endshelf",
         },
@@ -130,7 +130,7 @@ ServerEvents.recipes((event) => {
             output: "apotheosis:simple_reforging_table",
             inputs: [" A ", "BCB", "DDD"],
             keys: {
-                A: "betterend:iron_hammer",
+                A: "forbidden_arcanus:iron_blacksmith_gavel",
                 B: "apotheosis:gem_dust",
                 C: "minecraft:enchanting_table",
                 D: "blue_skies:aquite_block",
@@ -164,7 +164,7 @@ ServerEvents.recipes((event) => {
             inputs: ["AAA", "BCD", "EFE"],
             keys: {
                 A: "minecraft:copper_ingot",
-                B: "betterend:iron_hammer",
+                B: "forbidden_arcanus:iron_blacksmith_gavel",
                 C: "quark:crate",
                 D: "mowziesmobs:naga_fang",
                 E: "forbidden_arcanus:aurum_planks",
