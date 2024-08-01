@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "eidolon:zombie_heart",
                 B: "blue_skies:ventium_ingot",
-                C: "scalinghealth:heart_crystal",
+                C: "eidolon:wraith_heart",
                 D: "cataclysm:koboleton_bone",
             },
         ],
