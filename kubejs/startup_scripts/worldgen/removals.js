@@ -1,9 +1,10 @@
 WorldgenEvents.remove((event) => {
     event.removeOres((props) => {
-        // AllTheOres? Emendatus Enigmatica? never met 'em
+        // AllTheOres? Emendatus Enigmatica? Almost Unified? never met 'em
 
         // In terms of modded ore gen, Mekanism and Eidolon add most things. Currently Railcraft Sulfur is on but this might change.
         // Keep this in mind once IE, IaF, and Thermal are added
+        // If you're not me, this file might give you insight as to mods that used to be in Mincemeat 2 but were removed for varying reasons
 
         props.blocks = [
             "railcraft:lead_ore",
@@ -74,6 +75,9 @@ WorldgenEvents.remove((event) => {
 
             "natures_spirit:willow_log",
             "natures_spirit:willow_leaves",
+
+            "occultism:silver_ore",
+            "occultism:deepslate_silver_ore",
         ];
     });
 });
