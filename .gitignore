@@ -92,3 +92,15 @@ config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 
 chesttracker/
+config/voicechat/username-cache.json
+config/fabric/indigo-renderer.properties
+servers.dat
+servers.dat_old
+config/fabric/indigo-renderer.properties
+config/jei/recipe-category-sort-order.ini
+config/apotheosis/names.cfg
+config/pneumaticcraft/ArmorFeatureStatus.cfg
+config/sound_physics_remastered/allowed_sounds.properties
+config/sound_physics_remastered/occlusion.properties
+config/sound_physics_remastered/reflectivity.properties
+config/spark/activity.json
