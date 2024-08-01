@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Alex's Caves Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Just by being in the Toxic Caves, you'll become irradiated, which stops your natural regeneration. Higher levels of radiation make you glow green and chip away at your health."
+    }
+}

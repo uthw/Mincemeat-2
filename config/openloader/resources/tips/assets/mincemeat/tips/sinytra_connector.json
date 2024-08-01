@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "This modpack runs on the NeoForge mod loader, but contains both Forge and Fabric mods thanks to the Sinytra Connector mod."
+    }
+}

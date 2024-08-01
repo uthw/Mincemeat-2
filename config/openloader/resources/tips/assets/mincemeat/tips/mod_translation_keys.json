@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "JEI Integration Tip",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "This doesn't relate to Mincemeat and will help very few people, but if you're interested in translating a mod into your native language, turn on JEI Integration's translation key tooltips in its config to help you."
+    }
+}

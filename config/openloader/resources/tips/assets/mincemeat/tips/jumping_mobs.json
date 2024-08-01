@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Big Brain Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Watch out! Hostile mobs will jump over small gaps in order to reach you."
+    }
+}

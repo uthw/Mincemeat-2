@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Respawning Animals Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Like on bedrock edition, passive animalsspawn and despawn randomly unless interacted with. This means you can return to an area and find more animals later, even if they all die somehow."
+    }
+}

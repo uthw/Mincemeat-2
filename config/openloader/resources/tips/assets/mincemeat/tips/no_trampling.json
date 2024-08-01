@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Trample Stopper Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Crops are more resilient in Mincemeat, and will not be trampled by players jumping on them."
+    }
+}

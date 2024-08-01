@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Simple Voice Chat Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "This modpack has proximity voice chat. If you don't want this, remove the Simple Voice Chat mod. You can configure the mod by setting and using the 'Voice Chat  GUI' key bind."
+    }
+}

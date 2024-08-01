@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mincemeat Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "It's expected for the game to stop responding for a few seconds when doing actions like booting up the game, creating worlds, and loading into worlds."
+    }
+}

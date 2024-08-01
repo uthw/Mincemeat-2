@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Majrusz's Accessories Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Two of the same accessory can be combined in a crafting grid to reroll the efficiency bonus, usually getting a higher result. Certain different accessories can be combined for an entirely new one."
+    }
+}

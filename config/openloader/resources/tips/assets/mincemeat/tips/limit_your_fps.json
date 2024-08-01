@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Minecraft Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Set your FPS limit to the refresh rate of your monitor. This will help with power consumption, and does great things for your battery if you're on a laptop."
+    }
+}

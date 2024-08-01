@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Oculus Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Most shader packs are configurable by clicking the \"Shader Pack Settings...\" button in the bottom right of the shader menu."
+    }
+}

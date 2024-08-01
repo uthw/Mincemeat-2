@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mincemeat Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "These tip titles are color coded depending on their subjects. For example, red is adventure and combat, green is technology, and pink is magic."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Rotation speed is unable to go higher than 256 rpm. If you try to increase the speed beyond this threshold, your contraption will stop moving."
+    }
+}

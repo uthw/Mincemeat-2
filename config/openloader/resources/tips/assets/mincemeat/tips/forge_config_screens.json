@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Forge Config Screens Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you find the advancement plaques annoying, they can be configured to your liking by clicking its config button in the mod menu. I've already reduced the duration they're shown on the screen, but feel free to reduce it further."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Crawl Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Set the crawl key, the first option in the key bindings menu, to fit into small spaces. Your jump height is severely reduced while crawling."
+    }
+}

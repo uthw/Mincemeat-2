@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mine Cells Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Hattori's Katana has a charged dash which is usable by holding down the interact button. It's good for maneuvering and does a great deal of damage (20 HP) to anything in your way."
+    }
+}

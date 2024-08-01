@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ping Wheel Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Show other players locations and entities in the distance with the ping key."
+    }
+}

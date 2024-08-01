@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Curious Lanterns Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Put a lantern in your belt slot for dynamic lighting without the need for a torch in your off hand."
+    }
+}
