@@ -67,10 +67,17 @@ ServerEvents.recipes((event) => {
         "mekanism:mekasuit_bodyarmor",
         "mekanism:mekasuit_pants",
         "mekanism:mekasuit_boots",
+        "tetra:flamberge_scroll",
+        "tetra:katana_scroll",
+        "reliquary:glowing_water_from_potion_vial",
+        "tetra:crucible_scroll",
+        "naturesaura:gold_fiber",
+        "ars_nouveau:magebloom_fiber",
+        "forbidden_arcanus:arcane_bone_meal",
     ];
 
     toRemove.forEach((recipeId) => {
-        console.log("Removing recipe:", recipeId); // Add a log statement
+        // console.log("Removing recipe:", recipeId);
         event.remove({ id: recipeId });
     });
 });

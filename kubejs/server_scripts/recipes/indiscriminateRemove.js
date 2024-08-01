@@ -142,6 +142,7 @@ ServerEvents.recipes((event) => {
         "iceandfire:copper_axe",
         "pneumaticcraft:memory_stick",
         "pneumaticcraft:turbine_blade",
+        "occultism:butcher_knife",
     ];
 
     toRemove.forEach((item) => {

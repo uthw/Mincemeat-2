@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
     ];
 
     toRemove.forEach((item) => {
-        console.log(`removing ${item.output} with ${item.type}`);
+        // console.log(`removing ${item.output} with ${item.type}`);
         event.remove(item);
     });
 });
