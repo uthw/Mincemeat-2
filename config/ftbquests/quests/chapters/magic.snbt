@@ -15,24 +15,6 @@
 		}
 	}
 	id: "151DB3F06C437377"
-	images: [
-		{
-			height: 1.0d
-			image: "kubejs:textures/item/arsnouveau.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: 11.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/item/eidolon.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: 6.5d
-			y: 7.0d
-		}
-	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -555,7 +537,7 @@
 			description: [
 				"\"The world is full of magic things, patiently waiting for our senses to grow sharper.\" - William Butler Yeats"
 				""
-				"* This chapter is ripped from Mincemeat 1 with few changes. As the modpack grows, I'll remake them in the Poutine style."
+				"* This chapter is ripped from Mincemeat 1 with few changes. As the modpack grows, I'll remake them in the Mincemeat 2 style."
 			]
 			disable_toast: true
 			icon: {
@@ -574,7 +556,7 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "Magic"
+			title: "Magic of the Supernatural Variety"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -3457,17 +3439,30 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["2B77E1A67BA9E56E"]
+			dependencies: ["0129870BD87086C9"]
 			description: [
 				"1. break grass until you find yourself some Demon's Dream seeds"
 				""
 				"2. grow the seeds into fruit"
 				""
-				"3. drop the fruit on a block and ignite it with a Flint and Steel. This creates a special, purple fire."
+				"3. drop the fruit on a block and ignite it with a Flint and Steel. This creates a special, purple fire. You must ignite the fruit, and not throw the fruit into an existing fire."
 				""
-				"This special fire doesn't have most properties of fire. It is only used for converting items."
+				"This special fire doesn't have most properties of fire. It is only used for converting items. It also won't burn out, so you won't need netherrack for this."
+				""
+				"*The dictionary of spirits is a better source of learning about Occultism. It has a similar node-like structure to what you see here and contains complete documentation on the mod."
 			]
 			id: "77219718DABB8F62"
+			rewards: [{
+				id: "5138AC9FD55AD793"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [
@@ -3494,23 +3489,28 @@
 				}
 			]
 			title: "Beginning of Occultism"
-			x: -11.5d
-			y: 7.5d
+			x: 1.25d
+			y: 10.5d
 		}
 		{
 			dependencies: ["77219718DABB8F62"]
+			description: [
+				"This can detect blocks from the Otherworld."
+				""
+				"It must be attuned to a chosen block in order to see its otherworld variant. For example, andesite corresponds to otherstone. Do this by shift-interacting with a valid block."
+			]
 			id: "498A2873A812881A"
 			tasks: [{
 				id: "526B8D9E3F9AF3BA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:divination_rod"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 9.5d
+			x: 1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["421227890C2EBBA4"]
@@ -4303,7 +4303,7 @@
 				item: "hexerei:candle_dipper"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 10.0d
 		}
 		{
@@ -4521,8 +4521,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["335E26285D11AB8A"]
@@ -4753,6 +4753,358 @@
 			}]
 			x: 11.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["77219718DABB8F62"]
+			description: [
+				"The &dgolden sacrifical bowl&r acts as the centerpiece for rituals. All the regular &dsacrifical bowls&r are to be placed within 8 blocks horizontally in positions of your choice."
+				""
+				"A &5special item&r, usually a &dbound book of binding&r is used to &5activate rituals&r by interacting with the &dgolden bowl&r."
+				""
+				"To make such a book, you'll need the &dlast three materials in this quest&r. Combine them with &5specific combinations of dyes&r to make a book that's bound to the chosen spirit."
+				""
+				"Lastly, &5bind the book&r using your &5dictionary of spirits&r in the crafting grid."
+				""
+				"Some spirits will give you a &5book of calling&r, which gives you &5extra control&r over some of their parameters when applicable."
+			]
+			id: "2B7322DA59369ED9"
+			tasks: [
+				{
+					id: "7E4732DD8A2C484D"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "021FA1AF51519F71"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "0B009CC796C29898"
+					item: "occultism:taboo_book"
+					type: "item"
+				}
+				{
+					id: "0DDACA560D40307C"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+				{
+					id: "424F8D6B23C492C3"
+					item: "occultism:awakened_feather"
+					type: "item"
+				}
+			]
+			title: "Rituals (Occultism)"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2B7322DA59369ED9"]
+			description: [
+				"&dChalk &ris required to draw a pretty &5pentacle around the candles and brazier&r and attract otherworldly spirits."
+				""
+				"The picture the &dchalk&r paints is not important, you should instead pay attention to the &5placement and color&r of those pictures. Use &dwhite chalk&r for now, and you'll see different colors later on."
+				""
+				"&cUse the &r&5dictionary of spirits&r&c to visualize what you should be drawing!&r If you haven't checked it out yet, a) you're missing out, b) you'll need to click through until you find the \"&5First Ritual&r\" entry in Getting Started."
+				""
+				"This setup is available as a Create schematic, but it's a lot easier to just use the dictionary you already have."
+			]
+			id: "655371F26CD8B6A6"
+			tasks: [
+				{
+					id: "1A0F4F82B16226FE"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A4C101578DAD360"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Any #minecraft:candles"
+					type: "item"
+				}
+				{
+					id: "2D710930B3AC11A9"
+					item: "occultism:brush"
+					type: "item"
+				}
+			]
+			title: "Actually Set Up the Ritual and Get On with It"
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["655371F26CD8B6A6"]
+			description: [
+				"You'll want to get those &54 sacrifical bowls&r you were holding onto earlier and place them &5each within 8 blocks of the golden bowl&r."
+				""
+				"Place one &draw ore&r on each of the bowls. This will be standard for rituals going forward."
+				""
+				"Lastly, grab your &5bound book&r and &5place it on the golden pedestal&r, then watch the magic happen."
+				""
+				"This abstract procedure is the basis of all rituals. You can view a ritual in EMI, apply these steps, and boom."
+				""
+				"One caveat to the above claim: sometimes, you'll need to &5sacrifice a mob&r or &5use an item&r to get the rituals off the ground."
+			]
+			id: "5E59A279F3B70397"
+			subtitle: "and more general information about rituals"
+			tasks: [
+				{
+					id: "4EB9F09223C9D802"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "1D9AD158A1E3E6BD"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "0303B91EE4E4E020"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "449CACF2C0418CDF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_materials/silver"
+						}
+					}
+					title: "Any #forge:raw_materials/silver"
+					type: "item"
+				}
+			]
+			title: "Foliot Crusher Ritual / ore doubling"
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["655371F26CD8B6A6"]
+			description: [
+				"Any item transportation device can insert items into bowls."
+				""
+				"The golden bowl has a redstone signal which is stronger depending on the status of the ritual."
+			]
+			id: "7B716800A27B76CB"
+			tasks: [{
+				id: "0C27AB93CC4AF2E2"
+				title: "Use Your Machines to Set Up the Ritual Instead"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["498A2873A812881A"]
+			id: "76E83F45B1B5A48F"
+			tasks: [{
+				id: "55DD8AE6D04D6503"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["655371F26CD8B6A6"]
+			description: [
+				"This is a piece of what could be a &5powerful storage system&r that runs on &5Occultism&r."
+				""
+				"The creation of a &dbase&r requires the use of a &5ritual&r, the specifics of which are seen in EMI."
+				""
+				"You'll then need &5another ritual&r to create the &ddimensional matrix&r, and combine the two for your &ddimensional storage controller&r."
+			]
+			id: "46EE028444CE9A9C"
+			tasks: [{
+				id: "77FBCF4AEA944EEF"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["46EE028444CE9A9C"]
+			description: [
+				"TODO"
+				""
+				"For now, use the dictionary of spirits, and/or watch video that comes from the dictionary of spirits."
+			]
+			id: "32618A6CEC3E5664"
+			tasks: [{
+				id: "3365F0D923807329"
+				type: "checkmark"
+			}]
+			title: "Summon Djinni Machine Operator"
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["46EE028444CE9A9C"]
+			description: [
+				"Summoners have multiple choices for instances in which they want to access their storage without travelling to their controller."
+				""
+				"The wormhole uses interdimensional magic to permit accessing your Occultism storage network remotely."
+				""
+				"While holding the portal, shift-interact with your storage controller to bind it, then place it wherever you want."
+				""
+				"The remote is a handheld device which can be bound and access storage from anywhere."
+			]
+			id: "6CB937C49C373B4C"
+			tasks: [
+				{
+					id: "4242212F41D6DF53"
+					item: {
+						Count: 1
+						id: "occultism:stable_wormhole"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5560C53D48567B2C"
+					item: {
+						Count: 1
+						id: "occultism:storage_remote"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Remote Storage"
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46EE028444CE9A9C"]
+			description: [
+				"&dDimensional storage stabilizers&r are your way of increasing the &5amount of storage slots&r in your system."
+				""
+				"To connect the &dstabilizers&r, you'll want to set them up by &cvisualizing them with the dictionary&r or &cautobuilding them with a schematicannon&r."
+				""
+				"They come in &5four distinct tiers&r. At tier 1 with 4 &dstabilizers&r, you'll get 1152 storage slots. To upgrade a &dstabilizer&r, destroy it (this will not delete your items) and use the appropriate ritual."
+				""
+				"&5Each upgrade&r increases the amount of slots &5exponentially&r, so have fun with all your slots!"
+			]
+			id: "7412689623386137"
+			tasks: [{
+				id: "35E1A2AF9855E52A"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["655371F26CD8B6A6"]
+			description: [
+				"Following this quest is every ritual in Occultism."
+				""
+				"Until quest coverage is more complete, this section of the Occultism quests will remain WIP. Check back in a later update!"
+				""
+				"For now, see your Dictionary of Spirits for thorough documentation on every ritual."
+			]
+			id: "28F725C0615E1C80"
+			tasks: [{
+				id: "06CAC992A43B22B2"
+				title: "Too Many Rituals?"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["28F725C0615E1C80"]
+			id: "2EE444C59B1CB7E6"
+			tasks: [{
+				id: "10B0EBF1F6C49BDB"
+				title: "Summoning"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7017FB66F6F3B2DE"
+				"77219718DABB8F62"
+			]
+			description: [
+				"&cYou'll want to build a multiblock using the Schematicannon.&r"
+				""
+				"The Hephaestus Forge is a late-game ritual setup from Forbidden \\& Arcanus."
+				""
+				"You'll want to shift-click the Smithing Table using Mundabitur Dust, which is a substance made of 6 powders you must collect from different dimensions and biomes."
+				""
+				"You'll witness lightning strike the table, and the Hephaestus Forge will take its place."
+				""
+				"The Forge has a GUI with five slots. The central slot is where the main item goes, and the four other slots are reserved for augments."
+				""
+				"There are also four meters in this menu, representing how much of several different essences the Forge has stored."
+			]
+			hide_dependency_lines: true
+			id: "327956F91CB77A0F"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 48L
+					id: "4FA04DA2562A97A9"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "1D99F573FA61C9F3"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "29197F05620EA00E"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "48F8179103FB7886"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "2BFA156F0C7854EF"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7687E1691404F38B"
+					item: "forbidden_arcanus:darkstone_pedestal"
+					type: "item"
+				}
+			]
+			title: "Forbidden \\& Arcanus - Hephaestus Forge"
+			x: 6.75d
+			y: 7.5d
 		}
 	]
 	subtitle: ["Waiting Patiently for Electroblob's Wizardry"]
