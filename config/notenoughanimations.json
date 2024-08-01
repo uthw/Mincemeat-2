@@ -19,7 +19,7 @@
   "ladderAnimationArmHeight": 1.7,
   "ladderAnimationArmSpeed": 2.0,
   "enableRotateToLadder": true,
-  "enableEatDrinkAnimation": true,
+  "enableEatDrinkAnimation": false,
   "enableRowBoatAnimation": true,
   "enableHorseAnimation": true,
   "dontHoldItemsInBed": true,
@@ -34,7 +34,7 @@
     "minecraft:diamond_sword",
     "minecraft:netherite_sword"
   ],
-  "enableCrawlingAnimation": true,
+  "enableCrawlingAnimation": false,
   "holdUpItemsMode": "CONFIG",
   "holdUpItemOffset": 0.0,
   "itemSwapAnimation": true,
