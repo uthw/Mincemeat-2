@@ -28,12 +28,6 @@
 			yellow_autumnal = true
 			fir = true
 
-		[types.leaves_type.betternether]
-			willow = true
-			rubeus = true
-			anchor_tree = true
-			nether_sakura = true
-
 		[types.leaves_type.minecells]
 			wilted = true
 			orange_wilted = true
@@ -109,9 +103,6 @@
 			gilded_oak = true
 			blighted_skyroot = true
 
-		[types.leaves_type.deeperdarker]
-			echo = true
-
 		[types.leaves_type.autumnity]
 			maple = true
 			yellow_maple = true
@@ -138,6 +129,15 @@
 
 		[types.leaves_type.architects_palette]
 			twisted = true
+
+		[types.leaves_type.occultism]
+			otherworld = true
+
+		[types.leaves_type.betternether]
+			willow = true
+			rubeus = true
+			anchor_tree = true
+			nether_sakura = true
 
 	[types.cake]
 
@@ -196,17 +196,6 @@
 
 		[types.wood_type.traverse]
 			fir = true
-
-		[types.wood_type.betternether]
-			nether_reed = true
-			stalagnate = true
-			willow = true
-			wart = true
-			rubeus = true
-			mushroom_fir = true
-			nether_mushroom = true
-			anchor_tree = true
-			nether_sakura = true
 
 		[types.wood_type.minecells]
 			putrid = true
@@ -270,9 +259,6 @@
 		[types.wood_type.iceandfire]
 			dreadwood = true
 
-		[types.wood_type.deeperdarker]
-			echo = true
-
 		[types.wood_type.autumnity]
 			maple = true
 
@@ -298,6 +284,17 @@
 		[types.wood_type.integrateddynamics]
 			menril = true
 
+		[types.wood_type.betternether]
+			nether_reed = true
+			stalagnate = true
+			willow = true
+			wart = true
+			rubeus = true
+			mushroom_fir = true
+			nether_mushroom = true
+			anchor_tree = true
+			nether_sakura = true
+
 #Disables specific entries
 [entries]
 
@@ -306,9 +303,6 @@
 		[entries.leaves_type.quark]
 			hedge = true
 			leaf_carpet = true
-
-		[entries.leaves_type.woodworks]
-			leaf_pile = true
 
 	[entries.wood_type]
 
@@ -331,15 +325,6 @@
 			attic_roof = true
 			planks_upper_lower_roof = true
 			planks_lower_roof = true
-
-		[entries.wood_type.another_furniture]
-			shelf = true
-			bench = true
-			flower_box = true
-			shutter = true
-			table = true
-			drawer = true
-			chair = true
 
 		[entries.wood_type.mcwwindows]
 			plank_window = true
@@ -378,15 +363,6 @@
 			window_pane = true
 			window = true
 
-		[entries.wood_type.woodworks]
-			chest = true
-			beehive = true
-			ladder = true
-			trapped_chest = true
-			boards = true
-			bookshelf = true
-			chiseled_bookshelf = true
-
 		[entries.wood_type.quark]
 			vertical_planks = true
 			chest = true
@@ -406,4 +382,13 @@
 			boards = true
 			board_slab = true
 			board_wall = true
+
+		[entries.wood_type.another_furniture]
+			shelf = true
+			bench = true
+			flower_box = true
+			shutter = true
+			table = true
+			drawer = true
+			chair = true
 
