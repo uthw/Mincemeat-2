@@ -29,7 +29,7 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "Redeem Eccentric Tomes"
+			title: "Redeem Quest Books"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -51,11 +51,18 @@
 		}
 		{
 			can_repeat: true
+			description: [
+				"The Eccentric Tome contains (almost) every guide book in the game."
+				""
+				"These guides usually go into great depth on their mods' mechanics, making them good when quests aren't enough for you to learn what you need."
+				""
+				"Also see the Food Book, which tells you how many foods you have to eat to gain max HP."
+			]
 			disable_toast: true
 			icon: "berry_good:sweet_berry_mince"
 			id: "34710AB0D1387508"
 			rewards: [{
-				id: "676ECFE1D0329B9A"
+				id: "7FA5C762FD4CDA95"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
@@ -94,7 +101,7 @@
 							betterend: {
 								0: {
 									Count: 1b
-									id: "betterend:guidebook"
+									id: "minecraft:air"
 								}
 							}
 							bloodmagic: {
@@ -111,10 +118,6 @@
 									Count: 1b
 									id: "botania:lexicon"
 								}
-								1: {
-									Count: 1b
-									id: "botania:lexicon"
-								}
 							}
 							eidolon: {
 								0: {
@@ -128,6 +131,18 @@
 									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "enderio:guide"
+									}
+								}
+							}
+							hexerei: {
+								0: {
+									Count: 1b
+									id: "hexerei:book_of_shadows"
+									tag: {
+										bookmarks: { }
+										chapter: 0
+										opened: 0b
+										page: 0
 									}
 								}
 							}
@@ -185,6 +200,15 @@
 									}
 								}
 							}
+							occultism: {
+								0: {
+									Count: 1b
+									id: "occultism:dictionary_of_spirits"
+									tag: {
+										"modonomicon:book_id": "occultism:dictionary_of_spirits"
+									}
+								}
+							}
 							pneumaticcraft: {
 								0: {
 									Count: 1b
@@ -219,6 +243,7 @@
 								}
 							}
 						}
+						"eccentrictome:version": 1
 					}
 				}
 				type: "item"
@@ -234,7 +259,7 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "Redeem Quest Books"
+			title: "Redeem Eccentric Tomes"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -292,6 +317,60 @@
 			title: "Set Sleeping Percentage back to 50%"
 			x: 1.5d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Tetra only gives you one holosphere, when you get the advancement for creating a workbench."
+				""
+				"This quest can be infinitely redeemed for holospheres, letting you get more in case you lose the original."
+			]
+			id: "77FDCD6CFBAC2CBA"
+			invisible: true
+			rewards: [{
+				id: "5F88B7DAC8B75AC7"
+				item: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				id: "03A24D92A08859B9"
+				title: "Redeem Holospheres"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	title: "Player Utilities and Services"
