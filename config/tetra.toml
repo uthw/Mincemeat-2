@@ -5,7 +5,7 @@
 	#Enable modular single headed implements
 	single_headed = true
 	#Enable modular shields
-	shield = true
+	shield = false
 	#Enables the enchantment glint rendering on modular items
 	glint = true
 	#Enables commands & data reloading functionality useful for development, has a negative impact on performance
