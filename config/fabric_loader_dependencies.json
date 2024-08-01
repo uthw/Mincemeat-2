@@ -21,6 +21,11 @@
             "-depends": {
                 "modmenu": "IGNORED"
             }
+        },
+        "playerex": {
+            "-depends": {
+                "dataattributes_dc": "IGNORED"
+            }
         }
     }
 }
