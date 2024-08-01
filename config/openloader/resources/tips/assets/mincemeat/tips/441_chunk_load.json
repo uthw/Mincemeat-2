@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Did you know?",
+        "text": "ModernFix Tip",
         "bold": true,
         "color": "aqua"
     },
     "tip": {
-        "text": "The square that fills up on the world loading screen represents the game loading 441 chunks."
+        "text": "The square that fills up on the world loading screen represents the game loading 43x43 chunks. I've disabled it in Mincemeat, which is why it skips to 'Joining world' without going above 0%."
     }
 }
