@@ -25,7 +25,7 @@
 
 [Worldgen]
 	#Oil worldgen whitelist by dimension ID: add dimension ID's to this list if you want oil lake worldgen to happen ONLY in those dimensions. You can wildcard the path; e.g 'modid:*' whitelists ALL dimensions of namespace 'modid'. If this is empty, it is ignored, and 'oil_world_gen_dimension_blacklist' will be checked instead.
-	oil_world_gen_dimension_whitelist = ["minecraft:overworld"]
+	oil_world_gen_dimension_whitelist = ["blue_skies:everdawn"]
 	#Oil worldgen blacklist by dimension ID: add dimension ID's to this list if you don't want oil lake worldgen to happen there. You can wildcard this; e.g 'modid:*' blacklists ALL dimensions of namespace 'modid'.
 	oil_world_gen_dimension_blacklist = []
 
