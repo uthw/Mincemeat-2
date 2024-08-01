@@ -17,3 +17,7 @@
 	#The default base to use in Mekanism's Combiner to recreate ores.
 	oreBase = "#forge:cobblestone/normal"
 
+[theurgy]
+	#The alchemical sulfur tier of this material.
+	tier = "COMMON"
+

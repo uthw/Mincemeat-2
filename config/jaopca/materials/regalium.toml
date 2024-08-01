@@ -27,3 +27,7 @@
 	#The temperature of this molten fluid.
 	temperature = 1000
 
+[theurgy]
+	#The alchemical sulfur tier of this material.
+	tier = "COMMON"
+
