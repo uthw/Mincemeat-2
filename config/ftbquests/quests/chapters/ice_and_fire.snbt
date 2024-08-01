@@ -1994,19 +1994,6 @@
 				id: "iceandfire:hippocampus_fin"
 			}
 			id: "05EB76C97F06B5C4"
-			rewards: [{
-				id: "7CEBB7703C256AC6"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "artifacts:flippers"
-				}
-				type: "item"
-			}]
 			subtitle: "Educated mammals"
 			tasks: [{
 				id: "34F30F085EE0C675"
