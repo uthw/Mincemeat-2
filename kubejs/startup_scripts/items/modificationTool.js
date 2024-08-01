@@ -123,11 +123,15 @@ ItemEvents.modification((event) => {
         },
         {
             name: "enigmaticlegacy:etherium_sword",
-            damage: 14, // buff of +3
+            damage: 15, // buff of +4
         },
         {
             name: "enigmaticlegacy:etherium_scythe",
-            damage: 10, // buff of +2
+            damage: 11, // buff of +3
+        },
+        {
+            name: "minecells:hattoris_katana",
+            damage: 9,
         },
     ];
 
