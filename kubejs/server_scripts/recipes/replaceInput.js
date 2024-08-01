@@ -694,11 +694,11 @@ ServerEvents.recipes((event) => {
             "minecraft:piston",
             "create:copper_valve_handle",
         ],
-        // [
-        //     { output: "enigmaticlegacy:ender_rod" },
-        //     "#forge:ender_pearls",
-        //     "deeperdarker:soul_dust",
-        // ],
+        [
+            { output: "enigmaticlegacy:ender_rod" },
+            "#forge:ender_pearls",
+            "alexscaves:sulfur_dust",
+        ],
         [
             { output: "reliquary:harvest_rod" },
             "minecraft:rose_bush",
@@ -1174,8 +1174,10 @@ ServerEvents.recipes((event) => {
         [
             { output: "pneumaticcraft:jackhammer" },
             "minecraft:diamond",
-            "deep_aether:skyjade_gemstone",
+            "aether_redux:gravitite_ingot",
         ],
+        [{}, "reliquary:bat_wing", "miners_delight:bat_wing"],
+        [{}, "forbidden_arcanus:bat_wing", "miners_delight:bat_wing"],
     ];
 
     replacements.forEach((replacement) => {
