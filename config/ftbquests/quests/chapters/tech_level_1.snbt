@@ -2137,7 +2137,7 @@
 			}]
 			title: "Sequenced Assembly"
 			x: -0.5d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1495D2307BF91921"]
@@ -2150,8 +2150,8 @@
 				item: "computercraft:computer_normal"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -9.0d
+			x: -3.0d
+			y: -9.75d
 		}
 		{
 			dependencies: ["1495D2307BF91921"]
@@ -2168,7 +2168,33 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2CB2CB53F495DEC9"]
+			description: [
+				"A &dblack hole&r is made when &dcorrupti dust&r and &ddark matter&r are dropped on the ground near each other."
+				""
+				"This anomaly can be fashioned into a useful part of a farm, since it can &5absorb and delete items&r that get sucked into it."
+				""
+				"If it &5absorbs enough experience&r, you'll get an &5xpetrified orb&r as a bonus."
+			]
+			id: "0926270F47F83BCE"
+			tasks: [
+				{
+					id: "630E0C7DDFE20267"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+				{
+					id: "5B8A4F4F728D9A0E"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+			]
+			title: "Black Hole"
+			x: 1.0d
+			y: -9.5d
 		}
 	]
 	title: "Tech Level 1"
