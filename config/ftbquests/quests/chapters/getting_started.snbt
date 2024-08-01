@@ -83,6 +83,32 @@
 					}
 					type: "item"
 				}
+				{
+					id: "333C75DC690A2FB7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "spartanshields:wooden_tower_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "spartanshields:wooden_basic_shield"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Starter Set"
 			x: 0.0d
@@ -382,7 +408,7 @@
 				"&2CTRL + R&r: view recipe tree of an item."
 				""
 				"&2@&r: search for items from a certain mod. Example: &a@alexscaves&r"
-				"&2$&r: search for items with a specific tag. Example: &a$ores/nickel&r"
+				"&2#&r: search for items with a specific tag. Example: &a#ores/nickel&r. &lDifferent from JEI&r!"
 				""
 				"-----"
 				""
@@ -451,6 +477,7 @@
 					type: "item"
 				}
 				{
+					count: 15L
 					id: "5004024D9A58279A"
 					item: {
 						Count: 1
@@ -570,7 +597,7 @@
 		}
 		{
 			dependencies: ["054958A1638D1D71"]
-			description: ["The &adread lamp &ris a useful item for your farms that &bincreases passive and neutral mobs spawns nearby&r."]
+			description: ["The &adread lamp &ris a useful item for your farms that &bprevents passive and neutral mobs spawns nearby&r."]
 			id: "2162E9E7105B7FBB"
 			tasks: [{
 				id: "64552ADA68F4C964"
@@ -1052,7 +1079,11 @@
 		}
 		{
 			dependencies: ["479B3130EB602E62"]
-			description: ["If you have unused affix items, you can use this to destroy them for useful materials."]
+			description: [
+				"If you have unused affix items, you can use this to destroy them for useful materials."
+				""
+				"These &drarity materials&r are used in crafting recipes and can turn &dregular items into affix items&r. See the quests extending from this one for more information."
+			]
 			id: "36F98327138AA247"
 			tasks: [{
 				id: "4FDE38375348AF4C"
@@ -1109,7 +1140,7 @@
 		}
 		{
 			dependencies: ["479B3130EB602E62"]
-			description: ["The &3seashelf&r is more potent than regular bookshelves, allowing you to enchant above&d level 30&r. With &315 seashelves&r, you can enchant at &dlevel 40&r."]
+			description: ["The &3seashelf&r is more potent than regular bookshelves, allowing you to enchant above&d level 30&r. With &315 seashelves&r, you can enchant at &dlevel 45&r."]
 			id: "6B9C52397843B044"
 			tasks: [{
 				count: 5L
@@ -1652,9 +1683,11 @@
 		}
 		{
 			description: [
-				"You can view a list of all of your deaths and various details surrounding them by pressing End (default) on your keyboard. If you don't have this key, you can rebind it in the settings."
+				"You can view a list of all of your deaths and various details surrounding them by pressing End (default) on your keyboard. If your keyboard doesn't have an End key, you can rebind it in the settings."
 				""
 				"Xaero's Minimap makes a waypoint every time you die. It's automatically deleted when you get close enough to it."
+				""
+				"Sometimes, if you die during heavy server lag, Xaero's World Map fails to make a waypoint. In this situation, you'll want to use the death log, since it saves the position where you died and never fails to document deaths."
 				""
 				"You still lose some experience when you die, but not as much as in vanilla."
 			]
