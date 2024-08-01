@@ -4,11 +4,11 @@ ServerEvents.recipes((event) => {
             "4x forbidden_arcanus:mundabitur_dust",
             [
                 "forbidden_arcanus:arcane_crystal_dust",
-                "minecraft:redstone",
+                "occultism:burnt_otherstone",
                 "minecraft:blaze_powder",
                 "alexscaves:moth_dust",
                 "blue_skies:moonstone_shard",
-                "minecraft:gunpowder",
+                "eidolon:ender_calx",
             ],
         ],
         [
@@ -105,6 +105,14 @@ ServerEvents.recipes((event) => {
         [
             "4x computercraft:cable",
             ["4x prettypipes:pipe", "createaddition:copper_wire"],
+        ],
+        [
+            "4x forbidden_arcanus:arcane_bone_meal",
+            [
+                "forbidden_arcanus:arcane_crystal_dust",
+                "nethersdelight:propelplant_cane",
+                "4x minecraft:bone_meal",
+            ],
         ],
     ];
 
