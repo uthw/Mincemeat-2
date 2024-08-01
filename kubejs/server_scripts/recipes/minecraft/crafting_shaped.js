@@ -733,6 +733,103 @@ ServerEvents.recipes((event) => {
                 D: "thermal:redstone_servo",
             },
         ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;6,15,4,7],intricate:0b,key:"tetra/flamberge_blade",material:2,ribbon:"ff9612",schematics:["tetra:sword/flamberge_blade"]}]}}'
+            ),
+            [" A ", "BC ", " D "],
+            {
+                A: "aquamirae:sharp_bones",
+                B: "forbidden_arcanus:rune",
+                C: "enigmaticlegacy:thicc_scroll",
+                D: "eidolon:wraith_heart",
+            },
+        ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,1,4,5],intricate:0b,key:"single/head/halberd_head/halberd_head",material:1,ribbon:"444aff",schematics:["tetra:single/head/halberd_head/halberd_head"]}]}}'
+            ),
+            [" A ", "BC ", "   "],
+            {
+                A: "ecologics:crab_claw",
+                B: "upgrade_aquatic:prismarine_rod",
+                C: "enigmaticlegacy:thicc_scroll",
+            },
+        ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;0,1,9,4],intricate:0b,key:"sword/key_guard",material:1,ribbon:"fae409",schematics:["tetra:sword/key_guard"]}]}}'
+            ),
+            [" A ", " BC", " C "],
+            {
+                A: "supplementaries:key",
+                B: "enigmaticlegacy:thicc_scroll",
+                C: "hexerei:sage",
+            },
+        ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;9,3,6,2],intricate:0b,key:"single/head/mace_head/mace_head",material:1,ribbon:"560060",schematics:["tetra:single/head/mace_head/mace_head"]}]}}'
+            ),
+            [" A ", "DBD", " C "],
+            {
+                A: "forbidden_arcanus:rune",
+                B: "enigmaticlegacy:thicc_scroll",
+                C: "#spartanweaponry:flanged_maces",
+                D: "#forge:storage_blocks/silver",
+            },
+        ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;5,10,13,2],intricate:0b,key:"sword/katana/katana_blade",material:2,ribbon:"dbff10",schematics:["tetra:sword/katana/katana_blade","tetra:sword/tsuba_guard"]}]}}'
+            ),
+            [" A ", "BCB", " D "],
+            {
+                A: "#spartanweaponry:katanas",
+                B: "iceandfire:dragonbone",
+                C: "enigmaticlegacy:thicc_scroll",
+                D: "forbidden_arcanus:rune",
+            },
+        ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,7,9,2],intricate:0b,key:"tetra/crucible_blade",material:2,ribbon:"ff1e00",schematics:["tetra:sword/crucible_blade"]}]}}'
+            ),
+            [" A ", "BCB", " D "],
+            {
+                A: "art_of_forging:enigmatic_construct",
+                B: "betternether:propelplant_cane",
+                C: "enigmaticlegacy:thicc_scroll",
+                D: "apotheosis:epic_material",
+            },
+        ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{glyphs:[I;15,14,15,15],intricate:1b,key:"hone/gild_1",material:2,ribbon:"c9ae69",schematics:["tetra:hone/gild_1"]}]}}'
+            ),
+            [" A ", "BCB", " D "],
+            {
+                A: "ars_nouveau:source_gem",
+                B: "forbidden_arcanus:arcane_crystal_dust",
+                C: "enigmaticlegacy:thicc_scroll",
+                D: "eidolon:wraith_heart",
+            },
+        ],
+        [
+            "2x occultism:sacrificial_bowl",
+            ["ABA", "AAA", "   "],
+            {
+                A: "occultism:otherstone",
+                B: "hexerei:wax_blend",
+            },
+        ],
     ];
 
     recipes.forEach((recipe) => {
