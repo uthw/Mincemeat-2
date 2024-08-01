@@ -7,22 +7,22 @@ ServerEvents.recipes((event) => {
         ],
         [
             "enigmaticlegacy:etherium_helmet",
-            "deeperdarker:warden_helmet",
+            "deep_aether:stratus_helmet",
             "enigmaticlegacy:etherium_ingot",
         ],
         [
             "enigmaticlegacy:etherium_chestplate",
-            "deeperdarker:warden_chestplate",
+            "deep_aether:stratus_chestplate",
             "enigmaticlegacy:etherium_ingot",
         ],
         [
             "enigmaticlegacy:etherium_leggings",
-            "deeperdarker:warden_leggings",
+            "deep_aether:stratus_leggings",
             "enigmaticlegacy:etherium_ingot",
         ],
         [
             "enigmaticlegacy:etherium_boots",
-            "deeperdarker:warden_boots",
+            "deep_aether:stratus_boots",
             "enigmaticlegacy:etherium_ingot",
         ],
     ];
