@@ -65,7 +65,7 @@
     I:MagnetRingButtonOffsetYCreative=0
 
     # Controls how obscured your vision is in lava when Molten Heart effect is active. Higher value equals more visibility. [range: 0.0 ~ 1024.0, default: 6.0]
-    D:MoltenHeartLavaDensity=6.0
+    D:MoltenHeartLavaDensity=64.0
 
     # Whether or not oxygen bar should pe prevented from rendering if Will of the Ocean or Pearl of the Void is equipped. [default: true]
     B:SuppressUnneccessaryOxygenRender=true
