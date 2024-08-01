@@ -4,7 +4,7 @@
 # Configure the options below to one of the following: disabled, enabled, onShift, onDebug or onShiftAndDebug
 [tooltip_options]
 	# Configure tooltip for burn time.
-	burnTimeTooltipMode = "enabled"
+	burnTimeTooltipMode = "disabled"
 	# Configure tooltip for durability.
 	durabilityTooltipMode = "enabled"
 	# Configure tooltip for enchantability
