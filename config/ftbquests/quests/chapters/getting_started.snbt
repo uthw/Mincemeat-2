@@ -986,7 +986,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5A9940962797FE6E"]
@@ -1286,6 +1286,7 @@
 			dependencies: ["05416B7F1CC1849F"]
 			description: ["When powered from the back (the base of the T), it randomly outputs the signal to the left or right."]
 			id: "68BF59DD76897182"
+			optional: true
 			subtitle: "Have some modded redstone blocks as a bonus!"
 			tasks: [{
 				id: "2DE95CFA79E521AF"
@@ -1298,6 +1299,7 @@
 		{
 			dependencies: ["68BF59DD76897182"]
 			id: "6FD9046E210E49DF"
+			optional: true
 			subtitle: "Alternative randomizer. Choose the one you want to use."
 			tasks: [{
 				id: "27C0954E6259BC9C"
@@ -2017,6 +2019,34 @@
 			}]
 			x: 8.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["36F98327138AA247"]
+			description: [
+				"The Enchanting Infuser lets you select enchantments to add to an item, but costs more levels."
+				""
+				"This removes a lot of uncertainty and time from the enchanting process. You should gather materials for this as quickly as possible!"
+			]
+			id: "75F280F613E3A621"
+			tasks: [{
+				id: "3867CC82E0FC5D51"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75F280F613E3A621"]
+			description: ["Once you've been to more places, you'll have access to the materials you need for a superior enchanting infuser which can also modify and remove enchantments from existing items."]
+			id: "1F65A75D608B7162"
+			tasks: [{
+				id: "02C7CA30D15A5301"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
 		}
 	]
 	title: "Getting Started"
