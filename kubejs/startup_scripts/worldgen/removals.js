@@ -22,8 +22,8 @@ WorldgenEvents.remove((event) => {
             "railcraft:sulfur_ore",
             "railcraft:deepslate_sulfur_ore",
 
-            // "galosphere:silver_ore",
-            // "galosphere:deepslate_silver_ore",
+            "galosphere:silver_ore",
+            "galosphere:deepslate_silver_ore",
 
             "embers:lead_ore",
             "embers:deepslate_lead_ore",
