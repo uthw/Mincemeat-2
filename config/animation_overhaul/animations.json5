@@ -66,12 +66,12 @@
       "fade": 5
     },
     "crawl_idle": {
-      "enabled": false,
+      "enabled": true,
       "speed": 1.0,
       "fade": 0
     },
     "crawling": {
-      "enabled": false,
+      "enabled": true,
       "speed": 1.0,
       "fade": 0
     },
