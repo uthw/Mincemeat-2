@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mowzie's Mobs Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Frostmaw will drop its music disc if killed while it's raining."
+    }
+}

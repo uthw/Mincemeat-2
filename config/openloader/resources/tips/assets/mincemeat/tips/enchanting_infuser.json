@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Enchanting Infuser Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The Enchanting Infuser lets you choose what enchantments you want on an item for a higher experience cost. This makes enchanting much less time-consuming and random. The advanced version can even modify and remove enchantments."
+    }
+}
