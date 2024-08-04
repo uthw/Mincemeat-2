@@ -88,14 +88,6 @@
 			conberry = true
 			sunroot = true
 
-		[types.leaves_type.ancient_aether]
-			crystal_skyroot = true
-			enchanted_skyroot = true
-			skyroot_pine = true
-			blue_skyroot_pine = true
-			highsproot = true
-			sakura = true
-
 		[types.leaves_type.aether_redux]
 			blightwillow = true
 			glacia = true
@@ -244,10 +236,6 @@
 			conberry = true
 			sunroot = true
 
-		[types.wood_type.ancient_aether]
-			highsproot = true
-			sakura = true
-
 		[types.wood_type.aether_redux]
 			fieldsproot = true
 			blightwillow = true
@@ -326,25 +314,6 @@
 			planks_upper_lower_roof = true
 			planks_lower_roof = true
 
-		[entries.wood_type.mcwwindows]
-			plank_window = true
-			louvered_shutter = true
-			plank_window2 = true
-			pane_window = true
-			plank_pane_window = true
-			stripped_pane_window = true
-			plank_four_window = true
-			stripped_log_window2 = true
-			log_parapet = true
-			window2 = true
-			stripped_log_four_window = true
-			four_window = true
-			plank_parapet = true
-			blinds = true
-			window = true
-			shutter = true
-			stripped_log_window = true
-
 		[entries.wood_type.decorative_blocks]
 			beam = true
 			support = true
@@ -391,4 +360,7 @@
 			table = true
 			drawer = true
 			chair = true
+
+		[entries.wood_type.vct]
+			crafting_table = true
 
