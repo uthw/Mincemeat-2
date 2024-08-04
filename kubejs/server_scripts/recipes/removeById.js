@@ -74,6 +74,10 @@ ServerEvents.recipes((event) => {
         "naturesaura:gold_fiber",
         "ars_nouveau:magebloom_fiber",
         "forbidden_arcanus:arcane_bone_meal",
+        "enchantinginfuser:enchanting_infuser",
+        "comforts:rope_and_nail",
+        "enigmaticlegacy:xp_scroll",
+        "enchantinginfuser:advanced_enchanting_infuser",
     ];
 
     toRemove.forEach((recipeId) => {

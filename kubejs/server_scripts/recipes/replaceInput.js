@@ -467,8 +467,8 @@ ServerEvents.recipes((event) => {
         ],
         [
             { output: "irons_spellbooks:iron_spell_book" },
-            "minecraft:chain",
-            "createaddition:iron_wire",
+            "#forge:leather",
+            "eidolon:tattered_cloth",
         ],
         [
             { output: "irons_spellbooks:arcane_anvil" },
@@ -1178,6 +1178,8 @@ ServerEvents.recipes((event) => {
         ],
         [{}, "reliquary:bat_wing", "miners_delight:bat_wing"],
         [{}, "forbidden_arcanus:bat_wing", "miners_delight:bat_wing"],
+        [{}, "galosphere:silver_ingot", "#forge:ingots/silver"],
+        [{}, "minecraft:crafting_table", "#forge:workbench"],
     ];
 
     replacements.forEach((replacement) => {

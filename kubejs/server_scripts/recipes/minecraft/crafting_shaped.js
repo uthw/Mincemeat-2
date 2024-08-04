@@ -288,7 +288,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "createaddition:large_connector",
                 B: "#forge:silicon",
-                C: "minecraft:crafting_table",
+                C: "#forge:workbench",
                 D: "#forge:ingots/silver",
                 E: "storagenetwork:master",
             },
@@ -828,6 +828,26 @@ ServerEvents.recipes((event) => {
             {
                 A: "occultism:otherstone",
                 B: "hexerei:wax_blend",
+            },
+        ],
+        [
+            "enchantinginfuser:enchanting_infuser",
+            [" A ", "BCB", "CDC"],
+            {
+                A: "eidolon:wraith_heart",
+                B: "apotheosis:gem_dust",
+                C: "ars_nouveau:sourcestone",
+                D: "minecraft:enchanting_table",
+            },
+        ],
+        [
+            "enchantinginfuser:advanced_enchanting_infuser",
+            [" A ", "BCB", "CDC"],
+            {
+                A: "bosses_of_mass_destruction:crystal_fruit",
+                B: "alexscaves:metal_swarf",
+                C: "aether_redux:veridium_ingot",
+                D: "enchantinginfuser:enchanting_infuser",
             },
         ],
     ];
