@@ -835,7 +835,7 @@ ServerEvents.recipes((event) => {
             [" A ", "BCB", "CDC"],
             {
                 A: "eidolon:wraith_heart",
-                B: "apotheosis:gem_dust",
+                B: "irons_spellbooks:magic_cloth",
                 C: "ars_nouveau:sourcestone",
                 D: "minecraft:enchanting_table",
             },
