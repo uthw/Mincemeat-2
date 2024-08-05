@@ -14,7 +14,7 @@
 	toolbelt_curio_only = false
 	#Multiplier for magic capacity gains, increasing this may be useful when having a large set enchantments added by other mods
 	#Range: 0.0 ~ 1.7976931348623157E308
-	magic_cap_multiplier = 1.5
+	magic_cap_multiplier = 2.25
 	#Features that are considered experimental can be listed here to enable them
 	experimental_features = []
 	#Features can be listed here to disable them
