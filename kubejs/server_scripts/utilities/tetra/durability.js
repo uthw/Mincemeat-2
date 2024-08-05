@@ -34,16 +34,20 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/netherite", durability: 4062 },
         // // { name: "misc/vent_plate", durability: 1200 },
         { name: "misc/vent_plate", durability: 1200 },
-        { name: "rod/bamboo", durability: 30 },
+        { name: "rod/bamboo", durability: 30, density: 0.35 },
         { name: "rod/blaze_rod", durability: 222 },
         { name: "rod/end_rod", durability: 284 },
         { name: "rod/forged_beam", durability: 1900 },
-        { name: "rod/stick", durability: 80 },
+        { name: "rod/stick", durability: 80, desnity: 0.6 },
         { name: "scale/shulker_shell", durability: 400 },
         { name: "scale/turtle_scute", durability: 400 },
         { name: "skin/hide", durability: 400 },
         { name: "skin/leather", durability: 400 },
-        { name: "socket/amethyst", durability: 96 },
+        {
+            name: "socket/amethyst",
+            durability: 96,
+            effects: { reaching: [0, 0.45] },
+        },
         { name: "socket/diamond", durability: 1024 },
         { name: "socket/emerald", durability: 96 },
         { name: "socket/ender_pearl", durability: 96 },
@@ -267,6 +271,34 @@ ServerEvents.highPriorityData((event) => {
         // { name: "stone/quark/myalite", durability: 1200 },
         { name: "wood/quark/azalea", durability: 108 },
         { name: "wood/quark/blossom", durability: 108 },
+
+        // Tetracelium
+
+        { name: "bone/dragon_bone", durability: 3320, primary: 6.5 }, // 0.5 nerf
+        { name: "bone/wither_bone", durability: 1916 },
+        { name: "fabric/canvas", durability: 264 },
+        { name: "fibre/mana_string", durability: 500 },
+        { name: "fibre/straw", durability: 80 },
+        { name: "gem/ruby", durability: 3122 },
+        { name: "gem/sapphire", durability: 5122 },
+        { name: "metal/bronze", durability: 500 },
+        { name: "metal/electrum", durability: 106 },
+        { name: "metal/elementium", durability: 1440 },
+        { name: "metal/infused_iron", durability: 500 },
+        { name: "metal/lead", durability: 240 },
+        { name: "metal/manasteel", durability: 600 },
+        { name: "metal/nickel", durability: 400 },
+        { name: "metal/osmium", durability: 1000 },
+        { name: "metal/silver", durability: 386 }, // more than 2x for consistency with eidolon
+        { name: "metal/sky", durability: 3000 },
+        { name: "metal/steel", durability: 1300 },
+        { name: "metal/terrasteel", durability: 4600 },
+        { name: "metal/tin", durability: 252 },
+        { name: "wood/ancient_wood", durability: 120 },
+        { name: "wood/baobab", durability: 360 },
+        { name: "wood/dreamwood", durability: 300 },
+        { name: "wood/livingwood", durability: 140 },
+        { name: "wood/maple", durability: 140 },
     ];
     tweak.forEach((material) => {
         event.addJson(`tetra:materials/${material.name}.json`, material);
