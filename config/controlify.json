@@ -1,6 +1,6 @@
 {
-  "last_seen_version": "1.7.0-beta.1+1.20",
-  "current_controller": "ea9cac0c-8fc9-3bcf-8c3d-fe3cd35546b2",
+  "last_seen_version": "2.0.0-beta.10+1.20.1",
+  "current_controller": null,
   "controllers": {
     "af208e7a-c6ec-32e1-ab43-3558561c3f49": {
       "config": {
@@ -887,13 +887,37 @@
           "type": "gamepad",
           "bind": "right_stick_left"
         },
+        "voicechat:ptt_hold": {
+          "type": "empty"
+        },
+        "voicechat:ptt_toggle": {
+          "type": "empty"
+        },
+        "voicechat:whisper_hold": {
+          "type": "empty"
+        },
+        "voicechat:whisper_toggle": {
+          "type": "empty"
+        },
+        "voicechat:mute_microphone": {
+          "type": "empty"
+        },
         "fabric-key-binding-api-v1:key.crawl": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.chesttracker.opengui": {
           "type": "empty"
         },
         "fabric-key-binding-api-v1:key.azurelib.reload": {
           "type": "empty"
         },
+        "fabric-key-binding-api-v1:key.biomeparticleweather.config": {
+          "type": "empty"
+        },
         "fabric-key-binding-api-v1:key.deathlog.death_screen": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.whereisit.finditem": {
           "type": "empty"
         },
         "fabric-key-binding-api-v1:key.walljump.cling": {
@@ -901,26 +925,31 @@
         },
         "fabric-key-binding-api-v1:key.presencefootsteps.settings": {
           "type": "empty"
+        },
+        "fabric-key-binding-api-v1:key.presencefootsteps.toggle": {
+          "type": "empty"
         }
       }
     }
   },
-  "compound_joysticks": [],
   "global": {
     "virtual_mouse_screens": [
       "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
       "dev.isxander.yacl3.gui.YACLScreen",
       "xaero.map.gui.GuiMap"
     ],
-    "keyboard_movement": false,
+    "keyboardMovement": false,
+    "keyboard_movement_whitelist": [],
     "out_of_focus_input": false,
     "load_vibration_natives": true,
+    "custom_vibration_natives_path": "",
     "vibration_onboarded": true,
     "reach_around": "OFF",
     "allow_server_rumble": true,
     "ui_sounds": false,
     "notify_low_battery": true,
-    "delegate_setup": false,
-    "ingame_button_guide_scale": 1.0
+    "quiet_mode": false,
+    "ingame_button_guide_scale": 1.0,
+    "seen_servers": []
   }
 }
