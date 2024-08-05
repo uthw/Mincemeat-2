@@ -126,7 +126,7 @@ MaxLevel = 8
 MinRarity = "RARE"
 ManaCostMultiplier = 1.0
 SpellPowerMultiplier = 1.0
-CooldownInSeconds = 30.0
+CooldownInSeconds = 60.0
 
 [Spells."irons_spellbooks:firefly_swarm"]
 Enabled = true
@@ -459,7 +459,7 @@ MaxLevel = 5
 MinRarity = "EPIC"
 ManaCostMultiplier = 1.0
 SpellPowerMultiplier = 1.0
-CooldownInSeconds = 22.0
+CooldownInSeconds = 120.0
 
 [Spells."irons_spellbooks:sunbeam"]
 Enabled = false
@@ -531,7 +531,7 @@ MaxLevel = 6
 MinRarity = "UNCOMMON"
 ManaCostMultiplier = 1.0
 SpellPowerMultiplier = 1.0
-CooldownInSeconds = 22.7
+CooldownInSeconds = 90.0
 
 [Spells."irons_spellbooks:blood_slash"]
 Enabled = true
