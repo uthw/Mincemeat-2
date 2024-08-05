@@ -77,7 +77,7 @@ WorldgenEvents.remove((event) => {
             "natures_spirit:willow_leaves",
 
             "occultism:silver_ore",
-            "occultism:deepslate_silver_ore",
+            "occultism:silver_ore_deepslate",
         ];
     });
 });
