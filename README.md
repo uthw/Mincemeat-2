@@ -22,7 +22,7 @@ A modpack for Minecraft 1.20.1 that focuses on providing a challenging yet forgi
 -   Never update mods unless I tell you to.
 -   Don't add OptiFine.
 -   Make an issue here if something isn't right.
--   Don't set allocated RAM above 10 GB.
+-   Don't set allocated RAM below 8 GB.
 
 ## Versioning
 
