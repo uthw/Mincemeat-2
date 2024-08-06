@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
         {
             output: "3x thermal:invar_dust",
             inputs: ["2x #forge:ingots/iron", "#forge:ingots/nickel"],
-            heated: false,
+            superheated: true,
         },
         {
             output: "enderio:dark_steel_ingot",
