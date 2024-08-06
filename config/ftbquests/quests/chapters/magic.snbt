@@ -5068,6 +5068,7 @@
 			id: "327956F91CB77A0F"
 			shape: "octagon"
 			size: 1.5d
+			subtitle: "WIP"
 			tasks: [
 				{
 					count: 48L
@@ -5106,7 +5107,54 @@
 			x: 6.75d
 			y: 7.5d
 		}
+		{
+			dependencies: ["710393BF8AD587A8"]
+			description: [
+				"Place all of these. The accumulator must be placed on top of the tank."
+				""
+				"The braziers accept burnables (fuel)."
+			]
+			id: "7D0E6CC8E50E7DC5"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "WIP"
+			tasks: [
+				{
+					count: 4L
+					id: "207F20706E6C6262"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+				{
+					id: "28A5F701A6258B97"
+					item: "theurgy:calcination_oven"
+					type: "item"
+				}
+				{
+					id: "3791741B56CF2149"
+					item: "theurgy:sal_ammoniac_tank"
+					type: "item"
+				}
+				{
+					id: "6BB25179690A0370"
+					item: "theurgy:sal_ammoniac_accumulator"
+					type: "item"
+				}
+				{
+					id: "7132A720CF059A00"
+					item: "theurgy:liquefaction_cauldron"
+					type: "item"
+				}
+				{
+					id: "0BAFEEB39DF1F55A"
+					item: "theurgy:distiller"
+					type: "item"
+				}
+			]
+			title: "Theurgy"
+			x: -3.0d
+			y: 6.5d
+		}
 	]
-	subtitle: ["Waiting Patiently for Electroblob's Wizardry"]
 	title: "Supernatural Magic (WIP)"
 }
