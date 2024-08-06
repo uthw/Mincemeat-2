@@ -706,6 +706,7 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -4051,6 +4052,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["4A98B0635371C46A"]
 			description: ["Canes are one of the few ways to increase your movement speed in Tetra. They are based on the density stat of the material you use for the head. Density can be found in the materials section of the Holosphere."]
 			icon: {
 				Count: 1
@@ -4104,6 +4106,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["4A98B0635371C46A"]
 			description: ["This flail is obtained by finding an Ancient Flail in an Ancient City and mixing it with Shards of Malice. This flail significantly improves all stats but has only 31 base durability. However, it makes up for that with its effects, which are extremely powerful"]
 			id: "60E17C462DA42DFA"
 			shape: "square"
@@ -4117,6 +4120,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["4A98B0635371C46A"]
 			description: ["Halberds are stronger versions of spears. They deal more damage and have a high chance to stun mobs in place, making it easy to kill them."]
 			icon: {
 				Count: 1
@@ -4173,6 +4177,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["4A98B0635371C46A"]
 			description: ["The mace is the opposite of other spears, as it does not extend your range but actually lowers it. Your base range is just 1 block, and it deals less damage than a halberd. However, it has the strongest crushing effect of any schematic in Tetra, meaning any armored mob will be demolished. (Crushing ensures you deal a minimum amount of damage; for example, if your crushing is level 6, you cannot deal less than 6 damage in one hit.)"]
 			icon: {
 				Count: 1
