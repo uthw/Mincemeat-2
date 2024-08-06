@@ -939,11 +939,21 @@ ServerEvents.recipes((event) => {
                 "tetra:scroll_rolled",
                 '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;15,13,12,14],intricate:0b,key:"bow/string/compound_string",material:1,ribbon:"19e588",schematics:["tetra:bow/string/compound_string","tetra:crossbow/string/compound_cross_string"]}]}}'
             ),
-            [" A ", "BCB", " A "],
+            [" A ", "BCB", " D "],
             {
                 A: "ars_nouveau:magebloom_fiber",
                 B: "#forge:rope",
                 C: "enigmaticlegacy:darkest_scroll",
+                D: "tetra:vent_plate",
+            },
+        ],
+        [
+            "art_of_forging:devils_soul_gem",
+            [" A ", "BCB", " B "],
+            {
+                A: "forbidden_arcanus:dark_rune",
+                B: "tetra:metal_scrap",
+                B: "iceandfire:witherbone",
             },
         ],
     ];
