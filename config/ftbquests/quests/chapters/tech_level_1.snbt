@@ -637,8 +637,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -13.0d
+			x: 3.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["2A31B4314985CDF6"]
@@ -713,7 +713,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["16CCD414DF230E54"]
+			dependencies: ["11E96A5DA12A0621"]
 			description: [
 				"As it turns out, &eburning your ores in a furnace&r is quite inefficient, wasting a lot of the potential of the ore. The &6pulverizer&r partially helps to control this by turning &eore&r into &edust&r. This dust can then be smelted into &eingots&r."
 				""
@@ -729,9 +729,9 @@
 				item: "thermal:machine_pulverizer"
 				type: "item"
 			}]
-			title: "Turn 1 Ore into 2 Ingots"
-			x: 7.5d
-			y: -7.5d
+			title: "Pulverizer"
+			x: 8.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["16CCD414DF230E54"]
@@ -785,7 +785,7 @@
 				}
 			]
 			title: "Collect (almost) All Dynamos"
-			x: 9.0d
+			x: 9.5d
 			y: -6.5d
 		}
 		{
@@ -798,8 +798,8 @@
 				type: "item"
 			}]
 			title: "Turn 1 Log into 6 Planks"
-			x: 7.0d
-			y: -9.0d
+			x: 6.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2F65AA378ABCB05C"]
@@ -811,8 +811,8 @@
 				type: "item"
 			}]
 			title: "Make Alloys of Different Metals"
-			x: 6.5d
-			y: -10.5d
+			x: 6.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["329604AC74DDA615"]
@@ -824,8 +824,8 @@
 				title: "More Machines"
 				type: "checkmark"
 			}]
-			x: 10.5d
-			y: -11.0d
+			x: 10.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2BFF61AFF24B0404"]
@@ -837,8 +837,8 @@
 				type: "item"
 			}]
 			title: "Integral Augment"
-			x: 9.5d
-			y: -3.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["16CCD414DF230E54"]
@@ -858,7 +858,7 @@
 			]
 			title: "Augments"
 			x: 8.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["472EC26B3D7A1533"]
@@ -868,8 +868,8 @@
 				item: "thermal:upgrade_augment_2"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1FCF7D204368C33E"]
@@ -879,7 +879,7 @@
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: -2.5d
 		}
 		{
@@ -1029,7 +1029,7 @@
 				item: "thermal:tinker_bench"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 14.0d
 			y: -5.0d
 		}
 		{
@@ -1065,7 +1065,7 @@
 			}]
 			title: "Storing Energy"
 			x: 10.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["49E17DAC684FAC93"]
@@ -1091,7 +1091,7 @@
 				}
 			]
 			title: "Energized Block Breaking"
-			x: 12.0d
+			x: 13.5d
 			y: -8.5d
 		}
 		{
@@ -1112,7 +1112,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: -7.5d
 		}
 		{
@@ -1124,7 +1124,7 @@
 				item: "thermal:charge_bench"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.5d
 			y: -4.0d
 		}
 		{
@@ -1164,8 +1164,8 @@
 				}
 			]
 			title: "Moving Energy"
-			x: 3.0d
-			y: -15.0d
+			x: -2.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["678E6CB5A7AB483B"]
@@ -1190,8 +1190,8 @@
 				}
 			]
 			title: "Intro to Energy with Create"
-			x: 5.5d
-			y: -14.0d
+			x: 0.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["7BCE10D50BB54C12"]
@@ -1214,8 +1214,8 @@
 				}
 			]
 			title: "Charging Items"
-			x: 5.0d
-			y: -16.0d
+			x: -0.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["048233AB927943AD"]
@@ -1269,7 +1269,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -11.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["0A26B049A30FF9DA"]
@@ -1452,7 +1452,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: -7.5d
 		}
 		{
@@ -1506,7 +1506,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.5d
 			y: -8.5d
 		}
 		{
@@ -1522,7 +1522,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 14.0d
 			y: -7.0d
 		}
 		{
@@ -1583,8 +1583,8 @@
 				}
 			]
 			title: "Electricity"
-			x: 7.5d
-			y: -13.5d
+			x: -1.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["067561E11F848EBB"]
@@ -1595,8 +1595,8 @@
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -14.5d
+			x: -3.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["72083B3DB68503A5"]
@@ -1634,8 +1634,8 @@
 				}
 			]
 			title: "Ore Excavation"
-			x: 8.0d
-			y: -12.0d
+			x: 1.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["6E51F7DE0D0CC8CB"]
@@ -1875,8 +1875,8 @@
 				item: "createoreexcavation:vein_finder"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -12.5d
+			x: 3.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6E77A3D78F1891FE"]
@@ -2019,7 +2019,7 @@
 			]
 			title: "Conduits"
 			x: 9.5d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3AD7E8EA4A09F91C"]
@@ -2117,8 +2117,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -10.5d
+			x: 8.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["0A26B049A30FF9DA"]
@@ -2195,6 +2195,622 @@
 			title: "Black Hole"
 			x: 1.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["0B332B12ED9F9FA8"]
+			description: [
+				"A battery. It can store some energy. Use the hammer to configure surfaces to input and output energy."
+				""
+				"{image:kubejs:item/wiretransfer width:1000 height:600 align:1 fit:true}"
+				"&o&7picture directly taken from an older Mincemeat on 1.16.5, some elements may be different!&r"
+				""
+				"Above is an example of using wires to transfer energy. The purple block on the right is a creative generator that has infinite energy, for the sake of simplicity."
+				""
+				"I configured the capacitor to input energy on the face the wire connector is on, and then I used a wire connector to string a wire between the generator and capacitor."
+				""
+				"If you struggle with reading the text, try putting your GUI scale on auto."
+			]
+			id: "4F20624095433B21"
+			invisible: true
+			tasks: [{
+				id: "3CE4858CAC13A056"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16CCD414DF230E54"]
+			description: [
+				"Coke: a relatively pure fuel formed when coal is heated without oxygen."
+				""
+				"Coal coke smelts twice as many items as regular coal."
+				""
+				"The coke oven turns coal into this, and doesn't use any fuel. It produces creosote on the side, which can be used to cure wood."
+				""
+				"It's a 3x3x3 cube and you right click the middle block with an Engineer's Hammer. Yes, it's slow. If you want speed, build another."
+			]
+			id: "3C5831C2EDC2C8F5"
+			invisible: true
+			tasks: [
+				{
+					count: 27L
+					id: "53A190E58AE0F567"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					id: "56CFC502A15C392B"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coke Oven"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4F20624095433B21"
+				"16CCD414DF230E54"
+			]
+			description: [
+				"To connect two blocks, use a &cwire coil&f on the first one, and then use the same one again on the second block."
+				""
+				"&cWire connectors &fand &cwire relays&f only accept wires of the same type, while &ctransformers&f accept wires of two different types. Wires can only connect to blocks that support their voltage."
+				""
+				"&cConnectors &fare sort of like redstone repeaters in that they can extend the range of a wire."
+				""
+				"&cTransformers&f act as points of transition between two different types of wire, with the weakest wire bottlenecking the stronger one. MV and HV can be attached to posts."
+				""
+				"Please read description for LV Accumulator if you'd like a visual example of wires."
+			]
+			id: "1DDC9DC36A4FA5F0"
+			tasks: [
+				{
+					id: "4F6A4ED6C72EF552"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersiveengineering:connector_lv"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:connector_mv"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:connector_hv"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F5F6C2F143A40FD"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersiveengineering:connector_lv_relay"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:connector_mv_relay"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:connector_hv_relay"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B019BC2F48202DC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersiveengineering:wirecoil_copper"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:wirecoil_electrum"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:wirecoil_steel"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Electricity"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C5831C2EDC2C8F5"]
+			description: [
+				"Treated wood is a crafting material and decorative block which can be fashioned into neat blocks for growing engineers."
+				""
+				"The wooden storage crate, for example, stores its inventory when broken."
+				""
+				"The wooden barrel can store liquid. However, if the liquid is too high temperature you'll need a metal barrel."
+			]
+			id: "7EB8A00E18D08EC6"
+			tasks: [
+				{
+					id: "63468CB22F44D189"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "5CA097AFB7B40BE5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:treated_wood"
+						}
+					}
+					title: "Any #forge:treated_wood"
+					type: "item"
+				}
+				{
+					id: "1F168D30042327A7"
+					item: "immersiveengineering:crate"
+					type: "item"
+				}
+				{
+					id: "46F4AB56D8953F01"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+			]
+			title: "Treated Wood"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7EB8A00E18D08EC6"]
+			description: [
+				"The Item and Fluid routers redirect items/fluids that dare enter their inventories."
+				""
+				"The item batcher collects a set amount of items from conveyors feeding into it. It then sends them along. It can also use filters."
+			]
+			id: "353861E7291A7FD1"
+			tasks: [
+				{
+					id: "54591EA0CE86A139"
+					item: "immersiveengineering:sorter"
+					type: "item"
+				}
+				{
+					id: "7655965D70E3FC19"
+					item: "immersiveengineering:fluid_sorter"
+					type: "item"
+				}
+				{
+					id: "02AF52609FF3F87D"
+					item: "immersiveengineering:item_batcher"
+					type: "item"
+				}
+			]
+			title: "Routers and Directors"
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7EB8A00E18D08EC6"]
+			description: ["Can store a large amount of one item: over 40,000! That's more than twice the amount of a netherite limited-storage barrel!"]
+			id: "08DAA4C93DF95570"
+			tasks: [
+				{
+					count: 4L
+					id: "52693C09E8A2FA00"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "6B211DE021D6E172"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "Silo"
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["08DAA4C93DF95570"]
+			description: [
+				"Can store a large amount of a single fluid: over 500 buckets!"
+				""
+				"One of the bottom center blocks of iron sheetmetal must be right clicked to transform the stucture."
+			]
+			id: "096878F54CDAD146"
+			tasks: [
+				{
+					count: 4L
+					id: "0EE9C2B17E739736"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "7A4C002D764E6BB1"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+			]
+			title: "Tank"
+			x: 12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2635DBAEEA555FE2"]
+			id: "3D555D93057725DD"
+			tasks: [{
+				id: "49CF0EFFF3011C02"
+				item: "rangedpumps:pump"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7EB8A00E18D08EC6"]
+			description: [
+				"Crafts items using engineer's blueprints."
+				""
+				"You can craft or trade for blueprints, but some can also be discovered in the wild."
+				""
+				"The slots on the right side will tell what item is depicted by the blueprints. To craft them, place materials in the central six slots."
+				""
+				"This workbench also letts you modify some items from IE such as the Revolver. Place it in the left slot and then add your upgrades."
+			]
+			id: "10F72DF973999E15"
+			tasks: [{
+				id: "1331FAEE5D3761A9"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3C5831C2EDC2C8F5"]
+			description: [
+				"3x3x3 cube, same setup as the coke oven."
+				""
+				"The simple goal of the crude blast furnace is alloying iron with carbon to form steel, a stronger and tougher version."
+				""
+				"As the name suggests, this furnace is quite primitive. It produces slag alongside steel and the slag must be removed or the furnace stops after enough has built up. It also can't be automated."
+				""
+				"Remember that you can mine magma blocks in the ocean to make this without going to the nether."
+			]
+			id: "26C8D9822EF6663C"
+			tasks: [{
+				count: 27L
+				id: "4A6A129EF0941B06"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "Crude Blast Furnace"
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["26C8D9822EF6663C"]
+			description: ["In terms of its construction, it's another cube. A hopper is to be added to the top for the inputs. Steel out the front and slag out the back, and they automatically are put into inventories found there."]
+			id: "65310E6D6F6B4E9A"
+			optional: true
+			subtitle: "Not mandatory to progress, but really useful"
+			tasks: [
+				{
+					count: 27L
+					id: "2A1C1C4F82BCEEDF"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "5F80D00340A3B13A"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Improved Blast Furnace"
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"353861E7291A7FD1"
+				"26C8D9822EF6663C"
+			]
+			description: [
+				"The windmill generates power. Its output diminishes when blocks are in the way of its path, so make sure it has at least 5 blocks clearance on all sides."
+				""
+				"Placing tough fabric made from hemp improves the power output of the windmill (rightclick). The power also increases during times of precipitation."
+				""
+				"To harness the kinetic energy of the windmill, you'll need to connect a Kinetic Dynamo."
+			]
+			id: "6BCB133D5CD72D57"
+			subtitle: "Simple power generation"
+			tasks: [
+				{
+					id: "4C698126C2969CCF"
+					item: "immersiveengineering:windmill"
+					type: "item"
+				}
+				{
+					id: "078C60CD9CE5E34F"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6BCB133D5CD72D57"]
+			id: "0D1CE700D0C94556"
+			tasks: [{
+				id: "55BB99AD85CCFAFD"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0D1CE700D0C94556"]
+			description: [
+				"Generates and stores energy whenever the beam on top is struck by lightning. Every steel fence stacked atop the middle block increases the chance of being struck by lightning."
+				""
+				"Energy generated is slowly distributed among the 4 plugs on each side of the structure."
+			]
+			id: "59727B0DA0795B40"
+			tasks: [
+				{
+					count: 8L
+					id: "45295AFC7CC21037"
+					item: "immersiveengineering:coil_lv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E7AAD3812E2A704"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3F930D1EED2E7944"
+					item: "immersiveengineering:capacitor_hv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "543AFD2430AB41D5"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "18FEF3027A5181C9"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1AAA68911D24E075"
+					item: "immersiveengineering:coil_hv"
+					type: "item"
+				}
+			]
+			title: "Lightning Rod (IE)"
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["65310E6D6F6B4E9A"]
+			id: "0EAF87067B5236B3"
+			tasks: [{
+				id: "722CA75D32580030"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["26C8D9822EF6663C"]
+			description: [
+				"To convert, right click one of the fences in the middle of one of the longer sides.Energy is inserted through the top of the multiblock, where you should see an orange dot."
+				""
+				"The crusher's output is the bottom-center hatch, so place a chest or something there."
+				""
+				"Crusher is stopped when the control panel in the middle is given a redstone signal."
+			]
+			id: "6ABB3339DA478C5A"
+			subtitle: "Crushes ores into grit (ore doubling)"
+			tasks: [
+				{
+					count: 10L
+					id: "34664F9E91EAFD17"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7C952736CBE5BD1D"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "60884A3DE15FECF5"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "074B254D7889D31B"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					id: "28A7732430E67512"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Crusher"
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6ABB3339DA478C5A"]
+			description: [
+				"Right click the cauldron with your hammer."
+				""
+				"This is an upgrade to the improved blast furnace and crusher, being able to smelt steel very quickly, double ores, make alloys, and recycle equipment."
+				""
+				"Power comes in through the three plugs in the back. The furnace needs its slag cleaned out and it must have 3 working graphite electrodes."
+				""
+				"The furnace can smelt up to 12 items at once. If you want the machine to run at full speed, you will need to use wires and 2-3 connectors."
+				""
+				"This machine can be automated. You may find the outputs in the bucket at the front and slag can come out of the port in the back. Inputs go through the top slot on the left and additives to the right relative to the electrodes."
+			]
+			id: "0AAE604043C943B2"
+			subtitle: "Large structure, can do many things"
+			tasks: [
+				{
+					count: 27L
+					id: "28241AA09FC39DB1"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "20BE404FE2EB0678"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "33A1A875555E7736"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3392B049CEE4B729"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2FC9F5EF12632A6A"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6E8702268BC5A204"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "68153E6C94A18C62"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "24D50D6E5FFB1E3F"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Arc Furnace"
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["10F72DF973999E15"]
+			description: [
+				"Use an engineer's hammer on the piston to convert your structure. Energy is sent through the top block, and items are placed on a conveyor belt going into it, which should be extended."
+				""
+				"Attach a mold to a metal press by right clicking or throwing, and detach using a hammer."
+			]
+			id: "11E96A5DA12A0621"
+			subtitle: "Uses stamps to turn ingots into plates, rods, and wires."
+			tasks: [
+				{
+					count: 2L
+					id: "72F0CB99FA70958A"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "472258450296D0A4"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "552B485C66A51AAA"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "7851417AB61FC83C"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "21661412C8134C3C"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "Metal Press"
+			x: 10.0d
+			y: -12.5d
 		}
 	]
 	title: "Tech Level 1"
