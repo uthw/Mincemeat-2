@@ -98,7 +98,7 @@
 		"Max Level" = 3
 		#Adjust this value to set the health granted per level of the Enchantment. (There are 2 health per heart icon.)
 		#Range: 1 ~ 10
-		"Health / Level" = 4
+		"Health / Level" = 2
 
 	[Enchantments."Ender Disruption"]
 		#If TRUE, the Ender Disruption Enchantment is available for various Weapons.
