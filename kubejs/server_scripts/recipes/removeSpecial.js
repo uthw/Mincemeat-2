@@ -26,6 +26,22 @@ ServerEvents.recipes((event) => {
             input: "mekanism:dust_fluorite",
             type: "mekanism:combiner",
         },
+        {
+            output: "thermal:signalum_ingot",
+            input: "minecraft:redstone",
+        },
+        {
+            output: "thermal:lumium_ingot",
+            input: "#forge:ingots/silver",
+        },
+        {
+            output: "#forge:gears",
+            input: "minecraft:iron_nugget",
+        },
+        {
+            type: "minecraft:crafting_shapeless",
+            input: "immersiveengineering:hammer",
+        },
     ];
 
     toRemove.forEach((item) => {

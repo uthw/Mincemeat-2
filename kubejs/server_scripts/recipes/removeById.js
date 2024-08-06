@@ -78,8 +78,13 @@ ServerEvents.recipes((event) => {
         "comforts:rope_and_nail",
         "enigmaticlegacy:xp_scroll",
         "enchantinginfuser:advanced_enchanting_infuser",
-        // "immersiveengineering:crafting/plate_aluminum_hammering",
+        "immersiveengineering:crafting/plate_aluminum_hammering",
         "thermal:machine_pulverizer",
+        "thermal:machine_smelter",
+        "thermal:machine_furnace",
+        "refinedstorage:quartz_enriched_iron",
+        // "immersiveengineering:crafting/wirecoil_steel",
+        // "immersiveengineering:crafting/wirecoil_redstone",
     ];
 
     toRemove.forEach((recipeId) => {
