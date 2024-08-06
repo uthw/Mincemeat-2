@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Alex's Caves Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The Nature's Compass and Explorer's Compass will break if you try using them to find a cave biome from Alex's Caves. You can, however, create maps to find them by decoding cave tablets."
+    }
+}

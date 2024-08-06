@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mincemeat Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "The durability of almost every item in the modpack is double its vanilla durability."
+    }
+}

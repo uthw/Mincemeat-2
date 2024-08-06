@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "FTB Quests Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Search for quests in any chapter by name by pressing control + f. The search includes incomplete quests, but not ones you can't see."
+    }
+}

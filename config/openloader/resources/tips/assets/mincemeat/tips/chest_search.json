@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Chest Tracker Tip",
+        "text": "FindMe Tip",
         "bold": true,
         "color": "yellow"
     },
     "tip": {
-        "text": "If you misplace an item, use the magnifying glass button in the top right of your inventory to open the Chest Tracker and search for it in all chests you've opened before."
+        "text": "If you misplace an item, press the Y key while hovering over it in the inventory or EMI to cause nearby containers that have that item to emit particles."
     }
 }

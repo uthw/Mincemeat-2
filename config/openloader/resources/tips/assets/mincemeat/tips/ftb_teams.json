@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "FTB Teams Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you're playing multiplayer, be sure to create a team for yourself and any friends. Players on a team can see each other on the minimap at all times alongside sharing quest progress and claimed chunks."
+    }
+}
