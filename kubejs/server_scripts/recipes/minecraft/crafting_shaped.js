@@ -277,7 +277,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "createaddition:connector",
                 B: "create:andesite_alloy",
-                C: "#forge:gears/copper",
+                C: "immersiveengineering:component_iron",
                 D: "#forge:ingots/silver",
                 E: "storagenetwork:master",
             },
@@ -629,7 +629,7 @@ ServerEvents.recipes((event) => {
                 B: "minecraft:iron_block",
                 C: "create:hand_crank",
                 D: "#minecraft:logs",
-                E: "#forge:gears/copper",
+                E: "create:cogwheel",
             },
         ],
         [
@@ -709,7 +709,7 @@ ServerEvents.recipes((event) => {
             ["ABA", "ACA", "ADA"],
             {
                 A: "#forge:ingots/silver",
-                B: "#forge:gears/nickel",
+                B: "#forge:ingots/nickel",
                 C: "create:mechanical_piston",
                 D: "forbidden_arcanus:arcane_crystal",
             },
@@ -850,75 +850,67 @@ ServerEvents.recipes((event) => {
                 D: "enchantinginfuser:enchanting_infuser",
             },
         ],
-        // [
-        //     "immersiveengineering:workbench",
-        //     ["A B", "DCC", "E E"],
-        //     {
-        //         A: "#create:toolboxes",
-        //         B: "create:empty_schematic",
-        //         C: "#forge:treated_wood_slab",
-        //         D: "#farmersdelight:cabinets/wooden",
-        //         E: "immersiveengineering:treated_fence",
-        //     },
-        // ],
-        // [
-        //     "immersiveengineering:turntable",
-        //     [" A ", "BCB", "DED"],
-        //     {
-        //         A: "create:turntable",
-        //         B: "immersiveengineering:component_iron",
-        //         C: "immersiveengineering:coil_lv",
-        //         D: "create:andesite_alloy",
-        //         E: "#forge:gears/silver",
-        //     },
-        // ],
-        // [
-        //     "immersiveengineering:sorter",
-        //     ["ABA", "CDC", "AEA"],
-        //     {
-        //         A: "#forge:treated_wood",
-        //         B: "prettypipes:pipe",
-        //         C: "#forge:plates/copper",
-        //         D: "immersiveengineering:component_iron",
-        //         E: "#forge:silicon",
-        //     },
-        // ],
-        // [
-        //     "immersiveengineering:capacitor_lv",
-        //     ["ABA", "CDC", "AEA"],
-        //     {
-        //         A: "#forge:ingots/copper",
-        //         B: "create:andesite_alloy",
-        //         C: "thermal:cured_rubber",
-        //         D: "immersiveengineering:wirecoil_copper",
-        //         E: "#forge:plates/copper",
-        //     },
-        // ],
-        // [
-        //     "4x immersiveengineering:hemp_fabric",
-        //     ["AAA", "ABA", "AAA"],
-        //     {
-        //         A: "immersiveengineering:hemp_fiber",
-        //         B: "#forge:rods/wooden",
-        //     },
-        // ],
-        // [
-        //     "immersiveengineering:capacitor_mv",
-        //     ["ABA", "CDC", "AEA"],
-        //     {
-        //         A: "#forge:ingots/silver",
-        //         B: "immersiveengineering:component_iron",
-        //         C: "#forge:silicon",
-        //         D: "immersiveengineering:wirecoil_electrum",
-        //         E: "#forge:plates/silver",
-        //     },
-        // ],
         [
-            "thermal:machine_pulverizer",
+            "immersiveengineering:workbench",
+            ["A B", "DCC", "E E"],
+            {
+                A: "#create:toolboxes",
+                B: "create:empty_schematic",
+                C: "#forge:treated_wood_slab",
+                D: "#farmersdelight:cabinets/wooden",
+                E: "immersiveengineering:treated_fence",
+            },
+        ],
+        [
+            "immersiveengineering:turntable",
             [" A ", "BCB", "DED"],
             {
-                A: "integrateddynamics:drying_basin",
-                B: "",
+                A: "create:turntable",
+                B: "immersiveengineering:component_iron",
+                C: "immersiveengineering:coil_lv",
+                D: "create:andesite_alloy",
+                E: "#forge:ingots/silver",
+            },
+        ],
+        [
+            "immersiveengineering:sorter",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "#forge:treated_wood",
+                B: "prettypipes:pipe",
+                C: "#forge:plates/copper",
+                D: "immersiveengineering:component_iron",
+                E: "#forge:silicon",
+            },
+        ],
+        [
+            "immersiveengineering:capacitor_lv",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "#forge:ingots/copper",
+                B: "create:andesite_alloy",
+                C: "thermal:cured_rubber",
+                D: "immersiveengineering:wirecoil_copper",
+                E: "#forge:plates/copper",
+            },
+        ],
+        [
+            "4x immersiveengineering:hemp_fabric",
+            ["AAA", "ABA", "AAA"],
+            {
+                A: "immersiveengineering:hemp_fiber",
+                B: "#forge:rods/wooden",
+            },
+        ],
+        [
+            "immersiveengineering:capacitor_mv",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "#forge:ingots/silver",
+                B: "immersiveengineering:component_iron",
+                C: "#forge:silicon",
+                D: "immersiveengineering:wirecoil_electrum",
+                E: "#forge:plates/silver",
             },
         ],
         [
@@ -953,7 +945,67 @@ ServerEvents.recipes((event) => {
             {
                 A: "forbidden_arcanus:dark_rune",
                 B: "tetra:metal_scrap",
-                B: "iceandfire:witherbone",
+                C: "iceandfire:witherbone",
+            },
+        ],
+        [
+            "thermal:machine_pulverizer",
+            [" A ", "BCB", "DED"],
+            {
+                A: "integrateddynamics:drying_basin",
+                B: "apotheosis:common_material",
+                C: "thermal:machine_frame",
+                D: "#forge:gears/steel",
+                E: "thermal:rf_coil",
+            },
+        ],
+        [
+            "thermal:machine_smelter",
+            [" A ", "BCB", "DED"],
+            {
+                A: "extractionator:extractionator",
+                B: "forbidden_arcanus:polished_darkstone",
+                C: "thermal:machine_frame",
+                D: "#forge:dusts/tin",
+                E: "thermal:rf_coil",
+            },
+        ],
+        [
+            "thermal:machine_furnace",
+            [" A ", "BCB", "DED"],
+            {
+                A: "createaddition:connector",
+                B: "upgrade_aquatic:tooth_bricks",
+                C: "thermal:machine_frame",
+                D: "#forge:plates/zinc",
+                E: "thermal:rf_coil",
+            },
+        ],
+        [
+            "theurgy:pyromantic_brazier",
+            [" A ", "ABA", "CCC"],
+            {
+                A: "eidolon:elder_brick",
+                B: "hexerei:infused_fabric",
+                C: "forbidden_arcanus:aurum_planks",
+            },
+        ],
+        [
+            "theurgy:calcination_oven",
+            [" A ", "ABA", " C "],
+            {
+                A: "eidolon:elder_brick",
+                B: "alexsmobs:rocky_shell",
+                C: "miners_delight:copper_pot",
+            },
+        ],
+        [
+            "theurgy:sal_ammoniac_tank",
+            ["A A", "A A", "CBC"],
+            {
+                A: "eidolon:pewter_ingot",
+                B: "create:fluid_tank",
+                C: "#mcwbridges:wooden_piers",
             },
         ],
     ];
