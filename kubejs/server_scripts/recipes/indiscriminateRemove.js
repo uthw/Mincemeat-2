@@ -142,7 +142,18 @@ ServerEvents.recipes((event) => {
         "iceandfire:copper_axe",
         "pneumaticcraft:memory_stick",
         "pneumaticcraft:turbine_blade",
+        "immersiveengineering:workbench",
         "occultism:butcher_knife",
+        // "immersiveengineering:sorter",
+        // "immersiveengineering:capacitor_lv",
+        // "immersiveengineering:hemp_fabric",
+        // "immersiveengineering:capacitor_mv",
+        // "immersiveengineering:turntable",
+        // "immersiveengineering:capcitor_hv",
+        // "immersiveengineering:crafting/sample_drill",
+        // "immersiveengineering:alu_fence",
+        // "immersiveengineering:alu_scaffolding_standard",
+        // "immersiveengineering:alu_wallmount",
     ];
 
     toRemove.forEach((item) => {

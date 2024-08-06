@@ -139,6 +139,36 @@ ServerEvents.recipes((event) => {
                 E: "minecraft:lever",
             },
         },
+        // {
+        //     output: "immersiveengineering:sample_drill",
+        //     inputs: ["ABA", "ABA", "CDC", "DED", "CDC"],
+        //     keys: {
+        //         A: "immersiveengineering:steel_scaffolding_standard",
+        //         B: "#forge:rods/steel",
+        //         C: "#forge:ingots/copper",
+        //         D: "#forge:ingots/lead",
+        //         E: "immersiveengineering:wirecoil_copper",
+        //     },
+        // },
+        // {
+        //     output: "immersiveengineering:windmill",
+        //     inputs: ["A  A  A", " A A A ", " AABAA ", " A A A ", "A  A  A"],
+        //     keys: {
+        //         A: "immersiveengineering:windmill_blade",
+        //         B: "immersiveengineering:component_iron",
+        //     },
+        // },
+        // {
+        //     output: "immersiveengineering:capacitor_hv",
+        //     inputs: ["ABA", "CDC", "AEA"],
+        //     keys: {
+        //         A: "#forge:ingots/steel",
+        //         B: "immersiveengineering:component_steel",
+        //         C: "#thermal:rockwool",
+        //         D: "immersiveengineering:wirecoil_steel",
+        //         E: "#forge:plates/steel",
+        //     },
+        // },
     ];
 
     recipes.forEach((recipe) => {

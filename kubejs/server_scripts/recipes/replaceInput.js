@@ -179,57 +179,6 @@ ServerEvents.recipes((event) => {
             "minecraft:xp_bottle",
             "enigmaticlegacy:tattered_tome",
         ],
-        // Immersive Engineering replacements
-        // [
-        //     { output: "engineersdecor:small_solar_panel" },
-        //     "minecraft:quartz",
-        //     "powah:photoelectric_pane",
-        // ],
-        // [
-        //     { output: "engineersdecor:small_solar_panel" },
-        //     "#forge:storage_blocks/lead",
-        //     "#forge:storage_blocks/aluminum",
-        // ],
-        // [
-        //     { output: "immersiveengineering:cokebrick" },
-        //     "#forge:sandstone",
-        //     "create:gabbro",
-        // ],
-        // [
-        //     { output: "immersiveengineering:cokebrick" },
-        //     "minecraft:brick",
-        //     "architects_palette:algal_brick",
-        // ],
-        // [
-        //     { output: "immersiveengineering:cokebrick" },
-        //     "minecraft:clay_ball",
-        //     "#forge:plates/iron",
-        // ],
-        // // [
-        // //     { output: "immersiveengineering:capacitor_hv" },
-        // //     "#forge:storage_blocks/lead",
-        // //     "#forge:storage_blocks/brass",
-        // // ],
-        // [
-        //     { output: "immersiveengineering:conveyor_dropping" },
-        //     "minecraft:iron_trapdoor",
-        //     "create:chute",
-        // ],
-        // // [
-        // //     { output: "immersiveengineering:capacitor_mv" },
-        // //     "#forge:ingots/iron",
-        // //     "#blue_skies:ingots/horizonite",
-        // // ],
-        // [
-        //     { output: "immersiveengineering:windmill" },
-        //     "#forge:ingots/iron",
-        //     "#forge:ingots/steel",
-        // ],
-        // [
-        //     { output: "immersiveengineering:conveyor_basic" },
-        //     "#forge:ingots/iron",
-        //     "#forge:ingots/aluminum",
-        // ],
         // [{}, "engineersdecor:metal_bar", "#forge:rods/iron"],
         [
             { output: "industrialforegoing:machine_frame_simple" },
@@ -1180,6 +1129,105 @@ ServerEvents.recipes((event) => {
         [{}, "forbidden_arcanus:bat_wing", "miners_delight:bat_wing"],
         [{}, "galosphere:silver_ingot", "#forge:ingots/silver"],
         [{}, "minecraft:crafting_table", "#forge:workbench"],
+        // [
+        //     { output: "immersiveengineering:cokebrick" },
+        //     "minecraft:clay_ball",
+        //     "farmersdelight:straw",
+        // ],
+        // [
+        //     { output: "immersiveengineering:cokebrick" },
+        //     "#forge:ingots/brick",
+        //     "architects_palette:algal_brick",
+        // ],
+        // [
+        //     { output: "immersiveengineering:cokebrick" },
+        //     "#forge:sandstone",
+        //     "quark:limestone",
+        // ],
+        // [
+        //     { output: "immersiveen:capacitor_mv" },
+        //     "#forge:ingots/steel",
+        //     "#forge:ingots/brass",
+        // ],
+        // [
+        //     { output: "immersiveengineering:capacitor_hv" },
+        //     "#forge:ingots/steel",
+        //     "#forge:ingots/electrum",
+        // ],
+        // [
+        //     { output: "immersiveengineering:conveyor_dropping" },
+        //     "minecraft:iron_trapdoor",
+        //     "create:chute",
+        // ],
+        // [
+        //     { output: "immersiveengineering:windmill" },
+        //     "#forge:ingots/iron",
+        //     "#forge:ingots/steel",
+        // ],
+        // [
+        //     { output: "immersiveengineering:conveyor_basic" },
+        //     "#forge:ingots/iron",
+        //     "#forge:ingots/zinc",
+        // ],
+        // [
+        //     { output: "immersiveengineering:wirecoil_copper" },
+        //     "#forge:sticks/wooden",
+        //     "#forge:rods/iron",
+        // ],
+        // [
+        //     { output: "immersiveengineering:coil_lv" },
+        //     "minecraft:iron_ingot",
+        //     "thermal:rf_coil",
+        // ],
+        // [
+        //     { output: "immersiveengineering:dynamo" },
+        //     "minecraft:iron_ingot",
+        //     "#forge:plates/steel",
+        // ],
+        // [
+        //     { output: "immersiveengineering:blastbrick" },
+        //     "minecraft:nether_brick",
+        //     "supplementaries:ash_brick",
+        // ],
+        // [
+        //     { output: "immersiveengineering:blastbrick" },
+        //     "#forge:ingots/brick",
+        //     "#forge:plates/zinc",
+        // ],
+        // [
+        //     { output: "immersiveengineering:component_iron" },
+        //     "minecraft:copper_ingot",
+        //     "create:andesite_alloy",
+        // ],
+        // [
+        //     { output: "immersiveengineering:component_steel" },
+        //     "minecraft:copper_ingot",
+        //     "create:andesite_alloy",
+        // ],
+        // [
+        //     { output: "immersiveengineering:item_batcher" },
+        //     "minecraft:redstone",
+        //     "refinedstorage:silicon",
+        // ],
+        // [
+        //     { output: "immersiveengineering:insulating_glass" },
+        //     "#forge:glass",
+        //     "#thermal:glass/hardened",
+        // ],
+        // [
+        //     { output: "immersiveengineering:thermoelectric_generator" },
+        //     "immersiveengineering:coil_lv",
+        //     "galosphere:combustion_table",
+        // ],
+        // // replace all aluminum with zinc, just for the sake of not adding too many ores
+        // [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
+        // [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
+        // [{}, "#forge:wires/aluminum", "#forge:wires/iron"],
+        // [
+        //     {},
+        //     "immersiveengineering:sheetmetal_aluminum",
+        //     "immersiveengineering:sheetmetal_silver",
+        // ],
     ];
 
     replacements.forEach((replacement) => {

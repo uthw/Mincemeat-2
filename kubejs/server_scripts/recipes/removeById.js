@@ -78,6 +78,8 @@ ServerEvents.recipes((event) => {
         "comforts:rope_and_nail",
         "enigmaticlegacy:xp_scroll",
         "enchantinginfuser:advanced_enchanting_infuser",
+        // "immersiveengineering:crafting/plate_aluminum_hammering",
+        "thermal:machine_pulverizer",
     ];
 
     toRemove.forEach((recipeId) => {
