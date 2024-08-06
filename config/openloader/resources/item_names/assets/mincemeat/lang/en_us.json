@@ -90,6 +90,7 @@
     "effect.minecells.bleeding.description": "Causes damage over the effect's duration.",
     "effect.minecells.frozen.description": "Inflicts slowness after the effect's timer runs out.",
     "effect.minecells.stunned.description": "Stops the mob from attacking temporarily.",
+    "effect.minecells.protected.description": "The monster is invulnerable until it strays too far away from a Protector.",
     "effect.minecells.assassins_strength.description": "Increases attack damage.",
     "effect.mowziesmobs.sunblock.description": "Unused effect that doesn't do anything.",
     "effect.relics.stun.description": "Completely immobilizes the affected entity, and prevents them from attacking. Players are unable to do anything at all until they recover.",
@@ -106,5 +107,6 @@
     "effect.tetra.small_health.description": "Less potent version of absorption.",
     "effect.tetra.suspended.description": "Greatly increases jump height and reduces falling speed.",
     "effect.tetra.mining_speed.description": "Increases mining speed.",
-    "xaerominimap:no_minimap": "Hides the minimap from the HUD."
+    "effect.xaerominimap:no_minimap.description": "Hides the minimap from the HUD.",
+    "effect.occultism.third_eye.description": "Allows the curious and possibly sickened gourmand to see blocks from another plane."
 }
