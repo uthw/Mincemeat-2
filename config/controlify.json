@@ -1,6 +1,6 @@
 {
-  "last_seen_version": "2.0.0-beta.10+1.20.1",
-  "current_controller": null,
+  "last_seen_version": "1.7.0-beta.1+1.20",
+  "current_controller": "82e33f5e-8938-3d2a-832e-1ec790ca0727",
   "controllers": {
     "af208e7a-c6ec-32e1-ab43-3558561c3f49": {
       "config": {
@@ -887,25 +887,7 @@
           "type": "gamepad",
           "bind": "right_stick_left"
         },
-        "voicechat:ptt_hold": {
-          "type": "empty"
-        },
-        "voicechat:ptt_toggle": {
-          "type": "empty"
-        },
-        "voicechat:whisper_hold": {
-          "type": "empty"
-        },
-        "voicechat:whisper_toggle": {
-          "type": "empty"
-        },
-        "voicechat:mute_microphone": {
-          "type": "empty"
-        },
         "fabric-key-binding-api-v1:key.crawl": {
-          "type": "empty"
-        },
-        "fabric-key-binding-api-v1:key.chesttracker.opengui": {
           "type": "empty"
         },
         "fabric-key-binding-api-v1:key.azurelib.reload": {
@@ -917,7 +899,10 @@
         "fabric-key-binding-api-v1:key.deathlog.death_screen": {
           "type": "empty"
         },
-        "fabric-key-binding-api-v1:key.whereisit.finditem": {
+        "fabric-key-binding-api-v1:zoomify.key.zoom": {
+          "type": "empty"
+        },
+        "fabric-key-binding-api-v1:zoomify.key.zoom.secondary": {
           "type": "empty"
         },
         "fabric-key-binding-api-v1:key.walljump.cling": {
@@ -930,26 +915,78 @@
           "type": "empty"
         }
       }
+    },
+    "2c7805d2-0158-3281-b350-0c20a42d7b1e": {
+      "config": {
+        "controlify:input": {
+          "h_look_sensitivity": 1.0,
+          "v_look_sensitivity": 0.9,
+          "virtual_mouse_sensitivity": 1.0,
+          "reduce_aiming_sensitivity": true,
+          "button_activation_threshold": 0.5,
+          "deadzones": {
+            "controlify:right_stick": 0.08,
+            "controlify:left_stick": 0.08
+          },
+          "deadzones_calibrated": true,
+          "delayed_calibration": false,
+          "mixed_input": false,
+          "keep_default_bindings": false,
+          "radial_actions": [
+            "controlify:toggle_hud_visibility",
+            "controlify:change_perspective",
+            "controlify:drop_stack",
+            "controlify:open_chat",
+            "controlify:swap_hands",
+            "controlify:pick_block",
+            "controlify:take_screenshot",
+            "controlify:show_player_list"
+          ],
+          "radial_button_focus_timeout_ticks": 20,
+          "mapping": null,
+          "bindings": {}
+        },
+        "controlify:config/generic": {
+          "nickname": null,
+          "auto_jump": false,
+          "toggle_sprint": true,
+          "toggle_sneak": true,
+          "disable_fly_drifting": false,
+          "show_ingame_guide": true,
+          "ingame_guide_bottom": false,
+          "show_screen_guides": true,
+          "show_on_screen_keyboard": true,
+          "dont_show_controller_submission": false
+        },
+        "controlify:rumble": {
+          "enabled": true,
+          "vibration_strengths": {
+            "controlify:gui": 1.0,
+            "controlify:interaction": 1.0,
+            "controlify:player": 1.0,
+            "controlify:master": 1.0,
+            "controlify:world": 1.0
+          }
+        }
+      }
     }
   },
+  "compound_joysticks": [],
   "global": {
     "virtual_mouse_screens": [
       "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
       "dev.isxander.yacl3.gui.YACLScreen",
       "xaero.map.gui.GuiMap"
     ],
-    "keyboardMovement": false,
-    "keyboard_movement_whitelist": [],
+    "keyboard_movement": false,
     "out_of_focus_input": false,
     "load_vibration_natives": true,
-    "custom_vibration_natives_path": "",
     "vibration_onboarded": true,
     "reach_around": "OFF",
     "allow_server_rumble": true,
     "ui_sounds": false,
     "notify_low_battery": true,
-    "quiet_mode": false,
-    "ingame_button_guide_scale": 1.0,
-    "seen_servers": []
+    "delegate_setup": false,
+    "ingame_button_guide_scale": 1.0
   }
 }
