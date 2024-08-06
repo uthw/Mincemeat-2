@@ -138,7 +138,7 @@
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
 			description: [
-				"The pack is far from complete! I'd estimate around 35% right now."
+				"The pack is far from complete! I'd estimate around 45% right now."
 				""
 				"Quests, recipes, textures, other customization, lots of things aren't done."
 				""
@@ -147,11 +147,12 @@
 				"- Meet Your Fight"
 				"- Unqiue Enchantments"
 				"- Astral Sorcery"
-				"- Charm"
+				"- Abnormals Worldgen Mods"
 				"- Hats"
 				"- Tinkers' Construct"
 				"- Infernal Expansion"
 				"- Atum 2"
+				"- Fish's Undead Rising"
 				""
 				"I hope this list gets smaller, but it will be a matter of months (maybe even years in Astral Sorcery's case) before it's empty!"
 				""
@@ -252,9 +253,7 @@
 				""
 				"You can find straw by using the knife on grass."
 				""
-				"If you're having trouble harvesting straw from grass, first try it with a Farmer's Delight (not Delightful) knife."
-				""
-				"If that doesn't fix it, go in Better Combat's client config (pause --> Mods) and turn off Swing Through Grass."
+				"If you're having trouble harvesting straw from grass, go in Better Combat's client config (pause --> Mods) and turn off Swing Through Grass."
 			]
 			icon: {
 				Count: 1
@@ -604,8 +603,8 @@
 				item: "torchmaster:dreadlamp"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -2047,6 +2046,34 @@
 			}]
 			x: 7.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["68BF59DD76897182"]
+			id: "321B54476858F547"
+			subtitle: "Outputs a redstone signal with strength based on hardness of the block above"
+			tasks: [{
+				id: "294EACB2B413B628"
+				item: "galosphere:silver_balance"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1A0BCE5BB7716C0F"]
+			description: [
+				"This block can take on the appearance of any block. Simply interact with the block with the desired appearance in hand to change it."
+				""
+				"If the Shadow Frame is powered by redstone, it will have no collision meaning players, mobs, and items will fall right through it!"
+			]
+			id: "5E6F12834B5460D7"
+			tasks: [{
+				id: "7AF1569D7DF0229D"
+				item: "galosphere:shadow_frame"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
 		}
 	]
 	title: "Getting Started"
