@@ -921,6 +921,31 @@ ServerEvents.recipes((event) => {
                 B: "",
             },
         ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,1,9,5],intricate:0b,key:"bow/stave/dreadnought_stave",material:1,ribbon:"f3b31f",schematics:["tetra:bow/stave/dreadnought_stave","tetra:bow/stave/dreadnought_cross_stave"]}]}}'
+            ),
+            [" A ", "BCB", " D "],
+            {
+                A: "spartanweaponry:handle",
+                B: "irons_spellbooks:cinder_essence",
+                C: "enigmaticlegacy:thicc_scroll",
+                D: "iceandfire:dragonbone_arrow",
+            },
+        ],
+        [
+            Item.of(
+                "tetra:scroll_rolled",
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;15,13,12,14],intricate:0b,key:"bow/string/compound_string",material:1,ribbon:"19e588",schematics:["tetra:bow/string/compound_string","tetra:crossbow/string/compound_cross_string"]}]}}'
+            ),
+            [" A ", "BCB", " A "],
+            {
+                A: "ars_nouveau:magebloom_fiber",
+                B: "#forge:rope",
+                C: "enigmaticlegacy:darkest_scroll",
+            },
+        ],
     ];
 
     recipes.forEach((recipe) => {
