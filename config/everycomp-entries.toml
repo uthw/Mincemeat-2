@@ -131,6 +131,74 @@
 			anchor_tree = true
 			nether_sakura = true
 
+		[types.leaves_type.chipped]
+			apple_acacia = true
+			cherry_acacia = true
+			dead_acacia = true
+			frosted_acacia = true
+			golden_acacia = true
+			golden_cherry_acacia = true
+			magenta_flower_acacia = true
+			orange_acacia = true
+			red_acacia = true
+			white_flower_acacia = true
+			apple_birch = true
+			cherry_birch = true
+			dead_birch = true
+			frosted_birch = true
+			golden_birch = true
+			golden_cherry_birch = true
+			magenta_flower_birch = true
+			orange_birch = true
+			red_birch = true
+			white_flower_birch = true
+			apple_dark_oak = true
+			cherry_dark_oak = true
+			dead_dark_oak = true
+			frosted_dark_oak = true
+			golden_dark_oak = true
+			golden_cherry_dark_oak = true
+			magenta_flower_dark_oak = true
+			orange_dark_oak = true
+			red_dark_oak = true
+			white_flower_dark_oak = true
+			apple_jungle = true
+			cherry_jungle = true
+			dead_jungle = true
+			frosted_jungle = true
+			golden_jungle = true
+			golden_cherry_jungle = true
+			magenta_flower_jungle = true
+			orange_jungle = true
+			red_jungle = true
+			white_flower_jungle = true
+			apple_oak = true
+			cherry_oak = true
+			dead_oak = true
+			frosted_oak = true
+			golden_oak = true
+			golden_cherry_oak = true
+			magenta_flower_oak = true
+			orange_oak = true
+			red_oak = true
+			white_flower_oak = true
+			apple_spruce = true
+			cherry_spruce = true
+			dead_spruce = true
+			frosted_spruce = true
+			golden_spruce = true
+			golden_cherry_spruce = true
+			magenta_flower_spruce = true
+			orange_spruce = true
+			red_spruce = true
+			white_flower_spruce = true
+			golden_apple_acacia = true
+			golden_apple_birch = true
+			golden_apple_dark_oak = true
+			golden_apple_jungle = true
+			golden_apple_oak = true
+			golden_apple_spruce = true
+
 	[types.cake]
 
 		[types.cake.createaddition]
@@ -297,22 +365,6 @@
 		[entries.wood_type.boatload]
 			large_boat = true
 			furnace_boat = true
-
-		[entries.wood_type.mcwroofs]
-			planks_upper_steep_roof = true
-			top_roof = true
-			lower_roof = true
-			planks_roof = true
-			upper_steep_roof = true
-			steep_roof = true
-			roof = true
-			planks_attic_roof = true
-			upper_lower_roof = true
-			planks_top_roof = true
-			planks_steep_roof = true
-			attic_roof = true
-			planks_upper_lower_roof = true
-			planks_lower_roof = true
 
 		[entries.wood_type.decorative_blocks]
 			beam = true
