@@ -549,7 +549,7 @@ ServerEvents.recipes((event) => {
             "miners_delight:copper_pot",
             [" A ", "BCB", " B "],
             {
-                A: "iceandfire:copper_shovel",
+                A: "everythingiscopper:copper_shovel",
                 B: "minecraft:copper_ingot",
                 C: "farmersdelight:cooking_pot",
             },
