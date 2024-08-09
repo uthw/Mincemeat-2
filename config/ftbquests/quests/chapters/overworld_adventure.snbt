@@ -144,10 +144,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
 			hide_dependent_lines: true
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
+			invisible: true
 			tasks: [{
 				id: "38F2586A4F22A244"
 				structure: "aquamirae:ice_maze/common"
@@ -1408,6 +1408,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Magnetron"
 			x: -6.0d
 			y: -1.5d
 		}
