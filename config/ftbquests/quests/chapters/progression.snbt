@@ -66,6 +66,7 @@
 			dependencies: ["5BE15B2099714A22"]
 			icon: "create:water_wheel"
 			id: "477A58774B7737C5"
+			subtitle: "Including some of Crafts \\& Additions"
 			tasks: [{
 				id: "565BCC65BC72C7C5"
 				title: "Create Basics"
