@@ -448,7 +448,7 @@ ServerEvents.recipes((event) => {
         [
             { mod: "prettypipes" },
             "minecraft:ender_pearl",
-            "enigmaticlegacy:magnet_ring",
+            "iceandfire:ectoplasm",
         ],
         [
             { output: "prettypipes:low_filter_module" },
