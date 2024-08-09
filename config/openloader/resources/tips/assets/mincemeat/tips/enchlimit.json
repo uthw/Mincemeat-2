@@ -2,7 +2,7 @@
     "title": {
         "text": "Enchantment Limiter Tip",
         "bold": true,
-        "color": "aqua"
+        "color": "yellow"
     },
     "tip": {
         "text": "Each item has a certain maximum combined level of enchantments that can be put on it. The Unbreaking, Mending, and Soulbound enchantments don't count towards this limit. Enchant wisely!"
