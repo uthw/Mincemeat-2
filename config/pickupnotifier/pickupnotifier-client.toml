@@ -1,7 +1,7 @@
 
 [display]
 	#Should the picked up amount be shown when it's just a single item.
-	display_single_count = true
+	display_single_count = false
 	#Add the total amount of an item in your inventory to the entry.
 	inventory_count = false
 	#Mode for drawing a background behind entries for better visibility. 'CHAT' is similar to the chat background, 'TOOLTIP' uses the tooltip background rendering instead.
