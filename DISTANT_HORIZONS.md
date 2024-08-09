@@ -9,7 +9,7 @@ Out of the box, DH is **incompatible** with Mincemeat 2 and needs some tweaks in
 1. Open Mincemeat 2 and open the mod list from the title screen.
 2. Search for ModernFix, select it, and press the "Config" button.
 3. Scroll down to the bottom of the list of mixins.
-4. You'll see an option called "mixin.perf.remove_spawn_chunks (modified)" in italics. Click on the button next to it to disable it. This setting a crash when loading a world with DH if left on. Be aware that disabling it will make creating a new world take significantly longer.
+4. You'll see an option called "mixin.perf.remove_spawn_chunks (modified)" in italics. Click on the button next to it to disable it. This setting causes a crash when loading a world with DH if left on. Be aware that disabling it will make creating a new world take significantly longer.
 
 ### Configure Alex's Caves
 
