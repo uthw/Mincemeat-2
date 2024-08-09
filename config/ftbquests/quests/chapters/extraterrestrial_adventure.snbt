@@ -1099,7 +1099,7 @@
 		{
 			dependencies: ["70795731019BA757"]
 			description: [
-				"The wither is unchanged from vanilla. So underwhelming that there's a machine made using Nether Stars that automatically kills withers."
+				"The wither is unchanged from vanilla. It's so underwhelming that there's a machine made using Nether Stars that automatically kills withers."
 				""
 				"Defeating the Wither unlocks Nether Stars, which are important crafting materials."
 				""
@@ -1281,11 +1281,6 @@
 			]
 			hide: true
 			id: "07EF2C1B4D1EA725"
-			rewards: [{
-				id: "7424AB62C8E31BC7"
-				item: "paraglider:heart_container"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1744B9AF2B27D7E0"
 				item: "alexsmobs:mysterious_worm"
@@ -1298,6 +1293,11 @@
 			dependencies: ["07EF2C1B4D1EA725"]
 			description: [""]
 			id: "72E1C3F859844F04"
+			rewards: [{
+				id: "2313B792D62A8F59"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				icon: "alexsmobs:void_worm_eye"
