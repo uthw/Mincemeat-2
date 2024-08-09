@@ -739,7 +739,7 @@
     "mountains": {
       "weight": 2.5,
       "baseScale": 1.0,
-      "verticalScale": 1.2757732,
+      "verticalScale": 1.0,
       "horizontalScale": 1.0
     },
     "volcano": {
