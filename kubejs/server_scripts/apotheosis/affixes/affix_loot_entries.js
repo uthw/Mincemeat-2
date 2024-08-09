@@ -22,7 +22,7 @@ ServerEvents.highPriorityData((event) => {
                     ],
                     item: "minecraft:bow",
                     weight: 50,
-                    max_rarity: "rare",
+                    max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
                     weight: 50,
@@ -31,7 +31,7 @@ ServerEvents.highPriorityData((event) => {
                     dimensions: ["minecraft:overworld"],
                     item: "botania:livingwood_bow",
                     weight: 20,
-                    max_rarity: "rare",
+                    max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
                     weight: 50,
@@ -40,7 +40,7 @@ ServerEvents.highPriorityData((event) => {
                     dimensions: ["minecraft:overworld"],
                     item: "botania:crystal_bow",
                     weight: 20,
-                    max_rarity: "rare",
+                    max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
                     weight: 50,
@@ -54,7 +54,7 @@ ServerEvents.highPriorityData((event) => {
                     ],
                     item: "minecraft:crossbow",
                     weight: 50,
-                    max_rarity: "rare",
+                    max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
                     weight: 50,
@@ -478,7 +478,7 @@ ServerEvents.highPriorityData((event) => {
                     : "apotheosis:common",
                 max_rarity: entry.max_rarity
                     ? `apotheosis:${entry.max_rarity}`
-                    : "apotheosis:rare",
+                    : "apotheosis:uncommon",
             };
 
             let fileName = entry.item.split(":")[1];
