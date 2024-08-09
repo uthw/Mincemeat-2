@@ -5,6 +5,6 @@
         "color": "aqua"
     },
     "tip": {
-        "text": "The Distant Horizons mod lets you see far into the distance without sacrificing performance by using LODs, which are used in most open-world games like Breath of the Wild. It can be added to this pack if you disable mixin.perf.remove_spawn_chunks in ModernFix and biome_ambient_light_coloring in Alex's Caves client configs."
+        "text": "The Distant Horizons mod lets you see far into the distance without sacrificing performance by using LODs, which are used in most open-world games like Breath of the Wild. Check this modpack's GitHub for instructions on how to add it."
     }
 }
