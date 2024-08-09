@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1719150735431
+  last_edited_time = 1723136067512
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = M I N C E M E A T
-  [loading_requirement_container_meta:9a6ef6f7-22a7-4230-94be-d05638c4c5b0-1719150682490] = [groups:][instances:]
+  [loading_requirement_container_meta:05397170-154b-405a-aabe-dbcea898f754-1723136055598] = [groups:][instances:]
 }
 
 menu_background {
@@ -33,7 +33,7 @@ scroll_list_customization {
 }
 
 element {
-  source = [source:local]menu/mincemeat2.png
+  source = [source:local]/config/fancymenu/assets/menu/mincemeat2.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
