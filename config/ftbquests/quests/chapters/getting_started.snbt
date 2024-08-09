@@ -196,34 +196,6 @@
 		{
 			dependencies: ["50D43AFA6402629F"]
 			description: [
-				"1. base slot for bread and bowl"
-				"{image:kubejs:item/culinary_gui width:334 height:145 align:1 fit:true}"
-				""
-				"2. ingredients: any food item you want. fluids are possible if you have a bowl."
-				""
-				"3. rename"
-				""
-				"4. output"
-				""
-				"Your meal will have the combined food value of all ingredients, and saturation equal to the average of all relative to their contribution to food value."
-				""
-				"Your food's saturation is further altered by its quality, assigned randomly."
-				""
-				"If your sandwich would've restored a large amount of food, it will be cut into multiple smaller sandwiches."
-			]
-			id: "7029D04BC1F6A923"
-			tasks: [{
-				id: "736405064B121227"
-				item: "culinaryconstruct:culinary_station"
-				type: "item"
-			}]
-			title: "Make Soups and Sandwiches"
-			x: -1.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["50D43AFA6402629F"]
-			description: [
 				"The &lJumbo Furnace&r is an upgraded furnace. It is a 3x3x3 multiblock entirely composed of furnaces. As such, it has &a9 input slots, 9 fuel slots,&r and &a9 output slots."
 				""
 				"Unlike super smelters, the &lJumbo Furnace&r initially can't smelt multiple items at once."
@@ -245,7 +217,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["7029D04BC1F6A923"]
+			dependencies: ["50D43AFA6402629F"]
 			description: [
 				"With the &lCutting Board&r, you can chop an item into &emultiple&r other smaller items."
 				""
@@ -308,8 +280,8 @@
 				}
 			]
 			title: "Knives and Cutting"
-			x: -2.5d
-			y: -5.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51A20901B9871737"]
@@ -323,8 +295,8 @@
 				type: "item"
 			}]
 			title: "Cooking Pot"
-			x: -4.5d
-			y: -6.5d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -568,8 +540,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["378BAA7FDE9DA51C"]
@@ -633,8 +605,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["28D91722F8C4E87D"]
+			dependencies: ["51A20901B9871737"]
 			id: "7816E6089A4F0846"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7C63D7F25E098E27"
@@ -654,8 +628,8 @@
 				}
 			]
 			title: "More Delightful Cooking Devices"
-			x: -6.5d
-			y: -6.0d
+			x: -4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: [
@@ -670,8 +644,8 @@
 				item: "farmersdelight:safety_net"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["51A20901B9871737"]
@@ -700,8 +674,8 @@
 				}
 			]
 			title: "Basics of Fishing"
-			x: -2.5d
-			y: -7.5d
+			x: -1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["03B0D122AD821C0D"]
@@ -791,7 +765,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -3.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7816E6089A4F0846"]
@@ -803,7 +777,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["368309757EB6EC56"]
@@ -814,7 +788,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -10.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["368309757EB6EC56"]
@@ -868,8 +842,8 @@
 				}
 			]
 			title: "Advanced Fishing"
-			x: -3.5d
-			y: -9.0d
+			x: -3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7C2D35E29A7FF6A2"]
@@ -1170,8 +1144,8 @@
 				item: "quark:seed_pouch"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["479B3130EB602E62"]
@@ -1426,7 +1400,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["368309757EB6EC56"]
@@ -1466,8 +1440,8 @@
 				type: "item"
 			}]
 			title: "Botany Pot"
-			x: -5.5d
-			y: -5.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["649F0F57EC7E387E"]
@@ -1519,8 +1493,8 @@
 				}
 			]
 			title: "Creation of Rich Soil"
-			x: -4.0d
-			y: -4.5d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["03B0D122AD821C0D"]
@@ -1607,7 +1581,7 @@
 				}
 			]
 			title: "Trails \\& Tales"
-			x: -1.0d
+			x: -0.5d
 			y: -7.0d
 		}
 		{
@@ -1899,8 +1873,8 @@
 				}
 			]
 			title: "One of Each Fishing Augment"
-			x: -5.5d
-			y: -9.5d
+			x: -3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3571CB6136F6E3EB"]
@@ -2074,6 +2048,48 @@
 			}]
 			x: 6.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["7816E6089A4F0846"]
+			description: [
+				"This skillet lets you improvize and create meals with any ingredients you want. You must first place it on a stove to get cooking."
+				""
+				"Your spatula can stir the ingredients, preventing them from being overcooked or burnt."
+				""
+				"When you add ingredients, they will show up in the left side of your screen with two scales. The left scale shows if it is &aundercooked&r, &covercooked&r, or &ejust right&r."
+				""
+				"The right scale shows if it is &anot burnt&r or &cburnt&r."
+				""
+				"When you're done cooking, interact using a plate to collect your meal. There are bonuses for making balanced meals made of different types of food, so plan accordingly."
+			]
+			id: "4D9D953FBE3ADA11"
+			tasks: [
+				{
+					id: "38C43D8D3CC4A343"
+					item: {
+						Count: 1
+						id: "cuisinedelight:cuisine_skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D5E806DD672012"
+					item: "cuisinedelight:spatula"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6469158DB288BC64"
+					item: "cuisinedelight:plate"
+					type: "item"
+				}
+			]
+			title: "Involved Cooking"
+			x: -6.5d
+			y: -5.5d
 		}
 	]
 	title: "Getting Started"
