@@ -7,7 +7,7 @@
   "handlers": {
     "explosion": {
       "enabled": true,
-      "opacity": 0.6721992,
+      "opacity": 1.0,
       "dust": {
         "disabled": false,
         "opacity": 1.0,
@@ -18,8 +18,8 @@
         }
       },
       "dustDuration": {
-        "min": 40,
-        "max": 80
+        "min": 500,
+        "max": 1000
       },
       "dustAmount": {
         "min": 0,
@@ -30,9 +30,9 @@
       "maxExplosionVolume": 0.5,
       "explosionSoundTime": {
         "min": 0,
-        "minValue": 20,
-        "max": 12,
-        "maxValue": 80
+        "minValue": 50,
+        "max": 20,
+        "maxValue": 200
       },
       "blur": {
         "disabled": false,
@@ -148,8 +148,8 @@
         }
       },
       "bloodDuration": {
-        "min": 60,
-        "max": 100
+        "min": 500,
+        "max": 1500
       },
       "fire": {
         "disabled": false,
@@ -306,7 +306,7 @@
     },
     "slender": {
       "enabled": true,
-      "opacity": 0.50167227,
+      "opacity": 1.0,
       "defaultIntensity": 0,
       "maxIntensity": 0.3,
       "distanceFactor": 0.25,
@@ -328,14 +328,14 @@
       },
       "desaturate": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.49704143
       }
     },
     "heartbeat": {
       "enabled": true,
-      "opacity": 0.5020747,
+      "opacity": 1.0,
       "useHealthPercentage": false,
-      "maxHealth": 4,
+      "maxHealth": 6,
       "maxHealthPercentage": 0.3,
       "heartbeatOverlayIntensity": 0.5,
       "heartbeatOverlayDuration": 20,
@@ -366,7 +366,7 @@
     },
     "rain": {
       "enabled": true,
-      "opacity": 0.6036036,
+      "opacity": 1.0,
       "duration": {
         "min": 100,
         "max": 100
