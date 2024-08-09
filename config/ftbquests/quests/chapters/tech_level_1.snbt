@@ -2211,7 +2211,6 @@
 				"If you struggle with reading the text, try putting your GUI scale on auto."
 			]
 			id: "4F20624095433B21"
-			invisible: true
 			tasks: [{
 				id: "3CE4858CAC13A056"
 				item: "immersiveengineering:capacitor_lv"
@@ -2231,8 +2230,8 @@
 				""
 				"It's a 3x3x3 cube and you right click the middle block with an Engineer's Hammer. Yes, it's slow. If you want speed, build another."
 			]
+			hide: true
 			id: "3C5831C2EDC2C8F5"
-			invisible: true
 			tasks: [
 				{
 					count: 27L
@@ -2811,6 +2810,42 @@
 			title: "Metal Press"
 			x: 10.0d
 			y: -12.5d
+		}
+		{
+			dependencies: ["019D4506638BC007"]
+			description: ["&6Trash cans&r delete things placed inside, according to what type you make. This is good for &eremoving unwanted items&r in a farm or machine in a lag-free way."]
+			id: "0EC7C83FE1DC7AD0"
+			tasks: [{
+				id: "523DE4990001AF83"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "trashcans:item_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:liquid_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:energy_trash_can"
+							}
+							{
+								Count: 1b
+								id: "trashcans:ultimate_trash_can"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Trash Can"
+			x: -2.0d
+			y: 1.0d
 		}
 	]
 	title: "Tech Level 1"
