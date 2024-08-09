@@ -328,7 +328,7 @@
       },
       "desaturate": {
         "disabled": false,
-        "opacity": 0.49704143
+        "opacity": 1.0
       }
     },
     "heartbeat": {
