@@ -444,7 +444,27 @@ ServerEvents.recipes((event) => {
             ["AAA", "CBC", "DBD"],
             {
                 A: "minecraft:torch",
-                B: "quark:azalea_log",
+                B: "#quark:azalea_log",
+                C: "forbidden_arcanus:arcane_crystal",
+                D: "minecraft:gold_block",
+            },
+        ],
+        [
+            "torchmaster:megatorch",
+            ["AAA", "CBC", "DBD"],
+            {
+                A: "minecraft:torch",
+                B: "#ecologics:azalea_logs",
+                C: "forbidden_arcanus:arcane_crystal",
+                D: "minecraft:gold_block",
+            },
+        ],
+        [
+            "torchmaster:megatorch",
+            ["AAA", "CBC", "DBD"],
+            {
+                A: "minecraft:torch",
+                B: "#ecologics:flowering_azalea_logs",
                 C: "forbidden_arcanus:arcane_crystal",
                 D: "minecraft:gold_block",
             },

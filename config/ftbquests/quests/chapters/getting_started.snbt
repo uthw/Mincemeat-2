@@ -2247,6 +2247,17 @@
 					title: "Macaw's Mods"
 					type: "item"
 				}
+				{
+					id: "686F6F47C8911BE2"
+					item: {
+						Count: 1
+						id: "itemfilters:mod"
+						tag: {
+							value: "framedblocks"
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Interior and Exterior Decoration"
 			x: 1.5d
