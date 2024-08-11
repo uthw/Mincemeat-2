@@ -11,7 +11,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -112,7 +112,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -213,7 +213,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -314,7 +314,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -415,7 +415,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -516,7 +516,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -1084,7 +1084,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -1185,7 +1185,7 @@ ServerEvents.highPriorityData((event) => {
                 height: 2,
             },
             min_rarity: "uncommon",
-            max_rarity: "rare",
+            max_rarity: "uncommon",
             stats: {
                 uncommon: {
                     enchant_chance: 0.25,
@@ -1289,8 +1289,8 @@ ServerEvents.highPriorityData((event) => {
                 ? boss.valid_gear_sets
                 : ["#overworld"],
             dimensions: boss.dimensions ? boss.dimensions : ["overworld"],
-            min_rarity: boss.min_rarity ? boss.min_rarity : "uncommon",
-            max_rarity: boss.max_rarity ? boss.max_rarity : "rare",
+            min_rarity: boss.min_rarity ? boss.min_rarity : "common",
+            max_rarity: boss.max_rarity ? boss.max_rarity : "uncommon",
             stats: boss.stats,
         };
 
