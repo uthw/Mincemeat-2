@@ -150,12 +150,12 @@ key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.m
-key_key.disable_voice_chat:key.keyboard.n
-key_key.hide_icons:key.keyboard.h
-key_key.voice_chat:key.keyboard.v
+key_key.mute_microphone:key.keyboard.comma
+key_key.disable_voice_chat:key.keyboard.unknown
+key_key.hide_icons:key.keyboard.unknown
+key_key.voice_chat:key.keyboard.period
 key_key.voice_chat_settings:key.keyboard.unknown
-key_key.voice_chat_group:key.keyboard.g
+key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.toggleVisible:key.keyboard.unknown
@@ -415,7 +415,7 @@ key_ping-wheel.key.ping-location:key.keyboard.f4
 key_ping-wheel.key.open-settings:key.keyboard.unknown
 key_ping-wheel.key.name-labels:key.keyboard.left.alt
 key_create.keyinfo.toolmenu:key.keyboard.right.alt
-key_create.keyinfo.toolbelt:key.keyboard.right.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.openManual:key.keyboard.f1
 key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
