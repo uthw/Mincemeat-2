@@ -60,13 +60,15 @@
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
 			description: ["Tip: you can pick some blocks and mobs up and carry them around by sneaking and interacting with them. This includes most tile entities and passive mobs, as long as they aren't too big."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "50D43AFA6402629F"
 			tasks: [
-				{
-					id: "443ECEC7319521B0"
-					item: "minecraft:crafting_table"
-					type: "item"
-				}
 				{
 					id: "4603D9444387E808"
 					item: "minecraft:furnace"
@@ -107,6 +109,18 @@
 							]
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "0B96DE971DEA677A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:workbench"
+						}
+					}
+					title: "Any #forge:workbench"
 					type: "item"
 				}
 			]
