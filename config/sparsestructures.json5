@@ -16,8 +16,20 @@
       "factor": 1.3
     },
     {
-      "structure": "minecraft:village_plains",
-      "factor": 1.8
+      "structure": "integrated_villages:air_villages",
+      "factor": 1.9
+    },
+    {
+      "structure": "integrated_villages:regular_villages",
+      "factor": 1.75
+    },
+    {
+      "structure": "repurposed_structures:villages_overworld",
+      "factor": 1.3
+    },
+    {
+      "structure": "ctov:villages",
+      "factor": 1.35
     },
     {
       "structure": "totw_modded:aether",
