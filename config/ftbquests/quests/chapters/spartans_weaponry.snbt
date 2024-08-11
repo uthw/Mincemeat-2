@@ -224,89 +224,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["431C2B8BEE92DD05"]
-			description: [
-				"You will notice that when making things with fabric, fiber, skin, or scales, you will need a knife. Knives are made similarly to hammers, but instead of upgrading a hammer on a workbench, you will upgrade a sword on a workbench to a knife."
-				""
-				"You will also need a pickaxe or axe sometimes. These tools are different, requiring you to create an axe or pickaxe like any other tool without Tetra."
-			]
-			icon: {
-				Count: 1
-				id: "tetra:modular_sword"
-				tag: {
-					Damage: 0
-					HideFlags: 1
-					honing_progress: 240
-					id: "1ae633c3-3495-44e5-ac83-10736ffc9334"
-					"sword/basic_hilt_material": "basic_hilt/stick"
-					"sword/blade": "sword/knife"
-					"sword/decorative_pommel_material": "decorative_pommel/iron"
-					"sword/guard": "sword/makeshift_guard"
-					"sword/hilt": "sword/basic_hilt"
-					"sword/knife_material": "knife/iron"
-					"sword/makeshift_guard_material": "makeshift_guard/iron"
-					"sword/pommel": "sword/decorative_pommel"
-				}
-			}
-			id: "06D9E73A2B96F8EF"
-			subtitle: "It looks like iron but any works"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "tetra:modular_sword"
-					tag: {
-						Damage: 0
-						HideFlags: 1
-						honing_progress: 240
-						id: "1ae633c3-3495-44e5-ac83-10736ffc9334"
-						"sword/basic_hilt_material": "basic_hilt/stick"
-						"sword/blade": "sword/knife"
-						"sword/decorative_pommel_material": "decorative_pommel/iron"
-						"sword/guard": "sword/makeshift_guard"
-						"sword/hilt": "sword/basic_hilt"
-						"sword/knife_material": "knife/iron"
-						"sword/makeshift_guard_material": "makeshift_guard/iron"
-						"sword/pommel": "sword/decorative_pommel"
-					}
-				}
-				id: "1FC489B47E083A26"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "itemfilters:strong_nbt"
-								tag: {
-									value: {
-										"sword/blade": "sword/short_blade"
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "itemfilters:strong_nbt"
-								tag: {
-									value: {
-										"sword/blade": "sword/knife"
-									}
-								}
-							}
-						]
-					}
-				}
-				match_nbt: true
-				only_from_crafting: true
-				title: "Tetra Knife/Short Blade"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Any Tetra knife"
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"56555D82F2B4C6BC"
 				"56AF03B473E1802E"
@@ -842,7 +759,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["06D9E73A2B96F8EF"]
+			dependencies: ["3DB2858C8BCD8C2B"]
 			description: ["Can be worn in your belt slot and can have various different functions like boosting your jumps or a quick-access extra inventory. "]
 			id: "22C20857178F9AAC"
 			shape: "diamond"
@@ -865,7 +782,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["06D9E73A2B96F8EF"]
 			description: [
 				"Handy rack that can be placed on a wall and can hold 2 items. Any racks put right above or on a workbench will act as if you had that item in your inventory."
 				""
@@ -4375,6 +4291,50 @@
 			title: "Void Worm Pickaxe"
 			x: -7.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["431C2B8BEE92DD05"]
+			description: [
+				"You will notice that when making things with fabric, fiber, skin, or scales, you will need a knife. Knives are made similarly to hammers, but instead of upgrading a hammer on a workbench, you will upgrade a sword on a workbench to a knife."
+				""
+				"You will also need a pickaxe or axe sometimes. These tools are different, requiring you to create an axe or pickaxe like any other tool without Tetra."
+			]
+			id: "3DB2858C8BCD8C2B"
+			subtitle: "Knife or shortblade"
+			tasks: [{
+				id: "2A55677D3E3F1DE1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"sword/blade": "sword/knife"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"sword/blade": "sword/short_blade"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Knife or Shortblade"
+				type: "item"
+			}]
+			title: "Tetra Cutting Implement"
+			x: -3.0d
+			y: 0.0d
 		}
 	]
 	title: "Equipment"
