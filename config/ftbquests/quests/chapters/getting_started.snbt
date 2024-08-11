@@ -696,27 +696,20 @@
 			description: [
 				"&dChests, barrels, and shulker boxes&r can be &dcolor coded&r by combining them with &cdye&r in the &ccrafting grid&r."
 				""
+				"You must first convert them into Sophisticated Storage containers using a "
+				""
 				"What part gets colored depends on what side of the crafting grid you place the dye on (top/bottom/left/right)."
 				""
 				"You can mix and match multiple colors in different parts of the container."
 			]
 			id: "4EB10737C5B7CBAE"
 			tasks: [{
-				id: "339E95D8EF7E3B07"
+				id: "1E6B0B13E98C7F67"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "itemfilters:tag"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:chest"
-							}
-							{
-								Count: 1b
-								id: "minecraft:barrel"
-							}
-						]
+						value: "sophisticatedstorage:base_tier_wooden_storage"
 					}
 				}
 				type: "item"
