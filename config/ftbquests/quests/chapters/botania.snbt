@@ -1254,12 +1254,13 @@
 		}
 		{
 			dependencies: ["6A3552D30FC25417"]
+			description: [""]
 			id: "15930FDDCEC9C06C"
 			rewards: [{
 				id: "162C977B53BD7A4F"
 				type: "custom"
 			}]
-			subtitle: "Right click on leaves to convert them, then wait for the tree to turn gold"
+			subtitle: "Right click on leaves using the fiber, then wait for the tree to turn gold"
 			tasks: [{
 				id: "1954998D6A43E3EE"
 				item: "naturesaura:gold_fiber"
