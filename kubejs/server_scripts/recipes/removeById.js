@@ -83,6 +83,7 @@ ServerEvents.recipes((event) => {
         "thermal:machine_smelter",
         "thermal:machine_furnace",
         "refinedstorage:quartz_enriched_iron",
+        "reliquary:glowing_bread",
         // "immersiveengineering:crafting/wirecoil_steel",
         // "immersiveengineering:crafting/wirecoil_redstone",
     ];

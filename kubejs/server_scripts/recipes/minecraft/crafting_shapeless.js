@@ -114,6 +114,22 @@ ServerEvents.recipes((event) => {
                 "4x minecraft:bone_meal",
             ],
         ],
+        [
+            "3x reliquary:glowing_bread",
+            [
+                "3x minecraft:bread",
+                "reliquary:glowing_water",
+                "2x theurgy:purified_gold",
+            ],
+        ],
+        [
+            "3x reliquary:glowing_bread",
+            [
+                "3x minecraft:bread",
+                "reliquary:glowing_water",
+                "aquamirae:ship_graveyard_echo",
+            ],
+        ],
     ];
 
     recipes.forEach((recipe) => {
