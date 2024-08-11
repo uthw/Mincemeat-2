@@ -193,11 +193,19 @@
 				"There is an assortment of &dupgrades&r you can use, and the amount your &lbackpack&r can handle at once increases with its tier. Try searching \"backpack upgrade\" in your recipe browser."
 			]
 			id: "03B0D122AD821C0D"
-			rewards: [{
-				id: "644EA08953E0366B"
-				item: "sophisticatedbackpacks:feeding_upgrade"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "644EA08953E0366B"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "574995E463E1C2FF"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5F328F129A7073D4"
 				item: "sophisticatedbackpacks:backpack"
@@ -696,7 +704,7 @@
 			description: [
 				"&dChests, barrels, and shulker boxes&r can be &dcolor coded&r by combining them with &cdye&r in the &ccrafting grid&r."
 				""
-				"You must first convert them into Sophisticated Storage containers using a "
+				"You must first &dconvert them into Sophisticated Storage containers&r using a &ctier upgrade&r."
 				""
 				"What part gets colored depends on what side of the crafting grid you place the dye on (top/bottom/left/right)."
 				""
@@ -1140,8 +1148,8 @@
 				item: "quark:glass_item_frame"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["28D91722F8C4E87D"]
@@ -1452,7 +1460,11 @@
 		}
 		{
 			dependencies: ["649F0F57EC7E387E"]
-			description: ["Convert &dspirit orbs&r into &astamina upgrades&r."]
+			description: [
+				"Convert &dspirit orbs&r into &astamina upgrades&r."
+				""
+				"Goddess statues also boost &aeterna&r, &5arcana&r, and &erectification&r significantly while taking up less space than bookshelves."
+			]
 			icon: "paraglider:goddess_statue"
 			id: "1BB40176C79A18D0"
 			tasks: [{
@@ -2097,6 +2109,148 @@
 			title: "Involved Cooking"
 			x: -6.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["03B0D122AD821C0D"]
+			description: [
+				"There are so many new ways of &ddecorating your base&r!"
+				""
+				"Here are just a few of the mods and items that can help you build something that truly embraces the modded Minecraft spirit."
+				""
+				"&o&7Some of the tasks for this quest require you to obtain any item from the specified mod."
+			]
+			icon: {
+				Count: 1
+				id: "another_furniture:furniture_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D2016CD8B38DD57"
+			tasks: [
+				{
+					id: "516A3B1413812712"
+					item: "rechiseled:chisel"
+					type: "item"
+				}
+				{
+					id: "3B90AE3D65F1ECBA"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "31ADA9C69D49817E"
+					item: "domum_ornamentum:architectscutter"
+					type: "item"
+				}
+				{
+					id: "2C613AC5D62A0202"
+					item: "everythingcopper:weathering_station"
+					type: "item"
+				}
+				{
+					id: "2D4F9AAF3BF6588E"
+					item: {
+						Count: 1
+						id: "itemfilters:mod"
+						tag: {
+							value: "another_furniture"
+						}
+					}
+					title: "Another Furniture"
+					type: "item"
+				}
+				{
+					id: "4BD845D9E1A9FA82"
+					item: {
+						Count: 1
+						id: "itemfilters:mod"
+						tag: {
+							value: "fairylights"
+						}
+					}
+					title: "Fairy Lights"
+					type: "item"
+				}
+				{
+					id: "6FD7C4F257977556"
+					item: {
+						Count: 1
+						id: "itemfilters:mod"
+						tag: {
+							value: "decorative_blocks"
+						}
+					}
+					title: "Decorative Blocks"
+					type: "item"
+				}
+				{
+					id: "43617F4CE8EAA073"
+					item: {
+						Count: 1
+						id: "itemfilters:mod"
+						tag: {
+							value: "architects_palette"
+						}
+					}
+					title: "Architect's Palette"
+					type: "item"
+				}
+				{
+					id: "1D29C4DC2094B938"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:mod"
+									tag: {
+										value: "supplementaries"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:mod"
+									tag: {
+										value: "suppsquared"
+									}
+								}
+							]
+						}
+					}
+					title: "Supplementaries"
+					type: "item"
+				}
+				{
+					id: "70CA771AB65334CA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "quark:vertical_slab"
+						}
+					}
+					title: "Vertical Slab"
+					type: "item"
+				}
+				{
+					id: "789EF4445F318A98"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "^mcw"
+						}
+					}
+					title: "Macaw's Mods"
+					type: "item"
+				}
+			]
+			title: "Interior and Exterior Decoration"
+			x: 1.5d
+			y: -3.0d
 		}
 	]
 	title: "Getting Started"
