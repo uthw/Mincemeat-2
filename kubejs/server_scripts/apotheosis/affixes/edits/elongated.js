@@ -1,6 +1,7 @@
 // disable the elongated affix, which does ntohing due to better combat
 
-let tweak = {
+let tweakButWithDifferentName = {
+    conditions: [{ type: "forge:false" }],
     type: "apotheosis:attribute",
     attribute: "forge:entity_reach",
     operation: "ADDITION",
@@ -36,9 +37,9 @@ let tweak = {
             step: 0.25,
         },
     },
-    types: ["nothing"],
+    // types: [],
 };
 
 ServerEvents.highPriorityData((event) => {
-    event.addJson("apotheosis:affixes/sword/attribute/elongated.json", tweak);
+    event.addJson("apotheosis:affixes/sword/attribute/elongated.json", tweakButWithDifferentName);
 });
