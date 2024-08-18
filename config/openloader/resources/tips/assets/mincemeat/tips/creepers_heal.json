@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Neapolitan Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If a creeper explodes while inside a strawberry bush, the explosion won't break blocks and heals things in its radius instead of harming them."
+    }
+}
