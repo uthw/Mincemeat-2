@@ -127,7 +127,7 @@
 	base_damage = 5.0
 	#Damage Multiplier for Battle Hammers.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 2.0
+	damage_multiplier = 1.75
 
 [warhammer]
 	#Disables all recipes for all Warhammers.
@@ -179,7 +179,7 @@
 	base_damage = 4.0
 	#Damage Multiplier for Pikes.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.0
+	damage_multiplier = 0.75
 
 [lance]
 	#Disables all recipes for all Lances.
