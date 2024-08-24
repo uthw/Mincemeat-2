@@ -2122,6 +2122,17 @@
 				"Here are just a few of the mods and items that can help you build something that truly embraces the modded Minecraft spirit."
 				""
 				"&o&7Some of the tasks for this quest require you to obtain any item from the specified mod."
+				"{@pagebreak}"
+				"&lAbout FramedBlocks:"
+				""
+				"This mod comes with different tools to make your building experience easier:"
+				""
+				"- The wrench rotates blocks."
+				"- The blueprint copies framed blocks."
+				"- The key locks blocks in place, preventing nearby blocks from changing their state."
+				"- The screwdriver cycles through different block states."
+				""
+				"Also, note that frames can imitate any solid block or liquid."
 			]
 			icon: {
 				Count: 1
@@ -2180,9 +2191,24 @@
 					id: "6FD7C4F257977556"
 					item: {
 						Count: 1
-						id: "itemfilters:mod"
+						id: "itemfilters:or"
 						tag: {
-							value: "decorative_blocks"
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:mod"
+									tag: {
+										value: "decorative_blocks"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "db/"
+									}
+								}
+							]
 						}
 					}
 					title: "Decorative Blocks"
@@ -2231,9 +2257,9 @@
 					id: "70CA771AB65334CA"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:id_regex"
 						tag: {
-							value: "quark:vertical_slab"
+							value: "vertical_slab"
 						}
 					}
 					title: "Vertical Slab"
@@ -2252,14 +2278,13 @@
 					type: "item"
 				}
 				{
-					id: "686F6F47C8911BE2"
-					item: {
-						Count: 1
-						id: "itemfilters:mod"
-						tag: {
-							value: "framedblocks"
-						}
-					}
+					id: "6C182EC4ED94CDE5"
+					item: "sawmill:sawmill"
+					type: "item"
+				}
+				{
+					id: "7E31408DE78C4362"
+					item: { Count: 64, id: "framedblocks:framing_saw" }
 					type: "item"
 				}
 			]
