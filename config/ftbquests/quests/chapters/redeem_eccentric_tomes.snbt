@@ -62,12 +62,18 @@
 			icon: "berry_good:sweet_berry_mince"
 			id: "34710AB0D1387508"
 			rewards: [{
-				id: "7FA5C762FD4CDA95"
+				id: "0B0C0E24A389C15D"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
 					tag: {
 						"eccentrictome:mods": {
+							actuallyadditions: {
+								0: {
+									Count: 1b
+									id: "actuallyadditions:booklet"
+								}
+							}
 							advancedperipherals: {
 								0: {
 									Count: 1b

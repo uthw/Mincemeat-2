@@ -578,7 +578,11 @@
 		}
 		{
 			dependencies: ["74F529B8810608A5"]
-			description: ["The &amega torch &ris a useful item for your base that &bprevents hostile mobs from spawning nearby&r."]
+			description: [
+				"The &amega torch &ris a useful item for your base that &bprevents hostile mobs from spawning nearby&r."
+				""
+				"To craft it, you'll need &aazalea logs&r, which can be found &bin place of oak logs on azalea trees&r or from &bbone mealing flowering azalea&r."
+			]
 			id: "054958A1638D1D71"
 			tasks: [{
 				id: "7F3742E10EF006BD"

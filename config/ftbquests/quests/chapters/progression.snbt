@@ -559,6 +559,19 @@
 			x: -0.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4DD5BCADAEAD2D90"]
+			icon: "actuallyadditions:atomic_reconstructor"
+			id: "30079D8A1EAA4612"
+			subtitle: "or Subtractions?"
+			tasks: [{
+				id: "47E1A536EBC7AA19"
+				title: "Actually Additions"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
 	]
 	title: "Progression"
 }
