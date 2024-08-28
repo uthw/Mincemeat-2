@@ -7,7 +7,7 @@ body:
     - type: input
       id: affected_quests
       attributes:
-          label: "What quest or quests does this affect?"
+          label: "Affected quests"
           description: "Please provide the name(s) of the quest(s) affected. If this affects many quests, you can write 'multiple' or 'all'."
       validations:
           required: true
@@ -21,11 +21,6 @@ body:
               - "No"
       validations:
           required: true
-      on_change:
-          if:
-              - condition: "prevents_progress == 'Yes'"
-                add_labels:
-                    - "Bug"
 
     - type: dropdown
       id: latest_version_only
@@ -36,27 +31,16 @@ body:
               - "No"
       validations:
           required: true
-      on_change:
-          if:
-              - condition: "latest_version_only == 'Yes'"
-                add_labels:
-                    - "Newest version only"
-              - condition: "latest_version_only == 'No'"
-                follow_up:
-                    id: is_suggestion
-                    type: single-select
-                    attributes:
-                        label: "Is this a suggestion/feature request?"
-                        options:
-                            - "Yes"
-                            - "No"
-                    validations:
-                        required: false
-                    on_change:
-                        if:
-                            - condition: "is_suggestion == 'Yes'"
-                              add_labels:
-                                  - "Enhancement"
+
+    - type: dropdown
+      id: is_suggestion
+      attributes:
+          label: "If you answered no to the last question, is this a suggestion/feature request?"
+          options:
+              - "Yes"
+              - "No"
+      validations:
+          required: false
 
     - type: textarea
       id: issue_description
@@ -64,7 +48,7 @@ body:
           label: "Describe the issue"
           description: "Include steps to reproduce. If this issue is straightforward, you can leave this field blank. If this is a suggestion, please describe the feature you would like to see."
       validations:
-          required: false
+          required: true
 
     - type: textarea
       id: additional_context
