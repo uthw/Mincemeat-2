@@ -12,7 +12,7 @@ body:
       validations:
           required: true
 
-    - type: single-select
+    - type: dropdown
       id: prevents_progress
       attributes:
           label: "Does it prevent you from progressing through the quests?"
@@ -27,7 +27,7 @@ body:
                 add_labels:
                     - "Bug"
 
-    - type: single-select
+    - type: dropdown
       id: latest_version_only
       attributes:
           label: "Does it only happen in the latest version?"
