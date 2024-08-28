@@ -1,0 +1,75 @@
+name: "Quest Issue Report"
+description: "Report an issue related to quests in the modpack."
+labels:
+    - quests
+
+body:
+    - type: input
+      id: affected_quests
+      attributes:
+          label: "What quest or quests does this affect?"
+          description: "Please provide the name(s) of the quest(s) affected. If this affects many quests, you can write 'multiple' or 'all'."
+      validations:
+          required: true
+
+    - type: single-select
+      id: prevents_progress
+      attributes:
+          label: "Does it prevent you from progressing through the quests?"
+          options:
+              - "Yes"
+              - "No"
+      validations:
+          required: true
+      on_change:
+          if:
+              - condition: "prevents_progress == 'Yes'"
+                add_labels:
+                    - "Bug"
+
+    - type: single-select
+      id: latest_version_only
+      attributes:
+          label: "Does it only happen in the latest version?"
+          options:
+              - "Yes"
+              - "No"
+      validations:
+          required: true
+      on_change:
+          if:
+              - condition: "latest_version_only == 'Yes'"
+                add_labels:
+                    - "Newest version only"
+              - condition: "latest_version_only == 'No'"
+                follow_up:
+                    id: is_suggestion
+                    type: single-select
+                    attributes:
+                        label: "Is this a suggestion/feature request?"
+                        options:
+                            - "Yes"
+                            - "No"
+                    validations:
+                        required: false
+                    on_change:
+                        if:
+                            - condition: "is_suggestion == 'Yes'"
+                              add_labels:
+                                  - "Enhancement"
+
+    - type: textarea
+      id: issue_description
+      attributes:
+          label: "Describe the issue"
+          description: "Include steps to reproduce. If this issue is straightforward, you can leave this field blank. If this is a suggestion, please describe the feature you would like to see."
+      validations:
+          required: false
+
+    - type: textarea
+      id: additional_context
+      attributes:
+          label: "Add additional context"
+          description: "Any other information that might help us understand or resolve the issue."
+      validations:
+          required: false
