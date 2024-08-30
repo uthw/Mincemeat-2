@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Simple Voice Chat Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you like doing other things on your computer while Minecraft is open, make sure to disable all voice chat sounds, since the mod can mess with the quality of other sounds."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Gravel will always drop flint if broken using a tool enchanted with Fortune III or higher."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "If you're having trouble with long loading screens, your computer most likely sucks. Get a better one."
+    }
+}

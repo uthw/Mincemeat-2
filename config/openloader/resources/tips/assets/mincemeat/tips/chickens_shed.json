@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "ChickensShed Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Chickens occasionally shed feathers. This is obviously helpful, but you will have to find a way of separating them if you plan on making an egg farm."
+    }
+}

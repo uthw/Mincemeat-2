@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Actually Additions Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Worms are rarely found when tilling. They can be placed in the world, where they will till and moisten nearby land."
+    }
+}

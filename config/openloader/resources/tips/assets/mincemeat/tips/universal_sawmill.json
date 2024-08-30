@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Universal Sawmill Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "The Universal Sawmill takes planks and logs as input and can craft almost any item made exclusively with wood, such as signs, ladders, and modded items like the Crafting Table on a Stick."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "CF, UF, IF, RF, and µI are all the same, interchangeable energy units. They are all Forge Energy."
+    }
+}

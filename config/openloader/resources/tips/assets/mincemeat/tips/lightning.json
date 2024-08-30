@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Lightning in the distance when there's no thunderstorm can mean a skeleton trap was triggered."
+    }
+}

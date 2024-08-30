@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "What's That Slot Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Hold down the alt (default) key while hovering over a slot in an interface to see what items can be placed there. This is useful in modded interfaces where the slots may not be labelled."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Actually Additions Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "The Crafting Table on a Stick opens the crafting interface when right-clicked while held. It is obtained by combining a sign and a crafting table."
+    }
+}
