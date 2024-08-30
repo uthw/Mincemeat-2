@@ -1093,7 +1093,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "enigmaticlegacy:insignia" },
             "minecraft:gold_ingot",
-            "#forge:ingots/horizonite",
+            "#blue_skies:ingots/horizonite",
         ],
         [
             { output: "enigmaticlegacy:insignia" },
@@ -1214,6 +1214,96 @@ ServerEvents.recipes((event) => {
             { output: "immersiveengineering:thermoelectric_generator" },
             "immersiveengineering:coil_lv",
             "galosphere:combustion_table",
+        ],
+        [{}, "actuallyadditions:bats_wing", "miners_delight:bat_wing"],
+        [
+            { output: "actuallyadditions:advanced_coil" },
+            "minecraft:gold_nugget",
+            "#forge:nuggets/constantan",
+        ],
+        [
+            { output: "actuallyadditions:lens" },
+            "#forge:glass",
+            "thermal:signalum_glass",
+        ],
+        [
+            { output: "actuallyadditions:iron_casing" },
+            "#forge:rods/wooden",
+            "forge:plates/zinc",
+        ],
+        [
+            // [
+            //     {
+            //         not: { output: "actuallyadditions:black_quartz_block" },
+            //     },
+            //     {
+            //         not: {
+            //             output: "actuallyadditions:black_quartz_pillar_block",
+            //         },
+            //     },
+            // ],
+            "actuallyadditions:black_quartz",
+            "forbidden_arcanus:arcane_crystal_dust",
+        ],
+        [
+            { output: "thermal:machine_frame" },
+            "thermal:tin_gear",
+            "createaddition:capacitor",
+        ],
+        [
+            { output: "actuallyadditions:ring_of_magnetizing" },
+            "minecraft:lapis_lazuli",
+            "alexscaves:scarlet_neodymium_ingot",
+        ],
+        [
+            { output: "actuallyadditions:ring_of_magnetizing" },
+            "actuallyadditions:restonia_crystal",
+            "alexscaves:azure_neodymium_ingot",
+        ],
+        [
+            { output: "actuallyadditions:ender_casing" },
+            "#forge:ender_pearls",
+            "eidolon:ender_calx",
+        ],
+        [
+            { output: "actuallyadditions:feeder" },
+            "#minecraft:planks",
+            "farmersdelight:straw_bale",
+        ],
+        [
+            { output: "actuallyadditions:feeder" },
+            "minecraft:golden_carrot",
+            "majruszsaccessories:idol_of_fertility",
+        ],
+        [
+            { output: "actuallyadditions:energizer" },
+            "actuallyadditions:advanced_coil",
+            "create_new_age:overcharged_diamond",
+        ],
+        [
+            { output: "actuallyadditions:enervator" },
+            "actuallyadditions:advanced_coil",
+            "create_new_age:overcharged_diamond",
+        ],
+        [
+            { output: "actuallyadditions:canola_press" },
+            "#forge:cobblestone",
+            "create:industrial_iron_block",
+        ],
+        [
+            { output: "actuallyadditions:oil_generator" },
+            "#forge:cobblestone",
+            "create:industrial_iron_block",
+        ],
+        [
+            { output: "actuallyadditions:dropper" },
+            "#forge:cobblestone",
+            "quark:iron_plate",
+        ],
+        [
+            { output: "#domesticationinnovation:pet_beds" },
+            "minecraft:bone",
+            "supplementaries:doormat",
         ],
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],

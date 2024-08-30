@@ -444,7 +444,7 @@ ServerEvents.recipes((event) => {
             ["AAA", "CBC", "DBD"],
             {
                 A: "minecraft:torch",
-                B: "#quark:azalea_log",
+                B: "#quark:azalea_logs",
                 C: "forbidden_arcanus:arcane_crystal",
                 D: "minecraft:gold_block",
             },
@@ -1026,6 +1026,193 @@ ServerEvents.recipes((event) => {
                 A: "eidolon:pewter_ingot",
                 B: "create:fluid_tank",
                 C: "#mcwbridges:wooden_piers",
+            },
+        ],
+        [
+            "actuallyadditions:empty_cup",
+            ["A A", "BCB", " D "],
+            {
+                A: "thermal:obsidian_glass",
+                B: "irons_spellbooks:fire_rune",
+                C: "actuallyadditions:coffee_beans",
+                D: "miners_delight:copper_cup",
+            },
+        ],
+        [
+            "actuallyadditions:ring",
+            ["A  ", " B ", "   "],
+            {
+                A: "eidolon:arcane_gold_ingot",
+                B: "enigmaticlegacy:iron_ring",
+            },
+        ],
+        [
+            "3x actuallyadditions:laser_upgrade_range",
+            ["AAB", "CDC", "BAA"],
+            {
+                A: "actuallyadditions:restonia_crystal",
+                B: "actuallyadditions:advanced_coil",
+                C: "forbidden_arcanus:arcane_crystal_dust",
+                D: "sophisticatedstorage:magnet_upgrade",
+            },
+        ],
+        [
+            "4x actuallyadditions:laser_upgrade_invisibility",
+            ["AAA", "BCB", "AAA"],
+            {
+                A: "quark:framed_glass",
+                B: "actuallyadditions:void_crystal",
+                C: "actuallyadditions:advanced_coil",
+            },
+        ],
+        [
+            "actuallyadditions:atomic_reconstructor",
+            ["ABA", "BCB", "ABA"],
+            {
+                A: "enderio:conductive_alloy_ingot",
+                B: "create:cogwheel",
+                C: "actuallyadditions:iron_casing",
+            },
+        ],
+        [
+            "actuallyadditions:crate_keeper",
+            [" A ", " B ", " C "],
+            {
+                A: "actuallyadditions:restonia_crystal",
+                B: "storagenetwork:inventory_remote",
+                C: "#sophisticatedstorage:base_tier_wooden_storage",
+            },
+        ],
+        [
+            "actuallyadditions:iron_casing",
+            ["ABA", "BCB", "ABA"],
+            {
+                A: "#forge:ingots/iron",
+                B: "#forge:plates/iron",
+                C: "immersiveengineering:component_iron",
+            },
+        ],
+        [
+            "actuallyadditions:lens_of_the_miner",
+            ["ABC", "DEF", "GHI"],
+            {
+                A: "minecraft:diamond",
+                B: "#forge:ingots/lead",
+                C: "#forge:ingots/zinc",
+                D: "#forge:ingots/iron",
+                E: "actuallyadditions:lens",
+                F: "#forge:ingots/aluminum",
+                G: "#forge:ingots/silver",
+                H: "#forge:ingots/nickel",
+                I: "forbidden_arcanus:arcane_crystal",
+            },
+        ],
+        [
+            "actuallyadditions:single_battery",
+            ["ABA", "BCB", "DAD"],
+            {
+                A: "actuallyadditions:restonia_crystal",
+                B: "actuallyadditions:enori_crystal",
+                C: "thermal:rf_potato",
+                D: "#forge:ingots/lead",
+            },
+        ],
+        [
+            "actuallyadditions:basic_coil",
+            [" A ", "ABA", " A "],
+            {
+                A: "actuallyadditions:restonia_crystal",
+                B: "immersiveengineering:wirecoil_copper",
+            },
+        ],
+        [
+            "actuallyadditions:double_battery",
+            [" A ", "BCB", "DBD"],
+            {
+                A: "actuallyadditions:single_battery",
+                B: "actuallyadditions:enori_crystal",
+                C: "actuallyadditions:advanced_coil",
+                D: "create:polished_rose_quartz",
+            },
+        ],
+        [
+            "actuallyadditions:triple_battery",
+            [" A ", "BCB", "DBD"],
+            {
+                A: "actuallyadditions:double_battery",
+                B: "actuallyadditions:empowered_enori_crystal",
+                C: "immersiveengineering:wirecoil_electrum",
+                D: "#forge:dusts/cinnabar",
+            },
+        ],
+        [
+            "actuallyadditions:quadruple_battery",
+            [" A ", "BCB", "DBD"],
+            {
+                A: "actuallyadditions:triple_battery",
+                B: "actuallyadditions:empowered_diamatine_crystal",
+                C: "immersiveengineering:wirecoil_steel",
+                D: "thermal:rosin",
+            },
+        ],
+        [
+            "actuallyadditions:quintuple_battery",
+            [" A ", "BCB", "DBD"],
+            {
+                A: "actuallyadditions:quadruple_battery",
+                B: "#forge:plates/bronze",
+                C: "immersiveengineering:wirecoil_steel",
+                D: "create_new_age:overcharged_iron",
+            },
+        ],
+        [
+            "actuallyadditions:crusher",
+            [" A ", "BCB", " D "],
+            {
+                A: "actuallyadditions:empowered_emeradic_crystal",
+                B: "architects_palette:plating_block",
+                C: "actuallyadditions:iron_casing",
+                D: "thermal:machine_pulverizer",
+            },
+        ],
+        [
+            "actuallyadditions:crusher_double",
+            ["ABA", "CDC", "ABA"],
+            {
+                A: "createaddition:capacitor",
+                B: "actuallyadditions:advanced_coil",
+                C: "actuallyadditions:crusher",
+                D: "immersiveengineering:coil_mv",
+            },
+        ],
+        [
+            "4x actuallyadditions:lava_factory_casing",
+            ["   ", "ABA", "   "],
+            {
+                A: "enderio:industrial_insulation_block",
+                B: "actuallyadditions:iron_casing",
+            },
+        ],
+        [
+            "actuallyadditions:coal_generator",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "architects_palette:molten_nether_bricks",
+                B: "#railways:coalburner_stack",
+                C: "refinedstorage:quartz_enriched_iron",
+                D: "immersiveengineering:furnace_heater",
+                E: "irons_spellbooks:energized_core",
+            },
+        ],
+        [
+            "actuallyadditions:ranged_collector",
+            [" A ", "BCB", "DED"],
+            {
+                A: "create_new_age:electrical_connector",
+                B: "forbidden_arcanus:arcane_crystal",
+                C: "immersiveengineering:component_iron",
+                D: "#forge:ingots/tin",
+                E: "thermal:flux_magnet",
             },
         ],
     ];

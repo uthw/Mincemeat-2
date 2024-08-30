@@ -1,8 +1,6 @@
 // Recipe ids in toRemove are disabled, add an item here if you want to disable crafting it a certain way but not others, for example making brass in a crafting grid with iron and copper
 
 ServerEvents.recipes((event) => {
-    console.log("Event handler called"); // Add a log statement
-
     let toRemove = [
         "farmersdelight:skillet",
         "ars_nouveau:novice_spell_book",
@@ -86,6 +84,25 @@ ServerEvents.recipes((event) => {
         "reliquary:glowing_bread",
         // "immersiveengineering:crafting/wirecoil_steel",
         // "immersiveengineering:crafting/wirecoil_redstone",
+        "actuallyadditions:empty_cup",
+        "actuallyadditions:ring",
+        "actuallyadditions:coal_to_tiny",
+        "actuallyadditions:charcoal_to_tiny",
+        "actuallyadditions:engineers_goggles",
+        "actuallyadditions:engineers_goggles_advanced",
+        "actuallyadditions:lens_of_the_miner",
+        "actuallyadditions:single_battery",
+        "actuallyadditions:basic_coil",
+        "actuallyadditions:double_battery",
+        "actuallyadditions:triple_battery",
+        "actuallyadditions:quadruple_battery",
+        "actuallyadditions:quintuple_battery",
+        "actuallyadditions:crusher",
+        "actuallyadditions:crusher_double",
+        "actuallyadditions:lava_factory_controller",
+        "actuallyadditions:lava_factory_casing",
+        "actuallyadditions:coal_generator",
+        "actuallyadditions:ranged_collector",
     ];
 
     toRemove.forEach((recipeId) => {

@@ -78,6 +78,8 @@ WorldgenEvents.remove((event) => {
 
             "occultism:silver_ore",
             "occultism:silver_ore_deepslate",
+
+            "actuallyadditions:black_quartz_ore",
         ];
     });
 });

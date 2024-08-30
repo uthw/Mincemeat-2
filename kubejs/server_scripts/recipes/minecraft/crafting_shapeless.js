@@ -130,6 +130,72 @@ ServerEvents.recipes((event) => {
                 "aquamirae:ship_graveyard_echo",
             ],
         ],
+        [
+            "actuallyadditions:engineers_goggles",
+            ["create:goggles", "actuallyadditions:restonia_crystal"],
+        ],
+        [
+            "actuallyadditions:filter",
+            ["create:filter", "actuallyadditions:restonia_crystal"],
+        ],
+        [
+            "actuallyadditions:wooden_aiot",
+            [
+                "minecraft:wooden_axe",
+                "minecraft:wooden_pickaxe",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_shovel",
+                "minecraft:wooden_hoe",
+                "minecraft:diamond",
+            ],
+        ],
+        [
+            "actuallyadditions:stone_aiot",
+            [
+                "minecraft:stone_axe",
+                "minecraft:stone_pickaxe",
+                "minecraft:stone_sword",
+                "minecraft:stone_shovel",
+                "minecraft:stone_hoe",
+                "botania:spark",
+            ],
+        ],
+        [
+            "actuallyadditions:iron_aiot",
+            [
+                "minecraft:iron_axe",
+                "minecraft:iron_pickaxe",
+                "minecraft:iron_sword",
+                "minecraft:iron_shovel",
+                "minecraft:iron_hoe",
+                "blue_skies:charoite",
+                "blue_skies:diopside_gem",
+            ],
+        ],
+        [
+            "actuallyadditions:diamond_aiot",
+            [
+                "minecraft:diamond_axe",
+                "minecraft:diamond_pickaxe",
+                "minecraft:diamond_sword",
+                "minecraft:diamond_shovel",
+                "minecraft:diamond_hoe",
+                "bosses_of_mass_destruction:blazing_eye",
+            ],
+        ],
+        [
+            "actuallyadditions:netherite_aiot",
+            [
+                "minecraft:netherite_axe",
+                "minecraft:netherite_pickaxe",
+                "minecraft:netherite_sword",
+                "minecraft:netherite_shovel",
+                "minecraft:netherite_hoe",
+                "cataclysm:ignitium_ingot",
+                "forbidden_arcanus:mundabitur_dust",
+            ],
+        ],
+        ["actuallyadditions:black_quartz", ["minecraft:quartz", "#forge:coal"]],
     ];
 
     recipes.forEach((recipe) => {

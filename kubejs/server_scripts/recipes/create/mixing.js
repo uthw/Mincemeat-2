@@ -48,6 +48,13 @@ ServerEvents.recipes((event) => {
                 "#forge:obsidian",
             ],
         },
+        {
+            output: "4x actuallyadditions:rice_slimeball",
+            inputs: [
+                "4x actuallyadditions:rice_dough",
+                Fluid.of("minecraft:water", 1000),
+            ],
+        },
     ];
 
     recipes.forEach((recipe) => {

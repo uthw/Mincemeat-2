@@ -12,6 +12,14 @@ ServerEvents.recipes((event) => {
             output: "pneumaticcraft:empty_pcb",
             input: "pneumaticcraft:failed_pcb",
         },
+        {
+            output: "8x actuallyadditions:tiny_coal",
+            input: "minecraft:coal",
+        },
+        {
+            output: "8x actuallyadditions:tiny_charcoal",
+            input: "minecraft:charcoal",
+        },
     ];
 
     recipes.forEach((recipe) => {

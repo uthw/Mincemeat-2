@@ -158,6 +158,18 @@ ServerEvents.recipes((event) => {
         "theurgy:calcination_oven",
         "theurgy:sal_ammoniac_tank",
         // "immersiveengineering:plate_aluminum",
+        "actuallyadditions:rice_slimeball",
+        "actuallyadditions:laser_upgrade_range",
+        "actuallyadditions:laser_upgrade_invisibility",
+        "actuallyadditions:atomic_reconstructor",
+        "actuallyadditions:filter",
+        "actuallyadditions:crate_keeper",
+        "actuallyadditions:wooden_aiot",
+        "actuallyadditions:stone_aiot",
+        "actuallyadditions:iron_aiot",
+        "actuallyadditions:diamond_aiot",
+        "actuallyadditions:netherite_aiot",
+        "grapplemod:limitsupgradeitem",
     ];
 
     toRemove.forEach((item) => {
