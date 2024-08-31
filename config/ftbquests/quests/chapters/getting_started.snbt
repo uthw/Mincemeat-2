@@ -926,7 +926,7 @@
 				type: "item"
 			}]
 			title: "Limited Barrels"
-			x: 4.0d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -1315,7 +1315,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -1376,7 +1376,7 @@
 				item: "darkutils:charm_sleep"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -1948,8 +1948,8 @@
 				type: "item"
 			}]
 			title: "Ambience Disc"
-			x: -5.5d
-			y: -1.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A9940962797FE6E"]
@@ -2291,6 +2291,149 @@
 			title: "Interior and Exterior Decoration"
 			x: 1.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["3276690B1BAE040E"]
+			description: ["If you have any tamed animal and it stands on top of this, the bed becomes its home. If the animal dies, it will respawn the next morning at this bed."]
+			id: "4B226922870DAAF2"
+			tasks: [{
+				id: "060317DD54F619F4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+				title: "Any #domesticationinnovation:pet_beds"
+				type: "item"
+			}]
+			title: "Pet Bed"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B226922870DAAF2"]
+			description: [
+				"This tag can be used to rename pets, but its real purpose is in enchanting."
+				""
+				"Collar tags can be enchanted and have many options. Using an enchanted collar on a pet will give it any enchantments on the tag."
+			]
+			id: "084EF9537847555B"
+			tasks: [{
+				id: "2945EDB37BB9F94F"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["084EF9537847555B"]
+			description: [
+				"Command Drum: when interacted with, changes the behavior of all your pets."
+				""
+				"Wayward Lantern: if one of your pets ends up in unloaded chunks, it will make its way back to this. If multiple exist, it chooses the nearest one."
+				""
+				"Deed of Ownership: used to transfer ownership of pets between players."
+				""
+				"Feather on a Stick: useful if a pet gets stuck. Pets try to follow you while holding this item."
+			]
+			id: "0EAFBD8FB9B00DDE"
+			tasks: [
+				{
+					id: "71D4639891492C6E"
+					item: "domesticationinnovation:drum"
+					type: "item"
+				}
+				{
+					id: "55A24EC0B2A0C31E"
+					item: "domesticationinnovation:wayward_lantern"
+					type: "item"
+				}
+				{
+					id: "417021C7D6786C28"
+					item: "domesticationinnovation:deed_of_ownership"
+					type: "item"
+				}
+				{
+					id: "73DB33448CD5B39C"
+					item: {
+						Count: 1
+						id: "domesticationinnovation:feather_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "More Items from Domestication Innovation"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A6DBC786BCF967E"]
+			description: [
+				"The Icebox and Boiler change the temperature around them accordingly."
+				""
+				"The sewing table allows you to sew appropriate materials into your armor, granting it weather resistance."
+				""
+				"There are a lot of items which can be sewed into armor. Hold alt/option over the bottom slot in the sewing interface to see a list!"
+			]
+			id: "5818946310414790"
+			tasks: [
+				{
+					id: "43C00A68F78ECE0C"
+					item: "cold_sweat:sewing_table"
+					type: "item"
+				}
+				{
+					id: "1D82ED0136B0D978"
+					item: "cold_sweat:boiler"
+					type: "item"
+				}
+				{
+					id: "3B94322A3D587B52"
+					item: "cold_sweat:icebox"
+					type: "item"
+				}
+				{
+					id: "27D75D3645BF08E6"
+					item: "cold_sweat:thermometer"
+					type: "item"
+				}
+			]
+			title: "Temperature Control"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5818946310414790"]
+			description: [
+				"The Chameleon Mote is shed by chameleons while alive."
+				""
+				"It provides adaptive resistance to the elements, which is effective regardless of whether you're too hot or too cold."
+			]
+			id: "58DA27E383298761"
+			tasks: [{
+				id: "3839022D31DEADDE"
+				item: "cold_sweat:chameleon_molt"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5818946310414790"]
+			id: "22196240064E75A8"
+			tasks: [{
+				id: "0F9A1126F22BA742"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
 		}
 	]
 	title: "Getting Started"

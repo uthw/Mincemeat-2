@@ -1,0 +1,4789 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: "375E2D7D7633EF28"
+	icon: "reliquary:hero_medallion"
+	id: "4B9659AC523B2633"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Mincemeat has various different Grappling Hooks. Many can’t be used with a Crafting Table and require you to get the Grappling Hook Modifier to use them. Right-click on the Grappling Hook Modifier to add it to your hook."
+				""
+				"{@pagebreak}"
+				""
+				"Double Hook: This upgrade will make you throw 2 hooks instead of 1. With a Motor, they act like the ODM Gear from Attack on Titan."
+				""
+				"Rope: This allows you to modify the rope. You can change things like whether it has collision or how long it is."
+				""
+				"Swing: It allows you to move faster to the left or right when using a powered hook."
+				""
+				"Hook Throw: This allows you to throw your hook further, though it might not work that well if your simulation or entity culling is low."
+				""
+				"{@pagebreak}"
+				""
+				"Motor: It makes it so your hook will pull you in after hooking onto something."
+				""
+				"Magnet: It makes it so your hook will instantly latch onto any block within 3 blocks of it. Good if you miss your target a lot."
+				""
+				"Forcefield: It acts like the Motor but will only pull you in a set amount of blocks. It can be tricky to use this hook, but it’s best to hook the ground in front of you and move forward on semi-flat terrain."
+				""
+				"{@pagebreak}"
+				""
+				"Enderstaff: The Enderstaff is different from most upgrades, instead improving your dash rather than affecting the hook. When holding a Grappling Hook with the Enderstaff upgrade, you should be able to dodge twice as far."
+				""
+				"Rocket: The Rocket is like the Enderstaff but is much more powerful and works in the air."
+			]
+			id: "5655AF1B06C3A71D"
+			rewards: [{
+				id: "782CD59E0A0A6E92"
+				item: "grapplemod:rocketupgradeitem"
+				type: "item"
+			}]
+			subtitle: "Mince airline"
+			tasks: [
+				{
+					id: "58E6C1DBB0C25C1C"
+					item: "grapplemod:doubleupgradeitem"
+					type: "item"
+				}
+				{
+					id: "680E8584D54F99AC"
+					item: "grapplemod:forcefieldupgradeitem"
+					type: "item"
+				}
+				{
+					id: "60B7FBA59AE746BB"
+					item: "grapplemod:magnetupgradeitem"
+					type: "item"
+				}
+				{
+					id: "4D96E4D6FCFA019E"
+					item: "grapplemod:motorupgradeitem"
+					type: "item"
+				}
+				{
+					id: "07DA3F19105E0CC2"
+					item: "grapplemod:ropeupgradeitem"
+					type: "item"
+				}
+				{
+					id: "5EFDE097341B4282"
+					item: "grapplemod:staffupgradeitem"
+					type: "item"
+				}
+				{
+					id: "37C51294FED89200"
+					item: "grapplemod:swingupgradeitem"
+					type: "item"
+				}
+				{
+					id: "633EA2A0A0A3AE04"
+					item: "grapplemod:throwupgradeitem"
+					type: "item"
+				}
+			]
+			title: "Grappling hook collection"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Once you upgrade your equipment, fishing can be a great source of food and experience."
+				""
+				"Fishing Fanatic is obtained by simply fishing a lot, with True Fishing Fanatic being achieved at level 8."
+				""
+				"The Neptunium Rod is found in Neptune’s Bounty semi-rarely."
+				""
+				"Explanations for the other two items can be found in other collections."
+			]
+			id: "11C473AD0B887946"
+			rewards: [
+				{
+					id: "0E1500115FC09FD9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ABA20BEED880945"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "majruszsenchantments:fishing_fanatic"
+								lvl: 11s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Pescitarian Mincemeat"
+			tasks: [
+				{
+					advancement: "majruszsenchantments:fishing_fanatic_true"
+					criterion: ""
+					id: "2B8C7558556BF3B5"
+					title: "True Fishing Fanatic"
+					type: "advancement"
+				}
+				{
+					id: "40602217E17E8CCA"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BAB5B29732451FA"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:angler_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					title: "Angler Rune"
+					type: "item"
+				}
+				{
+					id: "349D9DDE7566DCEB"
+					item: "artifacts:anglers_hat"
+					type: "item"
+				}
+			]
+			title: "Fishing Adiction"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Miner’s Guide: Underground Chests (most commonly below Y=30)"
+				""
+				"Secret Ingredient: Brewing Potions"
+				""
+				"Swimmer’s Guide: Underwater Chests / Buried Treasure"
+				""
+				"Tamed Potato Beetle: Harvesting Crops (most commonly with Potatoes)"
+				""
+				"Tool Scraps: Breaking Items (more common the more durability the item had)"
+				""
+				"Unbreakable Fishing Line: Killing or Fishing up Fish"
+				""
+				"Certificate of Taming: Taming an Animal"
+				""
+				"Metal Lure: Killing Fish (most commonly with non-bucketable Fish)"
+				""
+				"Lucky Rock: Breaking a Block with a Pickaxe (most commonly with Stone/Deepslate)"
+				""
+				"Angler Trophy: Fishing up fish"
+				""
+				"Discount Voucher: Trading"
+				""
+				"Ancient Scarab: Brushing (most commonly with Suspicious Sand and Gravel)"
+				""
+				"Adventurer’s Kit: Opening Unopened Chests"
+				""
+				"Sleep Charm: Sleeping"
+				""
+				"Idol of Fertility: Breeding Animals"
+			]
+			id: "10D4F722649641A7"
+			min_width: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7357E46601149C0D"
+				type: "choice"
+			}]
+			subtitle: "Stat boosters"
+			tasks: [
+				{
+					id: "563F114743223187"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:miner_guide"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F217C286FC6CC30"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:secret_ingredient"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F585C775C0173D6"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:swimmer_guide"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CEC2EA29F8FBF06"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:tamed_potato_beetle"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12571D973AAC5041"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:tool_scraps"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A05315204C56F0"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:unbreakable_fishing_line"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BFB4B06F5C32153"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:certificate_of_taming"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07FA549ABFBAFB11"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:metal_lure"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22F0A0D72127AE68"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:lucky_rock"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43DC32422D26A8B9"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:angler_trophy"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A5A451237AC1041"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:discount_voucher"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54F8A750CA6A70F7"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:ancient_scarab"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E48DB56C54AC79"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:adventurer_kit"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A53C25B122EB8FA"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:dream_catcher"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27ECBC0FD797E736"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:idol_of_fertility"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Accessories Collection"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&nNature Rune&r"
+				"- Certificate of Taming"
+				"- Idol of Fertility "
+				"- Tamed Potato Beetle"
+				""
+				"&nMiner Rune&r"
+				"- Lucky Rock"
+				"- Miner Guide"
+				"- Tool Scraps"
+				""
+				"&nAdventurer Rune&r"
+				"- Adventurer Kit"
+				"- Ancient Scarab"
+				"- Swimmer Guide"
+				""
+				"&nAuger Rune&r"
+				"- Anglers Trophy"
+				"- Metal Lure"
+				"- Unbreakable Fishing Line"
+				""
+				"&nHousehold Rune&r"
+				"- Discount Voucher"
+				"- Dream Catcher "
+				"- Secret Ingredient"
+				""
+				"Combine all of these to create the Soul of Minecraft."
+			]
+			id: "6259BC99B2A71D8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C80EC444384F98"
+				type: "choice"
+			}]
+			subtitle: "Combine accesories together on a crafting table to create more powerful accesories."
+			tasks: [
+				{
+					id: "7BF29C03E1623414"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:nature_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62821EA216338C9D"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:miner_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57EC7AA943545EAB"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:adventurer_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24953B4D455423FD"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:angler_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "373DA59AD16D06D5"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:household_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7636ECC52332BD50"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:soul_of_minecraft"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Powerful accesories collection"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61D2C5A3FC8F44A1"
+				"4BD31FADA7878D76"
+				"0D66977831260595"
+				"605C72C696B771E8"
+				"52159C48546AC297"
+				"1B7423FBB75C42D0"
+				"4945AF7FAA48DC75"
+				"261D4DE4C30A96CB"
+				"0650B5D88757F417"
+				"59B5C63E1263F1E6"
+				"50BCA96B68DC3F4C"
+				"1778A8C70C9AAF26"
+				"209D685CAF24C693"
+				"3ED0A7786EE4E65E"
+				"7345C4871A148662"
+				"257AB50C0C09A72B"
+				"1BC439BFF1BA35D0"
+				"29170AF76939F173"
+				"30D11229AC209A87"
+				"1B0938943DF35AE8"
+				"1C1591DDBA16007B"
+				"1863D9499DCB0B39"
+				"4AE768A427A14342"
+				"149585B5531D21E0"
+				"2540D912E2DC8B4E"
+				"2217237359C0CB91"
+				"095F8932D99F2A08"
+				"787807566EEFADE1"
+				"71BFBB9542319D3E"
+				"4ADC083229035C40"
+				"1B793CD69BCD02FD"
+				"269CF108719CCF44"
+				"0711C7D4A09F3C12"
+				"7DF69A5D72B6E677"
+				"3AA03B67C0184E0B"
+				"2D498CC9F5993FB0"
+			]
+			description: [
+				"To track progress for this quest, see the "
+				""
+				"{ \"text\": \"Aquatic Creatures\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59B5C63E1263F1E6\" } }"
+				""
+				"chapter"
+			]
+			icon: "alexsmobs:large_catfish_bucket"
+			id: "42976545EE8CAB9F"
+			rewards: [
+				{
+					id: "481FE3D3FF80EA88"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:lure"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "458D093934DBFD5F"
+					item: {
+						Count: 1
+						id: "alexsmobs:pupfish_locator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "This does not include the Devil's Hole Pupfish"
+			tasks: [{
+				id: "03005E095230803C"
+				title: "First Compleate all the fish in the bestiary"
+				type: "checkmark"
+			}]
+			title: "Fish Collection"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Onyx: Killing the Warden"
+				""
+				"Horseshoe: Killing Skeleton Horses"
+				""
+				"Dice: Killing Guardians "
+				""
+				"Owl Feather: Killing Vexes"
+				""
+				"All of these items can be found rarely by killing mobs in the nether or in nether chests."
+			]
+			id: "2AE2DC41F94B92FD"
+			rewards: [{
+				id: "1FD1A595E855E8F1"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33807524A67E3D5E"
+					item: "majruszsaccessories:onyx"
+					type: "item"
+				}
+				{
+					id: "3E79A13BC2E87781"
+					item: "majruszsaccessories:horseshoe"
+					type: "item"
+				}
+				{
+					id: "29AB977C21CC9D38"
+					item: "majruszsaccessories:golden_horseshoe"
+					type: "item"
+				}
+				{
+					id: "795B4F295700B2E0"
+					item: "majruszsaccessories:owl_feather"
+					type: "item"
+				}
+				{
+					id: "51AFB64B3489122D"
+					item: "majruszsaccessories:dice"
+					type: "item"
+				}
+				{
+					id: "09F20EC51E354713"
+					item: "majruszsaccessories:golden_dice"
+					type: "item"
+				}
+			]
+			title: "Booster Collection"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6259BC99B2A71D8C"
+				"2AE2DC41F94B92FD"
+				"10D4F722649641A7"
+			]
+			icon: {
+				Count: 1
+				id: "majruszsaccessories:soul_of_minecraft"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: 0.6f
+					}
+				}
+			}
+			id: "67B4D0768E877B31"
+			rewards: [{
+				id: "68B5F2D19F490A01"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:soul_of_minecraft"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: 0.6f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55768FA58B92F0AD"
+				title: "Do all Collection Quests for the Accessorie"
+				type: "checkmark"
+			}]
+			title: "100% Majrusz's Accessories"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [
+				"Roller Skates: Overworld > Chest"
+				""
+				"Magma Walker: Overworld > Ruined Portal | Nether > Chest"
+				""
+				"Ice Skates: Overworld > Chest inside Cold Biome | Everbright > Chest"
+				""
+				"Ice Breaker: Overworld > Chest inside Cold Biome | Everbright > Chest"
+				""
+				"Aqua Walker: Any > Ocean Chest"
+				""
+				"Amphibian Boots: Any > Ocean Chest | Overworld > Swamp Chest"
+			]
+			id: "005103C8476D3ED4"
+			tasks: [
+				{
+					id: "15927A322A2AE711"
+					item: "artifacts:kitty_slippers"
+					type: "item"
+				}
+				{
+					id: "5B2E3C94D3CF0788"
+					item: "artifacts:bunny_hoppers"
+					type: "item"
+				}
+				{
+					id: "044ED18E10733650"
+					item: "artifacts:aqua_dashers"
+					type: "item"
+				}
+				{
+					id: "181C9F55254AC332"
+					item: {
+						Count: 1
+						id: "relics:roller_skates"
+						tag: {
+							abilities: {
+								skating: {
+									points: 0
+									stats: {
+										duration: 21.72646d
+										speed: 0.0034d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67AF696A6C64CA45"
+					item: {
+						Count: 1
+						id: "relics:magma_walker"
+						tag: {
+							abilities: {
+								pace: {
+									points: 0
+									stats: {
+										time: 37.68434d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D823606414AE07A"
+					item: {
+						Count: 1
+						id: "relics:ice_skates"
+						tag: {
+							abilities: {
+								ram: {
+									points: 0
+									stats: {
+										damage: 0.07741d
+									}
+								}
+								skating: {
+									points: 0
+									stats: {
+										duration: 30.48734d
+										speed: 0.01409d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31E347DD0A9E471E"
+					item: {
+						Count: 1
+						id: "relics:ice_breaker"
+						tag: {
+							abilities: {
+								impact: {
+									points: 0
+									stats: {
+										damage: 2.86135d
+										size: 4.93956d
+									}
+								}
+								sustainability: {
+									points: 0
+									stats: {
+										modifier: 0.54677d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07C10ADC66FF1297"
+					item: {
+						Count: 1
+						id: "relics:aqua_walker"
+						tag: {
+							abilities: {
+								walking: {
+									points: 0
+									stats: {
+										time: 44.67428d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A341B888402CAAB"
+					item: {
+						Count: 1
+						id: "relics:amphibian_boot"
+						tag: {
+							abilities: {
+								gills: {
+									points: 0
+									stats: {
+										chance: 0.0528d
+									}
+								}
+								slipping: {
+									points: 0
+									stats: {
+										duration: 17.21352d
+										speed: 0.0082d
+									}
+								}
+								swimming: {
+									points: 0
+									stats: {
+										duration: 31.43488d
+										speed: 0.00818d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08DB5D01812DB2E7"
+					item: "artifacts:flippers"
+					type: "item"
+				}
+				{
+					id: "4A1B37A06C3950CB"
+					item: "artifacts:rooted_boots"
+					type: "item"
+				}
+				{
+					id: "1C2FFAC9370CBB6F"
+					item: "artifacts:steadfast_spikes"
+					type: "item"
+				}
+				{
+					id: "0980597B62F604BD"
+					item: "artifacts:snowshoes"
+					type: "item"
+				}
+				{
+					id: "4FEA8A3F921AEEFA"
+					item: "artifacts:running_shoes"
+					type: "item"
+				}
+			]
+			title: "Shoe Collection"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [
+				"Lether Belt: Any > Chest"
+				""
+				"Hunter Belt: Any > Village Chest"
+				""
+				"Drowned Belt: Any > Ocean Chest"
+			]
+			id: "48C6A58B0E6887DE"
+			tasks: [
+				{
+					id: "0C7200E3C33C8D47"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "1181918DD355BC6F"
+					item: "artifacts:antidote_vessel"
+					type: "item"
+				}
+				{
+					id: "0E86A652FFE29698"
+					item: "artifacts:chorus_totem"
+					type: "item"
+				}
+				{
+					id: "4A9E008814C0BB5E"
+					item: "artifacts:helium_flamingo"
+					type: "item"
+				}
+				{
+					id: "103E72F2E157AC92"
+					item: "artifacts:crystal_heart"
+					type: "item"
+				}
+				{
+					id: "578AE1DE4DF93DD6"
+					item: "artifacts:universal_attractor"
+					type: "item"
+				}
+				{
+					id: "3C3C13B9043C258F"
+					item: {
+						Count: 1
+						id: "relics:drowned_belt"
+						tag: {
+							abilities: {
+								anchor: {
+									points: 0
+									stats: {
+										sinking: 4.32816d
+										slowness: 0.30066d
+									}
+								}
+								pressure: {
+									points: 0
+									stats: {
+										damage: 1.55016d
+									}
+								}
+								riptide: {
+									points: 0
+									stats: {
+										cooldown: 8.29254d
+									}
+								}
+								slots: {
+									points: 0
+									stats: {
+										talisman: 1.36455d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22A2C30AAA1341EE"
+					item: {
+						Count: 1
+						id: "relics:hunter_belt"
+						tag: {
+							abilities: {
+								slots: {
+									points: 0
+									stats: {
+										talisman: 1.4573d
+									}
+								}
+								training: {
+									points: 0
+									stats: {
+										damage: 1.86371d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "392EFCA175BD97E7"
+					item: {
+						Count: 1
+						id: "relics:leather_belt"
+						tag: {
+							abilities: {
+								slots: {
+									points: 0
+									stats: {
+										talisman: 1.75226d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B69DB01C8DDC566"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+			]
+			title: "Belt collection"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [
+				"Jellyfish Necklace: Any > Ocean Chest"
+				""
+				"Holy Locket: Overworld > Desert Chest | Everdawn > Chest | Nether > Soul Sand Valley chest"
+				""
+				"Reflecting Necklace: Overworld > Ruined Portal | Nether > Chest"
+			]
+			id: "307345F3842B5C0B"
+			tasks: [
+				{
+					id: "2561F45C03502EAF"
+					item: "artifacts:shock_pendant"
+					type: "item"
+				}
+				{
+					id: "6DF9D95AB0BEB1FC"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+				{
+					id: "0CA99B04719BBF2B"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					id: "20BAF0E0DBC5801C"
+					item: "artifacts:flame_pendant"
+					type: "item"
+				}
+				{
+					id: "35119470BB23BF3A"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+				{
+					id: "28C880ED5F7FFB0C"
+					item: "artifacts:charm_of_sinking"
+					type: "item"
+				}
+				{
+					id: "7659918EB04851C9"
+					item: {
+						Count: 1
+						id: "relics:holy_locket"
+						tag: {
+							abilities: {
+								steal: {
+									points: 0
+									stats: {
+										amount: 0.13371d
+										radius: 3.99224d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10B687804D886424"
+					item: {
+						Count: 1
+						id: "relics:jellyfish_necklace"
+						tag: {
+							abilities: {
+								paralysis: {
+									points: 0
+									stats: {
+										duration: 0.53437d
+									}
+								}
+								shock: {
+									points: 0
+									stats: {
+										damage: 1.17605d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "060906B2E5E85592"
+					item: {
+						Count: 1
+						id: "relics:reflection_necklace"
+						tag: {
+							abilities: {
+								explode: {
+									points: 0
+									stats: {
+										capacity: 47.86574d
+										damage: 0.28017d
+										stun: 0.20202d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A19B0DD5D2DD8F5"
+					item: "artifacts:lucky_scarf"
+					type: "item"
+				}
+				{
+					id: "73AF5F0457131758"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+			]
+			title: "Necklace collection"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [
+				"Rage Glove: Nether > Chest | Overworld > Ruined Portal"
+				""
+				"Wool Mitten: Overworld > cold biome chest | Everbright > Chest"
+				""
+				"Ender Hand: End > Chest"
+			]
+			id: "34D4BFC3DA07D74D"
+			tasks: [
+				{
+					id: "6A3E2843A45929D3"
+					item: "artifacts:pocket_piston"
+					type: "item"
+				}
+				{
+					id: "25D550455F7AD2F0"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+				{
+					id: "0B7FD11D1916ADCE"
+					item: "artifacts:pickaxe_heater"
+					type: "item"
+				}
+				{
+					id: "394333997DDD8BB2"
+					item: "artifacts:onion_ring"
+					type: "item"
+				}
+				{
+					id: "290355DAE20C2541"
+					item: "artifacts:golden_hook"
+					type: "item"
+				}
+				{
+					id: "5E292BAFC2FA151F"
+					item: {
+						Count: 1
+						id: "relics:rage_glove"
+						tag: {
+							abilities: {
+								phlebotomy: {
+									points: 0
+									stats: {
+										attack_speed: 0.00956d
+										heal: 2.0E-4d
+										movement_speed: 0.02293d
+									}
+								}
+								rage: {
+									points: 0
+									stats: {
+										dealt_damage: 0.05855d
+										duration: 3.67546d
+										incoming_damage: 0.0299d
+									}
+								}
+								spurt: {
+									points: 0
+									stats: {
+										cooldown: 18.014d
+										damage: 0.1089d
+										distance: 5.89616d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CC9962198B22FB3"
+					item: {
+						Count: 1
+						id: "relics:wool_mitten"
+						tag: {
+							abilities: {
+								mold: {
+									points: 0
+									stats: {
+										damage: 0.18118d
+										freeze: 1.825d
+										size: 16.37771d
+										stun: 0.044d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30F695D8D935924F"
+					item: {
+						Count: 1
+						id: "relics:enders_hand"
+						tag: {
+							abilities: {
+								swap: {
+									points: 0
+									stats: {
+										distance: 28.58029d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F7FEBAC715EBD4"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+				{
+					id: "6381EC2B72E43192"
+					item: "artifacts:power_glove"
+					type: "item"
+				}
+				{
+					id: "77B51C524C02FC81"
+					item: "artifacts:feral_claws"
+					type: "item"
+				}
+				{
+					id: "5774A863812F6073"
+					item: "artifacts:digging_claws"
+					type: "item"
+				}
+			]
+			title: "Glove collection"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [
+				"Ring of Vines: Overworld > Cave Cabin"
+				""
+				"Bastion Ring: Nether > Bastion"
+				""
+				"Chorus Inhibitor: End > Chest"
+			]
+			id: "02FD04DA5B9E7949"
+			tasks: [
+				{
+					id: "0288FFB473638581"
+					item: {
+						Count: 1
+						id: "raccompat:vine_ring"
+						tag: {
+							abilities: {
+								vine: {
+									points: 0
+									stats: {
+										cooldown: 20.91459d
+										length: 11.51128d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26CABA1F4B222F53"
+					item: {
+						Count: 1
+						id: "relics:bastion_ring"
+						tag: {
+							abilities: {
+								trade: {
+									points: 0
+									stats: {
+										rolls: 0.05607d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11B9F2B8301D3C7F"
+					item: {
+						Count: 1
+						id: "relics:chorus_inhibitor"
+						tag: {
+							abilities: {
+								blink: {
+									points: 0
+									stats: {
+										cooldown: 9.75699d
+										distance: 25.59191d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ring collection"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [
+				"Elytra Booster: End>Chest"
+				""
+				"Midnight Robe: Overworld (Above ground)>Chest"
+				""
+				"Quiver: Any>Village chests"
+			]
+			id: "0D789D1361D60007"
+			tasks: [
+				{
+					id: "566D6706AB047A47"
+					item: {
+						Count: 1
+						id: "relics:arrow_quiver"
+						tag: {
+							abilities: {
+								agility: {
+									points: 0
+									stats: {
+										modifier: 1.0d
+									}
+								}
+								leap: {
+									points: 0
+									stats: {
+										cooldown: 12.2785d
+										duration: 5.05383d
+										multiplier: 0.44381d
+									}
+								}
+								rain: {
+									points: 0
+									stats: {
+										delay: 0.97936d
+										duration: 11.25888d
+										radius: 3.28384d
+									}
+								}
+								receptacle: {
+									points: 0
+									stats: {
+										slots: 4.78875d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2673C8E38441DF87"
+					item: {
+						Count: 1
+						id: "relics:midnight_robe"
+						tag: {
+							abilities: {
+								backstab: {
+									points: 0
+									stats: {
+										damage: 1.28013d
+										distance: 18.08024d
+									}
+								}
+								vanish: {
+									points: 0
+									stats: {
+										light: 1.3072d
+										speed: 0.21484d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "473D475A01835858"
+					item: {
+						Count: 1
+						id: "relics:elytra_booster"
+						tag: {
+							abilities: {
+								boost: {
+									points: 0
+									stats: {
+										capacity: 90.44721d
+										speed: 1.11111d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Back collection"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [""]
+			id: "1342CC63BC0A972C"
+			tasks: [
+				{
+					id: "3D19396D0085FB5F"
+					item: "artifacts:cowboy_hat"
+					type: "item"
+				}
+				{
+					id: "0E345E6992BA2F32"
+					item: "artifacts:superstitious_hat"
+					type: "item"
+				}
+				{
+					id: "65F8E31773964EB8"
+					item: "artifacts:villager_hat"
+					type: "item"
+				}
+				{
+					id: "573BE06F3104BF0E"
+					item: "artifacts:anglers_hat"
+					type: "item"
+				}
+				{
+					id: "29854CFD935035A3"
+					item: "artifacts:plastic_drinking_hat"
+					type: "item"
+				}
+				{
+					id: "4B9329EFAE7B3E83"
+					item: "artifacts:novelty_drinking_hat"
+					type: "item"
+				}
+				{
+					id: "3605AF918D50D844"
+					item: "artifacts:snorkel"
+					type: "item"
+				}
+				{
+					id: "043655D78C18093E"
+					item: "artifacts:night_vision_goggles"
+					type: "item"
+				}
+			]
+			title: "Hat collection"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A04B7AF864F4CE9"]
+			description: [
+				"Shadow Glaive: Overworld > Ancient City Chest | End > Chest"
+				""
+				"Spore Sack: Overworld > Jungle Temple"
+				""
+				"Horse Flute: Overworld > Chest"
+				""
+				"Infinity Ham: Any > Village"
+				""
+				"Spatial Sign: Overworld > (Non-Village) Chest"
+				""
+				"Magic Mirror: Overworld > (Non-Village) Chest"
+				""
+				"Space Dissector: Nether > Chest | Overworld > Ruined Portal"
+				""
+				"Blazing Flask: Nether > Chest | Overworld > Ruined Portal"
+			]
+			id: "5C6A4AF8D410CC1E"
+			tasks: [
+				{
+					id: "1464361C8A43EF3C"
+					item: {
+						Count: 1
+						id: "relics:shadow_glaive"
+						tag: {
+							abilities: {
+								glaive: {
+									points: 0
+									stats: {
+										bounces: 4.12099d
+										damage: 4.91766d
+										radius: 3.04797d
+										recharge: 18.21719d
+									}
+								}
+								saw: {
+									points: 0
+									stats: {
+										damage: 0.84533d
+										speed: 17.56481d
+									}
+								}
+							}
+							charges: 8
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D9CCFA7F6C0C866"
+					item: {
+						Count: 1
+						id: "relics:spore_sack"
+						tag: {
+							abilities: {
+								buffer: {
+									points: 0
+									stats: {
+										capacity: 4.91959d
+										chance: 0.0309d
+									}
+								}
+								explosion: {
+									points: 0
+									stats: {
+										size: 0.06531d
+									}
+								}
+								multiplying: {
+									points: 0
+									stats: {
+										amount: 0.12588d
+										chance: 0.08086d
+										size: 0.09491d
+									}
+								}
+								spore: {
+									points: 0
+									stats: {
+										cooldown: 12.26357d
+										damage: 0.37418d
+										duration: 2.95797d
+										size: 0.2969d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "167B471E63B73C8C"
+					item: "artifacts:whoopee_cushion"
+					type: "item"
+				}
+				{
+					id: "4C16E162BAADB713"
+					item: {
+						Count: 1
+						id: "relics:horse_flute"
+						tag: {
+							abilities: {
+								heal: {
+									points: 0
+									stats: {
+										amount: 0.0147d
+									}
+								}
+							}
+							entity: {
+								AbsorptionAmount: 0.0f
+								Age: 0
+								Air: 300s
+								ArmorDropChances: [
+									0.085f
+									0.085f
+									0.0f
+									0.085f
+								]
+								ArmorItems: [
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								Attributes: [
+									{
+										Base: 0.6752978241340907d
+										Name: "minecraft:horse.jump_strength"
+									}
+									{
+										Base: 0.08d
+										Name: "forge:entity_gravity"
+									}
+									{
+										Base: 0.0d
+										Name: "minecraft:generic.knockback_resistance"
+									}
+									{
+										Base: 16.0d
+										Modifiers: [{
+											Amount: 0.01940806462731124d
+											Name: "Random spawn bonus"
+											Operation: 1
+											UUID: [I;
+												-944674250
+												-1108456999
+												-1280985116
+												496532026
+											]
+										}]
+										Name: "minecraft:generic.follow_range"
+									}
+									{
+										Base: 1.0d
+										Name: "obscure_api:healing_power"
+									}
+									{
+										Base: 0.0d
+										Name: "obscure_api:regeneration"
+									}
+									{
+										Base: 19.0d
+										Modifiers: [{
+											Amount: 0.047007384300231936d
+											Name: "ScalingHealth.HealthModifier"
+											Operation: 1
+											UUID: [I;
+												-1061227163
+												905334213
+												-1152633276
+												-1014831410
+											]
+										}]
+										Name: "minecraft:generic.max_health"
+									}
+									{
+										Base: 0.0d
+										Name: "forge:step_height"
+									}
+									{
+										Base: 0.0d
+										Name: "minecraft:generic.armor"
+									}
+									{
+										Base: 0.20719846980194664d
+										Name: "minecraft:generic.movement_speed"
+									}
+									{
+										Base: 0.0d
+										Name: "reach-entity-attributes:reach"
+									}
+									{
+										Base: 1.0d
+										Name: "forge:swim_speed"
+									}
+								]
+								BaguData: { }
+								BalmData: { }
+								BannerStack: {
+									Count: 1b
+									id: "minecraft:air"
+									tag: { }
+								}
+								Brain: {
+									memories: { }
+								}
+								Bred: 0b
+								CanPickUpLoot: 0b
+								CanUpdate: 1b
+								CitadelData: { }
+								DeathTime: 0s
+								EatingHaystack: 0b
+								FallDistance: 0.0f
+								FallFlying: 0b
+								Fire: -1s
+								ForcedAge: 0
+								ForgeCaps: {
+									"aether:mob_accessory": {
+										DropChances: {
+											aether_gloves: 0.085f
+											aether_pendant: 0.085f
+											hands: 0.085f
+											necklace: 0.085f
+										}
+									}
+									"aether_redux:vampire_amulet": {
+										active: 0b
+										has_curio: 0b
+										timer: 24000
+									}
+									"cataclysm:charge_cap": {
+										ChargeDamage: 0.0f
+										ChargeTime: 0
+										KnockbackSpeed: 0.0f
+										dx: 0.0f
+										dz: 0.0f
+										isCharge: 0b
+										timer: 0
+									}
+									"cataclysm:hook_cap": {
+										hasHook: 0b
+									}
+									"cataclysm:tentacle_cap": {
+										hasTentacle: 0b
+									}
+									"curios:inventory": {
+										Curios: [ ]
+									}
+									"iceandfire:entity_data": {
+										chainedData: { }
+										chickenData: {
+											timeUntilNextEgg: -1
+										}
+										frozenData: {
+											frozenTicks: 0
+											isFrozen: 0b
+										}
+										miscData: {
+											hasDismounted: 0b
+											loveTicks: 0
+											lungeTicks: 0
+										}
+										sirenData: {
+											charmTime: 0
+											charmedById: -1
+											isCharmed: 0b
+										}
+									}
+									"mekanism:radiation": {
+										radiation: 1.0E-7d
+									}
+									"mowziesmobs:ability": { }
+									"mowziesmobs:frozen": {
+										freezeDecayDelay: 0
+										freezeProgress: 0.0f
+										frozen: 0b
+										frozenPitch: 0.0f
+										frozenRenderYawOffset: 0.0f
+										frozenSwingProgress: 0.0f
+										frozenWalkAnimPosition: 0.0f
+										frozenWalkAnimSpeed: 0.0f
+										frozenYaw: 0.0f
+										frozenYawHead: 0.0f
+										prevFrozen: 0b
+										prevHasAI: 1b
+									}
+									"mowziesmobs:frozen_cap": {
+										freezeDecayDelay: 0
+										freezeProgress: 0.0f
+										frozen: 0b
+										frozenPitch: 0.0f
+										frozenRenderYawOffset: 0.0f
+										frozenSwingProgress: 0.0f
+										frozenWalkAnimPosition: 0.0f
+										frozenWalkAnimSpeed: 0.0f
+										frozenYaw: 0.0f
+										frozenYawHead: 0.0f
+										prevFrozen: 0b
+										prevHasAI: 1b
+									}
+									"mowziesmobs:last_damage": { }
+									"mowziesmobs:living_cap": { }
+									"pneumaticcraft:hacking": { }
+									"scalinghealth:difficulty_affected": {
+										Blight: 0b
+										Difficulty: 18.802954f
+									}
+									"structure_gel:gel_entity": {
+										portal: "structure_gel:empty"
+									}
+								}
+								ForgeData: {
+									"naturesaura:time_alive": 1760
+								}
+								GoldenAirSupply: 0.0f
+								HandDropChances: [
+									0.085f
+									0.085f
+								]
+								HandItems: [
+									{ }
+									{ }
+								]
+								Health: 19.89314f
+								HurtByTimestamp: 0
+								HurtTime: 0s
+								IMFlags: {
+									CanBreakBlocks: 2
+									CanFly: 2
+									GearEnchanted: 1b
+									IsThrown: 0b
+									IsVariedSize: 0b
+									MagicRes: 0.0f
+									ModifiedArmor: 1b
+									ModifiedAttributes: 1b
+									ModifiedHeld: 1b
+									ProjBoost: 1.0f
+									explosionMult: 1.0f
+								}
+								InLove: 0
+								Invulnerable: 0b
+								LeftHanded: 0b
+								MineCellsFlags: 0
+								MobSpawnReason: 12
+								Motion: [
+									0.0d
+									-0.0784000015258789d
+									0.0d
+								]
+								OnGround: 1b
+								Owner: [I;
+									-1056431902
+									-870824742
+									-1861254397
+									1175915970
+								]
+								PersistenceRequired: 1b
+								PortalCooldown: 0
+								Pos: [
+									448.48698652139416d
+									66.0d
+									149.31710918228407d
+								]
+								Rotation: [
+									308.76044f
+									0.0f
+								]
+								SaddleItem: {
+									Count: 1b
+									id: "minecraft:saddle"
+								}
+								ScreenShakes: [ ]
+								Tame: 1b
+								Temper: 99
+								UUID: [I;
+									2041327452
+									-1083816235
+									-1526996544
+									1363654818
+								]
+								UsingSpectreBoundedSpyglass: 0b
+								Variant: 769
+								"forge:spawn_type": "SPAWN_EGG"
+								frozenDistanceSounds: [ ]
+								frozenSounds: [ ]
+								frozenSpottingIconTicksToCheck: 17
+								id: "minecraft:horse"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "560C87A9F5DC9351"
+					item: {
+						Count: 1
+						id: "relics:infinity_ham"
+						tag: {
+							abilities: {
+								autophagy: {
+									points: 0
+									stats: {
+										feed: 0.52423d
+									}
+								}
+								infusion: {
+									points: 0
+									stats: {
+										duration: 2.998d
+									}
+								}
+							}
+							charge: 0
+							leveling: {
+								experience: 10
+							}
+							pieces: 10
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B5840EF619D1CD7"
+					item: {
+						Count: 1
+						id: "relics:spatial_sign"
+						tag: {
+							abilities: {
+								seal: {
+									points: 0
+									stats: {
+										time: 3.32712d
+									}
+								}
+							}
+							pos: "[\"419.5,67.0,206.9\"]"
+							world: "blue_skies:everdawn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E4B9977CC1A5659"
+					item: {
+						Count: 1
+						id: "relics:magic_mirror"
+						tag: {
+							abilities: {
+								teleport: {
+									points: 0
+									stats: {
+										cooldown: 75.99821d
+										distance: 987.9945d
+									}
+								}
+							}
+							leveling: {
+								experience: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07A851DF47F4B85E"
+					item: {
+						Count: 1
+						id: "relics:space_dissector"
+						tag: {
+							abilities: {
+								dissection: {
+									points: 0
+									stats: {
+										distance: 24.26852d
+										time: 8.6507d
+									}
+								}
+							}
+							leveling: {
+								experience: 9
+							}
+							portal: "1b986a7c-3ac0-405c-b2ad-c0cff2654d56"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "523B7F27DB3CC1BD"
+					item: {
+						Count: 1
+						id: "relics:blazing_flask"
+						tag: {
+							abilities: {
+								bonfire: {
+									points: 0
+									stats: {
+										height: 3.80133d
+										speed: 0.01938d
+										step: 1.29892d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C7D8B8ED8AEC52D"
+					item: "artifacts:umbrella"
+					type: "item"
+				}
+			]
+			title: "Special Relics"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"General Tip"
+				""
+				"Artifacts are obtained from Mimics, while Relics are found in specific types of chests."
+				""
+				"Mimics can be easily found by going underground (Y=30 to Y=-40) and using the Scanner item with 2 Range Upgrades and having the Mimic added to the Living Entity Module."
+				""
+				"In the Relic Collection Quests, the locations of the relics are indicated as follows:"
+				""
+				"Dimension > Structure/Loot Object | 2nd Dimension > Structure/Loot Object | etc."
+			]
+			disable_toast: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "1A04B7AF864F4CE9"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				icon: "minecraft:grass_block"
+				id: "66BB92B14A466A45"
+				stat: "minecraft:play_time"
+				title: "Automatically Completed"
+				type: "stat"
+				value: 1
+			}]
+			title: "Relics/Artificts Collection"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Band of Mana/Greater Mana: Allows you to use Mana."
+				""
+				"Band of Aura/Greater Aura: Generates Mana slowly."
+				""
+				"Band of Magnetization/Greater Magnetization: Pulls nearby items to you (uses Mana)."
+				""
+				"Ring of Chordate: Grants Dolphin’s Grace and Conduit Power when in water (uses Mana)."
+				""
+				"Ring of Correction: Switches tools to the one relevant for breaking the block you are looking at. However, it must be a tool from Botania, like Terrasteel."
+				""
+				"Ring of Dexterous Move: Double-tap any movement key to dodge. Works like the normal dodge but does not use feathers."
+				""
+				"Ring of the Mantle: Grants Haste II (uses Mana)."
+				""
+				"Great Fairy Ring: Causes Pixies to spawn around you."
+				""
+				"Ring of Far Reach: Extends your mining and placing range."
+				""
+				"{@pagebreak}"
+				""
+				"Relic Rings"
+				""
+				"There are 3 rings that are obtained from the Dice of Fate, which is dropped by the Guardian of Gaia."
+				""
+				"Ring of Odin: Grants a full row of hearts."
+				""
+				"These other rings seem to do nothing:"
+				""
+				"Ring of Thor: The Terra Shatterer Pickaxe will mine multiple blocks at once."
+				""
+				"Ring of Loki: Allows you to place multiple blocks at once (uses Mana)."
+			]
+			id: "4CB8FBCFE523108B"
+			tasks: [
+				{
+					id: "37F84DC669E50101"
+					item: {
+						Count: 1
+						id: "botania:mana_ring"
+						tag: {
+							mana: 500000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "128DDB5A9552F7D9"
+					item: {
+						Count: 1
+						id: "botania:mana_ring_greater"
+						tag: {
+							mana: 2000000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "062412C619C51581"
+					item: "botania:aura_ring"
+					type: "item"
+				}
+				{
+					id: "42C7CEA76219CE40"
+					item: "botania:aura_ring_greater"
+					type: "item"
+				}
+				{
+					id: "596F06DBF7D341C4"
+					item: "botania:magnet_ring"
+					type: "item"
+				}
+				{
+					id: "26F3A732E35DC9F7"
+					item: "botania:magnet_ring_greater"
+					type: "item"
+				}
+				{
+					id: "3D0099013CC61100"
+					item: "botania:water_ring"
+					type: "item"
+				}
+				{
+					id: "0CCEB4136ED32F15"
+					item: "botania:swap_ring"
+					type: "item"
+				}
+				{
+					id: "270CC58E94F78BF0"
+					item: "botania:dodge_ring"
+					type: "item"
+				}
+				{
+					id: "32FCBCFDF1E69529"
+					item: "botania:mining_ring"
+					type: "item"
+				}
+				{
+					id: "7119BB2B40D62DCE"
+					item: {
+						Count: 1
+						id: "botania:pixie_ring"
+						tag: {
+							baubleUUID: [I;
+								-2115127623
+								-1909374202
+								-1888034501
+								733048192
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A154EA8032E14B7"
+					item: {
+						Count: 1
+						id: "botania:reach_ring"
+						tag: {
+							baubleUUID: [I;
+								154765456
+								-1815196823
+								-1342405640
+								-480842469
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67A831B897006FF4"
+					item: {
+						Count: 1
+						id: "botania:thor_ring"
+						tag: {
+							soulbindUUID: "c10820e2-cc18-44da-910f-830346170dc2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12C09C4864958983"
+					item: {
+						Count: 1
+						id: "botania:odin_ring"
+						tag: {
+							baubleUUID: [I;
+								-1312578491
+								-546618402
+								-1073763801
+								-1511455019
+							]
+							soulbindUUID: "c10820e2-cc18-44da-910f-830346170dc2"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C14FBB701C33AA0"
+					item: {
+						Count: 1
+						id: "botania:loki_ring"
+						tag: {
+							soulbindUUID: "c10820e2-cc18-44da-910f-830346170dc2"
+							xOrigin: 0
+							yOrigin: -2147483648
+							zOrigin: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Botina rings collection"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"You can find many different types of Endermen in various biomes around the world. Many of them drop special Pearls, while some may drop Hoods. You can find these Endermen in the Bestiary."
+				""
+				"The Charged Ender Pearl is a bit different, though, requiring you to defeat 2 bosses to obtain it."
+			]
+			id: "605A6D1F5E67F886"
+			tasks: [
+				{
+					id: "3EFE0157657F87A4"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:badlands_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B3A2513970D3D88"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:savanna_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B254D4B801A8121"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:snowy_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5997F2F54D461263"
+					item: "bosses_of_mass_destruction:charged_ender_pearl"
+					type: "item"
+				}
+				{
+					id: "0036C62911612D71"
+					item: "endermanoverhaul:corrupted_pearl"
+					type: "item"
+				}
+				{
+					id: "726A7E4E4AFE12D2"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:soul_pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7E077681AE99810F"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:ancient_pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "11FACFAA13D88F07"
+					item: "endermanoverhaul:bubble_pearl"
+					type: "item"
+				}
+				{
+					id: "3ED39E6C2F2E08CE"
+					item: "endermanoverhaul:summoner_pearl"
+					type: "item"
+				}
+				{
+					id: "31448B5605A092E3"
+					item: "endermanoverhaul:icy_pearl"
+					type: "item"
+				}
+				{
+					id: "35BF46001932F8C1"
+					item: "endermanoverhaul:crimson_pearl"
+					type: "item"
+				}
+				{
+					id: "0DBF5380725F5D2A"
+					item: "endermanoverhaul:warped_pearl"
+					type: "item"
+				}
+				{
+					id: "1FB607EABC0BA302"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "Ender Hoods and Pearls collection"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			description: ["Umvuthi, the Sunbird is a boss who is found in the savanna. The sunbird will spawn minions to fight for him. Killing these minons will sometimes drop masks. Umvuthi himself also drops a mask."]
+			id: "2BE06769213C919E"
+			subtitle: "Dawn of The Final Day -24 Hours Remain-"
+			tasks: [
+				{
+					id: "7141E94A561E6674"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "425B67CA97D9BA4D"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_rage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19416228D2D5F32F"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "359425024EED28A0"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_bliss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63D514457A766235"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "408A324700D34605"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_faith"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "703393A897C9E923"
+					item: "mowziesmobs:sol_visage"
+					type: "item"
+				}
+			]
+			title: "Sun bird mask collection"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "2253D3B2B2DA636C"
+			tasks: [
+				{
+					id: "3AF1CB5AAB51F8A7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:halberds"
+						}
+					}
+					title: "Any #spartanweaponry:halberds"
+					type: "item"
+				}
+				{
+					id: "61D9B8F94DF25121"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:pikes"
+						}
+					}
+					title: "Any #spartanweaponry:pikes"
+					type: "item"
+				}
+				{
+					id: "6AACC9A1C23575E2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:battleaxes"
+						}
+					}
+					title: "Any #spartanweaponry:battleaxes"
+					type: "item"
+				}
+				{
+					id: "1E2BEE92B5AEDF10"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:quarterstaves"
+						}
+					}
+					title: "Any #spartanweaponry:quarterstaves"
+					type: "item"
+				}
+				{
+					id: "294C177D3DF93203"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:glaives"
+						}
+					}
+					title: "Any #spartanweaponry:glaives"
+					type: "item"
+				}
+				{
+					id: "0B2C0A6D4F0D50F7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:longswords"
+						}
+					}
+					title: "Any #spartanweaponry:longswords"
+					type: "item"
+				}
+				{
+					id: "1C0DF5DC14ACE7C7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:katanas"
+						}
+					}
+					title: "Any #spartanweaponry:katanas"
+					type: "item"
+				}
+				{
+					id: "41D4568610BA36D0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:greatswords"
+						}
+					}
+					title: "Any #spartanweaponry:greatswords"
+					type: "item"
+				}
+				{
+					id: "1680816BEB00848F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:warhammers"
+						}
+					}
+					title: "Any #spartanweaponry:warhammers"
+					type: "item"
+				}
+			]
+			title: "2 handed weapon collection"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "0D805670B61674C9"
+			tasks: [
+				{
+					id: "6FB83642DE03B1E0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:daggers"
+						}
+					}
+					title: "Any #spartanweaponry:daggers"
+					type: "item"
+				}
+				{
+					id: "4752A9A110282F28"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:sabers"
+						}
+					}
+					title: "Any #spartanweaponry:sabers"
+					type: "item"
+				}
+				{
+					id: "31DA5482B4263AFE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:rapiers"
+						}
+					}
+					title: "Any #spartanweaponry:rapiers"
+					type: "item"
+				}
+				{
+					id: "29542E242DA85EA4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:battle_hammers"
+						}
+					}
+					title: "Any #spartanweaponry:battle_hammers"
+					type: "item"
+				}
+				{
+					id: "62FFED61A2454E09"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:spears"
+						}
+					}
+					title: "Any #spartanweaponry:spears"
+					type: "item"
+				}
+				{
+					id: "720C2146112CCE22"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:boomerangs"
+						}
+					}
+					title: "Any #spartanweaponry:boomerangs"
+					type: "item"
+				}
+				{
+					id: "3D9444CF20CBAA1B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:javelins"
+						}
+					}
+					title: "Any #spartanweaponry:javelins"
+					type: "item"
+				}
+				{
+					id: "5FEF7ED212EB8D73"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:tomahawks"
+						}
+					}
+					title: "Any #spartanweaponry:tomahawks"
+					type: "item"
+				}
+				{
+					id: "6FA1964FDE0D691A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:throwing_knives"
+						}
+					}
+					title: "Any #spartanweaponry:throwing_knives"
+					type: "item"
+				}
+				{
+					id: "0567862D1288AFBA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:scythes"
+						}
+					}
+					title: "Any #spartanweaponry:scythes"
+					type: "item"
+				}
+				{
+					id: "594096AFAE50CCA9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:flanged_maces"
+						}
+					}
+					title: "Any #spartanweaponry:flanged_maces"
+					type: "item"
+				}
+				{
+					id: "20EF3B212D86F91F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "spartanweaponry:lances"
+						}
+					}
+					title: "Any #spartanweaponry:lances"
+					type: "item"
+				}
+			]
+			title: "1 handed weapon collection"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The best way to collect heads is killing mobs with a scythe."
+				""
+				"You may also opt for the more difficult but surefire vanilla method of killing mobs with a charged creeper."
+			]
+			id: "6F8708E0E9BEA746"
+			subtitle: "Trophy Hunter"
+			tasks: [
+				{
+					id: "7AA295D9F5D5B62D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "supplementaries:enderman_head"
+								}
+								{
+									Count: 1b
+									id: "spartanweaponry:enderman_head"
+								}
+								{
+									Count: 1b
+									id: "enderio:enderman_head"
+								}
+							]
+						}
+					}
+					title: "Enderman head"
+					type: "item"
+				}
+				{
+					id: "36335A891821474F"
+					item: "spartanweaponry:blaze_head"
+					type: "item"
+				}
+				{
+					id: "332BCA4BE092E2B5"
+					item: "spartanweaponry:stray_skull"
+					type: "item"
+				}
+				{
+					id: "20423F02A974AE9F"
+					item: "spartanweaponry:spider_head"
+					type: "item"
+				}
+				{
+					id: "5E46ADF9A866E510"
+					item: "spartanweaponry:cave_spider_head"
+					type: "item"
+				}
+				{
+					id: "79B5BB06699C96B1"
+					item: "spartanweaponry:zombified_piglin_head"
+					type: "item"
+				}
+				{
+					id: "78C7B480775C36EC"
+					item: "spartanweaponry:husk_head"
+					type: "item"
+				}
+				{
+					id: "09D280A8F38F549F"
+					item: "spartanweaponry:drowned_head"
+					type: "item"
+				}
+				{
+					id: "549B9B929957C4E6"
+					item: "spartanweaponry:illager_head"
+					type: "item"
+				}
+				{
+					id: "604F425725C82A6C"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "207DD27BF7FB0B00"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "72D02C5477F367BD"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:player_head"
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-204941669
+												125191442
+												-2076913230
+												374933995
+											]
+											Name: "dan200"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:player_head"
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1829193526
+												-1310112904
+												-1449411193
+												2005015708
+											]
+											Name: "Cloudhunter"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:player_head"
+									tag: {
+										SkullOwner: {
+											Name: "Vazkii"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:player_head"
+								}
+							]
+						}
+					}
+					title: "Any Player head"
+					type: "item"
+				}
+				{
+					id: "702E834063970C30"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "20C7461E9D826E23"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					id: "2C81BEE96F17927B"
+					item: "neapolitan:chimpanzee_head"
+					type: "item"
+				}
+				{
+					id: "1B9CAC3979D9EA9F"
+					item: "minecraft:piglin_head"
+					type: "item"
+				}
+				{
+					id: "2C20796EBEA54F9D"
+					item: "spartanweaponry:witch_head"
+					type: "item"
+				}
+				{
+					id: "16669F98ACF33BF6"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					id: "6F9441EC60E1F155"
+					item: "cataclysm:kobolediator_skull"
+					type: "item"
+				}
+				{
+					id: "1D6C1BB48E092CF8"
+					item: "iceandfire:hippogryph_skull"
+					type: "item"
+				}
+				{
+					id: "3393E7E4D30BBC94"
+					item: "iceandfire:cyclops_skull"
+					type: "item"
+				}
+				{
+					id: "0E49C95122D80627"
+					item: "iceandfire:cockatrice_skull"
+					type: "item"
+				}
+				{
+					id: "2320D7E068011D9D"
+					item: "iceandfire:stymphalian_skull"
+					type: "item"
+				}
+				{
+					id: "7D7E00FC1436C21A"
+					item: "iceandfire:troll_skull"
+					type: "item"
+				}
+				{
+					id: "5A7BE676631C38DA"
+					item: "iceandfire:amphithere_skull"
+					type: "item"
+				}
+				{
+					id: "3D0484BA55BA61AC"
+					item: "iceandfire:seaserpent_skull"
+					type: "item"
+				}
+				{
+					id: "22E43F1DE7D0D7A2"
+					item: "iceandfire:hydra_skull"
+					type: "item"
+				}
+				{
+					id: "167524906D5D6D75"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_fire"
+						tag: {
+							DragonAge: 75
+							Stage: 4
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C35FEE9B0394C2A"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_lightning"
+						tag: {
+							DragonAge: 75
+							Stage: 4
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B9DFDAB7DBA8C6A"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_ice"
+						tag: {
+							DragonAge: 75
+							Stage: 4
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10281862FD96E4D2"
+					item: "betterarcheology:creeper_fossil_head"
+					type: "item"
+				}
+				{
+					id: "4BA66EC358127541"
+					item: "betterarcheology:villager_fossil_head"
+					type: "item"
+				}
+				{
+					id: "3798A8D121789FFE"
+					item: "betterarcheology:ocelot_fossil_head"
+					type: "item"
+				}
+				{
+					id: "7851CD8304394828"
+					item: "betterarcheology:wolf_fossil_head"
+					type: "item"
+				}
+				{
+					id: "1B8D91EB75ADC635"
+					item: "betterarcheology:sheep_fossil_head"
+					type: "item"
+				}
+				{
+					id: "66110CC79628A2F2"
+					item: "betterarcheology:guardian_fossil_head"
+					type: "item"
+				}
+			]
+			title: "Head collection"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"If you dare to do this you must get a good mob farm becuase to create 1 perfect gem you will need to collect a ton of 1 type of gem. To be esact to create 1 perfect gem you would need."
+				""
+				"32 Cracked"
+				"16 chiped"
+				"8 flawed"
+				"4 normal"
+				"2 flawless"
+				""
+				"{@pagebreak}"
+				""
+				"To get the mob spawners for this you could use the spawner extractor and presuised spawner to create a Large wall of spawners that will spawn a ton of mobs to do this. "
+			]
+			id: "0E9AD5F9726C3B47"
+			subtitle: "If you do this you are insane"
+			tasks: [
+				{
+					id: "4BC6C54F8C340213"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:blood"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4D0E7DD0C934717D"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:cast_time"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "62F7DC8F2A3582A6"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:cooldown"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "75FCC415E340E8AC"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/ballast"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "13B3217607060604"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/brawlers"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "27A843E0024E0E00"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/breach"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5F27D58E19F2DC49"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/combatant"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "26D1BCE22C7F9214"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/guardian"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4EF47815CFF1ADF6"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/lunar"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "36039515567BB747"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "74C14217C1787723"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/slipstream"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0D72577CF0FF4AB0"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/solar"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4A744C01FC294249"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/splendor"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1890D88FFA5D23B2"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/tyrannical"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "277CBF66BE328D21"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:core/warlord"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "29375494B88C5ACF"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:ender"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3BE39BF7C28E3A9C"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:evocation"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1F23E02AAF929988"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:fire"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3B0226CDB79067B1"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:holy"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2B97E6F29FD55F89"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:ice"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3E905E09E34466DA"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:intelligent"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "041123F09547D22A"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:lightning"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0A888A25A41D3604"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:nature"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3026EAB0E6071936"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:overworld/earth"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "47CF22B1068E8276"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:overworld/royalty"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7FA70DE979F143CA"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "irons_spellbooks:summoning"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "124692A7B287CEF3"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:the_end/endersurge"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0B75C1FE71B3E16C"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:the_end/mageslayer"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "07D950AA5FEE87D9"
+					stat: "minecraft:play_time"
+					title: " "
+					type: "stat"
+					value: 1
+				}
+				{
+					id: "63A5528539FA8A97"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:the_nether/inferno"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "15B19B41E48DF998"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:ancient"
+							}
+							gem: "apotheosis:the_nether/blood_lord"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "37D0369010C4DFFB"
+					stat: "minecraft:play_time"
+					title: " "
+					type: "stat"
+					value: 1
+				}
+			]
+			title: "Perfect gem collection"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Some gems are exclusively found in the Nether or End."
+				""
+				"&nNether&r"
+				"Incandescent Inferno"
+				"Ravenous Blood Lord"
+				""
+				"&nEnd&r"
+				"Endersurge"
+				"Mageslayer"
+				""
+				"&lYou can click on the gem to view their stats.&r"
+			]
+			id: "0D2B37062D31582A"
+			tasks: [
+				{
+					id: "162D34FED605B566"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:fire"
+							}
+						}
+					}
+					title: "Inferno Gem"
+					type: "item"
+				}
+				{
+					id: "178F2F889BD63F9D"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:ice"
+							}
+						}
+					}
+					title: "Frozen Gem"
+					type: "item"
+				}
+				{
+					id: "69F30349CDEB6AA8"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:summoning"
+							}
+						}
+					}
+					title: "Necromancy Gem"
+					type: "item"
+				}
+				{
+					id: "0809DC8FB5DEC184"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:the_end/endersurge"
+							}
+						}
+					}
+					title: "Endersurge Gem"
+					type: "item"
+				}
+				{
+					id: "3A13D00F070A6048"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/splendor"
+							}
+						}
+					}
+					title: "Splendor Gem"
+					type: "item"
+				}
+				{
+					id: "39BC4D0C688A5175"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/samurai"
+							}
+						}
+					}
+					title: "Gem of the Samurai"
+					type: "item"
+				}
+				{
+					id: "534072D3284ACF12"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/brawlers"
+							}
+						}
+					}
+					title: "Brawler's Gem"
+					type: "item"
+				}
+				{
+					id: "010BA33A534C07ED"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/slipstream"
+							}
+						}
+					}
+					title: "Slipstream Gem"
+					type: "item"
+				}
+				{
+					id: "5214A593ADC193D6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:cooldown"
+							}
+						}
+					}
+					title: "Gem of Arcane Recovery"
+					type: "item"
+				}
+				{
+					id: "3D3563D2DEB9F17F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/tyrannical"
+							}
+						}
+					}
+					title: "Tyrannical Gem"
+					type: "item"
+				}
+				{
+					id: "0DCD6D8354EA019C"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/ballast"
+							}
+						}
+					}
+					title: "Ballast Gem"
+					type: "item"
+				}
+				{
+					id: "5D061C46934655F3"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:intelligent"
+							}
+						}
+					}
+					title: "Intelligence Gem"
+					type: "item"
+				}
+				{
+					id: "7CA856A351EEC2C6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/lunar"
+							}
+						}
+					}
+					title: "Lunar Gem"
+					type: "item"
+				}
+				{
+					id: "22C67AFD7E456513"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/guardian"
+							}
+						}
+					}
+					title: "Guardian Gem"
+					type: "item"
+				}
+				{
+					id: "27CE31B59105D47C"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:cast_time"
+							}
+						}
+					}
+					title: "Gem of Arcane Efficiency"
+					type: "item"
+				}
+				{
+					id: "3EFE9A987D2BB7E5"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/warlord"
+							}
+						}
+					}
+					title: "Warlord Gem"
+					type: "item"
+				}
+				{
+					id: "598C4D4D90A5A00F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:lightning"
+							}
+						}
+					}
+					title: "Storm Gem"
+					type: "item"
+				}
+				{
+					id: "7DD3F6642991F884"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:nature"
+							}
+						}
+					}
+					title: "Natural Gem"
+					type: "item"
+				}
+				{
+					id: "354FB5884F9AD5D6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:blood"
+							}
+						}
+					}
+					title: "Blood Gem"
+					type: "item"
+				}
+				{
+					id: "2F8609161BBB1776"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:ender"
+							}
+						}
+					}
+					title: "Ender Gem"
+					type: "item"
+				}
+				{
+					id: "131D6AF5DF1E7054"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:evocation"
+							}
+						}
+					}
+					title: "Illager's Gem"
+					type: "item"
+				}
+				{
+					id: "60A92C54D247E23B"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/solar"
+							}
+						}
+					}
+					title: "Solar"
+					type: "item"
+				}
+				{
+					id: "764252BC93ED621E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:overworld/earth"
+							}
+						}
+					}
+					title: "Gem of the earth"
+					type: "item"
+				}
+				{
+					id: "19FDAD78C0813F8F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:overworld/royalty"
+							}
+						}
+					}
+					title: "Gem of the royal family"
+					type: "item"
+				}
+				{
+					id: "313D710955DBD089"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:the_nether/blood_lord"
+							}
+						}
+					}
+					title: "Gem of the Ravenous Blood Lord"
+					type: "item"
+				}
+				{
+					id: "37080506366926B5"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "irons_spellbooks:holy"
+							}
+						}
+					}
+					title: "Holy Gem"
+					type: "item"
+				}
+				{
+					id: "634256F9C1904986"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:the_end/mageslayer"
+							}
+						}
+					}
+					title: "Gem of the Mageslayer"
+					type: "item"
+				}
+				{
+					id: "5FD487A847EA886B"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/combatant"
+							}
+						}
+					}
+					title: "Combatant Gem"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "01D767DA46ECFEF6"
+					stat: "minecraft:play_time"
+					title: " "
+					type: "stat"
+					value: 1
+				}
+				{
+					id: "247ECBFC75084E67"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:the_nether/inferno"
+							}
+						}
+					}
+					title: "Gem of the incandescent Inferno"
+					type: "item"
+				}
+				{
+					id: "54ABF4609E60A6DC"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "apotheosis:core/breach"
+							}
+						}
+					}
+					title: "Breach Gem"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "30D62D7F0E1E9107"
+					stat: "minecraft:play_time"
+					title: " "
+					type: "stat"
+					value: 1
+				}
+			]
+			title: "Gem collection"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "2608140AF0F3A34C"
+			subtitle: "Mince Scholar"
+			tasks: [
+				{
+					id: "45A36415344B0BD5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "apotheosis:dormant_deepshelf"
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "forge:bookshelves"
+									}
+								}
+							]
+						}
+					}
+					title: "Normal Book shelves"
+					type: "item"
+				}
+				{
+					id: "032DF022039D8B42"
+					item: "apotheosis:echoing_deepshelf"
+					type: "item"
+				}
+				{
+					id: "3E3BBDA9E90158B3"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+				{
+					id: "343AB281166E5D8D"
+					item: "apotheosis:infused_hellshelf"
+					type: "item"
+				}
+				{
+					id: "1C907DD4453A5B98"
+					item: "apotheosis:blazing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "3AA91D2F2A394A8E"
+					item: "apotheosis:glowing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "78FD4CE6E87BA8D6"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+				{
+					id: "62C02E6FB4BDC623"
+					item: "apotheosis:infused_seashelf"
+					type: "item"
+				}
+				{
+					id: "3AADD100B4A72251"
+					item: "apotheosis:crystal_seashelf"
+					type: "item"
+				}
+				{
+					id: "135AAFF68373AF84"
+					item: "apotheosis:beeshelf"
+					type: "item"
+				}
+				{
+					id: "0F16A6719F49B55A"
+					item: "apotheosis:deepshelf"
+					type: "item"
+				}
+				{
+					id: "3CB8F36EAF8A814C"
+					item: "apotheosis:soul_touched_deepshelf"
+					type: "item"
+				}
+				{
+					id: "3E05DDC9D0E3DDEF"
+					item: "apotheosis:echoing_sculkshelf"
+					type: "item"
+				}
+				{
+					id: "4764E2BDE41FC5B7"
+					item: "apotheosis:soul_touched_sculkshelf"
+					type: "item"
+				}
+				{
+					id: "0525C64997F43168"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					id: "2DFA360AD0224833"
+					item: "apotheosis:pearl_endshelf"
+					type: "item"
+				}
+				{
+					id: "4CCC8DE010498849"
+					item: "apotheosis:draconic_endshelf"
+					type: "item"
+				}
+				{
+					id: "1AAC96641B4750E2"
+					item: "apotheosis:heart_seashelf"
+					type: "item"
+				}
+				{
+					id: "7C0B567732F89C00"
+					item: "apotheosis:melonshelf"
+					type: "item"
+				}
+				{
+					id: "7439F8668D860630"
+					item: "apotheosis:stoneshelf"
+					type: "item"
+				}
+				{
+					id: "3EA49CF46C6B9C86"
+					item: "apotheosis:rectifier"
+					type: "item"
+				}
+				{
+					id: "7BC29D5C067C50DB"
+					item: "apotheosis:rectifier_t2"
+					type: "item"
+				}
+				{
+					id: "4CB0AC0F1B85B3DA"
+					item: "apotheosis:rectifier_t3"
+					type: "item"
+				}
+				{
+					id: "583610A0365A7DCC"
+					item: "apotheosis:sightshelf"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "6CAEFC01BEEF67FA"
+					stat: "minecraft:play_time"
+					title: " "
+					type: "stat"
+					value: 1
+				}
+				{
+					id: "7AA6763B0132133F"
+					item: "apotheosis:treasure_shelf"
+					type: "item"
+				}
+				{
+					id: "593179D8A8FFFAC3"
+					item: "apotheosis:sightshelf_t2"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "47C1754AF92F7D87"
+					stat: "minecraft:mob_kills"
+					title: " "
+					type: "stat"
+					value: 1
+				}
+			]
+			title: "Shelf Collection"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Virtue: It will make any hit do no damage (after activated it will take a few seconds to recharge)"
+				""
+				"Sin: Thorns but you deal equal damage to what you were hit for"
+				""
+				"Balance: You will not lose more than half of your max hp in a hit. If under half of your HP, you will be left at a half a heart upon taking lethal damage (after activated it will take a few seconds to recharge)"
+				""
+				"Invisibility:"
+			]
+			id: "338D94F454A98C62"
+			tasks: [
+				{
+					id: "6FD3816C43504F0E"
+					item: "botania:unholy_cloak"
+					type: "item"
+				}
+				{
+					id: "2C3A9B5C4DCF556B"
+					item: "botania:balance_cloak"
+					type: "item"
+				}
+				{
+					id: "4CC5E8D79232A623"
+					item: "botania:invisibility_cloak"
+					type: "item"
+				}
+				{
+					id: "7F55D87647A46BAB"
+					item: "botania:holy_cloak"
+					type: "item"
+				}
+			]
+			title: "Botania Cloaks"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Crimson: Can't take fire/lava damage"
+				""
+				"Pyroclast: Can't take burning damage"
+				""
+				"Snowflake: Has frost walker and can't be hurt by freezing effect"
+				""
+				"Cirrus: Double Jump"
+				""
+				"Nimbus: Triple Jump"
+			]
+			id: "5FAE713572212B3F"
+			tasks: [
+				{
+					id: "248DD9E9A7DC9A87"
+					item: "botania:super_cloud_pendant"
+					type: "item"
+				}
+				{
+					id: "4960129D1677BECB"
+					item: "botania:cloud_pendant"
+					type: "item"
+				}
+				{
+					id: "4257116EE330C5AF"
+					item: "botania:ice_pendant"
+					type: "item"
+				}
+				{
+					id: "0A26F9933EA6F4F1"
+					item: "botania:lava_pendant"
+					type: "item"
+				}
+				{
+					id: "6D1A251A54E110EA"
+					item: "botania:super_lava_pendant"
+					type: "item"
+				}
+			]
+			title: "Botania Necklaces"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Sojourner's: Makes you a bit faster and jump higher (requires mana)"
+				""
+				"Tectonic: Immune to knockback"
+				""
+				"Planestrider: When sprinting, every 4 seconds you become faster. This stacks until you stop sprinting (requires mana)"
+				""
+				"Globetrotter's: Same as Sojourner's but twice as strong (requires mana)"
+			]
+			id: "30DD3D8D49C4E830"
+			tasks: [
+				{
+					id: "4FAD663FE5C0C9F8"
+					item: "botania:super_travel_belt"
+					type: "item"
+				}
+				{
+					id: "4B774406C327491F"
+					item: "botania:speed_up_belt"
+					type: "item"
+				}
+				{
+					id: "24E2BE6526F681EA"
+					item: {
+						Count: 1
+						id: "botania:knockback_belt"
+						tag: {
+							baubleUUID: [I;
+								-1352641915
+								1701334533
+								-1425629183
+								-1060729063
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "028104FE4C90EF39"
+					item: "botania:travel_belt"
+					type: "item"
+				}
+			]
+			title: "Botania Belts"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Hullabaloo: Ravager killed by Chimpanzee"
+				""
+				"Goat Horn Symphony: Goat killed by Skeleton"
+				""
+				"Otherside: Underground Chests"
+				""
+				"Disc 5: Obtained by collecting 9 Disc Fragments. The fragments are found in Ancient Cities."
+				""
+				"Atlantis: Obtained by collecting 9 Disc Fragments. Fragments are obtained by killing Great Thrashers or through underwater archaeology."
+				""
+				"Black: Created by combining Otherside and Disc 5 in a Crafting Grid."
+				""
+				"Pigstep: Found in Nether Chests"
+				""
+				"Relic: Found through archaeology in Trail Ruins"
+				""
+				"Endermosh: Found in End Chests"
+				""
+				"Ambience Discs: Spider killed by Skeleton"
+				""
+				"Delve Deeper: Obtained by killing the Conjurer"
+				""
+				"Pancake: Crafted using Sugar, Milk, Dough, and Egg in a Crafting Grid"
+				""
+				"Forged in Soul Fire: Obtained by killing the Netherite Monstrosity"
+				""
+				"The Citadel’s Last Stand: Obtained by killing the Ender Guardian"
+				""
+				"Blaze of the Inferno: Obtained by killing Ignis"
+				""
+				"Withering Meltdown: Obtained by killing the Harbinger"
+				""
+				"Abyssal Tidebreaker: Obtained by killing the Leviathan"
+				""
+				"Sands of Dominion: Obtained by killing the Ancient Remnant"
+				""
+				"Mammoth: Found in Undergarden Chests"
+				""
+				"Relict: Found in Undergarden Chests"
+				""
+				"Galactic Wave: Found in End Chests"
+				""
+				"Unknown Frontier: Found in End Chests"
+				""
+				"Peticle: Obtained by killing Frostmaw"
+				""
+				"Incarnated Evil: Found in Graveyard Chests"
+				""
+				"Slither: Found in Labyrinths (also spawn in some Nether structures)"
+				""
+				"Calidum: Found in Labyrinths"
+				""
+				"Horizon: Found in Ice Maze Chests"
+				""
+				"Forsaken Drownage: Obtained by killing the Ghost of Captain Cornelia"
+				""
+				"Population: Found in Blue Skies Binding Dungeon Chests"
+				""
+				"Blinding Rage: Obtained by killing the first Blue Skies boss"
+				""
+				"Defying Starlight: Found in Blue Skies Nature Dungeon Chests"
+				""
+				"Venomous Encounter: Found in Blue Skies Spider Dungeon Chests"
+				""
+				"Aria Biblio: Sold by Master-Level Shady Wizard"
+				""
+				"The Sound of Glass: Sold by Master-Level Shady Wizard"
+				""
+				"The Wild Hunt: Sold by Master-Level Shady Wizard"
+				""
+				"Parousia: Found in Aether Chests"
+				""
+				"Aether Tune: Found in Aether Chests"
+				""
+				"Descending Dawn: Found in Aether Chests"
+				""
+				"A Morning Wish: Obtained by Alter Enchanting Otherside"
+				""
+				"Nabooru: Obtained by Alter Enchanting Pigstep"
+				""
+				"Legacy: Found in Aether Chests"
+				""
+				"Sovereign of the Skies: Found in Aether Chests"
+				""
+				"Thime: 1% chance of obtaining it through Seal Bartering (throwing 3 fish at a Seal)"
+				""
+				"Daze: 1% chance of obtaining it through Seal Bartering (throwing 3 fish at a Seal)"
+				""
+				"Hellforged Record: Found in Blood Magic Chests"
+				""
+				"Sight: Crafted using 9 fragments. Fragments are found in Stronghold Chests"
+				""
+				"Forlorn: Found in Stronghold Chests"
+			]
+			id: "27EEDA571F8E5F2C"
+			subtitle: "Nice vinyl collection!"
+			tasks: [
+				{
+					id: "403FC09B5A7EAEEF"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "68E490B1ED8452CE"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "6CF481F9FB6AB363"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					id: "3C953030537523BB"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					id: "63A72F3624ADC935"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					id: "6B6124A25BEE80FB"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					id: "44D3992EFBC2D2C6"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					id: "1E8CEC972F5C7759"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					id: "75DD3D07131E2675"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					id: "091ECCCD62298C34"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "4264528935E2974B"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					id: "7F41EBEE5652E599"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "041D5A2F780A6E64"
+					item: "neapolitan:music_disc_hullabaloo"
+					type: "item"
+				}
+				{
+					id: "253CE7C7666B8E62"
+					item: "wilderwild:music_disc_goathorn_symphony"
+					type: "item"
+				}
+				{
+					id: "2C63CD55822A16C4"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "287886DAEF8B1E5C"
+					item: "berry_good:music_disc_fox"
+					type: "item"
+				}
+				{
+					id: "151099A6EBF1DE61"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "38B785CE023426C7"
+					item: "upgrade_aquatic:music_disc_atlantis"
+					type: "item"
+				}
+				{
+					id: "46C94B0283C10557"
+					item: "wilderwild:music_disc_back"
+					type: "item"
+				}
+				{
+					id: "235C20991BA937C6"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					id: "7BC2033985057CE6"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+				{
+					id: "3CD603C54FE21FD9"
+					item: "quark:music_disc_endermosh"
+					type: "item"
+				}
+				{
+					id: "371942C03255CFF8"
+					item: "quark:music_disc_chatter"
+					type: "item"
+				}
+				{
+					id: "63BCC0C1C25A83DA"
+					item: "quark:music_disc_crickets"
+					type: "item"
+				}
+				{
+					id: "05B99E385D98F8A8"
+					item: "quark:music_disc_clock"
+					type: "item"
+				}
+				{
+					id: "620A89C2546DFB24"
+					item: "quark:music_disc_fire"
+					type: "item"
+				}
+				{
+					id: "6EC96468482C42FE"
+					item: "quark:music_disc_wind"
+					type: "item"
+				}
+				{
+					id: "6A2E1756FFC81893"
+					item: "quark:music_disc_rain"
+					type: "item"
+				}
+				{
+					id: "2424B91297322C3F"
+					item: "quark:music_disc_ocean"
+					type: "item"
+				}
+				{
+					id: "2E8236131981C4AA"
+					item: "quark:music_disc_drips"
+					type: "item"
+				}
+				{
+					id: "067D0A00FD629684"
+					item: "conjurer_illager:music_disc_delve_deeper"
+					type: "item"
+				}
+				{
+					id: "2C762D580850D5E0"
+					item: "supplementaries:pancake"
+					type: "item"
+				}
+				{
+					id: "2B5ED9CE6A58F78A"
+					item: "botania:record_gaia_1"
+					type: "item"
+				}
+				{
+					id: "79589F0C617EA11E"
+					item: "botania:record_gaia_2"
+					type: "item"
+				}
+				{
+					id: "147376955D0B966D"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					id: "42AF4337EC4E97D4"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "03F18206E3B94EC3"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					id: "7A1D4B67C99C985F"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "6D09EC912122D6EF"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					id: "75ED5F4DF8459E43"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					id: "3D790142771E6849"
+					item: "undergarden:music_disc_mammoth"
+					type: "item"
+				}
+				{
+					id: "14CC9AB0C82A1551"
+					item: "undergarden:music_disc_limax_maximus"
+					type: "item"
+				}
+				{
+					id: "4D0814D8F49BE914"
+					item: "undergarden:music_disc_relict"
+					type: "item"
+				}
+				{
+					id: "5F7B0CE9BAA7750B"
+					item: "undergarden:music_disc_gloomper_anthem"
+					type: "item"
+				}
+				{
+					id: "0BCAF0D66F7FC849"
+					item: "outer_end:music_disc_galactic_wave"
+					type: "item"
+				}
+				{
+					id: "38AB2C6FCAC4BE27"
+					item: "outer_end:music_disc_unknown_frontier"
+					type: "item"
+				}
+				{
+					id: "669DC670DA6A5B37"
+					item: "mowziesmobs:music_disc_petiole"
+					type: "item"
+				}
+				{
+					id: "1A86DD47AB232459"
+					item: "graveyard:incarnated_evil_music_disc"
+					type: "item"
+				}
+				{
+					id: "5C5C9A68E54C2B12"
+					item: "idas:music_disc_slither"
+					type: "item"
+				}
+				{
+					id: "15EDDA022A107A5B"
+					item: "idas:music_disc_calidum"
+					type: "item"
+				}
+				{
+					id: "4A452704F4FC8F87"
+					item: "ecologics:music_disc_coconut"
+					type: "item"
+				}
+				{
+					id: "1ECD479DF3BF759C"
+					item: "aquamirae:music_disc_horizon"
+					type: "item"
+				}
+				{
+					id: "64447F2EADD16F30"
+					item: "aquamirae:music_disc_forsaken_drownage"
+					type: "item"
+				}
+				{
+					id: "36C235FD30B4C5E9"
+					item: "blue_skies:population"
+					type: "item"
+				}
+				{
+					id: "5B09786D572890EF"
+					item: "blue_skies:blinding_rage"
+					type: "item"
+				}
+				{
+					id: "27E0AD2BD52B142C"
+					item: "blue_skies:defying_starlight"
+					type: "item"
+				}
+				{
+					id: "3296B52110836218"
+					item: "blue_skies:venomous_encounter"
+					type: "item"
+				}
+				{
+					id: "06033804B5CADE6F"
+					item: "ars_nouveau:music_disc_aria_biblio"
+					type: "item"
+				}
+				{
+					id: "40C38AA84AD16D37"
+					item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
+					type: "item"
+				}
+				{
+					id: "2A735E8797E785F4"
+					item: "ars_nouveau:music_disc_firel_the_wild_hunt"
+					type: "item"
+				}
+				{
+					id: "4CBA1E9AEBD7AEB2"
+					item: "eidolon:music_disc_parousia"
+					type: "item"
+				}
+				{
+					id: "21B700522C10F14E"
+					item: "aether:music_disc_aether_tune"
+					type: "item"
+				}
+				{
+					id: "5C7B3572E2160C54"
+					item: "aether:music_disc_ascending_dawn"
+					type: "item"
+				}
+				{
+					id: "3849E5DDCCDB9E5A"
+					item: "aether_redux:slider_music_disc"
+					type: "item"
+				}
+				{
+					id: "0F4E732565B93BC1"
+					item: "deep_aether:music_disc_a_morning_wish"
+					type: "item"
+				}
+				{
+					id: "2A2A30BC7559261B"
+					item: "deep_aether:music_disc_nabooru"
+					type: "item"
+				}
+				{
+					id: "3B92F883BE5C04D1"
+					item: "lost_aether_content:music_disc_legacy"
+					type: "item"
+				}
+				{
+					id: "1DE31EB6032EF961"
+					item: "lost_aether_content:music_disc_sovereign_of_the_skies"
+					type: "item"
+				}
+				{
+					id: "1AE010B9868C8138"
+					item: "lost_aether_content:music_disc_sovereign_of_the_skies"
+					type: "item"
+				}
+				{
+					id: "1D505850E4713B82"
+					item: "alexsmobs:music_disc_thime"
+					type: "item"
+				}
+				{
+					id: "73F1190A9C1B1AED"
+					item: "alexsmobs:music_disc_daze"
+					type: "item"
+				}
+				{
+					id: "5C90B6C64FE8F009"
+					item: "bloodmagic:bleedingedge"
+					type: "item"
+				}
+				{
+					id: "24566AFA48560621"
+					item: "alexscaves:music_disc_fusion"
+					type: "item"
+				}
+				{
+					id: "5DA21D5A8344EC23"
+					item: "integrated_stronghold:music_disc_sight"
+					type: "item"
+				}
+				{
+					id: "08101E234F3B7685"
+					item: "integrated_stronghold:music_disc_forlorn"
+					type: "item"
+				}
+				{
+					id: "6F148A9D669D3FCE"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+			]
+			title: "Collect Every Music Disc"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	title: "Challenges"
+}

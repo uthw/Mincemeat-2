@@ -1957,8 +1957,8 @@
 				item: "enderio:sag_mill"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["16CCD414DF230E54"]
@@ -2846,6 +2846,41 @@
 			title: "Trash Can"
 			x: -2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["4DBC82BD55237E6A"]
+			id: "570456AF86EE7ED6"
+			subtitle: "More powerful Pulverizer."
+			tasks: [{
+				id: "0DF083049EA09BE2"
+				item: "actuallyadditions:crusher"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5F68AE8317D33D19"]
+			id: "70E114954B563351"
+			tasks: [
+				{
+					id: "7FA006515386A7FD"
+					item: "actuallyadditions:atomic_reconstructor"
+					type: "item"
+				}
+				{
+					id: "2EA5EF9652146D7B"
+					item: "actuallyadditions:enori_crystal"
+					type: "item"
+				}
+				{
+					id: "7ACA8DA3E96C8883"
+					item: "actuallyadditions:restonia_crystal"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.5d
 		}
 	]
 	title: "Tech Level 1"

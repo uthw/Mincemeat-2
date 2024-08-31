@@ -614,6 +614,32 @@
 			x: -2.5d
 			y: -2.0d
 		}
+		{
+			description: [
+				"Most would say this is a snake, but it's actually a worm. These &lworms&r pop out of the ground on any lunar dirt or grass blocks."
+				""
+				"They don't do anything."
+			]
+			id: "69CCC431ABAAABBE"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "blue_skies:sliv"
+					}
+				}
+				id: "1B67164214DAE10E"
+				observe_type: 5
+				timer: 0L
+				title: "Sliv"
+				to_observe: "blue_skies:sliv"
+				type: "observation"
+			}]
+			title: "Sliv"
+			x: 1.5d
+			y: 3.0d
+		}
 	]
 	title: "Everbright/Everdawn"
 }

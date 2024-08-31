@@ -7,6 +7,7 @@
 	id: "2BED532CEDEE8CE1"
 	images: [
 		{
+			dependency: "4A98B0635371C46A"
 			height: 1.0d
 			image: "iceandfire:item/fishing_spear"
 			rotation: 0.0d
@@ -1734,6 +1735,7 @@
 				""
 				"Tempered: This will imporve the armor penatrateion on your sword."
 			]
+			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "504FEF17493FD0C4"
 			tasks: [{
@@ -1755,6 +1757,8 @@
 				""
 				"Basic handles are a middle ground between the two, but don't have a throw."
 			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
 			id: "4A98B0635371C46A"
 			tasks: [
 				{
@@ -3673,6 +3677,7 @@
 				"The Blunt End, which you can create by Warforging a tool, is great. It increases speed and retains some of the Warforge effects from the other side, such as the hammer's slam move. This is useful because it allows you to change the left side of a tool without needing to Warforge it."
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "tetra:modular_double"
@@ -3970,6 +3975,7 @@
 		{
 			dependencies: ["4A98B0635371C46A"]
 			description: ["Canes are one of the few ways to increase your movement speed in Tetra. They are based on the density stat of the material you use for the head. Density can be found in the materials section of the Holosphere."]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "tetra:modular_single"
@@ -4023,7 +4029,8 @@
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
-			description: ["This flail is obtained by finding an Ancient Flail in an Ancient City and mixing it with Shards of Malice. This flail significantly improves all stats but has only 31 base durability. However, it makes up for that with its effects, which are extremely powerful"]
+			description: ["This flail is obtained by finding an Ancient Flail in an Ancient City and mixing it with Shards of Malice. This flail significantly improves all stats but has only 31 base durability. However, it makes up for that with its effects, which are extremely powerful."]
+			hide_dependency_lines: true
 			id: "60E17C462DA42DFA"
 			shape: "square"
 			subtitle: "This adds the most amount of effects in one modlue"
@@ -4037,7 +4044,8 @@
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
-			description: ["Halberds are stronger versions of spears. They deal more damage and have a high chance to stun mobs in place, making it easy to kill them."]
+			description: ["Halberds are stronger versions of spears. They deal more damage and have a high chance to stun mobs in place, making it easy to kill them. They can also be placed on polearms."]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "tetra:modular_single"
@@ -4089,12 +4097,13 @@
 				type: "item"
 			}]
 			title: "Halberds"
-			x: 7.0d
-			y: -7.0d
+			x: 6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
 			description: ["The mace is the opposite of other spears, as it does not extend your range but actually lowers it. Your base range is just 1 block, and it deals less damage than a halberd. However, it has the strongest crushing effect of any schematic in Tetra, meaning any armored mob will be demolished. (Crushing ensures you deal a minimum amount of damage; for example, if your crushing is level 6, you cannot deal less than 6 damage in one hit.)"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "tetra:modular_single"
@@ -4144,8 +4153,8 @@
 				type: "item"
 			}]
 			title: "Mace"
-			x: 6.0d
-			y: -8.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3A686777F1FBD28E"]
@@ -4335,6 +4344,221 @@
 			title: "Tetra Cutting Implement"
 			x: -3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: ["This polearm is a faster version of the basic spearhead. "]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "76251AD0F3D7ED1E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "835570b0-c7df-43f8-9fc2-7b69d35555f4"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/glaive_head_material": "glaive_head/iron"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/glaive_head"
+						weapon_attributes: "{\"parent\":\"bettercombat:glaive\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"glaive\",\"attacks\":[{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_left\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.4,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_slow\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "6518555DF4A83794"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/glaive_head"
+						}
+					}
+				}
+				title: "Glaive"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: [
+				"This polearm is a faster version of the basic spearhead and also is very effective aginst armored mobs, such as bosses. "
+				""
+				"When thrown, a lance with a light handle will launch you instead of the weapon."
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "56D13389FDE326E4"
+			shape: "square"
+			size: 1.0d
+			subtitle: "Never herd of the armor stat"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "c8faf2c2-6554-47bf-acff-748d4cc40f15"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/lance_head"
+						"polearm/lance_head_material": "lance_head/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:lance\",\"attributes\":{\"attack_range\":3.75,\"two_handed\":false,\"category\":\"lance\",\"attacks\":[{\"conditions\":[\"NOT_MOUNTED\"],\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"conditions\":[\"MOUNTED\"],\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab_mounted\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "612C1DEDECA7B27B"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/lance_head"
+						}
+					}
+				}
+				title: "Lance"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: ["This polearm lowers damage but increases range and speed."]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "6FC621B9AB60C2C2"
+			shape: "square"
+			size: 1.0d
+			subtitle: "GET AWAY FROM ME please"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "aee3ef10-62fa-4154-a895-c7f7f961e359"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/pike_head"
+						"polearm/pike_head_material": "pike_head/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:pike\",\"attributes\":{\"attack_range\":4.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"pike\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_left\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "44A76006622E7070"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/pike_head"
+						}
+					}
+				}
+				title: "Pike"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: ["This polearm trades out a poking attack for a sweeping one."]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "365F98D26EF346D9"
+			shape: "square"
+			size: 1.0d
+			subtitle: "Short pikes"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 239
+						id: "17e26716-05cf-460f-ae11-abc4c378d3b7"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/handle/settle_progress": 288
+						"polearm/head": "polearm/scythe_head"
+						"polearm/head/settle_progress": 441
+						"polearm/scythe_head_material": "scythe_head/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:scythe\",\"attributes\":{\"attack_range\":3.5,\"pose\":\"bettercombat:pose_two_handed_scythe\",\"two_handed\":true,\"category\":\"scythe\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "7074C4A46DA4AC2A"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/scythe_head"
+						}
+					}
+				}
+				title: "Scythe"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: [
+				"This polearm is faster, but trades off damage."
+				""
+				"The real benefit to using a trident is that it's the only one-handed polearm head."
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "7B3952F11A2929C6"
+			shape: "square"
+			size: 1.0d
+			subtitle: "It looks cool"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 239
+						id: "7dc8c1cd-62d6-47b9-9b76-0f6492e39084"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/handle/settle_progress": 288
+						"polearm/head": "polearm/trident"
+						"polearm/trident_material": "trident/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:trident\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"\",\"two_handed\":false,\"category\":\"trident\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "351E5287CA518F1D"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/trident"
+						}
+					}
+				}
+				title: "Trident"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
 		}
 	]
 	title: "Equipment"
