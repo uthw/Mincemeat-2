@@ -1,0 +1,266 @@
+[[entities]]
+entity = "minecraft:creeper"
+minTier = 0
+maxTier = 4
+presetAffixes = []
+affixList = ["knocking", "wounding", "paralyzing", "molten"]
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "iceandfire:fire_dragon"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "iceandfire:ice_dragon"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "iceandfire:lightning_dragon"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "iceandfire:hydra"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "twilightforest:armored_giant"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "alexsmobs:void_worm"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "atum:pharaoh"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "undergarden:forgotten_guardian"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "cataclysm:ignis"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "cataclysm:ender_golem"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "cataclysm:ender_guardian"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "cataclysm:netherite_monstrosity"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "blue_skies:summoner"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "blue_skies:alchemist"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "blue_skies:starlit_crusher"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "blue_skies:arachnarch"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "botania:pink_wither"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "botania:doppleganger"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "meetyourfight:bellringer"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "meetyourfight:dame_fortuna"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "meetyourfight:swampjaw"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "meetyourfight:bellringer"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "forestcraft:beequeen"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "forestcraft:iguana_king"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "forestcraft:archaic_sentinel"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "forestcraft:cosmic_fiend"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "forestcraft:nether_scourge"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "mowziesmobs:wroughtnaut"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "mowziesmobs:barako"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "mowziesmobs:frostmaw"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "mod_lavacow:skeletonking"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "ars_nouveau:wilden_guardian"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "aquamirae:maze_mother"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "aquamirae:captain_cornelia"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "mowziesmobs:ferrous_wroughtnaut"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "mowziesmobs:frostmaw"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
+[[entities]]
+entity = "mowziesmobs:umvuthi"
+minTier = 0
+maxTier = 0
+presetAffixes = []
+affixList = []
+affixPermission = "BLACKLIST"
