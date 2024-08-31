@@ -406,6 +406,31 @@
         }
       },
       "particlesPerDamage": 1
+    },
+    "temperature": {
+      "enabled": true,
+      "opacity": 0.6064257,
+      "defaultIntensity": 0,
+      "mediumIntensity": 0.2,
+      "maxIntensity": 0.3,
+      "fadeFactor": 0.005,
+      "freeze": {
+        "disabled": false,
+        "opacity": 1.0,
+        "animationSpeed": 0
+      },
+      "heat": {
+        "disabled": false,
+        "opacity": 1.0,
+        "animationSpeed": 0
+      },
+      "coldestTemperature": -100,
+      "hypotheremiaTemperature": -75,
+      "coldTemperature": -50,
+      "defaultTemperature": 0,
+      "warmTemperature": 50,
+      "hyperthermiaTemperature": 75,
+      "hottestTemperature": 100
     }
   }
 }
