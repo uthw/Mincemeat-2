@@ -221,10 +221,17 @@ ServerEvents.highPriorityData((event) => {
                 { item: "betternether:nether_ruby_leggings", weight: 10 },
                 { item: "betternether:nether_ruby_boots", weight: 10 },
 
+                { item: "galosphere:sterling_helmet", weight: 18 },
+                { item: "galosphere:sterling_chestplate", weight: 18 },
+                { item: "galosphere:sterling_leggings", weight: 18 },
+                { item: "galosphere:sterling_boots", weight: 18 },
+
                 // { item: "betternether:flaming_ruby_helmet", weight: 4 },
                 // { item: "betternether:flaming_ruby_chestplate", weight: 4 },
                 // { item: "betternether:flaming_ruby_leggings", weight: 4 },
                 // { item: "betternether:flaming_ruby_boots", weight: 4 },
+
+                { item: "autumnity:snail_shell_chestplate", weight: 10 },
             ],
         },
         {
