@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
             "create:millstone",
             [" A ", "BCB", "DBD"],
             {
-                A: "#forge:gears/tin",
+                A: "#forge:ingots/tin",
                 B: "create:andesite_alloy",
                 C: "create:cogwheel",
                 D: "minecraft:smooth_sandstone",
