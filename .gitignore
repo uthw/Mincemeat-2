@@ -5,7 +5,7 @@
 att-debug/
 coremods/
 crash-reports/
-data/
+# data/
 debug/
 fancymenu_data/
 fancymenu_setups/
