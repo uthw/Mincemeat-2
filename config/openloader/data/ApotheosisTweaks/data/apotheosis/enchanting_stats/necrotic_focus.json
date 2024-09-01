@@ -1,0 +1,8 @@
+{
+    "block": "eidolon:necrotic_focus",
+    "stats": {
+        "maxEterna": 15,
+        "eterna": 2,
+        "quanta": -5
+    }
+}

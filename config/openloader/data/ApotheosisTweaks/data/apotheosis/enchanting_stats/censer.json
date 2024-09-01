@@ -1,0 +1,8 @@
+{
+    "block": "eidolon:censer",
+    "stats": {
+        "maxEterna": 16,
+        "eterna": 1.5,
+        "quanta": 3
+    }
+}

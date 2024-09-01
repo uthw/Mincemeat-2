@@ -1,0 +1,9 @@
+{
+    "block": "bosses_of_mass_destruction:mob_ward",
+    "stats": {
+        "maxEterna": 45,
+        "eterna": 30,
+        "quanta": 15,
+        "arcana": 45
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "block": "bosses_of_mass_destruction:levitation_block",
+    "stats": {
+        "maxEterna": 25,
+        "eterna": 10,
+        "quanta": 8,
+        "arcana": 4
+    }
+}

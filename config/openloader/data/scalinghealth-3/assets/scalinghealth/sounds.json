@@ -1,0 +1,23 @@
+{
+    "cursed_heart_use": {
+        "category": "player",
+        "subtitle": "scalinghealth.subtitle.cursed_heart_use",
+        "sounds": [
+            "minecraft:random/fizz"
+        ]
+    },
+    "enchanted_heart_use": {
+        "category": "player",
+        "subtitle": "scalinghealth.subtitle.enchanted_heart_use",
+        "sounds": [
+            "minecraft:block/enchantment_table/enchant1"
+        ]
+    },
+    "heart_crystal_use": {
+        "category": "player",
+        "subtitle": "scalinghealth.subtitle.heart_crystal_use",
+        "sounds": [
+            "scalinghealth:heart_crystal_use"
+        ]
+    }
+}

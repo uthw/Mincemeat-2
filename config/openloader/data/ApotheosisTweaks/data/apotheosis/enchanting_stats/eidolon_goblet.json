@@ -1,0 +1,11 @@
+{
+    "block": "eidolon:goblet",
+    "stats": {
+        "maxEterna": 18,
+        "eterna": 1.5,
+        "quanta": 1.5,
+        "arcana": 1.5,
+        "rectification": 0,
+        "clues": 0
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "For some reason doing this in KubeJS crashes the game so here we are, old friend OpenLoader",
+        "pack_format": 18
+    }
+}

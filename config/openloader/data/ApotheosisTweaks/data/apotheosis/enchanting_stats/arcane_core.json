@@ -1,0 +1,9 @@
+{
+    "block": "ars_nouveau:arcane_core",
+    "stats": {
+        "maxEterna": 15,
+        "eterna": 4,
+        "quanta": 2,
+        "arcana": 2
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "block": "alexscaves:beholder",
+    "stats": {
+        "maxEterna": 20,
+        "eterna": 4,
+        "quanta": -15
+    }
+}

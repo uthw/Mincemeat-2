@@ -1,0 +1,11 @@
+{
+    "block": "irons_spellbooks:alchemist_cauldron",
+    "stats": {
+        "maxEterna": 15,
+        "eterna": 4,
+        "arcana": 4,
+        "quanta": 0,
+        "rectification": 0,
+        "clues": 0
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "block": "alexscaves:abyssal_altar",
+    "stats": {
+        "maxEterna": 20,
+        "eterna": 4,
+        "arcana": 2
+    }
+}

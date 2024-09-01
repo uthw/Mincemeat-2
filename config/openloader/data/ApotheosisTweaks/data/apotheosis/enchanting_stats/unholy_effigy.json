@@ -1,0 +1,8 @@
+{
+    "block": "eidolon:unholy_effigy",
+    "stats": {
+        "maxEterna": 15,
+        "eterna": 5,
+        "quanta": 10
+    }
+}

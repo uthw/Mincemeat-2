@@ -1,0 +1,84 @@
+{
+    "healthMode": {
+        "operation": "MULTIPLY_BASE",
+        "scaling_reduction": 0.5
+    },
+    "general": {
+        "passiveMultiplier": 0.05,
+        "hostileMultiplier": 0.35,
+        "hostilePotionChance": 0.01,
+        "peacefulPotionChance": 0,
+        "damageBoostScale": 0.4,
+        "maxDamageBoost": 30,
+        "spawnerModifier": 0.2,
+        "xpBoost": 0.06
+    },
+    "effects": [
+        {
+            "effect": "minecraft:strength",
+            "level": 1,
+            "minDifficulty": 30,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "minecraft:fire_resistance",
+            "level": 1,
+            "minDifficulty": 10,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "minecraft:resistance",
+            "level": 1,
+            "minDifficulty": 65,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "alexsmobs:knockback_resistance",
+            "level": 1,
+            "minDifficulty": 25,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "aquamirae:swim_speed",
+            "level": 1,
+            "minDifficulty": 10,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "eidolon:reinforced",
+            "level": 1,
+            "minDifficulty": 40,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "eidolon:anchored",
+            "level": 1,
+            "minDifficulty": 50,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "alexsmobs:clinging",
+            "level": 1,
+            "minDifficulty": 20,
+            "durationInMinutes": 10.0
+        }
+    ],
+    "blights": {
+        "blightChance": 0.005,
+        "blightXpBoost": 2.2,
+        "notifyBlightDeath": false,
+        "blightDifficultyModifier": 1.4,
+        "effects": [
+            {
+                "effect": "minecraft:fire_resistance",
+                "level": 1,
+                "minDifficulty": 0,
+                "durationInMinutes": 10.0
+            }
+        ]
+    },
+    "pets": {
+        "petsRegenDelay": 30,
+        "petsHealthCrystalGain": 4
+    }
+}

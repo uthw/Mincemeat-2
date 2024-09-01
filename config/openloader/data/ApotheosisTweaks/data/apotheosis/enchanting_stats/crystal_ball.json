@@ -1,0 +1,9 @@
+{
+    "block": "hexerei:crystal_ball",
+    "stats": {
+        "maxEterna": 17.5,
+        "eterna": 2,
+        "arcana": 5,
+        "rectification": 1
+    }
+}

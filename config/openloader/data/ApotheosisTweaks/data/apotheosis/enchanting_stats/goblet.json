@@ -1,0 +1,9 @@
+{
+    "block": "supplementaries:goblet",
+    "stats": {
+        "maxEterna": 15,
+        "eterna": 0.5,
+        "quanta": 0.5,
+        "arcana": 0.5
+    }
+}
