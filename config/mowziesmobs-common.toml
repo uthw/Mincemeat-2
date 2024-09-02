@@ -363,7 +363,7 @@
 		[mobs.grottol.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 2
+			spawn_rate = 3
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -422,7 +422,7 @@
 		[mobs.lantern.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 5
+			spawn_rate = 6
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
