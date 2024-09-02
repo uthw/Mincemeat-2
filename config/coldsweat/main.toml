@@ -2,7 +2,7 @@
 #DO NOT EDIT THE SETTINGS IN THIS SECTION
 [Builtin]
 	#Range: 0 ~ 4
-	Difficulty = 2
+	Difficulty = 4
 	Version = "2.3.3"
 
 [Difficulty]
@@ -35,7 +35,7 @@
 		#Defines the distance at which the player's vision is obscured by heatstroke fog
 		#Set to a value above 64 to disable the effect
 		#Range: 0.0 ~ Infinity
-		"Heatstroke Fog" = 6.0
+		"Heatstroke Fog" = 8.32
 
 	["Temperature Effects".Cold]
 		#When set to true, this percentage of the player's hearts will freeze over when they are too cold, preventing regeneration
@@ -49,7 +49,7 @@
 		#When set to true, the player's movement speed will be reduced by this amount when they are too cold
 		#Represented as a percentage
 		#Range: 0.0 ~ 1.0
-		"Chilled Movement Slowdown" = 0.5
+		"Chilled Movement Slowdown" = 0.25
 		#When set to true, the player's mining speed will be reduced by this amount when they are too cold
 		#Represented as a percentage
 		#Range: 0.0 ~ 1.0
