@@ -2414,6 +2414,8 @@
 				"The Chameleon Mote is shed by chameleons while alive."
 				""
 				"It provides adaptive resistance to the elements, which is effective regardless of whether you're too hot or too cold."
+				""
+				"Other items exist which also provide adaptive resistance, which you may find in your travels."
 			]
 			id: "58DA27E383298761"
 			tasks: [{
@@ -2426,6 +2428,13 @@
 		}
 		{
 			dependencies: ["5818946310414790"]
+			description: [
+				"Fill a waterskin by filling it with water at a water source."
+				""
+				"When placed in the top slot of an icebox or boiler, the water inside will have its temperature changed."
+				""
+				"The waterskin can then be consumed to increase or decrease your temperature, or can be passively be held to apply the change more slowly (changing the temperature of the waterskin)"
+			]
 			id: "22196240064E75A8"
 			tasks: [{
 				id: "0F9A1126F22BA742"
