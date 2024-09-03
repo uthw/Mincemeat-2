@@ -60,7 +60,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["0063059B2778D392"]
+			dependencies: ["74DFDA59CB8BB00E"]
 			description: [""]
 			icon: {
 				Count: 1
@@ -79,11 +79,11 @@
 				value: 1L
 			}]
 			title: "Kill the &lSummoner"
-			x: -0.5d
-			y: -4.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["0063059B2778D392"]
+			dependencies: ["15BB94E145146F70"]
 			icon: {
 				Count: 1
 				id: "blue_skies:loot_bag_alchemist"
@@ -101,8 +101,8 @@
 				value: 1L
 			}]
 			title: "Kill the &lAlchemist"
-			x: 1.0d
-			y: -4.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["792A8A1D64F2208D"]
@@ -112,7 +112,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			subtitle: "Found in large temples rarely found in the Everbright"
+			subtitle: "Found in large Nature Dungeons rarely found in the Everbright"
 			tasks: [{
 				entity: "blue_skies:starlit_crusher"
 				icon: {
@@ -128,8 +128,8 @@
 				value: 1L
 			}]
 			title: "Kill &lStarlit Crusher"
-			x: 0.0d
-			y: -5.5d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["589E89E98F33C8D7"]
@@ -139,7 +139,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			subtitle: "Found in dungeons deep underground in the Everdawn"
+			subtitle: "Found in Poison Dungeons deep underground in the Everdawn"
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: {
@@ -1308,6 +1308,206 @@
 			}]
 			x: 2.5d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"74DFDA59CB8BB00E"
+				"15BB94E145146F70"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Since things from the Overworld don't work as well here, better start anew with these precious materials."
+				""
+				"Each can be made into weapons and armor."
+				""
+				"Highlights:"
+				""
+				"Horizonite has innate automatic smelting of mined items."
+				""
+				"Charoite and diopside are roughly neck-and-neck in their viability. The latter is slower but more powerful, and diopside armor trades out some protection for very high toughness."
+			]
+			id: "018BB3C2F0B47B58"
+			tasks: [
+				{
+					id: "1A987C8EE85A60EE"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+				{
+					id: "3FA9A445B0D8E2D3"
+					item: "blue_skies:pyrope_gem"
+					type: "item"
+				}
+				{
+					id: "14310D020F497314"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+				{
+					id: "4863C2CC0ADE844D"
+					item: "blue_skies:diopside_gem"
+					type: "item"
+				}
+				{
+					id: "4F91432F119443C6"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
+			title: "Blue Skies Metals and Gems"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74DFDA59CB8BB00E"]
+			description: [
+				"Common shrubbery native to the Everbright. They provide nice snacks, and some of them have unique qualities that make them useful."
+				""
+				"Plain brewberries, while otherwise forgettable, can be eaten rather quickly."
+				""
+				"Pink brewberries have been observed growing on cherry grass. Its strong concentration of vitamins provide stimulation for its consumer's regenerative abilities."
+				""
+				"Black brewberries, found to grow on mycelium, act as an antidote for poisons that may be in the consumer's body."
+			]
+			id: "0CD2CCC4A4AA9472"
+			subtitle: "Berry nice!"
+			tasks: [
+				{
+					id: "4F56171A7E72D759"
+					item: "blue_skies:brewberry"
+					type: "item"
+				}
+				{
+					id: "16D86CEC99163542"
+					item: "blue_skies:pink_brewberry"
+					type: "item"
+				}
+				{
+					id: "5F46BAE321FEE3CB"
+					item: "blue_skies:black_brewberry"
+					type: "item"
+				}
+			]
+			title: "Brewberries"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			id: "74DFDA59CB8BB00E"
+			invisible: true
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "240D6AD7AB1A7525"
+				title: "Enter the Everbright"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0063059B2778D392"]
+			id: "15BB94E145146F70"
+			invisible: true
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "1B9271FEA6B47CFE"
+				title: "Enter the Everdawn"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15BB94E145146F70"]
+			description: [
+				"These pelts can be looted from deceased Cosmic Foxes. Sew them into your armor to provide heat and cold resistance."
+				""
+				"Alternatively, craft the Camel Saddle, allowing you to ride Crystal Camels."
+			]
+			id: "07DFF42EDED14F65"
+			tasks: [
+				{
+					id: "0505CE4BC8DAEB52"
+					item: "blue_skies:fox_pelt"
+					type: "item"
+				}
+				{
+					id: "5126C0B77EA9C96D"
+					item: "blue_skies:camel_saddle"
+					type: "item"
+				}
+			]
+			title: "Befriending Animals"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15BB94E145146F70"]
+			description: ["Grows into a special tree whose wood can't be burnt, but it is not useful for things normal wood is."]
+			id: "306B76D7A00B733E"
+			tasks: [{
+				id: "5C2AD6A84BB8871F"
+				item: "blue_skies:crystal_flower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74DFDA59CB8BB00E"]
+			id: "0CE2D21CC9D8E416"
+			tasks: [
+				{
+					id: "73A0A59B0BBF1E1C"
+					item: "blue_skies:snowcap_mushroom"
+					type: "item"
+				}
+				{
+					id: "1FC85A3C047360C6"
+					item: "blue_skies:pine_fruit"
+					type: "item"
+				}
+				{
+					id: "228B4921650B7D2C"
+					item: "blue_skies:comet_berries"
+					type: "item"
+				}
+				{
+					id: "4AC8A1E759073DA1"
+					item: "blue_skies:cryo_root"
+					type: "item"
+				}
+			]
+			title: "Everbright Foliage Collection"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15BB94E145146F70"]
+			id: "53933AF9287F3491"
+			tasks: [
+				{
+					id: "2E0C9523A17333FE"
+					item: "blue_skies:fiery_beans"
+					type: "item"
+				}
+				{
+					id: "3F0FFB7D7B2663A9"
+					item: "blue_skies:bug_guts"
+					type: "item"
+				}
+				{
+					id: "16038DFF62364558"
+					item: "blue_skies:cooked_monitor_tail"
+					type: "item"
+				}
+			]
+			title: "Everdawn Delicacies"
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	title: "Dimensional Adventure"
