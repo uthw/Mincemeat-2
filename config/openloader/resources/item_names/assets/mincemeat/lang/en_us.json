@@ -78,7 +78,7 @@
     "effect.enigmaticlegacy.blazing_strength.description": "Granted by Bulwark of Blazing Pride. Increases attack damage.",
     "effect.enigmaticlegacy.molten_heart.description": "Grants immunity to damage from fire and lava, and allows vision while submerged in lava.",
     "effect.enigmaticlegacy.growing_hunger.description": "Caused by holding the Voracious Pan. Increases attack damage at the expense of hunger as long as it's held.",
-    "effect.enigmaticlegacy.growing_hunger.description": "Caused by holding the Voracious Pan. Boosts damage and lifesteal.",
+    "effect.enigmaticlegacy.growing_bloodlust.description": "Caused by holding the Voracious Pan. Boosts damage and lifesteal.",
     "effect.everythingiscopper.copper_poisoning": "Copper Poisoning",
     "effect.everythingiscopper.copper_poisoning.description": "Decreases the health of those with foolishness deep enough to eat a copper nugget.",
     "effect.feathers.endurance.description": "The player has additional, golden feathers, which are extensions of their feathers meter and don't regenerate when used.",
@@ -108,5 +108,11 @@
     "effect.tetra.suspended.description": "Greatly increases jump height and reduces falling speed.",
     "effect.tetra.mining_speed.description": "Increases mining speed.",
     "effect.xaerominimap:no_minimap.description": "Hides the minimap from the HUD.",
-    "effect.occultism.third_eye.description": "Allows the curious and possibly sickened gourmand to see blocks from another plane."
+    "effect.occultism.third_eye.description": "Allows the curious and possibly sickened gourmand to see blocks from another plane.",
+    "effect.cold_sweat.chill_description": "Low internal body temperature brings about hypothermia and eventually death if left untreated.",
+    "effect.cold_sweat.warmth.description": "High internal body temperature causes fatigue and eventually death not dealt with in time.",
+    "effect.cold_sweat.grace.description": "Nullifies the effects of extreme temperature.",
+    "effect.cold_sweat.ice_resistance.description": "Prevents freezing and damage from powdered snow and hypothermia.",
+    "effect.champions.wound.description": "The open wound makes healing less effective and increases vulnerability to further damage.",
+    "effect.champions.paralysis.description": "The body is temporarily paralyzed, preventing movement."
 }
