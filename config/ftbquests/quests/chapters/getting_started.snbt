@@ -1542,16 +1542,24 @@
 			description: [
 				"If you want to put an affix onto an item you crafted yourself, or something you found that doesn't have an affix, you can use a Reforging Table."
 				""
-				"You will need the item, Gem Dust, and a Rarity Material from salvaging a different affixed item."
+				"You will need the item, Gem Dust, Sigils of Rebirth, and a Rarity Material from salvaging a different affixed item."
 				""
 				"The reforging table works like an enchantment table. You pay in XP and the two materials to add affixes to your item."
 			]
 			id: "23575BBFCB90042C"
-			tasks: [{
-				id: "5A0C7EE1CF519EDC"
-				item: "apotheosis:simple_reforging_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5A0C7EE1CF519EDC"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5758B08781AF2825"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: -3.5d
 		}
