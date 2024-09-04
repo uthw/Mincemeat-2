@@ -122,13 +122,52 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "wood/blue_skies_starlit_wood",
             durability: 108,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
         },
-        { name: "wood/blue_skies_maple", durability: 108 },
-        { name: "wood/blue_skies_frostbright", durability: 108 },
-        { name: "wood/blue_skies_dusk", durability: 108 },
-        { name: "wood/blue_skies_comet", durability: 108 },
-        { name: "wood/blue_skies_comet", durability: 200 },
-        { name: "wood/blue_skies_bluebright", durability: 108 },
+        {
+            name: "wood/blue_skies_maple",
+            durability: 108,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "wood/blue_skies_frostbright",
+            durability: 108,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "wood/blue_skies_dusk",
+            durability: 108,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "wood/blue_skies_comet",
+            durability: 108,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "wood/blue_skies_comet",
+            durability: 200,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "wood/blue_skies_bluebright",
+            durability: 108,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
         { name: "wood/alexscaves_thornwood", durability: 1536 },
         { name: "wood/alexscaves_pewen", durability: 96 },
         // stone
@@ -141,12 +180,48 @@ ServerEvents.highPriorityData((event) => {
         { name: "stone/create_limestone", durability: 192 },
         { name: "stone/create_crimsite", durability: 262 },
         { name: "stone/create_asurine", durability: 262 },
-        { name: "stone/blue_skies_umber", durability: 384 },
-        { name: "stone/blue_skies_turquoise_stone", durability: 262 },
-        { name: "stone/blue_skies_taratite", durability: 500 },
-        { name: "stone/blue_skies_rimestone", durability: 1000 },
-        { name: "stone/blue_skies_lunar_stone", durability: 262 },
-        { name: "stone/blue_skies_cinderstone", durability: 1024 },
+        {
+            name: "stone/blue_skies_umber",
+            durability: 384,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "stone/blue_skies_turquoise_stone",
+            durability: 262,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "stone/blue_skies_taratite",
+            durability: 500,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "stone/blue_skies_rimestone",
+            durability: 1000,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "stone/blue_skies_lunar_stone",
+            durability: 262,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "stone/blue_skies_cinderstone",
+            durability: 1024,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
         { name: "stone/alexscaves_radrock", durability: 1024 },
         { name: "stone/alexscaves_limestone", durability: 192 },
         { name: "stone/alexscaves_guanostone", durability: 262 },
@@ -188,14 +263,59 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/create_refined_radiance", durability: 1752 },
         { name: "metal/create_brass", durability: 924 },
         { name: "metal/create_andesite_alloy", durability: 396 },
-        { name: "metal/blue_skies_horizonite", durability: 500 },
+        {
+            name: "metal/blue_skies_horizonite",
+            durability: 500,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
         // { name: "gem/deeperdarker_warden", durability: 5038, primary: 9 },
-        { name: "gem/blue_skies_pyrope", durability: 400 },
-        { name: "gem/blue_skies_moonstone", durability: 500 },
-        { name: "gem/blue_skies_diopside", durability: 3322, hardness: 9 },
-        { name: "gem/blue_skies_charoite", durability: 3122, hardness: 7 },
-        { name: "gem/blue_skies_aquite", durability: 540, hardness: 6 },
-        // { name: "gem/blue_skies_aquite", durability: 540 },
+        {
+            name: "gem/blue_skies_pyrope",
+            durability: 400,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "gem/blue_skies_moonstone",
+            durability: 500,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "gem/blue_skies_diopside",
+            durability: 3322,
+            hardness: 9,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "gem/blue_skies_charoite",
+            durability: 3122,
+            hardness: 7,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "gem/blue_skies_aquite",
+            durability: 540,
+            hardness: 6,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
+        {
+            name: "gem/blue_skies_aquite",
+            durability: 540,
+            improvements: {
+                "dimasctetracompat/fairweather": 0,
+            },
+        },
         // { name: "fibre/deeperdarker_sculk_vine", durability: 2560 },
         { name: "fibre/blue_skies_starlit_vine", durability: 640 },
         { name: "fibre/blue_skies_maple_vine", durability: 360 },
@@ -299,6 +419,99 @@ ServerEvents.highPriorityData((event) => {
         { name: "wood/dreamwood", durability: 300 },
         { name: "wood/livingwood", durability: 140 },
         { name: "wood/maple", durability: 140 },
+
+        // dimasc disable
+
+        {
+            name: "gem/charoite",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "gem/diopside",
+            primary: 0,
+            secondary: 0,
+        },
+        // {
+        //     name: "gem/moonstone",
+        //     primary: 0,
+        //     secondary: 0,
+        // },
+        {
+            name: "gem/pyrope",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "metal/aquite",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "metal/falsite",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "metal/horizonite",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "metal/ventium",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "stone/lunar_stone",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "stone/turquoise_stone",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/bluebright",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/comet",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/dusk",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/dusk",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/frostbright",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/lunar_wood",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/maple",
+            primary: 0,
+            secondary: 0,
+        },
+        {
+            name: "wood/starlit",
+            primary: 0,
+            secondary: 0,
+        },
     ];
     tweak.forEach((material) => {
         event.addJson(`tetra:materials/${material.name}.json`, material);
