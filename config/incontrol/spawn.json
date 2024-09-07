@@ -20,8 +20,8 @@
         "when": "onjoin",
         "dimension": "minecells:ramparts",
         "result": "allow",
-        "healthmultiply": 2,
-        "damagemultiply": 2
+        "healthmultiply": 1.8,
+        "damagemultiply": 1.5
     },
     {
         "hostile": true,
@@ -36,7 +36,7 @@
         "when": "onjoin",
         "dimension": "minecells:insufferable_crypt",
         "result": "allow",
-        "healthmultiply": 2.5,
+        "healthmultiply": 2,
         "damagemultiply": 2
     },
     {
@@ -78,14 +78,14 @@
         "when": "onjoin",
         "mob": "blue_skies:arachnarch",
         "result": "default",
-        "healthmultiply": 1.2,
+        "healthmultiply": 1,
         "damagemultiply": 1
     },
     {
         "when": "onjoin",
         "mob": "blue_skies:starlit_crusher",
         "result": "default",
-        "healthmultiply": 1.3,
+        "healthmultiply": 0.9,
         "damagemultiply": 1
     },
     {
