@@ -134,12 +134,12 @@
 		wilderwildfireflies = false
 		wilderwildjellyfish = false
 		wilderwildtumbleweed = false
-		cave_creature = false
-		deep_sea_creature = false
-		aether_surface_monster = false
-		aether_darkness_monster = false
-		aether_sky_monster = false
-		aether_aerwhale = false
+		cave_creature = true
+		deep_sea_creature = true
+		aether_surface_monster = true
+		aether_darkness_monster = true
+		aether_sky_monster = true
+		aether_aerwhale = true
 
 [[modules_left]]
 	name = "sound"
@@ -230,7 +230,7 @@
 	[modules_right.lines]
 		targeted_block = true
 		id_block = true
-		block_states = false
+		block_states = true
 		block_tags = false
 		nothing = true
 		targeted_fluid = true
