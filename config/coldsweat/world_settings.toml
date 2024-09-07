@@ -31,7 +31,7 @@
 	#max effect: the maximum temperature change this block can cause to a player (even with multiple blocks)
 	#predicates: the state that the block has to be in for the temperature to be applied (lit=true for a campfire, for example).
 	#Multiple predicates can be used by separating them with commas (i.e: "lit=true,waterlogged=false")
-	"Block Temperatures" = [["minecraft:soul_fire", -0.476, 7, true, 0.8], ["minecraft:fire", 0.476, 7, true, 0.8], ["minecraft:magma_block", 0.25, 3, true, 1.0], ["minecraft:soul_campfire", -0.476, 7, true, 0.6, "lit=true"], ["minecraft:lava_cauldron", 0.5, 7, true, 1.5], ["blue_skies:cinderstone", 0.25, 3, true, 1.0], ["blue_skies:cinderstone_stairs", 0.25, 3, true, 1.0], ["blue_skies:cinderstone_slab", 0.25, 3, true, 1.0], ["blue_skies:cinderstone_wall", 0.25, 3, true, 1.0]]
+	"Block Temperatures" = [["minecraft:soul_fire", -0.476, 7, true, 0.8], ["minecraft:fire", 0.476, 7, true, 0.8], ["minecraft:magma_block", 0.25, 3, true, 1.0], ["minecraft:soul_campfire", -0.476, 7, true, 0.6, "lit=true"], ["minecraft:lava_cauldron", 0.5, 7, true, 1.5], ["blue_skies:cinderstone", 0.25, 3, true, 1.0], ["blue_skies:cinderstone_stairs", 0.25, 3, true, 1.0], ["blue_skies:cinderstone_slab", 0.25, 3, true, 1.0], ["blue_skies:cinderstone_wall", 0.25, 3, true, 1.0], ["jumbofurnace:jumbo_furnace", 0.07, 4, true, 1.0, "lit=true"], ["blue_skies:blue_fire", -0.476, 7, true, 0.8], ["blue_skies:black_fire", 0.476, 7, true, 0.8], ["blue_skies:horizonite_forge", 0.07, 4, true, 1.0, "lit=true"], ["blue_skies:snowcap_oven", -0.07, 4, true, 1.0, "lit=true"], ["#minecraft:candles", 0.04, 3, true, 1.0, "lit=true"], ["#supplementaries:candle_holders", 0.04, 3, true, 1.0, "lit=true"], ["farmersdelight:stove", 0.06, 4, true, 1.0, "lit=true"], ["ends_delight:end_stove", 0.06, 4, true, 1.0, "lit=true"], ["nethersdelight:blackstone_stove", 0.08, 4, true, 1.0, "lit=true"], ["aquamirae:golden_moth_in_a_jar", -0.1, 5, true, 1.0], ["immersiveengineering:furnace_heater", 0.13, 4, true, 1.0, "active=true"], ["create:blaze_burner", 0.1, 6, true, 1.0, "blaze=smouldering"], ["create:blaze_burner", 0.25, 6, true, 1.0, "blaze=kindled"], ["create:blaze_burner", 0.4, 6, true, 1.0, "blaze=seething"], ["immersiveengineering:coke_oven", 0.1, 4, true, 1.0, "active=true"], ["immersiveengineering:advanced_blast_furnace", 0.12, 4, true, 1.0, "active=true"]]
 	#The maximum range of blocks' area of effect
 	#Note: This will not change anything unless blocks are configured to utilize the expanded range
 	#This value is capped at 16 for performance reasons
@@ -50,12 +50,12 @@
 	#Offsets the world temperature when the player is within this structure
 	#Format: [["structure_1", offset1, *units], ["structure_2", offset2, *units]... etc]
 	#(* = optional)
-	"Structure Temperature Offsets" = [["aquamirae:ice_maze", -25.0, "F"]]
+	"Structure Temperature Offsets" = [["aquamirae:ice_maze", -25.0, "F"], ["mowziesmobs:umvuthana_grove", 20.0, "F"], ["cataclysm:sunken_city", -18.0, "F"]]
 	#List of blocks that will allow the player to sleep on them, regardless of the "Prevent Sleep When in Danger" setting
 	#Use this list if the player is not getting the temperature effect from sleeping on particular blocks
-	"Sleep Check Override Blocks" = ["#comforts:sleeping_bags", "#upgrade_aquatic:bedrolls"]
+	"Sleep Check Override Blocks" = ["#comforts:sleeping_bags", "#comforts:hammocks", "#upgrade_aquatic:bedrolls"]
 	#When set to true, players cannot sleep if they are cold or hot enough to die
-	"Check Sleeping Conditions" = true
+	"Check Sleeping Conditions" = false
 	#Converts damage dealt by Soul Fire to cold damage (default: true)
 	#Does not affect the block's temperature
 	"Cold Soul Fire" = true
