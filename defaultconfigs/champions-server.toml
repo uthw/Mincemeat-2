@@ -16,6 +16,8 @@ dimensionPermission = "BLACKLIST"
 #A list of entities that are blacklisted/whitelisted for champions
 entitiesList = [
 	"blue_skies:artificial_golem",
+	"blue_skies:spewter",
+	"blue_skies:snow_owl",
 	"iceandfire:fire_dragon",
 	"iceandfire:fire_dragon",
 	"iceandfire:ice_dragon",
@@ -28,7 +30,7 @@ entitiesList = [
 	"cataclysm:ender_golem",
 	"cataclysm:ender_guardian",
 	"cataclysm:netherite_monstrosity",
-	
+
 	"blue_skies:summoner",
 	"blue_skies:alchemist",
 	"blue_skies:starlit_crusher",
@@ -48,7 +50,45 @@ entitiesList = [
 	"mowziesmobs:ferrous_wroughtnaut",
 	"mowziesmobs:frostmaw",
 	"mowziesmobs:umvuthi",
-	"minecraft:vex"
+	"minecraft:vex",
+
+	"lost_aether_content:aerwhale_king",
+	"aether:valkyrie_queen",
+	"aether:sun_spirit",
+	"aether:slider",
+
+	"minecells:concierge",
+	"minecells:conjunctivius",
+	"minecells:sewers_tentacle",
+
+	"mowziesmobs:umvuthana_crane",
+	"mowziesmobs:umvuthana_raptor",
+
+	"bosses_of_mass_destruction:lich",
+	"bosses_of_mass_destruction:obsidilith",
+	"bosses_of_mass_destruction:void_blossom",
+	"bosses_of_mass_destruction:gauntlet",
+
+	"alexscaves:forsaken",
+	"alexscaves:tremorzilla",
+	"alexscaves:tremorsaurus",
+	"alexscaves:hullbreaker",
+
+	"graveyard:lich",
+
+	"cataclysm:the_harbinger",
+	"cataclysm:ancient_remnant",
+	"cataclysm:the_leviathan",
+	"cataclysm:kobolediator",
+	"cataclysm:wadjet",
+
+	"irons_spellbooks:dead_king",
+	"irons_spellbooks:dead_king_corpse",
+	"irons_spellbooks:summoned_polar_bear",
+	"irons_spellbooks:summoned_skeleton",
+	"irons_spellbooks:summoned_vex",
+	"irons_spellbooks:summoned_zombie",
+	"conjurer_illager:conjurer",
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST
