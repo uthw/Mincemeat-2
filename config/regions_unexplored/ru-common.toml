@@ -51,7 +51,7 @@
 	toggle_icy_heights = true
 	toggle_joshua_desert = true
 	toggle_magnolia_woodland = true
-	toggle_maple_forest = true
+	toggle_maple_forest = false
 	toggle_marsh = true
 	toggle_mauve_hills = true
 	toggle_meadow = true
@@ -71,7 +71,7 @@
 	toggle_saguaro_desert = true
 	toggle_shrubland = true
 	toggle_silver_birch_forest = true
-	toggle_sparse_rainforest = true
+	toggle_sparse_rainforest = false
 	toggle_sparse_redwoods = true
 	toggle_spires = true
 	toggle_steppe = true
@@ -95,7 +95,7 @@
 
 [worldgen_options]
 	#surface_rules
-	toggle_custom_dirt = true
+	toggle_custom_dirt = false
 
 [client_options]
 	toggle_mauve_leaves_particles = true

@@ -46,7 +46,7 @@
 	#Overrides the world temperature when the player is within this structure
 	#Format: [["structure_1", temperature1, *units], ["structure_2", temperature2, *units]... etc]
 	#(* = optional)
-	"Structure Temperatures" = [["minecraft:igloo", 65.0, "F"]]
+	"Structure Temperatures" = [["minecraft:igloo", 65.0, "F"], ["blue_skies:poison_dungeon", 90.0, "F"]]
 	#Offsets the world temperature when the player is within this structure
 	#Format: [["structure_1", offset1, *units], ["structure_2", offset2, *units]... etc]
 	#(* = optional)

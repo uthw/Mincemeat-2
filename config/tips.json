@@ -8,5 +8,13 @@
     "ancientaether",
     "deepaether"
   ],
-  "ignoredTips": []
+  "ignoredTips": [],
+  "hideUnlocalizedTips": false,
+  "tipRenderWidthPercent": 0.35,
+  "defaultTitle": {
+    "bold": true,
+    "underlined": true,
+    "color": "yellow",
+    "translate": "tipsmod.title.default"
+  }
 }
