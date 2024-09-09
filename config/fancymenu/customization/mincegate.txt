@@ -59,7 +59,7 @@ element {
 
 element {
   interactable = true
-  source = 1.20.1 / 47.1.106 / 0.4.8
+  source = 1.20.1 / 47.1.106 / 0.4.9
   source_mode = direct
   shadow = true
   scale = 1.0
