@@ -108,3 +108,8 @@ config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/spark/activity.json
 rhino.local.properties
+controlify-natives/libsdl4j-natives-2.28.2-11-windows64.dll
+controlify-natives/libsdl4j-natives-3.693c75e-windows64.dll
+controlify-natives/libsdl4j-natives-3.693c75e-windows64.dll.md5
+data/fabricDefaultResourcePacks.dat
+minemenu/menu.json
