@@ -107,3 +107,4 @@ config/sound_physics_remastered/allowed_sounds.properties
 config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 config/spark/activity.json
+rhino.local.properties
