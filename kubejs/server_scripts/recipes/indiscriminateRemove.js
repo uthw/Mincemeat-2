@@ -170,6 +170,7 @@ ServerEvents.recipes((event) => {
         "actuallyadditions:diamond_aiot",
         "actuallyadditions:netherite_aiot",
         "grapplemod:limitsupgradeitem",
+        "aquaculture:double_hook",
     ];
 
     toRemove.forEach((item) => {
