@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:prismarine_bricks",
                 B: "blue_skies:charoite",
                 C: "#c:bookshelves",
-                D: "upgrade_aquatic:thrasher_tooth",
+                D: "iceandfire:dragonbone",
             },
             id: "apotheosis:seashelf",
         },

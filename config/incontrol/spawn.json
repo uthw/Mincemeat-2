@@ -94,5 +94,15 @@
         "result": "default",
         "healthmultiply": 0.75,
         "damagemultiply": 0.9
+    },
+    {
+        "when": "onjoin",
+        "mob": "upgrade_aquatic:thrasher",
+        "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "upgrade_aquatic:great_thrasher",
+        "result": "deny"
     }
 ]
