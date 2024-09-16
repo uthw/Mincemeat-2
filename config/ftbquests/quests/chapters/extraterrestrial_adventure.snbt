@@ -133,6 +133,7 @@
 		}
 		{
 			dependencies: ["589E89E98F33C8D7"]
+			description: ["A shield may be useful in blocking its attacks."]
 			id: "354079B354E82E4E"
 			rewards: [{
 				id: "4CE0171C674FDBF7"
@@ -1509,6 +1510,82 @@
 			title: "Everdawn Delicacies"
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["792A8A1D64F2208D"]
+			description: [
+				"These spears, when thrown at the Starlit Crusher, temporarily stun it, giving an opportunity to retaliate."
+				""
+				"The Soulbound Spear returns after landing, making it particularly useful."
+				""
+				"Unfortunately, these spears don't have much going for them outside of this boss fight."
+			]
+			id: "3F4F90454E3783AA"
+			optional: true
+			tasks: [{
+				id: "6C1D96C6286DE8C8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:bluebright_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:starlit_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:frostbright_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:lunar_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:dusk_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:maple_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:soulbound_spear"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Prepare to Fight the Starlit Crusher"
+			x: -1.5d
+			y: -6.5d
 		}
 	]
 	title: "Dimensional Adventure"
