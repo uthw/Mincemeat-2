@@ -2452,6 +2452,18 @@
 			x: -5.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["5D90018D6FA71B0A"]
+			description: ["The same as a Storage Inventory, but this block includes a crafting grid to make items using whatever you have in your storage inventory for your convenience."]
+			id: "1BD37892B0CBA88E"
+			tasks: [{
+				id: "7251EF24F2B87861"
+				item: "storagenetwork:request"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
 	]
 	title: "Getting Started"
 }
