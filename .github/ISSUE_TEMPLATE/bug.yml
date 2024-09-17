@@ -14,7 +14,7 @@ body:
       attributes:
           label: "Description"
           description: "Provide a short and clear description of the issue."
-          placeholder: ""
+      validations:
           required: true
 
     - type: textarea
@@ -22,9 +22,10 @@ body:
       attributes:
           label: "Steps to Reproduce"
           description: "Clearly describe how to reproduce the issue. Assume you're in creative mode unless the bug requires being in survival. If the bug is straightforward, you can leave this field blank."
-          placeholder: |
-              1. 
-              2. ...
+          placeholder: "
+              1.
+              2. ..."
+      validations:
           required: false
 
     - type: textarea
@@ -32,9 +33,9 @@ body:
       attributes:
           label: "Involved Mods"
           description: "What mods are involved? If you don't know what to put here, write 'Unknown'."
-          placeholder: |
-              - 
-              - ...
+          placeholder: "
+              -
+              - ..."
       validations:
           required: true
 
@@ -51,3 +52,5 @@ body:
       attributes:
           label: "Additional Context"
           description: "Add any other context about the problem here. Do you have screenshots? Did you add any mods?"
+      validations:
+          required: false
