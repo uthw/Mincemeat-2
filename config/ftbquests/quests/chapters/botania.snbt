@@ -135,12 +135,13 @@
 		}
 		{
 			dependencies: ["0C54EDFDF7DC2500"]
+			description: ["When placed, this flower automatically binds itself to the nearest mana spreader. You may shift right click the flower and then do the same to a spreader if you'd like to rebind it."]
 			id: "278CC3F3C1AD1C6D"
 			rewards: [{
 				id: "20C659EABB13ECA1"
 				type: "custom"
 			}]
-			subtitle: "Burns items that can be used as furnace fuel to generate mana *must be linked using wand with shift rclick*"
+			subtitle: "Burns items that can be used as furnace fuel to generate mana"
 			tasks: [{
 				id: "771BEDACB60D97E7"
 				item: "botania:endoflame"
@@ -240,12 +241,17 @@
 		}
 		{
 			dependencies: ["40A6C999BE2D99F8"]
+			description: [
+				"This interface can store mana. It absorbs mana from the mana pool it is dropped in. Sneak right clicking the pool with a Wand of the Forest can reverse the flow if you'd like."
+				""
+				"Items in your inventory requiring mana will drain the tablet automatically."
+			]
 			id: "17A2A2D56B549FB6"
 			rewards: [{
 				id: "050AFE042F8377D9"
 				type: "custom"
 			}]
-			subtitle: "Portable mana storage. See lexica botania"
+			subtitle: "It doesn't have Angry Birds"
 			tasks: [{
 				id: "1DB59F8D37EBCDC2"
 				item: {
@@ -421,7 +427,11 @@
 		}
 		{
 			dependencies: ["40A6C999BE2D99F8"]
-			description: ["Can be dyed. The star orbiting it changes color."]
+			description: [
+				"The spark moves mana from the pool to the item."
+				""
+				"Can be dyed. The star orbiting it changes color."
+			]
 			id: "1B51A4C1DE504D62"
 			rewards: [{
 				id: "59F4F2D313E289EA"
@@ -454,15 +464,34 @@
 				"412F2C1C93006975"
 			]
 			description: [
-				"You can direct the spreader to a pool using the wand in bind mode. You should see a checkmark when you've done it right. The spreader takes mana generated from nearby flowers and sends them to things like other spreaders and mana pools."
+				"You can direct the spreader to a pool using the wand in bind mode. Sneak right click the spreader and then the pool to do this."
 				""
+				"You should see a checkmark when you've done it right. The spreader takes mana generated from nearby flowers and sends them to things like other spreaders and mana pools."
+				""
+				"{image:kubejs:item/manaspreaders width:974 height:470 align:center fit:true}"
+				""
+				"&oMana spreaders directing mana from the diluted pool on the right to the regular one on the left.&r"
 			]
 			id: "0BA546DC8B8D476A"
-			tasks: [{
-				id: "04C5B1AA5F2819D8"
-				item: "botania:mana_spreader"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04C5B1AA5F2819D8"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "71D4DFDD49A36E9B"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 0.0d
 		}
@@ -1002,7 +1031,7 @@
 				id: "4FDBE3DBD5DB2EF3"
 				type: "custom"
 			}]
-			subtitle: "Summons level 2 gaia when used in place of terrasteel. Defeat it for better rewards and access to Alfheim."
+			subtitle: "Summons level 2 gaia when used in place of terrasteel. Defeat it for better rewards, or just for the hell of it."
 			tasks: [{
 				id: "7DED7A41F445B1DF"
 				item: "botania:gaia_ingot"
@@ -1208,6 +1237,7 @@
 		}
 		{
 			dependencies: ["491A34691200FD1F"]
+			description: [""]
 			id: "55ABA1C1C9713642"
 			rewards: [{
 				id: "7A542D35458C3BE2"
@@ -1855,54 +1885,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6A0DCA9557AF4CD2"]
-			icon: "mythicbotany:mana_infuser"
-			id: "376CA1E6ED4684CF"
-			rewards: [{
-				id: "289F4E6FD869E436"
-				type: "custom"
-			}]
-			subtitle: "More powerful version of the agglomeration plate setup allowing for more powerful but more mana-intensive operations"
-			tasks: [
-				{
-					count: 5L
-					id: "799D0A067FA40B23"
-					item: "botania:shimmerrock"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "5FAC11429220BE52"
-					item: "minecraft:gold_block"
-					type: "item"
-				}
-				{
-					id: "73AB771E7EC1A32B"
-					item: "mythicbotany:mana_infuser"
-					type: "item"
-				}
-			]
-			title: "Mana Infuser"
-			x: 7.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["6A0DCA9557AF4CD2"]
-			id: "06C87FC19E6823D4"
-			subtitle: "Slows down enemies greatly when they hit you"
-			tasks: [{
-				id: "3789171004692A1B"
-				item: {
-					Count: 1b
-					id: "mythicbotany:ice_ring"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 11.5d
-		}
-		{
 			dependencies: ["2B46AF8CE1809421"]
 			id: "38A926D67A5A3203"
 			optional: true
@@ -1913,99 +1895,6 @@
 			}]
 			x: -1.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["376CA1E6ED4684CF"]
-			id: "65D687B17A379A04"
-			subtitle: "Can upgrade terrasteel items in a smithing table. Combine two together to upgrade armor"
-			tasks: [{
-				id: "2F1220FFE22056E6"
-				item: "mythicbotany:alfsteel_ingot"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["712AF16DC03AFCDB"]
-			description: [
-				"You will need a rune holder for every rune you need and a master rune for the tablet. If a ritual requires mana, mana bands do the trick. If it needs extra items, just throw them on the ground nearby."
-				""
-				"Initiate a ritual by Rclicking the central master rune with a rod of the forest."
-			]
-			id: "13C7DAA1C4751A22"
-			rewards: [
-				{
-					id: "2BC4971688EF6E15"
-					type: "custom"
-				}
-				{
-					id: "19441B2FF7C61443"
-					item: "paraglider:heart_container"
-					type: "item"
-				}
-			]
-			subtitle: "Dropped by Gaia Guardian II. You're going to need a good few runes for rituals, and rune tablets are consumed every ritual"
-			tasks: [{
-				id: "1B531CF27C8FC9A2"
-				item: "mythicbotany:fimbultyr_tablet"
-				type: "item"
-			}]
-			title: "Rune Tablet Rituals"
-			x: 1.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["2ADCEF023215E642"]
-			icon: "mythicbotany:gjallar_horn_empty"
-			id: "712AF16DC03AFCDB"
-			rewards: [{
-				id: "026E044DE6971F4E"
-				type: "custom"
-			}]
-			subtitle: "Place the horn on the yggdrasil branch and give it mana, when the horn is full drink out of it"
-			tasks: [
-				{
-					id: "2855A954A26BCE0E"
-					item: "mythicbotany:gjallar_horn_empty"
-					type: "item"
-				}
-				{
-					id: "3E321C20CACDAEF7"
-					item: "mythicbotany:yggdrasil_branch"
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["13C7DAA1C4751A22"]
-			id: "3D7732792DB67A57"
-			rewards: [{
-				id: "44E6C433E88E5D94"
-				type: "custom"
-			}]
-			subtitle: "Drink to become well-versed in elven language and be able to traverse their worlds"
-			tasks: [{
-				id: "6E28A87C6B47C265"
-				item: "mythicbotany:kvasir_mead"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["13C7DAA1C4751A22"]
-			id: "1393C80AC723D2C4"
-			subtitle: "Don't drop it on your feet"
-			tasks: [{
-				id: "426212093ED09918"
-				item: "mythicbotany:mjoellnir"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 13.0d
 		}
 		{
 			dependencies: ["5292FE7997FA5D63"]
