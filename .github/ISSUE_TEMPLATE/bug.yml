@@ -40,7 +40,7 @@ body:
           required: true
 
     - type: textarea
-      id: related_mods
+      id: log
       attributes:
           label: "Upload a Log"
           description: "Please upload your latest.log or log containing the issue. Use a website like [GitHub Gist](https://gist.github.com/) or [mclo.gs](https://mclo.gs) to upload the log."
