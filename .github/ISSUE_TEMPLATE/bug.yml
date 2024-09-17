@@ -22,9 +22,9 @@ body:
       attributes:
           label: "Steps to Reproduce"
           description: "Clearly describe how to reproduce the issue. Assume you're in creative mode unless the bug requires being in survival. If the bug is straightforward, you can leave this field blank."
-          placeholder: "
+          placeholder: |
               1.
-              2. ..."
+              2. ...
       validations:
           required: false
 
@@ -33,9 +33,9 @@ body:
       attributes:
           label: "Involved Mods"
           description: "What mods are involved? If you don't know what to put here, write 'Unknown'."
-          placeholder: "
+          placeholder: |
               -
-              - ..."
+              - ...
       validations:
           required: true
 
