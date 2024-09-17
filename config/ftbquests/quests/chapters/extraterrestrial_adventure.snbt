@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4493D9650B5D1F71"]
 			description: [
 				"Across the world are houses inhabited by &9gatekeepers&r, elderly villagers who bring their &barcane powers&r and &bknowledge&r from other worlds."
 				""
