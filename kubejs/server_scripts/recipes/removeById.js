@@ -103,6 +103,7 @@ ServerEvents.recipes((event) => {
         "actuallyadditions:lava_factory_casing",
         "actuallyadditions:coal_generator",
         "actuallyadditions:ranged_collector",
+        "eidolon:shadow_gem",
     ];
 
     toRemove.forEach((recipeId) => {
