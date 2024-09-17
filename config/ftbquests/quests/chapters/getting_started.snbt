@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: "357B296D74E0575E"
-	icon: "botania:livingwood_twig"
+	icon: "farmersdelight:cabbage_leaf"
 	id: "4BF77CB28691F71E"
 	order_index: 0
 	quest_links: [ ]
@@ -2081,7 +2081,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["7816E6089A4F0846"]
 			description: [
 				"This skillet lets you improvize and create meals with any ingredients you want. You must first place it on a stove to get cooking."
 				""
@@ -2094,6 +2093,8 @@
 				"When you're done cooking, interact using a plate to collect your meal. There are bonuses for making balanced meals made of different types of food, so plan accordingly."
 			]
 			id: "4D9D953FBE3ADA11"
+			invisible: true
+			optional: true
 			tasks: [
 				{
 					id: "38C43D8D3CC4A343"
@@ -2463,6 +2464,39 @@
 			}]
 			x: 9.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2F5046E30C8273CB"]
+			description: [
+				"The Schematicannon lets you effortlessly load structures into your world."
+				""
+				"You'll need an empty schematic and schematic table to choose a structure. You'll also need a small amount of gunpowder to power the cannon and, obviously, whatever materials the structure is made of."
+				""
+				"By default, I've included every multiblock in this modpack as possible schematics. As such, it'll be expected that you have this item for later parts of tech and magic."
+				""
+				"You may also use a Schematic and Quill to save and load your own schematics, which may be useful if you prefer building in creative mode or would like to move your entire base."
+			]
+			id: "5D28902B7245B1CA"
+			tasks: [
+				{
+					id: "0ED11679171E20DA"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "5D9EA948100675D6"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "4A8F71711F070522"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			title: "Schematics"
+			x: 3.5d
+			y: -8.0d
 		}
 	]
 	title: "Getting Started"
