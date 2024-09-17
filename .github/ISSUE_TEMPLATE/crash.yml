@@ -1,0 +1,56 @@
+name: "Crash Report"
+description: "Report a crash."
+labels:
+    - Crash
+
+body:
+    - type: markdown
+      id: start
+      attributes:
+          value: "Thank you for taking the time to make this report. Note that a crash includes, but is not limited to, a CTD (crash to desktop), freeze, 'Minecraft has crashed!' screen, crash when starting the server, or 'Connection lost' screen in singleplayer. Ensure you have 8-12 GB of RAM allocated."
+
+    - type: input
+      id: title
+      attributes:
+          label: "Crash Summary"
+          description: "Provide a brief, clear description of the crash."
+      validations:
+          required: true
+
+    - type: textarea
+      id: steps_to_reproduce
+      attributes:
+          label: "Steps to Reproduce"
+          description: "Describe the steps to cause the crash. If this process is straightforward, such as a crash on startup, you an skip this step."
+          placeholder: |
+              1.
+              2. ...
+      validations:
+          required: false
+
+    - type: textarea
+      id: involved_mods
+      attributes:
+          label: "Involved Mods"
+          description: "List the mods involved with this crash. It's acceptable to type the involved mods according to Not Enough Crashes, if applicable. If you're unsure, the bottom of the crash report may include a list of suspected mods."
+          placeholder: |
+              -
+              - ...
+      validations:
+          required: true
+
+    - type: textarea
+      id: crash_log
+      attributes:
+          label: "Crash Log"
+          description: "Please provide the crash report or latest.log file. You can upload it via [GitHub Gist](https://gist.github.com/) or [mclo.gs](https://mclo.gs). If you're on CurseForge and didn't get a crash report, look up how to upload your launcher.log."
+      validations:
+          required: true
+
+    - type: textarea
+      id: additional_context
+      attributes:
+          label: "Additional Context"
+          description: "Add any additional context that might be useful, such as screenshots, a spark profile, or if anything unusual occurred before the crash."
+      validations:
+          required: false
