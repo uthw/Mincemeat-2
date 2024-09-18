@@ -964,6 +964,10 @@
 				"If the ritual you want to use requires additional materials, place them on receptacles around the brazier."
 				""
 				"Can be extinguished with an empty hand by right-clicking. This cancels the ritual."
+				""
+				"{image:kubejs:item/ritual_setup.png width:960 height:540 align:center fit:true}"
+				""
+				"&oExample of ritual setup. The positions and orientations of the stone hands don't really matter, as long as they're near the brazier."
 			]
 			icon: "eidolon:brazier"
 			id: "0F8FDFCE19B5216D"
@@ -1395,6 +1399,8 @@
 				"You must place the crucible above a source of heat, such as fire. Then, fill the crucible with water and let it boil."
 				""
 				"Crucibles are unique because their recipes have multiple steps, like real-life recipes. Also similarly to real life, you must execute the steps in order."
+				""
+				"Sometimes, the pestle must be used to stir the ingredients, which can be done by right-clicking the crucible with an empty hand. This is indicated by a slash in the recipe shown in EMI."
 				""
 				"When you insert the ingredients for one step, it will make a sound to indicate when ready for the insertion of new items."
 				""
@@ -1996,9 +2002,10 @@
 			}]
 			subtitle: "Opposite over hypotenuse"
 			tasks: [{
-				id: "708B53A60A40163C"
-				title: "Signs"
-				type: "checkmark"
+				advancement: "eidolon:wicked_path"
+				criterion: ""
+				id: "497910741FEFDBEC"
+				type: "advancement"
 			}]
 			x: 3.5d
 			y: 2.0d
@@ -2010,9 +2017,13 @@
 				""
 				"Place the straw effigy atop the wooden altar."
 				""
-				"When done, when close to the altar, use your newly acquired chant. Click on its portrait and press the green button."
+				"When done, when close to the altar, click on your sign's portrait in your Ars Ecclesia to add it as a component of your chant. This menu can be foudn under the tab with the pentacle icon. "
 				""
-				"If you did it right, thunder will be heard and the effigy's eyes will light up."
+				"When your book looks like the image below, click the green button."
+				""
+				"{image:kubejs:item/chant_selection.png width:707 height:418 align:center fit:true}"
+				""
+				"If you did it right, thunder will be heard and the effigy's eyes will light up. You'll also see a progress meter at the top of your screen."
 				""
 				"Continue doing this ritual until the Dark Lord gives you knowledge of a new one. Note that only 1 ritual can be effective per in-game day."
 				""
@@ -2023,7 +2034,7 @@
 				id: "03A7363C89818234"
 				type: "custom"
 			}]
-			subtitle: "Get to know the Dark Lord"
+			subtitle: "Fus ro dah!"
 			tasks: [
 				{
 					id: "7F96FF166085C028"
@@ -2059,9 +2070,13 @@
 		{
 			dependencies: ["0D59972E42B4D7A5"]
 			description: [
-				"Eventually, you'll learn the Blood Chant. First, craft a Goblet. This one is different in that it demands a blood sacrifice. Kill a mob near the altar and watch the goblet fill with blood. Then, you're good to use your new chant."
+				"Eventually, you'll learn the Blood Sign. First, craft a Goblet. This one is different in that it demands a blood sacrifice. Kill a mob near the altar and watch the goblet fill with blood. Then, you're good to use your new chant."
 				""
-				"This chant should always be used over your other option due to it being more attractive to the Dark Lord."
+				"The composition of this chant should be Wicked --> Blood --> Wicked, as shown below. Make sure the goblet has blood before you use the chant, and the effigy is still somewhere near the altar."
+				""
+				"{image:kubejs:item/blood_chant.png width:247 height:98 align:center fit:true}"
+				""
+				"This chant should always be used over your other option due to it being more impressive to the Dark Lord."
 			]
 			id: "6C5B6D095B56A8A2"
 			rewards: [
@@ -2094,19 +2109,27 @@
 				}
 			]
 			subtitle: "Ow!"
-			tasks: [{
-				id: "6E092F039AFF42EE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "6E092F039AFF42EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
+						id: "eidolon:goblet"
 					}
-					id: "eidolon:goblet"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					advancement: "eidolon:sacrifice"
+					criterion: ""
+					id: "6428C2E8214FF0B9"
+					type: "advancement"
+				}
+			]
 			title: "Second Chant"
 			x: 6.5d
 			y: 2.0d
@@ -2117,6 +2140,9 @@
 				"After dropping a Pewter Inlay on the ground, use your new chant. The Dark Lord will give you an Unholy Symbol, which is a crafting ingredient used often with the Magic Workbench."
 				""
 				"The Unholy Symbol is not consumed in recipes, so there's no reason to lose it."
+				""
+				""
+				"{image:kubejs:item/touch_of_darkness.png width:276 height:95 align:center fit:true}"
 			]
 			id: "2D8BA0A7766C58D9"
 			rewards: [

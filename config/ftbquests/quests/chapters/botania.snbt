@@ -1431,6 +1431,7 @@
 						stored_type: "naturesaura:overworld"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.5d
@@ -1677,6 +1678,7 @@
 						stored_type: "naturesaura:nether"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -5.0d
@@ -1796,6 +1798,7 @@
 						stored_type: "naturesaura:end"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.5d
