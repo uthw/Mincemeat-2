@@ -8,7 +8,7 @@
 	#Range: 0 ~ 1000
 	maxEtherealHealth = 20
 	#Makes it so that the Crucible will not fizzle out unless the recipe has failed, giving players more time to organize and plan their next step and behave more like a turn-based recipe.
-	turnBasedCrucible = false
+	turnBasedCrucible = true
 	#For turn-based Crucible, duration in ticks between each recipe check once the step duration expired.
 	crucibleBackoff = 40
 
