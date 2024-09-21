@@ -2155,6 +2155,7 @@
 		}
 		{
 			dependencies: ["1495D2307BF91921"]
+			description: ["Allows levitation using compressed air from a backtank."]
 			id: "7D674D8DA6BF2107"
 			tasks: [{
 				id: "6BC8FB7236647695"
@@ -2881,6 +2882,22 @@
 			]
 			x: 9.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["1495D2307BF91921"]
+			description: [
+				"Allows &eprecise control&r over the speed at which the &elarge cogwheel above it&r rotates."
+				""
+				"This saves space as you will no longer need to use a more complicated setup to accomplish this."
+			]
+			id: "3BFCAF0D9B624149"
+			tasks: [{
+				id: "55158EE59D98073D"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
 		}
 	]
 	title: "Tech Level 1"
