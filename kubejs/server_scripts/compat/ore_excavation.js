@@ -321,7 +321,8 @@ ServerEvents.recipes((event) => {
         .vein("Crude Oil", "pneumaticcraft:oil_bucket")
         .placement(256, 32, 64640185)
         .alwaysInfinite()
-        .id("kubejs:mince_crude_oil");
+        .id("kubejs:mince_crude_oil")
+        .biomeWhitelist("minecraft:is_overworld");
     event.recipes.createoreexcavation
         .extracting("minecraft:water 2000", "kubejs:mince_crude_oil", 10)
         .fluid("pneumaticcraft:oil 10")
