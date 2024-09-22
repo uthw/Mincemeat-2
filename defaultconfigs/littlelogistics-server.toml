@@ -30,13 +30,13 @@
 	[vessel.tug]
 		#Base speed of the tugs. Default 2.4.
 		#Range: 0.1 ~ 10.0
-		tugBaseSpeed = 2.4
+		tugBaseSpeed = 2.8
 		#Multiplier for tug pathfinding search space, high values may impact performance. Default 1.
 		#Range: 1 ~ 10
 		tugPathfindMult = 1
 		#Increases the burn duration of Steam tug fuel by N times when compared to furnace, must be >= 0.01. Default 4.0.
 		#Range: 0.01 ~ 1.7976931348623157E308
-		steamTugFuelMultiplier = 4.0
+		steamTugFuelMultiplier = 5.0
 		#Base maximum capacity of the Energy tug in FE, must be an integer >= 1. Default 10000.
 		#Range: > 1
 		energyTugBaseCapacity = 10000
