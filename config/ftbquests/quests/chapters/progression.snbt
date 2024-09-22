@@ -144,7 +144,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5DE22DEFA690FDE0"]
+			dependencies: ["48589341ABDDAED8"]
 			icon: "naturesaura:gold_leaf"
 			id: "080F8244C005A607"
 			tasks: [{
@@ -152,11 +152,11 @@
 				title: "Nature's Aura"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["080F8244C005A607"]
+			dependencies: ["5DE22DEFA690FDE0"]
 			icon: "botania:cosmetic_tiny_potato_mask"
 			id: "48589341ABDDAED8"
 			tasks: [{
@@ -164,8 +164,8 @@
 				title: "Botania"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1ED85CB72D0B51D3"]
@@ -427,18 +427,6 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7917D72848C6458F"]
-			icon: "theurgy:pyromantic_brazier"
-			id: "3F41057E0ECDAC1E"
-			tasks: [{
-				id: "57FEC7F32EA6B014"
-				title: "Theurgy"
-				type: "checkmark"
-			}]
-			x: -3.0d
 			y: 4.5d
 		}
 		{
