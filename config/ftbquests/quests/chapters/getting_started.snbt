@@ -2143,13 +2143,7 @@
 				""
 				"Also, note that frames can imitate any solid block or liquid."
 			]
-			icon: {
-				Count: 1
-				id: "another_furniture:furniture_hammer"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "mcwroofs:roofing_hammer"
 			id: "3D2016CD8B38DD57"
 			tasks: [
 				{
@@ -2170,18 +2164,6 @@
 				{
 					id: "2C613AC5D62A0202"
 					item: "everythingcopper:weathering_station"
-					type: "item"
-				}
-				{
-					id: "2D4F9AAF3BF6588E"
-					item: {
-						Count: 1
-						id: "itemfilters:mod"
-						tag: {
-							value: "another_furniture"
-						}
-					}
-					title: "Another Furniture"
 					type: "item"
 				}
 				{
