@@ -12,7 +12,7 @@ EntityEvents.death("minecraft:player", (event) => {
     pData.deathreset = 1;
     pData.deathDimension = event.level.dimension.path;
     // global.mostRecentlyDied = player.username;
-    console.log(global.mostRecentlyDied);
+    // console.log(global.mostRecentlyDied);
 
     setTimeout(() => {
         // This section is unrelated to the grave scroll item and made by me
@@ -31,7 +31,7 @@ EntityEvents.death("minecraft:player", (event) => {
 
 // TODO Wait for movement before giving a scroll
 PlayerEvents.respawned((event) => {
-    console.log("PlayerEvents.respawned");
+    // console.log("PlayerEvents.respawned");
 
     // 40% chance the player gets a gravescroll when they respawn
     // if (global.mostRecentlyDied != event.player.username) {
