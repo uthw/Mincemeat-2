@@ -1380,6 +1380,7 @@
 		}
 		{
 			dependencies: ["2FD697091D1A770B"]
+			description: ["Runes can be obtained using a Runic Altar from Botania."]
 			id: "5C585538B921D5C5"
 			rewards: [{
 				id: "4FEE918D2B12CF4E"
