@@ -12,23 +12,14 @@ PlayerEvents.advancement((event) => {
     event.server.runCommandSilent(
         'give @p delightful:smore{RepairCost:0,display:{Name:\'{"text":"Starting Gift"}\'}}'
     );
+
     event.server.runCommandSilent("gamerule playersSleepingPercentage 50");
+    event.server.runCommandSilent("gamerule persistentAnimals false");
+
+    // bow nerf. uuid only needs to not exist for any other arrow damage modifier
+    event.server.runCommand("attribute @p attributeslib:arrow_damage modifier add 03879795-c80d-42fb-953d-577b3dfb4aab nerf -0.2 multiply_base")
 
     setTimeout(() => {
         event.server.runCommandSilent("clear @p patchouli:guide_book");
-    }, 200);
-
-    // Item.of(
-    //     "delightful:cheeseburger",
-    //     '{RepairCost:0,display:{Name:\'{"text":"Starting Gift 2"}\'}}'
-    // );
-
-    // I'm so stupid, i thought akashic tome was on 1.20
-    // Utils.server.runCommandSilent("give @p ")
+    }, 500);
 });
-
-// PlayerEvents.respawned((event) => {
-//     event.server.runCommand(
-//         'give @p delightful:cheeseburger{RepairCost:0,display:{Name:\'{"text":"Starting Gift 2"}\'}}'
-//     );
-// });
