@@ -1381,7 +1381,13 @@
 		}
 		{
 			dependencies: ["649F0F57EC7E387E"]
+			description: ["Heart Containers are rewards for defeating major bosses. When you complete a quest for such a boss (for example, the Ferrous Wroughtnaut), be sure to claim it in the rewards section."]
 			id: "5D629B3D9A8495D4"
+			rewards: [{
+				id: "473C0C9A21FB40B6"
+				item: "irons_spellbooks:greater_healing_potion"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D72F2BA832D04C5"
 				item: "paraglider:heart_container"
@@ -2479,6 +2485,26 @@
 			title: "Schematics"
 			x: 3.5d
 			y: -8.0d
+		}
+		{
+			description: [
+				"Since you're starting down the technical route, now's a goo dtime to learn about FTB Chunks."
+				""
+				"Press the button in the top left corner of the inventory near the quests button which says \"FTB Chunks: Claim Manager.\""
+				""
+				"On this screen, you can click to claim chunks in the name of yourself (or your team). This stops explosions from destroying blocks, but it also restricts other players' abilities to interact with those chunks. Be wary of this in multiplayer!"
+				""
+				"Shift click claimed chunks to keep them loaded at all times. This means you don't need to build all your farms in spawn chunks to keep them active, but don't force load too many or your game will lag."
+			]
+			id: "1270DA53E36668C7"
+			tasks: [{
+				id: "345B4D10341EF184"
+				title: "Chunk Loading"
+				type: "checkmark"
+			}]
+			title: "Claiming and Loading Chunks"
+			x: 3.5d
+			y: -5.0d
 		}
 	]
 	title: "Getting Started"
