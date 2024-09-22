@@ -5135,13 +5135,14 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["710393BF8AD587A8"]
 			description: [
 				"Place all of these. The accumulator must be placed on top of the tank."
 				""
 				"The braziers accept burnables (fuel)."
 			]
 			id: "7D0E6CC8E50E7DC5"
+			invisible: true
+			optional: true
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "WIP"
