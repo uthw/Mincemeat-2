@@ -1219,6 +1219,7 @@
 		}
 		{
 			dependencies: ["048233AB927943AD"]
+			description: ["An adhesive that &econnects groups of blocks together&r for moving contraptions. You may check the Ponder scene for more information."]
 			id: "35BF0E849AB4F00A"
 			tasks: [{
 				id: "25CBEA27B82A44F5"
@@ -1608,11 +1609,6 @@
 			id: "49A781E15CF02B22"
 			tasks: [
 				{
-					id: "0379A846C1AF6849"
-					item: "createoreexcavation:drill"
-					type: "item"
-				}
-				{
 					id: "3925A7A3E43BEFF2"
 					item: {
 						Count: 1
@@ -1626,6 +1622,30 @@
 								{
 									Count: 1b
 									id: "createoreexcavation:extractor"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43C83BED1AEF99B5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createoreexcavation:drill"
+								}
+								{
+									Count: 1b
+									id: "createoreexcavation:diamond_drill"
+								}
+								{
+									Count: 1b
+									id: "createoreexcavation:netherite_drill"
 								}
 							]
 						}
@@ -1678,12 +1698,26 @@
 		}
 		{
 			dependencies: ["22CD98412754D6B5"]
+			description: [
+				"Tugs can be docked to automatically load or unload their inventories."
+				""
+				"Each dock setup requires a tug dock. The barge docks should be connected in a straight, continuous line."
+				""
+				"The dock's effects are applied to boats that are adjacent to the docks. Tug docks can only insert, and barge docks can do either."
+			]
 			id: "7D73D350CF15B5EA"
-			tasks: [{
-				id: "7317A7CC2D56DFC6"
-				item: "littlelogistics:tug_dock"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7317A7CC2D56DFC6"
+					item: "littlelogistics:tug_dock"
+					type: "item"
+				}
+				{
+					id: "311FE15736C16D22"
+					item: "littlelogistics:barge_dock"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 2.5d
 		}
@@ -1869,6 +1903,11 @@
 		}
 		{
 			dependencies: ["678E6CB5A7AB483B"]
+			description: [
+				"The &6ore vein finder&r will attempt to locate the nearest reservoir of ore. Sometimes, it will fail. Just move to a different region if this happens."
+				""
+				"This tool can find ores in the Overworld, Nether, Everbright, Everdawn, and Aether."
+			]
 			id: "72083B3DB68503A5"
 			tasks: [{
 				id: "693EE9EFC762FE62"
@@ -1880,6 +1919,13 @@
 		}
 		{
 			dependencies: ["6E77A3D78F1891FE"]
+			description: [
+				"Pumps liquids in a large area below the block. It has an internal tank and can be stopped using redstone."
+				""
+				"This item requires a small amount of energy to use, make sure you provide it with some."
+				""
+				"You'll need some sort of pipe to get liquid out of the pump."
+			]
 			id: "4D384000D7499C30"
 			tasks: [{
 				id: "5F2BA7E0C8CBE18C"
@@ -2035,6 +2081,7 @@
 		}
 		{
 			dependencies: ["5F68AE8317D33D19"]
+			description: ["Turns heads and alloys into new components using energy. It requires shears to slice and an axe to splice."]
 			id: "25819302349171D0"
 			tasks: [{
 				id: "13BADF7FDAB301B9"
@@ -2043,17 +2090,6 @@
 			}]
 			x: 9.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["25819302349171D0"]
-			id: "0D61BCD990BBAC5D"
-			tasks: [{
-				id: "2F3654FAE66F2440"
-				item: "enderio:soul_binder"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["7D336EA43CCF5FD5"]
@@ -2472,17 +2508,6 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["2635DBAEEA555FE2"]
-			id: "3D555D93057725DD"
-			tasks: [{
-				id: "49CF0EFFF3011C02"
-				item: "rangedpumps:pump"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["7EB8A00E18D08EC6"]
 			description: [
 				"Crafts items using engineer's blueprints."
@@ -2639,7 +2664,9 @@
 		}
 		{
 			dependencies: ["65310E6D6F6B4E9A"]
+			description: ["Shoots cartridges. It can be loaded with ammunition by shift-clicking."]
 			id: "0EAF87067B5236B3"
+			subtitle: "Where do they all come from?"
 			tasks: [{
 				id: "722CA75D32580030"
 				item: {
@@ -2862,6 +2889,7 @@
 		}
 		{
 			dependencies: ["5F68AE8317D33D19"]
+			description: ["This item can turn vanilla resources into crystals which you may find to be helpful crafting ingredients."]
 			id: "70E114954B563351"
 			tasks: [
 				{
@@ -2898,6 +2926,43 @@
 			}]
 			x: -1.5d
 			y: -9.0d
+		}
+		{
+			dependencies: ["70E114954B563351"]
+			description: ["Causes the Atomic Reconstructor to turn stone and netherrack placed in front of it into ore."]
+			id: "4AD07EE136728DDD"
+			tasks: [{
+				id: "6FE9D7DF0405B552"
+				item: "actuallyadditions:lens_of_the_miner"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EAF87067B5236B3"]
+			description: [
+				"Energy-powered gun which launches rods which deal damage."
+				""
+				"The most powerful of these is the costly graphite electrode, but you may prefer iron, steel, or aluminum rods due to their availability."
+			]
+			id: "56DD8398F34856EE"
+			tasks: [{
+				id: "175152525CD5C62A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
 		}
 	]
 	title: "Tech Level 1"
