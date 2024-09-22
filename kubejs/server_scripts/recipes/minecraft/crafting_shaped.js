@@ -1001,33 +1001,33 @@ ServerEvents.recipes((event) => {
                 E: "thermal:rf_coil",
             },
         ],
-        // [
-        //     "theurgy:pyromantic_brazier",
-        //     [" A ", "ABA", "CCC"],
-        //     {
-        //         A: "eidolon:elder_brick",
-        //         B: "hexerei:infused_fabric",
-        //         C: "forbidden_arcanus:aurum_planks",
-        //     },
-        // ],
-        // [
-        //     "theurgy:calcination_oven",
-        //     [" A ", "ABA", " C "],
-        //     {
-        //         A: "eidolon:elder_brick",
-        //         B: "alexsmobs:rocky_shell",
-        //         C: "miners_delight:copper_pot",
-        //     },
-        // ],
-        // [
-        //     "theurgy:sal_ammoniac_tank",
-        //     ["A A", "A A", "CBC"],
-        //     {
-        //         A: "eidolon:pewter_ingot",
-        //         B: "create:fluid_tank",
-        //         C: "#mcwbridges:wooden_piers",
-        //     },
-        // ],
+        [
+            "theurgy:pyromantic_brazier",
+            [" A ", "ABA", "CCC"],
+            {
+                A: "eidolon:elder_brick",
+                B: "hexerei:infused_fabric",
+                C: "forbidden_arcanus:aurum_planks",
+            },
+        ],
+        [
+            "theurgy:calcination_oven",
+            [" A ", "ABA", " C "],
+            {
+                A: "eidolon:elder_brick",
+                B: "alexsmobs:rocky_shell",
+                C: "miners_delight:copper_pot",
+            },
+        ],
+        [
+            "theurgy:sal_ammoniac_tank",
+            ["A A", "A A", "CBC"],
+            {
+                A: "eidolon:pewter_ingot",
+                B: "create:fluid_tank",
+                C: "#mcwbridges:wooden_piers",
+            },
+        ],
         [
             "actuallyadditions:empty_cup",
             ["A A", "BCB", " D "],

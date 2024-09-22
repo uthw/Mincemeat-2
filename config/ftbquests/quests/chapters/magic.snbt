@@ -5135,6 +5135,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["710393BF8AD587A8"]
 			description: [
 				"Place all of these. The accumulator must be placed on top of the tank."
 				""

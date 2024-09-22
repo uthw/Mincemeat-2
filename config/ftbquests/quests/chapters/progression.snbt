@@ -560,6 +560,18 @@
 			x: 2.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["7917D72848C6458F"]
+			icon: "theurgy:liquefaction_cauldron"
+			id: "1258E432342B30FD"
+			tasks: [{
+				id: "7580EDC2DA6290A2"
+				title: "Theurgy"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
 	]
 	title: "Progression"
 }
