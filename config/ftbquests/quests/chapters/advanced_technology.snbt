@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["129CAC4D971CBAD8"]
 			description: [
 				"These are basically hoppers that can equip any combination of modules. Modules do different things to the router to upgrade it. By default the router executes the functions of all modules once per second."
 				"{image:kubejs:textures/item/modular_interface.png width:346 height:363 align:1 fit:true}"
@@ -74,6 +75,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["42F8AD78D500C942"]
 			description: [
 				"Industrial Foregoing is a mod with many different machines, tools, and other helpful things which might relate to energy, agriculture, storage, mob grinding, and more. If it's in the pack, there's a decent chance IF can automate it."
 				""
@@ -665,6 +667,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["4DBC82BD55237E6A"]
 			description: [
 				"Here is the first machine you will want to make with Mekanism."
 				""
@@ -816,7 +819,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1CB095891B94A06A"]
 			description: [
 				"Throw your iron on the ground and blow it up. It will be turned into compressed iron."
 				""
@@ -1094,6 +1096,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["5F68AE8317D33D19"]
 			description: [
 				"Adds energy to an RF network, enabling wireless flux transportation, even across dimensions."
 				""
@@ -1122,7 +1125,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["317406E8D0562528"]
+			dependencies: [
+				"317406E8D0562528"
+				"11E96A5DA12A0621"
+			]
 			description: [
 				"The first step of making machines using compressed air is first getting compressed air. The simplest way is making a manual compressor, which is quite effective at supplying pneumatic devices and does not take any extra material to make. "
 				""
