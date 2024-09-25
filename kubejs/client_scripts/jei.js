@@ -28,6 +28,14 @@ JEIEvents.information((event) => {
             item: "forbidden_arcanus:soul",
             desc: "Obtained when a Soul Extractor is used on Soul Sand.",
         },
+        {
+            item: "create:scoria",
+            desc: "Created when flowing lava collides with a chocolate source block."
+        },
+        {
+            item: "create:limestone",
+            desc: "Created when flowing lava collides with a honey source block."
+        }
     ];
 
     additions.forEach((addition) => {
