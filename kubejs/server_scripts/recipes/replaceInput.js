@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
         [
             { mod: "ars_nouveau", output: "ars_nouveau:runic_chalk" },
             "minecraft:bone_meal",
-            "create:limestone",
+            "#create:stone_types/limestone",
         ],
         [{ mod: "ars_nouveau" }, "minecraft:hopper", "prettypipes:pipe"],
         [
@@ -1138,7 +1138,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "immersiveengineering:cokebrick" },
             "#forge:sandstone",
-            "quark:limestone",
+            "#create:stone_types/limestone",
         ],
         [
             { output: "immersiveen:capacitor_mv" },
