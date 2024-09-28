@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "A rotation speed controller can set the rotation speed of the large cogwheel above it to any number between 1 and 256, making it more convenient and space-friendly than chaining cogwheels together."
+    }
+}

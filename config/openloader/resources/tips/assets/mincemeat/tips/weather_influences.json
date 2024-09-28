@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cold Sweat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Temperature is influenced by many factors such as nearby blocks/liquids, the time of day, the weather, and the dimension you're in."
+    }
+}

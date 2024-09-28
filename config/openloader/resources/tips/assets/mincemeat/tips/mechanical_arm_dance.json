@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "If a mechanical arm places a music disc into a jukebox, it will start dancing."
+    }
+}

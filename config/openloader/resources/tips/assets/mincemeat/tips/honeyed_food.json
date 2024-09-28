@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Buzzier Bees Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Some foods can be coated in honey to make them more nutritious and cure certain debuffs, including poison. They can be easily made using a Honey Pot."
+    }
+}

@@ -5,6 +5,6 @@
         "color": "green"
     },
     "tip": {
-        "text": "Water wheels can be placed flat or tall."
+        "text": "Water wheels can be placed flat or tall. They will spin at a constant speed independent of how water is flowing around them."
     }
 }

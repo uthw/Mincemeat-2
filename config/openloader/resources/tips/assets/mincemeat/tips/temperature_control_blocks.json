@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cold Sweat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If you need to control the temperature in a specific area, use a hearth, boiler, or icebox."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Funnels can place one item at a time onto mechanical belts. You'll need to upgrade to a brass funnel to place stacks of items at a time."
+    }
+}
