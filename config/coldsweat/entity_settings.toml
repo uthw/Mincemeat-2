@@ -18,7 +18,7 @@
 	#temperature: The temperature emitted by the entity
 	#range: The range of the effect, in blocks
 	#units: (Optional) The units of the temperature value (MC, F, or C). Defaults to MC
-	"Entity Temperatures" = []
+	"Entity Temperatures" = [["cataclysm:ignis", 0.5, 12], ["cataclysm:netherite_monstrosity", 0.4, 12], ["mowziesmobs:frostmaw", -0.4, 8], ["mowziesmobs:umvuthi", 0.55, 4], ["eidolon:wraith", -0.1, 3], ["iceandfire:fire_dragon", 0.2, 5], ["iceandfire:ice_dragon", -0.2, 5], ["thermal:blizz", -0.15, 6], ["thermal:blitz", 0.15, 6], ["minecraft:blaze", 0.13, 6], ["alexsmobs:froststalker", -0.08, 3], ["alexsmobs:guster", -0.1, 7]]
 
 ["Fur Growth & Shedding"]
 	#Defines how often a goat will try to grow its fur, the growth cooldown after shearing, and the chance of it succeeding
