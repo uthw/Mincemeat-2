@@ -1255,6 +1255,31 @@
 			x: 2.0d
 			y: 3.5d
 		}
+		{
+			description: [
+				"These lizards change color to blend in with their surroundings. They occasionally shed their skin, which you can sew into armor to get dynamic insulation."
+				""
+				"Killing them does nothing, so what's the point?"
+			]
+			id: "5281254884D576E5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cold_sweat:chameleon"
+					}
+				}
+				id: "4BD003247DFEDC6B"
+				observe_type: 0
+				timer: 0L
+				title: "Chameleon"
+				to_observe: "cold_sweat:chameleon"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
 	]
 	title: "Hot Biomes"
 }

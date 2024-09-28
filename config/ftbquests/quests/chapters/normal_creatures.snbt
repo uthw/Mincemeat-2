@@ -282,6 +282,11 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"These sleepy dogs stay around forests and will just stand around in groups and hunt small critters like rabbits. "
+				""
+				"If you find one of these dogs you can feed them rotten flesh to make them give out a howl that scares nearby hostile mobs."
+			]
 			id: "12DBD5915AD9675D"
 			rewards: [{
 				id: "0F242A605F318AD1"
@@ -379,7 +384,47 @@
 			y: 4.5d
 		}
 		{
-			description: [""]
+			description: [
+				"These little guys can be found jumping from wall to wall like they are playing a badly-designed Mario Maker stage. "
+				""
+				"However, they will happily serve you when fed sweet berries. They can give helpful effects like infinite slow falling (that does not stop fall damage and goes away after you die) or scavenge leaves to find various items for you (check the next page to see them)."
+				""
+				"&7&oPro tip: Picking up one of these guys and putting them down will reset their digging timer so you can make them start digging instantly&r"
+				""
+				"{@pagebreak}"
+				""
+				"&oThey can be an easy way to get honeycombs&r "
+				""
+				"Arrows"
+				"Bamboo"
+				"Cobwebs"
+				"Cockroach Wings"
+				"Cockroach Ootheca"
+				"Eggs"
+				"Feathers"
+				"Ferns"
+				"Glow Berries"
+				"Hair of Bear"
+				"Hanging Roots"
+				"Honeycombs"
+				"Maggots"
+				"Moose Antlers"
+				"Moss Carpets"
+				"Sticks"
+				"Sweet Berries"
+				"Vines"
+				"Wheat Seeds"
+				"Saplings (Type depends on the Leaves)"
+				""
+				"Mangrove Propagules (Mangrove)"
+				"Acacia Blossoms (Acacia)"
+				"Apples (Oak)"
+				""
+				"Jungle Leaves only:"
+				"Cocoa Beans"
+				"Leafcutter Ant Pupae"
+				"Bananas"
+			]
 			id: "3AB1F76B9A2253F7"
 			tasks: [{
 				icon: {

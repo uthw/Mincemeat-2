@@ -796,6 +796,67 @@
 			x: -2.5d
 			y: 1.5d
 		}
+		{
+			description: [
+				"These floating guys will sometimes pop out of mobs after they die, or can be found in deserts at night. Depending on how you found them they can also be 3 diffrent types. "
+				""
+				"Normal: neutral and passive mobs spawn these. "
+				"Corrupt: Hostile mobs and bosses spawn these."
+				"Enchanted: can be found very rarely in mesas at night or dropped by any type of mob."
+				""
+				"{@pagebreak}"
+				""
+				"They can be extracted with the aptly-named soul extractor which allows you to right-click on the souls to obtain them as an item. "
+				""
+				"Itemized souls can then be used in F\\&A rituals or as ingredients in a few recipes."
+			]
+			id: "7D2E4ACDD2DB6557"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "forbidden_arcanus:lost_soul"
+					}
+				}
+				id: "10509D8E147DA10C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "forbidden_arcanus:lost_soul"
+				type: "observation"
+			}]
+			title: "Lost soul"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"This rock which has been given the magic of life is found in dripstone caves rolling at about the speed of Mach 1."
+				""
+				"Now, if it was smart, it would learn that rolling around in a cave with spikes all over it might not be the best idea, but sadly this rock never learned and now has many rocks stuck to it."
+				""
+				"If killed, it will drop rocks which you can use to make a chestplate. When you sprint with it equipped you will fall over and start rolling around at about twice your normal run speed."
+			]
+			id: "2FE34DB4FD362CA9"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:rocky_roller"
+					}
+				}
+				id: "3B08A967911801C7"
+				observe_type: 5
+				timer: 0L
+				title: "Rocky roller"
+				to_observe: "alexsmobs:rocky_roller"
+				type: "observation"
+			}]
+			title: "Rocky Roller"
+			x: -4.5d
+			y: 1.5d
+		}
 	]
 	title: "Underground and Monsters"
 }
