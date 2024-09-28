@@ -130,7 +130,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Pescitarian Mincemeat"
+			subtitle: "Pescatarian Mincemeat"
 			tasks: [
 				{
 					advancement: "majruszsenchantments:fishing_fanatic_true"
@@ -634,9 +634,11 @@
 			]
 			subtitle: "This does not include the Devil's Hole Pupfish"
 			tasks: [{
-				id: "03005E095230803C"
-				title: "First Compleate all the fish in the bestiary"
-				type: "checkmark"
+				id: "2FBC9EE848829373"
+				stat: "minecraft:play_time"
+				title: "Auto-Completes When All Fish Found"
+				type: "stat"
+				value: 1
 			}]
 			title: "Fish Collection"
 			x: 7.5d
@@ -4783,6 +4785,288 @@
 			title: "Collect Every Music Disc"
 			x: 9.0d
 			y: 0.0d
+		}
+		{
+			id: "0C2DF591E0BFC78B"
+			tasks: [
+				{
+					id: "5E41466488985A15"
+					item: "botania:white_mushroom"
+					type: "item"
+				}
+				{
+					id: "41B26A1D1D0687F2"
+					item: "botania:orange_mushroom"
+					type: "item"
+				}
+				{
+					id: "7E351866BE08F53C"
+					item: "botania:magenta_mushroom"
+					type: "item"
+				}
+				{
+					id: "155EF22315C885B6"
+					item: "botania:light_blue_mushroom"
+					type: "item"
+				}
+				{
+					id: "17ACCEE70F7DF8C7"
+					item: "botania:yellow_mushroom"
+					type: "item"
+				}
+				{
+					id: "4274230D76DD6827"
+					item: "botania:lime_mushroom"
+					type: "item"
+				}
+				{
+					id: "3749E7B658DADFAC"
+					item: "botania:pink_mushroom"
+					type: "item"
+				}
+				{
+					id: "611A959D9675E258"
+					item: "botania:gray_mushroom"
+					type: "item"
+				}
+				{
+					id: "69CBCF03392856E1"
+					item: "botania:light_gray_mushroom"
+					type: "item"
+				}
+				{
+					id: "07BC56475B7DCC12"
+					item: "botania:cyan_mushroom"
+					type: "item"
+				}
+				{
+					id: "4D55436705E58B08"
+					item: "botania:purple_mushroom"
+					type: "item"
+				}
+				{
+					id: "60A1942A4CF0ECF2"
+					item: "botania:blue_mushroom"
+					type: "item"
+				}
+				{
+					id: "1139600A950FD231"
+					item: "botania:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "429E231874C8373D"
+					item: "botania:green_mushroom"
+					type: "item"
+				}
+				{
+					id: "27F237DAEE801277"
+					item: "botania:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "051AFD998D9AC44D"
+					item: "botania:black_mushroom"
+					type: "item"
+				}
+			]
+			title: "Magic Mushroom collection"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "5A9A2606485120A5"
+			tasks: [
+				{
+					id: "6216E45C2B11E37A"
+					item: "botania:white_petal"
+					type: "item"
+				}
+				{
+					id: "0244F8A2BCC00AD5"
+					item: "botania:orange_petal"
+					type: "item"
+				}
+				{
+					id: "2C83A13E283EA618"
+					item: "botania:magenta_petal"
+					type: "item"
+				}
+				{
+					id: "5BAE2625C6A27F30"
+					item: "botania:light_blue_petal"
+					type: "item"
+				}
+				{
+					id: "7F8A4EE3DD00F523"
+					item: "botania:yellow_petal"
+					type: "item"
+				}
+				{
+					id: "7A548EC0E750149A"
+					item: "botania:lime_petal"
+					type: "item"
+				}
+				{
+					id: "2B92DDFA8A1B9477"
+					item: "botania:pink_petal"
+					type: "item"
+				}
+				{
+					id: "5A19C2881F041959"
+					item: "botania:gray_petal"
+					type: "item"
+				}
+				{
+					id: "489C985D4348BDA0"
+					item: "botania:light_gray_petal"
+					type: "item"
+				}
+				{
+					id: "1434FE586646FFF7"
+					item: "botania:cyan_petal"
+					type: "item"
+				}
+				{
+					id: "3B40B7F20C181B8A"
+					item: "botania:purple_petal"
+					type: "item"
+				}
+				{
+					id: "5CF8B2F47E72E8E0"
+					item: "botania:blue_petal"
+					type: "item"
+				}
+				{
+					id: "70B3EA9AAEC2DC3C"
+					item: "botania:brown_petal"
+					type: "item"
+				}
+				{
+					id: "00A8D0A9ACFF4B19"
+					item: "botania:green_petal"
+					type: "item"
+				}
+				{
+					id: "5DF49AE9AF9532AB"
+					item: "botania:red_petal"
+					type: "item"
+				}
+				{
+					id: "054B68A707ABD940"
+					item: "botania:black_petal"
+					type: "item"
+				}
+			]
+			title: "Magic flower collection"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "2D305B392622E8A4"
+			tasks: [
+				{
+					icon: "botania:vivid_grass"
+					id: "04DEADF2A5015721"
+					structure: "totw_modded:regular"
+					title: "Grassland"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:blue_ice"
+					id: "0AECC48AA7E7E92C"
+					structure: "totw_modded:ice"
+					title: "Ice"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:red_sandstone"
+					id: "4127806E782BB7BE"
+					structure: "totw_modded:badlands"
+					title: "Badlands"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:sandstone"
+					id: "52DC7B77C91B73DF"
+					structure: "totw_modded:desert"
+					title: "Desert"
+					type: "structure"
+				}
+				{
+					icon: "betternether:jungle_grass"
+					id: "14CEF3E783401EF9"
+					structure: "totw_modded:jungle"
+					title: "Jungle"
+					type: "structure"
+				}
+				{
+					icon: "upgrade_aquatic:kelp_block"
+					id: "6A2E5A678A2FC288"
+					structure: "totw_modded:ocean"
+					title: "Ocean"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:tube_coral_block"
+					id: "51377C66BAFF9523"
+					structure: "totw_modded:ocean_warm"
+					title: "Warm Ocean"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:andesite"
+					id: "653F19C3A6261494"
+					structure: "totw_modded:derelict"
+					title: "Mountain Tower (Broken)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:cracked_stone_bricks"
+					id: "3614A734B140975E"
+					structure: "totw_modded:derelict_grass"
+					title: "Broken tower"
+					type: "structure"
+				}
+				{
+					icon: "blue_skies:everbright_portal"
+					id: "66FE3139549BF86C"
+					structure: "minecraft:mineshaft"
+					title: "Everbright"
+					type: "structure"
+				}
+				{
+					icon: "blue_skies:everdawn_portal"
+					id: "7EE4A0A6215F4E26"
+					structure: "totw_modded:everdawn"
+					title: "Everdawn"
+					type: "structure"
+				}
+				{
+					icon: "aether:aether_portal_frame"
+					id: "4753654459BD556D"
+					structure: "totw_modded:aether"
+					title: "Aether"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:netherrack"
+					id: "25B4AB045828ECC6"
+					structure: "totw_modded:nether"
+					title: "Nether"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:end_portal_frame"
+					id: "1C1B1124FC313365"
+					structure: "totw_modded:end"
+					title: "End"
+					type: "structure"
+				}
+			]
+			title: "Find all the towers"
+			x: 9.0d
+			y: 1.0d
 		}
 	]
 	title: "Challenges"
