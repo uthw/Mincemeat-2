@@ -965,7 +965,7 @@
 				""
 				"Can be extinguished with an empty hand by right-clicking. This cancels the ritual."
 				""
-				"{image:kubejs:item/ritual_setup.png width:960 height:540 align:center fit:true}"
+				"{image:kubejs:item/ritual_setup width:960 height:540 align:center fit:true}"
 				""
 				"&oExample of ritual setup. The positions and orientations of the stone hands don't really matter, as long as they're near the brazier."
 			]
@@ -2021,7 +2021,7 @@
 				""
 				"When your book looks like the image below, click the green button."
 				""
-				"{image:kubejs:item/chant_selection.png width:707 height:418 align:center fit:true}"
+				"{image:kubejs:item/chant_selection width:707 height:418 align:center fit:true}"
 				""
 				"If you did it right, thunder will be heard and the effigy's eyes will light up. You'll also see a progress meter at the top of your screen."
 				""
@@ -2074,7 +2074,7 @@
 				""
 				"The composition of this chant should be Wicked --> Blood --> Wicked, as shown below. Make sure the goblet has blood before you use the chant, and the effigy is still somewhere near the altar."
 				""
-				"{image:kubejs:item/blood_chant.png width:247 height:98 align:center fit:true}"
+				"{image:kubejs:item/blood_chant width:247 height:98 align:center fit:true}"
 				""
 				"This chant should always be used over your other option due to it being more impressive to the Dark Lord."
 			]
@@ -2142,7 +2142,7 @@
 				"The Unholy Symbol is not consumed in recipes, so there's no reason to lose it."
 				""
 				""
-				"{image:kubejs:item/touch_of_darkness.png width:276 height:95 align:center fit:true}"
+				"{image:kubejs:item/touch_of_darkness width:276 height:95 align:center fit:true}"
 			]
 			id: "2D8BA0A7766C58D9"
 			rewards: [

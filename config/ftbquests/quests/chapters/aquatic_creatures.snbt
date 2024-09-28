@@ -161,7 +161,7 @@
 		}
 		{
 			height: 2.5d
-			image: "relics:textures/gui/description/backgrounds/jungle.png"
+			image: "alexsmobs:textures/advancement_background.png"
 			rotation: 0.0d
 			width: 4.0d
 			x: 7.0d
