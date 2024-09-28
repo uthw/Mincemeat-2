@@ -329,8 +329,8 @@
 				id: "5B147F40E2B6243D"
 				type: "advancement"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5AA15937C7BBDF98"]
@@ -627,8 +627,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51A20901B9871737"]
@@ -1741,8 +1741,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 1.0d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6AAC671A5A3A8E24"]
@@ -2408,7 +2408,7 @@
 		{
 			dependencies: ["5818946310414790"]
 			description: [
-				"The Chameleon Mote is shed by chameleons while alive."
+				"The Chameleon Molt is shed by chameleons while alive."
 				""
 				"It provides adaptive resistance to the elements, which is effective regardless of whether you're too hot or too cold."
 				""
@@ -2487,6 +2487,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["5AA15937C7BBDF98"]
 			description: [
 				"Since you're starting down the technical route, now's a goo dtime to learn about FTB Chunks."
 				""
@@ -2505,6 +2506,18 @@
 			title: "Claiming and Loading Chunks"
 			x: 3.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["0A6DBC786BCF967E"]
+			description: ["Allows easy access to a crafting table by right clicking while holding this item."]
+			id: "331AF9614A44E780"
+			tasks: [{
+				id: "4D55B1E4056580AA"
+				item: "actuallyadditions:crafter_on_a_stick"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
 		}
 	]
 	title: "Getting Started"
