@@ -104,6 +104,7 @@ ServerEvents.recipes((event) => {
         "actuallyadditions:coal_generator",
         "actuallyadditions:ranged_collector",
         "eidolon:shadow_gem",
+        "create:crafting/kinetics/white_sail"
     ];
 
     toRemove.forEach((recipeId) => {
