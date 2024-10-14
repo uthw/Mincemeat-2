@@ -34,8 +34,8 @@ ServerEvents.tags("worldgen/biome", (event) => {
     });
 });
 
+// towers of the wild modded compat with worldgen mods
 ServerEvents.highPriorityData((event) => {
-    // fix some towers not being able to spawn in modded biomes (usually things like modded deserts that don't have tags in vanilla)
     let totwModdedTowers = [
         {
             key: "desert",
@@ -45,6 +45,7 @@ ServerEvents.highPriorityData((event) => {
                 "#forge:desert",
                 "#forge:is_desert",
                 "#c:desert",
+                "#biomeswevegone:desert"
             ],
         },
         {
@@ -60,6 +61,7 @@ ServerEvents.highPriorityData((event) => {
                 "#forge:snowy",
                 "#forge:is_snowy",
                 "#wilderwild:snowy_plains",
+                "biomeswevegone:shattered_glacier"
             ],
         },
         {
@@ -70,13 +72,60 @@ ServerEvents.highPriorityData((event) => {
                 "#forge:is_plains",
                 "#forge:plains",
                 "#wilderwild:plains_grass",
+                "#biomeswevegone:swamp",
+                "#biomeswevegone:floral",
+                "#biomeswevegone:forest",
+                "#biomeswevegone:savanna",
+                "#c:savanna",
+                "#c:tree_savanna",
+                "#forge:savanna",
+                "#forge:savanna/tree",
+                "#minecraft:is_savanna",
+                "#forge:swamp",
+                "#forge:is_swamp"
             ],
         },
+        {
+            key: "derelict_grass",
+            values: [
+                "#biomeswevegone:plains",
+                "#c:plains",
+                "#forge:is_plains",
+                "#forge:plains",
+                "#wilderwild:plains_grass",
+                "#biomeswevegone:swamp",
+                "#biomeswevegone:floral",
+                "#biomeswevegone:forest",
+                "#biomeswevegone:savanna",
+                "#c:savanna",
+                "#c:tree_savanna",
+                "#forge:savanna",
+                "#forge:savanna/tree",
+                "#minecraft:is_savanna",
+                "#forge:swamp",
+                "#forge:is_swamp"
+            ]
+        },
+        {
+            key: "ocean",
+            values: [
+                "minecraft:deep_cold_ocean",
+                "minecraft:deep_frozen_ocean",
+                "biomeswevegone:dead_sea",
+            ]
+        },
+        {
+            key: "ocean_warm",
+            values: [
+                "minecraft:deep_lukewarm_ocean",
+                "biomesevegone:lush_stacks",
+            ]
+        }
     ];
 
     totwModdedTowers.forEach((tower) => {
         event.addJson(
-            `totw_modded:tags/worldgen/biome/has_structure/${tower.key}.json`,
+            `totw_modded:tags/worldgen/biome/has_structure/${tower.key}_tower.json`,
             tower
         );
     });
