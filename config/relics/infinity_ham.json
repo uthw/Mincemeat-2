@@ -40,7 +40,7 @@
     },
     "loot": {
         "entries": {
-            "[\\w]+:chests\\/[\\w_\\/]*village[\\w_\\/]*": 0.001
+            "[\\w]+:chests\\/[\\w_\\/]*village[\\w_\\/]*": 0
         }
     }
 }
