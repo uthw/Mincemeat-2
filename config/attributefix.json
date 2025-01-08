@@ -220,6 +220,17 @@
         "value": 2000
       }
     },
+    "caverns_and_chasms:weakness_aura": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
     "obscure_api:magic_resistance": {
       "enabled": false,
       "min": {
@@ -273,6 +284,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "caverns_and_chasms:lifesteal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
       }
     },
     "additionalentityattributes:player.lava_visibility": {
@@ -361,6 +383,17 @@
       "max": {
         "default": 8192,
         "value": 8192
+      }
+    },
+    "caverns_and_chasms:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "playerex:lifesteal": {
@@ -550,6 +583,17 @@
         "value": 1024
       }
     },
+    "environmental:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "feathers:feathers.max_feathers": {
       "enabled": false,
       "min": {
@@ -625,6 +669,28 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "caverns_and_chasms:slowness_infliction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
+    "caverns_and_chasms:magic_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "minecraft:generic.flying_speed": {
@@ -1703,6 +1769,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "caverns_and_chasms:experience_boost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
       }
     },
     "attributeslib:life_steal": {

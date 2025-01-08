@@ -11,19 +11,5 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "crystal"
-	#The color of this material.
-	color = 6925451
-
-[create]
-	#The default byproduct material to output in Create's crushing.
-	byproduct = "minecraft:cobblestone"
-
-[theurgy]
-	#The alchemical sulfur tier of this material.
-	tier = "COMMON"
-
-[mekanism]
-	#The default base to use in Mekanism's Combiner to recreate ores.
-	oreBase = "#forge:cobblestone/normal"
+	modelType = "metallic"
 

@@ -1,3 +1,5 @@
+// test
+
 ServerEvents.tags("enchantment", (event) => {
     let adds = [
         ["minecraft:sword_or_axe", "tetra:modular_single"],

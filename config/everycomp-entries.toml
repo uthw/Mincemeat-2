@@ -94,6 +94,7 @@
 			purple_glacia = true
 			gilded_oak = true
 			blighted_skyroot = true
+			fieldsproot = true
 
 		[types.leaves_type.autumnity]
 			maple = true
@@ -124,12 +125,6 @@
 
 		[types.leaves_type.occultism]
 			otherworld = true
-
-		[types.leaves_type.betternether]
-			willow = true
-			rubeus = true
-			anchor_tree = true
-			nether_sakura = true
 
 		[types.leaves_type.biomeswevegone]
 			aspen = true
@@ -190,6 +185,32 @@
 			yellow_birch = true
 			yellow_spruce = true
 			firecracker = true
+
+		[types.leaves_type.environmental]
+			hibiscus = true
+			willow = true
+			pine = true
+			plum = true
+			cheerful_plum = true
+			moody_plum = true
+			wisteria = true
+			pink_wisteria = true
+			blue_wisteria = true
+			purple_wisteria = true
+			white_wisteria = true
+
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			aspen = true
+			green_aspen = true
+			laurel = true
+			dry_laurel = true
+			kousa = true
+			currant = true
+			grimwood = true
 
 	[types.cake]
 
@@ -332,17 +353,6 @@
 		[types.wood_type.integrateddynamics]
 			menril = true
 
-		[types.wood_type.betternether]
-			nether_reed = true
-			stalagnate = true
-			willow = true
-			wart = true
-			rubeus = true
-			mushroom_fir = true
-			nether_mushroom = true
-			anchor_tree = true
-			nether_sakura = true
-
 		[types.wood_type.biomeswevegone]
 			aspen = true
 			baobab = true
@@ -369,6 +379,30 @@
 			witch_hazel = true
 			zelkova = true
 
+		[types.wood_type.sullysmod]
+			petrified = true
+
+		[types.wood_type.endergetic]
+			poise = true
+
+		[types.wood_type.environmental]
+			willow = true
+			pine = true
+			plum = true
+			wisteria = true
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+
 #Disables specific entries
 [entries]
 
@@ -393,4 +427,80 @@
 
 		[entries.wood_type.vct]
 			crafting_table = true
+
+		[entries.wood_type.boatload]
+			large_boat = true
+			furnace_boat = true
+
+		[entries.wood_type.mcwroofs]
+			planks_upper_steep_roof = true
+			top_roof = true
+			lower_roof = true
+			planks_roof = true
+			upper_steep_roof = true
+			steep_roof = true
+			roof = true
+			planks_attic_roof = true
+			upper_lower_roof = true
+			planks_top_roof = true
+			planks_steep_roof = true
+			attic_roof = true
+			planks_upper_lower_roof = true
+			planks_lower_roof = true
+
+		[entries.wood_type.another_furniture]
+			shelf = true
+			bench = true
+			flower_box = true
+			shutter = true
+			table = true
+			drawer = true
+			chair = true
+
+		[entries.wood_type.mcwwindows]
+			plank_window = true
+			louvered_shutter = true
+			plank_window2 = true
+			pane_window = true
+			plank_pane_window = true
+			stripped_pane_window = true
+			plank_four_window = true
+			stripped_log_window2 = true
+			log_parapet = true
+			window2 = true
+			stripped_log_four_window = true
+			four_window = true
+			plank_parapet = true
+			blinds = true
+			window = true
+			shutter = true
+			stripped_log_window = true
+
+		[entries.wood_type.mcwbridges]
+			bridge_pier = true
+			rope_bridge_stair = true
+			log_bridge_stair = true
+			rail_bridge = true
+			rope_bridge = true
+			log_bridge_middle = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			chest = true
+			ladder = true
+			hollow_log = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			stripped_post = true
+			vertical_slab = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
 
