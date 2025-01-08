@@ -248,7 +248,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "mekanismgenerators:solar_panel" },
             "#forge:glass_panes",
-            "betternether:quartz_glass_pane",
+            "wilderwild:echo_glass",
         ],
         [
             { output: "mekanism:basic_thermodynamic_conductor" },

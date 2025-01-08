@@ -207,7 +207,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "create:asurine",
                 "paraglider:spirit_orb",
-                "betternether:black_apple",
+                "caverns_and_chasms:necromium_ingot",
                 "blue_skies:moonstone",
             ],
         },

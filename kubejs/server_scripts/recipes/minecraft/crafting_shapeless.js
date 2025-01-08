@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
             "cataclysm:abyssal_sacrifice",
             [
                 "minecraft:nautilus_shell",
-                "betternether:nether_ruby",
+                "caverns_and_chasms:necromium_nugget",
                 "eidolon:zombie_heart",
                 "paraglider:spirit_orb",
             ],
@@ -67,7 +67,7 @@ ServerEvents.recipes((event) => {
         ],
         [
             "reliquary:infernal_claw",
-            ["alexsmobs:dropbear_claw", "betternether:nether_ruby"],
+            ["alexsmobs:dropbear_claw", "minecraft:blaze_powder"],
         ],
         ["ftbquests:book", ["minecraft:book", "minecraft:paper"]],
         [

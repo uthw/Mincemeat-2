@@ -386,7 +386,7 @@ ServerEvents.recipes((event) => {
             "enigmaticlegacy:infinimeal",
             ["ABC", "DEF", "GHI"],
             {
-                A: "betternether:ink_bush_seed",
+                A: "atmospheric:aloe_kernels",
                 B: "blue_skies:winter_leaf_seeds",
                 C: "blue_skies:fiery_bean_seeds",
                 D: "thermal:barley_seeds",
@@ -824,7 +824,7 @@ ServerEvents.recipes((event) => {
             [" A ", "BCB", " D "],
             {
                 A: "art_of_forging:enigmatic_construct",
-                B: "betternether:propelplant_cane",
+                B: "nethersdelight:propelplant_cane",
                 C: "enigmaticlegacy:thicc_scroll",
                 D: "apotheosis:epic_material",
             },
