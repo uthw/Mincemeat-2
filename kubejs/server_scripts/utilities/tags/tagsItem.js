@@ -22,7 +22,7 @@ ServerEvents.tags("item", (event) => {
         ["forge:bowls", "ecologics:coconut_husk"],
         ["forge:bowls", "minecraft:bowl"],
         ["create:stone_types/limestone", "quark:limestone"],
-        ["create:stone_types/limestone", "alexscaves:limestone"]
+        ["create:stone_types/limestone", "alexscaves:limestone"],
         // ["forge:bowls"]
         // ["iceandfire:tempt_hippocampus", "deep_aether:raw_aerglow_fish"],
         // ["iceandfire:tempt_hippocampus", "deep_aether:cooked_aerglow_fish"],
@@ -56,6 +56,7 @@ ServerEvents.tags("item", (event) => {
         ["forge:workbench", "biomeswevegone:willow_crafting_table"],
         ["forge:workbench", "biomeswevegone:witch_hazel_crafting_table"],
         ["forge:workbench", "biomeswevegone:zelkova_crafting_table"],
+        ["forge:workbench", "biomeswevegone:aspen_crafting_table"],
     ];
 
     add.forEach((addition) => {
