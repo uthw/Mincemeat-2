@@ -17,8 +17,7 @@ A WIP modpack for Minecraft 1.20.1 that contains kitchen-sink, expert, and adven
 5. (ONLY IF YOU DID STEP 4) Select Mincemeat 2 --> Edit (on the right) --> Settings --> Auto-detect... --> select GraalVM
 6. Set minimum and maximum memory allocation to 8192 MiB
 7. Type in [these](https://gist.github.com/uthw/3648819b8acf988ed21260f62f83e05f) JVM arguments
-
-8. Press play. It's normal for the game to crash on the loading screen the first time. Simply relaunch Minecraft if this happens.
+8. Press play.
 
 ## Tips
 
