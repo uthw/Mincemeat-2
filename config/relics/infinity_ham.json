@@ -40,7 +40,7 @@
     },
     "loot": {
         "entries": {
-            "[\\w]+:chests\\/[\\w_\\/]*village[\\w_\\/]*": 0
+            "minecraft:nonexistent_loot_pool": 0
         }
     }
 }
