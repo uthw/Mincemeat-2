@@ -104,5 +104,13 @@
         "when": "onjoin",
         "mob": "upgrade_aquatic:great_thrasher",
         "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "cataclysm:deepling_brute",
+        "result": "default",
+        "healthmultiply": 0.8,
+        "damagemultiply": 0.8,
+        "speedmultiply": 0.7
     }
 ]
