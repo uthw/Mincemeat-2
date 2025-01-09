@@ -16,6 +16,56 @@
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2BE6B05790E5A2DE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "clear @p patchouli:guide_book"
+					elevate_perms: true
+					id: "440E90F715F18EFC"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "give @p ftbquests:book"
+					elevate_perms: true
+					id: "402808D06711EB8D"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "clear @p enigmaticlegacy:cursed_ring"
+					elevate_perms: true
+					id: "010C4C37EAE482D9"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "gamerule playersSleepingPercentage 50"
+					elevate_perms: true
+					id: "32FE0241198C983D"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "attribute @p attributeslib:arrow_damage modifier add 03879795-c80d-42fb-953d-577b3dfb4aab nerf -0.2 multiply_base"
+					elevate_perms: true
+					id: "6C30B758E599A626"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/give @p delightful:smore{display:{Name:\"{\\\"text\\\":\\\"Starting Gift\\\"}\"}}"
+					elevate_perms: true
+					id: "4C01E5E15651800A"
+					silent: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				icon: "botania:cosmetic_clock_eye"
 				id: "7ABAEA70F4D6542F"
