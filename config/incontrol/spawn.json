@@ -110,5 +110,11 @@
         "mob": "cataclysm:deepling_brute",
         "result": "default",
         "speedmultiply": 0.7
+    },
+    {
+        "when": "onjoin",
+        "mob": "alexscaves:teletor",
+        "random": 0.3,
+        "result": "deny"
     }
 ]
