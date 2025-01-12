@@ -37,34 +37,6 @@
 	quests: [
 		{
 			description: [
-				"Guide to the animals added by Alex's Mobs. For detailed descriptions, please consult the dictionary."
-				""
-				"The 3d models of the mobs from Alex's Mobs are actually the hidden creative tab item. The NBT tag that lets them be static is from the RAD 2 \"Hostile World\" quest chapter. Play that modpack!"
-				""
-				"The source of information related to Alex's Mobs is the unofficial wiki. Thank you to the Alex's Mobs wiki editors (Sooshi Guy, Vollidiot3000, SavyCadogan, and RacingBulletTag) for your hard work!"
-			]
-			disable_toast: true
-			id: "504E9D3C134EAD3A"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "510CB93B9332753E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "alexsmobs:animal_dictionary"
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: -6.25d
-		}
-		{
-			description: [
 				"The description for this bird can be found by going through Hexerei's dedicated quests in the Supernatural Magic chapter: "
 				""
 				"{ \"text\": \"To Tame a Crow (click here)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0129870BD87086C9\" } }"
@@ -866,6 +838,96 @@
 			}]
 			x: -1.0d
 			y: 7.5d
+		}
+		{
+			description: ["These passive mobs can be hunted and killed for their venison. They're skittish and not the unwitting killers we know in real life."]
+			id: "55C45ADE0881BE52"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:deer"
+					}
+				}
+				id: "798AA207FE30BE00"
+				observe_type: 5
+				timer: 0L
+				title: "Deer"
+				to_observe: "environmental:deer"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: ["The Duck shares a lot of traits with the chicken, except the type of poultry they drop and the superior sounds they make."]
+			id: "3939650094CE4D69"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:duck"
+					}
+				}
+				id: "5534DFA676663658"
+				observe_type: 0
+				timer: 0L
+				title: "Duck"
+				to_observe: "environmental:duck"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Mooblooms are the mobs that should've won the 2020 mob vote, but here they are anyway. Their vibrant colors give the Sunny effect to nearby mobs and players, which makes them behave as though it's daytime."
+				""
+				"This makes them useful in unwittingly fighting undead mobs (even if they have a roof), allowing bees to work at night, and more."
+				""
+				"If you shear a Moobloom, you'll get their Buttercup and they'll be converted to a normal cow."
+			]
+			id: "5B7521B4262DD115"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "buzzier_bees:moobloom"
+					}
+				}
+				id: "2A9DAAF24436DE70"
+				observe_type: 5
+				timer: 0L
+				title: "Moobloom"
+				to_observe: "buzzier_bees:moobloom"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: ["To form a Copper Golem, place a Lightning Rod on a Carved Pumpkin. They'll press Copper Buttons randomly without paying attention to what they do."]
+			id: "401054DED55C98A9"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:copper_golem"
+					}
+				}
+				id: "6E3E591E5B8C3854"
+				observe_type: 5
+				timer: 0L
+				title: "Copper Golem"
+				to_observe: "caverns_and_chasms:copper_golem"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 4.5d
 		}
 	]
 	title: "Temperate Biomes"

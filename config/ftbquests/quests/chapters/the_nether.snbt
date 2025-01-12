@@ -838,6 +838,58 @@
 			x: 4.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"Puff Bugs are neutral, bulbous insects who live in hives in their native Poise Forest. They're known for being able to pollinate Bolloom Buds, causing them to bloom. "
+				""
+				"They're willing to take a Tall Poise Bush in exchange for one of their Hives, or a Bolloom Fruit if you want more Bolloom Buds."
+			]
+			id: "5CFAB95E678D15DF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endergetic:puff_bug"
+					}
+				}
+				id: "1D4C2CE08AEF01CA"
+				observe_type: 5
+				timer: 0L
+				title: "Puff Bug"
+				to_observe: "endergetic:puff_bug"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["112C59D69077AED4"]
+			description: [
+				"Booflo are frog-like creatures found in the Poise Forest. They can be tamed with enough of their favorite snack, Bolloom Fruit. Make sure to give them distance while they're eating this delight."
+				""
+				"Tamed Booflos can be ridden, and are able to jump very high. They can also jump while midair, effectively allowing for flight."
+			]
+			id: "5D35A48356A76F72"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "endergetic:booflo"
+					}
+				}
+				id: "78CF45C70F1D24A6"
+				observe_type: 5
+				timer: 0L
+				title: "Booflo"
+				to_observe: "endergetic:booflo"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
 	]
 	title: "Nether and End"
 }

@@ -715,8 +715,8 @@
 					id: "4915214DA37A3F44"
 					observe_type: 5
 					timer: 0L
-					title: "Baby Creeper"
-					to_observe: "mekanismadditions:baby_creeper"
+					title: "Creepie"
+					to_observe: "savage_and_ravage:creepie"
 					type: "observation"
 				}
 				{
@@ -735,6 +735,13 @@
 					type: "observation"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "alexsmobs:tab_icon"
+						tag: {
+							DisplayEntityType: "mekanismadditions:baby_wither_skeleton"
+						}
+					}
 					id: "037744D6EE5F1275"
 					observe_type: 5
 					timer: 0L
@@ -856,6 +863,270 @@
 			title: "Rocky Roller"
 			x: -4.5d
 			y: 1.5d
+		}
+		{
+			description: [
+				"These wizards channel their anger from losing to the Glow Squid of all things in order to rain (the opposite of) hellfire upon anyone they don't like."
+				""
+				"Their primary means of attack is dropping large ice cubes from the air, so the key here is to outmaneuver the Iceologer."
+			]
+			id: "370C4B930AA77BA7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "savage_and_ravage:iceologer"
+					}
+				}
+				id: "2C27A52F9BE60259"
+				observe_type: 5
+				timer: 0L
+				title: "Iceologer"
+				to_observe: "savage_and_ravage:iceologer"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"The Trickster isn't threatening on its own, but in raids it plays a support role of sorts, using magic to slow foes down and teleport them into unfavorable positions."
+				""
+				"Tricksters are evasive and like to run away, making ranged attacks a viable option. Be wary though, as they can dodge projectiles by teleporting in a pinch."
+				""
+				"Tricksters usually drop Totems of Undying but sometimes leave behind their unique Mask of Dishonestly, which turns the wearer invisible when they sneak."
+			]
+			id: "68F9AF5B5F0E5475"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "savage_and_ravage:trickster"
+					}
+				}
+				id: "3007FEE8539614C8"
+				observe_type: 5
+				timer: 0L
+				title: "Trickster"
+				to_observe: "savage_and_ravage:trickster"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: ["This hooded figure can be viewed as a more powerful Vindicator, cutting down its foes using a massive cleaver. You'll obviously want to keep your distance from this guy if possible."]
+			id: "4FF8510418800CB6"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "savage_and_ravage:executioner"
+					}
+				}
+				id: "1A96304BEF44CBB6"
+				observe_type: 5
+				timer: 0L
+				title: "Executioner"
+				to_observe: "savage_and_ravage:executioner"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			description: ["These foes can be found in your adventures and basically act like skeletons, but they use crossbows instead."]
+			id: "23DF03EEFB597F41"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "savage_and_ravage:skeleton_villager"
+					}
+				}
+				id: "5CA10DA460E3B3B2"
+				observe_type: 5
+				timer: 0L
+				title: "Skeleton Villager"
+				to_observe: "savage_and_ravage:skeleton_villager"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"First, let's clear a misconception. Despite its name, the Griefer can't actually grief anything. It actually throws Creeper Spores at you, which generate small Creepies, who are sort of like Baby Zombies but for Creepers."
+				""
+				"Creepies run towards enemies and explode. Their explosions are small and don't destroy blocks unlike adult Creepers."
+			]
+			id: "408C507002170D56"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "savage_and_ravage:griefer"
+					}
+				}
+				id: "7E2F47D045D9249D"
+				observe_type: 5
+				timer: 0L
+				title: "Griefer"
+				to_observe: "savage_and_ravage:griefer"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			description: ["The Glare is a passive mob who hides from monsters in the Lush Caves. They'll follow those who feed them Glow Berries and detect when the light level is low enough for monsters to spawn."]
+			id: "57D36AAF28C1F03F"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:glare"
+					}
+				}
+				id: "76B5DDEA7E62274B"
+				observe_type: 5
+				timer: 0L
+				title: "Glare"
+				to_observe: "caverns_and_chasms:glare"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The Mime is a huge fan of yours. So much so that it bought all the same equipment as you and decided to start chasing and attacking you, like the paparazzi."
+				""
+				"It copies your armor and the melee weapon you're holding, if applicable. It will use its fists if you're not wielding anything. It always attacks using its main hand, so you can use off-hand combat to defeat it. It also doesn't use ranged weapons, so if you like bows that's also a great option."
+			]
+			id: "75B9779966E0366D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:mime"
+					}
+				}
+				id: "7CCF13CA832F6E54"
+				observe_type: 5
+				timer: 0L
+				title: "Mime"
+				to_observe: "caverns_and_chasms:mime"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Peepers are enemies straight out of a horror game. They only move when you do, and explode when they reach you. "
+				""
+				"The traditional way of killing them is by staying still and taking them down with arrows, but another method is hanging out in 2-block-tall holes, the same way you deal with Wither Skeletons and Endermen."
+			]
+			id: "7997CD5C09E4779C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:peeper"
+					}
+				}
+				id: "7A4DCE4F4AD0F4F2"
+				observe_type: 5
+				timer: 0L
+				title: "Peeper"
+				to_observe: "caverns_and_chasms:peeper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: ["Deepers are variants of Creepers who spawn underground. They're essentially the same as normal Creepers, but they're vulnerable to pickaxes."]
+			id: "2F736EFACC61DEAD"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:deeper"
+					}
+				}
+				id: "52038B36391A757D"
+				observe_type: 5
+				timer: 0L
+				title: "Deeper"
+				to_observe: "caverns_and_chasms:deeper"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"64F8F8C5B9B282EE"
+				"4F6FBD7712AAD973"
+				"61D7D7C2BBE500B1"
+				"6453F764F81B8018"
+				"11857ED20C4ADB05"
+				"0E6012B57C4C84A3"
+				"4452346618F92476"
+				"371169B5D8CE42C4"
+				"0F70222BAA449991"
+			]
+			description: ["You ever find yourself thirsty in a cave but just &lHATE&r lukewarm water? Well, you're still not in luck. Even if you find a massive living ice cube in a frozen cave, it is far too big to put in your drink, and will most likely try to slide towrds you at a high velocity to make you freeze to death."]
+			id: "1917B2F63522FDEF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "yungscavebiomes:ice_cube"
+					}
+				}
+				id: "35FDB34DB276203D"
+				observe_type: 5
+				timer: 0L
+				title: "Ice Cube"
+				to_observe: "yungscavebiomes:ice_cube"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: ["Do not be alarmed, this is no death worm. It's just a sand snapper what just likes to jump around for fun in sand. Though, of all the places to jump in and out of sand playfully, I feel like there are better options than caves."]
+			id: "62AB82C483A55D99"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "yungscavebiomes:sand_snapper"
+					}
+				}
+				id: "2522911E50511478"
+				observe_type: 5
+				timer: 0L
+				title: "Sand Snapper"
+				to_observe: "yungscavebiomes:sand_snapper"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 2.5d
 		}
 	]
 	title: "Underground and Monsters"

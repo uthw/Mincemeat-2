@@ -367,6 +367,73 @@
 			x: 1.0d
 			y: 2.5d
 		}
+		{
+			description: [
+				"Yaks are fluffy bovids who call the mountains home. They're okay if left alone, but hate being sheared or attacked and will pursue anyone who tries to do this to them. This distinguishes them from the otherwise-similar bison."
+				""
+				"If you an safely pluck some yak hair, you can make a premium rug, building block, or pair of pants with it."
+			]
+			id: "7C79FBCB6839ED7E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:yak"
+					}
+				}
+				id: "7C40D71E69BF3093"
+				observe_type: 5
+				timer: 0L
+				title: "Yak"
+				to_observe: "environmental:yak"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: ["Reindeer share most of the same physical and psychological features of normal Deer, but prefer carrots over fruits. They can be found in Pine Barrens (not a Sopranos reference)."]
+			id: "3757C449989140A2"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:reindeer"
+					}
+				}
+				id: "36590692A0F4533D"
+				observe_type: 5
+				timer: 0L
+				title: "Reindeer"
+				to_observe: "environmental:reindeer"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: ["Pinecone Golems are good friends to make for your tree farms, since they love to pick saplings up off the ground and plant them."]
+			id: "2BD0DF3B6C4CCB91"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:pinecone_golem"
+					}
+				}
+				id: "2C21A63C59ACF0DF"
+				observe_type: 5
+				timer: 0L
+				title: "Pinecone Golem"
+				to_observe: "environmental:pinecone_golem"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
 	]
 	title: "Cold Biomes"
 }

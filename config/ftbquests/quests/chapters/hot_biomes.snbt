@@ -1280,6 +1280,79 @@
 			x: 2.0d
 			y: 4.5d
 		}
+		{
+			description: ["These overgrown insectoids love to jump around."]
+			id: "6A280CDD1414627C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "atmospheric:cochineal"
+					}
+				}
+				id: "7EF3BFDD6253CCAD"
+				observe_type: 5
+				timer: 0L
+				title: "Cochineal"
+				to_observe: "atmospheric:cochineal"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Tapirs can be found in jungles and make cute sounds."
+				""
+				"If you show them a flower, they will swiftly navigate to nearby flowers of the same species."
+				""
+				"If two tapirs find the same flower, they will breed."
+			]
+			id: "310FD882954E90B7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:tapir"
+					}
+				}
+				id: "4910DC4A720E1D45"
+				observe_type: 5
+				timer: 0L
+				title: "Tapir"
+				to_observe: "environmental:tapir"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Zebras are neutral mobs found in Savannas. Regardless of what color you think they are, they can be tamed in the same manner as horses. "
+				""
+				"Zebras have the added effect of being able to commit vehicular homicide when they run into something, in case you were planning on doing that in this world. "
+			]
+			id: "371B71CD2C014D4D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:zebra"
+					}
+				}
+				id: "72188A6E8B6BDA65"
+				observe_type: 5
+				timer: 0L
+				title: "Zebra"
+				to_observe: "environmental:zebra"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
 	]
-	title: "Hot Biomes"
+	title: "Hot/Tropical Biomes"
 }

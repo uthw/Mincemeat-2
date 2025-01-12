@@ -2109,6 +2109,48 @@
 			x: -5.0d
 			y: 0.0d
 		}
+		{
+			description: ["The koi lives in pools of water within the Blossom Woods biome. Those who spend time near the koi receive a status effect that prevents mobs from spawning near them."]
+			id: "6E619B8131A15C1A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:koi"
+					}
+				}
+				id: "501DFD5836BA29C0"
+				observe_type: 5
+				timer: 0L
+				title: "Koi"
+				to_observe: "environmental:koi"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			description: ["These mascots call the swamp their home. They store items they find in backpacks, and can be customized with colored wool and dye."]
+			id: "6FA25C482D1D0E22"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "environmental:slabfish"
+					}
+				}
+				id: "6920A6F94A989A59"
+				observe_type: 5
+				timer: 0L
+				title: "Slabfish"
+				to_observe: "environmental:slabfish"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
 	]
 	title: "Aquatic Creatures"
 }
