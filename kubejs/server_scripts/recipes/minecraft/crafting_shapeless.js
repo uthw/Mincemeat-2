@@ -196,6 +196,8 @@ ServerEvents.recipes((event) => {
             ],
         ],
         ["actuallyadditions:black_quartz", ["minecraft:quartz", "#forge:coal"]],
+        ["spartanweaponry:explosive_charge", ["minecraft:gunpowder", "thermal:phytogro", "#minecraft:coals"]],
+        ["minecraft:crafting_table", ["#forge:workbench"]],
     ];
 
     recipes.forEach((recipe) => {
