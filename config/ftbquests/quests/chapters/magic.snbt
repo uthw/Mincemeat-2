@@ -669,7 +669,7 @@
 				count: 4
 				id: "5EBB0E7D367520CC"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1545,7 +1545,7 @@
 			dependencies: ["7017FB66F6F3B2DE"]
 			description: [
 				"Step 1: Coal"
-				"Step 2: Ghast Tear and Essence of Death"
+				"Step 2: Ectoplasm and Essence of Death"
 				"Step 3: 2 Soul Gems and Essence of Death"
 				"Step 4: Diamond"
 				""
@@ -1587,19 +1587,6 @@
 							}
 						}
 						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-				{
-					id: "264BAE1C82E8D861"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:ghast_tear"
 					}
 					type: "item"
 				}
@@ -1655,6 +1642,11 @@
 						}
 						id: "eidolon:shadow_gem"
 					}
+					type: "item"
+				}
+				{
+					id: "39FCC357A7598E8E"
+					item: "iceandfire:ectoplasm"
 					type: "item"
 				}
 			]
@@ -3630,11 +3622,6 @@
 			id: "5390B26927C70B16"
 			tasks: [
 				{
-					id: "273C1B8E12C1A37D"
-					item: "irons_spellbooks:inscription_table"
-					type: "item"
-				}
-				{
 					id: "60445CC001C2CBA4"
 					item: {
 						Count: 1
@@ -3648,6 +3635,15 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					icon: "irons_spellbooks:inscription_table"
+					id: "03562DA064CD9706"
+					observe_type: 0
+					timer: 0L
+					title: "Inscription Table"
+					to_observe: "irons_spellbooks:inscription_table"
+					type: "observation"
 				}
 			]
 			title: "Become a Wizard"
