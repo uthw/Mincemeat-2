@@ -5,7 +5,7 @@
 	group: "357B296D74E0575E"
 	icon: "minecraft:grass_block"
 	id: "6855AEB6DE78FCD3"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -907,18 +907,26 @@
 				"5B149E24369F09ED"
 				"0958E22D0265B1EF"
 			]
+			description: ["You can summon a boss, the Luxtructosaururs, by dropping an Ominous Catalyst into an active Volcanic Core."]
 			id: "365E0C8A9768664A"
-			tasks: [{
-				id: "190500731F261980"
-				item: {
-					Count: 1
-					id: "alexscaves:extinction_spear"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "190500731F261980"
+					item: {
+						Count: 1
+						id: "alexscaves:extinction_spear"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "45FF87018B24ACF1"
+					item: "alexscaves:ominous_catalyst"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 12.5d
 		}
@@ -1364,8 +1372,8 @@
 				"6AA9EFDF2749A2FB"
 				"6A8DF7B095C4D714"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7EB9F437E980E400"
 			shape: "hexagon"
 			size: 1.5d
@@ -1661,6 +1669,20 @@
 			}]
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2287726086131598"]
+			description: ["I had Candy Cavity quests but I accidentally deleted them when I resynced my GitHub account to Git on my laptop. I'll rewrite/restore them later."]
+			id: "7A8F28E754BB375D"
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: "alexscaves:candy_cane"
+				id: "0B2F3BAD6A93AA5C"
+				title: "Candy Cavity"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 10.0d
 		}
 	]
 	title: "Overworld Adventure"

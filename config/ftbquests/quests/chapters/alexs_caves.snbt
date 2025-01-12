@@ -3,12 +3,14 @@
 	default_quest_shape: ""
 	filename: "alexs_caves"
 	group: "2E16C686F58ACDBC"
+	hide_quest_until_deps_complete: true
 	icon: "alexscaves:cave_book"
 	id: "6877B56883BE0381"
 	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6202F882D0377E6B"]
 			description: ["These fish don’t do much other than occasionally jumping out of acid pools. However, due to their toxic nature, eating one—even when cooked—will irradiate you, preventing HP regeneration."]
 			id: "7F101D376435DDC2"
 			tasks: [{
@@ -27,9 +29,10 @@
 				type: "observation"
 			}]
 			x: 0.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["403B8F4A5838932B"]
 			description: [
 				"These tiny fish spawn in abyssal chasms in the ocean and can appear in groups of up to 20. While they can be cooked, they provide a very poor food source. "
 				""
@@ -53,10 +56,11 @@
 				to_observe: "alexscaves:lanternfish"
 				type: "observation"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["403B8F4A5838932B"]
 			description: ["This huge fish is found in abyssal chasms, spending its entire life at the bottom of these depths. It can occasionally stand upright like a tripod on its fins. This fish can be cooked and is considered the best food source in the abyssal chasm."]
 			id: "1211E47C96044512"
 			tasks: [{
@@ -74,8 +78,888 @@
 				to_observe: "alexscaves:tripodfish"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			description: ["Even though they can't directly harm you, Notors are not to be messed with. If they spot you, they'll alert their friends of your presence. You do not want to mess with the Notor's friends."]
+			id: "5FD071F1FA87BE17"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:notor"
+					}
+				}
+				id: "063B0DF8DD434464"
+				observe_type: 5
+				timer: 0L
+				title: "Notor"
+				to_observe: "alexscaves:notor"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			description: ["Teletors are enemies capable of levitation. They wield iron tools which they have great control over. To take them down, it's preferred to use a double jump, dodge roll, or other mobility technique to deal melee damage, since they can be hard to hit with a bow."]
+			id: "0C0169047DF0CF11"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:teletor"
+					}
+				}
+				id: "1057ABAD3AF6130B"
+				observe_type: 5
+				timer: 0L
+				title: "Teletor"
+				to_observe: "alexscaves:teletor"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			description: [
+				"The Magnetron is a powerful foe with a deceptively weak appearance. When provoked, they create bodies from nearby blocks."
+				""
+				"They harness magnetic, lightning-like projectiles to attack foes. They can also use their fists for melee attacks if needed."
+				""
+				"The Cores of Iron they drop can be fashioned into powerful tools."
+			]
+			id: "2A8CC56F7319F8B5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:magnetron"
+					}
+				}
+				id: "6A18357D71D8AA65"
+				observe_type: 5
+				timer: 0L
+				title: "Magnetron"
+				to_observe: "alexscaves:magnetron"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			description: [
+				"Boundroids stealthily crawl across the ceilings of the Magnetic Caves. Once they find a suitable target, they will loudly drop on top of them as an attack."
+				""
+				"Boundroids can be defeated by shooting them while they're on the ceiling, as this will make them unwillingly drop to the ground, opening them up to attacks."
+			]
+			id: "4BC280C135CE0378"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:boundroid"
+					}
+				}
+				id: "54542BCB25B09EAE"
+				observe_type: 5
+				timer: 0L
+				title: "Boundroid"
+				to_observe: "alexscaves:boundroid"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A6104C04414F37B"]
+			description: ["Ferrouslimes are flying mobs whose health and damage vary with their size. Unlike regular slimes, Ferrouslimes can become stronger by merging with each other."]
+			id: "33498D2DB373268C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:ferrouslime"
+					}
+				}
+				id: "054572356DE78063"
+				observe_type: 5
+				timer: 0L
+				title: "Ferrouslime"
+				to_observe: "alexscaves:ferrouslime"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: [
+				"These harmless felines will become your pet if fed their favorite treat in the world, Radgills. "
+				""
+				"They're unique in that they can sap the radiation from nearby creatures. When they do this, they cure the Irradiated effect and are healed."
+				""
+				"Nucleepers are scared of them and will not engage you if one is nearby."
+			]
+			id: "58A149C204988228"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:raycat"
+					}
+				}
+				id: "0BEB98F7C821C86E"
+				observe_type: 5
+				timer: 0L
+				title: "Raycat"
+				to_observe: "alexscaves:raycat"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: [
+				"Gammaroaches are hostile, but only if you're Irradiated. They attack by emitting clouds of toxic gas, and also by transporting other hostile mobs towards their targets."
+				""
+				"They're vulnerable to Bane of Arthropods, but it shouldn't be that big of a deal since they're on the frail side."
+			]
+			id: "3E7571DCBF260E28"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:gammaroach"
+					}
+				}
+				id: "44BAC0F8CCB60CBE"
+				observe_type: 5
+				timer: 0L
+				title: "Gammaroach"
+				to_observe: "alexscaves:gammaroach"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: ["It's honestly best to avoid these beasts entirely -- their explosion is basically really big and hard to avoid in time. That's all you need to know."]
+			id: "784AE1434CFD6A6C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:nucleeper"
+					}
+				}
+				id: "6C59C19425CCF106"
+				observe_type: 5
+				timer: 0L
+				title: "Nucleeper"
+				to_observe: "alexscaves:nucleeper"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6202F882D0377E6B"]
+			description: [
+				"Brainiacs are abominations who attack any player or villager they see. They use several attacks ranging from close combat, ranged attacks employing its tongue and Waste Drum."
+				""
+				"It can also heal by drinking slop out of its Waste Drum."
+				""
+				"Brainiacs are undead and yet another reason to use Smite over Sharpness."
+			]
+			id: "6A4C3A65B88053FF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:brainiac"
+					}
+				}
+				id: "478320A7D65B25C7"
+				observe_type: 5
+				timer: 0L
+				title: "Brainiac"
+				to_observe: "alexscaves:brainiac"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: [
+				"Sea Pis are found at the floor of the Abyssal Chasm, scouring the ground for food. If you have clay balls, mud, or muck on hand, you can feed it to them and they'll sometimes give you Pearls or Marine Snow."
+				""
+				"They can be picked up with a bucket or killed and eaten. Even though they're toxic, you'd do anything for a Spice of Life heart, wouldn't you...?"
+			]
+			id: "7F9F367BB47CDA5A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:sea_pig"
+					}
+				}
+				id: "5B22402887DA35F5"
+				observe_type: 5
+				timer: 0L
+				title: "Sea Pig"
+				to_observe: "alexscaves:sea_pig"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: [
+				"Gossamer Worms are large yet passive mobs found in the Abyssal Chasm. They drop Bioluminessence and often serve as prey for Hullbreakers."
+				""
+				"They can be placed in a bucket and make for a nice addition to your aquarium."
+			]
+			id: "6EA267434CFA78E4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:gossamer_worm"
+					}
+				}
+				id: "7957C7FA9CAE91F4"
+				observe_type: 5
+				timer: 0L
+				title: "Gossamer Worm"
+				to_observe: "alexscaves:gossamer_worm"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: [
+				"Hullbreakers are massive fish, as you can clearly tell. They will attack anything that looks tasty, including glowing creatures and submarines with lights turned on. Don't attack it or do any of that, and it won't mess with you."
+				""
+				"They attack by biting and tackling for great damage. Their scales eat most of the damage of projectiles, so it's not worth it even if you have Tide Arrows."
+				""
+				"If killed, they drop an Enigmatic Engine, which can be used to build your own Submarine, and an Immortal Embryo, which you need to hatch a Tremorzilla."
+			]
+			id: "435B52E6B471B375"
+			tasks: [{
+				icon: "alexscaves:immortal_embryo"
+				id: "08FB7DDD4E6536C8"
+				observe_type: 5
+				timer: 0L
+				title: "Hullbreaker"
+				to_observe: "alexscaves:hullbreaker"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: [
+				"Deep Ones are intelligent denizens of the Abyssal Chasm. They won't attack players on sight, but are still wary and will follow them around."
+				""
+				"Deep Ones throw ink bombs to blind players and run away if they don't like how close the player is getting."
+				""
+				"Be sure to look for an Abyssal Altar. If you place a Pearl or Heart of the Sea on this block, Deep Ones will trade you for one of their items."
+				""
+				"Similar to villages, Deep Ones have a reputation system. You gain reputation by trading with them or killing Mine Guardians, and lose it by attacking them or making them throw an Ink Bomb."
+			]
+			id: "112F7411E5DF7F6A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:deep_one"
+					}
+				}
+				id: "28AEBD3960C239C7"
+				observe_type: 5
+				timer: 0L
+				title: "Deep One"
+				to_observe: "alexscaves:deep_one"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: ["Deep One Knights ae similar to regular Deep Ones. They're willing to trade with Pearls or Hearts of the Sea placed on a nearby Abyssal Altar, and will exchange different items from their regular counterparts."]
+			id: "629028FE511EBB36"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:deep_one_knight"
+					}
+				}
+				id: "49F4B759AA143A43"
+				observe_type: 5
+				timer: 0L
+				title: "Deep One Knight"
+				to_observe: "alexscaves:deep_one_knight"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: ["Deep One Mages behave similarly to regular Deep Ones, but use magic to attack. At an Abyssal Altar, Mages sometimes exchange diamonds and Sea Staves, probably making them the best trading partner."]
+			id: "27612503F4650B2A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:deep_one_mage"
+					}
+				}
+				id: "1206F6D318FFC202"
+				observe_type: 5
+				timer: 0L
+				title: "Deep One Mage"
+				to_observe: "alexscaves:deep_one_mage"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["403B8F4A5838932B"]
+			description: ["Mine Guardians can be seen attached to anchors, limiting their ability to pursue those they don't like. If you get too close, they'll die in a special explosion that deals great damage and destroys blocks underwater."]
+			id: "27A1B19383F7DB53"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:mine_guardian"
+					}
+				}
+				id: "45FC96B4BE359F24"
+				observe_type: 5
+				timer: 0L
+				title: "Mine Guardian"
+				to_observe: "alexscaves:mine_guardian"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: [
+				"Subterranodons are flying creatures from the Primordial Caves. They can be tamed with Trilocaris Tails and like eating fish. "
+				""
+				"Tamed Subterranodons are mountable and can fly, making for a good means of travel."
+			]
+			id: "224F18C7C3310B87"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:subterranodon"
+					}
+				}
+				id: "7A964DC9D9B2B426"
+				observe_type: 5
+				timer: 0L
+				title: "Subterranodon"
+				to_observe: "alexscaves:subterranodon"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: ["These herbivorous creatures won't bother you or any other mob unless provoked. They're tough foes when angered, and drop Tough Hide, which is a nice crafting ingredient."]
+			id: "7ECD64E0809ABD5C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:grottoceratops"
+					}
+				}
+				id: "7821CCE2087DA73E"
+				observe_type: 5
+				timer: 0L
+				title: "Grottoceratops"
+				to_observe: "alexscaves:grottoceratops"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: [
+				"These critters swim about in the Primordial Caves, and being at the bottom of the food chain, other mobs like to eat them."
+				""
+				"They can bite their aggressors, often to little avail. The tails they drop can be eaten, cooked, or used to tame a Subterranodon."
+			]
+			id: "5763C7A081C3CDE8"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:trilocaris"
+					}
+				}
+				id: "1CD6C088D88A03F0"
+				observe_type: 5
+				timer: 0L
+				title: "Trilocaris"
+				to_observe: "alexscaves:trilocaris"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: [
+				"This large birds have immense strength, but only use it to knock down trees and eat Trilocaris. If fed Primordial Soup, they'll knock down even more trees."
+				""
+				"They dance like parrots if you play music near them."
+			]
+			id: "772A4DBADE7B5E80"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:relicheirus"
+					}
+				}
+				id: "4CEF9BAB6A254738"
+				observe_type: 5
+				timer: 0L
+				title: "Relicheirus"
+				to_observe: "forbidden_arcanus:polished_darkstone"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: ["If you find this massive dinosaur, it means you've killed a Luxtructosaurus. You don't have much to fear with this guy, since it keeps to itself and eats plants unless attacked. You can feed it Serene Salad to ride it, which is very fun."]
+			id: "58E953690F62B1A2"
+			tasks: [{
+				icon: "alexscaves:dinosaur_nugget"
+				id: "05538D58612D4D48"
+				observe_type: 5
+				timer: 0L
+				title: "Atlatitan"
+				to_observe: "alexscaves:atlatitan"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: [
+				"These hostile dinosaurs go after just about anything. They'll raid chests for meat, but if they eat a Dinosaur Nugget they can be followed up by a Serene Salad and be tamed."
+				""
+				"If you're fighting Vallumraptors, go for the one with golden markings first. That's the elder. If it dies, all the others will run away and stop bothering you."
+				""
+				"If you can manage it, they'll dance if music is playing nearby."
+			]
+			id: "483F9B6AD890FEB1"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:vallumraptor"
+					}
+				}
+				id: "2CF368A3C05F6DF4"
+				observe_type: 5
+				timer: 0L
+				title: "Vallumraptor"
+				to_observe: "alexscaves:vallumraptor"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: [
+				"Tremorsaurus is hostile and attacks with its powerful bites and namesake roar, which shakes the ground around it."
+				""
+				"They can be tamed by attacking them with a Primitive Club, then feeding them a Serene Salad repeatedly after you get the stun."
+			]
+			id: "48908DD9806CDF4C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:tremorsaurus"
+					}
+				}
+				id: "1CD44DFD29901161"
+				observe_type: 5
+				timer: 0L
+				title: "Tremorsaurus"
+				to_observe: "alexscaves:tremorsaurus"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["114699FC353B18CE"]
+			description: ["Very big"]
+			id: "640E5FB544DDF350"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0A4BC2C49B41E017"
+				observe_type: 5
+				timer: 0L
+				title: "Luxtructosaurus"
+				to_observe: "alexscaves:luxtructosaurus"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: ["This passive insect flies around in search of light sources. They're pretty, but be careful as some monsters may show up in their presence."]
+			id: "0437F1E7F1165A25"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:gloomoth"
+					}
+				}
+				id: "308058545F144DD2"
+				observe_type: 5
+				timer: 0L
+				title: "Gloomoth"
+				to_observe: "alexscaves:gloomoth"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: ["These cultists will attack those who get close, and are seen sacrificing nearby mobs. They're able to burrow into the ground."]
+			id: "045F05A0977AA310"
+			tasks: [{
+				icon: "alexscaves:dark_tatters"
+				id: "5A4EE8B089DE42C1"
+				observe_type: 5
+				timer: 0L
+				title: "Underzealot"
+				to_observe: "alexscaves:underzealot"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: ["Watchers are born when a group of Underzealots sacrifices a Gloomoth."]
+			id: "2E37C438C19FBF60"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:watcher"
+					}
+				}
+				id: "571BE5CDB45B9D3E"
+				observe_type: 5
+				timer: 0L
+				title: "Watcher"
+				to_observe: "alexscaves:watcher"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			id: "7C65139BCC497F86"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:corrodent"
+					}
+				}
+				id: "722E0529A14C5BCC"
+				observe_type: 5
+				timer: 0L
+				title: "Corrodent"
+				to_observe: "alexscaves:corrodent"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			id: "3ADA18915B804238"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:vesper"
+					}
+				}
+				id: "2A47E7898214600B"
+				observe_type: 5
+				timer: 0L
+				title: "Vesper"
+				to_observe: "alexscaves:vesper"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			id: "13477A3CB38710B7"
+			tasks: [{
+				icon: "alexscaves:pure_darkness"
+				id: "29F200F832B10977"
+				observe_type: 5
+				timer: 0L
+				title: "Forsaken"
+				to_observe: "alexscaves:forsaken"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "4452346618F92476"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:sweetish_fish"
+					}
+				}
+				id: "5CFA5FC85BD31C8D"
+				observe_type: 5
+				timer: 0L
+				title: "Sweetish Fish"
+				to_observe: "alexscaves:sweetish_fish"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "371169B5D8CE42C4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:candicorn"
+					}
+				}
+				id: "11A0CE55756FDEE9"
+				observe_type: 5
+				timer: 0L
+				title: "Candicorn"
+				to_observe: "alexscaves:candicorn"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "0F70222BAA449991"
+			tasks: [{
+				icon: "alexscaves:sweet_tooth"
+				id: "452E7B7E430467D7"
+				observe_type: 5
+				timer: 0L
+				title: "Gum Worm"
+				to_observe: "alexscaves:gum_worm"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "4F6FBD7712AAD973"
+			tasks: [{
+				icon: "alexscaves:gelatin_pink"
+				id: "2EFF013C22ED6EAD"
+				observe_type: 5
+				timer: 0L
+				title: "Gummy Bear"
+				to_observe: "alexscaves:gummy_bear"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "11857ED20C4ADB05"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:gingerbread_man"
+					}
+				}
+				id: "63C0BF4CAFD7487F"
+				observe_type: 5
+				timer: 0L
+				title: "Gingerbread Man"
+				to_observe: "alexscaves:gingerbread_man"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "64F8F8C5B9B282EE"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:caniac"
+					}
+				}
+				id: "47891465BDD8FB53"
+				observe_type: 5
+				timer: 0L
+				title: "Caniac"
+				to_observe: "alexscaves:caniac"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "6453F764F81B8018"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:gumbeeper"
+					}
+				}
+				id: "292DDF4B5ABD0570"
+				observe_type: 5
+				timer: 0L
+				title: "Gumbeeper"
+				to_observe: "alexscaves:gumbeeper"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "0E6012B57C4C84A3"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:caramel_cube"
+					}
+				}
+				id: "79AC90C4A7C98158"
+				observe_type: 5
+				timer: 0L
+				title: "Caramel Cube"
+				to_observe: "alexscaves:caramel_cube"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "61D7D7C2BBE500B1"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexscaves:licowitch"
+					}
+				}
+				id: "5A3B2388BCF29F24"
+				observe_type: 5
+				timer: 0L
+				title: "Licowitch"
+				to_observe: "alexscaves:licowitch"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 7.5d
 		}
 	]
 	title: "Alex's Caves"
