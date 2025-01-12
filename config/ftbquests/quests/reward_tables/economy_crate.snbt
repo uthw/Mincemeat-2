@@ -1,0 +1,60 @@
+{
+	id: "227DCE0D5AA61759"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 16, item: "caverns_and_chasms:large_arrow" }
+		{ count: 32, item: "caverns_and_chasms:large_arrow" }
+		{ count: 4, item: "farmersdelight:rich_soil" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:diamond_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:arrow_quiver"
+				tag: {
+					abilities: {
+						agility: {
+							points: 0
+							stats: {
+								modifier: 1.0d
+							}
+						}
+						leap: {
+							points: 0
+							stats: {
+								cooldown: 14.87935d
+								duration: 4.40434d
+								multiplier: 0.22508d
+							}
+						}
+						rain: {
+							points: 0
+							stats: {
+								delay: 0.87696d
+								duration: 14.05513d
+								radius: 3.85936d
+							}
+						}
+						receptacle: {
+							points: 0
+							stats: {
+								slots: 2.03904d
+							}
+						}
+					}
+				}
+			}
+		}
+		{ count: 4, item: "minecraft:coal_block" }
+	]
+	title: "Economy Crate"
+}
