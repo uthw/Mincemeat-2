@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "perfection"
+	group: "375E2D7D7633EF28"
+	icon: {
+		Count: 1
+		id: "sullysmod:golden_goblet"
+		tag: {
+			HideFlags: 2
+		}
+	}
+	id: "1BAEACEE4817236B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BF77CB28691F71E"]
+			disable_toast: true
+			icon: "atmospheric:yucca_sapling"
+			id: "416A6687C463531B"
+			invisible: true
+			tasks: [{
+				id: "7224E65BDC2E20E8"
+				stat: "minecraft:play_time"
+				title: "Got Started"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6855AEB6DE78FCD3"]
+			disable_toast: true
+			id: "621E0FA62A3C196C"
+			invisible: true
+			tasks: [{
+				icon: "apotheosis:soul_touched_sculkshelf"
+				id: "2CC18CA297C7A322"
+				stat: "minecraft:play_time"
+				title: "Overworld Adventure"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC1F4B3B76A6FAF"]
+			disable_toast: true
+			id: "0CAC6FFA2302A3FE"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aether:shield_of_repulsion"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43948A6FD9A5EC36"
+				stat: "minecraft:play_time"
+				title: "Dimensional Adventure"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BED532CEDEE8CE1"]
+			disable_toast: true
+			id: "24968081BBEEC832"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.72221d
+								}
+							}
+						}
+					}
+				}
+				id: "165431D9E486C131"
+				stat: "minecraft:play_time"
+				title: "Equipment"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00A6D240015C5D79"]
+			disable_toast: true
+			icon: "immersiveengineering:component_iron"
+			id: "22E7F52679F1CBF6"
+			invisible: true
+			tasks: [{
+				icon: "immersiveengineering:component_iron"
+				id: "63FC9F19CDA0A087"
+				stat: "minecraft:play_time"
+				title: "Tech Level 1"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36AFEC6FF0CFE167"]
+			disable_toast: true
+			id: "3C8A48ACB35019FB"
+			invisible: true
+			tasks: [{
+				icon: "immersiveengineering:component_steel"
+				id: "69FE645ABE31B8EE"
+				stat: "minecraft:play_time"
+				title: "Tech Level 2"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5060CB512B950FD4"]
+			disable_toast: true
+			icon: "computercraft:monitor_advanced"
+			id: "502361D1083285AE"
+			invisible: true
+			tasks: [{
+				icon: "computercraft:monitor_advanced"
+				id: "3C3768D86B133DB0"
+				stat: "minecraft:play_time"
+				title: "Computer Programming"
+				type: "stat"
+				value: 1
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C70C966E5655A38"]
+			disable_toast: true
+			id: "223F75E00097BEE2"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_chest"
+					tag: {
+						uuid: [I;
+							623205354
+							652886505
+							-1909050214
+							-1785682462
+						]
+						woodType: "oak"
+					}
+				}
+				id: "43747C849D2D6989"
+				stat: "minecraft:play_time"
+				title: "Advanced Storage"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43C9EDEF2D1AEB5E"]
+			disable_toast: true
+			id: "1ABBE78BAE0C348B"
+			invisible: true
+			tasks: [{
+				icon: "irons_spellbooks:nature_upgrade_orb"
+				id: "7D999BC75A8D386B"
+				stat: "minecraft:play_time"
+				title: "Natural Magic"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["151DB3F06C437377"]
+			disable_toast: true
+			icon: "irons_spellbooks:evocation_upgrade_orb"
+			id: "640C3DA3A7B95DFE"
+			invisible: true
+			tasks: [{
+				icon: "irons_spellbooks:evocation_upgrade_orb"
+				id: "54D88B0786778382"
+				stat: "minecraft:play_time"
+				title: "Supernatural Magic"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B9659AC523B2633"]
+			disable_toast: true
+			id: "674C7977AFAA3A8E"
+			invisible: true
+			tasks: [{
+				icon: "cataclysm:remnant_skull"
+				id: "1FDC876899400706"
+				stat: "minecraft:play_time"
+				title: "Challenges"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	title: "Perfection"
+}
