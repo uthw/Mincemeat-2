@@ -113,8 +113,14 @@
     },
     {
         "when": "onjoin",
-        "mob": "alexscaves:teletor",
+        "mob": "alexscaves:magnetron",
         "random": 0.3,
         "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "environmental:yak",
+        "result": "default",
+        "damagemultiply": 10
     }
 ]
