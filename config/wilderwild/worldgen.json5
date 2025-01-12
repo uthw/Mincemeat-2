@@ -1,6 +1,6 @@
 {
 	"biomeGeneration": {
-		"generateCypressWetlands": true,
+		"generateCypressWetlands": false,
 		"generateJellyfishCaves": true,
 		"generateMixedForest": true,
 		"generateOasis": true,
@@ -19,7 +19,7 @@
 		"generateDarkBirchForest": true,
 		"generateSemiBirchForest": true,
 		"generateTemperateRainforest": true,
-		"generateRainforest": true,
+		"generateRainforest": false,
 		"generateDarkTaiga": true,
 	},
 	"biomePlacement": {
