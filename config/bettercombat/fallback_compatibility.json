@@ -79,7 +79,7 @@
       "weapon_attributes": "bettercombat:wand"
     },
     {
-      "item_id_regex": "mace|hammer|flail|zombie_arm",
+      "item_id_regex": "mace|hammer|flail|zombie_arm|cleaver_of_beheading",
       "weapon_attributes": "bettercombat:mace"
     },
     {
