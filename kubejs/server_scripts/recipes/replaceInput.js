@@ -1314,6 +1314,11 @@ ServerEvents.recipes((event) => {
             { output: "minecraft:bread" },
             "minecraft:wheat",
             "farmersdelight:wheat_dough"
+        ],
+        [
+            { output: "dragonseeker:dragonseeker" },
+            "minecraft:netherite_ingot",
+            "forbidden_and_arcanus:deorum_ingot"
         ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
