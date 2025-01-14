@@ -122,5 +122,12 @@
         "mob": "environmental:yak",
         "result": "default",
         "damagemultiply": 10
+    },
+    {
+        "when": "onjoin",
+        "mob": "galosphere:berserker",
+        "result": "default",
+        "healthmultiply": 2.25,
+        "damagemultiply": 1.5
     }
 ]
