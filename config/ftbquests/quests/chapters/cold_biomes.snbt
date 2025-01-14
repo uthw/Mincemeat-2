@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "cold_biomes"
 	group: "2E16C686F58ACDBC"
-	icon: "wilderwild:alba_glory_of_the_snow"
+	icon: "biomeswevegone:winter_succulent"
 	id: "1949268E8BF9EBB7"
 	order_index: 2
 	quest_links: [ ]

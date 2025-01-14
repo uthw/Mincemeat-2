@@ -76,15 +76,7 @@
 			}]
 			subtitle: "Meep meep"
 			tasks: [{
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "exoticbirds:roadrunner_egg"
-				}
+				icon: "alexsmobs:roadrunner_feather"
 				id: "643326D809AFDA3A"
 				observe_type: 5
 				timer: 0L
@@ -755,13 +747,18 @@
 			tasks: [{
 				icon: {
 					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
 					id: "mowziesmobs:umvuthana_mask_fury"
 					tag: {
 						Damage: 0
 					}
 				}
 				id: "34E127C52A071D55"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				title: "Umvuthana"
 				to_observe: "mowziesmobs:umvuthana"

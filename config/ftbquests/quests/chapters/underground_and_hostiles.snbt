@@ -1128,6 +1128,206 @@
 			x: -3.5d
 			y: 2.5d
 		}
+		{
+			description: ["These guys walk around breaking the minecraft EULA, wielding a gun that makes gun sounds and does gun damage. Though the guns they have most likely came from aliexpress since most of them when defeated will drop really bad revolver parts."]
+			id: "2ED03F0351D46C5E"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "immersiveengineering:commando"
+					}
+				}
+				id: "53418DEB6AFAFF30"
+				observe_type: 5
+				timer: 0L
+				title: "Commando"
+				to_observe: "immersiveengineering:commando"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"When one illager heard that they were going to war with the villagers, this guy took it too far. He pulled out a riot shield, a flamethrower, and a full suit of metal armor."
+				""
+				"Foolishly, he brought some of the masterwork shader grabbags that have the nicest shaders for any engineer's dreams."
+			]
+			id: "3534A43628B507CA"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "immersiveengineering:bulwark"
+					}
+				}
+				id: "1BAD7DCC9455D7B6"
+				observe_type: 5
+				timer: 0L
+				title: "Bulwark"
+				to_observe: "immersiveengineering:bulwark"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Imagine a colonial soldier but in 2077. They also don't have musket but a super futuristic railgun. That what you just imagined would be a fusilier. "
+				""
+				"Now the crazy part are these guys are just hanging out with normal illagers like they are not 500 years in the past with their silly crossbows."
+			]
+			id: "4167CEF9B3B3D435"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "immersiveengineering:fusilier"
+					}
+				}
+				id: "4850983653F22443"
+				observe_type: 5
+				timer: 0L
+				title: "Fusilier"
+				to_observe: "immersiveengineering:fusilier"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			description: ["These zombies just had the worst day. Firs,t they fell into a cave, then tumbled down into a pink salt cave, and then got decapitated. Then, while still alive, they got overtaken by pink salt and turned into a preserved."]
+			id: "762A763202224412"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "galosphere:preserved"
+					}
+				}
+				id: "5324078EB64520E3"
+				observe_type: 5
+				timer: 0L
+				title: "Preserved"
+				to_observe: "galosphere:preserved"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"These little guys fly around in Lichen Caves. On their own, they don't do much at all. But if you capture one in a bottle they can do various things such as being used as a chandelier, and made into spectre flares, which will teleport you to where it was thrown in Spectator Mode for a few seconds."
+				""
+				"They can also be bred by giving them lichen shelves."
+			]
+			id: "43D4617DB39A17BD"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "galosphere:spectre"
+					}
+				}
+				id: "56C9775F305CB7A4"
+				observe_type: 5
+				timer: 0L
+				title: "Spectre"
+				to_observe: "galosphere:spectre"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			description: ["This little slug is the baby of a specter and will move very slowly. If you feed this absurdly slow slug some lichen shelves, they will quickly dash for the first and only time in their life to a random patch of lichen moss and then dig in. After digging in, they will plant a &mlichen cordyceps&r missing texture which can grow to be very tall."]
+			id: "1C6F59FAE9CCAA6B"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "galosphere:specterpillar"
+					}
+				}
+				id: "765C8E1E04F5C46F"
+				observe_type: 5
+				timer: 0L
+				title: "Specterpillar"
+				to_observe: "galosphere:specterpillar"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"This little axolotl-chinese dragon hybrid can be found in bodies of water in crystal canyons. They can be right clicked with a pickaxe to get a crystal from them. Using a silk touch pickaxe will give you a cluster of crystals instead of normal crystals. "
+				""
+				"The clusters can be mixed with a enchanting setup to improve the Rectification. After ~10 mins it will grow another crystal."
+			]
+			id: "69983E04205E3365"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "galosphere:sparkle"
+					}
+				}
+				id: "1DD44E5BFCCF40FA"
+				observe_type: 5
+				timer: 0L
+				title: "Sparkle"
+				to_observe: "galosphere:sparkle"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"This is the boss of the pink salt caves. He can be found at the end of a pink salt shrine. Also be prepared for the arena to be very cold since the pink salt caves are very cold."
+				""
+				"The first half of the fight is very easy and can be defeated by hitting him with a sword, then jumping before he hits the ground. "
+				""
+				"If you get far from him he will do a ranged attack where he will spawn a lot of crystals in a line to hit you. but you will most likely not have to deal with that in this phase."
+				""
+				"The second half is much harder and starts when he is at half HP. He now can and will run at you very quickly. For this attack, you mainly want to watch out for since it does a lot of damage. "
+				""
+				"But he will also spawn in multiple Preserved, who are like zombies but have a but more HP."
+				""
+				"{@pagebreak}"
+				""
+				"After defeating him, he will drop a smithing tablet and preserved flesh. The preserved flesh is a food item that can be eaten 360 times. "
+				""
+				"The smithing tablet can make a weapon that allows you to do the Berserker ranged attack and can go through walls. To make the weapon, you need to use the smithing tablet at a smithing able with a pink salt shard and preserved flesh."
+			]
+			id: "653464F76272A4CF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "galosphere:berserker"
+					}
+				}
+				id: "508ED9AE690A7744"
+				observe_type: 5
+				timer: 0L
+				title: "Berserker"
+				to_observe: "galosphere:berserker"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
 	]
 	title: "Underground and Monsters"
 }

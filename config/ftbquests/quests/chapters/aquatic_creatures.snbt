@@ -951,31 +951,6 @@
 		}
 		{
 			description: [
-				"Have you ever been in the water and seen really bright lights? Well, you might have just encountered a jellyfish."
-				""
-				"While these glowing creatures might look intriguing, they don’t drop anything particularly exciting when killed. Instead, you’ll find different colors of nematocysts, which can be combined in a crafting grid to create glowing blocks."
-			]
-			id: "71BFBB9542319D3E"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "alexsmobs:tab_icon"
-					tag: {
-						DisplayEntityType: "wilderwild:jellyfish"
-					}
-				}
-				id: "5C34803F9EC0D183"
-				observe_type: 5
-				timer: 0L
-				title: "Jellyfish"
-				to_observe: "wilderwild:jellyfish"
-				type: "observation"
-			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			description: [
 				"These very common crabs spawn on beaches and can sometimes appear when a coconut falls from a tree."
 				""
 				"They mostly just roam around, but if you hit them enough, they will drop coconut slices. Coconut slices can be cooked in a cooking pot to create coconut curry or tropical stew. You can also use eaten coconut slices as bowls for a few different stew items."
@@ -1046,8 +1021,8 @@
 				to_observe: "cataclysm:the_baby_leviathan"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -2150,6 +2125,27 @@
 			}]
 			x: -6.0d
 			y: 6.5d
+		}
+		{
+			description: ["This glowing jellyfish floats around in the water waiting for some dumb fish to swim into it so it can poison and almost kill them."]
+			id: "78B0616848D9AAC4"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "biomeswevegone:man_o_war"
+					}
+				}
+				id: "721A3DA803A77A26"
+				observe_type: 5
+				timer: 0L
+				title: "Man o' War"
+				to_observe: "biomeswevegone:man_o_war"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 	title: "Aquatic Creatures"

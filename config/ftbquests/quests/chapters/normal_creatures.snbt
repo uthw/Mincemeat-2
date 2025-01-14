@@ -798,27 +798,6 @@
 			y: 7.5d
 		}
 		{
-			description: ["The pixels on this bug are beautiful, and I mean both of them!"]
-			id: "54D752CD38F8F8DD"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "alexsmobs:tab_icon"
-					tag: {
-						DisplayEntityType: "wilderwild:firefly"
-					}
-				}
-				id: "072DA44293EC5F57"
-				observe_type: 5
-				timer: 0L
-				title: "Firefly"
-				to_observe: "wilderwild:firefly"
-				type: "observation"
-			}]
-			x: -2.0d
-			y: 7.5d
-		}
-		{
 			description: ["These terrestrial jellyfish can be found in the canopies of dark forests. Some worship them, some fear them, but smart people know that their jelly is somewhat nutritious and can be eaten if in a pinch."]
 			id: "074742E016C16CE4"
 			tasks: [{
@@ -905,8 +884,8 @@
 				to_observe: "buzzier_bees:moobloom"
 				type: "observation"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			description: ["To form a Copper Golem, place a Lightning Rod on a Carved Pumpkin. They'll press Copper Buttons randomly without paying attention to what they do."]
@@ -928,6 +907,56 @@
 			}]
 			x: 2.0d
 			y: 4.5d
+		}
+		{
+			description: [
+				"This fellow might share a name with a boss but actually is a cute little guy with a pumpkin hat. If you kill it, you're a bad guy."
+				""
+				"&oOh well that not that bad&r"
+			]
+			id: "32458061883057BF"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "biomeswevegone:pumpkin_warden"
+					}
+				}
+				id: "10FB8D5768776134"
+				observe_type: 5
+				timer: 0L
+				title: "Pumpkin Warden"
+				to_observe: "biomeswevegone:pumpkin_warden"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"You want to eat onions but you want to be a full carnivore. Well, for some reason, you're in luck since this is a living and walking version of a onion."
+				""
+				"After killing it, it may look just like a normal onion but it can actually be cooked."
+			]
+			id: "277E9D12B158E69A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "biomeswevegone:oddion"
+					}
+				}
+				id: "6ECAC12A71803E45"
+				observe_type: 5
+				timer: 0L
+				title: "Oddion"
+				to_observe: "biomeswevegone:oddion"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 1.5d
 		}
 	]
 	title: "Temperate Biomes"
