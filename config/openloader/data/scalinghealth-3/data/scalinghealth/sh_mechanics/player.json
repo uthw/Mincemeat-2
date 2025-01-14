@@ -8,7 +8,7 @@
     "maxAttackDamage": 0,
     "regen": {
         "initialDelay": 30,
-        "tickDelay": 9,
+        "tickDelay": 18,
         "exhaustion": 0.08,
         "minFood": 10,
         "maxFood": 2147483647,
