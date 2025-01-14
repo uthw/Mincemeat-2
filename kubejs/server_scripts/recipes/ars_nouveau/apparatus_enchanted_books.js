@@ -1066,7 +1066,7 @@ ServerEvents.recipes((event) => {
         {
             inputs: [
                 "botania:livingrock",
-                "wilderwild:echo_glass",
+                "caverns_and_chasms:spinel",
                 "ars_nouveau:source_gem_block",
                 "delightful:cantaloupe_slice",
             ],
@@ -1077,7 +1077,7 @@ ServerEvents.recipes((event) => {
         {
             inputs: [
                 "botania:livingrock",
-                "2x wilderwild:echo_glass",
+                "2x caverns_and_chasms:spinel",
                 "2x ars_nouveau:source_gem_block",
                 "delightful:cantaloupe_slice",
             ],
@@ -1088,7 +1088,7 @@ ServerEvents.recipes((event) => {
         {
             inputs: [
                 "3x botania:livingrock",
-                "2x wilderwild:echo_glass",
+                "2x caverns_and_chasms:spinel",
                 "2x ars_nouveau:source_gem_block",
                 "delightful:cantaloupe_slice",
             ],

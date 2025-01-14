@@ -134,7 +134,7 @@ ServerEvents.recipes((event) => {
             output: "enigmaticlegacy:mega_sponge",
             reagent: "enigmaticlegacy:unholy_grail",
             inputs: [
-                "wilderwild:small_sponge",
+                "alexscaves:ping_pong_sponge",
                 "minecells:blank_rune",
                 "reliquary:squid_beak",
             ],

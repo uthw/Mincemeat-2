@@ -248,7 +248,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "mekanismgenerators:solar_panel" },
             "#forge:glass_panes",
-            "wilderwild:echo_glass",
+            "engineersdecor:panzerglass_block",
         ],
         [
             { output: "mekanism:basic_thermodynamic_conductor" },
@@ -652,7 +652,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "reliquary:harvest_rod" },
             "minecraft:vine",
-            "wilderwild:algae",
+            "environmental:cattail",
         ],
         [
             { mod: "prettypipes" },
@@ -1011,7 +1011,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "ars_nouveau:glyph_exchange" },
             "#forge:ender_pearls",
-            "#wilderwild:nematocysts",
+            "caverns_and_chasms:spinel",
         ],
         [
             { output: "create:weighted_ejector" },
@@ -1305,6 +1305,16 @@ ServerEvents.recipes((event) => {
             "minecraft:bone",
             "supplementaries:doormat",
         ],
+        [
+            { output: "caverns_and_chasms:large_arrow"},
+            "minecraft:feather",
+            "minersdelight:gossypium"
+        ],
+        [
+            { output: "minecraft:bread" },
+            "minecraft:wheat",
+            "farmersdelight:wheat_dough"
+        ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
