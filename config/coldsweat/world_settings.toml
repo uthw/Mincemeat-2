@@ -3,7 +3,7 @@
 #Common dimension IDs: minecraft:overworld, minecraft:the_nether, minecraft:the_end
 [Dimensions]
 	#Applies an offset to the world's temperature across an entire dimension
-	"Dimension Temperature Offsets" = [["minecraft:the_nether", 0.7, "MC"], ["aether:the_aether", -0.8, "MC"], ["blue_skies:everbright", -0.2, "MC"], ["undergarden:undergarden", 0.2, "MC"], ["minecraft:the_end", -0.1, "MC"], ["blue_skies:everdawn", 0.2, "MC"]]
+	"Dimension Temperature Offsets" = [["minecraft:the_nether", 0.7, "MC"], ["aether:the_aether", -0.9, "MC"], ["blue_skies:everbright", -0.1, "MC"], ["undergarden:undergarden", 0.2, "MC"], ["minecraft:the_end", -0.1, "MC"], ["blue_skies:everdawn", 0.2, "MC"]]
 	#Overrides existing dimension temperatures & offsets
 	#Also overrides temperatures of all biomes in the dimension
 	"Dimension Temperatures" = []
@@ -51,11 +51,11 @@
 	#Overrides the world temperature when the player is within this structure
 	#Format: [["structure_1", temperature1, *units], ["structure_2", temperature2, *units]... etc]
 	#(* = optional)
-	"Structure Temperatures" = [["blue_skies:poison_dungeon", 104.0, "F"]]
+	"Structure Temperatures" = [["blue_skies:poison_dungeon", 75.0, "F"]]
 	#Offsets the world temperature when the player is within this structure
 	#Format: [["structure_1", offset1, *units], ["structure_2", offset2, *units]... etc]
 	#(* = optional)
-	"Structure Temperature Offsets" = [["aquamirae:ice_maze", -25.0, "F"], ["mowziesmobs:umvuthana_grove", 20.0, "F"], ["cataclysm:sunken_city", -18.0, "F"]]
+	"Structure Temperature Offsets" = [["aquamirae:ice_maze", -10.0, "F"], ["mowziesmobs:umvuthana_grove", 20.0, "F"], ["cataclysm:sunken_city", -18.0, "F"]]
 	#List of blocks that will allow the player to sleep on them, regardless of the "Prevent Sleep When in Danger" setting
 	#Use this list if the player is not getting the temperature effect from sleeping on particular blocks
 	"Sleep Check Override Blocks" = ["#comforts:sleeping_bags", "#comforts:hammocks", "#upgrade_aquatic:bedrolls"]
