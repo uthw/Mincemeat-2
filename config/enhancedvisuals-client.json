@@ -333,10 +333,10 @@
     },
     "heartbeat": {
       "enabled": true,
-      "opacity": 1.0,
-      "useHealthPercentage": false,
+      "opacity": 0.7479675,
+      "useHealthPercentage": true,
       "maxHealth": 6,
-      "maxHealthPercentage": 0.3,
+      "maxHealthPercentage": 0.25,
       "heartbeatOverlayIntensity": 0.5,
       "heartbeatOverlayDuration": 20,
       "heartbeatBlurIntensity": 50.0,
