@@ -171,6 +171,17 @@ ServerEvents.recipes((event) => {
         "actuallyadditions:netherite_aiot",
         "grapplemod:limitsupgradeitem",
         "aquaculture:double_hook",
+        "everythingcopper:copper_button",
+        "everythingcopper:waxed_copper_button",
+        "everythingcopper:waxed_exposed_copper_button",
+        "everythingcopper:waxed_weathered_copper_button",
+        "everythingcopper:waxed_oxidized_copper_button",
+        // "sullysmod:copper_button",
+        // "sullysmod:waxed_copper_button",
+        // "sullysmod:waxed_exposed_copper_button",
+        // "sullysmod:waxed_weathered_copper_button",
+        // "sullysmod:waxed_oxidized_copper_button",
+        
     ];
 
     toRemove.forEach((item) => {

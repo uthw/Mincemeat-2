@@ -1215,6 +1215,33 @@ ServerEvents.recipes((event) => {
                 E: "thermal:flux_magnet",
             },
         ],
+        [
+            "4x spartanweaponry:explosive_arrow",
+            [" A ", " B ", " C "],
+            {
+                A: "spartanweaponry:explosive_charge",
+                B: "#forge:rods/wooden",
+                C: "eidolon:enchanted_ash"
+            }
+        ],
+        [
+            "4x minecraft:arrow",
+            [" A ", " B ", " C "],
+            {
+                A: "minecraft:flint",
+                B: "#forge:rods/wooden",
+                C: "farmersdelight:straw"
+            }
+        ],
+        [
+            "4x caverns_and_chasms:large_arrow",
+            [" A ", " B ", " C "],
+            {
+                A: "#forge:ingots/silver",
+                B: "#forge:rods/wooden",
+                C: "farmersdelight:straw"
+            }
+        ],
     ];
 
     recipes.forEach((recipe) => {
