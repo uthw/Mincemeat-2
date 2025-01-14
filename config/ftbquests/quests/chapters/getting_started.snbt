@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: "357B296D74E0575E"
-	icon: "farmersdelight:cabbage_leaf"
+	icon: "atmospheric:yucca_branch"
 	id: "4BF77CB28691F71E"
 	order_index: 0
 	quest_links: [ ]
