@@ -129,5 +129,11 @@
         "result": "default",
         "healthmultiply": 2.25,
         "damagemultiply": 1.5
+    },
+    {
+        "when": "onjoin",
+        "mob": "iceandfire:cockatrice",
+        "dimension": "aether:the_aether",
+        "result": "deny"
     }
 ]
