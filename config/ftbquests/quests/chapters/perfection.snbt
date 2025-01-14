@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "perfection"
 	group: "375E2D7D7633EF28"
-	icon: {
-		Count: 1
-		id: "sullysmod:golden_goblet"
-		tag: {
-			HideFlags: 2
-		}
-	}
+	icon: "reliquary:emperor_chalice"
 	id: "1BAEACEE4817236B"
 	order_index: 2
 	quest_links: [ ]
