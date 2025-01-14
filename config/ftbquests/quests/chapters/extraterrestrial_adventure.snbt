@@ -3,10 +3,10 @@
 	default_quest_shape: ""
 	filename: "extraterrestrial_adventure"
 	group: "357B296D74E0575E"
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "minecells:wilted_grass_block"
 	id: "1AC1F4B3B76A6FAF"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -308,7 +308,7 @@
 		}
 		{
 			dependencies: ["4525CD09B5BCCE1E"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "13AF06207FD0CC28"
 			tasks: [{
 				id: "3F0B848DC0BB554D"
@@ -499,20 +499,13 @@
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
-			icon: "betternether:black_apple"
+			icon: "nethersdelight:propelplant_cane"
 			id: "70795731019BA757"
-			tasks: [
-				{
-					id: "7CA0887FA44C29FD"
-					structure: "betternether:nether_city"
-					type: "structure"
-				}
-				{
-					id: "106EC453F7278477"
-					structure: "#betterfortresses:better_fortresses"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				id: "106EC453F7278477"
+				structure: "#betterfortresses:better_fortresses"
+				type: "structure"
+			}]
 			title: "Explore Nether structures"
 			x: 11.0d
 			y: -3.0d
@@ -719,7 +712,7 @@
 		{
 			dependencies: ["43C5DFBA3E25CC38"]
 			description: ["Sliders drop a big cornucopia's worth of loot, which can take the form of tools and weapons or food."]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "aether:bronze_dungeon_key"
 			id: "125D0F9B857A3775"
 			rewards: [{
@@ -821,7 +814,7 @@
 		{
 			dependencies: ["350DB6A4F00CCB15"]
 			description: ["Once defeated, her throne will open up, revealing a treasure chest. Be sure to grab everything, since it'll be quite useful in the Gold Dungeon!"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "aether:silver_dungeon_key"
 			id: "0FE391A15589A3C7"
 			rewards: [{
@@ -860,7 +853,7 @@
 		{
 			dependencies: ["111478A19955F8BF"]
 			description: ["The chest you're looking for is in the back wall of the arena."]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "aether:gold_dungeon_key"
 			id: "2C47A12A20C50CE6"
 			rewards: [{
@@ -986,7 +979,7 @@
 				""
 				"Click the &bsongstone&r to enrage the Aerwhale, activating a fight."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "lost_aether_content:platinum_key"
 			id: "1BA05933619C6884"
 			rewards: [{
@@ -1134,21 +1127,27 @@
 		}
 		{
 			dependencies: ["29D52E88824CB90D"]
+			description: ["You have to use Eyes of Ender to find the Stronghold. Your Explorer's Compass won't help you here!"]
 			disable_toast: true
 			icon: "quark:tuff_bricks"
 			id: "1B06AB14ACC698BD"
 			tasks: [{
-				advancement: "minecraft:story/follow_ender_eye"
-				criterion: ""
-				id: "5E775570F33485FD"
-				type: "advancement"
+				icon: "minecraft:stone_bricks"
+				id: "748872855160FDE2"
+				structure: "integrated_stronghold:stronghold"
+				title: "Stronghold"
+				type: "structure"
 			}]
 			title: "Find the Stronghold"
 			x: 5.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["1B06AB14ACC698BD"]
+			dependencies: [
+				"1B06AB14ACC698BD"
+				"0B5F5694881857E7"
+			]
+			dependency_requirement: "one_completed"
 			icon: "minecraft:end_portal_frame"
 			id: "112C59D69077AED4"
 			tasks: [{
@@ -1207,7 +1206,7 @@
 		}
 		{
 			dependencies: ["20B6859C7A0C1D09"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "283CD42DB879C756"
 			rewards: [{
@@ -1243,7 +1242,7 @@
 		}
 		{
 			dependencies: ["20B6859C7A0C1D09"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "cataclysm:void_core"
 			id: "70E9EE74EE5A5D7F"
 			rewards: [{
@@ -1282,7 +1281,7 @@
 				""
 				"Then, drop the worm into the void."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "07EF2C1B4D1EA725"
 			tasks: [{
 				id: "1744B9AF2B27D7E0"
@@ -1587,6 +1586,21 @@
 			title: "Prepare to Fight the Starlit Crusher"
 			x: -1.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["29D52E88824CB90D"]
+			id: "0B5F5694881857E7"
+			invisible: true
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "0B7404D4002BBC09"
+				structure: "repurposed_structures:stronghold_nether"
+				title: "Nether Stronghold"
+				type: "structure"
+			}]
+			title: "I guess that works too"
+			x: 6.0d
+			y: 0.5d
 		}
 	]
 	title: "Dimensional Adventure"
