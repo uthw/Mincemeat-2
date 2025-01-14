@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Aether Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Temperatures in the Aether often fall below 0 degrees Fahrenheit, so be sure to dress warm."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Caverns & Chasms Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "While caving, keep your eyes peeled for Fragile Stone and Deepslate. When broken, all adjacent fragile blocks will break as well, potentially exposing ores. Just be careful where you're standing!"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Caverns & Chasms Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Rocky Dirt is often found in caves and on hills. Break it with a shovel if you want dirt, or use a pickaxe to get cobblestone."
+    }
+}
