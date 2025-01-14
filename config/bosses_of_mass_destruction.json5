@@ -50,7 +50,7 @@
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": true,
-		"energizedPunchExplosionSize": 6.0,
+		"energizedPunchExplosionSize": 5.0,
 		"normalPunchExplosionMultiplier": 1.5
 	},
 	"voidBlossomConfig": {
