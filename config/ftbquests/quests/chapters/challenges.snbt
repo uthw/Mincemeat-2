@@ -587,7 +587,6 @@
 				"2217237359C0CB91"
 				"095F8932D99F2A08"
 				"787807566EEFADE1"
-				"71BFBB9542319D3E"
 				"4ADC083229035C40"
 				"1B793CD69BCD02FD"
 				"269CF108719CCF44"
@@ -4467,11 +4466,6 @@
 					type: "item"
 				}
 				{
-					id: "253CE7C7666B8E62"
-					item: "wilderwild:music_disc_goathorn_symphony"
-					type: "item"
-				}
-				{
 					id: "2C63CD55822A16C4"
 					item: "minecraft:music_disc_otherside"
 					type: "item"
@@ -4489,11 +4483,6 @@
 				{
 					id: "38B785CE023426C7"
 					item: "upgrade_aquatic:music_disc_atlantis"
-					type: "item"
-				}
-				{
-					id: "46C94B0283C10557"
-					item: "wilderwild:music_disc_back"
 					type: "item"
 				}
 				{
@@ -4717,11 +4706,6 @@
 					type: "item"
 				}
 				{
-					id: "3849E5DDCCDB9E5A"
-					item: "aether_redux:slider_music_disc"
-					type: "item"
-				}
-				{
 					id: "0F4E732565B93BC1"
 					item: "deep_aether:music_disc_a_morning_wish"
 					type: "item"
@@ -4777,8 +4761,28 @@
 					type: "item"
 				}
 				{
-					id: "6F148A9D669D3FCE"
-					item: "minecraft:jukebox"
+					id: "55ACF09855978ED3"
+					item: "alexscaves:music_disc_tasty"
+					type: "item"
+				}
+				{
+					id: "228BDB1821ADCF8B"
+					item: "environmental:music_disc_leaving_home"
+					type: "item"
+				}
+				{
+					id: "0D6A85D06252561C"
+					item: "environmental:music_disc_slabrave"
+					type: "item"
+				}
+				{
+					id: "48550C3F7D6F3B53"
+					item: "caverns_and_chasms:music_disc_epilogue"
+					type: "item"
+				}
+				{
+					id: "7EBECB33CF5DD4FB"
+					item: "endergetic:music_disc_kilobyte"
 					type: "item"
 				}
 			]
@@ -4994,7 +4998,7 @@
 					type: "structure"
 				}
 				{
-					icon: "betternether:jungle_grass"
+					icon: "biomeswevegone:overgrown_dacite"
 					id: "14CEF3E783401EF9"
 					structure: "totw_modded:jungle"
 					title: "Jungle"
@@ -5067,6 +5071,113 @@
 			title: "Find all the towers"
 			x: 9.0d
 			y: 1.0d
+		}
+		{
+			id: "1AE2ACF59A3E7D62"
+			tasks: [
+				{
+					id: "00E018A439DABA2A"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "red.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E5FCEC74F72F4E8"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "orange.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "451C6CC12ACB01AA"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "yellow.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F34579E7CBA205B"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "green.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36D62409BA1A1AAF"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "blue.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BD58E07D5A68842"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "indigo.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27980B005CEAE75A"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "violet.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CB8761ECD427C35"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "white.*?corundum"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E4D9065642ACC91"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "black.*?corundum"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Collect Every Color of Corundum"
+			x: 9.0d
+			y: 2.0d
 		}
 	]
 	title: "Challenges"
