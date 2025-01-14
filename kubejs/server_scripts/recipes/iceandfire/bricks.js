@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
         let bricks = `iceandfire:dragonforge_${material}_brick`;
 
         event.shaped(`8x ${bricks}`, brickShape, {
-            A: `#forge:storage_blocks/dragon/${material}`,
+            A: `#forge:storage_blocks/scales/dragon/${material}`,
             B: "minecraft:stone_bricks",
         });
 
