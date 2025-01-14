@@ -44,7 +44,7 @@ PlayerEvents.respawned((event) => {
     console.log("generated " + rng);
     if (rng > 0.6) {
         event.entity.server.runCommand(
-            `execute as ${event.entity.username} run give @p kubejs:grave_scroll`
+            `execute as ${event.entity.username} run give @s kubejs:grave_scroll`
         );
     }
 });
