@@ -82,4 +82,10 @@ WorldgenEvents.remove((event) => {
             "actuallyadditions:black_quartz_ore",
         ];
     });
+
+    event.removeOres((props) => {
+        props.biomes = /aether:skyroot_.*/;
+            // ["aether:skyroot_forest", "aether:skyroot_grove", "aether:skyroot_meadow", "aether:skyroot_woodland"];
+        props.blocks = ["minecraft:gravel"];
+    })
 });

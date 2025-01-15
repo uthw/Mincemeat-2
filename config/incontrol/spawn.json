@@ -132,8 +132,12 @@
     },
     {
         "when": "onjoin",
-        "mob": "iceandfire:cockatrice",
+        "mob": "aether:cockatrice",
         "dimension": "aether:the_aether",
+        "mincount": {
+            "amount": 6,
+            "perplayer": true
+        },
         "result": "deny"
     }
 ]
