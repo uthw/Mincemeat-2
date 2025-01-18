@@ -46,7 +46,7 @@
 	"gauntletConfig": {
 		"health": 550.0,
 		"armor": 8.0,
-		"attack": 18.0,
+		"attack": 15.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": true,
