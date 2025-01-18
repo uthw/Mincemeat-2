@@ -873,8 +873,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["70DBB1A58513B2DB"]
-			description: ["Build a portal out of Stone Bricks as you would a Nether or Aether portal, and use the Catalyst to light it."]
+			dependencies: ["0A5059B79780A421"]
+			description: [
+				"The Catalyst can be constructed using Overworld materials (lumiere can be found in the Crystal Canyons), making the Undergarden a good way of dipping your toes into the dimensions."
+				""
+				"Build a portal out of Stone Bricks as you would a Nether or Aether portal, and use the Catalyst to light it."
+			]
 			icon: "undergarden:catalyst"
 			id: "2F0DFEA28729BEAE"
 			tasks: [
@@ -896,8 +900,8 @@
 				}
 			]
 			title: "Go to the Undergarden"
-			x: 16.0d
-			y: -4.5d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F0DFEA28729BEAE"]
@@ -926,8 +930,8 @@
 				}
 			]
 			title: "Gather Common Undergarden Materials"
-			x: 17.0d
-			y: -6.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["40C200D565731AC5"]
@@ -955,8 +959,8 @@
 				}
 			]
 			title: "Destroy a Forgotten Guardian"
-			x: 15.0d
-			y: -7.5d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2C47A12A20C50CE6"]
@@ -1058,7 +1062,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["71358BBA8D60E6CD"]
 			description: [
 				"{ \"text\": \"How to get a heart of the deep\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71358BBA8D60E6CD\" } }"
 				""
