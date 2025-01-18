@@ -21,8 +21,6 @@
 				"On top of this quest is the boss / main game progression &c(not complete)&r."
 				""
 				"You can click the checkmarks to note when you're done with tech/magic mods and ready to move on (note one mod will often require previous mods, being \"locked\" behind it)."
-				""
-				"This definitely aren't as many mods as Mincemeat 1, but the list is growing by the day and your favorites will eventually be in this pack!"
 			]
 			disable_toast: true
 			icon: {
@@ -497,7 +495,6 @@
 			dependencies: ["477A58774B7737C5"]
 			icon: "tetra:forged_workbench"
 			id: "1BDA5058EE86F229"
-			subtitle: "Addons include Art of Forging and Secrets of Forging"
 			tasks: [{
 				id: "4D94C6B143613626"
 				title: "Tetra Tier 5 Smithing and Addons"
