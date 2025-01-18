@@ -139,5 +139,30 @@
             "perplayer": true
         },
         "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "meetyourfight:swampjaw",
+        "healthmultiply": 1.5,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "meetyourfight:bellringer",
+        "healthmultiply": 1.5,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "meetyourfight:dame_fortuna",
+        "healthmultiply": 1.55,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "meetyourfight:rosalyne",
+        "healthmultiply": 1.35,
+        "result": "default"
     }
+
 ]
