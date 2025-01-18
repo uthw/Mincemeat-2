@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Redstone Links can wirelessly transmit signals without needing to run dust along the ground. Linked Controllers can then send signals to those links."
+    }
+}

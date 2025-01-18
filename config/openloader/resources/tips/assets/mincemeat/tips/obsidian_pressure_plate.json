@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Quark Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Obsidian Pressure Plates act like regular ones, but only players can trigger them."
+    }
+}
