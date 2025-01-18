@@ -107,6 +107,11 @@ ServerEvents.recipes((event) => {
         "create:crafting/kinetics/white_sail",
         "spartanweaponry:explosive_arrow",
         "spartanweaponry:explosive_charge",
+        "immersiveengineering:crafting/stick_iron",
+        "immersiveengineering:crafting/stick_steel",
+        "immersiveengineering:crafting/stick_aluminum",
+        "cataclysm:desert_eye",
+        "cataclysm:cursed_eye",
     ];
 
     toRemove.forEach((recipeId) => {

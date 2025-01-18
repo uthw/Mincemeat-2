@@ -1306,20 +1306,41 @@ ServerEvents.recipes((event) => {
             "supplementaries:doormat",
         ],
         [
-            { output: "caverns_and_chasms:large_arrow"},
+            { output: "caverns_and_chasms:large_arrow" },
             "minecraft:feather",
-            "minersdelight:gossypium"
+            "minersdelight:gossypium",
         ],
         [
             { output: "minecraft:bread" },
             "minecraft:wheat",
-            "farmersdelight:wheat_dough"
+            "farmersdelight:wheat_dough",
         ],
         [
             { output: "dragonseeker:dragonseeker" },
             "minecraft:netherite_ingot",
-            "forbidden_and_arcanus:deorum_ingot"
+            "forbidden_and_arcanus:deorum_ingot",
+        ],
+        [
+            { output: "cataclysm:abyss_eye" },
+            "minecraft:crying_obsidian",
+            "blue_skies:charoite",
+        ],
+        [
+            { output: "cataclysm:abyss_eye" },
+            "minecraft:obsidian",
+            "betternether:weeping_obsidian"
+        ],
+        [
+            { output: "cataclysm:mech_eye" },
+            "minecraft:iron_ingot",
+            "alexscaves:energized_galena_neutral"
+        ],
+        [
+            { output: "cataclysm:mech_eye" },
+            "minecraft:redstone_block",
+            "irons_spellbooks:lightning_bottle"
         ]
+
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],

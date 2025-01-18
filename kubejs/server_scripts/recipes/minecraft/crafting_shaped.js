@@ -307,7 +307,7 @@ ServerEvents.recipes((event) => {
             ["ABA", "BCB", "ABA"],
             {
                 A: "thermal:apatite",
-                B: "aether:ambrosium_shard",
+                B: "galosphere:lumiere_shard",
                 C: "forbidden_arcanus:rune",
             },
         ],
@@ -1221,8 +1221,8 @@ ServerEvents.recipes((event) => {
             {
                 A: "spartanweaponry:explosive_charge",
                 B: "#forge:rods/wooden",
-                C: "eidolon:enchanted_ash"
-            }
+                C: "eidolon:enchanted_ash",
+            },
         ],
         [
             "4x minecraft:arrow",
@@ -1230,8 +1230,8 @@ ServerEvents.recipes((event) => {
             {
                 A: "minecraft:flint",
                 B: "#forge:rods/wooden",
-                C: "farmersdelight:straw"
-            }
+                C: "farmersdelight:straw",
+            },
         ],
         [
             "4x caverns_and_chasms:large_arrow",
@@ -1239,8 +1239,52 @@ ServerEvents.recipes((event) => {
             {
                 A: "#forge:ingots/silver",
                 B: "#forge:rods/wooden",
-                C: "farmersdelight:straw"
-            }
+                C: "farmersdelight:straw",
+            },
+        ],
+        [
+            "cataclysm:desert_eye",
+            ["ABC", "DED", "GBH"],
+            {
+                A: "atmospheric:yucca_fruit",
+                B: "#forge:sandstone",
+                C: "#forge:death_worm_chitins",
+                D: "yungscavebiomes:prickly_peach",
+                E: "minecraft:ender_eye",
+                G: "undergarden:regalium_crystal",
+                H: "alexscaves:pewen_sap",
+            },
+        ],
+        [
+            "cataclysm:cursed_eye",
+            ["ABA", "CDE", "AFA"],
+            {
+                A: "iceandfire:ectoplasm",
+                B: "minecraft:totem_of_undying",
+                C: "endermanoverhaul:icy_pearl",
+                D: "minecraft:ender_eye",
+                E: "iceandfire:ice_dragon_blood",
+                F: "aquamirae:abyssal_amethyst",
+            },
+        ],
+        [
+            "meetyourfight:ace_of_iron",
+            [" A ", "BCB", "   "],
+            {
+                A: "#iceandfire:scales/dragon",
+                B: "irons_spellbooks:divine_pearl",
+                C: "spartanweaponry:basic_iron_shield",
+            },
+        ],
+        [
+            "meetyourfight:dusk_key",
+            [" AB", "CB ", "DC "],
+            {
+                A: "caverns_and_chasms:spinel",
+                B: "blue_skies:smooth_midnight_sandstone",
+                C: "forbidden_arcanus:arcane_crystal",
+                D: "aether:aechor_petal",
+            },
         ],
     ];
 
