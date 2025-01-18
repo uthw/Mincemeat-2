@@ -2569,6 +2569,48 @@
 			x: -3.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["609E3CBD113337E6"]
+			description: [
+				"Look at you! You've died so many times, but you keep coming back! That's what we like to see."
+				""
+				"I'm sure these Enchanted Books will help, since it's obvious you could use some more HP."
+			]
+			id: "3657E5EE126A6A7F"
+			invisible: true
+			optional: true
+			rewards: [{
+				count: 2
+				id: "6AFB4CEEB33F8CFE"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ensorcellation:vitality"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "fairylights:ghost_light"
+					tag: {
+						color: 16383998
+					}
+				}
+				id: "45E30574157275F6"
+				stat: "minecraft:deaths"
+				title: "Perseverance"
+				type: "stat"
+				value: 50
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
 	]
 	title: "Getting Started"
 }
