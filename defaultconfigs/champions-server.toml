@@ -82,6 +82,7 @@ entitiesList = [
 	"cataclysm:the_leviathan",
 	"cataclysm:kobolediator",
 	"cataclysm:wadjet",
+	"cataclysm:maledictus",
 
 	"irons_spellbooks:dead_king",
 	"irons_spellbooks:dead_king_corpse",
@@ -195,7 +196,7 @@ infestedPerHealth = 0.5
 #Range: > 1
 infestedTotal = 10
 #The mob to use as a parasite for infestation
-infestedParasite = "mod_lavacow:parasite"
+infestedParasite = "savage_and_ravage:creepie"
 #The mob to use as a parasite for infestation of ender mob
 infestedEnderParasite = "minecraft:endermite"
 
