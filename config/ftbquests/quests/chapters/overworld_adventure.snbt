@@ -79,7 +79,7 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
 			description: [
 				"The tower can be found using &bSoul Stars&r."
 				""
@@ -87,6 +87,7 @@
 				""
 				"Be sure to bring a &branged weapon&r!"
 			]
+			hide_dependency_lines: true
 			icon: "bosses_of_mass_destruction:soul_star"
 			id: "0579360EE0F0D4AD"
 			rewards: [{
@@ -114,11 +115,12 @@
 				}
 			]
 			title: "Night Lich"
-			x: -2.0d
-			y: -0.5d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
+			hide_dependency_lines: true
 			icon: "bosses_of_mass_destruction:void_lily"
 			id: "21D6AB95329A4EEF"
 			rewards: [{
@@ -140,8 +142,8 @@
 				}
 			]
 			title: "Void Blossom"
-			x: -2.0d
-			y: 0.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -154,11 +156,11 @@
 				type: "structure"
 			}]
 			title: "Ice Maze"
-			x: -5.0d
-			y: 0.5d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
 			description: [
 				""
 				"    Collect the three bone staff pieces (Ominous Bone Staff Fragment) from the Ruins structure."
@@ -176,6 +178,7 @@
 				""
 				"    Pour the Vial of Blood into the altar."
 			]
+			hide_dependency_lines: true
 			icon: "minecells:skeleton"
 			id: "5FD7C7EDDE0E119C"
 			rewards: [{
@@ -191,37 +194,6 @@
 				value: 1L
 			}]
 			title: "Corrupted Champion"
-			x: -1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4493D9650B5D1F71"]
-			description: [
-				"An easy setup is to dig a 2x2 tunnel more than 15 blocks long and then start using ranged attacks on the Warden. This is because it will only use its sonic shriek if you're within 15 blocks of it."
-				""
-				"{@pagebreak}"
-				"You can also dig 2x2 pit in front of the tunnel covered in open trapdoors to trap the Warden. In case you didn't know, open trapdoors are seen as solid blocks by Minecraft mobs, making them useful in vanilla mob farms which require trapping."
-				""
-				"You can use the Warden's drops to upgrade netherite gear. Upgrading the helmet makes you immune to the Darkness effect. Be cautious though, as you can't upgrade Warden gear into Ignitium."
-			]
-			icon: "deeperdarker:heart_of_the_deep"
-			id: "71358BBA8D60E6CD"
-			invisible: true
-			optional: true
-			tasks: [
-				{
-					id: "59DD6C6431563EBB"
-					structure: "minecraft:ancient_city"
-					type: "structure"
-				}
-				{
-					advancement: "deeperdarker:main/kill_warden"
-					criterion: ""
-					id: "0A4FA129A659813C"
-					type: "advancement"
-				}
-			]
-			title: "Kill the Warden"
 			x: -2.0d
 			y: -1.5d
 		}
@@ -414,7 +386,7 @@
 				""
 				"You'll also want at least iron-tier armor. Any less and you risk being one-tapped by the Wroughtnaut's shockwave or 3-hit combo attacks."
 				""
-				"The Wroughtnaut drops its axe and helmet. You also get a heart container when you beat it the first time. You'll get a heart container every time you kill a major boss."
+				"The Wroughtnaut drops its axe and helmet. You also get a heart container when you beat it the first time. You'll get a heart container every time you kill a major boss - make sure to claim it in the quests!"
 			]
 			id: "00294FF7CDCA91F0"
 			rewards: [{
@@ -434,7 +406,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
 			description: [
 				"Frostmaws are monsters found in snowy biomes. Their size grants them great strength, so it's best to avoid them until you've prepared sufficiently."
 				""
@@ -444,6 +416,7 @@
 				""
 				"Frostmaw also has a second phase in which it uses a powerful ground slam, which does enough damage to wipe out 2 rows of hearts before accounting for armor and difficulty scaling. This is telegraphed by the beast standing upright for a while."
 			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "mowziesmobs:ice_crystal"
@@ -464,13 +437,13 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -1.0d
-			y: -1.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
-				"Found in mountains and beaches, sometimes in groups."
+				"Found in several biomes including the Stony Shore, Dead Sea, and Jagged Peaks, sometimes in groups."
 				""
 				"Its weakness is being hit out of the air with an arrow."
 				""
@@ -489,7 +462,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
 			description: [
 				"He can be found &6on his throne&r in savannas."
 				""
@@ -497,8 +470,14 @@
 				""
 				"Umvuthi doesn't move and is somewhat defenseless when you actually get to his throne. Even before you get diamonds, this fight can end favorably in a matter of seconds if you consider this."
 			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
 				id: "mowziesmobs:umvuthana_mask_faith"
 				tag: {
 					Damage: 0
@@ -517,8 +496,8 @@
 				value: 1L
 			}]
 			title: "Umvuthi, The Sunbird"
-			x: -1.0d
-			y: 0.5d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["06D8CD953FBEE3D2"]
@@ -542,11 +521,12 @@
 				value: 1L
 			}]
 			title: "Forsaken"
-			x: -3.0d
-			y: -1.5d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
+			hide_dependency_lines: true
 			icon: "botania:elementium_ingot"
 			id: "3DA23607574A2168"
 			rewards: [{
@@ -561,11 +541,14 @@
 				value: 1L
 			}]
 			title: "Guardian of Gaia"
-			x: -3.0d
-			y: -0.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: [
+				"67EDF8A2B69A158D"
+				"2637C46156FAF5E4"
+			]
 			description: [
 				"An Abyssal Sacrifice is necessary to fight the boss."
 				""
@@ -573,6 +556,7 @@
 				""
 				"You can use Blessed Amethyst Crab Meat, dropped by Amethyt Crabs in lush caves, to nullify the debuffs this boss gives."
 			]
+			hide_dependency_lines: true
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "05765DE630B7CDC2"
 			rewards: [{
@@ -599,11 +583,14 @@
 				}
 			]
 			title: "Leviathan"
-			x: -3.0d
-			y: 0.5d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: [
+				"67EDF8A2B69A158D"
+				"48B996BDDEA77AF2"
+			]
 			description: [
 				"These structures stick out in the desert like sore thumbs, you'll know it when you see it."
 				""
@@ -611,6 +598,7 @@
 				""
 				"Find the Necklace of the Desert by brushing blocks called \"suspicious sand.\" To wake up the Remnant, right click it with the Necklace."
 			]
+			hide_dependency_lines: true
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "4C66466F73102684"
 			rewards: [{
@@ -637,11 +625,15 @@
 				}
 			]
 			title: "Ancient Remnant"
-			x: -4.0d
-			y: 0.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: [
+				"67EDF8A2B69A158D"
+				"5C9813AF465AC6A3"
+			]
+			hide_dependency_lines: true
 			icon: "cataclysm:wither_assault_shoulder_weapon"
 			id: "690AAE1274B3821D"
 			rewards: [{
@@ -668,11 +660,12 @@
 				}
 			]
 			title: "Harbringer"
-			x: -5.0d
-			y: -0.5d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
+			dependencies: ["49975EE359AD20F3"]
+			description: ["You could also use your Eyes of Ender to find a stronghold as you would in Vanilla, since you also can't use the Explorer's Compass for this structure."]
 			icon: "minecraft:ender_eye"
 			id: "0522653117110CC8"
 			tasks: [{
@@ -681,11 +674,11 @@
 				type: "structure"
 			}]
 			title: "Find the Stronghold"
-			x: -2.5d
-			y: 2.5d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
 			description: [
 				"The Chimera is encountered by completing the Ritual of Summon Wilden with body parts of all three Wilden enemies, as well as an Arcane Crystal Block and Vexing Archwood Log."
 				""
@@ -693,6 +686,7 @@
 				""
 				"The Chimera is up there for the highest-HP boss in the modpack and complements this with three attacks."
 			]
+			hide_dependency_lines: true
 			icon: "ars_nouveau:ritual_wilden_summon"
 			id: "732BF9F02A4D0E26"
 			rewards: [{
@@ -707,8 +701,8 @@
 				value: 1L
 			}]
 			title: "Wilden Chimera"
-			x: -4.0d
-			y: -0.5d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -1364,8 +1358,8 @@
 				value: 1L
 			}]
 			title: "Hullbreaker"
-			x: -4.0d
-			y: -1.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1402,8 +1396,8 @@
 				value: 1L
 			}]
 			title: "Luxtructosaurus"
-			x: -5.0d
-			y: -1.5d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0A6104C04414F37B"]
@@ -1418,8 +1412,8 @@
 				value: 1L
 			}]
 			title: "Magnetron"
-			x: -6.0d
-			y: -1.5d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["06D1991EE22CF1B3"]
@@ -1568,7 +1562,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1808E3ABC3AF6D82"]
+			dependencies: [
+				"1808E3ABC3AF6D82"
+				"67EDF8A2B69A158D"
+			]
+			hide_dependency_lines: true
 			icon: "aquamirae:abyssal_amethyst"
 			id: "48F86079EE5DBE12"
 			tasks: [{
@@ -1579,7 +1577,7 @@
 			}]
 			title: "Mother of the Maze"
 			x: -6.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1808E3ABC3AF6D82"]
@@ -1608,7 +1606,7 @@
 			}]
 			title: "Ghost of Captain Cornelia"
 			x: -7.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1808E3ABC3AF6D82"]
@@ -1621,11 +1619,12 @@
 				value: 1L
 			}]
 			title: "Eel"
-			x: -6.0d
-			y: -0.5d
+			x: -7.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: ["67EDF8A2B69A158D"]
+			hide_dependency_lines: true
 			id: "34A83BB5D5DEFC82"
 			rewards: [{
 				id: "5B3762CB4B335DBB"
@@ -1640,7 +1639,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
@@ -1674,6 +1673,7 @@
 			dependencies: ["2287726086131598"]
 			description: ["I had Candy Cavity quests but I accidentally deleted them when I resynced my GitHub account to Git on my laptop. I'll rewrite/restore them later."]
 			id: "7A8F28E754BB375D"
+			invisible: true
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
 				icon: "alexscaves:candy_cane"
@@ -1683,6 +1683,203 @@
 			}]
 			x: 2.5d
 			y: 10.0d
+		}
+		{
+			dependencies: [
+				"67EDF8A2B69A158D"
+				"0D9CED136C03F421"
+			]
+			hide_dependency_lines: true
+			id: "39E4ADC1A0A88288"
+			rewards: [{
+				id: "7ED906ECDEC2BCC4"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_tombstone"
+				id: "3CBD34517C67FC8F"
+				title: "Kill Maledictus"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Maledictus"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"To get on the hunt for Cataclysm's sprawling dungeons, you'll need an &aEye of Ender&r. This is because your Explorer's Compass won't work with (most of) its structures!"
+				""
+				"It may seem daunting to go all the way to the &aNether&r just to fight a few bosses in the Overworld, but luckily there are several ways to get &ablaze powder&r before finding a &aNether Fortress&r."
+				""
+				"First, blaze powder can be found randomly in some structures. &aPyromancer towers&r often have a few &aBlaze Rods&r."
+				""
+				"[ \"If you want a more consistent method, look into the \", { \"text\": \"Fel Pumpkin\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00B285EA4937657F\" } }, \".\" ]"
+				""
+				"It can be crafted as soon as you reach the &aEverbright&r or &aEverdawn&r, and provides an easy way of summoning a &aBlaze&r for you to kill."
+				""
+				"Lastly, if you really want to roll the dice, the &aWandering Trader&r rarely sells Eyes of Ender at affordable prices."
+			]
+			id: "49975EE359AD20F3"
+			tasks: [{
+				id: "6238B470E046B2E7"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			description: ["*Also requires killing the Wither and obtaining a Nether Star to summon"]
+			id: "5C9813AF465AC6A3"
+			tasks: [{
+				id: "000E7494D4CFDE90"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			id: "2637C46156FAF5E4"
+			tasks: [{
+				id: "6DA236519B0EBD64"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			id: "48B996BDDEA77AF2"
+			tasks: [{
+				id: "6BE96B382EDC1119"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			id: "0D9CED136C03F421"
+			tasks: [{
+				id: "4F4A9A7C6EA92073"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Swampjaw is a good starting boss due to its weakness compared to other bosses and good early-game loot. "
+				""
+				"The Caged Heart you can craft from his drops, for example, will be very useful later on."
+			]
+			icon: "meetyourfight:mossy_tooth"
+			id: "7CCAA4C36D8E088F"
+			subtitle: "Start here"
+			tasks: [
+				{
+					id: "1B2BD87338CD09CF"
+					item: "meetyourfight:fossil_bait"
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:swampjaw"
+					id: "6A9F40BD6792E2B8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Swampjaw"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: ["This is the second boss of Meet Your Fight."]
+			hide_dependency_lines: true
+			icon: "meetyourfight:phantoplasm"
+			id: "4C2CB24F4BB67925"
+			tasks: [
+				{
+					entity: "meetyourfight:bellringer"
+					id: "78B705C3C6B6B595"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "166FAB8489E6CD79"
+					item: "meetyourfight:haunted_bell"
+					type: "item"
+				}
+			]
+			title: "Bellringer"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			hide_dependency_lines: true
+			icon: "meetyourfight:fortunes_favor"
+			id: "4146A3AAFACC851A"
+			rewards: [{
+				id: "1451F82B06A36682"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "meetyourfight:dame_fortuna"
+					id: "6384F66F981FAD76"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "01AFA91723ECB733"
+					item: "meetyourfight:devils_ante"
+					type: "item"
+				}
+			]
+			title: "Dame Fortuna"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			hide_dependency_lines: true
+			icon: "meetyourfight:violet_bloom"
+			id: "52703C0374BD3492"
+			rewards: [{
+				id: "740921565EC3FAEC"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "678681F3EBE2AC88"
+					item: "meetyourfight:dusk_key"
+					type: "item"
+				}
+				{
+					entity: "meetyourfight:rosalyne"
+					id: "5A3B58FC6AE8BA2A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Rosalyne"
+			x: -5.0d
+			y: 0.5d
 		}
 	]
 	title: "Overworld Adventure"
