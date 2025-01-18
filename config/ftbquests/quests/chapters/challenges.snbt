@@ -4339,6 +4339,8 @@
 				""
 				"Sands of Dominion: Obtained by killing the Ancient Remnant"
 				""
+				"Maledictus: Obtained by killing Maledictus"
+				""
 				"Mammoth: Found in Undergarden Chests"
 				""
 				"Relict: Found in Undergarden Chests"
@@ -4396,6 +4398,24 @@
 				"Sight: Crafted using 9 fragments. Fragments are found in Stronghold Chests"
 				""
 				"Forlorn: Found in Stronghold Chests"
+				""
+				"Tasty: Obtained by combining 9 Tasty Disc Fragments, which are found in Licowitch Towers and dropped by Gumbeepers killed by Caniacs"
+				""
+				"Leaving Home: Wandering Trader killed by Skeleton or variant"
+				""
+				"Slabrave: Feed Slabfish a Music Disc (that can drop from a Creeper)"
+				""
+				"Epilogue: Kill a Mime while holding a Music Disc (C418 - 11)"
+				""
+				"Kilobyte: Found in End City Chests"
+				""
+				"Shadows Falling in Lush Forests: Kill Swampjaw"
+				""
+				"Magnum: Kill Bellringer"
+				""
+				"Place Your Bet ~ Life On Red: Kill Dame Fortuna"
+				""
+				"Frog Punch: Kill Rosalyne"
 			]
 			id: "27EEDA571F8E5F2C"
 			subtitle: "Nice vinyl collection!"
@@ -4783,6 +4803,31 @@
 				{
 					id: "7EBECB33CF5DD4FB"
 					item: "endergetic:music_disc_kilobyte"
+					type: "item"
+				}
+				{
+					id: "1B205E1D940FECF0"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+				{
+					id: "60CF38D2CAFE057B"
+					item: "meetyourfight:music_disc_swampjaw"
+					type: "item"
+				}
+				{
+					id: "3CC8F54057E7C267"
+					item: "meetyourfight:music_disc_bellringer"
+					type: "item"
+				}
+				{
+					id: "5C7E5D61C986E5D0"
+					item: "meetyourfight:music_disc_fortuna"
+					type: "item"
+				}
+				{
+					id: "1CA9594124D69ACE"
+					item: "meetyourfight:music_disc_rosalyne"
 					type: "item"
 				}
 			]
