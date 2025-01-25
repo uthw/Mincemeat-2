@@ -163,6 +163,26 @@
         "mob": "meetyourfight:rosalyne",
         "healthmultiply": 1.35,
         "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "alexsmobs:cachalot_whale",
+        "healthmultiply": 2.5,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "mowziesmobs:ferrous_wroughtnaut",
+        "structure": "integrated_stronghold:stronghold",
+        "healthmultiply": 4,
+        "damagemultiply": 3,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "graveyard:ghouling",
+        "healthmultiply": 3,
+        "damagemultiply": 3,
+        "result": "default"
     }
-
 ]
