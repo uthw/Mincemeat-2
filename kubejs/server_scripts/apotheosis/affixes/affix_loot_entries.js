@@ -211,27 +211,39 @@ ServerEvents.highPriorityData((event) => {
                     item: "create:copper_diving_helmet",
                 },
 
-                // { item: "betternether:cincinnasite_helmet", weight: 15 },
-                // { item: "betternether:cincinnasite_chestplate", weight: 15 },
-                // { item: "betternether:cincinnasite_leggings", weight: 15 },
-                // { item: "betternether:cincinnasite_boots", weight: 15 },
+                { item: "betternether:cincinnasite_helmet", weight: 15 },
+                { item: "betternether:cincinnasite_chestplate", weight: 15 },
+                { item: "betternether:cincinnasite_leggings", weight: 15 },
+                { item: "betternether:cincinnasite_boots", weight: 15 },
 
-                // { item: "betternether:nether_ruby_helmet", weight: 10 },
-                // { item: "betternether:nether_ruby_chestplate", weight: 10 },
-                // { item: "betternether:nether_ruby_leggings", weight: 10 },
-                // { item: "betternether:nether_ruby_boots", weight: 10 },
+                { item: "betternether:nether_ruby_helmet", weight: 10 },
+                { item: "betternether:nether_ruby_chestplate", weight: 10 },
+                { item: "betternether:nether_ruby_leggings", weight: 10 },
+                { item: "betternether:nether_ruby_boots", weight: 10 },
 
                 { item: "galosphere:sterling_helmet", weight: 18 },
                 { item: "galosphere:sterling_chestplate", weight: 18 },
                 { item: "galosphere:sterling_leggings", weight: 18 },
                 { item: "galosphere:sterling_boots", weight: 18 },
 
-                // { item: "betternether:flaming_ruby_helmet", weight: 4 },
-                // { item: "betternether:flaming_ruby_chestplate", weight: 4 },
-                // { item: "betternether:flaming_ruby_leggings", weight: 4 },
-                // { item: "betternether:flaming_ruby_boots", weight: 4 },
+                { item: "betternether:flaming_ruby_helmet", weight: 4 },
+                { item: "betternether:flaming_ruby_chestplate", weight: 4 },
+                { item: "betternether:flaming_ruby_leggings", weight: 4 },
+                { item: "betternether:flaming_ruby_boots", weight: 4 },
 
                 { item: "autumnity:snail_shell_chestplate", weight: 10 },
+
+                { item: "forbidden_arcanus:mortem_helmet", weight: 25 },
+                { item: "forbidden_arcanus:mortem_chestplate", weight: 25 },
+                { item: "forbidden_arcanus:mortem_boots", weight: 25 },
+                { item: "forbidden_arcanus:mortem_leggings", weight: 25 },
+
+                { item: "caverns_and_chasms:sanguine_helmet", weight: 3 },
+                { item: "caverns_and_chasms:sanguine_chestplate", weight: 3 },
+                { item: "caverns_and_chasms:sanguine_leggings", weight: 3 },
+                { item: "caverns_and_chasms:sanguine_boots", weight: 3 },
+
+                { item: "quark:forgotten_hat", weight: 15 },
             ],
         },
         {
@@ -298,7 +310,7 @@ ServerEvents.highPriorityData((event) => {
 
                 {
                     item: "forbidden_arcanus:reinforced_deorum_sword",
-                    weight: 5,
+                    weight: 2,
                     quality: 6,
                 },
 
@@ -311,12 +323,19 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_sword", weight: 25 },
 
-                // { item: "betternether:cincinnasite_sword", weight: 25 },
-                // { item: "betternether:nether_ruby_sword", weight: 15 },
+                { item: "betternether:cincinnasite_sword", weight: 25 },
+                { item: "betternether:nether_ruby_sword", weight: 15 },
                 // { item: "betternether:flaming_ruby_sword", weight: 4 },
 
                 { item: "spartanweaponry:studded_club", weight: 25 },
                 { item: "spartanweaponry:studded_cestus", weight: 25 },
+
+                { item: "cataclysm:khopesh", weight: 12, quality: 6 },
+                { item: "cataclysm:coral_spear", weight: 12, quality: 6 },
+                { item: "cataclysm:coral_brandiche", weight: 12, quality: 6 },
+
+                { item: "cataclysm:black_steel_sword", weight: 8, quality: 5 },
+                
             ],
         },
         {
@@ -344,9 +363,11 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_axe", weight: 25 },
 
-                // { item: "betternether:cincinnasite_axe", weight: 25 },
-                // { item: "betternether:nether_ruby_axe", weight: 15 },
+                { item: "betternether:cincinnasite_axe", weight: 25 },
+                { item: "betternether:nether_ruby_axe", weight: 15 },
                 // { item: "betternether:flaming_ruby_axe", weight: 4 },
+
+                { item: "cataclysm:black_steel_axe", weight: 8, quality: 5 },
             ],
         },
         {
@@ -374,9 +395,11 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_pickaxe", weight: 25 },
 
-                // { item: "betternether:cincinnasite_pickaxe", weight: 25 },
-                // { item: "betternether:nether_ruby_pickaxe", weight: 15 },
+                { item: "betternether:cincinnasite_pickaxe", weight: 25 },
+                { item: "betternether:nether_ruby_pickaxe", weight: 15 },
                 // { item: "betternether:flaming_ruby_pickaxe", weight: 4 },
+
+                { item: "cataclysm:black_steel_pickaxe", weight: 8, quality: 5 },
             ],
         },
         {
@@ -404,9 +427,11 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_shovel", weight: 25 },
 
-                // { item: "betternether:cincinnasite_shovel", weight: 25 },
-                // { item: "betternether:nether_ruby_shovel", weight: 15 },
+                { item: "betternether:cincinnasite_shovel", weight: 25 },
+                { item: "betternether:nether_ruby_shovel", weight: 15 },
                 // { item: "betternether:flaming_ruby_shovel", weight: 4 },
+
+                { item: "cataclysm:black_steel_shovel", weight: 8, quality: 5 },
             ],
         },
     ];
