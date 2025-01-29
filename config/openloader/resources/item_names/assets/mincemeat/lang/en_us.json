@@ -115,7 +115,8 @@
     "effect.cold_sweat.ice_resistance.description": "Prevents freezing and damage from powdered snow and hypothermia.",
     "effect.champions.wound.description": "The open wound makes healing less effective and increases vulnerability to further damage.",
     "effect.champions.paralysis.description": "The body is temporarily paralyzed, preventing movement.",
-    "effects.cataclysm.ghost_form.description": "Revives and briefly increases stats after dying while wearing full cursium armor.",
+    "effect.cataclysm.ghost_form.description": "Revives and briefly increases stats after dying while wearing full cursium armor.",
     "effect.cataclysm.ghost_sickness.description": "Cannot be revived by the cursium armor's set bonus during this time.",
-    "effect.savage_and_ravage.weight.description": "Makes the player slower and prevents jumping."
+    "effect.savage_and_ravage.weight.description": "Makes the player slower and prevents jumping.",
+    "effect.alexscaves.sugar_rush.description": "Improves movement speed but decreases vertical movement and makes deceleration harder. Provides immunity to fall damage."
 }
