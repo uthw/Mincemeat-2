@@ -29,10 +29,20 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
-			description: ["Found in the &5Hunter's House&r, or in the wild."]
+			description: [
+				"Found in the &5Hunter's House&r, or in the wild."
+				""
+				"After encountering the Hunter, the world opens up to you. The Overworld is chock full of bosses waiting for you to fight them, and these quests are meant to guide you through every step of the way."
+				""
+				"The way I've set this up is, directly above the Hunter are the bosses you need to best before unlocking dimensional adventure. You can start with an optional boss or two, but these should be your top priority. You'll need to visit other dimensions if you want gear strong enough to beat some of the Overworld bosses."
+				""
+				"To the left of the Hunter are easier bosses. The least difficult ones, Swampjaw and Umvuthi, are closest to the Hunter's node, and the bosses get harder as the nodes get further."
+				""
+				"To the right of the Hunter are more difficult bosses which you shouldn't attempt without getting comfortable with the modpack and fine-tuning your equipment. Like the other side, their distance from the Hunter is a measure of their difficulty."
+			]
 			icon: {
 				Count: 1
 				id: "hunters_return:boomerang"
@@ -76,7 +86,7 @@
 			}]
 			title: "Ready for Dimensional Adventures"
 			x: 0.0d
-			y: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -87,98 +97,80 @@
 				""
 				"Be sure to bring a &branged weapon&r!"
 			]
-			hide_dependency_lines: true
 			icon: "bosses_of_mass_destruction:soul_star"
 			id: "0579360EE0F0D4AD"
-			rewards: [{
-				id: "6C6C4C139AC23996"
-				item: "paraglider:heart_container"
-				type: "item"
-			}]
 			tasks: [
 				{
-					id: "7A1E3F0D2492CFC4"
-					structure: "bosses_of_mass_destruction:lich_tower"
-					type: "structure"
-				}
-				{
 					count: 4L
-					id: "483BCC1ACECD25F2"
+					id: "3641E70A9E3802AD"
 					item: "bosses_of_mass_destruction:soul_star"
 					type: "item"
 				}
 				{
-					entity: "bosses_of_mass_destruction:lich"
-					id: "1F9F1BAA3250D23E"
-					type: "kill"
-					value: 1L
+					icon: "bosses_of_mass_destruction:soul_star"
+					id: "1CED981C45C1963B"
+					structure: "bosses_of_mass_destruction:lich_tower"
+					title: "Lich Tower"
+					type: "structure"
 				}
 			]
-			title: "Night Lich"
-			x: -3.0d
-			y: -1.5d
+			title: "Lich Tower"
+			x: 5.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
-			hide_dependency_lines: true
-			icon: "bosses_of_mass_destruction:void_lily"
+			dependencies: ["4D8E61449F85F893"]
 			id: "21D6AB95329A4EEF"
 			rewards: [{
 				id: "7C65CB1D5B64E7F1"
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2E2EEA7E34DC9762"
-					structure: "bosses_of_mass_destruction:void_blossom"
-					type: "structure"
-				}
-				{
-					entity: "bosses_of_mass_destruction:void_blossom"
-					id: "5341E9DB541C10B2"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_blossom"
+				id: "5341E9DB541C10B2"
+				type: "kill"
+				value: 1L
+			}]
 			title: "Void Blossom"
-			x: -3.0d
-			y: -0.5d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
-			hide_dependent_lines: true
+			description: [
+				"The Ice Maze is a terribly large and cold mass of ice which can be found in Deep Frozen Oceans. The maze is one of the coldest places you can be, and you'll quickly freeze to death if you don't have the best insulation."
+				""
+				"You can't dismiss it for that though. The loot you can find in ships and outposts is great, and don't forget to bring a Golden Moth in a Jar home."
+			]
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
-			invisible: true
 			tasks: [{
 				id: "38F2586A4F22A244"
 				structure: "aquamirae:ice_maze/common"
 				type: "structure"
 			}]
 			title: "Ice Maze"
-			x: -7.0d
-			y: -0.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
+			dependencies: ["081460416503B7FE"]
 			description: [
+				"The Corrupted Champion is a powerful reanimated corpse who relies on necromancy to defeat its foes. It has a wide range of attacks and spells it can draw from, so I'll just give you some general pointers."
 				""
-				"    Collect the three bone staff pieces (Ominous Bone Staff Fragment) from the Ruins structure."
-				"Every Ruin has a unique fragment (upper, middle and lower bone staff fragment). These structures spawn in forests and are 1) a broken tower (head fragment) 2) a bloody hill (middle fragment) and 3) a campsite (lower fragment)"
+				"Preparation:"
 				""
-				"    All three staff pieces can also sometimes be bought by the Nameless Hanged located at the Dead Tree structure for a price of 64 Corruption."
+				"Some attacks can launch you off the island, which is really annoying. If you don't have armor with Knockback Resistance you can look into a Charm of Knockback Resistance or one of the Earth School accessories from Ars Elemental. "
 				""
-				"    Obtain a bone dagger from an Acolyte, or craft it yourself."
+				"The Champion summons a lot of Ghouls during the fight. You can take advantage of this using a sword enchanted with Leech to heal from them. Smite is another necessity, as everything you're dealing with is undead. "
+				"{@pagebreak}"
+				"Battle strategy:"
 				""
-				"    Hold a glass bottle in your offhand and start killing villagers with the bone dagger. You'll get a Vial of Blood. Fill the vial to the limit."
+				"You can't damage the Champion while it's casting a spell. This is indicated by the ring surrounding it. Get rid of Ghouls if possible or just survive during this time."
 				""
-				"    Find the Lich Prison structure, a large floating island above the oceans."
-				""
-				"    Wait until it is night, place the bone staff pieces (from upper to lower) on the dark corrupted deepslate blocks in front of the altar (they should fairly stand out)."
-				""
-				"    Pour the Vial of Blood into the altar."
+				"The Champion gets serious (and invincible) during its second phase. Play with sound on since there are cues when it's about to attack. Dodge the attacks and wait it out until it cools off."
 			]
-			hide_dependency_lines: true
 			icon: "minecells:skeleton"
 			id: "5FD7C7EDDE0E119C"
 			rewards: [{
@@ -186,7 +178,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			subtitle: "descrption from Graveyard Mod GitHub Wiki for now"
+			subtitle: "Who the Wither always wanted to be"
 			tasks: [{
 				entity: "graveyard:lich"
 				id: "14138C08BFD56EC6"
@@ -194,8 +186,8 @@
 				value: 1L
 			}]
 			title: "Corrupted Champion"
-			x: -2.0d
-			y: -1.5d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -309,8 +301,8 @@
 				type: "biome"
 			}]
 			title: "Magnetic Caves"
-			x: -2.5d
-			y: 7.0d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2287726086131598"]
@@ -406,17 +398,8 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
-			description: [
-				"Frostmaws are monsters found in snowy biomes. Their size grants them great strength, so it's best to avoid them until you've prepared sufficiently."
-				""
-				"They're typically found sleeping initially. If you're confident, you can sneak right up to them and snatch their ice crystal, making the fight easier."
-				""
-				"The Frostmaw has a swipe attack and a frost breath attack capable of freezing foes, giving it an opportunity to attack."
-				""
-				"Frostmaw also has a second phase in which it uses a powerful ground slam, which does enough damage to wipe out 2 rows of hearts before accounting for armor and difficulty scaling. This is telegraphed by the beast standing upright for a while."
-			]
-			hide_dependency_lines: true
+			dependencies: ["2150984E9EF5452C"]
+			description: ["Frostmaw only drops an Ancient Axe Head, but it'll also drop its Frost Core if it had it when it died."]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:ice_crystal"
@@ -437,8 +420,8 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -2.0d
-			y: -2.5d
+			x: -12.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -462,15 +445,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
-			description: [
-				"He can be found &6on his throne&r in savannas."
-				""
-				"Umvuthi has harnessed the power of the sun and can rain down solar flares on those who approach him. He can summon followers, which should be taken care of quickly lest they overwhelm you."
-				""
-				"Umvuthi doesn't move and is somewhat defenseless when you actually get to his throne. Even before you get diamonds, this fight can end favorably in a matter of seconds if you consider this."
-			]
-			hide_dependency_lines: true
+			dependencies: ["0AA5EC48FDAEEDDF"]
+			description: [""]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -496,8 +472,8 @@
 				value: 1L
 			}]
 			title: "Umvuthi, The Sunbird"
-			x: -2.0d
-			y: -0.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["06D8CD953FBEE3D2"]
@@ -521,8 +497,8 @@
 				value: 1L
 			}]
 			title: "Forsaken"
-			x: -4.0d
-			y: -2.5d
+			x: -2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -541,56 +517,31 @@
 				value: 1L
 			}]
 			title: "Guardian of Gaia"
-			x: -4.0d
-			y: -1.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"67EDF8A2B69A158D"
-				"2637C46156FAF5E4"
-			]
-			description: [
-				"An Abyssal Sacrifice is necessary to fight the boss."
-				""
-				"You need to get to The Nether before fighting The Leviathan. It's one of the hardest bosses in Mincemeat 2, so prepare sufficiently."
-				""
-				"You can use Blessed Amethyst Crab Meat, dropped by Amethyt Crabs in lush caves, to nullify the debuffs this boss gives."
-			]
-			hide_dependency_lines: true
-			icon: "cataclysm:abyssal_sacrifice"
+			dependencies: ["431AB26EA0ED2433"]
+			description: [""]
+			icon: "cataclysm:altar_of_void"
 			id: "05765DE630B7CDC2"
 			rewards: [{
 				id: "22DE1515C3B2CA2A"
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "1DDC078C6D091C79"
-					structure: "cataclysm:sunken_city"
-					type: "structure"
-				}
-				{
-					entity: "cataclysm:the_leviathan"
-					id: "72E1AD4B8BA5F853"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "35CA98792D926FB8"
-					item: "cataclysm:abyssal_sacrifice"
-					type: "item"
-				}
-			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "72E1AD4B8BA5F853"
+				type: "kill"
+				value: 1L
+			}]
 			title: "Leviathan"
-			x: -4.0d
-			y: -0.5d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"67EDF8A2B69A158D"
-				"48B996BDDEA77AF2"
-			]
+			dependencies: ["6030F09BDD1A5FA6"]
 			description: [
 				"These structures stick out in the desert like sore thumbs, you'll know it when you see it."
 				""
@@ -598,7 +549,6 @@
 				""
 				"Find the Necklace of the Desert by brushing blocks called \"suspicious sand.\" To wake up the Remnant, right click it with the Necklace."
 			]
-			hide_dependency_lines: true
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "4C66466F73102684"
 			rewards: [{
@@ -606,34 +556,19 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2E23C2AF514C1561"
-					structure: "cataclysm:cursed_pyramid"
-					type: "structure"
-				}
-				{
-					id: "7E0DC1D573B5072B"
-					item: "cataclysm:necklace_of_the_desert"
-					type: "item"
-				}
-				{
-					entity: "cataclysm:ancient_remnant"
-					id: "368111B28F939589"
-					type: "kill"
-					value: 1L
-				}
-			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "368111B28F939589"
+				type: "kill"
+				value: 1L
+			}]
 			title: "Ancient Remnant"
-			x: -5.0d
-			y: -0.5d
+			x: 13.0d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"67EDF8A2B69A158D"
-				"5C9813AF465AC6A3"
-			]
-			hide_dependency_lines: true
+			dependencies: ["5AF9020E9AC8C2D6"]
+			description: [""]
 			icon: "cataclysm:wither_assault_shoulder_weapon"
 			id: "690AAE1274B3821D"
 			rewards: [{
@@ -641,31 +576,23 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "58877D004CD49D45"
-					structure: "cataclysm:ancient_factory"
-					type: "structure"
-				}
-				{
-					id: "269D2E96EE4F4619"
-					item: "minecraft:nether_star"
-					type: "item"
-				}
-				{
-					entity: "cataclysm:the_harbinger"
-					id: "135F59F7707AEA3D"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Harbringer"
-			x: -6.0d
-			y: -1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "135F59F7707AEA3D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Harbinger"
+			x: 9.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["49975EE359AD20F3"]
-			description: ["You could also use your Eyes of Ender to find a stronghold as you would in Vanilla, since you also can't use the Explorer's Compass for this structure."]
+			description: [
+				"You could also use your Eyes of Ender to find a stronghold as you would in Vanilla, since you also can't use the Explorer's Compass for this structure."
+				""
+				"Note that you won't be able to enter the End until you defeat a certain foe in the Nether."
+			]
 			icon: "minecraft:ender_eye"
 			id: "0522653117110CC8"
 			tasks: [{
@@ -674,7 +601,7 @@
 				type: "structure"
 			}]
 			title: "Find the Stronghold"
-			x: -1.5d
+			x: 12.0d
 			y: 3.5d
 		}
 		{
@@ -701,8 +628,8 @@
 				value: 1L
 			}]
 			title: "Wilden Chimera"
-			x: -5.0d
-			y: -1.5d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -939,8 +866,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 6.5d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0A6104C04414F37B"]
@@ -965,8 +892,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 5.0d
+			x: -7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0A6104C04414F37B"]
@@ -982,8 +909,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.5d
+			x: -8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1011,8 +938,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.5d
+			x: -9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0A6104C04414F37B"]
@@ -1022,8 +949,8 @@
 				item: "alexscaves:seeking_arrow"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.5d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["06D8CD953FBEE3D2"]
@@ -1358,8 +1285,8 @@
 				value: 1L
 			}]
 			title: "Hullbreaker"
-			x: -5.0d
-			y: -2.5d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1396,8 +1323,8 @@
 				value: 1L
 			}]
 			title: "Luxtructosaurus"
-			x: -6.0d
-			y: -2.5d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0A6104C04414F37B"]
@@ -1412,8 +1339,8 @@
 				value: 1L
 			}]
 			title: "Magnetron"
-			x: -7.0d
-			y: -2.5d
+			x: -5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["06D1991EE22CF1B3"]
@@ -1517,8 +1444,8 @@
 				type: "advancement"
 			}]
 			title: "Go Below the Surface"
-			x: 3.0d
-			y: 0.0d
+			x: -10.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["06D1991EE22CF1B3"]
@@ -1547,8 +1474,8 @@
 				item: "miners_delight:cave_carrot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["30B48BBA0773D7A5"]
@@ -1558,15 +1485,11 @@
 				structure: "irons_spellbooks:catacombs"
 				type: "structure"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: -9.5d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"1808E3ABC3AF6D82"
-				"67EDF8A2B69A158D"
-			]
-			hide_dependency_lines: true
+			dependencies: ["1808E3ABC3AF6D82"]
 			icon: "aquamirae:abyssal_amethyst"
 			id: "48F86079EE5DBE12"
 			tasks: [{
@@ -1576,11 +1499,11 @@
 				value: 1L
 			}]
 			title: "Mother of the Maze"
-			x: -6.0d
-			y: -0.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1808E3ABC3AF6D82"]
+			dependencies: ["227EBBF0DFD6D002"]
 			icon: {
 				Count: 1
 				id: "aquamirae:coral_lance"
@@ -1605,8 +1528,8 @@
 				value: 1L
 			}]
 			title: "Ghost of Captain Cornelia"
-			x: -7.0d
-			y: 0.5d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1808E3ABC3AF6D82"]
@@ -1619,18 +1542,18 @@
 				value: 1L
 			}]
 			title: "Eel"
-			x: -7.0d
-			y: -1.5d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
-			hide_dependency_lines: true
+			dependencies: ["1F9A394264C7C588"]
 			id: "34A83BB5D5DEFC82"
 			rewards: [{
 				id: "5B3762CB4B335DBB"
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "The King is Dead, Long Live the King"
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
 				icon: "irons_spellbooks:blood_staff"
@@ -1639,8 +1562,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -1666,8 +1589,8 @@
 				title: "Advanced Movement"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2287726086131598"]
@@ -1685,75 +1608,58 @@
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"67EDF8A2B69A158D"
-				"0D9CED136C03F421"
-			]
-			hide_dependency_lines: true
-			id: "39E4ADC1A0A88288"
-			rewards: [{
-				id: "7ED906ECDEC2BCC4"
-				item: "paraglider:heart_container"
-				type: "item"
-			}]
-			tasks: [{
-				entity: "cataclysm:maledictus"
-				icon: "cataclysm:cursed_tombstone"
-				id: "3CBD34517C67FC8F"
-				title: "Kill Maledictus"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Maledictus"
-			x: -3.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
 				"To get on the hunt for Cataclysm's sprawling dungeons, you'll need an &aEye of Ender&r. This is because your Explorer's Compass won't work with (most of) its structures!"
 				""
 				"It may seem daunting to go all the way to the &aNether&r just to fight a few bosses in the Overworld, but luckily there are several ways to get &ablaze powder&r before finding a &aNether Fortress&r."
 				""
-				"First, blaze powder can be found randomly in some structures. &aPyromancer towers&r often have a few &aBlaze Rods&r."
+				"First, the easiest method is finding blaze powder randomly in some structures. &aPyromancer towers&r often have a few &aBlaze Rods&r."
 				""
 				"[ \"If you want a more consistent method, look into the \", { \"text\": \"Fel Pumpkin\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00B285EA4937657F\" } }, \".\" ]"
 				""
-				"It can be crafted as soon as you reach the &aEverbright&r or &aEverdawn&r, and provides an easy way of summoning a &aBlaze&r for you to kill."
+				"It can be crafted as soon as you reach the &aEverbright&r or &aEverdawn&r, and provides a way of summoning a &aBlaze&r for you to kill."
 				""
 				"Lastly, if you really want to roll the dice, the &aWandering Trader&r rarely sells Eyes of Ender at affordable prices."
 			]
 			id: "49975EE359AD20F3"
+			subtitle: "Probably not worth attempting these until you're in the Nether anyway"
 			tasks: [{
 				id: "6238B470E046B2E7"
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["49975EE359AD20F3"]
-			description: ["*Also requires killing the Wither and obtaining a Nether Star to summon"]
+			description: [
+				"I recommend killing the Harbinger first since its drops let you craft the Mechanical Fusion Anvil, which will come in handy when you start fighting other Cataclysm bosses."
+				""
+				"Requires killing the Wither and obtaining a Nether Star to summon."
+			]
 			id: "5C9813AF465AC6A3"
+			subtitle: "Start here for Cataclysm"
 			tasks: [{
 				id: "000E7494D4CFDE90"
 				item: "cataclysm:mech_eye"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["49975EE359AD20F3"]
+			description: ["Leads you to the Sunken City, the home of the Leviathan."]
 			id: "2637C46156FAF5E4"
 			tasks: [{
 				id: "6DA236519B0EBD64"
 				item: "cataclysm:abyss_eye"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: 11.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["49975EE359AD20F3"]
@@ -1763,8 +1669,8 @@
 				item: "cataclysm:desert_eye"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.0d
+			x: 13.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["49975EE359AD20F3"]
@@ -1774,62 +1680,51 @@
 				item: "cataclysm:cursed_eye"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: 14.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
-			description: [
-				"Swampjaw is a good starting boss due to its weakness compared to other bosses and good early-game loot. "
-				""
-				"The Caged Heart you can craft from his drops, for example, will be very useful later on."
-			]
+			dependencies: ["1B8E4A72A675FF9D"]
+			description: [""]
 			icon: "meetyourfight:mossy_tooth"
 			id: "7CCAA4C36D8E088F"
-			subtitle: "Start here"
-			tasks: [
-				{
-					id: "1B2BD87338CD09CF"
-					item: "meetyourfight:fossil_bait"
-					type: "item"
-				}
-				{
-					entity: "meetyourfight:swampjaw"
-					id: "6A9F40BD6792E2B8"
-					type: "kill"
-					value: 1L
-				}
-			]
+			rewards: [{
+				id: "774B8BBB2E83C0BA"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				id: "6A9F40BD6792E2B8"
+				type: "kill"
+				value: 1L
+			}]
 			title: "Swampjaw"
 			x: -2.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
+			dependencies: ["70114AE9DEBF79F6"]
 			description: ["This is the second boss of Meet Your Fight."]
-			hide_dependency_lines: true
 			icon: "meetyourfight:phantoplasm"
 			id: "4C2CB24F4BB67925"
-			tasks: [
-				{
-					entity: "meetyourfight:bellringer"
-					id: "78B705C3C6B6B595"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "166FAB8489E6CD79"
-					item: "meetyourfight:haunted_bell"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "09C91DE981503468"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				id: "78B705C3C6B6B595"
+				type: "kill"
+				value: 1L
+			}]
 			title: "Bellringer"
-			x: -3.0d
-			y: 0.5d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
-			hide_dependency_lines: true
+			dependencies: ["632640CDF9AF2DBE"]
 			icon: "meetyourfight:fortunes_favor"
 			id: "4146A3AAFACC851A"
 			rewards: [{
@@ -1851,35 +1746,1215 @@
 				}
 			]
 			title: "Dame Fortuna"
-			x: -4.0d
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Rosalyne is the strongest boss Meet Your Fight has to offer. She has a similar style to all of this mod's other bosses, so ranged weapons are the way to go. Rosalyne has very high damage output - it's especially important to dodge and use the Lightweight enchant instead of trying to eat the hits."
+				""
+				"During her second phase, Rosalyne will become immune to all damage and gain some orbiting Rose Spirits who heal her. You'll need to take down these minions before getting back into things."
+			]
+			icon: "meetyourfight:dusk_key"
+			id: "52703C0374BD3492"
+			tasks: [{
+				id: "678681F3EBE2AC88"
+				item: "meetyourfight:dusk_key"
+				type: "item"
+			}]
+			title: "Dusk Key"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75D195C89EEFC1A2"]
+			id: "0CD34066894BD790"
+			rewards: [{
+				id: "378E6815DB0A01AC"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: {
+					Count: 1
+					id: "galosphere:preserved_flesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "044B94FB1194D99D"
+				title: "Kill a Berserker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Swampjaw, a large ancestor of the Skelewag, is a good starting boss due to its weakness compared to other bosses and good early-game loot."
+				""
+				"Unlike most bosses who are found naturally, you must use Fossil Bait by holding right click while holding it to summon it. "
+				""
+				"I recommend fighting Swampjaw in a Plains, Flatlands, or other flat biome. This is because one of its attacks can send you flying. You'll also want to pack a ranged weapon with a healthy supply of arrows."
+			]
+			id: "1B8E4A72A675FF9D"
+			subtitle: "Start here"
+			tasks: [{
+				id: "4C9F62E025BF70EC"
+				item: "meetyourfight:fossil_bait"
+				type: "item"
+			}]
+			x: -2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
-			hide_dependency_lines: true
-			icon: "meetyourfight:violet_bloom"
-			id: "52703C0374BD3492"
-			rewards: [{
-				id: "740921565EC3FAEC"
-				item: "paraglider:heart_container"
+			description: [
+				"Umvuthi can be found &6on his throne&r in savannas."
+				""
+				"He has harnessed the power of the sun and can rain down solar flares on those who approach him. He can summon followers, which should be taken care of quickly lest they overwhelm you."
+				""
+				"Umvuthi doesn't move and is somewhat defenseless when you actually get to his throne. Even before you get diamonds, this fight can end favorably in a matter of seconds if you consider this."
+			]
+			id: "0AA5EC48FDAEEDDF"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mowziesmobs:umvuthana_mask_rage"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60D066AC03BE9C3D"
+				structure: "mowziesmobs:umvuthana_grove"
+				title: "Umvuthana Grove"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Bellringer is a spirit whose main ability is to float through walls. It can only be encountered by using a Haunted Bell."
+				""
+				"Because this enemy spends its time in the air, you'll want to use similar strategies to Swampjaw, namely resorting to ranged combat."
+			]
+			id: "70114AE9DEBF79F6"
+			tasks: [{
+				id: "4F18AE20AB854832"
+				item: "meetyourfight:haunted_bell"
 				type: "item"
 			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"The Pink Salt Shrine is a rare sight in the Pink Salt Caves, which are already uncommon. It houses the Berserker, a massive zombie relative."
+				""
+				"You'll initially find the Berserker covered in pink salt. Get too close though, and it'll wake up on the wrong side of the bed. In fact, it'll be so cranky that it tries to kill you."
+				""
+				"You should get close to this boss and use melee attacks, since it can slam the ground for long-range shockwaves if you try using ranged attacks."
+			]
+			id: "75D195C89EEFC1A2"
+			tasks: [{
+				icon: "galosphere:pink_salt_shard"
+				id: "493C654CFAFB0122"
+				structure: "galosphere:pink_salt_shrine"
+				title: "Pink Salt Shrine"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"The Void Blossom grows deep below the ground. You'll need to plant a Void Lily and follow its pollen, since your compass isn't able to find it."
+				""
+				"Void Lilies are crafted with Dark Matter, obtained by smelting Edelwood Logs found in Dark Forests. They also require the Yucca Flower, found in Scrublands and Spiny Thickets."
+				""
+				"This boss will awaken when you get too close to it. It (literally) has thorns, so be careful when you use melee attacks."
+				""
+				"During your fight, the Void Blossom will try and heal using blossoms around the arena. You'll need to climb into the cage and destroy the flowers to stop this and continue whittling it down."
+			]
+			id: "4D8E61449F85F893"
+			tasks: [{
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "2FA971D6692A5792"
+				structure: "bosses_of_mass_destruction:void_blossom"
+				title: "Void Blossom Arena"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21D6AB95329A4EEF"]
+			description: ["This is what you get when you slay the Void Blossom. It may look tasty, and it &ois&r tasty, but don't eat it! You can use it to craft an Advanced Enchanting Infuser later on."]
+			icon: "bosses_of_mass_destruction:crystal_fruit"
+			id: "2CBE39630F119B55"
 			tasks: [
 				{
-					id: "678681F3EBE2AC88"
-					item: "meetyourfight:dusk_key"
+					id: "033F9F7E48FBCD41"
+					item: "bosses_of_mass_destruction:crystal_fruit"
 					type: "item"
 				}
 				{
-					entity: "meetyourfight:rosalyne"
-					id: "5A3B58FC6AE8BA2A"
-					type: "kill"
-					value: 1L
+					id: "49503E427261FE49"
+					item: "enchantinginfuser:advanced_enchanting_infuser"
+					type: "item"
 				}
 			]
-			title: "Rosalyne"
-			x: -5.0d
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"These underground ruins are said to be the stronghold of a long-gone king. They're found using a Wayward Compass, which requires a Soul Bead. Tl;dr, you need to kill a Wraith from Quark. They're found in Soul Sand Valleys or Necromancer's Spires in the Overworld."
+				""
+				"If you know Necromancers, you know this boss, but not all of him. You should at least have mid-game equipment, and spells can help but aren't necessary. "
+			]
+			id: "1F9A394264C7C588"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "1A15655BC4AA2F94"
+				structure: "irons_spellbooks:catacombs"
+				title: "Catacombs (Iron's Spellbooks)"
+				type: "structure"
+			}]
+			x: -9.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["34A83BB5D5DEFC82"]
+			description: ["After the Dead King is dead for good, he drops two items that are especially useful for Blood school sorcerors. You can also get other supplements like Legendary Ink and Upgrade Runes."]
+			id: "3210DD63988972BA"
+			tasks: [
+				{
+					id: "7F59F4F3D3537BA6"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+				{
+					id: "3A1BCDB7375B3714"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:necronomicon_spell_book"
+						tag: {
+							ISBEnhance: "irons_spellbooks:raise_dead"
+							ISB_Spells: {
+								data: [
+									{
+										id: "irons_spellbooks:blood_slash"
+										index: 0
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blood_step"
+										index: 1
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:ray_of_siphoning"
+										index: 2
+										level: 5
+										locked: 1b
+									}
+									{
+										id: "irons_spellbooks:blaze_storm"
+										index: 3
+										level: 5
+										locked: 1b
+									}
+								]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dead King's Spoils"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Frostmaws are monsters found in snowy biomes. Their size grants them great strength, so it's best to avoid them until you've prepared sufficiently."
+				""
+				"They're found sleeping initially. If you're confident, you can sneak right up to them and snatch their ice crystal, making the fight easier."
+				""
+				"The Frostmaw has a swipe attack and a frost breath attack capable of freezing foes, giving it an opportunity to attack."
+				""
+				"Frostmaw also has a second phase in which it uses a powerful ground slam, which does enough damage to wipe out 2 rows of hearts before accounting for armor and difficulty scaling. This is telegraphed by the beast standing upright for a while."
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2150984E9EF5452C"
+			tasks: [{
+				id: "6E231BDE3C2879B8"
+				structure: "mowziesmobs:frostmaw_spawn"
+				title: "Frostmaw's Cave"
+				type: "structure"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Dame Fortuna is the third boss from Meet Your Fight, and is summoned using the Devil's Ante."
+				""
+				"This adversary uses casino-themed ranged attacks. Use third person and keep your eyes trained on the projectiles to avoid them, then attack if you see an opening."
+			]
+			id: "632640CDF9AF2DBE"
+			tasks: [{
+				id: "0DAAFD816420C6CC"
+				item: "meetyourfight:devils_ante"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CCAA4C36D8E088F"]
+			description: ["The Bone Raker is a great use of your Mossy Tooth. It's better than a pair of Diamond Gloves, but the Power Glove from Artifacts outperforms this if you're lucky enough to find one."]
+			id: "72F0C2B9D4782D12"
+			tasks: [{
+				id: "15366DAC9D927465"
+				item: "meetyourfight:bone_raker"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CCAA4C36D8E088F"]
+			description: [
+				"The Caged Heart is good for dealing with anything that does a lot of damage in one hit. Bosses with powerful attacks and explosions like the Nether Gauntlet will be much less challenging with this accessory."
+				""
+				"It's also worth mentioning that the Caged Heart works for fall damage."
+			]
+			id: "052D2984A4B8D141"
+			tasks: [{
+				id: "35ADE9FA2E1537F0"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CCAA4C36D8E088F"]
+			description: ["The Depth Star is an okay melee weapon."]
+			id: "3DFF597B8C9D9044"
+			tasks: [{
+				id: "31BF2C8E38837B29"
+				item: {
+					Count: 1
+					id: "meetyourfight:depth_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4146A3AAFACC851A"]
+			description: ["This item looks okay until you read the fine print and realize that it's busted. Socket some Splendor Gems into your armor, put on an Exquisite Ring, and don a Forgotten Helmet. This is your calling - it's gambling time."]
+			id: "76760CA30AA5D115"
+			tasks: [{
+				id: "6D6AF30479A1A9A4"
+				item: "meetyourfight:slicers_dice"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4146A3AAFACC851A"]
+			description: ["Would you like a Slicer's Dice, but it makes you invulnerable a good portion of the time instead? Invest in the Ace of Iron. Why not wear both, actually?"]
+			id: "4004BEC83A1088B0"
+			tasks: [{
+				id: "2F84BBBF09665E1D"
+				item: "meetyourfight:ace_of_iron"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4146A3AAFACC851A"]
+			description: ["This sword can give you a variety of beneficial effects when you hit things with it, including speed, strength, absorption, and luck. Remember that getting Luck from this sword makes you even more likely to get other effects."]
+			id: "726879A0021AFF3F"
+			tasks: [{
+				id: "7AFAE495C13753B9"
+				item: {
+					Count: 1
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CD34066894BD790"]
+			description: [
+				"The Preserved Upgrade can be trimmed into tools and armor, but its effects are the same as Soulbound so it's not really worth using your rare boss drop on it."
+				""
+				"Instead, you should use it on something fun. The Saltbound Tablet turns you into the Berserker, giving access to its salt spikes attack."
+			]
+			id: "121F1EAAE65AB2E5"
+			tasks: [{
+				id: "5B438612A716AA4A"
+				item: {
+					Count: 1
+					id: "galosphere:saltbound_tablet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C2CB24F4BB67925"]
+			id: "2BB731D26F3679F0"
+			tasks: [{
+				id: "09E1D93F3B2A7A80"
+				item: "meetyourfight:spectres_eye"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C2CB24F4BB67925"]
+			id: "740663ADBDDA1FB7"
+			tasks: [{
+				id: "7CA7D3BBB7935872"
+				item: "meetyourfight:spectres_grasp"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1808E3ABC3AF6D82"]
+			description: ["The Shell Horn is found on the ground in the Ice Maze. It can be consumed to summon the Ghost of Captain Cornelia. "]
+			id: "227EBBF0DFD6D002"
+			tasks: [{
+				id: "4C4268408739888C"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0579360EE0F0D4AD"]
+			id: "4F0CB3BF8C85DACC"
+			rewards: [{
+				id: "506B9AEEC7FDFCA9"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "4843AF7ECDEE96FF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Night Lich"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"The Dead Tree is a rare structure found in swamps and marshes. Unremarkable otherwise besides a secret room, it is inhabited by the Nameless Hanged, a ghost who will take valuables in exchange for your Corruption. "
+				""
+				"The main point of me telling you this is, some of these valuables are the staff pieces you'll need for the Corrupted Champion are sold by this tragic being. "
+				""
+				"This means you can trade with it if you have a ton of Corruption and don't want to go to the Ruins."
+				""
+				"If you're interested, a good source of corruption is from killing the undead enemies in underground Crypts."
+			]
+			id: "4F1308DFE10F7AA8"
+			optional: true
+			tasks: [{
+				icon: "alexscaves:thornwood_branch"
+				id: "41A716617AA4374E"
+				structure: "graveyard:dead_tree"
+				title: "Dead Tree"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4F1308DFE10F7AA8"
+				"6738C9B7C7EBFD83"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The Corrupted Champion easily has the most involved boss-summoning process in Mincemeat 2. You'll need to find 3 specific blocks found in rare structures around the world, kill a bunch of villagers, and then find another rare structure and do a ritual to summon the boss."
+				""
+				"Sound hard? It isn't really, but it'll take you hours. Both the journey and reward are worth it though."
+			]
+			id: "032F477572659E04"
+			tasks: [
+				{
+					id: "1360B5C7C45E6077"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "77E68B57FC3766E8"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "04531DF3AE8DA561"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+			]
+			title: "Bone Staff"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Scattered around your world are places where bad things happened. If you're interested in that, you can find books around these places detailing what exactly happened, but you should really give attention to is the items in these ruins which you'll need later."
+				""
+				"The first type of Ruins is a campsite in a forest where people once settled. On the outskirts by a pile of pumpkins is the lower part of the Ominous Bone Staff."
+				""
+				"The next Ruins is a tower with bones and remains everywhere. You'll know you're there if there's a glowing sign that says \"COLLAPSING MINE!\". The middle part of the Bone Staff is at the highest part of the tower."
+				""
+				"The final type of ruins is an exposed mass grave. The upper (and coolest-looking) Bone Staff fragment is in the center of the grave."
+				""
+				"&cImportant:&r &cyou will need to find ALL three different variants of ruins!&r All structures mentioned in this quest are called \"Ruins\" in the Explorer's Compass. Unfortunately you can't tell which is which until you get there."
+			]
+			id: "6738C9B7C7EBFD83"
+			optional: true
+			tasks: [{
+				icon: "graveyard:upper_bone_staff"
+				id: "128FEEFF8B47D4D4"
+				structure: "graveyard:ruins"
+				title: "Ruins"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"You'll want to hold a glass bottle in your offhand and a Bone Dagger in your main hand. You might already have a Bone Dagger if you've killed Acolytes in a Crypt or Haunted House, but it's easier to craft one."
+				""
+				"Make your way to the nearest village and start murdering the villagers with a Bone Dagger. You'll need to kill 8 in order to completely fill your bottle."
+			]
+			hide_dependency_lines: true
+			id: "4BA287398A12F31C"
+			subtitle: "Blood for the blood god"
+			tasks: [
+				{
+					id: "57BDE9A65B46B8EB"
+					item: {
+						Count: 1
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76BF46DB1A0465A8"
+					item: {
+						Count: 1
+						id: "graveyard:vial_of_blood"
+						tag: {
+							Blood: 0.8f
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Necessary Sacrifices"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4BA287398A12F31C"
+				"032F477572659E04"
+			]
+			description: [
+				"You're almost at the end of your journey. You'll want to make your way to the Lich Prison, an island floating so far above the ocean you might not be able to see it from the ground. It's easy to spot on the map when Cave Mode is disabled."
+				""
+				"Once you're there, you'll see some remains with a lectern under it. You can read this if you'd like and obtain the final piece of Graveyard lore."
+				""
+				"Then, direct your attention to the pedestal in the middle. If you're above a frozen ocean, you may need to break snow to reveal it. You'll find Corrupt Deepslate surrounding an Altar. "
+				""
+				"You should place the staff pieces you've collected on the Corrupt Deepslate Center blocks and then interact with the Altar block in the middle during the night. The Corrupted Champion will then awaken."
+			]
+			id: "081460416503B7FE"
+			subtitle: "It's lonely at the top"
+			tasks: [{
+				icon: "graveyard:hanged_skeleton"
+				id: "1B832DFDAB0C515B"
+				structure: "graveyard:lich_prison"
+				title: "Lich Prison"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FD7C7EDDE0E119C"]
+			description: [
+				"One of these staves will be your reward for defeating the Corrupted Champion. It summons a friendly ghoul who is loyal towards whoever summoned it first, and can emerge again using the staff if it's killed."
+				""
+				"By default, the Ghouling follows you like a tamed animal. You can right click it with its staff to make it stay in place, shift click anywhere with the staff to teleport it to you, and right click on a mob while holding it to entice the Ghouling to attack."
+				""
+				"Ghoulings can also carry items in Coffins or Sacrophogi by right clicking them while holding the storage container."
+				""
+				"I hope you enjoy your new companion."
+			]
+			id: "41CFD7AE2F36AA58"
+			subtitle: "Good as new!"
+			tasks: [{
+				id: "1E241FF2FC0D59DD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "graveyard:white_bone_staff"
+							}
+							{
+								Count: 1b
+								id: "graveyard:black_bone_staff"
+							}
+							{
+								Count: 1b
+								id: "graveyard:red_bone_staff"
+							}
+							{
+								Count: 1b
+								id: "graveyard:cyan_bone_staff"
+							}
+							{
+								Count: 1b
+								id: "graveyard:purple_bone_staff"
+							}
+						]
+					}
+				}
+				title: "Bone Staff"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52703C0374BD3492"]
+			id: "6DF9E50004A7AE0C"
+			rewards: [{
+				id: "67977054C89720F2"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				icon: "meetyourfight:violet_bloom"
+				id: "709E666346ED0DA6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Rosalyne"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6DF9E50004A7AE0C"]
+			description: ["This sword, while not exceptional in damage, has the highest enchantment level cap in the game."]
+			id: "3FEEF3599DE97195"
+			tasks: [{
+				id: "76DB38EE4D328B39"
+				item: {
+					Count: 1
+					id: "meetyourfight:twilights_thorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DF9E50004A7AE0C"]
+			description: ["This item pairs well with the Glass Hand from Eidolon. Together, they'll give you a very unpleasant experience."]
+			id: "0CD905D34A83DF54"
+			tasks: [{
+				id: "7544AF341CC0A208"
+				item: "meetyourfight:wilted_ideals"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DF9E50004A7AE0C"]
+			id: "1EE46DC52EF89C95"
+			tasks: [{
+				id: "1FEAB145C82EBE2B"
+				item: "meetyourfight:blossoming_mind"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6DF9E50004A7AE0C"]
+			description: ["By \"fertilize,\" it's meant that you basically place bone meal where the mob died if it was grounded. "]
+			id: "6DAD1C2E71451CF8"
+			tasks: [{
+				id: "312F73E48084FC89"
+				item: "meetyourfight:tomb_planter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C53341E4A5B1E67"]
+			id: "5EE95A37004F9F6A"
+			rewards: [{
+				id: "3F44D86043B53106"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "traveloptics:echo_winglet"
+				id: "3123F0CC7101928C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Maledictus"
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2637C46156FAF5E4"
+				"67EDF8A2B69A158D"
+			]
+			description: ["The Sunken City is a beautiful underwater acropolis. It can be easily identified by the dome peeking out of the water. Much of the place is submerged - you'll want water breathing, but you could use the good old doors if you're on a tight budget."]
+			hide_dependency_lines: true
+			id: "4FB85B4B5F80EACD"
+			subtitle: "If you liked: Deeplings, you'll LOVE: Sunken City"
+			tasks: [{
+				icon: "quark:tuff_bricks"
+				id: "6FDF9BBB255EB1C0"
+				structure: "cataclysm:sunken_city"
+				title: "Sunken City"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4FB85B4B5F80EACD"
+				"2637C46156FAF5E4"
+			]
+			description: [
+				"You don't technically NEED Blessed Amethyst Crab Meat to defeat The Leviathan, but it sure helps and you'd absolutely regret not having it. I'd only skip this if, like, you've already beaten the entire modpack and have maxed out Dragonsteel gear with 5+ rows of hearts."
+				""
+				"To obtain your blessing, right click the Altar of Amethyst, found at the end of the western wing. Like everywhere else, this area is heavily defended by Deeplings, so gear up."
+			]
+			id: "3F8C49BCA7072E50"
+			optional: true
+			tasks: [
+				{
+					icon: "cataclysm:altar_of_amethyst"
+					id: "1FC86C2DDB1AD953"
+					observe_type: 0
+					timer: 0L
+					title: "Altar of Amethyst"
+					to_observe: "cataclysm:altar_of_amethyst"
+					type: "observation"
+				}
+				{
+					id: "3B16B83FA1079CD3"
+					item: "cataclysm:amethyst_crab_meat"
+					type: "item"
+				}
+				{
+					id: "5AAC28000D7D4A17"
+					item: "cataclysm:blessed_amethyst_crab_meat"
+					type: "item"
+				}
+			]
+			title: "Blessed Amethyst Crab Meat"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3F8C49BCA7072E50"
+				"4FB85B4B5F80EACD"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"This here's the Abyssal Sacrifice. You'll need components from all over the place for it, but at least not an Athame."
+				""
+				"At the bottom of the deep pool directly beneath the central dome is an Altar of Void. You'll want to bring the Leviathan from the Void into the Overworld by right clicking the Altar with the Sacrifice. Don't forget to eat your Blessed Meat if you got it!"
+				""
+				"To prepare, bring something that lets you move through the water more quickly, like a Riptide trident. For a more extreme measure, opt to entirely drain the water from this room. Being an aquatic foe, Impaling is actually useful for once in this fight."
+				""
+				"Also, don't use ranged attacks unless you have Tide Arrows, because water resists the arrows' movement more than air does."
+				""
+				"Leviathan's first phase is straightforward. It mostly goes for melee attacks. In phase two, do anything except get hit by the lasers or grab attack."
+			]
+			id: "431AB26EA0ED2433"
+			tasks: [{
+				id: "5E3A5DD2A56B7830"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48B996BDDEA77AF2"]
+			description: [
+				"Are you looking for a nice, relaxing getaway after the cold, uninviting depths of the Sunken City? Well, you're in luck if your idea of that is dying of heat exhaustion while pursued by dinosaur skeletons."
+				""
+				"The Cursed Pyramid is &oreally&r big -- sure, there are other big pyramids you can find but I promise you this one's bigger. "
+				""
+				"This pyramid is the only place you can find a species of enemy called Koboletons. Be careful, since they don't like visitors and lay trivial traps that you can identify by looking at the top of your screen."
+			]
+			id: "6AFCFE64493D848E"
+			subtitle: "Atum 3: The Return of the Pharaoh"
+			tasks: [{
+				icon: "create:ochrum_pillar"
+				id: "1333920D7073682A"
+				structure: "cataclysm:cursed_pyramid"
+				title: "Cursed Pyramid"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AFCFE64493D848E"]
+			description: [
+				"You might've noticed by now, but Kobletons like to run at you and then the item you were holding suddenly appears. What an annoying glitch! "
+				""
+				"Luckily, the developers of Cataclysm released a hotfix that prevents this from happening when you wear these gloves."
+			]
+			id: "1C128F9D7D022C12"
+			tasks: [{
+				id: "6EE24C01C9956957"
+				item: "cataclysm:sticky_gloves"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AFCFE64493D848E"]
+			description: [
+				"You'll need to bring a Brush to the Cursed Pyramid, since the item that summons the Ancient Remnant is found here in Suspicious Sand."
+				""
+				"After you find the Necklace, locate a place where you can drop underground into a well. Use your preferred method of mitigating fall damage (if you're cool you can try and land in the water), and here you'll find the Ancient Remnant sleeping and guarded by a Wadjet and Kobolediator. Take them both out."
+				""
+				"That leaves the Remnant sleeping defenselessly. Personally I would just kill it right now, but due to an oversight you're not able to do that. Instead, wake up the dino by right clicking it with the Necklace."
+			]
+			id: "6030F09BDD1A5FA6"
+			tasks: [
+				{
+					id: "3E73DA07A8E23D23"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:brushes"
+						}
+					}
+					title: "Any #forge:brushes"
+					type: "item"
+				}
+				{
+					id: "42F0DD9B642BC739"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+			]
+			title: "Necklace of the Desert"
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B5AD8BF86E068A0"]
+			description: [
+				"When done admiring the place (and setting up everything you need for the battle), find the inactive Harbinger and use a Nether Star on it. Be sure to kill all mobs in this structure so they don't mess with your fight. "
+				""
+				"The Harbinger is clearly inspired by a certain 2D game - you can tell all the way down to its sound design. This enemy mostly aims to wither and incinerate you with its artillery. While it's above half health, rely on ranged damage since The Harbinger doesn't have melee attacks."
+			]
+			id: "5AF9020E9AC8C2D6"
+			tasks: [{
+				id: "38080DE1A060126E"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C9813AF465AC6A3"]
+			description: ["The Ancient Factory is the dungeon where the Harbinger rests. It's actually a factory, with more machines operating than you can count, and many rooms to explore."]
+			id: "0B5AD8BF86E068A0"
+			tasks: [{
+				icon: "cataclysm:emp"
+				id: "7B1A686FAEFD5BF9"
+				structure: "cataclysm:ancient_factory"
+				title: "Ancient Factory"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D9CED136C03F421"]
+			description: [
+				"The Frosted Prison is a massive keep located within snowy biomes. Its main draw is housing the ill-intentioned Maledictus, who was cursed to never leave the dungeon many years before your time."
+				""
+				"During your stay, watch out for Draugrs, the frozen skeletons who wield a variety of Dark Steel weapons and crossbows. Large draugrs known as Aptrgangrs can be found around the dungeon serving as its minibosses."
+			]
+			id: "1FD18DA475F5347D"
+			subtitle: "Fus ro dah!"
+			tasks: [{
+				icon: "cataclysm:door_of_seal"
+				id: "33E2E305F1C55886"
+				structure: "cataclysm:frosted_prison"
+				title: "Frosted Prison"
+				type: "structure"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FD18DA475F5347D"]
+			description: [
+				"Eventually, you'll see a door at the lowest part of the prison which you can right click to cinematically swing open. This will reveal a large throne room guarded by many types of Draugrs - go ahead and dispatch them."
+				""
+				"What's nice about Maledictus is that its summoning process is less involved than other overworld bosses - in fact, you can waltz right in with nothing but the armor on your back and challenge it."
+				""
+				"Anyway, at the opposite side of the throne room is a Cursed Tombstone. When you're prepared, right click it to bring Maledictus back to the world of the living."
+				"{@pagebreak}"
+				"The first thought in your preparation should be warming up the throne room. The simpleton's method of dumping lava in some parts of the room works, but you'll probably want a Boiler or Hearth with a good supply of fuel. Alternatively, sew Fire Dragon Scales or Dying Embers into your armor, since they have the highest cold insulation in the game."
+				""
+				"Additionally, Maledictus is weak against Smite like many other bosses. Bows won't work well against it as it uses attacks to close the distance and has its own bow it can use."
+				""
+				"Maledictus has a variety of weapons it switches between throughout the fight. The weapon it's using is an indication of the attack it's about to use."
+			]
+			id: "3C53341E4A5B1E67"
+			tasks: [{
+				icon: "cataclysm:cursed_tombstone"
+				id: "33A8F02D981CADFA"
+				observe_type: 0
+				timer: 0L
+				title: "Cursed Tombstone"
+				to_observe: "cataclysm:cursed_tombstone"
+				type: "observation"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["690AAE1274B3821D"]
+			description: [
+				"If you're a lategame equipment enthusiast, the Mechanical Fusion Anvil is going to be your best friend. It basically allows you to combine items from bosses into new, more powerful items."
+				""
+				"The quests now available to you after finishing this quest are for items you can create using this item. The bottom row can be crafted without needing to fight the dimensional bosses."
+			]
+			id: "56B51E74AE4F90A9"
+			subtitle: "Best of Both Worlds"
+			tasks: [{
+				id: "5D5D09CF301EB3C6"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"56B51E74AE4F90A9"
+				"5EE95A37004F9F6A"
+				"4C66466F73102684"
+			]
+			hide_dependency_lines: true
+			id: "41C248C64CE7CEF2"
+			subtitle: "Ancient Remannt + Maledictus"
+			tasks: [{
+				id: "638A91A9D17896E2"
+				item: "cataclysm:wrath_of_the_desert"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"05765DE630B7CDC2"
+				"56B51E74AE4F90A9"
+				"5EE95A37004F9F6A"
+			]
+			hide_dependency_lines: true
+			id: "03E93966EEDD7115"
+			subtitle: "Leviathan + Maledictus"
+			tasks: [{
+				id: "59E5BCE868E83191"
+				item: {
+					Count: 1
+					id: "traveloptics:the_obliterator"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"05765DE630B7CDC2"
+				"4C66466F73102684"
+				"56B51E74AE4F90A9"
+			]
+			hide_dependency_lines: true
+			id: "52F7CB21607530EE"
+			subtitle: "Leviathan + Ancient Remnant"
+			tasks: [{
+				id: "3359E17BE4796EA1"
+				item: {
+					Count: 1
+					id: "traveloptics:thorns_of_oblivion"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 8
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"690AAE1274B3821D"
+				"5EE95A37004F9F6A"
+				"56B51E74AE4F90A9"
+			]
+			hide_dependency_lines: true
+			id: "77D4AE9501A408E3"
+			subtitle: "Harbinger + Maledictus"
+			tasks: [{
+				id: "556BF84446493E99"
+				item: {
+					Count: 1
+					id: "traveloptics:mechanized_wraithblade"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:rapid_laser"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"56B51E74AE4F90A9"
+				"5EE95A37004F9F6A"
+				"44F41502DDB1A529"
+			]
+			hide_dependency_lines: true
+			id: "7985650B14A0AB78"
+			subtitle: "Maledictus + Ignis"
+			tasks: [{
+				id: "019EAFBAB31A0894"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"56B51E74AE4F90A9"
+				"70E9EE74EE5A5D7F"
+				"44F41502DDB1A529"
+			]
+			hide_dependency_lines: true
+			id: "1B2832F49FB76AA5"
+			subtitle: "Ender Guardian + Ignis"
+			tasks: [{
+				id: "45AD4E977505F977"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"56B51E74AE4F90A9"
+				"520A629F81C286FF"
+				"70E9EE74EE5A5D7F"
+			]
+			hide_dependency_lines: true
+			id: "1EED781A9D66A23A"
+			subtitle: "Netherite Monstrosity + Ender Guardian"
+			tasks: [{
+				id: "605A9105803BC85F"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"690AAE1274B3821D"
+				"56B51E74AE4F90A9"
+				"70E9EE74EE5A5D7F"
+			]
+			hide_dependency_lines: true
+			id: "06B9537D7D24ABB0"
+			subtitle: "The Harbinger + Ancient Guardian"
+			tasks: [{
+				id: "1241A5DDD86A1C36"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"56B51E74AE4F90A9"
+				"70E9EE74EE5A5D7F"
+				"4C66466F73102684"
+			]
+			description: [""]
+			hide_dependency_lines: true
+			id: "1AB881CDF89938E5"
+			subtitle: "Ancient Remnant + Ender Guardian"
+			tasks: [{
+				id: "7194A2903AEDDFE9"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
 		}
 	]
 	title: "Overworld Adventure"
