@@ -291,6 +291,7 @@
 				}
 			}
 			id: "4ADC083229035C40"
+			invisible: true
 			rewards: [{
 				id: "48096E1FAA22B022"
 				type: "custom"
@@ -372,6 +373,7 @@
 				}
 			}
 			id: "59DDA941F5B31B54"
+			invisible: true
 			rewards: [{
 				id: "23325DAC9C75C960"
 				type: "custom"
@@ -399,6 +401,7 @@
 		{
 			description: ["Birds found on beaches who are inclined to steal your food"]
 			id: "1A94C812637EF3C6"
+			invisible: true
 			rewards: [{
 				id: "417D5A8D432328DA"
 				type: "custom"
@@ -430,6 +433,7 @@
 				"During thunderstorms, whales will rarely be found beached on land. If you can manage to push it back into the water without doing damage to it, it'll give you a reward."
 			]
 			id: "23315511E4699748"
+			invisible: true
 			rewards: [{
 				id: "6012689468538CB6"
 				type: "custom"
@@ -554,6 +558,7 @@
 		{
 			description: ["Large predatory fish who hunt aquatic wildlife. They live their lives deep underwater, with the surface not being suitable for them."]
 			id: "11387B71AF56B5E1"
+			invisible: true
 			rewards: [{
 				id: "556D62AA60B73BB5"
 				type: "custom"
@@ -605,6 +610,7 @@
 		{
 			description: ["Found underwater in beaches. Can survive on land and underwater."]
 			id: "33055C46A5B1F684"
+			invisible: true
 			rewards: [{
 				id: "00196151DADF5BC1"
 				type: "custom"
@@ -638,6 +644,7 @@
 				"healed with fish and bred with lobster tails."
 			]
 			id: "0BEA9586D1AD4D0D"
+			invisible: true
 			rewards: [{
 				id: "655EAFFE4F88749D"
 				type: "custom"
@@ -664,6 +671,7 @@
 		{
 			description: ["Despite the nickname \"killer whale\", these aquatic mammals only attack you if provoked. They can be found in cold oceans."]
 			id: "0A28025EEBC6969D"
+			invisible: true
 			rewards: [{
 				id: "2A0BFFFABC01B440"
 				type: "custom"
@@ -694,6 +702,7 @@
 				"Their teeth, which they shed when attacking mobs, can be fashioned into arrows and be used to make the shield of the deep which makes blocked targets bleed."
 			]
 			id: "5C9202556AEBC6E4"
+			invisible: true
 			rewards: [{
 				id: "789D909CA68665F5"
 				type: "custom"
@@ -758,6 +767,7 @@
 				"They have to hide from the authorities in frozen oceans at night, because otherwise, the cops would arrest them all for their drug abuse."
 			]
 			id: "1E3F1BDA39595DE5"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -814,6 +824,7 @@
 				"If you want to find this fish, look for the Devil's Hole chunk, which is randomly generated and can be located with the Strange Fish Finder. If you find it, congratulations."
 			]
 			id: "75628E52D976FB40"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -834,6 +845,7 @@
 		}
 		{
 			id: "63387AE7F917C7DD"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -883,6 +895,7 @@
 				"Additionally, if you kill it, there is a 5% chance of getting its skull, which is a crazy fast one-handed weapon with 4 attack speed and deals 4.5 damage per hit, making it better than even some enchanted two-handed diamond weapons."
 			]
 			id: "0102F0C19CA15387"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -910,6 +923,7 @@
 				"Additionally, they may drop their shell, which can be brewed into a potion of knockback resistance. Now that I think about it, these guys aren't so similar to New Yorkers."
 			]
 			id: "41ED84922099262C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -931,6 +945,7 @@
 		{
 			description: ["Despite the cool name of Lionfish, these fish are actually quite generic. They can be found in warm oceans and will poison you if you get too close. They can also be rarely reeled in with a fishing rod. "]
 			id: "787807566EEFADE1"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -958,6 +973,7 @@
 				"If you kill one of these crabs, you can obtain a crab claw, which can be used as shears or cooked for crab meat. The crab claw is also an ingredient in the Tide Trident."
 			]
 			id: "40CB201941711906"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -979,6 +995,7 @@
 		{
 			description: ["These creatures dawdle at the bottom of the ocean. You can kill them for their shells."]
 			id: "18C9C5CE6510693E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1006,6 +1023,7 @@
 				"They have a purple laser attack which deals large amounts of damage, and move quickly, making them one of the best pets in Mincemeat."
 			]
 			id: "3AFC6CE155DD2997"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1031,6 +1049,7 @@
 				"These deeplings have not proven themselves in combat, and as such use rudimentary spears made from coral. They hope to defeat aloof travelers so they will be gifted a better weapon."
 			]
 			id: "55AD09DC5242B726"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1062,6 +1081,7 @@
 				"They sometimes drop a coral bardiche, which are more powerful but slower than tridents."
 			]
 			id: "5C4E6500E68A91C6"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1087,6 +1107,7 @@
 				"Deepling anglers are pretty bad in combat alone, with their true source of power coming from the lionfish they're often seen with."
 			]
 			id: "6BEF1C6BCBF8A881"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1108,6 +1129,7 @@
 		{
 			description: ["These religious deeplings can be found in Sunken Cities. They attack intruders using their knives. If you kill this priest, they may drop their knife, called the Athame."]
 			id: "14F2D4A16F588F17"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1129,6 +1151,7 @@
 		{
 			description: ["These deeplings have made pacts with supernatural beings which allow them to practice magic, although they don't seem to like using it too much since they use their Athames in combat, much like clerics."]
 			id: "483DD98D1BD4CA35"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1154,6 +1177,7 @@
 				"A sad truth about these agents is that there are very few missions for them, so they are always strapped for cash. Because of this, you can give them some Redstone or a Redstone block to have them work for you and locate clay. If they find the clay, they will start digging into it, pulling out maggots and sometimes even a nice fedora."
 			]
 			id: "7D62F8EA0309690C"
+			invisible: true
 			rewards: [{
 				id: "162496DB8465E64A"
 				type: "custom"
@@ -1183,6 +1207,7 @@
 				"Chris Pratt might know something about this."
 			]
 			id: "4E74013A3E25E386"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1210,6 +1235,7 @@
 				"Worst of all, if given wheat, they will run around and start destroying all the tall grass."
 			]
 			id: "35B1C875E8F5240D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1235,6 +1261,7 @@
 				"If they consume three \"stress balls,\" they will become fat and outgrow their old skin and shed it for a new one. With their shed skin, you can make a vine lasso, which is essentially a lead that can be used on all entities, including falling sand and dragons."
 			]
 			id: "213DBADFDB075999"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1260,6 +1287,7 @@
 				"These squids are excellent cooking ingredients. You can cook them in a furnace or frying pan to create baked squid. They can also be used in a cooking pot with other ingredients to make stuffed squid. If you prefer not to cook this cute little squid whole, you can remove its tentacles and cook them separately to create fried tentacles or use them in a pot to make takoyaki."
 			]
 			id: "3AA03B67C0184E0B"
+			invisible: true
 			tasks: [
 				{
 					icon: {
@@ -1294,6 +1322,7 @@
 				"Additionally, it can be consumed to obtain sharp bones, which can also be eaten. These sharp bones, along with leather, can be crafted into a Remnants Saber—a powerful sword that deals 10 damage in water and has the swing speed of a knife."
 			]
 			id: "1B793CD69BCD02FD"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1333,6 +1362,7 @@
 				"It can be captured in a bottle to be used as decoration."
 			]
 			id: "21FC4288D67C1974"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1358,6 +1388,7 @@
 				"They drop fins and slime balls, the former of which being an ingredient in the Terrible weapon/armor set."
 			]
 			id: "69E0B594500EFAD8"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1387,6 +1418,7 @@
 				"It will also drop an angler fang, which can be used to make the Terrible Armor and two weapons: the Poisoned Sword and Poisoned Chakram."
 			]
 			id: "269CF108719CCF44"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1412,6 +1444,7 @@
 				"When killed, they can sometimes drop an Echo of Ship Graveyard. This item is required if you want to create any of Aquamirae's weapons or armor."
 			]
 			id: "125050E6A3436AFF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1735,6 +1768,7 @@
 			]
 			disable_toast: true
 			id: "36DA4C1DB9F06C8C"
+			invisible: true
 			tasks: [
 				{
 					icon: {
@@ -1826,6 +1860,7 @@
 				"As a result, they failed and dropped out of school in the 1st grade and never attended kindness class, where they would have learned not to bite people when they get close."
 			]
 			id: "256F160293629D49"
+			invisible: true
 			rewards: [{
 				id: "1BB01A8E76EB0245"
 				type: "custom"
@@ -1901,6 +1936,7 @@
 				"If you kill this Florida citizen, they will drop some of their super sunburned crocodile scutes, which can be made into a crocodile chestplate. Although it sounds impressive, it simply raises your swimming speed."
 			]
 			id: "32DB1B0F5535C113"
+			invisible: true
 			rewards: [{
 				id: "01044C858E9D8E69"
 				type: "custom"
@@ -1970,6 +2006,7 @@
 				"Fun fact: catfish are also toxic in the real world. Some catfish can get quite big and have over 30 base HP. If you find one, you're pretty lucky."
 			]
 			id: "2D498CC9F5993FB0"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1995,6 +2032,7 @@
 				"These mudskippers seem like gold diggers, living in mud but instantly becoming friendly if you feed them lobster tails. To be fair, anyone would appreciate free lobster."
 			]
 			id: "26B95348851E9652"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2016,6 +2054,7 @@
 		{
 			description: ["funny bird with log leg"]
 			id: "25B527AAB875C67E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2041,6 +2080,7 @@
 				"The baby caiman will choose its owner based on whoever is closest to the gator after hatching. The gator will bite targets and slow them down, allowing you to stab, smash, or punch them to death with your mighty weapons or fists."
 			]
 			id: "043C612B18C4A7FE"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2066,6 +2106,7 @@
 				"Because of this habit, they're also very good at slamming straight into a wall and sometimes dying a slow death."
 			]
 			id: "155236F7F38DE48B"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2087,6 +2128,7 @@
 		{
 			description: ["The koi lives in pools of water within the Blossom Woods biome. Those who spend time near the koi receive a status effect that prevents mobs from spawning near them."]
 			id: "6E619B8131A15C1A"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2108,6 +2150,7 @@
 		{
 			description: ["These mascots call the swamp their home. They store items they find in backpacks, and can be customized with colored wool and dye."]
 			id: "6FA25C482D1D0E22"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2129,6 +2172,7 @@
 		{
 			description: ["This glowing jellyfish floats around in the water waiting for some dumb fish to swim into it so it can poison and almost kill them."]
 			id: "78B0616848D9AAC4"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1

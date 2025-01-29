@@ -36,6 +36,7 @@
 				}
 			}
 			id: "2B015BB165ADE187"
+			invisible: true
 			rewards: [{
 				id: "64898840E72D45F7"
 				type: "custom"
@@ -70,6 +71,7 @@
 				}
 			}
 			id: "50DA5639B2066662"
+			invisible: true
 			rewards: [{
 				id: "0735C14643D10D7F"
 				type: "custom"
@@ -181,6 +183,7 @@
 				"Sometimes, a wandering trader coming to a hot biome will be riding an elephant. These vendors have speical trades for items from Alex's Mobs, so be sure you check them out."
 			]
 			id: "57A650E23A9C2065"
+			invisible: true
 			rewards: [{
 				id: "75692BC46ED26E5C"
 				type: "custom"
@@ -245,6 +248,7 @@
 				"They attack any mob holding a ranged weapon."
 			]
 			id: "6E2605469A32266D"
+			invisible: true
 			rewards: [
 				{
 					id: "4F78211AC573A77D"
@@ -307,6 +311,7 @@
 				"Tamed kangaroos can store items in their pouches. If you store a helmet, chestplate, or sword, the kangaroo equips it. Kangaroos also eat vegan food in their pouches autonomously."
 			]
 			id: "5D68CFC9BAA7D524"
+			invisible: true
 			rewards: [
 				{
 					id: "386CBDFF3965C6C8"
@@ -386,6 +391,7 @@
 				"Tarantula hawks love torturing spiders and frequently attack them. You may be able to tame them using a spider eye."
 			]
 			id: "6B0CBDB3A1614064"
+			invisible: true
 			rewards: [{
 				id: "6E29EF6C756D84BF"
 				type: "custom"
@@ -464,6 +470,7 @@
 				"If they suspect you of being a thief, they will start biting you. If you rudely take their rattler, you can turn it into a maraca."
 			]
 			id: "351B1E68E56F1EC3"
+			invisible: true
 			rewards: [{
 				id: "1B7FD8247DBF5DAA"
 				type: "custom"
@@ -487,6 +494,7 @@
 				"Though sadly, in the Soul Sand Valley, whoever cooked up this spaghetti really messed up and burnt it to a crisp. The noodles are as black as ash."
 			]
 			id: "04A2EE1D49A2279B"
+			invisible: true
 			rewards: [{
 				id: "501F6649C586A0E8"
 				type: "custom"
@@ -558,6 +566,7 @@
 				"What a great neighbor."
 			]
 			id: "74F8F367A032D53A"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -579,6 +588,7 @@
 		{
 			description: ["This mob will beg for seeds if you let it see that you have some."]
 			id: "0243B9C47AA57C86"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -600,6 +610,7 @@
 		{
 			description: ["Cute little puppers who can be fed apples to repel other animals. Completely innocent and not at all based on a vicious animal in real life!"]
 			id: "77ACDD688870C025"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -625,6 +636,7 @@
 				"You can only find this by just digging sand in a desert, or they spawn in the rain in a desert. Hence the name."
 			]
 			id: "3917E024045AC820"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -646,6 +658,7 @@
 		{
 			description: ["These little bugs don't do a whole lot but sleep in rivers. A fun feature of them though is that, if a Crimson mosquito stings, it will act up."]
 			id: "33B9FEE3731D3601"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -671,6 +684,7 @@
 				"They don't do much during the day other than occasionally going on rampages, visiting pillager towers or villages in raids to eliminate pillagers, vindicators, and even their rival, the ravager."
 			]
 			id: "0A61CAF6BB189C7B"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -698,6 +712,7 @@
 				"When killed, they drop Blitz Motes, which can be used for various purposes, including explosives, weapons, magic alterations, and tool upgrades."
 			]
 			id: "26F46682456A8018"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -723,6 +738,7 @@
 				"Its usefulness is sadly limited due to its tiny arms, but at least it does high damage and moves quickly."
 			]
 			id: "385C8818BEE81D51"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -744,6 +760,7 @@
 		{
 			description: ["These mask-wearing avians hunt animals and can block attacks using their talons. Their masks are dropped on death and give buffs to those who wear them."]
 			id: "54C6A1443F3D3695"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -781,6 +798,7 @@
 				}
 			}
 			id: "41C4D1996B81CB20"
+			invisible: true
 			rewards: [{
 				id: "2C4BB7E8DB488B67"
 				type: "custom"
@@ -840,6 +858,7 @@
 				"Like with dragons, shift + right click lets you put the monkey on your shoulder. While mounted, the monkeys help you by throwing cobblestone at your enemies. Sneak to remove."
 			]
 			id: "31BC99E933E863DE"
+			invisible: true
 			rewards: [
 				{
 					count: 8
@@ -920,6 +939,7 @@
 				"Tamed easily using bananas."
 			]
 			id: "6703A6B64B9B9DE8"
+			invisible: true
 			rewards: [{
 				id: "1A1FEE5132D1F35A"
 				type: "custom"
@@ -950,6 +970,7 @@
 				"If you do destroy a colony, the queen leafcutter ant comes out to attack you."
 			]
 			id: "1B3989BD20DCF6F8"
+			invisible: true
 			rewards: [{
 				id: "0D6B2DB2B45C6B80"
 				type: "custom"
@@ -981,6 +1002,7 @@
 				"They are very aggressive and will attack players with their venomous bite unless tamed with 64 rotten flesh. Once tamed, you can also ride them like a horse using a saddle."
 			]
 			id: "29089A51573B8D0B"
+			invisible: true
 			rewards: [{
 				id: "6E4BAA40B3615663"
 				type: "custom"
@@ -1107,6 +1129,7 @@
 				"If you kill one of these endangered animals, they will drop nothing, and you will gain the guilt of killing a majestic tiger."
 			]
 			id: "6740672CC296E9A7"
+			invisible: true
 			rewards: [{
 				id: "457DBA80F0834BC8"
 				type: "custom"
@@ -1138,6 +1161,7 @@
 				"If given an Enchanted golden apple the toucan will permanently plant saplings without end."
 			]
 			id: "02A062BE1D7A0A57"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1159,6 +1183,7 @@
 		{
 			description: ["These guys have a very long nose to sniff dirt in their nose."]
 			id: "43AB0A64C5DB32B6"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1184,6 +1209,7 @@
 				"If a mob is hit by a banana arrow, all chimpanzees will attack that mob."
 			]
 			id: "70FCA6E70E6E6EE3"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1205,6 +1231,7 @@
 		{
 			description: ["This small yellow spider is occasionally found when harvesting banana trees. They act like normal spiders but give the slipping effect to those they hit."]
 			id: "056BEE6A38EAE8F8"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1234,6 +1261,7 @@
 				"Be warned though: there's no way to tame a foliaath, so foliaaths you grow are still hostile!"
 			]
 			id: "7B8FED88085D1325"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1259,6 +1287,7 @@
 				"Killing them does nothing, so what's the point?"
 			]
 			id: "5281254884D576E5"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1280,6 +1309,7 @@
 		{
 			description: ["These overgrown insectoids love to jump around."]
 			id: "6A280CDD1414627C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1307,6 +1337,7 @@
 				"If two tapirs find the same flower, they will breed."
 			]
 			id: "310FD882954E90B7"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1332,6 +1363,7 @@
 				"Zebras have the added effect of being able to commit vehicular homicide when they run into something, in case you were planning on doing that in this world. "
 			]
 			id: "371B71CD2C014D4D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1

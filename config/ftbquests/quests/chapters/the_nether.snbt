@@ -33,6 +33,7 @@
 				}
 			}
 			id: "13734115FC2A440E"
+			invisible: true
 			rewards: [{
 				id: "2EE3179065EC75D8"
 				type: "custom"
@@ -66,6 +67,7 @@
 				"They tolerate water and lava but not land, where they will helplessly flop around (they don't suffocate)."
 			]
 			id: "0AF7A2FFBEF1FB0B"
+			invisible: true
 			rewards: [{
 				id: "47213A8E81F474D2"
 				type: "custom"
@@ -103,6 +105,7 @@
 				"Just saying, if you use this weapon, you are wasting blood instead of donating it to a hospital."
 			]
 			id: "03CA9C382BC1DC46"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -248,6 +251,7 @@
 				"Tamed using crimson mosquito larvae. Healed using maggots."
 			]
 			id: "1D30B8B637D5218D"
+			invisible: true
 			rewards: [{
 				id: "0B7D6A181DB51989"
 				type: "custom"
@@ -280,6 +284,7 @@
 				"However, the teeth the bone serpents drop are different from those of the sea serpents. Instead, the bone serpent's teeth can be put in a brewing stand to create a Potion of Lava Vision, which can be helpful for finding netherite at the bottom of lava oceans."
 			]
 			id: "62C136E530736DDB"
+			invisible: true
 			rewards: [{
 				id: "1BC8D36D32159B97"
 				type: "custom"
@@ -360,6 +365,7 @@
 				"If you kill one of these birds, they will drop some bones and coal, most likely from eating burnt things. They will also drop their soul heart if they took at least five bites out of you first. Sadly, their heart does not do much and only allows you to make a Potion of Soulsteel, which lets you heal when you hit something, kind of like reverse thorns."
 			]
 			id: "210FE9CF8396FDED"
+			invisible: true
 			rewards: [{
 				id: "3DB5CB3C1CF8EFA8"
 				type: "custom"
@@ -388,6 +394,7 @@
 				"Upon dying, they will drop one of their claws, which can be made into flint and steel, a tendon whip, or even a Potion of Clinging. This potion allows you to walk on ceilings, at least until it runs out—ideally, avoid using it above lava."
 			]
 			id: "3A9C6B51E542F0C6"
+			invisible: true
 			rewards: [{
 				id: "4F18D04B3D8D7D33"
 				type: "custom"
@@ -415,6 +422,7 @@
 			dependencies: ["086E8054D516AFF4"]
 			description: ["Hostile mobs found in Basalt Deltas that launch stradpoles to deal damage."]
 			id: "4EC428853B525545"
+			invisible: true
 			rewards: [{
 				id: "54B5574C9F636F50"
 				type: "custom"
@@ -476,6 +484,7 @@
 				"They can escort you to wherever you need to be in the Nether by giving them Straddlite Saddles and Straddlite Tack."
 			]
 			id: "2AB2D357039E0497"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -498,6 +507,7 @@
 			dependencies: ["086E8054D516AFF4"]
 			description: ["Don't be deceived—these are not actually ghosts; they're just zombies in ghost costumes. If you kill one of these trick-or-treaters, they will drop a soul bead, which acts like an Eye of Ender but is used for locating Nether fortresses."]
 			id: "6D93107A4AA2D868"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -524,6 +534,7 @@
 				"Once tamed, one fun thing you can do is place your Nether dog on top of a furnace, which will make the furnace operate faster."
 			]
 			id: "1E33CBA3A1A2873C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -552,6 +563,7 @@
 				"Upon defeat, he drops cinder essence and netherite scrap, with a rare chance to obtain the decrepit flameberge. This great sword deals 11 damage and grants an additional 5 armor points when equipped."
 			]
 			id: "3F7EE8543C47EE95"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -585,6 +597,7 @@
 				}
 			}
 			id: "5CAB8650497D31C3"
+			invisible: true
 			rewards: [{
 				id: "5076B92D0F00C6A3"
 				type: "custom"
@@ -624,6 +637,7 @@
 				}
 			}
 			id: "3C4BAED281BDDC5E"
+			invisible: true
 			rewards: [{
 				id: "3D3EE5E0D52A0F85"
 				type: "custom"
@@ -661,6 +675,7 @@
 				"They have some very strange abilities, such as being able to create rockets that produce DNA strands and transporting items upwards if stacked on top, similar to a hopper pointing upwards."
 			]
 			id: "346A96A8506C4B32"
+			invisible: true
 			rewards: [{
 				id: "572EB01B810FF390"
 				type: "custom"
@@ -683,6 +698,7 @@
 				"They can also use your food to heal themselves, but can only do this if they see you holding food."
 			]
 			id: "1DFCDE2D39E93165"
+			invisible: true
 			rewards: [{
 				id: "0325981DFB452BCE"
 				type: "custom"
@@ -735,6 +751,7 @@
 			dependencies: ["112C59D69077AED4"]
 			description: ["These fish are dirty criminals; they constantly break the laws of physics and swim in the sky."]
 			id: "794D5A15807A2FC6"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -763,6 +780,7 @@
 				"&7&oThe latter function is not all too useful since Forgiving Void exists. Still cool?"
 			]
 			id: "6FC2E6FB5C54D578"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -794,6 +812,7 @@
 				"*bottom line from Alex's Mobs Unofficial Wiki"
 			]
 			id: "2EB51A011C248E18"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -820,6 +839,7 @@
 				"If you have trouble hitting them, you can use a greatsword for its wide sweeping attacks."
 			]
 			id: "4F2062EC8E9A31D1"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -846,6 +866,7 @@
 				"They're willing to take a Tall Poise Bush in exchange for one of their Hives, or a Bolloom Fruit if you want more Bolloom Buds."
 			]
 			id: "5CFAB95E678D15DF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -872,6 +893,7 @@
 				"Tamed Booflos can be ridden, and are able to jump very high. They can also jump while midair, effectively allowing for flight."
 			]
 			id: "5D35A48356A76F72"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1

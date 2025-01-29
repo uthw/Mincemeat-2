@@ -49,6 +49,7 @@
 				}
 			}
 			id: "120AA32518CBBE10"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "242692E529FCE366"
@@ -76,6 +77,7 @@
 				}
 			}
 			id: "16A64037CBAD1769"
+			invisible: true
 			rewards: [{
 				id: "04DFADD99A6F90AD"
 				type: "custom"
@@ -116,6 +118,7 @@
 			]
 			hide_dependency_lines: true
 			id: "54CFED43A10D10BE"
+			invisible: true
 			rewards: [{
 				id: "275DCC93FA9820F3"
 				type: "custom"
@@ -230,6 +233,7 @@
 				"They are so gluttonous, they'll steal food from your chests if you leave them exposed."
 			]
 			id: "2A5603FA9CA50D0F"
+			invisible: true
 			rewards: [{
 				id: "013F9287AD7319EB"
 				type: "custom"
@@ -260,6 +264,7 @@
 				"If you find one of these dogs you can feed them rotten flesh to make them give out a howl that scares nearby hostile mobs."
 			]
 			id: "12DBD5915AD9675D"
+			invisible: true
 			rewards: [{
 				id: "0F242A605F318AD1"
 				type: "custom"
@@ -291,6 +296,7 @@
 				"The absolute favorite meal for bears, however, is salmon."
 			]
 			id: "64640397C037C1D5"
+			invisible: true
 			rewards: [{
 				id: "04510BCF423F98BE"
 				type: "custom"
@@ -337,6 +343,7 @@
 				"Its eyes are sideways and look in opposite directions which is funny."
 			]
 			id: "0E14DCF3ACEBBD60"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -398,6 +405,7 @@
 				"Bananas"
 			]
 			id: "3AB1F76B9A2253F7"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -423,6 +431,7 @@
 				"These rabbits are nocturnal and will sleep during the day. At night, they are pretty vicious and will kill any hostile mobs or any mob that hits them."
 			]
 			id: "3AA39790CB8F9793"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -451,6 +460,7 @@
 				"If you are particularly adventurous, you can scrape this substance into a bottle and create a \"stink in a bottle,\" which can be placed onto a block to create stink aura that smells very strong. You can also create a \"stink ray.\""
 			]
 			id: "773A37DDD5717C14"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -472,6 +482,7 @@
 		{
 			description: ["This cute dog can fetch arrows and tridents after they hit the ground."]
 			id: "130D58B1CDCF86DE"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -497,6 +508,7 @@
 				"They can be tamed with wallnuts, but they don’t have any offensive abilities. When you have a tamed squirrel, it can be quite useful for replanting trees, as it will automatically find saplings and plant them for you."
 			]
 			id: "73B8F14F91E2F2D3"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -522,6 +534,7 @@
 				"More thorough documentation of them is in the Supernatural Magic chapter. Follow the Eidolon Questline until you can craft a Novice Spellbook to start Ars Nouveau."
 			]
 			id: "2C238A18DF98D967"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -547,6 +560,7 @@
 				"Whirlisprigs can automatically create natural materials which exist close to them."
 			]
 			id: "6EEC61514DB78C86"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -572,6 +586,7 @@
 				"Domesticated drygmys work near their homes and occasionally produce useful items which are inserted to nearby storage containers."
 			]
 			id: "55579545F98C9B2C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -599,6 +614,7 @@
 				"When you do kill this dog (still messed up), you will get a wilden horn. This item is mainly used for the upgraded reforging table. Check out the reforging table quest to see how it works."
 			]
 			id: "1F6D2CF7D0E439C7"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -626,6 +642,7 @@
 				"When killed, they will drop a wilden wing, which can be used for tablets of magic abilities or turned into leather."
 			]
 			id: "3B84443CD822FF35"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -651,6 +668,7 @@
 				"You can make a pretty easy slime farm by breeding slugs with pumpkin seeds."
 			]
 			id: "4683A2AE3083D86A"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -678,6 +696,7 @@
 				"They can also be used to make the Raven Cloak, which is basically a better version of the Elytra. The Raven Cloak doesn't require fireworks to be used and can stop fall damage."
 			]
 			id: "00EC5D881DFC359D"
+			invisible: true
 			subtitle: "Not to be confused with crows..."
 			tasks: [{
 				icon: {
@@ -706,6 +725,7 @@
 				"Another thing about these mobs is that when they die, they have an 80% chance of dropping the gear they have equipped, unless they have modded gear on."
 			]
 			id: "3E2B51552E96C7B1"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -727,6 +747,7 @@
 		{
 			description: ["This rare variant of wandering merchant doesn't have much to offer apart from some items from the Supplementaries mod."]
 			id: "4A99C5A1545DC426"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -758,6 +779,7 @@
 				"The chestplate triples your defense, allowing you to tank most hits and either kill the spiders or eat food to regenerate health. However, obtaining this item requires creating a snail farm and hunting for two rare animals to breed together."
 			]
 			id: "10DD33F68B24E85C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -779,6 +801,7 @@
 		{
 			description: ["When killed, these birds drop delicious meals. So much so that Americans decided to eat them every year to celebrate the genocide of -- wait, what was I talking about?"]
 			id: "4EF53D3E76EAE14A"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -800,6 +823,7 @@
 		{
 			description: ["These terrestrial jellyfish can be found in the canopies of dark forests. Some worship them, some fear them, but smart people know that their jelly is somewhat nutritious and can be eaten if in a pinch."]
 			id: "074742E016C16CE4"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -821,6 +845,7 @@
 		{
 			description: ["These passive mobs can be hunted and killed for their venison. They're skittish and not the unwitting killers we know in real life."]
 			id: "55C45ADE0881BE52"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -842,6 +867,7 @@
 		{
 			description: ["The Duck shares a lot of traits with the chicken, except the type of poultry they drop and the superior sounds they make."]
 			id: "3939650094CE4D69"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -869,6 +895,7 @@
 				"If you shear a Moobloom, you'll get their Buttercup and they'll be converted to a normal cow."
 			]
 			id: "5B7521B4262DD115"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -890,6 +917,7 @@
 		{
 			description: ["To form a Copper Golem, place a Lightning Rod on a Carved Pumpkin. They'll press Copper Buttons randomly without paying attention to what they do."]
 			id: "401054DED55C98A9"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -915,6 +943,7 @@
 				"&oOh well that not that bad&r"
 			]
 			id: "32458061883057BF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -940,6 +969,7 @@
 				"After killing it, it may look just like a normal onion but it can actually be cooked."
 			]
 			id: "277E9D12B158E69A"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -957,6 +987,27 @@
 			}]
 			x: -4.0d
 			y: 1.5d
+		}
+		{
+			id: "74303772EDDC8BCB"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "graveyard:nameless_hanged"
+					}
+				}
+				id: "5CFACB6C7292D03D"
+				observe_type: 5
+				timer: 0L
+				title: "Nameless Hanged"
+				to_observe: "graveyard:nameless_hanged"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 	]
 	title: "Temperate Biomes"

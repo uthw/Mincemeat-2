@@ -19,6 +19,7 @@
 				"Legend tells of these creepers becoming passive because they ran away into a place their creeper fathers never told them to go: Mushroom Islands. After these creepers went to the Mushroom Islands, they got infected with a virus from mungus spores. This virus rendered them unable to explode. Over time, unable to defend themselves, they learned to be passive."
 			]
 			id: "383FE26D2D893DBB"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -44,6 +45,7 @@
 				"Legend tells of these creepers originally coming from the Mushroom Islands, where they contracted a virus that rendered them unable to explode. As a culture of non-aggression formed among these creatures, some creepers rejected this lifestyle and ran away. They found themselves in savannas, where they forged armor out of savannah wood, using it to headbutt their enemies."
 			]
 			id: "1EFC54DAB67F7051"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -69,6 +71,7 @@
 				"Legend tells of these creepers: one day, they walked into a spruce forest. Inside these forests, these creepers started to dig themselves into the ground, covering themselves with dirt and grass."
 			]
 			id: "1C24E48758AD8C4F"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -94,6 +97,7 @@
 				"Legend tells of these creepers going to a beach for a vacation, as creeper life can be stressful since they might have to explode at any moment. After spending so much time at the beach, they changed and decided never to leave. They became so attached to the beach that they started to cover themselves in sand and even seagrass. No one really knows why they became so enamored with the beach, but some say that a group of Guardians came and possessed them."
 			]
 			id: "5D569C96A852F557"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -119,6 +123,7 @@
 				"Depending on your definition of \"creeper,\" this might not even be a creeper to you, maybe just an upright sheep with horns. "
 			]
 			id: "61DFC4308A153AF0"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -146,6 +151,7 @@
 				"Despite their aquatic adaptation, they yearn for the life of land-dwelling creepers. This longing has made them aggressive, leading them to hunt most creatures in the ocean. Some researchers suggest that this behavior could be evidence supporting the theory that Guardians infected the beach creepers."
 			]
 			id: "2C3139F9EE2CA7C0"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -167,6 +173,7 @@
 		{
 			description: ["This variety of creeper will not attack you unless provoked. They don't drop anything other than gunpowder."]
 			id: "14BF70C2122CD2CB"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -188,6 +195,7 @@
 		{
 			description: ["This creeper went to the badlands to get rich quick off of its gold. And they were successful, as evidenced by their entire bodies being covered in gold. They drop gold instead of gunpowder when killed."]
 			id: "35196EDDD7EED1F8"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -213,6 +221,7 @@
 				"This made them more eager to explode, for some reason, so they will follow players from longer distances."
 			]
 			id: "7C26D828D610FECA"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -238,6 +247,7 @@
 				"The Jungle Creeper wanted to be in the wilderness instead of conforming to the style of its brethren. They donned a natural facade and a nomadic life of independence."
 			]
 			id: "47FE847335A822FF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -263,6 +273,7 @@
 				"They are actually living bamboo trunks. After becoming tall enough, they will dig themselves out of the ground, roots and all."
 			]
 			id: "03FE295CA61BDE8B"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -288,6 +299,7 @@
 				"This could be a failed experiment where a witch used so much gunpowder in a potion recipe that it turned into a live creeper. The witches harnessed this new recipe and they're now used to patrol swamps."
 			]
 			id: "247DE814BA2EE230"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -315,6 +327,7 @@
 				"It must also be mentioned that this process has not been observed before, and there's no concrete proof for where cave creepers come from."
 			]
 			id: "0208593182DE011B"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -336,6 +349,7 @@
 		{
 			description: ["These hostile creepers are found in dripstone caves."]
 			id: "4E57A23C94301F97"
+			invisible: true
 			subtitle: "Looking sharp"
 			tasks: [{
 				icon: {
@@ -362,6 +376,7 @@
 				"They attempt to blend in with edelwood trees in dark forests. They were originally trees themselves, given life through the magic of conjurers who inhabited these forests."
 			]
 			id: "30557B2F7B9C901D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -389,6 +404,7 @@
 				"These enderman who got lost in the warped forests which were once welcoming to them, entered a parasitic relationship with the spores found there. The mushrooms weakened the endermen and caused them to take the form you see now."
 			]
 			id: "354A6E7203D22256"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -414,6 +430,7 @@
 				"Endermen have thin bodies which are easily blown away by the wind. They evolved to have stone skin in windier biomes so they are not affected. However, this weighs down the endermen, making them slower."
 			]
 			id: "202EF5DC954E785C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -441,6 +458,7 @@
 				"Coral endermen are remarkable in that they are comfortable in water. Even the smartest clerics don't know how they shed their instinct to teleport. One cleric thinks it's the coral on their bodies giving them resistance. "
 			]
 			id: "5C0AFA905F5D546B"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -471,6 +489,7 @@
 				"- Never leave the savanna, unless your reason for doing so is related to hoods."
 			]
 			id: "0CDEAA49739DC3BF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -496,6 +515,7 @@
 				"It is thought that the scarabs use the endermen as their home. It's unknown whether they're of benefit to the enderman, or if it even knows of the scarabs' presence."
 			]
 			id: "59F82D8778427869"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -523,6 +543,7 @@
 				"Legend has it these are the original endermen, and all other endermen evolved from them. Many years of inhabiting the End have corrupted their minds, making their only desire to kill."
 			]
 			id: "24B8A5F6D83C3C45"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -548,6 +569,7 @@
 				"The End Island Enderman is the closest relative to the End Enderman, possibly having evolved directly from it. They are not so suited for combat and stay far from players in the Outer End Islands."
 			]
 			id: "596F613DAE1CC2DE"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -587,6 +609,7 @@
 			dependencies: ["70ACF3EEB5681395"]
 			description: ["Hammerhead endermen can be summoned by throwing an Ancient Pearl and pack quite a punch."]
 			id: "2ECDF19920A0A8A3"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -609,6 +632,7 @@
 			dependencies: ["70ACF3EEB5681395"]
 			description: ["Axolotl enderman can be summoned using an ancient pearl. They can survive underwater."]
 			id: "2CA4ACC8C935C63D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -631,6 +655,7 @@
 			dependencies: ["70ACF3EEB5681395"]
 			description: ["A middle ground between the Axolotl and Hammerhead Endermen."]
 			id: "6718FFF6E0AF1C5E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -656,6 +681,7 @@
 				"Snowy endermen have reasons for wearing hoods since it lets them resist the cold more effectively, which their thin bodies don't normally permit. "
 			]
 			id: "354D379091E52A96"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -681,6 +707,7 @@
 				"Dark forests are rather safe homes for endermen due to the temperate conditions and protection from rain provided by the trees. It's thought dark oak endermen lead happier lives than other variants."
 			]
 			id: "7B5F9F5217231F76"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -710,6 +737,7 @@
 				"Make sure to congratulate these endermen on their progress if you see one using the \"Cheer\" emote."
 			]
 			id: "12BCD1E7F055D6AC"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -737,6 +765,7 @@
 				"It's debated whether the source of their slower speed is caused by the lower body temperature or the increased height. Maybe a combination of the two?"
 			]
 			id: "7C1E9846DE670CD8"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -764,6 +793,7 @@
 				"While mushroom fields are suitable habitats for endermen, it may be true that the same spores which affected creepers overtook the endermen too."
 			]
 			id: "1DCF9B3D8C22E884"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -791,6 +821,7 @@
 				"This enderman was absorbed by the souls in soul sand, becoming full of spite and rage. It's unknown why this happens. Maybe they want to protect something?"
 			]
 			id: "062130104951FC01"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -818,6 +849,7 @@
 				"It's thought that these endermen worship the death worm instead of baobab."
 			]
 			id: "6805EC0FE1BF7ECA"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -845,6 +877,7 @@
 				"The curse petrified these endermen and forced them to live out their days underground. "
 			]
 			id: "2ACC1CC49E05F9D5"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -872,6 +905,7 @@
 				"If this is a true story, it could be that the crimson mosquito passed a fungal infection onto the enderman, enveloping its body and giving it this appearance."
 			]
 			id: "605F48769557D655"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -897,6 +931,7 @@
 				"They are survivors of the soul sand valley, only being partially affected by the souls. As such, they've entered a limbo state in which they are part alive and part dead, but not quite undead."
 			]
 			id: "607560F14AE6D361"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -922,6 +957,7 @@
 				"Legend has it these endermen wandered into the swamp after a long night of failing to find \"the eye.\" Their bodies were entirely consumed by the plants in the swamp, leading early adventurers to call them \"Plant Endermen.\""
 			]
 			id: "1E2685CBD620FA3C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1

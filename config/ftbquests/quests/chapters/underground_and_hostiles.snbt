@@ -24,6 +24,7 @@
 				}
 			}
 			id: "485C5F69DED25C21"
+			invisible: true
 			rewards: [{
 				id: "46BFE6A0A9DC1606"
 				type: "custom"
@@ -88,7 +89,9 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["54BE4BD1F2EABC79"]
 			description: ["Enables Wall Climbing"]
+			hide_until_deps_complete: true
 			id: "3624C8B952F9CF96"
 			shape: "rsquare"
 			tasks: [{
@@ -117,6 +120,7 @@
 				"Right click a tamed Flutter with a flower pot to imprison it."
 			]
 			id: "5BCFBA1E82FD5549"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -144,6 +148,7 @@
 				"Afterwards, a Skreecher soul will emerge, which can be collected to make a sculk boomer that sends out shockwaves every time it hears the sound of a sculk sensor, but it is not powered by the skulk sensor."
 			]
 			id: "45A8DADC9567EAB7"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -169,6 +174,7 @@
 				"If you kill these centipedes, they will only drop a few of their legs, even though they have 100 legs. With these legs, you can craft some fashionable pants that allow you to climb up walls."
 			]
 			id: "54BE4BD1F2EABC79"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -194,6 +200,7 @@
 				"When it explodes it leaves a lingering cloud of blindness for a few seconds."
 			]
 			id: "5240A3559A80E171"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -221,6 +228,7 @@
 				"When you kill this skeleton, it will drop some corruption and a rare bone dagger, which is actually a pretty good weapon with a fast swing speed."
 			]
 			id: "6B2C58AFE657C0FF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -246,6 +254,7 @@
 				"The ghoul is simply a tougher version of the zombie, moving faster and dealing more damage. It spawns in the same locations as zombies and can often be found around them, as the ghoul is trying to teach the zombies how to improve their skills."
 			]
 			id: "27DA9EB0ABBF7579"
+			invisible: true
 			subtitle: "Don't ask me why the model is having an EDM party, I can't tell you"
 			tasks: [{
 				icon: {
@@ -274,6 +283,7 @@
 				"The only good thing about this stronger vex is that it provides an easy way to get soul sand before heading to the Nether, as it rarely drops it."
 			]
 			id: "3D356F002AAD864D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -301,6 +311,7 @@
 				"To put this enderman out of its misery, simply stand still and attack it with a long-range weapon like a polearm."
 			]
 			id: "32D0AD2C7F40D516"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -326,6 +337,7 @@
 				"To defeat these forgetful vindicators, simply poke them with a long-range weapon like a spear or greatsword."
 			]
 			id: "093FEA679B250DE0"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -351,6 +363,7 @@
 				"This strategy of rushing in and punching is quite effective due to their speed. However, most fast weapons will defeat them quickly."
 			]
 			id: "13F79C18CCB72E5D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -376,6 +389,7 @@
 				"However, this ghost is not that wraith; it instead spawns rarely when you loot graves and coffins."
 			]
 			id: "1A622CE74D8CD2EF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -404,6 +418,7 @@
 				"They are the primary sources of Ectoplasm and Tattered Cloth, both of which are highly valuable crafting ingredients."
 			]
 			id: "0485158B3A565C80"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -430,6 +445,7 @@
 				"You can use a pickaxe to mine the mineral on top of them. By feeding them glow berries, you can make them regrow the ore, allowing you to mine it again, but this only works once."
 			]
 			id: "171301AAE0F79884"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -455,6 +471,7 @@
 				"They can be quite challenging to defeat, but the best strategy is to block their arrows with a shield and prevent them from pulling out their sword. If you manage to defeat one, they will drop the forgotten hat, which increases your attack range by 2 and your luck by 1."
 			]
 			id: "5F6729AA911AE1D5"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -484,6 +501,7 @@
 				"When you have a Glow Shroom, Stonelings will sense your presence and won't flee, allowing you to defeat them &o&7(I don't know why you would do that but this is a sandbox game so do what you want)&r&r."
 			]
 			id: "46367BF23F2886B6"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -511,6 +529,7 @@
 				"Upon killing one, you'll receive Basalz Shards, which can be used to create earth changes that allow you to pulverize various materials without needing a pulverizer. Additionally, Basalz Shards can be crafted into different explosives."
 			]
 			id: "0EBE81E093473455"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -538,6 +557,7 @@
 				"Upon defeat, he drops arcane and cinder essence, and there's a rare chance to obtain a tarnished crown. This item lowers physical attack damage but enhances your magical abilities."
 			]
 			id: "40C8EAB3DC6A9041"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -568,6 +588,7 @@
 				"They drop their hearts sometimes, which can craft a few useful things."
 			]
 			id: "251BE603F6033B15"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -595,6 +616,7 @@
 				"When killed, they will rarely drop imbued bones, which can be made into bone paladin armor. This armor gives a lot of defense, and with the full set, you gain one row of extra HP that heal independently of your hunger and effects like regeneration and radiation."
 			]
 			id: "01EB2BB2E5651BE1"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -624,6 +646,7 @@
 				"If you kill these stony-looking villagers, they will drop a Staff of Summoning, which can summon enemies captured inside of it. You can capture enemies inside of it by performing the Ritual of Capturing."
 			]
 			id: "0BF12BCC480D0DD4"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -652,6 +675,7 @@
 				"If you want to find what accessories this chest can drop, just look up in the EMI search bar @artifacts."
 			]
 			id: "42CE7229A3E5B3FE"
+			invisible: true
 			tasks: [{
 				icon: "minecraft:chest"
 				id: "68FD24B4B6096D8C"
@@ -675,6 +699,7 @@
 				"When killed, hunters will drop different raw and cooked meats, and arrows if they were using a bow. "
 			]
 			id: "50B3D24A3FE4E437"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -703,6 +728,7 @@
 				}
 			}
 			id: "1C692F3CC7ED1B47"
+			invisible: true
 			tasks: [
 				{
 					icon: {
@@ -760,6 +786,7 @@
 				"It can shoot lasers and is capable of levitation."
 			]
 			id: "4D422E85DE744CBB"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -785,6 +812,7 @@
 				"Hitting them with an iron-tier or better pickaxe will instantly kill the grottol and break its shell, yieling diamonds. If you fail to do this fast enough, they'll dig into the ground and your opportunity will disappear."
 			]
 			id: "533E4B9B9D8BC40E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -818,6 +846,7 @@
 				"Itemized souls can then be used in F\\&A rituals or as ingredients in a few recipes."
 			]
 			id: "7D2E4ACDD2DB6557"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -845,6 +874,7 @@
 				"If killed, it will drop rocks which you can use to make a chestplate. When you sprint with it equipped you will fall over and start rolling around at about twice your normal run speed."
 			]
 			id: "2FE34DB4FD362CA9"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -871,6 +901,7 @@
 				"Their primary means of attack is dropping large ice cubes from the air, so the key here is to outmaneuver the Iceologer."
 			]
 			id: "370C4B930AA77BA7"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -898,6 +929,7 @@
 				"Tricksters usually drop Totems of Undying but sometimes leave behind their unique Mask of Dishonestly, which turns the wearer invisible when they sneak."
 			]
 			id: "68F9AF5B5F0E5475"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -919,6 +951,7 @@
 		{
 			description: ["This hooded figure can be viewed as a more powerful Vindicator, cutting down its foes using a massive cleaver. You'll obviously want to keep your distance from this guy if possible."]
 			id: "4FF8510418800CB6"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -940,6 +973,7 @@
 		{
 			description: ["These foes can be found in your adventures and basically act like skeletons, but they use crossbows instead."]
 			id: "23DF03EEFB597F41"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -965,6 +999,7 @@
 				"Creepies run towards enemies and explode. Their explosions are small and don't destroy blocks unlike adult Creepers."
 			]
 			id: "408C507002170D56"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -986,6 +1021,7 @@
 		{
 			description: ["The Glare is a passive mob who hides from monsters in the Lush Caves. They'll follow those who feed them Glow Berries and detect when the light level is low enough for monsters to spawn."]
 			id: "57D36AAF28C1F03F"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1011,6 +1047,7 @@
 				"It copies your armor and the melee weapon you're holding, if applicable. It will use its fists if you're not wielding anything. It always attacks using its main hand, so you can use off-hand combat to defeat it. It also doesn't use ranged weapons, so if you like bows that's also a great option."
 			]
 			id: "75B9779966E0366D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1036,6 +1073,7 @@
 				"The traditional way of killing them is by staying still and taking them down with arrows, but another method is hanging out in 2-block-tall holes, the same way you deal with Wither Skeletons and Endermen."
 			]
 			id: "7997CD5C09E4779C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1057,6 +1095,7 @@
 		{
 			description: ["Deepers are variants of Creepers who spawn underground. They're essentially the same as normal Creepers, but they're vulnerable to pickaxes."]
 			id: "2F736EFACC61DEAD"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1089,6 +1128,7 @@
 			]
 			description: ["You ever find yourself thirsty in a cave but just &lHATE&r lukewarm water? Well, you're still not in luck. Even if you find a massive living ice cube in a frozen cave, it is far too big to put in your drink, and will most likely try to slide towrds you at a high velocity to make you freeze to death."]
 			id: "1917B2F63522FDEF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1110,6 +1150,7 @@
 		{
 			description: ["Do not be alarmed, this is no death worm. It's just a sand snapper what just likes to jump around for fun in sand. Though, of all the places to jump in and out of sand playfully, I feel like there are better options than caves."]
 			id: "62AB82C483A55D99"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1131,6 +1172,7 @@
 		{
 			description: ["These guys walk around breaking the minecraft EULA, wielding a gun that makes gun sounds and does gun damage. Though the guns they have most likely came from aliexpress since most of them when defeated will drop really bad revolver parts."]
 			id: "2ED03F0351D46C5E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1156,6 +1198,7 @@
 				"Foolishly, he brought some of the masterwork shader grabbags that have the nicest shaders for any engineer's dreams."
 			]
 			id: "3534A43628B507CA"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1181,6 +1224,7 @@
 				"Now the crazy part are these guys are just hanging out with normal illagers like they are not 500 years in the past with their silly crossbows."
 			]
 			id: "4167CEF9B3B3D435"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1202,6 +1246,7 @@
 		{
 			description: ["These zombies just had the worst day. Firs,t they fell into a cave, then tumbled down into a pink salt cave, and then got decapitated. Then, while still alive, they got overtaken by pink salt and turned into a preserved."]
 			id: "762A763202224412"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1227,6 +1272,7 @@
 				"They can also be bred by giving them lichen shelves."
 			]
 			id: "43D4617DB39A17BD"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1248,6 +1294,7 @@
 		{
 			description: ["This little slug is the baby of a specter and will move very slowly. If you feed this absurdly slow slug some lichen shelves, they will quickly dash for the first and only time in their life to a random patch of lichen moss and then dig in. After digging in, they will plant a &mlichen cordyceps&r missing texture which can grow to be very tall."]
 			id: "1C6F59FAE9CCAA6B"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1273,6 +1320,7 @@
 				"The clusters can be mixed with a enchanting setup to improve the Rectification. After ~10 mins it will grow another crystal."
 			]
 			id: "69983E04205E3365"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1310,6 +1358,7 @@
 				"The smithing tablet can make a weapon that allows you to do the Berserker ranged attack and can go through walls. To make the weapon, you need to use the smithing tablet at a smithing able with a pink salt shard and preserved flesh."
 			]
 			id: "653464F76272A4CF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1327,6 +1376,28 @@
 			}]
 			x: 3.5d
 			y: 2.5d
+		}
+		{
+			description: [
+				"The Amethyst Crab is a big and rare mob found in Lush Caves. It eats its favorite food, Glow Berries, and doesn't want any trouble with you."
+				""
+				"Unfortunately for the crab, it's in your best interest to kill it, since its meat can be blessed at an Altar of Amethyst and help you greatly."
+				""
+				"The crab doesn't do anything extremely complicated, so I won't give you any pointers on how to take it down."
+			]
+			id: "11F5DB06F48256A8"
+			invisible: true
+			tasks: [{
+				icon: "cataclysm:amethyst_crab_meat"
+				id: "5436616BDBE5A135"
+				observe_type: 5
+				timer: 0L
+				title: "Amethyst Crab"
+				to_observe: "cataclysm:amethyst_crab"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 3.5d
 		}
 	]
 	title: "Underground and Monsters"

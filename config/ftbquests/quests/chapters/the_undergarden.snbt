@@ -12,6 +12,7 @@
 			dependencies: ["2F0DFEA28729BEAE"]
 			description: ["This fish is a king and rules an entire dimension, being the only fish in the Undergarden. However, its fame ends there, as it doesn’t do much else besides being unique. It can be cooked."]
 			id: "56A23986A2737DFE"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -38,6 +39,7 @@
 				"They're social animals that prefer traveling in packs. If you anger one brute, the whole posse goes out to get you."
 			]
 			id: "2BBCA092C66FB7AC"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -66,6 +68,7 @@
 				"If you have bad taste, you may have gotten excited to find there is a Dweller in Mincemeat. Too bad for you though, it's only an abstract biped mosquito instead of a poorly-realized sleep paralysis demon that jumpscares you every 2 minutes."
 			]
 			id: "402CBAD75F9EC66D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -92,6 +95,7 @@
 				"Gloompers are the result of frogs slipping through the bedrock and finding themselves in the Undergarden. Over the years, their love for gloomgourds turned them into the great purple beasts you see them as today."
 			]
 			id: "12B543A37A31020E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -120,6 +124,7 @@
 				"If you have added a dynamic lighting mod or are playing with shaders, they can light up your surroundings."
 			]
 			id: "60BDEF19ED239B54"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -148,6 +153,7 @@
 				"We don't currently have the technology to separate the mog's body from its shell, so we'll never know for the time being."
 			]
 			id: "44D22EA2DAF66BE3"
+			invisible: true
 			subtitle: "Miquella is mine, and mine alone"
 			tasks: [{
 				icon: {
@@ -171,6 +177,7 @@
 			dependencies: ["2F0DFEA28729BEAE"]
 			description: ["Munchers are voracious cavern creatures who enjoy eating blocks and players. They like players more, so sometimes they'll eat blocks in order to reach one."]
 			id: "4B86D2BBDCA7AFE9"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -193,6 +200,7 @@
 			dependencies: ["2F0DFEA28729BEAE"]
 			description: ["Nargoyles are beefy, jumping cavern creatures who defend their dimension from evil players."]
 			id: "40E11E9814F63081"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -215,6 +223,7 @@
 			dependencies: ["2F0DFEA28729BEAE"]
 			description: ["The Rotbeast is one of the most powerful members of the Rotspawn. They are invasive with no predators in the Undergarden, and will attack most wildlife and players."]
 			id: "62D5F6E19E5D588A"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -236,6 +245,7 @@
 		{
 			dependencies: ["2F0DFEA28729BEAE"]
 			id: "48402ACE5F2CFC7E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -257,6 +267,7 @@
 		{
 			dependencies: ["2F0DFEA28729BEAE"]
 			id: "1BF84604B1B910BA"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -283,6 +294,7 @@
 				"As they move, they spread scintling goo all across the ground. How disgusting."
 			]
 			id: "74497FFDF96669FD"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -305,6 +317,7 @@
 			dependencies: ["2F0DFEA28729BEAE"]
 			description: ["Sploogies are very interesting. They will fire pebbles at players, perhaps playfully. When attacked, they will run away and leave their former target alone."]
 			id: "4BD2663C842EF09C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -331,6 +344,7 @@
 				"Stoneborn use Regalium as currency, so you will need plenty of it in order to get lucrative trades."
 			]
 			id: "1FD2A9213930C709"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1

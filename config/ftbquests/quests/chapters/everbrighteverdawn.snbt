@@ -24,6 +24,7 @@
 				"The coolest of these items is the Bag of Spoils, which can hold five items and acts like an early-game bundle. To use this bag most effectively, putting five backpacks inside is the best strategy."
 			]
 			id: "127D1F0F30FBB1B0"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -50,6 +51,7 @@
 				"You can tame this large frog to ride it. While riding, it jumps very high whenever you move, which can be useful for dodging most enemies."
 			]
 			id: "2CE5745D958F6A7A"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -103,6 +105,7 @@
 				"They can be quite a nuisance, especially in groups, so it's advisable to avoid them. If you must engage, use a shield after every hit to help guard against their attacks."
 			]
 			id: "05BBCBB220FED2D0"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -129,6 +132,7 @@
 				"They have a lot of range and don’t do much damage per hit, but they attack rapidly. The best way to defeat these pests is by using a spear while walking toward them. This prevents them from rushing at you and getting a hit in."
 			]
 			id: "4B3F1C80DDAD2E93"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -155,6 +159,7 @@
 				"They are not as difficult as some other enemies to deal with and don’t have a complex strategy. The simplest way to fight them is just to hit them with a sword."
 			]
 			id: "3EDA894C5B9CC974"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -183,6 +188,7 @@
 				"If you defeat one of these cops, they will drop a monster tail, a basic food item that can be cooked for quick and easy nourishment."
 			]
 			id: "54D2A506DD2C4E33"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -209,6 +215,7 @@
 				"The main strategy for fighting these green spiders is to treat them like skeletons. Dodge away after you hit them to avoid their attacks."
 			]
 			id: "2DD363FC4F0BDCCC"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -230,6 +237,7 @@
 		{
 			dependencies: ["0063059B2778D392"]
 			id: "6FC8AA8B03110B1F"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -252,6 +260,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: ["These bugs don't attack unlike the other bugs in the everdawn and just fly around in swamps."]
 			id: "7D8161604E78E176"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -274,6 +283,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: ["These blue zombies are just regular zombies, but icy. They can be killed very quickly—faster than with swords—using a pickaxe. After they die, their souls emerge, which can be killed for star flares that act like brighter torches."]
 			id: "6FD9C74699D47069"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -300,6 +310,7 @@
 				"If you kill these blue buffalo, they will drop some meat that can be cooked, along with a horn that can be turned into bone meal."
 			]
 			id: "2372BF3D4E53BBFE"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -322,6 +333,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: ["These icey rhinos are like the much more common armored frost spirit, but are much stronger with their superior strength and range. Like their humanoid relatives, they are killed much more quickly by pickaxe strikes."]
 			id: "366E491862043D2D"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -348,6 +360,7 @@
 				"It can be defeated fairly easily with a spear or fast weapons like the Pyrope sword. If you kill it, it will drop municipal monkfish, which can be cooked, along with leather."
 			]
 			id: "6C1D05C8070C8103"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -374,6 +387,7 @@
 				"When killed, these polar bears have a chance to drop a soul fragment, which can be crafted into a soul pearl that acts like a mega torch. Soul fragments can also be used with the everdawn's alchemy table to create soul sand and soul soil."
 			]
 			id: "3297286CC43415CF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -402,6 +416,7 @@
 				"If you kill this not-a-horse, you'll get venison, which is decent food that can be cooked."
 			]
 			id: "4C9F799ACD53BEA5"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -428,6 +443,7 @@
 				"This pearl can be used to make a soul pearl, which acts like a mega torch."
 			]
 			id: "77199ADC583B3270"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -454,6 +470,7 @@
 				"It does nothing else."
 			]
 			id: "1AB7FE827C637068"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -476,6 +493,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: ["They do nothing."]
 			id: "4E510CAAE4949A6C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -498,6 +516,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: ["Just like Overworld sheep, they can be sheared for wool or killed for wool and mutton."]
 			id: "2B8972B8BC16806C"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -524,6 +543,7 @@
 				"On land, they run at you and hit you like a fast zombie. However, in water, they behave differently, mostly floating and occasionally dashing at you."
 			]
 			id: "33C6CA49283B4FDD"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -546,6 +566,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: ["These jellyfish spawn in the ocean and will inflict you with a dose of their poison if you get too close."]
 			id: "72BED5DFAD61AFCF"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -568,6 +589,7 @@
 			dependencies: ["0063059B2778D392"]
 			description: ["This pile of green stone bricks will attack anything that it sees in a nature dungeon. They can be dealt with quickly using pickaxes."]
 			id: "328559D368906B17"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -596,6 +618,7 @@
 				"It's best to prioritize killing blue golems since their attacks are harder to dodge and can be more overwhelming if too many are alive at once."
 			]
 			id: "40D7143A262B7C78"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -621,6 +644,7 @@
 				"They don't do anything."
 			]
 			id: "69CCC431ABAAABBE"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1

@@ -15,6 +15,7 @@
 				"Moose shed their antlers every few in-game days."
 			]
 			id: "00E47A607130B3D0"
+			invisible: true
 			rewards: [{
 				id: "5CC4C0704563082E"
 				type: "custom"
@@ -88,6 +89,7 @@
 		{
 			description: ["Predatory felines that hunt many different species. Their three activities are sitting, resting, and hunting."]
 			id: "7F56EC1E532926FD"
+			invisible: true
 			rewards: [{
 				id: "72552F2CB8FDF9E4"
 				type: "custom"
@@ -117,6 +119,7 @@
 				"While Ho-Oh flies around aimlessly, the Sunbird orbits beacons in the sky and blesses flying animals and people using Elytras with the power to avoid fall damage. However, if you try to insult him by slapping him, he will curse you and make you fall up to three times faster, potentially leading to an instant demise."
 			]
 			id: "36EE68A3E4196075"
+			invisible: true
 			rewards: [
 				{
 					count: 3
@@ -167,6 +170,7 @@
 				"Honestly these slugs I think are Con artists or freeloaders since they take the likeness and name of bananas and just steal it."
 			]
 			id: "3A54565B924225CD"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -192,6 +196,7 @@
 				"If you want to collect bison fur, look for them in colder biomes since they can be sheared for more fur if they have their winter coat."
 			]
 			id: "47CEDF3FCF94819B"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -221,6 +226,7 @@
 				"If you show the Icy Quadruped who's boss and kill it, especially when it is covered in spikes, it will drop its horn and a lot of ice. The horns can be made into a Froststalker Helmet, which makes all icy quadrupeds not fight you anymore. Plus, it looks cool."
 			]
 			id: "681A6F1FF0D6F5A8"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -246,6 +252,7 @@
 				"The most interesting part is their evolution line. They start out as a Tuskin in the ice spikes, but you can evolve them by bringing them to the Nether, where they will become a Hoglin. Then, you can bring them back to the Overworld to transform them into a zombified Hoglin."
 			]
 			id: "066826F00ACD0F70"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -273,6 +280,7 @@
 				"When killed, they drop a Blizz Cube, which can be crafted into various items. One of the cooler-looking items is the Ore Vein Finder."
 			]
 			id: "6F22199B6F48EA34"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -298,6 +306,7 @@
 				"If you gather four penguins together, they create a structure similar to a beacon that grants regeneration."
 			]
 			id: "697E76E7720B3EC5"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -325,6 +334,7 @@
 				"The spikes dropped by the Guardian can create piercing arrows."
 			]
 			id: "1593F5EDDD4C4AD2"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -355,6 +365,7 @@
 				"Nagas drop their teeth, which can make a variety of things including a dagger."
 			]
 			id: "2B72AC5BADC9DCFB"
+			invisible: true
 			tasks: [{
 				icon: "mowziesmobs:naga_fang"
 				id: "28AED5E016B2E685"
@@ -374,6 +385,7 @@
 				"If you an safely pluck some yak hair, you can make a premium rug, building block, or pair of pants with it."
 			]
 			id: "7C79FBCB6839ED7E"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -395,6 +407,7 @@
 		{
 			description: ["Reindeer share most of the same physical and psychological features of normal Deer, but prefer carrots over fruits. They can be found in Pine Barrens (not a Sopranos reference)."]
 			id: "3757C449989140A2"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -416,6 +429,7 @@
 		{
 			description: ["Pinecone Golems are good friends to make for your tree farms, since they love to pick saplings up off the ground and plant them."]
 			id: "2BD0DF3B6C4CCB91"
+			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
