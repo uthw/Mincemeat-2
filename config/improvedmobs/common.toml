@@ -59,7 +59,7 @@
 	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO]
 	#added here will disable that feature completely.
 	#E.g. ["GUARDIAN"] will disable the guardian feature
-	"Flag Blacklist" = ["BLOCKBREAK", "STEAL", "NEUTRALAGGRO", "TARGETVILLAGER"]
+	"Flag Blacklist" = ["BLOCKBREAK", "STEAL", "NEUTRALAGGRO", "TARGETVILLAGER", "GUARDIAN"]
 	#Treat ATTRIBUTES flags as whitelist
 	"Attribute Whitelist" = false
 	#Treat ARMOR flags as whitelist
