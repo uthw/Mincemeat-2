@@ -61,6 +61,8 @@ WorldgenEvents.remove((event) => {
 
             "thermal:lead_ore",
             "thermal:deepslate_lead_ore",
+            "thermal:silver_ore",
+            "thermal:deepslate_silver_ore",
             // "eidolon:lead_ore",
             // "eidolon:deepslate_lead_ore",
             // "thermal:tin_ore",
@@ -85,7 +87,7 @@ WorldgenEvents.remove((event) => {
 
     event.removeOres((props) => {
         props.biomes = /aether:skyroot_.*/;
-            // ["aether:skyroot_forest", "aether:skyroot_grove", "aether:skyroot_meadow", "aether:skyroot_woodland"];
+        // ["aether:skyroot_forest", "aether:skyroot_grove", "aether:skyroot_meadow", "aether:skyroot_woodland"];
         props.blocks = ["minecraft:gravel"];
-    })
+    });
 });
