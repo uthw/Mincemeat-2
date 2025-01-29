@@ -570,7 +570,7 @@
 			]
 			icon: "aether:aether_portal_frame"
 			id: "044D8690E93C528B"
-			subtitle: "You know what the portal looks like"
+			subtitle: "Can we get much higher?"
 			tasks: [
 				{
 					dimension: "aether:the_aether"
@@ -1062,40 +1062,6 @@
 			y: -1.0d
 		}
 		{
-			description: [
-				"{ \"text\": \"How to get a heart of the deep\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71358BBA8D60E6CD\" } }"
-				""
-				"Use the &3heart of the deep&r and light the massive portal in the middle of the &3ancient city&r."
-			]
-			icon: "deeperdarker:warden_carapace"
-			id: "2AD8DC509ABFBDCC"
-			tasks: [{
-				dimension: "deeperdarker:otherside"
-				id: "644D4CBF3BD5CB2A"
-				type: "dimension"
-			}]
-			title: "Go to the Otherside"
-			x: 4.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2AD8DC509ABFBDCC"]
-			id: "073F296D376283A7"
-			tasks: [{
-				id: "16BE4218EEE90908"
-				item: {
-					Count: 1
-					id: "deeperdarker:soul_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["70795731019BA757"]
 			description: [
 				"The wither is unchanged from vanilla. It's so underwhelming that there's a machine made using Nether Stars that automatically kills withers."
@@ -1303,6 +1269,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "A GOD DOES NOT FEAR DEATH!"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				icon: "alexsmobs:void_worm_eye"
