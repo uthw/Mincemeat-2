@@ -279,13 +279,13 @@ mobDropsEnabled = true
 		#Determines if almost destroyed charms stay displayed in the hud
 		keepAlmostDestroyedDisplayed = true
 		#List of hostile entities that are not supposed to have mob charms registered for them
-		entityBlockList = ["minecraft:ender_dragon", "minecraft:wither"]
+		entityBlockList = ["minecraft:ender_dragon", "minecraft:wither", "blue_skies:artificial_golem", "blue_skies:spewter", "blue_skies:snow_owl", "blue_skies:nested_spider", "iceandfire:fire_dragon", "iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hydra", "twilightforest:armored_giant", "alexsmobs:void_worm", "undergarden:forgotten_guardian", "cataclysm:ignis", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "blue_skies:summoner", "blue_skies:alchemist", "blue_skies:starlit_crusher", "blue_skies:arachnarch", "botania:pink_wither", "botania:doppleganger", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:rosalyne", "meetyourfight:rose_spirit", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw", "ars_nouveau:wilden_boss", "aquamirae:maze_mother", "aquamirae:captain_cornelia", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:umvuthi", "minecraft:vex", "lost_aether_content:aerwhale_king", "aether:valkyrie_queen", "aether:sun_spirit", "aether:slider", "minecells:concierge", "minecells:conjunctivius", "minecells:sewers_tentacle", "mowziesmobs:umvuthana_crane", "mowziesmobs:umvuthana_raptor", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "alexscaves:forsaken", "alexscaves:tremorzilla", "alexscaves:tremorsaurus", "alexscaves:hullbreaker", "graveyard:lich", "graveyard:ghoul", "cataclysm:the_prowler", "cataclysm:the_harbinger", "cataclysm:ancient_remnant", "cataclysm:the_leviathan", "cataclysm:kobolediator", "cataclysm:wadjet", "cataclysm:maledictus", "cataclysm:aptrgangr", "irons_spellbooks:dead_king", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:summoned_polar_bear", "irons_spellbooks:summoned_skeleton", "irons_spellbooks:summoned_vex", "irons_spellbooks:summoned_zombie", "conjurer_illager:conjurer", "galosphere:berserker"]
 
 	#Mob Charm Fragment Settings
 	[items.mobCharmFragment]
 		#Chance of fragment droping from mobs that don't have fragment that can be crafted
 		#Range: 0.0 ~ 1.0
-		dropChance = 0.01666666753590107
+		dropChance = 0.02
 		#Additional chance per level of looting
 		#Range: 0.0 ~ 1.0
 		lootingMultiplier = 0.008333333767950535
@@ -401,7 +401,7 @@ mobDropsEnabled = true
 	#Sojourner Staff settings
 	[items.sojournerStaff]
 		#List of torches that are supported by the staff
-		torches = ["minecraft:torch", "minecraft:soul_torch", "minecraft:lantern", "minecraft:jack_o_lantern", "minecraft:sea_lantern", "minecraft:soul_lantern", "minecraft:shroomlight", "minecraft:glowstone", "minecraft:end_rod"]
+		torches = ["minecraft:torch", "minecraft:soul_torch", "minecraft:lantern", "minecraft:jack_o_lantern", "minecraft:sea_lantern", "minecraft:soul_lantern", "minecraft:shroomlight", "minecraft:glowstone", "minecraft:end_rod", "architects_palette:nether_brass_torch", "betternether:willow_torch", "integrateddynamics:menril_torch", "integrateddynamics:menril_torch_stone", "botania:animated_torch", "occultism:spirit_torch", "undergarden:shard_torch", "framedblocks:framed_torch", "aether:ambrosium_torch", "actuallyadditions:tiny_torch", "alexscaves:bioluminescent_torch", "nethersdelight:propelplant_torch"]
 		#Number of items the staff can store per item type
 		#Range: 1 ~ 9999
 		maxCapacityPerItemType = 1500
