@@ -323,30 +323,6 @@
 			x: -1.5d
 			y: -1.5d
 		}
-		{
-			can_repeat: true
-			description: [""]
-			disable_toast: true
-			id: "17BF9026AB696FED"
-			rewards: [{
-				auto: "disabled"
-				command: "give @p ftbquests:book"
-				id: "6DF66DCFF8DEFD03"
-				type: "command"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				icon: "forbidden_arcanus:crescent_moon"
-				id: "23D7CBB5C33E899C"
-				stat: "minecraft:play_time"
-				title: "Run Startup Commands"
-				type: "stat"
-				value: 1
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
 	]
 	title: "Player Utilities and Services"
 }
