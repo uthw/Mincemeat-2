@@ -2263,7 +2263,7 @@
 			rewards: [{
 				id: "6B5DF42E07145A74"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3619,6 +3619,7 @@
 		}
 		{
 			dependencies: ["1FAF889506FFFF18"]
+			description: ["An &dinscription table&r is commonly found in &5villages&r and many &5towers&r you can come across in your world. Early-game, it may be easier to get one from one of these structures instead of crafting it. &5Complete the task by looking at a table.&r"]
 			id: "5390B26927C70B16"
 			tasks: [
 				{
@@ -4170,6 +4171,11 @@
 		}
 		{
 			dependencies: ["5390B26927C70B16"]
+			description: [
+				"The Alchemist Cauldron is a versatile tool which should be prioritized by every wizard. Among its uses are for brewing of potions and elixirs, ink upgrades, and turning scrolls into ink."
+				""
+				"To obtain blood vials, get a mob into the cauldron (easier for small ones like chickens and banana slugs) while there is a fire or campfire burning below it. If there is no water in the cauldron, the mob takes damage and the cauldron fills with blood."
+			]
 			id: "5961EDE9C0C037F8"
 			tasks: [{
 				id: "22D4EB001261882D"
