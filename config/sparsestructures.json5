@@ -29,7 +29,7 @@
     },
     {
       "structure": "ctov:villages",
-      "factor": 1.6
+      "factor": 2.0
     },
     {
       "structure": "totw_modded:aether",
@@ -110,15 +110,31 @@
     {
       "structure": "bettermineshafts:mineshaft_oak",
       "factor": 1
+    },
+    {
+      "structure": "cataclysm:frosted_prison",
+      "factor": 1.8
+    },
+    {
+      "structure": "graveyard:dead_tree",
+      "factor": 0.5
+    },
+    {
+      "structure": "graveyard:crypt",
+      "factor": 3.5
+    },
+    {
+      "structure": "graveyard:ruins",
+      "factor": 1
+    },
+    {
+      "structure": "betterdungeons:spider_dungeon",
+      "factor": 1.15
+    },
+    {
+      "structure": "betterdungeons:zombie_dungeon",
+      "factor": 1.15
     }
-    // {
-    //   "structure": "betterdungeons:spider_dungeon",
-    //   "factor": 1
-    // },
-    // {
-    //   "structure": "betterdungeons:zombie_dungeon",
-    //   "factor": 1
-    // }
     // add the structures you want to modify in the format:
     // {
     //     "structure": "namespace:structure_name",
