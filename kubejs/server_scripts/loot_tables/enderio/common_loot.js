@@ -8,7 +8,7 @@ let lootTable = {
                     type: "minecraft:item",
                     conditions: [
                         {
-                            chance: 0.25,
+                            chance: 0,
                             condition: "minecraft:random_chance",
                         },
                     ],
