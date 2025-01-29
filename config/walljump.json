@@ -1,31 +1,24 @@
 {
-  "enchantconfigs": {
-    "enableEnchantments": false,
-    "enableDoubleJumpEnchantment": false,
-    "doublejump_maxlevel": 2,
-    "enableSpeedboostEnchantment": false,
-    "speedboost_maxlevel": 3,
-    "enableWallJumpEnchantment": false,
-    "walljump_maxlevel": 1
-  },
-  "doubleconfigs": {
-    "useDoubleJump": false,
-    "minFallDistance": 5.5
-  },
-  "speedconfigs": {
-    "sprintSpeedBoost": 0.0,
-    "elytraSpeedBoost": 0.0
-  },
-  "jumpconfigs": {
-    "useWallJump": true,
-    "wallJumpHeight": 0.55,
-    "wallJumpXextra": 0.0,
-    "wallJumpZextra": 0.0,
-    "allowReClinging": false,
-    "wallSlideDelay": 15,
-    "autoRotation": false,
-    "exhaustionWallJump": 0.8
-  },
-  "playFallSound": false,
-  "stepAssist": true
+  "allowReClinging": false,
+  "autoRotation": false,
+  "onFallDoubleJump": true,
+  "exhaustionWallJump": 0.8,
+  "minFallDistance": 3.0,
+  "elytraSpeedBoost": 0.0,
+  "sprintSpeedBoost": 0.0,
+  "stepAssist": false,
+  "useDoubleJump": false,
+  "useWallJump": true,
+  "wallJumpHeight": 0.55,
+  "wallSlideDelay": 15,
+  "stopWallSlideDelay": 72000,
+  "maxWallJumps": 72000,
+  "playFallingSound": true,
+  "blockList": [],
+  "blockListMode": "BLACKLIST",
+  "enableEnchantments": false,
+  "enableWallJump": false,
+  "enableDoubleJump": false,
+  "enableSpeedBoost": false,
+  "speedBoostMultiplier": 0.5
 }
