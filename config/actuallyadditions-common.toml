@@ -43,6 +43,8 @@
 	redstoneConfigurator = "minecraft:redstone_torch"
 	#define the item used to configure Direction in laser relays
 	relayConfigurator = "minecraft:compass"
+	#Should seeds (coffee beans, rice, flax, canola) drop from breaking grss?
+	doSeedsDrops = true
 
 #Machine Settings
 [machineSettings]
@@ -77,7 +79,7 @@
 #Worldgen Settings
 [worldgenSettings]
 	#Should Black Quartz generate in the world?
-	laserRelayLoss = true
+	blackQuartzGeneration = true
 
 #Item settings
 [itemsSettings]
