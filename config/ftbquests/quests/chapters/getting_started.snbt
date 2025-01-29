@@ -65,6 +65,200 @@
 					silent: true
 					type: "command"
 				}
+				{
+					auto: "no_toast"
+					id: "28450903773557C2"
+					item: {
+						Count: 1
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								actuallyadditions: {
+									0: {
+										Count: 1b
+										id: "actuallyadditions:booklet"
+									}
+								}
+								advancedperipherals: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "advancedperipherals:manual"
+										}
+									}
+								}
+								aether: {
+									0: {
+										Count: 1b
+										id: "aether:book_of_lore"
+									}
+								}
+								apotheosis: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+								}
+								ars_nouveau: {
+									0: {
+										Count: 1b
+										id: "ars_nouveau:worn_notebook"
+									}
+								}
+								betterend: {
+									0: {
+										Count: 1b
+										id: "minecraft:air"
+									}
+								}
+								bloodmagic: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "bloodmagic:guide"
+										}
+									}
+								}
+								botania: {
+									0: {
+										Count: 1b
+										id: "botania:lexicon"
+									}
+								}
+								eidolon: {
+									0: {
+										Count: 1b
+										id: "eidolon:codex"
+									}
+								}
+								enderio: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "enderio:guide"
+										}
+									}
+								}
+								hexerei: {
+									0: {
+										Count: 1b
+										id: "hexerei:book_of_shadows"
+										tag: {
+											bookmarks: { }
+											chapter: 0
+											opened: 0b
+											page: 0
+										}
+									}
+								}
+								industrialforegoing: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+									}
+								}
+								irons_spellbooks: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "irons_spellbooks:iss_guide_book"
+										}
+									}
+								}
+								littlelogistics: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "littlelogistics:guide"
+										}
+									}
+								}
+								minecells: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "minecells:minecells_guidebook"
+										}
+									}
+								}
+								modularrouters: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "modularrouters:book"
+										}
+									}
+								}
+								naturesaura: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "naturesaura:book"
+										}
+									}
+								}
+								occultism: {
+									0: {
+										Count: 1b
+										id: "occultism:dictionary_of_spirits"
+										tag: {
+											"modonomicon:book_id": "occultism:dictionary_of_spirits"
+										}
+									}
+								}
+								pneumaticcraft: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "pneumaticcraft:book"
+										}
+									}
+								}
+								solcarrot: {
+									0: {
+										Count: 1b
+										id: "solcarrot:food_book"
+									}
+								}
+								storagenetwork: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "storagenetwork:network_book"
+										}
+									}
+								}
+								thermal: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "thermal:guidebook"
+										}
+									}
+								}
+							}
+							"eccentrictome:version": 1
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				icon: "botania:cosmetic_clock_eye"
@@ -86,7 +280,7 @@
 				""
 				"- You &cdid not add mods&f to the pack, &cespecially&f Optifine."
 				"- The &cpower limit/clock speeds&r on your computer's hardware are set to the default/manufacturer recommended levels."
-				"- Your allocated RAM is between &c6 and 8 GB&r. You typically set this through this instance's settings."
+				"- Your allocated RAM is between &c6 and 10 GB&r. You typically set this through this instance's settings."
 				""
 				"&dWell, that was a pretty boring secret...&r"
 				"{@pagebreak}"
@@ -159,6 +353,7 @@
 							]
 						}
 					}
+					title: "Basic Shield"
 					type: "item"
 				}
 				{
@@ -202,18 +397,15 @@
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
 			description: [
-				"The pack is far from complete! I'd estimate around 45% right now."
+				"The pack is far from complete! I'd estimate around 55% right now."
 				""
 				"Quests, recipes, textures, other customization, lots of things aren't done."
 				""
 				"Plus, here's a list of major mods that haven't been ported to 1.20.x &7(and were important in Mincemeat 1)&r"
 				""
-				"- Meet Your Fight"
 				"- Unqiue Enchantments"
 				"- Astral Sorcery"
-				"- Abnormals Worldgen Mods"
 				"- Hats"
-				"- Tinkers' Construct"
 				"- Infernal Expansion"
 				"- Atum 2"
 				"- Fish's Undead Rising"
@@ -240,7 +432,7 @@
 				""
 				"You can set a &ahotkey&r to open the &lbackpack&r in your Controls settings."
 				""
-				"There is an assortment of &dupgrades&r you can use, and the amount your &lbackpack&r can handle at once increases with its tier. Try searching \"backpack upgrade\" in your recipe browser."
+				"There is an assortment of &dupgrades&r you can use, and the number your &lbackpack&r can handle at once increases with its tier. Try searching \"backpack upgrade\" in your recipe browser."
 			]
 			id: "03B0D122AD821C0D"
 			rewards: [
@@ -357,7 +549,13 @@
 		}
 		{
 			dependencies: ["51A20901B9871737"]
-			description: ["The &lcooking pot&r lets you make some nice, cozy stews from Farmer's Delight."]
+			description: [
+				"The &lcooking pot&r lets you make some nice, cozy stews from Farmer's Delight."
+				""
+				"The interface consists of six slots in which to place items, and a slot to the left of the ladle in which you put your bowl/container to hold the food."
+				""
+				"The pot must be heated by a block below it (such as fire or a stove) in order to work."
+			]
 			id: "28D91722F8C4E87D"
 			shape: "hexagon"
 			size: 1.5d
@@ -617,6 +815,7 @@
 		}
 		{
 			dependencies: ["378BAA7FDE9DA51C"]
+			description: [""]
 			id: "5C1C3593AF332AA4"
 			tasks: [{
 				id: "05D98B1E7EB11BF8"
@@ -678,7 +877,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["51A20901B9871737"]
@@ -838,7 +1037,7 @@
 		}
 		{
 			dependencies: ["7816E6089A4F0846"]
-			description: ["This modpack has over 400 foods to eat. Trying more unique foods gives you &dpermanent increases to max HP&r. This book can track your progress towards each milestone."]
+			description: ["This modpack has over 800 foods to eat. Trying more unique foods gives you &dpermanent increases to max HP&r. This book can track your progress towards each milestone."]
 			id: "57CC360D12424B1C"
 			tasks: [{
 				id: "6CE227D6C3F13239"
@@ -2137,49 +2336,6 @@
 			y: -5.0d
 		}
 		{
-			description: [
-				"This skillet lets you improvize and create meals with any ingredients you want. You must first place it on a stove to get cooking."
-				""
-				"Your spatula can stir the ingredients, preventing them from being overcooked or burnt."
-				""
-				"When you add ingredients, they will show up in the left side of your screen with two scales. The left scale shows if it is &aundercooked&r, &covercooked&r, or &ejust right&r."
-				""
-				"The right scale shows if it is &anot burnt&r or &cburnt&r."
-				""
-				"When you're done cooking, interact using a plate to collect your meal. There are bonuses for making balanced meals made of different types of food, so plan accordingly."
-			]
-			id: "4D9D953FBE3ADA11"
-			invisible: true
-			optional: true
-			tasks: [
-				{
-					id: "38C43D8D3CC4A343"
-					item: {
-						Count: 1
-						id: "cuisinedelight:cuisine_skillet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "28D5E806DD672012"
-					item: "cuisinedelight:spatula"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "6469158DB288BC64"
-					item: "cuisinedelight:plate"
-					type: "item"
-				}
-			]
-			title: "Involved Cooking"
-			x: -6.5d
-			y: -5.5d
-		}
-		{
 			dependencies: ["03B0D122AD821C0D"]
 			description: [
 				"There are so many new ways of &ddecorating your base&r!"
@@ -2610,6 +2766,55 @@
 			}]
 			x: -5.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["28B44DDB5378D2E6"]
+			description: [
+				"These vessels mirror the boats you just made, but suited for travel by air instaed of sea. Luckily, they don't require an aviation degree to fly, but crafting them might be a challenge!"
+				""
+				"You'll want to start simple with a Gyrodyne. This plane lacks an engine, so it can be made early on. Enter the plane, then use movement keys to move. Pressing shift is the only way of losing altitude."
+				""
+				"I'll also point out the Quadrocopter, which you'll quickly abandon scaffolding for if you enjoy building."
+				""
+				"If you press E, you'll see your plane's inventory. This is where you can slot in weapons and upgrades. The plane can also hold a few stacks of items."
+			]
+			id: "20F319508F5D6AC6"
+			tasks: [{
+				id: "470F74B9971F9451"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "immersive_aircraft:airship"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:warship"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:biplane"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:gyrodyne"
+							}
+							{
+								Count: 1b
+								id: "immersive_aircraft:quadrocopter"
+							}
+						]
+					}
+				}
+				title: "Airship"
+				type: "item"
+			}]
+			title: "Immersive Aircraft"
+			x: -2.0d
+			y: 1.0d
 		}
 	]
 	title: "Getting Started"
