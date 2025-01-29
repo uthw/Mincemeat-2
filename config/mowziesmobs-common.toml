@@ -543,7 +543,7 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 15
+			spawn_rate = 6
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
