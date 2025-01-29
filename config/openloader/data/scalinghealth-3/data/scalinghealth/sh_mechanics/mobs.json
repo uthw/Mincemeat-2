@@ -39,7 +39,7 @@
             "durationInMinutes": 10.0
         },
         {
-            "effect": "aquamirae:swim_speed",
+            "effect": "aquamirae:strong_armor",
             "level": 1,
             "minDifficulty": 10,
             "durationInMinutes": 10.0
@@ -57,9 +57,21 @@
             "durationInMinutes": 10.0
         },
         {
-            "effect": "alexsmobs:clinging",
+            "effect": "alexsmobs:soulsteal",
             "level": 1,
             "minDifficulty": 20,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "ars_nouveau:shielding",
+            "level": 1,
+            "minDifficulty": 45,
+            "durationInMinutes": 10.0
+        },
+        {
+            "effect": "atmospheric:relief",
+            "level": 2,
+            "minDifficulty": 50,
             "durationInMinutes": 10.0
         }
     ],
