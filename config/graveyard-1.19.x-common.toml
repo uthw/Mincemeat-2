@@ -156,46 +156,46 @@
 
 	["The Graveyard - Corrupted Champion Config".corruptedChampion]
 		#Range: 1.0 ~ 1024.0
-		healthInCastingPhase = 400.0
+		healthInCastingPhase = 600.0
 		#Range: 1.0 ~ 1024.0
-		healthInHuntingPhase = 200.0
+		healthInHuntingPhase = 250.0
 		#Range: 1.0 ~ 2048.0
-		damageCastingPhase = 30.0
+		damageCastingPhase = 40.0
 		#Range: 1.0 ~ 2048.0
-		damageHuntingPhaseAddition = 40.0
+		damageHuntingPhaseAddition = 45.0
 		#Range: 0.0 ~ 30.0
 		armor = 18.0
 		#Range: 0.0 ~ 20.0
-		armorToughness = 14.0
+		armorToughness = 15.0
 		#Range: 0.0 ~ 1024.0
-		speedInHuntPhase = 0.15
+		speedInHuntPhase = 0.18
 		#Range: 0 ~ 100000
 		durationHuntingPhase = 800
 		#Range: 0 ~ 100000
-		durationFallingCorpseSpell = 400
+		durationFallingCorpseSpell = 200
 		#Range: 0 ~ 100000
 		durationHealingSpell = 700
 		#Range: 0 ~ 100000
-		durationLevitationSpell = 150
+		durationLevitationSpell = 50
 		#Range: 1 ~ 100
-		maxAmountSkullsInShootSkullSpell = 5
+		maxAmountSkullsInShootSkullSpell = 9
 		#Range: 0 ~ 100
-		maxSummonedMobs = 30
+		maxSummonedMobs = 12
 		#Range: 1 ~ 100
 		maxGroupSizeSummonedMobs = 5
 		#Range: 0 ~ 100000
 		ghoulSpawnTimerInFight = 6000
-		isBloodCollectableEntity = ["entity.minecraft.villager"]
+		isBloodCollectableEntity = ["entity.minecraft.villager", "guardvillagers:guard"]
 		isBossSummonableItem = ["item.minecraft.debug_stick"]
 		summoningNeedsStaffFragments = true
 		isMultiphaseFight = true
 		isInvulnerableDuringSpells = true
 		#Range: 1 ~ 100000
-		cooldownCorpseSpell = 400
+		cooldownCorpseSpell = 1200
 		#Range: 1 ~ 100000
 		cooldownTeleportPlayerAndHeal = 600
 		#Range: 1 ~ 100000
-		cooldownLevitationSpell = 400
+		cooldownLevitationSpell = 800
 		#Range: -64 ~ 100000
 		playerTeleportYOffset = -15
 
