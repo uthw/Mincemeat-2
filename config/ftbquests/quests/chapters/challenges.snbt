@@ -86,7 +86,7 @@
 				}
 			]
 			title: "Grappling hook collection"
-			x: 1.5d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -172,8 +172,8 @@
 				}
 			]
 			title: "Fishing Adiction"
-			x: 7.5d
-			y: -1.0d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -428,7 +428,7 @@
 				}
 			]
 			title: "Accessories Collection"
-			x: -8.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -554,7 +554,7 @@
 				}
 			]
 			title: "Powerful accesories collection"
-			x: -9.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -640,8 +640,8 @@
 				value: 1
 			}]
 			title: "Fish Collection"
-			x: 7.5d
-			y: 0.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -703,7 +703,7 @@
 				}
 			]
 			title: "Booster Collection"
-			x: -7.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -743,7 +743,7 @@
 				type: "checkmark"
 			}]
 			title: "100% Majrusz's Accessories"
-			x: -8.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -951,7 +951,7 @@
 				}
 			]
 			title: "Shoe Collection"
-			x: -3.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -1084,7 +1084,7 @@
 				}
 			]
 			title: "Belt collection"
-			x: -5.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -1209,7 +1209,7 @@
 				}
 			]
 			title: "Necklace collection"
-			x: -4.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -1348,7 +1348,7 @@
 				}
 			]
 			title: "Glove collection"
-			x: -3.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -1420,7 +1420,7 @@
 				}
 			]
 			title: "Ring collection"
-			x: -2.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -1527,7 +1527,7 @@
 				}
 			]
 			title: "Back collection"
-			x: -1.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -1577,7 +1577,7 @@
 				}
 			]
 			title: "Hat collection"
-			x: -4.0d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -2099,7 +2099,7 @@
 				}
 			]
 			title: "Special Relics"
-			x: -2.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -2128,7 +2128,7 @@
 				value: 1
 			}]
 			title: "Relics/Artificts Collection"
-			x: -3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -2305,8 +2305,8 @@
 				}
 			]
 			title: "Botina rings collection"
-			x: 4.5d
-			y: -1.0d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -2315,6 +2315,7 @@
 				"The Charged Ender Pearl is a bit different, though, requiring you to defeat 2 bosses to obtain it."
 			]
 			id: "605A6D1F5E67F886"
+			subtitle: "Enderman are now endangered"
 			tasks: [
 				{
 					id: "3EFE0157657F87A4"
@@ -2409,8 +2410,8 @@
 				}
 			]
 			title: "Ender Hoods and Pearls collection"
-			x: 6.0d
-			y: 1.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			description: ["Umvuthi, the Sunbird is a boss who is found in the savanna. The sunbird will spawn minions to fight for him. Killing these minons will sometimes drop masks. Umvuthi himself also drops a mask."]
@@ -2490,7 +2491,7 @@
 				}
 			]
 			title: "Sun bird mask collection"
-			x: 6.0d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -2606,8 +2607,8 @@
 				}
 			]
 			title: "2 handed weapon collection"
-			x: 1.5d
-			y: -1.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			id: "0D805670B61674C9"
@@ -2758,8 +2759,8 @@
 				}
 			]
 			title: "1 handed weapon collection"
-			x: 1.5d
-			y: 0.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -3044,7 +3045,7 @@
 				}
 			]
 			title: "Head collection"
-			x: 6.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -3533,8 +3534,8 @@
 				}
 			]
 			title: "Perfect gem collection"
-			x: 3.0d
-			y: 0.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -3992,8 +3993,8 @@
 				}
 			]
 			title: "Gem collection"
-			x: 3.0d
-			y: -1.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			description: [""]
@@ -4161,15 +4162,15 @@
 				{
 					disable_toast: true
 					icon: "irons_spellbooks:invisibility_ring"
-					id: "47C1754AF92F7D87"
-					stat: "minecraft:mob_kills"
+					id: "792BD4487297B6A0"
+					stat: "minecraft:play_time"
 					title: " "
 					type: "stat"
 					value: 1
 				}
 			]
 			title: "Shelf Collection"
-			x: 9.0d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -4206,8 +4207,8 @@
 				}
 			]
 			title: "Botania Cloaks"
-			x: 4.5d
-			y: 0.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -4250,8 +4251,8 @@
 				}
 			]
 			title: "Botania Necklaces"
-			x: 4.5d
-			y: 1.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -4298,8 +4299,8 @@
 				}
 			]
 			title: "Botania Belts"
-			x: 4.5d
-			y: 2.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -4338,8 +4339,6 @@
 				"Abyssal Tidebreaker: Obtained by killing the Leviathan"
 				""
 				"Sands of Dominion: Obtained by killing the Ancient Remnant"
-				""
-				"Maledictus: Obtained by killing Maledictus"
 				""
 				"Mammoth: Found in Undergarden Chests"
 				""
@@ -4399,17 +4398,19 @@
 				""
 				"Forlorn: Found in Stronghold Chests"
 				""
-				"Tasty: Obtained by combining 9 Tasty Disc Fragments, which are found in Licowitch Towers and dropped by Gumbeepers killed by Caniacs"
+				"Tasty: Licowitch Tower"
 				""
-				"Leaving Home: Wandering Trader killed by Skeleton or variant"
+				"Leaveing home: Wandering trader being killed by a skeleton"
 				""
-				"Slabrave: Feed Slabfish a Music Disc (that can drop from a Creeper)"
+				"Slabrave: Feeding a slabfish a music disk"
 				""
-				"Epilogue: Kill a Mime while holding a Music Disc (C418 - 11)"
+				"Epiloge: Holding disk 11 in your offhand while killing a myan"
 				""
-				"Kilobyte: Found in End City Chests"
+				"Kiobyte: Chests in the outer end"
 				""
-				"Shadows Falling in Lush Forests: Kill Swampjaw"
+				"Maledictus: Kill Maledictus"
+				""
+				"Shadows Falling in Lush Forests: Kill Spampjaw"
 				""
 				"Magnum: Kill Bellringer"
 				""
@@ -4806,36 +4807,37 @@
 					type: "item"
 				}
 				{
-					id: "1B205E1D940FECF0"
+					id: "3F5A6E4D3D9B041A"
 					item: "cataclysm:music_disc_maledictus"
 					type: "item"
 				}
 				{
-					id: "60CF38D2CAFE057B"
+					id: "4BCAD87EF8A13843"
 					item: "meetyourfight:music_disc_swampjaw"
 					type: "item"
 				}
 				{
-					id: "3CC8F54057E7C267"
+					id: "15A14EFF65FB25DF"
 					item: "meetyourfight:music_disc_bellringer"
 					type: "item"
 				}
 				{
-					id: "5C7E5D61C986E5D0"
+					id: "5C69808E3D5210F3"
 					item: "meetyourfight:music_disc_fortuna"
 					type: "item"
 				}
 				{
-					id: "1CA9594124D69ACE"
+					id: "7BA2D448008BEDB5"
 					item: "meetyourfight:music_disc_rosalyne"
 					type: "item"
 				}
 			]
 			title: "Collect Every Music Disc"
-			x: 9.0d
-			y: 0.0d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
+			description: ["Living is easy with eyes closed"]
 			id: "0C2DF591E0BFC78B"
 			tasks: [
 				{
@@ -4920,8 +4922,8 @@
 				}
 			]
 			title: "Magic Mushroom collection"
-			x: 3.0d
-			y: 1.0d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			id: "5A9A2606485120A5"
@@ -5008,11 +5010,12 @@
 				}
 			]
 			title: "Magic flower collection"
-			x: 3.0d
+			x: 9.5d
 			y: 2.0d
 		}
 		{
 			id: "2D305B392622E8A4"
+			subtitle: "Magic stones that telport you"
 			tasks: [
 				{
 					icon: "botania:vivid_grass"
@@ -5114,11 +5117,12 @@
 				}
 			]
 			title: "Find all the towers"
-			x: 9.0d
-			y: 1.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			id: "1AE2ACF59A3E7D62"
+			subtitle: "Colorful rocks"
 			tasks: [
 				{
 					id: "00E018A439DABA2A"
@@ -5221,8 +5225,2764 @@
 				}
 			]
 			title: "Collect Every Color of Corundum"
-			x: 9.0d
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			id: "198796C7C38EE9C6"
+			tasks: [
+				{
+					id: "211642360983447E"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "0A8B5F7EEE11BA02"
+					item: "biomeswevegone:blueberry_pie"
+					type: "item"
+				}
+				{
+					id: "61EF47DD4AA41A81"
+					item: "aether_redux:blueberry_pie"
+					type: "item"
+				}
+				{
+					id: "2F4B18E3D9077131"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+				{
+					id: "6FC561493BBAD3F0"
+					item: "ends_delight:chorus_flower_pie"
+					type: "item"
+				}
+				{
+					id: "314C0E428C817C02"
+					item: "undergarden:gloomgourd_pie"
+					type: "item"
+				}
+				{
+					id: "17058237AA30C3EF"
+					item: "biomeswevegone:green_apple_pie"
+					type: "item"
+				}
+				{
+					id: "2F70A73C8F7359E9"
+					item: "thermal:green_bean_pie"
+					type: "item"
+				}
+				{
+					id: "21BC0AAA7100CCE3"
+					item: "upgrade_aquatic:mulberry_pie"
+					type: "item"
+				}
+				{
+					id: "52B2DF0B6DB12114"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "698639A10B7920DC"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "204DCE9CC0C787F0"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+				{
+					id: "3749C04697BF9796"
+					item: "blue_skies:comet_berry_pie"
+					type: "item"
+				}
+				{
+					id: "654761EB8696557E"
+					item: "ends_delight:chorus_fruit_pie"
+					type: "item"
+				}
+				{
+					id: "03F94FE9FA0CAD0A"
+					item: "aether_redux:enchanted_blueberry_pie"
+					type: "item"
+				}
+				{
+					id: "7FA8CDA56F211BC6"
+					item: "delightful:salmonberry_pie"
+					type: "item"
+				}
+			]
+			title: "Pie collecter"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13972F5925689BC8"
+				"15CFD8039E588275"
+				"545AF3FE2B54DB33"
+				"437E09507C061C8B"
+				"1FF051FBC7224CDD"
+				"26AF04DCEDED99C9"
+				"62CAB25B99701CEA"
+				"7D511BE14E7C7982"
+			]
+			id: "56E3CD9678AE676A"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Harry potter quits his job"
+			tasks: [{
+				icon: "engineersdecor:sign_magichazard"
+				id: "26D66A0188C86A88"
+				stat: "minecraft:play_time"
+				title: "Automatically Completes after getting all scrolls"
+				type: "stat"
+				value: 1
+			}]
+			title: "Rolled up magic paper collection"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Normal fire (Most blocks)"
+				""
+				"Soul fire (Soul sand/soil related)"
+				""
+				"Cupric fire (Copper on fire)"
+				""
+				"Dark fire (Zeal lighter in everdawn)"
+				""
+				"Blue fire (Zeal lighter in Everbright)"
+				""
+				"Ender fire (End stone)"
+				""
+				"{ \"text\": \"Spirit fire\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"77219718DABB8F62\" } }"
+			]
+			id: "7352F20BDCDA2D4C"
+			subtitle: "For all the arsonists out there"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:block/fire_1"
+						}
+					}
+					id: "732884C2914E881F"
+					observe_type: 0
+					timer: 0L
+					title: "Fire"
+					to_observe: "minecraft:fire"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:block/soul_fire_1"
+						}
+					}
+					id: "3310EB7DA3B570EA"
+					observe_type: 0
+					timer: 0L
+					title: "Soul fire"
+					to_observe: "minecraft:soul_fire"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "caverns_and_chasms:block/cupric_fire_1"
+						}
+					}
+					id: "5C6F621B43C8164C"
+					observe_type: 0
+					timer: 0L
+					title: "Cupric fire"
+					to_observe: "caverns_and_chasms:cupric_fire"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "blue_skies:block/misc/black_fire_0"
+						}
+					}
+					id: "75F80D552F25BD7A"
+					observe_type: 0
+					timer: 0L
+					title: "Dark Fire"
+					to_observe: "blue_skies:black_fire"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "blue_skies:block/misc/blue_fire_0"
+						}
+					}
+					id: "032AB5D4C503E4C7"
+					observe_type: 0
+					timer: 0L
+					title: "Blue Fire"
+					to_observe: "blue_skies:blue_fire"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "occultism:block/spirit_fire_1"
+						}
+					}
+					id: "4A5FFEBA82CEF6D3"
+					observe_type: 0
+					timer: 0L
+					title: "Sprit Fire"
+					to_observe: "occultism:spirit_fire"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "endergetic:block/ender_fire_0"
+						}
+					}
+					id: "777D4B5FF7EBB064"
+					observe_type: 0
+					timer: 0L
+					title: "Ender Fire"
+					to_observe: "endergetic:ender_fire"
+					type: "observation"
+				}
+			]
+			title: "The Fire Whisperer"
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Ink bombs: Alex's Caves"
+				""
+				"Bombagrante: Found on archwood trees"
+			]
+			id: "4297EF485FF2460D"
+			subtitle: "Might be hard to pack these for my flight back home"
+			tasks: [
+				{
+					id: "61B943AAD8624CDC"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "6EE33AE522C6452F"
+					item: {
+						Count: 1
+						id: "industrialforegoing:infinity_nuke"
+						tag: {
+							CanCharge: 1b
+							Energy: 0L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "POOR"
+							Special: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F28D0046A25CE70"
+					item: "thermal:explosive_grenade"
+					type: "item"
+				}
+				{
+					id: "563C890B28D5861B"
+					item: {
+						Count: 1
+						id: "galosphere:silver_bomb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0405AF6C9E03E03C"
+					item: "supplementaries:bomb"
+					type: "item"
+				}
+				{
+					id: "648E1B20DD393E11"
+					item: "supplementaries:bomb_blue"
+					type: "item"
+				}
+				{
+					id: "056DBE1C921EA15A"
+					item: "undergarden:blisterbomb"
+					type: "item"
+				}
+				{
+					id: "5FD94505443845C4"
+					item: "betterarcheology:bomb"
+					type: "item"
+				}
+				{
+					id: "13CCAB255FCDC973"
+					item: "ars_nouveau:bombegranate_pod"
+					type: "item"
+				}
+				{
+					id: "131FF7B79256CE79"
+					item: "alexscaves:ink_bomb"
+					type: "item"
+				}
+				{
+					id: "7462DCF09C0C6F04"
+					item: "alexscaves:glow_ink_bomb"
+					type: "item"
+				}
+				{
+					id: "2A66449BC4D3EFC2"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:micromissiles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EA26EF4C2825E64"
+					item: "apotheosis:explosive_arrow"
+					type: "item"
+				}
+				{
+					id: "239EB0460BA3B2FA"
+					item: "spartanweaponry:explosive_arrow"
+					type: "item"
+				}
+				{
+					id: "323DAD18DFD61F61"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:gun_ammo_explosive"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AAEA7860F482561"
+					item: "immersiveengineering:he"
+					type: "item"
+				}
+				{
+					id: "7B2DDBE99B7F82CB"
+					item: "thermal:earth_tnt"
+					type: "item"
+				}
+				{
+					id: "4E7EDD8FE2D9290D"
+					item: "thermal:ender_tnt"
+					type: "item"
+				}
+				{
+					id: "189CE701BDE3CE1A"
+					item: "thermal:glowstone_tnt"
+					type: "item"
+				}
+				{
+					id: "3539BDE4765B363F"
+					item: "thermal:redstone_tnt"
+					type: "item"
+				}
+				{
+					id: "7F4AAC31F8FA2D90"
+					item: "thermal:slime_tnt"
+					type: "item"
+				}
+				{
+					id: "084473BBCED0DF38"
+					item: "thermal:phyto_tnt"
+					type: "item"
+				}
+				{
+					id: "63A9F033F8C39D69"
+					item: "botania:mana_bomb"
+					type: "item"
+				}
+				{
+					id: "73060DDCB1F8E855"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+				{
+					id: "0B2F94A5229B16A4"
+					item: "mekanismadditions:obsidian_tnt"
+					type: "item"
+				}
+				{
+					id: "241C6C77BBF45593"
+					item: "thermal:fire_tnt"
+					type: "item"
+				}
+				{
+					id: "5FEF202E1B593112"
+					item: "thermal:ice_tnt"
+					type: "item"
+				}
+				{
+					id: "4109D6156798149B"
+					item: "thermal:lightning_tnt"
+					type: "item"
+				}
+			]
+			title: "Explosive collection"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "13972F5925689BC8"
+			shape: "square"
+			tasks: [
+				{
+					id: "2768599C80389932"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "74844DD24BE31B07"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6FB9A30534D34D8B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "21CC1BA19BB5AB2D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "510C9B6481CC002B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:heartstop"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "02D3E18B3A6DA81D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1A296688D7B5E9F3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "09159A93922CA0AB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "67E86E2A77648011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "67AFB69BDDE01195"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Blood scrolls"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "15CFD8039E588275"
+			shape: "square"
+			subtitle: "the action of invoking a spirit or deity."
+			tasks: [
+				{
+					id: "5C967607BB282017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:chain_creeper"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3E3A60B07574C8BD"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6CFB92A03EE5C23E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:fang_ward"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "54A4007835B32CAC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firecracker"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4D82E34B9476E204"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gust"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "347596CC55DF8A00"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:invisibility"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "347F6EA3F7B55863"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:lob_creeper"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5AA31EB3F2548FF0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:shield"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "45082A70787C1865"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spectral_hammer"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "54CC2CC3E5EDE16E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "68BF7B7A21D10B19"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:summon_vex"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "642F972E8C7F8681"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:slow"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0C4E8A15F2EEE983"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:arrow_volley"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "54352FF68F09B546"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:wololo"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Evocation scroll"
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "62CAB25B99701CEA"
+			shape: "square"
+			tasks: [
+				{
+					id: "771CD56E18301B3A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0F9D141F3F1C5387"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "454803B0059A84E2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_arrow"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0C2439793211368D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_breath"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2442C83C44EA19CA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:poison_splash"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "07DED0206B91AE51"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:root"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4146DAB9311D514A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:spider_aspect"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "685B6C615F77C13A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5352F38A6FC77CB1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:oakskin"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "56191E6110064830"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "699784A62288AF28"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:stomp"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6919686679317C68"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:gluttony"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Nature scrolls"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "26AF04DCEDED99C9"
+			shape: "square"
+			tasks: [
+				{
+					id: "03373AA7C3F8035D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:firebolt"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0B1D4176513B81A8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:magma_bomb"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "33CDF9A7357D11CB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:wall_of_fire"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3F365061AA7F5FB1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:heat_surge"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5CC303243BEE05DB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "377CF1A4DC467510"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:burning_dash"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "292DF84E65A68183"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blaze_storm"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5FFEB2E63F8196A6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:flaming_barrage"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2FA5FB3B99DF5DF4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:scorch"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3B9524C115BF1B7A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:fireball"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5FEB30E8BAE34E3B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:fire_breath"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Fire scrolls"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "1FF051FBC7224CDD"
+			shape: "square"
+			subtitle: "Gods toilet paper"
+			tasks: [
+				{
+					id: "5954B47207D5A592"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6E5C88F7EF504611"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7893416410EE3A69"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "36DE69E57EFF5C2A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "521699062698CB52"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:greater_heal"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1B471F5F1F267E07"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2BE4B56C8DF7BA8B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4FA16596A6D0A7B3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:angel_wing"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3C8A402AE5CCDD84"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:haste"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2FD41AEE2762A3B2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Holy scrolls"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "545AF3FE2B54DB33"
+			shape: "square"
+			tasks: [
+				{
+					id: "0CB45634F7BE6DBC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:frostwave"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "704E3D991EFA017D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:ray_of_frost"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "35EFBBAC84C420EA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:summon_polar_bear"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "73A916AA1A66A183"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:icicle"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5158898373813629"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:ice_block"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0B4C9F6D16E480D5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:frost_step"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1367A2C4AA08EA73"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:cone_of_cold"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Frost scrolls"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "437E09507C061C8B"
+			shape: "square"
+			tasks: [
+				{
+					id: "6123189875B23FF0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "46C3E69751F10764"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:thunderstorm"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "11A6D54868CB93FC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2E7F020A51ECB40F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6145F2349F0972ED"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:lightning_bolt"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "29930EF486E31176"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "002BDDE484981265"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0BC4D652849E7AC3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1042B0A5D877C249"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:ascension"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Lightning scrolls"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "7D511BE14E7C7982"
+			shape: "square"
+			subtitle: "HUH?"
+			tasks: [
+				{
+					id: "4D56690C6FC80F54"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:sculk_tentacles"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "64E9A7D1A263487B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:sonic_boom"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "12C56D5A03C55EA9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:planar_sight"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "0F992D5B8400B514"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:telekinesis"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "08AF450AE81BEE15"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:eldritch_blast"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Eldritch scrolls"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			description: ["Most of these spears are made by making the handles out of various types of sticks from the Everbright and Everdawn."]
+			id: "762CE8F51524471D"
+			subtitle: "Tetra devs are so mad"
+			tasks: [
+				{
+					id: "46CCD57056DCFA0E"
+					item: {
+						Count: 1
+						id: "blue_skies:bluebright_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72FB6ADC6A332214"
+					item: {
+						Count: 1
+						id: "blue_skies:starlit_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FB9907D272AD135"
+					item: {
+						Count: 1
+						id: "blue_skies:frostbright_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0637AE28294E9C41"
+					item: {
+						Count: 1
+						id: "blue_skies:lunar_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14F27A6CE8D7406E"
+					item: {
+						Count: 1
+						id: "blue_skies:dusk_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "202A88400EDFCB2E"
+					item: {
+						Count: 1
+						id: "blue_skies:maple_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0458C41F76AABBCB"
+					item: {
+						Count: 1
+						id: "blue_skies:comet_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "031FD48E57F21303"
+					item: {
+						Count: 1
+						id: "blue_skies:soulbound_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blue skies spears"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "26AAE374F825B6FB"
+			subtitle: "Meat airlines"
+			tasks: [
+				{
+					id: "165917E1FA4E1161"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+							Insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A7611047E391F9B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "mekanism:hdpe_elytra"
+						tag: {
+							Damage: 0
+							Insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7611AAD98978993D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cataclysm:ignitium_elytra_chestplate"
+						tag: {
+							Damage: 0
+							Insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7761F8A30A35BCD2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "alexsmobs:tarantula_hawk_elytra"
+						tag: {
+							Damage: 0
+							Insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FCE63F132F527E3"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:enigmatic_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "515155AFDD38527E"
+					item: "pneumaticcraft:jet_boots_upgrade_1"
+					title: "Pnumatic boots with jetboots"
+					type: "item"
+				}
+			]
+			title: "Flying collection"
+			x: 6.5d
 			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:dragon_skull_ice"
+				tag: {
+					Stage: 5
+				}
+			}
+			id: "52435AC327B8A57C"
+			subtitle: "Make them extinct"
+			tasks: [
+				{
+					id: "3CAF5E91958BA48A"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_fire"
+						tag: {
+							Stage: 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2BAC95377B1D699E"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_ice"
+						tag: {
+							Stage: 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "266FD08E04A1F88A"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_lightning"
+						tag: {
+							Stage: 5
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Stage 5 dragon slayer"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "4437D8395A0D7D3B"
+			tasks: [
+				{
+					id: "7BCAED10C05EEF0A"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "517ED451943128BE"
+					item: "neapolitan:vanilla_cake"
+					type: "item"
+				}
+				{
+					id: "7EA7FB5E1B91FCBD"
+					item: "neapolitan:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "3EC7C0521B81FB98"
+					item: "neapolitan:strawberry_cake"
+					type: "item"
+				}
+				{
+					id: "6A8C668AB319604D"
+					item: "neapolitan:banana_cake"
+					type: "item"
+				}
+				{
+					id: "19F492F2B10F9FE7"
+					item: "neapolitan:mint_cake"
+					type: "item"
+				}
+				{
+					id: "4A76C48435376140"
+					item: "neapolitan:adzuki_cake"
+					type: "item"
+				}
+				{
+					id: "3F5B1FFD436BB869"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "1B683C02C88D8DFE"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+				{
+					id: "2BD4FB36580AEF6E"
+					item: "thermal:carrot_cake"
+					type: "item"
+				}
+				{
+					id: "56B10C58E89803FD"
+					item: "thermal:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "18224E85049B6DAA"
+					item: "thermal:potion_cake"
+					type: "item"
+				}
+				{
+					id: "6B68797DD646EC41"
+					item: "thermal:spice_cake"
+					type: "item"
+				}
+				{
+					id: "131D420204B6C820"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "2F6EE568CA14BC26"
+					item: "enigmaticlegacy:cosmic_cake"
+					type: "item"
+				}
+				{
+					id: "423503AE5634D569"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "All the cakes"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "5B6BFAB77865D289"
+			rewards: [{
+				id: "6A28AD725EA5141F"
+				item: {
+					Count: 1
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:zombie"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Zombie has been slain"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "722304225AB9FA75"
+				type: "kill"
+				value: 10000L
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "0C80A220510EF467"
+			subtitle: "Don't tell the USA"
+			tasks: [
+				{
+					id: "7D8F81151D85F29D"
+					item: "thermal:tree_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "082DD065C913EC1F"
+					item: "thermal:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "7202F4FB77B99C68"
+					item: "thermal:crude_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "1FB4CA78DE280C3A"
+					item: "thermal:heavy_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "0386CA510F0882E9"
+					item: "thermal:light_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "72301CE409886EEA"
+					item: "thermal:light_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "3D37F2B1BB3CB550"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "7E599FDC0F9740C0"
+					item: "immersiveengineering:plantoil_bucket"
+					type: "item"
+				}
+				{
+					id: "511F1C629538479C"
+					item: "createaddition:seed_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "192D4025AD23DC80"
+					item: "pneumaticcraft:oil_bucket"
+					type: "item"
+				}
+				{
+					id: "27EE41DEE0263296"
+					item: "pneumaticcraft:vegetable_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "Oil baron"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "23ED3D7498A71C49"
+			subtitle: "Congrats now you can look at the textures"
+			tasks: [
+				{
+					id: "40B204710D322BB9"
+					item: "botania:monocle"
+					type: "item"
+				}
+				{
+					id: "00C0A8390C93767E"
+					item: "botania:cosmetic_black_bowtie"
+					type: "item"
+				}
+				{
+					id: "4462D30F261A5E71"
+					item: "botania:cosmetic_black_tie"
+					type: "item"
+				}
+				{
+					id: "751F863CB2866738"
+					item: "botania:cosmetic_red_glasses"
+					type: "item"
+				}
+				{
+					id: "190F93F4F57B3DAF"
+					item: "botania:cosmetic_puffy_scarf"
+					type: "item"
+				}
+				{
+					id: "51811DF2E0D1D9F4"
+					item: "botania:cosmetic_engineer_goggles"
+					type: "item"
+				}
+				{
+					id: "24B8C19F0076F55D"
+					item: "botania:cosmetic_eyepatch"
+					type: "item"
+				}
+				{
+					id: "3C985D8DAFB66CA5"
+					item: "botania:cosmetic_wicked_eyepatch"
+					type: "item"
+				}
+				{
+					id: "26FBB986AC696933"
+					item: "botania:cosmetic_red_ribbons"
+					type: "item"
+				}
+				{
+					id: "781B716908F6AD4A"
+					item: "botania:cosmetic_pink_flower_bud"
+					type: "item"
+				}
+				{
+					id: "6D791DB65B0E8E05"
+					item: "botania:cosmetic_polka_dotted_bows"
+					type: "item"
+				}
+				{
+					id: "66CDECF3E7CB0FA6"
+					item: "botania:cosmetic_blue_butterfly"
+					type: "item"
+				}
+				{
+					id: "4828274B4268052C"
+					item: "botania:cosmetic_cat_ears"
+					type: "item"
+				}
+				{
+					id: "55088FE3D29E35E6"
+					item: "botania:cosmetic_witch_pin"
+					type: "item"
+				}
+				{
+					id: "7529B40477F866F5"
+					item: "botania:cosmetic_devil_tail"
+					type: "item"
+				}
+				{
+					id: "29D8F9EA31FD2D0F"
+					item: "botania:cosmetic_kamui_eye"
+					type: "item"
+				}
+				{
+					id: "40831DFDEC8E77E8"
+					item: "botania:cosmetic_googly_eyes"
+					type: "item"
+				}
+				{
+					id: "3CAB38F75906737B"
+					item: "botania:cosmetic_four_leaf_clover"
+					type: "item"
+				}
+				{
+					id: "00A4DCF7A97FE01F"
+					item: "botania:cosmetic_clock_eye"
+					type: "item"
+				}
+				{
+					id: "6A7B9E5671D723DA"
+					item: "botania:cosmetic_unicorn_horn"
+					type: "item"
+				}
+				{
+					id: "43C925E8961995FD"
+					item: "botania:cosmetic_devil_horns"
+					type: "item"
+				}
+				{
+					id: "1F3AB4593ABC8768"
+					item: "botania:cosmetic_hyper_plus"
+					type: "item"
+				}
+				{
+					id: "33FF6A8B8392AA33"
+					item: "botania:cosmetic_botanist_emblem"
+					type: "item"
+				}
+				{
+					id: "261C591536744DEE"
+					item: "botania:cosmetic_ancient_mask"
+					type: "item"
+				}
+				{
+					id: "219ADBC32E5175D4"
+					item: "botania:cosmetic_eerie_mask"
+					type: "item"
+				}
+				{
+					id: "1F637FEFFC7913CF"
+					item: "botania:cosmetic_alien_antenna"
+					type: "item"
+				}
+				{
+					id: "0DBB6D40B40C45B2"
+					item: "botania:cosmetic_anaglyph_glasses"
+					type: "item"
+				}
+				{
+					id: "77D860B77A7798F4"
+					item: "botania:cosmetic_orange_shades"
+					type: "item"
+				}
+				{
+					id: "38E526B41F6494C2"
+					item: "botania:cosmetic_groucho_glasses"
+					type: "item"
+				}
+				{
+					id: "301303810EF70585"
+					item: "botania:cosmetic_thick_eyebrows"
+					type: "item"
+				}
+				{
+					id: "2CC96827A65E56FC"
+					item: "botania:cosmetic_lusitanic_shield"
+					type: "item"
+				}
+				{
+					id: "7C47943BB5075B1E"
+					item: "botania:cosmetic_tiny_potato_mask"
+					type: "item"
+				}
+				{
+					id: "7A425CFF6448F7D7"
+					item: "botania:cosmetic_questgiver_mark"
+					type: "item"
+				}
+				{
+					id: "57C86D21973D2665"
+					item: "artifacts:everlasting_beef"
+					type: "item"
+				}
+				{
+					id: "691D2BD69A1E89F3"
+					item: "artifacts:eternal_steak"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "5D99FEBED085DA8B"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			title: "Cosmetic \"Non Binary\" ruler"
+			x: 12.5d
+			y: 3.0d
 		}
 	]
 	title: "Challenges"
