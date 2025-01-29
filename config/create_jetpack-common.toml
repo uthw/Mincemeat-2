@@ -1,19 +1,19 @@
 
 [air]
 	#Range: > 1
-	uses_per_tank = 2048
+	uses_per_tank = 8192
 	#Range: > 1
-	uses_per_tank_hover = 20480
+	uses_per_tank_hover = 81920
 
 [speed]
 	#Range: 0.01 ~ 100.0
-	horizontal = 0.02
+	horizontal = 0.045
 	#Range: 0.01 ~ 100.0
-	vertical = 0.4
+	vertical = 0.6
 	#Range: 0.01 ~ 100.0
-	acceleration = 0.6
+	acceleration = 0.8
 	#Range: -100.0 ~ 0.0
-	hover_descend = -0.03
+	hover_descend = -0.04
 	#Range: 0.0 ~ 100.0
 	swim_modifier = 1.8
 
