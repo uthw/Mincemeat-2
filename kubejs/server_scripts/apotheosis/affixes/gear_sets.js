@@ -374,60 +374,60 @@ ServerEvents.highPriorityData((event) => {
             ],
             helmets: [{ weight: 1, stack: "mekanismtools:osmium_helmet" }],
         },
-        // // cincinnatsite
-        // {
-        //     name: "cin",
-        //     quality: 4,
-        //     weight: 4,
-        //     mainhands: [
-        //         {
-        //             weight: 10,
-        //             stack: { item: "betternether:cincinnasite_sword" },
-        //         },
-        //         {
-        //             weight: 10,
-        //             stack: { item: "betternether:cincinnasite_pickaxe" },
-        //         },
-        //         {
-        //             weight: 10,
-        //             stack: { item: "betternether:cincinnasite_shovel" },
-        //         },
-        //         {
-        //             weight: 10,
-        //             stack: { item: "betternether:cincinnasite_axe" },
-        //         },
-        //         {
-        //             weight: 2,
-        //             stack: { item: "betternether:cincinnasite_hoe" },
-        //         },
-        //     ],
-        //     offhands: [],
-        //     boots: [
-        //         {
-        //             weight: 1,
-        //             stack: { item: "betternether:cincinnasite_boots" },
-        //         },
-        //     ],
-        //     leggings: [
-        //         {
-        //             weight: 1,
-        //             stack: { item: "betternether:cincinnasite_leggings" },
-        //         },
-        //     ],
-        //     chestplate: [
-        //         {
-        //             weight: 1,
-        //             stack: { item: "betternether:cincinnasite_chestplate" },
-        //         },
-        //     ],
-        //     helmets: [
-        //         {
-        //             weight: 1,
-        //             stack: { item: "betternether:cincinnasite_helmet" },
-        //         },
-        //     ],
-        //     tags: ["overworld", "the_nether"],
-        // },
+        // cincinnatsite
+        {
+            name: "cin",
+            quality: 4,
+            weight: 4,
+            mainhands: [
+                {
+                    weight: 10,
+                    stack: { item: "betternether:cincinnasite_sword" },
+                },
+                {
+                    weight: 10,
+                    stack: { item: "betternether:cincinnasite_pickaxe" },
+                },
+                {
+                    weight: 10,
+                    stack: { item: "betternether:cincinnasite_shovel" },
+                },
+                {
+                    weight: 10,
+                    stack: { item: "betternether:cincinnasite_axe" },
+                },
+                {
+                    weight: 2,
+                    stack: { item: "betternether:cincinnasite_hoe" },
+                },
+            ],
+            offhands: [],
+            boots: [
+                {
+                    weight: 1,
+                    stack: { item: "betternether:cincinnasite_boots" },
+                },
+            ],
+            leggings: [
+                {
+                    weight: 1,
+                    stack: { item: "betternether:cincinnasite_leggings" },
+                },
+            ],
+            chestplate: [
+                {
+                    weight: 1,
+                    stack: { item: "betternether:cincinnasite_chestplate" },
+                },
+            ],
+            helmets: [
+                {
+                    weight: 1,
+                    stack: { item: "betternether:cincinnasite_helmet" },
+                },
+            ],
+            tags: ["overworld", "the_nether"],
+        },
         {
             weight: 6,
             quality: 4,
@@ -707,55 +707,55 @@ ServerEvents.highPriorityData((event) => {
                 { weight: 1, stack: { item: "mekanismtools:bronze_helmet" } },
             ],
         },
-        // {
-        //     name: "nether_ruby",
-        //     weight: 2,
-        //     quality: 5,
-        //     mainhands: [
-        //         {
-        //             weight: 6,
-        //             stack: { item: "betternether:nether_ruby_sword" },
-        //         },
-        //         {
-        //             weight: 1,
-        //             stack: { item: "betternether:nether_ruby_pickaxe" },
-        //         },
-        //         {
-        //             weight: 1,
-        //             stack: { item: "betternether:nether_ruby_axe" },
-        //         },
-        //         {
-        //             weight: 1,
-        //             stack: { item: "betternether:nether_ruby_shovel" },
-        //         },
-        //     ],
-        //     offhands: [],
-        //     boots: [
-        //         {
-        //             weight: 1,
-        //             stack: "betternether:nether_ruby_boots",
-        //         },
-        //     ],
-        //     leggings: [
-        //         {
-        //             weight: 1,
-        //             stack: "betternether:nether_ruby_leggings",
-        //         },
-        //     ],
-        //     chestplates: [
-        //         {
-        //             weight: 1,
-        //             stack: "betternether:nether_ruby_chestplate",
-        //         },
-        //     ],
-        //     helmets: [
-        //         {
-        //             weight: 1,
-        //             stack: "betternether:nether_ruby_helmet",
-        //         },
-        //     ],
-        //     tags: ["overworld", "the_nether"],
-        // },
+        {
+            name: "nether_ruby",
+            weight: 2,
+            quality: 5,
+            mainhands: [
+                {
+                    weight: 6,
+                    stack: { item: "betternether:nether_ruby_sword" },
+                },
+                {
+                    weight: 1,
+                    stack: { item: "betternether:nether_ruby_pickaxe" },
+                },
+                {
+                    weight: 1,
+                    stack: { item: "betternether:nether_ruby_axe" },
+                },
+                {
+                    weight: 1,
+                    stack: { item: "betternether:nether_ruby_shovel" },
+                },
+            ],
+            offhands: [],
+            boots: [
+                {
+                    weight: 1,
+                    stack: "betternether:nether_ruby_boots",
+                },
+            ],
+            leggings: [
+                {
+                    weight: 1,
+                    stack: "betternether:nether_ruby_leggings",
+                },
+            ],
+            chestplates: [
+                {
+                    weight: 1,
+                    stack: "betternether:nether_ruby_chestplate",
+                },
+            ],
+            helmets: [
+                {
+                    weight: 1,
+                    stack: "betternether:nether_ruby_helmet",
+                },
+            ],
+            tags: ["overworld", "the_nether"],
+        },
         {
             name: "manasteel",
             weight: 5,
