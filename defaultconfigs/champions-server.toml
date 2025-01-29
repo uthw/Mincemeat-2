@@ -42,8 +42,10 @@ entitiesList = [
 	"meetyourfight:dame_fortuna",
 	"meetyourfight:swampjaw",
 	"meetyourfight:bellringer",
-	"mowziesmobs:wroughtnaut",
-	"mowziesmobs:barako",
+	"meetyourfight:rosalyne",
+	"meetyourfight:rose_spirit",
+	"mowziesmobs:ferrous_wroughtnaut",
+	"mowziesmobs:umvuthi",
 	"mowziesmobs:frostmaw",
 	"ars_nouveau:wilden_boss",
 	"aquamirae:maze_mother",
@@ -76,13 +78,16 @@ entitiesList = [
 	"alexscaves:hullbreaker",
 
 	"graveyard:lich",
+	"graveyard:ghoul",
 
+	"cataclysm:the_prowler",
 	"cataclysm:the_harbinger",
 	"cataclysm:ancient_remnant",
 	"cataclysm:the_leviathan",
 	"cataclysm:kobolediator",
 	"cataclysm:wadjet",
 	"cataclysm:maledictus",
+	"cataclysm:aptrgangr",
 
 	"irons_spellbooks:dead_king",
 	"irons_spellbooks:dead_king_corpse",
@@ -91,6 +96,8 @@ entitiesList = [
 	"irons_spellbooks:summoned_vex",
 	"irons_spellbooks:summoned_zombie",
 	"conjurer_illager:conjurer",
+
+	"galosphere:berserker",
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST
