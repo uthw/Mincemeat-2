@@ -883,50 +883,6 @@
 			y: -2.5d
 		}
 		{
-			description: [
-				"The &6magmator&r generates energy using &emolten liquids&r.  It requires no coolant, making it easy to set up and use."
-				""
-				"Like with basically all other blocks from &ePowah&r, there are &e7&r tiers of &6magmators&r, each one more potent than the last. This means these generators can &elast you a while&r."
-			]
-			id: "5AB2B311B9B179B9"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "720073CCC5F7E444"
-				item: "powah:magmator_starter"
-				type: "item"
-			}]
-			title: "Magmators"
-			x: -8.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5AB2B311B9B179B9"]
-			description: ["This generators is able to harness more energy from &emolten liquids&r than the &emagmator&r, but runs pretty hot and, as such, requires &ewater&r to keep it cool."]
-			id: "2414EF97B942ED2A"
-			optional: true
-			tasks: [{
-				id: "3F17A454A2F007A6"
-				item: "powah:thermo_generator_starter"
-				type: "item"
-			}]
-			title: "Thermo Generators"
-			x: -8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2414EF97B942ED2A"]
-			id: "5F6F1D26EFEE17D2"
-			optional: true
-			tasks: [{
-				id: "08AE5E907BE288C8"
-				item: "powah:reactor_starter"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -5.0d
-		}
-		{
 			dependencies: ["0B332B12ED9F9FA8"]
 			description: [
 				"This device &etakes sap from trees&r. This can be useful for certain types of &epower generation&r which rely on it&r."
@@ -1893,6 +1849,7 @@
 			dependencies: ["048233AB927943AD"]
 			description: ["A turntable stuck onto a mechanical press. Stick a knife to it and it becomes a reverse garbage disposal that's really precise."]
 			id: "6EBA8FD6B1771AC0"
+			subtitle: "Slicer, no slicing"
 			tasks: [{
 				id: "1C5DEFFF9FDEFA5E"
 				item: "sliceanddice:slicer"
@@ -2963,6 +2920,42 @@
 			}]
 			x: 5.5d
 			y: -10.5d
+		}
+		{
+			dependencies: ["26C8D9822EF6663C"]
+			description: [
+				"This device uses energy to search for interesting things specified by the modules you slot into it."
+				""
+				"The most useful module is Block. Being able to see exactly where a block you're interested in is makes caving much less tedious."
+			]
+			id: "44B6652493DAB413"
+			tasks: [
+				{
+					id: "4E27F4B153F9448B"
+					item: {
+						Count: 1
+						id: "scannable:scanner"
+						tag: {
+							energy: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03F80A3F56DDEB96"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "scannable:modules"
+						}
+					}
+					title: "Any #scannable:modules"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -8.5d
 		}
 	]
 	title: "Tech Level 1"
