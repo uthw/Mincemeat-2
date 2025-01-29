@@ -5,4 +5,6 @@ ItemEvents.tooltip((event) => {
     const noLongerNeedsEnergy = [];
 
     // event.addAdvanced()
+
+    event.add("mekanism:flamethrower", "IMPORTANT: Crashes your game if you have shaders enabled");
 });
