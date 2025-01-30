@@ -57,6 +57,50 @@ ServerEvents.tags("item", (event) => {
         ["forge:workbench", "biomeswevegone:witch_hazel_crafting_table"],
         ["forge:workbench", "biomeswevegone:zelkova_crafting_table"],
         ["forge:workbench", "biomeswevegone:aspen_crafting_table"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_aspen_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_maple_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_baobab_log"],
+        [
+            "create:modded_stripped_logs",
+            "biomeswevegone:stripped_blue_enchanted_log",
+        ],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_cika_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_cypress_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_ebony_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_fir_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_florus_log"],
+        [
+            "create:modded_stripped_logs",
+            "biomeswevegone:stripped_green_enchanted_log",
+        ],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_holly_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_ironwood_log"],
+        [
+            "create:modded_stripped_logs",
+            "biomeswevegone:stripped_jacaranda_log",
+        ],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_mahogany_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_palm_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_pine_log"],
+        [
+            "create:modded_stripped_logs",
+            "biomeswevegone:stripped_rainbow_eucalyptus_log",
+        ],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_redwood_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_sakura_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_skyris_log"],
+        [
+            "create:modded_stripped_logs",
+            "biomeswevegone:stripped_white_mangrove_log",
+        ],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_willow_log"],
+        [
+            "create:modded_stripped_logs",
+            "biomeswevegone:stripped_witch_hazel_log",
+        ],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_zelkova_log"],
+        ["create:modded_stripped_logs", "biomeswevegone:stripped_aspen_log"],
+        ["create:modded_stripped_logs", "caverns_and_chasms:stripped_azalea_log"]
     ];
 
     add.forEach((addition) => {
