@@ -440,8 +440,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 10
 MinRarity = "COMMON"
 ManaCostMultiplier = 1.0
-SpellPowerMultiplier = 1.0
-CooldownInSeconds = 6.0
+SpellPowerMultiplier = 0.6
+CooldownInSeconds = 15.0
 
 [Spells."irons_spellbooks:blessing_of_life"]
 Enabled = true
@@ -450,7 +450,7 @@ MaxLevel = 10
 MinRarity = "COMMON"
 ManaCostMultiplier = 1.0
 SpellPowerMultiplier = 1.0
-CooldownInSeconds = 2.9
+CooldownInSeconds = 10.0
 
 [Spells."irons_spellbooks:angel_wing"]
 Enabled = true
@@ -494,8 +494,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 10
 MinRarity = "COMMON"
 ManaCostMultiplier = 1.0
-SpellPowerMultiplier = 1.0
-CooldownInSeconds = 5.0
+SpellPowerMultiplier = 0.6
+CooldownInSeconds = 15.0
 
 [Spells."irons_spellbooks:wisp"]
 Enabled = true
@@ -512,8 +512,8 @@ School = "irons_spellbooks:holy"
 MaxLevel = 1
 MinRarity = "RARE"
 ManaCostMultiplier = 1.0
-SpellPowerMultiplier = 1.0
-CooldownInSeconds = 8.9
+SpellPowerMultiplier = 0.6
+CooldownInSeconds = 20.0
 
 [Spells."irons_spellbooks:cloud_of_regeneration"]
 Enabled = false
