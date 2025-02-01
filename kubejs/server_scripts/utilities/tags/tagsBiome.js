@@ -47,6 +47,9 @@ ServerEvents.tags("worldgen/biome", (event) => {
     );
     event.add("mowziesmobs:is_magical", "biomeswevegone:rose_fields");
 
+    event.add("graveyard:has_structure/dead_tree", "environmental:marsh");
+    event.add("graveyard:has_structure/dead_tree", "hexerei:willow_swamp");
+
 
 });
 
