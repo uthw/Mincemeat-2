@@ -3,7 +3,7 @@
 [Builtin]
 	#Range: 0 ~ 4
 	Difficulty = 4
-	Version = "2.3.4"
+	Version = "2.3.11"
 
 [Difficulty]
 	#Defines the minimum habitable temperature
@@ -38,22 +38,22 @@
 		"Heatstroke Fog" = 8.32
 
 	["Temperature Effects".Cold]
-		#When set to true, this percentage of the player's hearts will freeze over when they are too cold, preventing regeneration
-		#Represented as a percentage
+		#Up to a certain portion of the player's hearts will freeze over when they are too cold, preventing regeneration
+		#Represented as a percentage in decimal form
 		#Range: 0.0 ~ 1.0
-		"Freezing Hearts Percentage" = 0.5
-		#When set to true, the player's attack knockback will be reduced by this amount when they are too cold
-		#Represented as a percentage
+		"Max Frozen Health Percentage" = 0.5
+		#The player's attack knockback will be reduced by this amount when they are too cold
+		#Represented as a percentage in decimal form
 		#Range: 0.0 ~ 1.0
-		"Chilled Knockback Reduction" = 0.5
-		#When set to true, the player's movement speed will be reduced by this amount when they are too cold
-		#Represented as a percentage
+		"Freezing Knockback Reduction" = 0.5
+		#The player's movement speed will be reduced by this amount when they are too cold
+		#Represented as a percentage in decimal form
 		#Range: 0.0 ~ 1.0
-		"Chilled Movement Slowdown" = 0.25
-		#When set to true, the player's mining speed will be reduced by this amount when they are too cold
-		#Represented as a percentage
+		"Freezing Sluggishness" = 0.5
+		#The player's mining speed will be reduced by this amount when they are too cold
+		#Represented as a percentage in decimal form
 		#Range: 0.0 ~ 1.0
-		"Chilled Mining Speed Reduction" = 0.5
+		"Freezing Mining Impairment" = 0.5
 
 ["Grace Period"]
 	#The amount of time (in ticks) after the player spawns during which they are immune to temperature effects
@@ -61,4 +61,15 @@
 	"Grace Period Length" = 6000
 	#Enables the grace period
 	"Grace Period Enabled" = true
+
+[Misc]
+	#Add TempModifier IDs to this list to disable them
+	#Allows for more granular control of Cold Sweat's features
+	# Run "/temp debug @s <trait>" to see IDs of all modifiers affecting the player
+	#See the Cold Sweat documentation for a list of default TempModifiers
+	"Disabled Temperature Modifiers" = []
+	#Changes the update rate for temperature modifiers on entities
+	#Temperature modifiers control most of Cold Sweat's behavior, so lowering this value will improve performance at the cost of responsiveness
+	#Range: 0.1 ~ 1.0
+	"Modifier Tick Rate" = 1.0
 

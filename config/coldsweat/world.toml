@@ -1,0 +1,137 @@
+
+#Format: [["dimension_1", temperature1, *units], ["dimension_2", temperature2, *units]... etc]
+#Common dimension IDs: minecraft:overworld, minecraft:the_nether, minecraft:the_end
+[Dimensions]
+	#Applies an offset to the world's temperature across an entire dimension
+	"Dimension Temperature Offsets" = [["minecraft:the_nether", 0.7, "MC"], ["aether:the_aether", -0.9, "MC"], ["blue_skies:everbright", -0.5, "MC"], ["undergarden:undergarden", 0.2, "MC"], ["minecraft:the_end", -0.1, "MC"], ["blue_skies:everdawn", 0.2, "MC"]]
+	#Defines the temperature of a dimension, overriding all other biome and dimension temperatures/settings
+	"Dimension Temperatures" = []
+
+#Format: [["biome_1", <low-temp>, <high-temp>, <*units>], ["biome_2", <low-temp>, <high-temp>, <*units>]... etc]
+#low-temp: The temperature of the biome at midnight
+#high-temp: The temperature of the biome at noon
+#units: Optional. The units of the temperature ("C" or "F". Defaults to MC units)
+[Biomes]
+	#Applies an offset to the temperature of a biome
+	"Biome Temperature Offsets" = []
+	#Defines the temperature of a biome, overriding the biome's default temperature
+	"Biome Temperatures" = [["minecraft:warm_ocean", 67.0, 76.0, "F"], ["minecraft:badlands", 84.0, 120.0, "F"], ["minecraft:swamp", 72.0, 84.0, "F"], ["minecraft:windswept_forest", 48.0, 66.0, "F"], ["minecraft:windswept_savanna", 67.0, 90.0, "F"], ["minecraft:frozen_peaks", 15.0, 33.0, "F"], ["minecraft:desert", 48.0, 122.0, "F"], ["minecraft:deep_dark", 63.0, 63.0, "F"], ["minecraft:stony_shore", 50.0, 64.0, "F"], ["minecraft:old_growth_pine_taiga", 48.0, 62.0, "F"], ["minecraft:old_growth_spruce_taiga", 48.0, 62.0, "F"], ["minecraft:deep_frozen_ocean", 56.0, 65.0, "F"], ["minecraft:soul_sand_valley", 53.0, 53.0, "F"], ["minecraft:jungle", 76.0, 87.0, "F"], ["minecraft:old_growth_birch_forest", 58.0, 72.0, "F"], ["minecraft:snowy_taiga", 19.0, 48.0, "F"], ["minecraft:river", 60.0, 70.0, "F"], ["minecraft:bamboo_jungle", 76.0, 87.0, "F"], ["minecraft:wooded_badlands", 80.0, 108.0, "F"], ["minecraft:savanna", 70.0, 95.0, "F"], ["minecraft:taiga", 44.0, 62.0, "F"], ["minecraft:snowy_slopes", 24.0, 38.0, "F"], ["minecraft:savanna_plateau", 76.0, 98.0, "F"], ["minecraft:snowy_beach", 38.0, 52.0, "F"], ["minecraft:eroded_badlands", 88.0, 120.0, "F"], ["minecells:ramparts", 40.0, 55.0, "F"], ["minecraft:dripstone_caves", 70.0, 70.0, "F"], ["biomeswevegone:allium_shrubland", 58, 74, "F"], ["biomeswevegone:jacaranda_jungle", 76, 87, "F"], ["biomeswevegone:araucaria_savanna", 70, 92, "F"], ["biomeswevegone:aspen_boreal", 48, 68, "F"], ["biomeswevegone:windswept_desert", 60, 108, "F"], ["biomeswevegone:atacama_outback", 60, 108, "F"], ["biomeswevegone:baobab_savanna", 70, 95, "F"], ["biomeswevegone:ironwood_gour", 69, 90, "F"], ["biomeswevegone:bayou", 67, 86, "F"], ["biomeswevegone:black_forest", 46, 70, "F"], ["biomeswevegone:cika_woods", 40, 67, "F"], ["biomeswevegone:canadian_shield", 38, 62, "F"], ["biomeswevegone:forgotten_forest", 62, 78, "F"], ["biomeswevegone:ebony_woods", 64, 75, "F"], ["biomeswevegone:tropical_rainforest", 76, 87, "F"], ["biomeswevegone:weeping_witch_forest", 56, 73, "F"], ["biomeswevegone:zelkova_forest", 44, 61, "F"], ["biomeswevegone:maple_taiga", 15, 18, "C"], ["biomeswevegone:pumpkin_valley", 57, 78, "F"], ["biomeswevegone:coniferous_forest", 44, 58, "F"], ["biomeswevegone:frosted_coniferous_forest", 8, 31, "F"], ["biomeswevegone:crimson_tundra", 8, 31, "F"], ["biomeswevegone:dacite_ridges", 40, 65, "F"], ["biomeswevegone:shore", 40, 65, "F"], ["biomeswevegone:cypress_swamplands", 68, 82, "F"], ["biomeswevegone:skyrise_vale", 42, 68, "F"], ["biomeswevegone:orchard", 58, 78, "F"], ["biomeswevegone:prairie", 66, 82, "F"], ["biomeswevegone:enchanted_tangle", 66, 82, "F"], ["biomeswevegone:firecracker_chaparral", 72, 105, "F"], ["biomeswevegone:fragment_jungle", 76, 87, "F"], ["biomeswevegone:frosted_taiga", 19, 48, "F"], ["biomeswevegone:howling_peaks", 15, 33, "F"], ["biomeswevegone:mojave_desert", 60, 105, "F"], ["biomeswevegone:overgrowth_woodlands", 62, 78, "F"], ["biomeswevegone:red_rock_valley", 84, 120, "F"], ["biomeswevegone:redwood_thicket", 52, 81, "F"], ["biomeswevegone:rugged_badlands", 72, 100, "F"], ["biomeswevegone:white_mangrove_marshes", 70, 86, "F"], ["atmospheric:dunes", 78, 115, "F"], ["atmospheric:flourishing_dunes", 68, 105, "F"], ["atmospheric:petrified_dunes", 58, 120, "F"], ["atmospheric:rocky_dunes", 55, 125, "F"], ["atmospheric:rainforest", 68, 90, "F"], ["atmospheric:rainforest_basin", 68, 90, "F"], ["atmospheric:sparse_rainforest", 62, 83, "F"], ["atmospheric:sparse_rainforest_basin", 62, 83, "F"], ["environmental:marsh", 60, 80, "F"]]
+
+[Blocks]
+	# Format:
+	# [["block-ids", <temperature>, <range>, <*units>, <*max effect>, <*predicates>, <*nbt>, <*temperature-limit>], [etc...], [etc...]]
+	# * = Optional
+	# 
+	# Arguments:
+	# block-ids: Multiple IDs can be used by separating them with commas (i.e: "minecraft:torch,minecraft:wall_torch")
+	# temperature: The temperature of the block, in Minecraft units
+	# *falloff: The block is less effective as distance increases
+	# *max effect: The maximum temperature change this block can cause to a player (even with multiple blocks)
+	# *predicates: The state that the block has to be in for the temperature to be applied (i.e. lit=true).
+	# - (Multiple predicates can be used by separating them with commas [i.e. "lit=true,waterlogged=false"])
+	# *nbt: The NBT data that the block must have for the temperature to be applied.
+	# *temperature-limit: The maximum world temperature at which this block temp will be effective.
+	# - (Represents the minimum temp if the block temp is negative)
+	"Block Temperatures" = [["cold_sweat:boiler", 0.6, 7, "mc", 1.76, "lit=true", "", 4], ["cold_sweat:icebox", -0.6, 7, "mc", 1.76, "frosted=true", "", 0], ["minecraft:fire", 0.476, 7, "mc", 0.9, "", "", 8], ["#minecraft:campfires", 0.476, 7, "mc", 0.9, "lit=true", "", 8], ["minecraft:magma_block", 0.25, 3, "mc", 1.0], ["minecraft:lava_cauldron", 0.5, 7, "mc", 1.5], ["minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7], ["minecraft:packed_ice", -0.25, 4, "mc", 1.0, "", "", -0.7], ["minecraft:blue_ice", -0.35, 4, "mc", 1.4, "", "", -0.7], ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7], ["blue_skies:cinderstone", 0.25, 3, "mc", 1.0], ["blue_skies:cinderstone_stairs", 0.25, 3, "mc", 1.0], ["blue_skies:cinderstone_slab", 0.25, 3, "mc", 1.0], ["blue_skies:cinderstone_wall", 0.25, 3, "mc", 1.0], ["jumbofurnace:jumbo_furnace", 0.07, 4, "mc", 1.0, "lit=true"], ["blue_skies:blue_fire", -0.476, 7, "mc", 0.8], ["blue_skies:black_fire", 0.476, 7, "mc", 0.8], ["blue_skies:horizonite_forge", 0.07, 4, "mc", 1.0, "lit=true"], ["blue_skies:snowcap_oven", -0.07, 4, "mc", 1.0, "lit=true"], ["#minecraft:candles", 0.04, 3, "mc", 1.0, "lit=true"], ["#supplementaries:candle_holders", 0.04, 3, "mc", 1.0, "lit=true"], ["farmersdelight:stove", 0.06, 4, "mc", 1.0, "lit=true"], ["ends_delight:end_stove", 0.06, 4, "mc", 1.0, "lit=true"], ["nethersdelight:blackstone_stove", 0.08, 4, "mc", 1.0, "lit=true"], ["aquamirae:golden_moth_in_a_jar", -0.1, 5, "mc", 1.0], ["immersiveengineering:furnace_heater", 0.13, 4, "mc", 1.0, "active=true"], ["create:blaze_burner", 0.1, 6, "mc", 1.0, "blaze=smouldering"], ["create:blaze_burner", 0.25, 6, "mc", 1.0, "blaze=kindled"], ["create:blaze_burner", 0.4, 6, "mc", 1.0, "blaze=seething"], ["immersiveengineering:coke_oven", 0.1, 4, "mc", 1.0, "active=true"], ["immersiveengineering:advanced_blast_furnace", 0.12, 4, "mc", 1.0, "active=true"], ["aether:cold_aercloud", -0.25, 6, "mc", 1.0, ""], ["iceandfire:frozen_dirt", -0.25, 4, "mc", 1.0], ["iceandfire:frozen_cobblestone", -0.25, 4, "mc", 1.0], ["cataclysm:pointed_icicle", -0.2, 4, "mc", 1.0], ["biomeswevegone:packed_black_ice", -0.27, 4, "mc", 1.0, "", "", -0.7], ["biomeswevegone:black_ice", -0.16, 4, "mc", 0.6, "", "", -0.7], ["ecologics:thin_ice", -0.1, 4, "mc", 0.6, "", "", -0.7]]
+	#The maximum range of blocks' area of effect
+	#Note: This will not change anything unless blocks are configured to utilize the expanded range
+	#This value is capped at 16 for performance reasons
+	#Range: 1 ~ 16
+	"Block Range" = 7
+	#When set to true, uses Cold Sweat's temperature system to determine water freezing behavior
+	"Custom Freezing Behavior" = true
+	#When set to true, modifies ice blocks to be harvestable with a pickaxe
+	"Custom Ice Drops" = true
+
+[Misc]
+	#Overrides the world temperature when the player is within this structure
+	#Format: [["structure_1", temperature1, *units], ["structure_2", temperature2, *units]... etc]
+	#(* = optional)
+	"Structure Temperatures" = [["blue_skies:poison_dungeon", 75.0, "F"]]
+	#Offsets the world temperature when the player is within this structure
+	#Format: [["structure_1", offset1, *units], ["structure_2", offset2, *units]... etc]
+	#(* = optional)
+	"Structure Temperature Offsets" = [["aquamirae:ice_maze", -10.0, "F"], ["mowziesmobs:umvuthana_grove", 20.0, "F"], ["cataclysm:sunken_city", -18.0, "F"], ["cataclysm:frosted_prison", -36.0, "F"]]
+	#List of blocks that will allow the player to sleep on them, regardless of the "Prevent Sleep When in Danger" setting
+	#Use this list if the player is not getting the temperature effect from sleeping on particular blocks
+	"Sleep Check Override Blocks" = ["#comforts:sleeping_bags", "#comforts:hammocks", "#upgrade_aquatic:bedrolls"]
+	#When set to true, players cannot sleep if they are cold or hot enough to die
+	"Check Sleeping Conditions" = false
+	#Converts damage dealt by Soul Fire to cold damage (default: true)
+	#Does not affect the block's temperature
+	"Cold Soul Fire" = true
+	#A temperature offset applied when the sky is overcast
+	#Format: [offset, *units]
+	"Overcast Temperature Offset" = [-0.35, "mc"]
+
+["Thermal Sources"]
+	#How effective thermal sources are at normalizing temperature
+	#Range: 0.0 ~ 1.0
+	"Thermal Source Strength" = 0.75
+	#List of additional blocks that thermal sources can spread through
+	#Use this list if thermal sources aren't spreading through particular blocks that they should
+	"Thermal Source Spread Whitelist" = ["cold_sweat:hearth_bottom", "minecraft:iron_bars", "#minecraft:leaves", "create:encased_fluid_pipe"]
+	#List of additional blocks that thermal sources spread through
+	#Use this list if thermal sources are spreading through particular blocks that they shouldn't
+	"Thermal Source Spread Blacklist" = ["minecraft:water"]
+
+	["Thermal Sources".Hearth]
+		#Allows the hearth to automatically turn on/off based on nearby players' temperature
+		#If false, it turns on/off by redstone signal instead
+		"Automatic Hearth" = false
+		#The distance the hearth's air will travel from a source, like the hearth itself or the end of a pipe
+		#Range: > 0
+		"Hearth Range" = 20
+		#The maximum distance that air can be piped away from the hearth
+		#Range: > 0
+		"Max Hearth Range" = 96
+		#The maximum volume of the hearth's area of effect
+		#Range: > 1
+		"Hearth Volume" = 12000
+		#The time it takes for the hearth to be fully functional after being placed
+		#Range: > 0
+		"Hearth Warm-Up Time" = 1200
+		#The maximum amount of insulation that the hearth can provide
+		#Range: 0 ~ 10
+		"Hearth Effect Strength" = 10
+
+	["Thermal Sources".Boiler]
+		#Allows the boiler to automatically turn on/off based on nearby players' temperature
+		#If false, it turns on/off by redstone signal instead
+		"Automatic Boiler" = false
+		#The distance the boiler's air will travel from a source, like the boiler itself or the end of a pipe
+		#Range: > 0
+		"Boiler Range" = 16
+		#The maximum distance that air can be piped away from the boiler
+		#Range: > 0
+		"Max Boiler Range" = 96
+		#The maximum volume of the boiler's area of effect
+		#Range: > 1
+		"Boiler Volume" = 2000
+		#The time it takes for the boiler to be fully functional after being placed
+		#Range: > 0
+		"Boiler Warm-Up Time" = 1200
+		#The maximum amount of insulation that the boiler can provide
+		#Range: 0 ~ 10
+		"Boiler Warmth Strength" = 5
+
+	["Thermal Sources".Icebox]
+		#Allows the icebox to automatically turn on/off based on nearby players' temperature
+		#If false, it turns on/off by redstone signal instead
+		"Automatic Icebox" = false
+		#The distance the icebox's air will travel from a source, like the icebox itself or the end of a pipe
+		#Range: > 0
+		"Icebox Range" = 16
+		#The maximum distance that air can be piped away from the icebox
+		#Range: > 0
+		"Max Icebox Range" = 96
+		#The maximum volume of the icebox's area of effect
+		#Range: > 1
+		"Icebox Volume" = 2000
+		#The time it takes for the icebox to be fully functional after being placed
+		#Range: > 0
+		"Icebox Warm-Up Time" = 1200
+		#The maximum amount of insulation that the icebox can provide
+		#Range: 0 ~ 10
+		"Icebox Chill Strength" = 5
+
