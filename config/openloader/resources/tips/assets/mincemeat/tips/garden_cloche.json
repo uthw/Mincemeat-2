@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Immersive Engineering Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Garden cloches use power, water, and optionally fertilizer to grow crops faster than a botany pot."
+    }
+}

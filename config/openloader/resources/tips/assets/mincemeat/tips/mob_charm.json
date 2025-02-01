@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Reliquary Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Each mob you kill has a 2% chance of dropping its Mob Charm fragment (bosses and special enemies exempt). Collecting 6 of the same fragment lets you craft a Mob Charm, which renders you invisible to that mob."
+    }
+}

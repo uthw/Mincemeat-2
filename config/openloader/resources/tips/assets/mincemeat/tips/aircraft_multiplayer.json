@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Immersive Aircraft Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Some airplanes have multiple seats, allowing you to fly with friends."
+    }
+}

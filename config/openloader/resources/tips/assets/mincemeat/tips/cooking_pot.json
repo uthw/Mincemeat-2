@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmer's Delight Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "When broken, cooking pots will retain their inventories instead of making a mess all over your kitchen."
+    }
+}

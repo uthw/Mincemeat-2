@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "It's possible to change the material of wood in a water wheel to any type. Simply right click it while holding the desired type of planks."
+    }
+}

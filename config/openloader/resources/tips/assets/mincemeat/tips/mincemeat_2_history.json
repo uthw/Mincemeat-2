@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "This modpack was originally called Poutine. I created it in October 2023 and started uploading versions to GitHub in April 2024. You can tell by gaps between versions that I'm not very consistent."
+    }
+}

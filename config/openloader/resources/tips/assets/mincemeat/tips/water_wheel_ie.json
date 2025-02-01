@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Immersive Engineering Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Unlike Create, the speed of a water wheel from Immersive Engineering depends on the amount of water flowing around it. The maximum energy output is 30 RF/t, which is kind of pathetic."
+    }
+}

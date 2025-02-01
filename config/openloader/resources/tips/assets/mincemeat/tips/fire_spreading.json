@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cold Sweat Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Flammable blocks will catch fire based on if the air around them is too hot, instead of their proximity to fire or lava."
+    }
+}
