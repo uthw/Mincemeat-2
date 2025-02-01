@@ -192,16 +192,16 @@
 	[machines.garden_cloche]
 		#The Flux per tick the cloche consumes to grow plants
 		#Range: > 1
-		consumption = 8
+		consumption = 4
 		#The amount of ticks one dose of fertilizer lasts in the cloche
 		#Range: > 1
 		fertilizer = 6000
 		#The amount of fluid the cloche uses per dose of fertilizer
 		#Range: > 1
-		fluid = 250
+		fluid = 200
 		#A modifier to apply to the cloches total growing speed
 		#Range: 0.001 ~ 1000.0
-		growth_modifier = 1.0
+		growth_modifier = 1.15
 
 	[machines.lantern]
 		#Set this to false to disable the mob-spawn prevention of the Powered Lantern
