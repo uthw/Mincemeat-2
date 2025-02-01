@@ -7,14 +7,14 @@ ServerEvents.recipes((event) => {
                 A: "forbidden_arcanus:arcane_crystal_block",
                 B: "minecraft:polished_deepslate",
                 C: "minecraft:crying_obsidian",
-                D: "minecraft:echo_shard",
+                D: "meetyourfight:phantoplasm",
             },
         ],
         [
             "irons_spellbooks:inscription_table",
             ["A B", "CDC", "E E"],
             {
-                A: "eidolon:raven_feather",
+                A: "minecraft:feather",
                 B: "minecraft:book",
                 C: "#minecraft:wooden_slabs",
                 D: "forbidden_arcanus:arcane_crystal_dust",

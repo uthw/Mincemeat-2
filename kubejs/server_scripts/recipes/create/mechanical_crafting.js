@@ -189,6 +189,18 @@ ServerEvents.recipes((event) => {
                 E: "forbidden_arcanus:edelwood_bucket",
             },
         },
+        {
+            output: "create_jetpack:jetpack",
+            inputs: [" ABA ", "ACDCA", "AEFEA", " E E "],
+            keys: {
+                A: "#forge:plates/electrum",
+                B: "immersive_aircraft:engine",
+                C: "create:precision_mechanism",
+                D: "create:copper_backtank",
+                E: "create:chute",
+                F: "alexscaves:vesper_wing",
+            },
+        },
     ];
 
     recipes.forEach((recipe) => {

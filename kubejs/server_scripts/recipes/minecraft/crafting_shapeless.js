@@ -27,6 +27,7 @@ ServerEvents.recipes((event) => {
                 "caverns_and_chasms:necromium_nugget",
                 "eidolon:zombie_heart",
                 "paraglider:spirit_orb",
+                "cataclysm:coral_chunk"
             ],
         ],
         [

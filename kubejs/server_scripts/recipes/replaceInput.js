@@ -1316,11 +1316,6 @@ ServerEvents.recipes((event) => {
             "farmersdelight:wheat_dough",
         ],
         [
-            { output: "dragonseeker:dragonseeker" },
-            "minecraft:netherite_ingot",
-            "forbidden_and_arcanus:deorum_ingot",
-        ],
-        [
             { output: "cataclysm:abyss_eye" },
             "minecraft:crying_obsidian",
             "blue_skies:charoite",
@@ -1328,19 +1323,138 @@ ServerEvents.recipes((event) => {
         [
             { output: "cataclysm:abyss_eye" },
             "minecraft:obsidian",
-            "betternether:weeping_obsidian"
+            "betternether:weeping_obsidian",
         ],
         [
             { output: "cataclysm:mech_eye" },
             "minecraft:iron_ingot",
-            "alexscaves:energized_galena_neutral"
+            "alexscaves:energized_galena_neutral",
         ],
         [
             { output: "cataclysm:mech_eye" },
             "minecraft:redstone_block",
-            "irons_spellbooks:lightning_bottle"
+            "irons_spellbooks:lightning_bottle",
+        ],
+        [
+            { output: "thermal:watering_can" },
+            "minecraft:bucket",
+            "miners_delight:copper_cup",
+        ],
+        [
+            { output: "cold_sweat:thermolith" },
+            "#minecraft:terracotta",
+            "atmospheric:smooth_arid_sandstone",
+        ],
+        [
+            { output: "cold_sweat:minecart_insulation" },
+            "minecraft:leather",
+            "forbidden_arcanus:cloth",
+        ],
+        [
+            { mod: "meetyourfight" },
+            "minecraft:amethyst_shard",
+            "aether:zanite_gemstone",
+        ],
+        [
+            { output: "meetyourfight:tomb_planeter" },
+            "#minecraft:dirt",
+            "farmersdelight:rich_soil",
+        ],
+        [
+            { output: "meetyourfight:blossoming_mind" },
+            "minecraft:lapis_lazuli",
+            "alexscaves:occult_gem",
+        ],
+        [
+            { output: "meetyourfight:wilted_ideals" },
+            "#c:black_dyes",
+            "#botania:petals/black",
+        ],
+        [
+            { output: "bosses_of_mass_destruction:void_lily" },
+            "minecraft:amethyst_shard",
+            "forbidden_arcanus:dark_matter",
+        ],
+        [
+            { output: "bosses_of_mass_destruction:void_lily" },
+            "minecraft:lily_of_the_valley",
+            "atmospheric:yucca_flower",
+        ],
+        [
+            { output: "irons_spellbooks:wayward_compass" },
+            "minecraft:soul_lantern",
+            "quark:soul_bead",
+        ],
+        [
+            { output: "dragonseeker:epic_dragonseeker" },
+            "minecraft:nether_star",
+            "cataclysm:black_steel_ingot",
+        ],
+        [
+            { output: "darkutils:redstone_randomizer" },
+            "minecraft:quartz",
+            "caverns_and_chasms:spinel",
+        ],
+        [
+            { output: "darkutils:redstone_randomizer" },
+            "minecraft:ender_pearl",
+            "irons_spellbooks:arcane_essence",
+        ],
+        [
+            { mod: "industrialforegoing" },
+            "minecraft:ender_eye",
+            "alexscaves:ferrouslime_ball",
+        ],
+        [
+            { mod: "industrialforegoing" },
+            "minecraft:ender_pearl",
+            "graveyard:corruption",
+        ],
+        [
+            { output: "graveyard:bone_dagger" },
+            "minecraft:bone",
+            "irons_spellbooks:frozen_bone",
+        ],
+        [
+            { output: "botania:fel_pumpkin" },
+            "minecraft:bone",
+            "irons_spellbooks:frozen_bone",
+        ],
+        [
+            { output: "reliquary:mob_charm" },
+            "#forge:leather",
+            "forbidden_arcanus:cloth",
+        ],
+        [
+            { output: "immersive_aircraft:enhanced_propeller" },
+            "minecraft:copper_ingot",
+            "#forge:ingots/brass",
+        ],
+        [
+            { output: "immersive_aircraft:boiler" },
+            "minecraft:furnace",
+            "cold_sweat:boiler",
+        ],
+        [
+            { output: "immersive_aircraft:gyroscope" },
+            "minecraft:comparator",
+            "create:electron_tube",
+        ],
+        [
+            { output: "immersive_aircraft:hull_reinforcement" },
+            "minecraft:iron_ingot",
+            "pneumaticcraft:ingot_iron_compressed",
+        ],
+        [
+            { output: "irons_spellbooks:alchemist_cauldron" },
+            "#c:iron_ingots",
+            "#forge:ingots/silver"
+        ],
+        [
+            { output: "irons_spellbooks:alchemist_cauldron" },
+            "irons_spellbooks:cinder_essence",
+            "mowziesmobs:naga_fang"
         ]
-
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
