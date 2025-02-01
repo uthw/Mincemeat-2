@@ -20,16 +20,34 @@ ItemEvents.modification((event) => {
         if (item.maxDamage != 0) {
             // Double the durability of every item
             event.modify(item, (tool) => {
-                // if ()
+                if (blacklist.includes(tool.id.toString())) {
+                    return;
+                }
 
                 try {
-                    if (Item.of(item).getItem().getAttributes("generic.armor")[0]["amount"] != 0) {
+                    let armorAttribute = Item.of(item)
+                        .getItem()
+                        .getAttributes("generic.armor");
+                    
+                    if (armorAttribute[0]) {
                         tool.maxDamage *= 4;
                         console.log(`${tool.id} is armor`);
                     } else {
                         tool.maxDamage *= 2;
+                        console.log(`${tool.id} is not armor`);
                     }
-                } catch (error) { }
+
+                    // let isArmor = Item.of(item).getItem().getAttributes("generic.armor")[0]["amount"] != 0;
+
+                    // if (isArmor) {
+                    //     tool.maxDamage *= 4;
+                    //     console.log(`${tool.id} is armor`);
+                    // } else {
+                    //     tool.maxDamage *= 2;
+                    // }
+                } catch (error) { 
+                    console.log("Error when applying durability to " + tool.id.toString());
+                }
                 
             });
 
