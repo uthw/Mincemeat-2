@@ -1,0 +1,47 @@
+{
+    "game": {
+        "win_condition": "bongo.default",
+        "invulnerable": false,
+        "pvp": true,
+        "friendly_fire": false,
+        "time": "unlimited",
+        "consume_items": false,
+        "lock_task_on_death": false,
+        "teleports_per_team": 0,
+        "leaderboard": false,
+        "lockout": true
+    },
+    "level": {
+        "keep": [],
+        "teleporter": "bongo.default",
+        "teleport_radius": 1250
+    },
+    "equipment": {
+        "inventory": [],
+        "backpack": [],
+        "emergency": [],
+        "offhand": {
+            "item": "minecraft:air",
+            "count": 0
+        },
+        "head": {
+            "item": "minecraft:air",
+            "count": 0
+        },
+        "chest": {
+            "item": "minecraft:air",
+            "count": 0
+        },
+        "legs": {
+            "item": "minecraft:air",
+            "count": 0
+        },
+        "feet": {
+            "item": "minecraft:air",
+            "count": 0
+        }
+    },
+    "server": {
+        "prevent_joining_during_game": false
+    }
+}

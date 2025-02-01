@@ -1,0 +1,1197 @@
+{
+    "tasks": [
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "alexscaves:cave_map"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "lootr:trophy"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "supplementaries:globe_sepia"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "mowziesmobs:ferrous_wroughtnaut",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "minecells:concierge",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "galosphere:berserker",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "meetyourfight:swampjaw",
+            "weight": 10
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.entity",
+                    "value": "meetyourfight:bellringer",
+                    "weight": 10
+                },
+                {
+                    "type": "bongo.entity",
+                    "value": "meetyourfight:dame_fortuna",
+                    "weight": 4
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "paraglider:heart_container",
+                "count": 3
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "actuallyadditions:iron_aiot"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "grapplemod:motorupgradeitem"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "forbidden_arcanus:nipa"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "atmospheric:yellow_blossoms"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "savage_and_ravage:cleaver_of_beheading"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "eidolon:zombie_heart"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "alexsmobs:guster_eye"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "apotheosis:seashelf"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "mowziesmobs:frostmaw",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "bosses_of_mass_destruction:void_blossom",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "enchantinginfuser:enchanting_infuser"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "forbidden_arcanus:stellarite_piece"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "irons_spellbooks:villager_spell_book"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:conduit"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:poisonous_potato"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:enchanted_golden_apple"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "mowziesmobs:naga",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "neapolitan:chocolate_cake"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "conjurer_illager:conjurer",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "irons_spellbooks:lightning_bottle"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:diamond",
+                "count": 32
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "undergarden:forgotten_guardian",
+            "weight": 10
+        },
+        {
+            "type": "bongo.stat",
+            "value": {
+                "category": "custom",
+                "stat": "minecraft:traded_with_villager",
+                "value": 10
+            },
+            "weight": 10,
+            "custom_texture": "ftbchunks:textures/faces/minecraft/villager.png"
+        },
+        {
+            "type": "bongo.stat",
+            "value": {
+                "category": "custom",
+                "stat": "minecraft:deaths",
+                "value": 10
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.stat",
+            "value": {
+                "category": "custom",
+                "stat": "minecraft:deaths",
+                "value": 0
+            },
+            "inverted": true,
+            "weight": 10
+        },
+        {
+            "type": "bongo.advancement",
+            "value": "jumbofurnace:upgrade_jumbo_furnace",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "create:whisk"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "mowziesmobs:umvuthi",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:enchanting_table"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "farmersdelight:kelp_roll"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "iceandfire:cyclops",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "iceandfire:troll",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "tetra:metal_scrap"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "quark:forgotten",
+            "weight": 10
+        },
+        {
+            "type": "bongo.advancement",
+            "value": "minecraft:husbandry/tame_an_animal",
+            "weight": 10
+        },
+        {
+            "type": "bongo.advancement",
+            "value": "minecraft:husbandry/breed_an_animal",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "blue_skies:bug_guts"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "supplementaries:pancake"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "miners_delight:baked_cave_carrot"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "eidolon:arcane_gold_ingot"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "caverns_and_chasms:golden_milk_bucket"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "sophisticatedbackpacks:diamond_backpack"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "caverns_and_chasms:bejeweled_apple"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:crying_obsidian"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "hunters_return:hunter",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "endermanoverhaul:flower_fields_enderman",
+            "weight": 2.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "endermanoverhaul:desert_enderman",
+            "weight": 2.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "endermanoverhaul:dark_oak_enderman",
+            "weight": 2.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "endermanoverhaul:snowy_enderman",
+            "weight": 2.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "endermanoverhaul:cave_enderman",
+            "weight": 2.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:jungle_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:bamboo_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:desert_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:hills_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:savannah_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:swamp_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:dripstone_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:cave_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:dark_oak_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:spruce_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:beach_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:snowy_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "creeperoverhaul:ocean_creeper",
+            "weight": 1.0
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.biome",
+                    "value": "alexscaves:magnetic_caves"
+                },
+                {
+                    "type": "bongo.biome",
+                    "value": "alexscaves:toxic_caves"
+                },
+                {
+                    "type": "bongo.biome",
+                    "value": "alexscaves:primordial_caves"
+                },
+                {
+                    "type": "bongo.biome",
+                    "value": "alexscaves:forlorn_hollows"
+                },
+                {
+                    "type": "bongo.biome",
+                    "value": "alexscaves:candy_cavity"
+                },
+                {
+                    "type": "bongo.biome",
+                    "value": "alexscaves:abyssal_chasm"
+                }
+            ]
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.stat",
+                    "value": {
+                        "category": "custom",
+                        "stat": "minecraft:waystone_activated",
+                        "value": 15
+                    },
+                    "weight": 5.0,
+                    "custom_texture": "ftbchunks:textures/waystone.png"
+                },
+                {
+                    "type": "bongo.stat",
+                    "value": {
+                        "category": "custom",
+                        "stat": "minecraft:waystone_activated",
+                        "value": 5
+                    },
+                    "weight": 5.0,
+                    "custom_texture": "ftbchunks:textures/waystone.png"
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "iceandfire:dragonbone"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "aquamirae:sharp_bones"
+                    },
+                    "weight": 5.0
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "aquamirae:ship_graveyard_echo"
+                    },
+                    "weight": 5.0
+                }
+            ]
+        },
+        {
+            "type": "bongo.entity",
+            "value": "aquamirae:maze_mother",
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "buzzier_bees:bee_bottle"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "buzzier_bees:glazed_porkchop"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "buzzier_bees:honey_bread"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "atmospheric:laurel_sapling"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "atmospheric:yucca_sapling"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "atmospheric:rosewood_sapling"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "environmental:yak_hair",
+                "count": 3
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "upgrade_aquatic:embedded_ammonite"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "upgrade_aquatic:mulberry_jam_block"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "upgrade_aquatic:beachgrass_thatch"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "upgrade_aquatic:glow_squid_bucket"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "upgrade_aquatic:nautilus_bucket"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "forbidden_arcanus:edelwood_beetroot_soup_bucket"
+                    },
+                    "weight": 3
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "forbidden_arcanus:edelwood_powder_snow_bucket"
+                    },
+                    "weight": 3
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "forbidden_arcanus:edelwood_cod_bucket"
+                    },
+                    "weight": 3
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "forbidden_arcanus:edelwood_lava_bucket"
+                    },
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "forbidden_arcanus:polished_darkstone"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "forbidden_arcanus:rune",
+                "count": 2
+            },
+            "weight": 7.5
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "atmospheric:carmine_husk"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "quark:redstone_randomizer"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "quark:bottled_cloud"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "ecologics:crab_claw"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "ecologics:tropical_stew"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "ecologics:penguin_feather"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:adventurer_kit"
+                    },
+                    "weight": 3.0
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:discount_voucher"
+                    },
+                    "weight": 3.0
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:dream_catcher"
+                    },
+                    "weight": 3.0
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:adventurer_kit"
+                    },
+                    "weight": 3.0
+                }
+            ]
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:idol_of_fertility"
+                    },
+                    "weight": 3.0
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:lucky_rock"
+                    },
+                    "weight": 3.0
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:miner_guide"
+                    },
+                    "weight": 3.0
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "majruszsaccessories:lucky_rock"
+                    },
+                    "weight": 3.0
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "storagenetwork:master"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "galosphere:preserved",
+            "weight": 7.5
+        },
+        {
+            "type": "bongo.entity",
+            "value": "alexsmobs:rocky_roller",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "irons_spellbooks:necromancer",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "cataclysm:deepling_brute",
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.entity",
+            "value": "artifacts:mimic",
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "undergarden:regalium_crystal"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "undergarden:depthrock_pebble"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "supplementaries:bomb"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "apotheosis:uncommon_material"
+            },
+            "weight": 7
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "apotheosis:gem_dust"
+            },
+            "weight": 2
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "yungscavebiomes:prickly_peach"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "paraglider:spirit_orb",
+                "count": 12
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "galosphere:salted_jerky"
+            },
+            "weight": 5.0
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "enigmaticlegacy:magnet_ring"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "reliquary:holy_hand_grenade"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "reliquary:harvest_rod"
+            },
+            "weight": 2
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "reliquary:glowing_bread"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "miners_delight:vegan_hamburger"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "miners_delight:bat_cookie"
+            },
+            "weight": 5
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "miners_delight:baked_tentacles"
+            },
+            "weight": 5
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.entity",
+                    "value": "thermal:basalz",
+                    "weight": 3
+                },
+                {
+                    "type": "bongo.entity",
+                    "value": "thermal:blitz",
+                    "weight": 3
+                },
+                {
+                    "type": "bongo.entity",
+                    "value": "thermal:blizz",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "thermal:phytogro"
+            },
+            "weight": 8
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "farmersdelight:rich_soil",
+                "count": 4
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:raw_copper_block",
+                "count": 32
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "forbidden_arcanus:obsidian_ingot",
+                "count": 4
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "cataclysm:wadjet",
+            "weight": 8
+        },
+        {
+            "type": "bongo.entity",
+            "value": "cataclysm:aptrgangr",
+            "weight": 8
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "blue_skies:aquite",
+                        "count": 16
+                    }
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "blue_skies:pyrope_gem",
+                        "count": 12
+                    }
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "blue_skies:diopside_gem"
+                    }
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "blue_skies:charoite"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "farmersdelight:roast_chicken_block"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "delightful:matcha_ice_cream"
+                    }
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "delightful:salmonberry_ice_cream"
+                    }
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "delightful:source_berry_ice_cream"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "abnormals_delight:seared_venison"
+            },
+            "weight": 8
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "farmersdelight:noodle_soup"
+            },
+            "weight": 8
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "farmersdelight:stuffed_potato"
+            },
+            "weight": 8
+        },
+        {
+            "type": "bongo.entity",
+            "value": "alexsmobs:skelewag",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "alexsmobs:blobfish"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "alexsmobs:crocodile",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "alexsmobs:bear_fur"
+            },
+            "weight": 6
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.entity",
+                    "value": "guardvillagers:guard"
+                },
+                {
+                    "type": "bongo.entity",
+                    "value": "minecraft:iron_golem"
+                }
+            ]
+        },
+        {
+            "type": "bongo.advancement",
+            "value": "alexsmobs:alexsmobs/rattlesnake",
+            "weight": 10
+        },
+        {
+            "type": "bongo.advancement",
+            "value": "cold_sweat:full_insulation",
+            "weight": 10
+        },
+        {
+            "type": "bongo.stat",
+            "value": {
+                "category": "custom",
+                "stat": "champions:champion_mobs_killed",
+                "value": 5
+            },
+            "weight": 10,
+            "custom_texture": "betternether:textures/minimap/entities/skull.png"
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "environmental:cartwheel"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "create:tree_fertilizer"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "minecraft:sea_lantern"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "farmersdelight:fried_egg"
+            },
+            "weight": 6
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "neapolitan:bananarrow"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "galosphere:silver_bomb"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "yungscavebiomes:ice_cube",
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "actuallyadditions:stone_aiot"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.advancement",
+            "value": "alexsmobs:alexsmobs/sunbird_blessing",
+            "weight": 10
+        }
+    ]
+}
