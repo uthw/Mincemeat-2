@@ -11,40 +11,24 @@
 			red_archwood = true
 
 		[types.leaves_type.blue_skies]
-			crystallized = true
-			crescent_fruit = true
-			bluebright = true
-			starlit = true
-			frostbright = true
-			lunar = true
-			dusk = true
-			maple = true
-			comet = true
-
-		[types.leaves_type.traverse]
-			red_autumnal = true
-			brown_autumnal = true
-			orange_autumnal = true
-			yellow_autumnal = true
-			fir = true
-
-		[types.leaves_type.minecells]
-			wilted = true
-			orange_wilted = true
-			red_wilted = true
-
-		[types.leaves_type.wilderwild]
-			baobab = true
-			cypress = true
+			crystallized = false
+			crescent_fruit = false
+			bluebright = false
+			starlit = false
+			frostbright = false
+			lunar = false
+			dusk = false
+			maple = false
+			comet = false
 
 		[types.leaves_type.naturesaura]
 			ancient = true
 			golden = true
 
 		[types.leaves_type.undergarden]
-			smogstem = true
-			wigglewood = true
-			grongle = true
+			smogstem = false
+			wigglewood = false
+			grongle = false
 
 		[types.leaves_type.outer_end]
 			azure = true
@@ -64,37 +48,34 @@
 			willow = true
 			witch_hazel = true
 
-		[types.leaves_type.ars_elemental]
-			yellow_archwood = true
-
 		[types.leaves_type.eidolon]
 			illwood = true
 
 		[types.leaves_type.aether]
-			skyroot = true
-			golden_oak = true
-			crystal = true
-			crystal_fruit = true
-			holiday = true
-			decorated_holiday = true
+			skyroot = false
+			golden_oak = false
+			crystal = false
+			crystal_fruit = false
+			holiday = false
+			decorated_holiday = false
 
 		[types.leaves_type.deep_aether]
-			roseroot = true
-			flowering_roseroot = true
-			blue_roseroot = true
-			flowering_blue_roseroot = true
-			yagroot = true
-			cruderoot = true
-			conberry = true
-			sunroot = true
+			roseroot = false
+			flowering_roseroot = false
+			blue_roseroot = false
+			flowering_blue_roseroot = false
+			yagroot = false
+			cruderoot = false
+			conberry = false
+			sunroot = false
 
 		[types.leaves_type.aether_redux]
-			blightwillow = true
-			glacia = true
-			purple_glacia = true
-			gilded_oak = true
-			blighted_skyroot = true
-			fieldsproot = true
+			blightwillow = false
+			glacia = false
+			purple_glacia = false
+			gilded_oak = false
+			blighted_skyroot = false
+			fieldsproot = false
 
 		[types.leaves_type.autumnity]
 			maple = true
@@ -104,9 +85,6 @@
 
 		[types.leaves_type.upgrade_aquatic]
 			river = true
-
-		[types.leaves_type.alexscaves]
-			ancient = true
 
 		[types.leaves_type.forbidden_arcanus]
 			aurum = true
@@ -186,6 +164,27 @@
 			yellow_spruce = true
 			firecracker = true
 
+		[types.leaves_type.alexscaves]
+			ancient = true
+
+		[types.leaves_type.traverse]
+			red_autumnal = true
+			brown_autumnal = true
+			orange_autumnal = true
+			yellow_autumnal = true
+			fir = true
+
+		[types.leaves_type.betternether]
+			willow = true
+			rubeus = true
+			anchor_tree = true
+			nether_sakura = true
+
+		[types.leaves_type.minecells]
+			wilted = true
+			orange_wilted = true
+			red_wilted = true
+
 		[types.leaves_type.environmental]
 			hibiscus = true
 			willow = true
@@ -211,6 +210,9 @@
 			kousa = true
 			currant = true
 			grimwood = true
+
+		[types.leaves_type.ars_elemental]
+			yellow_archwood = true
 
 	[types.cake]
 
@@ -247,14 +249,14 @@
 			archwood = true
 
 		[types.wood_type.blue_skies]
-			crystallized = true
-			bluebright = true
-			starlit = true
-			frostbright = true
-			lunar = true
-			dusk = true
-			maple = true
-			comet = true
+			crystallized = false
+			bluebright = false
+			starlit = false
+			frostbright = false
+			lunar = false
+			dusk = false
+			maple = false
+			comet = false
 
 		[types.wood_type.ecologics]
 			flowering_azalea = true
@@ -267,17 +269,6 @@
 			ancient = true
 			blossom = true
 
-		[types.wood_type.traverse]
-			fir = true
-
-		[types.wood_type.minecells]
-			putrid = true
-
-		[types.wood_type.wilderwild]
-			baobab = true
-			cypress = true
-			palm = true
-
 		[types.wood_type.botania]
 			livingwood = true
 			dreamwood = true
@@ -286,9 +277,9 @@
 			chorus = true
 
 		[types.wood_type.undergarden]
-			smogstem = true
-			wigglewood = true
-			grongle = true
+			smogstem = false
+			wigglewood = false
+			grongle = false
 
 		[types.wood_type.outer_end]
 			azure = true
@@ -308,25 +299,22 @@
 			illwood = true
 
 		[types.wood_type.aether]
-			skyroot = true
+			skyroot = false
 
 		[types.wood_type.deep_aether]
-			roseroot = true
-			yagroot = true
-			cruderoot = true
-			conberry = true
-			sunroot = true
+			roseroot = false
+			yagroot = false
+			cruderoot = false
+			conberry = false
+			sunroot = false
 
 		[types.wood_type.aether_redux]
-			fieldsproot = true
-			blightwillow = true
-			cloudcap = true
-			jellyshroom = true
-			crystal = true
-			glacia = true
-
-		[types.wood_type.iceandfire]
-			dreadwood = true
+			fieldsproot = false
+			blightwillow = false
+			cloudcap = false
+			jellyshroom = false
+			crystal = false
+			glacia = false
 
 		[types.wood_type.autumnity]
 			maple = true
@@ -334,10 +322,6 @@
 		[types.wood_type.upgrade_aquatic]
 			driftwood = true
 			river = true
-
-		[types.wood_type.alexscaves]
-			pewen = true
-			thornwood = true
 
 		[types.wood_type.forbidden_arcanus]
 			aurum = true
@@ -379,8 +363,29 @@
 			witch_hazel = true
 			zelkova = true
 
-		[types.wood_type.sullysmod]
-			petrified = true
+		[types.wood_type.iceandfire]
+			dreadwood = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
+
+		[types.wood_type.betternether]
+			anchor_tree = true
+			mushroom_fir = true
+			nether_sakura = true
+			rubeus = true
+			stalagnate = true
+			wart = true
+			willow = true
+			nether_reed = true
+			nether_mushroom = true
+
+		[types.wood_type.traverse]
+			fir = true
+
+		[types.wood_type.minecells]
+			putrid = true
 
 		[types.wood_type.endergetic]
 			poise = true

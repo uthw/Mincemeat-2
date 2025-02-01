@@ -374,6 +374,17 @@
         "value": 1
       }
     },
+    "l2damagetracker:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "thermoo:generic.min_temperature": {
       "enabled": false,
       "min": {
@@ -416,6 +427,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "l2damagetracker:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "attributeslib:crit_chance": {
@@ -473,6 +495,17 @@
         "value": 100
       }
     },
+    "ars_nouveau:ars_elemental.perk.summon_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "additionalentityattributes:player.bonus_loot_count_rolls": {
       "enabled": false,
       "min": {
@@ -482,6 +515,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "l2damagetracker:explosion_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "irons_spellbooks:holy_spell_power": {
@@ -823,6 +867,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "l2damagetracker:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "eidolon:max_soul_hearts": {
@@ -1177,6 +1232,17 @@
         "value": 10
       }
     },
+    "l2damagetracker:damage_absorption": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "galosphere:illager_resistance": {
       "enabled": false,
       "min": {
@@ -1441,6 +1507,28 @@
         "value": 1024
       }
     },
+    "l2damagetracker:bow_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "l2damagetracker:damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "tetra:ability_cooldown": {
       "enabled": false,
       "min": {
@@ -1497,6 +1585,17 @@
       }
     },
     "additionalentityattributes:generic.lava_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "l2damagetracker:crit_rate": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1758,6 +1857,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "savage_and_ravage:explosive_damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "playerex:mining": {
