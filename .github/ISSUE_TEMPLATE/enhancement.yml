@@ -1,0 +1,45 @@
+name: "Enhancement Request"
+description: "Suggest new features, quests, or mods."
+labels:
+    - Enhancement
+
+body:
+    - type: markdown
+      id: start
+      attributes:
+          value: "Thanks for suggesting an enhancement! Please fill out the fields below to give me all the details about your idea or improvement."
+
+    - type: textarea
+      id: details
+      attributes:
+          label: "Description"
+          description: "Describe what you have in mind with as much detail as you see fit. What problem does it solve? How would it work?"
+      validations:
+          required: true
+
+    - type: textarea
+      id: use_case
+      attributes:
+          label: "Use Case"
+          description: "Describe how this enhancement would be beneficial. For minor or self-explanatory changes such as adding a quest, you don't have to write anything."
+      validations:
+          required: false
+
+    - type: textarea
+      id: mods_involved
+      attributes:
+          label: "Related Mods or Features"
+          description: "Are there any specific mods or features this enhancement interacts with? If not applicable, you can leave this blank."
+          placeholder: |
+              -
+              - ...
+      validations:
+          required: false
+
+    - type: textarea
+      id: additional_context
+      attributes:
+          label: "Additional Context"
+          description: "Add any other context about the enhancement here. Do you have examples, references, or screenshots?"
+      validations:
+          required: false
