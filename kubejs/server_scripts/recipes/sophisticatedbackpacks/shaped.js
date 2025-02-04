@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
         .shaped("sophisticatedbackpacks:backpack", ["ABA", "ACA", "BBB"], {
             A: "#forge:string",
             B: "farmersdelight:canvas",
-            C: "#forge:chest",
+            C: "#forge:chests",
         })
         .id("sophisticatedbackpacks:backpack");
 });
