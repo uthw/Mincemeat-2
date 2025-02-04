@@ -43,7 +43,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "gamerule playersSleepingPercentage 50"
+					command: "gamerule playersSleepingPercentage 1"
 					elevate_perms: true
 					id: "32FE0241198C983D"
 					silent: true
