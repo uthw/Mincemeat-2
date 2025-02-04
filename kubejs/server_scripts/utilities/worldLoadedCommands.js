@@ -7,6 +7,7 @@ PlayerEvents.loggedIn((event) => {
         "gamerule artifacts.eternalSteak.enabled false",
         "gamerule artifacts.everlastingBeef.enabled false",
         "gamerule persistentAnimals false",
+        "gamerule playersSleepingPercentage 1",
     ];
 
     commands.forEach((command) => {
