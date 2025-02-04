@@ -77,7 +77,7 @@
 	"Soulspring Lamp Strength" = 0.6
 	#Defines items that can be used to dry the player
 	#Format: [["item_id", "turns_into"], ["item_id", "turns_into"], ...etc]
-	"Drying Items" = [["minecraft:sponge", "minecraft:wet_sponge"]]
+	"Drying Items" = []
 
 [Misc]
 	#Defines items that affect the player's temperature when in the inventory
