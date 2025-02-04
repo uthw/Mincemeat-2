@@ -1,5 +1,5 @@
 {
-  "allowReClinging": false,
+  "allowReClinging": true,
   "autoRotation": false,
   "onFallDoubleJump": true,
   "exhaustionWallJump": 0.8,
