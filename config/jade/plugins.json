@@ -54,6 +54,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "champions": {
+    "enable_affix_compact": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
