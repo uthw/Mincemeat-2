@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Botany Trees Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If a sapling is placed in a Botany Pot, it produces logs when fully grown."
+    }
+}

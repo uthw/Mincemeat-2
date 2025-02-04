@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Scrolls are single-use items, so it's best to write them into your spellbook using an Inscription Table for unlimited uses instead of casting them directly."
+    }
+}

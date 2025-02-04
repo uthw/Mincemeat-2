@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The Scroll Forge lets you craft scrolls to write into your spellbooks. Until then, you'll have to find scrolls by exploring the world."
+    }
+}
