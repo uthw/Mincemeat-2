@@ -105,3 +105,8 @@ controlify-natives/libsdl4j-natives-3.693c75e-windows64.dll.md5
 data/fabricDefaultResourcePacks.dat
 minemenu/menu.json
 config/sound_physics_remastered/
+config/quark-common.toml
+config/jade/sort-order.json
+config/jei/ingredient-list-mod-sort-order.ini
+config/jade/plugins.json
+config/xaerominimap.txt
