@@ -46,8 +46,6 @@ config/everycomp-hazardous.properties
 config/oculus.properties
 config/xaerominimap_entities.json
 config/fabric/indigo-renderer.properties
-config/sound_physics_remastered/reflectivity.properties
-config/sound_physics_remastered/occlusion.properties
 config/jei/recipe-category-sort-order.ini
 kubejs/assets/kubejs/textures/item/message.txt
 servers.dat
@@ -57,16 +55,13 @@ config/everycomp-hazardous.properties
 config/oculus.properties
 config/xaerominimap_entities.json
 config/fabric/indigo-renderer.properties
-config/sound_physics_remastered/occlusion.properties
-config/sound_physics_remastered/reflectivity.properties
+
 servers.dat
 servers.dat_old
 config/everycomp-hazardous.properties
 config/oculus.properties
 config/fabric/indigo-renderer.properties
-config/sound_physics_remastered/allowed_sounds.properties
-config/sound_physics_remastered/occlusion.properties
-config/sound_physics_remastered/reflectivity.properties
+
 config/craftpresence.json
 config/attributefix.json
 config/everycomp-common.toml
@@ -89,9 +84,7 @@ config/eldritch_end/mechanics/corruption.json
 config/fabric/indigo-renderer.properties
 config/fancymenu/layout_editor/widgets/element_layer_control.lewidget
 config/ftbquests/quests/chapters/getting_started.snbt
-config/sound_physics_remastered/allowed_sounds.properties
-config/sound_physics_remastered/occlusion.properties
-config/sound_physics_remastered/reflectivity.properties
+
 config/spark
 
 chesttracker/
@@ -103,9 +96,7 @@ config/fabric/indigo-renderer.properties
 config/jei/recipe-category-sort-order.ini
 config/apotheosis/names.cfg
 config/pneumaticcraft/ArmorFeatureStatus.cfg
-config/sound_physics_remastered/allowed_sounds.properties
-config/sound_physics_remastered/occlusion.properties
-config/sound_physics_remastered/reflectivity.properties
+
 config/spark/activity.json
 rhino.local.properties
 controlify-natives/libsdl4j-natives-2.28.2-11-windows64.dll
@@ -113,3 +104,4 @@ controlify-natives/libsdl4j-natives-3.693c75e-windows64.dll
 controlify-natives/libsdl4j-natives-3.693c75e-windows64.dll.md5
 data/fabricDefaultResourcePacks.dat
 minemenu/menu.json
+config/sound_physics_remastered/
