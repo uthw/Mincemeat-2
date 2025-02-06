@@ -2,7 +2,7 @@
     "difficultyWeight": 0.0187,
     "genericScale": 0,
     "affectHostiles": true,
-    "affectPeacefuls": false,
+    "affectPeacefuls": true,
     "modBlacklist": ["doggytalents"],
     "mode": "MAX_HEALTH",
     "damageScales": [
