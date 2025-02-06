@@ -12,7 +12,7 @@
 	#Displays a dripping water effect on-screen and/or with particles when the player is wet
 	#0: Off, 1: Particles, 2: On-Screen, 3: Both
 	#Range: 0 ~ 3
-	"Show Water Effect" = 3
+	"Show Water Effect" = 1
 
 ["UI Options"]
 	"Custom hotbar layout" = true
