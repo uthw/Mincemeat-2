@@ -1454,6 +1454,11 @@ ServerEvents.recipes((event) => {
             { output: "irons_spellbooks:alchemist_cauldron" },
             "irons_spellbooks:cinder_essence",
             "mowziesmobs:naga_fang"
+        ],
+        [
+            { output: "supplementaries:cannon" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum"
         ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
