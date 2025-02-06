@@ -52,7 +52,7 @@
     B:BonusWoolRecipesEnabled=true
 
     # Whether or not Bottle of Ichor should be enabled. [default: true, synchronized: yes]
-    B:BottleofIchorEnabled=true
+    B:BottleofIchorEnabled=false
 
     # Whether or not Bulwark of Blazing Pride should be enabled. [default: true, synchronized: yes]
     B:BulwarkofBlazingPrideEnabled=true

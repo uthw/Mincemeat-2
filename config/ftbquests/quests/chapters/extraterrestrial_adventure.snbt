@@ -444,6 +444,11 @@
 					item: "paraglider:heart_container"
 					type: "item"
 				}
+				{
+					id: "2067947454CAFA5F"
+					item: "enigmaticlegacy:ichor_bottle"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -624,13 +629,17 @@
 			description: [""]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
 				id: "cataclysm:ignitium_helmet"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "44F41502DDB1A529"
-			invisible: true
 			rewards: [{
 				id: "66543F7B2D618AB6"
 				item: "paraglider:heart_container"
