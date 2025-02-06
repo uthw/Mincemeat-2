@@ -83,7 +83,6 @@ config/eldritch_end/entities/tentacle.json
 config/eldritch_end/mechanics/corruption.json
 config/fabric/indigo-renderer.properties
 config/fancymenu/layout_editor/widgets/element_layer_control.lewidget
-config/ftbquests/quests/chapters/getting_started.snbt
 
 config/spark
 
