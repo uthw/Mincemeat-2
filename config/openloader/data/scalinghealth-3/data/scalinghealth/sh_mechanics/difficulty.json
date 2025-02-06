@@ -52,7 +52,7 @@
         "onBlightKilled": "difficulty",
         "onHostileKilled": "difficulty",
         "onPeacefulKilled": "difficulty",
-        "onPlayerKilled": "difficulty + 1",
+        "onPlayerKilled": "difficulty",
         "onPlayerDeath": "difficulty",
         "onPlayerSleep": "difficulty",
         "byEntity": [
