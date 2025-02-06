@@ -9,9 +9,9 @@ ServerEvents.recipes((event) => {
 
     event.remove({ output: "grapplemod:launcheritem" });
     event.shaped("grapplemod:launcheritem", ["EAE", "DBD", " C "], {
-        A: "#forge:rods/wooden", // TODO Replace with Spartan pole
+        A: "spartanweaponry:pole", 
         B: "aether:golden_gummy_swet",
-        C: "forbidden_arcanus:soul",
+        C: "quark:soul_bead",
         D: "minecraft:ender_pearl",
         E: "minecells:blank_rune",
     });

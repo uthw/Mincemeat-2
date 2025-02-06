@@ -176,8 +176,8 @@ climb_speed = 0.3
 [options.longfallboots]
 longfallbootsrecipe = false
 [options.enderstaff]
-ender_staff_strength = 1.0
-ender_staff_recharge = 100
+ender_staff_strength = 1.4
+ender_staff_recharge = 80
 [options.enchantments.wallrun]
 wall_jump_up = 0.7
 wall_jump_side = 0.4
