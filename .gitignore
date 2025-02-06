@@ -109,3 +109,4 @@ config/jade/sort-order.json
 config/jei/ingredient-list-mod-sort-order.ini
 config/jade/plugins.json
 config/xaerominimap.txt
+config/everycomp-entries.toml
