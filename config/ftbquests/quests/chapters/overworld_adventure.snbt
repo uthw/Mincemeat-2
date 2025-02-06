@@ -2483,11 +2483,18 @@
 		{
 			dependencies: ["3C53341E4A5B1E67"]
 			id: "5EE95A37004F9F6A"
-			rewards: [{
-				id: "3F44D86043B53106"
-				item: "paraglider:heart_container"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3F44D86043B53106"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "30D907E5BA2B3249"
+					item: "enigmaticlegacy:ichor_bottle"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: "traveloptics:echo_winglet"
@@ -2530,6 +2537,12 @@
 			]
 			id: "3F8C49BCA7072E50"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "4111374A4F5F9268"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
 			tasks: [
 				{
 					icon: "cataclysm:altar_of_amethyst"
@@ -2566,7 +2579,7 @@
 				""
 				"At the bottom of the deep pool directly beneath the central dome is an Altar of Void. You'll want to bring the Leviathan from the Void into the Overworld by right clicking the Altar with the Sacrifice. Don't forget to eat your Blessed Meat if you got it!"
 				""
-				"To prepare, bring something that lets you move through the water more quickly, like a Riptide trident. For a more extreme measure, opt to entirely drain the water from this room. Being an aquatic foe, Impaling is actually useful for once in this fight."
+				"To prepare, bring something that lets you move through the water more quickly, like a Riptide trident. You'll be disappointed with the results if you opt to entirely drain the room of water, so don't try it. Being an aquatic foe, Impaling is actually useful for once in this fight."
 				""
 				"Also, don't use ranged attacks unless you have Tide Arrows, because water resists the arrows' movement more than air does."
 				""
@@ -2955,6 +2968,69 @@
 			}]
 			x: 14.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"A theme you might've picked up on is the more grandiose and large a dungeon is, the more formidable its ruler."
+				""
+				"The Monastery subverts your expectations. The resident Sculptor is far from being a boss, but can still offer you an adventure nonetheless."
+				""
+				"The Sculptor can be challenged by bringing him a Bluff Rod. You'll find this soon enough by exploring the Monastery. Be sure to collect some souvenirs to bring back!"
+			]
+			id: "7D847F3BACE438C7"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0F0EAEECAD100D59"
+				structure: "mowziesmobs:monastery"
+				title: "Monastery"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D847F3BACE438C7"]
+			description: [
+				"You'll find another Blaze Relative, the Bluff, within the Monastery. You'll want to kill it to take its rod and bring it back to Tongbi. You can right-click him to open a trading interface."
+				""
+				"The Sculptor then rises high into the sky and creates stone boulders and swabs of dirt from the ground. You'll need to make your way up to him &cwithout doing anything that violates the spirit of the challenge&r - more on this in Tongbi's menu."
+				""
+				"Unless you have access to vast amounts of helpful items, you'll have to go about this the old-fashioned way -- you can't grapple or wall-jump onto them. You can, however, still dodge roll and coyote jump."
+				""
+				"If you're more methodical, you might bring something that has significant upwards propulsion &lwithout&r granting flight, like an Ender Staff."
+				""
+				"Right-click the Sculptor to complete his challenge. He'll reward you handsomely."
+			]
+			id: "596E627E97F6662D"
+			tasks: [{
+				id: "00D363D6CB2D69D8"
+				item: "mowziesmobs:bluff_rod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["596E627E97F6662D"]
+			description: [""]
+			id: "58310CFA04C12176"
+			subtitle: "Only Up lives on"
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "42139932A53B37AB"
+				type: "advancement"
+			}]
+			title: "You Must Believe"
+			x: -5.0d
+			y: 3.0d
 		}
 	]
 	title: "Overworld Adventure"
