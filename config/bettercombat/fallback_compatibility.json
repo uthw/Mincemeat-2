@@ -67,7 +67,7 @@
       "weapon_attributes": "bettercombat:sickle"
     },
     {
-      "item_id_regex": "soul_knife|the_judgement",
+      "item_id_regex": "soul_knife",
       "weapon_attributes": "bettercombat:soul_knife"
     },
     {
