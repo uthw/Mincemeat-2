@@ -103,17 +103,17 @@ global.gravescroll = (entity) => {
 };
 
 function applyEffectsAndTeleport(entity, targetDimension, effects) {
-    entity.server.runCommand(
+    entity.server.runCommandSilent(
         `execute as ${entity.username} at @s run effect give @s minecraft:resistance 8 4 true`
     );
 
     effects.forEach((effect) => {
-        entity.server.runCommand(
+        entity.server.runCommandSilent(
             `execute as ${entity.username} at @s run effect give @s ${effect} 20 0 true`
         );
     });
 
-    entity.server.runCommand(
+    entity.server.runCommandSilent(
         `execute as ${entity.username} in ${targetDimension} run tp @s ${entity.persistentData.deathx} ${entity.persistentData.deathy} ${entity.persistentData.deathz}`
     );
 }
