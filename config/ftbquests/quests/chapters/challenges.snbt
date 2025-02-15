@@ -3050,495 +3050,6 @@
 		}
 		{
 			description: [
-				"If you dare to do this you must get a good mob farm becuase to create 1 perfect gem you will need to collect a ton of 1 type of gem. To be esact to create 1 perfect gem you would need."
-				""
-				"32 Cracked"
-				"16 chiped"
-				"8 flawed"
-				"4 normal"
-				"2 flawless"
-				""
-				"{@pagebreak}"
-				""
-				"To get the mob spawners for this you could use the spawner extractor and presuised spawner to create a Large wall of spawners that will spawn a ton of mobs to do this. "
-			]
-			id: "0E9AD5F9726C3B47"
-			subtitle: "If you do this you are insane"
-			tasks: [
-				{
-					id: "4BC6C54F8C340213"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:blood"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "4D0E7DD0C934717D"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:cast_time"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "62F7DC8F2A3582A6"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:cooldown"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "75FCC415E340E8AC"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/ballast"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "13B3217607060604"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/brawlers"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "27A843E0024E0E00"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/breach"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "5F27D58E19F2DC49"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/combatant"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "26D1BCE22C7F9214"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/guardian"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "4EF47815CFF1ADF6"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/lunar"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "36039515567BB747"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/samurai"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "74C14217C1787723"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/slipstream"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "0D72577CF0FF4AB0"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/solar"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "4A744C01FC294249"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/splendor"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "1890D88FFA5D23B2"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/tyrannical"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "277CBF66BE328D21"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:core/warlord"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "29375494B88C5ACF"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:ender"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "3BE39BF7C28E3A9C"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:evocation"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "1F23E02AAF929988"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:fire"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "3B0226CDB79067B1"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:holy"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "2B97E6F29FD55F89"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:ice"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "3E905E09E34466DA"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:intelligent"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "041123F09547D22A"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:lightning"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "0A888A25A41D3604"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:nature"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "3026EAB0E6071936"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:overworld/earth"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "47CF22B1068E8276"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:overworld/royalty"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "7FA70DE979F143CA"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "irons_spellbooks:summoning"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "124692A7B287CEF3"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:the_end/endersurge"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "0B75C1FE71B3E16C"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:the_end/mageslayer"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					disable_toast: true
-					icon: "irons_spellbooks:invisibility_ring"
-					id: "07D950AA5FEE87D9"
-					stat: "minecraft:play_time"
-					title: " "
-					type: "stat"
-					value: 1
-				}
-				{
-					id: "63A5528539FA8A97"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:the_nether/inferno"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "15B19B41E48DF998"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:the_nether/blood_lord"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					icon: "irons_spellbooks:invisibility_ring"
-					id: "37D0369010C4DFFB"
-					stat: "minecraft:play_time"
-					title: " "
-					type: "stat"
-					value: 1
-				}
-			]
-			title: "Perfect gem collection"
-			x: 8.0d
-			y: 3.0d
-		}
-		{
-			description: [
 				"Some gems are exclusively found in the Nether or End."
 				""
 				"&nNether&r"
@@ -4830,6 +4341,24 @@
 					id: "7BA2D448008BEDB5"
 					item: "meetyourfight:music_disc_rosalyne"
 					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "71F606759D024CAC"
+					stat: "minecraft:play_time"
+					title: " "
+					type: "stat"
+					value: 1
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "1C7717BC165CAF99"
+					stat: "minecraft:play_time"
+					title: " "
+					type: "stat"
+					value: 1
 				}
 			]
 			title: "Collect Every Music Disc"
@@ -7980,7 +7509,282 @@
 					value: 1
 				}
 			]
-			title: "Cosmetic \"Non Binary\" ruler"
+			title: "Cosmetic Ruler"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Armorer: Blast Furnace"
+				""
+				"Butcher: Smoker"
+				""
+				"Cartographer: Cartography Table"
+				""
+				"Cleric: Brewing Stand"
+				""
+				"Farmer: Composter"
+				""
+				"Fisherman: Barrel"
+				""
+				"Fletcher: Fletching Table"
+				""
+				"Leatherworker: Cauldron"
+				""
+				"Librarian: Lectern"
+				""
+				"Mason: Stonecutter"
+				""
+				"Shepherd: Loom"
+				""
+				"Toolsmith: Smithing table"
+				""
+				"Weaponsmith: Grindstone"
+				""
+				"Carpenter :Saw (universal saw)"
+				""
+				"Computer scientist: Advanced Computer"
+				""
+				"Archeologist: Archeology table"
+				""
+				"Mechanic: Charging station"
+				""
+				"Engineer: Turntable"
+				""
+				"Machinist: Engineer’s crafting table"
+				""
+				"Electrician: Engineer's circuit Table"
+				""
+				"Outfitter: Banner"
+				""
+				"Gunsmith: Engineer’s Workbench"
+				""
+				"Stargazer: Star emitter"
+				""
+				"Wrangler: Trough"
+				""
+				"Shoveler: Tool Box"
+				""
+				"Nightwatcher: Bag of spoils"
+				""
+				"Summoner: Summoning Table"
+				""
+				"Alchemist: Alchemy Table"
+				""
+				"Forager: Forgers Table"
+				""
+				"Shady wizard: Arcane core"
+				""
+				"Scribe: Bestiary Lectern"
+				""
+				"Animal tamer: Pet bed"
+				""
+				"Chef: Cooking pot"
+				""
+				"Cook: Skillet"
+				""
+				"Engineer: Coffee maker"
+			]
+			id: "230C2C2CE46AE9E0"
+			tasks: [
+				{
+					id: "4D294F960C6A81D1"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "635A0F7973B59125"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					id: "1DEB9EB826DD5290"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+				{
+					id: "292494230D058164"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "2E5612DC141FEA08"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "18D4FE56E9D8C1FE"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "04210B1950137FE0"
+					item: "minecraft:fletching_table"
+					type: "item"
+				}
+				{
+					id: "3D96EF0CA8CDAA79"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "16EA284569BB0122"
+					item: "minecraft:lectern"
+					type: "item"
+				}
+				{
+					id: "71DC93F415CCB285"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "656EDBCF21D6304D"
+					item: "minecraft:loom"
+					type: "item"
+				}
+				{
+					id: "6A33B0C050521F20"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "37AD75797B8C9CB0"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+				{
+					id: "470823AF82B6C6F6"
+					item: "sawmill:sawmill"
+					type: "item"
+				}
+				{
+					id: "301362A216F73DCD"
+					item: "computercraft:computer_advanced"
+					type: "item"
+				}
+				{
+					id: "51A2E28C3330091F"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+				{
+					id: "31A384852577687A"
+					item: "mekanism:chargepad"
+					type: "item"
+				}
+				{
+					id: "5487DEABF924AA50"
+					item: "create:turntable"
+					type: "item"
+				}
+				{
+					id: "6592BC4BB761DE0F"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+				{
+					id: "42916B39908E6C4C"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+				{
+					id: "1DA486F5AC9E8CC0"
+					item: "immersiveengineering:circuit_table"
+					type: "item"
+				}
+				{
+					id: "23217F9C1A67D9D3"
+					item: "blue_skies:star_emitter"
+					type: "item"
+				}
+				{
+					id: "4CD2359D3F9014D0"
+					item: "blue_skies:trough"
+					type: "item"
+				}
+				{
+					id: "494CF01666983D4D"
+					item: "blue_skies:tool_box"
+					type: "item"
+				}
+				{
+					id: "46467F4ACA36A1B2"
+					item: "blue_skies:bag_of_spoils"
+					type: "item"
+				}
+				{
+					id: "63C4681726BC8832"
+					item: "blue_skies:summoning_table"
+					type: "item"
+				}
+				{
+					id: "60462DE6EAD25EFF"
+					item: "blue_skies:alchemy_table"
+					type: "item"
+				}
+				{
+					id: "36EE6C7C319BADD3"
+					item: "biomeswevegone:foragers_table"
+					type: "item"
+				}
+				{
+					id: "74B26516336C4BEF"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "35606D1EF2958C1F"
+					item: "iceandfire:lectern"
+					type: "item"
+				}
+				{
+					id: "6076304E95EAB5AF"
+					item: "domesticationinnovation:pet_bed_black"
+					type: "item"
+				}
+				{
+					id: "60C8617043D9F002"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "59A2F1B7E7EFD7F3"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71CA443A3636E7A2"
+					item: "actuallyadditions:coffee_machine"
+					type: "item"
+				}
+				{
+					id: "6DFC9D504E8E76A1"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:amadron_tablet"
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: "irons_spellbooks:invisibility_ring"
+					id: "5120E0F83B3DE88A"
+					stat: "minecraft:play_time"
+					title: "Automatically Completed"
+					type: "stat"
+					value: 1
+				}
+			]
+			title: "Workplace Union"
 			x: 12.5d
 			y: 3.0d
 		}
