@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "spartans_weaponry"
 	group: "357B296D74E0575E"
-	icon: "toolbelt:belt"
+	icon: "eidolon:basic_belt"
 	id: "2BED532CEDEE8CE1"
 	images: [
 		{
