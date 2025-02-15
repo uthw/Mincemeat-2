@@ -2045,7 +2045,7 @@
 				item: "enderio:slice_and_splice"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
@@ -2894,7 +2894,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0EAF87067B5236B3"]
@@ -2956,6 +2956,25 @@
 			]
 			x: 6.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["70E114954B563351"]
+			description: ["Coffee has a complex crafting tree involving many plates and alloys, but it's one of the best foods in the game if you can get it. It's more of a novelty than a necessity."]
+			id: "23E19D5676726E21"
+			subtitle: "None of the people I respect get good sleep."
+			tasks: [{
+				id: "436C9338A15B07D2"
+				item: {
+					Count: 1
+					id: "actuallyadditions:coffee_cup"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
 		}
 	]
 	title: "Tech Level 1"
