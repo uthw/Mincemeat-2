@@ -90,4 +90,9 @@ WorldgenEvents.remove((event) => {
         // ["aether:skyroot_forest", "aether:skyroot_grove", "aether:skyroot_meadow", "aether:skyroot_woodland"];
         props.blocks = ["minecraft:gravel"];
     });
+
+    event.removeOres(props => {
+        props.biomes = "blue_skies:searing_grassland";
+        props.blocks = ["minecraft:gravel"];
+    })
 });
