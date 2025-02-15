@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ice and Fire Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If you're being chased by a Sea Serpent, try to swim over a ravine. It will often get sucked down and become unable to continue its pursuit."
+    }
+}

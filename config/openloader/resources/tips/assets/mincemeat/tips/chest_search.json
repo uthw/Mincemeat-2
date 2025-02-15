@@ -5,6 +5,6 @@
         "color": "yellow"
     },
     "tip": {
-        "text": "If you misplace an item, press the Y key while hovering over it in the inventory or EMI to cause nearby containers that have that item to emit particles."
+        "text": "If you misplace an item, press the Y key while hovering over it in the inventory or JEI to cause nearby containers that have that item to emit particles."
     }
 }

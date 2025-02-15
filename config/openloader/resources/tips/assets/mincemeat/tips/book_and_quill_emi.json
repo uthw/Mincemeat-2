@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "EMI Tip",
+        "text": "JEI Tip",
         "bold": true,
         "color": "yellow"
     },
     "tip": {
-        "text": "If an item has a tab in EMI whose icon is a book and quill, it probably provides useful information on how to obtain it or its functions and is worth clicking on."
+        "text": "If an item has a tab in JEI whose icon is a book and quill, it probably provides useful information on how to obtain it or its functions and is worth clicking on."
     }
 }

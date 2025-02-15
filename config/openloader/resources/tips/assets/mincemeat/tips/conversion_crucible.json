@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Alex's Caves Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If, for some reason, you need to change what biome a certain part of the world is, you can do by dropping a Biome Treat into a Conversion Crucible."
+    }
+}

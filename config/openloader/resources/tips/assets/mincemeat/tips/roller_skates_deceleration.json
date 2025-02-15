@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Relics Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The effect from using Frozen Bones on your weapon stacks with Frost Aspect to immobilize your enemies."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "PneumaticCraft Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Pneumatic Boots can receive the Jet Boots Upgrade, which can accelerate you quickly through the air."
+    }
+}
