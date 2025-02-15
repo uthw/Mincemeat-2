@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Mincemeat 2"
 	#The version of the modpack
-	modpackVersion = "v0.4.13-hf1"
+	modpackVersion = "v0.4.14"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
