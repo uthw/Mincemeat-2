@@ -26,3 +26,10 @@
 	#Range: 2 ~ 4096
 	autoRefreshTicks = 20
 
+	[storagenetwork.facades]
+		#
+		# These items are not able to be used as Facade blocks for cables (shift-left-click to add or remove block facades while in not-creative)
+		itemsNotAllowed = ["minecraft:ladder", "minecraft:double_plant", "minecraft:waterlily", "minecraft:torch", "minecraft:*_torch", "minecraft:redstone", "minecraft:iron_bars", "minecraft:chest", "minecraft:ender_chest", "minecraft:sculk_vein", "minecraft:string", "minecraft:vine", "minecraft:rail", "minecraft:*_rail", "minecraft:brewing_stand", "minecraft:*_dripleaf", "minecraft:*_pane", "minecraft:*_sapling", "minecraft:*_sign", "minecraft:*_door", "minecraft:*_banner", "minecraft:*_shulker_box", "cyclic:*_pipe", "cyclic:*_bars", "storagenetwork:*"]
+		#Change this to 'false' to disable facades.  The facade feature lets you hide cables with blocks (does not consume the item, use shift-left-click when not creative)
+		enabled = true
+
