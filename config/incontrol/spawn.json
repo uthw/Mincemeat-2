@@ -184,5 +184,22 @@
         "healthmultiply": 3,
         "damagemultiply": 3,
         "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "hostile": true,
+        "structure": "integrated_stronghold:stronghold",
+        "healthmultiply": 3,
+        "damagemultiply": 2,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "iceandfire:amphithere",
+        "mincount": {
+            "amount": 10,
+            "perplayer": true
+        },
+        "result": "deny"
     }
 ]
