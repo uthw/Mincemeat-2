@@ -118,7 +118,7 @@
 	name_color = 16733525
 	value_color = 16777045
 	total_entities_color = 16755200
-	enabled = true
+	enabled = false
 
 	[modules_left.lines]
 		particles = true
@@ -131,15 +131,6 @@
 		water_creature = false
 		water_ambient = false
 		misc = false
-		wilderwildfireflies = false
-		wilderwildjellyfish = false
-		wilderwildtumbleweed = false
-		cave_creature = true
-		deep_sea_creature = true
-		aether_surface_monster = true
-		aether_darkness_monster = true
-		aether_sky_monster = true
-		aether_aerwhale = true
 
 [[modules_left]]
 	name = "sound"
