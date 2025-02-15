@@ -77,14 +77,14 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Lower number means faster smelting. Higher number means slower.
 	#
 	#Range: 0.0 ~ 1000000.0
-	nuclearFurnaceSmeltingSpeedModifier = 1.0
+	nuclearFurnaceSmeltingSpeedModifier = 0.5
 
 ["Cloak of Darkness Options"]
 	#----------------------------------
 	#
 	# Whether Cloak of Darkness's ability should be usable anywhere. Including in bright light or sunlight.
 	#
-	AllowedCloakOfDarknessAbilityInLight = false
+	AllowedCloakOfDarknessAbilityInLight = true
 
 ["Extinction Spear Options"]
 	#----------------------------------
@@ -180,7 +180,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	ferrouslimeArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	forsakenMaxHealth = 250.0
+	forsakenMaxHealth = 400.0
 	#Range: 1.0 ~ 1000000.0
 	forsakenAttackDamage = 10.0
 	#Range: 1.0 ~ 1000000.0
@@ -188,7 +188,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	forsakenSonicBoomWeakTaggedAttackDamage = 45.0
 	#Range: 0.0 ~ 1000000.0
-	forsakenArmor = 0.0
+	forsakenArmor = 6.0
 	#Range: 1.0 ~ 1000000.0
 	gammaroachMaxHealth = 14.0
 	#Range: 1.0 ~ 1000000.0
@@ -204,7 +204,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	gloomothArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	gossamerWormMaxHealth = 10.0
+	gossamerWormMaxHealth = 14.0
 	#Range: 0.0 ~ 1000000.0
 	gossamerWormArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
@@ -214,7 +214,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	grottoceratopsArmor = 8.0
 	#Range: 1.0 ~ 1000000.0
-	gumbeeperMaxHealth = 14.0
+	gumbeeperMaxHealth = 28.0
 	#Range: 1.0 ~ 1000000.0
 	gumbeeperAttackDamage = 4.0
 	#Range: 0.0 ~ 1000000.0
@@ -224,27 +224,27 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	gummyBearAttackDamage = 4.0
 	#Range: 1.0 ~ 1000000.0
-	gumWormMaxHealth = 150.0
+	gumWormMaxHealth = 300.0
 	#Range: 1.0 ~ 1000000.0
-	gumWormAttackDamage = 10.0
+	gumWormAttackDamage = 16.0
 	#Range: 0.0 ~ 1000000.0
-	gumWormArmor = 9.0
+	gumWormArmor = 15.0
 	#Range: 1.0 ~ 1000000.0
-	hullbreakerMaxHealth = 400.0
+	hullbreakerMaxHealth = 650.0
 	#Range: 1.0 ~ 1000000.0
-	hullbreakerAttackDamage = 16.0
+	hullbreakerAttackDamage = 22.0
 	#Range: 0.0 ~ 1000000.0
-	hullbreakerArmor = 0.0
+	hullbreakerArmor = 8.0
 	#Range: 1.0 ~ 1000000.0
 	lanternfishMaxHealth = 2.0
 	#Range: 0.0 ~ 1000000.0
 	lanternfishArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	licowitchMaxHealth = 40.0
+	licowitchMaxHealth = 80.0
 	#Range: 1.0 ~ 1000000.0
 	licowitchAttackDamage = 3.0
 	#Range: 1.0 ~ 1000000.0
-	luxtructosaurusMaxHealth = 600.0
+	luxtructosaurusMaxHealth = 1000.0
 	#Range: 1.0 ~ 1000000.0
 	luxtructosaurusAttackDamage = 12.0
 	#Range: 0.0 ~ 1000000.0
@@ -252,7 +252,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	luxtructosaurusFireBreathAttackDamage = 3.0
 	#Range: 1.0 ~ 1000000.0
-	magnetronMaxHealth = 30.0
+	magnetronMaxHealth = 60.0
 	#Range: 1.0 ~ 1000000.0
 	magnetronAttackDamage = 2.0
 	#Range: 0.0 ~ 1000000.0
@@ -268,7 +268,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	notorArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	nucleeperMaxHealth = 30.0
+	nucleeperMaxHealth = 80.0
 	#Range: 0.0 ~ 1000000.0
 	nucleeperArmor = 4.0
 	#Range: 1.0 ~ 1000000.0
@@ -306,27 +306,27 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	teletorArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	tremorsaurusMaxHealth = 150.0
+	tremorsaurusMaxHealth = 200.0
 	#Range: 1.0 ~ 1000000.0
 	tremorsaurusAttackDamage = 14.0
 	#Range: 0.0 ~ 1000000.0
 	tremorsaurusArmor = 8.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaMaxHealth = 500.0
+	tremorzillaMaxHealth = 700.0
 	#Range: 0.0 ~ 1000000.0
 	tremorzillaArmor = 10.0
 	#Range: 1.0 ~ 1000000.0
 	tremorzillaWeakStompDamage = 2.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaStrongStompDamage = 10.0
+	tremorzillaStrongStompDamage = 18.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaScratchAttackDamage = 10.0
+	tremorzillaScratchAttackDamage = 15.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaTailAttackDamage = 10.0
+	tremorzillaTailAttackDamage = 18.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaBiteAttackDamage = 10.0
+	tremorzillaBiteAttackDamage = 15.0
 	#Range: 1.0 ~ 1000000.0
-	tremorzillaBeamAttackDamage = 20.0
+	tremorzillaBeamAttackDamage = 30.0
 	#Range: 0.0 ~ 1000000.0
 	tremorzillaHighHealthRecoveryAmount = 2.0
 	#Range: 0 ~ 1000000
