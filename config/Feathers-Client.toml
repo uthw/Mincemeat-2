@@ -13,7 +13,7 @@
 	#Whether a sound is played when feathers freeze in cold biomes
 	"Cold Sound Effect" = true
 	#Whether armor weights are displayed when hovering over an item
-	"Display Weights in Inventory" = true
+	"Display Weights in Inventory" = false
 	#Whether armor weights are displayed as icons (true) or text (false) when hovering over an item
 	"Display Weight As Icons" = false
 	#Whether feather icons are affected by icons on the right side of the HUD.
