@@ -5186,6 +5186,51 @@
 			x: -3.0d
 			y: 6.5d
 		}
+		{
+			dependencies: ["2A2B25F44A4AE27B"]
+			description: [
+				"The main allure of Hex Casting is drawing pretty pictures in the grid because you don't have the slightest clue of what you're doing."
+				""
+				"You can start this process by seeking out your nearest Amethyst Geode. Sometimes, breaking the Amethyst there will yield Charged Amethyst, which you'll need to craft the staff."
+				""
+				"Right-clicking with the staff will open a dot grid of sorts, where you can click and drag to create shapes. The shapes you create correspond to certain commands. "
+				""
+				"The rotation of the shape doesn't matter, but the angular direction (clockwise or counterclockwise) does."
+				"{@pagebreak}"
+				"Let's not get ahead of ourselves. We still have a major factor to consider, one that almost every magic mod features: mana -- or media for hex casters."
+				""
+				"To quote from the Hex Notebook:"
+				""
+				"• Patterns will execute..."
+				"• Actions, which manipulate..."
+				"• The Stack, which is a list of…."
+				"• Iotas, which are simply"
+				"units of information."
+				""
+				"That's a lot of stuff, but I'll elaborate. A pattern is basically any shape you can draw in the hex grid, even if it turns red and produces a bunch of garbage."
+				""
+				"An action is something caused by one of the shapes turning blue. "
+			]
+			id: "173A561DF4516DC0"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Wait, I Wasn't Expecting Computer Science, I Want To Go Home"
+			tasks: [{
+				id: "2994B43DA3974496"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexcasting:staves"
+					}
+				}
+				title: "Any #hexcasting:staves"
+				type: "item"
+			}]
+			title: "Hex Casting"
+			x: -2.5d
+			y: 1.5d
+		}
 	]
 	title: "Supernatural Magic (WIP)"
 }
