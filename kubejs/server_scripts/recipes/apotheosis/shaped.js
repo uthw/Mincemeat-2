@@ -181,6 +181,38 @@ ServerEvents.recipes((event) => {
             },
             id: "apotheosis:cobweb",
         },
+        {
+            output: "3x apotheosis:sigil_of_socketing",
+            inputs: ["ABA", "CCC", "ADA"],
+            keys: {
+                A: "apotheosis:gem_dust",
+                B: "meetyourfight:violet_bloom",
+                C: "apotheosis:gem_fused_slate",
+                D: "",
+            },
+            id: "apotheosis:sigil_of_socketing",
+        },
+        {
+            output: "4x apotheosis:sigil_of_withdrawal",
+            inputs: ["ABA", "CDC", "AEA"],
+            keys: {
+                A: "apotheosis:gem_fused_slate",
+                B: "environmental:cartwheel",
+                C: "blue_skies:moonstone",
+                D: "forbidden_arcanus:dark_matter",
+                E: "alexscaves:sea_glass_shards",
+            },
+            id: "apotheosis:sigil_of_withdrawal",
+        },
+        {
+            output: "6x apotheosis:sigil_of_rebirth",
+            inputs: ["AAA", "BBB", "AAA"],
+            keys: {
+                A: "apotheosis:gem_fused_slate",
+                B: "forbidden_arcanus:arcane_crystal_dust",
+            },
+            id: "apotheosis:sigil_of_rebirth",
+        },
     ];
 
     recipes.forEach((recipe) => {

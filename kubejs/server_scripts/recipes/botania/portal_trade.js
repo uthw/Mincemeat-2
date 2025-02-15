@@ -16,7 +16,7 @@ ServerEvents.recipes((event) => {
     let recipes = [
         {
             output: { item: "actuallyadditions:coffee_beans" },
-            input: { item: "mowziesmobs:sol_visage" },
+            input: { item: "minecraft:cocoa_beans" },
         },
     ];
 

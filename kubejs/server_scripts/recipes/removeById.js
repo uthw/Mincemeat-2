@@ -132,6 +132,7 @@ ServerEvents.recipes((event) => {
         "eidolon:silver_chestplate",
         "eidolon:silver_leggings",
         "eidolon:silver_boots",
+        "apotheosis:sigil_of_socketing",
     ];
 
     toRemove.forEach((recipeId) => {

@@ -854,7 +854,7 @@ ServerEvents.recipes((event) => {
             "enchantinginfuser:enchanting_infuser",
             [" A ", "BCB", "CDC"],
             {
-                A: "eidolon:wraith_heart",
+                A: "ars_nouveau:wixie_shards",
                 B: "irons_spellbooks:magic_cloth",
                 C: "ars_nouveau:sourcestone",
                 D: "minecraft:enchanting_table",
@@ -1309,8 +1309,8 @@ ServerEvents.recipes((event) => {
             ["ABA", "BCB", "ABA"],
             {
                 A: "minecraft:slime_ball",
-                B: "aether:leather_gloves",
-                C: "#forge:dough/wheat",
+                B: "#forge:dough/wheat",
+                C: "aether:leather_gloves",
             },
         ],
         [

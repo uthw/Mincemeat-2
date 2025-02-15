@@ -281,6 +281,15 @@ ServerEvents.recipes((event) => {
                 "4x iceandfire:scales/dragon",
             ],
         },
+        {
+            output: "actuallyadditions:coffee_beans",
+            reagent: "neapolitan:adzuki_beans",
+            inputs: [
+                "minecraft:cocoa_beans",
+                "minecraft:blaze_powder",
+                "thermal:basalz_powder"
+            ]
+        }
     ];
 
     recipes.forEach((recipe) => {

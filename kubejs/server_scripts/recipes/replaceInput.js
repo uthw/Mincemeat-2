@@ -1448,18 +1448,49 @@ ServerEvents.recipes((event) => {
         [
             { output: "irons_spellbooks:alchemist_cauldron" },
             "#c:iron_ingots",
-            "#forge:ingots/silver"
+            "#forge:ingots/silver",
         ],
         [
             { output: "irons_spellbooks:alchemist_cauldron" },
             "irons_spellbooks:cinder_essence",
-            "mowziesmobs:naga_fang"
+            "mowziesmobs:naga_fang",
         ],
         [
             { output: "supplementaries:cannon" },
             "minecraft:iron_ingot",
-            "#forge:ingots/aluminum"
-        ]
+            "#forge:ingots/aluminum",
+        ],
+        [
+            { output: "sawmill:sawmill" },
+            "minecraft:iron_ingot",
+            "thermal:saw_blade",
+        ],
+        [
+            { output: "framedblocks:framing_saw" },
+            "minecraft:iron_ingot",
+            "thermal:saw_blade",
+        ],
+        [
+            { output: "framedblocks:powered_framing_saw" },
+            "minecraft:iron_ingot",
+            "thermal:saw_blade",
+        ],
+        [
+            { mod: "elevatorid" },
+            "minecraft:ender_pearl",
+            "ars_nouveau:manipulation_essence",
+        ],
+        [
+            { output: "create:item_drain" },
+            "minecraft:iron_bars",
+            "famersdelight:canvas",
+        ],
+        [{ output: "create:spout" }, "minecraft:dried_kelp", "quark:chute"],
+        [
+            { output: "grapplemod:block_grapple_modifier" },
+            "minecraft:anvil",
+            "galosphere:combustion_table",
+        ],
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
