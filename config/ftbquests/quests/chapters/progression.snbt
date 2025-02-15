@@ -569,6 +569,18 @@
 			x: -3.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["5DE22DEFA690FDE0"]
+			icon: "hexcasting:charged_amethyst"
+			id: "6237A6738A67472B"
+			tasks: [{
+				id: "38CFF7C9FE995697"
+				title: "Hex Casting"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
 	]
 	title: "Progression"
 }
