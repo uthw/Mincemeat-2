@@ -1,7 +1,7 @@
 {
     "startingValue": 0,
     "minValue": 0,
-    "maxValue": 300,
+    "maxValue": 180,
     "changePerSecond": 0.0012,
     "mode": {
         "type": "distance",
