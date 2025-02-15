@@ -807,6 +807,11 @@
 		}
 		{
 			dependencies: ["7A8F28E754BB375D"]
+			description: [
+				"Candicorn is a neutral horse relative that lives in the Candy Cavity. It can be tamed using Caramel Apples."
+				""
+				"While riding the Candicorn, a meter slowly fills up. Pressing a hotkey (under the Alex's Caves category) will cause it to enter a sugar rush."
+			]
 			id: "371169B5D8CE42C4"
 			tasks: [{
 				icon: {
