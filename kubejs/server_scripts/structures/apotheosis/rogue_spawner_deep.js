@@ -15,18 +15,18 @@ ServerEvents.highPriorityData((event) => {
             {
                 type: "minecraft:in_square",
             },
-            {
-                type: "minecraft:height_range",
-                height: {
-                    type: "minecraft:uniform",
-                    max_inclusive: {
-                        absolute: -1,
-                    },
-                    min_inclusive: {
-                        above_bottom: 6,
-                    },
-                },
-            },
+            // {
+            //     type: "minecraft:height_range",
+            //     height: {
+            //         type: "minecraft:uniform",
+            //         max_inclusive: {
+            //             absolute: -1,
+            //         },
+            //         min_inclusive: {
+            //             above_bottom: 6,
+            //         },
+            //     },
+            // },
             {
                 type: "minecraft:biome",
             },
