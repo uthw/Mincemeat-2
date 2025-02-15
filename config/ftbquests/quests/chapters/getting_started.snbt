@@ -758,58 +758,69 @@
 		{
 			dependencies: ["0A6DBC786BCF967E"]
 			description: [
+				"&l&cIMPORTANT:&r &cthe process of upgrading your hook has changed in 0.4.14, read carefully!&r"
+				""
 				"A fun and practical form of transportation. It can be upgraded for various use cases. It may be a good idea to carry multiple grappling hooks, each with different upgrades, at a time to fit your scenario."
+				""
+				"Upgrade your hook by crafting the upgrade you want and then right-clicking the Grappling Hook Modifier block with the hook. You'll then see a GUI where you can apply the modules you want."
 				""
 				"&7&oDid you know: this item is used in RLCraft speedruns to fling Battle Tower Golems to their deaths?&r"
 			]
 			id: "378BAA7FDE9DA51C"
-			tasks: [{
-				id: "70E71543A196274D"
-				item: {
-					Count: 1
-					id: "grapplemod:grapplinghook"
-					tag: {
-						Damage: 0
-						custom: {
-							angle: 20.0d
-							attract: 0b
-							attractradius: 3.0d
-							crc32: 673503158L
-							detachonkeyrelease: 0b
-							doublehook: 0b
-							enderstaff: 0b
-							hookgravity: 1.0d
-							maxlen: 30.0d
-							motor: 0b
-							motoracceleration: 0.2d
-							motordampener: 0b
-							motormaxspeed: 3.0d
-							motorwhencrouching: 0b
-							motorwhennotcrouching: 1b
-							oneropepull: 0b
-							phaserope: 0b
-							playermovementmult: 1.0d
-							pullbackwards: 1b
-							reelin: 1b
-							repel: 0b
-							repelforce: 1.0d
-							rocket: 0b
-							rocket_active_time: 0.5d
-							rocket_force: 1.0d
-							rocket_refuel_ratio: 15.0d
-							rocket_vertical_angle: 0.0d
-							smartdoublemotor: 1b
-							smartmotor: 0b
-							sneakingangle: 10.0d
-							sneakingverticalthrowangle: 0.0d
-							sticky: 0b
-							throwspeed: 2.0d
-							verticalthrowangle: 0.0d
+			tasks: [
+				{
+					id: "70E71543A196274D"
+					item: {
+						Count: 1
+						id: "grapplemod:grapplinghook"
+						tag: {
+							Damage: 0
+							custom: {
+								angle: 20.0d
+								attract: 0b
+								attractradius: 3.0d
+								crc32: 673503158L
+								detachonkeyrelease: 0b
+								doublehook: 0b
+								enderstaff: 0b
+								hookgravity: 1.0d
+								maxlen: 30.0d
+								motor: 0b
+								motoracceleration: 0.2d
+								motordampener: 0b
+								motormaxspeed: 3.0d
+								motorwhencrouching: 0b
+								motorwhennotcrouching: 1b
+								oneropepull: 0b
+								phaserope: 0b
+								playermovementmult: 1.0d
+								pullbackwards: 1b
+								reelin: 1b
+								repel: 0b
+								repelforce: 1.0d
+								rocket: 0b
+								rocket_active_time: 0.5d
+								rocket_force: 1.0d
+								rocket_refuel_ratio: 15.0d
+								rocket_vertical_angle: 0.0d
+								smartdoublemotor: 1b
+								smartmotor: 0b
+								sneakingangle: 10.0d
+								sneakingverticalthrowangle: 0.0d
+								sticky: 0b
+								throwspeed: 2.0d
+								verticalthrowangle: 0.0d
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "74DB3340DFA53864"
+					item: "grapplemod:block_grapple_modifier"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -3.5d
 		}
@@ -1228,22 +1239,6 @@
 			}]
 			x: 4.5d
 			y: -5.5d
-		}
-		{
-			dependencies: ["5A9940962797FE6E"]
-			description: [
-				"By this point you might have a lot of tools and weapons you rotate through. The Tool Belt solves this problem."
-				""
-				"You will need to open the controls and bind keys as you see fit for the Tool Belt. I'd recommend using some keys on the third row of your keyboard, that way they're accessible but also out of the way. "
-			]
-			id: "29FD143B5932E299"
-			tasks: [{
-				id: "10587E4686C41870"
-				item: "toolbelt:belt"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["2F5046E30C8273CB"]
@@ -2488,6 +2483,18 @@
 				{
 					id: "7E31408DE78C4362"
 					item: { Count: 64, id: "framedblocks:framing_saw" }
+					type: "item"
+				}
+				{
+					id: "0DAAB204D841984D"
+					item: {
+						Count: 1
+						id: "itemfilters:mod"
+						tag: {
+							value: "beautify"
+						}
+					}
+					title: "Beautify"
 					type: "item"
 				}
 			]
