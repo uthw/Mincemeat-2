@@ -126,6 +126,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "More like Void Out of Season now, right?"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "bosses_of_mass_destruction:void_blossom"
@@ -285,7 +286,11 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["2287726086131598"]
+			dependencies: [
+				"2287726086131598"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Welcome to the &1magnetic&r &ccaves&r!"
 				""
@@ -305,7 +310,11 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["2287726086131598"]
+			dependencies: [
+				"2287726086131598"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			icon: "alexscaves:dinosaur_nugget"
 			id: "114699FC353B18CE"
 			invisible: true
@@ -319,7 +328,11 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["2287726086131598"]
+			dependencies: [
+				"2287726086131598"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Being in the caves or having radioactive items in your inventory may give you the &2irradiated&r effect, which prevents you from healing."
 				""
@@ -339,7 +352,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2287726086131598"]
+			dependencies: [
+				"2287726086131598"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			icon: "alexscaves:copper_valve"
 			id: "403B8F4A5838932B"
 			invisible: true
@@ -354,7 +371,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2287726086131598"]
+			dependencies: [
+				"2287726086131598"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			icon: "alexscaves:darkened_apple"
 			id: "06D8CD953FBEE3D2"
 			invisible: true
@@ -386,6 +407,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Double the axe, double the fun"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
@@ -465,6 +487,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Most people are not okay, but they're taking siestas in the sun"
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				id: "34857EEFF05576C1"
@@ -530,6 +553,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Call me Ishmael."
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				id: "72E1AD4B8BA5F853"
@@ -556,6 +580,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Come forth"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				id: "368111B28F939589"
@@ -977,7 +1002,6 @@
 		}
 		{
 			dependencies: ["6B15B902E71DC308"]
-			hide_dependency_lines: true
 			id: "65853019D72D1C19"
 			tasks: [{
 				id: "263695347D478A8D"
@@ -990,8 +1014,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 11.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["06D8CD953FBEE3D2"]
@@ -999,8 +1023,6 @@
 				"A helmet-and-chestpiece set that has a powerful set bonus."
 				""
 				"When both are equipped, being in darker areas charges a meter, shown on screen. When this meter is full, press a hotkey to get a powerful effect."
-				""
-				"The effect will only activate if you're in a dark or dim area."
 			]
 			id: "14912F7215D1DA76"
 			tasks: [
@@ -1424,6 +1446,7 @@
 					type: "item"
 				}
 				{
+					icon: "alexscaves:sea_pig"
 					id: "0C4BCF1C02E5A89B"
 					observe_type: 5
 					timer: 0L
@@ -1521,6 +1544,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "The cryogenic aging didn't work so well"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				id: "1F4B16BC39F9A439"
@@ -1553,7 +1577,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			subtitle: "The King is Dead, Long Live the King"
+			subtitle: "Hee hee hee haw!"
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
 				icon: "irons_spellbooks:blood_staff"
@@ -1593,10 +1617,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2287726086131598"]
-			description: ["I had Candy Cavity quests but I accidentally deleted them when I resynced my GitHub account to Git on my laptop. I'll rewrite/restore them later."]
+			dependencies: [
+				"2287726086131598"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Immediately upon arriving, you may notice the Candy Cavity is much less foreboding than other cave biomes; there're no nuclear explosions or cultists here. Instead, you can eat every block. Each one counts towards Spice of Life, so get to work?!"]
 			id: "7A8F28E754BB375D"
 			invisible: true
+			subtitle: "Remember the texture pack?"
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
 				icon: "alexscaves:candy_cane"
@@ -1693,6 +1722,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Dead in the water (or air, in this case?)"
 			tasks: [{
 				entity: "meetyourfight:swampjaw"
 				id: "6A9F40BD6792E2B8"
@@ -1713,6 +1743,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Cabron, let me see your bells"
 			tasks: [{
 				entity: "meetyourfight:bellringer"
 				id: "78B705C3C6B6B595"
@@ -1732,6 +1763,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "90% of gamblers quit before they win big"
 			tasks: [
 				{
 					entity: "meetyourfight:dame_fortuna"
@@ -1789,6 +1821,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Berserker"
 			x: -6.5d
 			y: -1.0d
 		}
@@ -2196,12 +2229,14 @@
 		}
 		{
 			dependencies: ["0579360EE0F0D4AD"]
+			description: ["&7&oBut the sun is eclipsed by the moon"]
 			id: "4F0CB3BF8C85DACC"
 			rewards: [{
 				id: "506B9AEEC7FDFCA9"
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Everything under the sun is in tune"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "bosses_of_mass_destruction:ancient_anima"
@@ -2416,6 +2451,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Float down the Liffey"
 			tasks: [{
 				entity: "meetyourfight:rosalyne"
 				icon: "meetyourfight:violet_bloom"
@@ -2976,7 +3012,7 @@
 				""
 				"The Monastery subverts your expectations. The resident Sculptor is far from being a boss, but can still offer you an adventure nonetheless."
 				""
-				"The Sculptor can be challenged by bringing him a Bluff Rod. You'll find this soon enough by exploring the Monastery. Be sure to collect some souvenirs to bring back!"
+				"The Sculptor can be challenged by bringing him a Bluff Rod. You'll find this soon enough by exploring the Monastery. Be sure to collect some souvenirs to bring home!"
 			]
 			id: "7D847F3BACE438C7"
 			tasks: [{
@@ -3031,6 +3067,171 @@
 			title: "You Must Believe"
 			x: -5.0d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"71BD95734E41E591"
+				"34A83BB5D5DEFC82"
+				"21D6AB95329A4EEF"
+			]
+			description: [
+				"If you're not interested in the Everbright or Everdawn, you can instead choose to skip them entirely and progress into the Prison without leaving the Overworld."
+				""
+				"Click the little triangle on the top left of the quest to see who you need to best. Note that you'll need to kill all three bosses."
+				""
+				"Be warned, as this \"shortcut\" is much harder than taking the Blue Skies route."
+			]
+			hide_dependency_lines: true
+			icon: "forbidden_arcanus:sea_prism"
+			id: "00FC9BF5E2C82B11"
+			rewards: [{
+				auto: "invisible"
+				id: "254F7914C0A94788"
+				ignore_reward_blocking: true
+				stage: "minecells_access"
+				type: "gamestage"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "If you're tired of Blue Skies"
+			tasks: [{
+				icon: "irons_spellbooks:invisibility_ring"
+				id: "27585EA3A485E41D"
+				stat: "minecraft:play_time"
+				title: "Automatically Completes"
+				type: "stat"
+				value: 1
+			}]
+			title: "Alternative Path to Mine Cells"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			description: ["Can be found in dark purple towers."]
+			id: "7AB1C363FF5D6796"
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: "alexscaves:radiant_essence"
+				id: "7EA785EE55389E48"
+				title: "Kill a Licowitch"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			description: [
+				"You can make Gelatin by killing and cooking Sweetish Fish."
+				""
+				"Gelatin can be turned into a couple of accessories, like a fun pair of boots."
+			]
+			id: "1EF60F0350C0A0CA"
+			tasks: [{
+				id: "7A951BA4E8183F6E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alexscaves:gelatins"
+					}
+				}
+				title: "Any #alexscaves:gelatins"
+				type: "item"
+			}]
+			title: "Gelatin"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7AB1C363FF5D6796"]
+			description: ["This furnace can summon gingerbread men when given a redstone signal."]
+			id: "41045BA55ED040FC"
+			tasks: [{
+				id: "016D3F9CFBEB0107"
+				item: "alexscaves:confection_oven"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7A8F28E754BB375D"]
+			id: "0B5B61503823E249"
+			tasks: [{
+				id: "22E9293E87882A17"
+				item: "alexscaves:shot_gum"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7AB1C363FF5D6796"]
+			id: "423BE732F25FB885"
+			tasks: [{
+				id: "63CD182F00EA38FF"
+				item: {
+					Count: 1
+					id: "alexscaves:candy_cane_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1EF60F0350C0A0CA"]
+			description: ["The Gobthumper, when placed, summons the massive Gum Worm. Hooking onto it with the Candy Cane Hook lets you ride it."]
+			id: "4103684D9105470C"
+			tasks: [{
+				id: "10C85DE55182D059"
+				item: "alexscaves:gobthumper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4103684D9105470C"]
+			description: ["Crafted using the Sweet Tooth, dropped by the Gum Worm. It's able to eat any food in your inventory and automatically feed you when you get hungry."]
+			id: "557A09990960B97E"
+			tasks: [{
+				id: "366D0E99BF281806"
+				item: "alexscaves:sack_of_sating"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7AB1C363FF5D6796"]
+			description: [
+				"Perhaps one of the most useful and intriguing parts of the Candy Cavity is the ability to change parts of your world to be biomes of your choosing."
+				""
+				"You'll need to eat the Biome Treat in the biome you want duplicated, drop the treat into the cauldron, then follow the instructions (it will want blocks from that biome)."
+			]
+			id: "7E15B90CC27673C7"
+			tasks: [
+				{
+					id: "05DEB063BA914BE6"
+					item: "alexscaves:conversion_crucible"
+					type: "item"
+				}
+				{
+					id: "6990FD2E80BC3F65"
+					item: "alexscaves:biome_treat"
+					type: "item"
+				}
+			]
+			title: "Biome Conversion"
+			x: 4.0d
+			y: 12.5d
 		}
 	]
 	title: "Overworld Adventure"
