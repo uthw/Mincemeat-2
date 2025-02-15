@@ -192,7 +192,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["722B113FC9042698"]
+			dependencies: [
+				"722B113FC9042698"
+				"00FC9BF5E2C82B11"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"These &bOverworld Portals&r are found scattered across the Overworld, much like the Gatekeeper Houses."
 				""
@@ -504,13 +508,31 @@
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
+			description: ["This is not every structure you can find in the Nether."]
 			icon: "nethersdelight:propelplant_cane"
 			id: "70795731019BA757"
-			tasks: [{
-				id: "106EC453F7278477"
-				structure: "#betterfortresses:better_fortresses"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "106EC453F7278477"
+					structure: "#betterfortresses:better_fortresses"
+					type: "structure"
+				}
+				{
+					id: "397B769F18879AE0"
+					structure: "betternether:nether_city"
+					type: "structure"
+				}
+				{
+					id: "7C8364A2B1A698F4"
+					structure: "repurposed_structures:ruins_nether"
+					type: "structure"
+				}
+				{
+					id: "01EF5FD5202AC6CB"
+					structure: "repurposed_structures:ancient_city_nether"
+					type: "structure"
+				}
+			]
 			title: "Explore Nether structures"
 			x: 11.0d
 			y: -3.0d
