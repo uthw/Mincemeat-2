@@ -183,7 +183,8 @@ ServerEvents.recipes((event) => {
         // "sullysmod:waxed_oxidized_copper_button",
         "meetyourfight:ace_of_iron",
         "meetyourfight:dusk_key",
-        "create_jetpack:jetpack"
+        "create_jetpack:jetpack",
+        "enigmaticlegacy:end_anchor"
     ];
 
     toRemove.forEach((item) => {
