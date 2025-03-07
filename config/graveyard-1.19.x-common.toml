@@ -156,9 +156,9 @@
 
 	["The Graveyard - Corrupted Champion Config".corruptedChampion]
 		#Range: 1.0 ~ 1024.0
-		healthInCastingPhase = 600.0
+		healthInCastingPhase = 700.0
 		#Range: 1.0 ~ 1024.0
-		healthInHuntingPhase = 250.0
+		healthInHuntingPhase = 300.0
 		#Range: 1.0 ~ 2048.0
 		damageCastingPhase = 40.0
 		#Range: 1.0 ~ 2048.0
