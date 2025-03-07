@@ -1,0 +1,49 @@
+#Starting points for the altar.
+startingPoints = 500
+#The number of points to increase after each victory.
+pointsIncrease = 100
+#Maximum ratio of remaining points to mob cost for summoning.
+#For example, with a value of 10 and remaining points of 500, mobs with a cost of 50 or less will not be summoned.
+#If no mob can be summoned within 5 attempts, a random mob will be summoned regardless of its cost.
+mobCostRatio = 20
+#Base cost threshold for scaling summoned mobs.
+#If a mob has this cost or higher, it will always be included in the first summon wave.
+#When remaining points exceed this value multiplied by mobCostRatio, mob stats and costs will start increasing.
+#This ensures that difficulty increases by making mobs stronger rather than just summoning more of them.
+baseScalingThreshold = 120
+#Chance for spawning a squad of mobs instead of a single mob.
+#For example, a value of 0.35 means a 35% chance to spawn a squad.
+#Range: 0.0 ~ 1.0
+squadSpawnChance = 0.35
+#Number of mobs in a squad when squad spawning occurs.
+#For example, a value of 3 means 3 identical mobs will spawn.
+#If there are not enough points to spawn the full squad, only as many mobs will spawn as the points allow.
+squadSpawnSize = 3
+#Enables or disables setting the time to night when the battle starts.
+#If true, the game will automatically switch to night time at the start of the battle.
+nightTime = true
+#Enables or disables starting rain when the battle begins.
+#If true, it will start raining at the beginning of the battle.
+enableRain = false
+#Determines whether summoned mobs drop items upon death.
+#If true, summoned mobs will drop their loot as usual.
+#If false, no items will drop from summoned mobs.
+enableMobItemDrop = true
+#Determines whether the reward key can only be used on empty chests.
+#If true, the key cannot be applied to a chest that contains items.
+requireEmptyChest = false
+#Should the defeat message be shown when the player leaves the arena?
+enableLossMessageLeave = true
+#Should the defeat message be shown when the player dies in battle?
+enableLossMessageDeath = true
+#Show an unclaimed reward message when any summoned mob has the Glowing effect.
+enableUnclaimedRewardMessage = true
+#If true, each player has their own points and difficulty level,
+#which are the same across all arenas.
+#If false, each Altar Battle has its own points and difficulty level.
+individualPlayerStats = false
+#List of mobs with their values (e.g., [["minecraft:zombie", 10]])
+mobValues = [["minecraft:pillager", 35], ["irons_spellbooks:pyromancer", 130], ["alexsmobs:murmur", 40], ["cataclysm:coral_golem", 160], ["minecraft:zoglin", 55], ["alexsmobs:mimicube", 40], ["alexscaves:licowitch", 50], ["cataclysm:elite_draugr", 40], ["irons_spellbooks:archevoker", 130], ["galosphere:berserker", 210], ["alexscaves:brainiac", 100], ["savage_and_ravage:executioner", 60], ["cataclysm:amethyst_crab", 250], ["irons_spellbooks:apothecarist", 130], ["iceandfire:troll", 80], ["savage_and_ravage:trickster", 40], ["irons_spellbooks:necromancer", 80], ["aquamirae:tortured_soul", 40], ["minecraft:warden", 2000], ["alexsmobs:warped_mosco", 170], ["cataclysm:draugr", 30], ["mowziesmobs:bluff", 85], ["minecraft:zombified_piglin", 35], ["irons_spellbooks:citadel_keeper", 130], ["minecraft:witch", 30], ["minecraft:wither_skeleton", 45], ["alexscaves:deep_one_mage", 130], ["minecraft:husk", 25], ["irons_spellbooks:cryomancer", 130], ["iceandfire:cyclops", 250], ["savage_and_ravage:iceologer", 50], ["savage_and_ravage:griefer", 50], ["savage_and_ravage:skeleton_villager", 30], ["alexscaves:deep_one_knight", 85], ["minecraft:blaze", 40], ["minecraft:skeleton", 30], ["cataclysm:wadjet", 250], ["minecraft:ravager", 150], ["alexscaves:caniac", 40], ["minecraft:vindicator", 50], ["minecraft:magma_cube", 25], ["alexsmobs:rocky_roller", 25], ["cataclysm:royal_draugr", 40], ["alexsmobs:guster", 25], ["minecraft:evoker", 80], ["minecraft:slime", 20], ["minecraft:illusioner", 45], ["quark:forgotten", 90], ["iceandfire:stymphalian_bird", 40], ["mowziesmobs:naga", 60], ["cataclysm:the_prowler", 250], ["cataclysm:aptrgangr", 250], ["cataclysm:coralssus", 180], ["minecraft:stray", 35], ["cataclysm:ender_golem", 250], ["caverns_and_chasms:mime", 100], ["minecraft:zombie", 20]]
+#A list of loot tables for the chest
+lootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/ancient_city", "minecraft:chests/ancient_city_ice_box", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasure", "minecraft:chests/buried_treasure", "minecraft:chests/desert_pyramid", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest", "minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/pillager_outpost", "minecraft:chests/ruined_portal", "minecraft:chests/shipwreck_map", "minecraft:chests/shipwreck_supply", "minecraft:chests/shipwreck_treasure", "minecraft:chests/simple_dungeon", "minecraft:chests/stronghold_corridor", "minecraft:chests/stronghold_crossing", "minecraft:chests/stronghold_library", "minecraft:chests/underwater_ruin_big", "minecraft:chests/underwater_ruin_small", "minecraft:chests/village/village_temple", "minecraft:chests/woodland_mansion", "iceandfire:chest/fire_dragon_female_cave", "iceandfire:chest/fire_dragon_male_cave", "iceandfire:chest/graveyard", "iceandfire:chest/ice_dragon_female_cave", "iceandfire:chest/ice_dragon_male_cave", "iceandfire:chest/lightning_dragon_female_cave", "iceandfire:chest/lightning_dragon_male_cave", "iceandfire:chest/mausoleum_chest"]
+
