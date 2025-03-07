@@ -14,7 +14,7 @@
 	#Allowed Values: BLACKLIST, WHITELIST
 	dimensionPermission = "BLACKLIST"
 	#A list of entities that are blacklisted/whitelisted for champions
-	entitiesList = []
+	entitiesList = ["blue_skies:artificial_golem", "blue_skies:spewter", "blue_skies:snow_owl", "blue_skies:nested_spider", "iceandfire:fire_dragon", "iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hydra", "twilightforest:armored_giant", "alexsmobs:void_worm", "undergarden:forgotten_guardian", "cataclysm:ignis", "cataclysm:ender_golem", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "blue_skies:summoner", "blue_skies:alchemist", "blue_skies:starlit_crusher", "blue_skies:arachnarch", "botania:pink_wither", "botania:doppleganger", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:rosalyne", "meetyourfight:rose_spirit", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw", "ars_nouveau:wilden_boss", "aquamirae:maze_mother", "aquamirae:captain_cornelia", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:umvuthi", "minecraft:vex", "lost_aether_content:aerwhale_king", "aether:valkyrie_queen", "aether:sun_spirit", "aether:slider", "minecells:concierge", "minecells:conjunctivius", "minecells:sewers_tentacle", "mowziesmobs:umvuthana_crane", "mowziesmobs:umvuthana_raptor", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:gauntlet", "alexscaves:forsaken", "alexscaves:tremorzilla", "alexscaves:tremorsaurus", "alexscaves:hullbreaker", "graveyard:lich", "graveyard:ghoul", "cataclysm:the_prowler", "cataclysm:the_harbinger", "cataclysm:ancient_remnant", "cataclysm:the_leviathan", "cataclysm:kobolediator", "cataclysm:wadjet", "cataclysm:maledictus", "cataclysm:aptrgangr", "irons_spellbooks:dead_king", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:summoned_polar_bear", "irons_spellbooks:summoned_skeleton", "irons_spellbooks:summoned_vex", "irons_spellbooks:summoned_zombie", "conjurer_illager:conjurer", "galosphere:berserker", "galosphere:preserved"]
 	#Set whether the entities list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	entitiesPermission = "BLACKLIST"
@@ -26,4 +26,11 @@
 	showParticles = true
 	#Set to true to show champion tier and affixes in The One Probe overlay
 	enableTOPIntegration = true
+	#Enable debug for game testing
+	enableDebug = false
+	#Set to true to enable champions entity allow list configuration by datapack
+	allowChampionsList = true
+	#The permission of champions entity allow list datapack.
+	#Allowed Values: BLACKLIST, WHITELIST
+	allowChampionsPermission = "WHITELIST"
 
