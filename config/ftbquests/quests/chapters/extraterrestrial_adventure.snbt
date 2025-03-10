@@ -671,7 +671,7 @@
 			tasks: [
 				{
 					id: "06D70FE581A1EDD6"
-					structure: "cataclysm:ruined_citadel"
+					structure: "cataclysm:burning_arena"
 					type: "structure"
 				}
 				{
