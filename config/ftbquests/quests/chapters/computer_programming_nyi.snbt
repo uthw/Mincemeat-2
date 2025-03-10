@@ -197,10 +197,6 @@
 				"Pretty cool, right?"
 			]
 			id: "2268E46AD333F9CD"
-			rewards: [{
-				id: "5864258634DAA9C2"
-				type: "custom"
-			}]
 			tasks: [
 				{
 					id: "1BD378ADB28E7531"

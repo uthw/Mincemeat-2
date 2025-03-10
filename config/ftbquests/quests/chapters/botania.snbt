@@ -17,10 +17,6 @@
 		{
 			description: ["Botania is a classic tech mod that is themed around natural magic. It's different from any other tech mods you may have used up to this point, though, containing RPG-like elements such as equipment, trinkets, and boss fights."]
 			id: "0CC23EBAA624C4C6"
-			rewards: [{
-				id: "0275262F31075019"
-				type: "custom"
-			}]
 			shape: "hexagon"
 			subtitle: "The kitchen sink mod"
 			tasks: [{
@@ -40,10 +36,6 @@
 			dependencies: ["0CC23EBAA624C4C6"]
 			description: ["Generally, two petals can be made from one block, but taller variants can be plucked with shears for four petals."]
 			id: "35A9F1C4FA55A371"
-			rewards: [{
-				id: "74F547ECF1D8C002"
-				type: "custom"
-			}]
 			subtitle: "Petals are a crafting ingredient in Botania."
 			tasks: [{
 				id: "5524616673CACB0D"
@@ -64,10 +56,6 @@
 			dependencies: ["35A9F1C4FA55A371"]
 			description: ["You should make a lot of these to collect lots of petals, since they are used often in Botania's recipes."]
 			id: "30F34FCDC31CD2E9"
-			rewards: [{
-				id: "42C7BC61DD3BB60D"
-				type: "custom"
-			}]
 			subtitle: "Using on the grass can grow some Botania flowers."
 			tasks: [{
 				id: "0F1C27C3320FD6DB"
@@ -87,10 +75,6 @@
 				"From your guide book: \"A simple tip for the more efficiency-minded: Up to twenty seconds after crafting a flower and after refilling the water, if you right-click the apothecary with an empty hand, it'll pull another set of the same ingredients out of your inventory, for quick crafting in bulk.\""
 			]
 			id: "0C54EDFDF7DC2500"
-			rewards: [{
-				id: "28F07666358D7CBE"
-				type: "custom"
-			}]
 			subtitle: "When given water, throwing in certain collections of mystical petals causes this block to absorb their energies. Begin the process by throwing in any seeds."
 			tasks: [{
 				id: "4628B25CFF4DFDBF"
@@ -103,10 +87,6 @@
 		{
 			dependencies: ["0C54EDFDF7DC2500"]
 			id: "2B46AF8CE1809421"
-			rewards: [{
-				id: "58DA173AECD1F420"
-				type: "custom"
-			}]
 			subtitle: "Turns wood and stone blocks into livingwood and livingrock, which are crafting ingredients."
 			tasks: [{
 				id: "6C3147323A3B4482"
@@ -120,10 +100,6 @@
 			dependencies: ["2B46AF8CE1809421"]
 			description: ["Complete the ritual using the items specified under the checkmark and arrow. Shift right click to take item off"]
 			id: "40D5A2EF84EBB3C7"
-			rewards: [{
-				id: "210027047CE7C7B3"
-				type: "custom"
-			}]
 			subtitle: "Makes runes, which are crafting ingredients. Right click on it with an item to put it on the altar. Needs mana instead of water"
 			tasks: [{
 				id: "697CF4E1E002FA69"
@@ -137,10 +113,6 @@
 			dependencies: ["0C54EDFDF7DC2500"]
 			description: ["When placed, this flower automatically binds itself to the nearest mana spreader. You may shift right click the flower and then do the same to a spreader if you'd like to rebind it."]
 			id: "278CC3F3C1AD1C6D"
-			rewards: [{
-				id: "20C659EABB13ECA1"
-				type: "custom"
-			}]
 			subtitle: "Burns items that can be used as furnace fuel to generate mana"
 			tasks: [{
 				id: "771BEDACB60D97E7"
@@ -157,10 +129,6 @@
 				"Here's an example of a farm you can use. The pressure plate uses the mechanic of the crate stopping when given a redstone signal."
 			]
 			id: "7B0AFB41528211E3"
-			rewards: [{
-				id: "63E44C0C851A301D"
-				type: "custom"
-			}]
 			subtitle: "When items are put in its inventory, they fall through the hole in the bottom"
 			tasks: [{
 				id: "790DFA93B3E561DD"
@@ -173,10 +141,6 @@
 		{
 			dependencies: ["0C54EDFDF7DC2500"]
 			id: "412F2C1C93006975"
-			rewards: [{
-				id: "37B836FBD281C860"
-				type: "custom"
-			}]
 			subtitle: "Sucks up nearby water to generate mana before decaying after 3 in-game days"
 			tasks: [{
 				id: "17DF6C4E84FFD27A"
@@ -247,10 +211,6 @@
 				"Items in your inventory requiring mana will drain the tablet automatically."
 			]
 			id: "17A2A2D56B549FB6"
-			rewards: [{
-				id: "050AFE042F8377D9"
-				type: "custom"
-			}]
 			subtitle: "It doesn't have Angry Birds"
 			tasks: [{
 				id: "1DB59F8D37EBCDC2"
@@ -268,17 +228,11 @@
 			dependencies: ["0BA546DC8B8D476A"]
 			description: ["- You can combine two mana lenses using either a slime ball or bottle of honey."]
 			id: "4FFAA8A577F95B12"
-			rewards: [
-				{
-					id: "1D3E5150374F00FB"
-					type: "custom"
-				}
-				{
-					id: "60B2A051822CDC8E"
-					item: "botania:pool_minecart"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "60B2A051822CDC8E"
+				item: "botania:pool_minecart"
+				type: "item"
+			}]
 			subtitle: "Upgrade for a mana spreader. Can be dyed, and add effects to the spreader they're attached to. See JEI for the different lenses."
 			tasks: [{
 				id: "0A2F14175F317CF1"
@@ -295,10 +249,6 @@
 		{
 			dependencies: ["6A0DCA9557AF4CD2"]
 			id: "419AA9ED181F13C7"
-			rewards: [{
-				id: "7A0EB28839B3DE84"
-				type: "custom"
-			}]
 			subtitle: "Better mana spreader."
 			tasks: [{
 				id: "56605B02D0F6211E"
@@ -311,10 +261,6 @@
 		{
 			dependencies: ["0C54EDFDF7DC2500"]
 			id: "61F6869A0D42ACB0"
-			rewards: [{
-				id: "7F92862AB75D977A"
-				type: "custom"
-			}]
 			subtitle: "Changes color depending on the profit/loss of the pool next to it"
 			tasks: [{
 				id: "5D48CC311DDB38AB"
@@ -327,10 +273,6 @@
 		{
 			dependencies: ["0BA546DC8B8D476A"]
 			id: "06987673FFD52F32"
-			rewards: [{
-				id: "396E892AB8950178"
-				type: "custom"
-			}]
 			subtitle: "Converts incoming mana to RF which is pretty cool"
 			tasks: [{
 				id: "4B5E6118B41D01DF"
@@ -343,10 +285,6 @@
 		{
 			dependencies: ["1E9420A3765BFAD9"]
 			id: "1CE6A334BA3D6FC8"
-			rewards: [{
-				id: "76D2E18FEE200253"
-				type: "custom"
-			}]
 			subtitle: "When bound to a mana pool, your items that use mana as durability will get their charge from the mirror"
 			tasks: [{
 				id: "7A4F5092CE85FC51"
@@ -368,10 +306,6 @@
 				"Bursts passing through the prism have their effects modified depending on the lens."
 			]
 			id: "49EC386B0C7A5336"
-			rewards: [{
-				id: "658D0E77C05A04C1"
-				type: "custom"
-			}]
 			subtitle: "Prisms are a more convenient way for mana lenses to be changed."
 			tasks: [{
 				id: "05443120AE63203B"
@@ -400,10 +334,6 @@
 		{
 			dependencies: ["0BA546DC8B8D476A"]
 			id: "58779E8265553E35"
-			rewards: [{
-				id: "661D17DAD9245C8A"
-				type: "custom"
-			}]
 			subtitle: "Mana entering this block is deleted"
 			tasks: [{
 				id: "39D54D4A25A04C66"
@@ -433,10 +363,6 @@
 				"Can be dyed. The star orbiting it changes color."
 			]
 			id: "1B51A4C1DE504D62"
-			rewards: [{
-				id: "59F4F2D313E289EA"
-				type: "custom"
-			}]
 			subtitle: "Place a spark on a mana pool and another on another valid item"
 			tasks: [{
 				id: "505508ABEEE14F15"
@@ -499,10 +425,6 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "3F0D8F2D6BF7BB34"
-			rewards: [{
-				id: "6E59089DB19EA1B2"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "1D74176DADA0ED02"
 				item: "botania:entropinnyum"
@@ -515,10 +437,6 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "276BB2128C4B2A37"
-			rewards: [{
-				id: "05BDA35010D40BF3"
-				type: "custom"
-			}]
 			subtitle: "Eats food and generates mana based on saturation. It must be a fan of Spice of Life since it doesn't like eating the same thing constantly."
 			tasks: [{
 				id: "07EC7B87F014BDB3"
@@ -532,10 +450,6 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "0DC6EF0C1BD504EA"
-			rewards: [{
-				id: "5A6FB409D6A825C1"
-				type: "custom"
-			}]
 			subtitle: "Eats cake"
 			tasks: [{
 				id: "240B7BC6B68A4A24"
@@ -549,10 +463,6 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "10AC00C23B561D62"
-			rewards: [{
-				id: "4CA648D02D7485A0"
-				type: "custom"
-			}]
 			subtitle: "Eats slimes"
 			tasks: [{
 				id: "66E6A1F921953D64"
@@ -566,10 +476,6 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "3BF7155B188F0106"
-			rewards: [{
-				id: "520493343A13D016"
-				type: "custom"
-			}]
 			subtitle: "Takes XP to generate mana"
 			tasks: [{
 				id: "726B7A466F238A00"
@@ -583,10 +489,6 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "508CEE79471E44F9"
-			rewards: [{
-				id: "2C0017A773A6C722"
-				type: "custom"
-			}]
 			subtitle: "Eats lava"
 			tasks: [{
 				id: "62F428F40D6CA5AA"
@@ -600,10 +502,6 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "668FAA92294CF348"
-			rewards: [{
-				id: "7A358CA30DD8241A"
-				type: "custom"
-			}]
 			subtitle: "Eats the trees"
 			tasks: [{
 				id: "473219D94484EB8F"
@@ -616,10 +514,6 @@
 		{
 			dependencies: ["1B51A4C1DE504D62"]
 			id: "60B3AA5D699D3A68"
-			rewards: [{
-				id: "2476A4CA558E52CF"
-				type: "custom"
-			}]
 			subtitle: "Please check your lexicon for these items."
 			tasks: [{
 				id: "1F7606558F437AD1"
@@ -659,10 +553,6 @@
 				"1B51A4C1DE504D62"
 			]
 			id: "3A19695C8476D071"
-			rewards: [{
-				id: "5C4A3636FB5B3CD1"
-				type: "custom"
-			}]
 			subtitle: "Multiblock used to make Terrasteel, you can use a schematicannon. The agglomerator needs mana, achieve this with a spark"
 			tasks: [
 				{
@@ -690,10 +580,6 @@
 			dependencies: ["3A19695C8476D071"]
 			description: ["Can make some pretty nifty tools."]
 			id: "1E9420A3765BFAD9"
-			rewards: [{
-				id: "55130D4D087D965D"
-				type: "custom"
-			}]
 			subtitle: "Alloy of manasteel, pewter, and diopside. This creates an especially potent material for botanists."
 			tasks: [{
 				id: "595B334A239584FF"
@@ -706,10 +592,6 @@
 		{
 			dependencies: ["1E9420A3765BFAD9"]
 			id: "7539C9D4F9574B6B"
-			rewards: [{
-				id: "3D0FE645ADFE7049"
-				type: "custom"
-			}]
 			tasks: [{
 				count: 2L
 				id: "751EEC8EE251D036"
@@ -727,10 +609,6 @@
 				"Image credit:"
 			]
 			id: "4676F51D510F7026"
-			rewards: [{
-				id: "09D53361F99EE3B6"
-				type: "custom"
-			}]
 			tasks: [
 				{
 					count: 8L
@@ -757,10 +635,6 @@
 		{
 			dependencies: ["4676F51D510F7026"]
 			id: "6A0DCA9557AF4CD2"
-			rewards: [{
-				id: "0FD84721407DA0AF"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "5E68CFA4A785546D"
 				item: "botania:elementium_ingot"
@@ -772,10 +646,6 @@
 		{
 			dependencies: ["17A2A2D56B549FB6"]
 			id: "65D4C85176645FEF"
-			rewards: [{
-				id: "69553BBB240F440F"
-				type: "custom"
-			}]
 			subtitle: "Portable mana storage that also provides mana to items that need it"
 			tasks: [{
 				id: "1FEFCC0172B5DA01"
@@ -807,10 +677,6 @@
 		{
 			dependencies: ["385F626E79D1DBF8"]
 			id: "1FE8FE3C28ACD0A1"
-			rewards: [{
-				id: "7279DF0B8DA08350"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "172EDC603B825F1E"
 				item: {
@@ -828,10 +694,6 @@
 		{
 			dependencies: ["4676F51D510F7026"]
 			id: "385F626E79D1DBF8"
-			rewards: [{
-				id: "0E2849C1B5CE745E"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "18359B8939AEA90A"
 				item: "botania:dragonstone"
@@ -861,10 +723,6 @@
 		{
 			dependencies: ["40D5A2EF84EBB3C7"]
 			id: "267A0160E47ACA5F"
-			rewards: [{
-				id: "3D110DB73AB43EAF"
-				type: "custom"
-			}]
 			subtitle: "Increase movement speed and get auto jump"
 			tasks: [{
 				id: "5B61D76FFB7EECCE"
@@ -881,10 +739,6 @@
 		{
 			dependencies: ["40D5A2EF84EBB3C7"]
 			id: "331E57219FEC4EC0"
-			rewards: [{
-				id: "5A15C80332D97125"
-				type: "custom"
-			}]
 			subtitle: "Double jump"
 			tasks: [{
 				id: "7DC25F63919B165C"
@@ -901,10 +755,6 @@
 		{
 			dependencies: ["40D5A2EF84EBB3C7"]
 			id: "594DE0BCE765FD34"
-			rewards: [{
-				id: "480FDE2382D9E71D"
-				type: "custom"
-			}]
 			subtitle: "Nullifies nearby creeper explosions"
 			tasks: [{
 				id: "0213CE5448E76F35"
@@ -968,17 +818,11 @@
 		{
 			dependencies: ["1DA45BD335E61671"]
 			id: "78569B65CFBBDB2D"
-			rewards: [
-				{
-					id: "33601B4DFB614C29"
-					type: "custom"
-				}
-				{
-					id: "6805D15245E9CD16"
-					item: "paraglider:heart_container"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6805D15245E9CD16"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
 			subtitle: "Dropped by Gaia Guardian"
 			tasks: [{
 				id: "2EFA4CF450BC71EC"
@@ -997,10 +841,6 @@
 			]
 			icon: "minecraft:beacon"
 			id: "1DA45BD335E61671"
-			rewards: [{
-				id: "01C669BBF3DF2E16"
-				type: "custom"
-			}]
 			subtitle: "(You'll also need 9 blocks of choice to power it)"
 			tasks: [
 				{
@@ -1027,10 +867,6 @@
 		{
 			dependencies: ["78569B65CFBBDB2D"]
 			id: "2ADCEF023215E642"
-			rewards: [{
-				id: "4FDBE3DBD5DB2EF3"
-				type: "custom"
-			}]
 			subtitle: "Summons level 2 gaia when used in place of terrasteel. Defeat it for better rewards, or just for the hell of it."
 			tasks: [{
 				id: "7DED7A41F445B1DF"
@@ -1044,10 +880,6 @@
 			dependencies: ["0C54EDFDF7DC2500"]
 			description: ["How can you automate this ...?"]
 			id: "026197B2CA75D274"
-			rewards: [{
-				id: "7C693313EB6076FF"
-				type: "custom"
-			}]
 			subtitle: "Transmutes some items. Place it under the pool and then put things in it"
 			tasks: [{
 				id: "4865D1D06EDDEAB9"
@@ -1060,10 +892,6 @@
 		{
 			dependencies: ["6A0DCA9557AF4CD2"]
 			id: "6D4D2FA97B03E17F"
-			rewards: [{
-				id: "3A3F6D28AE8DBED9"
-				type: "custom"
-			}]
 			subtitle: "Item duper (no joke). Laggy"
 			tasks: [{
 				id: "7B5A704D6D14DF4B"
@@ -1076,10 +904,6 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "32AA68DD0203AB8B"
-			rewards: [{
-				id: "12B1F79C43010FFB"
-				type: "custom"
-			}]
 			subtitle: "Warps items up to 2,000 blocks away, use bind wand to set a location"
 			tasks: [{
 				id: "320F85F830CCBAD3"
@@ -1092,10 +916,6 @@
 		{
 			dependencies: ["78569B65CFBBDB2D"]
 			id: "5D3649E535D2A5BF"
-			rewards: [{
-				id: "20B18097E6C7FCE3"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "2F3AD81A6DD2C815"
 				item: "botania:mana_bomb"
@@ -1107,10 +927,6 @@
 		{
 			dependencies: ["1E9420A3765BFAD9"]
 			id: "6B479EB7B5BE7A79"
-			rewards: [{
-				id: "3360A95B18A36344"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "16D9EFC4B5DC6BFC"
 				item: {
@@ -1128,10 +944,6 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "3E9E01CCDF993320"
-			rewards: [{
-				id: "6BDD711D1791658E"
-				type: "custom"
-			}]
 			subtitle: "Generates ores from nearby stone"
 			tasks: [{
 				id: "2A6625FB9936E87B"
@@ -1144,10 +956,6 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "2CC8A77B261E87B0"
-			rewards: [{
-				id: "6A9BFD82ED6C8F92"
-				type: "custom"
-			}]
 			subtitle: "Turns mana into fertilizer, promoting growth of nearby crops"
 			tasks: [{
 				id: "53A7AEC6B89D3628"
@@ -1160,10 +968,6 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "0BF86D02D49B8B5F"
-			rewards: [{
-				id: "604B6FBF53C7099C"
-				type: "custom"
-			}]
 			subtitle: "Silence!"
 			tasks: [{
 				id: "42D47EF7314FB87D"
@@ -1176,10 +980,6 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "206B2C2EFCA85C86"
-			rewards: [{
-				id: "225881C143EA4A61"
-				type: "custom"
-			}]
 			subtitle: "Pushes items in front of it forward"
 			tasks: [{
 				id: "3E505A8C19497A20"
@@ -1192,10 +992,6 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "27FA8C7316887DAF"
-			rewards: [{
-				id: "21A3E79F30A61A2C"
-				type: "custom"
-			}]
 			subtitle: "Gives regeneration to nearby players and tamed pets"
 			tasks: [{
 				id: "2AFD3DB26E0F9AA7"
@@ -1222,10 +1018,6 @@
 			dependencies: ["491A34691200FD1F"]
 			description: ["Item frames can specify a whitelist or blacklist, configure this by shift Rclicking the flower with a wand"]
 			id: "55427C2E4D3AF858"
-			rewards: [{
-				id: "16A61ECFCA9F5AED"
-				type: "custom"
-			}]
 			subtitle: "Funnels items into adjacent inventories, giving it mana increases the range"
 			tasks: [{
 				id: "18FDBC818E71D06F"
@@ -1239,10 +1031,6 @@
 			dependencies: ["491A34691200FD1F"]
 			description: [""]
 			id: "55ABA1C1C9713642"
-			rewards: [{
-				id: "7A542D35458C3BE2"
-				type: "custom"
-			}]
 			subtitle: "Summons a foe which drops good loot"
 			tasks: [{
 				id: "2E323EA804395F28"
@@ -1286,10 +1074,6 @@
 			dependencies: ["6A3552D30FC25417"]
 			description: [""]
 			id: "15930FDDCEC9C06C"
-			rewards: [{
-				id: "162C977B53BD7A4F"
-				type: "custom"
-			}]
 			subtitle: "Right click on leaves using the fiber, then wait for the tree to turn gold"
 			tasks: [{
 				id: "1954998D6A43E3EE"
@@ -1302,10 +1086,6 @@
 		{
 			dependencies: ["15930FDDCEC9C06C"]
 			id: "7A5962F1D83C2B7B"
-			rewards: [{
-				id: "4F8D66A4FBC09C8E"
-				type: "custom"
-			}]
 			subtitle: "Dropped by golden trees (converted using brilliant fiber)"
 			tasks: [{
 				count: 64L
@@ -1319,10 +1099,6 @@
 		{
 			dependencies: ["7A5962F1D83C2B7B"]
 			id: "240235514E50DD3B"
-			rewards: [{
-				id: "3968B25A3268F487"
-				type: "custom"
-			}]
 			subtitle: "Can be placed on the ground like redstone"
 			tasks: [{
 				id: "7239CBD4F10860AD"
@@ -1337,16 +1113,6 @@
 			description: ["The necessary multiblock can be created using the Schematicannon."]
 			icon: "naturesaura:wood_stand"
 			id: "2FD697091D1A770B"
-			rewards: [
-				{
-					id: "1B1698F39710F932"
-					type: "custom"
-				}
-				{
-					id: "15648A9BD4F655F6"
-					type: "custom"
-				}
-			]
 			subtitle: "This is a simple setup that allows for more basic rituals with no consideration for aura."
 			tasks: [
 				{
@@ -1382,10 +1148,6 @@
 			dependencies: ["2FD697091D1A770B"]
 			description: ["Runes can be obtained using a Runic Altar from Botania."]
 			id: "5C585538B921D5C5"
-			rewards: [{
-				id: "4FEE918D2B12CF4E"
-				type: "custom"
-			}]
 			subtitle: "Ancient saplings can replenish aura in the area around them, but decay in the process"
 			tasks: [{
 				id: "05B2714430D1CC31"
@@ -1402,10 +1164,6 @@
 			]
 			description: ["Automation: input to side, output on the bottom"]
 			id: "0E9A9FE26968E49E"
-			rewards: [{
-				id: "14424BC884C6B5CC"
-				type: "custom"
-			}]
 			subtitle: "Collects aura from the nearby nature, but stops doing so when there is none left (still decays trees)"
 			tasks: [{
 				id: "5B673C426C580437"
@@ -1418,10 +1176,6 @@
 		{
 			dependencies: ["4A90D63441C1795C"]
 			id: "0B4A513BF76E2846"
-			rewards: [{
-				id: "0CEE3ED64052D9D0"
-				type: "custom"
-			}]
 			subtitle: "Created when an upwards-facing dispenser launches a bottle and cork"
 			tasks: [{
 				id: "19EA50B7C5AE4D00"
@@ -1441,10 +1195,6 @@
 		{
 			dependencies: ["6A3552D30FC25417"]
 			id: "4A90D63441C1795C"
-			rewards: [{
-				id: "38FAA4C250A90984"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "133549FD7D85CB26"
 				item: "naturesaura:bottle_two_the_rebottling"
@@ -1456,10 +1206,6 @@
 		{
 			dependencies: ["0E9A9FE26968E49E"]
 			id: "465A8A2181D95F8A"
-			rewards: [{
-				id: "001AB4EF6D80B4BE"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "7B0CEB60B7B5397D"
 				item: "naturesaura:infused_iron"
@@ -1471,10 +1217,6 @@
 		{
 			dependencies: ["0E9A9FE26968E49E"]
 			id: "222D8DE54AAD10DD"
-			rewards: [{
-				id: "508701F93E53B26A"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "4FC1F26562C0800C"
 				item: "naturesaura:infused_stone"
@@ -1486,10 +1228,6 @@
 		{
 			dependencies: ["465A8A2181D95F8A"]
 			id: "61AAE194B8BA72B1"
-			rewards: [{
-				id: "3FA5F876585CB08A"
-				type: "custom"
-			}]
 			subtitle: "Converts dead things into living things (example: coarse dirt -> grass)"
 			tasks: [{
 				id: "13B3BF6F9D97159F"
@@ -1508,10 +1246,6 @@
 		{
 			dependencies: ["465A8A2181D95F8A"]
 			id: "603C8A8AFB5E8383"
-			rewards: [{
-				id: "5CB38D304C164803"
-				type: "custom"
-			}]
 			subtitle: "Slows targets"
 			tasks: [{
 				id: "4E6A1198EC571F0A"
@@ -1530,10 +1264,6 @@
 		{
 			dependencies: ["465A8A2181D95F8A"]
 			id: "41FA01E1560E3A14"
-			rewards: [{
-				id: "70712714E9F080D1"
-				type: "custom"
-			}]
 			subtitle: "Chance to give seeds when tilling"
 			tasks: [{
 				id: "748F7F20754CA9E4"
@@ -1559,10 +1289,6 @@
 				}
 			}
 			id: "440EB0C44E9E4210"
-			rewards: [{
-				id: "1CD47D58D838274F"
-				type: "custom"
-			}]
 			subtitle: "Set bonus: wither thorns"
 			tasks: [
 				{
@@ -1617,10 +1343,6 @@
 		{
 			dependencies: ["222D8DE54AAD10DD"]
 			id: "5E7343B2B03BE7BD"
-			rewards: [{
-				id: "05C136D2EB9F0B3A"
-				type: "custom"
-			}]
 			subtitle: "Recharge at natural altars. Powers items that need aura, and repairs tools and armor from Nature's Aura"
 			tasks: [{
 				id: "06FF0310E9901F13"
@@ -1633,10 +1355,6 @@
 		{
 			dependencies: ["0E9A9FE26968E49E"]
 			id: "2FA39407D30CB06F"
-			rewards: [{
-				id: "78CE67137A676B84"
-				type: "custom"
-			}]
 			subtitle: "Shows information about aura around you"
 			tasks: [{
 				id: "1C9C1B8EE0F677D8"
@@ -1649,10 +1367,6 @@
 		{
 			dependencies: ["5D05B9303A7D4850"]
 			id: "2272BB402C499947"
-			rewards: [{
-				id: "13B67C03F477A889"
-				type: "custom"
-			}]
 			subtitle: "Heat furnaces using aura instead of fuel"
 			tasks: [{
 				id: "415C00C611EC1724"
@@ -1665,10 +1379,6 @@
 		{
 			dependencies: ["0B4A513BF76E2846"]
 			id: "5D05B9303A7D4850"
-			rewards: [{
-				id: "748201E3BB6C640F"
-				type: "custom"
-			}]
 			subtitle: "Same process as sunlight, only in the nether."
 			tasks: [{
 				id: "0A03804614A281CA"
@@ -1689,10 +1399,6 @@
 			dependencies: ["465A8A2181D95F8A"]
 			description: ["*see how to use this in the Automation chapter*"]
 			id: "7125CBBFAE4EB39E"
-			rewards: [{
-				id: "22525213DE6E0CA4"
-				type: "custom"
-			}]
 			subtitle: "Prevents oak trees from growing into their larger variants, and generates aura whenever one tries to do so"
 			tasks: [{
 				id: "4CF55056F84F59CF"
@@ -1705,10 +1411,6 @@
 		{
 			dependencies: ["465A8A2181D95F8A"]
 			id: "1810DCA9B50FF7D6"
-			rewards: [{
-				id: "074B3C512098AC2A"
-				type: "custom"
-			}]
 			subtitle: "Takes items from an inventory above it and places them nearby. Specify the block to place it on by placing an item frame on the builder"
 			tasks: [{
 				id: "1710D8BDF4C1A7CF"
@@ -1722,18 +1424,12 @@
 			dependencies: ["465A8A2181D95F8A"]
 			description: ["Multiblock is necessary. The one for the cannon needs poppies, so I will give you some as a reward for this quest."]
 			id: "5292FE7997FA5D63"
-			rewards: [
-				{
-					count: 64
-					id: "1ACC06D6FA1F8D1E"
-					item: "minecraft:poppy"
-					type: "item"
-				}
-				{
-					id: "1CDCF22E271AE86F"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "1ACC06D6FA1F8D1E"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
 			subtitle: "Trade with the gods. First place the item you want to convert (try infused ingots) and then drop the spirit on the pedestal"
 			tasks: [
 				{
@@ -1753,10 +1449,6 @@
 		{
 			dependencies: ["5292FE7997FA5D63"]
 			id: "7988F6326CCD2EDF"
-			rewards: [{
-				id: "6E52EAED4F21B476"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "476E29FA3776C718"
 				item: "naturesaura:sky_ingot"
@@ -1769,10 +1461,6 @@
 			dependencies: ["465A8A2181D95F8A"]
 			description: ["Could be useful when your farm could be ruined by a player picking up an item on accident"]
 			id: "42A08B84FF336532"
-			rewards: [{
-				id: "5C144D72281C3941"
-				type: "custom"
-			}]
 			subtitle: "When activated by redstone, prevents nearby items from being picked up. Sneak to override"
 			tasks: [{
 				id: "4DE42E39008FCFB1"
@@ -1785,10 +1473,6 @@
 		{
 			dependencies: ["5D05B9303A7D4850"]
 			id: "0F4CD7416740F40C"
-			rewards: [{
-				id: "6CA49D1F50477853"
-				type: "custom"
-			}]
 			subtitle: "The end."
 			tasks: [{
 				id: "19BE4BB21891253E"
@@ -1808,18 +1492,12 @@
 		{
 			dependencies: ["465A8A2181D95F8A"]
 			id: "5134994CCB756FA8"
-			rewards: [
-				{
-					id: "109F69D18EFFD269"
-					type: "custom"
-				}
-				{
-					count: 4
-					id: "133F2FA916D09016"
-					item: "minecraft:item_frame"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "133F2FA916D09016"
+				item: "minecraft:item_frame"
+				type: "item"
+			}]
 			subtitle: "Can only handle one item at a time but passes it on instantaneously. Filter with item frames"
 			tasks: [{
 				id: "4AC12BCB1EF125BF"
@@ -1832,10 +1510,6 @@
 		{
 			dependencies: ["5134994CCB756FA8"]
 			id: "242EB2A21CFBE294"
-			rewards: [{
-				id: "383D1D6BB962AC19"
-				type: "custom"
-			}]
 			subtitle: "Increases pickup range for hoppers by 7 blocks in each direction"
 			tasks: [{
 				id: "6F15CF04CE644091"
@@ -1849,10 +1523,6 @@
 			dependencies: ["5C585538B921D5C5"]
 			id: "201CFD4A334C390C"
 			optional: true
-			rewards: [{
-				id: "6F8DAED6FA6C2CCF"
-				type: "custom"
-			}]
 			subtitle: "Automatic shaped or shapeless crafting, put the table in the middle with arrow pointing towards the top middle slot"
 			tasks: [{
 				id: "0E4C004F4EE441DF"
@@ -1865,10 +1535,6 @@
 		{
 			dependencies: ["2FA39407D30CB06F"]
 			id: "47F27B1EE32E6257"
-			rewards: [{
-				id: "5418EF9FE5E381CC"
-				type: "custom"
-			}]
 			subtitle: "Redstone signal depending on the amount of aura in the area"
 			tasks: [{
 				id: "20F74332A85A7BAB"
@@ -1879,6 +1545,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["465A8A2181D95F8A"]
 			id: "1135CCCECAC47638"
 			tasks: [{
 				id: "532E81E4D41D220E"
@@ -1899,20 +1566,6 @@
 			}]
 			x: -1.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["5292FE7997FA5D63"]
-			id: "235259A75349C608"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "Ready for Blood Magic! Check it out back in Supernatural Magic"
-			tasks: [{
-				id: "342FA7A62A6D6590"
-				item: "bloodmagic:altar"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 8.0d
 		}
 	]
 	title: "Natural Magic"

@@ -16,10 +16,6 @@
 			]
 			id: "00E47A607130B3D0"
 			invisible: true
-			rewards: [{
-				id: "5CC4C0704563082E"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -41,10 +37,6 @@
 		{
 			dependencies: ["00E47A607130B3D0"]
 			id: "07BD13E01BF98CBD"
-			rewards: [{
-				id: "6A2B41AD7CAD1074"
-				type: "custom"
-			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6BBA81B3E12D7773"
@@ -90,10 +82,6 @@
 			description: ["Predatory felines that hunt many different species. Their three activities are sitting, resting, and hunting."]
 			id: "7F56EC1E532926FD"
 			invisible: true
-			rewards: [{
-				id: "72552F2CB8FDF9E4"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -120,29 +108,24 @@
 			]
 			id: "36EE68A3E4196075"
 			invisible: true
-			rewards: [
-				{
-					count: 3
-					id: "44A512BB8FC089B7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
+			rewards: [{
+				count: 3
+				id: "44A512BB8FC089B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
 				}
-				{
-					id: "5274D11EF44A55CC"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
+			subtitle: "Not to be confused with a different Sunbird"
 			tasks: [{
 				icon: {
 					Count: 1

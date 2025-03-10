@@ -141,10 +141,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "412F6E3263FE1810"
-					type: "custom"
-				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -167,26 +163,20 @@
 		{
 			dependencies: ["0887AF189D175F80"]
 			id: "69EDB19B7C77EAC4"
-			rewards: [
-				{
-					count: 6
-					id: "79655563F6C9E079"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 6
+				id: "79655563F6C9E079"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:manuscript"
 					}
-					type: "item"
+					id: "iceandfire:manuscript"
 				}
-				{
-					id: "69E63EF38D4F6BF9"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Should've gone for the horn..."
 			tasks: [{
 				id: "0A9F9CBCED3A82CB"
@@ -295,10 +285,6 @@
 					type: "item"
 				}
 				{
-					id: "4B71ED767E6421BE"
-					type: "custom"
-				}
-				{
 					count: 3
 					id: "50DE1DAA8667D3A1"
 					item: {
@@ -388,26 +374,6 @@
 					type: "item"
 				}
 				{
-					id: "3744B763AC56B949"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "cyclic:charm_speed"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "00DEE31D614C6E92"
-					type: "custom"
-				}
-				{
 					count: 3
 					id: "14827C3B7FCCDDEF"
 					item: {
@@ -457,42 +423,20 @@
 			]
 			icon: "iceandfire:lightning_dragon_heart"
 			id: "376BF958EB97A878"
-			rewards: [
-				{
-					id: "6348DE473C80FED4"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "cyclic:lightning_scepter"
-						tag: {
-							Damage: 0
+			rewards: [{
+				count: 3
+				id: "17AC7418BD78DBC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:glass_bottle"
 				}
-				{
-					id: "5129691DD0641CCE"
-					type: "custom"
-				}
-				{
-					count: 3
-					id: "17AC7418BD78DBC5"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:glass_bottle"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Hypersensitivity"
 			tasks: [
 				{
@@ -523,10 +467,6 @@
 			dependencies: ["16E95A4198F75C3E"]
 			description: ["Use the glass bottles awarded to you on the dragon's corpse to collect its blood. This will be useful in crafting."]
 			id: "1E103AC3D9BD037D"
-			rewards: [{
-				id: "4240F8E292D188A4"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "63DB9A27423F2FC5"
 				item: {
@@ -547,10 +487,6 @@
 			dependencies: ["2587E72D0B3CC7AB"]
 			description: ["Use the glass bottles awarded to you on the dragon's corpse to collect its blood. This will be useful in crafting."]
 			id: "69A5C3E3034537B7"
-			rewards: [{
-				id: "12F279021C646654"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "662151F1A82F2D56"
 				item: {
@@ -571,10 +507,6 @@
 			dependencies: ["376BF958EB97A878"]
 			description: ["Use the glass bottles awarded to you on the dragon's corpse to collect its blood. This will be useful in crafting."]
 			id: "0A8FF4BAE2BDB650"
-			rewards: [{
-				id: "73ED4ADB4D3CB47A"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "464700D52B77CBCB"
 				item: {
@@ -835,26 +767,20 @@
 			dependencies: ["0A8FF4BAE2BDB650"]
 			description: ["Please refer to the \"Dragonforge\" quest (it's just a check-off with information, don't worry) to learn how to construct"]
 			id: "3FA41748BD9C497C"
-			rewards: [
-				{
-					count: 3
-					id: "1FA621D39237D744"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 3
+				id: "1FA621D39237D744"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:lightning_dragon_blood"
 					}
-					type: "item"
+					id: "iceandfire:lightning_dragon_blood"
 				}
-				{
-					id: "0063ECD6B919B1D3"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 17L
@@ -919,26 +845,20 @@
 			dependencies: ["69A5C3E3034537B7"]
 			description: ["Please refer to the \"Dragonforge\" quest (it's just a check-off with information, don't worry) to learn how to construct"]
 			id: "5E153AFA91276F59"
-			rewards: [
-				{
-					count: 3
-					id: "423B2C7EA4A0AF49"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 3
+				id: "423B2C7EA4A0AF49"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:ice_dragon_blood"
 					}
-					type: "item"
+					id: "iceandfire:ice_dragon_blood"
 				}
-				{
-					id: "0B99E76F159BD969"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 17L
@@ -1003,26 +923,20 @@
 			dependencies: ["1E103AC3D9BD037D"]
 			description: ["Please refer to the \"Dragonforge\" quest (it's just a check-off with information, don't worry) to learn how to construct"]
 			id: "6AF1C6907F25272D"
-			rewards: [
-				{
-					count: 3
-					id: "7AAF8CA43FD75A78"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 3
+				id: "7AAF8CA43FD75A78"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:fire_dragon_blood"
 					}
-					type: "item"
+					id: "iceandfire:fire_dragon_blood"
 				}
-				{
-					id: "3D54F46A381A3844"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 17L
@@ -1087,10 +1001,6 @@
 			dependencies: ["1E103AC3D9BD037D"]
 			description: [""]
 			id: "1DAB67516F5E2A33"
-			rewards: [{
-				id: "59AD5580126059D6"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "5BBB7201FB1359A8"
 				item: {
@@ -1113,10 +1023,6 @@
 		{
 			dependencies: ["69A5C3E3034537B7"]
 			id: "29FDA5128CAC20B0"
-			rewards: [{
-				id: "7C2BECDB65BADBA4"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "4947D771AE06A8E8"
 				item: {
@@ -1139,10 +1045,6 @@
 		{
 			dependencies: ["0A8FF4BAE2BDB650"]
 			id: "3C6A8C582918AA30"
-			rewards: [{
-				id: "632E09139414400A"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "2C1996217CE3CA82"
 				item: {
@@ -1166,10 +1068,6 @@
 			dependencies: ["1E103AC3D9BD037D"]
 			description: ["Right click on a saved dragon, and again somewhere else to teleport it."]
 			id: "4656846B90388D98"
-			rewards: [{
-				id: "28F850E4D85DDD06"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "15D2AFFDB62191EB"
 				item: {
@@ -1190,10 +1088,6 @@
 			dependencies: ["69A5C3E3034537B7"]
 			description: ["Right click on a saved dragon, and again somewhere else to teleport it."]
 			id: "23361572F524E2F2"
-			rewards: [{
-				id: "1944FD51FA68A982"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "0ED68BD901BD7ED0"
 				item: {
@@ -1214,10 +1108,6 @@
 			dependencies: ["0A8FF4BAE2BDB650"]
 			description: ["Right click on a saved dragon, and again somewhere else to teleport it."]
 			id: "67B67A86EE9FC472"
-			rewards: [{
-				id: "2EF0B9024F63F888"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "528F33B9C1839282"
 				item: {
@@ -1242,26 +1132,20 @@
 				"Dragons don't age while stored in a horn."
 			]
 			id: "5A23C46CB9318CFD"
-			rewards: [
-				{
-					id: "34E4E40B62853D29"
-					type: "custom"
-				}
-				{
-					count: 3
-					id: "660F3685912461C7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 3
+				id: "660F3685912461C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:manuscript"
 					}
-					type: "item"
+					id: "iceandfire:manuscript"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "Play a nice tune"
 			tasks: [{
 				id: "7C583A54E4B2E383"
@@ -1379,27 +1263,20 @@
 				"This item works for any tamed flying mob from Ice and Fire."
 			]
 			id: "6C1762F054064CA3"
-			rewards: [
-				{
-					count: 3
-					id: "2FDFC3C85A4EEE1C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 3
+				id: "2FDFC3C85A4EEE1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:dragonbone"
 					}
-					type: "item"
+					id: "iceandfire:dragonbone"
 				}
-				{
-					id: "53FD5669A953EC3F"
-					type: "custom"
-				}
-			]
-			subtitle: "Leader of the pack"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C1EEF68BB8D3154"
 				item: {
@@ -1543,25 +1420,19 @@
 				id: "minecraft:stick"
 			}
 			id: "73A2606AB02EC6FB"
-			rewards: [
-				{
-					id: "5BDFFAC26D6F1565"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				id: "5BDFFAC26D6F1565"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:gold_hippogryph_armor"
 					}
-					type: "item"
+					id: "iceandfire:gold_hippogryph_armor"
 				}
-				{
-					id: "7B575A84197F935B"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -1618,26 +1489,20 @@
 				id: "iceandfire:hippogryph_talon"
 			}
 			id: "3CA395CD3125E8A9"
-			rewards: [
-				{
-					id: "07E27DDEC7134429"
-					type: "custom"
-				}
-				{
-					count: 8
-					id: "54B70AABA737AD36"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 8
+				id: "54B70AABA737AD36"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "minecraft:rabbit_foot"
 					}
-					type: "item"
+					id: "minecraft:rabbit_foot"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "Hooked yet?"
 			tasks: [{
 				id: "5B8A0D38BDBD7FBB"
@@ -1664,41 +1529,22 @@
 				"Must be obtained after completing Blue Skies as you need a material from Atum."
 			]
 			id: "4428CB447D78657A"
-			rewards: [
-				{
-					id: "48746AE44B5B3092"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "forestcraft:sky_fragment"
-					}
-					type: "item"
-				}
-				{
-					id: "3F30C7122CDC6438"
-					type: "custom"
-				}
-				{
-					id: "6283F19DC96C8A31"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "cyclic:levitation"
+			rewards: [{
+				id: "6283F19DC96C8A31"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:potion"
+					tag: {
+						Potion: "cyclic:levitation"
+					}
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "002E62645E594146"
 				item: {
@@ -1768,10 +1614,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "0B7586695BE2754F"
-					type: "custom"
-				}
 			]
 			subtitle: "Bane of many Hades runs"
 			tasks: [{
@@ -1802,31 +1644,25 @@
 				}
 			}
 			id: "772204F76820FC7D"
-			rewards: [
-				{
-					id: "5EA91C290C05F892"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 5s
-							}]
+			rewards: [{
+				id: "5EA91C290C05F892"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}]
+					}
 				}
-				{
-					id: "51156F0CA7FF82EB"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Gorgon Ramsay"
 			tasks: [
 				{
@@ -1863,36 +1699,20 @@
 				"The thing they do second best is eating players like you, so you shouldn't let it take you down."
 			]
 			id: "18DA2063740B348C"
-			rewards: [
-				{
-					count: 14
-					id: "02E6965C1B1B7611"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 32
+				id: "06453CD870294F86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "culturaldelights:mutton_sandwich"
 					}
-					type: "item"
+					id: "minecraft:white_wool"
 				}
-				{
-					count: 32
-					id: "06453CD870294F86"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:white_wool"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Take them down with ODM gear"
 			tasks: [{
 				icon: {
@@ -1918,42 +1738,23 @@
 			dependencies: ["18DA2063740B348C"]
 			description: ["When held in either hand, inflicts weakness on nearby mobs. Its durability goes down over time, but it can be enchanted with unbreaking using an anvil. It can receive any enchantments that are universally applicable to tools like Life-Mending."]
 			id: "18FDEE5F2D941744"
-			rewards: [
-				{
-					count: 3
-					id: "0D6A2C432E7C2544"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "minecraft:long_weakness"
+			rewards: [{
+				count: 3
+				id: "0D6A2C432E7C2544"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "7E19DE40BC355EAB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "artifacts:running_shoes"
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_weakness"
 					}
-					type: "item"
 				}
-				{
-					id: "065A89ABF7679422"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Not quite as powerful as Sauron"
 			tasks: [{
 				id: "4D4EF11DB67F80C1"
@@ -2093,25 +1894,19 @@
 				"Cockatrice eyes can be used to craft a cockatrice scepter."
 			]
 			id: "3DEAE5EF551A6025"
-			rewards: [
-				{
-					id: "646EC40B7D5A36C5"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				id: "646EC40B7D5A36C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "minecraft:enchanted_golden_apple"
 					}
-					type: "item"
+					id: "minecraft:enchanted_golden_apple"
 				}
-				{
-					id: "74C683DC835F82A0"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "12AAAF8584D9A37B"
@@ -2185,17 +1980,11 @@
 				"Trolls drop tusks and leather, which are used to craft their armor. They might also drop their weapons, which have extreme power but very slow speed."
 			]
 			id: "7B6AFA318D85EC95"
-			rewards: [
-				{
-					id: "691452777B9A0CEE"
-					type: "custom"
-				}
-				{
-					id: "12E2E80AE9FD988C"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "12E2E80AE9FD988C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "No more trolling"
 			tasks: [{
 				entity: "iceandfire:troll"
@@ -2311,10 +2100,6 @@
 			dependencies: ["77E8C7EC64879971"]
 			description: ["A very primitive yet effective method of dealing with sirens."]
 			id: "0650B0AF3F61CE59"
-			rewards: [{
-				id: "013B21D78E7EF27B"
-				type: "custom"
-			}]
 			subtitle: "Interesting new AirPods you have there"
 			tasks: [{
 				id: "182C7B83150B6888"
@@ -2338,26 +2123,6 @@
 		{
 			dependencies: ["77E8C7EC64879971"]
 			id: "5D989A49F4B7E793"
-			rewards: [
-				{
-					id: "402AFC74EC24D1A0"
-					type: "custom"
-				}
-				{
-					count: 2
-					id: "6D89F324EDF36ADE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "scalinghealth:heart_crystal"
-					}
-					type: "item"
-				}
-			]
 			subtitle: "Create your own natural disaster alarms!"
 			tasks: [{
 				id: "3DF35A9E98DBED9F"
@@ -2389,10 +2154,6 @@
 				"Be careful: large death worm attacks are classified as explosions, meaning they won't trigger your one-hit kill protection."
 			]
 			id: "459699627D3BEA90"
-			rewards: [{
-				id: "2B30E52BCB36B561"
-				type: "custom"
-			}]
 			subtitle: "I shall feast upon your essence!"
 			tasks: [{
 				entity: "iceandfire:deathworm"
@@ -2462,26 +2223,20 @@
 				"Try the arrows! "
 			]
 			id: "0EC002141B4910F9"
-			rewards: [
-				{
-					id: "22EB1E2EEAAA393B"
-					type: "custom"
-				}
-				{
-					count: 8
-					id: "6DFA413CF252AEF8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 8
+				id: "6DFA413CF252AEF8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "iceandfire:stymphalian_arrow"
 					}
-					type: "item"
+					id: "iceandfire:stymphalian_arrow"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E95F084410C8FA0"
 				item: {
@@ -2567,25 +2322,6 @@
 			description: ["Depending on the size, a sea serpent could be as dangerous as a dragon, so they should be treated as such. "]
 			icon: "iceandfire:seaserpent_skull"
 			id: "49F32484E3D09EF6"
-			rewards: [
-				{
-					id: "762F758AF938026D"
-					type: "custom"
-				}
-				{
-					id: "5174410DC64C9D98"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:netherite_ingot"
-					}
-					type: "item"
-				}
-			]
 			subtitle: "Hall of RLCraft fame"
 			tasks: [{
 				entity: "iceandfire:sea_serpent"
@@ -2600,48 +2336,26 @@
 		{
 			dependencies: ["49F32484E3D09EF6"]
 			id: "60C0814AC4E42246"
-			rewards: [
-				{
-					id: "4AA6C0CE33DBB022"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "xpbook:xp_tome"
-						tag: {
-							xp: 974
+			rewards: [{
+				count: 2
+				id: "0ED5FBD7B7BC6790"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0ED5FBD7B7BC6790"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "quark:ancient_tome"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:impaling"
-								lvl: 10s
-							}]
-						}
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:impaling"
+							lvl: 10s
+						}]
 					}
-					type: "item"
 				}
-				{
-					id: "22B8CB6D7090EC15"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Smells like laundry detergent"
 			tasks: [{
 				id: "6D8F4051D4C6C1CB"

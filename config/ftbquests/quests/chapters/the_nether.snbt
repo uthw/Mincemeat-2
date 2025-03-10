@@ -34,10 +34,6 @@
 			}
 			id: "13734115FC2A440E"
 			invisible: true
-			rewards: [{
-				id: "2EE3179065EC75D8"
-				type: "custom"
-			}]
 			subtitle: "A contaminant!"
 			tasks: [{
 				icon: {
@@ -68,10 +64,6 @@
 			]
 			id: "0AF7A2FFBEF1FB0B"
 			invisible: true
-			rewards: [{
-				id: "47213A8E81F474D2"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -182,10 +174,6 @@
 				"You can use maggots to heal warped toads, crafting crimson mosquito larva, and breed mobs like blue jays, capuchin monkeys, and roadrunners."
 			]
 			id: "3CEDDC6B2F78DF73"
-			rewards: [{
-				id: "78C03FA4DE49BCB3"
-				type: "custom"
-			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "01E851529E210B1F"
@@ -252,10 +240,6 @@
 			]
 			id: "1D30B8B637D5218D"
 			invisible: true
-			rewards: [{
-				id: "0B7D6A181DB51989"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -285,10 +269,6 @@
 			]
 			id: "62C136E530736DDB"
 			invisible: true
-			rewards: [{
-				id: "1BC8D36D32159B97"
-				type: "custom"
-			}]
 			subtitle: "At least they can't fly"
 			tasks: [{
 				icon: {
@@ -315,29 +295,23 @@
 			]
 			description: ["Hard teeth from a Bone Serpent. Used to brew Lava Vision potions and craft the Tide Trident."]
 			id: "0B576C5033CDFDA0"
-			rewards: [
-				{
-					count: 2
-					id: "29AA3A9C9C680445"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "alexsmobs:lava_vision"
+			rewards: [{
+				count: 2
+				id: "29AA3A9C9C680445"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexsmobs:lava_vision"
+					}
 				}
-				{
-					id: "539EDD7D800A8ADE"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "37AAA76559E4A896"
@@ -366,10 +340,6 @@
 			]
 			id: "210FE9CF8396FDED"
 			invisible: true
-			rewards: [{
-				id: "3DB5CB3C1CF8EFA8"
-				type: "custom"
-			}]
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/soul_vulture"
 				criterion: ""
@@ -395,10 +365,6 @@
 			]
 			id: "3A9C6B51E542F0C6"
 			invisible: true
-			rewards: [{
-				id: "4F18D04B3D8D7D33"
-				type: "custom"
-			}]
 			subtitle: "It's not real"
 			tasks: [{
 				icon: {
@@ -423,10 +389,6 @@
 			description: ["Hostile mobs found in Basalt Deltas that launch stradpoles to deal damage."]
 			id: "4EC428853B525545"
 			invisible: true
-			rewards: [{
-				id: "54B5574C9F636F50"
-				type: "custom"
-			}]
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/straddler"
 				criterion: ""
@@ -598,10 +560,6 @@
 			}
 			id: "5CAB8650497D31C3"
 			invisible: true
-			rewards: [{
-				id: "5076B92D0F00C6A3"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -638,10 +596,6 @@
 			}
 			id: "3C4BAED281BDDC5E"
 			invisible: true
-			rewards: [{
-				id: "3D3EE5E0D52A0F85"
-				type: "custom"
-			}]
 			subtitle: "Who you gonna call?"
 			tasks: [{
 				icon: {
@@ -676,10 +630,6 @@
 			]
 			id: "346A96A8506C4B32"
 			invisible: true
-			rewards: [{
-				id: "572EB01B810FF390"
-				type: "custom"
-			}]
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/enderiophage"
 				criterion: ""
@@ -699,10 +649,6 @@
 			]
 			id: "1DFCDE2D39E93165"
 			invisible: true
-			rewards: [{
-				id: "0325981DFB452BCE"
-				type: "custom"
-			}]
 			subtitle: "Mimic tear ashes are OP!"
 			tasks: [{
 				icon: {

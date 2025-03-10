@@ -253,11 +253,6 @@
 	quests: [
 		{
 			id: "1144180201A60767"
-			rewards: [{
-				id: "58543CCEF6EB9CAF"
-				type: "custom"
-			}]
-			subtitle: "When will it be 79?"
 			tasks: [{
 				id: "70A460B43B95F022"
 				item: {
@@ -292,10 +287,6 @@
 			}
 			id: "4ADC083229035C40"
 			invisible: true
-			rewards: [{
-				id: "48096E1FAA22B022"
-				type: "custom"
-			}]
 			subtitle: "Has a funny face"
 			tasks: [{
 				icon: {
@@ -321,26 +312,20 @@
 			dependencies: ["4ADC083229035C40"]
 			description: ["Allows its drinker to float on water, as well as being used to tame eagles."]
 			id: "3CE63D27933D8AE4"
-			rewards: [
-				{
-					count: 3
-					id: "617420580C6DCA95"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 3
+				id: "617420580C6DCA95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "alexsmobs:fish_oil"
 					}
-					type: "item"
+					id: "alexsmobs:fish_oil"
 				}
-				{
-					id: "09D4CFA8164DF023"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Cover yourself in oil"
 			tasks: [{
@@ -374,10 +359,6 @@
 			}
 			id: "59DDA941F5B31B54"
 			invisible: true
-			rewards: [{
-				id: "23325DAC9C75C960"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -402,10 +383,6 @@
 			description: ["Birds found on beaches who are inclined to steal your food"]
 			id: "1A94C812637EF3C6"
 			invisible: true
-			rewards: [{
-				id: "417D5A8D432328DA"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -434,10 +411,6 @@
 			]
 			id: "23315511E4699748"
 			invisible: true
-			rewards: [{
-				id: "6012689468538CB6"
-				type: "custom"
-			}]
 			subtitle: "Mobius Richardson"
 			tasks: [{
 				icon: {
@@ -461,10 +434,6 @@
 			dependencies: ["23315511E4699748"]
 			description: ["Cachalot whales give you Ambergris for doing this. It has a few uses, most notable being the Echolocator. It is also a highly potent fuel source and can be traded for a lot of emeralds."]
 			id: "6F8C0384B5BEFE65"
-			rewards: [{
-				id: "2D5C8AA4341D03DF"
-				type: "custom"
-			}]
 			tasks: [
 				{
 					advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
@@ -493,10 +462,6 @@
 			dependencies: ["6F8C0384B5BEFE65"]
 			description: ["Shows the location of nearby caves. Caves are sort of everywhere so you won't really need one."]
 			id: "7AA68D711F3B3410"
-			rewards: [{
-				id: "69736D0B7AB5F80C"
-				type: "custom"
-			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "4320A396FAC9B00B"
@@ -521,20 +486,6 @@
 			dependencies: ["7AA68D711F3B3410"]
 			description: ["Uses echolocation to find the nearest end portal frame. You may think it's overshadowed by the Explorer's Compass but it's not, since you can use it to save the hassle of scavenging the entire stronghold for the end portal."]
 			id: "6208D7C110AE38A6"
-			rewards: [{
-				count: 3
-				id: "50BB212DC4C2F9C2"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "cyclic:apple_emerald"
-				}
-				type: "item"
-			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "420E4551967C34D0"
@@ -559,10 +510,6 @@
 			description: ["Large predatory fish who hunt aquatic wildlife. They live their lives deep underwater, with the surface not being suitable for them."]
 			id: "11387B71AF56B5E1"
 			invisible: true
-			rewards: [{
-				id: "556D62AA60B73BB5"
-				type: "custom"
-			}]
 			subtitle: "Watch out for loan sharks!"
 			tasks: [{
 				icon: {
@@ -586,10 +533,6 @@
 			dependencies: ["11387B71AF56B5E1"]
 			description: ["Obtained from frilled sharks while they are attacking squids. Used to craft the Shield of the Deep."]
 			id: "6DBB737CE3192B13"
-			rewards: [{
-				id: "12A85631AE5502A6"
-				type: "custom"
-			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "2EAD26CC9F446C2B"
@@ -611,10 +554,6 @@
 			description: ["Found underwater in beaches. Can survive on land and underwater."]
 			id: "33055C46A5B1F684"
 			invisible: true
-			rewards: [{
-				id: "00196151DADF5BC1"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -703,10 +642,6 @@
 			]
 			id: "5C9202556AEBC6E4"
 			invisible: true
-			rewards: [{
-				id: "789D909CA68665F5"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1178,10 +1113,6 @@
 			]
 			id: "7D62F8EA0309690C"
 			invisible: true
-			rewards: [{
-				id: "162496DB8465E64A"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1861,10 +1792,6 @@
 			]
 			id: "256F160293629D49"
 			invisible: true
-			rewards: [{
-				id: "1BB01A8E76EB0245"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1937,10 +1864,6 @@
 			]
 			id: "32DB1B0F5535C113"
 			invisible: true
-			rewards: [{
-				id: "01044C858E9D8E69"
-				type: "custom"
-			}]
 			subtitle: "SPEEN"
 			tasks: [{
 				icon: {

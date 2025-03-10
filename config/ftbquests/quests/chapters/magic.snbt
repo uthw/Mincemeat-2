@@ -67,20 +67,6 @@
 			]
 			description: ["You've become quite powerful! But not enough to just Wish bosses to die. You'll have to play a different game for that."]
 			id: "085A157C19E990CC"
-			rewards: [
-				{
-					id: "04256221D6169C2F"
-					type: "loot"
-				}
-				{
-					id: "438E1026BF93DB69"
-					type: "loot"
-				}
-				{
-					id: "039CAD2C53CA506F"
-					type: "custom"
-				}
-			]
 			shape: "hexagon"
 			tasks: [{
 				id: "2F6B64234DB2367D"
@@ -101,16 +87,6 @@
 		{
 			dependencies: ["129CAC4D971CBAD8"]
 			id: "51D2D5057356DD35"
-			rewards: [
-				{
-					id: "4E8FCA85FD5F2A4A"
-					type: "loot"
-				}
-				{
-					id: "240F72F5DF4F7F90"
-					type: "loot"
-				}
-			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6C27AE32A679D581"
@@ -147,16 +123,6 @@
 				"JEI will be your friend."
 			]
 			id: "335E26285D11AB8A"
-			rewards: [
-				{
-					id: "7006A63A202E4840"
-					type: "custom"
-				}
-				{
-					id: "6D8AA169D773CF83"
-					type: "random"
-				}
-			]
 			shape: "square"
 			tasks: [{
 				id: "640B7C7E652AB74A"
@@ -206,10 +172,6 @@
 					}
 					random_bonus: 8
 					type: "item"
-				}
-				{
-					id: "14BFB44CD498852B"
-					type: "custom"
 				}
 			]
 			tasks: [
@@ -386,16 +348,16 @@
 			description: ["Creates source gems over time. It can work without player interaction, but is very slow. Having a filled Source Jar nearby is much better."]
 			id: "0EBFA78A91488E92"
 			rewards: [{
-				count: 4
-				id: "1FDDB7CC880DB714"
+				count: 5
+				id: "276E64672F80A017"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
-					id: "ars_nouveau:mana_gem"
+					id: "ars_nouveau:source_gem"
 				}
 				type: "item"
 			}]
@@ -411,10 +373,6 @@
 			description: ["Collects Source from nearby generators. See the 5 quests that depend on this one for examples."]
 			icon: "ars_nouveau:source_jar"
 			id: "3D4F3D27DC68EEF3"
-			rewards: [{
-				id: "2B1CB43BE2536E04"
-				type: "custom"
-			}]
 			shape: "square"
 			tasks: [{
 				id: "33C15D1E2AD0E135"
@@ -428,10 +386,6 @@
 			dependencies: ["3D4F3D27DC68EEF3"]
 			description: ["Generates a large amount of source when potions are brewed close to it."]
 			id: "1428E0A6A540FBBD"
-			rewards: [{
-				id: "2BF01816E1772BC6"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "39C4B14665ACACBA"
 				item: {
@@ -452,10 +406,6 @@
 			dependencies: ["3D4F3D27DC68EEF3"]
 			description: ["Generates source when animals are bred or mobs are killed close to it."]
 			id: "3B0E94580CB1B0E6"
-			rewards: [{
-				id: "323AA9CB5C3BFEB0"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "4174FA9861C763F3"
 				item: {
@@ -476,10 +426,6 @@
 			dependencies: ["3D4F3D27DC68EEF3"]
 			description: ["It decomposes food dropped nearby and turns it into source. More source is generated for using food crafted from source berries."]
 			id: "01D420E633271E2E"
-			rewards: [{
-				id: "612BBF85124C278A"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "5BAC948FA9B0343F"
 				item: {
@@ -500,10 +446,6 @@
 			dependencies: ["3D4F3D27DC68EEF3"]
 			description: ["Creates a small amount of source when blocks are burned near it, but Archwood Logs can increase this."]
 			id: "63F5A75BE447ED8C"
-			rewards: [{
-				id: "7689C5A4B8C2D5B0"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "06B7D473FF45D2B5"
 				item: "ars_nouveau:volcanic_sourcelink"
@@ -537,7 +479,9 @@
 			description: [
 				"\"The world is full of magic things, patiently waiting for our senses to grow sharper.\" - William Butler Yeats"
 				""
-				"* This chapter is ripped from Mincemeat 1 with few changes. As the modpack grows, I'll remake them in the Mincemeat 2 style."
+				"* This chapter is ripped from Mincemeat 1. The Eidolon, Ars Nouveau, and Blood Magic quests have few changes from it."
+				""
+				"And don't forget: if you find a problem with a quest, it's actually your fault and you definitely shouldn't post it to GitHub or DM me."
 			]
 			disable_toast: true
 			icon: {
@@ -569,20 +513,6 @@
 			]
 			id: "013CDE87A0D999C3"
 			rewards: [
-				{
-					count: 2
-					id: "417E624AFE4C030A"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:mana_gem"
-					}
-					type: "item"
-				}
 				{
 					id: "53A6DECBDEF2D6EF"
 					item: {
@@ -698,10 +628,6 @@
 		{
 			dependencies: ["44B343DA2BAED7E9"]
 			id: "053936FA1B6E8E5B"
-			rewards: [{
-				id: "58D771850911B8EF"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "6E713F43C6FF7173"
 				item: "ars_nouveau:relay_splitter"
@@ -713,10 +639,6 @@
 		{
 			dependencies: ["44B343DA2BAED7E9"]
 			id: "4A86AA1B158B6FD8"
-			rewards: [{
-				id: "02DF9A0F53689008"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "26CA7B14EC6CF6E7"
 				item: {
@@ -736,10 +658,6 @@
 		{
 			dependencies: ["44B343DA2BAED7E9"]
 			id: "6F5FA76D7E90EF95"
-			rewards: [{
-				id: "54862267413D513C"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "3534495B81422AFE"
 				item: {
@@ -764,10 +682,6 @@
 				"Magebloom Fiber can be woven into armor which can extend your maximum mana. It does this while providing protection, which is invaluable in this modpack."
 			]
 			id: "07E655DC37EF5CF5"
-			rewards: [{
-				id: "35CF9156CE1B9F76"
-				type: "random"
-			}]
 			tasks: [{
 				id: "60D8E87EB135D658"
 				item: "ars_nouveau:magebloom"
@@ -779,10 +693,6 @@
 		{
 			dependencies: ["07E655DC37EF5CF5"]
 			id: "129CAC4D971CBAD8"
-			rewards: [{
-				id: "3F324CD3B8606CA0"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "49175EC38E34EC38"
 				item: "ars_nouveau:magebloom_fiber"
@@ -874,10 +784,6 @@
 				"*Do this by placing it on a scribe table and then shift RMBing it with a spell book with the spell you want."
 			]
 			id: "5842453086405007"
-			rewards: [{
-				id: "51040637678ACB22"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "46EB022834DF23D3"
 				item: {
@@ -897,10 +803,6 @@
 		{
 			dependencies: ["44061A57BC1657E2"]
 			id: "7D3CA5C984F11D23"
-			rewards: [{
-				id: "00E65A71853A9702"
-				type: "custom"
-			}]
 			shape: "circle"
 			subtitle: "Pewter blend is made by mixing iron and lead."
 			tasks: [{
@@ -936,10 +838,6 @@
 				"This may be useful in mob farms and in the rituals required to progress in this mod."
 			]
 			id: "678985968A3B206E"
-			rewards: [{
-				id: "1CC6C720285F83A7"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "3E689B0C75E2B603"
 				item: {
@@ -1038,10 +936,6 @@
 			dependencies: ["7017FB66F6F3B2DE"]
 			description: ["Similar to a normal crafting table, but provides four extra slots on each side to assist with magic recipes."]
 			id: "11F9FFCB87A791C5"
-			rewards: [{
-				id: "584B182E9515E004"
-				type: "loot"
-			}]
 			subtitle: "Not like the other girls"
 			tasks: [{
 				id: "1E19527FBACB3114"
@@ -1063,16 +957,6 @@
 			dependencies: ["0F8FDFCE19B5216D"]
 			description: ["Some rituals require special necrotic items to be used as foci. You will be notified if this item is needed in a ritual. Otherwise, it operates in the same way as a brazier."]
 			id: "4AE0AEE8B7153385"
-			rewards: [
-				{
-					id: "28BB6E3ECBEDF2F1"
-					type: "custom"
-				}
-				{
-					id: "5E51AA83DB614D71"
-					type: "random"
-				}
-			]
 			tasks: [{
 				id: "684792F02A22856B"
 				item: {
@@ -1127,10 +1011,6 @@
 					id: "19E1353376FD64FC"
 					type: "xp_levels"
 					xp_levels: 2
-				}
-				{
-					id: "7C57326C4F0724F0"
-					type: "custom"
 				}
 				{
 					id: "162CC88871FCD98B"
@@ -1238,10 +1118,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "3754C54E6E0F9C7F"
-					type: "custom"
-				}
 			]
 			subtitle: "Was he the scientist or the monster?"
 			tasks: [
@@ -1322,10 +1198,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "1EFCFF6F586304F6"
-					type: "custom"
-				}
 			]
 			subtitle: "Free my boys"
 			tasks: [
@@ -1400,7 +1272,7 @@
 				""
 				"Crucibles are unique because their recipes have multiple steps, like real-life recipes. Also similarly to real life, you must execute the steps in order."
 				""
-				"Sometimes, the pestle must be used to stir the ingredients, which can be done by right-clicking the crucible with an empty hand. This is indicated by a slash in the recipe shown in EMI."
+				"Sometimes, the pestle must be used to stir the ingredients, which can be done by right-clicking the crucible with an empty hand. This is indicated by a slash in the recipe shown in JEI."
 				""
 				"When you insert the ingredients for one step, it will make a sound to indicate when ready for the insertion of new items."
 				""
@@ -1555,26 +1427,20 @@
 			]
 			icon: "eidolon:shadow_gem"
 			id: "5099A90FA346D626"
-			rewards: [
-				{
-					count: 4
-					id: "37E2BA4C77B11E86"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 4
+				id: "37E2BA4C77B11E86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "eidolon:shadow_gem"
 					}
-					type: "item"
+					id: "eidolon:shadow_gem"
 				}
-				{
-					id: "2553F1B5ECBFC2AA"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "No life stories here"
 			tasks: [
 				{
@@ -1948,10 +1814,6 @@
 				"11F9FFCB87A791C5"
 			]
 			id: "5B64E6EE42B87A90"
-			rewards: [{
-				id: "3B85D9FDD9880D78"
-				type: "custom"
-			}]
 			subtitle: "Be like the cool kids"
 			tasks: [{
 				count: 20L
@@ -1988,10 +1850,6 @@
 				id: "minecraft:oak_sign"
 			}
 			id: "441A75FB80582637"
-			rewards: [{
-				id: "69D07C554310DCD5"
-				type: "custom"
-			}]
 			subtitle: "Opposite over hypotenuse"
 			tasks: [{
 				advancement: "eidolon:wicked_path"
@@ -2019,13 +1877,9 @@
 				""
 				"Continue doing this ritual until the Dark Lord gives you knowledge of a new one. Note that only 1 ritual can be effective per in-game day."
 				""
-				"optional: Eidolon's Candles an enhance your altar."
+				"optional: Eidolon's Candles can enhance your altar."
 			]
 			id: "0D59972E42B4D7A5"
-			rewards: [{
-				id: "03A7363C89818234"
-				type: "custom"
-			}]
 			subtitle: "Fus ro dah!"
 			tasks: [
 				{
@@ -2137,26 +1991,20 @@
 				"{image:kubejs:item/touch_of_darkness width:276 height:95 align:center fit:true}"
 			]
 			id: "2D8BA0A7766C58D9"
-			rewards: [
-				{
-					id: "6BFB8028BAA5CC55"
-					type: "custom"
-				}
-				{
-					count: 16
-					id: "539A45349EAA1D9F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 16
+				id: "539A45349EAA1D9F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "spartanweaponry:dynamite"
 					}
-					type: "item"
+					id: "spartanweaponry:dynamite"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "Casual Demon Hexing"
 			tasks: [{
 				id: "08A369CCA0F08076"
@@ -2191,17 +2039,11 @@
 				}
 			}
 			id: "4FABA141C0F4BCE4"
-			rewards: [
-				{
-					id: "27A8F5FB4DDB53B8"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-				{
-					id: "4417A8303B0C39F4"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				id: "27A8F5FB4DDB53B8"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
 			subtitle: "Get dripped out"
 			tasks: [
 				{
@@ -2446,10 +2288,6 @@
 			dependencies: ["013CDE87A0D999C3"]
 			description: ["The enchanting apparatus can also create trinkets like this one."]
 			id: "52AAFFDAAB15AE28"
-			rewards: [{
-				id: "56E96E0D10D6C744"
-				type: "custom"
-			}]
 			tasks: [
 				{
 					id: "03796C6024E79A55"
@@ -2502,25 +2340,19 @@
 				"First, interact with the brazier using a stone tablet. Then, augment the ritual by dropping items on the brazier while it's glowing. When you're done augmenting, right click the brazier with an empty hand."
 			]
 			id: "0AA8E8253E201B38"
-			rewards: [
-				{
-					id: "4F02ED5CCDE9DCA9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				id: "4F02ED5CCDE9DCA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "ars_nouveau:ritual_flight"
 					}
-					type: "item"
+					id: "ars_nouveau:ritual_flight"
 				}
-				{
-					id: "7E0ADF2BDA91E943"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Better get used to it!"
 			tasks: [{
@@ -2536,10 +2368,6 @@
 			description: ["Gives creative flight for a short time. Useful when you're doing things like building and excavating. Every time your flight is replenished, some source is used."]
 			id: "5E79EE36DB5F353A"
 			optional: true
-			rewards: [{
-				id: "665CF429F712B67D"
-				type: "loot"
-			}]
 			tasks: [{
 				id: "1E31C9C060CE72CB"
 				item: {
@@ -2563,33 +2391,23 @@
 			]
 			description: ["When amplified with one of each wilden drop and a lapis block, the Wilden Guardian is summoned, a moderately difficult boss. Killing it and taking its trophy allows you to craft the Archmage's Spellbook."]
 			id: "65C258505EBC649E"
-			rewards: [
-				{
-					id: "58E2DCC953248FAB"
-					type: "loot"
-				}
-				{
-					id: "34822E90E726D69E"
-					type: "custom"
-				}
-				{
-					count: 3
-					id: "62072D1B4F19E9BF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "apotheosis:long_resistance"
+			rewards: [{
+				count: 3
+				id: "62072D1B4F19E9BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:long_resistance"
+					}
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AC59EAE90527847"
 				item: {
@@ -2712,10 +2530,6 @@
 					type: "item"
 				}
 				{
-					id: "1D79134B1BB26BCB"
-					type: "loot"
-				}
-				{
 					id: "5936537C271262C6"
 					item: {
 						Count: 1
@@ -2750,17 +2564,11 @@
 			dependencies: ["40A4602377E4E3F2"]
 			description: ["Bookwyrms pick up items and experience."]
 			id: "2626C487E7BA6230"
-			rewards: [
-				{
-					id: "2AC7479E6C7267D5"
-					type: "custom"
-				}
-				{
-					id: "5A96D9567714D478"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "5A96D9567714D478"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "6FF248D0BDC1B2E5"
 				item: "ars_nouveau:bookwyrm_charm"
@@ -2817,10 +2625,6 @@
 				"Summoned wixies seek to assist mages in combat, tossing their concoctions at adversaries."
 			]
 			id: "0FC6F8A814D4DF45"
-			rewards: [{
-				id: "582ABC5338DA644E"
-				type: "loot"
-			}]
 			tasks: [{
 				id: "3B080D1B8D24D16D"
 				item: "ars_nouveau:wixie_charm"
@@ -2833,10 +2637,6 @@
 			dependencies: ["013CDE87A0D999C3"]
 			description: ["Can be used for a plethora of things in Ars Nouveau. Coming soon."]
 			id: "47E4D3920AB4A17C"
-			rewards: [{
-				id: "3C71A588EA598732"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "78F1CE0546CF4B51"
 				item: {
@@ -2856,10 +2656,6 @@
 		{
 			dependencies: ["3AD5F54906DEF6B4"]
 			id: "18C67A9D50E018CA"
-			rewards: [{
-				id: "2AE0EBBFB061D71B"
-				type: "custom"
-			}]
 			tasks: [{
 				id: "61BA9FA92AF1FFCA"
 				item: "eidolon:resolute_belt"
@@ -2869,8 +2665,8 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["235259A75349C608"]
 			id: "1C2300F8EFEE7A81"
+			invisible: true
 			rewards: [{
 				id: "2F7CC80DA6994FA5"
 				type: "custom"
@@ -5189,7 +4985,9 @@
 		{
 			dependencies: ["2A2B25F44A4AE27B"]
 			description: [
-				"The main allure of Hex Casting is drawing pretty pictures in the grid because you don't have the slightest clue of what you're doing."
+				"&7The main allure of Hex Casting is drawing pretty pictures in the grid because you don't have the slightest clue of what you're doing.&r"
+				""
+				"&d&lThe Basics&r&r"
 				""
 				"You can start this process by seeking out your nearest Amethyst Geode. Sometimes, breaking the Amethyst there will yield Charged Amethyst, which you'll need to craft the staff."
 				""
@@ -5197,8 +4995,7 @@
 				""
 				"The rotation of the shape doesn't matter, but the angular direction (clockwise or counterclockwise) does."
 				"{@pagebreak}"
-				"Let's not get ahead of ourselves. We still have a major factor to consider, one that almost every magic mod features: mana -- or media for hex casters."
-				""
+				"&d&lSpellcasting"
 				"To quote from the Hex Notebook:"
 				""
 				"• Patterns will execute..."
@@ -5209,7 +5006,28 @@
 				""
 				"That's a lot of stuff, but I'll elaborate. A pattern is basically any shape you can draw in the hex grid, even if it turns red and produces a bunch of garbage."
 				""
-				"An action is something caused by one of the shapes turning blue. "
+				"An action is something caused by one of the shapes turning blue. Invalid patterns turn red and create garbage data on the Stack."
+				"{@pagebreak}"
+				"&d&lIotas"
+				"Now, let's learn about the Stack and Iotas. These are the systems Hex Casting uses to store data, and this may be familiar if you've dabbled in programming before."
+				""
+				"An iota is a unit of data. Types include:"
+				"• numbers, like 5.2"
+				"• vectors (coordinates in the world), like [10, 64, -30]"
+				"• booleans: true or false"
+				"• entities: players or mobs"
+				"• patterns: stored for advanced spells"
+				"• lists: groups of other iotas"
+				""
+				"A stack is a temporary list of iotas used during a Hex. Actions manipulate the top (most recently added element) of the Stack."
+				"{@pagebreak}"
+				"&d&lMedia"
+				"Let's not get ahead of ourselves. We still have a major factor to consider, one that almost every magic mod features: mana -- or media for hex casters."
+				""
+				"Every time you use an action, it consumes media. In Mincemeat 2, Amethyst Dust is the only item you need to cast spells, just make sure you have a good amount of it. If you run out before finishing your spell, it gets cancelled."
+				""
+				"&d&lRange"
+				"Up to 30 blocks from your position. However, if you have a reference to an entity, it works at any distance."
 			]
 			id: "173A561DF4516DC0"
 			shape: "hexagon"
@@ -5229,6 +5047,146 @@
 			}]
 			title: "Hex Casting"
 			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["173A561DF4516DC0"]
+			description: [
+				"The Stack is a core part of hex casting (and computer science as a whole). We can use a stack of plates as an analogy."
+				""
+				"The last item that gets added to the stack is the first one you can interact with. This principle is called \"LIFO\" (last in, first out). "
+				""
+				"&d&lStack operations:"
+				"- Push: add an iota to the top of the stack."
+				"- Pop: remove the top iota."
+				"- Peek: examine or modify the top iota, but don't remove it."
+				""
+				"Many actions involve themselves with the Stack, which is why it's good to know how it works.."
+				"- After processing, actions may push new iotas onto the stack."
+				"  &oMind's Reflection pushes your entity iota.&r"
+				"- Most actions pop iotas from the top of the stack to use as inputs."
+				"  &oCompass Purification pops an entity iota and pushes its location vector."
+				"- Some actions rearrange or duplicate the top iotas."
+				"{@pagebreak}"
+				"Here are some specific examples of how some actions might change your stack:"
+				""
+				"&dMind's Reflection"
+				"Stack: [ ] --> [Caster Entity]"
+				""
+				"&dJester's Gambit"
+				"&oPops the top 2 iotas, then pushes them in reverse order."
+				"Stack: [A, B] --> [B, A]"
+				""
+				"&dGemini Decomposition"
+				"&oPeeks the top iota, then pushes a copy."
+				"Stack: [X] --> [X, X]"
+				""
+				"&l&dReminders:"
+				"- The stack is empty when you start a hex."
+				"- Actions fail if there aren't enough iotas (example: casting Jester's Gambit with only 1 iota)"
+				"- Order matters."
+			]
+			icon: "beautify:bookstack"
+			id: "2878EB75598EB9F3"
+			subtitle: "Storing Data"
+			tasks: [{
+				id: "1887C19527D180A0"
+				title: "Stack"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["173A561DF4516DC0"]
+			description: [
+				"Hold the lens in your hand and look at specific blocks (like redstone) to view hidden data."
+				""
+				"While casting with a staff, use it to shrink the spacing between dots, letting you draw more patterns in a single hex."
+			]
+			id: "37D8BB814A62EDD0"
+			tasks: [{
+				id: "66017451876271BB"
+				item: "hexcasting:lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2878EB75598EB9F3"]
+			description: [
+				"The Thought-Knot allows for storing iotas without the Stack."
+				""
+				"To store an iota, hold the Thought-Knot in your off-hand and use Scribe's Gambit to remove the top iota and store it in the Thought-Knot."
+				""
+				"When you need the iota again, cast Scribe's Reflection to push the data in the Thought-Knot to the Stack."
+				""
+				"Once data is read to the Thought-Knot, it can be written to the stack multiple times but cannot be erased or overwritten. As such, it's best to craft multiple if planning on using these innovations."
+			]
+			id: "374CF15A2D92A76F"
+			tasks: [{
+				id: "647CB278A237744F"
+				item: "hexcasting:thought_knot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2878EB75598EB9F3"]
+			description: [
+				"Functionally, Foci are Thought-Knots but reusable. Casting Scribe's Gambit will write over whatever's in the Focus with the top iota."
+				""
+				"Reading from the Focus is identical to the Thought-Knot; just use Scribe's Reflection."
+				""
+				"To ensure your Focus is not overwritten, craft it with a Honeycomb. This process is reversibe by casting Erase Item."
+			]
+			id: "7FDBD1DBCB67C51B"
+			tasks: [{
+				id: "34C0AEBE25FEA677"
+				item: "hexcasting:focus"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["173A561DF4516DC0"]
+			description: [
+				"If you don't want to use patterns to draw numbers, the Abacus can provide them instead."
+				""
+				"First, set the number using the Abacus, then read the value using Scribe's Reflection like you would for pushing from the Thought-Knot."
+				""
+				"To set the number, hold the Abacus, sneak, and scroll. The conditions under which you're holding the Abacus determine the amount the number will change by."
+				""
+				"In main hand: 1 per scroll or 10 if you're also holding your sprint key."
+				"In your off hand: 0.1 per scroll, or 0.001 if sprint held."
+			]
+			id: "2AB05698910D0F06"
+			tasks: [{
+				id: "49F325EB96697F53"
+				item: "hexcasting:abacus"
+				type: "item"
+			}]
+			title: "Abacus (Hex Casting)"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FDBD1DBCB67C51B"]
+			description: [
+				"The Spellbook works like 64 foci in one neat little item. It has the honeycomb functionality and can be interacted with using Scribe's Gambit and Erase Item."
+				""
+				"Select a page to be active by sneak-scrolling while holding it. Individual pages can be renamed in an anvil if you'd like."
+			]
+			id: "1A72B8860BC5021C"
+			tasks: [{
+				id: "0D0C2E01161AF3A7"
+				item: "hexcasting:spellbook"
+				type: "item"
+			}]
+			x: -5.5d
 			y: 1.5d
 		}
 	]

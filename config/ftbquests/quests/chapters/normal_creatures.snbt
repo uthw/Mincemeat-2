@@ -51,10 +51,6 @@
 			id: "120AA32518CBBE10"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "242692E529FCE366"
-				type: "custom"
-			}]
 			subtitle: "Delicious pancakes?"
 			tasks: [{
 				id: "7D068FD4568C6660"
@@ -71,6 +67,11 @@
 			description: ["Mycelial creatures with one eye and a long nose."]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:mungus"
@@ -78,10 +79,7 @@
 			}
 			id: "16A64037CBAD1769"
 			invisible: true
-			rewards: [{
-				id: "04DFADD99A6F90AD"
-				type: "custom"
-			}]
+			optional: true
 			subtitle: "Banished for eternity"
 			tasks: [{
 				icon: {
@@ -119,10 +117,6 @@
 			hide_dependency_lines: true
 			id: "54CFED43A10D10BE"
 			invisible: true
-			rewards: [{
-				id: "275DCC93FA9820F3"
-				type: "custom"
-			}]
 			subtitle: "Welcome to the Hotel California"
 			tasks: [{
 				icon: {
@@ -154,26 +148,20 @@
 				"After you stop controlling your eagle, it will return to your glove."
 			]
 			id: "7251E57ABA9DE254"
-			rewards: [
-				{
-					count: 12
-					id: "2E89ADD447BEE837"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 12
+				id: "2E89ADD447BEE837"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "aquaculture:catfish"
 					}
-					type: "item"
+					id: "aquaculture:catfish"
 				}
-				{
-					id: "158853BBF04E23CB"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -211,10 +199,6 @@
 			dependencies: ["7251E57ABA9DE254"]
 			description: ["Kill any creature from 100 blocks away with an Eagle wearing a Hood"]
 			id: "42B0BB99623EE97C"
-			rewards: [{
-				id: "0AAF8EA34D43E49A"
-				type: "custom"
-			}]
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
 				criterion: ""
@@ -234,10 +218,6 @@
 			]
 			id: "2A5603FA9CA50D0F"
 			invisible: true
-			rewards: [{
-				id: "013F9287AD7319EB"
-				type: "custom"
-			}]
 			subtitle: "Trash pandas no more"
 			tasks: [{
 				icon: {
@@ -265,10 +245,6 @@
 			]
 			id: "12DBD5915AD9675D"
 			invisible: true
-			rewards: [{
-				id: "0F242A605F318AD1"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -297,10 +273,6 @@
 			]
 			id: "64640397C037C1D5"
 			invisible: true
-			rewards: [{
-				id: "04510BCF423F98BE"
-				type: "custom"
-			}]
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/grizzly_bear"
 				criterion: ""
@@ -432,6 +404,7 @@
 			]
 			id: "3AA39790CB8F9793"
 			invisible: true
+			optional: true
 			tasks: [{
 				icon: {
 					Count: 1

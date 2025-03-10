@@ -296,26 +296,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["23B75CD0B5815418"]
-			description: [
-				"Storage Drawers have been removed with Mincemeat 2 v0.4.0"
-				""
-				"This is mostly due to memory-related concerns and the fact that Sophisticated Storage adds drawer-like containers."
-				""
-				"If I add the mod back for whatever reason, these quests will become available again."
-			]
-			icon: "aquaculture:treasure_chest"
-			id: "050E820868DD4EC3"
-			invisible: true
-			tasks: [{
-				id: "5E9F73E075F9A559"
-				type: "checkmark"
-			}]
-			title: "Advanced Storage"
-			x: 2.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["3B8312D8718DC5B4"]
 			description: [
 				"The linking mechanics of tanks are the same as they are for chests."
@@ -344,89 +324,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6FA77AB82BB6400A"]
-			description: ["This makes the drawer remember the item(s) it has, even when there aren't any. This is useful if you don't want other storage managers to fill the drawer with random junk."]
-			id: "3667DAB1080B260B"
-			tasks: [{
-				id: "4E2C49DDF41FF1C4"
-				item: "storagedrawers:drawer_key"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["3667DAB1080B260B"]
-			description: ["Toggles labels on drawers that tell you how many items are in the drawer."]
-			id: "770EE77FCEC1536E"
-			tasks: [{
-				id: "662F58FDEBE3C0F0"
-				item: "storagedrawers:quantify_key"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["770EE77FCEC1536E"]
-			description: ["useful if you're on a lower end PC and the drawers make your game lag."]
-			id: "73FA79CA904114C3"
-			tasks: [{
-				id: "79081C95814ABC37"
-				item: "storagedrawers:shroud_key"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["050E820868DD4EC3"]
-			description: ["JEI Right click"]
-			id: "6FA77AB82BB6400A"
-			subtitle: "You can upgrade your storage drawers to enhance their usefulness."
-			tasks: [{
-				id: "4A05336F50332E1F"
-				item: "storagedrawers:upgrade_template"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["050E820868DD4EC3"]
-			id: "6A39634F3E4448AF"
-			tasks: [{
-				id: "20D6D9367D7D0422"
-				item: "storagedrawers:compacting_drawers_3"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["6A39634F3E4448AF"]
-			description: [
-				"You can double Rclick a controller to get a form of Terraria's \"quick stack\": insert any items from your inventory, but only if they already exist in the drawer system."
-				""
-				"The drawer controller can see inventories of all drawers that touch it."
-				"{image:kubejs:textures/item/controller.png width:571 height:661 align:1 fit:true}"
-			]
-			id: "6B87C9B1BF3F31C7"
-			rewards: [{
-				count: 2
-				id: "3B857EBE660B9794"
-				item: "storagedrawers:controller_slave"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1829117859594D4F"
-				item: "storagedrawers:controller"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -7.0d
-		}
-		{
 			description: [
 				"Right click a &evanilla storage container&r with this to make it &6sophisticated&r."
 				""
@@ -442,53 +339,6 @@
 			title: "Sophisticated Storage"
 			x: 3.0d
 			y: 2.0d
-		}
-		{
-			description: [
-				"When you open the GUI of this item for the first time, it may seem a bit complicated. Let me explain:"
-				""
-				"The controller is where you interact with your network, configuring what channels can hold what objects and where those channels send the objects."
-				"{@pagebreak}"
-				"{image:kubejs:item/controller1 width:667 height:473 align:center fit:true}"
-				""
-				"Something like above should appear when placing down a controller. By clicking a channel number, you can choose what you want flowing on that channel. Choose xnet:items for items, for example, then hit Create."
-				""
-				"Next, use cables and wires to hook things up to your network. For it to work, you NEED to give it power by feeding power from a generator to it or connecting one on the network."
-			]
-			id: "22D8C0C0ED3C9F3D"
-			subtitle: "Centerpiece for XNet networks. Requires RF to function. You do not need to use XNet in this modpack"
-			tasks: [{
-				id: "7E6C1580C0B72CCC"
-				item: "xnet:controller"
-				type: "item"
-			}]
-			title: "XNet"
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["22D8C0C0ED3C9F3D"]
-			description: [
-				"Placing a connector cable adjacent to the block you'd like to connect will do so. Make sure the controller is connected too!"
-				""
-				"You may right click a connector to name it; this can be useful if you have a large network."
-				"{@pagebreak}"
-				"{image:kubejs:item/controller2 width:676 height:481 align:center fit:true}"
-				""
-				"Above is my very simple example of a network for you. I have a Devouring Generator from Cyclic that is sending RF to a Pulverizer from Thermal."
-				""
-				"Click the squares in the channel column until you have a setup you're satisfied with. E means exporting and I means importing when we're dealing with energy. You can also set a transfer rate, which I have at 40 RF/t in the screenshot."
-				""
-				"Happy controlling!"
-			]
-			id: "035519033C6C87D2"
-			tasks: [{
-				id: "15BAE04753E1E480"
-				title: "Cables"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -5.0d
 		}
 	]
 	title: "Advanced Storage"

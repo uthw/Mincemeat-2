@@ -25,10 +25,6 @@
 			}
 			id: "485C5F69DED25C21"
 			invisible: true
-			rewards: [{
-				id: "46BFE6A0A9DC1606"
-				type: "custom"
-			}]
 			subtitle: "Nuclear war champion"
 			tasks: [{
 				icon: {

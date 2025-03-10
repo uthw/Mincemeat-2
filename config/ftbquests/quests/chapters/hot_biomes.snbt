@@ -37,10 +37,6 @@
 			}
 			id: "2B015BB165ADE187"
 			invisible: true
-			rewards: [{
-				id: "64898840E72D45F7"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -72,10 +68,6 @@
 			}
 			id: "50DA5639B2066662"
 			invisible: true
-			rewards: [{
-				id: "0735C14643D10D7F"
-				type: "custom"
-			}]
 			subtitle: "Meep meep"
 			tasks: [{
 				icon: "alexsmobs:roadrunner_feather"
@@ -92,25 +84,19 @@
 		{
 			dependencies: ["50DA5639B2066662"]
 			id: "0EA4D579B28463AF"
-			rewards: [
-				{
-					id: "0C2436B752D1056B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				id: "0C2436B752D1056B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "alexsmobs:roadrunner_feather"
 					}
-					type: "item"
+					id: "alexsmobs:roadrunner_feather"
 				}
-				{
-					id: "4FA22C169CEF1107"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "You killed the server TPS optimization mod!"
 			tasks: [{
@@ -133,29 +119,23 @@
 			dependencies: ["0EA4D579B28463AF"]
 			description: ["Diamond-equivalent boots. Useful for how early you can obtain them. They increase your speed on sand."]
 			id: "75F86AE01AEF6CB3"
-			rewards: [
-				{
-					count: 3
-					id: "01638682E2699685"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:strong_swiftness"
+			rewards: [{
+				count: 3
+				id: "01638682E2699685"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
 				}
-				{
-					id: "445B7976C5218AF7"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "680AFFC6B5DB0DA0"
@@ -184,10 +164,6 @@
 			]
 			id: "57A650E23A9C2065"
 			invisible: true
-			rewards: [{
-				id: "75692BC46ED26E5C"
-				type: "custom"
-			}]
 			subtitle: "I hear a who!"
 			tasks: [{
 				icon: {
@@ -217,17 +193,11 @@
 				"Note: a leader elephant can only be tamed when it's a baby. They can charge at enemies by feeding them wheat while mounted."
 			]
 			id: "309664BBA2FE0E4D"
-			rewards: [
-				{
-					id: "22636CA3BDFB6212"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "5CDBDE39111A4B41"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				id: "22636CA3BDFB6212"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "tame an elephant"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/tame_elephant"
@@ -280,10 +250,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "0F65C414E3D55F4E"
-					type: "custom"
-				}
 			]
 			subtitle: "They beat the Aussies!"
 			tasks: [{
@@ -312,60 +278,6 @@
 			]
 			id: "5D68CFC9BAA7D524"
 			invisible: true
-			rewards: [
-				{
-					id: "386CBDFF3965C6C8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:stone_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "44F0B8E79858C315"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:iron_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "69A505C5B92242D4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "iceandfire:armor_silver_metal_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6D2812A25B9FA714"
-					type: "custom"
-				}
-			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -392,10 +304,6 @@
 			]
 			id: "6B0CBDB3A1614064"
 			invisible: true
-			rewards: [{
-				id: "6E29EF6C756D84BF"
-				type: "custom"
-			}]
 			subtitle: "What even is it?"
 			tasks: [{
 				icon: {
@@ -471,10 +379,6 @@
 			]
 			id: "351B1E68E56F1EC3"
 			invisible: true
-			rewards: [{
-				id: "1B7FD8247DBF5DAA"
-				type: "custom"
-			}]
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/rattlesnake"
 				criterion: ""
@@ -495,10 +399,6 @@
 			]
 			id: "04A2EE1D49A2279B"
 			invisible: true
-			rewards: [{
-				id: "501F6649C586A0E8"
-				type: "custom"
-			}]
 			subtitle: "Average day in Oklahoma"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/guster"
@@ -520,26 +420,20 @@
 				"Pockets of sand use sand as ammunition and fires sand that deals minor damage."
 			]
 			id: "102313192FE132F8"
-			rewards: [
-				{
-					count: 64
-					id: "35491FE5878A5E0B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 64
+				id: "35491FE5878A5E0B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "minecraft:sand"
 					}
-					type: "item"
+					id: "minecraft:sand"
 				}
-				{
-					id: "42569EA201D9ED1C"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "30E8A8E527542B86"
@@ -799,20 +693,16 @@
 			}
 			id: "41C4D1996B81CB20"
 			invisible: true
-			rewards: [{
-				id: "2C4BB7E8DB488B67"
-				type: "custom"
-			}]
 			subtitle: "Wings of fury"
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
-					id: "byg:pollen_dust"
+					id: "environmental:white_lotus_flower"
 				}
 				id: "5A90B58C8C1BE9C0"
 				observe_type: 5
@@ -859,26 +749,20 @@
 			]
 			id: "31BC99E933E863DE"
 			invisible: true
-			rewards: [
-				{
-					count: 8
-					id: "54B4F048CCA4B3C3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				count: 8
+				id: "54B4F048CCA4B3C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
-						id: "minecraft:egg"
 					}
-					type: "item"
+					id: "minecraft:egg"
 				}
-				{
-					id: "703660637ED519CB"
-					type: "custom"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -940,10 +824,6 @@
 			]
 			id: "6703A6B64B9B9DE8"
 			invisible: true
-			rewards: [{
-				id: "1A1FEE5132D1F35A"
-				type: "custom"
-			}]
 			subtitle: "He's the leader of the pack"
 			tasks: [{
 				icon: {
@@ -971,10 +851,6 @@
 			]
 			id: "1B3989BD20DCF6F8"
 			invisible: true
-			rewards: [{
-				id: "0D6B2DB2B45C6B80"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1003,10 +879,6 @@
 			]
 			id: "29089A51573B8D0B"
 			invisible: true
-			rewards: [{
-				id: "6E4BAA40B3615663"
-				type: "custom"
-			}]
 			subtitle: "It's poison in one bite"
 			tasks: [{
 				icon: {
@@ -1029,16 +901,6 @@
 		{
 			dependencies: ["29089A51573B8D0B"]
 			id: "466782C8CD6D0A3B"
-			rewards: [
-				{
-					id: "313B6C4BC00FDCCF"
-					type: "custom"
-				}
-				{
-					id: "41F2C82976241D58"
-					type: "custom"
-				}
-			]
 			shape: "rsquare"
 			tasks: [{
 				id: "14427CE3B232FDE4"
@@ -1060,16 +922,6 @@
 			dependencies: ["466782C8CD6D0A3B"]
 			description: ["Use these in place of awkward potions (with a cave centipede leg as ingredient) to make yourself Poison Resistance potions. I recommend bringing these to your fight against the Arachnarch."]
 			id: "10F4421FBAF0BD45"
-			rewards: [
-				{
-					id: "41D1413BBF7ED496"
-					type: "custom"
-				}
-				{
-					id: "1770E64BC22B7E81"
-					type: "custom"
-				}
-			]
 			shape: "rsquare"
 			tasks: [{
 				id: "4107743AE17435AF"
@@ -1090,17 +942,11 @@
 		{
 			dependencies: ["10F4421FBAF0BD45"]
 			id: "6319364C7E399383"
-			rewards: [
-				{
-					id: "4E700BB86F647A0B"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "42B87F461B2B4E05"
-					type: "custom"
-				}
-			]
+			rewards: [{
+				id: "4E700BB86F647A0B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "rsquare"
 			subtitle: "Get vaccinated"
 			tasks: [{
@@ -1130,10 +976,6 @@
 			]
 			id: "6740672CC296E9A7"
 			invisible: true
-			rewards: [{
-				id: "457DBA80F0834BC8"
-				type: "custom"
-			}]
 			tasks: [{
 				icon: {
 					Count: 1
