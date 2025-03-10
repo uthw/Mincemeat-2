@@ -420,97 +420,81 @@ ServerEvents.highPriorityData((event) => {
         { name: "wood/livingwood", durability: 140 },
         { name: "wood/maple", durability: 140 },
 
-        // dimasc disable
+        // dimasc blue skies compat
 
         {
             name: "gem/charoite",
-            primary: 0,
-            secondary: 0,
+            durability: 3122,
+            hardness: 6,
         },
         {
             name: "gem/diopside",
-            primary: 0,
-            secondary: 0,
+            durability: 3122,
+            hardness: 9,
         },
-        // {
-        //     name: "gem/moonstone",
-        //     primary: 0,
-        //     secondary: 0,
-        // },
+        {
+            name: "gem/moonstone",
+            durability: 1000,
+        },
         {
             name: "gem/pyrope",
-            primary: 0,
-            secondary: 0,
+            durability: 400,
         },
         {
             name: "metal/aquite",
-            primary: 0,
-            secondary: 0,
+            durability: 540
         },
         {
             name: "metal/falsite",
-            primary: 0,
-            secondary: 0,
+            durability: 900
         },
         {
             name: "metal/horizonite",
-            primary: 0,
-            secondary: 0,
+            durability: 500
         },
         {
             name: "metal/ventium",
-            primary: 0,
-            secondary: 0,
+            durability: 400
         },
         {
             name: "stone/lunar_stone",
-            primary: 0,
-            secondary: 0,
+            durability: 262
         },
         {
             name: "stone/turquoise_stone",
-            primary: 0,
-            secondary: 0,
+            durability: 262
         },
         {
             name: "wood/bluebright",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
         {
             name: "wood/comet",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
         {
             name: "wood/dusk",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
         {
             name: "wood/dusk",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
         {
             name: "wood/frostbright",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
         {
             name: "wood/lunar_wood",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
         {
             name: "wood/maple",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
         {
             name: "wood/starlit",
-            primary: 0,
-            secondary: 0,
+            durability: 108
         },
     ];
     tweak.forEach((material) => {
