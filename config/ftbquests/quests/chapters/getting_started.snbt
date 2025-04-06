@@ -66,8 +66,7 @@
 					type: "command"
 				}
 				{
-					auto: "no_toast"
-					id: "28450903773557C2"
+					id: "7CC364D38D48D013"
 					item: {
 						Count: 1
 						id: "eccentrictome:tome"
@@ -145,6 +144,15 @@
 										}
 									}
 								}
+								hexcasting: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "hexcasting:thehexbook"
+										}
+									}
+								}
 								hexerei: {
 									0: {
 										Count: 1b
@@ -190,6 +198,15 @@
 										id: "patchouli:guide_book"
 										tag: {
 											"patchouli:book": "minecells:minecells_guidebook"
+										}
+									}
+								}
+								modonomicon: {
+									0: {
+										Count: 1b
+										id: "modonomicon:modonomicon"
+										tag: {
+											"modonomicon:book_id": "theurgy:the_hermetica"
 										}
 									}
 								}
@@ -261,7 +278,7 @@
 				}
 			]
 			tasks: [{
-				icon: "botania:cosmetic_clock_eye"
+				icon: "supplementaries:clock_block"
 				id: "7ABAEA70F4D6542F"
 				stat: "minecraft:play_time"
 				type: "stat"
@@ -330,33 +347,6 @@
 					type: "item"
 				}
 				{
-					id: "333C75DC690A2FB7"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "spartanshields:wooden_tower_shield"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "spartanshields:wooden_basic_shield"
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
-					}
-					title: "Basic Shield"
-					type: "item"
-				}
-				{
 					id: "0B96DE971DEA677A"
 					item: {
 						Count: 1
@@ -366,6 +356,136 @@
 						}
 					}
 					title: "Any #forge:workbench"
+					type: "item"
+				}
+				{
+					id: "3CA80F6D10BD21FB"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:wooden_basic_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:wooden_tower_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:stone_basic_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:stone_tower_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:copper_basic_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:copper_tower_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:iron_basic_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "spartanshields:iron_tower_shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"cold_sweat:item_insulation": {
+											Insulation: [ ]
+										}
+									}
+									id: "minecraft:shield"
+									tag: {
+										Damage: 0
+										Insulation: [ ]
+									}
+								}
+							]
+						}
+					}
+					title: "Basic Shield"
 					type: "item"
 				}
 			]
@@ -449,8 +569,40 @@
 				}
 			]
 			tasks: [{
-				id: "5F328F129A7073D4"
-				item: "sophisticatedbackpacks:backpack"
+				id: "7FDF3B1D8E389EE8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:copper_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:iron_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:diamond_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+							}
+						]
+					}
+				}
+				title: "Backpack"
 				type: "item"
 			}]
 			title: "Upgrade your Inventory"
@@ -714,7 +866,14 @@
 				}
 				{
 					id: "4B0E196D3AC972B1"
-					item: "minecraft:anvil"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:anvil"
+						}
+					}
+					title: "Any #minecraft:anvil"
 					type: "item"
 				}
 				{
@@ -1226,7 +1385,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C08AF09C8F20F4F"]
@@ -1295,10 +1454,11 @@
 			description: [
 				"Do you want to cause yourself unnecessary pain? If so, equip this ring."
 				""
-				"Fair warning: you can't unequip it."
+				"Fair warning: you can't unequip it (not right now, at least)."
 			]
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "6015707B798A004F"
+			optional: true
 			rewards: [{
 				auto: "enabled"
 				id: "0DC8E287624317EF"
@@ -1371,7 +1531,7 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
@@ -2079,11 +2239,6 @@
 					item: "sophisticatedbackpacks:diamond_backpack"
 					type: "item"
 				}
-				{
-					id: "031B84F83440EE7E"
-					item: "sophisticatedbackpacks:netherite_backpack"
-					type: "item"
-				}
 			]
 			title: "Upgrade your Backpack"
 			x: 3.5d
@@ -2589,7 +2744,19 @@
 				""
 				"The sewing table allows you to sew appropriate materials into your armor, granting it weather resistance."
 				""
-				"There are a lot of items which can be sewed into armor. Hold alt/option over the bottom slot in the sewing interface to see a list!"
+				"There are a lot of items which can be sewed into armor. This is indicated by a meter under the item's name:"
+				""
+				"{image:kubejs:item/cs_blue width:102 height:47 align:center}"
+				"Blue means the item provides insulation against cold weather"
+				""
+				"{image:kubejs:item/cs_red width:169 height:50 align:center}"
+				"Red means the item provides insulation against hot weather"
+				""
+				"{image:kubejs:item/cs_purple width:121 height:74 align:center}"
+				"Purple means the item provides insulation against hot and cold weather"
+				""
+				"{image:kubejs:item/cs_green width:88 height:48 align:center}"
+				"Green means the item dynamically provides insulation that varies based on the regional temperature"
 			]
 			id: "5818946310414790"
 			tasks: [
@@ -2777,7 +2944,7 @@
 		{
 			dependencies: ["28B44DDB5378D2E6"]
 			description: [
-				"These vessels mirror the boats you just made, but suited for travel by air instaed of sea. Luckily, they don't require an aviation degree to fly, but crafting them might be a challenge!"
+				"These vessels mirror the boats you just made, but suited for travel by air instead of sea. Luckily, they don't require an aviation degree to fly, but crafting them might be a challenge!"
 				""
 				"You'll want to start simple with a Gyrodyne. This plane lacks an engine, so it can be made early on. Enter the plane, then use movement keys to move. Pressing shift is the only way of losing altitude."
 				""
@@ -2822,6 +2989,118 @@
 			title: "Immersive Aircraft"
 			x: -2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["479B3130EB602E62"]
+			description: [
+				"Monster Spawners can now be picked up using Silk Touch. You can also use spawn eggs to change which mob is outputted by a spawner."
+				""
+				"You might've just scratched your head and asked, \"how do I get spawn eggs in survival mode?\" For that, you'll need the Capturing enchantment. Each level of Capturing gives a 0.4% chance for a spawn egg when killing mobs."
+				""
+				"Hold control/command on a spawner. You'll see some stats that are of interest to you:"
+				""
+				"&aMin/Max Spawn Delay:&r the time between spawns is a random number between the min and max in ticks"
+				"&aSpawn Count:&r the maximum number of mobs spawned in one cycle"
+				"&aMax Entities:&r the maximum number of entities before the spawner. If exceeded, the spawner deactivates, until the number falls below this"
+				"&aActivation Range:&r how far a player must be from the spawner for it to work"
+				"&aSpawn Range:&r how far the mobs can spawn"
+			]
+			id: "1CAD0713BCA3D2EB"
+			tasks: [{
+				id: "0444733B813B1F4D"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CAD0713BCA3D2EB"]
+			description: ["Search for a spawner in JEI and click or right click on it to see the blocks that can modify it and what those modifications will do."]
+			id: "4E1FFCC11DCC7F97"
+			optional: true
+			tasks: [
+				{
+					id: "43278C3AE694B06C"
+					item: "minecraft:soul_lantern"
+					type: "item"
+				}
+				{
+					id: "6D9C6CFAEA52D472"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					id: "51E2F8E6B2F6042F"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "2A5D5AF756EC02D0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					title: "Any #minecraft:wool"
+					type: "item"
+				}
+				{
+					id: "642F8BABE823081E"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "1AACB05D20BDB4E1"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "5B94704EFC711AD7"
+					item: "minecraft:turtle_egg"
+					type: "item"
+				}
+				{
+					id: "6E048B81072749F1"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					id: "0CDEED2E2858C870"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "225F1F1298113C9B"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+				{
+					id: "5EA89A9091000DCF"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					id: "7EBFC0B952D90F1D"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "07F017A006B4B2DE"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "3A9E761E8C19D2D2"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Spawner Upgrades"
+			x: 9.5d
+			y: -1.0d
 		}
 	]
 	title: "Getting Started"
