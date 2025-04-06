@@ -118,5 +118,15 @@
     "effect.cataclysm.ghost_form.description": "Revives and briefly increases stats after dying while wearing full cursium armor.",
     "effect.cataclysm.ghost_sickness.description": "Cannot be revived by the cursium armor's set bonus during this time.",
     "effect.savage_and_ravage.weight.description": "Makes the player slower and prevents jumping.",
-    "effect.alexscaves.sugar_rush.description": "Improves movement speed but decreases vertical movement and makes deceleration harder. Provides immunity to fall damage."
+    "effect.alexscaves.sugar_rush.description": "Improves movement speed but decreases vertical movement and makes deceleration harder. Provides immunity to fall damage.",
+    "death.attack.create.crush": "%1$s was chopped up by Crushing Wheels, and the only thing that's left of them is their eyeball",
+    "death.attack.create.crush.player": "%1$s was thrown into Crushing Wheels by %2$s, and the only thing that's left of them is their eyeball",
+    "death.attack.createaddition.barbed_wire": "%s was met with a shocking fate",
+    "death.attack.creataddition.barbed_wire.player": "%1$s was met with a shocking fate by %2$s",
+    "message.deathknell.stared_down": "%1$s was stared down by %2$s",
+    "enchantment.feathers.lightweight.desc": "Lessens the armor's negative impact on the feathers meter.",
+    "enchantment.feathers.heavy.desc": "Increases the armor's negative impact on the feathers meter.",
+    "item.graveyard.incarnated_evil_music_disc": "Music Disc",
+    "enchantment.hunters_return.bounce.desc": "The boomerang can bounce off of more walls and mobs in one throw.",
+    "enchantment.celestisynth.pulsation.desc": "Attacks randomly do additional damage and knockback. The chance and effectiveness increase with the level."
 }
