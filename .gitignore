@@ -98,3 +98,4 @@ TrashSlotSaveState.json
 data/fabricDefaultResourcePacks.dat
 kubejs/assets/kubejs/textures/item/message.txt
 
+config/packetfixer.properties
