@@ -86,6 +86,7 @@ config/attributefix.json
 config/craftpresence.json
 config/jaopca/materials
 config/jei/ingredient-list-type-sort-order.ini
+config/voicechat/username-cache.json
 
 # Other Generated Files
 .mixin.out/
