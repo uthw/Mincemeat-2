@@ -1,1 +1,110 @@
-[]
+[
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "replace_with_executioner"
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        },
+        "spawn": {
+            "mob": "savage_and_ravage:executioner",
+            "mindistance": 0,
+            "maxdistance": 1,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "replace_with_fusilier"
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        },
+        "spawn": {
+            "mob": "immersiveengineering:fusilier",
+            "mindistance": 0,
+            "maxdistance": 1,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "replace_with_commando"
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        },
+        "spawn": {
+            "mob": "immersiveengineering:commando",
+            "mindistance": 0,
+            "maxdistance": 1,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "replace_with_griefer"
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        },
+        "spawn": {
+            "mob": "savage_and_ravage:griefer",
+            "mindistance": 0,
+            "maxdistance": 1,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "replace_with_trickster"
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        },
+        "spawn": {
+            "mob": "savage_and_ravage:trickster",
+            "mindistance": 0,
+            "maxdistance": 1,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "replace_with_necromancer"
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        },
+        "spawn": {
+            "mob": "eidolon:necromancer",
+            "mindistance": 0,
+            "maxdistance": 1,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
+    }
+]

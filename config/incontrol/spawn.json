@@ -4,61 +4,40 @@
         "when": "onjoin",
         "dimension": "minecells:prison",
         "result": "allow",
-        "healthmultiply": 1.75,
-        "damagemultiply": 1.75
+        "healthmultiply": 4,
+        "damagemultiply": 4
     },
     {
         "hostile": true,
         "when": "onjoin",
         "dimension": "minecells:promenade",
         "result": "allow",
-        "healthmultiply": 1.9,
-        "damagemultiply": 2
+        "healthmultiply": 4.5,
+        "damagemultiply": 4
     },
     {
         "hostile": true,
         "when": "onjoin",
         "dimension": "minecells:ramparts",
         "result": "allow",
-        "healthmultiply": 1.8,
-        "damagemultiply": 1.5
+        "healthmultiply": 5,
+        "damagemultiply": 4.5
     },
     {
         "hostile": true,
         "when": "onjoin",
         "dimension": "minecells:black_bridge",
         "result": "allow",
-        "healthmultiply": 1.5,
-        "damagemultiply": 1.5
+        "healthmultiply": 4,
+        "damagemultiply": 3
     },
     {
         "hostile": true,
         "when": "onjoin",
         "dimension": "minecells:insufferable_crypt",
         "result": "allow",
-        "healthmultiply": 2,
-        "damagemultiply": 2
-    },
-    {
-        "when": "onjoin",
-        "mob": "aether:slider",
-        "result": "default",
-        "healthmultiply": 1.25,
-        "damagemultiply": 1.25
-    },
-    {
-        "when": "onjoin",
-        "mob": "aether:valkyrie_queen",
-        "result": "default",
-        "healthmultiply": 1.4,
-        "damagemultiply": 1.3
-    },
-    {
-        "when": "onjoin",
-        "mob": "lost_aether_content:aerwhale_king",
-        "result": "default",
-        "healthmultiply": 1.4,
-        "damagemultiply": 1.4
+        "healthmultiply": 4,
+        "damagemultiply": 3.5
     },
     {
         "when": "onjoin",
@@ -119,6 +98,12 @@
     },
     {
         "when": "onjoin",
+        "mob": "alexscaves:magnetron",
+        "healthmultiply": 3,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
         "mob": "environmental:yak",
         "result": "default",
         "damagemultiply": 10
@@ -144,30 +129,35 @@
         "when": "onjoin",
         "mob": "meetyourfight:swampjaw",
         "healthmultiply": 1.5,
+        "damagemultiply": 1.3,
         "result": "default"
     },
     {
         "when": "onjoin",
         "mob": "meetyourfight:bellringer",
         "healthmultiply": 1.5,
+        "damagemultiply": 1.5,
         "result": "default"
     },
     {
         "when": "onjoin",
         "mob": "meetyourfight:dame_fortuna",
         "healthmultiply": 1.55,
+        "damagemultiply": 2,
         "result": "default"
     },
     {
         "when": "onjoin",
         "mob": "meetyourfight:rosalyne",
         "healthmultiply": 1.35,
+        "damagemultiply": 1.75,
         "result": "default"
     },
     {
         "when": "onjoin",
         "mob": "alexsmobs:cachalot_whale",
         "healthmultiply": 2.5,
+        "damagemultiply": 2.5,
         "result": "default"
     },
     {
@@ -188,7 +178,7 @@
     {
         "when": "onjoin",
         "hostile": true,
-        "structure": "integrated_stronghold:stronghold",
+        "structure": ["integrated_stronghold:stronghold", "tlc:lost_castle"],
         "healthmultiply": 3,
         "damagemultiply": 2,
         "result": "default"
@@ -201,5 +191,132 @@
             "perplayer": true
         },
         "result": "deny"
+    },
+    {
+        "mob": "minecraft:vindicator",
+        "structure": [
+            "conjurer_illager:theatre",
+            "irons_spellbooks:evoker_fort",
+            "idas:pillager_fortress",
+            "nova_structures:illager_hideout",
+            "nova_structures:illager_manor"
+        ],
+        "customevent": "replace_with_executioner",
+        "when": "onjoin",
+        "random": 0.8,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structure": [
+            "conjurer_illager:theatre",
+            "irons_spellbooks:evoker_fort",
+            "idas:pillager_fortress",
+            "nova_structures:illager_hideout",
+            "nova_structures:illager_manor"
+        ],
+        "customevent": "replace_with_fusilier",
+        "when": "onjoin",
+        "random": 0.1,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structure": [
+            "conjurer_illager:theatre",
+            "irons_spellbooks:evoker_fort",
+            "idas:pillager_fortress",
+            "nova_structures:illager_hideout",
+            "nova_structures:illager_manor"
+        ],
+        "customevent": "replace_with_commando",
+        "when": "onjoin",
+        "random": 0.15,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structure": [
+            "conjurer_illager:theatre",
+            "irons_spellbooks:evoker_fort",
+            "idas:pillager_fortress",
+            "nova_structures:illager_hideout",
+            "nova_structures:illager_manor"
+        ],
+        "customevent": "replace_with_griefer",
+        "when": "onjoin",
+        "random": 0.3,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:illusioner",
+        "structure": [
+            "conjurer_illager:theatre",
+            "irons_spellbooks:evoker_fort",
+            "idas:pillager_fortress",
+            "nova_structures:illager_hideout",
+            "nova_structures:illager_manor"
+        ],
+        "customevent": "replace_with_trickster",
+        "when": "onjoin",
+        "random": 0.8,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structure": [
+            "conjurer_illager:theatre",
+            "irons_spellbooks:evoker_fort",
+            "idas:pillager_fortress",
+            "nova_structures:illager_hideout",
+            "nova_structures:illager_manor"
+        ],
+        "customevent": "replace_with_necromancer",
+        "when": "onjoin",
+        "random": 0.1,
+        "result": "deny_with_actions"
+    },
+    {
+        "when": "onjoin",
+        "structure": [
+            "irons_spellbooks:evoker_fort",
+            "conjurer_illager:theatre"
+        ],
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.5,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "dimension": "minecraft:the_nether",
+        "healthmultiply": 3,
+        "damagemultiply": 3,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "dimension": "aether:the_aether",
+        "healthmultiply": 3,
+        "damagemultiply": 3,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "dimension": "minecraft:the_end",
+        "healthmultiply": 4,
+        "damagemultiply": 4,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "hostile": true,
+        "followrangemultiply": 2
+    },
+    {
+        "when": "onjoin",
+        "mob": "minecraft:wither",
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.5,
+        "result": "default"
     }
 ]
