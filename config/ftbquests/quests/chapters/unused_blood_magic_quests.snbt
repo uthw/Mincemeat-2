@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unused_blood_magic_quests"
+	group: "1D1CECCF47A202B0"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "thermal:device_nullifier"
+	}
+	id: "4BE423F02780B92C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C2300F8EFEE7A81"
+			invisible: true
+			rewards: [{
+				id: "2F7CC80DA6994FA5"
+				type: "custom"
+			}]
+			subtitle: "To start Blood Magic, you need to do some natural magic first."
+			tasks: [{
+				id: "1D1FD45C329440DF"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C2300F8EFEE7A81"]
+			description: ["One use of the Sacrificial Knife takes 2 HP from its user and adds 200 life points (LP) to a nearby blood altar. The max capacity of the altar is 10,000 LP."]
+			id: "0FB32BA9C9A5EBD4"
+			rewards: [{
+				id: "6AF0B89E1E99FD1B"
+				type: "custom"
+			}]
+			subtitle: "Don't try this at home"
+			tasks: [{
+				id: "066E968969C78EF5"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FB32BA9C9A5EBD4"]
+			description: [
+				"Right click to claim ownership of and fill it"
+				""
+				"Note: if your altar runs out of LP in the middle of a craft, it will start regressing. This is indicated by smoke particles."
+			]
+			icon: "bloodmagic:weakbloodorb"
+			id: "3D6EDD521E81A5E3"
+			rewards: [{
+				id: "0E8AEF70EF2FA127"
+				type: "custom"
+			}]
+			subtitle: "Place a diamond on the altar. The altar will turn the diamond into a blood orb."
+			tasks: [
+				{
+					id: "073388C55FF35A9C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5524718652AAADE4"
+					item: "bloodmagic:weakbloodorb"
+					type: "item"
+				}
+			]
+			title: "Blood Orb"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FB32BA9C9A5EBD4"]
+			id: "705CBB50048920B5"
+			rewards: [{
+				id: "62F0CABA8BAA0D93"
+				type: "custom"
+			}]
+			subtitle: "Place stone on the blood altar to make it turn into a blank slate"
+			tasks: [{
+				id: "70EC3671C2CF3B24"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FB32BA9C9A5EBD4"]
+			icon: "bloodmagic:soulsnare"
+			id: "290C930615FC3838"
+			rewards: [{
+				id: "69C78164C9C9B443"
+				type: "custom"
+			}]
+			subtitle: "Useful for the part of blood magic involving sacrificing"
+			tasks: [
+				{
+					count: 12L
+					id: "09258B19BF8884C9"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "5F2556CC631540A4"
+					item: "bloodmagic:soulsnare"
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Soul Snares"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"705CBB50048920B5"
+				"3D6EDD521E81A5E3"
+			]
+			description: ["The buttons that read D, U, N, S, W, and E are for configuration. Click on a button and then a slot on the table to choose how you'd like to automate the table (using hoppers and such)."]
+			id: "2B77E1A67BA9E56E"
+			rewards: [{
+				id: "00716A7C0DBB3C81"
+				type: "custom"
+			}]
+			subtitle: "Transmute and mix items together"
+			tasks: [{
+				id: "107CC5E19441D010"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B77E1A67BA9E56E"]
+			id: "331CFB1DC66B5ACF"
+			rewards: [{
+				id: "252D6E44444DA56B"
+				type: "custom"
+			}]
+			subtitle: "Place the arcane ashes on the ground, then Rclick with redstone dust to make it a crafting interface"
+			tasks: [
+				{
+					id: "5F765AD46A053E30"
+					item: {
+						Count: 1
+						id: "bloodmagic:arcaneashes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CED4E9222898574"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "Crafting with Arcane Ashes"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["331CFB1DC66B5ACF"]
+			id: "710EDAA7878ABBAE"
+			rewards: [{
+				id: "0B1B59DA84A0D753"
+				type: "custom"
+			}]
+			subtitle: "Use the blank slate on arcane ashes. Quantifies the LP in blood altars"
+			tasks: [{
+				id: "3CB4CEAD1F20DC2A"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["290C930615FC3838"]
+			description: ["The quality basically measures how much quality is provided by the demon will."]
+			id: "2AF3280E6C3BCC82"
+			rewards: [{
+				id: "5B99CE278BD8BC4A"
+				type: "custom"
+			}]
+			subtitle: "Throw (Rclick) a soul snare at an enemy and then kill it to make it drop a demon will"
+			tasks: [{
+				id: "0026FD32FEEA5CDD"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["705CBB50048920B5"]
+			id: "23E4B7674C1FBACB"
+			rewards: [{
+				id: "51057D9D71598026"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "7F818BBC179B8338"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2AF3280E6C3BCC82"
+				"23E4B7674C1FBACB"
+			]
+			id: "45F21FF6E1BE1F4E"
+			rewards: [{
+				id: "4F6B17B0248E5315"
+				type: "custom"
+			}]
+			subtitle: "Will gets sucked into the gem, charging it up"
+			tasks: [{
+				count: 2L
+				id: "77243F17E978693F"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 64.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45F21FF6E1BE1F4E"]
+			description: ["You do not need will to make sentient tools."]
+			id: "0912E43E35DFFA99"
+			rewards: [{
+				id: "16C6820B95141EB8"
+				type: "custom"
+			}]
+			subtitle: "More will stored in your tartaric gem = more power for the sword."
+			tasks: [{
+				id: "18832553F768FECE"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45F21FF6E1BE1F4E"]
+			id: "215ECC1648CF2ADB"
+			rewards: [{
+				id: "31A87CED220E7C96"
+				type: "custom"
+			}]
+			subtitle: "Can store 4x as much as a petty gem, requires gem with 20 will to craft (can be the one used to make the lesser gem)"
+			tasks: [{
+				id: "2F31FEC6E2A55687"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: {
+						souls: 256.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D6EDD521E81A5E3"]
+			description: ["Tier 2 blood altars offer increased capacity for blood, and they unlock new recipes."]
+			id: "366E5D97F0DC7487"
+			rewards: [{
+				id: "3682C33D8A12D4BE"
+				type: "custom"
+			}]
+			subtitle: "Place them on every side adjacent to the blood altar to upgrade it from tier 1 to 2"
+			tasks: [{
+				count: 8L
+				id: "1C4CB2CB1434702D"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["366E5D97F0DC7487"]
+			description: [
+				"Protip: target dummies add LP when hit but don't die, if you want cheese then there you go."
+				""
+				"If you're honorable, you can use something like a loonium to spawn in mobs, or just a vanilla mob grinder."
+			]
+			id: "5F5A6965AD85F1C5"
+			rewards: [{
+				id: "12B305FDDB8EC80C"
+				type: "custom"
+			}]
+			subtitle: "Sacrifice mobs instead of yourself. Bringing a mob with less than 40 HP to the altar and then hitting it will kill it and fill the altar"
+			tasks: [{
+				id: "3EBB73079660E6AE"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["366E5D97F0DC7487"]
+			id: "4764A4936EB22022"
+			rewards: [{
+				id: "215C68D874BA54F9"
+				type: "custom"
+			}]
+			subtitle: "Can store more LP, and unlocks some new items"
+			tasks: [{
+				id: "285DAF474B50AC9F"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["366E5D97F0DC7487"]
+			id: "506ACE31DF99D0EE"
+			rewards: [{
+				id: "1B2FAF0BC3CE56D4"
+				type: "custom"
+			}]
+			subtitle: "Crafting ingredient, can be used to make runes with different effects"
+			tasks: [{
+				id: "4FB077F6A39F1B4C"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["506ACE31DF99D0EE"]
+			id: "20BF8D4C3F51AE11"
+			subtitle: "These runes compose the structure capable of upgrading a blood altar."
+			tasks: [{
+				id: "213FABC9D8381692"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:orbcapacityrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:bettercapacityrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:altarcapacityrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:selfsacrificerune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sacrificerune"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Runes"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D6EDD521E81A5E3"]
+			description: [
+				"The Incense Altar boosts self sacrifices in an area depending on the tranquility of its surroundings. It can be upgraded in a different way from blood altars."
+				""
+				"To begin with, make some wooden paths with some planks and a tier 2+ blood orb. These increase the range and effectiveness of the altar."
+				""
+				"To use the upgraded self-sacrifices, use the knife as normal while within range of both altars. When done correctly, you will lose almost all of your HP (if you start charging the dagger like it's a bow, something is wrong)."
+			]
+			id: "3DBD694675234BDE"
+			rewards: [{
+				id: "14BFBFA515CD0CF3"
+				type: "custom"
+			}]
+			subtitle: "A setup to increase LP from using the sacrificial knife"
+			tasks: [
+				{
+					id: "593605ADA83E12CA"
+					item: "bloodmagic:incensealtar"
+					type: "item"
+				}
+				{
+					id: "38B7A2DC3A0305F5"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: {
+							sacrifice: 1b
+						}
+					}
+					match_nbt: true
+					title: "Boosted Sacrificial Knife"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E1510EA0A39845D"
+					item: "bloodmagic:woodbrickpath"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DBD694675234BDE"]
+			id: "58907ACB39904795"
+			rewards: [{
+				id: "72B956C14FD9B3AB"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "01411413E49D9627"
+				item: "bloodmagic:stonebrickpath"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58907ACB39904795"]
+			id: "1BBC4EB9A8915752"
+			rewards: [{
+				id: "55E524297919CD33"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "59E6695F482F3D79"
+				item: "bloodmagic:wornstonebrickpath"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DBD694675234BDE"]
+			description: [
+				"Tranquility is determined by the blocks around it of certain elements. It is increased by having more of these unique blocks around your incense altar. The Sanguine Scientiem has a list of valid blocks. The law of diminishing returns applies to tranquility, so you can't put your altar in an ocean and call it a day."
+				""
+				"You can see the amount of tranquility and the percent increase in LP generated the incense altar has using a divination symbol."
+			]
+			icon: "minecraft:white_banner"
+			id: "327EAF9BB8641B99"
+			tasks: [{
+				id: "6FFDE6509282249E"
+				title: "Tranquility"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4764A4936EB22022"]
+			description: [
+				"The tier 3 blood altar needs a lot more things than tier 2. Specifically, 20 more of any rune of your choice, 4 of either sea lanterns or glowstone, and 8 solid building blocks of choice."
+				""
+				"See below for how to build it (pardon my dust, you're looking at the mess that is my testing world)."
+				"{image:kubejs:textures/item/altar_tier_3.png width:726 height:485 align:1 fit:true}"
+			]
+			id: "5D0CB96E8B419337"
+			subtitle: "Requires tier 3 blood altar"
+			tasks: [{
+				id: "769E1A768C63C3F6"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4764A4936EB22022"]
+			id: "3CD0D7BC0CE0B608"
+			subtitle: "Requires a tier 3 blood orb"
+			tasks: [{
+				id: "36B0D21E8615FA1D"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["215ECC1648CF2ADB"]
+			id: "56FBC814A80FAAD5"
+			subtitle: "Can store 4x as much as the lesser gem, needs 50 will to craft"
+			tasks: [{
+				id: "1A27BD040CB2A559"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 1024.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56FBC814A80FAAD5"]
+			description: ["scientiem"]
+			id: "7E0FCB80CD8BD11D"
+			subtitle: "Description coming soon. Julian if you're reading this screenshot this quest and send it to me and I'll add it"
+			tasks: [{
+				id: "4D424E7F51ACF0DA"
+				item: "bloodmagic:demoncrystallizer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E0FCB80CD8BD11D"]
+			id: "682ABE6CBB650C4D"
+			tasks: [{
+				id: "0B7EC60B57B2FD5E"
+				item: "bloodmagic:demoncrucible"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["331CFB1DC66B5ACF"]
+			id: "6B87F7B9F24FC0BA"
+			subtitle: "Make living armor"
+			tasks: [{
+				id: "7AEE3BAA027AE0FF"
+				item: "bloodmagic:reagentbinding"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45F21FF6E1BE1F4E"]
+			id: "050E901E2A7DC50B"
+			rewards: [{
+				id: "18F86EFFBF5461E2"
+				type: "custom"
+			}]
+			subtitle: "Explodes a 5x5x5 area below it, useful and inexpensive"
+			tasks: [{
+				id: "2E1247E406E22EF1"
+				item: "bloodmagic:shaped_charge"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C2300F8EFEE7A81"]
+			id: "17FB448D71D8F0F2"
+			tasks: [{
+				id: "652675E8FC53E9B1"
+				item: "tomeofblood:novice_tome_of_blood"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+	]
+	title: "unused blood magic quests"
+}
