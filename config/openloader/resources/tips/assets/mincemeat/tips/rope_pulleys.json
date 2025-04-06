@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Rope pulleys move attached blocks vertically more efficiently than mechanical pistons. Super glue can be used to move larger structures."
+    }
+}

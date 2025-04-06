@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Simple Storage Network Tip",
+        "bold": true,
+        "color": "gray"
+    },
+    "tip": {
+        "text": "The Gourmand Dynamo turns food items into energy. Feeding one the output from a Botany Pot is a good source of power."
+    }
+}

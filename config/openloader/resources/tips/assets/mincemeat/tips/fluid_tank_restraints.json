@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "The maximum dimensions of a fluid tank are 2x2 with no restriction on the height."
+    }
+}

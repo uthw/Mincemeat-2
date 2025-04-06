@@ -1,0 +1,1572 @@
+{
+    "caves": {
+        "caveCarverProbability": 0.05,
+        "cheeseCaveDepthOffset": 1.5625,
+        "cheeseCaveProbability": 1.0,
+        "deepCaveCarverProbability": 0.07,
+        "entranceCaveProbability": 0.26030928,
+        "largeOreVeins": true,
+        "legacyCarverDistribution": false,
+        "noodleCaveProbability": 1.0,
+        "ravineCarverProbability": 0.0075,
+        "spaghettiCaveProbability": 1.0
+    },
+    "climate": {
+        "biomeEdgeShape": {
+            "type": "SIMPLEX",
+            "gain": 0.5,
+            "lacunarity": 2.65,
+            "octaves": 2,
+            "scale": 22,
+            "strength": 14
+        },
+        "biomeShape": {
+            "biomeSize": 225,
+            "biomeWarpScale": 150,
+            "biomeWarpStrength": 80,
+            "macroNoiseSize": 8
+        },
+        "moisture": {
+            "bias": 0.0,
+            "falloff": 1,
+            "max": 1.0,
+            "min": 0.0,
+            "scale": 6,
+            "seedOffset": 0
+        },
+        "temperature": {
+            "bias": 0.05,
+            "falloff": 2,
+            "max": 0.98,
+            "min": 0.0,
+            "scale": 6,
+            "seedOffset": -98690237
+        }
+    },
+    "filters": {
+        "erosion": {
+            "depositeRate": 0.5,
+            "dropletLifetime": 12,
+            "dropletVelocity": 0.7,
+            "dropletVolume": 0.7,
+            "dropletsPerChunk": 135,
+            "erosionRate": 0.5
+        },
+        "smoothing": {
+            "iterations": 1,
+            "smoothingRadius": 1.8,
+            "smoothingRate": 0.9
+        }
+    },
+    "miscellaneous": {
+        "customBiomeFeatures": false,
+        "erosionDecorator": true,
+        "mountainBiomeUsage": 0.4,
+        "naturalSnowDecorator": true,
+        "oreCompatibleStoneOnly": true,
+        "plainStoneErosion": false,
+        "smoothLayerDecorator": true,
+        "strataDecorator": false,
+        "strataRegionSize": 600,
+        "vanillaLavaLakes": true,
+        "vanillaLavaSprings": false,
+        "vanillaSprings": false,
+        "volcanoBiomeUsage": 0.4
+    },
+    "rivers": {
+        "branchRivers": {
+            "bankWidth": 14,
+            "bedDepth": 4,
+            "bedWidth": 5,
+            "fade": 0.975,
+            "maxBankHeight": 4,
+            "minBankHeight": 1
+        },
+        "lakes": {
+            "chance": 0.21649484,
+            "depth": 20,
+            "maxBankHeight": 10,
+            "maxStartDistance": 0.49226806,
+            "minBankHeight": 2,
+            "minStartDistance": 0.09793814,
+            "sizeMax": 170,
+            "sizeMin": 50
+        },
+        "mainRivers": {
+            "bankWidth": 20,
+            "bedDepth": 10,
+            "bedWidth": 8,
+            "fade": 0.75,
+            "maxBankHeight": 6,
+            "minBankHeight": 3
+        },
+        "riverCount": 10,
+        "seedOffset": 0,
+        "wetlands": {
+            "chance": 0.6,
+            "sizeMax": 225,
+            "sizeMin": 175
+        }
+    },
+    "structures": {
+        "structures": {
+            "aether:ruined_portals": {
+                "disabled": false,
+                "salt": 14252125,
+                "separation": 31,
+                "spacing": 75
+            },
+            "alexscaves:underground_cabin": {
+                "disabled": false,
+                "salt": 99,
+                "separation": 2,
+                "spacing": 10
+            },
+            "apotheosis:tower_leaf": {
+                "disabled": false,
+                "salt": 11114412,
+                "separation": 30,
+                "spacing": 60
+            },
+            "apotheosis:tower_main": {
+                "disabled": false,
+                "salt": 12121818,
+                "separation": 30,
+                "spacing": 60
+            },
+            "apotheosis:tower_sand": {
+                "disabled": false,
+                "salt": 15192020,
+                "separation": 30,
+                "spacing": 60
+            },
+            "apotheosis:tower_spruce": {
+                "disabled": false,
+                "salt": 89021723,
+                "separation": 30,
+                "spacing": 60
+            },
+            "aquamirae:ice_maze": {
+                "disabled": false,
+                "salt": 601831488,
+                "separation": 0,
+                "spacing": 2
+            },
+            "aquamirae:outpost": {
+                "disabled": false,
+                "salt": 701829589,
+                "separation": 10,
+                "spacing": 18
+            },
+            "aquamirae:shelter": {
+                "disabled": false,
+                "salt": 901831489,
+                "separation": 20,
+                "spacing": 40
+            },
+            "aquamirae:ship": {
+                "disabled": false,
+                "salt": 801831489,
+                "separation": 10,
+                "spacing": 25
+            },
+            "ars_elemental:starbuncle_shrine": {
+                "disabled": false,
+                "salt": 294539046,
+                "separation": 50,
+                "spacing": 100
+            },
+            "ars_nouveau:wilden_den_set": {
+                "disabled": false,
+                "salt": 1224466880,
+                "separation": 10,
+                "spacing": 36
+            },
+            "betterarcheology:archeology_sites": {
+                "disabled": false,
+                "salt": 990880770,
+                "separation": 16,
+                "spacing": 32
+            },
+            "betterarcheology:fossil_sites": {
+                "disabled": false,
+                "salt": 990880771,
+                "separation": 12,
+                "spacing": 24
+            },
+            "betterarcheology:underwater_ruins": {
+                "disabled": false,
+                "salt": 990880772,
+                "separation": 12,
+                "spacing": 16
+            },
+            "betterdeserttemples:desert_temples": {
+                "disabled": false,
+                "salt": 92746251,
+                "separation": 20,
+                "spacing": 30
+            },
+            "betterdungeons:skeleton_dungeons": {
+                "disabled": false,
+                "salt": 732581671,
+                "separation": 23,
+                "spacing": 46
+            },
+            "betterdungeons:small_dungeons": {
+                "disabled": false,
+                "salt": 34239823,
+                "separation": 6,
+                "spacing": 10
+            },
+            "betterdungeons:spider_dungeons": {
+                "disabled": false,
+                "salt": 596523129,
+                "separation": 22,
+                "spacing": 44
+            },
+            "betterdungeons:zombie_dungeons": {
+                "disabled": false,
+                "salt": 280667671,
+                "separation": 24,
+                "spacing": 48
+            },
+            "bettermineshafts:mineshafts": {
+                "disabled": false,
+                "salt": 593751784,
+                "separation": 0,
+                "spacing": 1
+            },
+            "betteroceanmonuments:ocean_monument": {
+                "disabled": false,
+                "salt": 784827271,
+                "separation": 20,
+                "spacing": 50
+            },
+            "betterwitchhuts:witch_circle": {
+                "disabled": false,
+                "salt": 19797254,
+                "separation": 10,
+                "spacing": 40
+            },
+            "betterwitchhuts:witch_hut": {
+                "disabled": false,
+                "salt": 79297177,
+                "separation": 8,
+                "spacing": 30
+            },
+            "bosses_of_mass_destruction:lich_tower": {
+                "disabled": false,
+                "salt": 1230784,
+                "separation": 50,
+                "spacing": 100
+            },
+            "bosses_of_mass_destruction:void_blossom": {
+                "disabled": false,
+                "salt": 574839,
+                "separation": 24,
+                "spacing": 64
+            },
+            "cataclysm:ancient_factory": {
+                "disabled": false,
+                "salt": 319514301,
+                "separation": 70,
+                "spacing": 112
+            },
+            "cataclysm:cursed_pyramid": {
+                "disabled": false,
+                "salt": 577299997,
+                "separation": 50,
+                "spacing": 80
+            },
+            "cataclysm:sunken_city": {
+                "disabled": false,
+                "salt": 1673928450,
+                "separation": 70,
+                "spacing": 100
+            },
+            "ctov:pillager_outposts": {
+                "disabled": false,
+                "salt": 165745296,
+                "separation": 8,
+                "spacing": 32
+            },
+            "ctov:villages": {
+                "disabled": false,
+                "salt": 153873121,
+                "separation": 25,
+                "spacing": 50
+            },
+            "dungeoncrawl:dungeons": {
+                "disabled": false,
+                "salt": 10387313,
+                "separation": 12,
+                "spacing": 32
+            },
+            "eidolon:catacomb": {
+                "disabled": false,
+                "salt": 12512867,
+                "separation": 40,
+                "spacing": 80
+            },
+            "eidolon:lab": {
+                "disabled": false,
+                "salt": 1768062476,
+                "separation": 8,
+                "spacing": 32
+            },
+            "eidolon:stray_tower": {
+                "disabled": false,
+                "salt": 632767650,
+                "separation": 18,
+                "spacing": 24
+            },
+            "forbidden_arcanus:nipas": {
+                "disabled": false,
+                "salt": 710359251,
+                "separation": 8,
+                "spacing": 35
+            },
+            "galosphere:pink_salt_shrine": {
+                "disabled": false,
+                "salt": 9237591,
+                "separation": 10,
+                "spacing": 18
+            },
+            "graveyard:altar_structure": {
+                "disabled": false,
+                "salt": 1093123913,
+                "separation": 24,
+                "spacing": 30
+            },
+            "graveyard:crypt_structure": {
+                "disabled": false,
+                "salt": 893183913,
+                "separation": 22,
+                "spacing": 24
+            },
+            "graveyard:dead_tree_structure": {
+                "disabled": false,
+                "salt": 781897819,
+                "separation": 16,
+                "spacing": 28
+            },
+            "graveyard:giant_mushroom_structure": {
+                "disabled": false,
+                "salt": 365012356,
+                "separation": 26,
+                "spacing": 34
+            },
+            "graveyard:haunted_house_structure": {
+                "disabled": false,
+                "salt": 451235912,
+                "separation": 18,
+                "spacing": 20
+            },
+            "graveyard:large_graveyard_structure": {
+                "disabled": false,
+                "salt": 304812394,
+                "separation": 20,
+                "spacing": 25
+            },
+            "graveyard:lich_prison_structure": {
+                "disabled": false,
+                "salt": 258195719,
+                "separation": 100,
+                "spacing": 120
+            },
+            "graveyard:medium_graveyard_structure": {
+                "disabled": false,
+                "salt": 1690192399,
+                "separation": 16,
+                "spacing": 18
+            },
+            "graveyard:memorial_tree_structure": {
+                "disabled": false,
+                "salt": 529239621,
+                "separation": 12,
+                "spacing": 14
+            },
+            "graveyard:mushroom_grave_structure": {
+                "disabled": false,
+                "salt": 379123039,
+                "separation": 18,
+                "spacing": 24
+            },
+            "graveyard:ruins_structure": {
+                "disabled": false,
+                "salt": 467108394,
+                "separation": 12,
+                "spacing": 16
+            },
+            "graveyard:small_desert_grave_structure": {
+                "disabled": false,
+                "salt": 681236914,
+                "separation": 16,
+                "spacing": 20
+            },
+            "graveyard:small_desert_graveyard_structure": {
+                "disabled": false,
+                "salt": 598017285,
+                "separation": 28,
+                "spacing": 32
+            },
+            "graveyard:small_grave_structure": {
+                "disabled": false,
+                "salt": 240451934,
+                "separation": 8,
+                "spacing": 12
+            },
+            "graveyard:small_graveyard_structure": {
+                "disabled": false,
+                "salt": 598017285,
+                "separation": 18,
+                "spacing": 20
+            },
+            "graveyard:small_mountain_grave_structure": {
+                "disabled": false,
+                "salt": 725689810,
+                "separation": 8,
+                "spacing": 12
+            },
+            "graveyard:small_savanna_grave_structure": {
+                "disabled": false,
+                "salt": 709787761,
+                "separation": 8,
+                "spacing": 12
+            },
+            "hexerei:dark_coven": {
+                "disabled": false,
+                "salt": 2124767140,
+                "separation": 11,
+                "spacing": 29
+            },
+            "hexerei:nature_coven": {
+                "disabled": false,
+                "salt": 1213865252,
+                "separation": 11,
+                "spacing": 29
+            },
+            "hexerei:witch_hut": {
+                "disabled": false,
+                "salt": 1297727188,
+                "separation": 8,
+                "spacing": 20
+            },
+            "hunters_return:hunter_house": {
+                "disabled": false,
+                "salt": 15437620,
+                "separation": 6,
+                "spacing": 26
+            },
+            "iceandfire:gorgon_temple": {
+                "disabled": false,
+                "salt": 76489509,
+                "separation": 12,
+                "spacing": 32
+            },
+            "iceandfire:graveyard": {
+                "disabled": false,
+                "salt": 44712661,
+                "separation": 24,
+                "spacing": 48
+            },
+            "iceandfire:mausoleum": {
+                "disabled": false,
+                "salt": 14200531,
+                "separation": 12,
+                "spacing": 32
+            },
+            "idas:idas_common": {
+                "disabled": false,
+                "salt": 169480670,
+                "separation": 17,
+                "spacing": 20
+            },
+            "idas:idas_ocean": {
+                "disabled": false,
+                "salt": 169480681,
+                "separation": 20,
+                "spacing": 25
+            },
+            "idas:idas_rare": {
+                "disabled": false,
+                "salt": 169480678,
+                "separation": 30,
+                "spacing": 50
+            },
+            "idas:idas_small": {
+                "disabled": false,
+                "salt": 169480673,
+                "separation": 15,
+                "spacing": 20
+            },
+            "idas:idas_underground": {
+                "disabled": false,
+                "salt": 18918169,
+                "separation": 15,
+                "spacing": 25
+            },
+            "idas:idas_underground_rare": {
+                "disabled": false,
+                "salt": 169481691,
+                "separation": 40,
+                "spacing": 60
+            },
+            "integrated_stronghold:stronghold": {
+                "disabled": false,
+                "salt": 68173563,
+                "separation": 50,
+                "spacing": 85
+            },
+            "integrated_villages:air_villages": {
+                "disabled": false,
+                "salt": 1982700828,
+                "separation": 112,
+                "spacing": 143
+            },
+            "integrated_villages:regular_villages": {
+                "disabled": false,
+                "salt": 1982700828,
+                "separation": 20,
+                "spacing": 25
+            },
+            "irons_spellbooks:catacombs": {
+                "disabled": false,
+                "salt": 1794563212,
+                "separation": 48,
+                "spacing": 72
+            },
+            "irons_spellbooks:evoker_fort": {
+                "disabled": false,
+                "salt": 684512,
+                "separation": 50,
+                "spacing": 85
+            },
+            "irons_spellbooks:impaled_icebreaker": {
+                "disabled": false,
+                "salt": 87959402,
+                "separation": 50,
+                "spacing": 75
+            },
+            "irons_spellbooks:mangrove_hut": {
+                "disabled": false,
+                "salt": 169476080,
+                "separation": 18,
+                "spacing": 25
+            },
+            "irons_spellbooks:mountain_tower": {
+                "disabled": false,
+                "salt": 194767080,
+                "separation": 33,
+                "spacing": 45
+            },
+            "irons_spellbooks:pyromancer_tower": {
+                "disabled": false,
+                "salt": 1512684,
+                "separation": 50,
+                "spacing": 85
+            },
+            "minecells:overworld_portal": {
+                "disabled": false,
+                "salt": 2043237655,
+                "separation": 8,
+                "spacing": 20
+            },
+            "minecraft:ancient_cities": {
+                "disabled": false,
+                "salt": 20083232,
+                "separation": 8,
+                "spacing": 24
+            },
+            "minecraft:buried_treasures": {
+                "disabled": false,
+                "salt": 0,
+                "separation": 0,
+                "spacing": 1
+            },
+            "minecraft:desert_pyramids": {
+                "disabled": false,
+                "salt": 14357617,
+                "separation": 8,
+                "spacing": 32
+            },
+            "minecraft:igloos": {
+                "disabled": false,
+                "salt": 14357618,
+                "separation": 8,
+                "spacing": 32
+            },
+            "minecraft:jungle_temples": {
+                "disabled": false,
+                "salt": 14357619,
+                "separation": 8,
+                "spacing": 32
+            },
+            "minecraft:mineshafts": {
+                "disabled": false,
+                "salt": 0,
+                "separation": 0,
+                "spacing": 1
+            },
+            "minecraft:ocean_monuments": {
+                "disabled": false,
+                "salt": 10387313,
+                "separation": 5,
+                "spacing": 32
+            },
+            "minecraft:ocean_ruins": {
+                "disabled": false,
+                "salt": 14357621,
+                "separation": 8,
+                "spacing": 20
+            },
+            "minecraft:pillager_outposts": {
+                "disabled": false,
+                "salt": 165745296,
+                "separation": 8,
+                "spacing": 32
+            },
+            "minecraft:ruined_portals": {
+                "disabled": false,
+                "salt": 34222645,
+                "separation": 15,
+                "spacing": 40
+            },
+            "minecraft:shipwrecks": {
+                "disabled": false,
+                "salt": 165745295,
+                "separation": 4,
+                "spacing": 24
+            },
+            "minecraft:swamp_huts": {
+                "disabled": false,
+                "salt": 14357620,
+                "separation": 8,
+                "spacing": 32
+            },
+            "minecraft:trail_ruins": {
+                "disabled": false,
+                "salt": 83469867,
+                "separation": 8,
+                "spacing": 34
+            },
+            "minecraft:villages": {
+                "disabled": false,
+                "salt": 10387312,
+                "separation": 8,
+                "spacing": 34
+            },
+            "minecraft:woodland_mansions": {
+                "disabled": false,
+                "salt": 10387319,
+                "separation": 20,
+                "spacing": 80
+            },
+            "mowziesmobs:frostmaw_spawns": {
+                "disabled": false,
+                "salt": 23317578,
+                "separation": 8,
+                "spacing": 25
+            },
+            "mowziesmobs:umvuthana_groves": {
+                "disabled": false,
+                "salt": 23311138,
+                "separation": 8,
+                "spacing": 25
+            },
+            "mowziesmobs:wrought_chambers": {
+                "disabled": false,
+                "salt": 23217347,
+                "separation": 5,
+                "spacing": 15
+            },
+            "mvs:beach_bar": {
+                "disabled": false,
+                "salt": 435440687,
+                "separation": 41,
+                "spacing": 99
+            },
+            "mvs:cartographer_tower": {
+                "disabled": false,
+                "salt": 333685433,
+                "separation": 94,
+                "spacing": 170
+            },
+            "mvs:carts/cart": {
+                "disabled": false,
+                "salt": 203698201,
+                "separation": 53,
+                "spacing": 69
+            },
+            "mvs:carts/large_cart_1": {
+                "disabled": false,
+                "salt": 214120245,
+                "separation": 41,
+                "spacing": 116
+            },
+            "mvs:carts/large_cart_2": {
+                "disabled": false,
+                "salt": 736585741,
+                "separation": 41,
+                "spacing": 116
+            },
+            "mvs:carts/medium_bamboo_cart": {
+                "disabled": false,
+                "salt": 873648576,
+                "separation": 17,
+                "spacing": 25
+            },
+            "mvs:cathedral": {
+                "disabled": false,
+                "salt": 303685798,
+                "separation": 201,
+                "spacing": 216
+            },
+            "mvs:crystal": {
+                "disabled": false,
+                "salt": 469982354,
+                "separation": 127,
+                "spacing": 231
+            },
+            "mvs:dead_tree/acacia": {
+                "disabled": false,
+                "salt": 749388475,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:dead_tree/birch": {
+                "disabled": false,
+                "salt": 100928374,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:dead_tree/cherry": {
+                "disabled": false,
+                "salt": 994872654,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:dead_tree/dark_oak": {
+                "disabled": false,
+                "salt": 727090884,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:dead_tree/jungle": {
+                "disabled": false,
+                "salt": 399487564,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:dead_tree/mangrove": {
+                "disabled": false,
+                "salt": 846333749,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:dead_tree/oak": {
+                "disabled": false,
+                "salt": 982736454,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:dead_tree/spruce": {
+                "disabled": false,
+                "salt": 111093847,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:gallows": {
+                "disabled": false,
+                "salt": 248956103,
+                "separation": 58,
+                "spacing": 74
+            },
+            "mvs:horse_pen": {
+                "disabled": false,
+                "salt": 347871256,
+                "separation": 53,
+                "spacing": 78
+            },
+            "mvs:houses/azelea_house": {
+                "disabled": false,
+                "salt": 433252558,
+                "separation": 63,
+                "spacing": 71
+            },
+            "mvs:houses/barn": {
+                "disabled": false,
+                "salt": 766544243,
+                "separation": 53,
+                "spacing": 63
+            },
+            "mvs:houses/deepslate_house": {
+                "disabled": false,
+                "salt": 769698421,
+                "separation": 69,
+                "spacing": 86
+            },
+            "mvs:houses/desert_house": {
+                "disabled": false,
+                "salt": 832598745,
+                "separation": 45,
+                "spacing": 99
+            },
+            "mvs:houses/flower_hole": {
+                "disabled": false,
+                "salt": 865741203,
+                "separation": 58,
+                "spacing": 94
+            },
+            "mvs:houses/house": {
+                "disabled": false,
+                "salt": 866369854,
+                "separation": 63,
+                "spacing": 78
+            },
+            "mvs:houses/large_floating_island": {
+                "disabled": false,
+                "salt": 754754652,
+                "separation": 101,
+                "spacing": 134
+            },
+            "mvs:houses/large_warped_tower": {
+                "disabled": false,
+                "salt": 446837409,
+                "separation": 58,
+                "spacing": 104
+            },
+            "mvs:houses/medium_igloo_1": {
+                "disabled": false,
+                "salt": 746536475,
+                "separation": 43,
+                "spacing": 54
+            },
+            "mvs:houses/medium_igloo_2": {
+                "disabled": false,
+                "salt": 665458765,
+                "separation": 53,
+                "spacing": 63
+            },
+            "mvs:houses/small_igloo": {
+                "disabled": false,
+                "salt": 772288376,
+                "separation": 53,
+                "spacing": 63
+            },
+            "mvs:houses/small_swamp_house": {
+                "disabled": false,
+                "salt": 622547878,
+                "separation": 41,
+                "spacing": 160
+            },
+            "mvs:houses/tall_house": {
+                "disabled": false,
+                "salt": 665569523,
+                "separation": 69,
+                "spacing": 86
+            },
+            "mvs:houses/warped_house": {
+                "disabled": false,
+                "salt": 433252558,
+                "separation": 45,
+                "spacing": 87
+            },
+            "mvs:jungle_tower": {
+                "disabled": false,
+                "salt": 533652584,
+                "separation": 165,
+                "spacing": 198
+            },
+            "mvs:lantern/medium_oak_lantern": {
+                "disabled": false,
+                "salt": 283394585,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:lantern/small_acacia_lantern": {
+                "disabled": false,
+                "salt": 100928383,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_bamboo_lantern": {
+                "disabled": false,
+                "salt": 884392014,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_birch_lantern": {
+                "disabled": false,
+                "salt": 289983564,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_campfire_lantern": {
+                "disabled": false,
+                "salt": 187772773,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_cherry_lantern": {
+                "disabled": false,
+                "salt": 117264438,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_dark_oak_lantern": {
+                "disabled": false,
+                "salt": 100932854,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_jungle_lantern": {
+                "disabled": false,
+                "salt": 100938475,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_mangrove_lantern": {
+                "disabled": false,
+                "salt": 772839918,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_oak_lantern": {
+                "disabled": false,
+                "salt": 110989883,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:lantern/small_spruce_lantern": {
+                "disabled": false,
+                "salt": 193986423,
+                "separation": 25,
+                "spacing": 50
+            },
+            "mvs:log_pile/acacia_log_pile": {
+                "disabled": false,
+                "salt": 503002547,
+                "separation": 33,
+                "spacing": 53
+            },
+            "mvs:log_pile/birch_log_pile": {
+                "disabled": false,
+                "salt": 464423251,
+                "separation": 33,
+                "spacing": 53
+            },
+            "mvs:log_pile/dark_oak_log_pile": {
+                "disabled": false,
+                "salt": 496565487,
+                "separation": 33,
+                "spacing": 53
+            },
+            "mvs:log_pile/jungle_log_pile": {
+                "disabled": false,
+                "salt": 388549865,
+                "separation": 33,
+                "spacing": 53
+            },
+            "mvs:log_pile/oak_log_pile": {
+                "disabled": false,
+                "salt": 398653245,
+                "separation": 33,
+                "spacing": 53
+            },
+            "mvs:log_pile/spruce_log_pile": {
+                "disabled": false,
+                "salt": 389653201,
+                "separation": 33,
+                "spacing": 53
+            },
+            "mvs:nature/acacia_tree": {
+                "disabled": false,
+                "salt": 433547658,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/big_oak_tree": {
+                "disabled": false,
+                "salt": 269965421,
+                "separation": 53,
+                "spacing": 79
+            },
+            "mvs:nature/birch_tree": {
+                "disabled": false,
+                "salt": 198277385,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/boulder": {
+                "disabled": false,
+                "salt": 269542374,
+                "separation": 25,
+                "spacing": 71
+            },
+            "mvs:nature/cherry_tree": {
+                "disabled": false,
+                "salt": 287449098,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/dark_oak_tree": {
+                "disabled": false,
+                "salt": 109878734,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/floating_islands": {
+                "disabled": false,
+                "salt": 495878745,
+                "separation": 78,
+                "spacing": 157
+            },
+            "mvs:nature/jungle_palm_tree": {
+                "disabled": false,
+                "salt": 687545574,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/jungle_tree": {
+                "disabled": false,
+                "salt": 987873484,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/large_mushroom": {
+                "disabled": false,
+                "salt": 569543265,
+                "separation": 74,
+                "spacing": 201
+            },
+            "mvs:nature/mushroom_pond": {
+                "disabled": false,
+                "salt": 636984325,
+                "separation": 25,
+                "spacing": 99
+            },
+            "mvs:nature/oak_tree": {
+                "disabled": false,
+                "salt": 509676834,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/paths": {
+                "disabled": false,
+                "salt": 274893027,
+                "separation": 25,
+                "spacing": 71
+            },
+            "mvs:nature/small_oak_pond": {
+                "disabled": false,
+                "salt": 663549872,
+                "separation": 25,
+                "spacing": 71
+            },
+            "mvs:nature/spruce_tree": {
+                "disabled": false,
+                "salt": 100588374,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:nature/stone_rock": {
+                "disabled": false,
+                "salt": 485549328,
+                "separation": 26,
+                "spacing": 36
+            },
+            "mvs:other_decoration/bee_dome": {
+                "disabled": false,
+                "salt": 749523165,
+                "separation": 25,
+                "spacing": 69
+            },
+            "mvs:other_decoration/bench": {
+                "disabled": false,
+                "salt": 192844750,
+                "separation": 28,
+                "spacing": 36
+            },
+            "mvs:other_decoration/campsite": {
+                "disabled": false,
+                "salt": 818985846,
+                "separation": 61,
+                "spacing": 76
+            },
+            "mvs:other_decoration/desert_pump": {
+                "disabled": false,
+                "salt": 236987451,
+                "separation": 17,
+                "spacing": 66
+            },
+            "mvs:other_decoration/duck": {
+                "disabled": false,
+                "salt": 335587463,
+                "separation": 94,
+                "spacing": 193
+            },
+            "mvs:other_decoration/fire_camp": {
+                "disabled": false,
+                "salt": 533255487,
+                "separation": 35,
+                "spacing": 66
+            },
+            "mvs:other_decoration/fox_hut": {
+                "disabled": false,
+                "salt": 614787498,
+                "separation": 17,
+                "spacing": 99
+            },
+            "mvs:other_decoration/haystack": {
+                "disabled": false,
+                "salt": 287746539,
+                "separation": 13,
+                "spacing": 33
+            },
+            "mvs:other_decoration/horse_campsite": {
+                "disabled": false,
+                "salt": 299909574,
+                "separation": 35,
+                "spacing": 38
+            },
+            "mvs:other_decoration/lamp_chest": {
+                "disabled": false,
+                "salt": 643656895,
+                "separation": 28,
+                "spacing": 92
+            },
+            "mvs:other_decoration/lecturn_garden": {
+                "disabled": false,
+                "salt": 632365874,
+                "separation": 33,
+                "spacing": 74
+            },
+            "mvs:other_decoration/mine_with_campsite": {
+                "disabled": false,
+                "salt": 638820199,
+                "separation": 63,
+                "spacing": 99
+            },
+            "mvs:other_decoration/mushroom_statue": {
+                "disabled": false,
+                "salt": 513356854,
+                "separation": 33,
+                "spacing": 190
+            },
+            "mvs:other_decoration/pile": {
+                "disabled": false,
+                "salt": 377640917,
+                "separation": 13,
+                "spacing": 26
+            },
+            "mvs:other_decoration/snowy_dog_hut": {
+                "disabled": false,
+                "salt": 599873625,
+                "separation": 50,
+                "spacing": 58
+            },
+            "mvs:other_decoration/snowy_fossil": {
+                "disabled": false,
+                "salt": 882971107,
+                "separation": 26,
+                "spacing": 53
+            },
+            "mvs:other_decoration/stone_bee": {
+                "disabled": false,
+                "salt": 713668754,
+                "separation": 78,
+                "spacing": 111
+            },
+            "mvs:other_decoration/villager_statue": {
+                "disabled": false,
+                "salt": 766987854,
+                "separation": 83,
+                "spacing": 116
+            },
+            "mvs:other_decoration/wheat_grain_bin": {
+                "disabled": false,
+                "salt": 266483984,
+                "separation": 28,
+                "spacing": 53
+            },
+            "mvs:other_decoration/windmill": {
+                "disabled": false,
+                "salt": 774638947,
+                "separation": 28,
+                "spacing": 53
+            },
+            "mvs:other_decoration/wooden_wheat_farm": {
+                "disabled": false,
+                "salt": 882001928,
+                "separation": 28,
+                "spacing": 53
+            },
+            "mvs:out_house": {
+                "disabled": false,
+                "salt": 887854652,
+                "separation": 61,
+                "spacing": 99
+            },
+            "mvs:railway": {
+                "disabled": false,
+                "salt": 414069697,
+                "separation": 54,
+                "spacing": 94
+            },
+            "mvs:ruins/castle_ruins": {
+                "disabled": false,
+                "salt": 547485265,
+                "separation": 61,
+                "spacing": 92
+            },
+            "mvs:ruins/log_ruin": {
+                "disabled": false,
+                "salt": 566588121,
+                "separation": 61,
+                "spacing": 112
+            },
+            "mvs:ruins/ruined_beacon": {
+                "disabled": false,
+                "salt": 699587454,
+                "separation": 124,
+                "spacing": 153
+            },
+            "mvs:ruins/small_ruin": {
+                "disabled": false,
+                "salt": 690254035,
+                "separation": 53,
+                "spacing": 78
+            },
+            "mvs:ruins/statue_ruins": {
+                "disabled": false,
+                "salt": 696985421,
+                "separation": 61,
+                "spacing": 78
+            },
+            "mvs:ruins/stone_pillars": {
+                "disabled": false,
+                "salt": 730087540,
+                "separation": 74,
+                "spacing": 86
+            },
+            "mvs:ruins/tree_monument": {
+                "disabled": false,
+                "salt": 699754652,
+                "separation": 134,
+                "spacing": 157
+            },
+            "mvs:shed": {
+                "disabled": false,
+                "salt": 532363685,
+                "separation": 46,
+                "spacing": 78
+            },
+            "mvs:small_pillager_tower": {
+                "disabled": false,
+                "salt": 847637490,
+                "separation": 58,
+                "spacing": 69
+            },
+            "mvs:small_ship": {
+                "disabled": false,
+                "salt": 465693214,
+                "separation": 58,
+                "spacing": 69
+            },
+            "mvs:stall/stalls": {
+                "disabled": false,
+                "salt": 298643200,
+                "separation": 33,
+                "spacing": 66
+            },
+            "mvs:stone_fountain": {
+                "disabled": false,
+                "salt": 636698754,
+                "separation": 25,
+                "spacing": 74
+            },
+            "mvs:sunzi_gate": {
+                "disabled": false,
+                "salt": 436368521,
+                "separation": 41,
+                "spacing": 111
+            },
+            "mvs:well/other_wells": {
+                "disabled": false,
+                "salt": 336692254,
+                "separation": 36,
+                "spacing": 50
+            },
+            "mvs:well/rare_well": {
+                "disabled": false,
+                "salt": 299865321,
+                "separation": 78,
+                "spacing": 140
+            },
+            "mvs:well/small_tower_well": {
+                "disabled": false,
+                "salt": 466628370,
+                "separation": 30,
+                "spacing": 46
+            },
+            "mvs:well/wells/mushroom_well": {
+                "disabled": false,
+                "salt": 299254325,
+                "separation": 36,
+                "spacing": 173
+            },
+            "paraglider:tarrey_town_goddess_statue": {
+                "disabled": false,
+                "salt": 850796625,
+                "separation": 8,
+                "spacing": 32
+            },
+            "paraglider:underground_horned_statue": {
+                "disabled": false,
+                "salt": 49788929,
+                "separation": 8,
+                "spacing": 16
+            },
+            "repurposed_structures:ancient_cities_overworld": {
+                "disabled": false,
+                "salt": 210999111,
+                "separation": 100,
+                "spacing": 170
+            },
+            "repurposed_structures:bastions_overworld": {
+                "disabled": false,
+                "salt": 618127296,
+                "separation": 75,
+                "spacing": 135
+            },
+            "repurposed_structures:cities_overworld": {
+                "disabled": false,
+                "salt": 346349343,
+                "separation": 80,
+                "spacing": 140
+            },
+            "repurposed_structures:igloos_overworld": {
+                "disabled": false,
+                "salt": 626760262,
+                "separation": 18,
+                "spacing": 36
+            },
+            "repurposed_structures:mansions_mangrove": {
+                "disabled": false,
+                "salt": 512456965,
+                "separation": 50,
+                "spacing": 120
+            },
+            "repurposed_structures:mansions_overworld": {
+                "disabled": false,
+                "salt": 507461062,
+                "separation": 110,
+                "spacing": 225
+            },
+            "repurposed_structures:mineshafts_ocean": {
+                "disabled": false,
+                "salt": 129417444,
+                "separation": 0,
+                "spacing": 1
+            },
+            "repurposed_structures:mineshafts_overworld": {
+                "disabled": false,
+                "salt": 129417040,
+                "separation": 0,
+                "spacing": 1
+            },
+            "repurposed_structures:monuments_overworld": {
+                "disabled": false,
+                "salt": 412325774,
+                "separation": 41,
+                "spacing": 91
+            },
+            "repurposed_structures:outposts_overworld": {
+                "disabled": false,
+                "salt": 411702122,
+                "separation": 24,
+                "spacing": 49
+            },
+            "repurposed_structures:pyramids_mushroom": {
+                "disabled": false,
+                "salt": 1253128977,
+                "separation": 30,
+                "spacing": 55
+            },
+            "repurposed_structures:pyramids_overworld": {
+                "disabled": false,
+                "salt": 1755529804,
+                "separation": 47,
+                "spacing": 119
+            },
+            "repurposed_structures:ruins_overworld": {
+                "disabled": false,
+                "salt": 1612645903,
+                "separation": 30,
+                "spacing": 68
+            },
+            "repurposed_structures:temples_overworld": {
+                "disabled": false,
+                "salt": 1590755324,
+                "separation": 29,
+                "spacing": 51
+            },
+            "repurposed_structures:villages_mushroom": {
+                "disabled": false,
+                "salt": 408231499,
+                "separation": 15,
+                "spacing": 35
+            },
+            "repurposed_structures:villages_overworld": {
+                "disabled": false,
+                "salt": 608450500,
+                "separation": 25,
+                "spacing": 50
+            },
+            "repurposed_structures:witch_huts_overworld": {
+                "disabled": false,
+                "salt": 2043830143,
+                "separation": 26,
+                "spacing": 53
+            },
+            "repurposed_structures:yung_fortresses_overworld": {
+                "disabled": false,
+                "salt": 153767080,
+                "separation": 38,
+                "spacing": 68
+            },
+            "supplementaries:way_signs": {
+                "disabled": false,
+                "salt": 431041527,
+                "separation": 10,
+                "spacing": 19
+            },
+            "tetra:forged_ruins": {
+                "disabled": false,
+                "salt": 746218233,
+                "separation": 8,
+                "spacing": 14
+            },
+            "totw_modded:overworld": {
+                "disabled": false,
+                "salt": 293423488,
+                "separation": 20,
+                "spacing": 40
+            },
+            "underground_villages:underground_villages": {
+                "disabled": false,
+                "salt": 11841195,
+                "separation": 7,
+                "spacing": 32
+            },
+            "wilderwild:abandoned_cabins": {
+                "disabled": false,
+                "salt": 25388232,
+                "separation": 5,
+                "spacing": 13
+            }
+        }
+    },
+    "surface": {
+        "erosion": {
+            "dirtMin": 95,
+            "dirtSteepness": 0.475,
+            "dirtVariance": 40,
+            "rockMin": 256,
+            "rockSteepness": 0.65,
+            "rockVariance": 30,
+            "screeSteepness": 0.4
+        }
+    },
+    "terrain": {
+        "badlands": {
+            "baseScale": 1.0,
+            "horizontalScale": 1.0,
+            "verticalScale": 1.0,
+            "weight": 0.8
+        },
+        "dales": {
+            "baseScale": 1.0,
+            "horizontalScale": 0.75,
+            "verticalScale": 1.0,
+            "weight": 1.5
+        },
+        "general": {
+            "fancyMountains": true,
+            "globalHorizontalScale": 1.1417526,
+            "globalVerticalScale": 0.9795876,
+            "legacyMountainScaling": false,
+            "terrainRegionSize": 1200,
+            "terrainSeedOffset": -568139993
+        },
+        "hills": {
+            "baseScale": 1.0,
+            "horizontalScale": 1.0,
+            "verticalScale": 1.0,
+            "weight": 2.0
+        },
+        "mountains": {
+            "baseScale": 1.4,
+            "horizontalScale": 1.0,
+            "verticalScale": 1.0,
+            "weight": 3.2
+        },
+        "plains": {
+            "baseScale": 1.0,
+            "horizontalScale": 0.75,
+            "verticalScale": 1.0,
+            "weight": 1.5
+        },
+        "plateau": {
+            "baseScale": 1.0,
+            "horizontalScale": 1.2,
+            "verticalScale": 1.0,
+            "weight": 1.5
+        },
+        "steppe": {
+            "baseScale": 1.0,
+            "horizontalScale": 1.0,
+            "verticalScale": 1.0,
+            "weight": 1.0
+        },
+        "torridonian": {
+            "baseScale": 1.0,
+            "horizontalScale": 1.0,
+            "verticalScale": 1.0,
+            "weight": 2.0
+        },
+        "volcano": {
+            "baseScale": 1.0,
+            "horizontalScale": 1.0,
+            "verticalScale": 1.0,
+            "weight": 3.0
+        }
+    },
+    "world": {
+        "continent": {
+            "continentJitter": 0.66237116,
+            "continentNoiseGain": 0.30090207,
+            "continentNoiseLacunarity": 5.488402,
+            "continentNoiseOctaves": 4,
+            "continentScale": 1056,
+            "continentSizeVariance": 0.16623712,
+            "continentSkipping": 0.0,
+            "continentType": "MULTI_IMPROVED"
+        },
+        "controlPoints": {
+            "beach": 0.633,
+            "coast": 0.685,
+            "deepOcean": 0.181,
+            "inland": 0.814,
+            "islandCoast": 0.13144329,
+            "islandInland": 0.12371134,
+            "shallowOcean": 0.33
+        },
+        "properties": {
+            "seaLevel": 63,
+            "spawnType": "CONTINENT_CENTER",
+            "worldHeight": 384
+        }
+    }
+}

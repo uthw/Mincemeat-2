@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Andesite can be made with diorite and cobblestone if you're having trouble finding it underground."
+    }
+}

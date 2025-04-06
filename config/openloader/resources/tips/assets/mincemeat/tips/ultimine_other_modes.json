@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "FTB Ultimine Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "By holding shift and scrolling while holding the Ultimine key, you can change the shape of the vein you're mining. The Small Tunnel mode is useful for navigating underground."
+    }
+}

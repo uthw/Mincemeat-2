@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Just Enough Breeding Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "To see how to breed an animal, left click its spawn egg in JEI."
+    }
+}

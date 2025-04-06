@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cataclysm Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If you've caught the attention of a Deepling and aren't strong enough to kill it, row away until you find a Sea Serpent or Cachalot Whale. They'll take care if it for you."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Farmer's Delight Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Rich soil is a type of farmland that grows crops faster than normal by randomly applying bonemeal effects. In a Botany Pot, it grows crops 10% faster than farmland."
+    }
+}

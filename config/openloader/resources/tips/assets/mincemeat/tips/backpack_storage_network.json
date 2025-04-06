@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Simple Storage Network Tip",
+        "bold": true,
+        "color": "gray"
+    },
+    "tip": {
+        "text": "You can place your backpack onto an import cable to deposit all of its contents into your network."
+    }
+}

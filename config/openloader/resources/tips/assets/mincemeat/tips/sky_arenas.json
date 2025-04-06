@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Sky Arena Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If you find an island in the sky, interacting with the Altar of Battle will cause waves of enemies to invade. Defeating them nets handsome rewards."
+    }
+}

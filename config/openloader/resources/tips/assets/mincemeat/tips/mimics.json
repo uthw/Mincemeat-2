@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Artifacts Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "If you see a chest icon on your minimap while exploring a cave, that's actually a mimic. It'll attack you, but drops an artifact if you kill it first."
+    }
+}

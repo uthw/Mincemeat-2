@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Sophisticated Storage Tip",
+        "bold": true,
+        "color": "gray"
+    },
+    "tip": {
+        "text": "Limited barrels can be connected to Simple Storage Network using export cables and filtered link cables."
+    }
+}

@@ -16,280 +16,10 @@
   },
   "structures": {
     "structures": {
-      "mvs:dead_tree/acacia": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 749388475,
-        "disabled": false
-      },
-      "graveyard:dead_tree_structure": {
-        "spacing": 28,
-        "separation": 16,
-        "salt": 781897819,
-        "disabled": false
-      },
-      "mvs:beach_bar": {
-        "spacing": 99,
-        "separation": 41,
-        "salt": 435440687,
-        "disabled": false
-      },
-      "graveyard:crypt_structure": {
+      "eidolon:stray_tower": {
         "spacing": 24,
-        "separation": 22,
-        "salt": 893183913,
-        "disabled": false
-      },
-      "mvs:cathedral": {
-        "spacing": 216,
-        "separation": 201,
-        "salt": 303685798,
-        "disabled": false
-      },
-      "graveyard:ruins_structure": {
-        "spacing": 16,
-        "separation": 12,
-        "salt": 467108394,
-        "disabled": false
-      },
-      "mvs:lantern/small_bamboo_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 884392014,
-        "disabled": false
-      },
-      "irons_spellbooks:pyromancer_tower": {
-        "spacing": 85,
-        "separation": 50,
-        "salt": 1512684,
-        "disabled": false
-      },
-      "mowziesmobs:umvuthana_groves": {
-        "spacing": 25,
-        "separation": 8,
-        "salt": 23311138,
-        "disabled": false
-      },
-      "minecraft:mineshafts": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0,
-        "disabled": false
-      },
-      "repurposed_structures:outposts_overworld": {
-        "spacing": 49,
-        "separation": 24,
-        "salt": 411702122,
-        "disabled": false
-      },
-      "iceandfire:mausoleum": {
-        "spacing": 32,
-        "separation": 12,
-        "salt": 14200531,
-        "disabled": false
-      },
-      "graveyard:haunted_house_structure": {
-        "spacing": 20,
         "separation": 18,
-        "salt": 451235912,
-        "disabled": false
-      },
-      "mvs:dead_tree/cherry": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 994872654,
-        "disabled": false
-      },
-      "mvs:well/wells/mushroom_well": {
-        "spacing": 173,
-        "separation": 36,
-        "salt": 299254325,
-        "disabled": false
-      },
-      "mvs:other_decoration/lamp_chest": {
-        "spacing": 92,
-        "separation": 28,
-        "salt": 643656895,
-        "disabled": false
-      },
-      "mvs:sunzi_gate": {
-        "spacing": 111,
-        "separation": 41,
-        "salt": 436368521,
-        "disabled": false
-      },
-      "mvs:nature/jungle_palm_tree": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 687545574,
-        "disabled": false
-      },
-      "mvs:log_pile/oak_log_pile": {
-        "spacing": 53,
-        "separation": 33,
-        "salt": 398653245,
-        "disabled": false
-      },
-      "mvs:houses/small_swamp_house": {
-        "spacing": 160,
-        "separation": 41,
-        "salt": 622547878,
-        "disabled": false
-      },
-      "betterarcheology:fossil_sites": {
-        "spacing": 24,
-        "separation": 12,
-        "salt": 990880771,
-        "disabled": false
-      },
-      "aquamirae:ice_maze": {
-        "spacing": 2,
-        "separation": 0,
-        "salt": 601831488,
-        "disabled": false
-      },
-      "minecraft:swamp_huts": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357620,
-        "disabled": false
-      },
-      "mvs:ruins/tree_monument": {
-        "spacing": 157,
-        "separation": 134,
-        "salt": 699754652,
-        "disabled": false
-      },
-      "mvs:ruins/ruined_beacon": {
-        "spacing": 153,
-        "separation": 124,
-        "salt": 699587454,
-        "disabled": false
-      },
-      "hexerei:nature_coven": {
-        "spacing": 29,
-        "separation": 11,
-        "salt": 1213865252,
-        "disabled": false
-      },
-      "mvs:carts/large_cart_2": {
-        "spacing": 116,
-        "separation": 41,
-        "salt": 736585741,
-        "disabled": false
-      },
-      "mvs:houses/azelea_house": {
-        "spacing": 71,
-        "separation": 63,
-        "salt": 433252558,
-        "disabled": false
-      },
-      "totw_modded:overworld": {
-        "spacing": 40,
-        "separation": 20,
-        "salt": 293423488,
-        "disabled": false
-      },
-      "mvs:houses/deepslate_house": {
-        "spacing": 86,
-        "separation": 69,
-        "salt": 769698421,
-        "disabled": false
-      },
-      "mvs:other_decoration/villager_statue": {
-        "spacing": 116,
-        "separation": 83,
-        "salt": 766987854,
-        "disabled": false
-      },
-      "repurposed_structures:ruins_overworld": {
-        "spacing": 68,
-        "separation": 30,
-        "salt": 1612645903,
-        "disabled": false
-      },
-      "mvs:dead_tree/spruce": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 111093847,
-        "disabled": false
-      },
-      "minecraft:buried_treasures": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0,
-        "disabled": false
-      },
-      "betterdeserttemples:desert_temples": {
-        "spacing": 30,
-        "separation": 20,
-        "salt": 92746251,
-        "disabled": false
-      },
-      "cataclysm:cursed_pyramid": {
-        "spacing": 80,
-        "separation": 50,
-        "salt": 577299997,
-        "disabled": false
-      },
-      "graveyard:memorial_tree_structure": {
-        "spacing": 14,
-        "separation": 12,
-        "salt": 529239621,
-        "disabled": false
-      },
-      "betterdungeons:skeleton_dungeons": {
-        "spacing": 46,
-        "separation": 23,
-        "salt": 732581671,
-        "disabled": false
-      },
-      "mvs:jungle_tower": {
-        "spacing": 198,
-        "separation": 165,
-        "salt": 533652584,
-        "disabled": false
-      },
-      "mvs:well/small_tower_well": {
-        "spacing": 46,
-        "separation": 30,
-        "salt": 466628370,
-        "disabled": false
-      },
-      "mvs:small_ship": {
-        "spacing": 69,
-        "separation": 58,
-        "salt": 465693214,
-        "disabled": false
-      },
-      "mvs:dead_tree/mangrove": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 846333749,
-        "disabled": false
-      },
-      "minecells:overworld_portal": {
-        "spacing": 20,
-        "separation": 8,
-        "salt": 2043237655,
-        "disabled": false
-      },
-      "mvs:ruins/stone_pillars": {
-        "spacing": 86,
-        "separation": 74,
-        "salt": 730087540,
-        "disabled": false
-      },
-      "mvs:lantern/small_dark_oak_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 100932854,
-        "disabled": false
-      },
-      "integrated_stronghold:stronghold": {
-        "spacing": 85,
-        "separation": 50,
-        "salt": 68173563,
+        "salt": 632767650,
         "disabled": false
       },
       "mvs:other_decoration/bench": {
@@ -298,364 +28,22 @@
         "salt": 192844750,
         "disabled": false
       },
-      "mvs:houses/house": {
-        "spacing": 78,
-        "separation": 63,
-        "salt": 866369854,
-        "disabled": false
-      },
-      "mvs:crystal": {
-        "spacing": 231,
-        "separation": 127,
-        "salt": 469982354,
-        "disabled": false
-      },
-      "mvs:houses/small_igloo": {
-        "spacing": 63,
-        "separation": 53,
-        "salt": 772288376,
-        "disabled": false
-      },
-      "mvs:other_decoration/desert_pump": {
-        "spacing": 66,
-        "separation": 17,
-        "salt": 236987451,
-        "disabled": false
-      },
-      "mvs:lantern/small_mangrove_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 772839918,
-        "disabled": false
-      },
-      "mvs:houses/large_floating_island": {
-        "spacing": 134,
-        "separation": 101,
-        "salt": 754754652,
-        "disabled": false
-      },
-      "mvs:other_decoration/duck": {
-        "spacing": 193,
-        "separation": 94,
-        "salt": 335587463,
-        "disabled": false
-      },
-      "repurposed_structures:monuments_overworld": {
-        "spacing": 91,
-        "separation": 41,
-        "salt": 412325774,
-        "disabled": false
-      },
-      "iceandfire:graveyard": {
-        "spacing": 48,
-        "separation": 24,
-        "salt": 44712661,
-        "disabled": false
-      },
-      "dungeoncrawl:dungeons": {
-        "spacing": 32,
-        "separation": 12,
-        "salt": 10387313,
-        "disabled": false
-      },
-      "betterarcheology:underwater_ruins": {
+      "graveyard:ruins_structure": {
         "spacing": 16,
         "separation": 12,
-        "salt": 990880772,
+        "salt": 467108394,
         "disabled": false
       },
-      "supplementaries:way_signs": {
-        "spacing": 19,
-        "separation": 10,
-        "salt": 431041527,
-        "disabled": false
-      },
-      "mvs:other_decoration/snowy_fossil": {
-        "spacing": 53,
-        "separation": 26,
-        "salt": 882971107,
-        "disabled": false
-      },
-      "aquamirae:outpost": {
-        "spacing": 18,
-        "separation": 10,
-        "salt": 701829589,
-        "disabled": false
-      },
-      "irons_spellbooks:mountain_tower": {
-        "spacing": 45,
-        "separation": 33,
-        "salt": 194767080,
-        "disabled": false
-      },
-      "hexerei:dark_coven": {
-        "spacing": 29,
-        "separation": 11,
-        "salt": 2124767140,
-        "disabled": false
-      },
-      "wilderwild:abandoned_cabins": {
-        "spacing": 13,
-        "separation": 5,
-        "salt": 25388232,
-        "disabled": false
-      },
-      "apotheosis:tower_sand": {
-        "spacing": 60,
-        "separation": 30,
-        "salt": 15192020,
-        "disabled": false
-      },
-      "hunters_return:hunter_house": {
-        "spacing": 26,
-        "separation": 6,
-        "salt": 15437620,
-        "disabled": false
-      },
-      "idas:idas_underground": {
-        "spacing": 25,
-        "separation": 15,
-        "salt": 18918169,
-        "disabled": false
-      },
-      "mvs:houses/medium_igloo_2": {
-        "spacing": 63,
-        "separation": 53,
-        "salt": 665458765,
-        "disabled": false
-      },
-      "minecraft:pillager_outposts": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 165745296,
-        "disabled": false
-      },
-      "mvs:shed": {
-        "spacing": 78,
-        "separation": 46,
-        "salt": 532363685,
-        "disabled": false
-      },
-      "mvs:log_pile/dark_oak_log_pile": {
-        "spacing": 53,
-        "separation": 33,
-        "salt": 496565487,
-        "disabled": false
-      },
-      "graveyard:lich_prison_structure": {
-        "spacing": 120,
-        "separation": 100,
-        "salt": 258195719,
-        "disabled": false
-      },
-      "integrated_villages:regular_villages": {
+      "graveyard:large_graveyard_structure": {
         "spacing": 25,
         "separation": 20,
-        "salt": 1982700828,
+        "salt": 304812394,
         "disabled": false
       },
-      "bosses_of_mass_destruction:lich_tower": {
-        "spacing": 100,
-        "separation": 50,
-        "salt": 1230784,
-        "disabled": false
-      },
-      "mvs:log_pile/jungle_log_pile": {
-        "spacing": 53,
-        "separation": 33,
-        "salt": 388549865,
-        "disabled": false
-      },
-      "mvs:houses/large_warped_tower": {
-        "spacing": 104,
-        "separation": 58,
-        "salt": 446837409,
-        "disabled": false
-      },
-      "mvs:lantern/small_birch_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 289983564,
-        "disabled": false
-      },
-      "mvs:lantern/small_jungle_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 100938475,
-        "disabled": false
-      },
-      "mvs:carts/medium_bamboo_cart": {
-        "spacing": 25,
-        "separation": 17,
-        "salt": 873648576,
-        "disabled": false
-      },
-      "mvs:nature/large_mushroom": {
-        "spacing": 201,
-        "separation": 74,
-        "salt": 569543265,
-        "disabled": false
-      },
-      "mvs:gallows": {
+      "mvs:stone_fountain": {
         "spacing": 74,
-        "separation": 58,
-        "salt": 248956103,
-        "disabled": false
-      },
-      "repurposed_structures:pyramids_mushroom": {
-        "spacing": 55,
-        "separation": 30,
-        "salt": 1253128977,
-        "disabled": false
-      },
-      "graveyard:small_grave_structure": {
-        "spacing": 12,
-        "separation": 8,
-        "salt": 240451934,
-        "disabled": false
-      },
-      "mvs:nature/cherry_tree": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 287449098,
-        "disabled": false
-      },
-      "repurposed_structures:mansions_mangrove": {
-        "spacing": 120,
-        "separation": 50,
-        "salt": 512456965,
-        "disabled": false
-      },
-      "mvs:ruins/small_ruin": {
-        "spacing": 78,
-        "separation": 53,
-        "salt": 690254035,
-        "disabled": false
-      },
-      "mvs:other_decoration/stone_bee": {
-        "spacing": 111,
-        "separation": 78,
-        "salt": 713668754,
-        "disabled": false
-      },
-      "idas:idas_small": {
-        "spacing": 20,
-        "separation": 15,
-        "salt": 169480673,
-        "disabled": false
-      },
-      "mvs:other_decoration/lecturn_garden": {
-        "spacing": 74,
-        "separation": 33,
-        "salt": 632365874,
-        "disabled": false
-      },
-      "mvs:other_decoration/bee_dome": {
-        "spacing": 69,
         "separation": 25,
-        "salt": 749523165,
-        "disabled": false
-      },
-      "paraglider:underground_horned_statue": {
-        "spacing": 16,
-        "separation": 8,
-        "salt": 49788929,
-        "disabled": false
-      },
-      "minecraft:shipwrecks": {
-        "spacing": 24,
-        "separation": 4,
-        "salt": 165745295,
-        "disabled": false
-      },
-      "mvs:stall/stalls": {
-        "spacing": 66,
-        "separation": 33,
-        "salt": 298643200,
-        "disabled": false
-      },
-      "alexscaves:underground_cabin": {
-        "spacing": 10,
-        "separation": 2,
-        "salt": 99,
-        "disabled": false
-      },
-      "repurposed_structures:mineshafts_overworld": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 129417040,
-        "disabled": false
-      },
-      "mvs:dead_tree/jungle": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 399487564,
-        "disabled": false
-      },
-      "minecraft:desert_pyramids": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357617,
-        "disabled": false
-      },
-      "mvs:other_decoration/mine_with_campsite": {
-        "spacing": 99,
-        "separation": 63,
-        "salt": 638820199,
-        "disabled": false
-      },
-      "mvs:log_pile/spruce_log_pile": {
-        "spacing": 53,
-        "separation": 33,
-        "salt": 389653201,
-        "disabled": false
-      },
-      "mvs:nature/boulder": {
-        "spacing": 71,
-        "separation": 25,
-        "salt": 269542374,
-        "disabled": false
-      },
-      "mvs:nature/spruce_tree": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 100588374,
-        "disabled": false
-      },
-      "mvs:ruins/log_ruin": {
-        "spacing": 112,
-        "separation": 61,
-        "salt": 566588121,
-        "disabled": false
-      },
-      "mvs:houses/medium_igloo_1": {
-        "spacing": 54,
-        "separation": 43,
-        "salt": 746536475,
-        "disabled": false
-      },
-      "hexerei:witch_hut": {
-        "spacing": 20,
-        "separation": 8,
-        "salt": 1297727188,
-        "disabled": false
-      },
-      "irons_spellbooks:mangrove_hut": {
-        "spacing": 25,
-        "separation": 18,
-        "salt": 169476080,
-        "disabled": false
-      },
-      "minecraft:ocean_ruins": {
-        "spacing": 20,
-        "separation": 8,
-        "salt": 14357621,
-        "disabled": false
-      },
-      "betterwitchhuts:witch_circle": {
-        "spacing": 40,
-        "separation": 10,
-        "salt": 19797254,
+        "salt": 636698754,
         "disabled": false
       },
       "graveyard:altar_structure": {
@@ -664,22 +52,34 @@
         "salt": 1093123913,
         "disabled": false
       },
-      "forbidden_arcanus:nipas": {
-        "spacing": 35,
-        "separation": 8,
-        "salt": 710359251,
+      "mvs:dead_tree/cherry": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 994872654,
         "disabled": false
       },
-      "ctov:pillager_outposts": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 165745296,
+      "hunters_return:hunter_house": {
+        "spacing": 26,
+        "separation": 6,
+        "salt": 15437620,
         "disabled": false
       },
-      "minecraft:jungle_temples": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357619,
+      "mvs:lantern/small_acacia_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 100928383,
+        "disabled": false
+      },
+      "betterdungeons:skeleton_dungeons": {
+        "spacing": 46,
+        "separation": 23,
+        "salt": 732581671,
+        "disabled": false
+      },
+      "mvs:other_decoration/duck": {
+        "spacing": 193,
+        "separation": 94,
+        "salt": 335587463,
         "disabled": false
       },
       "graveyard:small_desert_graveyard_structure": {
@@ -688,22 +88,154 @@
         "salt": 598017285,
         "disabled": false
       },
+      "ars_elemental:starbuncle_shrine": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 294539046,
+        "disabled": false
+      },
+      "mvs:nature/acacia_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 433547658,
+        "disabled": false
+      },
+      "cataclysm:sunken_city": {
+        "spacing": 100,
+        "separation": 70,
+        "salt": 1673928450,
+        "disabled": false
+      },
+      "eidolon:catacomb": {
+        "spacing": 80,
+        "separation": 40,
+        "salt": 12512867,
+        "disabled": false
+      },
+      "mvs:houses/small_swamp_house": {
+        "spacing": 160,
+        "separation": 41,
+        "salt": 622547878,
+        "disabled": false
+      },
+      "minecraft:pillager_outposts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 165745296,
+        "disabled": false
+      },
+      "underground_villages:underground_villages": {
+        "spacing": 32,
+        "separation": 7,
+        "salt": 11841195,
+        "disabled": false
+      },
+      "repurposed_structures:ancient_cities_overworld": {
+        "spacing": 170,
+        "separation": 100,
+        "salt": 210999111,
+        "disabled": false
+      },
+      "repurposed_structures:mineshafts_overworld": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 129417040,
+        "disabled": false
+      },
+      "repurposed_structures:pyramids_overworld": {
+        "spacing": 119,
+        "separation": 47,
+        "salt": 1755529804,
+        "disabled": false
+      },
       "mvs:other_decoration/haystack": {
         "spacing": 33,
         "separation": 13,
         "salt": 287746539,
         "disabled": false
       },
-      "graveyard:mushroom_grave_structure": {
-        "spacing": 24,
-        "separation": 18,
-        "salt": 379123039,
+      "irons_spellbooks:catacombs": {
+        "spacing": 72,
+        "separation": 48,
+        "salt": 1794563212,
         "disabled": false
       },
-      "mvs:carts/cart": {
-        "spacing": 69,
-        "separation": 53,
-        "salt": 203698201,
+      "mvs:other_decoration/lecturn_garden": {
+        "spacing": 74,
+        "separation": 33,
+        "salt": 632365874,
+        "disabled": false
+      },
+      "betteroceanmonuments:ocean_monument": {
+        "spacing": 50,
+        "separation": 20,
+        "salt": 784827271,
+        "disabled": false
+      },
+      "mvs:lantern/small_birch_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 289983564,
+        "disabled": false
+      },
+      "mvs:other_decoration/mushroom_statue": {
+        "spacing": 190,
+        "separation": 33,
+        "salt": 513356854,
+        "disabled": false
+      },
+      "mvs:ruins/stone_pillars": {
+        "spacing": 86,
+        "separation": 74,
+        "salt": 730087540,
+        "disabled": false
+      },
+      "mvs:other_decoration/villager_statue": {
+        "spacing": 116,
+        "separation": 83,
+        "salt": 766987854,
+        "disabled": false
+      },
+      "minecraft:buried_treasures": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
+        "disabled": false
+      },
+      "minecraft:woodland_mansions": {
+        "spacing": 80,
+        "separation": 20,
+        "salt": 10387319,
+        "disabled": false
+      },
+      "mvs:nature/boulder": {
+        "spacing": 71,
+        "separation": 25,
+        "salt": 269542374,
+        "disabled": false
+      },
+      "mvs:nature/mushroom_pond": {
+        "spacing": 99,
+        "separation": 25,
+        "salt": 636984325,
+        "disabled": false
+      },
+      "repurposed_structures:yung_fortresses_overworld": {
+        "spacing": 68,
+        "separation": 38,
+        "salt": 153767080,
+        "disabled": false
+      },
+      "mvs:nature/jungle_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 987873484,
+        "disabled": false
+      },
+      "mvs:houses/azelea_house": {
+        "spacing": 71,
+        "separation": 63,
+        "salt": 433252558,
         "disabled": false
       },
       "mvs:houses/tall_house": {
@@ -712,10 +244,106 @@
         "salt": 665569523,
         "disabled": false
       },
-      "idas:idas_underground_rare": {
+      "mvs:other_decoration/wooden_wheat_farm": {
+        "spacing": 53,
+        "separation": 28,
+        "salt": 882001928,
+        "disabled": false
+      },
+      "mvs:other_decoration/snowy_fossil": {
+        "spacing": 53,
+        "separation": 26,
+        "salt": 882971107,
+        "disabled": false
+      },
+      "mvs:out_house": {
+        "spacing": 99,
+        "separation": 61,
+        "salt": 887854652,
+        "disabled": false
+      },
+      "mvs:horse_pen": {
+        "spacing": 78,
+        "separation": 53,
+        "salt": 347871256,
+        "disabled": false
+      },
+      "bosses_of_mass_destruction:lich_tower": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 1230784,
+        "disabled": false
+      },
+      "mowziesmobs:wrought_chambers": {
+        "spacing": 15,
+        "separation": 5,
+        "salt": 23217347,
+        "disabled": false
+      },
+      "repurposed_structures:witch_huts_overworld": {
+        "spacing": 53,
+        "separation": 26,
+        "salt": 2043830143,
+        "disabled": false
+      },
+      "forbidden_arcanus:nipas": {
+        "spacing": 35,
+        "separation": 8,
+        "salt": 710359251,
+        "disabled": false
+      },
+      "supplementaries:way_signs": {
+        "spacing": 19,
+        "separation": 10,
+        "salt": 431041527,
+        "disabled": false
+      },
+      "apotheosis:tower_leaf": {
         "spacing": 60,
-        "separation": 40,
-        "salt": 169481691,
+        "separation": 30,
+        "salt": 11114412,
+        "disabled": false
+      },
+      "iceandfire:gorgon_temple": {
+        "spacing": 32,
+        "separation": 12,
+        "salt": 76489509,
+        "disabled": false
+      },
+      "repurposed_structures:monuments_overworld": {
+        "spacing": 91,
+        "separation": 41,
+        "salt": 412325774,
+        "disabled": false
+      },
+      "mvs:nature/dark_oak_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 109878734,
+        "disabled": false
+      },
+      "apotheosis:tower_sand": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 15192020,
+        "disabled": false
+      },
+      "repurposed_structures:villages_mushroom": {
+        "spacing": 35,
+        "separation": 15,
+        "salt": 408231499,
+        "disabled": false
+      },
+      "mvs:other_decoration/desert_pump": {
+        "spacing": 66,
+        "separation": 17,
+        "salt": 236987451,
+        "disabled": false
+      },
+      "mowziesmobs:umvuthana_groves": {
+        "spacing": 25,
+        "separation": 8,
+        "salt": 23311138,
         "disabled": false
       },
       "mvs:carts/large_cart_1": {
@@ -730,52 +358,22 @@
         "salt": 507461062,
         "disabled": false
       },
-      "betterdungeons:zombie_dungeons": {
-        "spacing": 48,
-        "separation": 24,
-        "salt": 280667671,
-        "disabled": false
-      },
-      "integrated_villages:air_villages": {
-        "spacing": 143,
-        "separation": 112,
-        "salt": 1982700828,
-        "disabled": false
-      },
-      "mvs:nature/stone_rock": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 485549328,
-        "disabled": false
-      },
-      "mvs:nature/paths": {
-        "spacing": 71,
-        "separation": 25,
-        "salt": 274893027,
-        "disabled": false
-      },
-      "graveyard:small_desert_grave_structure": {
-        "spacing": 20,
-        "separation": 16,
-        "salt": 681236914,
-        "disabled": false
-      },
-      "minecraft:ruined_portals": {
-        "spacing": 40,
-        "separation": 15,
-        "salt": 34222645,
-        "disabled": false
-      },
-      "betterarcheology:archeology_sites": {
-        "spacing": 32,
-        "separation": 16,
-        "salt": 990880770,
-        "disabled": false
-      },
-      "eidolon:lab": {
-        "spacing": 32,
+      "paraglider:underground_horned_statue": {
+        "spacing": 16,
         "separation": 8,
-        "salt": 1768062476,
+        "salt": 49788929,
+        "disabled": false
+      },
+      "mvs:log_pile/acacia_log_pile": {
+        "spacing": 53,
+        "separation": 33,
+        "salt": 503002547,
+        "disabled": false
+      },
+      "mvs:ruins/log_ruin": {
+        "spacing": 112,
+        "separation": 61,
+        "salt": 566588121,
         "disabled": false
       },
       "mvs:other_decoration/snowy_dog_hut": {
@@ -784,46 +382,130 @@
         "salt": 599873625,
         "disabled": false
       },
+      "mvs:small_ship": {
+        "spacing": 69,
+        "separation": 58,
+        "salt": 465693214,
+        "disabled": false
+      },
+      "graveyard:crypt_structure": {
+        "spacing": 24,
+        "separation": 22,
+        "salt": 893183913,
+        "disabled": false
+      },
+      "mvs:well/wells/mushroom_well": {
+        "spacing": 173,
+        "separation": 36,
+        "salt": 299254325,
+        "disabled": false
+      },
+      "mvs:lantern/small_mangrove_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 772839918,
+        "disabled": false
+      },
+      "aquamirae:ship": {
+        "spacing": 25,
+        "separation": 10,
+        "salt": 801831489,
+        "disabled": false
+      },
+      "mvs:dead_tree/oak": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 982736454,
+        "disabled": false
+      },
+      "mvs:dead_tree/spruce": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 111093847,
+        "disabled": false
+      },
+      "repurposed_structures:cities_overworld": {
+        "spacing": 140,
+        "separation": 80,
+        "salt": 346349343,
+        "disabled": false
+      },
+      "ctov:villages": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 153873121,
+        "disabled": false
+      },
+      "iceandfire:graveyard": {
+        "spacing": 48,
+        "separation": 24,
+        "salt": 44712661,
+        "disabled": false
+      },
+      "minecraft:swamp_huts": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357620,
+        "disabled": false
+      },
+      "mvs:well/rare_well": {
+        "spacing": 140,
+        "separation": 78,
+        "salt": 299865321,
+        "disabled": false
+      },
+      "mvs:other_decoration/fox_hut": {
+        "spacing": 99,
+        "separation": 17,
+        "salt": 614787498,
+        "disabled": false
+      },
       "mvs:log_pile/birch_log_pile": {
         "spacing": 53,
         "separation": 33,
         "salt": 464423251,
         "disabled": false
       },
-      "repurposed_structures:villages_overworld": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 608450500,
-        "disabled": false
-      },
-      "graveyard:giant_mushroom_structure": {
-        "spacing": 34,
-        "separation": 26,
-        "salt": 365012356,
-        "disabled": false
-      },
-      "mvs:lantern/medium_oak_lantern": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 283394585,
-        "disabled": false
-      },
-      "idas:idas_ocean": {
-        "spacing": 25,
+      "aquamirae:shelter": {
+        "spacing": 40,
         "separation": 20,
-        "salt": 169480681,
+        "salt": 901831489,
         "disabled": false
       },
-      "irons_spellbooks:impaled_icebreaker": {
-        "spacing": 75,
-        "separation": 50,
-        "salt": 87959402,
+      "mvs:crystal": {
+        "spacing": 231,
+        "separation": 127,
+        "salt": 469982354,
         "disabled": false
       },
-      "irons_spellbooks:catacombs": {
-        "spacing": 72,
-        "separation": 48,
-        "salt": 1794563212,
+      "wilderwild:abandoned_cabins": {
+        "spacing": 13,
+        "separation": 5,
+        "salt": 25388232,
+        "disabled": false
+      },
+      "mvs:nature/paths": {
+        "spacing": 71,
+        "separation": 25,
+        "salt": 274893027,
+        "disabled": false
+      },
+      "mvs:houses/warped_house": {
+        "spacing": 87,
+        "separation": 45,
+        "salt": 433252558,
+        "disabled": false
+      },
+      "graveyard:lich_prison_structure": {
+        "spacing": 120,
+        "separation": 100,
+        "salt": 258195719,
+        "disabled": false
+      },
+      "mvs:houses/medium_igloo_2": {
+        "spacing": 63,
+        "separation": 53,
+        "salt": 665458765,
         "disabled": false
       },
       "repurposed_structures:igloos_overworld": {
@@ -832,28 +514,88 @@
         "salt": 626760262,
         "disabled": false
       },
-      "repurposed_structures:temples_overworld": {
-        "spacing": 51,
-        "separation": 29,
-        "salt": 1590755324,
+      "minecraft:mineshafts": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0,
         "disabled": false
       },
-      "mvs:small_pillager_tower": {
+      "hexerei:nature_coven": {
+        "spacing": 29,
+        "separation": 11,
+        "salt": 1213865252,
+        "disabled": false
+      },
+      "aquamirae:ice_maze": {
+        "spacing": 2,
+        "separation": 0,
+        "salt": 601831488,
+        "disabled": false
+      },
+      "mvs:nature/cherry_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 287449098,
+        "disabled": false
+      },
+      "mvs:other_decoration/bee_dome": {
         "spacing": 69,
-        "separation": 58,
-        "salt": 847637490,
+        "separation": 25,
+        "salt": 749523165,
         "disabled": false
       },
-      "mvs:other_decoration/pile": {
-        "spacing": 26,
-        "separation": 13,
-        "salt": 377640917,
-        "disabled": false
-      },
-      "minecraft:trail_ruins": {
-        "spacing": 34,
+      "betterwitchhuts:witch_hut": {
+        "spacing": 30,
         "separation": 8,
-        "salt": 83469867,
+        "salt": 79297177,
+        "disabled": false
+      },
+      "graveyard:mushroom_grave_structure": {
+        "spacing": 24,
+        "separation": 18,
+        "salt": 379123039,
+        "disabled": false
+      },
+      "hexerei:witch_hut": {
+        "spacing": 20,
+        "separation": 8,
+        "salt": 1297727188,
+        "disabled": false
+      },
+      "betterdungeons:small_dungeons": {
+        "spacing": 10,
+        "separation": 6,
+        "salt": 34239823,
+        "disabled": false
+      },
+      "mvs:nature/small_oak_pond": {
+        "spacing": 71,
+        "separation": 25,
+        "salt": 663549872,
+        "disabled": false
+      },
+      "mvs:ruins/statue_ruins": {
+        "spacing": 78,
+        "separation": 61,
+        "salt": 696985421,
+        "disabled": false
+      },
+      "integrated_villages:regular_villages": {
+        "spacing": 25,
+        "separation": 20,
+        "salt": 1982700828,
+        "disabled": false
+      },
+      "mvs:other_decoration/windmill": {
+        "spacing": 53,
+        "separation": 28,
+        "salt": 774638947,
+        "disabled": false
+      },
+      "mvs:dead_tree/mangrove": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 846333749,
         "disabled": false
       },
       "mvs:lantern/small_spruce_lantern": {
@@ -868,58 +610,34 @@
         "salt": 169480670,
         "disabled": false
       },
-      "minecraft:woodland_mansions": {
-        "spacing": 80,
+      "repurposed_structures:mineshafts_ocean": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 129417444,
+        "disabled": false
+      },
+      "minecraft:shipwrecks": {
+        "spacing": 24,
+        "separation": 4,
+        "salt": 165745295,
+        "disabled": false
+      },
+      "totw_modded:overworld": {
+        "spacing": 40,
         "separation": 20,
-        "salt": 10387319,
+        "salt": 293423488,
         "disabled": false
       },
-      "mvs:well/rare_well": {
-        "spacing": 140,
-        "separation": 78,
-        "salt": 299865321,
-        "disabled": false
-      },
-      "mvs:dead_tree/oak": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 982736454,
-        "disabled": false
-      },
-      "underground_villages:underground_villages": {
-        "spacing": 32,
-        "separation": 7,
-        "salt": 11841195,
-        "disabled": false
-      },
-      "mvs:railway": {
-        "spacing": 94,
-        "separation": 54,
-        "salt": 414069697,
-        "disabled": false
-      },
-      "mvs:other_decoration/wooden_wheat_farm": {
+      "mvs:log_pile/dark_oak_log_pile": {
         "spacing": 53,
-        "separation": 28,
-        "salt": 882001928,
+        "separation": 33,
+        "salt": 496565487,
         "disabled": false
       },
-      "tetra:forged_ruins": {
-        "spacing": 14,
-        "separation": 8,
-        "salt": 746218233,
-        "disabled": false
-      },
-      "repurposed_structures:villages_mushroom": {
-        "spacing": 35,
-        "separation": 15,
-        "salt": 408231499,
-        "disabled": false
-      },
-      "repurposed_structures:ancient_cities_overworld": {
-        "spacing": 170,
-        "separation": 100,
-        "salt": 210999111,
+      "graveyard:haunted_house_structure": {
+        "spacing": 20,
+        "separation": 18,
+        "salt": 451235912,
         "disabled": false
       },
       "mvs:other_decoration/horse_campsite": {
@@ -928,46 +646,10 @@
         "salt": 299909574,
         "disabled": false
       },
-      "bettermineshafts:mineshafts": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 593751784,
-        "disabled": false
-      },
-      "mvs:dead_tree/birch": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 100928374,
-        "disabled": false
-      },
-      "betterdungeons:spider_dungeons": {
-        "spacing": 44,
-        "separation": 22,
-        "salt": 596523129,
-        "disabled": false
-      },
-      "graveyard:large_graveyard_structure": {
-        "spacing": 25,
-        "separation": 20,
-        "salt": 304812394,
-        "disabled": false
-      },
-      "mvs:horse_pen": {
-        "spacing": 78,
-        "separation": 53,
-        "salt": 347871256,
-        "disabled": false
-      },
-      "mvs:lantern/small_oak_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 110989883,
-        "disabled": false
-      },
-      "mvs:well/other_wells": {
-        "spacing": 50,
-        "separation": 36,
-        "salt": 336692254,
+      "aether:ruined_portals": {
+        "spacing": 75,
+        "separation": 31,
+        "salt": 14252125,
         "disabled": false
       },
       "mvs:nature/big_oak_tree": {
@@ -976,382 +658,16 @@
         "salt": 269965421,
         "disabled": false
       },
-      "mvs:lantern/small_cherry_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 117264438,
-        "disabled": false
-      },
-      "graveyard:medium_graveyard_structure": {
-        "spacing": 18,
-        "separation": 16,
-        "salt": 1690192399,
-        "disabled": false
-      },
-      "mowziesmobs:frostmaw_spawns": {
-        "spacing": 25,
-        "separation": 8,
-        "salt": 23317578,
-        "disabled": false
-      },
-      "mvs:houses/flower_hole": {
-        "spacing": 94,
-        "separation": 58,
-        "salt": 865741203,
-        "disabled": false
-      },
-      "galosphere:pink_salt_shrine": {
-        "spacing": 18,
-        "separation": 10,
-        "salt": 9237591,
-        "disabled": false
-      },
-      "mvs:other_decoration/fox_hut": {
-        "spacing": 99,
-        "separation": 17,
-        "salt": 614787498,
-        "disabled": false
-      },
-      "minecraft:igloos": {
+      "ctov:pillager_outposts": {
         "spacing": 32,
         "separation": 8,
-        "salt": 14357618,
+        "salt": 165745296,
         "disabled": false
       },
-      "betteroceanmonuments:ocean_monument": {
-        "spacing": 50,
-        "separation": 20,
-        "salt": 784827271,
-        "disabled": false
-      },
-      "graveyard:small_mountain_grave_structure": {
-        "spacing": 12,
-        "separation": 8,
-        "salt": 725689810,
-        "disabled": false
-      },
-      "mvs:nature/acacia_tree": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 433547658,
-        "disabled": false
-      },
-      "mowziesmobs:wrought_chambers": {
-        "spacing": 15,
-        "separation": 5,
-        "salt": 23217347,
-        "disabled": false
-      },
-      "mvs:nature/small_oak_pond": {
-        "spacing": 71,
-        "separation": 25,
-        "salt": 663549872,
-        "disabled": false
-      },
-      "mvs:other_decoration/wheat_grain_bin": {
-        "spacing": 53,
-        "separation": 28,
-        "salt": 266483984,
-        "disabled": false
-      },
-      "graveyard:small_graveyard_structure": {
-        "spacing": 20,
-        "separation": 18,
-        "salt": 598017285,
-        "disabled": false
-      },
-      "mvs:lantern/small_acacia_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 100928383,
-        "disabled": false
-      },
-      "ars_nouveau:wilden_den_set": {
-        "spacing": 36,
-        "separation": 10,
-        "salt": 1224466880,
-        "disabled": false
-      },
-      "mvs:houses/desert_house": {
-        "spacing": 99,
-        "separation": 45,
-        "salt": 832598745,
-        "disabled": false
-      },
-      "aether:ruined_portals": {
-        "spacing": 75,
-        "separation": 31,
-        "salt": 14252125,
-        "disabled": false
-      },
-      "betterwitchhuts:witch_hut": {
-        "spacing": 30,
-        "separation": 8,
-        "salt": 79297177,
-        "disabled": false
-      },
-      "mvs:log_pile/acacia_log_pile": {
+      "mvs:log_pile/spruce_log_pile": {
         "spacing": 53,
         "separation": 33,
-        "salt": 503002547,
-        "disabled": false
-      },
-      "apotheosis:tower_spruce": {
-        "spacing": 60,
-        "separation": 30,
-        "salt": 89021723,
-        "disabled": false
-      },
-      "paraglider:tarrey_town_goddess_statue": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 850796625,
-        "disabled": false
-      },
-      "aquamirae:shelter": {
-        "spacing": 40,
-        "separation": 20,
-        "salt": 901831489,
-        "disabled": false
-      },
-      "minecraft:villages": {
-        "spacing": 34,
-        "separation": 8,
-        "salt": 10387312,
-        "disabled": false
-      },
-      "aquamirae:ship": {
-        "spacing": 25,
-        "separation": 10,
-        "salt": 801831489,
-        "disabled": false
-      },
-      "mvs:out_house": {
-        "spacing": 99,
-        "separation": 61,
-        "salt": 887854652,
-        "disabled": false
-      },
-      "mvs:other_decoration/mushroom_statue": {
-        "spacing": 190,
-        "separation": 33,
-        "salt": 513356854,
-        "disabled": false
-      },
-      "repurposed_structures:pyramids_overworld": {
-        "spacing": 119,
-        "separation": 47,
-        "salt": 1755529804,
-        "disabled": false
-      },
-      "mvs:other_decoration/fire_camp": {
-        "spacing": 66,
-        "separation": 35,
-        "salt": 533255487,
-        "disabled": false
-      },
-      "mvs:ruins/statue_ruins": {
-        "spacing": 78,
-        "separation": 61,
-        "salt": 696985421,
-        "disabled": false
-      },
-      "repurposed_structures:bastions_overworld": {
-        "spacing": 135,
-        "separation": 75,
-        "salt": 618127296,
-        "disabled": false
-      },
-      "repurposed_structures:cities_overworld": {
-        "spacing": 140,
-        "separation": 80,
-        "salt": 346349343,
-        "disabled": false
-      },
-      "mvs:nature/birch_tree": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 198277385,
-        "disabled": false
-      },
-      "irons_spellbooks:evoker_fort": {
-        "spacing": 85,
-        "separation": 50,
-        "salt": 684512,
-        "disabled": false
-      },
-      "eidolon:stray_tower": {
-        "spacing": 24,
-        "separation": 18,
-        "salt": 632767650,
-        "disabled": false
-      },
-      "bosses_of_mass_destruction:void_blossom": {
-        "spacing": 64,
-        "separation": 24,
-        "salt": 574839,
-        "disabled": false
-      },
-      "mvs:nature/jungle_tree": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 987873484,
-        "disabled": false
-      },
-      "apotheosis:tower_leaf": {
-        "spacing": 60,
-        "separation": 30,
-        "salt": 11114412,
-        "disabled": false
-      },
-      "ars_elemental:starbuncle_shrine": {
-        "spacing": 100,
-        "separation": 50,
-        "salt": 294539046,
-        "disabled": false
-      },
-      "minecraft:ocean_monuments": {
-        "spacing": 32,
-        "separation": 5,
-        "salt": 10387313,
-        "disabled": false
-      },
-      "mvs:lantern/small_campfire_lantern": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 187772773,
-        "disabled": false
-      },
-      "graveyard:small_savanna_grave_structure": {
-        "spacing": 12,
-        "separation": 8,
-        "salt": 709787761,
-        "disabled": false
-      },
-      "mvs:nature/oak_tree": {
-        "spacing": 36,
-        "separation": 26,
-        "salt": 509676834,
-        "disabled": false
-      },
-      "repurposed_structures:mineshafts_ocean": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 129417444,
-        "disabled": false
-      },
-      "mvs:cartographer_tower": {
-        "spacing": 170,
-        "separation": 94,
-        "salt": 333685433,
-        "disabled": false
-      },
-      "eidolon:catacomb": {
-        "spacing": 80,
-        "separation": 40,
-        "salt": 12512867,
-        "disabled": false
-      },
-      "iceandfire:gorgon_temple": {
-        "spacing": 32,
-        "separation": 12,
-        "salt": 76489509,
-        "disabled": false
-      },
-      "minecraft:ancient_cities": {
-        "spacing": 24,
-        "separation": 8,
-        "salt": 20083232,
-        "disabled": false
-      },
-      "mvs:nature/mushroom_pond": {
-        "spacing": 99,
-        "separation": 25,
-        "salt": 636984325,
-        "disabled": false
-      },
-      "mvs:other_decoration/windmill": {
-        "spacing": 53,
-        "separation": 28,
-        "salt": 774638947,
-        "disabled": false
-      },
-      "mvs:nature/floating_islands": {
-        "spacing": 157,
-        "separation": 78,
-        "salt": 495878745,
-        "disabled": false
-      },
-      "mvs:dead_tree/dark_oak": {
-        "spacing": 58,
-        "separation": 50,
-        "salt": 727090884,
-        "disabled": false
-      },
-      "betterdungeons:small_dungeons": {
-        "spacing": 10,
-        "separation": 6,
-        "salt": 34239823,
-        "disabled": false
-      },
-      "apotheosis:tower_main": {
-        "spacing": 60,
-        "separation": 30,
-        "salt": 12121818,
-        "disabled": false
-      },
-      "mvs:houses/warped_house": {
-        "spacing": 87,
-        "separation": 45,
-        "salt": 433252558,
-        "disabled": false
-      },
-      "repurposed_structures:witch_huts_overworld": {
-        "spacing": 53,
-        "separation": 26,
-        "salt": 2043830143,
-        "disabled": false
-      },
-      "mvs:houses/barn": {
-        "spacing": 63,
-        "separation": 53,
-        "salt": 766544243,
-        "disabled": false
-      },
-      "ctov:villages": {
-        "spacing": 50,
-        "separation": 25,
-        "salt": 153873121,
-        "disabled": false
-      },
-      "cataclysm:sunken_city": {
-        "spacing": 100,
-        "separation": 70,
-        "salt": 1673928450,
-        "disabled": false
-      },
-      "mvs:other_decoration/campsite": {
-        "spacing": 76,
-        "separation": 61,
-        "salt": 818985846,
-        "disabled": false
-      },
-      "mvs:ruins/castle_ruins": {
-        "spacing": 92,
-        "separation": 61,
-        "salt": 547485265,
-        "disabled": false
-      },
-      "idas:idas_rare": {
-        "spacing": 50,
-        "separation": 30,
-        "salt": 169480678,
-        "disabled": false
-      },
-      "mvs:stone_fountain": {
-        "spacing": 74,
-        "separation": 25,
-        "salt": 636698754,
+        "salt": 389653201,
         "disabled": false
       },
       "cataclysm:ancient_factory": {
@@ -1360,16 +676,700 @@
         "salt": 319514301,
         "disabled": false
       },
-      "repurposed_structures:yung_fortresses_overworld": {
-        "spacing": 68,
-        "separation": 38,
-        "salt": 153767080,
+      "mvs:lantern/small_campfire_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 187772773,
         "disabled": false
       },
-      "mvs:nature/dark_oak_tree": {
+      "tetra:forged_ruins": {
+        "spacing": 14,
+        "separation": 8,
+        "salt": 746218233,
+        "disabled": false
+      },
+      "betterarcheology:fossil_sites": {
+        "spacing": 24,
+        "separation": 12,
+        "salt": 990880771,
+        "disabled": false
+      },
+      "irons_spellbooks:mangrove_hut": {
+        "spacing": 25,
+        "separation": 18,
+        "salt": 169476080,
+        "disabled": false
+      },
+      "repurposed_structures:outposts_overworld": {
+        "spacing": 49,
+        "separation": 24,
+        "salt": 411702122,
+        "disabled": false
+      },
+      "mvs:ruins/tree_monument": {
+        "spacing": 157,
+        "separation": 134,
+        "salt": 699754652,
+        "disabled": false
+      },
+      "idas:idas_small": {
+        "spacing": 20,
+        "separation": 15,
+        "salt": 169480673,
+        "disabled": false
+      },
+      "mvs:gallows": {
+        "spacing": 74,
+        "separation": 58,
+        "salt": 248956103,
+        "disabled": false
+      },
+      "repurposed_structures:villages_overworld": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 608450500,
+        "disabled": false
+      },
+      "mvs:other_decoration/stone_bee": {
+        "spacing": 111,
+        "separation": 78,
+        "salt": 713668754,
+        "disabled": false
+      },
+      "betterwitchhuts:witch_circle": {
+        "spacing": 40,
+        "separation": 10,
+        "salt": 19797254,
+        "disabled": false
+      },
+      "repurposed_structures:pyramids_mushroom": {
+        "spacing": 55,
+        "separation": 30,
+        "salt": 1253128977,
+        "disabled": false
+      },
+      "mvs:carts/medium_bamboo_cart": {
+        "spacing": 25,
+        "separation": 17,
+        "salt": 873648576,
+        "disabled": false
+      },
+      "graveyard:giant_mushroom_structure": {
+        "spacing": 34,
+        "separation": 26,
+        "salt": 365012356,
+        "disabled": false
+      },
+      "apotheosis:tower_spruce": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 89021723,
+        "disabled": false
+      },
+      "irons_spellbooks:mountain_tower": {
+        "spacing": 45,
+        "separation": 33,
+        "salt": 194767080,
+        "disabled": false
+      },
+      "mvs:houses/flower_hole": {
+        "spacing": 94,
+        "separation": 58,
+        "salt": 865741203,
+        "disabled": false
+      },
+      "mvs:nature/stone_rock": {
         "spacing": 36,
         "separation": 26,
-        "salt": 109878734,
+        "salt": 485549328,
+        "disabled": false
+      },
+      "mvs:log_pile/oak_log_pile": {
+        "spacing": 53,
+        "separation": 33,
+        "salt": 398653245,
+        "disabled": false
+      },
+      "mvs:well/small_tower_well": {
+        "spacing": 46,
+        "separation": 30,
+        "salt": 466628370,
+        "disabled": false
+      },
+      "mvs:houses/desert_house": {
+        "spacing": 99,
+        "separation": 45,
+        "salt": 832598745,
+        "disabled": false
+      },
+      "irons_spellbooks:pyromancer_tower": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 1512684,
+        "disabled": false
+      },
+      "mvs:nature/birch_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 198277385,
+        "disabled": false
+      },
+      "mvs:well/other_wells": {
+        "spacing": 50,
+        "separation": 36,
+        "salt": 336692254,
+        "disabled": false
+      },
+      "mvs:shed": {
+        "spacing": 78,
+        "separation": 46,
+        "salt": 532363685,
+        "disabled": false
+      },
+      "repurposed_structures:bastions_overworld": {
+        "spacing": 135,
+        "separation": 75,
+        "salt": 618127296,
+        "disabled": false
+      },
+      "graveyard:medium_graveyard_structure": {
+        "spacing": 18,
+        "separation": 16,
+        "salt": 1690192399,
+        "disabled": false
+      },
+      "mvs:nature/spruce_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 100588374,
+        "disabled": false
+      },
+      "betterdungeons:spider_dungeons": {
+        "spacing": 44,
+        "separation": 22,
+        "salt": 596523129,
+        "disabled": false
+      },
+      "mvs:nature/oak_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 509676834,
+        "disabled": false
+      },
+      "mvs:beach_bar": {
+        "spacing": 99,
+        "separation": 41,
+        "salt": 435440687,
+        "disabled": false
+      },
+      "mvs:carts/cart": {
+        "spacing": 69,
+        "separation": 53,
+        "salt": 203698201,
+        "disabled": false
+      },
+      "mvs:houses/large_floating_island": {
+        "spacing": 134,
+        "separation": 101,
+        "salt": 754754652,
+        "disabled": false
+      },
+      "aquamirae:outpost": {
+        "spacing": 18,
+        "separation": 10,
+        "salt": 701829589,
+        "disabled": false
+      },
+      "mvs:lantern/small_dark_oak_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 100932854,
+        "disabled": false
+      },
+      "idas:idas_rare": {
+        "spacing": 50,
+        "separation": 30,
+        "salt": 169480678,
+        "disabled": false
+      },
+      "mvs:ruins/castle_ruins": {
+        "spacing": 92,
+        "separation": 61,
+        "salt": 547485265,
+        "disabled": false
+      },
+      "minecraft:ocean_ruins": {
+        "spacing": 20,
+        "separation": 8,
+        "salt": 14357621,
+        "disabled": false
+      },
+      "minecraft:jungle_temples": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357619,
+        "disabled": false
+      },
+      "graveyard:small_mountain_grave_structure": {
+        "spacing": 12,
+        "separation": 8,
+        "salt": 725689810,
+        "disabled": false
+      },
+      "mvs:other_decoration/wheat_grain_bin": {
+        "spacing": 53,
+        "separation": 28,
+        "salt": 266483984,
+        "disabled": false
+      },
+      "iceandfire:mausoleum": {
+        "spacing": 32,
+        "separation": 12,
+        "salt": 14200531,
+        "disabled": false
+      },
+      "mvs:small_pillager_tower": {
+        "spacing": 69,
+        "separation": 58,
+        "salt": 847637490,
+        "disabled": false
+      },
+      "graveyard:dead_tree_structure": {
+        "spacing": 28,
+        "separation": 16,
+        "salt": 781897819,
+        "disabled": false
+      },
+      "graveyard:small_desert_grave_structure": {
+        "spacing": 20,
+        "separation": 16,
+        "salt": 681236914,
+        "disabled": false
+      },
+      "mvs:dead_tree/acacia": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 749388475,
+        "disabled": false
+      },
+      "betterdungeons:zombie_dungeons": {
+        "spacing": 48,
+        "separation": 24,
+        "salt": 280667671,
+        "disabled": false
+      },
+      "mvs:dead_tree/dark_oak": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 727090884,
+        "disabled": false
+      },
+      "idas:idas_ocean": {
+        "spacing": 25,
+        "separation": 20,
+        "salt": 169480681,
+        "disabled": false
+      },
+      "mvs:other_decoration/mine_with_campsite": {
+        "spacing": 99,
+        "separation": 63,
+        "salt": 638820199,
+        "disabled": false
+      },
+      "minecraft:ancient_cities": {
+        "spacing": 24,
+        "separation": 8,
+        "salt": 20083232,
+        "disabled": false
+      },
+      "mvs:houses/barn": {
+        "spacing": 63,
+        "separation": 53,
+        "salt": 766544243,
+        "disabled": false
+      },
+      "mvs:lantern/small_bamboo_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 884392014,
+        "disabled": false
+      },
+      "mvs:ruins/small_ruin": {
+        "spacing": 78,
+        "separation": 53,
+        "salt": 690254035,
+        "disabled": false
+      },
+      "ars_nouveau:wilden_den_set": {
+        "spacing": 36,
+        "separation": 10,
+        "salt": 1224466880,
+        "disabled": false
+      },
+      "mvs:houses/house": {
+        "spacing": 78,
+        "separation": 63,
+        "salt": 866369854,
+        "disabled": false
+      },
+      "mvs:houses/deepslate_house": {
+        "spacing": 86,
+        "separation": 69,
+        "salt": 769698421,
+        "disabled": false
+      },
+      "hexerei:dark_coven": {
+        "spacing": 29,
+        "separation": 11,
+        "salt": 2124767140,
+        "disabled": false
+      },
+      "eidolon:lab": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 1768062476,
+        "disabled": false
+      },
+      "integrated_villages:air_villages": {
+        "spacing": 143,
+        "separation": 112,
+        "salt": 1982700828,
+        "disabled": false
+      },
+      "mvs:carts/large_cart_2": {
+        "spacing": 116,
+        "separation": 41,
+        "salt": 736585741,
+        "disabled": false
+      },
+      "mvs:jungle_tower": {
+        "spacing": 198,
+        "separation": 165,
+        "salt": 533652584,
+        "disabled": false
+      },
+      "mvs:railway": {
+        "spacing": 94,
+        "separation": 54,
+        "salt": 414069697,
+        "disabled": false
+      },
+      "integrated_stronghold:stronghold": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 68173563,
+        "disabled": false
+      },
+      "alexscaves:underground_cabin": {
+        "spacing": 10,
+        "separation": 2,
+        "salt": 99,
+        "disabled": false
+      },
+      "betterdeserttemples:desert_temples": {
+        "spacing": 30,
+        "separation": 20,
+        "salt": 92746251,
+        "disabled": false
+      },
+      "idas:idas_underground_rare": {
+        "spacing": 60,
+        "separation": 40,
+        "salt": 169481691,
+        "disabled": false
+      },
+      "minecraft:igloos": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357618,
+        "disabled": false
+      },
+      "repurposed_structures:ruins_overworld": {
+        "spacing": 68,
+        "separation": 30,
+        "salt": 1612645903,
+        "disabled": false
+      },
+      "minecraft:ocean_monuments": {
+        "spacing": 32,
+        "separation": 5,
+        "salt": 10387313,
+        "disabled": false
+      },
+      "mvs:houses/medium_igloo_1": {
+        "spacing": 54,
+        "separation": 43,
+        "salt": 746536475,
+        "disabled": false
+      },
+      "mvs:houses/small_igloo": {
+        "spacing": 63,
+        "separation": 53,
+        "salt": 772288376,
+        "disabled": false
+      },
+      "apotheosis:tower_main": {
+        "spacing": 60,
+        "separation": 30,
+        "salt": 12121818,
+        "disabled": false
+      },
+      "repurposed_structures:temples_overworld": {
+        "spacing": 51,
+        "separation": 29,
+        "salt": 1590755324,
+        "disabled": false
+      },
+      "minecells:overworld_portal": {
+        "spacing": 20,
+        "separation": 8,
+        "salt": 2043237655,
+        "disabled": false
+      },
+      "mvs:dead_tree/jungle": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 399487564,
+        "disabled": false
+      },
+      "paraglider:tarrey_town_goddess_statue": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 850796625,
+        "disabled": false
+      },
+      "graveyard:small_graveyard_structure": {
+        "spacing": 20,
+        "separation": 18,
+        "salt": 598017285,
+        "disabled": false
+      },
+      "mvs:log_pile/jungle_log_pile": {
+        "spacing": 53,
+        "separation": 33,
+        "salt": 388549865,
+        "disabled": false
+      },
+      "irons_spellbooks:impaled_icebreaker": {
+        "spacing": 75,
+        "separation": 50,
+        "salt": 87959402,
+        "disabled": false
+      },
+      "mvs:other_decoration/campsite": {
+        "spacing": 76,
+        "separation": 61,
+        "salt": 818985846,
+        "disabled": false
+      },
+      "graveyard:memorial_tree_structure": {
+        "spacing": 14,
+        "separation": 12,
+        "salt": 529239621,
+        "disabled": false
+      },
+      "graveyard:small_grave_structure": {
+        "spacing": 12,
+        "separation": 8,
+        "salt": 240451934,
+        "disabled": false
+      },
+      "galosphere:pink_salt_shrine": {
+        "spacing": 18,
+        "separation": 10,
+        "salt": 9237591,
+        "disabled": false
+      },
+      "minecraft:villages": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 10387312,
+        "disabled": false
+      },
+      "mvs:other_decoration/pile": {
+        "spacing": 26,
+        "separation": 13,
+        "salt": 377640917,
+        "disabled": false
+      },
+      "mvs:nature/floating_islands": {
+        "spacing": 157,
+        "separation": 78,
+        "salt": 495878745,
+        "disabled": false
+      },
+      "mvs:houses/large_warped_tower": {
+        "spacing": 104,
+        "separation": 58,
+        "salt": 446837409,
+        "disabled": false
+      },
+      "minecraft:ruined_portals": {
+        "spacing": 40,
+        "separation": 15,
+        "salt": 34222645,
+        "disabled": false
+      },
+      "graveyard:small_savanna_grave_structure": {
+        "spacing": 12,
+        "separation": 8,
+        "salt": 709787761,
+        "disabled": false
+      },
+      "mvs:other_decoration/fire_camp": {
+        "spacing": 66,
+        "separation": 35,
+        "salt": 533255487,
+        "disabled": false
+      },
+      "mvs:lantern/small_oak_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 110989883,
+        "disabled": false
+      },
+      "mvs:cartographer_tower": {
+        "spacing": 170,
+        "separation": 94,
+        "salt": 333685433,
+        "disabled": false
+      },
+      "idas:idas_underground": {
+        "spacing": 25,
+        "separation": 15,
+        "salt": 18918169,
+        "disabled": false
+      },
+      "betterarcheology:archeology_sites": {
+        "spacing": 32,
+        "separation": 16,
+        "salt": 990880770,
+        "disabled": false
+      },
+      "mvs:other_decoration/lamp_chest": {
+        "spacing": 92,
+        "separation": 28,
+        "salt": 643656895,
+        "disabled": false
+      },
+      "betterarcheology:underwater_ruins": {
+        "spacing": 16,
+        "separation": 12,
+        "salt": 990880772,
+        "disabled": false
+      },
+      "mowziesmobs:frostmaw_spawns": {
+        "spacing": 25,
+        "separation": 8,
+        "salt": 23317578,
+        "disabled": false
+      },
+      "cataclysm:cursed_pyramid": {
+        "spacing": 80,
+        "separation": 50,
+        "salt": 577299997,
+        "disabled": false
+      },
+      "mvs:dead_tree/birch": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 100928374,
+        "disabled": false
+      },
+      "mvs:cathedral": {
+        "spacing": 216,
+        "separation": 201,
+        "salt": 303685798,
+        "disabled": false
+      },
+      "mvs:sunzi_gate": {
+        "spacing": 111,
+        "separation": 41,
+        "salt": 436368521,
+        "disabled": false
+      },
+      "repurposed_structures:mansions_mangrove": {
+        "spacing": 120,
+        "separation": 50,
+        "salt": 512456965,
+        "disabled": false
+      },
+      "mvs:stall/stalls": {
+        "spacing": 66,
+        "separation": 33,
+        "salt": 298643200,
+        "disabled": false
+      },
+      "irons_spellbooks:evoker_fort": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 684512,
+        "disabled": false
+      },
+      "mvs:nature/large_mushroom": {
+        "spacing": 201,
+        "separation": 74,
+        "salt": 569543265,
+        "disabled": false
+      },
+      "bettermineshafts:mineshafts": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 593751784,
+        "disabled": false
+      },
+      "mvs:lantern/small_cherry_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 117264438,
+        "disabled": false
+      },
+      "bosses_of_mass_destruction:void_blossom": {
+        "spacing": 64,
+        "separation": 24,
+        "salt": 574839,
+        "disabled": false
+      },
+      "minecraft:trail_ruins": {
+        "spacing": 34,
+        "separation": 8,
+        "salt": 83469867,
+        "disabled": false
+      },
+      "mvs:nature/jungle_palm_tree": {
+        "spacing": 36,
+        "separation": 26,
+        "salt": 687545574,
+        "disabled": false
+      },
+      "mvs:ruins/ruined_beacon": {
+        "spacing": 153,
+        "separation": 124,
+        "salt": 699587454,
+        "disabled": false
+      },
+      "dungeoncrawl:dungeons": {
+        "spacing": 32,
+        "separation": 12,
+        "salt": 10387313,
+        "disabled": false
+      },
+      "mvs:lantern/medium_oak_lantern": {
+        "spacing": 58,
+        "separation": 50,
+        "salt": 283394585,
+        "disabled": false
+      },
+      "mvs:lantern/small_jungle_lantern": {
+        "spacing": 50,
+        "separation": 25,
+        "salt": 100938475,
+        "disabled": false
+      },
+      "minecraft:desert_pyramids": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357617,
         "disabled": false
       }
     }
@@ -1500,13 +1500,13 @@
       "continentJitter": 0.66237116
     },
     "controlPoints": {
-      "shallowOcean": 0.28737113,
-      "beach": 0.4523196,
-      "coast": 0.49484536,
-      "inland": 0.55927837,
+      "shallowOcean": 0.32979622,
+      "beach": 0.63283765,
+      "coast": 0.6853103,
+      "inland": 0.8136175,
       "islandInland": 0.12371134,
       "islandCoast": 0.13144329,
-      "deepOcean": 0.14819588
+      "deepOcean": 0.18086542
     },
     "properties": {
       "seaLevel": 63,

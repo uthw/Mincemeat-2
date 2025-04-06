@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cold Sweat Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "The maximum supported insulation on armor scales with the armor's protection. Certain high-insulation items like Stellarite Pieces and Dragon Scales can only be sewed into high-end armor."
+    }
+}

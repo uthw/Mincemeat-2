@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Pulse repeaters are upgraded redstone repeaters that can delay the duration of a redstone signal by up to an hour. Pulse extenders are similar, but lengthen signals instead."
+    }
+}

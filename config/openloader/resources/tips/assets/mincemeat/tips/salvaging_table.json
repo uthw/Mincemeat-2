@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Apotheosis Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The Salvaging Table can break affix items into their components, which can be used at a Reforging Table to add or reroll affixes on other items."
+    }
+}

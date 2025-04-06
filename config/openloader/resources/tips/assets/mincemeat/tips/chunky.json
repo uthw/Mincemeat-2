@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Chunky Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you have trouble loading chunks, using Chunky to pregenerate them will help."
+    }
+}

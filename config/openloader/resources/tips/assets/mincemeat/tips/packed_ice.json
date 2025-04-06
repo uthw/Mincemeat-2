@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Cold Sweat Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Packed ice can be collected without needing a silk touch pickaxe."
+    }
+}
