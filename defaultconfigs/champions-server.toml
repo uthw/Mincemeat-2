@@ -98,6 +98,7 @@ entitiesList = [
 	"conjurer_illager:conjurer",
 
 	"galosphere:berserker",
+	"galosphere:preserved",
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST

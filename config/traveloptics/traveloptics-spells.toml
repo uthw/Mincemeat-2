@@ -75,7 +75,7 @@
 	[staff_spellbooks.shellbound]
 		#Extra spell slots for Shellbound || Default 12
 		#Range: > 1
-		extra_slots = 12
+		extra_slots = 8
 		#Max Mana || ADDITION || Default 200.0
 		#Range: 50.0 ~ 1000.0
 		max_mana = 200.0

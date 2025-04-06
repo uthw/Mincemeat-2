@@ -1,6 +1,5 @@
 {
   "general": {
-    "customThrow": true,
     "fallSounds": true,
     "disableCactusDamage": true,
     "swimmingItems": {
@@ -174,10 +173,17 @@
     "customPickup": false,
     "pickupWhenSneaking": true,
     "pickupNormally": false,
-    "maximumPickupRange": 5.0,
+    "maximumPickupRange": 5,
+    "hitboxIncrease": 0.2,
     "alwaysPickup": {
       "entries": [],
       "isWhitelist": true
     }
+  },
+  "throw": {
+    "enabled": true,
+    "maxStages": 6,
+    "multiplierPerStage": 1,
+    "stageChargeTime": 10
   }
 }

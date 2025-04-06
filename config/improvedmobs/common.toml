@@ -11,6 +11,7 @@
 	#Example ["0-0.01","10-0.1","30-0"]
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
+	#If you want to use negative values use | instead of - as the delimiter.
 	"Difficulty Increase" = ["0-0.1", "250-0"]
 	#Wether difficulty should only increase with at least one online players or not
 	"Ignore Players" = false
@@ -46,7 +47,7 @@
 [list]
 	#Entities added here will be blacklisted from their assigned flags. Usage:
 	#<entity registry name> or <namespace> or <#tag> followed by any of:
-	#[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PARROT,TARGETVILLAGER,NEUTRALAGGRO,REVERSE].
+	#[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PARROT,TARGETVILLAGER,NEUTRALAGGRO,PEHKUI,REVERSE].
 	#Having no flags is equal to ALL. Use REVERSE to reverse all flags. Some flags do nothing for certain mobs!
 	#Examples (without <>):
 	#<minecraft:sheep> (equal to minecraft:sheep|ALL) excludes sheeps from all modifications
@@ -56,10 +57,10 @@
 	#<minecraft> disables everything for all minecraft mobs
 	"Entity Configs" = ["alexsmobs:emu", "alexsmobs:cockroach", "alexsmobs:froststalker", "alexsmobs:centipede_tail", "blue_skies:frost_spirit", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "littlelogistics:fluid_barge", "alexsmobs:moose", "alexsmobs:seal", "littlelogistics:energy_tug", "minecraft:glow_squid", "alexsmobs:shoebill", "alexsmobs:flutter", "aether:aechor_plant", "blue_skies:municipal_monkfish", "alexsmobs:roadrunner", "alexsmobs:laviathan", "minecraft:trader_llama", "blue_skies:supporter_pet", "alexsmobs:terrapin", "alexsmobs:capuchin_monkey", "alexsmobs:endergrade", "minecraft:horse", "betterend:silk_moth", "alexsmobs:anaconda", "betternether:naga_projectile", "blue_skies:shade_monitor", "minecraft:polar_bear", "aether:sheepuff", "blue_skies:jelly_drifter", "minecraft:llama", "minecraft:pig", "minecraft:turtle", "blue_skies:crogre", "alexsmobs:alligator_snapping_turtle", "alexsmobs:maned_wolf", "minecraft:sheep", "littlecontraptions:contraption_barge", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "littlelogistics:tug", "alexsmobs:rattlesnake", "aether:evil_whirlwind", "alexsmobs:gelada_monkey", "minecraft:cod", "alexsmobs:mantis_shrimp", "littlelogistics:chunk_loader_barge", "alexsmobs:komodo_dragon", "blue_skies:azulfo", "alexsmobs:hammerhead_shark", "blue_skies:reindeer", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:raccoon", "blue_skies:cosmic_fox", "alexsmobs:grizzly_bear", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "blue_skies:firefly", "alexsmobs:potoo", "minecraft:cow", "alexsmobs:fly", "minecraft:bee", "alexsmobs:devils_hole_pupfish", "alexsmobs:crocodile", "alexsmobs:blue_jay", "blue_skies:charscale_moki", "alexsmobs:toucan", "minecraft:salmon", "alexsmobs:sea_bear", "aether:moa", "littlelogistics:barrel_barge", "alexsmobs:triops", "minecraft:snow_golem", "alexsmobs:rhinoceros", "minecraft:mooshroom", "betterend:end_fish", "alexsmobs:frilled_shark", "alexsmobs:bison", "alexsmobs:anteater", "alexsmobs:mudskipper", "minecraft:villager", "alexsmobs:rain_frog", "alexsmobs:bald_eagle", "alexsmobs:sugar_glider", "supplementaries:red_merchant", "blue_skies:snow_owl", "minecraft:rabbit", "minecraft:axolotl", "betterend:cubozoa", "alexsmobs:blobfish", "forbidden_arcanus:lost_soul", "alexsmobs:gorilla", "littlelogistics:barge", "littlelogistics:seater_barge", "aether:whirlwind", "alexsmobs:orca", "alexsmobs:tusklin", "minecraft:strider", "minecraft:parrot", "alexsmobs:leafcutter_ant", "littlelogistics:fishing_barge", "alexsmobs:cosmic_cod", "alexsmobs:underminer", "betternether:flying_pig", "alexsmobs:mungus", "alexsmobs:jerboa", "minecraft:bat", "minecraft:wandering_trader", "alexsmobs:caiman", "alexsmobs:spectre", "alexsmobs:cosmaw", "aether:flying_cow", "alexsmobs:catfish", "minecraft:frog", "minecraft:iron_golem", "alexsmobs:kangaroo", "alexsmobs:comb_jelly", "blue_skies:grittle_flatfish", "blue_skies:sliv", "alexsmobs:banana_slug", "aether:aerwhale", "littlelogistics:vacuum_barge", "alexsmobs:mimic_octopus", "betternether:hydrogen_jellyfish", "alexsmobs:hummingbird", "alexsmobs:elephant", "alexsmobs:bunfungus", "alexsmobs:gazelle", "minecraft:mule", "minecraft:sniffer", "betterend:dragonfly", "alexsmobs:skunk", "alexsmobs:crow", "minecraft:zombie_horse", "alexsmobs:sunbird", "minecraft:camel", "alexsmobs:flying_fish", "blue_skies:stardust_ram", "alexsmobs:tasmanian_devil", "alexsmobs:centipede_body", "aether:cloud_minion", "minecraft:cat", "minecraft:pufferfish", "alexsmobs:stradpole", "aether:aerbunny", "alexsmobs:tarantula_hawk", "blue_skies:gatekeeper", "minecraft:fox", "blue_skies:crystal_camel", "alexsmobs:cachalot_whale", "minecraft:allay", "minecraft:tropical_fish", "deeperdarker:sculk_snapper", "mekanism:robit", "minecraft:ocelot", "alexsmobs:warped_toad", "minecraft:chicken", "betternether:firefly", "alexsmobs:giant_squid", "minecraft:wolf", "aether:phyg", "minecraft:panda", "blue_skies:horizofin_tunid"]
 	#Any of the following 
-	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO]
+	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO, PEHKUI]
 	#added here will disable that feature completely.
 	#E.g. ["GUARDIAN"] will disable the guardian feature
-	"Flag Blacklist" = ["BLOCKBREAK", "STEAL", "NEUTRALAGGRO", "TARGETVILLAGER", "GUARDIAN"]
+	"Flag Blacklist" = ["BLOCKBREAK", "STEAL", "NEUTRALAGGRO", "TARGETVILLAGER", "GUARDIAN", "PARROT"]
 	#Treat ATTRIBUTES flags as whitelist
 	"Attribute Whitelist" = false
 	#Treat ARMOR flags as whitelist
@@ -82,15 +83,20 @@
 	"Villager Whitelist" = false
 	#Treat NEUTRALAGGRO flags as whitelist
 	"Neutral Aggro Whitelist" = false
+	#Treat PEHKUI flags as whitelist (Needs pehkui installed)
+	"Pehkui Whitelist" = false
 
 #Settings for mod integration
 [integration]
 	#Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)
-	"Use Scaling Health Mod" = true
+	#Allowed Values: OFF, ON, ADD
+	"Use Scaling Health Mod" = "ON"
 	#If true and playerEx is installed will use the level from playerEx as difficulty
-	"Use Player EX Mod" = true
+	#Allowed Values: OFF, ON, ADD
+	"Use Player EX Mod" = "ON"
 	#If true and LevelZ is installed will use the the total skill level from LevelZ as difficulty
-	"Use LevelZ Mod" = true
+	#Allowed Values: OFF, ON, ADD
+	"Use LevelZ Mod" = "ON"
 	#Using pehkui to vary the size of mobs
 	"Use pehkui Mod" = false
 	#The Max scale of mobs. Range [1.0,10], default 2.0
@@ -99,6 +105,15 @@
 	#The Minimum scale of mobs. Range (0,1.0), default 0.5
 	#Range: 0.0 ~ 1.0
 	"Minimum size Multiplier" = 0.5
+	#Scaling for playerEX integration
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"PlayerEX Scaling" = 1.0
+	#Scaling for LevelZ integration
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"LevelZ Scaling" = 1.0
+	#Chance that a mob will be affected by size changes
+	#Range: 0.0 ~ 1.0
+	"Size Chance" = 0.5
 
 #Settings regarding custom ai for mobs
 [ai]
@@ -157,6 +172,20 @@
 	"Ignore Harvest Check" = false
 	#Set this to true to allow tnt thrown by mobs to destroy blocks
 	"TNT Block Destruction" = false
+	#Chance a breaker mob to ignore line of sight
+	#Range: 0.0 ~ 1.0
+	"Breaker Sight Ignore" = 0.5
+	#A modifier to the breaking speed
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Breaking Speed Base" = 1.0
+	#Addition to breaking speed modifier based on difficulty.
+	#Final modifier is base + addition * difficulty
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Breaking Speed Add" = 0.0
+	#Chance for a mob to ignore line of sight
+	#This config ONLY affects villager target, neutral aggressive and auto targeting feature
+	#Range: 0.0 ~ 1.0
+	"Generic Sight Ignore" = 0.5
 
 #Configs regarding mobs spawning with equipment
 [equipment]
@@ -209,6 +238,9 @@
 	"Enchanting Blacklist" = []
 	#Turn the enchant blacklist to a whitelist
 	"Enchanting Whitelist" = false
+	#Chance for an equipment to have a random armor trim
+	#Range: 0.0 ~ 1.0
+	"Armor Trim Chance" = 0.05000000074505806
 
 #Settings for attribute modifiers
 [attributes]
