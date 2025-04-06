@@ -4327,6 +4327,160 @@
 			x: -3.0d
 			y: 0.0d
 		}
+		{
+			description: [
+				"If Tetra's depth and complexity aren't for you and all you want are cool weapons, Celestisynth is what you're looking for."
+				""
+				"Celestisynth adds a bunch of swords and a bow which are very fun to use, but also hard to get. To start, you'll need to do some mining and adventuring to craft the Starlit Factory."
+				""
+				"You'll need to visit the Undergarden to get the Shiverstone needed to make it."
+				""
+				"Once you've made the factory, all you'll need is to check the recipes in JEI for the weapons you're interested in and start gathering materials. There is a bit of waiting involved in the crafting process."
+			]
+			id: "0C036E30FF85F680"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "713221027160659A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starlit_factory"
+				}
+				type: "item"
+			}]
+			title: "Starlit Factory"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C036E30FF85F680"]
+			description: ["Hint: Solaris and Aqueflora are the easiest ones to get."]
+			id: "319909161072B531"
+			tasks: [{
+				id: "1CBB5BBB19066E27"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "celestisynth:solaris"
+								tag: {
+									Damage: 0
+									csController: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "celestisynth:crescentia"
+								tag: {
+									Damage: 0
+									csController: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "celestisynth:breezebreaker"
+								tag: {
+									Damage: 0
+									csController: { }
+									csExtras: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "celestisynth:poltergeist"
+								tag: {
+									Damage: 0
+									csController: { }
+									csExtras: {
+										cs.queueComboLarge: 0b
+										cs.smashCountForPassive: 3
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "celestisynth:aquaflora"
+								tag: {
+									Damage: 0
+									csController: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "celestisynth:rainfall_serenity"
+								tag: {
+									Damage: 0
+									csExtras: {
+										cs.pull: 0.0f
+										cs.pulling: 0.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "celestisynth:frostbound"
+								tag: {
+									Damage: 0
+									csController: { }
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Any Celestial-Grade Weapon"
+			x: -3.5d
+			y: 6.5d
+		}
 	]
 	title: "Equipment"
 }
