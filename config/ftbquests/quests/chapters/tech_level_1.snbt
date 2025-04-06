@@ -2798,37 +2798,21 @@
 		}
 		{
 			dependencies: ["019D4506638BC007"]
-			description: ["&6Trash cans&r delete things placed inside, according to what type you make. This is good for &eremoving unwanted items&r in a farm or machine in a lag-free way."]
+			description: ["&6Void containers&r delete things placed inside, according to what type you make. This is good for &eremoving unwanted items&r in a farm or machine in a lag-free way."]
 			id: "0EC7C83FE1DC7AD0"
-			tasks: [{
-				id: "523DE4990001AF83"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "trashcans:item_trash_can"
-							}
-							{
-								Count: 1b
-								id: "trashcans:liquid_trash_can"
-							}
-							{
-								Count: 1b
-								id: "trashcans:energy_trash_can"
-							}
-							{
-								Count: 1b
-								id: "trashcans:ultimate_trash_can"
-							}
-						]
-					}
+			tasks: [
+				{
+					id: "2B773E0B90CACAC6"
+					item: "sophisticatedstorage:void_upgrade"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Trash Can"
+				{
+					id: "7ED3340F16E504DA"
+					item: "sophisticatedstorage:advanced_void_upgrade"
+					type: "item"
+				}
+			]
+			title: "Void Upgrade"
 			x: -2.0d
 			y: 1.0d
 		}
