@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["00294FF7CDCA91F0"]
 			description: ["Found in the &5Theatre&r."]
 			hide_dependent_lines: true
 			id: "4493D9650B5D1F71"
@@ -64,7 +63,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4493D9650B5D1F71"]
+			dependencies: [
+				"4493D9650B5D1F71"
+				"00294FF7CDCA91F0"
+				"67EDF8A2B69A158D"
+			]
 			description: ["You'll be back in the Overworld before long..."]
 			icon: "forbidden_arcanus:whirlwind_prism"
 			id: "18D1EA8E41311823"
@@ -147,9 +150,10 @@
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
 			tasks: [{
-				id: "38F2586A4F22A244"
-				structure: "aquamirae:ice_maze/common"
-				type: "structure"
+				advancement: "aquamirae:adventure/find_ice_maze"
+				criterion: ""
+				id: "3E034583BD4EDEA0"
+				type: "advancement"
 			}]
 			title: "Ice Maze"
 			x: 2.0d
@@ -389,7 +393,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["67EDF8A2B69A158D"]
 			description: [
 				"Found in &7wrought lairs&r below the ground."
 				""
@@ -3232,6 +3235,207 @@
 			title: "Biome Conversion"
 			x: 4.0d
 			y: 12.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"This is a massive dungeon filled to the brim with mobs due to the immense amount of spawners. Also noteworthy here are the Spawner Carriers, who can also spawn mobs."
+				""
+				"On the plus side, if you need Spirit Orbs to max out your stamina or something, you've come to the right place."
+				""
+				"In the heart of the Labrynth is the Chaos Spawner, whose boss description is now loading."
+			]
+			id: "61963A7E3CC5B4B6"
+			tasks: [{
+				icon: "dungeonnowloading:spikes"
+				id: "2C310BDE5E57DFE6"
+				structure: "dungeonnowloading:labyrinth"
+				title: "Labrynth"
+				type: "structure"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D4F147344834529"]
+			id: "48D4BF288D59E907"
+			tasks: [{
+				entity: "dungeonnowloading:chaos_spawner"
+				icon: "dungeonnowloading:chaos_spawner_barrier_center"
+				id: "6C895EABCC75710E"
+				title: "Chaos Spawner"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48D4BF288D59E907"]
+			id: "6138BDDAF5225818"
+			tasks: [
+				{
+					id: "4CF1D7533DDF66B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "dungeonnowloading:spawner_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CD30B7FE9FE0ECF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "dungeonnowloading:spawner_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67627D05A8AF2365"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "dungeonnowloading:spawner_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16F469B27D54FA8C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "dungeonnowloading:spawner_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Spawner Gear"
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48D4BF288D59E907"]
+			id: "47C84B9D8A67B7E3"
+			tasks: [
+				{
+					id: "6CE2342A3BB381E8"
+					item: {
+						Count: 1
+						id: "dungeonnowloading:life_stealer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09202E63599BD600"
+					item: {
+						Count: 1
+						id: "dungeonnowloading:spawner_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61963A7E3CC5B4B6"]
+			id: "4D4F147344834529"
+			tasks: [{
+				id: "29DC2526A75F48F9"
+				item: {
+					Count: 1
+					id: "dungeonnowloading:skull_of_chaos"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			description: [
+				"Use the Crimson or Ice Eyes to find rare arenas in your world -- you can't use the Explorer's Compass."
+				""
+				"These foreboding, midair battlegrounds host challenging battles, initiated by right-clicking the apparatus in the center. You can also find a waystone nearby."
+				""
+				"Rewards await at the end -- good luck! "
+			]
+			id: "1D12E0C4D1A02F2E"
+			subtitle: "Have you seen Meburs around here?"
+			tasks: [
+				{
+					icon: "skyarena:altar_battle"
+					id: "036088E928614C7F"
+					observe_type: 0
+					timer: 0L
+					title: "Altar of Battle"
+					to_observe: "skyarena:altar_battle"
+					type: "observation"
+				}
+				{
+					id: "0E4F07934DEBD88E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "skyarena:crimson_eye"
+								}
+								{
+									Count: 1b
+									id: "skyarena:ice_eye"
+								}
+							]
+						}
+					}
+					title: "Eye"
+					type: "item"
+				}
+			]
+			title: "Sky Arena"
+			x: 14.0d
+			y: 2.0d
 		}
 	]
 	title: "Overworld Adventure"
