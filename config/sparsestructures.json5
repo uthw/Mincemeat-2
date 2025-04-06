@@ -95,10 +95,6 @@
       "structure": "idas:tinkers_workshop",
       "factor": 2
     },
-    // {
-    //   "structure": "betterdungeons:skeleton_dungeon",
-    //   "factor": 1
-    // },
     {
       "structure": "betterdungeons:small_dungeon",
       "factor": 1
@@ -134,6 +130,22 @@
     {
       "structure": "betterdungeons:zombie_dungeon",
       "factor": 1.15
+    },
+    {
+      "structure": "dungeonnowloading:labrynth",
+      "factor": 2.5
+    },
+    {
+      "structure": "integrated_villages:clockwork_village",
+      "factor": 0.5
+    },
+    {
+      "structure": "idas:pillager_fortress",
+      "factor": 0.65
+    },
+    {
+      "structure": "minecells:overworld_portal",
+      "factor": 2
     }
     // add the structures you want to modify in the format:
     // {
