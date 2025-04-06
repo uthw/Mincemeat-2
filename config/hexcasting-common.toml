@@ -2,16 +2,16 @@
 ["Media Amounts"]
 	#How much media a single Amethyst Dust item is worth
 	#Range: 0 ~ 2147483647
-	dustMediaAmount = 10000
+	dustMediaAmount = 100000
 	#How much media a single Amethyst Shard item is worth
 	#Range: 0 ~ 2147483647
-	shardMediaAmount = 50000
+	shardMediaAmount = 500000
 	#How much media a single Charged Amethyst Crystal item is worth
 	#Range: 0 ~ 2147483647
-	chargedCrystalMediaAmount = 100000
+	chargedCrystalMediaAmount = 1000000
 	#How many points of media a half-heart is worth when casting from HP
 	#Range: 0.0 ~ Infinity
-	mediaToHealthRate = 10000.0
+	mediaToHealthRate = 100000.0
 
 [Cooldowns]
 	#Cooldown in ticks of a cypher
