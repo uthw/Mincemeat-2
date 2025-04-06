@@ -586,12 +586,12 @@
 	disable_spawning_zombie_with_weapon = false
 	#Chance for Skeletons to spawn with various Longbows on all difficulties apart from Hard and Hardcore
 	#Range: 0.0 ~ 1.0
-	skeleton_with_longbow_spawn_chance_normal = 0.05000000074505806
+	skeleton_with_longbow_spawn_chance_normal = 0
 	#Chance for Skeletons to spawn with various Longbows on Hard or Hardcore difficulty
 	#Range: 0.0 ~ 1.0
-	skeleton_with_longbow_spawn_chance_hard = 0.25
+	skeleton_with_longbow_spawn_chance_hard = 0
 	#Set to true to disable spawning a Skeleton with any Longbow from this mod
-	disable_spawning_skeleton_with_longbow = false
+	disable_spawning_skeleton_with_longbow = true
 	#Set to true to disable the new mob heads from being dropped from mobs using the Decapitate Weapon Trait from this mod.
 	disable_new_head_drops = false
 
