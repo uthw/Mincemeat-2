@@ -3,7 +3,15 @@
 	default_quest_shape: ""
 	filename: "computer_programming_nyi"
 	group: "575079378E827F8C"
-	icon: "thermal:ruby_gear"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "thermal:ruby_gear"
+	}
 	id: "5060CB512B950FD4"
 	order_index: 2
 	quest_links: [ ]
@@ -317,8 +325,39 @@
 			id: "28108ED01F368BC5"
 			subtitle: "Credit to Direwolf20 for his YT tutorial"
 			tasks: [{
-				id: "508E532188806EBD"
-				item: "computercraft:computer_normal"
+				id: "491B7AF72E385CEE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "computercraft:computer_normal"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "computercraft:computer_advanced"
+							}
+						]
+					}
+				}
+				title: "Computer"
 				type: "item"
 			}]
 			x: -4.5d
@@ -434,7 +473,7 @@
 				type: "checkmark"
 			}]
 			title: "Comments and Multiple Lines"
-			x: -6.5d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -463,7 +502,7 @@
 				""
 				"Add &7&nx = x + 4&r to the end. Then, add another &7&nprint(x)&r after that. You'll see that the value of &2x&r has increased to 6. "
 				""
-				"Note that you can have multiple variables, and they can have any names you'd like so long as they don't already mean something else (for instance, you can't have a variable called \"print\")."
+				"Note that you can have multiple variables, and they can have any names you'd like so long as they don't already mean something else (for instance, you can't have a variable called \"local\")."
 				""
 				"Set a variable, called whatever you want, to &2x * 12&r. Then, print this variable. Interesting, right? I wonder if subtracting and dividing work this way too. Maybe even exponents?"
 				""
@@ -496,19 +535,533 @@
 				type: "checkmark"
 			}]
 			title: "More Basics"
-			x: -6.5d
+			x: -6.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["159DC1FED1B5C4CA"]
+			description: [
+				"Turtles are like computers, but they can move,&r interact&r with the world, and do many other tasks like storing items."
+				""
+				"This is reflected in the &7&nhelp&r and &7&nprograms&r commands, which you can run and see all the functions available here but not on a normal computer."
+				""
+				"Start by typing &7&ndance&r. Observe the turtle start to rock out and stop it when you'd like."
+				""
+				"Now, type &7&ngo forward&r. This makes the turtle &2move 1 block&r in the direction it's facing. Handy, but you'll notice a problem: the turtle has &2no fuel&r. You'll need to put furnace fuel in the turtle's inventory, then type &7&nrefuel&r (&7&nhelp refuel&r for more on this)."
+				""
+				"Now that we've solved that, try &7&ngo forward&r again. Then, &7&ngo back&r. It can even &7&nturn right&r. (once again, &7&nhelp go&r and &7&nhelp turn&r -- I'm sure you've caught onto this anymore so I won't bug you with reminders)."
+				"{@pagebreak}"
+				"Now, type &7&napis&r and skim through the list in case anything there interests you. The one we're focusing on for now is the &2turtle&r API, so run &7&nhelp turtle&r. You'll see a list of commands starting with &2turtle.&r"
+				""
+				"To run API commands, type &7&nlua&r first, then the command you'd like to run (ex. &7&nturtle.suck()&r, which picks up items in front of it on the ground or in a container)."
+				""
+				"Try some of the other commands in the turtle API, then remember to &7&nexit()&r when done."
+			]
 			id: "48D2DEAD9FB62EF3"
 			tasks: [{
 				id: "6FB54FD9BECC8F5E"
 				item: "computercraft:turtle_normal"
 				type: "item"
 			}]
+			title: "Turtle Essentials"
 			x: -3.0d
-			y: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48D2DEAD9FB62EF3"]
+			description: [
+				"There exist &2special turtles&r with unique capabilities, like this one that can break and harvest blocks, while having all the same commands as the base turtle."
+				""
+				"Use &7&nturtle.dig()&r to &2break the block in front of it&r. The block will instantly be broken, and if the turtle was holding a good enough tool, it will also collect it. Use &7&nturtle.select( [slotNum] )&r to &2change what item is held&r by the turtle. Slots aer numbered &21-16&r from top-left to bottom-right"
+				""
+				"On that note, here are some more inventory commands you might want to remember for later:"
+				"&7&nturtle.getItemCount( [slotNum] ) "
+				"&7&nturtle.getItemSpace( [slotNum] ) "
+				"&7&nturtle.getItemDetail( [slotNum] ) &r: this returns what's called a &2table&r. You can access the properties within it like this: &7&nturtle.getItemDetail(1).name"
+				"&7&nturtle.drop( [quantity] ) "
+				"&7&nturtle.suck( [quantity] ) "
+				"...and more."
+				""
+				"In short, using the &2turtle API&r, the mining turtle can &2break and harvest blocks&r, and all turtles can &2manage their inventories&r."
+				"{@pagebreak}"
+				"Now, let's make a script akin to &2MyFirstProgram&r from earlier. Recall that the command to do this is &7&nedit&r. Call this one &2DigStraightDown&r."
+				""
+				"This is going to be like what you were just doing by typing &7&nlua&r and then using the &2turtle API&r commands. To have it dig straight down one block, write something like this:"
+				""
+				"&7turtle.digDown() -- Break the block below me"
+				"&7turtle.down() -- Move vertically down"
+				""
+				"You can then repeat that to your heart's content. Refer back to"
+				"{ \"text\": \"Hello World\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19498CFC6FBE3FAC\" } }"
+				"to refresh yourself on how to do that."
+				""
+				"Now, type DigStraightDown to execute your code. If all goes well, your turtle will be digging down however many times you told it to."
+				"{@pagebreak}"
+			]
+			id: "7DB41F3C4179C06C"
+			tasks: [{
+				id: "5B407E86CD43E5B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "computercraft:turtle_normal"
+					tag: {
+						RightUpgrade: "minecraft:diamond_pickaxe"
+						RightUpgradeNbt: {
+							Tag: {
+								Damage: 0
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Turtle Part 2: Mining and Inventory Management"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7DB41F3C4179C06C"]
+			description: [
+				"&o&7Hint: it may help to take a screenshot or photo on your phone of this while copying down code from quests. Also, general Lua guidance is available by Googling, and CC-specific functions are at https://tweaked.cc, and AI is a great teacher"
+				""
+				"I think you're ready for something more advanced. Let's make the turtle &2detect blocks&r. To do this, we'll also employ a &2function&r to keep things &2organized&r and &2maintainable&r. You've already used &2functions&r before, but none that you've written: for example, &7&nprint(\"Hello!\")&r and &7&nturtle.equip()&r are both function calls."
+				""
+				"A function does a &2specific task&r and &2can sometimes return a value&r. When a turtle has 8 stone in its first slot and runs &7&nturtle.getItemCount(1)&r, the &2return value&r was 8, for instance. For this example, we'll &2write a function&r to detect whether the turtle is looking at a block. The green explanations are comments, you only need the gray text:"
+				""
+				"&7local function isBlock() &2-- Function definition"
+				"    &7local success, _ = turtle.inspect() &2-- Check if there's a block in front. The _ variable is used to store the data table, which we don't need for this"
+				"    &7return success &2-- Function return value. Note that success is true if a block is detected, false otherwise"
+				"&7end &2-- Ends the function definition"
+				""
+				"&7if isBlock() then &2-- Runs isBlock(), and then prints something depending on whether it returns true or false"
+				"    &7print(\"Block found\")"
+				"&7end &2-- Ends the if statement"
+				"{@pagebreak}"
+				"Something to keep in mind with functions is that they have a &2limited scope&r: even though you defined &7success&r in the function, &2it can't be accessed from outside the function.&r"
+				""
+				"This exercise also introduces the concept of &2if statements&r, which take a &2boolean (t/f) expression&r and uses it to make a decision on what code to run. Here are some examples:"
+				""
+				"&2Use &7> &2and &7< &2to compare values"
+				"&7if turtle.getFuelLevel() > 0 then "
+				"    &7print(\"I have fuel!\")"
+				"&7end"
+				""
+				"&2Use &7== &2(don't forget: two equals signs) to test equality of two values (true if the same)"
+				"&2Also available are >= for ≥ and <= for ≤"
+				"&7if turtle.getFuellevel() == 0 then"
+				"    &7print(\"I'm out of fuel!\")"
+				"&7end"
+				""
+				"&2Use &7~= &2to test inequality of two values (true if different)"
+				"&7if turtle.getItemCount() ~= 64 then"
+				"    &7print(\"There are not 64 items in this slot!\")"
+				"&7end"
+				""
+				"&2Invert any expression with the &7not&r &2keyword"
+				"&7if not turtle.getItemCount() == 64 then"
+				"    &7print(\"There are not 64 items in this slot!\")"
+				"&7end"
+				""
+				"&2Use &7and&2 and &7or&2 keywords for multiple expressions at once"
+				"&7if turtle.suck() and turtle.getFuelLevel() == 0 then"
+				"    &7print(\"Items collected, but I need fuel!\")"
+				"&7end"
+				""
+				"&7if turtle.attackUp() or turtle.attackDown() then"
+				"    &7print(\"I attacked something above or below me!\")"
+				"&7end"
+				""
+				"You can also run code in the case that &2an if statement fails&r. This is called an else clause, and you can use &7elseif&2 to immediately start another if statement, or &7else&2 as a catch-all:"
+				""
+				"&7if turtle.getFuelLevel() == 20000 then"
+				"    &7print(\"I can't take any more fuel\")"
+				"&7elseif turtle.getFuelLevel() > 2000 then"
+				"    &7print(\"I am well fueled\")"
+				"&7else"
+				"    &7print(\"I need more fuel\")"
+				"&7end"
+			]
+			id: "7987BC5C4E0D9AB1"
+			tasks: [{
+				id: "53EC86437422AB85"
+				title: "Conditionals"
+				type: "checkmark"
+			}]
+			title: "Conditionals                                        "
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7987BC5C4E0D9AB1"]
+			description: [
+				"You're ready to further strengthen your skills by learning &2loops&r. You've made it this far, so you'll definitely go places."
+				""
+				"The purpose of a loop is to &2repeat actions automatically&r, so you can have turtles repeat tasks several times without you needing to copy and paste the same line of code. You might remember your script that digs straight down -- this is a more sophisticated way of doing that."
+				""
+				"The two types of loops are &2for&r and &2while&r."
+				""
+				"First, here's an example of a &2while&r loop that moves a turtle forward until it reaches a block:"
+				""
+				"&7while not turtle.detect() do &2-- The loop runs as long as the turtle doesn't see a block"
+				"    &7turtle.forward() &2-- Move forward one block"
+				"&7end &2-- Ends the while loop"
+				""
+				"This loop keeps going until &7true&r is returned by &7turtle.detect()&r. That's an example of a logical statement right there using &7not&r."
+				"{@pagebreak}"
+				"Now, let's look at a &2for&r loop:"
+				""
+				"&7for i = 1, 5 do &2-- Runs 5 times with i being 1 through 5"
+				"    &7print(\"i = \" .. i) &2-- Prints i = 1, i = 2, ..."
+				"&7end &2-- Ends the for loop"
+				""
+				"Can you tell a difference? A &2while&r loop is better when we don't know how many times we need the code to run. On the other hand, a &2for&r loop is better when it needs to run a set number of times."
+				""
+				"Let's try another &2for&r loop that shows off more of what's useful about this feature:"
+				""
+				"&7for i = 1, 10 do &2-- Set to run 10 times"
+				"    &7if i == 6 then &2-- When i reaches 6"
+				"        &7break &2-- This keyword exits the loop immediately"
+				"    &7end &2-- Ends the if statement"
+				"    &7print(\"i = \" .. i) &2-- Prints the value of i"
+				"&7end &2-- Ends the for loop"
+				""
+				"The &2break&r keyword exits a &2for&r or &2while&r loop when it's reached, which can be useful if you don't want your turtle to keep doing something under some specific condition."
+				"{@pagebreak}"
+				"You'll quickly find that &2for&r and &2while&r loops are great for writing &2simplifying your scripts&r. For example, with the dig straight down script earlier, you could put that in a &2while&r loop with &2true&r as the condition for it to &2dig forever&r instead of having to paste it repeatedly."
+				""
+				"That's it! You now know all the fundamentals of programming. There's still a lot I've not told you about Lua, but you can learn it using the resources shared in the previous quest. The remaining quests are specific to features of CC: Tweaked and Advanced Peripherals. Have fun!"
+			]
+			id: "50A0C8699386C029"
+			tasks: [{
+				id: "7C15311D3CA6D172"
+				title: "Loops"
+				type: "checkmark"
+			}]
+			title: "Loops                                        "
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28108ED01F368BC5"]
+			id: "574E618F6823001F"
+			subtitle: "Also buy a Mincemeat Pencil for 64 Emeralds"
+			tasks: [{
+				id: "720A028BE26B552B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "computercraft:pocket_computer_normal"
+								tag: {
+									ComputerId: 13
+									InstanceId: [I;
+										12098549
+										2002471262
+										-1846358866
+										-1356999066
+									]
+									SessionId: 529289975
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "computercraft:pocket_computer_advanced"
+								tag: {
+									ComputerId: 12
+									InstanceId: [I;
+										-264475334
+										1061700178
+										-1481614089
+										-1740369946
+									]
+									SessionId: 529289975
+								}
+							}
+						]
+					}
+				}
+				title: "Pocket Computer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28108ED01F368BC5"]
+			description: [
+				"The &2Advanced Computer&r is superior to the plain computer in that it has revolutionary mouse support with more APIs like &7color&r."
+				""
+				"The mouse support means, when you run a command like &7turtle.inspect()&r, you can now scroll to see the rest of the output."
+				""
+				"Another addition worth your attention is &2paint&r, an application that lets you draw pictures."
+			]
+			id: "6F751DCF06F5E9A8"
+			subtitle: "$5,000 Ultimate Tech Upgrade"
+			tasks: [{
+				id: "639988C9DB4AD7FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "computercraft:computer_advanced"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DB41F3C4179C06C"]
+			description: [
+				"&7&oDev note: I am not gonna try to show how to write code for these when the CC wiki exists, just see the links&r"
+				""
+				"Modems are a type of peripheral that let computers communicate with each other."
+				""
+				"Wired modems allow computers to send messages to others within 64 blocks or higher if the modem is situated higher, while ender modems have no limit and can send messages across dimensions."
+				""
+				"To attach a modem, shift right click the side of the computer where you want to place it."
+				""
+				"For programming instructions, see:"
+				""
+				"https://tweaked.cc/peripheral/modem.html"
+			]
+			id: "58AD542AD972B3A1"
+			tasks: [
+				{
+					id: "4A5085532186E923"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "computercraft:cable"
+					}
+					type: "item"
+				}
+				{
+					id: "6597EA743AAD6423"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "computercraft:wired_modem"
+						}
+					}
+					title: "Any #computercraft:wired_modem"
+					type: "item"
+				}
+				{
+					id: "11AEC9D80B1DF516"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "computercraft:wireless_modem_normal"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "computercraft:wireless_modem_advanced"
+								}
+							]
+						}
+					}
+					title: "Wireless Modem"
+					type: "item"
+				}
+			]
+			title: "Networking"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DB41F3C4179C06C"]
+			description: [
+				"Monitors are peripherals that act as displays for computers, and can show text and graphics in the world without having to open an interface. They can even be combined as you would with glass to form a continuous screen."
+				""
+				"Use a basic monitor if all you need is text, or an advanced one if you want to be able to interact by touching, or just for the superior display."
+				""
+				"Use the &2peripheral&r API to interact with monitors: &7write()&r for text displays and &7clear()&r to wipe the screen."
+				""
+				"For programming instructions, see:"
+				""
+				"https://tweaked.cc/peripheral/monitor.html"
+			]
+			id: "15BC454BD9C2CC70"
+			tasks: [{
+				id: "4A7A5F243E2CB40E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "computercraft:monitor_normal"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "computercraft:monitor_advanced"
+							}
+						]
+					}
+				}
+				title: "Monitor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DB41F3C4179C06C"]
+			description: [
+				"The speaker lets you play any sound you want - whether you choose to be good or evil with this power is up to you."
+				""
+				"For programming instructions, see:"
+				""
+				"https://tweaked.cc/peripheral/speaker.html"
+				""
+				"&7&oTo see what a sound's ID is, use /playsound. You have to be op for this - you can temporarily give it to yourself by opening your world to LAN in singleplayer."
+			]
+			id: "2EC350FCCD382151"
+			tasks: [{
+				id: "33486B24949DB514"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "computercraft:speaker"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DB41F3C4179C06C"]
+			description: [
+				"Print text onto pages."
+				""
+				"For programming instructions, see:"
+				""
+				"https://tweaked.cc/peripheral/printer.html"
+			]
+			id: "1B75E9D0C81646C4"
+			tasks: [{
+				id: "4B2BF01D8E9731AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "computercraft:printer"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DB41F3C4179C06C"]
+			id: "2D379098E00BF495"
+			tasks: [{
+				id: "367359FCE77A7217"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "computercraft:disk_drive"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DB41F3C4179C06C"]
+			description: [
+				"Quests for Advanced Peripherals will be added in a future update. For now, use the Advanced Peripherals wiki to learn what it offers."
+				""
+				"It can be found here:"
+				""
+				"https://docs.advanced-peripherals.de/latest/"
+			]
+			id: "7E0435F0ECD92573"
+			tasks: [{
+				id: "7A0E6F01C9F9D7CF"
+				title: "Advanced Peripherals"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["This is CC50, Mincemeat's introduction to Computer Science"]
