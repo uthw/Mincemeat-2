@@ -1192,6 +1192,16 @@
             "type": "bongo.advancement",
             "value": "alexsmobs:alexsmobs/sunbird_blessing",
             "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "iceandfire:gorgon",
+            "weight": 10
+        },
+        {
+            "type": "bongo.entity",
+            "value": "dungeonnowloading:chaos_spawner",
+            "weight": 10
         }
     ]
 }
