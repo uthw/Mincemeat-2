@@ -11,10 +11,10 @@
 [shield_bash]
 	#Cooldown period for Shield Bashes
 	#Range: 1 ~ 1000
-	cooldown = 60
+	cooldown = 20
 	#Cooldown period for Shield Bashes for Tower Shields
 	#Range: 1 ~ 1000
-	cooldown_tower = 90
+	cooldown_tower = 30
 	#Set to true to disable the Shield Bash feature. Shield bash enchantments will no longer have any effect
 	disabled = false
 
