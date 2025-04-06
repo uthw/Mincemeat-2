@@ -1,0 +1,80 @@
+[
+    { "processor_type": "integrated_api:fluid_tank_processor" },
+    { "processor_type": "integrated_api:waterlogging_fix_processor" },
+    {
+        "processor_type": "integrated_villages:tick_blocks_processor",
+        "blocks_to_tick": ["minecraft:dispenser"]
+    },
+    { "processor_type": "integrated_villages:windmill_bearing_processor" },
+    { "processor_type": "integrated_api:clockwork_bearing_processor" },
+    {
+        "processor_type": "integrated_api:integrated_block_replace_processor",
+        "input_block": "minecraft:purple_stained_glass_pane",
+        "required_mod": "bountiful",
+        "output_block": "bountiful:bountyboard",
+        "probability": 1,
+        "otherwise_block": "minecraft:air"
+    },
+    {
+        "processor_type": "integrated_api:integrated_block_replace_processor",
+        "input_block": "minecraft:magenta_stained_glass_pane",
+        "required_mod": "paraglider",
+        "output_block": "paraglider:goron_goddess_statue",
+        "probability": 1,
+        "otherwise_block": "minecraft:air"
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:magenta_glazed_terracotta",
+        "workstation_type": "generic",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:light_blue_glazed_terracotta",
+        "workstation_type": "librarian",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:purple_glazed_terracotta",
+        "workstation_type": "cleric",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:gray_glazed_terracotta",
+        "workstation_type": "mason",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:black_glazed_terracotta",
+        "workstation_type": "blacksmith",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:brown_glazed_terracotta",
+        "workstation_type": "cartographer",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:pink_glazed_terracotta",
+        "workstation_type": "butcher",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:white_glazed_terracotta",
+        "workstation_type": "fletcher",
+        "enable_integration": true
+    },
+    {
+        "processor_type": "integrated_villages:workstation_processor",
+        "input_block": "minecraft:red_glazed_terracotta",
+        "workstation_type": "leatherworker",
+        "enable_integration": true
+    }
+]
