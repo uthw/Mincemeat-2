@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
             output: "apotheosis:sightshelf_t2",
             inputs: [" A ", "BCB", " A "],
             keys: {
-                A: "bloodmagic:blankslate",
+                A: "irons_spellbooks:cinder_essence",
                 B: "minecraft:netherite_scrap",
                 C: "apotheosis:sightshelf",
             },
