@@ -7,6 +7,7 @@ ServerEvents.tags("item", (event) => {
         // "curios:artifact_bracelet",
         // "curios:artifact_belt",
         // "iceandfire:tempt_hippocampus",
+        "celestisynth:celestial_core_bases"
     ];
 
     removeAll.forEach((removal) => {
@@ -100,7 +101,10 @@ ServerEvents.tags("item", (event) => {
         ],
         ["create:modded_stripped_logs", "biomeswevegone:stripped_zelkova_log"],
         ["create:modded_stripped_logs", "biomeswevegone:stripped_aspen_log"],
-        ["create:modded_stripped_logs", "caverns_and_chasms:stripped_azalea_log"]
+        ["create:modded_stripped_logs", "caverns_and_chasms:stripped_azalea_log"],
+        ["celestisynth:celestial_core_bases", "aquamirae:ship_graveyard_echo"],
+        ["celestisynth:celestial_core_bases", "mowziesmobs:naga_fang"],
+        ["celestisynth:celestial_core_bases", "#iceandfire:dragon_bloods"]
     ];
 
     add.forEach((addition) => {
