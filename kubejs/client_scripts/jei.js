@@ -43,6 +43,10 @@ JEIEvents.information((event) => {
         {
             item: "neapolitan:adzuki_beans",
             desc: "Found in hilly biomes."
+        },
+        {
+            item: "irons_spellbooks:permafrost_shard",
+            desc: "Found in impaled icebreaker shipwrecks."
         }
     ];
 
