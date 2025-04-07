@@ -2,6 +2,9 @@ ServerEvents.tags("block", (event) => {
     const add = [
         ["minecraft:needs_diamond_tool", "mekanism:osmium_ore"],
         ["minecraft:needs_diamond_tool", "mekanism:deepslate_osmium_ore"],
+        // Block tags for rechiseled (lets it work with domum ornamentum and probably other mods)
+        ["domum_ornamentum:copper", /rechiseled:.*copper_block.*/],
+        ["domum_ornamentum:default", /rechiseled:.*/]
     ];
 
     const remove = [
