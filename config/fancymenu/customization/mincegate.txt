@@ -82,7 +82,7 @@ element {
 
 element {
   interactable = true
-  source = 1.20.1 / 47.1.106 / 0.4.14
+  source = 1.20.1 / 47.3.12 / 0.4.15
   source_mode = direct
   shadow = true
   scale = 1.0
