@@ -1,4 +1,5 @@
 // credit: @omgimanerd
+//  mods added: create, createaddition, create_new_age, create_mechanical_extruder, vintageimprovements, pneumaticcraft
 
 StartupEvents.recipeSchemaRegistry((e) => {
     const $RecipeSchema = Java.loadClass(
