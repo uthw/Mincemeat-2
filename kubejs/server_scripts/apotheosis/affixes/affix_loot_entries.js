@@ -211,25 +211,25 @@ ServerEvents.highPriorityData((event) => {
                     item: "create:copper_diving_helmet",
                 },
 
-                { item: "betternether:cincinnasite_helmet", weight: 15 },
-                { item: "betternether:cincinnasite_chestplate", weight: 15 },
-                { item: "betternether:cincinnasite_leggings", weight: 15 },
-                { item: "betternether:cincinnasite_boots", weight: 15 },
+                // { item: "betternether:cincinnasite_helmet", weight: 15 },
+                // { item: "betternether:cincinnasite_chestplate", weight: 15 },
+                // { item: "betternether:cincinnasite_leggings", weight: 15 },
+                // { item: "betternether:cincinnasite_boots", weight: 15 },
 
-                { item: "betternether:nether_ruby_helmet", weight: 10 },
-                { item: "betternether:nether_ruby_chestplate", weight: 10 },
-                { item: "betternether:nether_ruby_leggings", weight: 10 },
-                { item: "betternether:nether_ruby_boots", weight: 10 },
+                // { item: "betternether:nether_ruby_helmet", weight: 10 },
+                // { item: "betternether:nether_ruby_chestplate", weight: 10 },
+                // { item: "betternether:nether_ruby_leggings", weight: 10 },
+                // { item: "betternether:nether_ruby_boots", weight: 10 },
 
                 { item: "galosphere:sterling_helmet", weight: 18 },
                 { item: "galosphere:sterling_chestplate", weight: 18 },
                 { item: "galosphere:sterling_leggings", weight: 18 },
                 { item: "galosphere:sterling_boots", weight: 18 },
 
-                { item: "betternether:flaming_ruby_helmet", weight: 4 },
-                { item: "betternether:flaming_ruby_chestplate", weight: 4 },
-                { item: "betternether:flaming_ruby_leggings", weight: 4 },
-                { item: "betternether:flaming_ruby_boots", weight: 4 },
+                // { item: "betternether:flaming_ruby_helmet", weight: 4 },
+                // { item: "betternether:flaming_ruby_chestplate", weight: 4 },
+                // { item: "betternether:flaming_ruby_leggings", weight: 4 },
+                // { item: "betternether:flaming_ruby_boots", weight: 4 },
 
                 { item: "autumnity:snail_shell_chestplate", weight: 10 },
 
@@ -295,7 +295,7 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "undergarden:cloggrum_shield", weight: 6 },
                 { item: "alexsmobs:shield_of_the_deep", weight: 14 },
-                { item: "endermanoverhaul_corrupted_shield", weight: 14 },
+                { item: "endermanoverhaul:corrupted_shield", weight: 14 },
             ],
         },
         {
@@ -323,8 +323,8 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_sword", weight: 25 },
 
-                { item: "betternether:cincinnasite_sword", weight: 25 },
-                { item: "betternether:nether_ruby_sword", weight: 15 },
+                // { item: "betternether:cincinnasite_sword", weight: 25 },
+                // { item: "betternether:nether_ruby_sword", weight: 15 },
                 // { item: "betternether:flaming_ruby_sword", weight: 4 },
 
                 { item: "spartanweaponry:studded_club", weight: 25 },
@@ -363,8 +363,8 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_axe", weight: 25 },
 
-                { item: "betternether:cincinnasite_axe", weight: 25 },
-                { item: "betternether:nether_ruby_axe", weight: 15 },
+                // { item: "betternether:cincinnasite_axe", weight: 25 },
+                // { item: "betternether:nether_ruby_axe", weight: 15 },
                 // { item: "betternether:flaming_ruby_axe", weight: 4 },
 
                 { item: "cataclysm:black_steel_axe", weight: 8, quality: 5 },
@@ -395,8 +395,8 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_pickaxe", weight: 25 },
 
-                { item: "betternether:cincinnasite_pickaxe", weight: 25 },
-                { item: "betternether:nether_ruby_pickaxe", weight: 15 },
+                // { item: "betternether:cincinnasite_pickaxe", weight: 25 },
+                // { item: "betternether:nether_ruby_pickaxe", weight: 15 },
                 // { item: "betternether:flaming_ruby_pickaxe", weight: 4 },
 
                 { item: "cataclysm:black_steel_pickaxe", weight: 8, quality: 5 },
@@ -427,8 +427,8 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_shovel", weight: 25 },
 
-                { item: "betternether:cincinnasite_shovel", weight: 25 },
-                { item: "betternether:nether_ruby_shovel", weight: 15 },
+                // { item: "betternether:cincinnasite_shovel", weight: 25 },
+                // { item: "betternether:nether_ruby_shovel", weight: 15 },
                 // { item: "betternether:flaming_ruby_shovel", weight: 4 },
 
                 { item: "cataclysm:black_steel_shovel", weight: 8, quality: 5 },
