@@ -8,11 +8,15 @@ ServerEvents.highPriorityData((event) => {
         },
         {
             name: "charoite",
-            count: 4,
+            count: 8,
+            minHeight: 0,
+            maxHeight: 24
         },
         {
             name: "diopside",
-            count: 4,
+            count: 8,
+            minHeight: 0,
+            maxHeight: 24
         },
         {
             name: "pyrope",
@@ -36,7 +40,62 @@ ServerEvents.highPriorityData((event) => {
         // },
     ];
 
+    // {
+    //   "type": "minecraft:count",
+    //   "count": 1
+    // },
+    // {
+    //   "type": "minecraft:in_square"
+    // },
+    // {
+    //   "type": "minecraft:height_range",
+    //   "height": {
+    //     "type": "minecraft:uniform",
+    //     "max_inclusive": {
+    //       "absolute": 13
+    //     },
+    //     "min_inclusive": {
+    //       "absolute": 0
+    //     }
+    //   }
+    // },
+    // {
+    //   "type": "minecraft:biome"
+    // }
+
     tweaks.forEach((tweak) => {
+        if (tweak.maxHeight && tweak.minHeight) {
+            event.addJson(
+                `blue_skies:woldgen/placed_feature/ore_${tweak.name}.json`,
+                {
+                    placement: [
+                        {
+                            type: "minecraft:count",
+                            count: tweak.count,
+                        },
+                        {
+                            type: "minecraft:in_square",
+                        },
+                        {
+                            type: "minecraft:height_range",
+                            height: {
+                                type: "minecraft:uniform",
+                                max_inclusive: {
+                                    absolute: tweak.maxHeight,
+                                },
+                                min_inclusive: {
+                                    absolute: tweak.minHeight,
+                                },
+                            },
+                        },
+                        {
+                            type: "minecraft:biome",
+                        },
+                    ],
+                }
+            );
+            return;
+        }
         event.addJson(
             `blue_skies:woldgen/placed_feature/ore_${tweak.name}.json`,
             {
