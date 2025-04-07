@@ -1,0 +1,45 @@
+ServerEvents.highPriorityData((event) => {
+    let tweak = {
+        "type": "apotheosis:attribute",
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "MULTIPLY_TOTAL",
+        "values": {
+            "common": {
+                "min": 0.1,
+                "steps": 2,
+                "step": 0.01
+            },
+            "uncommon": {
+                "min": 0.13,
+                "steps": 4,
+                "step": 0.01
+            },
+            "rare": {
+                "min": 0.18,
+                "steps": 4,
+                "step": 0.01
+            },
+            "epic": {
+                "min": 0.23,
+                "steps": 4,
+                "step": 0.01
+            },
+            "mythic": {
+                "min": 0.27,
+                "steps": 10,
+                "step": 0.01
+            },
+            "ancient": {
+                "min": 0.35,
+                "steps": 10,
+                "step": 0.01
+            }
+        },
+        "types": [
+            "sword",
+            "trident"
+        ]
+    }
+
+    event.addJson("apotheosis:affixes/sword/attribute/graceful.json", tweak);
+});
