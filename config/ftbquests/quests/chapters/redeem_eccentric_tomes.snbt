@@ -62,7 +62,7 @@
 			icon: "berry_good:sweet_berry_mince"
 			id: "34710AB0D1387508"
 			rewards: [{
-				id: "0B0C0E24A389C15D"
+				id: "7CEDD7FBFE3CDA5F"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
@@ -140,6 +140,15 @@
 									}
 								}
 							}
+							hexcasting: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
+									}
+								}
+							}
 							hexerei: {
 								0: {
 									Count: 1b
@@ -185,6 +194,15 @@
 									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "minecells:minecells_guidebook"
+									}
+								}
+							}
+							modonomicon: {
+								0: {
+									Count: 1b
+									id: "modonomicon:modonomicon"
+									tag: {
+										"modonomicon:book_id": "theurgy:the_hermetica"
 									}
 								}
 							}
