@@ -1,125 +1,93 @@
 ItemEvents.modification((event) => {
     let tools = [
         {
-            name: "minecells:flint",
-            damage: 9,
-        },
-        // {
-        //     name: "blue_skies:bluebright_spear",
-        //     damage: 5.5,
-        // },
-        // {
-        //     name: "blue_skies:starlit_spear",
-        //     damage: 5.5,
-        // },
-        // {
-        //     name: "blue_skies:frostbright_spear",
-        //     damage: 5.5,
-        // },
-        // {
-        //     name: "blue_skies:lunar_spear",
-        //     damage: 5.5,
-        // },
-        // {
-        //     name: "blue_skies:dusk_spear",
-        //     damage: 5.5,
-        // },
-        // {
-        //     name: "blue_skies:maple_spear",
-        //     damage: 5.5,
-        // },
-        // {
-        //     name: "blue_skies:comet_spear",
-        //     damage: 5.5,
-        // },
-        // {
-        //     name: "blue_skies:soulbound_spear",
-        //     damage: 5.5,
-        // },
-        // Not buffing the charoite/diopside weapons for now since it would mean I need to buff netherite and tetra
-        {
             name: "blue_skies:diopside_sword",
             damage: 9,
         },
-        // {
-        //     name: "blue_skies:diopside_axe",
-        //     damage: 12,
-        // },
         {
             name: "blue_skies:charoite_sword",
             damage: 7,
         },
-        // {
-        //     name: "blue_skies:charoite_axe",
-        //     damage: 9,
-        // },
         {
             name: "blue_skies:aquite_sword",
             damage: 6,
         },
-        // {
-        //     name: "blue_skies:aquite_axe",
-        //     damage: 9,
-        // },
         {
             name: "aether:gravitite_sword",
-            damage: 7,
-        },
-        // {
-        //     name: "aether:gravitite_axe",
-        //     damage: 11,
-        // },
-        {
-            name: "aether:zanite_sword",
-            damage: 6,
-        },
-        // {
-        //     name: "aether:zanite_axe",
-        //     damage: 9,
-        // },
-        {
-            name: "aether:valkyrie_lance",
-            damage: 7,
-        },
-        {
-            name: "aether_lost_content:phoenix_sword",
-            damage: 11,
-        },
-        {
-            name: "ancient_aether:valkyrum_sword",
-            damage: 9,
-        },
-        {
-            name: "ancient_aether:valkyrum_lance",
-            damage: 8,
-        },
-        {
-            name: "deep_aether:stratus_sword",
             damage: 10,
         },
         {
-            name: "ancient_aether:ancient_sword",
-            damage: 8,
+            name: "aether:zanite_sword",
+            damage: 9,
+        },
+        {
+            name: "aether:valkyrie_lance",
+            damage: 10,
+        },
+        {
+            name: "aether_lost_content:phoenix_sword",
+            damage: 14,
+        },
+        {
+            name: "ancient_aether:valkyrum_sword",
+            damage: 12,
+        },
+        {
+            name: "ancient_aether:valkyrum_lance",
+            damage: 11,
+        },
+        {
+            name: "deep_aether:stratus_sword",
+            damage: 13,
         },
         {
             name: "aether:flaming_sword",
-            damage: 8,
+            damage: 11,
         },
         {
             name: "aether:lightning_sword",
-            damage: 8,
+            damage: 11,
         },
         {
             name: "aether:holy_sword",
-            damage: 8,
+            damage: 11,
         },
         {
             name: "aether:vampire_blade",
+            damage: 11,
+        },
+        {
+            name: "deep_aether:skyjade_sword",
             damage: 8,
         },
         {
-            name: "deeperdarker:warden_sword",
+            name: "aether:skyroot_sword",
+            damage: 7,
+        },
+        {
+            name: "aether:holystone_sword",
+            damage: 8,
+        },
+        {
+            name: "aether:candy_cane_sword",
+            damage: 7,
+        },
+        {
+            name: "aether:pig_slayer",
             damage: 9,
+        },
+        {
+            name: "aether:hammer_of_kingbdogz",
+            damage: 11,
+        },
+        {
+            name: "aether_redux:veridium_sword",
+            damage: 8,
+        },
+        // spear of the blight?
+        {
+            name: "aether_redux:infused_veridium_sword",
+            damage: 12,
         },
         {
             name: "enigmaticlegacy:etherium_sword",
@@ -131,8 +99,118 @@ ItemEvents.modification((event) => {
         },
         {
             name: "minecells:hattoris_katana",
+            damage: 13,
+        },
+        {
+            name: "minecells:flint",
+            damage: 16,
+        },
+        {
+            name: "minecells:assassins_dagger",
+            damage: 7,
+        },
+        {
+            name: "minecells:blood_sword",
             damage: 9,
         },
+        {
+            name: "minecells:broadsword",
+            damage: 11,
+        },
+        {
+            name: "minecells:balanced_blade",
+            damage: 8,
+        },
+        {
+            name: "minecells:crowbar",
+            damage: 10,
+        },
+        {
+            name: "minecells:cursed_sword",
+            damage: 39,
+        },
+        {
+            name: "minecells:spite_sword",
+            damage: 9,
+        },
+        {
+            name: "minecraft:netherite_sword",
+            damage: 12,
+        },
+        {
+            name: "meetyourfight:twilights_thorn",
+            damage: 12,
+        },
+        {
+            name: "reliquary:mercy_cross",
+            damage: 10,
+        },
+        {
+            name: "forbidden_arcanus:reinforced_deorum_sword",
+            damage: 14.5,
+        },
+        {
+            name: "aquaculture:neptunium_sword",
+            damage: 8
+        },
+        {
+            name: "eidolon:reaper_scythe",
+            damage: 10
+        },
+        {
+            name: "eidolon:sapping_sword",
+            damage: 7
+        },
+        {
+            name: "eidolon:deathbringer_scythe",
+            damage: 13
+        },
+        {
+            name: "endermanoverhaul:corrupted_blade",
+            damage: 13
+        },
+        {
+            name: "undergarden:forgotten_sword",
+            damage: 10
+        },
+        {
+            name: "meetyourfight:cocktail_cutlass",
+            damage: 10
+        },
+        {
+            name: "dungeonnowloading:life_stealer",
+            damage: 9
+        },
+        {
+            name: "dungeonnowloading:spawner_sword",
+            damage: 9
+        },
+        {
+            name: "celestisynth:crescentia",
+            damage: 10
+        },
+        {
+            name: "celestisynth:solaris",
+            damage: 9
+        },
+        {
+            name: "celestisynth:breezebreaker",
+            damage: 9
+        },
+        // cannot edit poltergeist
+        {
+            name: "celestisynth:aquaflora",
+            damage: 4
+        },
+        {
+            name: "celestisynth:frostbound",
+            damage: 15
+        },
+        {
+            name: "celestisynth:keres",
+            damage: 23
+        }
+        
     ];
 
     tools.forEach((tool) => {
