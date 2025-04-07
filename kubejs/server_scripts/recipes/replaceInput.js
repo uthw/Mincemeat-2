@@ -54,48 +54,47 @@ ServerEvents.recipes((event) => {
             "minecraft:blaze_powder",
             "create:tree_fertilizer",
         ],
-        [{ mod: "bloodmagic" }, "#forge:stone", "forbidden_arcanus:darkstone"],
-        [
-            { output: "bloodmagic:alchemytable" },
-            "minecraft:gold_ingot",
-            "forbidden_arcanus:arcane_crystal",
-        ],
-        [
-            { mod: "bloodmagic" },
-            "minecraft:lapis_lazuli",
-            "forbidden_arcanus:arcane_crystal",
-        ],
-        [
-            { mod: "bloodmagic" },
-            "minecraft:lapis_lazuli_block",
-            "forbidden_arcanus:arcane_crystal_block",
-        ],
-        [
-            { output: "bloodmagic:soulgempetty" },
-            "minecraft:redstone",
-            "eidolon:soul_shard",
-        ],
-        [
-            { output: "bloodmagic:weakbloodorb" },
-            "minecraft:diamond",
-            "blue_skies:charoite",
-        ],
-        [
-            { output: "bloodmagic:apprenticebloodorb" },
-            "minecraft:redstone_block",
-            "minecraft:diamond",
-        ],
-        [
-            { output: "bloodmagic:magicianbloodorb" },
-            "minecraft:gold_block",
-            "undergarden:forgotten_ingot",
-        ],
-        [
-            { mod: "bloodmagic" },
-            "minecraft:glowstone_dust",
-            "forbidden_arcanus:arcane_crystal_dust",
-        ],
-        // Botania (not ported yet)
+        // [{ mod: "bloodmagic" }, "#forge:stone", "forbidden_arcanus:darkstone"],
+        // [
+        //     { output: "bloodmagic:alchemytable" },
+        //     "minecraft:gold_ingot",
+        //     "forbidden_arcanus:arcane_crystal",
+        // ],
+        // [
+        //     { mod: "bloodmagic" },
+        //     "minecraft:lapis_lazuli",
+        //     "forbidden_arcanus:arcane_crystal",
+        // ],
+        // [
+        //     { mod: "bloodmagic" },
+        //     "minecraft:lapis_lazuli_block",
+        //     "forbidden_arcanus:arcane_crystal_block",
+        // ],
+        // [
+        //     { output: "bloodmagic:soulgempetty" },
+        //     "minecraft:redstone",
+        //     "eidolon:soul_shard",
+        // ],
+        // [
+        //     { output: "bloodmagic:weakbloodorb" },
+        //     "minecraft:diamond",
+        //     "blue_skies:charoite",
+        // ],
+        // [
+        //     { output: "bloodmagic:apprenticebloodorb" },
+        //     "minecraft:redstone_block",
+        //     "minecraft:diamond",
+        // ],
+        // [
+        //     { output: "bloodmagic:magicianbloodorb" },
+        //     "minecraft:gold_block",
+        //     "undergarden:forgotten_ingot",
+        // ],
+        // [
+        //     { mod: "bloodmagic" },
+        //     "minecraft:glowstone_dust",
+        //     "forbidden_arcanus:arcane_crystal_dust",
+        // ],
         [
             { mod: "botania" },
             "minecraft:blaze_powder",
@@ -504,51 +503,51 @@ ServerEvents.recipes((event) => {
             "minecraft:flower_pot",
             "supplementaries:planter",
         ],
-        [
-            { output: "bloodmagic:chargingrune" },
-            "minecraft:redstone",
-            "thermal:rf_coil",
-        ],
-        [
-            { output: "bloodmagic:accelerationrune" },
-            "minecraft:bucket",
-            "forbidden_arcanus:arcane_crystal",
-        ],
-        [
-            { output: "bloodmagic:accelerationrune" },
-            "minecraft:gold_ingot",
-            "#forge:ingots/arcane_gold",
-        ],
-        [
-            { output: "bloodmagic:altarcapacityrune" },
-            "minecraft:bucket",
-            "thermal:basalz_powder",
-        ],
-        [
-            { output: "bloodmagic:bettercapacityrune" },
-            "minecraft:bucket",
-            "thermal:blizz_powder",
-        ],
-        [
-            { output: "bloodmagic:bettercapacityrune" },
-            "minecraft:obsidian",
-            "thermal:blitz_powder",
-        ],
-        [
-            { output: "bloodmagic:speedrune" },
-            "minecraft:sugar",
-            "alexsmobs:gazelle_horn",
-        ],
-        [
-            { output: "bloodmagic:sacrificerune" },
-            "minecraft:gold_ingot",
-            "#forge:ingots/arcane_gold",
-        ],
-        [
-            { output: "bloodmagic:dislocationrune" },
-            "minecraft:water_bucket",
-            "blue_skies:charoite",
-        ],
+        // [
+        //     { output: "bloodmagic:chargingrune" },
+        //     "minecraft:redstone",
+        //     "thermal:rf_coil",
+        // ],
+        // [
+        //     { output: "bloodmagic:accelerationrune" },
+        //     "minecraft:bucket",
+        //     "forbidden_arcanus:arcane_crystal",
+        // ],
+        // [
+        //     { output: "bloodmagic:accelerationrune" },
+        //     "minecraft:gold_ingot",
+        //     "#forge:ingots/arcane_gold",
+        // ],
+        // [
+        //     { output: "bloodmagic:altarcapacityrune" },
+        //     "minecraft:bucket",
+        //     "thermal:basalz_powder",
+        // ],
+        // [
+        //     { output: "bloodmagic:bettercapacityrune" },
+        //     "minecraft:bucket",
+        //     "thermal:blizz_powder",
+        // ],
+        // [
+        //     { output: "bloodmagic:bettercapacityrune" },
+        //     "minecraft:obsidian",
+        //     "thermal:blitz_powder",
+        // ],
+        // [
+        //     { output: "bloodmagic:speedrune" },
+        //     "minecraft:sugar",
+        //     "alexsmobs:gazelle_horn",
+        // ],
+        // [
+        //     { output: "bloodmagic:sacrificerune" },
+        //     "minecraft:gold_ingot",
+        //     "#forge:ingots/arcane_gold",
+        // ],
+        // [
+        //     { output: "bloodmagic:dislocationrune" },
+        //     "minecraft:water_bucket",
+        //     "blue_skies:charoite",
+        // ],
         [
             { output: "storagedrawers:emerald_storage_upgrade" },
             "minecraft:emerald",
@@ -595,7 +594,6 @@ ServerEvents.recipes((event) => {
             "#forge:ingots/iron",
             "#forge:ingots/tin",
         ],
-        [{}, "xnet:machine_frame", "thermal:machine_frame"],
         [{}, "xreliquary:zombie_heart", "eidolon:zombie_heart"],
         [
             { output: "thermal:rubber" },
@@ -1320,11 +1318,11 @@ ServerEvents.recipes((event) => {
             "minecraft:crying_obsidian",
             "blue_skies:charoite",
         ],
-        [
-            { output: "cataclysm:abyss_eye" },
-            "minecraft:obsidian",
-            "betternether:weeping_obsidian",
-        ],
+        // [
+        //     { output: "cataclysm:abyss_eye" },
+        //     "minecraft:obsidian",
+        //     "betternether:weeping_obsidian",
+        // ],
         [
             { output: "cataclysm:mech_eye" },
             "minecraft:iron_ingot",
@@ -1491,6 +1489,72 @@ ServerEvents.recipes((event) => {
             "minecraft:anvil",
             "galosphere:combustion_table",
         ],
+        [
+            { output: "irons_spellbooks:netherite_spell_book" },
+            "irons_spellbooks:lightning_bottle",
+            "dungeonnowloading:chaotic_hexahedron",
+        ],
+        [
+            { output: "skyarena:ice_eye" },
+            "minecraft:snow_block",
+            "irons_spellbooks:frozen_bone",
+        ],
+        [
+            { output: "skyarena:ice_eye" },
+            "minecraft:packed_ice",
+            "aquamirae:fin",
+        ],
+        // [
+        //     { output: "skyarena:crimson_eye" },
+        //     "minecraft:blaze_powder",
+        //     "betternether:nether_ruby",
+        // ], // TODO replace with rubinated nether
+        [
+            { output: "skyarena:crimson_eye" },
+            "minecraft:polished_blackstone",
+            "blue_skies:cinderstone",
+        ],
+        [
+            { output: "hexcasting:lens" },
+            "hexcasting:amethyst_dust",
+            "irons_spellbooks:divine_pearl",
+        ],
+        [
+            { output: "hexcasting:lens" },
+            "minecraft:glass",
+            "hexcasting:amethyst_dust"
+        ],
+        [
+            { output: "hexcasting:focus" },
+            "minecraft:glowstone_dust",
+            "irons_spellbooks:arcane_essence"
+        ],
+        [
+            { output: "hexcasting:focus" },
+            "minecraft:paper",
+            "ars_nouveau:magebloom_fiber"
+        ],
+        [
+            { output: "hexcasting:focus" },
+            "#forge:leather",
+            "farmersdelight:canvas"
+        ],
+        [
+            { output: "caverns_and_chasms:living_flesh" },
+            "minecraft:ghast_tear",
+            "alexscaves:bioluminesscence"
+        ], [
+            { output: "irons_spellbooks:nature_rune" },
+            "minecraft:poisonous_potato",
+            "alexscaves:pewen_branch"
+        ],
+        [
+            { output: "celestisynth:celestial_core" },
+            "minecraft:amethyst_shard",
+            "blue_skies:moonstone_shard"
+        ],
+        [
+        ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
