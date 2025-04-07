@@ -1,168 +1,108 @@
-// ServerEvents.highPriorityData(event => {
-//     let tweak = {
-//         pools: [
-//             {
-//                 entries: [
-//                     {
-//                         type: "item",
-//                         name: "farmersdelight:iron_knife",
-//                         weight: 3,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 1,
-//                                 },
-//                             },
-//                             {
-//                                 function: "enchant_with_levels",
-//                                 treasure: true,
-//                                 levels: {
-//                                     min: 10,
-//                                     max: 25,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "farmersdelight:flint_knife",
-//                         weight: 2,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 1,
-//                                 },
-//                             },
-//                             {
-//                                 function: "enchant_with_levels",
-//                                 treasure: "true",
-//                                 levels: {
-//                                     min: 10,
-//                                     max: 25,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "autumnity:turkey_piece",
-//                         weight: 3,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 2,
-//                                     max: 3,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "alexsmobs:moose_ribs",
-//                         weight: 1,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 1,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "delightful:venison_chops",
-//                         weight: 2,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 3,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "delightful:cooked_venison_chops",
-//                         weight: 2,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 2,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "alexsdelight:raw_bison",
-//                         weight: 2,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 1,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "alexsdelight:cooked_bison",
-//                         weight: 2,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 2,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "autumnity:cooked_turkey_piece",
-//                         weight: 3,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 2,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                     {
-//                         type: "item",
-//                         name: "alexsmobs:cooked_kangaroo_meat",
-//                         weight: 2,
-//                         functions: [
-//                             {
-//                                 function: "set_count",
-//                                 count: {
-//                                     min: 1,
-//                                     max: 1,
-//                                 },
-//                             },
-//                         ],
-//                     },
-//                 ],
-//             },
-//         ],
-//     };
+// Can use addWeightedLoot for adding multiple items. Need to use addLoot with loot LootEntry for enchanted items.
+LootJS.modifiers((event) => {
+    // Raw meats
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.15)
+        .addWeightedLoot(
+            [2, 3],
+            [Item.of("autumnity:turkey_piece").withChance(100)]
+        );
 
-//     event.addJson("hunters_return:loot_tables/chests/illager_woodhut.json", tweak);
-// })
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.05)
+        .addWeightedLoot(
+            [1, 1],
+            [Item.of("alexsmobs:moose_ribs").withChance(100)]
+        );
+
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.1)
+        .addWeightedLoot(
+            [1, 3],
+            [Item.of("alexsdelight:raw_bison").withChance(100)]
+        );
+
+    // Cooked meats
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.1)
+        .addWeightedLoot(
+            [1, 2],
+            [Item.of("alexsdelight:cooked_bison").withChance(100)]
+        );
+
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.1)
+        .addWeightedLoot(
+            [1, 1],
+            [Item.of("alexsdelight:raw_bison").withChance(100)]
+        );
+
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.1)
+        .addWeightedLoot(
+            [1, 2],
+            [Item.of("delightful:cooked_bison").withChance(100)]
+        );
+
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.15)
+        .addWeightedLoot(
+            [1, 2],
+            [Item.of("autumnity:cooked_turkey_piece").withChance(100)]
+        );
+
+    event
+        .addLootTableModifier("hunters_return:chests/illager_woodhut")
+        .randomChance(0.1)
+        .addWeightedLoot(
+            [1, 1],
+            [Item.of("alexsmobs:cooked_kangaroo_meat").withChance(100)]
+        );
+
+    event.addLootTableModifier("hunters_return:chests/illager_woodhut").addLoot(
+        LootEntry.of("farmersdelight:iron_knife")
+            .when((c) => c.randomChance(0.15))
+            .enchantWithLevels([10, 25], true)
+    );
+    event.addLootTableModifier("hunters_return:chests/illager_woodhut").addLoot(
+        LootEntry.of("farmersdelight:flint_knife")
+            .when((c) => c.randomChance(0.1))
+            .enchantWithLevels([10, 25], true)
+    );
+
+    // // Enchanted knives
+    // event
+    //     .addLootTableModifier("hunters_return:chests/illager_woodhut")
+    //     .randomChance(0.15)
+    //     .addWeightedLoot(
+    //         [1, 1],
+    //         [Item.of("farmersdelight:iron_knife").withChance(100)]
+    //     )
+    //     .matchLoot(ItemFilter.DAMAGEABLE)
+    //     .customFunction({
+    //         function: "minecraft:enchant_with_levels",
+    //         levels: { min: 10, max: 25 },
+    //         treasure: true,
+    //     });
+
+    // event
+    //     .addLootTableModifier("hunters_return:chests/illager_woodhut")
+    //     .randomChance(0.1)
+    //     .addWeightedLoot(
+    //         [1, 1],
+    //         [Item.of("farmersdelight:flint_knife").withChance(100)]
+    //     )
+    //     .matchLoot(ItemFilter.DAMAGEABLE)
+    //     .customFunction({
+    //         function: "minecraft:enchant_with_levels",
+    //         levels: { min: 10, max: 25 },
+    //         treasure: true,
+    //     })
+});
