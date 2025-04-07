@@ -82,6 +82,10 @@ WorldgenEvents.remove((event) => {
             "occultism:silver_ore_deepslate",
 
             "actuallyadditions:black_quartz_ore",
+
+            "celestisynth:lunar_ore",
+            "celestisynth:zephyr_deposit",
+            "celestisynth:wintereis",
         ];
     });
 
@@ -91,8 +95,8 @@ WorldgenEvents.remove((event) => {
         props.blocks = ["minecraft:gravel"];
     });
 
-    event.removeOres(props => {
+    event.removeOres((props) => {
         props.biomes = "blue_skies:searing_grassland";
         props.blocks = ["minecraft:gravel"];
-    })
+    });
 });
