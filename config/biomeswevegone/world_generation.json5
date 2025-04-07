@@ -63,7 +63,7 @@
 		"biomeswevegone:vanilla/flower_warm": true,
 		"biomeswevegone:vanilla/forest_flowers": true,
 		"biomeswevegone:vanilla/flower_plains": true,
-		"biomeswevegone:palm_trees": true,
+		"biomeswevegone:palm_trees": false,
 		"biomeswevegone:vanilla/flower_default": true,
 	},
 }
