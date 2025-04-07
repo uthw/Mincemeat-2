@@ -199,6 +199,7 @@ ServerEvents.recipes((event) => {
         ["actuallyadditions:black_quartz", ["minecraft:quartz", "#forge:coal"]],
         ["spartanweaponry:explosive_charge", ["minecraft:gunpowder", "thermal:phytogro", "#minecraft:coals"]],
         ["minecraft:crafting_table", ["#forge:workbench"]],
+        ["4x netherexp:necromium_plating", ["caverns_and_chasms:necromium_ingot", "netherexp:stridite"]]
     ];
 
     recipes.forEach((recipe) => {
