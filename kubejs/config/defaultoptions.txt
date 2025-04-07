@@ -169,9 +169,9 @@ key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.f8
 key_iris.keybind.shaderPackSelection:key.keyboard.f7
-key_key.boththrow.desc:key.mouse.right
+key_key.boththrow.desc:key.keyboard.unknown
 key_key.leftthrow.desc:key.keyboard.unknown
-key_key.rightthrow.desc:key.keyboard.unknown
+key_key.rightthrow.desc:key.mouse.right
 key_key.motoronoff.desc:key.keyboard.left.shift
 key_key.jumpanddetach.desc:key.keyboard.space
 key_key.slow.desc:key.keyboard.left.shift
