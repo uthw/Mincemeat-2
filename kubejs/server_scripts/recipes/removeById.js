@@ -50,7 +50,6 @@ ServerEvents.recipes((event) => {
         "smallships:cannon",
         "ars_nouveau:basic_spell_turret",
         "computercraft:cable",
-        "xnet:controller",
         "iceandfire:ghost_sword",
         "pneumaticcraft:fluid_mixer",
         "pneumaticcraft:manual_compressor",
@@ -133,6 +132,18 @@ ServerEvents.recipes((event) => {
         "eidolon:silver_leggings",
         "eidolon:silver_boots",
         "apotheosis:sigil_of_socketing",
+        "celestisynth:supernal_netherite_ingot_smithing",
+        "celestisynth:crescentia",
+        "celestisynth:solaris",
+        "celestisynth:breezebreaker",
+        "celestisynth:eyebomination",
+        "celestisynth:poltergeist",
+        "celestisynth:aquaflora",
+        "celestisynth:rainfall_serenity",
+        "celestisynth:frostbound",
+        "celestisynth:keres",
+        "celestisynth:starlit_factory",
+        "netherexp:necromium_plating"
     ];
 
     toRemove.forEach((recipeId) => {
