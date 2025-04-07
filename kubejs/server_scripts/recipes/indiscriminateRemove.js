@@ -131,15 +131,15 @@ ServerEvents.recipes((event) => {
         "enderstorage:ender_chest",
         "enderstorage:ender_tank",
         "enderstorage:ender_pouch",
-        "iceandfire:armor_copper_metal_helmet",
-        "iceandfire:armor_copper_metal_chestplate",
-        "iceandfire:armor_copper_metal_leggings",
-        "iceandfire:armor_copper_metal_boots",
-        "iceandfire:copper_sword",
-        "iceandfire:copper_shovel",
-        "iceandfire:copper_pickaxe",
-        "iceandfire:copper_hoe",
-        "iceandfire:copper_axe",
+        // "iceandfire:armor_copper_metal_helmet",
+        // "iceandfire:armor_copper_metal_chestplate",
+        // "iceandfire:armor_copper_metal_leggings",
+        // "iceandfire:armor_copper_metal_boots",
+        // "iceandfire:copper_sword",
+        // "iceandfire:copper_shovel",
+        // "iceandfire:copper_pickaxe",
+        // "iceandfire:copper_hoe",
+        // "iceandfire:copper_axe",
         "pneumaticcraft:memory_stick",
         "pneumaticcraft:turbine_blade",
         "immersiveengineering:workbench",
@@ -184,7 +184,7 @@ ServerEvents.recipes((event) => {
         "meetyourfight:ace_of_iron",
         "meetyourfight:dusk_key",
         "create_jetpack:jetpack",
-        "enigmaticlegacy:end_anchor"
+        "enigmaticlegacy:end_anchor",
     ];
 
     toRemove.forEach((item) => {
