@@ -389,7 +389,7 @@ ServerEvents.recipes((event) => {
                 A: "atmospheric:aloe_kernels",
                 B: "blue_skies:winter_leaf_seeds",
                 C: "blue_skies:fiery_bean_seeds",
-                D: "thermal:barley_seeds",
+                D: "supplementaries:flax_seeds",
                 E: "enigmaticlegacy:earth_heart",
                 F: "undergarden:gloomgourd_seeds",
                 G: "farmersdelight:rice",
@@ -409,8 +409,8 @@ ServerEvents.recipes((event) => {
             "reliquary:mercy_cross",
             [" AB", " BA", "C  "],
             {
-                A: "reliquary:withered_rib",
-                B: "forbidden_arcanus:deorum_ingot",
+                A: "netherexp:treacherous_flame",
+                B: "netherexp:banshee_rod",
                 C: "aether:golden_amber",
             },
         ],
@@ -569,7 +569,7 @@ ServerEvents.recipes((event) => {
             "miners_delight:copper_pot",
             [" A ", "BCB", " B "],
             {
-                A: "everythingiscopper:copper_shovel",
+                A: "minecraft:wooden_shovel",
                 B: "minecraft:copper_ingot",
                 C: "farmersdelight:cooking_pot",
             },
@@ -1317,7 +1317,7 @@ ServerEvents.recipes((event) => {
             "cataclysm:ignitium_upgrade_smithing_template",
             ["ABA", "BCB", "ADA"],
             {
-                A: "betternether:cincinnasite_ingot",
+                A: "irons_spellbooks:arcane_ingot",
                 B: "minecraft:nether_bricks",
                 C: "minecraft:netherite_upgrade_smithing_template",
                 D: "alexsmobs:straddlite",
@@ -1426,6 +1426,44 @@ ServerEvents.recipes((event) => {
                 E: "createaddition:capacitor",
             },
         ],
+        [
+            "dungeonnowloading:spawner_fragment",
+            [" A ", "ABA", " A "],
+            {
+                A: "forbidden_arcanus:darkstone",
+                B: "paraglider:spirit_orb",
+            },
+        ],
+        [
+            "cataclysm:mech_eye",
+            ["ABA", "BCB", "ABA"],
+            {
+                A: "#forge:storage_blocks/silver",
+                B: "create:andesite_alloy",
+                C: "minecraft:ender_eye"
+            }
+        ],
+        [
+            "2x celestisynth:eyebomination",
+            ["ABA", "BCB", "ABA"],
+            {
+                A: "minecraft:ender_eye",
+                B: "alexscaves:ferrouslime_ball",
+                C: "eidolon:wraith_heart"
+            }
+        ],
+        [
+            "celestisynth:starlit_factory",
+            ["ABA", "CDE", "FFF"],
+            {
+                A: "forbidden_arcanus:stellarite_piece",
+                B: "#forge:storage_blocks/cinnabar",
+                C: "galosphere:combustion_table",
+                D: "#forge:workbench",
+                E: "irons_spellbooks:alchemist_cauldron",
+                F: "undergarden:shiverstone_bricks"
+            }
+        ]
     ];
 
     recipes.forEach((recipe) => {
