@@ -31,10 +31,10 @@ ItemEvents.modification((event) => {
                     
                     if (armorAttribute[0]) {
                         tool.maxDamage *= 4;
-                        console.log(`${tool.id} is armor`);
+                        // console.log(`${tool.id} is armor`);
                     } else {
                         tool.maxDamage *= 2;
-                        console.log(`${tool.id} is not armor`);
+                        // console.log(`${tool.id} is not armor`);
                     }
 
                     // let isArmor = Item.of(item).getItem().getAttributes("generic.armor")[0]["amount"] != 0;
@@ -46,7 +46,7 @@ ItemEvents.modification((event) => {
                     //     tool.maxDamage *= 2;
                     // }
                 } catch (error) { 
-                    console.log("Error when applying durability to " + tool.id.toString());
+                    // console.log("Error when applying durability to " + tool.id.toString());
                 }
                 
             });
