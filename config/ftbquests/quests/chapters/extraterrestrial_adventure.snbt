@@ -473,8 +473,16 @@
 		}
 		{
 			dependencies: ["47F8DC09096B0991"]
-			description: ["Here we can observe a prehistoric version of the Nether, popping with vibrant vegetation and creatures that are more dangerous than they are beautiful."]
-			icon: "minecraft:netherrack"
+			description: ["Took you long enough. Let's just say you're not on world record pace at this point."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:netherrack"
+			}
 			id: "086E8054D516AFF4"
 			subtitle: "&4Feel the burn!"
 			tasks: [
@@ -508,18 +516,22 @@
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
-			description: ["This is not every structure you can find in the Nether."]
-			icon: "nethersdelight:propelplant_cane"
+			description: ["This is not every structure you can find in the Nether. You can also find familiar overworld structure variants here, but they're not covered by this quest."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "nethersdelight:propelplant_cane"
+			}
 			id: "70795731019BA757"
+			subtitle: "Nether exploration section WIP"
 			tasks: [
 				{
 					id: "106EC453F7278477"
 					structure: "#betterfortresses:better_fortresses"
-					type: "structure"
-				}
-				{
-					id: "397B769F18879AE0"
-					structure: "betternether:nether_city"
 					type: "structure"
 				}
 				{
@@ -532,9 +544,19 @@
 					structure: "repurposed_structures:ancient_city_nether"
 					type: "structure"
 				}
+				{
+					id: "3F5888BA17E901BB"
+					structure: "idas:ancient_portal/nether_ancient_portal"
+					type: "structure"
+				}
+				{
+					id: "35190B8EECEED78D"
+					structure: "netherexp:chapel"
+					type: "structure"
+				}
 			]
 			title: "Explore Nether structures"
-			x: 11.0d
+			x: 9.5d
 			y: -3.0d
 		}
 		{
@@ -618,8 +640,8 @@
 				}
 			]
 			title: "Ascend Into The Aether"
-			x: 12.5d
-			y: -4.5d
+			x: 13.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["044D8690E93C528B"]
@@ -643,8 +665,8 @@
 				type: "location"
 			}]
 			title: "Fall Out of The Aether"
-			x: 14.5d
-			y: -5.5d
+			x: 13.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["520A629F81C286FF"]
@@ -737,8 +759,8 @@
 				}
 			]
 			title: "Gather Heavenly Materials"
-			x: 14.5d
-			y: -3.5d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["43C5DFBA3E25CC38"]
@@ -1075,7 +1097,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["70795731019BA757"]
+			dependencies: ["5B32D0F375182CA7"]
 			description: ["Deals a ton of damage to undead creatures, making it a top consideration for fighting the Wither."]
 			id: "2DBDDEE400EB8E8D"
 			tasks: [{
@@ -1089,19 +1111,27 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["70795731019BA757"]
 			description: [
-				"The wither is unchanged from vanilla. It's so underwhelming that there's a machine made using Nether Stars that automatically kills withers."
+				"The Wither is so underwhelming that there's a machine made using Nether Stars that automatically kills withers. However, Bedrock veterans might be getting PTSD from it unless you're super OP (why wouldn't you be at this point?)"
 				""
 				"Defeating the Wither unlocks Nether Stars, which are important crafting materials."
 				""
 				"You can also take the Nether Star back into the Overworld and use it to awaken the Harbringer."
 			]
-			icon: "minecraft:wither_skeleton_skull"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:wither_skeleton_skull"
+			}
 			id: "080F3639CF9971BF"
 			tasks: [{
 				entity: "minecraft:wither"
@@ -1110,8 +1140,8 @@
 				value: 1L
 			}]
 			title: "Wither"
-			x: 12.5d
-			y: -2.0d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["520A629F81C286FF"]
@@ -1187,8 +1217,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: -5.5d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["112C59D69077AED4"]
@@ -1602,6 +1632,313 @@
 			title: "I guess that works too"
 			x: 6.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["The Nether has new biomes waiting to be discovered."]
+			id: "62129193C48A0C03"
+			subtitle: "Just this one so far"
+			tasks: [{
+				biome: "netherexp:black_ice_glaciers"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "netherexp:black_ice"
+				}
+				id: "37D75C447903D70A"
+				title: "Black Ice Glaciers"
+				type: "biome"
+			}]
+			title: "Modded Nether Biomes"
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"For those of us who don't have max insulated armor, Soul Sprouts are a handy little tool that makes the Nether much more bearable. They're found in Soul Sand Valleys and Black Glaciers."
+				""
+				"The Soulspring Lamp requires Soul Sprouts as fuel, and cools you down regardless of how hot you are. However, the sprout consumption rate based on how high your internal temperature would be without the lamp."
+				""
+				"This means the lamp is more fuel-efficient when combined with insulating armor."
+			]
+			id: "3C25608A0F64D8AB"
+			tasks: [
+				{
+					id: "058F275B5FF399A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cold_sweat:soul_sprout"
+					}
+					type: "item"
+				}
+				{
+					id: "2F8E9C8DBE3C9E5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cold_sweat:soulspring_lamp"
+						tag: {
+							Fuel: 64.0d
+							Lit: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Keeping Cool in the Nether"
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Rubies can be found near the ocean, roof, or bastions. You'll need a Freezer to chill them and make them useful."
+				""
+				"Ruby Shards can also be used for Piglin Bartering."
+			]
+			id: "1689F79F27FAF1AA"
+			tasks: [
+				{
+					id: "6F8399CD23E51D34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rubinated_nether:freezer"
+					}
+					type: "item"
+				}
+				{
+					id: "32FEBA2CAC6D4FE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rubinated_nether:molten_ruby"
+					}
+					type: "item"
+				}
+				{
+					id: "52E75F619D89E729"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rubinated_nether:ruby"
+					}
+					type: "item"
+				}
+			]
+			title: "Nether Ruby"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70795731019BA757"]
+			description: ["The Wraithing Flesh this item demands is dropped by Vessels, a denizen of the Soul Sand Valley. It can also be found in Suspicious Soul Sand."]
+			id: "1C8A056CC8E8A2AF"
+			subtitle: "Found in Chapels"
+			tasks: [{
+				id: "1389F23C52C812D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "netherexp:sanctum_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1C8A056CC8E8A2AF"
+				"086E8054D516AFF4"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"This is a rare structure found in Soul Sand Valleys. You can stumble upon it or use a Locator Compass from the Chapel to find it - Explorer's Compass won't work here."
+				""
+				"You might be interested in the arenas found here, where you must protect Treacherous Candles from waves of monsters."
+				""
+				"The Shotgun Core can be obtained from Brazier Chests and is used to craft the Shogun Fist. It is upgraded to a Pump-Charge Shotgun with a Treacherous Flame."
+			]
+			id: "5B32D0F375182CA7"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "netherexp:necromium_plated_block"
+					}
+					id: "310C6215EBB60985"
+					structure: "netherexp:sanctum"
+					title: "Sanctum"
+					type: "structure"
+				}
+				{
+					id: "1C15CED2B29752A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "netherexp:treacherous_flame"
+					}
+					type: "item"
+				}
+				{
+					id: "5DD2B3B0F02A1243"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "netherexp:shotgun_fist"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72AD98EFC222FAD0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "netherexp:pump_charge_shotgun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1689F79F27FAF1AA"]
+			description: [
+				"The Ruby Laser emits redstone signals based on whether the laser is hitting an entity. It can be right clicked to detect blocks instead. "
+				""
+				"The redstone signal given is based on how close the source of obstruction is."
+			]
+			id: "3039707E451E2C1C"
+			tasks: [
+				{
+					id: "3F808590EAE63D85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rubinated_nether:ruby_laser"
+					}
+					type: "item"
+				}
+				{
+					id: "3756E7FF9AE53B66"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "rubinated_nether:ruby_lens"
+					}
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1689F79F27FAF1AA"]
+			id: "76DF007CCD686E5E"
+			subtitle: "Sponge, but for lava"
+			tasks: [{
+				id: "2C38BC69BE365599"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rubinated_nether:soakstone"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1689F79F27FAF1AA"]
+			description: [""]
+			id: "12D8BDF82755B068"
+			subtitle: "Gives fire resistance to nearby players."
+			tasks: [{
+				id: "2A8475C24AB3C60C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "rubinated_nether:ruby_brazier"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
 		}
 	]
 	title: "Dimensional Adventure"

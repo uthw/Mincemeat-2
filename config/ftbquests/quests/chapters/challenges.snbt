@@ -2315,7 +2315,7 @@
 				"The Charged Ender Pearl is a bit different, though, requiring you to defeat 2 bosses to obtain it."
 			]
 			id: "605A6D1F5E67F886"
-			subtitle: "Enderman are now endangered"
+			subtitle: "Endermen are now endangered"
 			tasks: [
 				{
 					id: "3EFE0157657F87A4"
@@ -4273,11 +4273,6 @@
 					type: "item"
 				}
 				{
-					id: "5C90B6C64FE8F009"
-					item: "bloodmagic:bleedingedge"
-					type: "item"
-				}
-				{
 					id: "24566AFA48560621"
 					item: "alexscaves:music_disc_fusion"
 					type: "item"
@@ -4360,14 +4355,28 @@
 					type: "stat"
 					value: 1
 				}
+				{
+					id: "1EAA22943710EF2A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "supplementaries:music_disc_heave_ho"
+					}
+					type: "item"
+				}
 			]
 			title: "Collect Every Music Disc"
 			x: 12.5d
 			y: 2.0d
 		}
 		{
-			description: ["Living is easy with eyes closed"]
+			description: [""]
 			id: "0C2DF591E0BFC78B"
+			subtitle: "Living is easy with eyes closed"
 			tasks: [
 				{
 					id: "5E41466488985A15"
@@ -6901,7 +6910,7 @@
 		{
 			description: ["Most of these spears are made by making the handles out of various types of sticks from the Everbright and Everdawn."]
 			id: "762CE8F51524471D"
-			subtitle: "Tetra devs are so mad"
+			subtitle: "Trust me, I would make these not suck if I could"
 			tasks: [
 				{
 					id: "46CCD57056DCFA0E"
@@ -7199,21 +7208,6 @@
 					type: "item"
 				}
 				{
-					id: "56B10C58E89803FD"
-					item: "thermal:chocolate_cake"
-					type: "item"
-				}
-				{
-					id: "18224E85049B6DAA"
-					item: "thermal:potion_cake"
-					type: "item"
-				}
-				{
-					id: "6B68797DD646EC41"
-					item: "thermal:spice_cake"
-					type: "item"
-				}
-				{
 					id: "131D420204B6C820"
 					item: "farmersdelight:sweet_berry_cheesecake"
 					type: "item"
@@ -7226,6 +7220,32 @@
 				{
 					id: "423503AE5634D569"
 					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					id: "520F07DA02D7BA7C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "meetyourfight:aether_glazed_cupcake"
+					}
+					type: "item"
+				}
+				{
+					id: "741D192426725565"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cake_layer"
+					}
 					type: "item"
 				}
 			]
@@ -7323,7 +7343,7 @@
 		}
 		{
 			id: "23ED3D7498A71C49"
-			subtitle: "Congrats now you can look at the textures"
+			subtitle: "Congrats, now you can look at the textures"
 			tasks: [
 				{
 					id: "40B204710D322BB9"
@@ -7586,6 +7606,7 @@
 				"Engineer: Coffee maker"
 			]
 			id: "230C2C2CE46AE9E0"
+			subtitle: "Now that's a diverse economy"
 			tasks: [
 				{
 					id: "4D294F960C6A81D1"
@@ -7787,6 +7808,169 @@
 			title: "Workplace Union"
 			x: 12.5d
 			y: 3.0d
+		}
+		{
+			id: "05C388A2AF035AD5"
+			rewards: [{
+				id: "68D69625F57A2F30"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:waystone"
+				}
+				id: "34056EC1D67D29E8"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 100
+			}]
+			title: "Globetrotter"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			description: ["There is another one, Keres, but it's disabled right now for the protection of your world. I'm not going to give it to you."]
+			id: "65BC034FDDDC9435"
+			subtitle: "A stellar performance"
+			tasks: [
+				{
+					id: "35D1FFECDD32781B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solaris"
+						tag: {
+							Damage: 0
+							csController: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52AC2C5498BEF891"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:crescentia"
+						tag: {
+							Damage: 0
+							csController: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A1D1C9D76B291A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:breezebreaker"
+						tag: {
+							Damage: 0
+							csController: { }
+							csExtras: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F419EEEDDC0C471"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:poltergeist"
+						tag: {
+							Damage: 0
+							csController: { }
+							csExtras: {
+								cs.queueComboLarge: 0b
+								cs.smashCountForPassive: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C5F8D83EA4DFDCB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:aquaflora"
+						tag: {
+							Damage: 0
+							csController: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BE1E7ADEEB83FF7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:rainfall_serenity"
+						tag: {
+							Damage: 0
+							csExtras: {
+								cs.pull: 0.0f
+								cs.pulling: 0.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59BECE1B91981F80"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:frostbound"
+						tag: {
+							Damage: 0
+							csController: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Celestial Arsenal"
+			x: 14.0d
+			y: -1.0d
 		}
 	]
 	title: "Challenges"
