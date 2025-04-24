@@ -199,7 +199,8 @@
             "irons_spellbooks:evoker_fort",
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
-            "nova_structures:illager_manor"
+            "nova_structures:illager_manor",
+            "tlc:lost_castle"
         ],
         "customevent": "replace_with_executioner",
         "when": "onjoin",
@@ -213,7 +214,9 @@
             "irons_spellbooks:evoker_fort",
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
-            "nova_structures:illager_manor"
+            "nova_structures:illager_manor",
+            "tlc:lost_castle"
+
         ],
         "customevent": "replace_with_fusilier",
         "when": "onjoin",
@@ -227,7 +230,9 @@
             "irons_spellbooks:evoker_fort",
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
-            "nova_structures:illager_manor"
+            "nova_structures:illager_manor",
+            "tlc:lost_castle"
+
         ],
         "customevent": "replace_with_commando",
         "when": "onjoin",
@@ -241,7 +246,9 @@
             "irons_spellbooks:evoker_fort",
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
-            "nova_structures:illager_manor"
+            "nova_structures:illager_manor",
+            "tlc:lost_castle"
+
         ],
         "customevent": "replace_with_griefer",
         "when": "onjoin",
@@ -255,7 +262,9 @@
             "irons_spellbooks:evoker_fort",
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
-            "nova_structures:illager_manor"
+            "nova_structures:illager_manor",
+            "tlc:lost_castle"
+
         ],
         "customevent": "replace_with_trickster",
         "when": "onjoin",
@@ -269,7 +278,9 @@
             "irons_spellbooks:evoker_fort",
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
-            "nova_structures:illager_manor"
+            "nova_structures:illager_manor",
+            "tlc:lost_castle"
+
         ],
         "customevent": "replace_with_necromancer",
         "when": "onjoin",
@@ -280,12 +291,23 @@
         "when": "onjoin",
         "structure": [
             "irons_spellbooks:evoker_fort",
-            "conjurer_illager:theatre"
+            "conjurer_illager:theatre",
+            "minecraft:mansion",
+            "idas:tinkers_workshop",
+            "idas:tinkers_citadel"
         ],
         "healthmultiply": 1.5,
         "damagemultiply": 1.5,
         "result": "default"
     },
+    {
+        "when": "onjoin",
+        "structuretags": "repurposed_structures:collections/mansions",
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.5,
+        "result": "default"
+    },
+
     {
         "when": "onjoin",
         "dimension": "minecraft:the_nether",
@@ -310,7 +332,8 @@
     {
         "when": "onjoin",
         "hostile": true,
-        "followrangemultiply": 2
+        "followrangemultiply": 2,
+        "result": "default"
     },
     {
         "when": "onjoin",
@@ -318,5 +341,53 @@
         "healthmultiply": 1.5,
         "damagemultiply": 1.5,
         "result": "default"
+    },
+    {
+        "mob": "minecraft:vindicator",
+        "structuretags": "repurposed_structures:collections/mansions",
+        "customevent": "replace_with_executioner",
+        "when": "onjoin",
+        "random": 0.8,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structuretags": "repurposed_structures:collections/mansions",
+        "customevent": "replace_with_fusilier",
+        "when": "onjoin",
+        "random": 0.1,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structuretags": "repurposed_structures:collections/mansions",
+        "customevent": "replace_with_commando",
+        "when": "onjoin",
+        "random": 0.15,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structuretags": "repurposed_structures:collections/mansions",
+        "customevent": "replace_with_griefer",
+        "when": "onjoin",
+        "random": 0.3,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:illusioner",
+        "structuretags": ["repurposed_structures:collections/mansions"],
+        "customevent": "replace_with_trickster",
+        "when": "onjoin",
+        "random": 0.8,
+        "result": "deny_with_actions"
+    },
+    {
+        "mob": "minecraft:pillager",
+        "structuretags": "repurposed_structures:collections/mansions",
+        "customevent": "replace_with_necromancer",
+        "when": "onjoin",
+        "random": 0.1,
+        "result": "deny_with_actions"
     }
 ]
