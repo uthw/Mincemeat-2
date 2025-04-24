@@ -38,7 +38,14 @@ ServerEvents.highPriorityData((event) => {
         { name: "rod/blaze_rod", durability: 222 },
         { name: "rod/end_rod", durability: 284 },
         { name: "rod/forged_beam", durability: 1900 },
-        { name: "rod/stick", durability: 80, desnity: 0.6 },
+        {
+            name: "rod/stick",
+            durability: 80,
+            desnity: 0.6,
+            improvements: {
+                arrested: 0,
+            },
+        },
         { name: "scale/shulker_shell", durability: 400 },
         { name: "scale/turtle_scute", durability: 400 },
         { name: "skin/hide", durability: 400 },
@@ -81,7 +88,7 @@ ServerEvents.highPriorityData((event) => {
         { name: "fibre/deep_aether_yagroot_vines", durability: 2048 },
         { name: "gem/aether_gravitite", durability: 3122, primary: 7 }, // +2 buff for gravitite
         { name: "gem/aether_redux_gravitite", durability: 3122, primary: 7 },
-        { name: "gem/aether_zanite", durability: 500, primary: 6 }, // +1
+        { name: "gem/aether_zanite", durability: 5000, primary: 6 }, // +1
         { name: "gem/deep_aether_skyjade", durability: 300, primary: 6 },
         { name: "metal/aether_phoenix", durability: 3122, primary: 11 },
         { name: "metal/aether_redux_veridium", durability: 1500 },
@@ -89,9 +96,16 @@ ServerEvents.highPriorityData((event) => {
         // { name: "metal/ancient_aether_valkyrum", durability: 4062, primary: 9 },
         { name: "metal/deep_aether_stratus", durability: 4062, primary: 10 },
         { name: "socket/socket_aether_golden_amber", durability: 1024.0 },
-        { name: "socket/socket_aether_zanite", durability: 1024.0 },
+        { name: "socket/socket_aether_zanite", durability: 2048 },
         // Is this supposed to be 0.0? will leave it be for now ig
         // { name: "socket/socket_deep_aether_skyjade", durability: 0.0 },
+        {
+            name: "socket/socket_deep_aether_skyjade",
+            durability: 300,
+            effects: {
+                criticalStrike: [30, 2],
+            },
+        },
         { name: "stone/deep_aether_clorite", durability: 896 },
         { name: "stone/deep_aether_aseterite", durability: 896 },
         { name: "stone/aether_redux_vitrium", durability: 1536 },
@@ -237,6 +251,12 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "socket/socket_blue_skies_sunstone_crystal",
             durability: 1024.0,
+            attributes: {
+                "generic.armor": -4,
+                "generic.max_health": 0,
+                "**generic.attack_damage": 0, //hidden mutiplictive atk stat
+                "generic.attack_damage": 1.5,
+            },
         },
         { name: "socket/socket_blue_skies_pyrope", durability: 1428.0 },
         { name: "socket/socket_blue_skies_moonstone", durability: 0.0 },
@@ -252,12 +272,40 @@ ServerEvents.highPriorityData((event) => {
             durability: 1024.0,
         },
         { name: "socket/socket_alexscaves_uranium", durability: 1024.0 },
+        {
+            name: "socket/socket_alexscaves_uranium",
+            attributes: {
+                "**generic.attack_damage": 0, //hidden mutiplictive atk stat
+                "generic.max_health": 0,
+                "generic.armor": -20,
+                "generic.attack_damage": 2,
+            },
+        },
         { name: "socket/socket_alexscaves_occult_gem", durability: 0.0 },
+        {
+            name: "socket/socket_alexscaves_occult_gem",
+            attributes: {
+                "generic.max_health": 0,
+                "generic.armor": -4,
+            },
+        },
         { name: "socket/socket_alexscaves_amber_curiosity", durability: 0.0 },
         { name: "skin/alexscaves_tough_hide", durability: 400 },
-        { name: "metal/iceandfire_lightning_dragonsteel", durability: 16000, primary: 11 },
-        { name: "metal/iceandfire_ice_dragonsteel", durability: 16000, primary: 11 },
-        { name: "metal/iceandfire_fire_dragonsteel", durability: 16000, primary: 11 },
+        {
+            name: "metal/iceandfire_lightning_dragonsteel",
+            durability: 16000,
+            primary: 11,
+        },
+        {
+            name: "metal/iceandfire_ice_dragonsteel",
+            durability: 16000,
+            primary: 11,
+        },
+        {
+            name: "metal/iceandfire_fire_dragonsteel",
+            durability: 16000,
+            primary: 11,
+        },
         { name: "metal/create_zinc", durability: 400 },
         { name: "metal/create_shadow_steel", durability: 2730 },
         { name: "metal/create_refined_radiance", durability: 1752 },
@@ -329,6 +377,13 @@ ServerEvents.highPriorityData((event) => {
         { name: "fibre/alexscaves_archaic_vine", durability: 2560 },
         // { name: "bone/deeperdarker_sculk_bone", durability: 10 },
         { name: "bone/alexscaves_heavy_bone", durability: 1024 },
+        {
+            name: "bone/wither_bone",
+            durability: 1916,
+            effects: {
+                bleeding: 2,
+            },
+        },
 
         //     // Art of Forging
 
@@ -356,9 +411,42 @@ ServerEvents.highPriorityData((event) => {
         { name: "stone/undergarden_shiverstone", durability: 500 },
         { name: "stone/undergarden_depthrock", durability: 360 },
         // none of the sockets boost durability
-        // { name: "socket/socket_undergarden_utherium", durability: 0 },
-        { name: "metal/undergarden_froststeel", durability: 1150 },
+        {
+            name: "socket/socket_undergarden_utherium",
+            durability: 0,
+            effects: {
+                "art_of_forging:arcane_protection": 20,
+            },
+            attributes: {
+                "irons_spellbooks:max_mana": 75,
+            },
+        },
+        {
+            name: "metal/undergarden_froststeel",
+            durability: 1150,
+            improvements: {
+                "undergardenpatch/frostbite": -1,
+                "undergardenpatch/frostnip": -1,
+            },
+            effects: {
+                "irons_spellbooks:freeze": 10,
+            },
+        },
+        {
+            name: "socket/socket_undergarden_froststeel",
+            effects: {
+                "irons_spellbooks:freeze": 5,
+            },
+        },
         { name: "metal/undergarden_forgotten_metal", durability: 3752 },
+        {
+            name: "socket/socket_undergarden_forgotten",
+            effects: {
+                "undergardenpatch:threnody_lite": 0, //invisable stat
+                "undergardenpatch:undermine_lite": 0, //invisable stat
+            },
+            toolEfficiency: 8,
+        },
         { name: "metal/undergarden_cloggrum", durability: 572 },
         { name: "gem/undergarden_utherium", durability: 2558 },
 
@@ -408,10 +496,20 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/elementium", durability: 1440 },
         { name: "metal/infused_iron", durability: 500 },
         { name: "metal/lead", durability: 240 },
-        { name: "metal/manasteel", durability: 600 },
+        {
+            name: "metal/manasteel",
+            durability: 600,
+            attributes: {
+                "irons_spellbooks:max_mana": 50,
+            },
+        },
         { name: "metal/nickel", durability: 400 },
         { name: "metal/osmium", durability: 1000 },
-        { name: "metal/silver", durability: 386 }, // more than 2x for consistency with eidolon
+        {
+            name: "metal/silver",
+            durability: 386,
+            attributes: { "generic.armor": 2 },
+        }, // more than 2x for consistency with eidolon
         { name: "metal/sky", durability: 3000 },
         { name: "metal/steel", durability: 1300 },
         { name: "metal/terrasteel", durability: 4600 },
@@ -503,6 +601,32 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "wood/starlit",
             durability: 108,
+        },
+        {
+            name: "socket/permafrost_shard",
+            effects: {
+                "irons_spellbooks:freeze": 8,
+            },
+            toolEfficiency: 0, // nerfing it since it has a lot of effects
+        },
+        {
+            name: "socket/socket_alexscaves_pearl",
+            effects: {
+                "art_of_forging:arcane_protection": 20,
+            },
+            attributes: {
+                "irons_spellbooks:max_mana": 75,
+            },
+        },
+        {
+            name: "rod/frosted_helve",
+            effects: {
+                "irons_spellbooks:freeze": 5,
+            },
+            attributes: {
+                "irons_spellbooks:max_mana": 0,
+            },
+            durability: 0,
         },
     ];
     tweak.forEach((material) => {
