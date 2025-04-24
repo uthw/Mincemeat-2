@@ -1,0 +1,76 @@
+{
+    "variant": "guardian",
+    "weight": 10,
+    "quality": 0,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "core_armor",
+                "types": ["chestplate", "leggings"]
+            },
+            "attribute": "minecraft:generic.armor",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.5,
+                "uncommon": 1,
+                "rare": 2.5,
+                "epic": 4,
+                "mythic": 6,
+                "ancient": 8
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": ["sword", "trident"]
+            },
+            "attribute": "attributeslib:life_steal",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.03,
+                "uncommon": 0.05,
+                "rare": 0.07,
+                "epic": 0.1,
+                "mythic": 0.13,
+                "ancient": 0.16
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "heavy_weapon",
+                "types": ["heavy_weapon"]
+            },
+            "attribute": "attributeslib:overheal",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.03,
+                "uncommon": 0.04,
+                "rare": 0.05,
+                "epic": 0.08,
+                "mythic": 0.12,
+                "ancient": 0.15
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "shield",
+                "types": ["shield"]
+            },
+            "attribute": "minecraft:generic.armor",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.2,
+                "epic": 0.25,
+                "mythic": 0.3,
+                "ancient": 0.45
+            }
+        }
+    ]
+}
