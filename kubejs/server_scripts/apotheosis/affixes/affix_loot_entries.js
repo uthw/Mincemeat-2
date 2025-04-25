@@ -140,13 +140,13 @@ ServerEvents.highPriorityData((event) => {
                     quality: 6,
                 },
 
-                { item: "eidolon:silver_helmet", weight: 30 },
+                { item: "caverns_and_chasms:silver_helmet", weight: 30 },
                 {
-                    item: "eidolon:silver_chestplate",
+                    item: "caverns_and_chasms:silver_chestplate",
                     weight: 30,
                 },
-                { item: "eidolon:silver_leggings", weight: 30 },
-                { item: "eidolon:silver_boots", weight: 30 },
+                { item: "caverns_and_chasms:silver_leggings", weight: 30 },
+                { item: "caverns_and_chasms:silver_boots", weight: 30 },
 
                 { item: "botania:manasteel_helmet", weight: 25, quality: 4.5 },
                 {
@@ -335,7 +335,6 @@ ServerEvents.highPriorityData((event) => {
                 { item: "cataclysm:coral_brandiche", weight: 12, quality: 6 },
 
                 { item: "cataclysm:black_steel_sword", weight: 8, quality: 5 },
-                
             ],
         },
         {
@@ -399,7 +398,11 @@ ServerEvents.highPriorityData((event) => {
                 // { item: "betternether:nether_ruby_pickaxe", weight: 15 },
                 // { item: "betternether:flaming_ruby_pickaxe", weight: 4 },
 
-                { item: "cataclysm:black_steel_pickaxe", weight: 8, quality: 5 },
+                {
+                    item: "cataclysm:black_steel_pickaxe",
+                    weight: 8,
+                    quality: 5,
+                },
             ],
         },
         {
