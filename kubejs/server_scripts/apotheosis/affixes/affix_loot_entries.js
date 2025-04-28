@@ -303,7 +303,7 @@ ServerEvents.highPriorityData((event) => {
             entries: [
                 { item: "minecraft:iron_sword" },
                 { item: "minecraft:diamond_sword", weight: 25 },
-                { item: "minecraft:netherite_sword", weight: 5, quality: 5 },
+                // { item: "minecraft:netherite_sword", weight: 5, quality: 5 },
 
                 { item: "iceandfire:silver_sword", weight: 38 },
                 { item: "iceandfire:dragonbone_sword", weight: 4 },
