@@ -41,7 +41,7 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "rod/stick",
             durability: 80,
-            desnity: 0.6,
+            density: 0.6,
             improvements: {
                 arrested: 0,
             },
@@ -450,16 +450,34 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/undergarden_cloggrum", durability: 572 },
         { name: "gem/undergarden_utherium", durability: 2558 },
 
-        // attempt disabling tetra extras create compat since Tetranomicon already adds it
+        // Couldn't find out how to disable tetra materials so I'm just going to set the dupes equal to each other
 
         // {
-        //     name: "metal/create/andesite_alloy"
+        //     name: "metal/create/andesite_alloy",
+        //     material: {
+        //         items: ["minecraft:yippee"],
+        //     },
+        //     conditions: {
+        //         type: "forge:false",
+        //     },
         // },
         // {
-        //     name: "metal/create/brass"
+        //     name: "metal/create/brass",
+        //     material: {
+        //         items: ["minecraft:yippee"],
+        //     },
+        //     conditions: {
+        //         type: "forge:false",
+        //     },
         // },
         // {
-        //     name: "metal/create/zinc"
+        //     name: "metal/create/zinc",
+        //     material: {
+        //         items: ["minecraft:yippee"],
+        //     },
+        //     conditions: {
+        //         type: "forge:false",
+        //     },
         // },
 
         // tetra extras
@@ -627,6 +645,146 @@ ServerEvents.highPriorityData((event) => {
                 "irons_spellbooks:max_mana": 0,
             },
             durability: 0,
+        },
+
+        // Tetrnomicon 1.6.0
+        // Forbidden and Arcanus
+
+        {
+            name: "metal/forbidden_arcanus_draco_arcanus",
+            durability: 5322,
+            // TODO edit primary
+        },
+        {
+            name: "metal/forbidden_arcanus_reinforced_deorum",
+            durability: 5122,
+            material: {
+                // Hotfix since base tetranomicon uses the wrong material (stellarite piece)
+                items: ["forbidden_arcanus:reinforced_deorum_ingot"],
+            },
+        },
+        {
+            name: "bone/alexsmobs_froststalker_horn",
+            durability: 1024,
+        },
+        {
+            name: "bone/alexsmobs_gazelle_horn",
+            durability: 128,
+        },
+        {
+            name: "bone/alexsmobs_serpentbone",
+            durability: 3122,
+            primary: 8.5, // +3
+        },
+        {
+            name: "bone/alexsmobs_void_chitin",
+            durability: 4392,
+            primary: 10.5, // +3
+        },
+        {
+            name: "bone/alexsmobs_whalebone",
+            durability: 512,
+        },
+        {
+            name: "fibre/alexsmobs_elastic_tendon",
+            durability: 1536,
+        },
+        {
+            name: "gem/forbidden_arcanus_arcane_crystal",
+            durability: 512, // originally 5
+        },
+        {
+            name: "skin/alexsmobs_kangaroo_hide",
+            durability: 500,
+        },
+        {
+            name: "skin/alexsmobs_snakeskin",
+            durability: 200,
+        },
+        {
+            name: "stone/forbidden_arcanus_darkstone",
+            durability: 2048,
+        },
+        {
+            name: "wood/forbidden_arcanus_aurum",
+            durability: 1536,
+        },
+        {
+            name: "wood/forbidden_arcanus_edelwood",
+            durability: 1024,
+        },
+        {
+            name: "wood/forbidden_arcanus_fungyss",
+            durability: 192,
+        },
+
+        // Abnormals mods and Outer End
+        // I hate Tetra
+
+        {
+            name: "fibre/atmospheric_passion_vine",
+            durability: 640,
+        },
+        {
+            name: "fibre/outer_end_azure_vines",
+            durability: 1560,
+        },
+        {
+            name: "wood/atmospheric_aspen",
+            durability: 96,
+        },
+        {
+            name: "wood/atmospheric_grimwood",
+            durability: 1024,
+        },
+        {
+            name: "wood/atmospheric_kousa",
+            durability: 384,
+        },
+        {
+            name: "wood/atmospheric_laurel",
+            durability: 108,
+        },
+        {
+            name: "wood/atmospheric_morado",
+            durability: 1024,
+        },
+        {
+            name: "wood/atmospheric_rosewood",
+            durability: 1024,
+        },
+        {
+            name: "wood/atmospheric_yucca",
+            durability: 96,
+        },
+        // This one doesn't work for some reason
+        // {
+        //     name: "wood/autumnity_maple",
+        //     durability: 96, // Nerf from 512 but this one is so common it deserves a nerf
+        // },
+        {
+            name: "wood/environmental_pine",
+            durability: 96,
+        },
+        {
+            name: "wood/environmental_plum",
+            durability: 192,
+        },
+        {
+            name: "wood/environmental_willow",
+            durability: 96,
+        },
+        {
+            name: "wood/environmental_wisteria",
+            durability: 192,
+        },
+        {
+            name: "wood/upgrade_aquatic_driftwood",
+            durability: 96,
+        },
+        {
+            name: "wood/upgrade_aquatic_riverwood",
+            durability: 192,
         },
     ];
     tweak.forEach((material) => {
