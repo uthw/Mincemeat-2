@@ -95,6 +95,7 @@ entitiesList = [
 	"irons_spellbooks:summoned_skeleton",
 	"irons_spellbooks:summoned_vex",
 	"irons_spellbooks:summoned_zombie",
+
 	"conjurer_illager:conjurer",
 
 	"galosphere:berserker",
@@ -268,4 +269,9 @@ woundingChance = 0.4
 #Scaling Health
 #List of tiers with numbers to multiply spawn rates by difficulty
 #Format: [tier];[percent increase]
-scalingHealthSpawnModifiers = []
+scalingHealthSpawnModifiers = [
+	"1;0.000556",
+  	"2;0.000556",
+  	"3;0.000556",
+  	"4;0.000556"
+]
