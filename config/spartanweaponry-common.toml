@@ -573,7 +573,7 @@
 	#Set to false to disable spawning Iron Weapons in Village Weaponsmith chests via loot table injection
 	add_iron_weapons_to_village_blacksmith = true
 	#Set to false to disable spawning Longbow and Heavy Crossbow-related loot in Village Fletcher chests via loot table injection
-	add_bow_and_crossbow_loot_to_village_fletcher = true
+	add_bow_and_crossbow_loot_to_village_fletcher = false
 	#Set to false to disable spawning Diamond Weapons in End City chests via loot table injection
 	add_diamond_weapons_to_end_city = true
 	#Chance for Zombies to spawn with Iron Melee Weapons on all difficulties apart from Hard and Hardcore
