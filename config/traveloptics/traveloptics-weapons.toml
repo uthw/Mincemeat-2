@@ -6,7 +6,7 @@
 		#Durability || Default 2250
 		#Range: > 1
 		durability = 2250
-		#Damage || Default 23.0
+		#Damage || Default 21.0
 		#Range: 0.0 ~ 100.0
 		damage = 23.0
 		#Attack Speed || Default -3.0
@@ -88,7 +88,7 @@
 		#Durability || Default 2250
 		#Range: > 1
 		durability = 2250
-		#Damage || Default 23.0
+		#Damage || Default 19.0
 		#Range: 0.0 ~ 100.0
 		damage = 23.0
 		#Attack Speed || Default -3.0
@@ -170,10 +170,10 @@
 		#Durability || Default 2250
 		#Range: > 1
 		durability = 2250
-		#Damage || Default 23.0
+		#Damage || Default 14.0
 		#Range: 0.0 ~ 100.0
 		damage = 14.0
-		#Attack Speed || Default -3.0
+		#Attack Speed || Default -2.4
 		#Range: -5.0 ~ 5.0
 		attack_speed = -2.4
 		#Eldritch Spell Power || MULTIPLY_BASE || Default 0.10
@@ -182,6 +182,24 @@
 		#Ender Spell Power || MULTIPLY_BASE || Default 0.10
 		#Range: 0.0 ~ 1.0
 		ender_spell_power = 0.1
+		#Oblivion Ray damage multiplier || Default 1.0
+		#Range: 1.0 ~ 5.0
+		oblivion_ray_multiplier = 1.0
+
+	[current_weapons.general]
+		#Should End-game weapons be breakable || Default: false
+		breakable_end_game_weapons = false
+
+	[current_weapons.trident_of_the_eternal_maelstrom]
+		#Durability || Default 2250
+		#Range: > 1
+		durability = 2250
+		#Damage || Default 14.0
+		#Range: 0.0 ~ 100.0
+		damage = 14.0
+		#Aqua Spell Power || MULTIPLY_BASE || Default 0.20
+		#Range: 0.0 ~ 1.0
+		aqua_spell_power = 0.2
 		#Oblivion Ray damage multiplier || Default 1.0
 		#Range: 1.0 ~ 5.0
 		oblivion_ray_multiplier = 1.0
