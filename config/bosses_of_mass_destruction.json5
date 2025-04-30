@@ -16,6 +16,7 @@
 		"summonMechanic": {
 			"isEnabled": true,
 			"entitiesThatCountToSummonCounter": [
+				"eidolon:zombie_brute",
 				"minecraft:skeleton",
 				"minecraft:giant",
 				"minecraft:phantom",
@@ -26,10 +27,12 @@
 				"minecraft:skeleton_horse",
 				"minecraft:stray",
 				"minecraft:zombie_horse",
+				"eidolon:wraith",
 				"minecraft:zombie",
 				"minecraft:drowned",
 				"minecraft:wither",
-				"minecraft:zombie_villager"
+				"minecraft:zombie_villager",
+				"savage_and_ravage:skeleton_villager"
 			],
 			"numEntitiesKilledToDropSoulStar": 50
 		}
