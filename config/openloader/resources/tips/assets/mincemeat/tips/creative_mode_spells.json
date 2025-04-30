@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Spells have no cooldowns in Creative Mode, in case you ever feel like raining down lightning bolts everywhere you look."
+    }
+}

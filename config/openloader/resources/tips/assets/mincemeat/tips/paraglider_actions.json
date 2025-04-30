@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Paragliders Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can do anything else that doesn't require your offhand while paragliding. This means, if you have a spellbook in the curio slot, you can cast spells with it."
+    }
+}

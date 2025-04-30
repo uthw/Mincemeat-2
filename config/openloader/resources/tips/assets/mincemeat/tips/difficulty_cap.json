@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Scaling Health Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Distance-based difficutly scaling is capped around 7,000 blocks from world spawn. Beyond that, the difficulty will not increase."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Fatal Error",
+        "bold": true,
+        "color": "orange"
+    },
+    "tip": {
+        "text": "java.lang.OutOfMemoryError: Java heap space. It's recommended to force quit the game right now, as your world will not load."
+    }
+}

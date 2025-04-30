@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Improved Mobs Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Hostile mobs can sometimes spawn with a sword called The Judgement. It does infinite damage and kills everything within 100 blocks of it. This is not a bug."
+    }
+}

@@ -5,6 +5,6 @@
         "color": "light_purple"
     },
     "tip": {
-        "text": "Ars Nouveau and Iron's Spells and Spellbooks use different mana bars. However, any equipment or buff that increases max mana will increase it for both mods."
+        "text": "Ars Nouveau and Iron's Spells and Spellbooks pull from the same mana pool."
     }
 }
