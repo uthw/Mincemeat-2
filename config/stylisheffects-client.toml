@@ -13,7 +13,7 @@
 		tooltip_duration = true
 		#Maximum amount of status effects rendered in a single row.
 		#Range: 1 ~ 255
-		max_columns = 5
+		max_columns = 1
 		#Space between individual effect widgets on y-axis.
 		#Range: > 0
 		widget_space_y = 1
@@ -36,12 +36,12 @@
 		#Print menu type to game chat whenever a new menu screen is opened. Only intended to find menu types to be added to "menu_blacklist".
 		debug_container_types = false
 		#Render active status effects in every menu screen, not just in the player inventory.
-		effects_everywhere = true
+		effects_everywhere = false
 		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
 		allow_fallback = true
 		#Screen side to render status effects on.
 		#Allowed Values: LEFT, RIGHT
-		screen_side = "LEFT"
+		screen_side = "RIGHT"
 		#Effect renderer to be used.
 		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
 		#Allowed Values: NONE, GUI_SMALL, GUI_COMPACT, INVENTORY_COMPACT, INVENTORY_FULL_SIZE
