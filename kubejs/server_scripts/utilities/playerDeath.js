@@ -11,12 +11,11 @@ EntityEvents.death("minecraft:player", (event) => {
     pData.deathz = z.toFixed(0);
     pData.deathreset = 1;
     pData.deathDimension = event.level.dimension.path;
-    console.log("Dimension path: " + event.level.dimension.path);
-    console.log("Dimension namespace: " + event.level.dimension.namespace);
 
     // health refill
-    event.server.runCommandSilent(
-        `execute in ${event.level.dimension.namespace}:${event.level.dimension.path} positioned ${x} ${y} ${z} as @e[type=!minecraft:player,distance=..50] run data modify entity @s Health set value 9999.0d`
+    let dim = `${event.level.dimension.namespace}:${event.level.dimension.path}`;
+    event.server.runCommand(
+        `execute in ${dim} positioned ${x} ${y} ${z} unless entity @a[distance=2..10] as @e[distance=..50,type=#minecraft:heal_on_player_death] run data modify entity @s Health set value 9999.0`
     );
 
     event.server.scheduleInTicks(4, () => {
@@ -25,16 +24,16 @@ EntityEvents.death("minecraft:player", (event) => {
         // The blue skies devs have a fix for this on 1.20.4 and 1.21 but don't seem to plan on backporting it
 
         event.entity.server.runCommand(
-            `execute in ${event.level.dimension.namespace}:${event.level.dimension.path} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Dusk Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Dusk Arc"]`
         );
         event.entity.server.runCommand(
-            `execute in ${event.level.dimension.namespace}:${event.level.dimension.path} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Nature Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Nature Arc"]`
         );
         event.entity.server.runCommand(
-            `execute in ${event.level.dimension.namespace}:${event.level.dimension.path} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Poisonous Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Poisonous Arc"]`
         );
         event.entity.server.runCommand(
-            `execute in ${event.level.dimension.namespace}:${event.level.dimension.path} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Ethereal Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Ethereal Arc"]`
         );
     });
 });
@@ -51,7 +50,6 @@ PlayerEvents.respawned((event) => {
         return;
     }
     let rng = Math.random();
-    console.log("generated " + rng);
     if (rng > 0.6) {
         event.entity.server.runCommand(
             `execute as ${event.entity.username} run give @s kubejs:grave_scroll`

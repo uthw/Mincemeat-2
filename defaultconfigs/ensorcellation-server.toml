@@ -265,7 +265,7 @@
 
 	[Enchantments.Phalanx]
 		#If TRUE, the Phalanx Enchantment is available for Shields.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
