@@ -1,5 +1,3 @@
-// See graveScroll.js for credits
-
 EntityEvents.death("minecraft:player", (event) => {
     // const { x, y, z } = event.player;
     const { entity, player, server } = event;
