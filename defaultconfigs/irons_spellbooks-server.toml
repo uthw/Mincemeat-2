@@ -803,7 +803,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
+		CooldownInSeconds = 14.2
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:flaming_barrage"]
@@ -836,7 +836,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
+		CooldownInSeconds = 19.6
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:heat_surge"]
@@ -858,7 +858,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 360.0
+		CooldownInSeconds = 150.9
 		AllowCrafting = true
 
 	[Spells."traveloptics:meteor_storm"]
@@ -869,7 +869,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 90.0
+		CooldownInSeconds = 48.2
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:scorch"]
@@ -891,7 +891,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 63.8
 		AllowCrafting = true
 
 	[Spells."traveloptics:burning_judgment"]
@@ -902,7 +902,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
+		CooldownInSeconds = 12.9
 		AllowCrafting = true
 
 	[Spells."traveloptics:gyro_slash"]
@@ -913,7 +913,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
+		CooldownInSeconds = 19.1
 		AllowCrafting = true
 
 	[Spells."traveloptics:annihilation"]
@@ -924,7 +924,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 90.0
+		CooldownInSeconds = 47.7
 		AllowCrafting = true
 
 	#traveloptics:aqua
@@ -936,7 +936,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 60.0
+		CooldownInSeconds = 29.8
 		AllowCrafting = true
 
 	[Spells."traveloptics:aqua_missiles"]
@@ -947,7 +947,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
+		CooldownInSeconds = 16.2
 		AllowCrafting = true
 
 	[Spells."traveloptics:tidal_grasp"]
@@ -958,7 +958,7 @@ priestHouseWeight = 4
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 20.0
+		CooldownInSeconds = 14.1
 		AllowCrafting = true
 
 	[Spells."traveloptics:floodgate"]
@@ -969,7 +969,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 180.0
+		CooldownInSeconds = 69.2
 		AllowCrafting = true
 
 	[Spells."traveloptics:bubble_spray"]
@@ -980,7 +980,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 13.0
+		CooldownInSeconds = 8.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:echo_of_the_abyss"]
@@ -991,7 +991,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 540.0
+		CooldownInSeconds = 187.6
 		AllowCrafting = true
 
 	[Spells."traveloptics:flood_slash"]
@@ -1002,7 +1002,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 12.0
+		CooldownInSeconds = 10.1
 		AllowCrafting = true
 
 	[Spells."traveloptics:coral_barrage"]
@@ -1013,7 +1013,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 16.0
+		CooldownInSeconds = 11.1
 		AllowCrafting = true
 
 	[Spells."traveloptics:rainfall"]
@@ -1024,7 +1024,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 60.0
+		CooldownInSeconds = 33.0
 		AllowCrafting = true
 
 	[Spells."traveloptics:hydroshot"]
@@ -1035,7 +1035,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 1.0
+		CooldownInSeconds = 1.9
 		AllowCrafting = true
 
 	[Spells."traveloptics:tidal_slash"]
@@ -1046,7 +1046,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 50.0
+		CooldownInSeconds = 31.2
 		AllowCrafting = true
 
 	[Spells."traveloptics:tsunami"]
@@ -1057,7 +1057,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
+		CooldownInSeconds = 14.9
 		AllowCrafting = true
 
 	[Spells."traveloptics:jet_steam"]
@@ -1068,7 +1068,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 10.0
+		CooldownInSeconds = 7.5
 		AllowCrafting = true
 
 	[Spells."traveloptics:aerial_collapse"]
@@ -1079,7 +1079,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 45.0
+		CooldownInSeconds = 27.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:venomous_rift"]
@@ -1090,7 +1090,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
+		CooldownInSeconds = 18.9
 		AllowCrafting = true
 
 	[Spells."traveloptics:primordial_steed"]
@@ -1101,7 +1101,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 900.0
+		CooldownInSeconds = 337.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:swirl"]
@@ -1112,7 +1112,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 60.0
+		CooldownInSeconds = 30.6
 		AllowCrafting = true
 
 	[Spells."traveloptics:stele_cascade"]
@@ -1123,7 +1123,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 22.0
+		CooldownInSeconds = 13.4
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:stomp"]
@@ -1156,7 +1156,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 480.0
+		CooldownInSeconds = 194.2
 		AllowCrafting = true
 
 	[Spells."traveloptics:earthshatter"]
@@ -1167,7 +1167,7 @@ priestHouseWeight = 4
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 45.0
+		CooldownInSeconds = 23.7
 		AllowCrafting = true
 
 	#irons_spellbooks:evocation
@@ -1179,7 +1179,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 15.0
+		CooldownInSeconds = 9.4
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:wololo"]
@@ -1212,7 +1212,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 50.9
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:slow"]
@@ -1235,7 +1235,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
+		CooldownInSeconds = 18.3
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:recall"]
@@ -1257,7 +1257,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
+		CooldownInSeconds = 13.9
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:echoing_strikes"]
@@ -1279,7 +1279,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
+		CooldownInSeconds = 16.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:vortex_punch"]
@@ -1290,7 +1290,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
+		CooldownInSeconds = 14.3
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:portal"]
@@ -1312,7 +1312,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
+		CooldownInSeconds = 15.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:eternal_sentinel"]
@@ -1334,7 +1334,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 63.0
 		AllowCrafting = true
 
 	#irons_spellbooks:ice
@@ -1346,7 +1346,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 150.0
+		CooldownInSeconds = 72.5
 		AllowCrafting = true
 
 	[Spells."traveloptics:despair"]
@@ -1357,7 +1357,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
+		CooldownInSeconds = 12.1
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:frostwave"]
@@ -1379,7 +1379,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 20.0
+		CooldownInSeconds = 15.6
 		AllowCrafting = true
 
 	[Spells."traveloptics:cursed_blast"]
@@ -1390,7 +1390,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
+		CooldownInSeconds = 3.6
 		AllowCrafting = true
 
 	[Spells."traveloptics:axe_of_the_doomed"]
@@ -1412,7 +1412,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 1200.0
+		CooldownInSeconds = 600.0
 		AllowCrafting = true
 
 	#irons_spellbooks:eldritch
@@ -1424,7 +1424,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 51.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:telekinesis"]
@@ -1446,7 +1446,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 60.0
+		CooldownInSeconds = 28.7
 		AllowCrafting = true
 
 	[Spells."traveloptics:spectral_blink"]
@@ -1457,7 +1457,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
+		CooldownInSeconds = 16.1
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:planar_sight"]
@@ -1501,7 +1501,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 40.0
+		CooldownInSeconds = 25.3
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:sculk_tentacles"]
@@ -1523,7 +1523,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 20.0
+		CooldownInSeconds = 12.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:reversal"]
@@ -1534,7 +1534,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
+		CooldownInSeconds = 3.5
 		AllowCrafting = true
 
 	[Spells."traveloptics:the_forgotten_beast"]
@@ -1556,7 +1556,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 45.0
+		CooldownInSeconds = 27.1
 		AllowCrafting = true
 
 	[Spells."traveloptics:violent_skreech"]
@@ -1567,7 +1567,7 @@ priestHouseWeight = 4
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
+		CooldownInSeconds = 15.8
 		AllowCrafting = true
 
 	[Spells."traveloptics:banish"]
@@ -1578,7 +1578,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 12.0
+		CooldownInSeconds = 10.3
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:cleanse"]
@@ -1611,7 +1611,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 60.0
+		CooldownInSeconds = 32.9
 		AllowCrafting = true
 
 	[Spells."traveloptics:summon_desert_dwellers"]
@@ -1622,7 +1622,7 @@ priestHouseWeight = 4
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 420.0
+		CooldownInSeconds = 150.0
 		AllowCrafting = true
 
 	[Spells."traveloptics:sword_of_the_ancients"]
@@ -1644,7 +1644,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 40.0
+		CooldownInSeconds = 22.7
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:haste"]
@@ -1666,7 +1666,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 150.0
+		CooldownInSeconds = 61.6
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:sacrifice"]
@@ -1688,7 +1688,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 49.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:eek"]
@@ -1699,7 +1699,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 20.0
+		CooldownInSeconds = 12.4
 		AllowCrafting = true
 
 	[Spells."traveloptics:call_forth_the_dead_king"]
@@ -1710,7 +1710,7 @@ priestHouseWeight = 4
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3600.0
+		CooldownInSeconds = 2400.0
 		AllowCrafting = true
 
 	[Spells."traveloptics:blood_howl"]
@@ -1721,7 +1721,7 @@ priestHouseWeight = 4
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 20.0
+		CooldownInSeconds = 12.8
 		AllowCrafting = true
 
 	[Spells."traveloptics:magnetron_deployment"]
@@ -1732,7 +1732,7 @@ priestHouseWeight = 4
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 270.0
+		CooldownInSeconds = 113.3
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:shockwave"]
@@ -1765,7 +1765,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 12.0
+		CooldownInSeconds = 9.7
 		AllowCrafting = true
 
 	[Spells."traveloptics:mechanized_predator"]
@@ -1787,7 +1787,7 @@ priestHouseWeight = 4
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 45.0
+		CooldownInSeconds = 24.8
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:thunder_step"]
@@ -1798,7 +1798,7 @@ priestHouseWeight = 4
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 8.0
+		CooldownInSeconds = 5.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:thunderstorm"]
@@ -1820,5 +1820,5 @@ priestHouseWeight = 4
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 16.0
+		CooldownInSeconds = 11.1
 		AllowCrafting = true
