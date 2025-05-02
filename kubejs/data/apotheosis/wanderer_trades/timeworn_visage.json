@@ -8,7 +8,7 @@
     "type": "apotheosis:basic_trade",
     "rare": true,
     "input_1": {
-        "item": "betternether:nether_ruby_helmet",
+        "item": "minecraft:netherite_helmet",
         "count": 1
     },
     "input_2": {
@@ -16,7 +16,7 @@
         "count": 45
     },
     "output": {
-        "item": "betternether:nether_ruby_helmet",
+        "item": "minecraft:netherite_helmet",
         "count": 1,
         "nbt": {
             "Enchantments": [

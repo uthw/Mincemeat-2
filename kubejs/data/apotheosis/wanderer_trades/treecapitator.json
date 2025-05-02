@@ -9,7 +9,7 @@
     "type": "apotheosis:basic_trade",
     "rare": true,
     "input_1": {
-        "item": "minecraft:netherite_axe",
+        "item": "lost_aether_content:phoenix_axe",
         "count": 1
     },
     "input_2": {
@@ -17,7 +17,7 @@
         "count": 45
     },
     "output": {
-        "item": "minecraft:netherite_axe",
+        "item": "lost_aether_content:phoenix_axe",
         "count": 1,
         "nbt": {
             "Enchantments": [

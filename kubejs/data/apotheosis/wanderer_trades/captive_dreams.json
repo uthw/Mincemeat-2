@@ -8,7 +8,7 @@
     "type": "apotheosis:basic_trade",
     "rare": true,
     "input_1": {
-        "item": "blue_skies:charoite_sword",
+        "item": "minecells:broadsword",
         "count": 1
     },
     "input_2": {
@@ -16,7 +16,7 @@
         "count": 45
     },
     "output": {
-        "item": "blue_skies:charoite_sword",
+        "item": "minecells:broadsword",
         "count": 1,
         "nbt": {
             "Enchantments": [
