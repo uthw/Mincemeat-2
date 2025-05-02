@@ -127,14 +127,14 @@ ServerEvents.highPriorityData((event) => {
             values: [
                 "minecraft:deep_cold_ocean",
                 "minecraft:deep_frozen_ocean",
-                "biomeswevegone:dead_sea",
+                // "biomeswevegone:dead_sea",
             ],
         },
         {
             key: "ocean_warm",
             values: [
                 "minecraft:deep_lukewarm_ocean",
-                "biomesevegone:lush_stacks",
+                // "biomesevegone:lush_stacks",
             ],
         },
     ];
