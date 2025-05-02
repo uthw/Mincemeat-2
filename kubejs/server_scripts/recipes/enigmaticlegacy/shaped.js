@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             ["ABB", "BCB", "BBD"],
             {
                 A: "eidolon:zombie_heart",
-                B: "blue_skies:ventium_ingot",
+                B: "celestisynth:celestial_core",
                 C: "eidolon:wraith_heart",
                 D: "cataclysm:koboleton_bone",
             },
