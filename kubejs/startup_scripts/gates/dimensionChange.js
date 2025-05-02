@@ -37,4 +37,8 @@ global.dimChangeEvent = (event) => {
     addDimension("blue_skies:everdawn", "dimension_access");
     addDimension("aether:the_aether", "nether_access");
     addDimension("minecells:prison", "minecells_access");
+    addDimension("minecells:promenade", "minecells_access");
+    addDimension("minecells:ramparts", "minecells_access");
+    addDimension("minecells:black_bridge", "minecells_access");
+    addDimension("minecells:insufferable_crypt", "minecells_access");
 };
