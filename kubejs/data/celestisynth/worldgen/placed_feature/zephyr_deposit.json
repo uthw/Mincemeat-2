@@ -2,23 +2,8 @@
     "feature": "celestisynth:zephyr_deposit",
     "placement": [
         {
-            "type": "minecraft:rarity_filter",
-            "chance": 18
-        },
-        {
-            "type": "minecraft:height_range",
-            "height": {
-                "type": "minecraft:uniform",
-                "max_inclusive": {
-                    "absolute": 320
-                },
-                "min_inclusive": {
-                    "absolute": 100
-                }
-            }
-        },
-        {
-            "type": "minecraft:biome"
+            "type": "minecraft:count",
+            "count": 0
         }
     ]
 }
