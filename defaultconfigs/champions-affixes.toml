@@ -72,7 +72,7 @@ mobList = []
 mobPermission = "BLACKLIST"
 [[affixes]]
 identifier = "plagued"
-enabled = true
+enabled = false
 minTier = 1
 mobList = []
 mobPermission = "BLACKLIST"
@@ -84,7 +84,7 @@ mobList = []
 mobPermission = "BLACKLIST"
 [[affixes]]
 identifier = "shielding"
-enabled = true
+enabled = false
 minTier = 1
 mobList = []
 mobPermission = "BLACKLIST"
