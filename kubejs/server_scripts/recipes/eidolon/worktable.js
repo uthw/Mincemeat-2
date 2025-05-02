@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
             reagents: "AAAA",
             key: {
                 A: "kubejs:cell",
-                B: "blue_skies:diopside_gem",
+                B: "forbidden_arcanus:dark_rune",
                 C: "aquaculture:neptunium_ingot",
                 D: "blue_skies:lunar_stick",
             },
@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
                 A: "kubejs:cell",
                 B: "thermal:cinnabar",
                 C: "#forge:rods/wooden",
-                D: "blue_skies:horizonite_ingot",
+                D: "celestisynth:celestial_core_heated",
             },
         },
         {

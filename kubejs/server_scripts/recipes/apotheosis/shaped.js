@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
             inputs: ["AAA", "BCD", "AAA"],
             keys: {
                 A: "minecraft:prismarine_bricks",
-                B: "blue_skies:charoite",
+                B: "galosphere:pink_salt_shard",
                 C: "#c:bookshelves",
                 D: "iceandfire:dragonbone",
             },
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
             output: "apotheosis:pearl_endshelf",
             inputs: [" A ", "BCB", " A "],
             keys: {
-                A: "blue_skies:moonstone_shard",
+                A: "alexscaves:pearl",
                 B: "forbidden_arcanus:dark_matter",
                 C: "apotheosis:endshelf",
             },
@@ -133,7 +133,7 @@ ServerEvents.recipes((event) => {
                 A: "forbidden_arcanus:iron_blacksmith_gavel",
                 B: "apotheosis:gem_dust",
                 C: "minecraft:enchanting_table",
-                D: "blue_skies:aquite_block",
+                D: "meetyourfight:phantoplasm",
             },
             id: "apotheosis:simple_reforging_table",
         },
@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
             output: "apotheosis:reforging_table",
             inputs: [" A ", "BCB", "DDD"],
             keys: {
-                A: "blue_skies:charoite",
+                A: "meetyourfight:violet_bloom",
                 B: "ars_nouveau:wilden_horn",
                 C: "apotheosis:simple_reforging_table",
                 D: "forbidden_arcanus:aurum_planks",
@@ -198,7 +198,7 @@ ServerEvents.recipes((event) => {
             keys: {
                 A: "apotheosis:gem_fused_slate",
                 B: "environmental:cartwheel",
-                C: "blue_skies:moonstone",
+                C: "forbidden_arcanus:arcane_crystal_dust",
                 D: "forbidden_arcanus:dark_matter",
                 E: "alexscaves:sea_glass_shards",
             },

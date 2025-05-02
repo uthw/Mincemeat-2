@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
                 "occultism:burnt_otherstone",
                 "minecraft:blaze_powder",
                 "alexscaves:moth_dust",
-                "blue_skies:moonstone_shard",
+                "aether_redux:blighted_spores",
                 "eidolon:ender_calx",
             ],
         ],

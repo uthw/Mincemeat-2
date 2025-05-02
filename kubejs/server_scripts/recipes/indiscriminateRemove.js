@@ -185,6 +185,11 @@ ServerEvents.recipes((event) => {
         "meetyourfight:dusk_key",
         "create_jetpack:jetpack",
         "enigmaticlegacy:end_anchor",
+        "toms_storage:ts.inventory_connector",
+        "toms_storage:ts.wireless_terminal",
+        "toms_storage:ts.storage_terminal",
+        "toms_storage:ts.crafting_terminal",
+        "toms_storage:ts.adv_wireless_terminal"
     ];
 
     toRemove.forEach((item) => {

@@ -54,47 +54,6 @@ ServerEvents.recipes((event) => {
             "minecraft:blaze_powder",
             "create:tree_fertilizer",
         ],
-        // [{ mod: "bloodmagic" }, "#forge:stone", "forbidden_arcanus:darkstone"],
-        // [
-        //     { output: "bloodmagic:alchemytable" },
-        //     "minecraft:gold_ingot",
-        //     "forbidden_arcanus:arcane_crystal",
-        // ],
-        // [
-        //     { mod: "bloodmagic" },
-        //     "minecraft:lapis_lazuli",
-        //     "forbidden_arcanus:arcane_crystal",
-        // ],
-        // [
-        //     { mod: "bloodmagic" },
-        //     "minecraft:lapis_lazuli_block",
-        //     "forbidden_arcanus:arcane_crystal_block",
-        // ],
-        // [
-        //     { output: "bloodmagic:soulgempetty" },
-        //     "minecraft:redstone",
-        //     "eidolon:soul_shard",
-        // ],
-        // [
-        //     { output: "bloodmagic:weakbloodorb" },
-        //     "minecraft:diamond",
-        //     "blue_skies:charoite",
-        // ],
-        // [
-        //     { output: "bloodmagic:apprenticebloodorb" },
-        //     "minecraft:redstone_block",
-        //     "minecraft:diamond",
-        // ],
-        // [
-        //     { output: "bloodmagic:magicianbloodorb" },
-        //     "minecraft:gold_block",
-        //     "undergarden:forgotten_ingot",
-        // ],
-        // [
-        //     { mod: "bloodmagic" },
-        //     "minecraft:glowstone_dust",
-        //     "forbidden_arcanus:arcane_crystal_dust",
-        // ],
         [
             { mod: "botania" },
             "minecraft:blaze_powder",
@@ -109,7 +68,7 @@ ServerEvents.recipes((event) => {
         [
             { mod: "botania" },
             "minecraft:prismarine_crystals",
-            "#blue_skies:gems/aquite",
+            "theurgy:sal_ammoniac_crystal",
         ],
         [{ mod: "botania" }, "minecraft:quartz", "thermal:sulfur"],
         [{}, "mythicbotany:alfsteel_pylon", "botania:natura_pylon"],
@@ -178,7 +137,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "industrialforegoing:machine_frame_simple" },
             "minecraft:nether_brick",
-            "blue_skies:diopside_gem",
+            "theurgy:sal_ammoniac_crystal",
         ],
         [
             { output: "industrialforegoing:machine_frame_simple" },
@@ -203,7 +162,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "industrialforegoing:machine_frame_advanced" },
             "minecraft:gold_ingot",
-            "blue_skies:charoite",
+            "aether_redux:gravitite_ingot",
         ],
         [
             { output: "industrialforegoing:machine_frame_advanced" },
@@ -247,7 +206,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "mekanismgenerators:solar_panel" },
             "#forge:glass_panes",
-            "engineersdecor:panzerglass_block",
+            "#thermal:glass/hardened",
         ],
         [
             { output: "mekanism:basic_thermodynamic_conductor" },
@@ -364,7 +323,7 @@ ServerEvents.recipes((event) => {
         [
             { mod: "refinedstorage" },
             "minecraft:redstone",
-            "blue_skies:moonstone_shard",
+            "rubinated_nether:ruby",
         ],
         // Enigmatic Legacy
         [
@@ -387,7 +346,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "irons_spellbooks:pumpkin_helmet" },
             "minecraft:leather_helmet",
-            "blue_skies:diopside_helmet",
+            "galosphere:sterling_helmet",
         ],
         [
             { output: "irons_spellbooks:pumpkin_chestplate" },
@@ -402,7 +361,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "irons_spellbooks:gold_spell_book" },
             "minecraft:gold_ingot",
-            "blue_skies:hroizonite_ingot",
+            "forbidden_arcanus:stellarite_piece",
         ],
         [
             { output: "irons_spellbooks:gold_spell_book" },
@@ -503,51 +462,6 @@ ServerEvents.recipes((event) => {
             "minecraft:flower_pot",
             "supplementaries:planter",
         ],
-        // [
-        //     { output: "bloodmagic:chargingrune" },
-        //     "minecraft:redstone",
-        //     "thermal:rf_coil",
-        // ],
-        // [
-        //     { output: "bloodmagic:accelerationrune" },
-        //     "minecraft:bucket",
-        //     "forbidden_arcanus:arcane_crystal",
-        // ],
-        // [
-        //     { output: "bloodmagic:accelerationrune" },
-        //     "minecraft:gold_ingot",
-        //     "#forge:ingots/arcane_gold",
-        // ],
-        // [
-        //     { output: "bloodmagic:altarcapacityrune" },
-        //     "minecraft:bucket",
-        //     "thermal:basalz_powder",
-        // ],
-        // [
-        //     { output: "bloodmagic:bettercapacityrune" },
-        //     "minecraft:bucket",
-        //     "thermal:blizz_powder",
-        // ],
-        // [
-        //     { output: "bloodmagic:bettercapacityrune" },
-        //     "minecraft:obsidian",
-        //     "thermal:blitz_powder",
-        // ],
-        // [
-        //     { output: "bloodmagic:speedrune" },
-        //     "minecraft:sugar",
-        //     "alexsmobs:gazelle_horn",
-        // ],
-        // [
-        //     { output: "bloodmagic:sacrificerune" },
-        //     "minecraft:gold_ingot",
-        //     "#forge:ingots/arcane_gold",
-        // ],
-        // [
-        //     { output: "bloodmagic:dislocationrune" },
-        //     "minecraft:water_bucket",
-        //     "blue_skies:charoite",
-        // ],
         [
             { output: "storagedrawers:emerald_storage_upgrade" },
             "minecraft:emerald",
@@ -574,14 +488,14 @@ ServerEvents.recipes((event) => {
             "#forge:ingots/zinc",
         ],
         [
-            { output: "storagenetwork:request" },
+            { output: "toms_storage:ts.crafting_terminal" },
             "minecraft:gold_ingot",
             "#forge:ingots/pewter",
         ],
         [
-            { output: "storagenetwork:request" },
+            { output: "toms_storage:ts.crafting_terminal" },
             "#forge:workbench",
-            "storagenetwork:kabel", // Why is it spelled like this? Inside joke?
+            "toms_storage:ts.inventory_cable", // Why is it spelled like this? Inside joke?
         ],
         [
             { output: "grapplemod:swingupgradeitem" },
@@ -635,7 +549,7 @@ ServerEvents.recipes((event) => {
         [
             { mod: "grapplemod" },
             "minecraft:piston",
-            "create:copper_valve_handle",
+            "immersive_aircraft:engine",
         ],
         [
             { output: "enigmaticlegacy:ender_rod" },
@@ -697,7 +611,11 @@ ServerEvents.recipes((event) => {
             "minecraft:repeater",
             "forbidden_arcanus:arcane_crystal",
         ],
-        [{ mod: "storagenetwork" }, "storagenetwork:kabel", "prettypipes:pipe"],
+        [
+            { mod: "toms_storage" },
+            "toms_storage:ts.inventory_cable",
+            "prettypipes:pipe",
+        ],
         [
             { output: "forbidden_arcanus:cloth" },
             "minecraft:white_wool",
@@ -751,7 +669,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "ars_nouveau:glyph_accelerate" },
             "minecraft:clock",
-            "blue_skies:moonstone_shard",
+            "theurgy:sal_ammoniac_crystal",
         ],
         [
             { output: "ars_nouveau:glyph_amplify" },
@@ -791,7 +709,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "ars_nouveau:glyph_pierce" },
             "minecraft:arrow",
-            "blue_skies:moonstone_shard",
+            "theurgy:sal_ammoniac_crystal",
         ],
         [
             { output: "ars_nouveau:glyph_randomize" },
@@ -1055,7 +973,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "botania:fel_pumpkin" },
             "minecraft:string",
-            "blue_skies:bug_guts",
+            "alexscaves:dark_tatters",
         ],
         [
             { output: "easy_villagers:converter" },
@@ -1091,7 +1009,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "enigmaticlegacy:insignia" },
             "minecraft:gold_ingot",
-            "#blue_skies:ingots/horizonite",
+            "aether_redux:veridium_ingot",
         ],
         [
             { output: "enigmaticlegacy:insignia" },
@@ -1316,7 +1234,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "cataclysm:abyss_eye" },
             "minecraft:crying_obsidian",
-            "blue_skies:charoite",
+            "aquamirae:abyssal_amethyst",
         ],
         // [
         //     { output: "cataclysm:abyss_eye" },
@@ -1512,7 +1430,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "skyarena:crimson_eye" },
             "minecraft:polished_blackstone",
-            "blue_skies:cinderstone",
+            "netherexp:necromium_plating",
         ],
         [
             { output: "hexcasting:lens" },
@@ -1522,39 +1440,39 @@ ServerEvents.recipes((event) => {
         [
             { output: "hexcasting:lens" },
             "minecraft:glass",
-            "hexcasting:amethyst_dust"
+            "hexcasting:amethyst_dust",
         ],
         [
             { output: "hexcasting:focus" },
             "minecraft:glowstone_dust",
-            "irons_spellbooks:arcane_essence"
+            "irons_spellbooks:arcane_essence",
         ],
         [
             { output: "hexcasting:focus" },
             "minecraft:paper",
-            "ars_nouveau:magebloom_fiber"
+            "ars_nouveau:magebloom_fiber",
         ],
         [
             { output: "hexcasting:focus" },
             "#forge:leather",
-            "farmersdelight:canvas"
+            "farmersdelight:canvas",
         ],
         [
             { output: "caverns_and_chasms:living_flesh" },
             "minecraft:ghast_tear",
-            "alexscaves:bioluminesscence"
-        ], [
+            "alexscaves:bioluminesscence",
+        ],
+        [
             { output: "irons_spellbooks:nature_rune" },
             "minecraft:poisonous_potato",
-            "alexscaves:pewen_branch"
+            "alexscaves:pewen_branch",
         ],
         [
             { output: "celestisynth:celestial_core" },
             "minecraft:amethyst_shard",
-            "blue_skies:moonstone_shard"
+            "galosphere:pink_salt_shard",
         ],
-        [
-        ]
+        [],
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],

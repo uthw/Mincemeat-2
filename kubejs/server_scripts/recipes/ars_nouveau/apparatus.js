@@ -151,22 +151,22 @@ ServerEvents.recipes((event) => {
         },
         {
             output: "ars_nouveau:enchanters_sword",
-            reagent: "eidolon:silver_sword",
+            reagent: "caverns_and_chasms:silver_sword",
             inputs: [
                 "ars_nouevau:source_gem_block",
                 "ars_nouveau:source_gem_block",
-                "blue_skies:diopside_block",
+                "theurgy:sal_ammoniac_crystal",
                 "irons_spellbooks:common_ink",
                 "eidolon:oanna_bloom",
             ],
         },
         {
             output: "ars_nouveau:enchanters_sword",
-            reagent: "iceandfire:silver_sword",
+            reagent: "caverns_and_chasms:silver_sword",
             inputs: [
                 "ars_nouevau:source_gem_block",
                 "ars_nouveau:source_gem_block",
-                "blue_skies:diopside_block",
+                "theurgy:sal_ammoniac_crystal",
                 "irons_spellbooks:common_ink",
                 "eidolon:oanna_bloom",
             ],
@@ -208,7 +208,7 @@ ServerEvents.recipes((event) => {
                 "create:asurine",
                 "paraglider:spirit_orb",
                 "caverns_and_chasms:necromium_ingot",
-                "blue_skies:moonstone",
+                "rubinated_nether:ruby",
             ],
         },
         {
@@ -287,9 +287,9 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "minecraft:cocoa_beans",
                 "minecraft:blaze_powder",
-                "thermal:basalz_powder"
-            ]
-        }
+                "thermal:basalz_powder",
+            ],
+        },
     ];
 
     recipes.forEach((recipe) => {

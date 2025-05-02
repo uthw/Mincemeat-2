@@ -60,7 +60,7 @@ ServerEvents.recipes((event) => {
             ["ABA", "BCB", "ABA"],
             {
                 A: "#minecraft:logs",
-                B: "#blue_skies:ingots/horizonite",
+                B: "#forge:ingots/steel",
                 C: "#forge:gears/invar",
             },
         ],
@@ -254,7 +254,7 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "storagenetwork:master",
+            "toms_storage:ts.inventory_connector",
             ["ABA", "BCB", "ABA"],
             {
                 A: "sophisticatedstorage:upgrade_base",
@@ -263,7 +263,7 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "storagenetwork:inventory",
+            "toms_storage:ts.storage_terminal",
             ["ABA", "BCB", "ABA"],
             {
                 A: "#forge:nuggets/silver",
@@ -272,25 +272,25 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "storagenetwork:inventory_remote",
+            "toms_storage:ts.wireless_terminal",
             ["A  ", "BCB", "DED"],
             {
                 A: "createaddition:connector",
                 B: "create:andesite_alloy",
                 C: "immersiveengineering:component_iron",
                 D: "#forge:ingots/silver",
-                E: "storagenetwork:master",
+                E: "toms_storage:ts.inventory_connector",
             },
         ],
         [
-            "storagenetwork:crafting_remote",
+            "toms_storage:ts.adv_wireless_terminal",
             ["A  ", "BCB", "DED"],
             {
                 A: "createaddition:large_connector",
                 B: "#forge:silicon",
                 C: "#forge:workbench",
                 D: "#forge:ingots/silver",
-                E: "storagenetwork:master",
+                E: "toms_storage:ts.inventory_connector",
             },
         ],
         [
@@ -387,8 +387,8 @@ ServerEvents.recipes((event) => {
             ["ABC", "DEF", "GHI"],
             {
                 A: "atmospheric:aloe_kernels",
-                B: "blue_skies:winter_leaf_seeds",
-                C: "blue_skies:fiery_bean_seeds",
+                B: "minecraft:pitcher_pod",
+                C: "delightful:canteloupe_seeds",
                 D: "supplementaries:flax_seeds",
                 E: "enigmaticlegacy:earth_heart",
                 F: "undergarden:gloomgourd_seeds",
@@ -426,7 +426,7 @@ ServerEvents.recipes((event) => {
             "reliquary:glacial_staff",
             ["  B", " A ", "A  "],
             {
-                A: "blue_skies:starlit_stick",
+                A: "irons_spellbooks:frosted_helve",
                 B: "iceandfire:ice_dragon_blood",
             },
         ],
@@ -493,7 +493,7 @@ ServerEvents.recipes((event) => {
             [" AB", " CD", "C  "],
             {
                 A: "forbidden_arcanus:arcane_crystal",
-                B: "blue_skies:moonstone_shard",
+                B: "caverns_and_chasms:spinel",
                 C: "#forge:rods/wooden",
                 D: "#forge:ingots/tin",
             },
@@ -666,7 +666,7 @@ ServerEvents.recipes((event) => {
             "irons_spellbooks:gold_spell_book",
             ["ABB", "ACC", "ABB"],
             {
-                A: "blue_skies:diopside_gem",
+                A: "forbidden_arcanus:rune",
                 B: "irons_spellbooks:arcane_essence",
                 C: "forbidden_arcanus:cloth",
             },
@@ -1025,7 +1025,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "eidolon:pewter_ingot",
                 B: "create:fluid_tank",
-                C: "#mcwbridges:wooden_piers",
+                C: "#quark:posts",
             },
         ],
         [
@@ -1079,7 +1079,7 @@ ServerEvents.recipes((event) => {
             [" A ", " B ", " C "],
             {
                 A: "actuallyadditions:restonia_crystal",
-                B: "storagenetwork:inventory_remote",
+                B: "toms_storage:ts.wireless_terminal",
                 C: "#sophisticatedstorage:base_tier_wooden_storage",
             },
         ],
@@ -1281,7 +1281,7 @@ ServerEvents.recipes((event) => {
             [" AB", "CB ", "DC "],
             {
                 A: "caverns_and_chasms:spinel",
-                B: "blue_skies:smooth_midnight_sandstone",
+                B: "netherexp:soul_permafrost",
                 C: "forbidden_arcanus:arcane_crystal",
                 D: "aether:aechor_petal",
             },
@@ -1440,8 +1440,8 @@ ServerEvents.recipes((event) => {
             {
                 A: "#forge:storage_blocks/silver",
                 B: "create:andesite_alloy",
-                C: "minecraft:ender_eye"
-            }
+                C: "minecraft:ender_eye",
+            },
         ],
         [
             "2x celestisynth:eyebomination",
@@ -1449,8 +1449,8 @@ ServerEvents.recipes((event) => {
             {
                 A: "minecraft:ender_eye",
                 B: "alexscaves:ferrouslime_ball",
-                C: "eidolon:wraith_heart"
-            }
+                C: "eidolon:wraith_heart",
+            },
         ],
         [
             "celestisynth:starlit_factory",
@@ -1461,9 +1461,9 @@ ServerEvents.recipes((event) => {
                 C: "galosphere:combustion_table",
                 D: "#forge:workbench",
                 E: "irons_spellbooks:alchemist_cauldron",
-                F: "undergarden:shiverstone_bricks"
-            }
-        ]
+                F: "undergarden:shiverstone_bricks",
+            },
+        ],
     ];
 
     recipes.forEach((recipe) => {

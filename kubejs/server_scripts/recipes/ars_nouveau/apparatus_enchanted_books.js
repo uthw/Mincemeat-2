@@ -694,7 +694,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "2x ars_nouveau:water_essence",
                 "forbidden_arcanus:arcane_crystal_block",
-                "blue_skies:aquite_block",
+                "theurgy:sal_ammoniac_crystal",
             ],
             enchantment: "enigmaticlegacy:wrath",
             level: 1,
@@ -704,7 +704,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "3x ars_nouveau:water_essence",
                 "2x forbidden_arcanus:arcane_crystal_block",
-                "blue_skies:aquite_block",
+                "theurgy:sal_ammoniac_crystal",
             ],
             enchantment: "enigmaticlegacy:wrath",
             level: 2,
@@ -714,7 +714,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "3x ars_nouveau:water_essence",
                 "2x forbidden_arcanus:arcane_crystal_block",
-                "2x blue_skies:aquite_block",
+                "2x theurgy:sal_ammoniac_crystal",
             ],
             enchantment: "enigmaticlegacy:wrath",
             level: 3,
@@ -724,7 +724,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "4x ars_nouveau:water_essence",
                 "2x forbidden_arcanus:arcane_crystal_block",
-                "2x blue_skies:aquite_block",
+                "2x theurgy:sal_ammoniac_crystal",
             ],
             enchantment: "enigmaticlegacy:wrath",
             level: 4,
@@ -734,7 +734,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "3x ars_nouveau:water_essence",
                 "2x forbidden_arcanus:arcane_crystal_block",
-                "3x blue_skies:aquite_block",
+                "3x theurgy:sal_ammoniac_crystal",
             ],
             enchantment: "enigmaticlegacy:wrath",
             level: 5,
@@ -1234,7 +1234,7 @@ ServerEvents.recipes((event) => {
         },
         {
             inputs: [
-                "blue_skies:charoite",
+                "forbidden_arcanus:rune",
                 "3x ars_nouveau:source_gem_block",
                 "4x paraglider:spirit_orb",
             ],
@@ -1244,7 +1244,7 @@ ServerEvents.recipes((event) => {
         },
         {
             inputs: [
-                "blue_skies:charoite",
+                "forbidden_arcanus:rune",
                 "2x ars_nouveau:source_gem_block",
                 "5x paraglider:spirit_orb",
             ],
@@ -1254,7 +1254,7 @@ ServerEvents.recipes((event) => {
         },
         {
             inputs: [
-                "2x blue_skies:charoite",
+                "2x forbidden_arcanus:rune",
                 "ars_nouveau:source_gem_block",
                 "5x paraglider:spirit_orb",
             ],
@@ -1321,7 +1321,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "ars_nouveau:air_essence",
                 "paraglider:paraglider",
-                "blue_skies:bug_guts",
+                "iceandfire:pixie_dust",
                 "ars_nouveau:source_gem_block",
             ],
             enchantment: "allurement:launch",
