@@ -216,6 +216,30 @@ ItemEvents.modification((event) => {
             toughness: 4,
             knockback: 0.2,
         },
+        {
+            name: "deep_aether:stormforged_helmet",
+            protection: 3,
+            toughness: 1.5,
+            knockback: 0.15
+        },
+        {
+            name: "deep_aether:stormforged_chestplate",
+            protection: 9,
+            toughness: 1.5,
+            knockback: 0.15
+        },
+        {
+            name: "deep_aether:stormforged_leggings",
+            protection: 7,
+            toughness: 1.5,
+            knockback: 0.15
+        },
+        {
+            name: "deep_aether:stormforged_boots",
+            protection: 3,
+            toughness: 1.5,
+            knockback: 0.15
+        },
     ];
 
     armors.forEach((armor) => {
