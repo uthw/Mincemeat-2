@@ -722,6 +722,7 @@
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
+			description: ["The strength of the foes you fight increases with how far away you are from your world spawn. If you're going on an expedition, be sure to pack your strongest gear!"]
 			id: "3571CB6136F6E3EB"
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
@@ -792,7 +793,7 @@
 			description: [
 				"When you open your inventory, you're met with a &dbunch of item icons&r on the right and a &dsearch bar&r on the bottom."
 				""
-				"This is &9EMI&r, this modpack's recipe browser! &9EMI&r is similar to JEI, in fact, this modpack also contains JEI to show you some modded recipes! Here are some shortcuts:"
+				"This is &9EMI&r, this modpack's recipe browser! &9EMI&r is quite similar to JEI."
 				""
 				"&2CTRL + F&r: focus on the search bar."
 				"&2CTRL + O&r: hide EMI."
@@ -917,8 +918,6 @@
 		{
 			dependencies: ["0A6DBC786BCF967E"]
 			description: [
-				"&l&cIMPORTANT:&r &cthe process of upgrading your hook has changed in 0.4.14, read carefully!&r"
-				""
 				"A fun and practical form of transportation. It can be upgraded for various use cases. It may be a good idea to carry multiple grappling hooks, each with different upgrades, at a time to fit your scenario."
 				""
 				"Upgrade your hook by crafting the upgrade you want and then right-clicking the Grappling Hook Modifier block with the hook. You'll then see a GUI where you can apply the modules you want."
@@ -1354,8 +1353,16 @@
 			id: "124F78ABE60D125F"
 			subtitle: "For all your storage needs"
 			tasks: [{
-				id: "15A0E1F3A21D3944"
-				item: "storagenetwork:master"
+				id: "7B8405AB074B05A9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.inventory_connector"
+				}
 				type: "item"
 			}]
 			x: 6.0d
@@ -1363,12 +1370,20 @@
 		}
 		{
 			dependencies: ["124F78ABE60D125F"]
-			description: ["Place this adjacent to or linked to the storage root using network cables."]
+			description: ["Place this adjacent to or linked to the inventory connector using network cables."]
 			id: "5D90018D6FA71B0A"
 			subtitle: "Access all inventories on your network"
 			tasks: [{
-				id: "41A8F02BEA449A61"
-				item: "storagenetwork:inventory"
+				id: "53C5775D4B6047BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.storage_terminal"
+				}
 				type: "item"
 			}]
 			x: 7.5d
@@ -1379,11 +1394,34 @@
 			description: ["Run these between your root and various inventories (chests and the like) to connect them."]
 			id: "1E50764219F50711"
 			subtitle: "Add inventories to your network"
-			tasks: [{
-				id: "30417D3950C8B870"
-				item: "storagenetwork:storage_kabel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BF1FCD46CBA4BF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "59F83EC2F19497B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_cable_connector"
+					}
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 0.0d
 		}
@@ -2460,7 +2498,8 @@
 		{
 			dependencies: ["68BF59DD76897182"]
 			id: "321B54476858F547"
-			subtitle: "Outputs a redstone signal with strength based on hardness of the block above"
+			optional: true
+			subtitle: "Fun: outputs a redstone signal with strength based on hardness of the block above"
 			tasks: [{
 				id: "294EACB2B413B628"
 				item: "galosphere:silver_balance"
@@ -2516,16 +2555,6 @@
 				{
 					id: "3B90AE3D65F1ECBA"
 					item: "minecraft:stonecutter"
-					type: "item"
-				}
-				{
-					id: "31ADA9C69D49817E"
-					item: "domum_ornamentum:architectscutter"
-					type: "item"
-				}
-				{
-					id: "2C613AC5D62A0202"
-					item: "everythingcopper:weathering_station"
 					type: "item"
 				}
 				{
@@ -2826,8 +2855,16 @@
 			description: ["The same as a Storage Inventory, but this block includes a crafting grid to make items using whatever you have in your storage inventory for your convenience."]
 			id: "1BD37892B0CBA88E"
 			tasks: [{
-				id: "7251EF24F2B87861"
-				item: "storagenetwork:request"
+				id: "677DD2E01575CB08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.crafting_terminal"
+				}
 				type: "item"
 			}]
 			x: 9.0d
@@ -2869,13 +2906,11 @@
 		{
 			dependencies: ["5AA15937C7BBDF98"]
 			description: [
-				"Since you're starting down the technical route, now's a goo dtime to learn about FTB Chunks."
+				"Since you're starting down the technical route, now's a good time to learn about Open Parties and Claims."
 				""
-				"Press the button in the top left corner of the inventory near the quests button which says \"FTB Chunks: Claim Manager.\""
+				"By right-clicking a chunk in the world map, you can claim it in the name of yourself (or your team). This stops explosions from destroying blocks, but it also restricts other players' abilities to interact with those chunks. Be wary of this in multiplayer!"
 				""
-				"On this screen, you can click to claim chunks in the name of yourself (or your team). This stops explosions from destroying blocks, but it also restricts other players' abilities to interact with those chunks. Be wary of this in multiplayer!"
-				""
-				"Shift click claimed chunks to keep them loaded at all times. This means you don't need to build all your farms in spawn chunks to keep them active, but don't force load too many or your game will lag."
+				"Right click the claimed chunk again and look at the option to force load it. This means you don't need to build all your farms in spawn chunks to keep them active, but don't force load too many or your game will lag."
 			]
 			id: "1270DA53E36668C7"
 			tasks: [{
