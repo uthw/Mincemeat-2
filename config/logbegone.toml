@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers"]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers", "Shield Expansion"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers", "Shield Expansion"]
 
