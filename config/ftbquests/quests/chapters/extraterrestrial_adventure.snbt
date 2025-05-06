@@ -708,7 +708,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["70DBB1A58513B2DB"]
+			dependencies: ["044D8690E93C528B"]
 			description: [
 				"You know it's a &6Bronze Dungeon&r if it's a big box embedded within the surrounding terrain. The creators usually hide entrances in the &asides or top&r of the dungeon, &onever&r the bottom."
 				""
@@ -718,7 +718,15 @@
 				""
 				"Good luck, and don't forget to set your spawn point!"
 			]
-			icon: "aether:sentry_stone"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "aether:sentry_stone"
+			}
 			id: "43C5DFBA3E25CC38"
 			tasks: [{
 				id: "677890218910EA14"
@@ -759,8 +767,8 @@
 				}
 			]
 			title: "Gather Heavenly Materials"
-			x: 15.0d
-			y: -4.0d
+			x: 16.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["43C5DFBA3E25CC38"]
@@ -831,13 +839,21 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["43C5DFBA3E25CC38"]
+			dependencies: ["044D8690E93C528B"]
 			description: [
 				"&bBlue aercluds&r can be found higher up in the Aether's sky. They resemble &aslime blocks&r, but they launch you &bpretty high up &rregardless of how high you fell onto them from."
 				""
 				"&oWeeeeeeeeee!"
 			]
-			icon: "aether:blue_aercloud"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "aether:blue_aercloud"
+			}
 			id: "65E1148A6507E12A"
 			tasks: [{
 				id: "5F5B0196EB2567FF"
@@ -847,8 +863,8 @@
 				type: "observation"
 			}]
 			title: "Blue Aerclouds"
-			x: 14.5d
-			y: -1.5d
+			x: 15.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["09E342C749BFEEC6"]
@@ -1018,7 +1034,15 @@
 		{
 			dependencies: ["2C47A12A20C50CE6"]
 			description: ["These are &alarge islands&r with towers. The surface is around y = 170, so look for an island with &aabnormally high altitude&r."]
-			icon: "lost_aether_content:gale_stone"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "lost_aether_content:gale_stone"
+			}
 			id: "4A08523EB680EF79"
 			tasks: [{
 				id: "65224E30F844BF93"
@@ -1098,7 +1122,7 @@
 		}
 		{
 			dependencies: ["5B32D0F375182CA7"]
-			description: ["Deals a ton of damage to undead creatures, making it a top consideration for fighting the Wither."]
+			description: ["Deals a ton of damage to undead creatures, making it a top consideration for fighting undead bosses like the Wither and Maledictus."]
 			id: "2DBDDEE400EB8E8D"
 			tasks: [{
 				id: "6C2A1E1EC18F7B03"
@@ -1344,8 +1368,8 @@
 		}
 		{
 			dependencies: [
-				"74DFDA59CB8BB00E"
 				"15BB94E145146F70"
+				"74DFDA59CB8BB00E"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -1389,7 +1413,7 @@
 			]
 			title: "Blue Skies Metals and Gems"
 			x: 0.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["74DFDA59CB8BB00E"]
@@ -1939,6 +1963,92 @@
 			}]
 			x: 11.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["044D8690E93C528B"]
+			description: [
+				"Take a quick detour and fight this easier, optional boss instead of jumping straight into the Slider. "
+				""
+				"You'll find its arena floating in the sky. Just head on up to it and make your way to the middle to challenge it!"
+				""
+				"Eye of the Storm, despite its intimidating name, is a straightforward enemy resembling Swampjaw from earlier. I'm sure you won't need any guidance at this point of your adventure."
+				""
+				"To speed things up, you can use the Blue Aerclouds in the arena to jump and make melee attacks without waiting for it to descend."
+			]
+			id: "170B3DD645FA3EAE"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "deep_aether:light_nimbus_pillar"
+				}
+				id: "5AD259E51FEA882B"
+				structure: "deep_aether:brass_dungeon"
+				title: "Find the Brass Dungeon"
+				type: "structure"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["170B3DD645FA3EAE"]
+			description: [""]
+			id: "72FD5A88433039F9"
+			rewards: [{
+				id: "1B3AFD36B049FACF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deep_aether:eots_controller"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "deep_aether:brass_dungeon_key"
+				}
+				id: "775D71823BD1EAC2"
+				title: "Kill the Eye of the Storm"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74DFDA59CB8BB00E"]
+			description: ["This is your way of smelting items in the Everbright - the cold air is not friendly to regular furnaces."]
+			id: "592D315DEB725D11"
+			tasks: [{
+				id: "7011C7A536D2F054"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "blue_skies:snowcap_oven"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 	title: "Dimensional Adventure"
