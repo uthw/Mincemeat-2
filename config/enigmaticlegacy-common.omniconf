@@ -463,7 +463,7 @@
     I:EnderSlayerEndKnockbackBonus=600
 
     # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
-    D:EnigmaticAmuletDamageBonus=1.5
+    D:EnigmaticAmuletDamageBonus=5.0
 
     # Whether or not it should be possible to equip multiple Enigmatic Amulets, granted player somehow gets more than one charm slot. [default: false, synchronized: yes]
     B:EnigmaticAmuletMultiequip=false
