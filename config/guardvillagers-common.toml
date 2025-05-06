@@ -14,7 +14,7 @@
 	#Range: -500.0 ~ 500.0
 	Range = 50.0
 	#Range: > -2147483648
-	"Minimum reputation requirement for guards to give you access to their inventories" = 90
+	"Minimum reputation requirement for guards to give you access to their inventories" = 9999
 	"Have guards attempt to avoid firing into other friendlies?" = true
 	#How much health a guard regenerates.
 	#Range: -500.0 ~ 500.0
@@ -51,7 +51,7 @@
 	#Guards will attack all hostiles with this option, when set to false guards will only attack zombies and illagers.
 	"Guards attack all mobs?" = true
 	#Guards won't attack mobs in this list at all, for example, putting "minecraft:creeper" in this list will make guards ignore creepers.
-	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard", "creeperoverhaul:badlands_creeper", "creeperoverhaul:bamboo_creeper", "creeperoverhaul:beach_creeper", "creeperoverhaul:cave_creeper", "creeperoverhaul:dark_oak_creeper", "creeperoverhaul:desert_creeper", "creeperoverhaul:dripstone_creeper", "creeperoverhaul:hills_creeper", "creeperoverhaul:jungle_creeper", "creeperoverhaul:mushroom_creeper", "creeperoverhaul:ocean_creeper", "creeperoverhaul:savannah_creeper", "creeperoverhaul:snowy_creeper", "creeperoverhaul:spruce_creeper", "creeperoverhaul:swamp_creeper", "graveyard:skeleton_creeper", "mekanismadditions:baby_creeper"]
+	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard", "creeperoverhaul:badlands_creeper", "creeperoverhaul:bamboo_creeper", "creeperoverhaul:beach_creeper", "creeperoverhaul:cave_creeper", "creeperoverhaul:dark_oak_creeper", "creeperoverhaul:desert_creeper", "creeperoverhaul:dripstone_creeper", "creeperoverhaul:hills_creeper", "creeperoverhaul:jungle_creeper", "creeperoverhaul:mushroom_creeper", "creeperoverhaul:ocean_creeper", "creeperoverhaul:savannah_creeper", "creeperoverhaul:snowy_creeper", "creeperoverhaul:spruce_creeper", "creeperoverhaul:swamp_creeper", "graveyard:skeleton_creeper", "mekanismadditions:baby_creeper", "minecraft:creeper", "thermal:blitz"]
 	#Guards will additionally attack mobs ids put in this list, for example, putting "minecraft:cow" in this list will make guards attack cows.
 	"Mob Whitelist" = []
 	#Hostiles attack guards, by default only illagers and zombies will attack guards, the mob blacklist below will effect this option
