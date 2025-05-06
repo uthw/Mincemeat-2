@@ -243,52 +243,52 @@ ServerEvents.recipes((event) => {
             "minecraft:ender_pearl",
             "forbidden_arcanus:dark_matter",
         ],
-        [
-            { mod: "naturesaura", type: "naturesaura_tree_ritual" },
-            "minecraft:gold_ingot",
-            "#forge:gems/arcane_crystal",
-        ],
-        [
-            { mod: "naturesaura", type: "crafting_shaped" },
-            "minecraft:gold_ingot",
-            "#forge:gems/arcane_crystal",
-        ],
-        [
-            { output: "naturesaura:eye" },
-            "minecraft:spider_eye",
-            "alexsmobs:guster_eye",
-        ],
-        // Botania
-        [
-            { output: "naturesaura:aura_cache" },
-            "minecraft:bucket",
-            "botania:mana_pool",
-        ],
-        [
-            { output: "naturesaura:oak_generator" },
-            "minecraft:bone_meal",
-            "create:tree_fertilizer",
-        ],
-        [
-            { mod: "naturesaura" },
-            "minecraft:brewing_stand",
-            "eidolon:wooden_brewing_stand",
-        ],
-        [
-            { mod: "naturesaura" },
-            "minecraft:ghast_tear",
-            "iceandfire:ectoplasm",
-        ],
-        [
-            { mod: "naturesaura" },
-            "minecraft:mossy_cobblestone",
-            "minecraft:moss_block",
-        ],
-        [
-            { mod: "naturesaura" },
-            "minecraft:ender_pearl",
-            "paraglider:spirit_orb",
-        ],
+        // [
+        //     { mod: "naturesaura", type: "naturesaura_tree_ritual" },
+        //     "minecraft:gold_ingot",
+        //     "#forge:gems/arcane_crystal",
+        // ],
+        // [
+        //     { mod: "naturesaura", type: "crafting_shaped" },
+        //     "minecraft:gold_ingot",
+        //     "#forge:gems/arcane_crystal",
+        // ],
+        // [
+        //     { output: "naturesaura:eye" },
+        //     "minecraft:spider_eye",
+        //     "alexsmobs:guster_eye",
+        // ],
+        // // Botania
+        // [
+        //     { output: "naturesaura:aura_cache" },
+        //     "minecraft:bucket",
+        //     "botania:mana_pool",
+        // ],
+        // [
+        //     { output: "naturesaura:oak_generator" },
+        //     "minecraft:bone_meal",
+        //     "create:tree_fertilizer",
+        // ],
+        // [
+        //     { mod: "naturesaura" },
+        //     "minecraft:brewing_stand",
+        //     "eidolon:wooden_brewing_stand",
+        // ],
+        // [
+        //     { mod: "naturesaura" },
+        //     "minecraft:ghast_tear",
+        //     "iceandfire:ectoplasm",
+        // ],
+        // [
+        //     { mod: "naturesaura" },
+        //     "minecraft:mossy_cobblestone",
+        //     "minecraft:moss_block",
+        // ],
+        // [
+        //     { mod: "naturesaura" },
+        //     "minecraft:ender_pearl",
+        //     "paraglider:spirit_orb",
+        // ],
         // thermal
         [
             { output: "powah:capacitor_basic" },
@@ -857,12 +857,12 @@ ServerEvents.recipes((event) => {
         [
             { output: "ars_elemental:glyph_charm" },
             "minecraft:cake",
-            "famersdelight:apple_pie_slice",
+            "farmersdelight:apple_pie_slice",
         ],
         [
             { output: "ars_elemental:glyph_charm" },
             "minecraft:golden_carrot",
-            "famersdelight:chocolate_pie_slice",
+            "farmersdelight:chocolate_pie_slice",
         ],
         [
             { output: "ars_elemental:glyph_charm" },
@@ -892,7 +892,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "ars_nouveau:glyph_crush" },
             "minecraft:grindstone",
-            "betterend:iron_hammer",
+            "forbidden_arcanus:iron_blacksmith_gavel",
         ],
         [
             { output: "ars_nouveau:glyph_cut" },
@@ -1376,11 +1376,11 @@ ServerEvents.recipes((event) => {
             "minecraft:iron_ingot",
             "#forge:ingots/aluminum",
         ],
-        [
-            { output: "sawmill:sawmill" },
-            "minecraft:iron_ingot",
-            "thermal:saw_blade",
-        ],
+        // [
+        //     { output: "sawmill:sawmill" },
+        //     "minecraft:iron_ingot",
+        //     "thermal:saw_blade",
+        // ],
         [
             { output: "framedblocks:framing_saw" },
             "minecraft:iron_ingot",
@@ -1472,7 +1472,6 @@ ServerEvents.recipes((event) => {
             "minecraft:amethyst_shard",
             "galosphere:pink_salt_shard",
         ],
-        [],
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
