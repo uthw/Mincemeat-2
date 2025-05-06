@@ -1,6 +1,6 @@
 {
   "log_level": "OPERATORS",
-  "auto_kill_ticking_entities": false,
+  "auto_kill_ticking_entities": true,
   "ticking_exception_threshold": 10,
   "handle_ticking_entities": true,
   "handle_ticking_block_entities": true,
