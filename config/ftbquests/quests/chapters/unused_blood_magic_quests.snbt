@@ -616,6 +616,491 @@
 			x: 2.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["15930FDDCEC9C06C"]
+			id: "7A5962F1D83C2B7B"
+			subtitle: "Dropped by golden trees (converted using brilliant fiber)"
+			tasks: [{
+				count: 64L
+				id: "399ADDF5BBE56FFE"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A5962F1D83C2B7B"]
+			id: "240235514E50DD3B"
+			subtitle: "Can be placed on the ground like redstone"
+			tasks: [{
+				id: "7239CBD4F10860AD"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["240235514E50DD3B"]
+			description: ["The necessary multiblock can be created using the Schematicannon."]
+			icon: "naturesaura:wood_stand"
+			id: "2FD697091D1A770B"
+			subtitle: "This is a simple setup that allows for more basic rituals with no consideration for aura."
+			tasks: [
+				{
+					count: 8L
+					id: "0E9A33F2DFB1B4BE"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0942C80E2B0D3B67"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+				{
+					id: "47E3625953E31829"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:saplings"
+						}
+					}
+					title: "Any #minecraft:saplings"
+					type: "item"
+				}
+			]
+			title: "Ritual of the Forest"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2FD697091D1A770B"]
+			description: ["Runes can be obtained using a Runic Altar from Botania."]
+			id: "5C585538B921D5C5"
+			subtitle: "Ancient saplings can replenish aura in the area around them, but decay in the process"
+			tasks: [{
+				id: "05B2714430D1CC31"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0B4A513BF76E2846"
+				"5C585538B921D5C5"
+			]
+			description: ["Automation: input to side, output on the bottom"]
+			id: "0E9A9FE26968E49E"
+			subtitle: "Collects aura from the nearby nature, but stops doing so when there is none left (still decays trees)"
+			tasks: [{
+				id: "5B673C426C580437"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4A90D63441C1795C"]
+			id: "0B4A513BF76E2846"
+			subtitle: "Created when an upwards-facing dispenser launches a bottle and cork"
+			tasks: [{
+				id: "19EA50B7C5AE4D00"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "4A90D63441C1795C"
+			invisible: true
+			tasks: [{
+				id: "133549FD7D85CB26"
+				item: "naturesaura:bottle_two_the_rebottling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E9A9FE26968E49E"]
+			id: "465A8A2181D95F8A"
+			tasks: [{
+				id: "7B0CEB60B7B5397D"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E9A9FE26968E49E"]
+			id: "222D8DE54AAD10DD"
+			tasks: [{
+				id: "4FC1F26562C0800C"
+				item: "naturesaura:infused_stone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			id: "61AAE194B8BA72B1"
+			subtitle: "Converts dead things into living things (example: coarse dirt -> grass)"
+			tasks: [{
+				id: "13B3BF6F9D97159F"
+				item: {
+					Count: 1
+					id: "naturesaura:infused_iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			id: "603C8A8AFB5E8383"
+			subtitle: "Slows targets"
+			tasks: [{
+				id: "4E6A1198EC571F0A"
+				item: {
+					Count: 1
+					id: "naturesaura:infused_iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			id: "41FA01E1560E3A14"
+			subtitle: "Chance to give seeds when tilling"
+			tasks: [{
+				id: "748F7F20754CA9E4"
+				item: {
+					Count: 1
+					id: "naturesaura:infused_iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			icon: {
+				Count: 1
+				id: "naturesaura:infused_iron_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "440EB0C44E9E4210"
+			subtitle: "Set bonus: wither thorns"
+			tasks: [
+				{
+					id: "1659A1430145068D"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619AC7BD1AFF0AC1"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43E2630148EA9A73"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "130E29E1CC8D0D33"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Botanist Armor"
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["222D8DE54AAD10DD"]
+			id: "5E7343B2B03BE7BD"
+			subtitle: "Recharge at natural altars. Powers items that need aura, and repairs tools and armor from Nature's Aura"
+			tasks: [{
+				id: "06FF0310E9901F13"
+				item: "naturesaura:aura_cache"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0E9A9FE26968E49E"]
+			id: "2FA39407D30CB06F"
+			subtitle: "Shows information about aura around you"
+			tasks: [{
+				id: "1C9C1B8EE0F677D8"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D05B9303A7D4850"]
+			id: "2272BB402C499947"
+			subtitle: "Heat furnaces using aura instead of fuel"
+			tasks: [{
+				id: "415C00C611EC1724"
+				item: "naturesaura:furnace_heater"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0B4A513BF76E2846"]
+			id: "5D05B9303A7D4850"
+			subtitle: "Same process as sunlight, only in the nether."
+			tasks: [{
+				id: "0A03804614A281CA"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			description: ["*see how to use this in the Automation chapter*"]
+			id: "7125CBBFAE4EB39E"
+			subtitle: "Prevents oak trees from growing into their larger variants, and generates aura whenever one tries to do so"
+			tasks: [{
+				id: "4CF55056F84F59CF"
+				item: "naturesaura:oak_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			id: "1810DCA9B50FF7D6"
+			subtitle: "Takes items from an inventory above it and places them nearby. Specify the block to place it on by placing an item frame on the builder"
+			tasks: [{
+				id: "1710D8BDF4C1A7CF"
+				item: "naturesaura:placer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			description: ["Multiblock is necessary. The one for the cannon needs poppies, so I will give you some as a reward for this quest."]
+			id: "5292FE7997FA5D63"
+			rewards: [{
+				count: 64
+				id: "1ACC06D6FA1F8D1E"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			subtitle: "Trade with the gods. First place the item you want to convert (try infused ingots) and then drop the spirit on the pedestal"
+			tasks: [
+				{
+					id: "03D1C68CBC13DBEB"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					id: "1A4137DEFC958CA7"
+					item: "naturesaura:calling_spirit"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5292FE7997FA5D63"]
+			id: "7988F6326CCD2EDF"
+			tasks: [{
+				id: "476E29FA3776C718"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			description: ["Could be useful when your farm could be ruined by a player picking up an item on accident"]
+			id: "42A08B84FF336532"
+			subtitle: "When activated by redstone, prevents nearby items from being picked up. Sneak to override"
+			tasks: [{
+				id: "4DE42E39008FCFB1"
+				item: "naturesaura:pickup_stopper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D05B9303A7D4850"]
+			id: "0F4CD7416740F40C"
+			subtitle: "The end."
+			tasks: [{
+				id: "19BE4BB21891253E"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			id: "5134994CCB756FA8"
+			rewards: [{
+				count: 4
+				id: "133F2FA916D09016"
+				item: "minecraft:item_frame"
+				type: "item"
+			}]
+			subtitle: "Can only handle one item at a time but passes it on instantaneously. Filter with item frames"
+			tasks: [{
+				id: "4AC12BCB1EF125BF"
+				item: "naturesaura:grated_chute"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5134994CCB756FA8"]
+			id: "242EB2A21CFBE294"
+			subtitle: "Increases pickup range for hoppers by 7 blocks in each direction"
+			tasks: [{
+				id: "6F15CF04CE644091"
+				item: "naturesaura:hopper_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C585538B921D5C5"]
+			id: "201CFD4A334C390C"
+			optional: true
+			subtitle: "Automatic shaped or shapeless crafting, put the table in the middle with arrow pointing towards the top middle slot"
+			tasks: [{
+				id: "0E4C004F4EE441DF"
+				item: "naturesaura:auto_crafter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2FA39407D30CB06F"]
+			id: "47F27B1EE32E6257"
+			subtitle: "Redstone signal depending on the amount of aura in the area"
+			tasks: [{
+				id: "20F74332A85A7BAB"
+				item: "naturesaura:eye_improved"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["465A8A2181D95F8A"]
+			id: "1135CCCECAC47638"
+			tasks: [{
+				id: "532E81E4D41D220E"
+				item: "naturesaura:mover_cart"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			description: [""]
+			id: "15930FDDCEC9C06C"
+			invisible: true
+			subtitle: "Right click on leaves using the fiber, then wait for the tree to turn gold"
+			tasks: [{
+				id: "1954998D6A43E3EE"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
 	]
-	title: "unused blood magic quests"
+	title: "quests for deleted mods"
 }
