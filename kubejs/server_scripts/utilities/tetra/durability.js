@@ -512,7 +512,7 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/bronze", durability: 500 },
         { name: "metal/electrum", durability: 106 },
         { name: "metal/elementium", durability: 1440 },
-        { name: "metal/infused_iron", durability: 500 },
+        // { name: "metal/infused_iron", durability: 500 },
         { name: "metal/lead", durability: 240 },
         {
             name: "metal/manasteel",
@@ -528,11 +528,11 @@ ServerEvents.highPriorityData((event) => {
             durability: 386,
             attributes: { "generic.armor": 2 },
         }, // more than 2x for consistency with eidolon
-        { name: "metal/sky", durability: 3000 },
+        // { name: "metal/sky", durability: 3000 },
         { name: "metal/steel", durability: 1300 },
         { name: "metal/terrasteel", durability: 4600 },
         { name: "metal/tin", durability: 252 },
-        { name: "wood/ancient_wood", durability: 120 },
+        // { name: "wood/ancient_wood", durability: 120 },
         { name: "wood/baobab", durability: 360 },
         { name: "wood/dreamwood", durability: 300 },
         { name: "wood/livingwood", durability: 140 },

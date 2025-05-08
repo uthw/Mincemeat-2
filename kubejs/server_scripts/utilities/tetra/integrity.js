@@ -132,21 +132,21 @@ ServerEvents.highPriorityData((event) => {
             gain: 3,
         },
         {
-            path: "end_rod",
+            path: "rod/end_rod",
             gain: 3,
         },
         {
-            path: "forged_beam",
-            gain: 6,
+            path: "rod/forged_beam",
+            gain: 5,
         },
         {
-            path: "blaze_rod",
+            path: "rod/blaze_rod",
             gain: 3,
         },
-        {
-            path: "metal/sky",
-            gain: 6,
-        },
+        // {
+        //     path: "metal/sky",
+        //     gain: 6,
+        // },
         {
             path: "bone/wither_bone",
             gain: 4,
@@ -263,10 +263,10 @@ ServerEvents.highPriorityData((event) => {
             path: "wood/ecologics_flowering_azalea",
             gain: 2,
         },
-        {
-            path: "wood/ancient_wood",
-            gain: 3,
-        },
+        // {
+        //     path: "wood/ancient_wood",
+        //     gain: 3,
+        // },
         {
             path: "wood/bluebright",
             gain: 2,
