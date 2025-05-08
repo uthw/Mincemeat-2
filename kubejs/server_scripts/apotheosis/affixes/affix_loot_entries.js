@@ -109,15 +109,15 @@ ServerEvents.highPriorityData((event) => {
                     quality: 6,
                 },
 
-                { item: "mekanism:lapis_lazuli_leggings", weight: 15 },
-                { item: "mekanism:lapis_lazuli_boots", weight: 15 },
-                { item: "mekanism:lapis_lazuli_helmet", weight: 15 },
-                { item: "mekanism:lapis_lazuli_chestplate", weight: 15 },
+                { item: "mekanismtools:lapis_lazuli_leggings", weight: 15 },
+                { item: "mekanismtools:lapis_lazuli_boots", weight: 15 },
+                { item: "mekanismtools:lapis_lazuli_helmet", weight: 15 },
+                { item: "mekanismtools:lapis_lazuli_chestplate", weight: 15 },
 
-                { item: "mekanism:bronze_leggings", weight: 15 },
-                { item: "mekanism:bronze_boots", weight: 15 },
-                { item: "mekanism:bronze_helmet", weight: 15 },
-                { item: "mekanism:bronze_chestplate", weight: 15 },
+                { item: "mekanismtools:bronze_leggings", weight: 15 },
+                { item: "mekanismtools:bronze_boots", weight: 15 },
+                { item: "mekanismtools:bronze_helmet", weight: 15 },
+                { item: "mekanismtools:bronze_chestplate", weight: 15 },
 
                 {
                     item: "mekanismtools:refined_glowstone_helmet",
