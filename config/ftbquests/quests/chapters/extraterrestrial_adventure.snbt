@@ -2050,6 +2050,27 @@
 			x: 0.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["47F8DC09096B0991"]
+			description: ["You've now progressed far enough into the game to obtain a pretty good charm. You can find the other Enigmatic Amulets by defeating bosses in the Overworld - check the information tab for more information."]
+			id: "3E49DFF824488A27"
+			tasks: [{
+				id: "65088E093B0DB01C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
 	]
 	title: "Dimensional Adventure"
 }
