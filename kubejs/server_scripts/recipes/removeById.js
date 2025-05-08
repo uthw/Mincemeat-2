@@ -143,7 +143,12 @@ ServerEvents.recipes((event) => {
         "celestisynth:frostbound",
         "celestisynth:keres",
         "celestisynth:starlit_factory",
-        "netherexp:necromium_plating"
+        "netherexp:necromium_plating",
+        "waystones:return_scroll",
+        "waystones:bound_scroll",
+        "waystones:warp_scroll",
+        "cold_sweat:boiler",
+        "cold_sweat:icebox"
     ];
 
     toRemove.forEach((recipeId) => {

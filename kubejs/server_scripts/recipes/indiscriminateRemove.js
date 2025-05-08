@@ -10,7 +10,6 @@ ServerEvents.recipes((event) => {
         "irons_spellbooks:magic_cloth",
         "railcraft:brass_ingot",
         "irons_spellbooks:diamond_spell_book",
-        "botania:apothecary_default",
         "aquamirae:terrible_sword",
         "forbidden_arcanus:spectral_eye_amulet",
         "forbidden_arcanus:eternal_stella",
@@ -49,8 +48,6 @@ ServerEvents.recipes((event) => {
         "integrateddynamics:drying_basin",
         "mekanism:metallurgic_infuser",
         "mekanism:energy_tablet",
-        "botania:apothecary_default",
-        "botania:mana_ring",
         "naturesaura:ancient_sapling",
         "reliquary:fertile_lily_pad",
         "integrateddynamics:menril_sapling",
@@ -189,7 +186,9 @@ ServerEvents.recipes((event) => {
         "toms_storage:ts.wireless_terminal",
         "toms_storage:ts.storage_terminal",
         "toms_storage:ts.crafting_terminal",
-        "toms_storage:ts.adv_wireless_terminal"
+        "toms_storage:ts.adv_wireless_terminal",
+        "v_slab_compat:environmental/grass_thatch_vertical_slab",
+        "art_of_forging:shockwave_chamber"
     ];
 
     toRemove.forEach((item) => {
