@@ -1,0 +1,38 @@
+[
+    {
+        "modules": [
+            "double/basic_pickaxe",
+            "double/basic_pickaxe"
+        ],
+        "sameVariant": true,
+        "tools": {
+            "pickaxe_dig": 1
+        }
+    },
+    {
+        "modules": [
+            "double/basic_hammer",
+            "double/basic_hammer"
+        ],
+        "sameVariant": true,
+        "tools": {
+            "hammer_dig": 1
+        }
+    },
+    {
+        "modules": [
+            "double/butt",
+            "double/hoe"
+        ],
+        "sameVariant": false,
+        "attributes": {
+                "generic.attack_damage": -2,
+                "generic.attack_speed": 3.05
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": -1
+                }
+    }
+}
+]

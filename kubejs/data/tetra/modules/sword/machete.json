@@ -1,6 +1,6 @@
 {
     "improvements": [
-        "tetra:sword/heavy_blade/",
+        "tetra:sword/machete/",
         "tetra:sword/shared_blade/",
         "tetra:sword/shared/",
         "tetra:shared/"
@@ -13,19 +13,18 @@
     "variants": [
         {
             "aspects": {
+                "block_breaker": 1,
                 "breakable": 2,
                 "edged_weapon": 2
             },
             "attributes": {
-                "generic.attack_speed": -1.6,
-                "generic.attack_damage": 2
+                "generic.attack_speed": -1.8
             },
+            "durability": -20,
             "effects": {
-                "sweeping": [
-                    2,
-                    0.5
-                ],
-                "truesweep": 1
+                "strikingCut": 1,
+                "sweepingStrike": 1,
+                "bleeding": 1
             },
             "extract": {
                 "availableTextures": [
@@ -34,41 +33,47 @@
                     "grainy",
                     "crude"
                 ],
-                "durability": 1,
+                "durability": 0.9,
                 "glyph": {
-                    "textureX": 48
+                    "textureX": 48,
+                    "textureY": 32
                 },
                 "integrity": -1,
                 "magicCapacity": 1,
                 "models": [
                     {
-                        "location": "tetra:item/module/sword/blade/heavy/"
+                        "location": "tetra:item/module/sword/blade/machete/"
                     }
                 ],
                 "primaryAttributes": {
-                    "generic.attack_damage": 0.8,
-                    "forge:reach_distance": 0.06,
-                    "forge:attack_range": 0.06
-                },
-                "primaryEffects": {
-                    "sweeping": 0.6
+                    "generic.attack_damage": 0.9,
+                    "bleeding": -2
                 },
                 "secondaryAttributes": {
-                    "generic.attack_damage": 0.4,
-                    "generic.attack_speed": -0.15
+                    "generic.attack_speed": -0.1
+                },
+                "tertiaryEffects": {
+                    "bleeding": 0.4
+                },
+                "tools": {
+                    "cut": [
+                        0,
+                        0.4
+                    ]
                 }
             },
-            "integrity": -1,
-            "key": "heavy_blade/",
+            "key": "machete/",
             "materials": [
-                "tetra:metal/",
+                "tetra:wood/",
                 "tetra:stone/",
-                "tetra:wood/"
+                "tetra:metal/",
+                "tetra:gem/",
+                "tetra:bone/"
             ],
             "tools": {
                 "cut": [
                     1,
-                    3
+                    0.2
                 ]
             }
         }

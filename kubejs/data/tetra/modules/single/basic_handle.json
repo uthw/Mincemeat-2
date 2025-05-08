@@ -19,9 +19,10 @@
             ],
             "key": "basic_handle/",
             "attributes": {
-                "generic.attack_speed": -1.8,
+                "generic.attack_speed": -1.05,
                 "forge:reach_distance": 0.75,
-                "forge:attack_range": 0.75
+                "forge:attack_range": 0.75,
+                "generic.attack_damage": -1.5
             },
             "aspects": { "block_breaker": 1, "breakable": 2 },
             "durability": 7,

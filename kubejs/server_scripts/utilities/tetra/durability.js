@@ -294,30 +294,35 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "metal/iceandfire_lightning_dragonsteel",
             durability: 16000,
-            primary: 11,
+            primary: 17,
+            effects: { "art_of_forging:stormcaller": [1, 100] },
         },
         {
             name: "metal/iceandfire_ice_dragonsteel",
             durability: 16000,
-            primary: 11,
+            primary: 17,
+            effects: { "irons_spellbooks:freeze": 5 },
         },
         {
             name: "metal/iceandfire_fire_dragonsteel",
             durability: 16000,
-            primary: 11,
+            primary: 17,
+            attributes: { "attributeslib:fire_damage": 5 },
         },
-        { name: "metal/create_zinc", durability: 400 },
-        { name: "metal/create_shadow_steel", durability: 2730 },
-        { name: "metal/create_refined_radiance", durability: 1752 },
-        { name: "metal/create_brass", durability: 924 },
-        { name: "metal/create_andesite_alloy", durability: 396 },
+
         {
             name: "metal/blue_skies_horizonite",
             durability: 500,
             improvements: {
                 "dimasctetracompat/fairweather": 0,
             },
+            attributes: { "attributeslib:fire_damage": 5 },
         },
+        { name: "metal/create_zinc", durability: 400 },
+        { name: "metal/create_shadow_steel", durability: 2730 },
+        { name: "metal/create_refined_radiance", durability: 1752 },
+        { name: "metal/create_brass", durability: 924 },
+        { name: "metal/create_andesite_alloy", durability: 396 },
         // { name: "gem/deeperdarker_warden", durability: 5038, primary: 9 },
         {
             name: "gem/blue_skies_pyrope",

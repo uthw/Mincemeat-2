@@ -19,14 +19,12 @@
             ],
             "key": "flamberge_blade/",
             "attributes": {
-                "generic.attack_speed": -1.85,
-                "generic.attack_damage": 0.65
+                "generic.attack_speed": -2.2,
+                "generic.attack_damage": 1.65
             },
             "effects": {
                 "armorPenetration": 6,
-                "sweeping": 1,
-                "puncture": [3, 8],
-                "bleeding": 1
+                "puncture": [6, 20]
             },
             "tools": {
                 "cut": [1, 0.5]
@@ -41,15 +39,15 @@
                     "generic.attack_damage": 1
                 },
                 "primaryEffects": {
-                    "armorPenetration": 2
+                    "armorPenetration": 4,
+                    "puncture": [-0.1, 2]
                 },
                 "secondaryEffects": {
                     "puncture": 2
                 },
                 "tertiaryEffects": {
-                    "sweeping": 1,
                     "armorPenetration": -1,
-                    "puncture": -0.3
+                    "puncture": 0.3
                 },
                 "durability": 0.9,
                 "integrity": -1,

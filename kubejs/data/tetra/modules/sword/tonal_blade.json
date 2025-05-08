@@ -1,0 +1,52 @@
+{
+    "replace": true,
+    "slots": [ "sword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:sword/rapier_blade/",
+        "tetra:sword/shared_blade/",
+        "tetra:sword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [ "tetra:metal/", "tetra:gem/"],
+            "key": "tonal_blade/",
+            "attributes": {
+                "generic.attack_speed": -1,
+                "generic.attack_damage": 1
+            },
+            "effects": {
+                "art_of_forging:judgement": [ 100, 5 ]
+            },
+            "tools": {
+                "cut": [ 1, 0.2 ]
+            },
+            "aspects": {
+                "edged_weapon": 2,
+                "breakable": 2
+            },
+            "integrity": -1,
+            "durability": -20,
+            "tags":[
+                "forge:swords"
+            ],
+            "extract": {
+                "secondaryAttributes": {
+                    "generic.attack_speed": -0.4
+                },
+                "durability": 0.7,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/aof_glyph.png",
+                    "textureX": 128,
+                    "textureY": 16
+                },
+                "availableTextures": [ "metal", "shiny", "grainy", "crude" ],
+                "models": [{
+                    "location": "tetra:item/module/sword/blade/tonal_blade/"
+                }]
+            }
+        }
+    ]
+}

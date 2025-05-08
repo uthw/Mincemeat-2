@@ -19,20 +19,21 @@
             ],
             "key": "long_handle/",
             "attributes": {
-                "generic.attack_speed": -1.85,
-                "forge:reach_distance": -0.15,
-                "forge:attack_range": -0.15
+                "generic.attack_speed": -1.155,
+                "forge:reach_distance": 0.8,
+                "forge:attack_range": 0.8,
+                "generic.attack_damage": -2.75
             },
             "aspects": { "block_breaker": 1, "breakable": 2 },
             "extract": {
                 "primaryAttributes": {
-                    "forge:reach_distance": 0.1,
-                    "forge:attack_range": 0.1
+                    "forge:reach_distance": 0.08,
+                    "forge:attack_range": 0.08
                 },
-                "secondaryAttributes": { "generic.attack_speed": -0.25 },
+                "secondaryAttributes": { "generic.attack_speed": -0.15 },
                 "tertiaryAttributes": {
-                    "forge:reach_distance": 0.2,
-                    "forge:attack_range": 0.2
+                    "forge:reach_distance": 0.16,
+                    "forge:attack_range": 0.16
                 },
                 "durability": 0.25,
                 "integrity": 1,

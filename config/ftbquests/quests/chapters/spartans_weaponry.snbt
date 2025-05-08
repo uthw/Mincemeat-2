@@ -3,7 +3,15 @@
 	default_quest_shape: ""
 	filename: "spartans_weaponry"
 	group: "357B296D74E0575E"
-	icon: "eidolon:basic_belt"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "eidolon:basic_belt"
+	}
 	id: "2BED532CEDEE8CE1"
 	images: [
 		{
@@ -12,15 +20,7 @@
 			image: "iceandfire:item/fishing_spear"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -6.0d
-		}
-		{
-			height: 1.0d
-			image: "spartanweaponry:item/iron_longsword"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
+			x: 7.0d
 			y: -6.0d
 		}
 		{
@@ -28,7 +28,7 @@
 			image: "mekanismtools:item/bronze/paxel"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
+			x: -7.5d
 			y: -6.0d
 		}
 	]
@@ -44,28 +44,16 @@
 				""
 				"{@pagebreak}"
 				""
-				"Finishing the reward on this quest grants you the Holosphere, which allows you to see a list of usable materials for the tool or weapon you are making. The Holosphere also tells you the stats, such as how much attack a material adds."
+				"Finishing the reward on this quest grants you the Holosphere, which allows you to see a list of usable materials and their stats."
+				""
+				"To use the holosphere have it in your inventory and click on this button to the left of the matrial selection."
+				""
+				"{image:kubejs:item/holosphere width:448 height:128 align:center fit:true}"
+				""
+				"You can also go into the holosphere by right clicking with it in your hand and navigateing to the part of your item you want to edit."
 			]
 			icon_scale: 0.8d
 			id: "431C2B8BEE92DD05"
-			rewards: [{
-				id: "1BC6183D5D931ECD"
-				item: {
-					Count: 1
-					id: "tetra:holo"
-					tag: {
-						"holo/core": "holo/core"
-						"holo/core_material": "frame/dim"
-						"holo/frame": "holo/frame"
-						"holo/frame_material": "core/ancient"
-						"holo/repo": "holo/repo"
-						"holo/repo_material": "repo/default"
-						"holo/scanner": "holo/scanner"
-						"holo/scanner_material": "scanner/default"
-					}
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [
@@ -222,7 +210,7 @@
 			]
 			title: "Hammer Upgrades"
 			x: 3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -274,16 +262,16 @@
 					type: "item"
 				}
 			]
-			title: "Forge hammer"
-			x: 4.0d
+			title: "Forge Hammer"
+			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3E18AB1C28D6A54C"]
 			description: [
-				"The strongest hammer you can crate is the netherite hammer what has the same hammer power as a forge hammer."
+				"The strongest hammer you can craft is the Netherite hammer, which has the same hammer power as a Forge hammer."
 				""
-				"You make it like if you were to make a iorn hammer but you would use netherite. Also there is a good chance unless you upgraded your hammer you will need to upgrade it's handdle to give it enogh intergertiy to have a netherite hammer head."
+				"You make it just like an iron hammer, but using Netherite instead. Unless you’ve already upgraded your hammer, you’ll likely need to upgrade its handle to provide enough integrity for a Netherite hammer head."
 			]
 			id: "4ACFCE23D56D3A8C"
 			tasks: [{
@@ -318,7 +306,7 @@
 				weak_nbt_match: true
 			}]
 			title: "Netherite Hammer"
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -338,7 +326,7 @@
 				id: "4BF26A0CD5F7C80E"
 				type: "advancement"
 			}]
-			title: "        Find ancient ruins        "
+			title: "        Find Ancient Ruins        "
 			x: 0.0d
 			y: 3.0d
 		}
@@ -379,7 +367,7 @@
 			description: [
 				"Structure beams are used as handles in weapons and tools, providing a lot of durability and integrity to a tool."
 				""
-				"Beams are the best and easiest way to increase a tool or weapon's integrity since the amount of integrity they provide is on par with most high-end materials."
+				"Beams are the best and easiest way to increase a tool or weapon's integrity since the boost they provide is on par with most high-end materials."
 				""
 				"Scrap is not good on its own, but when made into various forged metals, it becomes much more useful."
 			]
@@ -505,8 +493,7 @@
 		{
 			dependencies: [
 				"29E5ECF00A0F35B4"
-				"18A593F6C191BC7F"
-				"50EDBAE93E35FE70"
+				"22C20857178F9AAC"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -637,12 +624,17 @@
 				"3E18AB1C28D6A54C"
 			]
 			description: [
-				"You can automate the usage of a Chthonic Extractor by placing a forge hammer above it, with the hammer touching a redstone block and having 2 lubricant dispensers inside the hammer."
+				"You can automate the usage of a Chthonic Extractor by placing a Forge Hammer above it, ensuring the hammer touches a Redstone Block and contains two Lubricant Dispensers."
 				""
-				"While the breaking of blocks is automated, the collection is not."
+				"While block breaking is automated, item collection remains manual."
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "industrialforegoing:infinity_drill"
 				tag: {
 					CanCharge: 1b
@@ -662,7 +654,7 @@
 				item: "tetra:lubricant_dispenser"
 				type: "item"
 			}]
-			title: "Auto mineing"
+			title: "Auto-Mining"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -674,7 +666,19 @@
 				"To make the extractor, first go to the bottom of the extractor ruin close to bedrock. There should be a core extractor transfer unit, and under it, some extractor pipes that go under lava and touch bedrock."
 				"(If one of the pipes is orange, skip this next part.)"
 				""
-				"You will need to break the extractor pipes and find some seeping bedrock, then place extractor pipes on top. If you connected the pipes correctly, there should be some orange lights on them. Next, place a core extractor on top of the orange pipe and connect a transfer unit to the front of the core extractor (they should look connected). Then, insert your thermal cell and hit the control panel on the front of the transfer unit with a hammer until the core extractor starts to move."
+				"Next:"
+				""
+				"    Break extractor pipes until you expose seeping bedrock."
+				""
+				"    Place new extractor pipes over the openings; they’ll glow orange when connected correctly."
+				""
+				"    Place a Core Extractor on the orange‑lit pipe."
+				""
+				"    Snap a Transfer Unit onto the front of the Core Extractor."
+				""
+				"    Insert your thermal cell."
+				""
+				"    Strike the control panel with a hammer until the Core Extractor powers up."
 				""
 				"&oAlso, thermal cells will only charge halfway.&r"
 			]
@@ -705,27 +709,27 @@
 					type: "item"
 				}
 			]
-			title: "                  Core extractor                  "
+			title: "                  Core Extractor                  "
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["56AF03B473E1802E"]
 			description: [
-				"While mineing in the depslate layer you may run into a geode."
+				"While mining in the deepslate layer, you may run into a geode."
 				""
-				"Geodes can be broken open to give Varios diffrent Raw minirals or gems. They can also rarely give pristen gems when broken what are stronger versions of their weaker non pristen versions."
+				"Geodes can be broken open to yield various raw minerals or gems. They can also, on rare occasions, give pristine gems: stronger versions of their weaker, non-pristine counterparts."
 				""
-				"Next Page to see special gemstones"
+				"Check out the next page to see special gemstones."
 				"{@pagebreak}"
 				""
-				"&2Emeralds give higher crit chance/damage&r"
+				"    &2Emeralds give higher crit chance/damage&r"
 				""
-				"&fDiamonds give Higher duribility and damage&r"
+				"    &bDiamonds give higher durability and damage&r"
 				""
-				"&9Lapis gives more XP when killing mobs or breaking XP blocks"
-				"&r"
-				"&dAmethyst incresses the range of tools and weapons&r"
+				"    &9Lapis gives more XP when killing mobs or breaking XP blocks&r"
+				""
+				"    &dAmethyst increases the range of tools and weapons&r"
 			]
 			id: "5EC718E0EE6BF4BC"
 			tasks: [
@@ -757,11 +761,11 @@
 				}
 			]
 			x: 3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3DB2858C8BCD8C2B"]
-			description: ["Can be worn in your belt slot and can have various different functions like boosting your jumps or a quick-access extra inventory. "]
+			description: ["They can be worn in your belt slot and offer various functions, such as boosting your jump or providing quick-access extra inventory space."]
 			id: "22C20857178F9AAC"
 			shape: "diamond"
 			tasks: [{
@@ -1448,7 +1452,9 @@
 				}
 			}
 			id: "18A593F6C191BC7F"
-			subtitle: "Quiver, Pouch, Potion bag"
+			invisible: true
+			optional: true
+			subtitle: "Quiver, Pouch, Potion Bag"
 			tasks: [
 				{
 					icon: {
@@ -1502,9 +1508,17 @@
 				{
 					icon: {
 						Count: 1
-						id: "ftbquests:custom_icon"
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "majruszsaccessories:adventurer_kit"
 						tag: {
-							Icon: "bluepower:items/seed_bag_alt"
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
 						}
 					}
 					id: "79E1251BB3F0D850"
@@ -1599,7 +1613,7 @@
 				}
 			]
 			title: "Storage"
-			x: -4.0d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -1609,8 +1623,18 @@
 				""
 				"You can also activate auto-switching by adding a Quicklatch and clicking the toolbelt quick access button. This will dynamically switch to the tool needed for breaking the block you are looking at."
 			]
-			icon: "grapplemod:ropeupgradeitem"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "grapplemod:ropeupgradeitem"
+			}
 			id: "50EDBAE93E35FE70"
+			invisible: true
+			optional: true
 			subtitle: "Hotbar swaper be dammed"
 			tasks: [{
 				icon: {
@@ -1662,26 +1686,34 @@
 				weak_nbt_match: true
 			}]
 			title: "Belt Strap"
-			x: -6.0d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["22C20857178F9AAC"]
 			description: ["This Upgrade can be apllied to a toolbelt. It takes 8 iron to add and allows for hovering and jump boost. To make it work, you will need a pouch with gunpowder on the toolbelt since the booster runs on gunpowder."]
-			icon: "grapplemod:rocketupgradeitem"
-			id: "536B9B0F8853E6B6"
-			subtitle: "Jump Boost"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "grapplemod:item/rocketupgradeitem"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
 					}
 				}
+				id: "grapplemod:rocketupgradeitem"
+			}
+			id: "536B9B0F8853E6B6"
+			invisible: true
+			optional: true
+			subtitle: "Jump Boost"
+			tasks: [{
 				id: "705BF4432F2128E8"
 				item: {
 					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1725,15 +1757,15 @@
 		{
 			dependencies: ["431C2B8BEE92DD05"]
 			description: [
-				"Tetra has tons of diffrent swords That you can craft that each have their own effects and atributes. "
+				"Tetra offers tons of different swords you can craft, each with its own effects and attributes."
 				""
-				"Swords Blades also have upgrades which can applied to any sword and take no resorces to add to a sword."
+				"Sword blades also have upgrades that can be applied to any sword and require no resources to add:"
 				""
-				"Hooked: This will make it so when you are hitting a enemies on the back it will deal 1.5x or 2x damage"
+				"-   Hooked: Hitting an enemy from behind deals 1.5× (or 2×) damage."
 				""
-				"Serated: This will make enemies bleed when hit what acts like poison but insted of doing a set amount of damge per every ticks it will deal a set amount of damge in a amount of time."
+				"-   Serrated: Enemies bleed when hit. This works like poison, but instead of dealing a set amount of damage each tick, it deals a fixed amount of damage over a duration."
 				""
-				"Tempered: This will imporve the armor penatrateion on your sword."
+				"-   Tempered: Improves your sword’s armor penetration."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1744,7 +1776,7 @@
 				id: "5D79B083A6BABC68"
 				type: "advancement"
 			}]
-			title: "My own sword"
+			title: "My Own Sword"
 			x: -0.5d
 			y: -3.0d
 		}
@@ -1753,9 +1785,13 @@
 			description: [
 				"Tetra adds the ability to modify shovels to create polearms and spears."
 				""
-				"THey can have basic, light, or long handles. Light handles allow the item to be thrown but have less range and durabililty, and long handles have more range but don't have a thrown attack."
+				"They can have basic, light, or long handles:"
 				""
-				"Basic handles are a middle ground between the two, but don't have a throw."
+				"-   Light handles allow the item to be thrown but have reduced range and durability."
+				""
+				"-   Long handles grant increased range but don’t support a thrown attack."
+				""
+				"-   Basic handles strike a middle ground in range and durability but cannot be thrown."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1795,7 +1831,7 @@
 		}
 		{
 			dependencies: ["431C2B8BEE92DD05"]
-			description: ["Your tools like axes and pickaxes and hoes can be modified to become various multi tools and weapons. They also are able to act like 2 weapons/tools in one by putting a different head on each side of a double-headed weapon like a pickaxe."]
+			description: ["Tetra lets tools—such as axes, pickaxes, and hoes—be modified into a variety of multi‑tools and weapons. You can even create double‑headed implements by fitting a different head on each end (for example, a pickaxe with an axe head on the opposite side), allowing one item to serve two functions."]
 			id: "3A686777F1FBD28E"
 			tasks: [{
 				advancement: "tetra:upgrades/tool_upgrade"
@@ -1812,6 +1848,11 @@
 			description: ["You can modify bows and crossbows. There are various upgrades to bows you can find, such as multishot."]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:bow"
 				tag: {
 					Damage: 0
@@ -1825,7 +1866,7 @@
 				id: "137DCC1A9F1BFCDD"
 				type: "advancement"
 			}]
-			title: "Bow upgrades"
+			title: "Bow Upgrades"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -1847,19 +1888,24 @@
 			}]
 			title: "Shields"
 			x: -9.0d
-			y: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
 			description: [
-				"The basic blade has different versions, like the bastard or executioner swords."
+				"Even though it’s a basic sword, there’s still a lot you can do with it. "
 				""
-				"There are also machetes, which are like basic blades but worse."
+				"You can serrate the blade to apply bleeding (a set amount of damage over time) or use one of the extra module slots to add a gemstone to the guard for special effects."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -1882,111 +1928,70 @@
 			id: "350922773A24AB89"
 			shape: "square"
 			subtitle: "(𝋧)"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "tetra:modular_sword"
-						tag: {
-							Damage: 0
-							HideFlags: 1
-							honing_progress: 240
-							id: "aec9536c-421a-45e7-9fce-9ee7143eb2eb"
-							"sword/basic_blade_material": "basic_blade/iron"
-							"sword/basic_hilt_material": "basic_hilt/stick"
-							"sword/blade": "sword/basic_blade"
-							"sword/decorative_pommel_material": "decorative_pommel/iron"
-							"sword/guard": "sword/makeshift_guard"
-							"sword/hilt": "sword/basic_hilt"
-							"sword/makeshift_guard_material": "makeshift_guard/iron"
-							"sword/pommel": "sword/decorative_pommel"
-							weapon_attributes: "{\"parent\":\"bettercombat:sword\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"sword\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.2,\"randomness\":0.1}}]}}"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
-					id: "77A2F28574CFF1B5"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "itemfilters:weak_nbt"
-									tag: {
-										value: {
-											"sword/blade": "sword/executioner_blade"
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "itemfilters:weak_nbt"
-									tag: {
-										value: {
-											"sword/blade": "sword/bastard_blade"
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "itemfilters:weak_nbt"
-									tag: {
-										value: {
-											"sword/blade": "sword/basic_blade"
-										}
-									}
-								}
-							]
-						}
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
 					}
-					match_nbt: true
-					title: "Basic Blades"
-					type: "item"
 				}
-				{
-					icon: {
-						Count: 1
-						id: "tetra:modular_sword"
-						tag: {
-							Damage: 0
-							HideFlags: 1
-							honing_progress: 220
-							id: "dda273f9-df40-40bf-8955-2e356bb314ac"
-							repairCount: 1
-							"sword/basic_hilt_material": "basic_hilt/stick"
-							"sword/blade": "sword/machete"
-							"sword/decorative_pommel_material": "decorative_pommel/iron"
-							"sword/guard": "sword/makeshift_guard"
-							"sword/hilt": "sword/basic_hilt"
-							"sword/hilt/settle_progress": 266
-							"sword/machete_material": "machete/iron"
-							"sword/makeshift_guard_material": "makeshift_guard/iron"
-							"sword/pommel": "sword/decorative_pommel"
-							weapon_attributes: "{\"parent\":\"bettercombat:cutlass\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"cutlass\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				id: "77A2F28574CFF1B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
-					id: "64EC67C2CBB0224F"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								"sword/blade": "sword/machete"
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"sword/blade": "sword/executioner_blade"
+									}
+								}
 							}
-						}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"sword/blade": "sword/bastard_blade"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"sword/blade": "sword/basic_blade"
+									}
+								}
+							}
+						]
 					}
-					match_nbt: true
-					optional_task: true
-					title: "Machete"
-					type: "item"
 				}
-			]
+				match_nbt: true
+				title: "Basic Blades"
+				type: "item"
+			}]
 			x: 0.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["This sword is bulkier, meaning heavy hits, but slower speed."]
+			description: ["This sword is a two-handed version of the Basic Blade. It deals more damage, is slightly slower, and has a small range increase."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1C539045E7AC3A89"
@@ -2027,12 +2032,17 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 1.0d
+			title: "Heavy Blade"
+			x: 2.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["Rapiers deal less damge but swing very quickly and are more effective against armor."]
+			description: [
+				"Rapiers deal less damage but swing very quickly; their damage doesn’t change when using stronger materials, but their speed increases instead. "
+				""
+				"They excel against multiple targets or against mobs with longer reach."
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2BD1D50914CC6435"
@@ -2075,17 +2085,21 @@
 				weak_nbt_match: true
 			}]
 			title: "Rapier"
-			x: -2.0d
+			x: -3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["These are somewhat like basic swords, but are capable of cutting like knives."]
+			description: [
+				"These are like normal swords, but they have the ablity to crit mobs (independent of the Apotheosis blue or Vanilla yellow crits). "
+				""
+				"Flexible materials like wood give lots of crit (40%+) while stiff materials like diamond give less crit (6%)"
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5A422A59A4BEA7F5"
 			shape: "square"
-			subtitle: "Fixed?"
+			subtitle: "Nat 20"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2122,7 +2136,7 @@
 				title: "Saber"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -7.0d
 		}
 		{
@@ -2137,278 +2151,370 @@
 			id: "622EF686F97DE1ED"
 			tasks: [
 				{
-					id: "16B48539F8FE5801"
+					id: "41ACD0DDCF774259"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:bone_expertise"]
-												glyphs: [I;
-													12
-													14
-													12
-													14
-												]
-												intricate: 0b
-												key: "bone_expertise"
-												material: 0
-												ribbon: "fff193"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:fabric_expertise"]
-												glyphs: [I;
-													5
-													3
-													6
-													4
-												]
-												intricate: 0b
-												key: "fabric_expertise"
-												material: 0
-												ribbon: "ff3333"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:fibre_expertise"]
-												glyphs: [I;
-													5
-													10
-													11
-													4
-												]
-												intricate: 0b
-												key: "fibre_expertise"
-												material: 0
-												ribbon: "a88054"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:gem_expertise"]
-												glyphs: [I;
-													14
-													13
-													14
-													15
-												]
-												intricate: 0b
-												key: "gem_expertise"
-												material: 0
-												ribbon: "2bffee"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:wood_expertise"]
-												glyphs: [I;
-													2
-													1
-													2
-													1
-												]
-												intricate: 0b
-												key: "wood_expertise"
-												material: 0
-												ribbon: "bf934b"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:stone_expertise"]
-												glyphs: [I;2]
-												intricate: 0b
-												key: "stone_expertise"
-												material: 0
-												ribbon: "9a9a9a"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:scale_expertise"]
-												glyphs: [I;
-													6
-													7
-													6
-													8
-												]
-												intricate: 0b
-												key: "scale_expertise"
-												material: 0
-												ribbon: "75a03e"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:skin_expertise"]
-												glyphs: [I;
-													0
-													1
-													1
-													1
-												]
-												intricate: 0b
-												key: "skin_expertise"
-												material: 0
-												ribbon: "bf6930"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:metal_expertise"]
-												glyphs: [I;
-													4
-													6
-													6
-													5
-												]
-												intricate: 0b
-												key: "metal_expertise"
-												material: 0
-												ribbon: "ffffff"
-											}]
-										}
-									}
-								}
-							]
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:scale_expertise"]
+									glyphs: [I;
+										6
+										7
+										6
+										8
+									]
+									intricate: 0b
+									key: "scale_expertise"
+									material: 0
+									ribbon: "75a03e"
+								}]
+							}
 						}
 					}
 					match_nbt: true
-					title: "Expertice Scrolls"
 					type: "item"
 				}
 				{
-					id: "5E497339609FC8C6"
+					id: "5FD28013EA31CE01"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:axe_efficiency"]
-												glyphs: [I;
-													0
-													1
-													3
-													3
-												]
-												intricate: 0b
-												key: "axe_efficiency"
-												material: 0
-												ribbon: "66ff66"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:cut_efficiency"]
-												glyphs: [I;
-													4
-													0
-													3
-													5
-												]
-												intricate: 0b
-												key: "cut_efficiency"
-												material: 0
-												ribbon: "6666ff"
-											}]
-										}
-									}
-								}
-								{
-									Count: 1b
-									id: "tetra:scroll_rolled"
-									tag: {
-										BlockEntityTag: {
-											data: [{
-												effects: ["tetra:hammer_efficiency"]
-												glyphs: [I;
-													6
-													7
-													6
-													11
-												]
-												intricate: 0b
-												key: "hammer_efficiency"
-												material: 0
-												ribbon: "ff6666"
-											}]
-										}
-									}
-								}
-							]
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:gem_expertise"]
+									glyphs: [I;
+										14
+										13
+										14
+										15
+									]
+									intricate: 0b
+									key: "gem_expertise"
+									material: 0
+									ribbon: "2bffee"
+								}]
+							}
 						}
 					}
 					match_nbt: true
-					title: "Efficientcy scroll"
+					type: "item"
+				}
+				{
+					id: "043C7D573180A9F6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:metal_expertise"]
+									glyphs: [I;
+										4
+										6
+										6
+										5
+									]
+									intricate: 0b
+									key: "metal_expertise"
+									material: 0
+									ribbon: "ffffff"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "755D398D25B5F576"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:wood_expertise"]
+									glyphs: [I;
+										2
+										1
+										2
+										1
+									]
+									intricate: 0b
+									key: "wood_expertise"
+									material: 0
+									ribbon: "bf934b"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "12769D4CA58E06A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:stone_expertise"]
+									glyphs: [I;2]
+									intricate: 0b
+									key: "stone_expertise"
+									material: 0
+									ribbon: "9a9a9a"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "071015B373A84791"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fibre_expertise"]
+									glyphs: [I;
+										5
+										10
+										11
+										4
+									]
+									intricate: 0b
+									key: "fibre_expertise"
+									material: 0
+									ribbon: "a88054"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "24F114B45333DFA6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:skin_expertise"]
+									glyphs: [I;
+										0
+										1
+										1
+										1
+									]
+									intricate: 0b
+									key: "skin_expertise"
+									material: 0
+									ribbon: "bf6930"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5067927E7F910016"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:bone_expertise"]
+									glyphs: [I;
+										12
+										14
+										12
+										14
+									]
+									intricate: 0b
+									key: "bone_expertise"
+									material: 0
+									ribbon: "fff193"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5691EB4BF11472F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:fabric_expertise"]
+									glyphs: [I;
+										5
+										3
+										6
+										4
+									]
+									intricate: 0b
+									key: "fabric_expertise"
+									material: 0
+									ribbon: "ff3333"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2DE78709A5C0BC28"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:cut_efficiency"]
+									glyphs: [I;
+										4
+										0
+										3
+										5
+									]
+									intricate: 0b
+									key: "cut_efficiency"
+									material: 0
+									ribbon: "6666ff"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2AFDAD536689C3C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:hammer_efficiency"]
+									glyphs: [I;
+										6
+										7
+										6
+										11
+									]
+									intricate: 0b
+									key: "hammer_efficiency"
+									material: 0
+									ribbon: "ff6666"
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0F42DB6DB782D51E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:axe_efficiency"]
+									glyphs: [I;
+										0
+										1
+										3
+										3
+									]
+									intricate: 0b
+									key: "axe_efficiency"
+									material: 0
+									ribbon: "66ff66"
+								}]
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2428,151 +2534,199 @@
 				""
 				"You can also upgrade these scrolls by putting them together in a crafting grid, just like repairing a tool."
 			]
-			id: "4A10F20508C62EDF"
-			subtitle: "New Enchanting sytem"
-			tasks: [{
-				id: "3C2FFA115C5807A0"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "tetra:scroll_rolled"
-								tag: {
-									BlockEntityTag: {
-										data: [{
-											glyphs: [I;
-												15
-												14
-												15
-												15
-											]
-											intricate: 1b
-											key: "hone/gild_1"
-											material: 2
-											ribbon: "c9ae69"
-											schematics: ["tetra:hone/gild_1"]
-										}]
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "tetra:scroll_rolled"
-								tag: {
-									BlockEntityTag: {
-										data: [{
-											glyphs: [
-												15
-												14
-												13
-												15
-											]
-											intricate: 1b
-											key: "hone/gild_2"
-											material: 2
-											ribbon: "d4b057"
-											schematics: [
-												"tetra:hone/gild_1"
-												"tetra:hone/gild_2"
-											]
-										}]
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "tetra:scroll_rolled"
-								tag: {
-									BlockEntityTag: {
-										data: [{
-											glyphs: [
-												12
-												13
-												14
-												13
-											]
-											intricate: 1b
-											key: "hone/gild_4"
-											material: 2
-											ribbon: "e8b32c"
-											schematics: [
-												"tetra:hone/gild_1"
-												"tetra:hone/gild_2"
-												"tetra:hone/gild_3"
-												"tetra:hone/gild_4"
-											]
-										}]
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "tetra:scroll_rolled"
-								tag: {
-									BlockEntityTag: {
-										data: [{
-											glyphs: [
-												13
-												14
-												14
-												15
-											]
-											intricate: 1b
-											key: "hone/gild_3"
-											material: 2
-											ribbon: "deb243"
-											schematics: [
-												"tetra:hone/gild_1"
-												"tetra:hone/gild_2"
-												"tetra:hone/gild_3"
-											]
-										}]
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "tetra:scroll_rolled"
-								tag: {
-									BlockEntityTag: {
-										data: [{
-											glyphs: [I;
-												12
-												12
-												12
-												12
-											]
-											intricate: 1b
-											key: "hone/gild_5"
-											material: 2
-											ribbon: "f2b313"
-											schematics: [
-												"tetra:hone/gild_1"
-												"tetra:hone/gild_2"
-												"tetra:hone/gild_3"
-												"tetra:hone/gild_4"
-												"tetra:hone/gild_5"
-											]
-										}]
-									}
-								}
-							}
-						]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
 					}
 				}
-				title: "Glid scrolls"
-				type: "item"
-			}]
-			title: "Glit Scrolls"
+				id: "minecraft:enchanting_table"
+			}
+			id: "4A10F20508C62EDF"
+			subtitle: "New enchanting system"
+			tasks: [
+				{
+					id: "2216C72D9EA628B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [I;
+										15
+										14
+										15
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_1"
+									material: 2
+									ribbon: "c9ae69"
+									schematics: ["tetra:hone/gild_1"]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2814535911D20022"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										15
+										14
+										13
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_2"
+									material: 2
+									ribbon: "d4b057"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0CCB903F68D19564"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										13
+										14
+										14
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_3"
+									material: 2
+									ribbon: "deb243"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3B06E1E9C74DA3DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										12
+										13
+										14
+										13
+									]
+									intricate: 1b
+									key: "hone/gild_4"
+									material: 2
+									ribbon: "e8b32c"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+										"tetra:hone/gild_4"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "30B74A5A3F3F2995"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										12
+										12
+										12
+										12
+									]
+									intricate: 1b
+									key: "hone/gild_5"
+									material: 2
+									ribbon: "f2b313"
+									schematics: [
+										"tetra:hone/gild_1"
+										"tetra:hone/gild_2"
+										"tetra:hone/gild_3"
+										"tetra:hone/gild_4"
+										"tetra:hone/gild_5"
+									]
+								}]
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Gild Scrolls"
 			x: 1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0E358250382901F4"]
-			description: ["This alloy can be made by making an alloy with netherite and metal scrap. Then the alloy can be smelted to make forged steel. Forged steel is an upgraded version of netherite."]
+			description: ["This alloy can be made by making an alloy with living flesh and metal scrap. The alloy can then be smelted to make forged steel, which is an upgraded version of netherite."]
 			id: "2B86C1B81FDC01A0"
 			tasks: [
 				{
@@ -2586,15 +2740,15 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2B86C1B81FDC01A0"]
 			description: [
-				"This is a upgrade of forged steel and will sometimes spawn lightning strikes when hitting enimes."
+				"This is an upgrade of forged steel that will sometimes spawn lightning strikes when hitting enemies."
 				""
-				"It is made by mixing forged steel and vobrinium crystals. The crystals are found in shipwrecks and other underwater chests."
+				"It’s made by mixing forged steel and vobrinium crystals. The crystals are dropped by Murmurs found rarely underground and in Cherry Groves."
 			]
 			id: "127274DC5A2AA078"
 			subtitle: "Mix with Katana to feel like Raiden"
@@ -2610,15 +2764,15 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["2B86C1B81FDC01A0"]
 			description: [
-				"This is a Upgrade of Forged steel and will sometimes spawn Clouds of Instant damge when hitting enimies."
+				"This is an upgrade of forged steel that will sometimes spawn clouds of instant damage when hitting enemies."
 				""
-				"&oAlso the instant damge will not hurt you&r"
+				"&o&7Also, the instant damage will not hurt you.&r"
 			]
 			id: "2E37D950E9F26172"
 			tasks: [{
@@ -2626,12 +2780,16 @@
 				item: "art_of_forging:endsteel_ingot"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["Shards of malice are used in varios diffrent sword scematics and modlues. They are gotten by killing wither skeletons."]
+			description: [
+				"Shards of Malice are used in various sword schematics and modules. They are obtained by killing Ancient Knights. The linked quest provides more information."
+				""
+				"{ \"text\": \"Ancient Knights\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6ED5AF6D7BFF56E8\" } }, \".\""
+			]
 			hide_dependency_lines: true
 			id: "3ECA1E73D2469159"
 			shape: "rsquare"
@@ -2646,12 +2804,19 @@
 		{
 			dependencies: ["3ECA1E73D2469159"]
 			description: [
-				"This sword is crafted by first obtaining a Sigil of Elden. You get it by collecting 8 Fragments of Elden from killing the Wither and Shards of Malice. If you have the Sigil in your inventory, a new option for the Euclidean Dagger will appear in the blade modules."
+				"This sword is crafted by first obtaining a Sigil of Elden, which is made by combining 8 Fragments of Elden from the Corrupted Champion with aforementioned Shards of Malice. "
 				""
-				"This dagger greatly enhances the speed and damage of your sword, inflicting Wither on enemies when you hit them. You also have a chance to gain 1.5 hearts back each time you hit something."
+				"Once the Sigil is in your inventory, a new blade module option called the Euclidean Dagger will become available."
+				""
+				"This dagger greatly boosts your sword’s speed and damage. It inflicts Wither on enemies when struck, and each hit has a chance to restore 1.5 hearts."
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -2690,12 +2855,17 @@
 		{
 			dependencies: ["3ECA1E73D2469159"]
 			description: [
-				"The Cataclysm blade is a sword which can be created using the ancient blade, found by killing some boss (I think it's the lich from BOMD but can't remember). TODO"
+				"The Cataclysm Blade is a sword crafted using the Ancient Blade, which is obtained by defeating the Ghost of Captain Cornelia."
 				""
-				"This sword is super fast and deals more damage the more HP you have. It also inflicts extra damage on high HP targets. This sword is particularly effective for fighting bosses, as they have a lot of HP and take a long time to drop below 50%."
+				"This sword is extremely fast and deals more damage the more HP you have. It also deals bonus damage to high-HP targets, making it especially effective against bosses, who tend to stay above 50% HP for a long time."
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -2716,8 +2886,16 @@
 			id: "1E52A6B5FF56F70A"
 			subtitle: "Don't get hit"
 			tasks: [{
-				id: "2F2226FC06A33F11"
-				item: "art_of_forging:ancient_blade"
+				id: "2F1C9EED7FB2DBF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "art_of_forging:demonic_blade"
+				}
 				type: "item"
 			}]
 			x: -0.5d
@@ -2726,12 +2904,17 @@
 		{
 			dependencies: ["3ECA1E73D2469159"]
 			description: [
-				"This sword is created by first crafting Rendering Scissors. The scissors are made with a Netherite sword and Life Fiber. The Rendering Scissors come in 2 different colors, but they are identical in stats. After obtaining the scissors, a new option for a blade type called Rendering Scissors will be available."
+				"This sword is created by first crafting Rendering Scissors, using a Netherite Sword and Life Fiber. The scissors come in two different colors, but both have identical stats. Once crafted, a new blade type option called Rendering Scissors will become available."
 				""
-				"This sword is actually quite strong, dealing good damage and having a fast speed. It also grants you a random positive buff every time you kill a mob."
+				"This sword is quite powerful, dealing solid damage with fast attack speed. It also grants a random positive buff each time you kill a mob."
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -2787,12 +2970,17 @@
 		{
 			dependencies: ["5F377241A5561E11"]
 			description: [
-				"This sword is a upgraded version of the rendering scissor. You need to make a scematic for it what requires both a red and purple scissor and some life fiber. Also the only matrial this scematic can use is the complate rendering scissor what is made of both a red and purple scissor."
+				"This sword is an upgraded version of the Rendering Scissor. To make a schematic for it, you’ll need both a red and a purple scissor, along with some Life Fiber. The only material this schematic accepts is the Complete Rendering Scissor, which is created by combining both the red and purple scissors."
 				""
-				"The Complate version most notible benfit is that it changes the amount of time you keep a buff after killing a mob."
+				"The Complete version’s most notable benefit is that it extends the duration of buffs you gain after killing a mob."
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -2857,9 +3045,14 @@
 		}
 		{
 			dependencies: ["3ECA1E73D2469159"]
-			description: ["To obtain this sword, you will need to acquire a Dragon Soul from killing the Ender Dragon. With the Ender Dragon Soul, you can create an Enigmatic Construct using some Endsteel. You will also need to get a beacon. You need these items to make a schematic for crafting the Crucible."]
+			description: ["To obtain this sword, you’ll need to acquire a Dragon Soul by killing the Ender Dragon. With the Dragon Soul, you can create an Enigmatic Construct using some Endsteel. You’ll also need a Beacon. These items are required to craft the schematic for the Crucible."]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -2880,7 +3073,7 @@
 				}
 			}
 			id: "5729F2DAF5C62B3A"
-			subtitle: "These swords (No longer) suck and are hard to get."
+			subtitle: "These Swords (no longer) suck and are hard to get."
 			tasks: [
 				{
 					id: "6735ECA4A3FBEF6B"
@@ -2921,9 +3114,14 @@
 		}
 		{
 			dependencies: ["5729F2DAF5C62B3A"]
-			description: ["This sword is an upgrade of the Crucible. To make it, you need to explore the ruins to find an Esoteric Codex and 2 Encoded Canisters, both of which are found in forged containers. After that, mix these items with the Crucible Scroll to craft it."]
+			description: ["This sword is an upgrade of the Crucible. To craft it, you'll need to explore the ruins and find an Esoteric Codex and two Encoded Canisters, both found in forged containers. Then, combine these items with the Crucible Scroll to complete the recipe."]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -2945,7 +3143,7 @@
 				}
 			}
 			id: "4A38473A1C134C97"
-			subtitle: "Bragging rights"
+			subtitle: "Bragging Rights"
 			tasks: [
 				{
 					id: "68B607D6E0D29F90"
@@ -2994,10 +3192,15 @@
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["This sword is like the rapier but is two-handed, coming with all of those ups and downs. You can find it in most underground chests."]
+			description: ["This two-handed sword is very effective against unarmored mobs but not very effective against armored ones."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3058,12 +3261,17 @@
 		{
 			dependencies: ["56BDCA6FA645B29D"]
 			description: [
-				"The Murasama is a slightly stronger and way cooler version of the Katana. It can not be found and can only be crafted."
+				"The Murasama is a stronger and cooler version of the Katana. It cannot be found and can only be crafted."
 				""
 				"https://youtu.be/lhkdSWbVu34"
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3087,7 +3295,7 @@
 			}
 			id: "6A07DEFBB82E3C0C"
 			shape: "square"
-			subtitle: "Jetstream sam can be killed in 11 seconds"
+			subtitle: "Jetstream Sam can be killed in 11 seconds"
 			tasks: [{
 				id: "5B908D606E750560"
 				item: {
@@ -3124,9 +3332,14 @@
 				"3ECA1E73D2469159"
 				"6A07DEFBB82E3C0C"
 			]
-			description: ["This sword is an upgraded version of the Muramasa and shares the same base stats but has many more effects. However, don't hold this sword in your hand for too long, as it will eat you, dealing significant damage. Like the Muramasa, this sword can only be crafted and not found."]
+			description: ["This sword is an upgraded version of the Muramasa. It shares the same base stats but comes with many additional effects. However, don’t hold it in your hand for too long, for it will begin to consume you, dealing significant damage. Like the Muramasa, it can only be crafted, not found."]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3188,13 +3401,18 @@
 		{
 			dependencies: ["504FEF17493FD0C4"]
 			description: [
-				"Key Guards can be added to swords and will provide passive defense when the sword is held."
+				"Key Guards can be added to swords to provide passive defense while the sword is held."
 				""
-				"Sturdy Guards can also be put on swords, granting any sword a blocking ability that acts identically to a shield. This is particularly beneficial for two-handed weapons, as it allows you to functionally have a shield while wielding a two-handed weapon."
+				"Sturdy Guards can also be installed, granting any sword a blocking ability that functions just like a shield. This is especially useful for two-handed weapons, letting you effectively use a shield while still wielding them."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3274,19 +3492,24 @@
 				}
 			]
 			title: "Sword Guards"
-			x: -1.0d
+			x: -2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
 			description: [
-				"This Fuller Socket is a rare drop from Evokers. When placed in a sword's guard socket, it will make any attack cause a shark to pop out of the ground and bite whoever you hit."
+				"The Fuller Socket is a rare drop from Evokers. When placed in a sword’s guard socket, it causes an evoker fang to burst from the ground and bite any enemy you hit."
 				""
-				"Howling Blades can commonly be found in caves. When you swing your weapon with this fuller, it will charge up your sword with air. When your weapon has air, it will make any projectiles shot towards you fly away, similar to punching a Ghast fireball."
+				"Howling Blades can commonly be found in caves. When you swing your weapon with this fuller, it charges your sword with air. While charged, your weapon will deflect incoming projectiles—similar to punching a Ghast’s fireball."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3345,15 +3568,20 @@
 				}
 			]
 			title: "Sword Fuller"
-			x: -2.0d
+			x: -3.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["These knives can be crafted by finding a schematic for them, which commonly appears in most cave chests. Unlike other knives, these deal more damage and can be thrown like a trident. Despite their name, they are also the best knife-style Tetra weapon due to their high swing speed and damage."]
+			description: ["This is a knife but it can be thrown. It can be found underground in caves."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3406,10 +3634,19 @@
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["This sword is obtained exclusively through crafting and requires blaze powder to make. Flameberges are direct upgrades from normal swords, with higher stats in every category. They also have various effects that penetrate through armor, including a powerful right-click move."]
+			description: [
+				"This sword is obtained exclusively through crafting and requires Blaze Powder to make. Flameberges are similar to basic swords but with slightly lower speed."
+				""
+				"Their main feature is the ability to penetrate armor, making armored mobs much less threatening. They also have a right-click move that removes half of a mob’s armor for 20 seconds."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3461,15 +3698,24 @@
 				type: "item"
 			}]
 			title: "Flamberge"
-			x: 2.0d
-			y: -7.0d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["504FEF17493FD0C4"]
-			description: ["The Tonal Blade schematic is found rarely in caves. This sword is a direct downgrade from the Shortblade in stats but inflicts Weakness and Slowness III for 15 seconds on whatever you hit. &oUnless what you hit was an undead mob.&r"]
+			description: [
+				"The Tonal Blade schematic is rarely found in caves. Stat-wise, this sword is a straight downgrade from most others—but it has one effect, Judgment, which has a 5% chance to one-shot anything with less than 100 HP."
+				""
+				"5% might not seem like much, but it’s more common than you’d think."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3491,7 +3737,7 @@
 			}
 			id: "1CFC11A3153634A7"
 			shape: "square"
-			subtitle: "Hit And Run"
+			subtitle: "RNG: The sword"
 			tasks: [{
 				id: "1198ECB6CB602757"
 				item: {
@@ -3526,15 +3772,20 @@
 		{
 			dependencies: ["3A686777F1FBD28E"]
 			description: [
-				"Axes deal high damage but are slow. When Warforged, they gain an ability that allows them to charge up a Strike with a right-click, dealing more damage the more damage your target has taken. This is particularly effective against bosses, as their large health pools enable your axe to deal almost double damage."
+				"Axes deal high damage but are slow. When Warforged, they gain a right-click ability that charges up a strike, dealing more damage the more damage the target has already taken. This makes them especially effective against bosses, as their large health pools allow the axe to deal nearly double damage."
 				""
-				"On the other hand, adzes function as both a shovel and an axe but are not very good weapons. However, when Warforged, they gain attack stats comparable to a normal axe and acquire a right-click move that makes you jump forward at high speed in the direction you're aiming &o(what also has a 100% crit chance)&r."
+				"Adzes, by contrast, function as both a shovel and an axe but are not great weapons by default. When Warforged, though, they gain attack stats similar to a standard axe and unlock a right-click move that launches you forward at high speed in the direction you're aiming &o(which also has a 100% crit chance)&r."
 				""
-				"Lastly, the Tomahawk has stats in between an axe and an adze and can be thrown like a trident."
+				"Finally, the Tomahawk sits between an axe and an adze in terms of stats and can be thrown like a trident."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -3648,7 +3899,7 @@
 				}
 			]
 			title: "Axes"
-			x: -8.5d
+			x: -9.0d
 			y: -7.0d
 		}
 		{
@@ -3662,6 +3913,11 @@
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -3739,19 +3995,26 @@
 				}
 			]
 			title: "Hammers"
-			x: -5.5d
+			x: -6.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3A686777F1FBD28E"]
 			description: [
-				"Warpicks and claws both have right-click moves that reduce mob armor. The Warpick has a charge move that reduces armor by 40%, while the claw does not need to charge but only removes 1 armor. Guisarmes are the Warforged version of hoes and are not very effective. They deal significantly more damage than a normal hoe, but since hoes are the lowest damage-dealing weapons, that's a moot point."
+				"Warpicks and claws both have right-click moves that reduce mob armor. The Warpick has a charged attack that reduces armor by 40%, while the Claw applies its effect instantly but only removes 1 armor. Non-Warforged claws also cause bleeding when hitting non-undead mobs."
 				""
-				"The Guisarme also has a charge move, but all it does is make mobs move slower for a short time."
+				"Guisarmes are the Warforged version of hoes and aren’t particularly effective overall. However, they deal significantly more damage than a regular hoe, and when combined with the hoe's natural speed of 4, they can still be useful."
+				""
+				"The Guisarme also has a charge move, but it simply slows down mobs for a short duration."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -3854,27 +4117,54 @@
 					type: "item"
 				}
 			]
-			title: "Hook blades"
-			x: -7.5d
+			title: "Hook Blades"
+			x: -8.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3A686777F1FBD28E"]
 			description: [
-				"These hammers require you to obtain a Shockwave Chamber, which requires Vobrium to craft. To get Vobrium, you need to go to the ruins and collect various parts."
+				"These hammers require a Shockwave Chamber, which is crafted using Vobrium. To obtain Vobrium, you’ll need to explore the ruins and collect various parts."
 				""
-				"These hammers have all the same effects as the Warhammer but can also hit through shields and will sometimes summon lightning strikes when you hit something."
+				"When used, this hammer spawns 3 lightning bolts on hit—more if you hone its damage. All lightning strikes home in on nearby mobs within a 3-block radius. It’s highly effective against groups and deals massive DPS. The only downside is that using it may also kill you."
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/butt_right_material": "butt/iron"
+					"double/handle": "double/basic_handle"
+					"double/handle:settled": 1
+					"double/head_left": "double/shockwave_hammer_left"
+					"double/head_left:settled": 1
+					"double/head_left:shockwave_head_hone/damage": 5
+					"double/head_right": "double/butt_right"
+					"double/shockwave_hammer_left_material": "shockwave_hammer/shockwave_hammer"
+					honing_available: 1b
+					honing_count: 6
+					honing_progress: 0
+					id: "852c8903-ca54-4c5b-88b3-d22bde18a411"
+					weapon_attributes: "{\"parent\":\"bettercombat:hammer\",\"attributes\":{\"attack_range\":3.0,\"pose\":\"bettercombat:pose_two_handed_heavy\",\"two_handed\":true,\"category\":\"hammer\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:hammer_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				}
+			}
 			id: "20A55CDAB8C7B873"
 			shape: "square"
-			subtitle: "What the warhammer should have been"
+			subtitle: "I AM THE GOD OF THUNDER"
 			tasks: [{
 				id: "57378C9C1156EF0A"
 				item: "art_of_forging:shockwave_chamber"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: -8.0d
 		}
 		{
@@ -3883,6 +4173,11 @@
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -3904,13 +4199,13 @@
 			}
 			id: "0231DBE01165CAA1"
 			shape: "square"
-			subtitle: "Hungry axe"
+			subtitle: "Hungry Axe"
 			tasks: [{
 				id: "350EC0FF7FE85755"
 				item: "art_of_forging:demonic_axe"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: -8.0d
 		}
 		{
@@ -3923,6 +4218,11 @@
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -3951,15 +4251,20 @@
 				type: "item"
 			}]
 			title: "Soul Fire Scythe"
-			x: -5.5d
+			x: -6.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
-			description: ["Canes are one of the few ways to increase your movement speed in Tetra. They are based on the density stat of the material you use for the head. Density can be found in the materials section of the Holosphere."]
+			description: ["Canes are one of the few ways to increase your movement speed in Tetra. The boost is based on the density stat of the material you use for the head. Density can be found in the materials section of the Holosphere."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_single"
 				tag: {
 					Damage: 0
@@ -4006,23 +4311,27 @@
 				type: "item"
 			}]
 			title: "Canes"
-			x: 6.0d
+			x: 7.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
-			description: ["This flail is obtained by finding an Ancient Flail in an Ancient City and mixing it with Shards of Malice. This flail significantly improves all stats but has only 31 base durability. However, it makes up for that with its effects, which are extremely powerful."]
+			description: [
+				"This flail is obtained by looting an Ancient Flail from a Night Lich and mixing it with Shards of Malice. "
+				""
+				"This flail significantly improves all stats but has only 31 base durability. However, it makes up for that with its effects, which are extremely powerful."
+			]
 			hide_dependency_lines: true
 			id: "60E17C462DA42DFA"
 			shape: "square"
-			subtitle: "This adds the most amount of effects in one modlue"
+			subtitle: "This adds the largest number of effects in one module"
 			tasks: [{
 				id: "0D463F1359AB429E"
 				item: "art_of_forging:demonic_flail"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -7.0d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
@@ -4030,6 +4339,11 @@
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_single"
 				tag: {
 					Damage: 0
@@ -4050,7 +4364,7 @@
 			}
 			id: "0574E5791367F4B8"
 			shape: "square"
-			subtitle: "Axe but a spear"
+			subtitle: "Axe, but actually a Spear"
 			tasks: [{
 				id: "507FD96D28827161"
 				item: {
@@ -4079,15 +4393,26 @@
 				type: "item"
 			}]
 			title: "Halberds"
-			x: 6.0d
+			x: 7.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
-			description: ["The mace is the opposite of other spears, as it does not extend your range but actually lowers it. Your base range is just 1 block, and it deals less damage than a halberd. However, it has the strongest crushing effect of any schematic in Tetra, meaning any armored mob will be demolished. (Crushing ensures you deal a minimum amount of damage; for example, if your crushing is level 6, you cannot deal less than 6 damage in one hit.)"]
+			description: [
+				"The mace is the opposite of other spears, as it does not extend your range but actually lowers it. Your base range is just 1 block, and it deals less damage than a halberd. "
+				""
+				"However, it has the strongest crushing effect of any schematic in Tetra, meaning any armored mob will be demolished."
+				""
+				"Crushing ensures you deal a minimum amount of damage; for example, if your crushing is level 6, you cannot deal less than 6 damage in one hit."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_single"
 				tag: {
 					Damage: 0
@@ -4135,19 +4460,24 @@
 				type: "item"
 			}]
 			title: "Mace"
-			x: 7.0d
+			x: 8.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3A686777F1FBD28E"]
 			description: [
-				"The Warsickle is a faster version of the hammer and has a better hitbox, as it moves left to right, while the hammer moves in a vertical line."
+				"Sickles are not the most effective weapon, but aginst undead mobs, they give weakness 2 and slowness 2. When warforged to a Warsickle, it becomes a faster version of the hammer and has a better hitbox."
 				""
-				"The Reaping Scythe is attached to the left side of a tool. It is much worse in combat than the Warsickle, being slower and dealing less damage. Its primary use is for collecting mob heads, as killing mobs with it has a high chance to yield mob heads."
+				"The reaping scythe is like a sword but for double headed weapons, being a faster version of a axe that does less damage."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -4165,7 +4495,6 @@
 			}
 			id: "5234FAE0AE7F5987"
 			shape: "square"
-			subtitle: "They look sharp but act like hammers"
 			tasks: [
 				{
 					icon: {
@@ -4230,19 +4559,24 @@
 				}
 			]
 			title: "Scythe"
-			x: -6.5d
+			x: -7.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3A686777F1FBD28E"]
 			description: [
-				"This pickaxe is made up of 2 different parts: the Void Worm Eye and a Void Worm Mandible on each side. The pickaxe is not particularly good, with its only real upside being its crit chance, which gives it a 32% chance to insta-mine blocks that take under 1.5 seconds to break. &oYou can't break the Waystone with this.&r"
+				"This pickaxe is made from two parts: the Void Worm Eye and a Void Worm Mandible. The Void Worm Pickaxe functions as the fastest pickaxe, axe, and shovel all in one. If you socket the Void Worm Eye, the pickaxe gains a 32% chance to instantly mine any block that normally takes under 1.5 seconds to break."
 				""
-				"The Eye is not a bad socket attachment on its own, as it provides a +32% crit chance and +1 damage."
+				"The Eye is also a strong socket attachment on its own, providing +32% crit chance and +1 damage."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -4265,7 +4599,7 @@
 			}
 			id: "3750630675EC8160"
 			shape: "square"
-			subtitle: "RNG: The Pickaxe"
+			subtitle: "You still can't break the Waystone with this."
 			tasks: [
 				{
 					count: 2L
@@ -4280,7 +4614,7 @@
 				}
 			]
 			title: "Void Worm Pickaxe"
-			x: -7.5d
+			x: -8.0d
 			y: -8.0d
 		}
 		{
@@ -4331,7 +4665,7 @@
 			description: [
 				"If Tetra's depth and complexity aren't for you and all you want are cool weapons, Celestisynth is what you're looking for."
 				""
-				"Celestisynth adds a bunch of swords and a bow which are very fun to use, but also hard to get. To start, you'll need to do some mining and adventuring to craft the Starlit Factory."
+				"Celestisynth adds a bunch of swords and a bow, which are very fun to use, but also hard to get. To start, you'll need to do some mining and adventuring to craft the Starlit Factory."
 				""
 				"You'll need to visit the Undergarden to get the Shiverstone needed to make it."
 				""
@@ -4354,7 +4688,7 @@
 				type: "item"
 			}]
 			title: "Starlit Factory"
-			x: -3.5d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -4478,8 +4812,711 @@
 				type: "item"
 			}]
 			title: "Any Celestial-Grade Weapon"
-			x: -3.5d
+			x: -4.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["431C2B8BEE92DD05"]
+			description: [
+				"You might notice that after adding enough upgrades or using strong materials on a Tetra weapon, it can run out of integrity. Integrity determines how complex the weapon can be, and you can raise it by swapping out different parts:"
+				""
+				"-   Higher-grade materials usually provide more integrity when crafting hilts."
+				""
+				"-   Adding a binding will increase Integrity on top of what your hilt grants."
+				""
+				"-   Certain materials, like andesite alloy, actually add integrity instead of subtracting it."
+				""
+				"Different materials can also alter a weapon’s speed and even grant additional effects. "
+				""
+				"You can view a material’s stats by clicking the holosphere button on the material selection screen."
+			]
+			id: "01B9A707917C50D1"
+			min_width: 300
+			size: 1.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createaddition:iron_rod"
+					}
+					id: "5F9BE8DAEE71640F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "itemfilters:and"
+									tag: {
+										items: [
+											{
+												Count: 1b
+												ForgeCaps: {
+													"celestisynth:celestisynthitemstackcapabilities": {
+														cs.aquaSkin: 0
+													}
+												}
+												id: "itemfilters:not"
+												tag: {
+													items: [{
+														Count: 1b
+														ForgeCaps: {
+															"celestisynth:celestisynthitemstackcapabilities": {
+																cs.aquaSkin: 0
+															}
+														}
+														id: "itemfilters:weak_nbt"
+														tag: {
+															value: {
+																"single/basic_handle_material": "basic_handle/stick"
+															}
+														}
+													}]
+												}
+											}
+											{
+												Count: 1b
+												ForgeCaps: {
+													"celestisynth:celestisynthitemstackcapabilities": {
+														cs.aquaSkin: 0
+													}
+												}
+												id: "tetra:modular_single"
+												tag: {
+													Damage: 0
+													HideFlags: 1
+													honing_progress: 180
+													id: "f1177db1-63b0-4704-b05b-812566bdd8fd"
+													"single/basic_handle_material": "basic_handle/stick"
+													"single/basic_shovel_material": "basic_shovel/oak"
+													"single/handle": "single/basic_handle"
+													"single/head": "single/basic_shovel"
+													weapon_attributes: "{\"parent\":\"bettercombat:staff\",\"attributes\":{\"attack_range\":3.75,\"two_handed\":true,\"category\":\"staff\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.2,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:staff_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+												}
+											}
+										]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "itemfilters:and"
+									tag: {
+										items: [
+											{
+												Count: 1b
+												ForgeCaps: {
+													"celestisynth:celestisynthitemstackcapabilities": {
+														cs.aquaSkin: 0
+													}
+												}
+												id: "itemfilters:not"
+												tag: {
+													items: [{
+														Count: 1b
+														ForgeCaps: {
+															"celestisynth:celestisynthitemstackcapabilities": {
+																cs.aquaSkin: 0
+															}
+														}
+														id: "itemfilters:weak_nbt"
+														tag: {
+															value: {
+																"sword/basic_hilt_material": "basic_hilt/stick"
+															}
+														}
+													}]
+												}
+											}
+											{
+												Count: 1b
+												ForgeCaps: {
+													"celestisynth:celestisynthitemstackcapabilities": {
+														cs.aquaSkin: 0
+													}
+												}
+												id: "tetra:modular_sword"
+												tag: {
+													Damage: 0
+													HideFlags: 1
+													honing_progress: 305
+													id: "b335f344-c591-4da7-b1cf-29588001c5ce"
+													"sword/basic_blade_material": "basic_blade/diamond"
+													"sword/basic_hilt_material": "basic_hilt/stick"
+													"sword/blade": "sword/basic_blade"
+													"sword/blade:arrested": 0
+													"sword/decorative_pommel_material": "decorative_pommel/diamond"
+													"sword/guard": "sword/makeshift_guard"
+													"sword/hilt": "sword/basic_hilt"
+													"sword/makeshift_guard_material": "makeshift_guard/diamond"
+													"sword/pommel": "sword/decorative_pommel"
+													weapon_attributes: "{\"parent\":\"bettercombat:sword\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"sword\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.2,\"randomness\":0.1}}]}}"
+												}
+											}
+										]
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "itemfilters:and"
+									tag: {
+										items: [
+											{
+												Count: 1b
+												ForgeCaps: {
+													"celestisynth:celestisynthitemstackcapabilities": {
+														cs.aquaSkin: 0
+													}
+												}
+												id: "itemfilters:weak_nbt"
+												tag: {
+													value: {
+														"single/basic_handle_material": "basic_handle/stick"
+													}
+												}
+											}
+											{
+												Count: 1b
+												ForgeCaps: {
+													"celestisynth:celestisynthitemstackcapabilities": {
+														cs.aquaSkin: 0
+													}
+												}
+												id: "tetra:modular_double"
+												tag: {
+													Damage: 0
+													HideFlags: 1
+													"double/basic_hammer_left_material": "basic_hammer/oak"
+													"double/basic_hammer_right_material": "basic_hammer/oak"
+													"double/basic_handle_material": "basic_handle/stick"
+													"double/handle": "double/basic_handle"
+													"double/head_left": "double/basic_hammer_left"
+													"double/head_right": "double/basic_hammer_right"
+													honing_progress: 290
+													id: "b4a536a8-567a-4d66-a3a0-0d52ef87041f"
+													weapon_attributes: "{\"parent\":\"bettercombat:hammer\",\"attributes\":{\"attack_range\":3.0,\"pose\":\"bettercombat:pose_two_handed_heavy\",\"two_handed\":true,\"category\":\"hammer\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:hammer_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:string"
+					}
+					id: "24FE44B20D29B504"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "tetra:modular_double"
+									tag: {
+										Damage: 0
+										"double/basic_hammer_left_material": "basic_hammer/oak"
+										"double/basic_hammer_right_material": "basic_hammer/oak"
+										"double/basic_handle_material": "basic_handle/stick"
+										"double/handle": "double/basic_handle"
+										"double/head_left": "double/basic_hammer_left"
+										"double/head_right": "double/basic_hammer_right"
+										id: "39d955fe-8336-4d60-a0b2-fe7dc63586b9"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											"double/binding": "double/binding"
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "Binding"
+					type: "item"
+				}
+			]
+			title: "Integrity!?"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["504FEF17493FD0C4"]
+			description: [
+				"The Shifting Blade is obtained by attempting to place an Amethyst Block on a blade."
+				""
+				"While it's not very strong on its own, it has the most effects of any weapon in Tetra: thirteen in total:"
+				""
+				"    Knockback: Increases knockback distance"
+				""
+				"    Crit: 5% chance to deal 2× damage"
+				""
+				"    Intuit: Gain 3× hone progress"
+				""
+				"    Stun: Occasionally stuns mobs for a few seconds"
+				""
+				"    Earthbind: A more effective stun when below Y=0"
+				""
+				"    Shieldbreaker: Disables shields on hit"
+				""
+				"    Bleeding: 30% chance to deal 4 damage over 2 seconds"
+				""
+				"    Sweeping: Hits in a 1-block radius around you"
+				""
+				"    Slam: Charge with right-click to deal 200% attack damage"
+				""
+				"    Confusion: Hitting non-undead mobs gives them Slowness V and Weakness V"
+				""
+				"    Skewering: Deals +4 damage to enemies with less than 4 armor"
+				""
+				"    Penetrating: Ignores 3% of a mob’s armor"
+				""
+				"    Crushing: Always deals at least 4 damage"
+			]
+			hide_dependency_lines: true
+			id: "45662F4F80EC7F01"
+			min_width: 300
+			shape: "square"
+			subtitle: "That's a Lot of Stuff"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 305
+						id: "d854e1a9-1f97-44a3-b209-b3888a9bbf04"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/shifting_blade"
+						"sword/decorative_pommel_material": "decorative_pommel/iron"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/makeshift_guard_material": "makeshift_guard/iron"
+						"sword/pommel": "sword/decorative_pommel"
+						"sword/shifting_blade_material": "shifting_blade/shifting_blade"
+						weapon_attributes: "{\"parent\":\"bettercombat:sword\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"sword\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.2,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "02185727D40C69C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/shifting_blade"
+						}
+					}
+				}
+				title: "Shifting Blade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0E358250382901F4"]
+			description: [
+				"Bolts have a special power: you can change their effect with a slider. To use it, place a bolt where a binding would normally go. Then return to the binding‑material selection screen and click &6d&r to open the tweak menu, where you can adjust the bolt’s stats."
+				""
+				"Tightening the bolt typically raises damage and lowers durability, while loosening it raises durability and lowers damage. For tools like axes, these tweaks instead adjust block‑breaking speed and durability."
+				""
+				"&oAlso, you can click &6s&r to return to normal workbench mode.&r"
+			]
+			id: "0602068313892C60"
+			subtitle: "More like screw since there is no nut"
+			tasks: [{
+				id: "15DEFB327F83EEE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:forged_bolt"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["504FEF17493FD0C4"]
+			description: [
+				"These are similar to Basic Blades but are slower and deal less direct damage. However, they inflict heavy bleeding damage—dealing a set amount of damage over 2 seconds (this ignores defense)."
+				""
+				"One thing to remember about bleeding: it’s not linear. For example, 8 bleeding isn’t just twice as strong as 4—it’s closer to three times as strong."
+			]
+			hide_dependency_lines: true
+			id: "197E7FAE8F164E98"
+			shape: "square"
+			subtitle: "I need a band-aid"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 164
+						id: "7ef9bd0c-7144-47af-8d96-acb73a5af901"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/machete"
+						"sword/decorative_pommel_material": "decorative_pommel/iron"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/hilt/settle_progress": 203
+						"sword/machete_material": "machete/iron"
+						"sword/makeshift_guard_material": "makeshift_guard/iron"
+						"sword/pommel": "sword/decorative_pommel"
+						weapon_attributes: "{\"parent\":\"bettercombat:cutlass\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"cutlass\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "4D9311069174D4BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/machete"
+						}
+					}
+				}
+				title: "Machete"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["504FEF17493FD0C4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 370
+					id: "d3550b37-eabe-4267-8c25-16ca23c1b610"
+					"sword/basic_hilt_material": "basic_hilt/ecologics_walnut"
+					"sword/blade": "sword/void_worm_cleaver"
+					"sword/decorative_pommel_material": "decorative_pommel/iron"
+					"sword/guard": "sword/socket"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/pommel": "sword/decorative_pommel"
+					"sword/socket_material": "sword_socket/socket_void_worm_eye"
+					"sword/void_worm_cleaver_material": "void_worm_cleaver/void_worm_cleaver"
+					weapon_attributes: "{\"parent\":\"bettercombat:claymore\",\"attributes\":{\"attack_range\":3.0,\"pose\":\"bettercombat:pose_two_handed_sword\",\"two_handed\":true,\"category\":\"claymore\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":0.75,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:claymore_swing\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_left\",\"swing_sound\":{\"id\":\"bettercombat:claymore_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.25,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:claymore_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.0}}]}}"
+				}
+			}
+			id: "5B4F635641CF86F6"
+			shape: "square"
+			subtitle: "100 Damage"
+			tasks: [{
+				id: "4BF78479EA5FEEC9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:void_worm_mandible"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["504FEF17493FD0C4"]
+			description: ["The Bastard Blade functions like the Basic Blade but with increased range. Hitting a mob with a Bastard Blade extends its reach by 3 blocks."]
+			hide_dependency_lines: true
+			id: "1C0CE3DD19FB2675"
+			shape: "square"
+			subtitle: "Social Distancing"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 237
+						id: "0001866a-b958-4699-ae6c-671b535249aa"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/bastard_blade_material": "bastard_blade/iron"
+						"sword/blade": "sword/bastard_blade"
+						"sword/decorative_pommel_material": "decorative_pommel/iron"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/hilt/settle_progress": 276
+						"sword/makeshift_guard_material": "makeshift_guard/iron"
+						"sword/pommel": "sword/decorative_pommel"
+						weapon_attributes: "{\"parent\":\"bettercombat:lance\",\"attributes\":{\"attack_range\":3.35,\"two_handed\":false,\"category\":\"lance\",\"attacks\":[{\"conditions\":[\"NOT_MOUNTED\"],\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"conditions\":[\"MOUNTED\"],\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab_mounted\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "71676DD66A435831"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/bastard_blade"
+						}
+					}
+				}
+				title: "Bastard Blade"
+				type: "item"
+			}]
+			title: "Bastard Blade"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["504FEF17493FD0C4"]
+			description: ["This blade is similar to a Basic Blade, but it has a charged right-click move that deals much more damage when it hits a target."]
+			hide_dependency_lines: true
+			id: "6763A56101C7D9A2"
+			shape: "square"
+			subtitle: "Slam Dunk"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_sword"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 164
+						id: "2938e5e4-3bd0-44b2-b487-c856373f3548"
+						"sword/basic_hilt_material": "basic_hilt/stick"
+						"sword/blade": "sword/executioner_blade"
+						"sword/decorative_pommel_material": "decorative_pommel/iron"
+						"sword/executioner_blade_material": "executioner_blade/iron"
+						"sword/guard": "sword/makeshift_guard"
+						"sword/hilt": "sword/basic_hilt"
+						"sword/hilt/settle_progress": 203
+						"sword/makeshift_guard_material": "makeshift_guard/iron"
+						"sword/pommel": "sword/decorative_pommel"
+						weapon_attributes: "{\"parent\":\"bettercombat:sword\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"sword\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.2,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "591A24A39857AAA8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"sword/blade": "sword/executioner_blade"
+						}
+					}
+				}
+				title: "Executioner Blade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: ["Don’t like how slow spears are? This is a faster version of the normal spearhead. It deals slightly less damage and has reduced range, but makes up for it with a powerful effect—it stuns your target for a few seconds, preventing them from moving."]
+			hide_dependency_lines: true
+			id: "626E0045074B4281"
+			shape: "square"
+			subtitle: "Speed is KEY"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 213
+						id: "4a32aa2e-bacf-4b56-93fc-e926621d1f7e"
+						"single/basic_handle_material": "basic_handle/stick"
+						"single/handle": "single/basic_handle"
+						"single/handle/settle_progress": 252
+						"single/head": "single/quarter_staff_head"
+						"single/head/settle_progress": 333
+						"single/quarter_staff_head_material": "quarter_staff_head/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:battlestaff\",\"attributes\":{\"attack_range\":2.95,\"two_handed\":true,\"category\":\"battlestaff\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.2,\"angle\":360.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_spin\",\"swing_sound\":{\"id\":\"bettercombat:staff_spin\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.4,\"angle\":160.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:staff_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":0.8,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_left\",\"swing_sound\":{\"id\":\"bettercombat:staff_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":0.8,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:staff_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "056E4644C0B65F8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"single/head": "single/quarter_staff_head"
+						}
+					}
+				}
+				title: "Quarter Staff"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: ["The long handle makes any polearm two-handed for the upside of more range."]
+			hide_dependency_lines: true
+			id: "4B5ACD60381979DF"
+			shape: "square"
+			subtitle: "Can't touch this"
+			tasks: [{
+				id: "32F2D72AD0655C2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "spartanweaponry:simple_pole"
+				}
+				type: "item"
+			}]
+			title: "Long handle"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			description: ["The light handle makes any spear thowable. Thown spears deal twice their normal damage, but with the downside of not being able to use enchantments."]
+			hide_dependency_lines: true
+			id: "37CA615D515365B0"
+			shape: "square"
+			subtitle: "Lawn darts"
+			tasks: [{
+				id: "053B6AF6519DD803"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "spartanweaponry:simple_handle"
+				}
+				type: "item"
+			}]
+			title: "Light handle"
+			x: 8.0d
+			y: -8.0d
 		}
 	]
 	title: "Equipment"

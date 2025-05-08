@@ -20,7 +20,8 @@
             ],
             "key": "halberd_head/",
             "attributes": {
-                "generic.attack_speed": -0.6
+                "generic.attack_speed": -1.1,
+                "generic.attack_damage": 1.75
             },
             "effects": {
                 "armorPenetration": 2.5,

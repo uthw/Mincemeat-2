@@ -3,7 +3,7 @@
 	"slots": [ "sword/blade" ],
 	"type": "tetra:basic_major_module",
 	"improvements": [
-		"tetra:sword/saber_blade/",
+		"tetra:sword/bastard_blade/",
 		"tetra:sword/shared_blade/",
 		"tetra:sword/shared/",
 		"tetra:shared/"
@@ -11,51 +11,44 @@
 	"variants": [
 		{
 			"materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-			"key": "saber_blade/",
+			"key": "bastard_blade/",
 			"attributes": {
-				"generic.attack_speed": -1.8,
-				"generic.attack_damage": -0.3
+				"generic.attack_speed": -2.45,
+				"forge:reach_distance": 0.2,
+				"forge:attack_range": 0.2
 			},
 			"effects": {
-				"sweeping": 1,
-				"jab": 85,
-				"criticalStrike": [12,1]
+				"sweeping": [8.25,2.5]
 			},
 			"tools": {
 				"cut": [ 1, 2 ]
 			},
 			"aspects": {
-				"edgedWeapon": 2,
+				"edged_weapon": 2,
 				"breakable": 2
 			},
 			"durability": -20,
+			"tags":[
+				"forge:swords"
+			],
 			"extract": {
 				"primaryAttributes": {
 					"generic.attack_damage": 1
 				},
-				"tools": {
-					"cut": [ 0.5, 1 ]
-				},
-				"primaryEffects": {
-					"sweeping": 1,
-					"jab": 5,
-					"criticalStrike": [-1,0.3]
-				},
-				"tertiaryEffects": {
-					"sweeping": 0.5,
-					"jab": -4.5,
-					"criticalStrike": [5,0]
-				},
+				"tertiaryAttributes": {
+					"forge:reach_distance": 0.05,
+					"forge:attack_range": 0.05
+                },
 				"durability": 0.9,
 				"integrity": -1,
 				"magicCapacity": 1,
 				"glyph": {
 					"textureLocation": "tetra:textures/gui/aof_glyph.png",
-					"textureX": 80
+					"textureX": 176
 				},
 				"availableTextures": [ "metal", "shiny", "grainy", "crude" ],
 				"models": [{
-					"location": "tetra:item/module/sword/blade/saber_blade/"
+					"location": "tetra:item/module/sword/blade/bastard_blade/"
 				}]
 			}
 		}

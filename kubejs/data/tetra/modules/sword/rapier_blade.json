@@ -3,7 +3,7 @@
 	"slots": [ "sword/blade" ],
 	"type": "tetra:basic_major_module",
 	"improvements": [
-		"tetra:sword/saber_blade/",
+		"tetra:sword/rapier_blade/",
 		"tetra:sword/shared_blade/",
 		"tetra:sword/shared/",
 		"tetra:shared/"
@@ -11,51 +11,43 @@
 	"variants": [
 		{
 			"materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-			"key": "saber_blade/",
+			"key": "rapier_blade/",
 			"attributes": {
-				"generic.attack_speed": -1.8,
-				"generic.attack_damage": -0.3
+				"generic.attack_speed": -1.65,
+				"generic.attack_damage": 2.5
 			},
 			"effects": {
-				"sweeping": 1,
-				"jab": 85,
-				"criticalStrike": [12,1]
-			},
-			"tools": {
-				"cut": [ 1, 2 ]
+				"armorPenetration": 2.5,
+				"skewering": [ 1, 2 ]
 			},
 			"aspects": {
-				"edgedWeapon": 2,
+				"edged_weapon": 2,
 				"breakable": 2
 			},
 			"durability": -20,
+			"tags":[
+				"forge:swords"
+			],
 			"extract": {
 				"primaryAttributes": {
-					"generic.attack_damage": 1
+					"generic.attack_speed": 0.1
 				},
-				"tools": {
-					"cut": [ 0.5, 1 ]
-				},
-				"primaryEffects": {
-					"sweeping": 1,
-					"jab": 5,
-					"criticalStrike": [-1,0.3]
+				"secondaryEffects": {
+					"armorPenetration": 2
 				},
 				"tertiaryEffects": {
-					"sweeping": 0.5,
-					"jab": -4.5,
-					"criticalStrike": [5,0]
+					"armorPenetration": -1.5
 				},
-				"durability": 0.9,
+				"durability": 2,
 				"integrity": -1,
-				"magicCapacity": 1,
+				"magicCapacity": 1.5,
 				"glyph": {
 					"textureLocation": "tetra:textures/gui/aof_glyph.png",
-					"textureX": 80
+					"textureX": 48
 				},
 				"availableTextures": [ "metal", "shiny", "grainy", "crude" ],
 				"models": [{
-					"location": "tetra:item/module/sword/blade/saber_blade/"
+					"location": "tetra:item/module/sword/blade/rapier_blade/"
 				}]
 			}
 		}

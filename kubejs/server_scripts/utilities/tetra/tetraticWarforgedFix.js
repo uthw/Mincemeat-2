@@ -61,6 +61,13 @@ let fix = {
                     },
                 },
             },
+            "double/slime_hammer": {
+                config: {
+                    attributes: {
+                        parent: "bettercombat:fist",
+                    },
+                },
+            },
         },
         "single/head": {
             "single/trident": {
@@ -76,6 +83,18 @@ let fix = {
                         type: "module",
                         key: "single/handle",
                         value: "single/light_handle",
+                        config: {
+                            scaleY: 1.75,
+                            scaleZ: 1.5,
+                            attributes: {
+                                parent: "bettercombat:trident",
+                            },
+                        },
+                    },
+                    {
+                        type: "module",
+                        key: "single/handle",
+                        value: "single/basic_handle",
                         config: {
                             scaleY: 1.75,
                             scaleZ: 1.5,
@@ -160,6 +179,20 @@ let fix = {
                 config: {
                     attributes: {
                         parent: "bettercombat:dagger",
+                    },
+                },
+            },
+            "sword/bastard_blade": {
+                config: {
+                    attributes: {
+                        parent: "bettercombat:lance",
+                    },
+                },
+            },
+            "sword/flamberge_blade": {
+                config: {
+                    attributes: {
+                        parent: "bettercombat:scythe",
                     },
                 },
             },

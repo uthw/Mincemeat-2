@@ -19,8 +19,8 @@
             ],
             "key": "short_blade/",
             "attributes": {
-                "generic.attack_speed": -1.4,
-                "generic.attack_damage": -0.5
+                "generic.attack_speed": -1.1,
+                "generic.attack_damage": -1.5
             },
             "aspects": { "edged_weapon": 2, "breakable": 2 },
             "effects": { "jab": 130 },
