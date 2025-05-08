@@ -17,9 +17,6 @@ global.gravescroll = (entity) => {
     let pData = entity.persistentData;
     let offHandItem = entity.getHeldItem("off_hand");
     let item = entity.getHeldItem("main_hand");
-    // entity.server.runCommand(`whisper @a deathreset: ${pData.deathreset}`);
-    console.log(`deathreset: ${pData.deathreset}`);
-    console.log(`dimension: ${pData.deathDimension}`);
     if (pData.deathreset != 1) {
         return;
     }
