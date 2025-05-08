@@ -11,26 +11,26 @@ ServerEvents.recipes((event) => {
             // Source Cost not provided --> treated as 0
             // keep NBT not provided --> treated as true
         },
-        {
-            output: "naturesaura:wood_stand",
-            reagent: "minecraft:stripped_oak_log",
-            inputs: ["naturesaura:gold_leaf", "#forge:gems/source"],
-        },
-        {
-            output: "naturesaura:gold_fiber",
-            reagent: "minecraft:grass",
-            inputs: ["4x #botania:petals/yellow"],
-        },
-        {
-            output: "naturesaura:offering_table",
-            reagent: "supplementaries:pedestal",
-            inputs: [
-                "3x naturesaura:infused_iron",
-                "ars_nouveau:source_gem",
-                "forbidden_arcanus:arcane_crystal",
-                "naturesaura:gold_powder",
-            ],
-        },
+        // {
+        //     output: "naturesaura:wood_stand",
+        //     reagent: "minecraft:stripped_oak_log",
+        //     inputs: ["naturesaura:gold_leaf", "#forge:gems/source"],
+        // },
+        // {
+        //     output: "naturesaura:gold_fiber",
+        //     reagent: "minecraft:grass",
+        //     inputs: ["4x #botania:petals/yellow"],
+        // },
+        // {
+        //     output: "naturesaura:offering_table",
+        //     reagent: "supplementaries:pedestal",
+        //     inputs: [
+        //         "3x naturesaura:infused_iron",
+        //         "ars_nouveau:source_gem",
+        //         "forbidden_arcanus:arcane_crystal",
+        //         "naturesaura:gold_powder",
+        //     ],
+        // },
         // {
         //     output: "bloodmagic:blankrune",
         //     reagent: "bloodmagic:blankslate",
@@ -54,10 +54,7 @@ ServerEvents.recipes((event) => {
 
         {
             output: "enigmaticlegacy:recall_potion",
-            reagent: Item.of(
-                "naturesaura:aura_bottle",
-                '{stored_type:"naturesaura:overworld"}'
-            ),
+            reagent: "minecraft:water_bottle",
             inputs: ["forbidden_arcanus:rune", "alexsmobs:cockroach_wing"],
         },
         {
@@ -290,6 +287,23 @@ ServerEvents.recipes((event) => {
                 "thermal:basalz_powder",
             ],
         },
+        {
+            output: "integrateddynamics:menril_sapling",
+            reagent: "#minecraft:saplings",
+            inputs: ["8x forbidden_arcanus:arcane_crystal"],
+        },
+        {
+            output: "reliquary:fertile_lily_pad",
+            reagent: "minecraft:lily_pad",
+            inputs: [
+                "reliquary:fertile_essence",
+                "reliquary:fertile_essence",
+                "enigmaticlegacy:infinimeal",
+                "ars_nouveau:magebloom",
+                "alexscaves:cycad",
+                "alexscaves:cycad",
+            ],
+        }
     ];
 
     recipes.forEach((recipe) => {

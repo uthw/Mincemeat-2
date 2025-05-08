@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
                     tag: "forge:ingots/pewter",
                 },
                 {
-                    item: "naturesaura:infused_iron",
+                    tag: "forge:ingots/arcane_gold",
                 },
             ],
             output: "botania:terrasteel_ingot",
