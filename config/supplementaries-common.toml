@@ -208,8 +208,8 @@
 		#Time for a cannon to be able to fire again after it has been fired
 		#Range: 0 ~ 500
 		cooldown = 60
-		cannonball = true
 		music_disc_heave_ho = true
+		cannonball = true
 
 	[functional.lumisene]
 		enabled = true

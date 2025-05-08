@@ -3,7 +3,7 @@
     "oldRotation": false,
     "vanillaRendering": false,
     "rotateSpeed": 1.0,
-    "showPickupTooltip": false,
+    "showPickupTooltip": true,
     "showPickupTooltipOnlyOnGround": false,
     "showPickupTooltipExtended": false,
     "showPickupTooltipKeybind": false,
