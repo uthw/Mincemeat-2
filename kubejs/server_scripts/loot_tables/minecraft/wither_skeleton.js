@@ -5,17 +5,26 @@
 // Doesn't work for some reason
 // LootJS.modifiers(event => {
 //     event.disableGlobalModifier("architects_palette:wither_skeleton_bones")
-    
+
 // })
 
 // Replaces the wither skeleton bone drop from architects_palette with ice and fire wither bone
-ServerEvents.highPriorityData(event => {
+ServerEvents.highPriorityData((event) => {
     let tweak = {
-        "type": "architects_palette:wither_skeleton_bones",
-        "conditions": [],
-        "bone": "iceandfire:witherbone",
-        "replaces": "minecraft:bone"
-      }
+        type: "architects_palette:wither_skeleton_bones",
+        conditions: [],
+        bone: "iceandfire:witherbone",
+        replaces: "minecraft:bone",
+    };
 
-    event.addJson("architects_palette:loot_modifiers/wither_skeleton_bones.json", tweak)
-})
+    event.addJson(
+        "architects_palette:loot_modifiers/wither_skeleton_bones.json",
+        tweak
+    );
+});
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("minecraft:wither_skeleton")
+        .removeLoot("art_of_forging:shards_of_malice");
+});
