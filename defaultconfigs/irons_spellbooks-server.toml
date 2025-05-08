@@ -668,7 +668,7 @@ priestHouseWeight = 4
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
+		SpellPowerMultiplier = 0.5
 		CooldownInSeconds = 4.7
 		AllowCrafting = true
 
