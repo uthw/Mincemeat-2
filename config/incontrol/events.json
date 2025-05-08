@@ -106,5 +106,23 @@
             "attempts": 20,
             "norestrictions": true
         }
+    },
+    {
+        "on": "custom",
+        "parameters": {
+            "name": "replace_with_hunter"
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld"
+        },
+        "spawn": {
+            "mob": "hunters_return:hunter",
+            "mindistance": 0,
+            "maxdistance": 1,
+            "mincount": 1,
+            "maxcount": 1,
+            "attempts": 20,
+            "norestrictions": true
+        }
     }
 ]

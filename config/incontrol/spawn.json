@@ -216,7 +216,6 @@
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
             "tlc:lost_castle"
-
         ],
         "customevent": "replace_with_fusilier",
         "when": "onjoin",
@@ -232,7 +231,6 @@
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
             "tlc:lost_castle"
-
         ],
         "customevent": "replace_with_commando",
         "when": "onjoin",
@@ -248,7 +246,6 @@
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
             "tlc:lost_castle"
-
         ],
         "customevent": "replace_with_griefer",
         "when": "onjoin",
@@ -264,7 +261,6 @@
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
             "tlc:lost_castle"
-
         ],
         "customevent": "replace_with_trickster",
         "when": "onjoin",
@@ -280,7 +276,6 @@
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
             "tlc:lost_castle"
-
         ],
         "customevent": "replace_with_necromancer",
         "when": "onjoin",
@@ -389,5 +384,59 @@
         "when": "onjoin",
         "random": 0.1,
         "result": "deny_with_actions"
+    },
+    {
+        "when": "onjoin",
+        "mob": "minecraft:iron_golem",
+        "healthmultiply": 2,
+        "damagemultiply": 1.5,
+        "result": "default"
+    },
+    {
+        "when": "finalize",
+        "structure": "idas:hunters_cabin",
+        "mob": "minecraft:pillager",
+        "customevent": "replace_with_hunter",
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.5,
+        "result": "deny_with_actions"
+    },
+    {
+        "when": "finalize",
+        "structure": "idas:hunters_cabin",
+        "mob": "minecraft:vindicator",
+        "customevent": "replace_with_hunter",
+        "healthmultiply": 1.5,
+        "damagemultiply": 1.5,
+        "result": "deny_with_actions"
+    },
+    {
+        "when": "onjoin",
+        "mob": "celestisynth:star_monolith",
+        "result": "deny"
+    },
+    {
+        "when": "finalize",
+        "mob": "minecraft:skeleton",
+        "healthmultiply": 2,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "biomeswevegone:man_o_war",
+        "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "minecraft:warden",
+        "healthmultiply": 0.5,
+        "result": "default"
+    },
+    {
+        "when": "finalize",
+        "mob": "irons_spellbooks:citadel_keeper",
+        "armormultiply": 4,
+        "damagemultiply": 1.35,
+        "result": "default"
     }
 ]
