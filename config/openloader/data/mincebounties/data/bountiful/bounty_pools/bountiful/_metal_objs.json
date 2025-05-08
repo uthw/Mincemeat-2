@@ -137,7 +137,7 @@
         },
         "thermal_cinnabar_obj": {
             "type": "item",
-            "content": "thermal:cinabar",
+            "content": "thermal:cinnabar",
             "amount": {
                 "min": 8,
                 "max": 24
@@ -164,7 +164,7 @@
         },
         "rubinated_nether_ruby_obj": {
             "type": "item",
-            "content": "rubberduck:rubinated_nether_ruby",
+            "content": "rubinated_nether:ruby",
             "amount": {
                 "min": 4,
                 "max": 16
