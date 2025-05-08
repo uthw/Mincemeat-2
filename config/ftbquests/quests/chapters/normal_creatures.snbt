@@ -772,7 +772,7 @@
 			y: 7.5d
 		}
 		{
-			description: ["When killed, these birds drop delicious meals. So much so that Americans decided to eat them every year to celebrate the genocide of -- wait, what was I talking about?"]
+			description: ["We're going back in time to the first Thanksgiving to get turkeys off the menu!"]
 			id: "4EF53D3E76EAE14A"
 			invisible: true
 			tasks: [{
