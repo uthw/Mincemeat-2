@@ -145,6 +145,8 @@
 			dependencies: ["48589341ABDDAED8"]
 			icon: "naturesaura:gold_leaf"
 			id: "080F8244C005A607"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "7583259F2BF4807B"
 				title: "Nature's Aura"
@@ -401,18 +403,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2740EA95B624F9C1"]
-			icon: "engineersdecor:small_solar_panel"
-			id: "1FB696492DE80FA8"
-			tasks: [{
-				id: "5BC2203CD90237B0"
-				title: "Engineer's Decor"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["7EFD8A908E3EC4D3"]
 			icon: "refinedstorage:creative_controller"
 			id: "2ED77265C4A155B8"
@@ -530,7 +520,15 @@
 		}
 		{
 			dependencies: ["477A58774B7737C5"]
-			icon: "storagenetwork:request"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "toms_storage:ts.crafting_terminal"
+			}
 			id: "719958C431733A59"
 			subtitle: "The creation of a storage controller that can craft items requires mechanical mixing"
 			tasks: [{
@@ -538,7 +536,7 @@
 				title: "Simple Storage Network"
 				type: "checkmark"
 			}]
-			title: "Simple Storage Network: Request Table"
+			title: "Tom's Simple Storage: Crafting Terminal"
 			x: -0.5d
 			y: 3.0d
 		}
