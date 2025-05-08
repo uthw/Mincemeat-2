@@ -106,13 +106,17 @@ ServerEvents.highPriorityData((event) => {
             offhands: [
                 {
                     weight: 1,
-                    stack: "spartanshields:iron_basic_shield",
+                    stack: { item: "spartanshields:iron_basic_shield" },
                 },
             ],
-            boots: [{ weight: 1, stack: "minecraft:iron_boots" }],
-            leggings: [{ weight: 1, stack: "minecraft:iron_leggings" }],
-            chestplate: [{ weight: 1, stack: "minecraft:iron_chestplate" }],
-            helmets: [{ weight: 1, stack: "minecraft:iron_helmet" }],
+            boots: [{ weight: 1, stack: { item: "minecraft:iron_boots" } }],
+            leggings: [
+                { weight: 1, stack: { item: "minecraft:iron_leggings" } },
+            ],
+            chestplate: [
+                { weight: 1, stack: { item: "minecraft:iron_chestplate" } },
+            ],
+            helmets: [{ weight: 1, stack: { item: "minecraft:iron_helmet" } }],
         },
         {
             name: "diamond",
@@ -223,13 +227,19 @@ ServerEvents.highPriorityData((event) => {
             offhands: [
                 {
                     weight: 1,
-                    stack: "spartanshields:diamond_basic_shield",
+                    stack: { item: "spartanshields:diamond_basic_shield" },
                 },
             ],
-            boots: [{ weight: 1, stack: "minecraft:diamond_boots" }],
-            leggings: [{ weight: 1, stack: "minecraft:diamond_leggings" }],
-            chestplate: [{ weight: 1, stack: "minecraft:diamond_chestplate" }],
-            helmets: [{ weight: 1, stack: "minecraft:diamond_helmet" }],
+            boots: [{ weight: 1, stack: { item: "minecraft:diamond_boots" } }],
+            leggings: [
+                { weight: 1, stack: { item: "minecraft:diamond_leggings" } },
+            ],
+            chestplate: [
+                { weight: 1, stack: { item: "minecraft:diamond_chestplate" } },
+            ],
+            helmets: [
+                { weight: 1, stack: { item: "minecraft:diamond_helmet" } },
+            ],
             tags: ["overworld", "the_nether"],
         },
         {
@@ -338,15 +348,24 @@ ServerEvents.highPriorityData((event) => {
             offhands: [
                 {
                     weight: 1,
-                    stack: "spartanshields:netherite_basic_shield",
+                    stack: { item: "spartanshields:netherite_basic_shield" },
                 },
             ],
-            boots: [{ weight: 1, stack: "minecraft:netherite_boots" }],
-            leggings: [{ weight: 1, stack: "minecraft:netherite_leggings" }],
-            chestplate: [
-                { weight: 1, stack: "minecraft:netherite_chestplate" },
+            boots: [
+                { weight: 1, stack: { item: "minecraft:netherite_boots" } },
             ],
-            helmets: [{ weight: 1, stack: "minecraft:netherite_helmet" }],
+            leggings: [
+                { weight: 1, stack: { item: "minecraft:netherite_leggings" } },
+            ],
+            chestplate: [
+                {
+                    weight: 1,
+                    stack: { item: "minecraft:netherite_chestplate" },
+                },
+            ],
+            helmets: [
+                { weight: 1, stack: { item: "minecraft:netherite_helmet" } },
+            ],
             tags: ["overworld", "the_nether"],
         },
         // Osmium
@@ -364,15 +383,24 @@ ServerEvents.highPriorityData((event) => {
             offhands: [
                 {
                     weight: 1,
-                    stack: "mekanismtools:osmium_shield",
+                    stack: { item: "mekanismtools:osmium_shield" },
                 },
             ],
-            boots: [{ weight: 1, stack: "mekanismtools:osmium_boots" }],
-            leggings: [{ weight: 1, stack: "mekanismtools:osmium_leggings" }],
-            chestplate: [
-                { weight: 1, stack: "mekanismtools:osmium_chestplate" },
+            boots: [
+                { weight: 1, stack: { item: "mekanismtools:osmium_boots" } },
             ],
-            helmets: [{ weight: 1, stack: "mekanismtools:osmium_helmet" }],
+            leggings: [
+                { weight: 1, stack: { item: "mekanismtools:osmium_leggings" } },
+            ],
+            chestplate: [
+                {
+                    weight: 1,
+                    stack: { item: "mekanismtools:osmium_chestplate" },
+                },
+            ],
+            helmets: [
+                { weight: 1, stack: { item: "mekanismtools:osmium_helmet" } },
+            ],
         },
         // // cincinnatsite
         // {
@@ -532,13 +560,33 @@ ServerEvents.highPriorityData((event) => {
             offhands: [
                 {
                     weight: 1,
-                    stack: "spartanshields:silver_basic_shield",
+                    stack: { item: "spartanshields:silver_basic_shield" },
                 },
             ],
-            boots: [{ weight: 1, stack: "eidolon:silver_boots" }],
-            leggings: [{ weight: 1, stack: "eidolon:silver_leggings" }],
-            chestplate: [{ weight: 1, stack: "eidolon:silver_chestplate" }],
-            helmets: [{ weight: 1, stack: "eidolon:silver_helmet" }],
+            boots: [
+                {
+                    weight: 1,
+                    stack: { item: "caverns_and_chasms:silver_boots" },
+                },
+            ],
+            leggings: [
+                {
+                    weight: 1,
+                    stack: { item: "caverns_and_chasms:silver_leggings" },
+                },
+            ],
+            chestplate: [
+                {
+                    weight: 1,
+                    stack: { item: "caverns_and_chasms:silver_chestplate" },
+                },
+            ],
+            helmets: [
+                {
+                    weight: 1,
+                    stack: { item: "caverns_and_chasms:silver_helmet" },
+                },
+            ],
         },
         {
             weight: 3,
