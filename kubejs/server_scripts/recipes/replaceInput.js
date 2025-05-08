@@ -1472,6 +1472,26 @@ ServerEvents.recipes((event) => {
             "minecraft:amethyst_shard",
             "galosphere:pink_salt_shard",
         ],
+        [
+            { output: "ars_additions:ender_source_jar" },
+            "minecraft:popped_chorus_fruit",
+            "eidolon:gold_inlay",
+        ],
+        [
+            { output: "art_of_forging:resonant_alloy" },
+            "minecraft:netherite_scrap",
+            "caverns_and_chasms:living_flesh",
+        ],
+        [
+            { output: "art_of_forging:endsteel_ingot" },
+            "minecraft:dragon_breath",
+            "aquamirae:abyssal_amethyst",
+        ],
+        [
+            { output: "art_of_forging:life_fiber" },
+            "tetra:dragon_sinew",
+            "enigmaticlegacy:infinimeal"
+        ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
