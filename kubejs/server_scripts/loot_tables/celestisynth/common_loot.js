@@ -1,5 +1,5 @@
 LootJS.modifiers((event) => {
     event
-        .addLootTableModifier(/^minecraft:chests\/.*/)
+        .addLootTableModifier(/^.*chests\/.*/)
         .removeLoot("celestisynth:lunar_stone");
 });
