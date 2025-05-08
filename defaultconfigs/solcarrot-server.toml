@@ -11,7 +11,7 @@
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = []
+	blacklist = ["minecraft:pumpkin_pie", "ars_nouveau:source_berry_pie", "biomeswevegone:green_apple_pie", "biomeswevegone:blueberry_pie", "undergarden:gloomgourd_pie", "upgrade_aquatic:mulberry_pie", "atmospheric:passion_fruit_tart"]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
