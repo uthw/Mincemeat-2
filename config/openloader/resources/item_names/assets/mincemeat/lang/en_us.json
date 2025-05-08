@@ -128,5 +128,13 @@
     "enchantment.feathers.heavy.desc": "Increases the armor's negative impact on the feathers meter.",
     "item.graveyard.incarnated_evil_music_disc": "Music Disc",
     "enchantment.hunters_return.bounce.desc": "The boomerang can bounce off of more walls and mobs in one throw.",
-    "enchantment.celestisynth.pulsation.desc": "Attacks randomly do additional damage and knockback. The chance and effectiveness increase with the level."
+    "enchantment.celestisynth.pulsation.desc": "Attacks randomly do additional damage and knockback. The chance and effectiveness increase with the level.",
+    "effect.netherexp.fogsight.description": "Removes fog but I'm not entirely sure.",
+    "effect.netherexp.unbounded_speed.description": "Removes the speed penalty from running on soul sand.",
+    "effect.netherexp.betrayed.description": "Given by a Treacherous Candle. Removes the ability to place blocks and hostile mobs become neutral to the inflicted.",
+    "effect.hexcasting.enlarge_grid.description": "Increases the space available for casting spells.",
+    "effect.hexcasting.shrink_grid.description": "Decreases the space available for casting spells.",
+    "tetra.holo.craft.materials.stat.primary.tooltip": "The material's hardness or sharpness, or the ability to shape this material into something with a hard/sharp edge (determines attack damage)",
+    "tetra.holo.craft.materials.stat.secondary.tooltip": "The material's density, rigidity or weight, how much kinetic energy does this carry as it's swung (determines attack speed)",
+    "tetra.holo.craft.materials.stat.tertiary.tooltip": "The material's flexibility or tensile strength, how fast does this material spring back when bent (determines secondary effect strength)"
 }
