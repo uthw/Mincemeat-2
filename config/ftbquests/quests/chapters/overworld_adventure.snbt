@@ -12,7 +12,7 @@
 			description: ["Found in the &5Theatre&r."]
 			hide_dependent_lines: true
 			id: "4493D9650B5D1F71"
-			subtitle: "Kill the &5Conjurer"
+			subtitle: "Illagin' for a Pillagin'"
 			tasks: [{
 				entity: "conjurer_illager:conjurer"
 				icon: {
@@ -27,6 +27,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Kill the &5Conjurer"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -44,13 +45,18 @@
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "hunters_return:boomerang"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "67EDF8A2B69A158D"
-			subtitle: "Kill the &5Hunter"
+			subtitle: "Wild Hunt"
 			tasks: [{
 				entity: "hunters_return:hunter"
 				icon: "hunters_return:spawnegg_hunter"
@@ -59,6 +65,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Kill the &5Hunter"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -100,7 +107,15 @@
 				""
 				"Be sure to bring a &branged weapon&r!"
 			]
-			icon: "bosses_of_mass_destruction:soul_star"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bosses_of_mass_destruction:soul_star"
+			}
 			id: "0579360EE0F0D4AD"
 			tasks: [
 				{
@@ -197,9 +212,11 @@
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
-				"&lNote:&r you would have to be &2very lucky&r to stumble upon a cave biome considering how rare they are."
+				"These little wooden shacks can be found underground and, more rarely, underwater. These are the primary ways of finding cave tablets and decoding tables, which you'll need to find cave biomes."
 				""
-				"Also, your &2Nature's Compass&r isn't able to detect them, so there's no easy way of finding cave biomes without &athese quests&r."
+				"&lNote:&r these cave biomes are &4extremely rare&r, and will take a lot of time travelling unless you get lucky."
+				""
+				"Also, your Nature's Compass isn't capable of finding these biomes, so pay close attention to the subsequent quests!"
 			]
 			id: "391AAC02FA3ADE08"
 			rewards: [{
@@ -207,6 +224,7 @@
 				item: "alexscaves:cave_book"
 				type: "item"
 			}]
+			subtitle: "Hopefully there's no angel statue in this one."
 			tasks: [
 				{
 					id: "6DEAD7909CB17C80"
@@ -232,9 +250,9 @@
 		{
 			dependencies: ["391AAC02FA3ADE08"]
 			description: [
-				"Place a &2cave tablet&r and &2paper&r in the table and then play the minigame."
+				"You can decode cave tablets by placing them and a piece of paper in the &aSpelunkery Table&r."
 				""
-				"&lHint:&r the words on the tablet are in the &2Standard Galactic Alphabet, &rwhich is also what the cryptic letters from the enchanting table uses."
+				"&lHint:&r the words on the tablet are in the &2Standard Galactic Alphabet, &rwhich is also what the cryptic letters that may be familiar from your experience enchanting."
 				"&7"
 				"&o[Go to the next page for an easy way of solving the puzzle]&r&r "
 				"{@pagebreak}"
@@ -245,6 +263,7 @@
 				"and enter the word it wants you to find, then look for something resembling what the website gives you in the tablet."
 			]
 			id: "56DDF65F9F368790"
+			subtitle: "What are all these symbols???"
 			tasks: [
 				{
 					icon: "alexscaves:spelunkery_table"
@@ -269,11 +288,14 @@
 			description: [
 				"When you're done, you'll receive a &2cave codex&r. Surround it with paper for a &2cave biome map&r."
 				""
-				"As these caves can be &2far away&r, make sure you gear up and brace yourself for &2highly scaled-up enemies&r &7&o(which haven't been playtested yet and may be unbalanced)&r."
+				"&2Warning!&r Using the &2codex&r will consume it to add entries to your compendium instead of locating a biome."
 				""
-				"The subsequent quests will be revealed as you locate the various caves."
+				"As mentioned earlier, these caves can be &2far away&r. Make sure you gear up and brace yourself for &2highly scaled-up enemies&r &7&o(which haven't been playtested yet and may be unbalanced)&r."
+				""
+				"The subsequent quests will be revealed as you locate the various caves. &eHappy spelunking!&r"
 			]
 			id: "2287726086131598"
+			subtitle: "Get ready to get walkin'"
 			tasks: [{
 				id: "4C1ACBAB4DA4BFDB"
 				item: {
@@ -380,9 +402,23 @@
 				"2BE6B05790E5A2DE"
 			]
 			dependency_requirement: "one_completed"
-			icon: "alexscaves:darkened_apple"
+			description: [
+				"These craptacular caves are made from bat guano, and are full of cultists, moths, and bats. The residents here are not too fond of light sources, so maybe bring a night vision potion or two."
+				""
+				"Learn more about this biome by using &4\"Forlorn Hollows\"&r &aCave Codexes&r and taking a look at the &eCave Compendium!&r"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:darkened_apple"
+			}
 			id: "06D8CD953FBEE3D2"
 			invisible: true
+			subtitle: "Ah, crap."
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
 				id: "0BDB0115785CD6F0"
@@ -398,7 +434,9 @@
 				""
 				"The Wroughtnaut's armor is powerful enough to nullify all attacks most of the time. "
 				""
-				"It can be hit once while pulling its axe out of the ground, so you should be ready to deal a lot of damage in one attack. I would suggest using an Iron Blacksmith Gavel since it's easy to make and deals more than 18 damage on a critical."
+				"It can be hit once while pulling its axe out of the ground, so you should be ready to deal a lot of damage in one attack. "
+				""
+				"I would suggest using an Iron Blacksmith Gavel since it's easy to make and deals more than 18 damage on a critical with no setup. Some spells can also exceed 30 damage early game, if you get lucky."
 				""
 				"You'll also want at least iron-tier armor. Any less and you risk being one-tapped by the Wroughtnaut's shockwave or 3-hit combo attacks."
 				""
@@ -506,10 +544,20 @@
 			description: [
 				"Summoned when a Vesper is sacrificed by Underzealots."
 				""
-				"This is a truly formidable foe with multiple phases and many attacks."
+				"This massive beast can leap, claw, and roar its way through your healthbar, and has two distinct phases."
+				""
+				"This is a formidable foe, so come prepared! Its main weakness is a deceptively shallow health pool - it isn't able to take as many hits as you may think."
 			]
 			hide_dependency_lines: true
-			icon: "alexscaves:pure_darkness"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:pure_darkness"
+			}
 			id: "6B15B902E71DC308"
 			rewards: [{
 				id: "51DEF85D6877E65C"
@@ -529,13 +577,17 @@
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			hide_dependency_lines: true
-			icon: "botania:elementium_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:elementium_ingot"
+			}
 			id: "3DA23607574A2168"
-			rewards: [{
-				id: "27DF93B98445B622"
-				item: "paraglider:heart_container"
-				type: "item"
-			}]
+			subtitle: "Follow Natural Magic for this one"
 			tasks: [{
 				entity: "botania:doppleganger"
 				id: "11C0973C74F195D3"
@@ -564,7 +616,7 @@
 				value: 1L
 			}]
 			title: "Leviathan"
-			x: 11.0d
+			x: 13.0d
 			y: -4.0d
 		}
 		{
@@ -591,7 +643,7 @@
 				value: 1L
 			}]
 			title: "Ancient Remnant"
-			x: 13.0d
+			x: 11.0d
 			y: -4.0d
 		}
 		{
@@ -985,7 +1037,13 @@
 			description: [
 				"Drops from underzealots."
 				""
-				"For every attack, another blade burrows itself inside the target."
+				"For every attack, 1-2 blades will appear from thin air and damage the target. Like other Alex's Caves weapons, this dagger has some unique enchantments:"
+				""
+				"Impending Stab - Increases the damage of the ghost knives, but increases their delay."
+				""
+				"Sated Blade - The ghost knives now give the attacked saturation when dealing damage."
+				""
+				"Double Stab - Makes the ghost dagger count increase from 1-2 to 2-3 per attack."
 			]
 			id: "7ABBA605B0C18FBD"
 			subtitle: "Sephiroth Side Special Simulator"
@@ -1000,8 +1058,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 9.5d
+			x: -4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6B15B902E71DC308"]
@@ -1025,9 +1083,16 @@
 			description: [
 				"A helmet-and-chestpiece set that has a powerful set bonus."
 				""
-				"When both are equipped, being in darker areas charges a meter, shown on screen. When this meter is full, press a hotkey to get a powerful effect."
+				"When both pieces are equipped, a meter wil pop up behind your temperature gauge that charges over time, becoming &cbright red&r when fully charged."
+				""
+				"Upon activation, the player will gain free flight and super speed for &b10&r seconds."
+				""
+				"If you are in the air when the effect ends, you also getr &6slow falling&r until you touch the ground."
+				""
+				"&o(by default, the hotkey is set to G and is labelled \"Alex's Caves Special Ability\")&r"
 			]
 			id: "14912F7215D1DA76"
+			subtitle: "Darkness, Imprisoning Me"
 			tasks: [
 				{
 					id: "47647906649384DC"
@@ -1052,19 +1117,34 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 10.0d
+			x: -4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["06D8CD953FBEE3D2"]
 			description: [
-				"Attacking a mob with this allows you to possess them."
+				"Attacking a mob with this totem in hand activates the totem, allowing you to control the enemy."
+				""
+				"You'll know when the totem is activated by the sprite gaining &cred eyes&r. The description of the tooltip will also tell you who you've possessed."
 				""
 				"Mobs with more than 100 HP cannot be possessed."
 				""
-				"When you have control over a mob, right clicking a mob that isn't of the same type will aggravate the controlled entity against it. "
+				"When you have control over a mob, right clicking a different mob will aggravate the controlled target against it, even if they are the same kind of enemy. You can also hold right click to control the mob's movement."
+				""
+				"Right clicking the totem while crouching will deactivate the totem until another enemy is hit with it."
+				""
+				"The next page details the enchantments exlusive to the totem."
+				"{@pagebreak}"
+				"Detonating Death: possessed entities explode before dying"
+				""
+				"Rapid Possession: possessed entities move faster"
+				""
+				"Sightless: possessed mobs can be controlled without needing to see them"
+				""
+				"Astral Transferring: mobs can swap possession with tougher/healthier mbos they fight"
 			]
 			id: "037FF3083AB9540A"
+			subtitle: "Mined Control"
 			tasks: [{
 				id: "48A93391D3FE3AF1"
 				item: {
@@ -1076,7 +1156,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 10.5d
 		}
 		{
@@ -1093,8 +1173,15 @@
 		}
 		{
 			dependencies: ["6202F882D0377E6B"]
-			description: ["Immunize yourself to radiation."]
+			description: [
+				"Made from polymer platings, the hazmat suit will prevent you from receiving radiation poisoning when equipped, but won't end it if you had poisoning before putting on the suit."
+				""
+				"You also have to put on &bthe whole suit&r to receive any radioactive immunity - no half set will do."
+				""
+				"As a bonus, wearing the mask makes you breathe neon-green particles &o(which can get annoying in first person... might I remind you of the Nolijium particles settings?)&r"
+			]
 			id: "3BF2B14D3C047D6D"
+			subtitle: "I Can Haz Mat?"
 			tasks: [
 				{
 					id: "0C78AE2098A6358A"
@@ -1147,8 +1234,9 @@
 		}
 		{
 			dependencies: ["6202F882D0377E6B"]
-			description: ["Food that heals you bypassing the effects of radiation."]
+			description: ["Made by hand or found in chests, there's some food that can bypass the radiation and &cheal you&r through it. However, they aren't quite filling or easy to mass-produce, so don't depend on them too much outside of the caves."]
 			id: "3D5E13147B9022C3"
+			subtitle: "Soylent Green is Made of Steves"
 			tasks: [
 				{
 					id: "14F1C8D328985946"
@@ -1172,7 +1260,32 @@
 		}
 		{
 			dependencies: ["6202F882D0377E6B"]
+			description: [
+				"This futuristic ranged weapon has several unique enchantments, and does very low damage at a very fast rate."
+				""
+				"Solar: the raygun regenerates over time while exposed to sunlight."
+				""
+				"Energy Efficiency: the raygun consumes energy at a lower rate."
+				""
+				"X-Ray: allows the beam to pierce through blocks!"
+				""
+				"Gamma Ray: makes the raygun shoot pack-a-punched blue beams that deal more damage."
+			]
 			id: "4F0B0E1714000C18"
+			rewards: [{
+				id: "5474A8D873786215"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "supplementaries:pancake"
+				}
+				type: "item"
+			}]
+			subtitle: "The Iconic Wonder Waffle"
 			tasks: [{
 				id: "50ED2F36C303B9A1"
 				item: "alexscaves:raygun"
@@ -1199,7 +1312,15 @@
 		}
 		{
 			dependencies: ["0D24AF036EA999ED"]
+			description: [
+				"The nuclear bomb is... well, a bomb. It explodes a massive area and irradiates anything nearby for half an hour, even if they somehow survive."
+				""
+				"For some reason, wardens are entirely immune to nukes, but most other tings (including some bosses, like Swampjaw) are not so invulnerable to this OP-penheimer piece of TNT."
+				""
+				"The nuclear siren will activate whenever a nearby nuke has been lit, or when activated with redstone. The siren can be heard from quite a distance - at least 200 blocks away. It's kind of annoying, and not particularly useful unless you have mean friends."
+			]
 			id: "6AA9EFDF2749A2FB"
+			subtitle: "...And Hell Followed With Him"
 			tasks: [
 				{
 					id: "6C04BBA44F8D4C86"
@@ -1213,7 +1334,7 @@
 				}
 			]
 			x: 5.0d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -1461,19 +1582,6 @@
 			y: 3.5d
 		}
 		{
-			icon: "minecraft:deepslate"
-			id: "30B48BBA0773D7A5"
-			tasks: [{
-				advancement: "tetra:spelunking/root"
-				criterion: ""
-				id: "49DCC1FB89942AB9"
-				type: "advancement"
-			}]
-			title: "Go Below the Surface"
-			x: -10.5d
-			y: 5.5d
-		}
-		{
 			dependencies: ["06D1991EE22CF1B3"]
 			id: "482C2813DBA6D925"
 			tasks: [{
@@ -1489,30 +1597,6 @@
 			}]
 			x: 9.0d
 			y: 5.5d
-		}
-		{
-			dependencies: ["30B48BBA0773D7A5"]
-			description: [""]
-			id: "2E0B72762B703990"
-			subtitle: "Improvised Food for Miners"
-			tasks: [{
-				id: "3BEEA16471F9BC5C"
-				item: "miners_delight:cave_carrot"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["30B48BBA0773D7A5"]
-			id: "12D63FD1D98A6DB5"
-			tasks: [{
-				id: "16434BC8BF282B4E"
-				structure: "irons_spellbooks:catacombs"
-				type: "structure"
-			}]
-			x: -9.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["1808E3ABC3AF6D82"]
@@ -1690,7 +1774,7 @@
 				item: "cataclysm:abyss_eye"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 13.0d
 			y: 0.5d
 		}
 		{
@@ -1701,7 +1785,7 @@
 				item: "cataclysm:desert_eye"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.0d
 			y: 0.5d
 		}
 		{
@@ -1791,7 +1875,15 @@
 				""
 				"During her second phase, Rosalyne will become immune to all damage and gain some orbiting Rose Spirits who heal her. You'll need to take down these minions before getting back into things."
 			]
-			icon: "meetyourfight:dusk_key"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "meetyourfight:dusk_key"
+			}
 			id: "52703C0374BD3492"
 			tasks: [{
 				id: "678681F3EBE2AC88"
@@ -1810,6 +1902,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Don't get too salty about it"
 			tasks: [{
 				entity: "galosphere:berserker"
 				icon: {
@@ -2561,7 +2654,7 @@
 				title: "Sunken City"
 				type: "structure"
 			}]
-			x: 11.0d
+			x: 13.0d
 			y: -1.0d
 		}
 		{
@@ -2604,7 +2697,7 @@
 				}
 			]
 			title: "Blessed Amethyst Crab Meat"
-			x: 11.0d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -2630,7 +2723,7 @@
 				item: "cataclysm:abyssal_sacrifice"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 13.0d
 			y: -3.0d
 		}
 		{
@@ -2651,7 +2744,7 @@
 				title: "Cursed Pyramid"
 				type: "structure"
 			}]
-			x: 13.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -2667,7 +2760,7 @@
 				item: "cataclysm:sticky_gloves"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -2700,7 +2793,7 @@
 				}
 			]
 			title: "Necklace of the Desert"
-			x: 13.0d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -3259,6 +3352,19 @@
 		{
 			dependencies: ["4D4F147344834529"]
 			id: "48D4BF288D59E907"
+			rewards: [{
+				id: "03EC3819ED3FEF24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "dungeonnowloading:chaos_spawner"
 				icon: "dungeonnowloading:chaos_spawner_barrier_center"
@@ -3436,6 +3542,85 @@
 			title: "Sky Arena"
 			x: 14.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: ["This funky little pendant is similar to the Desolate Dagger in the fact they are both desolate and create weapons out of thin air to stab things. The only difference is the dagger works when using any weapon, but only has a chance of activating."]
+			id: "295439DC7816F155"
+			subtitle: "Well Desolation, Isolation"
+			tasks: [{
+				id: "4983F66C42111A1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "raccompat:desolate_pendant"
+					tag: {
+						abilities: {
+							desolate: {
+								points: 0
+								stats: {
+									chance: 0.09327d
+									damage: 0.21517d
+								}
+							}
+							devastate: {
+								points: 0
+								stats: {
+									cooldown: 38.23414d
+									count: 1.60063d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06D8CD953FBEE3D2"]
+			description: [
+				"This bow creates additional arrows that rain down from the heavens when attacking enemies."
+				""
+				"The arrows fired will be the same type as the one nocked in the bow, so you can do some pretty cool things..."
+				""
+				"&7&oFiring normal arrows with this bow with shaders turned on makes the arrow invisible.&r"
+				"{@pagebreak}"
+				"Precise Volley: the arrow rain is more precise (as the name suggests)"
+				""
+				"Dark Nock: the Dreadbow can fire faster per level"
+				""
+				"Relentless Darkness: the Dreadbow changes to rapidly fire arrows forward"
+				""
+				"Twilight Perfection: the projectiles grow red and deal more damage if fired with the right timing"
+				""
+				"Shaded Respite: the Dreadbow doesn't consume an arrow or durabiltiy when fired in darkness"
+			]
+			id: "01C9AD5B24AF0C26"
+			subtitle: "Daedalus Stormbow enters its goth phase"
+			tasks: [{
+				id: "7C927D708C70DA3B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
 		}
 	]
 	title: "Overworld Adventure"
