@@ -33,7 +33,7 @@ let modifiers = [
         itemName: "caverns_and_chasms:silver_helmet",
         attribute: "minecraft:generic.max_health",
         attributeName: "armor modifier",
-        uuid: maxHpUuid,
+        uuid: "340243a7-a73b-420a-b1e9-dc9102e1826f",
         value: 2.0,
         op: "ADDITION",
     },
@@ -41,7 +41,7 @@ let modifiers = [
         itemName: "caverns_and_chasms:silver_chestplate",
         attribute: "minecraft:generic.max_health",
         attributeName: "armor modifier",
-        uuid: maxHpUuid,
+        uuid: "a97d6347-ec3f-4f17-88b9-8f630a16752e",
         value: 2.0,
         op: "ADDITION",
     },
@@ -49,7 +49,7 @@ let modifiers = [
         itemName: "caverns_and_chasms:silver_leggings",
         attribute: "minecraft:generic.max_health",
         attributeName: "armor modifier",
-        uuid: maxHpUuid,
+        uuid: "546a7db6-3eec-4305-ac88-3526c1567694",
         value: 2.0,
         op: "ADDITION",
     },
@@ -57,9 +57,139 @@ let modifiers = [
         itemName: "caverns_and_chasms:silver_boots",
         attribute: "minecraft:generic.max_health",
         attributeName: "armor modifier",
-        uuid: maxHpUuid,
+        uuid: "7f4f0ba0-93b7-479a-8e84-9fe9453e63a1",
         value: 2.0,
         op: "ADDITION",
+    },
+    {
+        itemName: "blue_skies:charoite_helmet",
+        attribute: "cold_sweat:cold_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:charoite_chestplate",
+        attribute: "cold_sweat:cold_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:charoite_leggings",
+        attribute: "cold_sweat:cold_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:charoite_boots",
+        attribute: "cold_sweat:cold_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:charoite_helmet",
+        attribute: "attributeslib:cold_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:charoite_chestplate",
+        attribute: "attributeslib:cold_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:charoite_leggings",
+        attribute: "attributeslib:cold_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:charoite_boots",
+        attribute: "attributeslib:cold_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
+    },
+
+    // Diopside is the same thing but for heat
+    {
+        itemName: "blue_skies:diopside_helmet",
+        attribute: "cold_sweat:heat_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:diopside_chestplate",
+        attribute: "cold_sweat:heat_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:diopside_leggings",
+        attribute: "cold_sweat:heat_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:diopside_boots",
+        attribute: "cold_sweat:heat_resistance",
+        attributeName: "armor modifier",
+        uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.125,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:diopside_helmet",
+        attribute: "attributeslib:fire_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:diopside_chestplate",
+        attribute: "attributeslib:fire_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:diopside_leggings",
+        attribute: "attributeslib:fire_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
+    },
+    {
+        itemName: "blue_skies:diopside_boots",
+        attribute: "attributeslib:fire_damage",
+        attributeName: "armor modifier",
+        uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
+        value: 0.5,
+        op: "ADDITION"
     },
     // {
     //     itemName: "cataclysm:coral_bardiche",
