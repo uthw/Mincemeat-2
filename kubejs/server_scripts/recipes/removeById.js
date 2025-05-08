@@ -148,7 +148,10 @@ ServerEvents.recipes((event) => {
         "waystones:bound_scroll",
         "waystones:warp_scroll",
         "cold_sweat:boiler",
-        "cold_sweat:icebox"
+        "cold_sweat:icebox",
+        "forbidden_arcanus:fungyss_fence_gate",
+        "forbidden_arcanus:aurum_fence_gate",
+        "forbidden_arcanus:edelwood_fence_gate"
     ];
 
     toRemove.forEach((recipeId) => {

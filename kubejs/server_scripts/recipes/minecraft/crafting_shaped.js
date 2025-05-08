@@ -1477,6 +1477,30 @@ ServerEvents.recipes((event) => {
                 C: "minecraft:packed_ice",
                 D: "minecraft:deepslate"
             }
+        ],
+        [
+            "forbidden_arcanus:fungyss_fence_gate",
+            ["   ", "ABA", "ABA"],
+            {
+                A: "#forge:rods/wooden",
+                B: "forbidden_arcanus:fungyss_planks"
+            }
+        ],
+        [
+            "forbidden_arcanus:aurum_fence_gate",
+            ["   ", "ABA", "ABA"],
+            {
+                A: "#forge:rods/wooden",
+                B: "forbidden_arcanus:aurum_planks"
+            }
+        ],
+        [
+            "forbidden_arcanus:edelwood_fence_gate",
+            ["   ", "ABA", "ABA"],
+            {
+                A: "#forge:rods/wooden",
+                B: "forbidden_arcanus:edelwood_planks"
+            }
         ]
     ];
 
