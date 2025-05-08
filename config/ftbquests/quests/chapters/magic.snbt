@@ -5,6 +5,11 @@
 	group: "1D1CECCF47A202B0"
 	icon: {
 		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
 		id: "irons_spellbooks:diamond_spell_book"
 		tag: {
 			ISB_spellbook: {
@@ -2579,7 +2584,7 @@
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: -3.5d
 		}
 		{
@@ -2617,17 +2622,19 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
 			description: [
-				"Wixies are skilled in crafting, and can spend their owner's source to craft items for them."
-				""
 				"Right click the Wixie Charm on a Cauldron to summon it."
 				""
 				"Summoned wixies seek to assist mages in combat, tossing their concoctions at adversaries."
+				""
+				"Wixies are skilled in crafting, and can spend their owner's source to craft items for them."
+				""
+				"They can also cook by placing them on a furnace to smelt items, or a cooking pot or crucible. The can cut too by means of a stonecutter or cutting board."
 			]
 			id: "0FC6F8A814D4DF45"
 			tasks: [{
@@ -2635,7 +2642,7 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -2753,7 +2760,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
@@ -3148,9 +3155,23 @@
 		}
 		{
 			dependencies: ["1FAF889506FFFF18"]
-			description: ["These minibosses can be found in the &5Nether&r. Watch out for &5piles of armor&r."]
+			description: [
+				"These minibosses can be found in the &5Nether&r - more specifically, &5Ancient Battlegrounds&r. Watch out for &5piles of armor&r."
+				""
+				"You can also find one lying around in &5Pyromancer Towers&r in the overworld."
+				""
+				"To summon the Ancient Knight, break the pile of armor with a &5diamond pickaxe&r."
+			]
 			hide_dependency_lines: true
-			icon: "irons_spellbooks:armor_pile"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:armor_pile"
+			}
 			id: "6ED5AF6D7BFF56E8"
 			tasks: [{
 				entity: "irons_spellbooks:citadel_keeper"
@@ -3759,7 +3780,7 @@
 			description: [
 				"You can inscribe spells onto these items using the Scribe's Table."
 				""
-				"Instead of placing parchment on the table, instead place one of these items. Many of them exist, such as a crossbow, sword, and wand."
+				"Instead of placing parchment on the table, place one of these items. Many of them exist, such as a crossbow, sword, and wand."
 				""
 				"You will cast the spell when using the item for mana, instead of using your spell book."
 				""
@@ -3825,7 +3846,7 @@
 				type: "item"
 			}]
 			title: "Enchanter's Items"
-			x: 5.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
@@ -3837,8 +3858,8 @@
 				item: "ars_nouveau:ritual_disintegration"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -6.5d
+			x: 11.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5DB7162A1CF3DB61"]
@@ -4267,6 +4288,7 @@
 		}
 		{
 			dependencies: ["28F725C0615E1C80"]
+			description: [""]
 			id: "2EE444C59B1CB7E6"
 			tasks: [{
 				id: "10B0EBF1F6C49BDB"
@@ -4340,16 +4362,27 @@
 		{
 			dependencies: ["710393BF8AD587A8"]
 			description: [
-				"Place all of these. The accumulator must be placed on top of the tank."
+				"Let's get started with some more logical magic: Theurgy. I'm sure the hardcore alchemists would put my head on a pike for categorizing it as \"supernatural magic,\" but I've no other choice for the sake of organization."
 				""
-				"The braziers accept burnables (fuel)."
+				"We're going to use some carefully calculated actions to convert one raw ore into three raw ingots."
+				""
+				"Start by crafting and placing all the blocks you need to complete this quest. It doesn't make a difference where, except the sal ammoniac accumulator needs to be on top of the tank."
+				"{@pagebreak}"
+				"Wait, what do all these unfamiliar blocks do? Let me briefly explain:"
+				""
+				"- Pyromantic Brazier: generates power by burning fuels"
+				"- Calcination Oven: creates mineral salt"
+				"- Sal Ammoniac Accumulator: fills the tank with sal ammoniac"
+				"- Sal Ammoniac Tank: stores the Sal Ammoniac for the cauldron"
+				"- Liquefaction Cauldron: extracts Alchemical Sulfur from sal ammoniac"
+				""
+				"Once you're done setting up and putting something like coal on the braziers, it's time to move on to the next quest."
 			]
 			id: "7D0E6CC8E50E7DC5"
 			invisible: true
 			optional: true
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "WIP"
 			tasks: [
 				{
 					count: 4L
@@ -4808,6 +4841,681 @@
 			x: -6.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["7D0E6CC8E50E7DC5"]
+			description: [
+				"Mercury is an energy that can be extracted from matter. The amount of mercury yielded is based on how valuable it is."
+				""
+				"Right-click your Distiller using a mercury-yielding item. This means any crop, food, ore, raw metal, stone, sand, or glass. Depending on the quality of item, one might not be enough."
+				""
+				"Next, start the brazier below the distiller by giving it fuel. Afterwards, give the Distiller its time, then right-click it with an empty hand when it's done."
+			]
+			id: "18E1A2415EA939F2"
+			subtitle: "+1 level to Pair"
+			tasks: [{
+				id: "2CAD2355D62CCA62"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "theurgy:mercury_shard"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7D0E6CC8E50E7DC5"]
+			description: [
+				"Solvents erode the salt and mercury of objects, exposing their alchemical sulfur."
+				""
+				"Liquid Sal Ammoniac can be extracted from water. The first step is to set up your accumulator with a tank under it. Then, simply fill the accumulator with water and wait for it to turn purple."
+				""
+				"If you've been on a mining expedition already (which is quite likely), you can instead use Sal Ammoniac Crystals to make this process faster."
+			]
+			id: "54D236299353D26C"
+			tasks: [{
+				id: "3CB3C0744A2FE858"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "theurgy:sal_ammoniac_bucket"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54D236299353D26C"]
+			description: [
+				"Now, it's time to start using some of the devices you haven't touched yet. You're going to want to start the process of creating sulfur by filling the Liquefaction Cauldron with a Sal Ammoniac Bucket."
+				""
+				"Right click the cauldron with an item you want to get the sulfur of (multiply), outlined in the previous quest."
+				""
+				"Next, heat the braziers using fuel."
+				""
+				"Do something else for a minute or two, then right click the cauldron with an empty hand to finish the process of making sulfur."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "jaopca:theurgy_alchemical_sulfurs.aluminum"
+				tag: {
+					"theurgy:sulfur.source.id": "#forge:ingots/aluminum"
+				}
+			}
+			id: "2D004AB130DD67BE"
+			tasks: [{
+				id: "3F4FD6C530CB0290"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "theurgy:alchemical_sulfurs"
+					}
+				}
+				title: "Any #theurgy:alchemical_sulfurs"
+				type: "item"
+			}]
+			title: "Sulfur"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D0E6CC8E50E7DC5"]
+			description: [
+				"Another thing you'll need to make items with Sulfur is Salt. Right click the Calcination Oven with an item to make its category's salt. Just make sure you use something that'll make the right type of salt for what you're doing."
+				""
+				"For example, if you want to triple your recently-mined silver, use ores, raw metals, or ingots."
+				""
+				"As you did before, heat up the oven with your brazier, wait, and right click it."
+			]
+			id: "758086B8C6ACC276"
+			tasks: [{
+				id: "35AD6B2F569B81C5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "theurgy:alchemical_salts"
+					}
+				}
+				title: "Any Salt"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2D004AB130DD67BE"
+				"758086B8C6ACC276"
+				"18E1A2415EA939F2"
+			]
+			description: [
+				"Right click your Incubator Sulfur Vessem Incubator Salt Vessel, and Incubator Mercury Vessel with the respective materials to fill them."
+				""
+				"Make sure your Incubator has a Brazier below it. Then, the last thing to do is heat it up and watch the magic happen."
+				""
+				"Good work! Enjoy this treat as a reward for doing all that."
+			]
+			id: "0A0DF712573BD444"
+			rewards: [{
+				id: "175BB792D93FB28E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:chocolate_pie"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "792D3A4A155176F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:incubator_mercury_vessel"
+					}
+					type: "item"
+				}
+				{
+					id: "1671DCC34D1A370B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:incubator_salt_vessel"
+					}
+					type: "item"
+				}
+				{
+					id: "311EC98D5D7E4F56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:incubator_sulfur_vessel"
+					}
+					type: "item"
+				}
+			]
+			title: "Incubation"
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["18E1A2415EA939F2"]
+			description: [
+				"Through theurgy, you can also turn one material into another. The three types of transformation are:"
+				""
+				"- Reformation: the Sulfur changes, but not the type or tier"
+				"- Transmutation: the type changes, but not the tier"
+				"- Exaltation: the tier changes, but not the type"
+				""
+				"These practices build upon each other to create a powerful tool in your arsenal."
+				"{@pagebreak}"
+				"Since Sulfur is too mundane to be transformed directly, we'll need to make it into niter. No, neither of these are referring to the ores you find underground."
+				""
+				"There is a key difference between Sulfur and Niter: each material has a unique Sulfur, while Niter is instead sorted into broad categories. This allows it to be easily manipulated."
+				""
+				"For example, if you have a Precious Metal Niter, you can turn it into the Sulfur for any Precious Metal, then follow the steps in the Sulfur quest to turn it into a material you can use for other things."
+				""
+				"Keep that in mind for now, but the next quest doesn't concern Niter."
+				"{@pagebreak}"
+				"Now that you've passed Introduction to Alchemy, we can get to the fun part. You're going to build something called a Reformation Array."
+				""
+				"First, obtain a Target Pedestal, which will hold the sulfur you want more of."
+				""
+				"Then obtain a Result Pedestal, which will hold the duplicated sulfur."
+				""
+				"Next, obtain at least one Source Pedestal, will hold the sulfur you want to be converted into what's on the Target."
+				""
+				"Place the pedestals close to each other. There is no specific structure you need to build with them."
+				""
+				"Lastly, get a Sulfuric Flux Emitter, which supplies the energy this conversion needs. Make sure the emitter is linked to the other pedestals by right clicking it."
+			]
+			id: "77D2B63352A1CDD6"
+			tasks: [
+				{
+					id: "2614C70D57A0657A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:reformation_target_pedestal"
+					}
+					type: "item"
+				}
+				{
+					id: "4FF714CC75ECE9EF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:reformation_result_pedestal"
+					}
+					type: "item"
+				}
+				{
+					id: "03FB430ED81C75FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:reformation_source_pedestal"
+					}
+					type: "item"
+				}
+				{
+					id: "62756F21E2C60E04"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:sulfuric_flux_emitter"
+					}
+					type: "item"
+				}
+				{
+					id: "3CD9A9A51AB4B0C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "theurgy:mercury_catalyst"
+					}
+					type: "item"
+				}
+			]
+			title: "Introduction to Reformation"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["18E1A2415EA939F2"]
+			id: "0A3CD5DF147C240B"
+			tasks: [{
+				id: "1A40D416B6F5183D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "theurgy:caloric_flux_emitter"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["77D2B63352A1CDD6"]
+			description: [
+				"You'll need to supply one of the target sulfur and at least one of the source sulfur. You should plan to bring multiple sources for convenience, though."
+				""
+				"Make sure the target and source are the same tier (use JEI/EMI for this). You can't just convert rotten flesh into netherite, even though it'd be cool if you could. An example of a valid conversion is emerald to diamond."
+				""
+				"Put your source and target into the right pedestal, when wait. If you've done everything right up to this point, a glowing orb will appear over the pedestals."
+				""
+				"Remember to power your array using a Mercury Catalyst. The ritual should start automatically."
+				"{@pagebreak}"
+				"Once you're done, an orb will appear over the Result Pedestal, which you can take a copy of the target from."
+				""
+				"You'll notice the target is still there, but the source disappeared. You've now duplicated a material - well done!"
+			]
+			id: "247ACED8E76DD567"
+			subtitle: "&7This quest completes easily, but make sure to read the description"
+			tasks: [{
+				id: "0B64933F9ADC9A00"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "theurgy:alchemical_sulfurs"
+					}
+				}
+				title: "Any #theurgy:alchemical_sulfurs"
+				type: "item"
+			}]
+			title: "Sulfur Reformation"
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["335E26285D11AB8A"]
+			description: [
+				"You can use Artificing to automatically cast spells when a certain event happens."
+				""
+				"You'll want to start by getting the required workbench and obtaining at least one of the four artificing-related glyphs."
+				""
+				"Then, place one of the spell-storing curios on the workbench to program when to activate the spell."
+				""
+				"After you've got that, inscribe the spell you want to put on the curio using a Scribe's Table."
+			]
+			id: "58819519A5C03F43"
+			tasks: [
+				{
+					id: "6C6F9C2776D62ADF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_artifice:artificers_workbench"
+					}
+					type: "item"
+				}
+				{
+					id: "32D3C215C7D9694C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ars_artifice:spell_storing_ring"
+									tag: { }
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ars_artifice:spell_storing_amulet"
+									tag: { }
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ars_artifice:spell_storing_belt"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Curio of Spell Storing"
+					type: "item"
+				}
+				{
+					id: "2014DCDDF1711489"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ars_artifice:glyph_anguish"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ars_artifice:glyph_falling"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ars_artifice:glyph_interval"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "ars_artifice:glyph_landing"
+								}
+							]
+						}
+					}
+					title: "Artifice Glyphs"
+					type: "item"
+				}
+			]
+			title: "Enchanter's Curiosities"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D4F3D27DC68EEF3"]
+			description: ["This upgraded Source Jar does exactly what you think: each one's contents are synced with all others, much like an Ender Chest."]
+			id: "0B9B5B73CB26F0D2"
+			tasks: [{
+				id: "546A009481C7C697"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_additions:ender_source_jar"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2626C487E7BA6230"]
+			description: [
+				"The Storage Lectern is an advanced storage option that uses Bookwyrms! "
+				""
+				"It works like an Inventory Connector, where external inventories can be connected to the Lectern. To link an inventory, use a Bookwyrm Charm on it. Then, configure access using a Dominion Wand. Any inventory can be linked as long as it's at most 30 blocks away."
+				""
+				"You can also connect multiple lecterns to each other. In this case, one lectern still serves the role of the root, while another acts as an access point which can extract and insert but not connect directly to inventories."
+			]
+			id: "46E96E799794ACFF"
+			tasks: [{
+				id: "3D9989667CCD2135"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:storage_lectern"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46E96E799794ACFF"]
+			description: ["This smart TV remote can grant remote access to your Storage Lecterns. You can even make the &dStabilized Warp Index&r, a premium version that allows access across dimensions."]
+			id: "5C9E93678F670C09"
+			tasks: [{
+				id: "6E775C460081DAA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_additions:warp_index"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["421227890C2EBBA4"]
+			description: [
+				"If you would rather have cute little workers running around your factory instead of boring pipes, these are your items!"
+				""
+				"The StarbAttery lets a Starbuncle carry energy from your batteries or generators to other machines."
+				""
+				"The Wyrm Degree lets a Starbuncle input/output items, but only from a specific face of a container. Use Direction Scrolls to configure this."
+				""
+				"With the Starbucket, the Starbuncle is able to transport fluids. Use a Dominion Wand to set this up."
+				""
+				"Lastly, the Starballoon is for all you Mekanists out there who need a way of moving gasses around."
+			]
+			id: "26032919253271BD"
+			tasks: [
+				{
+					id: "2B6D6E084EDEA108"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "starbunclemania:star_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "179FADF5CB909E23"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "starbunclemania:wyrm_degree"
+					}
+					type: "item"
+				}
+				{
+					id: "4DB126E4A75EE2E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "starbunclemania:star_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "5FE6BD998023C64C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "starbunclemania:star_balloon"
+					}
+					type: "item"
+				}
+			]
+			title: "Advanced Item/Fluid/Energy Transport"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["421227890C2EBBA4"]
+			description: ["This accessory lets Starbuncles void any item they find on the ground."]
+			id: "4FCFEBE953717DD2"
+			tasks: [{
+				id: "3010986D9F7E0521"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "starbunclemania:star_bin"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D4F3D27DC68EEF3"]
+			description: [
+				"The Fluid Sourcelink consumes fluids to generate source."
+				""
+				"To get a Source Bucket, you'll need a Source Condenser with a tank below it to liquify source in Source Jars."
+			]
+			id: "38B7D96BA216B588"
+			tasks: [
+				{
+					id: "17648BDBE6F75065"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "starbunclemania:fluid_sourcelink"
+					}
+					type: "item"
+				}
+				{
+					id: "47B2DE57EA483C96"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "starbunclemania:source_condenser"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
 	]
-	title: "Supernatural Magic (WIP)"
+	title: "Supernatural Magic"
 }
