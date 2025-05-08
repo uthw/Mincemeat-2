@@ -1,3 +1,3 @@
-EntityEvents.drops("iceandfire:ghost", (event) => {
-    // event.addDrop(Item.of("iceandfire:ghost_ingot").withChance(0.0001));
-});
+LootJS.modifiers(event => {
+    event.addEntityLootModifier("iceandfire:ghost").removeLoot("iceandfire:ghost_ingot")
+})
