@@ -152,10 +152,10 @@ affixTargetRange = 0.0
 [affixes.adaptable]
 #The increase in damage reduction for each consecutive attack of the same damage type
 #Range: 0.0 ~ 1.0
-adaptableDamageReductionIncrement = 0.15
+adaptableDamageReductionIncrement = 0.1
 #The maximum damage reduction
 #Range: 0.0 ~ 1.0
-adaptableMaxDamageReduction = 0.9
+adaptableMaxDamageReduction = 0.6
 
 [affixes.arctic]
 #How often the champion will shoot projectiles (in seconds)
@@ -205,7 +205,7 @@ infestedPerHealth = 0.5
 #Range: > 1
 infestedTotal = 10
 #The mob to use as a parasite for infestation
-infestedParasite = "savage_and_ravage:creepie"
+infestedParasite = "minecraft:silverfish"
 #The mob to use as a parasite for infestation of ender mob
 infestedEnderParasite = "minecraft:endermite"
 
@@ -222,13 +222,13 @@ knockingMultiplier = 5.0
 [affixes.lively]
 #The amount of health per second regeneration
 #Range: 0.0 ~ 1.7976931348623157E308
-livelyHealAmount = 1.0
+livelyHealAmount = 0.6
 #Multiplier to health regeneration when not aggressive
 #Range: 1.0 ~ 1.7976931348623157E308
 livelyPassiveMultiplier = 5.0
 #Set cooldown (in seconds) for regeneration after getting attacked
 #Range: > 1
-livelyCooldown = 3
+livelyCooldown = 5
 
 [affixes.molten]
 #Set to true to have Molten champions not be damaged by water
@@ -258,7 +258,7 @@ reflectiveLethal = false
 [affixes.magnetic]
 #Strength of the magnetic pulling effect
 #Range: 0.0 ~ 100.0
-magneticStrength = 0.05
+magneticStrength = 0.04
 
 [affixes.wounding]
 #The percent chance that an attack will wound targets
