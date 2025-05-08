@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Jaden's Nether Expansion Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Blazes will become more dim as their health decreases."
+    }
+}

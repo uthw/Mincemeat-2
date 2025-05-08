@@ -2,7 +2,7 @@
     "title": {
         "text": "Vanilla Tip",
         "bold": true,
-        "color": "orange"
+        "color": "gold"
     },
     "tip": {
         "text": "You can press W to move forward, but this is untested and could crash your game."

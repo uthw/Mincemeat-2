@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Blue Skies Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The Everbright is too cold for regular furnaces to work. Instead, you need to use a Snowcap Oven, which takes some specific vanilla and Blue Skies fuel (check EMI)."
+    }
+}

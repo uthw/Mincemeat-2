@@ -2,7 +2,7 @@
     "title": {
         "text": "Simple Voice Chat Tip",
         "bold": true,
-        "color": "orange"
+        "color": "gold"
     },
     "tip": {
         "text": "Your melee attacks' damage increases linearly with how loud you yell into your mic."
