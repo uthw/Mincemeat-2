@@ -27,7 +27,7 @@ ServerEvents.recipes((event) => {
                 "caverns_and_chasms:necromium_nugget",
                 "eidolon:zombie_heart",
                 "paraglider:spirit_orb",
-                "cataclysm:coral_chunk"
+                "cataclysm:coral_chunk",
             ],
         ],
         [
@@ -197,9 +197,48 @@ ServerEvents.recipes((event) => {
             ],
         ],
         ["actuallyadditions:black_quartz", ["minecraft:quartz", "#forge:coal"]],
-        ["spartanweaponry:explosive_charge", ["minecraft:gunpowder", "thermal:phytogro", "#minecraft:coals"]],
+        [
+            "spartanweaponry:explosive_charge",
+            ["minecraft:gunpowder", "thermal:phytogro", "#minecraft:coals"],
+        ],
         ["minecraft:crafting_table", ["#forge:workbench"]],
-        ["4x netherexp:necromium_plating", ["caverns_and_chasms:necromium_ingot", "netherexp:stridite"]]
+        [
+            "4x netherexp:necromium_plating",
+            ["caverns_and_chasms:necromium_ingot", "netherexp:stridite"],
+        ],
+        [
+            "enigmaticlegacy:ascension_amulet",
+            [
+                Item.of(
+                    "enigmaticlegacy:enigmatic_amulet",
+                    "{AssignedColor:0.1f}"
+                ),
+                Item.of(
+                    "enigmaticlegacy:enigmatic_amulet",
+                    "{AssignedColor:0.2f}"
+                ),
+                Item.of(
+                    "enigmaticlegacy:enigmatic_amulet",
+                    "{AssignedColor:0.3f}"
+                ),
+                Item.of(
+                    "enigmaticlegacy:enigmatic_amulet",
+                    "{AssignedColor:0.4f}"
+                ),
+                Item.of(
+                    "enigmaticlegacy:enigmatic_amulet",
+                    "{AssignedColor:0.5f}"
+                ),
+                Item.of(
+                    "enigmaticlegacy:enigmatic_amulet",
+                    "{AssignedColor:0.6f}"
+                ),
+                Item.of(
+                    "enigmaticlegacy:enigmatic_amulet",
+                    "{AssignedColor:0.7f}"
+                ),
+            ],
+        ],
     ];
 
     recipes.forEach((recipe) => {
