@@ -102,27 +102,6 @@ ServerEvents.recipes((event) => {
                 B: "paraglider:spirit_orb",
             },
         ],
-        // [
-        //     "numina:component_glider_wing",
-        //     [" AA", "BCB", "CB "],
-        //     {
-        //         A: "immersiveengineering:component_steel",
-        //         B: "#forge:ingots/aluminum",
-        //         C: "immersiveengineering:windmill_blade",
-        //     },
-        // ],
-        // [
-        //     Item.of(
-        //         "productivebees:nest_locator",
-        //         '{productivebees_locator_nest:{nestName:"Bee Nest",nest:"minecraft:bee_nest"}}'
-        //     ),
-        //     ["A A", " B ", " C "],
-        //     {
-        //         A: "#forge:rods/gold",
-        //         B: "minecraft:compass",
-        //         C: "enigmaticlegacy:gem_ring",
-        //     },
-        // ],
         [
             "sophisticatedbackpacks:pickup_upgrade",
             [" A ", "BCB", "DED"],
@@ -216,16 +195,6 @@ ServerEvents.recipes((event) => {
                 C: "sophisticatedbackpacks:upgrade_base",
             },
         ],
-        // Guess this item doesn't exist
-        // [
-        //     "sophisticatedstorage:battery_upgrade",
-        //     ["ABA", "BCB", "ABA"],
-        //     {
-        //         A: "createaddition:copper_wire",
-        //         B: "thermal:rf_potato",
-        //         C: "sophisticatedstorage:upgrade_base",
-        //     },
-        // ],
         [
             "sophisticatedbackpacks:inception_upgrade",
             ["ABA", "CDC", "ACA"],
@@ -311,7 +280,6 @@ ServerEvents.recipes((event) => {
                 C: "forbidden_arcanus:rune",
             },
         ],
-        // Enigmatic Legacy recipes
         [
             "enigmaticlegacy:heaven_scroll",
             [" A ", "BCD", " E "],
@@ -319,10 +287,7 @@ ServerEvents.recipes((event) => {
                 A: "forbidden_arcanus:orb_of_temporary_flight",
                 B: "minecraft:firework_rocket",
                 C: "enigmaticlegacy:thicc_scroll",
-                D: Item.of(
-                    "naturesaura:aura_bottle",
-                    '{stored_type:"naturesaura:nether"}'
-                ),
+                D: "rubinated_nether:ruby",
                 E: "enigmaticlegacy:angel_blessing",
             },
         ],
@@ -388,7 +353,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "atmospheric:aloe_kernels",
                 B: "minecraft:pitcher_pod",
-                C: "delightful:canteloupe_seeds",
+                C: "delightful:cantaloupe_seeds",
                 D: "supplementaries:flax_seeds",
                 E: "enigmaticlegacy:earth_heart",
                 F: "undergarden:gloomgourd_seeds",
@@ -1464,10 +1429,66 @@ ServerEvents.recipes((event) => {
                 F: "undergarden:shiverstone_bricks",
             },
         ],
+        [
+            "3x waystones:return_scroll",
+            [" A ", "BCB", " A "],
+            {
+                A: "forbidden_arcanus:arcane_crystal",
+                B: "eidolon:enchanted_ash",
+                C: "enigmaticlegacy:thicc_scroll",
+            },
+        ],
+        [
+            "3x waystones:bound_scroll",
+            [" A ", "BCB", " D "],
+            {
+                A: "forbidden_arcanus:arcane_crystal",
+                B: "apotheosis:gem_dust",
+                C: "enigmaticlegacy:thicc_scroll",
+                D: "thermal:apatite",
+            },
+        ],
+        [
+            "3x waystones:warp_scroll",
+            [" A ", "BCB", " D "],
+            {
+                A: "ars_nouveau:source_gem",
+                B: "theurgy:mercury_shard",
+                C: "enigmaticlegacy:thicc_scroll",
+                D: "thermal:apatite",
+            },
+        ],
+        [
+            "cold_sweat:boiler",
+            ["AAA", "ABA", "CDC"],
+            {
+                A: "minecraft:cobblestone",
+                B: "thermal:cinnabar",
+                C: "minecraft:deepslate",
+                D: "minecraft:magma_block"
+            }
+        ],
+        [
+            "cold_sweat:icebox",
+            ["AAA", "ABA", "CDC"],
+            {
+                A: "minecraft:cobblestone",
+                B: "irons_spellbooks:frozen_bone",
+                C: "minecraft:packed_ice",
+                D: "minecraft:deepslate"
+            }
+        ]
     ];
 
-    recipes.forEach((recipe) => {
-        console.log(`size: ${recipe.length} output: ${recipe[0]}`);
-        event.shaped(recipe[0], recipe[1], recipe[2]);
+    recipes.forEach((recipe, index) => {
+        if (!Array.isArray(recipe) || recipe.length !== 3) {
+            console.error(
+                `Invalid recipe at index ${index}: expected [output, pattern, mapping], got ${recipe}`
+            );
+            return;
+        }
+        const [output, pattern, mapping] = recipe;
+
+        event.shaped(output, pattern, mapping);
     });
 });
