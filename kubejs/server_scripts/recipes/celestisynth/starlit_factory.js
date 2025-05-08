@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
             result: "celestisynth:aquaflora",
         },
         {
-            top_left_triangle: { item: "iceandfire:sapphire" },
+            top_left_triangle: { item: "iceandfire:sapphire_gem" },
             top_right_triangle: {
                 item: "minecraft:bow",
             },
