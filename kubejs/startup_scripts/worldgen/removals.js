@@ -86,6 +86,9 @@ WorldgenEvents.remove((event) => {
             "celestisynth:lunar_ore",
             "celestisynth:zephyr_deposit",
             "celestisynth:wintereis",
+
+            "biomeswevegone:palm_log",
+            "biomeswevegone:palm_leaves"
         ];
     });
 
