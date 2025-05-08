@@ -1,0 +1,115 @@
+{
+    "content": {
+        "enchantinginfuser_enchanting_infuser_obj": {
+            "type": "item",
+            "content": "enchantinginfuser:enchanting_infuser",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30000
+        },
+        "irons_spellbooks_villager_spell_book_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:villager_spell_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 25000
+        },
+        "enigmaticlegacy_tattered_tome_obj": {
+            "type": "item",
+            "content": "enigmaticlegacy:tattered_tome",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 3000
+        },
+        "enigmaticlegacy_withered_tome_obj": {
+            "type": "item",
+            "content": "enigmaticlegacy:withered_tome",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 6000
+        },
+        "bookshelf_obj": {
+            "type": "item",
+            "content": "minecraft:bookshelf",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 500
+        },
+        "lectern_obj": {
+            "type": "item",
+            "content": "minecraft:lectern",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 800
+        },
+        "book_obj": {
+            "type": "item",
+            "content": "minecraft:book",
+            "amount": {
+                "min": 7,
+                "max": 16
+            },
+            "unitWorth": 200
+        },
+        "blue_skies_alchemy_scroll_obj": {
+            "type": "item",
+            "content": "blue_skies:alchemy_scroll",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "rarity": "EPIC"
+        },
+        "enigmaticlegacy_thicc_scroll_obj": {
+            "type": "item",
+            "content": "enigmaticlegacy:thicc_scroll",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 400
+        },
+        "hexcasting_scroll_small_obj": {
+            "type": "item",
+            "content": "hexcasting:scroll_small",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 700,
+            "rarity": "RARE"
+        },
+        "hexcasting_scroll_medium_obj": {
+            "type": "item",
+            "content": "hexcasting:scroll_medium",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1000,
+            "rarity": "RARE"
+        },
+        "ars_additions_nexus_warp_scroll_obj": {
+            "type": "item",
+            "content": "ars_additions:nexus_warp_scroll",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        }
+    }
+}

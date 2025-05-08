@@ -1,0 +1,1059 @@
+{
+    "content": {
+        "supplementaries_globe_sepia_obj": {
+            "type": "item",
+            "content": "supplementaries:globe_sepia",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 40000
+        },
+        "forbidden_arcanus_nipa_obj": {
+            "type": "item",
+            "content": "forbidden_arcanus:nipa",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 8000
+        },
+        "atmospheric_yellow_blossoms_obj": {
+            "type": "item",
+            "content": "atmospheric:yellow_blossoms",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 4000
+        },
+        "savage_and_ravage_cleaver_of_beheading_obj": {
+            "type": "item",
+            "content": "savage_and_ravage:cleaver_of_beheading",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 75000
+        },
+        "eidolon_zombie_heart_obj": {
+            "type": "item",
+            "content": "eidolon:zombie_heart",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 5000
+        },
+        "alexsmobs_guster_eye_obj": {
+            "type": "item",
+            "content": "alexsmobs:guster_eye",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 10000
+        },
+        "apotheosis_seashelf_obj": {
+            "type": "item",
+            "content": "apotheosis:seashelf",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 100000
+        },
+        "forbidden_arcanus_stellarite_piece_obj": {
+            "type": "item",
+            "content": "forbidden_arcanus:stellarite_piece",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 80000
+        },
+        "minecraft_conduit_obj": {
+            "type": "item",
+            "content": "minecraft:conduit",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 40000
+        },
+        "minecraft_enchanted_golden_apple_obj": {
+            "type": "item",
+            "content": "minecraft:enchanted_golden_apple",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100000
+        },
+        "neapolitan_chocolate_cake_obj": {
+            "type": "item",
+            "content": "neapolitan:chocolate_cake",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000
+        },
+        "irons_spellbooks_lightning_bottle_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:lightning_bottle",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000
+        },
+        "minecraft_diamond_obj": {
+            "type": "item",
+            "content": "minecraft:diamond",
+            "amount": {
+                "min": 2,
+                "max": 16
+            },
+            "unitWorth": 4000
+        },
+        "minecraft_enchanting_table_obj": {
+            "type": "item",
+            "content": "minecraft:enchanting_table",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 12000
+        },
+        "blue_skies_bug_guts_obj": {
+            "type": "item",
+            "content": "blue_skies:bug_guts",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 8000
+        },
+        "supplementaries_pancake_obj": {
+            "type": "item",
+            "content": "supplementaries:pancake",
+            "amount": {
+                "min": 2,
+                "max": 7
+            },
+            "unitWorth": 3000
+        },
+        "miners_delight_baked_cave_carrot_obj": {
+            "type": "item",
+            "content": "miners_delight:baked_cave_carrot",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 2500
+        },
+        "sophisticatedbackpacks_diamond_backpack_obj": {
+            "type": "item",
+            "content": "sophisticatedbackpacks:diamond_backpack",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 90000
+        },
+        "caverns_and_chasms_bejeweled_apple_obj": {
+            "type": "item",
+            "content": "caverns_and_chasms:bejeweled_apple",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 9000
+        },
+        "minecraft_crying_obsidian_obj": {
+            "type": "item",
+            "content": "minecraft:crying_obsidian",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 1500
+        },
+        "iceandfire_dragonbone_obj": {
+            "type": "item",
+            "content": "iceandfire:dragonbone",
+            "amount": {
+                "min": 1,
+                "max": 18
+            },
+            "unitWorth": 2000
+        },
+        "buzzier_bees_bee_bottle_obj": {
+            "type": "item",
+            "content": "buzzier_bees:bee_bottle",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "unitWorth": 3000
+        },
+        "buzzier_bees_glazed_porkchop_obj": {
+            "type": "item",
+            "content": "buzzier_bees:glazed_porkchop",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 2500
+        },
+        "buzzier_bees_honey_bread_obj": {
+            "type": "item",
+            "content": "buzzier_bees:honey_bread",
+            "amount": {
+                "min": 1,
+                "max": 9
+            },
+            "unitWorth": 2500
+        },
+        "atmospheric_laurel_sapling_obj": {
+            "type": "item",
+            "content": "atmospheric:laurel_sapling",
+            "amount": {
+                "min": 10,
+                "max": 20
+            },
+            "unitWorth": 1000
+        },
+        "atmospheric_yucca_sapling_obj": {
+            "type": "item",
+            "content": "atmospheric:yucca_sapling",
+            "amount": {
+                "min": 10,
+                "max": 20
+            },
+            "unitWorth": 1000
+        },
+        "atmospheric_rosewood_sapling_obj": {
+            "type": "item",
+            "content": "atmospheric:rosewood_sapling",
+            "amount": {
+                "min": 10,
+                "max": 20
+            },
+            "unitWorth": 1000
+        },
+        "forbidden_arcanus_polished_darkstone_obj": {
+            "type": "item",
+            "content": "forbidden_arcanus:polished_darkstone",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 100
+        },
+        "forbidden_arcanus_rune_obj": {
+            "type": "item",
+            "content": "forbidden_arcanus:rune",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 4000
+        },
+        "atmospheric_carmine_husk_obj": {
+            "type": "item",
+            "content": "atmospheric:carmine_husk",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 4000
+        },
+        "quark_bottled_cloud_obj": {
+            "type": "item",
+            "content": "quark:bottled_cloud",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 1000
+        },
+        "ecologics_crab_claw_obj": {
+            "type": "item",
+            "content": "ecologics:crab_claw",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 3000
+        },
+        "ecologics_tropical_stew_obj": {
+            "type": "item",
+            "content": "ecologics:tropical_stew",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 11000
+        },
+        "ecologics_penguin_feather_obj": {
+            "type": "item",
+            "content": "ecologics:penguin_feather",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 2000
+        },
+        "storagenetwork_master_obj": {
+            "type": "item",
+            "content": "toms_storage:ts.inventory_connector",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000
+        },
+        "supplementaries_bomb_obj": {
+            "type": "item",
+            "content": "supplementaries:bomb",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 1250
+        },
+        "apotheosis_uncommon_material_obj": {
+            "type": "item",
+            "content": "apotheosis:uncommon_material",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 5000
+        },
+        "apotheosis_gem_dust_obj": {
+            "type": "item",
+            "content": "apotheosis:gem_dust",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 3000
+        },
+        "yungscavebiomes_prickly_peach_obj": {
+            "type": "item",
+            "content": "yungscavebiomes:prickly_peach",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 3500
+        },
+        "paraglider_spirit_orb_obj": {
+            "type": "item",
+            "content": "paraglider:spirit_orb",
+            "amount": {
+                "min": 4,
+                "max": 12
+            },
+            "unitWorth": 1100
+        },
+        "galosphere_salted_jerky_obj": {
+            "type": "item",
+            "content": "galosphere:salted_jerky",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 3000
+        },
+        "enigmaticlegacy_magnet_ring_obj": {
+            "type": "item",
+            "content": "enigmaticlegacy:magnet_ring",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7500
+        },
+        "reliquary_holy_hand_grenade_obj": {
+            "type": "item",
+            "content": "reliquary:holy_hand_grenade",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "reliquary_harvest_rod_obj": {
+            "type": "item",
+            "content": "reliquary:harvest_rod",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 60000
+        },
+        "reliquary_glowing_bread_obj": {
+            "type": "item",
+            "content": "reliquary:glowing_bread",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000
+        },
+        "miners_delight_vegan_hamburger_obj": {
+            "type": "item",
+            "content": "miners_delight:vegan_hamburger",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 5000
+        },
+        "miners_delight_bat_cookie_obj": {
+            "type": "item",
+            "content": "miners_delight:bat_cookie",
+            "amount": {
+                "min": 9,
+                "max": 18
+            },
+            "unitWorth": 500
+        },
+        "miners_delight_baked_tentacles_obj": {
+            "type": "item",
+            "content": "miners_delight:baked_tentacles",
+            "amount": {
+                "min": 4,
+                "max": 6
+            },
+            "unitWorth": 800
+        },
+        "thermal_phytogro_obj": {
+            "type": "item",
+            "content": "thermal:phytogro",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 2000
+        },
+        "abnormals_delight_seared_venison_obj": {
+            "type": "item",
+            "content": "abnormals_delight:seared_venison",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2500
+        },
+        "alexsmobs_blobfish_obj": {
+            "type": "item",
+            "content": "alexsmobs:blobfish",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2500
+        },
+        "environmental_cartwheel_obj": {
+            "type": "item",
+            "content": "environmental:cartwheel",
+            "amount": {
+                "min": 5,
+                "max": 12
+            },
+            "unitWorth": 1000
+        },
+        "create_tree_fertilizer_obj": {
+            "type": "item",
+            "content": "create:tree_fertilizer",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 3500
+        },
+        "galosphere_silver_bomb_obj": {
+            "type": "item",
+            "content": "galosphere:silver_bomb",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 1500
+        },
+        "farmersdelight_roast_chicken_block_obj": {
+            "type": "item",
+            "content": "farmersdelight:roast_chicken_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12000
+        },
+        "eidolon_wraith_kill": {
+            "type": "entity",
+            "content": "eidolon:wraith",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 600
+        },
+        "eidolon_zombie_brute_obj": {
+            "type": "entity",
+            "content": "eidolon:zombie_brute",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 1000
+        },
+        "graveyard_skeleton_creeper_kill": {
+            "type": "entity",
+            "content": "graveyard:skeleton_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+        "zombie_kill": {
+            "type": "entity",
+            "content": "minecraft:zombie",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 150
+        },
+        "skeleton_kill": {
+            "type": "entity",
+            "content": "minecraft:skeleton",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 150
+        },
+        "creeper_kill": {
+            "type": "entity",
+            "content": "minecraft:creeper",
+            "amount": {
+                "min": 5,
+                "max": 10
+            },
+            "unitWorth": 200
+        },
+        "spider_kill": {
+            "type": "entity",
+            "content": "minecraft:spider",
+            "amount": {
+                "min": 5,
+                "max": 20
+            },
+            "unitWorth": 150
+        },
+        "cave_spider_kill": {
+            "type": "entity",
+            "content": "minecraft:spider",
+            "amount": {
+                "min": 5,
+                "max": 10
+            },
+            "unitWorth": 150
+        },
+        "witch_kill": {
+            "type": "entity",
+            "content": "minecraft:witch",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 400
+        },
+        "yungscavebiomes_ice_cube_kill": {
+            "type": "entity",
+            "content": "yungscavebiomes:ice_cube",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "iceandfire_gorgon_kill": {
+            "type": "entity",
+            "content": "iceandfire:gorgon",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000,
+            "rarity": "RARE"
+        },
+        "dungeonnowloading_chaos_spawner_kill": {
+            "type": "entity",
+            "content": "dungeonnowloading:chaos_spawner",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 40000,
+            "rarity": "RARE"
+        },
+        "mowziesmobs_ferrous_wroughtnaut_kill": {
+            "type": "entity",
+            "content": "mowziesmobs:ferrous_wroughtnaut",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "rarity": "UNCOMMON"
+        },
+        "minecells_concierge_kill": {
+            "type": "entity",
+            "content": "minecells:concierge",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 120000,
+            "rarity": "LEGENDARY"
+        },
+        "galosphere_berserker_kill": {
+            "type": "entity",
+            "content": "galosphere:berserker",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000,
+            "rarity": "EPIC"
+        },
+        "meetyourfight_swampjaw_kill": {
+            "type": "entity",
+            "content": "meetyourfight:swampjaw",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 13000,
+            "rarity": "UNCOMMON"
+        },
+        "mowziesmobs_frostmaw_kill": {
+            "type": "entity",
+            "content": "mowziesmobs:frostmaw",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 60000,
+            "rarity": "RARE"
+        },
+        "bosses_of_mass_destruction_void_blossom_kill": {
+            "type": "entity",
+            "content": "bosses_of_mass_destruction:void_blossom",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000,
+            "rarity": "EPIC"
+        },
+        "mowziesmobs_naga_kill": {
+            "type": "entity",
+            "content": "mowziesmobs:naga",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7500
+        },
+        "conjurer_illager_conjurer_kill": {
+            "type": "entity",
+            "content": "conjurer_illager:conjurer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "rarity": "RARE"
+        },
+        "undergarden_forgotten_guardian_kill": {
+            "type": "entity",
+            "content": "undergarden:forgotten_guardian",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30000,
+            "rarity": "EPIC"
+        },
+        "mowziesmobs_umvuthi_kill": {
+            "type": "entity",
+            "content": "mowziesmobs:umvuthi",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "rarity": "RARE"
+        },
+        "iceandfire_cyclops_kill": {
+            "type": "entity",
+            "content": "iceandfire:cyclops",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 6000,
+            "rarity": "UNCOMMON"
+        },
+        "iceandfire_troll_kill": {
+            "type": "entity",
+            "content": "iceandfire:troll",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 5000,
+            "rarity": "UNCOMMON"
+        },
+        "quark_forgotten_kill": {
+            "type": "entity",
+            "content": "quark:forgotten",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 5000
+        },
+        "hunters_return_hunter_kill": {
+            "type": "entity",
+            "content": "hunters_return:hunter",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2500
+        },
+        "endermanoverhaul_flower_fields_enderman_kill": {
+            "type": "entity",
+            "content": "endermanoverhaul:flower_fields_enderman",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "endermanoverhaul_desert_enderman_kill": {
+            "type": "entity",
+            "content": "endermanoverhaul:desert_enderman",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "endermanoverhaul_dark_oak_enderman_kill": {
+            "type": "entity",
+            "content": "endermanoverhaul:dark_oak_enderman",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "endermanoverhaul_snowy_enderman_kill": {
+            "type": "entity",
+            "content": "endermanoverhaul:snowy_enderman",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "endermanoverhaul_cave_enderman_kill": {
+            "type": "entity",
+            "content": "endermanoverhaul:cave_enderman",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_jungle_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:jungle_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_bamboo_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:bamboo_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_desert_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:desert_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_hills_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:hills_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_savannah_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:savannah_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_swamp_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:swamp_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_dripstone_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:dripstone_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_cave_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:cave_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_dark_oak_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:dark_oak_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_spruce_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:spruce_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_beach_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:beach_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_snowy_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:snowy_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "creeperoverhaul_ocean_creeper_kill": {
+            "type": "entity",
+            "content": "creeperoverhaul:ocean_creeper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "aquamirae_maze_mother_kill": {
+            "type": "entity",
+            "content": "aquamirae:maze_mother",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "rarity": "RARE"
+        },
+        "galosphere_preserved_kill": {
+            "type": "entity",
+            "content": "galosphere:preserved",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12000,
+            "rarity": "RARE"
+        },
+        "alexsmobs_rocky_roller_kill": {
+            "type": "entity",
+            "content": "alexsmobs:rocky_roller",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 3000
+        },
+        "irons_spellbooks_necromancer_kill": {
+            "type": "entity",
+            "content": "irons_spellbooks:necromancer",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 6000
+        },
+        "cataclysm_deepling_brute_kill": {
+            "type": "entity",
+            "content": "cataclysm:deepling_brute",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 6000
+        },
+        "artifacts_mimic_kill": {
+            "type": "entity",
+            "content": "artifacts:mimic",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "cataclysm_wadjet_kill": {
+            "type": "entity",
+            "content": "cataclysm:wadjet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 65000,
+            "rarity": "LEGENDARY"
+        },
+        "cataclysm_aptrgangr_kill": {
+            "type": "entity",
+            "content": "cataclysm:aptrgangr",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 65000,
+            "rarity": "LEGENDARY"
+        },
+        "caverns_and_chasms_golden_milk_bucket_obj": {
+            "type": "item",
+            "content": "caverns_and_chasms:golden_milk_bucket",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "upgrade_aquatic_glow_squid_bucket_obj": {
+            "type": "item",
+            "content": "upgrade_aquatic:glow_squid_bucket",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "rarity": "UNCOMMON"
+        },
+        "upgrade_aquatic_nautilus_bucket_obj": {
+            "type": "item",
+            "content": "upgrade_aquatic:nautilus_bucket",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+        "aquaculture_fish_fillet_raw_obj": {
+            "type": "item",
+            "content": "aquaculture:fish_fillet_raw",
+            "amount": {
+                "min": 14,
+                "max": 32
+            },
+            "unitWorth": 100
+        },
+        "aquaculture_fish_fillet_cooked_obj": {
+            "type": "item",
+            "content": "aquaculture:fish_fillet_cooked",
+            "amount": {
+                "min": 14,
+                "max": 32
+            },
+            "unitWorth": 100
+        },
+        "quark_redstone_randomizer_obj": {
+            "type": "item",
+            "content": "quark:redstone_randomizer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4500
+        }
+    }
+}

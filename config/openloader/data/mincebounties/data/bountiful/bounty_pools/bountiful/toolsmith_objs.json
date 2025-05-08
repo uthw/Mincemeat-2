@@ -1,0 +1,67 @@
+{
+    "content": {
+        "sophisticatedbackpacks_stack_upgrade_tier_2_obj": {
+            "type": "item",
+            "content": "sophisticatedbackpacks:stack_upgrade_tier_2",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "actuallyadditions_iron_aiot_obj": {
+            "type": "item",
+            "content": "actuallyadditions:iron_aiot",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12000
+        },
+        "grapplemod_motorupgradeitem_obj": {
+            "type": "item",
+            "content": "grapplemod:motorupgradeitem",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "create_whisk_obj": {
+            "type": "item",
+            "content": "create:whisk",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "upgrade_aquatic_embedded_ammonite_obj": {
+            "type": "item",
+            "content": "upgrade_aquatic:embedded_ammonite",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "upgrade_aquatic_beachgrass_thatch_obj": {
+            "type": "item",
+            "content": "upgrade_aquatic:beachgrass_thatch",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1750
+        },
+        "actuallyadditions_stone_aiot_obj": {
+            "type": "item",
+            "content": "actuallyadditions:stone_aiot",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        }
+    }
+}

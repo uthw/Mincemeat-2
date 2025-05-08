@@ -1,0 +1,103 @@
+{
+    "content": {
+        "tetra_metal_scrap_obj": {
+            "type": "item",
+            "content": "tetra:metal_scrap",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 4000
+        },
+        "eidolon_arcane_gold_ingot_obj": {
+            "type": "item",
+            "content": "eidolon:arcane_gold_ingot",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 10000
+        },
+        "upgrade_aquatic_mulberry_jam_block_obj": {
+            "type": "item",
+            "content": "upgrade_aquatic:mulberry_jam_block",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 2000
+        },
+        "undergarden_regalium_crystal_obj": {
+            "type": "item",
+            "content": "undergarden:regalium_crystal",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 8000
+        },
+        "minecraft_raw_copper_block_obj": {
+            "type": "item",
+            "content": "minecraft:raw_copper_block",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 400
+        },
+        "forbidden_arcanus_obsidian_ingot_obj": {
+            "type": "item",
+            "content": "forbidden_arcanus:obsidian_ingot",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 1000
+        },
+        "tetra_vent_plate_obj": {
+            "type": "item",
+            "content": "tetra:vent_plate",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000
+        },
+        "tetra_combustion_chamber_obj": {
+            "type": "item",
+            "content": "tetra:combustion_chamber",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000
+        },
+        "tetra_thermal_cell_obj": {
+            "type": "item",
+            "content": "tetra:thermal_cell",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000
+        },
+        "supplementaries_fire_pit_obj": {
+            "type": "item",
+            "content": "supplementaries:fire_pit",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "apotheosis_scrap_tome_obj": {
+            "type": "item",
+            "content": "apotheosis:scrap_tome",
+            "amount": {
+                "min": 8,
+                "max": 24
+            },
+            "unitWorth": 250
+        }
+    }
+}

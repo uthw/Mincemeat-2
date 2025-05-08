@@ -1,0 +1,477 @@
+{
+    "content": {
+        "cod_obj": {
+            "type": "item",
+            "content": "minecraft:cod",
+            "amount": {
+                "min": 2,
+                "max": 9
+            },
+            "unitWorth": 100
+        },
+        "salmon_obj": {
+            "type": "item",
+            "content": "minecraft:salmon",
+            "amount": {
+                "min": 2,
+                "max": 9
+            },
+            "unitWorth": 200
+        },
+        "tropical_fish_obj": {
+            "type": "item",
+            "content": "minecraft:tropical_fish",
+            "amount": {
+                "min": 2,
+                "max": 9
+            },
+            "unitWorth": 200
+        },
+        "pufferfish_obj": {
+            "type": "item",
+            "content": "minecraft:pufferfish",
+            "amount": {
+                "min": 2,
+                "max": 9
+            },
+            "unitWorth": 200
+        },
+        "alexscaves_radgill_obj": {
+            "type": "item",
+            "content": "alexscaves:radgill",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "alexscaves_lanternfish_obj": {
+            "type": "item",
+            "content": "alexscaves:lanternfish",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "alexscaves_tripodfiosh_obj": {
+            "type": "item",
+            "content": "alexscaves:tripodfish",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "alexsmobs_blobfish_obj": {
+            "type": "item",
+            "content": "alexsmobs:blobfish",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000
+        },
+        "alexsmobs_raw_catfish_obj": {
+            "type": "item",
+            "content": "alexsmobs:raw_catfish",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 500
+        },
+        "alexsmobs_flying_fish_obj": {
+            "type": "item",
+            "content": "alexsmobs:flying_fish",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 400
+        },
+        "aquaculture_atlantic_cod_obj": {
+            "type": "item",
+            "content": "aquaculture:atlantic_cod",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_blackfish_obj": {
+            "type": "item",
+            "content": "aquaculture:blackfish",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_pacific_halibut_obj": {
+            "type": "item",
+            "content": "aquaculture:pacific_halibut",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_atlantic_halibut_obj": {
+            "type": "item",
+            "content": "aquaculture:atlantic_halibut",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_atlantic_herring_obj": {
+            "type": "item",
+            "content": "aquaculture:atlantic_herring",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_pink_salmon_obj": {
+            "type": "item",
+            "content": "aquaculture:pink_salmon",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_pollock_obj": {
+            "type": "item",
+            "content": "aquaculture:pollock",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_rainbow_trout_obj": {
+            "type": "item",
+            "content": "aquaculture:rainbow_trout",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_bayad_obj": {
+            "type": "item",
+            "content": "aquaculture:bayad",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_boulti_obj": {
+            "type": "item",
+            "content": "aquaculture:boulti",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_capitaine_obj": {
+            "type": "item",
+            "content": "aquaculture:capitaine",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_synodontis_obj": {
+            "type": "item",
+            "content": "aquaculture:synodontis",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_smallmouth_bass_obj": {
+            "type": "item",
+            "content": "aquaculture:smallmouth_bass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_bluegill_obj": {
+            "type": "item",
+            "content": "aquaculture:bluegill",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_brown_trout_obj": {
+            "type": "item",
+            "content": "aquaculture:brown_trout",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_carp_obj": {
+            "type": "item",
+            "content": "aquaculture:carp",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_catfish_obj": {
+            "type": "item",
+            "content": "aquaculture:catfish",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_gar_obj": {
+            "type": "item",
+            "content": "aquaculture:gar",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_minnow_obj": {
+            "type": "item",
+            "content": "aquaculture:minnow",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_muskellunge_obj": {
+            "type": "item",
+            "content": "aquaculture:muskellunge",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_perch_obj": {
+            "type": "item",
+            "content": "aquaculture:perch",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_arapaima_obj": {
+            "type": "item",
+            "content": "aquaculture:arapaima",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_piranha_obj": {
+            "type": "item",
+            "content": "aquaculture:piranha",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_tambaqui_obj": {
+            "type": "item",
+            "content": "aquaculture:tambaqui",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_brown_shrooma_obj": {
+            "type": "item",
+            "content": "aquaculture:brown_shrooma",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_red_shrooma_obj": {
+            "type": "item",
+            "content": "aquaculture:red_shrooma",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_red_grouper_obj": {
+            "type": "item",
+            "content": "aquaculture:red_grouper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquaculture_tuna_obj": {
+            "type": "item",
+            "content": "aquaculture:tuna",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "aquamirae_spinefish_obj": {
+            "type": "item",
+            "content": "aquamirae:spinefish",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "miners_delight_squid_obj": {
+            "type": "item",
+            "content": "minersdelight:squid",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "rarity": "UNCOMMON"
+        },
+        "miners_delight_glow_squid_obj": {
+            "type": "item",
+            "content": "minersdelight:glow_squid",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "rarity": "UNCOMMON"
+        },
+        "undergarden_raw_gwibling_obj": {
+            "type": "item",
+            "content": "undergarden:raw_gwibling",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000,
+            "rarity": "UNCOMMON"
+        },
+        "upgrade_aquatic_pike_obj": {
+            "type": "item",
+            "content": "upgrade_aquatic:pike",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "upgrade_aquatic_perch_obj": {
+            "type": "item",
+            "content": "upgrade_aquatic:perch",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "environmental_koi_obj": {
+            "type": "item",
+            "content": "environmental:koi",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "cataclysm_lionfish_obj": {
+            "type": "item",
+            "content": "cataclysm:lionfish",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "UNCOMMON"
+        },
+        "deep_aether_raw_aerglow_fish_obj": {
+            "type": "item",
+            "content": "deep_aether:raw_aerglow_fish",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000,
+            "rarity": "RARE"
+        },
+        "aquaculture_neptunium_ingot_obj": {
+            "type": "item",
+            "content": "aquaculture:neptunium_ingot",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 5000,
+            "rarity": "RARE"
+        }
+    }
+}

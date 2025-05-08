@@ -1,0 +1,186 @@
+{
+    "content": {
+        "coal_obj": {
+            "type": "item",
+            "content": "minecraft:coal",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 200
+        },
+        "iron_obj": {
+            "type": "item",
+            "content": "minecraft:iron_ingot",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 300
+        },
+        "gold_obj": {
+            "type": "item",
+            "content": "minecraft:gold_ingot",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 350
+        },
+        "copper_obj": {
+            "type": "item",
+            "content": "minecraft:copper_ingot",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 100
+        },
+        "silver_obj": {
+            "type": "item_tag",
+            "content": "forge:ingots/silver",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 400
+        },
+        "tin_obj": {
+            "type": "item_tag",
+            "content": "forge:ingots/tin",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 350
+        },
+        "lead_obj": {
+            "type": "item_tag",
+            "content": "forge:ingots/lead",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 350
+        },
+        "nickel_obj": {
+            "type": "item_tag",
+            "content": "forge:ingots/nickel",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 350
+        },
+        "zinc_obj": {
+            "type": "item_tag",
+            "content": "forge:ingots/zinc",
+            "amount": {
+                "min": 16,
+                "max": 36
+            },
+            "unitWorth": 200
+        },
+        "create_andesite_alloy_obj": {
+            "type": "item",
+            "content": "create:andesite_alloy",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 300
+        },
+        "eidolon_pewter_ingot_obj": {
+            "type": "item",
+            "content": "eidolon:pewter_ingot",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 600
+        },
+        "aluminum_obj": {
+            "type": "item_tag",
+            "content": "forge:ingots/aluminum",
+            "amount": {
+                "min": 3,
+                "max": 24
+            },
+            "unitWorth": 350
+        },
+        "lapis_lazuli_obj": {
+            "type": "item",
+            "content": "minecraft:lapis_lazuli",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 100
+        },
+        "quartz_obj": {
+            "type": "item",
+            "content": "minecraft:quartz",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 200
+        },
+        "thermal_apatite_obj": {
+            "type": "item",
+            "content": "thermal:apatite",
+            "amount": {
+                "min": 8,
+                "max": 64
+            },
+            "unitWorth": 100
+        },
+        "thermal_cinnabar_obj": {
+            "type": "item",
+            "content": "thermal:cinabar",
+            "amount": {
+                "min": 8,
+                "max": 24
+            },
+            "unitWorth": 400
+        },
+        "thermal_niter_obj": {
+            "type": "item",
+            "content": "thermal:niter",
+            "amount": {
+                "min": 8,
+                "max": 48
+            },
+            "unitWorth": 200
+        },
+        "thermal_sulfur_obj": {
+            "type": "item",
+            "content": "thermal:sulfur",
+            "amount": {
+                "min": 8,
+                "max": 48
+            },
+            "unitWorth": 200
+        },
+        "rubinated_nether_ruby_obj": {
+            "type": "item",
+            "content": "rubberduck:rubinated_nether_ruby",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 1000,
+            "rarity": "RARE"
+        },
+        "aether_zanite_gemstone_obj": {
+            "type": "item",
+            "content": "aether:zanite_gemstone",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 1500,
+            "rarity": "RARE"
+        }
+    }
+}

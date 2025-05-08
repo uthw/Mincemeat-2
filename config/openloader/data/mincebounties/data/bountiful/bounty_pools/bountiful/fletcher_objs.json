@@ -1,0 +1,76 @@
+{
+    "content": {
+        "neapolitan_bananarrow_obj": {
+            "type": "item",
+            "content": "neapolitan:bananarrow",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 1000
+        },
+        "caverns_and_chasms_large_arrow_obj": {
+            "type": "item",
+            "content": "caverns_and_chasms:large_arrow",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 1000
+        },
+        "apotheosis_iron_mining_arrow_obj": {
+            "type": "item",
+            "content": "apotheosis:iron_mining_arrow",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 1000
+        },
+        "apotheosis_diamond_mining_arrow_obj": {
+            "type": "item",
+            "content": "apotheosis:diamond_mining_arrow",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 1500
+        },
+        "farmersdelight_straw_obj": {
+            "type": "item",
+            "content": "farmersdelight:straw",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 200
+        },
+        "arrow_obj": {
+            "type": "item",
+            "content": "minecraft:arrow",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 50
+        },
+        "flint_obj": {
+            "type": "item",
+            "content": "minecraft:flint",
+            "amount": {
+                "min": 12,
+                "max": 16
+            },
+            "unitWorth": 50
+        },
+        "feather_obj": {
+            "type": "item",
+            "content": "minecraft:feather",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 100
+        }
+    }
+}

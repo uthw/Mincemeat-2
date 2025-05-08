@@ -1,0 +1,553 @@
+{
+    "content": {
+        "immersiveengineering_windmill_sail_obj": {
+            "type": "item",
+            "content": "immersiveengineering:windmill_sail",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4500
+        },
+        "immersiveengineering_ingot_hop_graphite_obj": {
+            "type": "item",
+            "content": "immersiveengineering:ingot_hop_graphite",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 12000
+        },
+        "immersiveengineering_ersatz_leather_obj": {
+            "type": "item",
+            "content": "immersiveengineering:ersatz_leather",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2500
+        },
+        "immersiveengineering_light_bulb_obj": {
+            "type": "item",
+            "content": "immersiveengineering:light_bulb",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000
+        },
+        "immersiveengineering_drill_head_iron_obj": {
+            "type": "item",
+            "content": "immersiveengineering:drill_head_iron",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1500
+        },
+        "immersiveengineering_drill_head_steel_obj": {
+            "type": "item",
+            "content": "immersiveengineering:drill_head_steel",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000
+        },
+        "immersiveengineering_revolver_obj": {
+            "type": "item",
+            "content": "immersiveengineering:revolver",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 35000
+        },
+        "immersiveengineering_coil_lv_obj": {
+            "type": "item",
+            "content": "immersiveengineering:coil_lv",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 4000
+        },
+        "immersiveengineering_coil_mv_obj": {
+            "type": "item",
+            "content": "immersiveengineering:coil_mv",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 8000
+        },
+        "immersiveengineering_coil_hv_obj": {
+            "type": "item",
+            "content": "immersiveengineering:coil_hv",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 10000
+        },
+        "immersiveengineering_jerrycan_obj": {
+            "type": "item",
+            "content": "immersiveengineering:jerrycan",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 7500
+        },
+        "immersiveengineering_logic_unit_obj": {
+            "type": "item",
+            "content": "immersiveengineering:logic_unit",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 13000
+        },
+        "immersiveengineering_blastfurnace_preheater_obj": {
+            "type": "item",
+            "content": "immersiveengineering:blastfurnace_preheater",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "immersiveengineering_cloche_obj": {
+            "type": "item",
+            "content": "immersiveengineering:cloche",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 9000
+        },
+        "thermal_obsidian_glass_obj": {
+            "type": "item",
+            "content": "thermal:obsidian_glass",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 2000
+        },
+        "thermal_signalum_glass_obj": {
+            "type": "item",
+            "content": "thermal:signalum_glass",
+            "amount": {
+                "min": 3,
+                "max": 7
+            },
+            "unitWorth": 3500
+        },
+        "thermal_tinker_bench_obj": {
+            "type": "item",
+            "content": "thermal:tinker_bench",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "thermal_charge_bench_obj": {
+            "type": "item",
+            "content": "thermal:charge_bench",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "thermal_item_buffer_obj": {
+            "type": "item",
+            "content": "thermal:item_buffer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "thermal_energy_cell_obj": {
+            "type": "item",
+            "content": "thermal:energy_cell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "thermal_fluid_cell_obj": {
+            "type": "item",
+            "content": "thermal:fluid_cell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "thermal_device_tree_extractor_obj": {
+            "type": "item",
+            "content": "thermal:device_tree_extractor",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "thermal_redstone_servo_obj": {
+            "type": "item",
+            "content": "thermal:redstone_servo",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 3500
+        },
+        "thermal_device_composter_obj": {
+            "type": "item",
+            "content": "thermal:device_composter",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "thermal_device_soil_infuser_obj": {
+            "type": "item",
+            "content": "thermal:device_soil_infuser",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "thermal_devoce_water_gen_obj": {
+            "type": "item",
+            "content": "thermal:device_water_gen",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "thermal_device_machine_frame_obj": {
+            "type": "item",
+            "content": "thermal:device_machine_frame",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "thermal_flux_drill_obj": {
+            "type": "item",
+            "content": "thermal:flux_drill",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        },
+        "thermal_flux_saw_obj": {
+            "type": "item",
+            "content": "thermal:flux_saw",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        },
+        "thermal_flux_capacitor_obj": {
+            "type": "item",
+            "content": "thermal:flux_capacitor",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        },
+        "thermal_flux_magnet_obj": {
+            "type": "item",
+            "content": "thermal:flux_magnet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        },
+        "thermal_rf_coil_obj": {
+            "type": "item",
+            "content": "thermal:rf_coil",
+            "amount": {
+                "min": 3,
+                "max": 6
+            },
+            "unitWorth": 3000
+        },
+        "create_wrench_obj": {
+            "type": "item",
+            "content": "create:wrench",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500
+        },
+        "create_potato_cannon_obj": {
+            "type": "item",
+            "content": "create:potato_cannon",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "create_precision_mechanism_obj": {
+            "type": "item",
+            "content": "create:precision_mechanism",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "create_cogwheel_obj": {
+            "type": "item",
+            "content": "create:cogwheel",
+            "amount": {
+                "min": 5,
+                "max": 10
+            },
+            "unitWorth": 1500
+        },
+        "create_large_cogwheel_obj": {
+            "type": "item",
+            "content": "create:large_cogwheel",
+            "amount": {
+                "min": 5,
+                "max": 10
+            },
+            "unitWorth": 1750
+        },
+        "create_water_wheel_obj": {
+            "type": "item",
+            "content": "create:water_wheel",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500
+        },
+        "create_large_water_wheel_obj": {
+            "type": "item",
+            "content": "create:large_water_wheel",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+        "create_crushing_wheel_obj": {
+            "type": "item",
+            "content": "create:crushing_wheel",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000
+        },
+        "create_encased_fan_obj": {
+            "type": "item",
+            "content": "create:encased_fan",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 4000
+        },
+        "create_chute_obj": {
+            "type": "item",
+            "content": "create:chute",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000
+        },
+        "create_steam_engine_obj": {
+            "type": "item",
+            "content": "create:steam_engine",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "create_deployer_obj": {
+            "type": "item",
+            "content": "create:deployer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+        "create_brass_hand_obj": {
+            "type": "item",
+            "content": "create:brass_hand",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6000
+        },
+        "create_andesite_casing_obj": {
+            "type": "item",
+            "content": "create:andesite_casing",
+            "amount": {
+                "min": 3,
+                "max": 12
+            },
+            "unitWorth": 750
+        },
+        "create_copper_casing_obj": {
+            "type": "item",
+            "content": "create:copper_casing",
+            "amount": {
+                "min": 3,
+                "max": 12
+            },
+            "unitWorth": 750
+        },
+        "create_brass_casing_obj": {
+            "type": "item",
+            "content": "create:brass_casing",
+            "amount": {
+                "min": 3,
+                "max": 8
+            },
+            "unitWorth": 1500
+        },
+        "create_electron_tube_obj": {
+            "type": "item",
+            "content": "create:electron_tube",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 4000
+        },
+        "create_mechanical_arm_obj": {
+            "type": "item",
+            "content": "create:mechanical_arm",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12000
+        },
+        "create_pulse_extender_obj": {
+            "type": "item",
+            "content": "create:pulse_extender",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 5000
+        },
+        "create_powered_latch_obj": {
+            "type": "item",
+            "content": "create:powered_latch",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 5000
+        },
+        "create_whisk_obj": {
+            "type": "item",
+            "content": "create:whisk",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2000
+        },
+        "create_super_glue_obj": {
+            "type": "item",
+            "content": "create:super_glue",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2000
+        },
+        "createaddition_electric_motor_obj": {
+            "type": "item",
+            "content": "createaddition:electric_motor",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "createaddition_rolling_mill_obj": {
+            "type": "item",
+            "content": "createaddition:rolling_mill",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "createaddition_tesla_coil_obj": {
+            "type": "item",
+            "content": "createaddition:tesla_coil",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+        "createaddition_connector_obj": {
+            "type": "item",
+            "content": "createaddition:connector",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 4000
+        },
+        "createaddition_small_light_connector_obj": {
+            "type": "item",
+            "content": "createaddition:small_light_connector",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000
+        },
+        "createaddition_large_connector_obj": {
+            "type": "item",
+            "content": "createaddition:large_connector",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 6000
+        },
+        "createoreexcavation_sample_drill_obj": {
+            "type": "item",
+            "content": "createoreexcavation:sample_drill",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15000
+        }
+    }
+}

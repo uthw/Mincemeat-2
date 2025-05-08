@@ -1,0 +1,744 @@
+{
+    "content": {
+        "all_rew_primary_currency": {
+            "type": "item",
+            "content": "minecraft:emerald",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 200,
+            "weightMult": 2.5
+        },
+        "all_rew_primary_currency_rare_bargain": {
+            "type": "item",
+            "content": "minecraft:emerald",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300,
+            "weightMult": 0.2
+        },
+        "all_rew_decree": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bountiful:decree",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000,
+            "weightMult": 0.35
+        },
+        "all_rew_spyglass": {
+            "type": "item",
+            "content": "minecraft:spyglass",
+            "rarity": "RARE",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 300
+        },
+        "all_rew_totem_undying": {
+            "type": "item",
+            "content": "minecraft:totem_of_undying",
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+        "all_rew_arrow": {
+            "type": "item",
+            "content": "minecraft:arrow",
+            "amount": {
+                "min": 3,
+                "max": 9
+            },
+            "unitWorth": 150,
+            "weightMult": 0.4
+        },
+        "all_rew_glow_ink": {
+            "type": "item",
+            "content": "minecraft:glow_ink_sac",
+            "rarity": "EPIC",
+            "weightMult": 0.3,
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 400
+        },
+        "all_rew_prismarine_crystals": {
+            "type": "item",
+            "content": "minecraft:prismarine_crystals",
+            "rarity": "EPIC",
+            "weightMult": 0.15,
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "all_rew_minecart": {
+            "type": "item",
+            "content": "minecraft:tnt_minecart",
+            "rarity": "EPIC",
+            "weightMult": 0.15,
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500
+        },
+        "all_rew_axolotl_bucket": {
+            "type": "item",
+            "content": "minecraft:axolotl_bucket",
+            "rarity": "LEGENDARY",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+        "sophisticatedbackpacks_upgrade_base_rew": {
+            "type": "item",
+            "content": "sophisticatedbackpacks:upgrade_base",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 1000
+        },
+        "sophisticatedstorage_upgrade_base_rew": {
+            "type": "item",
+            "content": "sophisticatedstorage:upgrade_base",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 1000
+        },
+        "paraglider_spirit_orb_rew": {
+            "type": "item",
+            "content": "paraglider:spirit_orb",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 500
+        },
+        "golden_ingot_rew": {
+            "type": "item",
+            "content": "minecraft:gold_ingot",
+            "amount": {
+                "min": 4,
+                "max": 24
+            },
+            "unitWorth": 200
+        },
+        "iron_ingot_rew": {
+            "type": "item",
+            "content": "minecraft:iron_ingot",
+            "amount": {
+                "min": 4,
+                "max": 48
+            },
+            "unitWorth": 180
+        },
+        "caverns_and_chasms_spinel_rew": {
+            "type": "item",
+            "content": "caverns_and_chasms:spinel",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 500,
+			"rarity": "UNCOMMON"
+        },
+        "diamond_rew": {
+            "type": "item",
+            "content": "minecraft:diamond",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 900,
+			"rarity": "UNCOMMON"
+        },
+		"forbidden_arcanus_arcane_crystal_rew": {
+			"type": "item",
+			"content": "forbidden_arcanus:arcane_crystal",
+			"amount": {
+				"min": 4,
+				"max": 32
+			},
+			"unitWorth": 300
+		},
+		"netherite_ingot_rew": {
+			"type": "item",
+			"content": "minecraft:netherite_ingot",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 20000,
+			"rarity": "LEGENDARY"
+		},
+		"blaze_rod_rew": {
+            "type": "item",
+            "content": "minecraft:blaze_rod",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 5000,
+            "rarity": "RARE"
+        },
+		"irons_spellbooks_arcane_essence_rew": {
+            "type": "item",
+            "content": "irons_spellbooks:arcane_essence",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 600
+        },
+		"irons_spellbooks_blank_rune_rew": {
+			"type": "item",
+			"content": "irons_spellbooks:blank_rune",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 5000
+		},
+		"quark_pickarang_rew": {
+			"type": "item",
+			"content": "quark:pickarang",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+			"rarity": "RARE"
+		},
+		"smallships_sail_rew": {
+			"type": "item",
+			"content": "smallships:sail",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 8000,
+			"rarity": "UNCOMMON"
+		},
+		"immersive_aircraft_engine_rew": {
+			"type": "item",
+			"content": "immersive_aircraft:engine",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+			"rarity": "UNCOMMON"
+		},
+		"immersive_aircraft_hull_rew": {
+			"type": "item",
+			"content": "immersive_aircraft:hull",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 9000,
+			"rarity": "UNCOMMON"
+		},
+		"immersive_aircraft_propeller_rew": {
+			"type": "item",
+			"content": "immersive_aircraft:propeller",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 7000,
+			"rarity": "RARE"
+		},
+		"farmersdelight_egg_sandwich_rew": {
+			"type": "item",
+			"content": "farmersdelight:egg_sandwich",
+			"amount": {
+				"min": 5,
+				"max": 12
+			},
+			"unitWorth": 300,
+			"rarity": "RARE"
+		},
+		"farmersdelight_kelp_roll_rew": {
+			"type": "item",
+			"content": "farmersdelight:kelp_roll",
+			"amount": {
+				"min": 5,
+				"max": 12
+			},
+			"unitWorth": 300,
+			"rarity": "RARE"
+		},
+		"farmersdelight_bacon_and_eggs_rew": {
+			"type": "item",
+			"content": "farmersdelight:bacon_and_eggs",
+			"amount": {
+				"min": 5,
+				"max": 12
+			},
+			"unitWorth": 300,
+			"rarity": "RARE"
+		},
+		"farmersdelight_hamburger_rew": {
+			"type": "item",
+			"content": "farmersdelight:hamburger",
+			"amount": {
+				"min": 5,
+				"max": 12
+			},
+			"unitWorth": 300,
+			"rarity": "RARE"
+		},
+		"farmersdelight_rope_rew": {
+			"type": "item",
+			"content": "farmersdelight:rope",
+			"amount": {
+				"min": 16,
+				"max": 48
+			},
+			"unitWorth": 150,
+			"rarity": "RARE"
+		},
+		"delightful_smore_rew": {
+			"type": "item",
+			"content": "delightful:smore",
+			"amount": {
+				"min": 4,
+				"max": 8
+			},
+			"unitWorth": 300,
+			"rarity": "UNCOMMON"
+		},
+		"l2artifacts_random_1_rew": {
+			"type": "item",
+			"content": "l2artifacts:random_1",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 6000,
+			"rarity": "COMMON"
+		},
+		"l2artifacts_random_2_rew": {
+			"type": "item",
+			"content": "l2artifacts:random_2",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 8000,
+			"rarity": "UNCOMMON"
+		},
+		"l2artifacts_random_3_rew": {
+			"type": "item",
+			"content": "l2artifacts:random_3",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 11000,
+			"rarity": "RARE"
+		},
+		"l2artifacts_random_4_rew": {
+			"type": "item",
+			"content": "l2artifacts:random_4",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 18000,
+			"rarity": "RARE"
+		},
+		"l2artifacts_random_5_rew": {
+			"type": "item",
+			"content": "l2artifacts:random_5",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 30000,
+			"rarity": "LEGENDARY"
+		},
+		"enigmaticlegacy_recall_potion_rew": {
+			"type": "item",
+			"content": "enigmaticlegacy:recall_potion",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 5000
+		},
+		"enigmaticlegacy_earth_heart_rew": {
+			"type": "item",
+			"content": "enigmaticlegacy:earth_heart",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 7500
+		},
+		"enigmaticlegacy_mending_mixture_rew": {
+			"type": "item",
+			"content": "enigmaticlegacy:mending_mixture",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 15000
+		},
+		"enigmaticlegacy_insignia_rew": {
+			"type": "item",
+			"content": "enigmaticlegacy:insignia",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 30000,
+			"rarity": "LEGENDARY"
+		},
+		"apotheosis_uncommon_material_rew": {
+			"type": "item",
+			"content": "apotheosis:uncommon_material",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 8000
+		},
+		"apotheosis_rare_material_rew": {
+			"type": "item",
+			"content": "apotheosis:rare_material",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 15000,
+			"rarity": "RARE"
+		},
+		"apotheosis_seashelf_rew": {
+			"type": "item",
+			"content": "apotheosis:seashelf",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 10000,
+			"rarity": "RARE"
+		},
+		"apotheosis_gem_dust_rew": {
+			"type": "item",
+			"content": "apotheosis:gem_dust",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 5000,
+			"rarity": "UNCOMMON"
+		},
+		"apotheosis_sigil_of_rebirth_rew": {
+			"type": "item",
+			"content": "apotheosis:sigil_of_rebirth",
+			"amount": {
+				"min": 6,
+				"max": 12
+			},
+			"unitWorth": 3000
+		},
+		"apotheosis_scrap_tome_rew": {
+			"type": "item",
+			"content": "apotheosis:scrap_tome",
+			"amount": {
+				"min": 8,
+				"max": 32
+			},
+			"unitWorth": 500,
+			"rarity": "COMMON"
+		},
+		"apotheosis_improved_scrap_tome_rew": {
+			"type": "item",
+			"content": "apotheosis:improved_scrap_tome",
+			"amount": {
+				"min": 4,
+				"max": 16
+			},
+			"unitWorth": 2000,
+			"rarity": "EPIC"
+		},
+		"alexsmobs_shrimp_fried_rice_rew": {
+			"type": "item",
+			"content": "alexsmobs:shrimp_fried_rice",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 5000,
+			"rarity": "LEGENDARY"
+		},
+		"aquaculture_lockbox_rew": {
+			"type": "item",
+			"content": "aquaculture:lockbox",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 5000
+		},
+		"aquaculture_treasure_chest_rew": {
+			"type": "item",
+			"content": "aquaculture:treasure_chest",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 7500
+		},
+		"betterarcheology_netherite_brush_rew": {
+			"type": "item",
+			"content": "betterarcheology:netherite_brush",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 12000,
+			"rarity": "EPIC"
+		},
+		"caverns_and_chasms_silver_ingot_rew": {
+			"type": "item",
+			"content": "caverns_and_chasms:silver_ingot",
+			"amount": {
+				"min": 8,
+				"max": 32
+			},
+			"unitWorth": 600
+		},
+		"forbidden_arcanus_xpetrified_orb_rew": {
+			"type": "item",
+			"content": "forbidden_arcanus:xpetrified_orb",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 2000
+		},
+		"anvil_rew": {
+			"type": "item",
+			"content": "minecraft:anvil",
+			"amount": {
+				"min": 3,
+				"max": 6
+			},
+			"unitWorth": 1500,
+			"rarity": "RARE"
+		},
+		"turtle_egg_rew": {
+			"type": "item",
+			"content": "minecraft:turtle_egg",
+			"amount": {
+				"min": 6,
+				"max": 16
+			},
+			"unitWorth": 500
+		},
+		"sniffer_egg_rew": {
+			"type": "item",
+			"content": "minecraft:sniffer_egg",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 2500
+		},
+		"observer_rew": {
+			"type": "item",
+			"content": "minecraft:observer",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1000,
+			"rarity": "UNCOMMON"
+		},
+		"ender_pearl_rew": {
+			"type": "item",
+			"content": "minecraft:ender_pearl",
+			"amount": {
+				"min": 3,
+				"max": 16
+			},
+			"unitWorth": 1500
+		},
+		"forbidden_arcanus_cloth_rew": {
+			"type": "item",
+			"content": "forbidden_arcanus:cloth",
+			"amount": {
+				"min": 4,
+				"max": 16
+			},
+			"unitWorth": 2000
+		},
+		"ars_nouveau_source_gem_rew": {
+			"type": "item",
+			"content": "ars_nouveau:source_gem",
+			"amount": {
+				"min": 12,
+				"max": 32
+			},
+			"unitWorth": 2000
+		},
+		"artifacts_mimic_spawn_egg_rew": {
+			"type": "item",
+			"content": "artifacts:mimic_spawn_egg",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 5000,
+			"rarity": "UNCOMMON"
+		},
+		"tetra_pristine_lapis_rew": {
+			"type": "item",
+			"content": "tetra:pristine_lapis",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+			"rarity": "EPIC"
+		},
+		"tetra_pristine_emerald_rew": {
+			"type": "item",
+			"content": "tetra:pristine_emerald",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+			"rarity": "EPIC"
+		},
+		"tetra_pristine_diamond_rew": {
+			"type": "item",
+			"content": "tetra:pristine_diamond",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+			"rarity": "LEGENDARY"
+		},
+		"tetra_pristine_amethyst_rew": {
+			"type": "item",
+			"content": "tetra:pristine_amethyst",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 10000,
+			"rarity": "EPIC"
+		},
+		"jumbofurnace_jumbo_furnace_rew": {
+			"type": "item",
+			"content": "jumbofurnace:jumbo_furnace",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 3000,
+			"rarity": "UNCOMMON"
+		},
+		"reliquary_witch_hat_rew": {
+			"type": "item",
+			"content": "reliquary:witch_hat",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 5000,
+			"rarity": "RARE"
+		},
+		"sophisticatedstorage_basic_to_gold_tier_upgrade_rew": {
+			"type": "item",
+			"content": "sophisticatedstorage:basic_to_gold_tier_upgrade",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 4000
+		},
+		"sophisticatedstorage_basic_to_diamond_tier_upgrade_rew": {
+			"type": "item",
+			"content": "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 6000
+		},
+		"sophisticatedstorage_basic_to_netherite_tier_upgrade_rew": {
+			"type": "item",
+			"content": "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 12000,
+			"rarity": "RARE"
+		},
+		"forbidden_arcanus_orb_of_temporary_flight_rew": {
+			"type": "item",
+			"content": "forbidden_arcanus:orb_of_temporary_flight",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 16000,
+			"rarity": "LEGENDARY"
+		},
+		"golden_apple_rew": {
+			"type": "item",
+			"content": "minecraft:golden_apple",
+			"amount": {
+				"min": 4,
+				"max": 8
+			},
+			"unitWorth": 800
+		},
+		"actuallyadditions_coffee_cup_rew": {
+			"type": "item",
+			"content": "actuallyadditions:coffee_cup",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 30000,
+			"rarity": "LEGENDARY"
+		},
+		"create_steam_whistle_rew": {
+			"type": "item",
+			"content": "create:steam_whistle",
+			"amount": {
+				"min": 4,
+				"max": 6
+			},
+			"unitWorth": 1000,
+			"rarity": "RARE"
+		}
+		
+    }
+}

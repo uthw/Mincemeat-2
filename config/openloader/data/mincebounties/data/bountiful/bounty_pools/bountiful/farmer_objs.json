@@ -1,0 +1,58 @@
+{
+    "content": {
+        "minecraft_poisonous_potato_obj": {
+            "type": "item",
+            "content": "minecraft:poisonous_potato",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 250
+        },
+        "farmersdelight_kelp_roll_obj": {
+            "type": "item",
+            "content": "farmersdelight:kelp_roll",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 2000
+        },
+        "farmersdelight_rich_soil_obj": {
+            "type": "item",
+            "content": "farmersdelight:rich_soil",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 1500
+        },
+        "farmersdelight_noodle_soup_obj": {
+            "type": "item",
+            "content": "farmersdelight:noodle_soup",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 1200
+        },
+        "farmersdelight_stuffed_potato_obj": {
+            "type": "item",
+            "content": "farmersdelight:stuffed_potato",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 800
+        },
+        "farmersdelight_fried_egg_obj": {
+            "type": "item",
+            "content": "farmersdelight:fried_egg",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 600
+        }
+    }
+}

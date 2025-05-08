@@ -1,0 +1,77 @@
+{
+    "content": {
+        "alexscaves_cave_map_obj": {
+            "type": "item",
+            "content": "alexscaves:cave_map",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "supplementaries_slice_map_obj": {
+            "type": "item",
+            "content": "supplementaries:slice_map",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "paper_obj": {
+            "type": "item",
+            "content": "minecraft:paper",
+            "amount": {
+                "min": 12,
+                "max": 48
+            },
+            "unitWorth": 50
+        },
+        "campfire_obj": {
+            "type": "item",
+            "content": "minecraft:campfire",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 400
+        },
+        "quartz_obj": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:quartz",
+            "amount": {
+                "min": 2,
+                "max": 16
+            },
+            "unitWorth": 400
+        },
+        "compass_obj": {
+            "type": "item",
+            "content": "minecraft:compass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000
+        },
+        "naturescompass_natures_compass_obj": {
+            "type": "item",
+            "content": "naturescompass:natures_compass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "explorerscompass_explorers_compass_obj": {
+            "type": "item",
+            "content": "explorerscompass:explorers_compass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        }
+    }
+}

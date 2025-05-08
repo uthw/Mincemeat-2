@@ -1,0 +1,58 @@
+{
+    "content": {
+        "environmental_yak_hair_obj": {
+            "type": "item",
+            "content": "environmental:yak_hair",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 3500
+        },
+        "alexsmobs_bear_fur_obj": {
+            "type": "item",
+            "content": "alexsmobs:bear_fur",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2500
+        },
+        "immersiveengineering_hemp_fabric_obj": {
+            "type": "item",
+            "content": "immersiveengineering:hemp_fabric",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 1000
+        },
+        "immersiveengineering_ersatz_leather_obj": {
+            "type": "item",
+            "content": "immersiveengineering:ersatz_leather",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 2500
+        },
+        "hexerei_infused_fabric_obj": {
+            "type": "item",
+            "content": "hexerei:infused_fabric",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 5000
+        },
+        "thermal_cured_rubber_obj": {
+            "type": "item",
+            "content": "thermal:cured_rubber",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2000
+        }
+    }
+}

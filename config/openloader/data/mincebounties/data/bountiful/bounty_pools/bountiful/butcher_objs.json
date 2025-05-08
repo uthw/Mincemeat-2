@@ -1,0 +1,86 @@
+{
+    "content": {
+        "alexsmobs_skelewag_kill": {
+            "type": "entity",
+            "content": "alexsmobs:skelewag",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+        "alexsmobs_crocodile_kill": {
+            "type": "entity",
+            "content": "alexsmobs:crocodile",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+        "autumnity_turkey_piece_obj": {
+            "type": "item",
+            "content": "autumnity:turkey_piece",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 200
+        },
+        "ecologics_crab_meat_obj": {
+            "type": "item",
+            "content": "ecologics:crab_meat",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 200
+        },
+        "environmental_duck_obj": {
+            "type": "item",
+            "content": "environmental:duck",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 400
+        },
+        "mutton_obj": {
+            "type": "item",
+            "content": "minecraft:mutton",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 200
+        },
+        "porkchop_obj": {
+            "type": "item",
+            "content": "minecraft:porkchop",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 200
+        },
+        "beef_obj": {
+            "type": "item",
+            "content": "minecraft:beef",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 200
+        },
+        "netherexp_hogham_obj": {
+            "type": "item",
+            "content": "netherexp:hogham",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 1000,
+            "rarity": "RARE"
+        }
+    }
+}
