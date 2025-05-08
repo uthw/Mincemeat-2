@@ -33,6 +33,9 @@ ServerEvents.tags("worldgen/biome", (event) => {
     //     event.add("cataclysm:has_structure/soul_black_smith_biomes", biome);
     // });
 
+    event.add("cataclysm:has_structure/burning_arena_biomes", "netherexp:black_ice_glaciers");
+    event.add("cataclysm:has_structure/soul_black_smith_biomes", "netherexp:black_ice_glaciers");
+
     event.add("mowziesmobs:is_magical", "biomeswevegone:enchanted_tangle");
     event.add("mowziesmobs:is_magical", "ars_nouveau:archwood_forest");
     event.add("mowziesmobs:is_magical", "biomeswevegone:forgotten_forest");
@@ -50,7 +53,11 @@ ServerEvents.tags("worldgen/biome", (event) => {
     event.add("graveyard:has_structure/dead_tree", "environmental:marsh");
     event.add("graveyard:has_structure/dead_tree", "hexerei:willow_swamp");
 
-
+    // remove oceans from ars addition structure gen since its structures seem to generate weird
+    event.remove(
+        "ars_additions:has_structure/ruined_portal",
+        "#minecraft:has_structure/ruined_portal_ocean"
+    );
 });
 
 // towers of the wild modded compat with worldgen mods
