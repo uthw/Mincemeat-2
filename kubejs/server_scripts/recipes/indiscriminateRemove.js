@@ -188,7 +188,8 @@ ServerEvents.recipes((event) => {
         "toms_storage:ts.crafting_terminal",
         "toms_storage:ts.adv_wireless_terminal",
         "v_slab_compat:environmental/grass_thatch_vertical_slab",
-        "art_of_forging:shockwave_chamber"
+        "art_of_forging:shockwave_chamber",
+        "hexerei:mushroom_witch_hat"
     ];
 
     toRemove.forEach((item) => {
