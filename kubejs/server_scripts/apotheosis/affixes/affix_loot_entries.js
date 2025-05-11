@@ -392,7 +392,7 @@ ServerEvents.highPriorityData((event) => {
                 { item: "mekanismtools:refined_glowstone_pickaxe", weight: 5 },
                 { item: "mekanismtools:steel_pickaxe", weight: 15 },
 
-                { item: "botania:manasteel_pickaxe", weight: 25 },
+                { item: "botania:manasteel_pick", weight: 25 },
 
                 // { item: "betternether:cincinnasite_pickaxe", weight: 25 },
                 // { item: "betternether:nether_ruby_pickaxe", weight: 15 },

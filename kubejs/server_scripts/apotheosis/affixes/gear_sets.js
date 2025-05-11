@@ -811,7 +811,7 @@ ServerEvents.highPriorityData((event) => {
             mainhands: [
                 { weight: 2, stack: { item: "botania:manasteel_sword" } },
                 { weight: 1, stack: { item: "botania:manasteel_axe" } },
-                { weight: 1, stack: { item: "botania:manasteel_pickaxe" } },
+                { weight: 1, stack: { item: "botania:manasteel_pick" } },
                 {
                     weight: 1,
                     stack: { item: "delightful:manasteel_knife" },
