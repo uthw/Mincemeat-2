@@ -5,7 +5,17 @@ ServerEvents.tags("entity_type", (event) => {
     event.add("alexsmobs:cachalot_whale_targets", "cataclysm:deepling_angler");
     event.add("alexsmobs:cachalot_whale_targets", "cataclysm:deepling_priest");
     event.add("alexsmobs:cachalot_whale_targets", "cataclysm:deepling_warlock");
-    event.add("alexsmobs:cachalot_whale_targets", "biomeswevegone:man_o_war");
+    event.add("alexsmobs:cachalot_whale_targets", "cataclysm:lionfish");
+    // event.add("alexsmobs:cachalot_whale_targets", "biomeswevegone:man_o_war");
+    event.add("alexsmobs:cachalot_whale_targets", "creeperoverhaul:ocean_creeper");
+
+    event.add("alexsmobs:orca_targets", "cataclysm:deepling");
+    // event.add("alexsmobs:orca_targets", "cataclysm:deepling_brute");
+    event.add("alexsmobs:orca_targets", "cataclysm:deepling_angler");
+    event.add("alexsmobs:orca_targets", "cataclysm:deepling_priest");
+    event.add("alexsmobs:orca_targets", "cataclysm:deepling_warlock");
+    event.add("alexsmobs:orca_targets", "cataclysm:lionfish");
+    event.add("alexsmobs:orca_targets", "creeperoverhaul:ocean_creeper");
 
     event.add("champions:is_ender", "endermanoverhaul:badlands_enderman");
     event.add("champions:is_ender", "endermanoverhaul:cave_enderman");
