@@ -1,0 +1,74 @@
+{
+    "improvements": [
+        "tetra:double/claw/",
+        "tetra:double/shared_head/",
+        "tetra:double/shared/",
+        "tetra:shared/"
+    ],
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "slotSuffixes": [
+        "_left",
+        "_right"
+    ],
+    "type": "tetra:multi_major_module",
+    "variants": [
+        {
+            "aspects": {
+                "block_breaker": 1,
+                "breakable": 2
+            },
+            "attributes": {
+                "generic.attack_damage": -3,
+                "generic.attack_speed": -1
+            },
+            "durability": -10,
+            "effects": {
+                "denailing": 1,
+                "puncture": [6, 20],
+                "bleeding": 1
+            },
+            "integrity": -1,
+            "extract": {
+                "availableTextures": [
+                    "crude",
+                    "metal",
+                    "shiny"
+                ],
+                "durability": 0.5,
+                "glyph": {
+                    "textureX": 64,
+                    "textureY": 32
+                },
+                "magicCapacity": 1,
+                "models": [
+                    {
+                        "location": "tetra:item/module/double/head/claw/"
+                    }
+                ],
+                "primaryAttributes": {
+                    "generic.attack_damage": 1
+                },
+                "tertiaryEffects": {
+                    "puncture": 0.3
+                },
+                "tools": {
+                    "pry": [
+                        1,
+                        0.8333
+                    ]
+                }
+            },
+            "key": "claw/",
+            "materials": [
+                "tetra:metal/",
+                "tetra:stone/",
+                "tetra:wood/",
+                "tetra:gem/"
+            ]
+        }
+    ]
+}

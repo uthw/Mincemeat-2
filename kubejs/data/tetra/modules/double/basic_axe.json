@@ -1,0 +1,84 @@
+{
+    "improvements": [
+        "tetra:double/axe/",
+        "tetra:double/shared_head/",
+        "tetra:double/shared/",
+        "tetra:shared/"
+    ],
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "slotSuffixes": [
+        "_left",
+        "_right"
+    ],
+    "type": "tetra:multi_major_module",
+    "variants": [
+        {
+            "integrity": -3,
+            "aspects": {
+                "block_breaker": 2,
+                "breakable": 2,
+                "edged_weapon": 1
+            },
+            "attributes": {
+                "generic.attack_damage": 3.5,
+                "generic.attack_speed": -1.6
+            },
+            "durability": -10,
+            "effects": {
+                "shieldbreaker": 1
+            },
+            "extract": {
+                "availableTextures": [
+                    "crude",
+                    "metal",
+                    "shiny"
+                ],
+                "durability": 0.5,
+                "glyph": {
+                    "textureX": 144
+                },
+                "magicCapacity": 1,
+                "models": [
+                    {
+                        "location": "tetra:item/module/double/head/basic_axe/"
+                    }
+                ],
+                "primaryAttributes": {
+                    "generic.attack_damage": 0.65
+                },
+                "secondaryAttributes": {
+                    "generic.attack_damage": 0.25
+                },
+                "tools": {
+                    "axe_dig": [
+                        1,
+                        1
+                    ],
+                    "axe_scrape": [
+                        1,
+                        1
+                    ],
+                    "axe_strip": [
+                        1,
+                        1
+                    ],
+                    "axe_wax_off": [
+                        1,
+                        1
+                    ]
+                }
+            },
+            "key": "basic_axe/",
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:metal/",
+                "tetra:gem/"
+            ]
+        }
+    ]
+}
