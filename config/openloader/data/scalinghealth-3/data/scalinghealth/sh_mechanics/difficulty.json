@@ -1,20 +1,20 @@
 {
     "startingValue": 0,
     "minValue": 0,
-    "maxValue": 180,
+    "maxValue": 220,
     "changePerSecond": 0.0012,
     "mode": {
         "type": "distance",
         "distance": {
-            "distanceFactor": 0.026
+            "distanceFactor": 0.019
         },
         "average": {
             "radius": 128
         },
-        "distanceFactor": 0.026
+        "distanceFactor": 0.019
     },
     "groupBonus": "1 + 1.5 * (areaPlayerCount - 1)",
-    "groupBonusRadius": 64,
+    "groupBonusRadius": 96,
     "idleMultiplier": 0.25,
     "afkMessage": false,
     "timeBeforeAfk": 120,
