@@ -4124,7 +4124,7 @@
 		{
 			dependencies: ["3A686777F1FBD28E"]
 			description: [
-				"These hammers require a Shockwave Chamber, which is crafted using Vobrium. To obtain Vobrium, you’ll need to explore the ruins and collect various parts."
+				"These hammers require a Shockwave Chamber, traded with a toolsmith. To obtain Vobrium, you’ll need to explore the ruins and collect various parts."
 				""
 				"When used, this hammer spawns 3 lightning bolts on hit—more if you hone its damage. All lightning strikes home in on nearby mobs within a 3-block radius. It’s highly effective against groups and deals massive DPS. The only downside is that using it may also kill you."
 			]
