@@ -2,7 +2,7 @@
     "type": "add",
     "argument1": {
         "argument": {
-            "xz_scale": 0.42,
+            "xz_scale": 0.55,
             "y_scale": 0.0,
             "noise": "minecraft:continentalness",
             "shift_x": "minecraft:shift_x",

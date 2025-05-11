@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:add",
+    "argument1": { "type": "minecraft:constant", "argument": 1.5 },
+    "argument2": {
+        "xz_scale": 0.25,
+        "y_scale": 0.0,
+        "noise": "continents:island_amount",
+        "type": "minecraft:noise"
+    }
+}
