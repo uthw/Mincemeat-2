@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Alex's Mobs Tip",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Unfortunately, kangaroos do not spawn in the Ice Maze because the environment is not suitable for them."
+    }
+}

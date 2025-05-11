@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mincemeat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Don't disregard enchanting your armor with Protection. Wearing full prot 4 diamond armor blocks 85.5% of damage, instead of 62.3% when unenchanted. That's a huge difference!"
+    }
+}
