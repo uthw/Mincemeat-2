@@ -12,7 +12,7 @@ EntityEvents.death("minecraft:player", (event) => {
 
     // health refill
     let dim = `${event.level.dimension.namespace}:${event.level.dimension.path}`;
-    event.server.runCommand(
+    event.server.runCommandSilent( // This works in 0.5.1 but you can switch to runCommand if weird things are happening
         `execute in ${dim} positioned ${x} ${y} ${z} unless entity @a[distance=2..10] as @e[distance=..50,type=#minecraft:heal_on_player_death] run data modify entity @s Health set value 9999.0`
     );
 
@@ -21,16 +21,16 @@ EntityEvents.death("minecraft:player", (event) => {
         // Hotfix for duplication glitch with Blue Skies arc (see #120)
         // The blue skies devs have a fix for this on 1.20.4 and 1.21 but don't seem to plan on backporting it
 
-        event.entity.server.runCommand(
+        event.entity.server.runCommandSilent(
             `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Dusk Arc"]`
         );
-        event.entity.server.runCommand(
+        event.entity.server.runCommandSilent(
             `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Nature Arc"]`
         );
-        event.entity.server.runCommand(
+        event.entity.server.runCommandSilent(
             `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Poisonous Arc"]`
         );
-        event.entity.server.runCommand(
+        event.entity.server.runCommandSilent(
             `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Ethereal Arc"]`
         );
     });
@@ -49,7 +49,7 @@ PlayerEvents.respawned((event) => {
     }
     let rng = Math.random();
     if (rng > 0.6) {
-        event.entity.server.runCommand(
+        event.entity.server.runCommandSilent(
             `execute as ${event.entity.username} run give @s kubejs:grave_scroll`
         );
     }
