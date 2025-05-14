@@ -99,6 +99,10 @@ JEIEvents.information((event) => {
         {
             item: "art_of_forging:esoteric_codex",
             desc: "Dropped from clawing forged storage containers in extractor ruins."
+        },
+        {
+            item: "netherexp:stridite",
+            desc: "Found in Brazier Chests or through soul sand valley archaeology."
         }
     ];
 
