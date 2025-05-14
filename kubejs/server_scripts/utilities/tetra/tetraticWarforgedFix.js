@@ -17,7 +17,7 @@ let fix = {
                 key: "double/head_left",
                 config: {
                     attributes: {
-                        parent: "bettercombat:heavy_axe",
+                        parent: "bettercombat:axe",
                     },
                 },
             },
