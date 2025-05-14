@@ -25,7 +25,6 @@ ServerEvents.highPriorityData((event) => {
                     max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
-                    weight: 50,
                 },
                 {
                     dimensions: ["minecraft:overworld"],
@@ -34,7 +33,6 @@ ServerEvents.highPriorityData((event) => {
                     max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
-                    weight: 50,
                 },
                 {
                     dimensions: ["minecraft:overworld"],
@@ -43,7 +41,6 @@ ServerEvents.highPriorityData((event) => {
                     max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
-                    weight: 50,
                 },
                 {
                     dimensions: [
@@ -57,7 +54,6 @@ ServerEvents.highPriorityData((event) => {
                     max_rarity: "uncommon",
                     min_rarity: "common",
                     quality: 3,
-                    weight: 50,
                 },
             ],
 
