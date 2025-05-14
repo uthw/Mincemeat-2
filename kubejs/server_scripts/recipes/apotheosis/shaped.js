@@ -128,12 +128,13 @@ ServerEvents.recipes((event) => {
         },
         {
             output: "apotheosis:simple_reforging_table",
-            inputs: [" A ", "BCB", "DDD"],
+            inputs: [" A ", "BCB", "DED"],
             keys: {
                 A: "forbidden_arcanus:iron_blacksmith_gavel",
                 B: "apotheosis:gem_dust",
                 C: "minecraft:enchanting_table",
-                D: "meetyourfight:phantoplasm",
+                D: "thermal:cinnabar_block",
+                E: "meetyourfight:phantoplasm",
             },
             id: "apotheosis:simple_reforging_table",
         },
@@ -186,9 +187,9 @@ ServerEvents.recipes((event) => {
             inputs: ["ABA", "CCC", "ADA"],
             keys: {
                 A: "apotheosis:gem_dust",
-                B: "meetyourfight:violet_bloom",
+                B: "alexscaves:radiant_essence",
                 C: "apotheosis:gem_fused_slate",
-                D: "",
+                D: "aether_redux:gravitite_ingot",
             },
             id: "apotheosis:sigil_of_socketing",
         },
@@ -200,7 +201,7 @@ ServerEvents.recipes((event) => {
                 B: "environmental:cartwheel",
                 C: "forbidden_arcanus:arcane_crystal_dust",
                 D: "forbidden_arcanus:dark_matter",
-                E: "alexscaves:sea_glass_shards",
+                E: "traveloptics:resonant_scrap",
             },
             id: "apotheosis:sigil_of_withdrawal",
         },
@@ -212,6 +213,27 @@ ServerEvents.recipes((event) => {
                 B: "forbidden_arcanus:arcane_crystal_dust",
             },
             id: "apotheosis:sigil_of_rebirth",
+        },
+        {
+            output: "apotheosis:augmenting_table",
+            inputs: [" A ", "BCB", "DDD"],
+            keys: {
+                A: "art_of_forging:sigil_of_eden",
+                B: "deep_aether:stratus_ingot",
+                C: "enchantinginfuser:enchanting_infuser",
+                D: "netherexp:necromium_plated_block",
+            },
+            id: "apotheosis:augmenting_table",
+        },
+        {
+            output: "apotheosis:sigil_of_enhancement",
+            inputs: ["ABA", "BCB", "ABA"],
+            keys: {
+                A: "apotheosis:gem_dust",
+                B: "apotheosis:gem_fused_slate",
+                C: "apotheosis:rare_material",
+            },
+            id: "apotheosis:sigil_of_enhancement",
         },
     ];
 
