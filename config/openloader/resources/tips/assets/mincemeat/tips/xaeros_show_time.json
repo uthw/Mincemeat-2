@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Xaero's Minimap Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can configure the minimap to show you what time it is in game and/or in real life. It's found under the Info Display Manager menu in the minimap settings"
+    }
+}

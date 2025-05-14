@@ -5,6 +5,6 @@
         "color": "aqua"
     },
     "tip": {
-        "text": "You can make a super smelter using a 3x3x3 cube of furnaces. It can be upgraded to increase the amount of things that can be smelted concurrently."
+        "text": "You can make a super smelter using a 3x3x3 cube of furnaces. It can be upgraded to increase the number of things that can be smelted concurrently."
     }
 }
