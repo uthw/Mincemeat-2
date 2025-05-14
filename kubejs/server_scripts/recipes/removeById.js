@@ -151,7 +151,9 @@ ServerEvents.recipes((event) => {
         "cold_sweat:icebox",
         "forbidden_arcanus:fungyss_fence_gate",
         "forbidden_arcanus:aurum_fence_gate",
-        "forbidden_arcanus:edelwood_fence_gate"
+        "forbidden_arcanus:edelwood_fence_gate",
+        "apotheosis:augmenting_table",
+        "apotheosis:sigil_of_enhancement"
     ];
 
     toRemove.forEach((recipeId) => {
