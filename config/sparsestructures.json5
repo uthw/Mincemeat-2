@@ -133,7 +133,7 @@
     },
     {
       "structure": "dungeonnowloading:labrynth",
-      "factor": 2.5
+      "factor": 3
     },
     {
       "structure": "integrated_villages:clockwork_village",
