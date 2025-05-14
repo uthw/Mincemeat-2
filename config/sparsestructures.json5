@@ -146,6 +146,30 @@
     {
       "structure": "minecells:overworld_portal",
       "factor": 2
+    },
+    {
+      "stucture": "mvs:other_decoration/jungle_palm_tree",
+      "factor": 50
+    },
+    {
+      "structure": "dungeons_arise_seven_seas:corsair_corvette",
+      "factor": 2
+    },
+    {
+      "structure": "dungeons_arise_seven_seas:pirate_junk",
+      "factor": 2
+    },
+    {
+      "structure": "dungeons_arise_seven_seas:small_yacht",
+      "factor": 2
+    },
+    {
+      "structure": "dungeons_arise_seven_seas:unicorn_galleon",
+      "factor": 2
+    },
+    {
+      "structure": "dungeons_arise_seven_seas:victory_frigate",
+      "factor": 2
     }
     // add the structures you want to modify in the format:
     // {
