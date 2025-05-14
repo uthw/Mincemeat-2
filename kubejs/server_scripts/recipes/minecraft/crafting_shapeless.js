@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
             [
                 "reliquary:fertile_essence",
                 "farmersdelight:rice",
-                "naturesaura:gold_powder",
+                "traveloptics:resonant_scrap",
             ],
         ],
         [
@@ -212,31 +212,31 @@ ServerEvents.recipes((event) => {
                 Item.of(
                     "enigmaticlegacy:enigmatic_amulet",
                     "{AssignedColor:0.1f}"
-                ),
+                ).strongNBT(),
                 Item.of(
                     "enigmaticlegacy:enigmatic_amulet",
                     "{AssignedColor:0.2f}"
-                ),
+                ).strongNBT(),
                 Item.of(
                     "enigmaticlegacy:enigmatic_amulet",
                     "{AssignedColor:0.3f}"
-                ),
+                ).strongNBT(),
                 Item.of(
                     "enigmaticlegacy:enigmatic_amulet",
                     "{AssignedColor:0.4f}"
-                ),
+                ).strongNBT(),
                 Item.of(
                     "enigmaticlegacy:enigmatic_amulet",
                     "{AssignedColor:0.5f}"
-                ),
+                ).strongNBT(),
                 Item.of(
                     "enigmaticlegacy:enigmatic_amulet",
                     "{AssignedColor:0.6f}"
-                ),
+                ).strongNBT(),
                 Item.of(
                     "enigmaticlegacy:enigmatic_amulet",
                     "{AssignedColor:0.7f}"
-                ),
+                ).strongNBT(),
             ],
         ],
     ];

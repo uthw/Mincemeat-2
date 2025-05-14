@@ -298,10 +298,9 @@ ServerEvents.recipes((event) => {
                 A: "artifacts:golden_hook",
                 B: "thermal:xp_crystal",
                 C: "#forge:heads",
-                D: Item.of("minecraft:enchanted_book").enchant(
-                    "minecraft:looting",
-                    3
-                ),
+                D: Item.of("minecraft:enchanted_book")
+                    .enchant("minecraft:looting", 3)
+                    .strongNBT(),
             },
         ],
         [
@@ -819,7 +818,7 @@ ServerEvents.recipes((event) => {
             "enchantinginfuser:enchanting_infuser",
             [" A ", "BCB", "CDC"],
             {
-                A: "ars_nouveau:wixie_shards",
+                A: "traveloptics:celestial_shard",
                 B: "irons_spellbooks:magic_cloth",
                 C: "ars_nouveau:sourcestone",
                 D: "minecraft:enchanting_table",
@@ -1465,8 +1464,8 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:cobblestone",
                 B: "thermal:cinnabar",
                 C: "minecraft:deepslate",
-                D: "minecraft:magma_block"
-            }
+                D: "minecraft:magma_block",
+            },
         ],
         [
             "cold_sweat:icebox",
@@ -1475,33 +1474,33 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:cobblestone",
                 B: "irons_spellbooks:frozen_bone",
                 C: "minecraft:packed_ice",
-                D: "minecraft:deepslate"
-            }
+                D: "minecraft:deepslate",
+            },
         ],
         [
             "forbidden_arcanus:fungyss_fence_gate",
             ["   ", "ABA", "ABA"],
             {
                 A: "#forge:rods/wooden",
-                B: "forbidden_arcanus:fungyss_planks"
-            }
+                B: "forbidden_arcanus:fungyss_planks",
+            },
         ],
         [
             "forbidden_arcanus:aurum_fence_gate",
             ["   ", "ABA", "ABA"],
             {
                 A: "#forge:rods/wooden",
-                B: "forbidden_arcanus:aurum_planks"
-            }
+                B: "forbidden_arcanus:aurum_planks",
+            },
         ],
         [
             "forbidden_arcanus:edelwood_fence_gate",
             ["   ", "ABA", "ABA"],
             {
                 A: "#forge:rods/wooden",
-                B: "forbidden_arcanus:edelwood_planks"
-            }
-        ]
+                B: "forbidden_arcanus:edelwood_planks",
+            },
+        ],
     ];
 
     recipes.forEach((recipe, index) => {
