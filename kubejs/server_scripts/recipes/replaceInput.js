@@ -1490,8 +1490,13 @@ ServerEvents.recipes((event) => {
         [
             { output: "art_of_forging:life_fiber" },
             "tetra:dragon_sinew",
-            "enigmaticlegacy:infinimeal"
-        ]
+            "enigmaticlegacy:infinimeal",
+        ],
+        [
+            { output: /aquaculture:neptunium_.*/ },
+            "minecraft:stick",
+            "upgrade_aquatic:prismarine_rod",
+        ],
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
