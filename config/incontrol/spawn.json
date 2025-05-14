@@ -154,7 +154,7 @@
         "result": "default"
     },
     {
-        "when": "finalize",
+        "when": "onjoin",
         "mob": "alexsmobs:cachalot_whale",
         "healthmultiply": 2.5,
         "damagemultiply": 2.5,
@@ -433,14 +433,14 @@
         "result": "default"
     },
     {
-        "when": "finalize",
+        "when": "onjoin",
         "mob": "irons_spellbooks:citadel_keeper",
         "armormultiply": 4,
         "damagemultiply": 1.35,
         "result": "default"
     },
     {
-        "when": "finalize",
+        "when": "onjoin",
         "mob": "alexsmobs:orca",
         "healthmultiply": 2,
         "damagemultiply": 2,
