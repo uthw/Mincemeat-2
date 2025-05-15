@@ -1,0 +1,130 @@
+[
+    {
+        "effects": {
+            "pry": [
+                1,
+                12
+            ]
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right"
+        ]
+    },
+    {
+        "effects": {
+            "abilityDefensive": [
+                1,
+                5
+            ]
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/adze_left"
+        ]
+    },
+    {
+        "effects": {
+            "abilityOvercharge": [
+                15,
+                1
+            ]
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/basic_axe_left"
+        ]
+    },
+    {
+        "effects": {
+            "abilityMomentum": 8
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/basic_hammer_left"
+        ]
+    },
+    {
+        "effects": {
+            "abilityCombo": [
+                5,
+                25
+            ]
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/basic_pickaxe_left"
+        ]
+    },
+    {
+        "effects": {
+            "abilityOverextend": 1
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/hoe_left"
+        ]
+    },
+    {
+        "effects": {
+            "abilityExhilaration": 10
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/sickle_left"
+        ]
+    },
+    {
+        "effects": {
+            "abilityEcho": 1
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/extractor_left"
+        ]
+    },
+    {
+        "effects": {
+            "abilityEcho": 1
+        },
+        "improvements": [
+            "double/warforged"
+        ],
+        "matchSuffixed": true,
+        "modules": [
+            "double/claw_right",
+            "double/unbound_extractor_left"
+        ]
+    }
+]

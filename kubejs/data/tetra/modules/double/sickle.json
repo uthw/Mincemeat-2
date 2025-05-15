@@ -7,11 +7,9 @@
     ],
     "replace": true,
     "slots": [
-        "double/head_left",
         "double/head_right"
     ],
     "slotSuffixes": [
-        "_left",
         "_right"
     ],
     "type": "tetra:multi_major_module",
@@ -29,8 +27,7 @@
             "durability": -10,
             "effects": {
                 "planarSweep": 1,
-                "sweeping": [2,2],
-                "art_of_forging:disorienting": [ 1, 4 ]
+                "criticalStrike": [12,1]
             },
             "integrity": -1,
             "extract": {
@@ -53,6 +50,12 @@
                 "primaryAttributes": {
                     "generic.attack_damage": 1
                 },
+                "primaryEffects": {
+					"criticalStrike": [-1,0.3]
+				},
+				"tertiaryEffects": {
+					"criticalStrike": [2.5,0]
+				},
                 "tools": {
                     "hoe_dig": [
                         0.74,
