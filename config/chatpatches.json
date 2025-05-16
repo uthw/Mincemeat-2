@@ -19,7 +19,7 @@
   "chatHidePacket": true,
   "chatWidth": 0,
   "chatMaxMessages": 16384,
-  "chatNameFormat": "$:",
+  "chatNameFormat": "\u003c$\u003e",
   "shiftChat": 0,
   "messageDrafting": false,
   "searchDrafting": true,
