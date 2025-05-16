@@ -1,8 +1,13 @@
 // doubles durability for all materials from tetra
-
 ServerEvents.highPriorityData((event) => {
-    let tweak = [
-        { name: "bone/bone", durability: 240 },
+    let materials = [
+        {
+            name: "bone/bone",
+            durability: 240,
+            attributes: {
+                "generic.attack_speed": -0.05,
+            },
+        },
         // { name: "wool/wool", durability: 400 },
         // { name: "wool/wool_black", durability: 400 },
         // { name: "wool/wool_blue", durability: 400 },
@@ -34,16 +39,33 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/netherite", durability: 4062 },
         // // { name: "misc/vent_plate", durability: 1200 },
         { name: "misc/vent_plate", durability: 1200 },
-        { name: "rod/bamboo", durability: 30, density: 0.35 },
-        { name: "rod/blaze_rod", durability: 222 },
-        { name: "rod/end_rod", durability: 284 },
+        {
+            name: "rod/bamboo",
+            durability: 30,
+            attributes: {
+                "generic.attack_speed": -0.05,
+            },
+        },
+        {
+            name: "rod/blaze_rod",
+            durability: 222,
+            attributes: {
+                "generic.attack_speed": -0.05,
+            },
+        },
+        {
+            name: "rod/end_rod",
+            durability: 284,
+            attributes: {
+                "generic.attack_speed": -0.05,
+            },
+        },
         { name: "rod/forged_beam", durability: 1900 },
         {
             name: "rod/stick",
             durability: 80,
-            density: 0.6,
-            improvements: {
-                arrested: 0,
+            attributes: {
+                "generic.attack_speed": -0.05,
             },
         },
         { name: "scale/shulker_shell", durability: 400 },
@@ -53,7 +75,6 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "socket/amethyst",
             durability: 96,
-            effects: { reaching: [0, 0.45] },
         },
         { name: "socket/diamond", durability: 1024 },
         { name: "socket/emerald", durability: 96 },
@@ -386,7 +407,7 @@ ServerEvents.highPriorityData((event) => {
             name: "bone/wither_bone",
             durability: 1916,
             effects: {
-                bleeding: 2,
+                "art_of_forging:decaying": [1, 2],
             },
         },
 
@@ -497,7 +518,13 @@ ServerEvents.highPriorityData((event) => {
             primary: 13.7,
         },
         { name: "metal/enigmatic_legacy/nefarious", durability: 6862 },
-        { name: "rod/enigmatic_legacy/ender_rod", durability: 1148 },
+        {
+            name: "rod/enigmatic_legacy/ender_rod",
+            durability: 1148,
+            attributes: {
+                "generic.attack_speed": -0.05,
+            },
+        },
         { name: "scale/quark/crab_shell", durability: 400 },
         { name: "scale/quark/dragon_scale", durability: 400 },
         { name: "skin/quark/ravager_hide", durability: 1200 },
@@ -508,8 +535,7 @@ ServerEvents.highPriorityData((event) => {
         // Tetracelium
 
         { name: "bone/dragon_bone", durability: 3320, primary: 6.5 }, // 0.5 nerf
-        { name: "bone/wither_bone", durability: 1916 },
-        { name: "fabric/canvas", durability: 264 },
+        { name: "fabric/canvas", durability: 2640 },
         { name: "fibre/mana_string", durability: 500 },
         { name: "fibre/straw", durability: 80 },
         { name: "gem/ruby", durability: 3122 },
@@ -792,7 +818,420 @@ ServerEvents.highPriorityData((event) => {
             durability: 192,
         },
     ];
-    tweak.forEach((material) => {
-        event.addJson(`tetra:materials/${material.name}.json`, material);
+
+    // This is integrity.js
+    let integrityTweaks = [
+        {
+            path: "rod/bamboo",
+            cost: 1,
+            gain: 1,
+        },
+        {
+            path: "gem/diopside",
+            cost: 5,
+            gain: 3,
+        },
+        {
+            path: "gem/blue_skies_diopside", // duplicate
+            cost: 5,
+            gain: 3,
+        },
+        {
+            path: "metal/create_andesite_alloy",
+            cost: -1,
+            gain: 3,
+        },
+        {
+            path: "metal/create/andesite_alloy", // duplicate
+            cost: -1,
+            gain: 3,
+        },
+        {
+            path: "socket/socket_alexscaves_amber_curiosity",
+            cost: 2,
+            gain: 1,
+        },
+        {
+            path: "socket/socket_aether_golden_amber",
+            cost: 2,
+            gain: 1,
+        },
+        {
+            path: "metal/falsite",
+            cost: 1,
+            gain: 3,
+        },
+        {
+            path: "bone/bone",
+            cost: 1,
+            gain: 3,
+        },
+        {
+            path: "bone/frozen_bone",
+            cost: 1,
+            gain: 2,
+        },
+        {
+            path: "bone/alexscaves_heavy_bone",
+            cost: 2,
+            gain: 4,
+        },
+        {
+            path: "bone/dragon_bone",
+            cost: 2,
+            gain: 4,
+        },
+        {
+            path: "metal/enigmatic_legacy/etherium",
+            cost: 4,
+            gain: 4,
+        },
+        {
+            path: "metal/create/zinc",
+            cost: 2,
+            gain: 3,
+        },
+        {
+            path: "metal/aquaculture/neptunium_ingot",
+            cost: 3,
+            gain: 4,
+        },
+        {
+            path: "metal/tin",
+            cost: 1,
+            gain: 3,
+        },
+        {
+            path: "metal/iron",
+            cost: 2,
+            gain: 4,
+        },
+        {
+            path: "gem/diamond",
+            cost: 3,
+            gain: 2,
+        },
+        {
+            path: "metal/elementium",
+            cost: -1,
+            gain: 6,
+        },
+        {
+            path: "rod/stick",
+            cost: 1,
+            gain: 2,
+        },
+        {
+            path: "gem/emerald",
+            cost: 3,
+            gain: 2,
+        },
+        {
+            path: "metal/aether_phoenix",
+            cost: 3,
+            gain: 5,
+        },
+        {
+            path: "metal/vobrivium_ingot",
+            cost: 2,
+            gain: 4,
+        },
+        {
+            path: "gem/blue_skies_pyrope",
+            cost: 1,
+        },
+        {
+            path: "gem/pyrope", // duplicate
+            cost: 1,
+        },
+        {
+            path: "metal/aquite",
+            gain: 5,
+        },
+        {
+            path: "rod/enigmatic_legacy/ender_rod",
+            gain: 3,
+        },
+        {
+            path: "rod/end_rod",
+            gain: 3,
+        },
+        {
+            path: "rod/forged_beam",
+            gain: 5,
+        },
+        {
+            path: "rod/blaze_rod",
+            gain: 3,
+        },
+        // {
+        //     path: "metal/sky",
+        //     gain: 6,
+        // },
+        {
+            path: "bone/wither_bone",
+            gain: 4,
+        },
+        {
+            path: "rod/frosted_helve",
+            gain: 4,
+        },
+        // handles
+        {
+            path: "metal/undergarden_forgotten_metal",
+            gain: 4,
+        },
+        {
+            path: "metal/osmium",
+            gain: 6,
+        },
+        {
+            path: "metal/manasteel",
+            gain: 4,
+        },
+        {
+            path: "metal/nickel",
+            gain: 3,
+        },
+        {
+            path: "metal/netherite",
+            gain: 5,
+        },
+        {
+            path: "metal/cataclysm/witherite_ingot",
+            gain: 6,
+        },
+        {
+            path: "metal/forged_steel_ingot",
+            gain: 6,
+        },
+        {
+            path: "metal/copper",
+            gain: 3,
+        },
+        {
+            path: "metal/create_brass",
+            gain: 4,
+        },
+        {
+            path: "metal/create/brass", // duplicate
+            gain: 4,
+        },
+
+        // Any compact wood JSONs
+        {
+            path: "wood/spruce",
+            gain: 2,
+        },
+        {
+            path: "wood/oak",
+            gain: 2,
+        },
+        {
+            path: "wood/jungle",
+            gain: 2,
+        },
+        {
+            path: "wood/dark_oak",
+            gain: 2,
+        },
+        {
+            path: "wood/cherry", // for some reason Tetra made this one have different stats
+            gain: 2,
+        },
+        {
+            path: "wood/birch",
+            gain: 2,
+        },
+        {
+            path: "wood/acacia",
+            gain: 2,
+        },
+        // wood
+        {
+            path: "wood/warped",
+            gain: 2,
+        },
+        {
+            path: "wood/crimson",
+            gain: 3,
+        },
+        {
+            path: "wood/aether_redux_cloudcap",
+            gain: 3,
+        },
+        {
+            path: "wood/aether_redux_glacia",
+            gain: 3,
+        },
+        {
+            path: "wood/starlit",
+            gain: 2,
+        },
+        {
+            path: "wood/blue_skies_starlit_wood", // duplicate
+            gain: 2,
+        },
+        {
+            path: "wood/dusk",
+            gain: 2,
+        },
+        {
+            path: "wood/blue_skies_dusk", // duplicate
+            gain: 2,
+        },
+        {
+            path: "wood/ecologics_flowering_azalea",
+            gain: 2,
+        },
+        // {
+        //     path: "wood/ancient_wood",
+        //     gain: 3,
+        // },
+        {
+            path: "wood/bluebright",
+            gain: 2,
+        },
+        {
+            path: "wood/blue_skies_bluebright", // duplicate
+            gain: 2,
+        },
+        {
+            path: "wood/comet",
+            gain: 2,
+        },
+        {
+            path: "wood/blue_skies_comet", // duplicate
+            gain: 2,
+        },
+        {
+            path: "wood/ecologics_azalea",
+            gain: 2,
+        },
+        {
+            path: "wood/livingwood",
+            gain: 3,
+        },
+        {
+            path: "wood/frostbright",
+            gain: 3,
+        },
+        {
+            path: "wood/blue_skies_frostbright", // duplicate
+            gain: 3,
+        },
+        {
+            path: "wood/ecologics_coconut",
+            gain: 2,
+        },
+        {
+            path: "wood/lunar_wood",
+            gain: 2,
+        },
+        {
+            path: "wood/blue_skies_lunar_wood", // duplicate
+            gain: 2,
+        },
+        {
+            path: "wood/deep_aether_cruderoot",
+            gain: 3,
+        },
+        {
+            path: "wood/outer_end_azure_wood",
+            gain: 4,
+        },
+        {
+            path: "wood/undergarden_grongle",
+            gain: 2,
+        },
+        {
+            path: "wood/aether_skyroot",
+            gain: 2,
+        },
+        {
+            path: "wood/deep_aether_sunroot",
+            gain: 2,
+        },
+        {
+            path: "wood/maple",
+            gain: 2,
+        },
+        {
+            path: "wood/blue_skies_maple", // duplicate
+            gain: 2,
+        },
+        {
+            path: "wood/undergarden_wigglewood",
+            gain: 2,
+        },
+        {
+            path: "wood/treated_wood",
+            gain: 3,
+        },
+        {
+            path: "wood/alexscaves_thornwood",
+            gain: 4,
+        },
+        {
+            path: "wood/ecologics_walnut",
+            gain: 3,
+        },
+        {
+            path: "wood/deep_aether_roseroot",
+            gain: 3,
+        },
+        {
+            path: "wood/aether_redux_blightwillow",
+            gain: 4,
+        },
+        {
+            path: "wood/undergarden_smogstem",
+            gain: 3,
+        },
+        {
+            path: "wood/deep_aether_conberry",
+            gain: 3,
+        },
+        {
+            path: "wood/deep_aether_yagroot",
+            gain: 4,
+        },
+        {
+            path: "wood/dreamwood", // seems like you need Terrasteel to get this
+            gain: 5,
+        },
+        // hidden woods (wtf Quark) making these +3 because they are obtainable but hidden in the Holosphere
+        {
+            path: "wood/quark/blossom",
+            gain: 3,
+        },
+        {
+            path: "wood/quark/azalea",
+            gain: 3,
+        },
+    ];
+    integrityTweaks.forEach((t) => {
+        let entry = { name: t.name };
+        if (t.cost !== undefined) entry.cost = t.cost;
+        if (t.gain !== undefined) entry.gain = t.gain;
+        materials.push(entry);
+    });
+
+    materials.forEach((material) => {
+        let jsonData = {};
+        if (material.durability !== undefined)
+            jsonData.durability = material.durability;
+        if (material.attributes) jsonData.attributes = material.attributes;
+        if (material.effects) jsonData.effects = material.effects;
+        if (material.improvements)
+            jsonData.improvements = material.improvements;
+        if (material.primary !== undefined) jsonData.primary = material.primary;
+        if (material.secondary !== undefined)
+            jsonData.secondary = material.secondary;
+        if (material.hardness !== undefined)
+            jsonData.hardness = material.hardness;
+        if (material.cost !== undefined) jsonData.integrityCost = material.cost;
+        if (material.gain !== undefined) jsonData.integrityGain = material.gain;
+        event.addJson(`tetra:materials/${material.name}`, jsonData);
     });
 });
