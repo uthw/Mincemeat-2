@@ -18,24 +18,20 @@
                 "tetra:rod/"
             ],
             "key": "long_handle/",
+            "durability": 250,
+            "integrity": 1,
             "attributes": {
                 "generic.attack_speed": -1.155,
-                "forge:reach_distance": 0.8,
-                "forge:attack_range": 0.8,
+                "forge:reach_distance": 2,
+                "forge:attack_range": 2,
                 "generic.attack_damage": -2.75
             },
             "aspects": { "block_breaker": 1, "breakable": 2 },
             "extract": {
                 "primaryAttributes": {
-                    "forge:reach_distance": 0.08,
-                    "forge:attack_range": 0.08
                 },
                 "secondaryAttributes": { "generic.attack_speed": -0.15 },
-                "tertiaryAttributes": {
-                    "forge:reach_distance": 0.16,
-                    "forge:attack_range": 0.16
-                },
-                "durability": 0.25,
+                "durability": 1,
                 "integrity": 1,
                 "magicCapacity": 1,
                 "glyph": { "textureX": 16 },

@@ -20,7 +20,7 @@
             "attributes": {
                 "generic.attack_speed": -0.35
             },
-            "durability": 100,
+            "durability": 350,
             "extract": {
                 "availableTextures": [
                     "default",

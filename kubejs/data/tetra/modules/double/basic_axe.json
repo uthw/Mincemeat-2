@@ -17,7 +17,7 @@
     "type": "tetra:multi_major_module",
     "variants": [
         {
-            "integrity": -3,
+            "integrity": -2,
             "aspects": {
                 "block_breaker": 2,
                 "breakable": 2,

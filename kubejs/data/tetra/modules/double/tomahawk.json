@@ -18,7 +18,7 @@
 				"generic.attack_speed": -1.6,
 				"generic.attack_damage": -0.5
 			},
-			"integrity": -3,
+			"integrity": -2,
 			"aspects": {
 				"block_breaker": 1,
 				"edged_weapon": 2,

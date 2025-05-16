@@ -15,7 +15,7 @@
             "key": "quarter_staff_head/",
             "attributes": {
                 "generic.attack_speed": -0.4,
-                "generic.attack_damage": -1.5,
+                "generic.attack_damage": -0.5,
                 "forge:reach_distance": -0.8,
                 "forge:attack_range": -0.8
             },

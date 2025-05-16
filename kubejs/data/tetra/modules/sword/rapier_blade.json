@@ -38,7 +38,7 @@
 				"tertiaryEffects": {
 					"armorPenetration": -1.5
 				},
-				"durability": 2,
+				"durability": 1.5,
 				"integrity": -1,
 				"magicCapacity": 1.5,
 				"glyph": {

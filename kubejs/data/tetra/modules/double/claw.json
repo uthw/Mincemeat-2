@@ -7,10 +7,13 @@
     ],
     "replace": true,
     "slots": [
-        "double/head_right"
+        "double/head_right",
+        "double/head_left"
+
     ],
     "slotSuffixes": [
-        "_right"
+        "_right",
+        "_left"
     ],
     "type": "tetra:multi_major_module",
     "variants": [

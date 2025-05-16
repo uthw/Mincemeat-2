@@ -25,11 +25,11 @@
                 "generic.attack_damage": -1.5
             },
             "aspects": { "block_breaker": 1, "breakable": 2 },
-            "durability": 7,
+            "durability": 250,
             "integrity": 1,
             "extract": {
                 "secondaryAttributes": { "generic.attack_speed": -0.2 },
-                "durability": 0.3,
+                "durability": 1,
                 "integrity": 1,
                 "magicCapacity": 1,
                 "glyph": { "textureX": 16 },

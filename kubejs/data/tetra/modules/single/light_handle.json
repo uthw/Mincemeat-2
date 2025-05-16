@@ -18,13 +18,14 @@
                 "tetra:rod/"
             ],
             "key": "light_handle/",
+            "durability": 250,
             "attributes": { "generic.attack_speed": -1.45, "generic.attack_damage": -2 },
             "aspects": { "block_breaker": 1, "throwable": 2, "breakable": 2 },
             "effects": { "throwable": [1, 1.9] },
             "extract": {
                 "secondaryAttributes": { "generic.attack_speed": -0.1 },
                 "secondaryEffects": { "throwable": [0, 0.1] },
-                "durability": 0.1,
+                "durability": 1,
                 "integrity": 1,
                 "magicCapacity": 1,
                 "glyph": { "textureX": 16 },
