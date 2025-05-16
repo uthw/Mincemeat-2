@@ -22,29 +22,6 @@
                             "function": "enchant_randomly"
                         }
                     ]
-                },
-                {
-                    "type": "item",
-                    "name": "irons_spellbooks:scroll",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:champion_properties",
-                            "entity": "this"
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "irons_spellbooks:randomize_spell",
-                            "quality": {
-                                "min": 0.1,
-                                "max": 0.3
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -55,7 +32,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:book",
-                    "weight": 2,
+                    "weight": 4,
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
@@ -126,29 +103,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "item",
-                    "name": "irons_spellbooks:scroll",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:champion_properties",
-                            "entity": "this"
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "irons_spellbooks:randomize_spell",
-                            "quality": {
-                                "min": 0.3,
-                                "max": 0.7
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -159,7 +113,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:book",
-                    "weight": 3,
+                    "weight": 4,
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
@@ -199,8 +153,8 @@
                         {
                             "function": "irons_spellbooks:randomize_spell",
                             "quality": {
-                                "min": 0.4,
-                                "max": 0.8
+                                "min": 0.2,
+                                "max": 0.7
                             }
                         }
                     ]
