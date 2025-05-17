@@ -3777,6 +3777,8 @@
 				"Adzes, by contrast, function as both a shovel and an axe but are not great weapons by default. When Warforged, though, they gain attack stats similar to a standard axe and unlock a right-click move that launches you forward at high speed in the direction you're aiming &o(which also has a 100% crit chance)&r."
 				""
 				"Finally, the Tomahawk sits between an axe and an adze in terms of stats and can be thrown like a trident."
+				""
+				"The Tools of War chapter on battleaxes are rarely dropped from vindicators, and the one on battleaxes is rarely dropped from umvuthana minions."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -3864,6 +3866,11 @@
 				{
 					icon: {
 						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
 						id: "tetra:modular_double"
 						tag: {
 							Damage: 0
@@ -3894,7 +3901,7 @@
 						}
 					}
 					match_nbt: true
-					title: "Tomahalk"
+					title: "Tomahawk"
 					type: "item"
 				}
 			]
@@ -3908,6 +3915,8 @@
 				"Warhammers have a main advantage in their slam move, which allows them to send out a shockwave in a direction, enabling you to attack from afar. However, they are not that good overall."
 				""
 				"The Blunt End, which you can create by Warforging a tool, is great. It increases speed and retains some of the Warforge effects from the other side, such as the hammer's slam move. This is useful because it allows you to change the left side of a tool without needing to Warforge it."
+				""
+				"The Tools of War chapter on Warhammers is dropped by trolls, and the one on blunt ends is dropped by bluffs."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -4006,6 +4015,8 @@
 				"Guisarmes are the Warforged version of hoes and aren’t particularly effective overall. However, they deal significantly more damage than a regular hoe, and when combined with the hoe's natural speed of 4, they can still be useful."
 				""
 				"The Guisarme also has a charge move, but it simply slows down mobs for a short duration."
+				""
+				"The Tools of War chapter on claws is rarely dropped from mimes, the one on guisarmes is dropped from Void Blossoms, and the one on war-picks is dropped from koboletons."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -4469,6 +4480,8 @@
 				"Sickles are not the most effective weapon, but aginst undead mobs, they give weakness 2 and slowness 2. When warforged to a Warsickle, it becomes a faster version of the hammer and has a better hitbox."
 				""
 				"The reaping scythe is like a sword but for double headed weapons, being a faster version of a axe that does less damage."
+				""
+				"The Tools of War chapter on warsickles is an uncommon drop from necromancers."
 			]
 			hide_dependency_lines: true
 			icon: {
