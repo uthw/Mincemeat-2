@@ -422,7 +422,7 @@
         "result": "default"
     },
     {
-        "when": "onjoin",
+        "when": "position",
         "mob": "biomeswevegone:man_o_war",
         "result": "deny"
     },
@@ -434,16 +434,16 @@
     },
     {
         "when": "onjoin",
-        "mob": "irons_spellbooks:citadel_keeper",
-        "armormultiply": 4,
-        "damagemultiply": 1.35,
-        "result": "default"
-    },
-    {
-        "when": "onjoin",
         "mob": "alexsmobs:orca",
         "healthmultiply": 2,
         "damagemultiply": 2,
+        "result": "default"
+    },
+    {
+        "when": "finalize",
+        "mob": ["irons_spellbooks:cryomancer", "irons_spellbooks:pyromancer", "irons_spellbooks:archevoker", "irons_spellbooks:apothecarist", "traveloptics:aquamancer", "traveloptics:aqua_grandmaster", "irons_spellbooks:priest"],
+        "healthmultiply": 3,
+        "damagemultiply": 1.5,
         "result": "default"
     }
 ]
