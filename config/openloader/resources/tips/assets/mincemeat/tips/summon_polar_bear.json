@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spells and Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Summon Polar Bear summons a friendly polar bear that helps you in battle. It can also be ridden and has a respectable movement speed, but can't jump."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spells and Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The stats of summoned mobs scale with the level of scroll used to summon them. For example, a level 5 summoned horse is around 33% faster than the fastest possible vanilla horse!"
+    }
+}

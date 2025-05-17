@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spells and Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Archevokers, unlike other illagers, are not hostile towards villagers. However, they will attack players on sight. This isn't very important though because archevokers usually don't live close to villages."
+    }
+}
