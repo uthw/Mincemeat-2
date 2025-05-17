@@ -185,8 +185,9 @@ ServerEvents.recipes((event) => {
         "toms_storage:ts.inventory_connector",
         "toms_storage:ts.wireless_terminal",
         "toms_storage:ts.storage_terminal",
-        "toms_storage:ts.crafting_terminal",
+        // "toms_storage:ts.crafting_terminal",
         "toms_storage:ts.adv_wireless_terminal",
+        "toms_storage:ts.inventory_cable_connector",
         "v_slab_compat:environmental/grass_thatch_vertical_slab",
         "art_of_forging:shockwave_chamber",
     ];

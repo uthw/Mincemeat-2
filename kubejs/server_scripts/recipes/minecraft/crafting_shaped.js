@@ -1501,6 +1501,16 @@ ServerEvents.recipes((event) => {
                 B: "forbidden_arcanus:edelwood_planks",
             },
         ],
+        [
+            "toms_storage:ts.inventory_cable_connector",
+            [" AB", "CCD", " AB"],
+            {
+                A: "minecraft:redstone",
+                B: "#minecraft:planks",
+                C: "prettypipes:pipe",
+                D: "thermal:apatite",
+            },
+        ],
     ];
 
     recipes.forEach((recipe, index) => {

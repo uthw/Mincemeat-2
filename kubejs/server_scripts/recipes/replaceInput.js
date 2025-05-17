@@ -1497,6 +1497,12 @@ ServerEvents.recipes((event) => {
             "minecraft:stick",
             "upgrade_aquatic:prismarine_rod",
         ],
+        [{ mod: "toms_storage" }, "minecraft:quartz", "thermal:cinnabar"],
+        [
+            { output: "toms_storage:ts.inventory_cable" },
+            "#minecraft:trapdoors",
+            "#forge:ingots/tin",
+        ],
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
