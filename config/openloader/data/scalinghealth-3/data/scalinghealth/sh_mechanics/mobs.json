@@ -73,6 +73,12 @@
             "level": 2,
             "minDifficulty": 50,
             "durationInMinutes": 10.0
+        },
+        {
+            "effect": "neapolitan:vanilla_scent",
+            "level": 1,
+            "minDifficulty": 50,
+            "durationInMinutes": 10.0
         }
     ],
     "blights": {
