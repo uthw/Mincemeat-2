@@ -36,26 +36,6 @@
 		}
 		{
 			dependencies: ["00E47A607130B3D0"]
-			id: "07BD13E01BF98CBD"
-			shape: "rsquare"
-			tasks: [{
-				id: "6BBA81B3E12D7773"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "alexsmobs:moose_antler"
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["07BD13E01BF98CBD"]
 			description: ["Very protective early-game armor that provides knockback resistance. If you can believe it, this was actually nerfed by 1 point of defense for the modpack."]
 			id: "3ACBD44E6D604CE5"
 			shape: "rsquare"
@@ -75,8 +55,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			description: ["Predatory felines that hunt many different species. Their three activities are sitting, resting, and hunting."]
@@ -339,7 +319,7 @@
 		}
 		{
 			description: [
-				"These green dragons fly around Jagged Peaks, Stony Shoes, and Dead Seas and will attack any player who dares come close. They can dodge projectiles that come their way."
+				"These green dragons fly around Jagged Peaks, Black Ice Glaciers, and Dead Seas and will attack any player who dares come close. They can dodge projectiles that come their way."
 				""
 				"They have two attacks: one in which they shoot a poisonous ball at you, and another where they divebomb you, which is unblockable and deals a lot of damage."
 				""
@@ -430,6 +410,72 @@
 			}]
 			x: 0.0d
 			y: 3.5d
+		}
+		{
+			description: [
+				"These wizards are experts of the Ice school, and you'll want to kill them to advance the ranks. Cryomancers live isolated lives in their towers which they build in cold and mountainous biomes."
+				""
+				"Acting in line with the nature of their area of expertise, cryomancers are shut-in and will attack any player that enters their house on sight."
+				""
+				"Cryomancers attack their foes using spells like Ice Block, Summon Polar Bear, and Icicle. They can also cast Frost Step to pursue evasive players, so don't outrun them unless you have a very fast method of transportation like a Teleport spell or roller skates."
+				""
+				"On death, cryomancers drop scrolls for their school and some ink, like other mages."
+			]
+			id: "0ABE557128E45F84"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "irons_spellbooks:cryomancer"
+					}
+				}
+				id: "55D5083062B3B93B"
+				observe_type: 5
+				timer: 0L
+				title: "Cryomancer"
+				to_observe: "irons_spellbooks:cryomancer"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Bluffs are like blazes, but if they were rooted in geomancy instead of fire. They can only be found in monasteries spawned by mob spawners, the large castles built on mountains."
+				""
+				"They shoot earthly projectiles at targets. They have slightly more health than regular blazes, but will go down if you apply the same strategies. It helps that the enclosed rooms of the monastery make it easy for you to close distance for melee attacks."
+			]
+			id: "65D23952B885FEC5"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "mowziesmobs:bluff"
+					}
+				}
+				id: "16FBC2E8EB2EBF78"
+				observe_type: 5
+				timer: 0L
+				title: "Bluff"
+				to_observe: "mowziesmobs:bluff"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -0.5d
 		}
 	]
 	title: "Cold Biomes"

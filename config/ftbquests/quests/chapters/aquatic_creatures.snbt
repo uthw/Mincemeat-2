@@ -387,11 +387,14 @@
 				icon: {
 					Count: 1
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
-					id: "alexsmobs:spawn_egg_seagull"
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:seagull"
+					}
 				}
 				id: "7451347AAA9DDAE0"
 				observe_type: 5
@@ -415,6 +418,11 @@
 			tasks: [{
 				icon: {
 					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
 					id: "alexsmobs:tab_icon"
 					tag: {
 						DisplayEntityType: "alexsmobs:cachalot_whale"
@@ -1011,7 +1019,7 @@
 				""
 				"Deepling brutes don't like being on land, since they'll suffocate after spending too much time there. This means finding an island or digging beneath the ocean are good forms of escape."
 				""
-				"To kill a brute, never stop moving. They can be taken care of by going onto land and filling them up with arrows. If you can't find land, be sure to never stop moving and parry their attacks since you can't dodge underwater."
+				"To kill a brute, never stop moving. They can be bested and filling them up with arrows. If you can't find land, be sure to never stop moving and parry their attacks since you can't dodge underwater."
 				""
 				"They sometimes drop a coral bardiche, which are more powerful but slower than tridents."
 			]
@@ -1808,7 +1816,7 @@
 				type: "observation"
 			}]
 			x: -5.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["256F160293629D49"]
@@ -1852,7 +1860,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1881,7 +1889,7 @@
 				type: "observation"
 			}]
 			x: -5.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["32DB1B0F5535C113"]
@@ -1918,7 +1926,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -1946,7 +1954,7 @@
 				type: "observation"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -1972,7 +1980,7 @@
 				type: "observation"
 			}]
 			x: -5.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			description: ["funny bird with log leg"]
@@ -1994,7 +2002,7 @@
 				type: "observation"
 			}]
 			x: -6.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -2020,7 +2028,7 @@
 				type: "observation"
 			}]
 			x: -5.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -2068,7 +2076,7 @@
 				type: "observation"
 			}]
 			x: -5.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			description: ["These mascots call the swamp their home. They store items they find in backpacks, and can be customized with colored wool and dye."]
@@ -2090,29 +2098,100 @@
 				type: "observation"
 			}]
 			x: -6.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
-			description: ["This glowing jellyfish floats around in the water waiting for some dumb fish to swim into it so it can poison and almost kill them."]
-			id: "78B0616848D9AAC4"
+			description: [
+				"Aquamancers are masters of the aquatic craft. They're found in their towers on beaches and are a bit misanthropic because they're going through some unwanted changes."
+				""
+				"Unlike most mages, aquamancers are proficient in two schools of magic: aqua and lightning. They'll try and chase you out of their towers using a variety of spells like Bubble Spray, Hydro Shot, Rainfall, Shockwave, and Ball Lightning."
+				""
+				"Aquamancers differ in the loot they drop. You can find an Aqua Rune, ink, and some scrolls like usual, but also some Augments, which are nice if you're looking to build around the Aqua, Ice, or Lightning schools."
+			]
+			id: "2D40306B72237CC0"
 			invisible: true
 			tasks: [{
 				icon: {
 					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
 					id: "alexsmobs:tab_icon"
 					tag: {
-						DisplayEntityType: "biomeswevegone:man_o_war"
+						DisplayEntityType: "traveloptics:aquamancer"
 					}
 				}
-				id: "721A3DA803A77A26"
+				id: "30D12C14BA44A782"
 				observe_type: 5
 				timer: 0L
-				title: "Man o' War"
-				to_observe: "biomeswevegone:man_o_war"
+				title: "Aquamancer"
+				to_observe: "traveloptics:aquamancer"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Aqua Grandmasters are neutral wizards. They're unique in that they live nomadic lives enjoying natural beaches while other wizards build towers."
+				""
+				"Come to them at night to trade with them. They offer some aqua scrolls and coral, and if you've visted the Aquamancer's tower and stolen her diary, you can trade it to the Grandmaster for a nice spellbook."
+			]
+			id: "59CD4A776A2F3FAF"
+			invisible: true
+			subtitle: "Yes, this model is the same as the Aquamancer"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "traveloptics:aqua_grandmaster"
+					}
+				}
+				id: "5F2F7219FE601681"
+				observe_type: 5
+				timer: 0L
+				title: "Aqua Grandmaster"
+				to_observe: "traveloptics:aqua_grandmaster"
 				type: "observation"
 			}]
 			x: -2.0d
 			y: -2.0d
+		}
+		{
+			description: ["Tetra are tiny fish found swimming in deeper parts of the water in rainforest biomes. They glow faintly and have several different variants. You can kill them for tropical fish. Other than finding all the color patterns, there is not much else to be learned about tetra."]
+			id: "2D1F7737861AE05F"
+			invisible: true
+			subtitle: "If you're looking for the modular weapon mod, you're in the wrong place"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "atmospheric:tetra"
+					}
+				}
+				id: "70ECE5F7B1A477B6"
+				observe_type: 5
+				timer: 0L
+				title: "Tetra"
+				to_observe: "atmospheric:tetra"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 7.0d
 		}
 	]
 	title: "Aquatic Creatures"

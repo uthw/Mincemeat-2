@@ -221,7 +221,7 @@
 				""
 				"The best way to defeat this skeleton is by using fast weapons, as it deals a lot of damage per hit and moves very quickly. With slower weapons, it can sometimes hit you between swings."
 				""
-				"When you kill this skeleton, it will drop some corruption and a rare bone dagger, which is actually a pretty good weapon with a fast swing speed."
+				"When you kill this skeleton, it will drop some corruption and a rare bone dagger, which you'll need to summon the Corrupted Champion later."
 			]
 			id: "6B2C58AFE657C0FF"
 			invisible: true
@@ -548,9 +548,9 @@
 			description: [
 				"This skeleton has climbed the corporate ladder and is now the manager of Mobs Incorporated. You can find this successful skeleton rarely on stone at night, but more commonly inside catacombs."
 				""
-				"When he engages in combat, he summons various creatures, including sharks that poke out of the ground, skeletons armed with swords or bows, and even zombies. He can also cast spells, such as an ice ball that slows you down."
+				"When he engages in combat, he summons various creatures, including fangs that poke out of the ground, skeletons armed with swords or bows, and even zombies. He can also cast spells, such as an ice ball that slows you down."
 				""
-				"Upon defeat, he drops arcane and cinder essence, and there's a rare chance to obtain a tarnished crown. This item lowers physical attack damage but enhances your magical abilities."
+				"Upon defeat, he drops arcane and cinder essence, and there's a rare chance to obtain a tarnished crown. This item lowers physical attack damage but enhances your magical abilities. Overall, this crown is quite disappointing due to its complete lack of armor."
 			]
 			id: "40C8EAB3DC6A9041"
 			invisible: true
@@ -1393,6 +1393,74 @@
 			}]
 			x: -4.5d
 			y: 3.5d
+		}
+		{
+			description: [
+				"These cave and cherry grove denizens hate villagers, and unfortunately, you too. They have done enough yoga to allow them to extend their necks from their bodies pretty far, as if they were playing Dead Cells. "
+				""
+				"Murmur heads take half the damage their bodies would, so it's most efficient to advance on them to strike their weak points."
+				""
+				"Murmurs drop Unsettling Kimonos, which are useful chestplates that render most undead mobs neutral. They also drop Elastic Tendons, which you can fashion into a Tendon Whip."
+			]
+			id: "47944ED0118523A3"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:murmur"
+					}
+				}
+				id: "1CA3FE72A27A6A66"
+				observe_type: 5
+				timer: 0L
+				title: "Murmur"
+				to_observe: "alexsmobs:murmur"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"These scholars of the Evocation school live in their forts with a handful of other illagers under their command. Obviously, they aren't so fond of players."
+				""
+				"The archevoker is one of the more formidable wizards you can find, since they have backup instead of living alone. If you can take them out quickly, go ahead, but archevokers might inconveniently teleport away to a different part of their fort. As such, it might be easier to kill the underlings before taking them on."
+				""
+				"Archevokers have the same attacks as regular evokers (summoning vexes and fangs from the ground). They can supplement this with access to other evocation spells like shooting fireworks and creating floating barriers. The barriers do next to nothing against players like you but are surprisingly effective against other mobs!"
+				""
+				"These wizards drop their evocation runes, one or two scrolls, some ink, and very rarely the Grimoire of Evocation, which is excellent if you can find one early."
+			]
+			id: "79E89FF8A8D8804E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "irons_spellbooks:archevoker"
+					}
+				}
+				id: "076E0385058609D1"
+				observe_type: 5
+				timer: 0L
+				title: "Archevoker"
+				to_observe: "irons_spellbooks:archevoker"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	title: "Underground and Monsters"

@@ -982,6 +982,114 @@
 			x: 1.0d
 			y: 2.5d
 		}
+		{
+			description: [
+				"Priests are neutral-yet-annoying villagers who have mastered holy wizardry. They're found in villages."
+				""
+				"Unlike regular villagers and even guards, priests are ruthlessly capitalistic and will attack anyone who takes anything from the village."
+				""
+				"Guards and iron golems don't seem to meddle in the matters of priests, so it's fine to attack them in the village if you want their luxury ink, rune, or scrolls."
+				""
+				"Like regular villagers, priests are willing to do business. However, you don't need to level them up to gain access to all of their offers. The most interesting of these are the Villager Bible (which you'll need to find and kill an Archevoker to get) and the Celestial Shard."
+			]
+			id: "6DEC46B00CC379C5"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1044E8C629F84045"
+				observe_type: 5
+				timer: 0L
+				title: "Priest"
+				to_observe: "irons_spellbooks:priest"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Pyromancers are experts of the Fire school. They live in their towers in hills, forests, plains, or swamps."
+				""
+				"Like other mages, pyromancers don't like their stuff being tampered with. They're neutral until you try to take something from them. You can find blaze rods early in their towers, so this might be worth the risk."
+				""
+				"You might've been able to guess this, but pyromancers know more ways of setting you on fire than most people. As such, you can significantly weaken then by pouring water all over their home before attacking them."
+				""
+				"If you choose the peaceful route, they also have some trades available, including three respectable fire scrolls."
+				""
+				"On death, pyromancers drop fire runes, ink, and a scroll or two."
+			]
+			hide_dependency_lines: false
+			id: "1BFBB1B2C5A13444"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "irons_spellbooks:pyromancer"
+					}
+				}
+				id: "586C00187A92BF41"
+				observe_type: 5
+				timer: 0L
+				title: "Pyromancer"
+				to_observe: "irons_spellbooks:pyromancer"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Apothecarists are piglins who have spent their lives studying nature wizardry. Appareantly, they've also spent some time learning how to not zombify in the overworld. Their humble abodes are found in swamps."
+				""
+				"Like other mages, apothecarists believe in property rights and will become agitated if you raid their house or take anything from it."
+				""
+				"Apothecarists attack their foes using spells like Poison Spray, Poison Splash, and Firefly Swarm. You can use a Poisonward Ring or other way of negating poison to trivialize a good portion of their arsenal."
+				""
+				"Apothecarists drop nature runes, scrolls, and some quality ink when killed."
+			]
+			id: "20A6C189C541BBE9"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:piglin_head"
+				}
+				id: "07126BED05A06331"
+				observe_type: 5
+				timer: 0L
+				title: "Apothecarist"
+				to_observe: "irons_spellbooks:apothecarist"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
 	]
 	title: "Temperate Biomes"
 }

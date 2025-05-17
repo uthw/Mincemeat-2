@@ -470,9 +470,15 @@
 			description: ["Don't be deceived—these are not actually ghosts; they're just zombies in ghost costumes. If you kill one of these trick-or-treaters, they will drop a soul bead, which acts like an Eye of Ender but is used for locating Nether fortresses."]
 			id: "6D93107A4AA2D868"
 			invisible: true
+			subtitle: "Having a permanent mental breakdown"
 			tasks: [{
 				icon: {
 					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
 					id: "alexsmobs:tab_icon"
 					tag: {
 						DisplayEntityType: "quark:wraith"
@@ -857,6 +863,241 @@
 			}]
 			x: 4.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"These shapeshifting fellows can be found harassing mobs they don't like in soul sand valleys. The particular mob it'll go after depends on the variant of apparition. "
+				""
+				"One variation, the docile one, only goes for striders and is neutral about players. The other three will go for players and other select hostile mobs. If an apparition kills one of its targeted mobs, it can possess it and turn into a different mob. These look like blue versions of the victim."
+				""
+				"To deal with apparitions, avoid ranged weapons. These will phase right through their non-corporeal bodies. However, if you have your hands on a Phasmo Arrow, Shotgun Bullet, or warden sonic blast (huh?), feel free to use these."
+				""
+				"Oh, one more thing. If a possessed mob is killed, the apparition might be released. This doesn't happen on easy mode (wow, a rare case of modded mobs interacting with vanilla difficulty mechanics)."
+			]
+			id: "24655E6154B3B837"
+			invisible: true
+			subtitle: "Look At My T-Pose"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherexp:apparition"
+					}
+				}
+				id: "05F0DBA3F1121196"
+				observe_type: 0
+				timer: 0L
+				title: "Apparition"
+				to_observe: "netherexp:apparition"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"You might find one of these harmless ghosts when an Apparition releases them upon death, or when wandering outside their homes in ecto soul sand."
+				""
+				"Since wisps are passive, you might want to adopt one and bring it back home. You can name it to prevent it from burrowing into soul sand or despawning, or use a honeycomb. You can also move it around easily by capturing it in a glass bottle."
+			]
+			id: "1C75A0B2C5B4170D"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherexp:wisp"
+					}
+				}
+				id: "3BC45582BECA6B8C"
+				observe_type: 5
+				timer: 0L
+				title: "Wisp"
+				to_observe: "netherexp:wisp"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"If an apparition kills a skeleton, it will possess it, taking this form. Vessels have slightly more health than skeletons and have advanced in time, swapping out their bows for a shotgun-like attack in which many pellets are launched at the target."
+				""
+				"You can tell when a vessel is charging up its blast - you'll want to stay away from it during this time since if all the bullets hit, it can deal heavy damage. Bring out the melee weapons during its downtime, or stick to ranged weapons."
+			]
+			id: "50318DC469FDD6B3"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherexp:vessel"
+					}
+				}
+				id: "054086D18F103005"
+				observe_type: 5
+				timer: 0L
+				title: "Vessel"
+				to_observe: "netherexp:vessel"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"When an apparition kills a magma cube, it will possess it, taking this form. It can also be summoned by Soul Swirls."
+				""
+				"They are similar to magma cubes, being able to bounce towards their target. They have another attack though, in which they burrow beneath the ground and ambush their prey. While underground, ecto slabs are immune to most forms of damage, so it's best to wait for their emergence to attak them."
+			]
+			id: "0040B1BF87511017"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherexp:ecto_slab"
+					}
+				}
+				id: "6BA5AEDB52229122"
+				observe_type: 5
+				timer: 0L
+				title: "Ecto Slab"
+				to_observe: "netherexp:ecto_slab"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["If an apparition kills a blaze, it will possess it, taking this form. They shoot players with Will o' Wisps, which home in to deal moderate damage. They also periodically teleport when in danger or after attacking."]
+			id: "0727D4BABEDA1D8D"
+			invisible: true
+			subtitle: "Because I'm sure you wanted another flying ranged hostile mob"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherexp:banshee"
+					}
+				}
+				id: "02C4E47074D222AB"
+				observe_type: 5
+				timer: 0L
+				title: "Banshee"
+				to_observe: "netherexp:banshee"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"If an apparition kills a strider, it will possess it, taking this form. You may be intimidated by the high health of these beasts, but they're neutral, so it's safe to ignore them."
+				""
+				"In fact, they're actually helpful since they go after pesky skeletons who might try to kill you. Stampedes shed some stridite when they hit something with their charge attack. "
+				""
+				"Stampedes find nutritional value in bones. They'll heal by eating them, and you can tame them by feeding them roasted bones. You can then mount and control them using a Skull on a Stick."
+				""
+				"Despite this, they're not what I'd call the best mount in the game. They have an agitation meter that gradually fills when riding them. If it fills completely, the stampede will start attacking its rider. You can prolong this by feeding the stampede more bones."
+				""
+				"Unlike striders, stampedes don't have the mass balance to float on lava, though they're still immune to fire damage."
+			]
+			id: "0BBC011753B9B9F6"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherexp:stampede"
+					}
+				}
+				id: "7B249FF42D543C99"
+				observe_type: 5
+				timer: 0L
+				title: "Stampede"
+				to_observe: "netherexp:stampede"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Carcasses are mobs whose deaths were botched, so they're only semi-dead. They can only be found in sanctums and don't live out in the wild. If you have a Flint and Steel or anything that can set something on fire, using that on the carcass will revive it."
+				""
+				"Carcasses attack all nearby neutral and hostile mobs (not players), making them quite useful in the sanctum. "
+				""
+				"If they're defeated by their target, you can use the same method as before to revive it again! This makes carcasses functionally immortal."
+			]
+			id: "02AD59692C632684"
+			invisible: true
+			subtitle: "Flint and Steel"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherexp:carcass"
+					}
+				}
+				id: "06D5C437DDD847AD"
+				observe_type: 5
+				timer: 0L
+				title: "Carcass"
+				to_observe: "netherexp:carcass"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	title: "Nether and End"
