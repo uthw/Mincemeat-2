@@ -7,20 +7,21 @@
                 {
                     "type": "item",
                     "name": "minecraft:book",
-                    "weight": 3,
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": { "min": 1, "max": 2 }
+                        },
+                        { "function": "enchant_randomly" }
+                    ],
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
-                            "entity": "this"
+                            "entity": "this",
+                            "tier": { "min": 1, "max": 1 }
                         },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "enchant_randomly"
-                        }
+                        { "condition": "killed_by_player" }
                     ]
                 }
             ]
@@ -31,46 +32,46 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 4,
+                    "name": "irons_spellbooks:scroll",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": { "min": 1, "max": 2 }
+                        },
+                        {
+                            "function": "irons_spellbooks:randomize_spell",
+                            "quality": { "min": 0.2, "max": 0.5 }
+                        }
+                    ],
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
                             "entity": "this",
-                            "tier": {
-                                "min": 2
-                            }
+                            "tier": { "min": 2, "max": 2 }
                         },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "enchant_randomly"
-                        }
+                        { "condition": "killed_by_player" }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "irons_spellbooks:scroll",
-                    "weight": 1,
+                    "name": "minecraft:book",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": { "min": 1, "max": 2 }
+                        },
+                        { "function": "enchant_randomly" }
+                    ],
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
-                            "entity": "this"
+                            "entity": "this",
+                            "tier": { "min": 2, "max": 2 }
                         },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [{
-                        "function": "irons_spellbooks:randomize_spell",
-                        "quality": {
-                            "min": 0.2,
-                            "max": 0.5
-                        }
-                    }]
+                        { "condition": "killed_by_player" }
+                    ]
                 }
             ]
         },
@@ -80,83 +81,100 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 3,
+                    "name": "irons_spellbooks:scroll",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": { "min": 1, "max": 2 }
+                        },
+                        {
+                            "function": "irons_spellbooks:randomize_spell",
+                            "quality": { "min": 0.2, "max": 0.6 }
+                        }
+                    ],
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
                             "entity": "this",
-                            "tier": {
-                                "min": 3
-                            }
+                            "tier": { "min": 3, "max": 3 }
                         },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
+                        { "condition": "killed_by_player" }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 3,
                     "functions": [
                         {
+                            "function": "set_count",
+                            "count": { "min": 1, "max": 3 }
+                        },
+                        {
                             "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 25,
-                                "max": 45
-                            }
+                            "levels": { "min": 25, "max": 45 }
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "champions:champion_properties",
+                            "entity": "this",
+                            "tier": { "min": 3, "max": 3 }
+                        },
+                        { "condition": "killed_by_player" }
                     ]
                 }
             ]
         },
         {
-            "name": "tier#4",
+            "name": "tier#4_plus",
             "rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 4,
+                    "name": "irons_spellbooks:scroll",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": { "min": 1, "max": 2 }
+                        },
+                        {
+                            "function": "irons_spellbooks:randomize_spell",
+                            "quality": { "min": 0.4, "max": 0.8 }
+                        }
+                    ],
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
                             "entity": "this",
-                            "tier": {
-                                "min": 4
-                            }
+                            "tier": { "min": 4 }
                         },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": {
-                                "min": 45,
-                                "max": 55
-                            }
-                        }
+                        { "condition": "killed_by_player" }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "irons_spellbooks:scroll",
-                    "weight": 1,
+                    "name": "minecraft:book",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": { "min": 1, "max": 3 }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": { "min": 45, "max": 55 }
+                        }
+                    ],
                     "conditions": [
                         {
                             "condition": "champions:champion_properties",
-                            "entity": "this"
+                            "entity": "this",
+                            "tier": { "min": 4 }
                         },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "irons_spellbooks:randomize_spell",
-                            "quality": {
-                                "min": 0.2,
-                                "max": 0.7
-                            }
-                        }
+                        { "condition": "killed_by_player" }
                     ]
                 }
             ]
