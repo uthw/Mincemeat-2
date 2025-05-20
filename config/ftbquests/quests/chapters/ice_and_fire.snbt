@@ -5,7 +5,7 @@
 	group: "2E16C686F58ACDBC"
 	icon: "iceandfire:dragon_skull_lightning"
 	id: "7017FFBE08333876"
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -1718,14 +1718,14 @@
 				icon: {
 					Count: 1
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
 					id: "iceandfire:cyclops_skull"
 				}
 				id: "34DDE15FD77A2BD7"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				to_observe: "iceandfire:cyclops"
 				type: "observation"
