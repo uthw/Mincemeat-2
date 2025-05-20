@@ -8,7 +8,7 @@
 	granularity = 0.1
 	#how many enchantment points an item starts with
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"base points" = 12.0
+	"base points" = 10.0
 	#the default cost to add a new enchantment onto an item.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"base cost" = 0.0
