@@ -445,5 +445,11 @@
         "healthmultiply": 3,
         "damagemultiply": 1.5,
         "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "eidolon:wraith",
+        "damagemultiply": 0.5,
+        "result": "default"
     }
 ]
