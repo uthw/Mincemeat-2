@@ -576,7 +576,7 @@
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
 			biome_tags = ["minecraft:is_beach,minecraft:is_mountain", "minecraft:is_beach,minecraft:is_hill"]
 			#Allow spawns in these biomes regardless of the biome tag settings
-			biome_whitelist = ["minecraft:jagged_peaks", "biomeswevegone:shattered_glacier", "biomeswevegone:dead_sea", "biomeswevegone:tropical_rainforest"]
+			biome_whitelist = ["minecraft:jagged_peaks", "minecraft:stony_peaks", "biomeswevegone:dead_sea"]
 			#Prevent spawns in these biomes regardless of the biome tag settings
 			biome_blacklist = ["minecraft:stony_shore"]
 
