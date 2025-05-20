@@ -1210,11 +1210,21 @@ ServerEvents.highPriorityData((event) => {
             gain: 3,
         },
     ];
+
+    // import integrity.js into durability.js kinda
     integrityTweaks.forEach((t) => {
-        let entry = { name: t.name };
-        if (t.cost !== undefined) entry.cost = t.cost;
-        if (t.gain !== undefined) entry.gain = t.gain;
-        materials.push(entry);
+        // try to see if a path matches in the materials array
+        let mat = materials.find((m) => m.name === t.path);
+        if (mat) {
+            if (t.cost !== undefined) mat.cost = t.cost;
+            if (t.gain !== undefined) mat.gain = t.gain;
+        } else {
+            // create a new tweak if it's not already found
+            let entry = { name: t.path };
+            if (t.cost !== undefined) entry.cost = t.cost;
+            if (t.gain !== undefined) entry.gain = t.gain;
+            materials.push(entry);
+        }
     });
 
     materials.forEach((material) => {
