@@ -489,13 +489,21 @@
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
-				"Found in several biomes including the Stony Shore, Dead Sea, and Jagged Peaks, sometimes in groups."
+				"Found in several biomes including the Jagged Peaks and Stony Peaks, sometimes in groups."
 				""
 				"Its weakness is being hit out of the air with an arrow."
 				""
 				"However, since it's very good at dodging arrows, you should bring an Infinity bow so you don't need to worry about running out."
 			]
-			icon: "mowziesmobs:naga_fang"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mowziesmobs:naga_fang"
+			}
 			id: "40108CC36E0CA635"
 			tasks: [{
 				entity: "mowziesmobs:naga"
@@ -1928,7 +1936,7 @@
 				""
 				"Unlike most bosses who are found naturally, you must use Fossil Bait by holding right click while holding it to summon it. "
 				""
-				"I recommend fighting Swampjaw in a Plains, Flatlands, or other flat biome. This is because one of its attacks can send you flying. You'll also want to pack a ranged weapon with a healthy supply of arrows."
+				"I recommend fighting Swampjaw in a Plains, Strawberry Fields, or other flat biome. This is because one of its attacks can send you flying. You'll also want to pack a ranged weapon with a healthy supply of arrows."
 			]
 			id: "1B8E4A72A675FF9D"
 			subtitle: "Start here"
@@ -2349,7 +2357,7 @@
 			description: [
 				"The Dead Tree is a rare structure found in swamps and marshes. Unremarkable otherwise besides a secret room, it is inhabited by the Nameless Hanged, a ghost who will take valuables in exchange for your Corruption. "
 				""
-				"The main point of me telling you this is, some of these valuables are the staff pieces you'll need for the Corrupted Champion are sold by this tragic being. "
+				"The main point of me telling you this is, some of the staff pieces you'll need for the Corrupted Champion are sold by this tragic being. "
 				""
 				"This means you can trade with it if you have a ton of Corruption and don't want to go to the Ruins."
 				""
