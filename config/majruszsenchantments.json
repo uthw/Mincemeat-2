@@ -84,7 +84,7 @@
       "effect_chance": 0.1
     },
     "magic_protection": {
-      "is_enabled": true
+      "is_enabled": false
     },
     "misanthropy": {
       "is_enabled": false,
