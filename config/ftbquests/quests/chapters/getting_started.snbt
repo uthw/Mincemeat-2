@@ -1134,14 +1134,15 @@
 			]
 			id: "4EB10737C5B7CBAE"
 			tasks: [{
-				id: "1E6B0B13E98C7F67"
+				id: "3CBF69E23D133305"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "sophisticatedstorage:base_tier_wooden_storage"
+						value: "sophisticatedstorage:all_storage"
 					}
 				}
+				title: "Any Container from Sophisticated Storage"
 				type: "item"
 			}]
 			title: "Color Coding"
@@ -1348,7 +1349,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["78CFC81068655538"]
+			dependencies: ["4EB10737C5B7CBAE"]
 			description: ["Needed by every storage network. This item does not require energy to be given to it in order to function."]
 			id: "124F78ABE60D125F"
 			subtitle: "For all your storage needs"
@@ -1365,8 +1366,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["124F78ABE60D125F"]
@@ -1386,7 +1387,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -3149,6 +3150,35 @@
 			title: "Spawner Upgrades"
 			x: 9.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["124F78ABE60D125F"]
+			description: [
+				"This item is your way of importing items to your storage network. Connect it to an inventory, and items placed in that inventory will be transferred to the network."
+				""
+				"Make sure you place the hopper on your network cable, and not on the container. You also don't need a regular hopper when using this item."
+				""
+				"{image:kubejs:item/storagenetwork width:1000 height:655 align:center fit:true}"
+				"&o&7A valid setup with a basic hopper - note the direction of the hopper"
+				""
+				"Be warned, as the hopper is pretty slow. If you need speed, try connecting a Sophisticated Storage container with an advanced hopper upgrade to this item, since it can be used as an intermediary while being faster and accessible."
+			]
+			id: "3FCA897BD6B5F20B"
+			tasks: [{
+				id: "00CEC5A2CCDC811B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.inventory_hopper_basic"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
 		}
 	]
 	title: "Getting Started"
