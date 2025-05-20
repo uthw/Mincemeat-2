@@ -51,7 +51,7 @@
 	#Offsets the world temperature when the player is within this structure
 	#Format: [["structure_1", offset1, *units], ["structure_2", offset2, *units]... etc]
 	#(* = optional)
-	"Structure Temperature Offsets" = [["aquamirae:ice_maze", -10.0, "F"], ["mowziesmobs:umvuthana_grove", 20.0, "F"], ["cataclysm:sunken_city", -18.0, "F"], ["cataclysm:frosted_prison", -36.0, "F"]]
+	"Structure Temperature Offsets" = [["aquamirae:ice_maze", -10.0, "F"], ["mowziesmobs:umvuthana_grove", 20.0, "F"], ["cataclysm:frosted_prison", -36.0, "F"]]
 	#List of blocks that will allow the player to sleep on them, regardless of the "Prevent Sleep When in Danger" setting
 	#Use this list if the player is not getting the temperature effect from sleeping on particular blocks
 	"Sleep Check Override Blocks" = ["#comforts:sleeping_bags", "#comforts:hammocks", "#upgrade_aquatic:bedrolls"]
