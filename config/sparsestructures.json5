@@ -113,7 +113,7 @@
     },
     {
       "structure": "graveyard:dead_tree",
-      "factor": 0.5
+      "factor": 1
     },
     {
       "structure": "graveyard:crypt",
