@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you're low on food, you can easily craft mushroom stew or suspicious stew pretty much anywhere. Sometimes, suspicious stew will even give you regeneration!"
+    }
+}

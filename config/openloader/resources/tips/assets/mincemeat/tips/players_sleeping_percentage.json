@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mincemeat Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "By default, only one player needs to sleep to skip the night. Operators can use /gamerule playersSleepingPercentage to change this - 100 is vanilla."
+    }
+}

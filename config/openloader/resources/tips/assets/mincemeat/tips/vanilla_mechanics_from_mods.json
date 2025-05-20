@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Many vanilla features were inspired by mods. Just a few of these are pistons, horses, ender chests, and more recently, crafters."
+    }
+}

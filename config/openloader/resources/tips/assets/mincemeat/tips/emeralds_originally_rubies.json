@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Emeralds were originally going to be rubies, but Dinnerbone decided to change them to emeralds because his colorblindness made it hard to tell the difference between rubies and redstone."
+    }
+}

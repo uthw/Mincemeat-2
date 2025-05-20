@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Tetra Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Some materials increase your max mana when used on a Tetra tool. Some of these are manasteel and arcane cloth."
+    }
+}

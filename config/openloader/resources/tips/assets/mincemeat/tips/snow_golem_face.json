@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Using shears on a snow golem's head will drop the pumpkin, exposing the snow golem's snow face."
+    }
+}

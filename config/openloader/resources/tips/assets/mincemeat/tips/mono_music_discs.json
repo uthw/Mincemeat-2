@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Music disc sound files are mono recordings, but the game creates a fake stereo effect by manipulating what channel audio is placed on based on your position relative to the jukebox."
+    }
+}

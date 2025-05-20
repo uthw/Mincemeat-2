@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Wall-Jump Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Wall clinging and jumping is useful, but it also uses significant hunger. Make sure you have food to spare if you rely on it often."
+    }
+}

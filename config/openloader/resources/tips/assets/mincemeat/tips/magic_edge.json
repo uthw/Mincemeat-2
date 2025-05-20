@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Ensorcellation Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Magic Edge is a treasure enchantment that increases your weapon's damage by 0.5 per level and converts it to magic. It's also compatible with other damage enchantments like sharpness and slayer."
+    }
+}
