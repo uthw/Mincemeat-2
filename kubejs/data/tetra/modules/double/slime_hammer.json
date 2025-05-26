@@ -24,7 +24,8 @@
                 "generic.attack_speed": -1.1
             },
             "aspects": {
-                "breakable": 2
+                "breakable": 2,
+                "edged_weapon": 2
             },
             "effects": {
                 "art_of_forging:knockback": [ 3, 0 ]

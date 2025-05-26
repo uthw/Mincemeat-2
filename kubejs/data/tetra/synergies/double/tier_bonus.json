@@ -27,7 +27,7 @@
         "sameVariant": false,
         "attributes": {
                 "generic.attack_damage": -2,
-                "generic.attack_speed": 3.05
+                "generic.attack_speed": 2.05
             },
             "extract": {
                 "primaryAttributes": {

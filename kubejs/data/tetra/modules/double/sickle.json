@@ -20,7 +20,7 @@
             "aspects": {
                 "block_breaker": 2,
                 "breakable": 2,
-                "edged_weapon": 1
+                "edged_weapon": 2
             },
             "attributes": {
                 "generic.attack_damage": -2,

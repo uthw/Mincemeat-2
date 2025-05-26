@@ -20,7 +20,8 @@
         {
             "aspects": {
                 "block_breaker": 1,
-                "breakable": 2
+                "breakable": 2,
+                "edged_weapon": 2
             },
             "attributes": {
                 "generic.attack_damage": -3,
@@ -30,7 +31,7 @@
             "effects": {
                 "denailing": 1,
                 "puncture": [6, 20],
-                "bleeding": 1
+                "bleeding": [1, 90]
             },
             "integrity": -1,
             "extract": {

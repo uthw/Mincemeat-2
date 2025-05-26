@@ -15,7 +15,8 @@
         {
             "aspects": {
                 "block_breaker": 1,
-                "breakable": 2
+                "breakable": 2,
+                "edged_weapon": 2
             },
             "attributes": {
                 "generic.attack_speed": -0.35

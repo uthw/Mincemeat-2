@@ -1,0 +1,22 @@
+[
+    {
+        "aspects": {
+            "blunt_weapon": 1
+        },
+        "effects": {
+            "crushing": 8
+        },
+        "attributes": {
+            "generic.attack_damage": 10,
+            "generic.attack_speed": -0.5
+        },
+        "integrity": -2,
+        "key": "double/warforged",
+        "models": [
+            {
+                "location": "tetra:item/module/double/head/basic_hammer/warforged",
+                "tint": "inherit"
+            }
+        ]
+    }
+]

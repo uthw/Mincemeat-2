@@ -1,0 +1,24 @@
+[
+    {
+        "aspects": {
+            "edged_weapon": 1
+        },
+        "effects": {
+            "severing": [
+                15,
+                4
+            ]
+        },
+        "attributes": {
+            "generic.attack_speed": 0.4
+        },
+        "integrity": -2,
+        "key": "double/warforged",
+        "models": [
+            {
+                "location": "tetra:item/module/double/head/basic_axe/warforged",
+                "tint": "inherit"
+            }
+        ]
+    }
+]

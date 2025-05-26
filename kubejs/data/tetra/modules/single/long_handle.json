@@ -26,7 +26,7 @@
                 "forge:attack_range": 2,
                 "generic.attack_damage": -2.75
             },
-            "aspects": { "block_breaker": 1, "breakable": 2 },
+            "aspects": { "block_breaker": 1, "breakable": 2, "pointy_weapon": 2 },
             "extract": {
                 "primaryAttributes": {
                 },

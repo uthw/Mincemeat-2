@@ -1,0 +1,23 @@
+[
+    {
+        "aspects": {
+            "edged_weapon": 2
+        },
+        "attributes": {
+            "generic.attack_damage": 3,
+            "generic.attack_speed": -0.25
+        },
+        "effects": {
+            "armorPenetration": 35,
+            "bleeding": 1
+        },
+        "integrity": -2,
+        "key": "double/warforged",
+        "models": [
+            {
+                "location": "tetra:item/module/double/head/claw/warforged",
+                "tint": "inherit"
+            }
+        ]
+    }
+]
