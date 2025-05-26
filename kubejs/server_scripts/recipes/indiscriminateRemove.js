@@ -190,6 +190,7 @@ ServerEvents.recipes((event) => {
         "toms_storage:ts.inventory_cable_connector",
         "v_slab_compat:environmental/grass_thatch_vertical_slab",
         "art_of_forging:shockwave_chamber",
+        "celestisynth:celestial_spell_book"
     ];
 
     toRemove.forEach((item) => {

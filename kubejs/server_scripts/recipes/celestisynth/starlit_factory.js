@@ -98,6 +98,20 @@ ServerEvents.recipes((event) => {
             forging_time: 500,
             result: "celestisynth:frostbound",
         },
+        {
+            top_left_triangle: {
+                item: "celestisynth:celestial_netherite_ingot",
+            },
+            top_right_triangle: {
+                item: "undergarden:forgotten_ingot",
+            },
+            bottom_triangle: { item: "deep_aether:stratus_ingot" },
+            right_bottom: { item: "irons_spellbooks:upgrade_orb" },
+            right_middle: { item: "irons_spellbooks:ruined_book" },
+            right_top: { item: "traveloptics:resonant_scrap" },
+            forging_time: 500,
+            result: "celestisynth:celestial_spell_book",
+        },
     ];
 
     recipes.forEach((recipe) => {
