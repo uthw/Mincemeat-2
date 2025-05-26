@@ -327,7 +327,7 @@
 			description: [
 				"In terms of storage networks, many are available to you, even at the very beginning of the game."
 				""
-				"Take a look at the controllers from Simple Storage Network, Pretty Pipes, or Sophisticated Storage, the former of which has quests available in Getting Started."
+				"Take a look at the controllers from Tom's Simple Storage, Pretty Pipes, or Sophisticated Storage, the former of which has quests available in Getting Started."
 			]
 			icon: {
 				Count: 1
@@ -533,7 +533,7 @@
 			subtitle: "The creation of a storage controller that can craft items requires mechanical mixing"
 			tasks: [{
 				id: "4CBB7751E52850BD"
-				title: "Simple Storage Network"
+				title: "Tom's Simple Storage"
 				type: "checkmark"
 			}]
 			title: "Tom's Simple Storage: Crafting Terminal"

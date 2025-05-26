@@ -109,7 +109,7 @@
 				""
 				"Connect both of these to the terminal."
 				""
-				"You now have a storage system akin to the ones from Simple Storage Network and Pretty Pipes!"
+				"You now have a storage system akin to the ones from Tom's Simple Storage and Pretty Pipes!"
 				""
 				"Interacting with the terminal, you can press the chest tab to see stored items and the crafting tab to make things with them."
 				""
@@ -306,7 +306,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["35FEED7EF4C10A3E"]
 			description: [
 				"Welcome to your computer! First off, if you're looking for help outside your quest book, you can type &7&nhelp&r on the computer for some more detailed information."
 				""

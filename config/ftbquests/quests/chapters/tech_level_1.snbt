@@ -1428,7 +1428,7 @@
 			description: [
 				"You can even make a full-on storage network using only Pretty Pipes!"
 				""
-				"This would end up functioning similarly to what you get with Simple Storage Network, but here you arguably get more flexibility with your modules."
+				"This would end up functioning similarly to what you get with Tom's Simple Storage, but here you arguably get more flexibility with your modules."
 			]
 			id: "6CDC24AA62B61106"
 			tasks: [{
