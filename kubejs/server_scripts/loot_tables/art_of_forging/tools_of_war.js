@@ -19,7 +19,7 @@ LootJS.modifiers((event) => {
     let umvuthanas = ["_crane", "_raptor", ""];
     umvuthanas.forEach((suffix) => {
         event
-            .addEntityLootModifier(`moziesmobs:umvuthana${suffix}`)
+            .addEntityLootModifier(`mowziesmobs:umvuthana${suffix}`)
             .randomChance(0.08)
             .addWeightedLoot(
                 [1, 1],
