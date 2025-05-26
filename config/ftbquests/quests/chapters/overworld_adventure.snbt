@@ -465,6 +465,11 @@
 			description: ["Frostmaw only drops an Ancient Axe Head, but it'll also drop its Frost Core if it had it when it died."]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "mowziesmobs:ice_crystal"
 				tag: {
 					Damage: 0
@@ -476,6 +481,7 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Cooler than a polar bear's toenails"
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				id: "199F0F3977DD1D20"
@@ -657,13 +663,22 @@
 		{
 			dependencies: ["5AF9020E9AC8C2D6"]
 			description: [""]
-			icon: "cataclysm:wither_assault_shoulder_weapon"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:wither_assault_shoulder_weapon"
+			}
 			id: "690AAE1274B3821D"
 			rewards: [{
 				id: "585D0B46B9D01F75"
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Batteries not included"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "135F59F7707AEA3D"
@@ -702,13 +717,22 @@
 				"The Chimera is up there for the highest-HP boss in the modpack and complements this with three attacks."
 			]
 			hide_dependency_lines: true
-			icon: "ars_nouveau:ritual_wilden_summon"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ars_nouveau:ritual_wilden_summon"
+			}
 			id: "732BF9F02A4D0E26"
 			rewards: [{
 				id: "3C844E038C348FC4"
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "Follow Supernatural Magic for this one"
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
 				id: "22CECCE6030A1AA8"
@@ -2635,6 +2659,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Ice breakers aren't worth it"
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: "traveloptics:echo_winglet"
@@ -2906,7 +2931,7 @@
 			]
 			hide_dependency_lines: true
 			id: "41C248C64CE7CEF2"
-			subtitle: "Ancient Remannt + Maledictus"
+			subtitle: "Ancient Remnant + Maledictus"
 			tasks: [{
 				id: "638A91A9D17896E2"
 				item: "cataclysm:wrath_of_the_desert"
@@ -3484,6 +3509,7 @@
 					type: "item"
 				}
 			]
+			title: "Chaos Arsenal"
 			x: -14.5d
 			y: -4.0d
 		}
