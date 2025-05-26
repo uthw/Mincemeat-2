@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
                     item: "botania:mana_pearl",
                 },
                 {
-                    tag: "forge:gems/mana",
+                    item: "ars_nouveau:source_gem",
                 },
                 {
                     tag: "forge:ingots/pewter",
