@@ -3911,13 +3911,13 @@
 				""
 				"Tasty: Licowitch Tower"
 				""
-				"Leaveing home: Wandering trader being killed by a skeleton"
+				"Leaving Home: Wandering trader being killed by a skeleton"
 				""
 				"Slabrave: Feeding a slabfish a music disk"
 				""
 				"Epiloge: Holding disk 11 in your offhand while killing a myan"
 				""
-				"Kiobyte: Chests in the outer end"
+				"Kilobyte: Chests in the outer end"
 				""
 				"Maledictus: Kill Maledictus"
 				""
@@ -5108,7 +5108,7 @@
 			description: [
 				"Ink bombs: Alex's Caves"
 				""
-				"Bombagrante: Found on archwood trees"
+				"Bombegrante: Found on archwood trees"
 			]
 			id: "4297EF485FF2460D"
 			subtitle: "Might be hard to pack these for my flight back home"
@@ -5952,7 +5952,6 @@
 								data: [{
 									id: "traveloptics:lingering_strain"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -5979,7 +5978,6 @@
 								data: [{
 									id: "traveloptics:ashen_breath"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6272,7 +6270,6 @@
 								data: [{
 									id: "traveloptics:stele_cascade"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6299,7 +6296,6 @@
 								data: [{
 									id: "traveloptics:aerial_collapse"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6326,7 +6322,6 @@
 								data: [{
 									id: "traveloptics:primal_pack"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6353,7 +6348,6 @@
 								data: [{
 									id: "traveloptics:primordial_steed"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6620,7 +6614,6 @@
 								data: [{
 									id: "traveloptics:annihilation"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6647,7 +6640,6 @@
 								data: [{
 									id: "traveloptics:lava_bomb"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6674,7 +6666,6 @@
 								data: [{
 									id: "traveloptics:burning_judgment"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6701,7 +6692,6 @@
 								data: [{
 									id: "traveloptics:meteor_storm"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6728,7 +6718,6 @@
 								data: [{
 									id: "traveloptics:ignited_onslaught"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -6755,7 +6744,6 @@
 								data: [{
 									id: "traveloptics:extinction"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7002,7 +6990,6 @@
 								data: [{
 									id: "traveloptics:nullflare"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7029,7 +7016,6 @@
 								data: [{
 									id: "traveloptics:sword_of_the_ancients"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7056,7 +7042,6 @@
 								data: [{
 									id: "traveloptics:summon_desert_dwellers"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7239,7 +7224,6 @@
 								data: [{
 									id: "traveloptics:cursed_blast"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7266,7 +7250,6 @@
 								data: [{
 									id: "traveloptics:halberd_horizon"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7293,7 +7276,6 @@
 								data: [{
 									id: "traveloptics:despair"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7320,7 +7302,6 @@
 								data: [{
 									id: "traveloptics:sticky_steed_summon"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7347,7 +7328,6 @@
 								data: [{
 									id: "traveloptics:cursed_revenants"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7374,7 +7354,6 @@
 								data: [{
 									id: "traveloptics:axe_of_the_doomed"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7599,7 +7578,6 @@
 								data: [{
 									id: "traveloptics:em_pulse"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7626,7 +7604,6 @@
 								data: [{
 									id: "traveloptics:rapid_laser"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7653,7 +7630,6 @@
 								data: [{
 									id: "traveloptics:death_laser"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7680,7 +7656,6 @@
 								data: [{
 									id: "traveloptics:magnetron_deployment"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7707,7 +7682,6 @@
 								data: [{
 									id: "traveloptics:mechanized_predator"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7849,7 +7823,6 @@
 								data: [{
 									id: "traveloptics:abyssal_blast"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7876,7 +7849,6 @@
 								data: [{
 									id: "traveloptics:shadowed_miasma"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7903,7 +7875,6 @@
 								data: [{
 									id: "traveloptics:spectral_blink"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7930,7 +7901,6 @@
 								data: [{
 									id: "traveloptics:reversal"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7957,7 +7927,6 @@
 								data: [{
 									id: "traveloptics:the_forgotten_beast"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -7984,7 +7953,6 @@
 								data: [{
 									id: "traveloptics:blackout"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -8011,7 +7979,6 @@
 								data: [{
 									id: "traveloptics:psychic_bolt"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9117,7 +9084,6 @@
 								data: [{
 									id: "traveloptics:vortex_of_the_deep"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9144,7 +9110,6 @@
 								data: [{
 									id: "traveloptics:bubble_spray"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9171,7 +9136,6 @@
 								data: [{
 									id: "traveloptics:hydroshot"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9198,7 +9162,6 @@
 								data: [{
 									id: "traveloptics:aqua_missiles"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9225,7 +9188,6 @@
 								data: [{
 									id: "traveloptics:jet_steam"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9252,7 +9214,6 @@
 								data: [{
 									id: "traveloptics:echo_of_the_abyss"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9279,7 +9240,6 @@
 								data: [{
 									id: "traveloptics:rainfall"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9306,7 +9266,6 @@
 								data: [{
 									id: "traveloptics:flood_slash"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9333,7 +9292,6 @@
 								data: [{
 									id: "traveloptics:coral_barrage"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9360,7 +9318,6 @@
 								data: [{
 									id: "traveloptics:tidal_grasp"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9387,7 +9344,6 @@
 								data: [{
 									id: "traveloptics:floodgate"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9414,7 +9370,6 @@
 								data: [{
 									id: "traveloptics:tsunami"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9441,7 +9396,6 @@
 								data: [{
 									id: "traveloptics:tidal_slash"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9477,7 +9431,6 @@
 								data: [{
 									id: "irons_spellbooks:counterspell"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9504,7 +9457,6 @@
 								data: [{
 									id: "irons_spellbooks:dragon_breath"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9531,7 +9483,6 @@
 								data: [{
 									id: "irons_spellbooks:evasion"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9558,7 +9509,6 @@
 								data: [{
 									id: "irons_spellbooks:magic_arrow"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9585,7 +9535,6 @@
 								data: [{
 									id: "irons_spellbooks:magic_missile"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9612,7 +9561,6 @@
 								data: [{
 									id: "irons_spellbooks:starfall"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9639,7 +9587,6 @@
 								data: [{
 									id: "irons_spellbooks:teleport"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9666,7 +9613,6 @@
 								data: [{
 									id: "irons_spellbooks:summon_ender_chest"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9693,7 +9639,6 @@
 								data: [{
 									id: "irons_spellbooks:recall"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9720,7 +9665,6 @@
 								data: [{
 									id: "irons_spellbooks:portal"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9747,7 +9691,6 @@
 								data: [{
 									id: "irons_spellbooks:echoing_strikes"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9774,7 +9717,6 @@
 								data: [{
 									id: "irons_spellbooks:black_hole"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9905,7 +9847,6 @@
 								data: [{
 									id: "traveloptics:cursed_minefield"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b
@@ -9932,7 +9873,6 @@
 								data: [{
 									id: "traveloptics:orbital_void"
 									index: 0
-									
 								}]
 								maxSpells: 1
 								mustEquip: 0b

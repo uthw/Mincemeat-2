@@ -478,7 +478,7 @@
 			description: [
 				"This huge squirrel spawns in grasslands and plains, often found roaming or walking near a walnut tree."
 				""
-				"They can be tamed with wallnuts, but they don’t have any offensive abilities. When you have a tamed squirrel, it can be quite useful for replanting trees, as it will automatically find saplings and plant them for you."
+				"They can be tamed with walnuts, but they don’t have any offensive abilities. When you have a tamed squirrel, it can be quite useful for replanting trees, as it will automatically find saplings and plant them for you."
 			]
 			id: "73B8F14F91E2F2D3"
 			invisible: true
@@ -962,6 +962,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["{ \"text\": \"For information on this mob\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4F1308DFE10F7AA8\" } }"]
 			id: "74303772EDDC8BCB"
 			invisible: true
 			tasks: [{

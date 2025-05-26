@@ -325,11 +325,7 @@
 		}
 		{
 			dependencies: ["6B0CBDB3A1614064"]
-			description: [
-				"Tamed has three variants. Tired of typing this out."
-				""
-				"Heal with flowers and breed with fermented spider eyes (spider eye + mushrooms)."
-			]
+			description: ["Heal with flowers and breed with fermented spider eyes (spider eye + mushrooms)."]
 			id: "62CDDDCE8F8A3142"
 			subtitle: "On His Hip"
 			tasks: [{
