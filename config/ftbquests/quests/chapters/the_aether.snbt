@@ -1,0 +1,604 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "2E16C686F58ACDBC"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "deep_aether:golden_aspess"
+	}
+	id: "7C0E235704532E7E"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"These exotic, colorful birds are found wandering around the Aether. They have six unique feather colors."
+				""
+				"Quails drop their eggs periodically much like regular chickens. You can throw these eggs for a chance at hatching a baby quail."
+				""
+				"You can kill quails for their meat, which you can cook for a much better meal compared to the raw one."
+			]
+			id: "057FD64D94C0B66F"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "deep_aether:quail"
+					}
+				}
+				id: "084523279F173E4C"
+				observe_type: 5
+				timer: 0L
+				title: "Quail"
+				to_observe: "deep_aether:quail"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["Venomites are flying pests. Luckily, they're neutral, and won't haunt you with their fast flight speed and small hitboes until you attack them first. Even then, you should be able to take one down in a single hit."]
+			id: "7AEBF7FA2D9264FF"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "deep_aether:venomite"
+					}
+				}
+				id: "482EA0EFDE66BC1C"
+				observe_type: 5
+				timer: 0L
+				title: "Venomite"
+				to_observe: "deep_aether:venomite"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "051995ED4D085892"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:aechor_plant"
+					}
+				}
+				id: "5D064345F035C49F"
+				observe_type: 5
+				timer: 0L
+				title: "Aechor Plant"
+				to_observe: "aether:aechor_plant"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"These little animals are found in grassy parts of the Aether. They can jump and remain airborne for impressively long times due to their ability to puff up."
+				""
+				"Aerbunnies can't be tamed, but they're still helpful companions. You can right click an aerbunny to let it hitch a ride on top of your head. While you're accompanied by an aerbunny, you get increased jump height and slower fall speed. Right click the aerbunny again while it's on your head to let it down."
+				""
+				"If you're in need of string, you can also hunt aerbunnies to get some."
+			]
+			id: "2656F32CC3DEC55C"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:aerbunny"
+					}
+				}
+				id: "77221F890E1A426B"
+				observe_type: 5
+				timer: 0L
+				title: "Aerbunny"
+				to_observe: "aether:aerbunny"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Aerwhales are majestic creatures that fly through the skies of the Aether. They are known for the sounds they make, which resemble whistling."
+				""
+				"Aerwhales don't have much health, but also don't drop anything when they die."
+			]
+			id: "7727999ACE240CF4"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "deep_aether:aerwhale_saddle"
+				}
+				id: "393588372EC1455F"
+				observe_type: 5
+				timer: 0L
+				title: "Aerwhale"
+				to_observe: "aether:aerwhale"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Blue swets are aether-themed variations of slimes."
+				""
+				"They are hostile but have poor vision and won't pursue you until you move within around 5 blocks of one. Blue swets attack by sticking to their foes, causing constant damage."
+				""
+				"When killed, blue swets drop their precious gel."
+			]
+			id: "4EE6A91B5B67A08D"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:blue_swet"
+					}
+				}
+				id: "50B45871A38DEEF0"
+				observe_type: 5
+				timer: 0L
+				title: "Blue Swet"
+				to_observe: "aether:blue_swet"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["These purple birds are not very nice."]
+			id: "5702634661288B44"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:cockatrice"
+					}
+				}
+				id: "04F9E32BDBDF014E"
+				observe_type: 5
+				timer: 0L
+				title: "Cockatrice"
+				to_observe: "aether:cockatrice"
+				type: "observation"
+			}]
+			title: "Cockatrice (The Aether)"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "7E7A404EB342E6AA"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:fire_minion"
+					}
+				}
+				id: "6B463F45DFCB7FFF"
+				observe_type: 5
+				timer: 0L
+				title: "Fire Minion"
+				to_observe: "aether:fire_minion"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Flying cows are just that! They resemble cows, just with a nice palette swap and a pair of wings. They share a lot with their grounded counterparts: you can kill them for beef and leather, or milk them."
+				""
+				"The cool part about flying cows is that you can ride them if you have a saddle. They aren't quite as fast as a horse on the ground, but you can press space to have the cow rise into the air and start gliding. This makes them quite useful for exploration in the Aether."
+			]
+			id: "06219CC15626DF22"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:flying_cow"
+					}
+				}
+				id: "51BC6E55ECFB4F7B"
+				observe_type: 5
+				timer: 0L
+				title: "Flying Cow"
+				to_observe: "aether:flying_cow"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Golden Swets are similar to regular swets, except for their golden color. They are a rare mob found in the Aether."
+				""
+				"They are hostile but have poor vision and won't pursue you until you move within around 5 blocks of one. Golden swets attack by sticking to their foes, so be careful and keep your distance."
+				""
+				"Golden swets dissolve when they touch water. When killed, they drop their gel along with some sugar."
+			]
+			id: "76B3B3C5611F12D5"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:golden_swet"
+					}
+				}
+				id: "6103424E85CACB7F"
+				observe_type: 5
+				timer: 0L
+				title: "Golden Swet"
+				to_observe: "aether:golden_swet"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Moas are large birds found commonly in the Aether. They drop feathers and lay eggs, which you can put in an incubator to hatch into a baby moa."
+				""
+				"Baby moas are the real interesting ones. Periodically, the baby will get hungry, indicated by angry particles. When this happens, promptly feed it an aechor petal dropped by an aechor plant."
+				""
+				"After being fed enough times, the baby moa will grow up and you can ride it with a saddle. Note that you can only do this for a moa you raised. Like other animals in the aether, moas are better in the air than on the ground."
+				""
+				"Moas have a set number of jump charges that can be used to accelerate it through the air. You can use additional charges while airborne, and they replenish when the moa touches the ground."
+				""
+				"You can control your moa using a nature staff."
+			]
+			id: "79FF78BE14CDCA80"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:moa"
+					}
+				}
+				id: "436F765E116C44A5"
+				observe_type: 5
+				timer: 0L
+				title: "Moa"
+				to_observe: "aether:moa"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Phygs are animals you should be familiar with. They can be killed for delicious pork chops (and feathers too) or ridden with a saddle."
+				""
+				"When on the ground, press space while riding a phyg to rise into the air. The phyg will then glide until it touches the ground again."
+			]
+			id: "4CE62EBDD1C08FD7"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:phyg"
+					}
+				}
+				id: "652BBC4E22020D93"
+				observe_type: 5
+				timer: 0L
+				title: "Phyg"
+				to_observe: "aether:phyg"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "7411AECCCF21EA21"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:sentry"
+					}
+				}
+				id: "2F821719770248BD"
+				observe_type: 5
+				timer: 0L
+				title: "Sentry"
+				to_observe: "aether:sentry"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Sheepuffs are much like regular sheep. They graze from aether grass and can be found in six different colors, purple being the rarest."
+				""
+				"You can shear sheepuff for precious wool. If a sheepuff that already has wool grazes again, it will grow even more wool, which is where its name comes from!"
+				""
+				"Like regular sheep, sheepuffs can have rainbow coats if named \"jeb_\"."
+			]
+			id: "2A91EBF0D02F4CF2"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:sheepuff"
+					}
+				}
+				id: "371A89BF1F56956C"
+				observe_type: 5
+				timer: 0L
+				title: "Sheepuff"
+				to_observe: "aether:sheepuff"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Valkyries are NPCs found chilling out in silver dungeons. You can right click them to talk to them, revealing the egomaniacs they really are."
+				""
+				"Valkyries will attack players who provoke them. You need to kill ten of them to face the Valkyrie Queen, so have fun getting your chat spammed with taunts."
+			]
+			id: "4F437D498118C2EC"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether:valkyrie"
+					}
+				}
+				id: "50BAC613E64593CE"
+				observe_type: 5
+				timer: 0L
+				title: "Valkyrie"
+				to_observe: "aether:valkyrie"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "7DC694EBFA91F509"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aether:cold_aercloud"
+				}
+				id: "069C96277D4B1672"
+				observe_type: 5
+				timer: 0L
+				title: "Zephyr"
+				to_observe: "aether:zephyr"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "5287A119B22209E3"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether_redux:blightbunny"
+					}
+				}
+				id: "354E8A7F47619283"
+				observe_type: 5
+				timer: 0L
+				title: "Blightbunny"
+				to_observe: "aether_redux:blightbunny"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "17A345D1403166C6"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether_redux:shimmercow"
+					}
+				}
+				id: "161157488E5F76EE"
+				observe_type: 5
+				timer: 0L
+				title: "Shimmercow"
+				to_observe: "aether_redux:shimmercow"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "7C52E5F174B942E1"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether_redux:mykapod"
+					}
+				}
+				id: "14662897B09B7C10"
+				observe_type: 5
+				timer: 0L
+				title: "Mykapod"
+				to_observe: "aether_redux:mykapod"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "58D0E9242BE680C5"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aether_redux:vanilla_swet"
+					}
+				}
+				id: "7CF1E3FAE8B4E541"
+				observe_type: 5
+				timer: 0L
+				title: "Vanilla Swet"
+				to_observe: "aether_redux:vanilla_swet"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	title: "The Aether"
+}

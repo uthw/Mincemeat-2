@@ -6,7 +6,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "alexscaves:cave_book"
 	id: "6877B56883BE0381"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
