@@ -1007,8 +1007,8 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["054958A1638D1D71"]
@@ -1020,7 +1020,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -1525,7 +1525,7 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -1.5d
 		}
 		{
@@ -1583,8 +1583,8 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["74F529B8810608A5"]
@@ -1618,8 +1618,8 @@
 				item: "apotheosis:scrap_tome"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74F529B8810608A5"]
@@ -2299,7 +2299,7 @@
 			]
 			title: "Upgrade your Backpack"
 			x: 3.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["693F2D3F38A6814F"]
@@ -2431,8 +2431,8 @@
 				type: "item"
 			}]
 			title: "Runic Etching"
-			x: 5.0d
-			y: -3.5d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2F5046E30C8273CB"]
@@ -3179,6 +3179,221 @@
 			}]
 			x: 7.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["5AA15937C7BBDF98"]
+			description: [
+				"Exposure is a mod that adds a camera to the game complete with a realistic photo creation process."
+				""
+				"You'll want to get started by making a camera and then fitting it with some film to store the pictures on. When that's done, shift right click while holding the camera and put the film into its slot."
+				""
+				"Notice the diagram of the camera with the other three slots you can put items into to extend your camera's functionality. You don't need any of these upgrades for right now, though."
+				""
+				"{image:kubejs:item/camera_gui width:356 height:373 align:center fit:true}"
+				"&o&7Camera menu with upgrades"
+				""
+				"Once you're done setting up, go out in the world and capture some moments. Each one will use up some space on the film, so keep its limited capacity in mind. Return to part 2 to find out what to do next!"
+			]
+			id: "318679419AB897F1"
+			subtitle: "When F2 just isn't enough"
+			tasks: [
+				{
+					id: "051519BB6EF299EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "exposure:camera"
+					}
+					type: "item"
+				}
+				{
+					id: "55187A33BF0318F9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "exposure:film_rolls"
+						}
+					}
+					title: "Film Roll"
+					type: "item"
+				}
+				{
+					advancement: "exposure:adventure/exposure"
+					criterion: ""
+					id: "66DEE87636518EFB"
+					type: "advancement"
+				}
+			]
+			title: "Photography Part 1"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["318679419AB897F1"]
+			description: [
+				"Next thing you'll want to do is make a lightroom. The lightroom will convert your film into photos. It needs paper and some select dyes in order to work. If you used black and white film, get some black dye. For color film, cyan, magenta, and yellow dyes are also necessary."
+				""
+				"&7The lightroom also needs a light level of 12 to work."
+				""
+				"Before working with your lightroom, develop your film. Easiest way of doing that is by crafting it with a water bottle, if you have black and white film."
+				""
+				"For color film, you'll need an awkward, thick, and mundane potion. Remember you can get those by brewing water bottles with nether wart, glowstone dust, and redstone dust respectively."
+				""
+				"{@pagebreak}"
+				"The lightroom is pretty easy to use. Change the photo by clicking in the top part of the GUI, and use the checkmark button to get your photo after putting in the dyes you want to use."
+				""
+				"Lastly, display your art in the world using photograph frames!"
+				""
+				"{image:kubejs:item/photo_example width:539 height:530 align:center fit:true}"
+				"&o&7The pyromancer did not win"
+			]
+			id: "36354FF7C93EEC3D"
+			tasks: [
+				{
+					id: "3B9B2FFE65EEC386"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "exposure:lightroom"
+					}
+					type: "item"
+				}
+				{
+					id: "708EFBAB5A87DAD1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "6D2C80F5CD5F0257"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:black_dye"
+					}
+					type: "item"
+				}
+				{
+					id: "3788CC62985FA6F4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:cyan_dye"
+					}
+					type: "item"
+				}
+				{
+					id: "460EE980BD42902C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:magenta_dye"
+					}
+					type: "item"
+				}
+				{
+					id: "00329A5D870704E6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:yellow_dye"
+					}
+					type: "item"
+				}
+				{
+					id: "0EF411501029FD87"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "exposure:developed_film_rolls"
+						}
+					}
+					title: "Developed Film Roll"
+					type: "item"
+				}
+				{
+					advancement: "exposure:adventure/moment_in_time"
+					criterion: ""
+					id: "022C9449D8DE6895"
+					type: "advancement"
+				}
+				{
+					id: "6F1CC7566B490AD8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "exposure:photograph_frame"
+					}
+					type: "item"
+				}
+			]
+			title: "Photography Part 2"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["479B3130EB602E62"]
+			description: [
+				"Here is your solution to saving up levels to enchant something and then losing them all after a 3-star spider sneaks up on you and two-shots you! I know that feeling."
+				""
+				"This crystal stores 10,000 experience, which is enough to get you from level 0 to 63. By comparison, the Ender Dragon drops 12,000."
+				""
+				"If you want an upgrade that works as a curio and has more features, consider the Scroll of Ageless Wisdom, which you can make later."
+			]
+			id: "210ECCA38DC8EF61"
+			tasks: [{
+				id: "43599EFD83F28DF8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
 		}
 	]
 	title: "Getting Started"
