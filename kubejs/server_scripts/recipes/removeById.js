@@ -153,7 +153,8 @@ ServerEvents.recipes((event) => {
         "forbidden_arcanus:aurum_fence_gate",
         "forbidden_arcanus:edelwood_fence_gate",
         "apotheosis:augmenting_table",
-        "apotheosis:sigil_of_enhancement"
+        "apotheosis:sigil_of_enhancement",
+        "celestisynth:celestial_spell_book"
     ];
 
     toRemove.forEach((recipeId) => {
