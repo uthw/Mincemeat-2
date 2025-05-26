@@ -8,6 +8,8 @@ PlayerEvents.loggedIn((event) => {
         "gamerule artifacts.everlastingBeef.enabled false",
         "gamerule persistentAnimals false",
         "gamerule playersSleepingPercentage 1",
+        "gamerule artifacts.vampiricGlove.absorptionRatio 12",
+        "gamerule artifacts.vampiricGlove.absorptionChance 40"
     ];
 
     commands.forEach((command) => {
