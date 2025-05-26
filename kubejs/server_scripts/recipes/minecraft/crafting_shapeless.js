@@ -239,6 +239,10 @@ ServerEvents.recipes((event) => {
                 ).strongNBT(),
             ],
         ],
+        [
+            "9x traveloptics:celestial_fragment",
+            ["traveloptics:celestial_shard"],
+        ],
     ];
 
     recipes.forEach((recipe) => {

@@ -359,16 +359,6 @@ ServerEvents.recipes((event) => {
             "alexsmobs:kangaroo_hide",
         ],
         [
-            { output: "irons_spellbooks:gold_spell_book" },
-            "minecraft:gold_ingot",
-            "forbidden_arcanus:stellarite_piece",
-        ],
-        [
-            { output: "irons_spellbooks:gold_spell_book" },
-            "irons_spellbooks:hogskin",
-            "adventurez:rhino_leather",
-        ],
-        [
             { output: "irons_spellbooks:iron_spell_book" },
             "#forge:leather",
             "eidolon:tattered_cloth",
@@ -381,7 +371,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "irons_spellbooks:arcane_anvil" },
             "minecraft:amethyst_block",
-            "aether:zanite_block",
+            "ars_nouveau:sourcestone",
         ],
         [
             { output: "irons_spellbooks:netherite_spell_book" },
@@ -1499,10 +1489,36 @@ ServerEvents.recipes((event) => {
         ],
         [{ mod: "toms_storage" }, "minecraft:quartz", "thermal:cinnabar"],
         [
-            { output: "toms_storage:ts.inventory_cable" },
-            "#minecraft:trapdoors",
-            "#forge:ingots/tin",
+            { output: "irons_spellbooks:lesser_spell_slot_upgrade" },
+            "irons_spellbooks:hogskin",
+            "traveloptics:celestial_fragment",
         ],
+        [
+            { output: "irons_spellbooks:druidic_spell_book" },
+            "minecraft:honey_bottle",
+            "galosphere:bowl_lichen",
+        ],
+        [
+            { output: "irons_spellbooks:druidic_spell_book" },
+            "minecraft:amethyst_cluster",
+            "atmospheric:aloe_leaves",
+        ],
+        [
+            { output: "irons_spellbooks:druidic_spell_book" },
+            "minecraft:glow_ink_sac",
+            "autumnity:snail_goo",
+        ],
+        [
+            { output: "exposure:camera" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum",
+        ],
+        [{ output: "exposure:camera" }, "minecraft:lever", "create:cogwheel"],
+        [
+            { output: "#exposure:film_rolls" },
+            "minecraft:dried_kelp",
+            "immersiveengineering:hemp_fabric"
+        ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],

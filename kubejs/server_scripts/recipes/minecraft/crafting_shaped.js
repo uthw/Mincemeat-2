@@ -263,11 +263,11 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "thermal:xp_crystal",
+            "enigmaticlegacy:xp_scroll",
             ["BA ", "C  ", "   "],
             {
                 A: "alexscaves:sea_glass_shards",
-                B: "minecraft:book",
+                B: "enigmaticlegacy:thicc_scroll",
                 C: "aether:zanite_gemstone",
             },
         ],
@@ -400,7 +400,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "minecraft:gunpowder",
                 B: "minecraft:glow_berries",
-                C: Item.of("minecraft:potion", '{Potion:"minecraft:water"}'),
+                C: Item.of("minecraft:potion", '{Potion:"minecraft:water"}').strongNBT(),
             },
         ],
         [
@@ -628,11 +628,12 @@ ServerEvents.recipes((event) => {
         ],
         [
             "irons_spellbooks:gold_spell_book",
-            ["ABB", "ACC", "ABB"],
+            ["ABB", "DCC", "ABB"],
             {
-                A: "forbidden_arcanus:rune",
+                A: "minecraft:diamond",
                 B: "irons_spellbooks:arcane_essence",
                 C: "forbidden_arcanus:cloth",
+                D: "forbidden_arcanus:rune"
             },
         ],
         [
@@ -663,7 +664,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "eidolon:gold_inlay",
                 B: "forbidden_arcanus:cloth",
-                C: "#forge:gems/mana",
+                C: "ars_nouveau:source_gem",
                 D: "#thermal:rockwool",
             },
         ],
@@ -1511,6 +1512,16 @@ ServerEvents.recipes((event) => {
                 D: "thermal:apatite",
             },
         ],
+        [
+            "thermal:xp_crystal",
+            [" A ", "ABA", "CDC"],
+            {
+                A: "forbidden_arcanus:xpetrified_orb",
+                B: "forbidden_arcanus:arcane_crystal",
+                C: "create:experience_nugget",
+                D: "alexsmobs:skreecher_soul"
+            }
+        ]
     ];
 
     recipes.forEach((recipe, index) => {

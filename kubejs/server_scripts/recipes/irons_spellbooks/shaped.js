@@ -36,8 +36,8 @@ ServerEvents.recipes((event) => {
             {
                 A: "minecraft:diamond",
                 B: "irons_spellbooks:magic_cloth",
-                C: "aether:zanite_gemstone",
-                D: "quark:ancient_tome",
+                C: "apotheosis:common_material",
+                D: "irons_spellbooks:blank_rune",
                 E: "forbidden_arcanus:arcane_crystal_dust",
             },
         ],
