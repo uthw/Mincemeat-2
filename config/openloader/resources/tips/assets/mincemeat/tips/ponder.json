@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Hold W on almost any Create item to see a visual representation of how it works. This is a great way of learning how to use the mod!"
+    }
+}

@@ -5,6 +5,6 @@
         "color": "red"
     },
     "tip": {
-        "text": "Distance-based difficutly scaling is capped around 7,000 blocks from world spawn. Beyond that, the difficulty will not increase."
+        "text": "Distance-based difficutly scaling is capped around 11,500 blocks from world spawn. Beyond that, the difficulty will not increase."
     }
 }

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Exposure Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can change perspectives while in a camera's viewfinder to have the camera face you, allowing you to take selfies."
+    }
+}

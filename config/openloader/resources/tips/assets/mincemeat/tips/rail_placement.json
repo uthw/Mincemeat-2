@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Lines of train tracks can be placed by right clicking on track and then where you want the track to go. This creates a line (or arc) between the points."
+    }
+}

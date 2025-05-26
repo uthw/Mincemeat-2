@@ -2,7 +2,7 @@
     "title": {
         "text": "Quark Tip",
         "bold": true,
-        "color": "aqua"
+        "color": "green"
     },
     "tip": {
         "text": "Dispensers can place blocks."
