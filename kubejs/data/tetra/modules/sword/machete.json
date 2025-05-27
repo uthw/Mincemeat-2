@@ -1,81 +1,68 @@
 {
-    "improvements": [
-        "tetra:sword/machete/",
-        "tetra:sword/shared_blade/",
-        "tetra:sword/shared/",
-        "tetra:shared/"
-    ],
-    "replace": true,
-    "slots": [
-        "sword/blade"
-    ],
-    "type": "tetra:basic_major_module",
-    "variants": [
-        {
-            "aspects": {
-                "block_breaker": 1,
-                "breakable": 2,
-                "edged_weapon": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.8
-            },
-            "durability": -20,
-            "effects": {
-                "strikingCut": 1,
-                "sweepingStrike": 1,
-                "bleeding": 1
-            },
-            "extract": {
-                "availableTextures": [
-                    "metal",
-                    "shiny",
-                    "grainy",
-                    "crude"
-                ],
-                "durability": 0.9,
-                "glyph": {
-                    "textureX": 48,
-                    "textureY": 32
-                },
-                "integrity": -1,
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/sword/blade/machete/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.9,
-                    "bleeding": -2
-                },
-                "secondaryAttributes": {
-                    "generic.attack_speed": -0.1
-                },
-                "tertiaryEffects": {
-                    "bleeding": 0.4
-                },
-                "tools": {
-                    "cut": [
-                        0,
-                        0.4
-                    ]
-                }
-            },
-            "key": "machete/",
-            "materials": [
-                "tetra:wood/",
-                "tetra:stone/",
-                "tetra:metal/",
-                "tetra:gem/",
-                "tetra:bone/"
-            ],
-            "tools": {
-                "cut": [
-                    1,
-                    0.2
-                ]
-            }
+  "improvements": [
+    "tetra:sword/machete/",
+    "tetra:sword/shared_blade/",
+    "tetra:sword/shared/",
+    "tetra:shared/"
+  ],
+  "replace": true,
+  "slots": ["sword/blade"],
+  "type": "tetra:basic_major_module",
+  "variants": [
+    {
+      "aspects": {
+        "block_breaker": 1,
+        "breakable": 2,
+        "edged_weapon": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.8
+      },
+      "durability": -20,
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "bleeding": 1
+      },
+      "extract": {
+        "availableTextures": ["metal", "shiny", "grainy", "crude"],
+        "durability": 0.9,
+        "glyph": {
+          "textureX": 48,
+          "textureY": 32
+        },
+        "integrity": -1,
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/sword/blade/machete/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.9,
+          "bleeding": -2
+        },
+        "secondaryAttributes": {
+          "generic.attack_speed": -0.1
+        },
+        "tertiaryEffects": {
+          "bleeding": 0.4
+        },
+        "tools": {
+          "cut": [0, 0.4]
         }
-    ]
+      },
+      "key": "machete/",
+      "materials": [
+        "tetra:wood/",
+        "tetra:stone/",
+        "tetra:metal/",
+        "tetra:gem/",
+        "tetra:bone/"
+      ],
+      "tools": {
+        "cut": [1, 0.2]
+      }
+    }
+  ]
 }

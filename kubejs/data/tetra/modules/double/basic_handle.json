@@ -1,57 +1,45 @@
 {
-    "improvements": [
-        "tetra:double/basic_handle/",
-        "tetra:double/shared_handle/",
-        "tetra:double/shared/",
-        "tetra:shared/"
-    ],
-    "renderLayer": "lower",
-    "replace": true,
-    "slots": [
-        "double/handle"
-    ],
-    "type": "tetra:basic_major_module",
-    "variants": [
-        {
-            "aspects": {
-                "block_breaker": 1,
-                "breakable": 2,
-                "edged_weapon": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -0.35
-            },
-            "durability": 350,
-            "extract": {
-                "availableTextures": [
-                    "default",
-                    "metal",
-                    "bone",
-                    "bright"
-                ],
-                "durability": 1.5,
-                "glyph": {
-                    "textureX": 16
-                },
-                "integrity": 1,
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/handle/basic/"
-                    }
-                ],
-                "secondaryAttributes": {
-                    "generic.attack_speed": -0.1
-                }
-            },
-            "integrity": 1,
-            "key": "basic_handle/",
-            "materials": [
-                "tetra:wood/",
-                "tetra:metal/",
-                "tetra:bone/",
-                "tetra:rod/"
-            ]
+  "improvements": [
+    "tetra:double/basic_handle/",
+    "tetra:double/shared_handle/",
+    "tetra:double/shared/",
+    "tetra:shared/"
+  ],
+  "renderLayer": "lower",
+  "replace": true,
+  "slots": ["double/handle"],
+  "type": "tetra:basic_major_module",
+  "variants": [
+    {
+      "aspects": {
+        "block_breaker": 1,
+        "breakable": 2,
+        "edged_weapon": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -0.35
+      },
+      "durability": 350,
+      "extract": {
+        "availableTextures": ["default", "metal", "bone", "bright"],
+        "durability": 1.5,
+        "glyph": {
+          "textureX": 16
+        },
+        "integrity": 1,
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/handle/basic/"
+          }
+        ],
+        "secondaryAttributes": {
+          "generic.attack_speed": -0.1
         }
-    ]
+      },
+      "integrity": 1,
+      "key": "basic_handle/",
+      "materials": ["tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/"]
+    }
+  ]
 }

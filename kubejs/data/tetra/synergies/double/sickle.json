@@ -1,149 +1,83 @@
 [
-    {
-        "effects": {
-            "reap": [
-                75,
-                3
-            ]
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right"
-        ],
-        "name": "double/warsickle"
+  {
+    "effects": {
+      "reap": [75, 3]
     },
-    {
-        "effects": {
-            "abilityPerformance": 1
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right"],
+    "name": "double/warsickle"
+  },
+  {
+    "effects": {
+      "abilityPerformance": 1
     },
-    {
-        "effects": {
-            "abilityDefensive": [
-                160,
-                45
-            ]
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/adze_left"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right"]
+  },
+  {
+    "effects": {
+      "abilityDefensive": [160, 45]
     },
-    {
-        "effects": {
-            "abilityOvercharge": [
-                10,
-                0.3
-            ]
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/basic_axe_left"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/adze_left"]
+  },
+  {
+    "effects": {
+      "abilityOvercharge": [10, 0.3]
     },
-    {
-        "effects": {
-            "abilityMomentum": [
-                15,
-                2
-            ]
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/basic_hammer_left"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/basic_axe_left"]
+  },
+  {
+    "effects": {
+      "abilityMomentum": [15, 2]
     },
-    {
-        "effects": {
-            "abilityCombo": [
-                10,
-                5
-            ]
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/basic_pickaxe_left"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/basic_hammer_left"]
+  },
+  {
+    "effects": {
+      "abilityCombo": [10, 5]
     },
-    {
-        "effects": {
-            "abilityRevenge": [
-                40,
-                15
-            ]
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/claw_left"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/basic_pickaxe_left"]
+  },
+  {
+    "effects": {
+      "abilityRevenge": [40, 15]
     },
-    {
-        "effects": {
-            "abilityOverextend": 30
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/hoe_left"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/claw_left"]
+  },
+  {
+    "effects": {
+      "abilityOverextend": 30
     },
-    {
-        "effects": {
-            "abilityEcho": 10
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/extractor_left"
-        ]
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/hoe_left"]
+  },
+  {
+    "effects": {
+      "abilityEcho": 10
     },
-    {
-        "effects": {
-            "abilityEcho": 10
-        },
-        "improvements": [
-            "double/warforged"
-        ],
-        "matchSuffixed": true,
-        "modules": [
-            "double/sickle_right",
-            "double/unbound_extractor_left"
-        ]
-    }
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/extractor_left"]
+  },
+  {
+    "effects": {
+      "abilityEcho": 10
+    },
+    "improvements": ["double/warforged"],
+    "matchSuffixed": true,
+    "modules": ["double/sickle_right", "double/unbound_extractor_left"]
+  }
 ]

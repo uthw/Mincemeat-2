@@ -1,19 +1,19 @@
 [
-    {
-        "aspects": {
-            "edged_weapon": 1
-        },
-        "attributes": {
-            "generic.attack_damage": 0.5,
-            "generic.attack_speed": 0.5
-        },
-        "integrity": -2,
-        "key": "double/warforged",
-        "models": [
-            {
-                "location": "tetra:item/module/double/head/sickle/warforged",
-                "tint": "inherit"
-            }
-        ]
-    }
+  {
+    "aspects": {
+      "edged_weapon": 1
+    },
+    "attributes": {
+      "generic.attack_damage": 0.5,
+      "generic.attack_speed": 0.5
+    },
+    "integrity": -2,
+    "key": "double/warforged",
+    "models": [
+      {
+        "location": "tetra:item/module/double/head/sickle/warforged",
+        "tint": "inherit"
+      }
+    ]
+  }
 ]

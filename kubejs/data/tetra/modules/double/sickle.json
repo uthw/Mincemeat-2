@@ -1,83 +1,67 @@
 {
-    "improvements": [
-        "tetra:double/sickle/",
-        "tetra:double/shared_head/",
-        "tetra:double/shared/",
-        "tetra:shared/"
-    ],
-    "replace": true,
-    "slots": [
-        "double/head_right",
-        "double/head_left"
-    ],
-    "slotSuffixes": [
-        "_right",
-        "_left"
-    ],
-    "type": "tetra:multi_major_module",
-    "variants": [
-        {
-            "aspects": {
-                "block_breaker": 2,
-                "breakable": 2,
-                "edged_weapon": 2
-            },
-            "attributes": {
-                "generic.attack_damage": -2,
-                "generic.attack_speed": -1.2
-            },
-            "durability": -10,
-            "effects": {
-                "planarSweep": 1,
-                "criticalStrike": [12,1]
-            },
-            "integrity": -1,
-            "extract": {
-                "availableTextures": [
-                    "crude",
-                    "metal",
-                    "shiny"
-                ],
-                "durability": 0.5,
-                "glyph": {
-                    "textureX": 32,
-                    "textureY": 32
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/sickle/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 1
-                },
-                "primaryEffects": {
-					"criticalStrike": [-1,0.3]
-				},
-				"tertiaryEffects": {
-					"criticalStrike": [2.5,0]
-				},
-                "tools": {
-                    "hoe_dig": [
-                        0.74,
-                        0.4
-                    ]
-                }
-            },
-            "key": "sickle/",
-            "materials": [
-                "tetra:metal/",
-                "tetra:stone/",
-                "tetra:wood/",
-                "tetra:gem/"
-            ],
-            "tools": {
-                "hoe_dig": [
-                    0,
-                    1
-                ]
-            }
+  "improvements": [
+    "tetra:double/sickle/",
+    "tetra:double/shared_head/",
+    "tetra:double/shared/",
+    "tetra:shared/"
+  ],
+  "replace": true,
+  "slots": ["double/head_right", "double/head_left"],
+  "slotSuffixes": ["_right", "_left"],
+  "type": "tetra:multi_major_module",
+  "variants": [
+    {
+      "aspects": {
+        "block_breaker": 2,
+        "breakable": 2,
+        "edged_weapon": 2
+      },
+      "attributes": {
+        "generic.attack_damage": -2,
+        "generic.attack_speed": -1.2
+      },
+      "durability": -10,
+      "effects": {
+        "planarSweep": 1,
+        "criticalStrike": [12, 1]
+      },
+      "integrity": -1,
+      "extract": {
+        "availableTextures": ["crude", "metal", "shiny"],
+        "durability": 0.5,
+        "glyph": {
+          "textureX": 32,
+          "textureY": 32
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/sickle/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 1
+        },
+        "primaryEffects": {
+          "criticalStrike": [-1, 0.3]
+        },
+        "tertiaryEffects": {
+          "criticalStrike": [2.5, 0]
+        },
+        "tools": {
+          "hoe_dig": [0.74, 0.4]
         }
-    ]
+      },
+      "key": "sickle/",
+      "materials": [
+        "tetra:metal/",
+        "tetra:stone/",
+        "tetra:wood/",
+        "tetra:gem/"
+      ],
+      "tools": {
+        "hoe_dig": [0, 1]
+      }
+    }
+  ]
 }

@@ -1,76 +1,59 @@
 {
-    "improvements": [
-        "tetra:sword/heavy_blade/",
-        "tetra:sword/shared_blade/",
-        "tetra:sword/shared/",
-        "tetra:shared/"
-    ],
-    "replace": true,
-    "slots": [
-        "sword/blade"
-    ],
-    "type": "tetra:basic_major_module",
-    "variants": [
-        {
-            "aspects": {
-                "breakable": 2,
-                "edged_weapon": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.6,
-                "generic.attack_damage": 2
-            },
-            "effects": {
-                "sweeping": [
-                    2,
-                    0.5
-                ],
-                "truesweep": 1
-            },
-            "extract": {
-                "availableTextures": [
-                    "metal",
-                    "shiny",
-                    "grainy",
-                    "crude"
-                ],
-                "durability": 1,
-                "glyph": {
-                    "textureX": 48
-                },
-                "integrity": -1,
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/sword/blade/heavy/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.8,
-                    "forge:reach_distance": 0.06,
-                    "forge:attack_range": 0.06
-                },
-                "primaryEffects": {
-                    "sweeping": 0.6
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 0.4,
-                    "generic.attack_speed": -0.15
-                }
-            },
-            "integrity": -1,
-            "key": "heavy_blade/",
-            "materials": [
-                "tetra:metal/",
-                "tetra:stone/",
-                "tetra:wood/"
-            ],
-            "tools": {
-                "cut": [
-                    1,
-                    3
-                ]
-            }
+  "improvements": [
+    "tetra:sword/heavy_blade/",
+    "tetra:sword/shared_blade/",
+    "tetra:sword/shared/",
+    "tetra:shared/"
+  ],
+  "replace": true,
+  "slots": ["sword/blade"],
+  "type": "tetra:basic_major_module",
+  "variants": [
+    {
+      "aspects": {
+        "breakable": 2,
+        "edged_weapon": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.6,
+        "generic.attack_damage": 2
+      },
+      "effects": {
+        "sweeping": [2, 0.5],
+        "truesweep": 1
+      },
+      "extract": {
+        "availableTextures": ["metal", "shiny", "grainy", "crude"],
+        "durability": 1,
+        "glyph": {
+          "textureX": 48
+        },
+        "integrity": -1,
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/sword/blade/heavy/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.8,
+          "forge:reach_distance": 0.06,
+          "forge:attack_range": 0.06
+        },
+        "primaryEffects": {
+          "sweeping": 0.6
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 0.4,
+          "generic.attack_speed": -0.15
         }
-    ]
+      },
+      "integrity": -1,
+      "key": "heavy_blade/",
+      "materials": ["tetra:metal/", "tetra:stone/", "tetra:wood/"],
+      "tools": {
+        "cut": [1, 3]
+      }
+    }
+  ]
 }

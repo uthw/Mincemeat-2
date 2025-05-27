@@ -1,45 +1,37 @@
 {
-    "replace": true,
-    "type": "tetra:basic_major_module",
-    "slots": ["single/handle"],
-    "renderLayer": "lower",
-    "improvements": [
-        "tetra:single/long_handle/",
-        "tetra:single/shared_handle/",
-        "tetra:single/shared/",
-        "tetra:shared/"
-    ],
-    "variants": [
-        {
-            "materials": [
-                "tetra:wood/",
-                "tetra:metal/",
-                "tetra:bone/",
-                "tetra:rod/"
-            ],
-            "key": "long_handle/",
-            "durability": 250,
-            "integrity": 1,
-            "attributes": {
-                "generic.attack_speed": -1.155,
-                "forge:reach_distance": 2,
-                "forge:attack_range": 2,
-                "generic.attack_damage": -2.75
-            },
-            "aspects": { "block_breaker": 1, "breakable": 2, "pointy_weapon": 2 },
-            "extract": {
-                "primaryAttributes": {
-                },
-                "secondaryAttributes": { "generic.attack_speed": -0.15 },
-                "durability": 1,
-                "integrity": 1,
-                "magicCapacity": 1,
-                "glyph": { "textureX": 16 },
-                "availableTextures": ["default", "metal", "bone", "bright"],
-                "models": [
-                    { "location": "tetra:item/module/single/handle/long/" }
-                ]
-            }
-        }
-    ]
+  "replace": true,
+  "type": "tetra:basic_major_module",
+  "slots": ["single/handle"],
+  "renderLayer": "lower",
+  "improvements": [
+    "tetra:single/long_handle/",
+    "tetra:single/shared_handle/",
+    "tetra:single/shared/",
+    "tetra:shared/"
+  ],
+  "variants": [
+    {
+      "materials": ["tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/"],
+      "key": "long_handle/",
+      "durability": 250,
+      "integrity": 1,
+      "attributes": {
+        "generic.attack_speed": -1.155,
+        "forge:reach_distance": 2,
+        "forge:attack_range": 2,
+        "generic.attack_damage": -2.75
+      },
+      "aspects": { "block_breaker": 1, "breakable": 2, "pointy_weapon": 2 },
+      "extract": {
+        "primaryAttributes": {},
+        "secondaryAttributes": { "generic.attack_speed": -0.15 },
+        "durability": 1,
+        "integrity": 1,
+        "magicCapacity": 1,
+        "glyph": { "textureX": 16 },
+        "availableTextures": ["default", "metal", "bone", "bright"],
+        "models": [{ "location": "tetra:item/module/single/handle/long/" }]
+      }
+    }
+  ]
 }

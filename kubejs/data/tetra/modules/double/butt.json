@@ -1,53 +1,40 @@
 {
-    "improvements": [
-        "tetra:double/butt/",
-        "tetra:double/shared_head/",
-        "tetra:double/shared/",
-        "tetra:shared/"
-    ],
-    "replace": true,
-    "slots": [
-        "double/head_right"
-    ],
-    "slotSuffixes": [
-        "_right"
-    ],
-    "type": "tetra:multi_major_module",
-    "variants": [
-        {
-            "integrity": 0,
-            "aspects": {
-                "block_breaker": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1
-            },
-            "durability": -10,
-            "extract": {
-                "availableTextures": [
-                    "crude",
-                    "metal",
-                    "shiny"
-                ],
-                "durability": 0.5,
-                "glyph": {
-                    "textureX": 160
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/butt/"
-                    }
-                ]
-            },
-            "key": "butt/",
-            "materials": [
-                "tetra:metal/",
-                "tetra:stone/",
-                "tetra:wood/",
-                "tetra:gem/"
-            ]
-        }
-    ]
+  "improvements": [
+    "tetra:double/butt/",
+    "tetra:double/shared_head/",
+    "tetra:double/shared/",
+    "tetra:shared/"
+  ],
+  "replace": true,
+  "slots": ["double/head_right"],
+  "slotSuffixes": ["_right"],
+  "type": "tetra:multi_major_module",
+  "variants": [
+    {
+      "integrity": 0,
+      "aspects": {
+        "block_breaker": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1
+      },
+      "durability": -10,
+      "extract": {
+        "availableTextures": ["crude", "metal", "shiny"],
+        "durability": 0.5,
+        "glyph": {
+          "textureX": 160
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/butt/"
+          }
+        ]
+      },
+      "key": "butt/",
+      "materials": ["tetra:metal/", "tetra:stone/", "tetra:wood/", "tetra:gem/"]
+    }
+  ]
 }

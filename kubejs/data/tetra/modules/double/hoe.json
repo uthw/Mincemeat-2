@@ -1,68 +1,50 @@
 {
-    "improvements": [
-        "tetra:double/hoe/",
-        "tetra:double/shared_head/",
-        "tetra:double/shared/",
-        "tetra:shared/"
-    ],
-    "replace": true,
-    "slots": [
-        "double/head_left",
-        "double/head_right"
-    ],
-    "slotSuffixes": [
-        "_left",
-        "_right"
-    ],
-    "type": "tetra:multi_major_module",
-    "variants": [
-        {
-            "integrity": -2,
-            "aspects": {
-                "block_breaker": 2,
-                "breakable": 2,
-                "edged_weapon": 2
-            },
-            "attributes": {
-                "generic.attack_damage": -3,
-                "generic.attack_speed": -1.6
-            },
-            "durability": -10,
-            "extract": {
-                "availableTextures": [
-                    "crude",
-                    "metal",
-                    "shiny"
-                ],
-                "durability": 0.5,
-                "glyph": {
-                    "textureX": 16,
-                    "textureY": 32
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/hoe/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 1
-                },
-                "tools": {
-                    "hoe_dig": [
-                        1,
-                        1
-                    ],
-                    "till": 1
-                }
-            },
-            "key": "hoe/",
-            "materials": [
-                "tetra:metal/",
-                "tetra:stone/",
-                "tetra:wood/",
-                "tetra:gem/"
-            ]
+  "improvements": [
+    "tetra:double/hoe/",
+    "tetra:double/shared_head/",
+    "tetra:double/shared/",
+    "tetra:shared/"
+  ],
+  "replace": true,
+  "slots": ["double/head_left", "double/head_right"],
+  "slotSuffixes": ["_left", "_right"],
+  "type": "tetra:multi_major_module",
+  "variants": [
+    {
+      "integrity": -2,
+      "aspects": {
+        "block_breaker": 2,
+        "breakable": 2,
+        "edged_weapon": 2
+      },
+      "attributes": {
+        "generic.attack_damage": -3,
+        "generic.attack_speed": -1.6
+      },
+      "durability": -10,
+      "extract": {
+        "availableTextures": ["crude", "metal", "shiny"],
+        "durability": 0.5,
+        "glyph": {
+          "textureX": 16,
+          "textureY": 32
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/hoe/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 1
+        },
+        "tools": {
+          "hoe_dig": [1, 1],
+          "till": 1
         }
-    ]
+      },
+      "key": "hoe/",
+      "materials": ["tetra:metal/", "tetra:stone/", "tetra:wood/", "tetra:gem/"]
+    }
+  ]
 }

@@ -1,56 +1,62 @@
 {
-	"replace": true,
-	"slots": [ "sword/blade" ],
-	"type": "tetra:basic_major_module",
-	"improvements": [
-		"tetra:sword/bastard_blade/",
-		"tetra:sword/shared_blade/",
-		"tetra:sword/shared/",
-		"tetra:shared/"
-	],
-	"variants": [
-		{
-			"materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-			"key": "bastard_blade/",
-			"attributes": {
-				"generic.attack_speed": -2.45,
-				"forge:reach_distance": 0.2,
-				"forge:attack_range": 0.2
-			},
-			"effects": {
-				"sweeping": [8.25,2.5]
-			},
-			"tools": {
-				"cut": [ 1, 2 ]
-			},
-			"aspects": {
-				"edged_weapon": 2,
-				"breakable": 2
-			},
-			"durability": -20,
-			"tags":[
-				"forge:swords"
-			],
-			"extract": {
-				"primaryAttributes": {
-					"generic.attack_damage": 1
-				},
-				"tertiaryAttributes": {
-					"forge:reach_distance": 0.05,
-					"forge:attack_range": 0.05
-                },
-				"durability": 0.9,
-				"integrity": -1,
-				"magicCapacity": 1,
-				"glyph": {
-					"textureLocation": "tetra:textures/gui/aof_glyph.png",
-					"textureX": 176
-				},
-				"availableTextures": [ "metal", "shiny", "grainy", "crude" ],
-				"models": [{
-					"location": "tetra:item/module/sword/blade/bastard_blade/"
-				}]
-			}
-		}
-	]
+  "replace": true,
+  "slots": ["sword/blade"],
+  "type": "tetra:basic_major_module",
+  "improvements": [
+    "tetra:sword/bastard_blade/",
+    "tetra:sword/shared_blade/",
+    "tetra:sword/shared/",
+    "tetra:shared/"
+  ],
+  "variants": [
+    {
+      "materials": [
+        "tetra:wood/",
+        "tetra:stone/",
+        "tetra:metal/",
+        "tetra:gem/",
+        "tetra:bone/"
+      ],
+      "key": "bastard_blade/",
+      "attributes": {
+        "generic.attack_speed": -2.45,
+        "forge:reach_distance": 0.2,
+        "forge:attack_range": 0.2
+      },
+      "effects": {
+        "sweeping": [8.25, 2.5]
+      },
+      "tools": {
+        "cut": [1, 2]
+      },
+      "aspects": {
+        "edged_weapon": 2,
+        "breakable": 2
+      },
+      "durability": -20,
+      "tags": ["forge:swords"],
+      "extract": {
+        "primaryAttributes": {
+          "generic.attack_damage": 1
+        },
+        "tertiaryAttributes": {
+          "forge:reach_distance": 0.05,
+          "forge:attack_range": 0.05
+        },
+        "durability": 0.9,
+        "integrity": -1,
+        "magicCapacity": 1,
+        "glyph": {
+          "textureLocation": "tetra:textures/gui/aof_glyph.png",
+          "textureX": 176
+        },
+        "availableTextures": ["metal", "shiny", "grainy", "crude"],
+        "models": [
+          {
+            "location": "tetra:item/module/sword/blade/bastard_blade/"
+          }
+        ]
+      }
+    }
+  ]
 }

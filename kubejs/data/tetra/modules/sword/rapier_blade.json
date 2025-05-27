@@ -1,55 +1,61 @@
 {
-	"replace": true,
-	"slots": [ "sword/blade" ],
-	"type": "tetra:basic_major_module",
-	"improvements": [
-		"tetra:sword/rapier_blade/",
-		"tetra:sword/shared_blade/",
-		"tetra:sword/shared/",
-		"tetra:shared/"
-	],
-	"variants": [
-		{
-			"materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-			"key": "rapier_blade/",
-			"attributes": {
-				"generic.attack_speed": -1.65,
-				"generic.attack_damage": 2.5
-			},
-			"effects": {
-				"armorPenetration": 2.5,
-				"skewering": [ 1, 2 ]
-			},
-			"aspects": {
-				"edged_weapon": 2,
-				"breakable": 2
-			},
-			"durability": -20,
-			"tags":[
-				"forge:swords"
-			],
-			"extract": {
-				"primaryAttributes": {
-					"generic.attack_speed": 0.1
-				},
-				"secondaryEffects": {
-					"armorPenetration": 2
-				},
-				"tertiaryEffects": {
-					"armorPenetration": -1.5
-				},
-				"durability": 1.5,
-				"integrity": -1,
-				"magicCapacity": 1.5,
-				"glyph": {
-					"textureLocation": "tetra:textures/gui/aof_glyph.png",
-					"textureX": 48
-				},
-				"availableTextures": [ "metal", "shiny", "grainy", "crude" ],
-				"models": [{
-					"location": "tetra:item/module/sword/blade/rapier_blade/"
-				}]
-			}
-		}
-	]
+  "replace": true,
+  "slots": ["sword/blade"],
+  "type": "tetra:basic_major_module",
+  "improvements": [
+    "tetra:sword/rapier_blade/",
+    "tetra:sword/shared_blade/",
+    "tetra:sword/shared/",
+    "tetra:shared/"
+  ],
+  "variants": [
+    {
+      "materials": [
+        "tetra:wood/",
+        "tetra:stone/",
+        "tetra:metal/",
+        "tetra:gem/",
+        "tetra:bone/"
+      ],
+      "key": "rapier_blade/",
+      "attributes": {
+        "generic.attack_speed": -1.65,
+        "generic.attack_damage": 2.5
+      },
+      "effects": {
+        "armorPenetration": 2.5,
+        "skewering": [1, 2]
+      },
+      "aspects": {
+        "edged_weapon": 2,
+        "breakable": 2
+      },
+      "durability": -20,
+      "tags": ["forge:swords"],
+      "extract": {
+        "primaryAttributes": {
+          "generic.attack_speed": 0.1
+        },
+        "secondaryEffects": {
+          "armorPenetration": 2
+        },
+        "tertiaryEffects": {
+          "armorPenetration": -1.5
+        },
+        "durability": 1.5,
+        "integrity": -1,
+        "magicCapacity": 1.5,
+        "glyph": {
+          "textureLocation": "tetra:textures/gui/aof_glyph.png",
+          "textureX": 48
+        },
+        "availableTextures": ["metal", "shiny", "grainy", "crude"],
+        "models": [
+          {
+            "location": "tetra:item/module/sword/blade/rapier_blade/"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,58 +1,50 @@
 {
-    "displayType": "major",
-    "glyph": {
-        "textureX": 144,
-        "textureY": 32
+  "displayType": "major",
+  "glyph": {
+    "textureX": 144,
+    "textureY": 32
+  },
+  "materialSlotCount": 1,
+  "outcomes": [
+    {
+      "material": {
+        "count": 4,
+        "items": ["minecraft:stick"]
+      },
+      "moduleKey": "bow/long_stave",
+      "moduleVariant": "long_stave/stick"
     },
-    "materialSlotCount": 1,
-    "outcomes": [
-        {
-            "material": {
-                "count": 4,
-                "items": [
-                    "minecraft:stick"
-                ]
-            },
-            "moduleKey": "bow/long_stave",
-            "moduleVariant": "long_stave/stick"
-        },
-        {
-            "countFactor": 2,
-            "materials": [
-                "tetra:wood/"
-            ],
-            "moduleKey": "bow/long_stave",
-            "moduleVariant": "long_stave/",
-            "toolOffset": 1
-        },
-        {
-            "countFactor": 3,
-            "materials": [
-                "tetra:metal/"
-            ],
-            "moduleKey": "bow/long_stave",
-            "moduleVariant": "long_stave/",
-            "toolOffset": 2
-        }
-    ],
-    "replace": true,
-    "slots": [
-        "bow/stave"
-    ],
-    "translation": {
-        "durability": 4,
-        "integrity": -3,
-        "magicCapacity": 3,
-        "primaryAttributes": {
-            "tetra:draw_speed": -3,
-            "tetra:draw_strength": 4
-        },
-        "primaryEffects": {
-            "overbowed": -1
-        },
-        "tertiaryAttributes": {
-            "tetra:draw_speed": 1,
-            "tetra:draw_strength": 2
-        }
+    {
+      "countFactor": 2,
+      "materials": ["tetra:wood/"],
+      "moduleKey": "bow/long_stave",
+      "moduleVariant": "long_stave/",
+      "toolOffset": 1
+    },
+    {
+      "countFactor": 3,
+      "materials": ["tetra:metal/"],
+      "moduleKey": "bow/long_stave",
+      "moduleVariant": "long_stave/",
+      "toolOffset": 2
     }
+  ],
+  "replace": true,
+  "slots": ["bow/stave"],
+  "translation": {
+    "durability": 4,
+    "integrity": -3,
+    "magicCapacity": 3,
+    "primaryAttributes": {
+      "tetra:draw_speed": -3,
+      "tetra:draw_strength": 4
+    },
+    "primaryEffects": {
+      "overbowed": -1
+    },
+    "tertiaryAttributes": {
+      "tetra:draw_speed": 1,
+      "tetra:draw_strength": 2
+    }
+  }
 }

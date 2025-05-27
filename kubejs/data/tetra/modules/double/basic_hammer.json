@@ -1,432 +1,371 @@
 {
-    "improvements": [
-        "tetra:double/hammer/",
-        "tetra:double/shared_head/",
-        "tetra:double/shared/",
-        "tetra:shared/"
-    ],
-    "replace": true,
-    "slots": [
-        "double/head_left",
-        "double/head_right"
-    ],
-    "slotSuffixes": [
-        "_left",
-        "_right"
-    ],
-    "type": "tetra:multi_major_module",
-    "variants": [
-        {
-            "integrity": -1,
-            "aspects": {
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2,
-                "edged_weapon": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "availableTextures": [
-                    "log"
-                ],
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_hammer/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:wood/"
-            ]
+  "improvements": [
+    "tetra:double/hammer/",
+    "tetra:double/shared_head/",
+    "tetra:double/shared/",
+    "tetra:shared/"
+  ],
+  "replace": true,
+  "slots": ["double/head_left", "double/head_right"],
+  "slotSuffixes": ["_left", "_right"],
+  "type": "tetra:multi_major_module",
+  "variants": [
+    {
+      "integrity": -1,
+      "aspects": {
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2,
+        "edged_weapon": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "availableTextures": ["log"],
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
         },
-        {
-            "integrity": -1,
-            "aspects": {
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:stone/stone"
-            ],
-            "models": [
-                {
-                    "location": "tetra:item/module/double/head/basic_hammer/stone",
-                    "tint": "aaaaaa"
-                }
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:wood"
-            }
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_hammer/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
         },
-        {
-            "aspects": {
-                "integrity": -1,
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "availableTextures": [
-                    "stone"
-                ],
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_hammer/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:stone/diorite",
-                "tetra:stone/andesite",
-                "tetra:stone/granite"
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:wood"
-            }
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
         },
-        {
-            "aspects": {
-                "integrity": -1,
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "availableTextures": [
-                    "metal"
-                ],
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_hammer/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:metal/copper"
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:gold"
-            }
-        },
-        {
-            "integrity": -1,
-            "aspects": {
-                "integrity": -1,
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "availableTextures": [
-                    "metal"
-                ],
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_hammer/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:metal/iron"
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:gold"
-            }
-        },
-        {
-            "integrity": -1,
-            "aspects": {
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "availableTextures": [
-                    "stone"
-                ],
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_hammer/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:stone/blackstone"
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:stone"
-            }
-        },
-        {
-            "integrity": -1,
-            "aspects": {
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:stone/obsidian"
-            ],
-            "models": [
-                {
-                    "location": "tetra:item/module/double/head/basic_hammer/obsidian"
-                }
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:iron"
-            }
-        },
-        {
-            "integrity": -1,
-            "aspects": {
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "availableTextures": [
-                    "metal"
-                ],
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_hammer/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:metal/netherite"
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:diamond"
-            }
-        },
-        {
-            "integrity": -1,
-            "aspects": {
-                "block_breaker": 2,
-                "blunt_weapon": 1,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_speed": -1.1
-            },
-            "extract": {
-                "availableTextures": [
-                    "metal"
-                ],
-                "durability": 0.55,
-                "glyph": {
-                    "textureX": 64
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_hammer/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 0.5
-                },
-                "secondaryAttributes": {
-                    "generic.attack_damage": 1,
-                    "generic.attack_speed": -0.08
-                },
-                "tools": {
-                    "hammer_dig": [
-                        0,
-                        0.8333
-                    ]
-                }
-            },
-            "key": "basic_hammer/",
-            "materials": [
-                "tetra:metal/iceandfire_fire_dragonsteel",
-                "tetra:metal/iceandfire_ice_dragonsteel",
-                "tetra:metal/iceandfire_lightning_dragonsteel"
-            ],
-            "tools": {
-                "hammer_dig": "minecraft:netherite"
-            }
+        "tools": {
+          "hammer_dig": [0, 0.8333]
         }
-    ]
+      },
+      "key": "basic_hammer/",
+      "materials": ["tetra:wood/"]
+    },
+    {
+      "integrity": -1,
+      "aspects": {
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": ["tetra:stone/stone"],
+      "models": [
+        {
+          "location": "tetra:item/module/double/head/basic_hammer/stone",
+          "tint": "aaaaaa"
+        }
+      ],
+      "tools": {
+        "hammer_dig": "minecraft:wood"
+      }
+    },
+    {
+      "aspects": {
+        "integrity": -1,
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "availableTextures": ["stone"],
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_hammer/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": [
+        "tetra:stone/diorite",
+        "tetra:stone/andesite",
+        "tetra:stone/granite"
+      ],
+      "tools": {
+        "hammer_dig": "minecraft:wood"
+      }
+    },
+    {
+      "aspects": {
+        "integrity": -1,
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "availableTextures": ["metal"],
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_hammer/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": ["tetra:metal/copper"],
+      "tools": {
+        "hammer_dig": "minecraft:gold"
+      }
+    },
+    {
+      "integrity": -1,
+      "aspects": {
+        "integrity": -1,
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "availableTextures": ["metal"],
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_hammer/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": ["tetra:metal/iron"],
+      "tools": {
+        "hammer_dig": "minecraft:gold"
+      }
+    },
+    {
+      "integrity": -1,
+      "aspects": {
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "availableTextures": ["stone"],
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_hammer/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": ["tetra:stone/blackstone"],
+      "tools": {
+        "hammer_dig": "minecraft:stone"
+      }
+    },
+    {
+      "integrity": -1,
+      "aspects": {
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": ["tetra:stone/obsidian"],
+      "models": [
+        {
+          "location": "tetra:item/module/double/head/basic_hammer/obsidian"
+        }
+      ],
+      "tools": {
+        "hammer_dig": "minecraft:iron"
+      }
+    },
+    {
+      "integrity": -1,
+      "aspects": {
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "availableTextures": ["metal"],
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_hammer/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": ["tetra:metal/netherite"],
+      "tools": {
+        "hammer_dig": "minecraft:diamond"
+      }
+    },
+    {
+      "integrity": -1,
+      "aspects": {
+        "block_breaker": 2,
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_speed": -1.1
+      },
+      "extract": {
+        "availableTextures": ["metal"],
+        "durability": 0.55,
+        "glyph": {
+          "textureX": 64
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_hammer/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 0.5
+        },
+        "secondaryAttributes": {
+          "generic.attack_damage": 1,
+          "generic.attack_speed": -0.08
+        },
+        "tools": {
+          "hammer_dig": [0, 0.8333]
+        }
+      },
+      "key": "basic_hammer/",
+      "materials": [
+        "tetra:metal/iceandfire_fire_dragonsteel",
+        "tetra:metal/iceandfire_ice_dragonsteel",
+        "tetra:metal/iceandfire_lightning_dragonsteel"
+      ],
+      "tools": {
+        "hammer_dig": "minecraft:netherite"
+      }
+    }
+  ]
 }

@@ -1,52 +1,37 @@
 [
-    {
-        "attributes": {
-            "**generic.attack_damage": 0.2
-        },
-        "modules": [
-            "double/basic_axe",
-            "double/basic_axe"
-        ],
-        "name": "double/axe_axe"
+  {
+    "attributes": {
+      "**generic.attack_damage": 0.2
     },
-    {
-        "attributes": {
-            "**generic.attack_damage": 0.4
-        },
-        "modules": [
-            "double/claw",
-            "double/claw"
-        ],
-        "name": "double/claw_claw"
+    "modules": ["double/basic_axe", "double/basic_axe"],
+    "name": "double/axe_axe"
+  },
+  {
+    "attributes": {
+      "**generic.attack_damage": 0.4
     },
-    {
-        "attributes": {
-            "**generic.attack_damage": 0.4
-        },
-        "modules": [
-            "double/basic_hammer",
-            "double/basic_hammer"
-        ],
-        "name": "double/hammer_hammer"
+    "modules": ["double/claw", "double/claw"],
+    "name": "double/claw_claw"
+  },
+  {
+    "attributes": {
+      "**generic.attack_damage": 0.4
     },
-    {
-        "attributes": {
-            "**generic.attack_damage": 0.4
-        },
-        "modules": [
-            "double/hoe",
-            "double/hoe"
-        ],
-        "name": "double/hoe_hoe"
+    "modules": ["double/basic_hammer", "double/basic_hammer"],
+    "name": "double/hammer_hammer"
+  },
+  {
+    "attributes": {
+      "**generic.attack_damage": 0.4
     },
-    {
-        "attributes": {
-            "**generic.attack_damage": 0.4
-        },
-        "modules": [
-            "double/sickle",
-            "double/sickle"
-        ],
-        "name": "double/sickle_sickle"
-    }
+    "modules": ["double/hoe", "double/hoe"],
+    "name": "double/hoe_hoe"
+  },
+  {
+    "attributes": {
+      "**generic.attack_damage": 0.4
+    },
+    "modules": ["double/sickle", "double/sickle"],
+    "name": "double/sickle_sickle"
+  }
 ]

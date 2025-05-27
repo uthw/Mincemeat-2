@@ -1,57 +1,49 @@
 {
-    "displayType": "major",
-    "glyph": {
-        "textureX": 160,
-        "textureY": 32
+  "displayType": "major",
+  "glyph": {
+    "textureX": 160,
+    "textureY": 32
+  },
+  "materialSlotCount": 1,
+  "outcomes": [
+    {
+      "material": {
+        "count": 3,
+        "items": ["minecraft:stick"]
+      },
+      "moduleKey": "bow/recurve_stave",
+      "moduleVariant": "recurve_stave/stick",
+      "requiredTools": {
+        "axe_dig": "minecraft:stone"
+      }
     },
-    "materialSlotCount": 1,
-    "outcomes": [
-        {
-            "material": {
-                "count": 3,
-                "items": [
-                    "minecraft:stick"
-                ]
-            },
-            "moduleKey": "bow/recurve_stave",
-            "moduleVariant": "recurve_stave/stick",
-            "requiredTools": {
-                "axe_dig": "minecraft:stone"
-            }
-        },
-        {
-            "materials": [
-                "tetra:wood/"
-            ],
-            "moduleKey": "bow/recurve_stave",
-            "moduleVariant": "recurve_stave/",
-            "toolFactor": 1.1,
-            "toolOffset": 1
-        },
-        {
-            "materials": [
-                "tetra:metal/"
-            ],
-            "moduleKey": "bow/recurve_stave",
-            "moduleVariant": "recurve_stave/",
-            "toolOffset": 2
-        }
-    ],
-    "replace": true,
-    "slots": [
-        "bow/stave"
-    ],
-    "translation": {
-        "durability": 2,
-        "integrity": -3,
-        "magicCapacity": 3,
-        "primaryAttributes": {
-            "tetra:draw_speed": -1,
-            "tetra:draw_strength": 3
-        },
-        "tertiaryAttributes": {
-            "tetra:draw_speed": 1,
-            "tetra:draw_strength": 1
-        }
+    {
+      "materials": ["tetra:wood/"],
+      "moduleKey": "bow/recurve_stave",
+      "moduleVariant": "recurve_stave/",
+      "toolFactor": 1.1,
+      "toolOffset": 1
+    },
+    {
+      "materials": ["tetra:metal/"],
+      "moduleKey": "bow/recurve_stave",
+      "moduleVariant": "recurve_stave/",
+      "toolOffset": 2
     }
+  ],
+  "replace": true,
+  "slots": ["bow/stave"],
+  "translation": {
+    "durability": 2,
+    "integrity": -3,
+    "magicCapacity": 3,
+    "primaryAttributes": {
+      "tetra:draw_speed": -1,
+      "tetra:draw_strength": 3
+    },
+    "tertiaryAttributes": {
+      "tetra:draw_speed": 1,
+      "tetra:draw_strength": 1
+    }
+  }
 }

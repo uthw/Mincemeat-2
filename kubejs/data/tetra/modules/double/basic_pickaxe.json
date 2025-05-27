@@ -1,68 +1,55 @@
 {
-    "improvements": [
-        "tetra:double/pickaxe/",
-        "tetra:double/shared_head/",
-        "tetra:double/shared/",
-        "tetra:shared/"
-    ],
-    "replace": true,
-    "slots": [
-        "double/head_left",
-        "double/head_right"
-    ],
-    "slotSuffixes": [
-        "_left",
-        "_right"
-    ],
-    "type": "tetra:multi_major_module",
-    "variants": [
-        {
-            "integrity": -1,
-            "aspects": {
-                "block_breaker": 2,
-                "breakable": 2
-            },
-            "attributes": {
-                "generic.attack_damage": -2,
-                "generic.attack_speed": -1.2
-            },
-            "durability": -10,
-            "extract": {
-                "availableTextures": [
-                    "crude",
-                    "metal",
-                    "shiny"
-                ],
-                "durability": 0.5,
-                "glyph": {
-                    "textureX": 176
-                },
-                "magicCapacity": 1,
-                "models": [
-                    {
-                        "location": "tetra:item/module/double/head/basic_pickaxe/"
-                    }
-                ],
-                "primaryAttributes": {
-                    "generic.attack_damage": 1
-                },
-                "tools": {
-                    "pickaxe_dig": [
-                        1,
-                        0.91
-                    ]
-                }
-            },
-            "key": "basic_pickaxe/",
-            "materials": [
-                "tetra:metal/",
-                "tetra:stone/",
-                "tetra:wood/",
-                "tetra:gem/"
-            ],
-            "tools": {
-                "pickaxe_dig": -1
-            }
+  "improvements": [
+    "tetra:double/pickaxe/",
+    "tetra:double/shared_head/",
+    "tetra:double/shared/",
+    "tetra:shared/"
+  ],
+  "replace": true,
+  "slots": ["double/head_left", "double/head_right"],
+  "slotSuffixes": ["_left", "_right"],
+  "type": "tetra:multi_major_module",
+  "variants": [
+    {
+      "integrity": -1,
+      "aspects": {
+        "block_breaker": 2,
+        "breakable": 2
+      },
+      "attributes": {
+        "generic.attack_damage": -2,
+        "generic.attack_speed": -1.2
+      },
+      "durability": -10,
+      "extract": {
+        "availableTextures": ["crude", "metal", "shiny"],
+        "durability": 0.5,
+        "glyph": {
+          "textureX": 176
+        },
+        "magicCapacity": 1,
+        "models": [
+          {
+            "location": "tetra:item/module/double/head/basic_pickaxe/"
+          }
+        ],
+        "primaryAttributes": {
+          "generic.attack_damage": 1
+        },
+        "tools": {
+          "pickaxe_dig": [1, 0.91]
         }
-    ]
+      },
+      "key": "basic_pickaxe/",
+      "materials": [
+        "tetra:metal/",
+        "tetra:stone/",
+        "tetra:wood/",
+        "tetra:gem/"
+      ],
+      "tools": {
+        "pickaxe_dig": -1
+      }
+    }
+  ]
 }

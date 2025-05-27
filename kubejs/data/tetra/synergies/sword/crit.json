@@ -1,57 +1,42 @@
 [
-    {
-        "modules": [
-            "sword/saber_blade"
-        ],
-        "moduleVariants": [
-            "sword_socket/socket_emerald"
-        ],
-        "effects": {
-            "criticalStrike": [0,-2]},
-        "visibilityKey": "sword_socket/socket_emerald"
+  {
+    "modules": ["sword/saber_blade"],
+    "moduleVariants": ["sword_socket/socket_emerald"],
+    "effects": {
+      "criticalStrike": [0, -2]
     },
-    {
-        "modules": [
-            "sword/saber_blade"
-        ],
-        "moduleVariants": [
-            "sword_socket/socket_pristine_emerald"
-        ],
-        "effects": {
-            "criticalStrike": [0,-1.5]},
-        "visibilityKey": "sword_socket/socket_pristine_emerald"
+    "visibilityKey": "sword_socket/socket_emerald"
+  },
+  {
+    "modules": ["sword/saber_blade"],
+    "moduleVariants": ["sword_socket/socket_pristine_emerald"],
+    "effects": {
+      "criticalStrike": [0, -1.5]
     },
-    {
-        "modules": [
-            "sword/saber_blade"
-        ],
-        "moduleVariants": [
-            "sword_socket/socket_void_worm_eye"
-        ],
-        "effects": {
-            "criticalStrike": [0,-1.5]},
-        "visibilityKey": "sword_socket/socket_void_worm_eye"
+    "visibilityKey": "sword_socket/socket_pristine_emerald"
+  },
+  {
+    "modules": ["sword/saber_blade"],
+    "moduleVariants": ["sword_socket/socket_void_worm_eye"],
+    "effects": {
+      "criticalStrike": [0, -1.5]
     },
-    {
-        "modules": [
-            "sword/saber_blade"
-        ],
-        "moduleVariants": [
-            "sword_socket/socket_deep_aether_skyjade"
-        ],
-        "effects": {
-            "criticalStrike": [0,-2]},
-        "visibilityKey": "sword_socket/socket_deep_aether_skyjade"
+    "visibilityKey": "sword_socket/socket_void_worm_eye"
+  },
+  {
+    "modules": ["sword/saber_blade"],
+    "moduleVariants": ["sword_socket/socket_deep_aether_skyjade"],
+    "effects": {
+      "criticalStrike": [0, -2]
     },
-    {
-        "modules": [
-            "sword/saber_blade"
-        ],
-        "moduleVariants": [
-            "sword_socket/socket_aquamirae_abyssal_amethyst"
-        ],
-        "effects": {
-            "criticalStrike": [0,-2]},
-        "visibilityKey": "sword_socket/socket_aquamirae_abyssal_amethyst"
-    }
+    "visibilityKey": "sword_socket/socket_deep_aether_skyjade"
+  },
+  {
+    "modules": ["sword/saber_blade"],
+    "moduleVariants": ["sword_socket/socket_aquamirae_abyssal_amethyst"],
+    "effects": {
+      "criticalStrike": [0, -2]
+    },
+    "visibilityKey": "sword_socket/socket_aquamirae_abyssal_amethyst"
+  }
 ]
