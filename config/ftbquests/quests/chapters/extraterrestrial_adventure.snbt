@@ -645,7 +645,16 @@
 		}
 		{
 			dependencies: ["044D8690E93C528B"]
-			icon: "ars_nouveau:glyph_slowfall"
+			description: ["*Falling back into the overworld is disabled right now for mod compatibility"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ars_nouveau:glyph_slowfall"
+			}
 			id: "44CD780823E04634"
 			subtitle: "Bring slow falling and enjoy the scenery"
 			tasks: [{
