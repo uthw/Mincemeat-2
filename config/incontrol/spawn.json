@@ -28,15 +28,15 @@
         "when": "onjoin",
         "dimension": "minecells:black_bridge",
         "result": "allow",
-        "healthmultiply": 4,
-        "damagemultiply": 3
+        "healthmultiply": 5.5,
+        "damagemultiply": 4
     },
     {
         "hostile": true,
         "when": "onjoin",
         "dimension": "minecells:insufferable_crypt",
         "result": "allow",
-        "healthmultiply": 4,
+        "healthmultiply": 4.5,
         "damagemultiply": 3.5
     },
     {
