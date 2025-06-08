@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Dungeon Now Loading Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The Chaos Spawner can only be damaged by traditional attacks after disabling its shields. However, explosions and AoEs like the Void Eruption spell can always damage it."
+    }
+}

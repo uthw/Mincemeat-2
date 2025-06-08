@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Dungeon Now Loading Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The Labyrinth is a massive dungeon with tons of rooms, enemies, and loot. It also has a boss at the bottom, if you can make it there. Pack your best equipment!"
+    }
+}
