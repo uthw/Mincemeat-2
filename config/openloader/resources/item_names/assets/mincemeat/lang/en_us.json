@@ -107,7 +107,6 @@
     "effect.tetra.small_health.description": "Less potent version of absorption.",
     "effect.tetra.suspended.description": "Greatly increases jump height and reduces falling speed.",
     "effect.tetra.mining_speed.description": "Increases mining speed.",
-    "effect.xaerominimap:no_minimap.description": "Hides the minimap from the HUD.",
     "effect.occultism.third_eye.description": "Allows the curious and possibly sickened gourmand to see blocks from another plane.",
     "effect.cold_sweat.chill_description": "Low internal body temperature brings about hypothermia and eventually death if left untreated.",
     "effect.cold_sweat.warmth.description": "High internal body temperature causes fatigue and eventually death not dealt with in time.",
@@ -137,5 +136,7 @@
     "tetra.holo.craft.materials.stat.primary.tooltip": "The material's hardness or sharpness, or the ability to shape this material into something with a hard/sharp edge (determines attack damage)",
     "tetra.holo.craft.materials.stat.secondary.tooltip": "The material's density, rigidity or weight, how much kinetic energy does this carry as it's swung (determines attack speed)",
     "tetra.holo.craft.materials.stat.tertiary.tooltip": "The material's flexibility or tensile strength, how fast does this material spring back when bent (determines secondary effect strength)",
-    "subtitles.celestisynth.sword_clash": "Pulsating attack"
+    "subtitles.celestisynth.sword_clash": "Pulsating attack",
+    "effect.xaerominimap.no_minimap.description": "No access to the minimap in this area.",
+    "effect.xaeroworldmap.no_world_map.description": "No access to the world map in this area."
 }
