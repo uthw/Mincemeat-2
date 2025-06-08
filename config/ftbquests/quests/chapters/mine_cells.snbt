@@ -3,7 +3,15 @@
 	default_quest_shape: ""
 	filename: "mine_cells"
 	group: "2E16C686F58ACDBC"
-	icon: "kubejs:cell"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecells:monster_cell"
+	}
 	id: "6A0C67FD0397CD9C"
 	order_index: 7
 	quest_links: [ ]

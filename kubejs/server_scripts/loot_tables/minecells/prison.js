@@ -7,11 +7,11 @@ ServerEvents.highPriorityData((event) => {
             {
                 rolls: 1,
                 entries: [
-                    {
-                        type: "minecraft:item",
-                        weight: 5,
-                        name: "kubejs:cell", // This replaces all possibility for a weapon to appear in these chests with custom items called cells..
-                    },
+                    // {
+                    //     type: "minecraft:item",
+                    //     weight: 5,
+                    //     name: "kubejs:cell", // This replaces all possibility for a weapon to appear in these chests with custom items called cells..
+                    // },
                 ],
                 // functions: [
                 //     {

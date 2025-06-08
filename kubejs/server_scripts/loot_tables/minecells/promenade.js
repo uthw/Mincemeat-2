@@ -4,11 +4,11 @@ ServerEvents.highPriorityData((event) => {
             {
                 rolls: 1,
                 entries: [
-                    {
-                        type: "minecraft:item",
-                        weight: 3,
-                        name: "kubejs:cell",
-                    },
+                    // {
+                    //     type: "minecraft:item",
+                    //     weight: 3,
+                    //     name: "kubejs:cell",
+                    // },
                 ],
                 conditions: [
                     { condition: "minecraft:random_chance", chance: 0.4 },

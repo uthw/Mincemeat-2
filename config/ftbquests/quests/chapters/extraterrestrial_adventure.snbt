@@ -278,8 +278,16 @@
 			id: "5B9B5EE143598729"
 			tasks: [{
 				count: 4L
-				id: "2F50EC6D82DFE191"
-				item: "kubejs:cell"
+				id: "260A7A22343A69F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecells:monster_cell"
+				}
 				type: "item"
 			}]
 			title: "Collect (Mine) Cells"
