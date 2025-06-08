@@ -135,21 +135,21 @@
     {
         "when": "onjoin",
         "mob": "meetyourfight:bellringer",
-        "healthmultiply": 1.5,
+        "healthmultiply": 1.75,
         "damagemultiply": 1.5,
         "result": "default"
     },
     {
         "when": "onjoin",
         "mob": "meetyourfight:dame_fortuna",
-        "healthmultiply": 1.55,
+        "healthmultiply": 2,
         "damagemultiply": 2,
         "result": "default"
     },
     {
         "when": "onjoin",
         "mob": "meetyourfight:rosalyne",
-        "healthmultiply": 1.35,
+        "healthmultiply": 2,
         "damagemultiply": 1.75,
         "result": "default"
     },
