@@ -1,7 +1,34 @@
 {
-  "replace": false,
-  "values": [
-    "minecraft:villager",
-    "minecraft:wandering_trader"
-  ]
+    "replace": false,
+    "values": [
+        "minecraft:villager",
+        "minecraft:wandering_trader",
+        "minecraft:wolf",
+        "dummmmmmy:target_dummy",
+        "irons_spellbooks:summoned_polar_bear",
+        "irons_spellbooks:summoned_skeleton",
+        "irons_spellbooks:summoned_vex",
+        "irons_spellbooks:summoned_zombie",
+        "traveloptics:summoned_aptrgangr",
+        "traveloptics:summoned_atlatitan",
+        "traveloptics:summoned_deepling",
+        "traveloptics:summoned_draugr",
+        "traveloptics:summoned_elite_draugr",
+        "traveloptics:summoned_ender_golem",
+        "traveloptics:summoned_forsaken",
+        "traveloptics:summoned_gum_worm",
+        "traveloptics:summoned_hullbreaker",
+        "traveloptics:summoned_ignited_berserker",
+        "traveloptics:summoned_ignited_revenant",
+        "traveloptics:summoned_kobolediator",
+        "traveloptics:summoned_koboleton",
+        "traveloptics:summoned_magnetron",
+        "traveloptics:summoned_royal_draugr",
+        "traveloptics:summoned_the_prowler",
+        "traveloptics:summoned_the_watcher",
+        "traveloptics:summoned_tremorsaurus",
+        "traveloptics:summoned_vallumraptor",
+        "traveloptics:summoned_vesper",
+        "traveloptics:summoned_wadjet"
+    ]
 }
