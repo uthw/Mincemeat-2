@@ -238,11 +238,7 @@ ServerEvents.recipes((event) => {
                     "{AssignedColor:0.7f}"
                 ).strongNBT(),
             ],
-        ],
-        [
-            "9x traveloptics:celestial_fragment",
-            ["traveloptics:celestial_shard"],
-        ],
+        ]
     ];
 
     recipes.forEach((recipe) => {
