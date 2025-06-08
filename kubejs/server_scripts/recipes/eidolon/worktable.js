@@ -1,3 +1,5 @@
+// TODO Delete this file as it's no longer needed due to mine cells adding its own recipe system
+
 ServerEvents.recipes((event) => {
     // event.custom()
     let recipes = [
@@ -7,7 +9,7 @@ ServerEvents.recipes((event) => {
             pattern: ["BCB", "BCB", " D "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "forbidden_arcanus:dark_rune",
                 C: "aquaculture:neptunium_ingot",
                 D: "blue_skies:lunar_stick",
@@ -18,7 +20,7 @@ ServerEvents.recipes((event) => {
             pattern: [" BC", "BC ", "D  "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "endermanoverhaul:summoner_pearl",
                 C: "irons_spellbooks:arcane_ingot",
                 D: "#forge:rods/wooden",
@@ -29,7 +31,7 @@ ServerEvents.recipes((event) => {
             pattern: [" BC", " B ", " D "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "minecraft:copper_ingot",
                 C: "minecraft:iron_ingot",
                 D: "thermal:rubber",
@@ -40,7 +42,7 @@ ServerEvents.recipes((event) => {
             pattern: [" BC", " CB", "D  "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "undergarden:froststeel_ingot",
                 C: "#forge:ingots/brass",
                 D: "spartanweaponry:pole",
@@ -51,7 +53,7 @@ ServerEvents.recipes((event) => {
             pattern: ["  B", " B ", "C  "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "minecraft:iron_ingot",
                 C: "#forge:rods/wooden",
             },
@@ -61,7 +63,7 @@ ServerEvents.recipes((event) => {
             pattern: ["  B", " BB", "CD "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "#forge:ingots/silver",
                 C: "aether:skyroot_stick",
                 D: "forbidden_arcanus:deorum_ingot",
@@ -72,7 +74,7 @@ ServerEvents.recipes((event) => {
             pattern: [" B ", " D ", " C "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "thermal:cinnabar",
                 C: "#forge:rods/wooden",
                 D: "celestisynth:celestial_core_heated",
@@ -83,7 +85,7 @@ ServerEvents.recipes((event) => {
             pattern: [" B ", "BCB", " B "],
             reagents: "AAAA",
             key: {
-                A: "kubejs:cell",
+                A: "minecells:monster_cell",
                 B: "ars_nouveau:source_gem",
                 C: "aquamirae:esca",
             },
@@ -117,7 +119,7 @@ ServerEvents.recipes((event) => {
         //     pattern: [" bc", "bc ", "d  "],
         //     reagents: "aaaa",
         //     key: {
-        //         a: { item: "kubejs:cell" },
+        //         a: { item: "minecells:monster_cell" },
         //         b: { item: "endermanoverhaul:summoner_pearl" },
         //         c: { item: "irons_spellbooks:arcane_ingot" },
         //         d: { tag: "forge:rods/wooden" },
