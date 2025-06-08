@@ -59,7 +59,7 @@
 	"voidBlossomConfig": {
 		"health": 500.0,
 		"armor": 6.0,
-		"attack": 16.0,
+		"attack": 12.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1462
 	},
