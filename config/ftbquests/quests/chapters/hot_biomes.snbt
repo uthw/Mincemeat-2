@@ -1196,9 +1196,9 @@
 		}
 		{
 			description: [
-				"Zebras are neutral mobs found in Savannas. Regardless of what color you think they are, they can be tamed in the same manner as horses. "
+				"Zebras are neutral mobs found in Savannas. Regardless of what color you think they are, they can be tamed in the same manner as horses. Be careful, since the zebra will charge you if you fail to tame it first try."
 				""
-				"Zebras have the added effect of being able to commit vehicular homicide when they run into something, in case you were planning on doing that in this world. "
+				"Zebras have the added effect of being able to commit battery by proxy when they run into something, in case you were planning on doing that in this world. "
 			]
 			id: "371B71CD2C014D4D"
 			invisible: true
