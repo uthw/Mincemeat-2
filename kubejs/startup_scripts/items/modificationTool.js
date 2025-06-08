@@ -179,11 +179,11 @@ ItemEvents.modification((event) => {
         },
         {
             name: "dungeonnowloading:life_stealer",
-            damage: 9
+            damage: 5.5
         },
         {
             name: "dungeonnowloading:spawner_sword",
-            damage: 9
+            damage: 11
         },
         {
             name: "celestisynth:crescentia",
