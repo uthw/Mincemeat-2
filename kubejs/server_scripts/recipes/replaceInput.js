@@ -1491,7 +1491,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "irons_spellbooks:lesser_spell_slot_upgrade" },
             "irons_spellbooks:hogskin",
-            "traveloptics:celestial_fragment",
+            "eidolon:tattered_cloth",
         ],
         [
             { output: "irons_spellbooks:druidic_spell_book" },
