@@ -1521,6 +1521,53 @@ ServerEvents.recipes((event) => {
                 C: "create:experience_nugget",
                 D: "alexsmobs:skreecher_soul"
             }
+        ],
+        [
+            "enigmaticlegacy:enchantment_transposer",
+            [" A ", "ABA", " A "],
+            {
+                A: "apotheosis:improved_scrap_tome",
+                B: "reliquary:glowing_water"
+            }
+        ],
+        [
+            "l2artifacts:random_1",
+            [" A ", "A A", " A "],
+            {
+                A: "traveloptics:celestial_fragment"
+            }
+        ],
+        [
+            "l2artifacts:random_2",
+            [" A ", "ABA", "AAA"],
+            {
+                A: "traveloptics:celestial_fragment",
+                B: "apotheosis:common_material"
+            }
+        ],
+        [
+            "l2artifacts:random_3",
+            ["AAA", "ABA", "AAA"],
+            {
+                A: "traveloptics:celestial_fragment",
+                B: "apotheosis:uncommon_material"
+            }
+        ],
+        [
+            "l2artifacts:random_4",
+            ["ABA", "AAA", "ABA"],
+            {
+                A: "traveloptics:celestial_fragment",
+                B: "apotheosis:rare_material"
+            }
+        ],
+        [
+            "l2artifacts:random_5",
+            ["AAA", "ABA", "AAA"],
+            {
+                A: "traveloptics:celestial_fragment",
+                B: "apotheosis:epic_material"
+            }
         ]
     ];
 
