@@ -8,6 +8,9 @@ const fiftyPercent =
 const seventyFivePercent = "blacksmith_gavel|montus_strike|troll_weapon";
 const critTen = "katana|saber|dagger|rapier|magicbane|divider";
 
+const toolFactor = 2;
+const armorFactor = 10;
+
 // Items that this script will not touch
 let blacklist = [
     "bosses_of_mass_destruction:earthdive_spear", // Crashes
@@ -60,10 +63,10 @@ ItemEvents.modification((event) => {
                         .getAttributes("generic.armor");
 
                     if (armorAttribute[0]) {
-                        tool.maxDamage *= 4;
+                        tool.maxDamage *= armorFactor;
                         // console.log(`${tool.id} is armor`);
                     } else {
-                        tool.maxDamage *= 2;
+                        tool.maxDamage *= toolFactor;
                         // console.log(`${tool.id} is not armor`);
                     }
                 } catch (error) {
