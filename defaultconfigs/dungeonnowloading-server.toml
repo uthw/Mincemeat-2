@@ -13,14 +13,14 @@
 	multiplayer_boss_health_scale = 0.5
 	#Multiplies the boss attack by this value per additional player.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	multiplayer_boss_attack_scale = 0.0
+	multiplayer_boss_attack_scale = 0.25
 	#Whether the boss drops loot for all the players that fought the boss.
 	toggle_multiplayer_boss_loot = true
 
 [boss-scaling]
 	#Multiplies the boss health by this value.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	boss_health_scale = 1.6
+	boss_health_scale = 2.5
 	#Multiplies the boss attack damage by this value.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	boss_damage_scale = 1.6
