@@ -71,6 +71,41 @@ let tweaks = [
         attributeName: "minecraft:generic.attack_damage",
         value: 9, // originally 7
     },
+    {
+        itemName: "blue_skies:bluebright_spear",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10, // originally 3
+    },
+    {
+        itemName: "blue_skies:starlit_spear",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10, // originally 3
+    },
+    {
+        itemName: "blue_skies:frostbright_spear",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10.5, // originally 3
+    },
+    {
+        itemName: "blue_skies:lunar_spear",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10, // originally 3
+    },
+    {
+        itemName: "blue_skies:dusk_spear",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 9, // originally 3
+    },
+    {
+        itemName: "blue_skies:comet_spear",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10.5, // originally 3
+    },
+    {
+        itemName: "blue_skies:soulbound_spear",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 12, // originally 3
+    }
 ];
 
 let $AttributeModifier = Java.loadClass(
