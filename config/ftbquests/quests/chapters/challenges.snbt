@@ -428,8 +428,8 @@
 				}
 			]
 			title: "Accessories Collection"
-			x: -3.0d
-			y: 0.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -554,8 +554,8 @@
 				}
 			]
 			title: "Powerful Accessories Collection"
-			x: -4.0d
-			y: 0.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -595,14 +595,16 @@
 				"3AA03B67C0184E0B"
 				"2D498CC9F5993FB0"
 			]
-			description: [
-				"To track progress for this quest, see the "
-				""
-				"{ \"text\": \"Aquatic Creatures\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59B5C63E1263F1E6\" } }"
-				""
-				"chapter"
-			]
-			icon: "alexsmobs:large_catfish_bucket"
+			description: ["[ \"To track progress for this quest, see the \", { \"text\": \"Aquatic Creatures\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3CCF86851C135BA3\" } }, \" chapter\" ]"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexsmobs:large_catfish_bucket"
+			}
 			id: "42976545EE8CAB9F"
 			rewards: [
 				{
@@ -703,8 +705,8 @@
 				}
 			]
 			title: "Booster Collection"
-			x: -2.0d
-			y: 0.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -743,8 +745,8 @@
 				type: "checkmark"
 			}]
 			title: "100% Majrusz's Accessories"
-			x: -3.0d
-			y: 1.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -3063,6 +3065,7 @@
 				"&lYou can click on the gem to view their stats.&r"
 			]
 			id: "0D2B37062D31582A"
+			subtitle: "They aren't rocks, they're minerals"
 			tasks: [
 				{
 					id: "162D34FED605B566"
@@ -3891,7 +3894,7 @@
 				""
 				"Descending Dawn: Found in Aether Chests"
 				""
-				"A Morning Wish: Obtained by Alter Enchanting Otherside"
+				"A Morning Wish: Obtained by Altar Enchanting Otherside"
 				""
 				"Nabooru: Obtained by Alter Enchanting Pigstep"
 				""
@@ -4584,7 +4587,7 @@
 		}
 		{
 			id: "2D305B392622E8A4"
-			subtitle: "Magic stones that telport you"
+			subtitle: "Complete the map"
 			tasks: [
 				{
 					icon: "botania:vivid_grass"
@@ -4643,10 +4646,18 @@
 					type: "structure"
 				}
 				{
-					icon: "minecraft:cracked_stone_bricks"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:cracked_stone_bricks"
+					}
 					id: "3614A734B140975E"
 					structure: "totw_modded:derelict_grass"
-					title: "Broken tower"
+					title: "Broken Tower"
 					type: "structure"
 				}
 				{
@@ -4954,7 +4965,7 @@
 			id: "56E3CD9678AE676A"
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Harry potter quits his job"
+			subtitle: "All these spells and not a single one to make my father come back"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -4972,8 +4983,8 @@
 				value: 1
 			}]
 			title: "Rolled Up Magic Paper Collection"
-			x: -7.5d
-			y: 2.97d
+			x: -7.0d
+			y: 0.9700000000000002d
 		}
 		{
 			description: [
@@ -5020,7 +5031,7 @@
 					id: "3310EB7DA3B570EA"
 					observe_type: 0
 					timer: 0L
-					title: "Soul fire"
+					title: "Soul Fire"
 					to_observe: "minecraft:soul_fire"
 					type: "observation"
 				}
@@ -5035,7 +5046,7 @@
 					id: "5C6F621B43C8164C"
 					observe_type: 0
 					timer: 0L
-					title: "Cupric fire"
+					title: "Cupric Fire"
 					to_observe: "caverns_and_chasms:cupric_fire"
 					type: "observation"
 				}
@@ -5080,7 +5091,7 @@
 					id: "4A5FFEBA82CEF6D3"
 					observe_type: 0
 					timer: 0L
-					title: "Sprit Fire"
+					title: "Spirit Fire"
 					to_observe: "occultism:spirit_fire"
 					type: "observation"
 				}
@@ -5636,8 +5647,8 @@
 				}
 			]
 			title: "Blood Scrolls"
-			x: -5.5d
-			y: 3.5d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			id: "15CFD8039E588275"
@@ -5991,8 +6002,8 @@
 				}
 			]
 			title: "Evocation Scrolls"
-			x: -8.5d
-			y: 1.5d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
 			id: "62CAB25B99701CEA"
@@ -6361,8 +6372,8 @@
 				}
 			]
 			title: "Nature Scrolls"
-			x: -6.5d
-			y: 4.5d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			id: "26AF04DCEDED99C9"
@@ -6757,8 +6768,8 @@
 				}
 			]
 			title: "Fire Scrolls"
-			x: -7.5d
-			y: 1.5d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
 			id: "1FF051FBC7224CDD"
@@ -7055,8 +7066,8 @@
 				}
 			]
 			title: "Holy Scrolls"
-			x: -5.5d
-			y: 2.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			id: "545AF3FE2B54DB33"
@@ -7367,8 +7378,8 @@
 				}
 			]
 			title: "Frost Scrolls"
-			x: -6.5d
-			y: 1.5d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			id: "437E09507C061C8B"
@@ -7695,8 +7706,8 @@
 				}
 			]
 			title: "Lightning Scrolls"
-			x: -8.5d
-			y: 4.5d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
 			description: [""]
@@ -7992,13 +8003,12 @@
 				}
 			]
 			title: "Eldritch Scrolls"
-			x: -9.5d
-			y: 2.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			description: ["Most of these spears are made by making the handles out of various types of sticks from the Everbright and Everdawn."]
 			id: "762CE8F51524471D"
-			subtitle: "Trust me, I would make these not suck if I could"
 			tasks: [
 				{
 					id: "46CCD57056DCFA0E"
@@ -8767,11 +8777,6 @@
 					type: "item"
 				}
 				{
-					id: "470823AF82B6C6F6"
-					item: "sawmill:sawmill"
-					type: "item"
-				}
-				{
 					id: "301362A216F73DCD"
 					item: "computercraft:computer_advanced"
 					type: "item"
@@ -8903,6 +8908,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["Tip: Towers are not the only structures with waystones. You can also find them in villages, Sky Arenas, Strongholds, Castles, and some other structures that're too rare to list here."]
 			id: "05C388A2AF035AD5"
 			rewards: [{
 				id: "68D69625F57A2F30"
@@ -9409,8 +9415,8 @@
 				}
 			]
 			title: "Aqua Scrolls"
-			x: -9.5d
-			y: 3.5d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			id: "13126F2ACB305B1E"
@@ -9886,8 +9892,2279 @@
 				}
 			]
 			title: "Ender Scrolls"
-			x: -7.5d
-			y: 4.5d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Henge Journals: Snifferhenge suspicious gravel"
+				""
+				"Train Journals: Train Ruins suspicious gravel"
+				""
+				"Labrynth Journals: Labrynth suspicious sand"
+			]
+			id: "724A9EB10E5BA4B1"
+			tasks: [
+				{
+					id: "4749DA217BE6DCA2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Henge Journal 1/3\"}"
+							}
+							pages: ["{\"extra\":[{\"text\":\"§kREDACTED\"},{\"text\":\"§l’s Journal\\nDay 202\\n\\n\"},{\"text\":\"I stumbled across these myserterious rocks during my travels. \"},{\"text\":\"There's remains of an ancient civilization in these lands...\"}],\"text\":\"\"}"]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2DCCA96BC4F6014D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Henge Journal 2/3\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§kREDACTED\"},{\"text\":\"§l’s Journal\\nDay 209\\n\\n\"},{\"text\":\"I've been investigating these ruins for a few days now. \"},{\"text\":\"I found the secret...\"}],\"text\":\"\"}"
+								"{\"text\":\"Create a spark of light...\"}"
+							]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0F1BB30A911C059D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Henge Journal 3/3\"}"
+							}
+							pages: ["{\"extra\":[{\"text\":\"Give me food, and I will live.\\n\"},{\"text\":\"Give me water, and I will die.\\n\"},{\"text\":\"What am I?\"}],\"text\":\"\"}"]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1DFD2D5B32BD6CE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Train Journal 1\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lAll aboard!!\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"I just got onto my first train! \"},\r\n                {\"text\":\"I hear they can travel faster than the fastest horse!\"}\r\n              ]"
+								"[\r\n                {\"text\":\"It's amazing a humble farmer can afford to travel so elegantly! I'm headed to a castle nearby \"},\r\n                {\"text\":\"to sell my exotic crops. I hope they like beetroot!\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "525414C05D438735"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Train Journal 2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lConductor's Log\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"Today is my first day as the conductor of this mighty fine train! \"},\r\n                {\"text\":\"All I do is stop and start this thing, it follows the tracks on its own.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"How hard can it be?\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "64E6D712A4908C3E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Train Journal 3\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lDecommissioned\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"This train is being decomissioned. This will be my last time riding it. The \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\" have invaded these lands...\"}\r\n              ]"
+								"[\r\n                {\"text\":\"We are not safe anymore.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5A3639406BB7104B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Salazar"
+							display: {
+								Name: "{\"text\":\"Labyrinth Journal 1\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§lTraps!\\n\"},{\"text\":\"~~~~~~~~~\\n\"},{\"text\":\"There are booby traps all over the place in this thing! \"},{\"text\":\"I almost experienced a fiery end after opening a trapped chest. \"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"But my curiosity is getting the better of me. \"},{\"text\":\"I suppose I'll trek on.\\n\"}],\"text\":\"I'm not sure this is worth the risk... \"}"
+								"{\"text\":\"-Salazar, Dungeon Buster Extraordinaire.\"}"
+							]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "529A3792ADAB480E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Salazar"
+							display: {
+								Name: "{\"text\":\"Labyrinth Journal 2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lSecret rooms!\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"When I'm not running for my life from mobs, I've been checking this place for secret rooms. \"},\r\n                {\"text\":\"I've found one so far. In the library there was a hidden crank that opens a room of gold.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"-Salazar, Dungeon Buster Extraordinaire.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2F4F3CE6B29AA5FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Salazar"
+							display: {
+								Name: "{\"text\":\"Labyrinth Journal 3\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lThe End\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"I've had to hide from the monsters that lurk in this thing. I can still hear the groaning outside. \"},\r\n                {\"text\":\"I think if I don't leave.. this will be the end of me.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"If you're reading this, keep going! Break the curse! \"},\r\n                {\"text\":\"Find the treasure!\"}\r\n              ]"
+								"[\r\n                {\"text\":\"-Salazar, Dungeon Buster Extraordinaire.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Archaeology Loremaster"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&7There are likely more of these that I just haven't found yet, tell me if you find any books not covered by this quest."
+				""
+				"&7Some structures also have books and quills with text. You only need to find signed books for this challenge."
+				""
+				"Wisdom: Tree of Wisdom chests"
+				""
+				"[ \"Ancient Factory Journals: \", { \"text\": \"Ancient Factory\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C9813AF465AC6A3\" } }, \" chests\" ]"
+				""
+				"[ \"Cursed Pyramid Journals: \", { \"text\": \"Cursed Pyramid\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48B996BDDEA77AF2\" } }, \" chests\" ]"
+				""
+				"Research Journal: on a lectern in the Evoker Fort. Translate this item by giving it to the wandering trader in the fortress"
+				""
+				"Reality and Regret: currently unknown. Might be unobtainable"
+				""
+				"The Sunken Fate: on a lectern in the Aquamancer's Tower"
+				""
+				"Logbook: on a lectern in Ice Maze vindicator ships"
+			]
+			id: "6387A25BB246D61C"
+			tasks: [
+				{
+					id: "4B0D72B6DF4FC74A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 1\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"The airspeed velocity of an unladen swallow \"},\r\n                {\"text\":\"is roughly 20.1 miles per hour.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0E3EA47509816B39"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 2\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"The entwives are at\"},\r\n                {\"text\":\" your mom's house.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "487965692470FC3E"
+					item: {
+						Count: 4
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 3\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"The key to understanding Tenet \"},\r\n                {\"text\":\"is to watch it inverted.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2A5ABA6F9B7AD797"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 4\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"Craisin will stop drying cranberries when \"},\r\n                {\"text\":\"he hits 1 million subs on YouTube.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4EA0BB462738D224"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 5\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"Hermitcraft Season 89 will be the last.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "288A688C489CF13D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 6\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"If you squint hard enoguh \"},\r\n                {\"text\":\"everything looks the same.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "168925F08BFE3CA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 7\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"McDonalds chicken nuggets \"},\r\n                {\"text\":\"are made of hamsters.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "290C5EC749DA2DC2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 8\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"You will die at age \"},\r\n                {\"text\":\"§k999\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1515DA81FADFCACE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 9\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"Next year twitter will be renamed to \"},\r\n                {\"text\":\"§kZ\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "57667025F2A4B9D3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Wisdom 10\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"Eating cheetos with chopsticks \"},\r\n                {\"text\":\"prevents cheesy hands.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "474F5B23C6F869B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "CraisinLord"
+							display: {
+								Name: "{\"text\":\"Ancient Factory Journal 1\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lOrigins of the Factory\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"In an age long forgotten, the Ancients sought perfection. Their machines were their legacy, built to last eternity, yet bound by time’s inevitable decay. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"Deep beneath the earth, this factory was their grandest creation—a place where mind and metal fused. Here, the Harbinger was forged, not as a mere tool but as a guardian of their secrets. They revered its power, fearing it as much as they admired it.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"When the Ancients vanished, they left the Harbinger behind to ensure no unworthy soul would uncover their knowledge. Beware, traveler, for their legacy was never meant for mortal hands.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6E2CC85A45BCB7EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "CraisinLord"
+							display: {
+								Name: "{\"text\":\"Ancient Factory Journal 2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lJournal of a Trespasser\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"Day 17. I’ve breached the walls of the factory, though it nearly cost me my life. The Watchers—they’re everywhere. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"They see everything, their unblinking eyes following my every move. I’ve managed to evade them, but the sound of grinding gears haunts my steps.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"I found the Prowler in a darkened chamber. It attacked without hesitation, relentless and unyielding. I barely survived.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"At the heart of the factory lies the Harbinger. It sleeps now, but its presence fills the air with dread. If I don’t return, heed this warning: Do not awaken the Harbinger. The Ancients created it to protect their treasures, but it has no loyalty to the living.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "19854B51A6A6F047"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "CraisinLord"
+							display: {
+								Name: "{\"text\":\"Ancient Factory Journal 3\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lSecrets of the Hidden Room\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"Few who venture into the Ancient Factory uncover its hidden chamber, yet its secrets remain locked behind clever mechanisms. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"The Ancients, ever wary of intruders, devised a test for those who sought their greatest treasures. To unlock the chamber, one must find and flick two levers within the factory.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Only then can the final step be completed: pressing the button to the left of the Harbinger's chamber. It is said that the mechanism activates in perfect harmony, revealing the treasures hidden behind cold, unyielding walls.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"But beware—the Harbinger stirs when its domain is disturbed. Complete the puzzle quickly, or risk awakening the factory's guardian before you are prepared.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "287910C19AC8233E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Salazar"
+							display: {
+								Name: "{\"text\":\"Cursed Pyramid Journal 1\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lThe First Step\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"I've just set foot in the Cursed Pyramid. It looms large and foreboding, casting shadows that swallow even the brightest lights. The first sign of trouble came quickly. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"The Koboleton. Small skeletal dinosaurs, seemingly harmless but deadly in swarms. I’ve managed to hold onto a few tools, but I have to be careful. The pyramid is full of traps—deadly, cunning, and relentless.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"-Salazar, Dungeon Buster Extraordinaire.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "337EC692E235D3C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Salazar"
+							display: {
+								Name: "{\"text\":\"Cursed Pyramid Journal 2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lThe Flame Traps\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"The pyramid seems to be alive, shifting and changing with every step. The traps... they are getting worse. Flame traps are set everywhere, and I’ve narrowly escaped a pillar of flames more than once. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"I wish I could take the credit for avoiding them, but it was pure luck that kept me safe. Each floor seems more treacherous than the last. I’ve learned that speed and careful timing are the only way to survive. I must keep moving forward. There’s no turning back now.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"I can’t afford to be complacent. Each trap is designed to stop those like me—dungeon explorers who think they can simply plunder the pyramid’s riches. But I’ve faced worse.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"-Salazar, Dungeon Buster Extraordinaire.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "38270D03C6C1EE96"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Salazar"
+							display: {
+								Name: "{\"text\":\"Cursed Pyramid Journal 3\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lThe Ancient Remnant\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"I stand before the Ancient Remnant. A skeletal dinosaur, larger than any creature I’ve ever faced. Its power is overwhelming, and I can feel the air crackling with energy as it moves. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"I’ve fought many monsters in my career, but this... this is something else. I’ve already lost so much—my weapons, my armor—but I can’t turn back now. The Remnant must fall, and I will be the one to defeat it.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"-Salazar, Dungeon Buster Extraordinaire.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6C0753D109F441E1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Archevoker"
+							display: {
+								Name: "{\"translate\":\"item.irons_spellbooks.archevoker_log\"}"
+							}
+							pages: [
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"2:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\",\"font\":\"illageralt\"}]"
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"14:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\",\"font\":\"illageralt\"}]"
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"31:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\",\"font\":\"illageralt\"}]"
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"73:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\",\"font\":\"illageralt\"}]"
+							]
+							resolved: 1b
+							title: ""
+							untranslatedLogbook: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1232442ADE774178"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Archevoker"
+							display: {
+								Name: "{\"translate\":\"item.irons_spellbooks.translated_archevoker_log\"}"
+							}
+							pages: [
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"2:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\"}]"
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"14:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\"}]"
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"31:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\"}]"
+								"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\"},{\"text\":\"73:\\n\\n\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\"}]"
+							]
+							resolved: 1b
+							title: ""
+							translatedLogbook: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0947712A691C2EF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown Mage"
+							filtered_title: "Reality"
+							pages: ["{\"text\":\"The world was changing. Machines, steam, metal—people believed that was the future. They laughed at magic, called it a child's story. But I knew better. I swore I would prove them wrong.\"}"]
+							resolved: 1
+							title: "Reality"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2356985CD4F123B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown Mage"
+							filtered_title: "Regret"
+							pages: ["{\"text\":\"No one ever showed me her body. No one ever told me she was gone. I know she is out there, somewhere. And if I have to tear the End apart to find her, I will...\"}"]
+							resolved: 1
+							title: "Regret"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6AE8A827A4F56D54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Aquamancer"
+							filtered_title: "The Sunken Fate"
+							pages: [
+								"{\"text\":\"Day??\"}"
+								"{\"text\":\"The water calls to me. It bends to my will, yet each spell takes a piece of me I cannot reclain. My skin is changing, pale and slick like the creatures of the abyss. My hand, once stready now tremble with an unfamiliar strenght that doesn't feel my own.\"}"
+								"{\"text\":\"I've seen them before -- the Deeplings, lurking in the sunken ruins, their forms cloaked in the deep hues of the abyss. They move with purpose, as though driven by something unseen. \\n\\nSomeone unseen!\"}"
+								"{\"text\":\"Who are they, or what is it, that commands them? I cannot say. But I know they use the same magic that now courses through my veins. The way they channel the water, bend it to their will -- it is too familiar. Too much like my own.\\n\\nWere they like me once? Human?\"}"
+								"{\"text\":\"I try to stop!\\nI try to resist!\\n\\nBut the water -- my water -- is part of me now.\\n\\nWithout it, I am nothing.\\n\\nWith it, I am doomed.\"}"
+								"{\"text\":\"I don't know how much longer I can write. But if you find this... know that the price of power it steep.\\n.\\n.\\n.\\n.\\n\\nThe Abyss always takes what it is owed. \\n\\n         - Aquamancer\"}"
+							]
+							resolved: 1
+							title: "The Sunken Fate"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0F99DCE819958874"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\\n\\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Adventuring Loremaster"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"724A9EB10E5BA4B1"
+				"6387A25BB246D61C"
+				"64B5404C12DECD0D"
+			]
+			id: "02FBEB800AAE7360"
+			subtitle: "If you were a sage, you'd be very inspired"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/root"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hexcasting:spellbook"
+				}
+				id: "2F0DCBCC7F831ACF"
+				title: "True Loremaster"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"These books are found across the many rooms in the stronghold."
+				""
+				"Some books, like the Scripture of the Dragon, have multiple editions which you'll have to collect to complete the quest."
+			]
+			id: "64B5404C12DECD0D"
+			tasks: [
+				{
+					id: "57B52B4692F092D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Chainmail Armor\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§lChainmail Armor\\n\"},{\"text\":\"§lBy \"},{\"text\":\"§kREDACTED\\n\\n\"},{\"text\":\"Chainmail armor is a lightweight, slightly weaker alternative to iron armor. \"},{\"text\":\"It is made primarily from iron.\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"§kiron and form it into a chain shape. §kYou then sow the small chains together around a mold of a body. \"}],\"text\":\"§kTo mold chainmail armor, you take the \"}"
+							]
+							resolved: 1b
+							title: "Chainmail"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "277C4AE2FB53A69B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Metal Press Manual\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lMetal Press Manual\n\"},\r\n                {\"text\":\"§lBy \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"Operating the metal press is rather straightforward. \"},\r\n                {\"text\":\"You place the ingot of the desired material onto the depot, and turn the crank to compress the ingot.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Be careful not to crush any undesired materials or even yourself! It’ll hurt!\"}\r\n              ]"
+							]
+							title: "Press"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "264E3F29B42E93A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Ores: The All Inclusive Guide\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lOres: The All Inclusive Guide\n\"},\r\n                {\"text\":\"§lBy \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"Ores come in two main varieties, stone and deepslate. \"},\r\n                {\"text\":\"Stone ores are found higher up underground while deepslate ores are found deep underground. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"Each of these ores come in many varieties, including coal, iron, copper, emerald, redstone, gold, diamond, and zinc. \"},\r\n                {\"text\":\"In this guide, we will examine each type of ore and where you can find them.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Coal is found in large clumps in higher elevations, particularly on surfaces of mountaintops.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Iron, zinc and copper are found in most elevations with the best rates at medium heights\"},\r\n                {\"text\":\"Iron can also be found in very large veins with tuff, and copper with granite.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Emerald is found almost exclusively in mountainous areas in mid range elevations. \"},\r\n                {\"text\":\"Deepslate emerald ore is one of the rarest things you can obtain.\n\n\"},\r\n                {\"text\":\"Redstone ore glows when touched, and is found deep underground.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Gold ore is found deep underground in most biomes, \"},\r\n                {\"text\":\"but in the Mesa biome it can be found in large quantities near the surface.\n\n\"},\r\n                {\"text\":\"Diamonds are the most valuable ore and found in small quantities deep underground.\"}\r\n              ]"
+							]
+							title: "Ores"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6934F4F20280E731"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Lava Fan Manual\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§lLava Fan Manual\n\"},\r\n                {\"text\":\"§lBy \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"To operate the lava fan, place the item you want smelted into the depots and turn the crank. \"},\r\n                {\"text\":\"The fans will blow the heat of the lava onto the materials, smelting them into the desired materials.\"}\r\n              ]"]
+							title: "Fan"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5EA7B92E5040B37F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #1\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 164\n\n\"},\r\n                {\"text\":\"I just arrived to the Stronghold from \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\". I was warmly welcomed right away. \"},\r\n                {\"text\":\"This mighty fortress provides much needed protection from the dangers of the \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\".\"}\r\n              ]"
+								"[\r\n                {\"text\":\"However, they won't stop talking about The One Above All. \"},\r\n                {\"text\":\"They are very adament I believe in their cause.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "522A86EAF9A10BB4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lAdventurer\"},\r\n                {\"text\":\"§l’s Journal\nDay 162\n\n\"},\r\n                {\"text\":\"I am visiting this mighty underground fortress. \"},\r\n                {\"text\":\"It is an technological and architectural wonder.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"I went through a lot of interrogation to get in. They have a lot of security measures. \"},\r\n                {\"text\":\"I wonder what they're so worried about on the surface.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3695F7BAA20DFE5B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Priest"
+							display: {
+								Name: "{\"text\":\"Scripture of the Dragon\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§lThe Scripture\\n\\n\"},{\"text\":\"We have one goal: to\\n\"},{\"text\":\"breath beauty and life\\n\"},{\"text\":\"into this world\\n\"},{\"text\":\"through building. Our\\n\"},{\"text\":\"current form limits\\n\"},{\"text\":\"our ability to fulfill\\n\"},{\"text\":\"our imaginations. To\\n\"},{\"text\":\"realize our full\\n\"},{\"text\":\"potential, we must\\n\"},{\"text\":\"achieve \"},{\"text\":\"§oThe End \"},{\"text\":\"form.\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"form is the next step in our evolution.\\n\\n\"},{\"text\":\"It is our full potential realized. \"},{\"text\":\"The bounds of our mortal bodies would be lifted, we would be free to build. \"},{\"text\":\"§oThe End \"},{\"text\":\"will be granted to us by \"},{\"text\":\"§oThe One Above All. \"},{\"text\":\"She need us, her disciples, to fullfill her goals.\"}],\"text\":\"§oThe End \"}"
+								"{\"extra\":[{\"text\":\"§oThe One Above All \"},{\"text\":\"will snuff out the fires of the forest...\\n\\n\"},{\"text\":\"She will cease all famine...\\n\\n\"},{\"text\":\"She will save the sick and needy...\"}],\"text\":\"With our help,\\n\\n\"}"
+								"{\"extra\":[{\"text\":\"§kundead\"},{\"text\":\"from rising...\\n\\n\"},{\"text\":\"She will elevate us to new levels\\n\\n\"},{\"text\":\"Together, we will transform this world into a sanctuary for all, \"},{\"text\":\"free of violence, suffering, and \"},{\"text\":\"§kREDACTED\"}],\"text\":\"She will stop the\\n\"}"
+								"{\"extra\":[{\"text\":\"§oWe have already seen it in the rocks from the sky.\"}],\"text\":\"§nWe know this.\\n\\n\"}"
+								"{\"extra\":[{\"text\":\"§oWith her thunderous roar she waits for us.\\n\\n\"},{\"text\":\"§oWith her magical breath she waits for us.\\n\\n\"},{\"text\":\"§oFlying high in the sky she waits for us.\"}],\"text\":\"§oShe waits for us.\\n\\n\"}"
+								"{\"text\":\"And we will find her.\"}"
+							]
+							resolved: 1b
+							title: "Scripture"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2E27A80C702CC105"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Meeting Record #2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lMeeting Record\nDay 306\n\n\"},\r\n                {\"text\":\"§lMeeting led by: \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"§lTopic discussed: The Expedition\"}\r\n              ]"
+								"[\r\n                {\"text\":\"During this all important meeting, we decided to send \"},\r\n                {\"text\":\"§kREDACTED, REDAC, and REDACTE\"},\r\n                {\"text\":\" through the mysterious device locked away deep within the Stronghold \"},\r\n                {\"text\":\"in hopes we may finally find \"},\r\n                {\"text\":\"§oThe One Above All \"},\r\n                {\"text\":\"awaiting us there. \"}\r\n              ]"
+							]
+							title: "Meeting"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2C0BAD30BF1679BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #5\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 202\n\n\"},\r\n                {\"text\":\"An incredible doorway was just installed in the Dining Hall. \"},\r\n                {\"text\":\"It spins open upon stepping on the plate outside of the door. \"},\r\n                {\"text\":\"I believe it was designed by \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\".\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0DB30382FA28A5EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #20\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 144\n\n\"},\r\n                {\"text\":\"Someone stole all the sweets from the kitchen! \"},\r\n                {\"text\":\"Yesterday they were there and today every last one is gone.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Not even the pies were left... this is a sad day.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "70843DA182130A46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Meeting Record #4\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lMeeting Record\nDay 85\n\n\"},\r\n                {\"text\":\"§lMeeting led by: \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"§lTopic discussed: The Death of \"},\r\n                {\"text\":\"§kREDACTED\"}\r\n              ]"
+								"[\r\n                {\"text\":\"After \"},\r\n                {\"text\":\"§kREDACTED \"},\r\n                {\"text\":\"was pushed in the lava in a trip to the Nether dimension, \"},\r\n                {\"text\":\"we think it was most likely that \"},\r\n                {\"text\":\"§kREDAC\"},\r\n                {\"text\":\" was the one who pushed them. \"},\r\n                {\"text\":\"They are being sent to the prison as we speak.\"}\r\n              ]"
+							]
+							title: "Meeting"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1861A942B359F2C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #6\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 132\n\n\"},\r\n                {\"text\":\"I caught little \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"stealing the pies from the kitchen again! \"},\r\n                {\"text\":\"Kids will be kids I suppose.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5E193E7F4A378B54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Meeting Record #1\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lMeeting Record\nDay 63\n\n\"},\r\n                {\"text\":\"§lMeeting led by: \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"§lTopic discussed: Grand Library\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Today the topic of the newly built Grand Library was discussed. \"},\r\n                {\"text\":\"We decided it's use will consist of research, storing books, and in the second room we will study \"},\r\n                {\"text\":\"§kthe asteroid and the Mysterious materials inside of it\"}\r\n              ]"
+							]
+							title: "Meeting"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "464496B7B1D5D903"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Meeting Record #3\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lMeeting Record\nDay 309\n\n\"},\r\n                {\"text\":\"§lMeeting led by: \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"§lTopic discussed: The Infection\"}\r\n              ]"
+								"[\r\n                {\"text\":\"After the deaths of \"},\r\n                {\"text\":\"§kREDACTED and REDACTE\"},\r\n                {\"text\":\" we decided to quarantine \"},\r\n                {\"text\":\"§kREDAC\"},\r\n                {\"text\":\" in the prison. \"},\r\n                {\"text\":\"We hope this can save the rest of us from the infection that consumed the other victims.\"}\r\n              ]"
+							]
+							title: "Meeting"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2BDE181276D588C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #19\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 164\n\n\"},\r\n                {\"text\":\"While eating in the Dining Hall today I saw \"},\r\n                {\"text\":\"§kREDACTED \"},\r\n                {\"text\":\"sitting on the side of the room alone. \"},\r\n                {\"text\":\"I turn around to focus on my meal and the next thing I know they're gone!\"}\r\n              ]"
+								"[\r\n                {\"text\":\"I swear I heard a door open near the left side of the room...\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "00BBE293262C4941"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Geodes and Corundums\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lGeodes and Corundums\n\"},\r\n                {\"text\":\"By §kREDACTED\n\"},\r\n                {\"text\":\"Geodes and Corundums are glowing, colorful rocks found in caves with magic properties. In this text, we will examine the properties of each of them.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lGeodes\n\"},\r\n                {\"text\":\"Geodes are spherical rocks found underground. They typically have 3 layers. The outer layer is composed of dark gray smooth basalt. \"},\r\n                {\"text\":\"The 2nd layer is made of a white rock, calcite. The inside is laced with amethyst, a purple gemstone.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Amethysts are a purple glowing crystal that can sprout amethyst clusters. Amethyst clusters grow in size after they bud. \"},\r\n                {\"text\":\"One of the most interesting properties of amethyst is their sounds. They make a very satisfying sound when interacted with.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Amethysts can also be used as a crafting ingredient. When crafted into lenses, they can be used to magnify objects. \"},\r\n                {\"text\":\"These lenses are often used in spy glasses.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lCorundums\n\"},\r\n                {\"text\":\"Corundums are colorful crystals found throughout caves. They can be almost any color. In their natural form, they will spread and grow rapidly. \"},\r\n                {\"text\":\"This can be prevented with wax.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"They can be crafted with runes to color them. Runes are used in enchantment to color the glint of the enchantment.\"}\r\n              ]"
+							]
+							title: "Geodes"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "10521309A574E504"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"The Translator\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"     a    <-->   ᔑ\n\"},\r\n                {\"text\":\"     b    <-->   ʖ\n\"},\r\n                {\"text\":\"     c    <-->   ᓵ\n\"},\r\n                {\"text\":\"     d    <-->   ↸\n\"},\r\n                {\"text\":\"     e    <-->   ᒷ\n\"},\r\n                {\"text\":\"     f    <-->   ⎓\n\"},\r\n                {\"text\":\"     g    <-->   ⊣\n\"},\r\n                {\"text\":\"     h    <-->   ⍑\n\"},\r\n                {\"text\":\"      i    <-->   ╎\n\"},\r\n                {\"text\":\"     j    <-->   ⋮\n\"},\r\n                {\"text\":\"     k    <-->   ꖌ\n\"},\r\n                {\"text\":\"      l    <-->   ꖎ\n\"},\r\n                {\"text\":\"     m    <-->   ᒲ\n\"},\r\n                {\"text\":\"     n    <-->   リ\"}\r\n              ]"
+								"[\r\n                {\"text\":\"     o    <-->   𝙹\n\"},\r\n                {\"text\":\"     p    <-->   !¡\n\"},\r\n                {\"text\":\"     q    <-->   ᑑ\n\"},\r\n                {\"text\":\"     r    <-->   ∷\n\"},\r\n                {\"text\":\"     s    <-->   ᓭ\n\"},\r\n                {\"text\":\"     t    <-->   ℸ\n\"},\r\n                {\"text\":\"     u    <-->   ⚍\n\"},\r\n                {\"text\":\"     v    <-->   ⍊\n\"},\r\n                {\"text\":\"     w    <-->   ∴\n\"},\r\n                {\"text\":\"     x    <-->   ̇/\n\"},\r\n                {\"text\":\"     y    <-->   ||\n\"},\r\n                {\"text\":\"     z    <-->   ⨅\"}\r\n              ]"
+							]
+							title: "Redstone"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "64BEA5D543A3218D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Enchanting: A Complete History\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lEnchanting: A Complete History\n\"},\r\n                {\"text\":\"§lBy \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"Enchanting is a magical practice used to enhance our tools, weapons, and armor. \"},\r\n                {\"text\":\"An enchantment can not only give your item new features, \"},\r\n                {\"text\":\"but it can also push its existing ability to a whole new level.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Enchanting was discovered and perfected right here in this Stronghold. \"},\r\n                {\"text\":\"Enchant an item at an Enchanting Table. \"},\r\n                {\"text\":\"The more knowledge and experience you have, the stronger the enchants will be. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"Harness the magic of enchanting through the language of enchantment. \"},\r\n                {\"text\":\"A direct translation guide between it and the common tongue can be found right here in the Grand Library! \"}\r\n              ]"
+							]
+							title: "Enchanting"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "24C58241B06C5641"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Underground Farming Handbook\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lUnderground Farming\n\n\"},\r\n                {\"text\":\"Since migrating underground, we have had the need to farm produce underground to supply food to our people. \"},\r\n                {\"text\":\"Throughout the hundreds of years we have lived here, we have been perfecting the skill of underground farming.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Farming traditionally requires water and sunlight, both of which can be a problem underground. \"},\r\n                {\"text\":\"To get the crops properly hydrated, we created fluid tanks and pipes \"},\r\n                {\"text\":\"that transport water from waterlogged caves around the area into our farming areas.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"These pipes are typically made of copper, and require rotational force to be operated.\n\"},\r\n                {\"text\":\"The problem of sunlight was easier to address than water. \"},\r\n                {\"text\":\"The installation of light sources such as lamps properly heated and illuminated the crops.\"}\r\n              ]"
+							]
+							title: "Farming"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "31D648D786044A5C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Priest"
+							display: {
+								Name: "{\"text\":\"Scripture of the Dragon\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lThe Scripture\n\n\"},\r\n                {\"text\":\"We have one goal: to\n\"},\r\n                {\"text\":\"breath beauty and life\n\"},\r\n                {\"text\":\"into this world\n\"},\r\n                {\"text\":\"through building. Our\n\"},\r\n                {\"text\":\"current form limits\n\"},\r\n                {\"text\":\"our ability to fulfill\n\"},\r\n                {\"text\":\"our imaginations. To\n\"},\r\n                {\"text\":\"realize our full\n\"},\r\n                {\"text\":\"potential, we must\n\"},\r\n                {\"text\":\"achieve The End form.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§oThe End \"},\r\n                {\"text\":\"form is the next step in our evolution.\n\n\"},\r\n                {\"text\":\"It is our full potential realized. \"},\r\n                {\"text\":\"The bounds of our mortal bodies would be lifted, we would be free to build. \"},\r\n                {\"text\":\"§oThe End \"},\r\n                {\"text\":\"will be granted to us by the One Above All. \"},\r\n                {\"text\":\"She need us, her disciples, to fullfill her goals.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"With our help,\n\n\"},\r\n                {\"text\":\"§oThe One Above All \"},\r\n                {\"text\":\"will snuff out the fires of the forest...\n\n\"},\r\n                {\"text\":\"She will cease all famine...\n\n\"},\r\n                {\"text\":\"She will save the sick and needy...\"}\r\n              ]"
+								"[\r\n                {\"text\":\"She will stop the\n\"},\r\n                {\"text\":\"§kundead\"},\r\n                {\"text\":\"from rising...\n\n\"},\r\n                {\"text\":\"She will elevate us to new levels\n\n\"},\r\n                {\"text\":\"Together, we will transform this world into a sanctuary for all, \"},\r\n                {\"text\":\"free of violence, suffering, and \"},\r\n                {\"text\":\"§kREDACTED\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nWe know this.\n\n\"},\r\n                {\"text\":\"§oWe have already seen it in the rocks from the sky.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§oShe waits for us.\n\n\"},\r\n                {\"text\":\"§oWith her thunderous roar she waits for us.\n\n\"},\r\n                {\"text\":\"§oWith her magical breath she waits for us.\n\n\"},\r\n                {\"text\":\"§oFlying high in the sky she waits for us.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"And we will find her.\"}\r\n              ]"
+							]
+							title: "Scripture"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "057156D6E9F46B51"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Fishing 101\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lFishing 101\n\"},\r\n                {\"text\":\"§lBy \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"In this book, I will instruct you about the best fishing strategies and describe the different styles of fishing. \"},\r\n                {\"text\":\"We will examine stab fishing and rod fishing in this guide.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lRod Fishing\n\"},\r\n                {\"text\":\"The first step to rod fishing is obtaining a fishing rod. \"},\r\n                {\"text\":\"They are a very simple thing to craft, and just require sticks and string. \"},\r\n                {\"text\":\"Once you have the rod, cast it into a body of water. You can cast into almost any size body of water, and can even cast from boats.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Next, wait for a fish. You can tell when a fish is approaching when bubbles start to move towards your bobber. \"},\r\n                {\"text\":\"When the bobber submerges, cast the rod up and retrieve your fish! Rod fishing is not always the most reliable,\"}\r\n              ]"
+								"[\r\n                {\"text\":\"but you can catch anything from leather boots to an enchanted book. \"},\r\n                {\"text\":\"This is the appeal of rod fishing. You never know what you're going to catch!\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lStab Fishing\n\"},\r\n                {\"text\":\"Stab fishing is the most effective way to catch fish, although much more difficult than rod fishing. \"},\r\n                {\"text\":\"You have to be a good swimmer, hold your breath, and be good with a sword or other sharp weapon. \"},\r\n                {\"text\":\" It is pretty much in the name, you stab the fish with your sword.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Fish can typically outswim you, so the trick is to catch them by surprise. \"},\r\n                {\"text\":\"You can do this by jumping in at them above water, or staying extremely still underwater and waiting for one to approach. \"},\r\n                {\"text\":\"This kind of fishing can be very dangerous, there is always a risk of drowning.\"}\r\n              ]"
+							]
+							title: "Fishing"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3D9EE02E08276829"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Redstone for Dummies\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lRedstone for Dummies\n\"},\r\n                {\"text\":\"§lBy \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"Hey dummies! You want to learn how to use Redstone \"},\r\n                {\"text\":\"to create marvelous contraptions? You’re in the right spot!\"}\r\n              ]"
+								"[\r\n                {\"text\":\"You can obtain redstone dust by mining redstone ore. \"},\r\n                {\"text\":\"You can spread this dust across the ground as wire, attach it to levers or doors, \"},\r\n                {\"text\":\"and craft it into torches and repeaters to build machines. \"},\r\n                {\"text\":\"Whether you want a lever that performs two tasks at a time, \"}\r\n              ]"
+								"[\r\n                {\"text\":\"a combination lock, or a more complex circuit, \"},\r\n                {\"text\":\"you can build it by cleverly arranging redstone dust.\n\n\"},\r\n                {\"text\":\"That’s all you need to know about redstone! Have fun engineering!\"}\r\n              ]"
+							]
+							title: "Redstone"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "144084120E8448F6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Guide to the Undead\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s guide to the Undead\n\n\"},\r\n                {\"text\":\"Undead creatures are hostile, threatening creatures that lurk in the darkness of caves, \"},\r\n                {\"text\":\"the night, and even in the sky. \"},\r\n                {\"text\":\"If you see one and you lack an adequate weapon, run and don’t look back.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lZombies\n\n\"},\r\n                {\"text\":\"Zombies are common monsters that attack in hordes. There are a multitude of variants of zombies due to their infectious nature. \"},\r\n                {\"text\":\"They are said to be the remains of \"},\r\n                {\"text\":\"§kancient beings \"},\r\n                {\"text\":\"reanimated through necromancy. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"Since the Zombies are infectious, there is talk of developing a cure, although nothing has been successful thus far. \"},\r\n                {\"text\":\"Here are the ones known to us now, there may be others yet to be discovered.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nCommon Zombies\"},\r\n                {\"text\":\" emerge in the darkness and will attack \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\" and \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\". They occasionally possess swords and armor. Additionally, they can break down doors. \"},\r\n                {\"text\":\"Although they hit hard, they are rather slow and easily dealt with from a distance.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nBaby Zombies\"},\r\n                {\"text\":\" are variants of Common Zombies that are significantly faster. They can also fit in a one block space. \"},\r\n                {\"text\":\"Sometimes they will mount chickens, this gives them the ability to float down for high places. \"},\r\n                {\"text\":\"They are particularly annoying and relentless.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nHusks\"},\r\n                {\"text\":\" are Zombies found in the desert biomes. They are very similar to Common Zombies, \"},\r\n                {\"text\":\"but are known to make all those touched by them extremely hungry.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nDrowned\"},\r\n                {\"text\":\" are Zombies found underwater. They carry copper, sea shells, and occasionally tridents. \"},\r\n                {\"text\":\"The only known way to obtain a trident is through killing them. If Zombies and Husks are submerged in water for a long period of time, \"},\r\n                {\"text\":\"they will be converted to Drowned.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nZombie Horses\"},\r\n                {\"text\":\" §kZombie horses are to be the horse equivalent of zombies. Like zombies, zombie horses are green-skinned and their eyes are completely black. \"},\r\n                {\"text\":\"§kTamed and saddled zombie horses can be used as one of the fastest means of transportation in the world. They can also be used to climb hills and jump fences.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lSkeletons\n\n\"},\r\n                {\"text\":\"Much like Zombies, Skeletons are said to be the remains of \"},\r\n                {\"text\":\"§kancient beings \"},\r\n                {\"text\":\"reanimated through necromancy. Unlike Zombies, they are not infectious. There are only 2 known Skeleton variants in our world.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nCommon Skeletons \"},\r\n                {\"text\":\" emerge in the darkness and will attack \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\". They typically carry bows and will shoot from a distance, but when given a sword they will use it. \"},\r\n                {\"text\":\"Although they can be rather annoying, their arrows can be blocked with a shield.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nStrays\"},\r\n                {\"text\":\" are variants of Common Skeletons that spawn in colder areas. \"},\r\n                {\"text\":\"They carry arrows of slowness rather than normal arrows. Take extra precautions when encountering them.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§nSkeleton Horses\"},\r\n                {\"text\":\" are extremely mysterious, and have only have been spotted during thunderstorms. \"},\r\n                {\"text\":\"If one is approached, a §kskeleton trap \"},\r\n                {\"text\":\"is triggered. They typically have 4 §kSkeleton Horsemen \"},\r\n                {\"text\":\"mounted on them wearing echanted gear.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§kBone Serpent\n\n\"},\r\n                {\"text\":\"§kThis long serpent creature appears to be made of bone and has red eyes. \"},\r\n                {\"text\":\"§kIt can occasionally be seen jumping out of the lava only to disappear into it again shortly after. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"§kWither Skeleton\n\n\"},\r\n                {\"text\":\"§kWither skeletons are tall black variants of skeletons equipped with stone swords \"},\r\n                {\"text\":\"§kThey are found exclusively in nether fortresses \"}\r\n              ]"
+							]
+							title: "Undead"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5AC19219E16F4A48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Creatures of the Nether\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s guide to the fiery creatures of the Nether\n\n\"},\r\n                {\"text\":\"The Nether is dimension beneath our own full of fire, lava, and all things hot and dangerous. \"},\r\n                {\"text\":\"Its inhabitants must be adapted to this precarious environment. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"We only recently got access to this dimension after the invention of the Nether Portal.\n\n\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lNether Portal\n\n\"},\r\n                {\"text\":\"The Nether Portal is a hollow rectangle of obsidian with a purple glowing aura. \"},\r\n                {\"text\":\"Once lit with items such as a flint and steel or fire charge, it will activate. \"},\r\n                {\"text\":\"Upon activation, when an entity goes through they are transported into the nether dimension. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lPiglins\n\n\"},\r\n                {\"text\":\"Piglins are a race of walking pigs living in the Nether. They like biomes such as the Nether Wastes and Crimson Forests. \"},\r\n                {\"text\":\"They value gold very highly and are hostile if you are not wearing any. \"},\r\n                {\"text\":\"Additionally, they will defend their items and attack if chests are \"}\r\n              ]"
+								"[\r\n                {\"text\":\"opened nearby. They are a rather intelligent species and have built massive blackstone Bastions scattered throughout the Nether. \"},\r\n                {\"text\":\"We must continue to treat their kind with dignity for the benefit of everyone.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lHoglins\n\n\"},\r\n                {\"text\":\"Hoglins are a race of large pig-like animals that are hostile to just about everything they come across. \"},\r\n                {\"text\":\"However, they do not attack piglins. \"},\r\n                {\"text\":\"They are a great source of meat and leather in the Nether dimension.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lMagma Cube\n\n\"},\r\n                {\"text\":\"Magma Cubes are a blob-like creature found in the basalt delta biome. \"},\r\n                {\"text\":\"Once slain, they split into smaller Magma Cubes. \"},\r\n                {\"text\":\"They are hostile, but the smallest ones will not do any harm. Their essence is a valuable potion ingredient.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lStrider\n\n\"},\r\n                {\"text\":\"Striders are passive creatures near lava lakes in the Nether. \"},\r\n                {\"text\":\"They have the incredible ability to walk on lava. Maybe this power can be utilized to navigate the fiery dimension. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lGhast\n\n\"},\r\n                {\"text\":\"Ghasts are screaming, flying, cubes of fiery death and destruction. They are found in Nether Wastes and Soul Sand Valleys. \"},\r\n                {\"text\":\"If you see one and you don’t have a ranged weapon, run away as fast as you can. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"If you can perform the daunting task of collecting its tears, they are said to possess many magical abilities.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lWraith\n\n\"},\r\n                {\"text\":\"The Wraith is a floating, translucent entity found in the Soul Sand Valleys. \"},\r\n                {\"text\":\"They are said to be a \"},\r\n                {\"text\":\"§kreincarnation\"},\r\n                {\"text\":\" of a previous being due to their familiar sounding screams.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lFoxhound\n\n\"},\r\n                {\"text\":\"Foxhounds are a wolf-like creature found throughout the Nether dimension. \"},\r\n                {\"text\":\"They are hostile initially, but with fire resistance and coal they can be domesticated.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§kSoul Vulture\n\n\"},\r\n                {\"text\":\"§kSoul Vultures are the withered remains of long dead birds that haunt the Nether's Soul Sand Valleys. \"},\r\n                {\"text\":\"§kThese undead birds can be seen circling the countless giant skeletons that litter the landscape. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"§kBone Serpent\n\n\"},\r\n                {\"text\":\"§kThis long serpent creature appears to be made of bone and has red eyes. \"},\r\n                {\"text\":\"§kIt can occasionally be seen jumping out of the lava only to disappear into it again shortly after. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"§kWither Skeleton\n\n\"},\r\n                {\"text\":\"§kWither skeletons are tall black variants of skeletons equipped with stone swords \"},\r\n                {\"text\":\"§kThey are found exclusively in nether fortresses \"}\r\n              ]"
+							]
+							title: "Nether"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC7FDD54917D704"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "CraisinLord"
+							display: {
+								Name: "{\"text\":\"The Asteroid\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lThe Asteroid\n\n\"},\r\n                {\"text\":\"On day 11 of living underground in the finished Stronghold, \"},\r\n                {\"text\":\"a rock from the sky crashed through the ground into our Dining Hall. \"},\r\n                {\"text\":\"It was a light green-yellow color with craters speckled all over the surface.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"It crashed in the middle of the night, at 11:18 P.M. \"},\r\n                {\"text\":\"Many of the \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\" nearby awoke to the noise and investigated. \"},\r\n                {\"text\":\"All those who approached it were met with visions they believed to be from the future. \"},\r\n                {\"text\":\"They all had the same vision. It depicted a mighty Dragon, flying through the sky. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"What came next is up for debate. Some believe that was all they saw. \"},\r\n                {\"text\":\"Others believe they also saw visions of the Dragon helping them build a better world. \"},\r\n                {\"text\":\"The mystery of what they really saw will likely never be solved.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Some of them went on to write the Scripture and worship The One Above All. \"},\r\n                {\"text\":\"They believe the One Above All, or the Dragon, will help them achieve The End, or a higher form. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"Since then, there has been a great divide among us \"},\r\n                {\"text\":\"on whether we should trust these visions and follow the Scripture.\"},\r\n                {\"text\":\" The Asteroid was taken by the disciples for further research. They do not disclose the location to non-believers.\"}\r\n              ]"
+							]
+							title: "Asteroid"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0062D1336E6221B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #3\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 231\n\n\"},\r\n                {\"text\":\"As I was researching enchanting late at night in the corner of the Grand Library, \"},\r\n                {\"text\":\"I witnessed other researchers emerging from inside of the fireplace. \"},\r\n                {\"text\":\"I was bewildered.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"I hid behind some bookshelves so they wouldn’t notice me. \"},\r\n                {\"text\":\"Since then, I have been trying to find how they got in there. \"},\r\n                {\"text\":\"I wonder if it has something to do with the levers below the signs in the language of enchantment.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4EA20AD17D6A74EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "CraisinLord"
+							display: {
+								Name: "{\"text\":\"Our People's History\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lThe \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l:\n\"},\r\n                {\"text\":\"§lA Complete History\n\n\"},\r\n                {\"text\":\"We are an ancient\n\"},\r\n                {\"text\":\"race of \"},\r\n                {\"text\":\"§kREDACTED\n\"},\r\n                {\"text\":\"travellers who hunted\n\"},\r\n                {\"text\":\"and gathered for\n\"},\r\n                {\"text\":\"food. Eventually, we\n\"},\r\n                {\"text\":\"settled down and\n\"},\r\n                {\"text\":\"began farming crops\n\"},\r\n                {\"text\":\"such as wheat,\n\"},\r\n                {\"text\":\"carrots, and\n\"},\r\n                {\"text\":\"potatoes\"},\r\n                {\"text\":\".\"}\r\n              ]"
+								"[\r\n                {\"text\":\"This gave us\n\"},\r\n                {\"text\":\"newfound time to build.\n\"},\r\n                {\"text\":\"Our passion is\n\"},\r\n                {\"text\":\"building, it is what\n\"},\r\n                {\"text\":\"makes us who we are.\n\"},\r\n                {\"text\":\"We built cities that\n\"},\r\n                {\"text\":\"stretched for\n\"},\r\n                {\"text\":\"hundreds of blocks.\n\"},\r\n                {\"text\":\"We were prospering.\n\n\"},\r\n                {\"text\":\"All that changed when\n\"},\r\n                {\"text\":\"the \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\" came.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"The \"},\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\" forced\n\"},\r\n                {\"text\":\"us to flee. They\n\"},\r\n                {\"text\":\"burned our cities and\n\"},\r\n                {\"text\":\"fields. They destroyed\n\"},\r\n                {\"text\":\"our home. That is why\n\"},\r\n                {\"text\":\"we settled in this\n\"},\r\n                {\"text\":\"mighty Stronghold. It\n\"},\r\n                {\"text\":\"is a fortress\n\"},\r\n                {\"text\":\"underground that we\n\"},\r\n                {\"text\":\"hope they will never\n\"},\r\n                {\"text\":\"reach. Since then we\n\"},\r\n                {\"text\":\"have made a life for\n\"},\r\n                {\"text\":\"ourselves\n\"},\r\n                {\"text\":\"underground.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"We developed an\n\"},\r\n                {\"text\":\"entire society with no\n\"},\r\n                {\"text\":\"need of the sun or\n\"},\r\n                {\"text\":\"the light of day. We do\n\"},\r\n                {\"text\":\"everything from\n\"},\r\n                {\"text\":\"farming to \"},\r\n                {\"text\":\"§kdreaming\n\"},\r\n                {\"text\":\"in this mighty\n\"},\r\n                {\"text\":\"underground\n\"},\r\n                {\"text\":\"fortress. Our\n\"},\r\n                {\"text\":\"researchers have\n\"},\r\n                {\"text\":\"even developed new\n\"},\r\n                {\"text\":\"technologies such as\n\"},\r\n                {\"text\":\"rotational power and\n\"},\r\n                {\"text\":\"§kdimensional travel\"},\r\n                {\"text\":\".\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Since the faithful day\n\"},\r\n                {\"text\":\"that \"},\r\n                {\"text\":\"§kasteroid\"},\r\n                {\"text\":\" struck,\n\"},\r\n                {\"text\":\"we have looked to\n\"},\r\n                {\"text\":\"the skies for the\n\"},\r\n                {\"text\":\"mighty One Above All.\n\"},\r\n                {\"text\":\"We believe that one\n\"},\r\n                {\"text\":\"day, we will reunite\n\"},\r\n                {\"text\":\"with the One Above All\n\"},\r\n                {\"text\":\"to stop the \"},\r\n                {\"text\":\"§kREDACTED\n\"},\r\n                {\"text\":\"and create a better\n\"},\r\n                {\"text\":\"world for all of its\n\"},\r\n                {\"text\":\"inhabitants.\"}\r\n              ]"
+							]
+							title: "History"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "29CB59A024909372"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Architecture and Design\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED's \"},\r\n                {\"text\":\"§lGuide to Architecture and Design\n\n\"},\r\n                {\"text\":\"Architecture and design is the pride of our people. \"},\r\n                {\"text\":\"It is our mission to create detailed and intricate designs in our builds, and to create wonders throughout the world.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"In this guide I will teach you about specific techniques and things to keep in mind while achieving excellence in the art of architecture and design.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lDetail through Depth\n\"},\r\n                {\"text\":\"One of the best ways to achieve detail in builds is depth. Depth can transform a stone or wooden box into something magnificent and unique. \"},\r\n                {\"text\":\"Methods of adding depth include setting parts of a wall back or forward, adding pillars, \"}\r\n              ]"
+								"[\r\n                {\"text\":\"archways, walls, stairs, and slabs. You rarely have too much depth. If a wall or part of a build seems boring, the first thing you should do is try adding more depth. \"},\r\n                {\"text\":\"Stairs and slab trims around walls can help break it up. One can also add the illusion of depth through trims.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Trims are lines of blocks at the bottom, top or even through the middle of builds. \"},\r\n                {\"text\":\"If they are darker at the bottom, this can provide the illusion of shadow, making it feel more detailed and less bland.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lGradients\n\"},\r\n                {\"text\":\"Another way to make your builds unique and interesting is gradients. A gradient is a mix of colors that slowly works from one color to another. \"},\r\n                {\"text\":\"An example of this is the gradient formed when mixing blackstone to deepslate to regular stone. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"You can also use more colorful gradients. Try making your own color gradients, I find it super fun to try to use more unique gradients in builds!\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lEye lines\n\"},\r\n                {\"text\":\"One really important thing to keep in mind while building is eye lines. Where is the viewer going to come into the build? \"},\r\n                {\"text\":\"What are they going to see first? What stands out and is going to attract their attention?\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Thinking about this while planning a build and its layout can elevate a project from a build to a work of art.\"}\r\n              ]"
+							]
+							title: "Architecture"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0C535FCCFF95AE9B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #4\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 294\n\n\"},\r\n                {\"text\":\"I haven’t seen or heard from the researchers in months, \"},\r\n                {\"text\":\"they must be working on something. \"},\r\n                {\"text\":\"I heard it has to do with the asteroid.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "08A474E056A37C1D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Traveler’s Journal #1\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\n\n\"},\r\n                {\"text\":\"I have followed the trail of the magic eye to reach this dark but marvelous stronghold. \"},\r\n                {\"text\":\"It has long been abandoned and overrun with the undead. \"},\r\n                {\"text\":\"I have found some strange ancient journals suggesting that this place\"}\r\n              ]"
+								"[\r\n                {\"text\":\"was home to an ancient species of builders. \"},\r\n                {\"text\":\"They have some information that is blurred out with obfuscated language. \"},\r\n                {\"text\":\"I wonder what dark magic caused that.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "60F8C570F63007D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Traveler’s Journal #2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\n\n\"},\r\n                {\"text\":\"This maze has been the most treacherous part of this dark stronghold. \"},\r\n                {\"text\":\"I almost got killed by a bomb from a trap. I’m starting to lose hope that I’ll make it out alive. \"},\r\n                {\"text\":\"I’m going to attempt to turn back and find the way I came in.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"If you’re reading this.. I wasn’t successful.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3F3BF754A462736C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Traveler’s Journal #3\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\n\n\"},\r\n                {\"text\":\"The twists and turns and the endless dark space is driving me crazy. \"},\r\n                {\"text\":\"I can only fight the monsters of the dark for so long. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"This maze may be the end of my quest for the magic portal, and the end of my life.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2A5C983E2E737B39"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Ores: The All Inclusive Guide\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§lOres: The All Inclusive Guide\\n\"},{\"text\":\"§lBy \"},{\"text\":\"§kREDACTED\\n\\n\"},{\"text\":\"Ores come in two main varieties, stone and deepslate. \"},{\"text\":\"Stone ores are found higher up underground while deepslate ores are found deep underground. \"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"In this guide, we will examine each type of ore and where you can find them.\"}],\"text\":\"Each of these ores come in many varieties, including coal, iron, copper, emerald, redstone, gold, diamond, and zinc. \"}"
+								"{\"text\":\"Coal is found in large clumps in higher elevations, particularly on surfaces of mountaintops.\"}"
+								"{\"extra\":[{\"text\":\"Iron can also be found in very large veins with tuff, and copper with granite.\"}],\"text\":\"Iron, zinc and copper are found in most elevations with the best rates at medium heights\"}"
+								"{\"extra\":[{\"text\":\"Deepslate emerald ore is one of the rarest things you can obtain.\\n\\n\"},{\"text\":\"Redstone ore glows when touched, and is found deep underground.\"}],\"text\":\"Emerald is found almost exclusively in mountainous areas in mid range elevations. \"}"
+								"{\"extra\":[{\"text\":\"but in the Mesa biome it can be found in large quantities near the surface.\\n\\n\"},{\"text\":\"Diamonds are the most valuable ore and found in small quantities deep underground.\"}],\"text\":\"Gold ore is found deep underground in most biomes, \"}"
+							]
+							resolved: 1b
+							title: "Ores"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0AD09C2C3CEEDB5E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #1\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§kREDACTED\"},{\"text\":\"§l’s Journal\\nDay 85\\n\\n\"},{\"text\":\"§kREDACTED\"},{\"text\":\" testified to the council that I was the one who pushed \"},{\"text\":\"§kREDACTED\"},{\"text\":\" into the lava during our adventure through the Nether. This is a flat out lie, it was \"},{\"text\":\"§kREDACTED\"},{\"text\":\" that did it!\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"They will pay for this!\"}],\"text\":\"I can’t believe the council thought I would’ve pushed my best friend into lava. \"}"
+							]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6002F57828250AA3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #2\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 120\n\n\"},\r\n                {\"text\":\"Today I was sent to prison by the council for stealing cake from the kitchen. \"},\r\n                {\"text\":\"I’m not denying that I did it, but prison!? For stealing a cake!?!? \"}\r\n              ]"
+								"[\r\n                {\"text\":\"The council goes too far sometimes. \"},\r\n                {\"text\":\"I hope they vote to release me sooner than the one week sentence I got.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "534BE602C04F89CE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #3\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 203\n\n\"},\r\n                {\"text\":\"I attempted to break into the research lab to destroy research on The Asteroid. \"},\r\n                {\"text\":\"The researchers must be stopped… they are tampering with the dark powers they know nothing about. \"},\r\n                {\"text\":\"They will kill us all…\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "413D7432C17EE954"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #4\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 280\n\n\"},\r\n                {\"text\":\"I was sent here for refusing to believe in their flying mystical hunk of junk, The One Above All. \"},\r\n                {\"text\":\"I don’t believe they really saw her in visions. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"I don’t think she even really exists! \"},\r\n                {\"text\":\"I think the researchers are using it to justify their dangerous experiments. \"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "30CD802368556F9D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #5\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"Day Tallies\n\n\"},\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \"},\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \"}\r\n              ]"
+								"[\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \"},\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \"},\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII II\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "69750353B0B1CFA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #15\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§kREDACTED\"},{\"text\":\"§l’s Journal\\nDay 121\\n\\n\"},{\"text\":\"Today I learned that this grand room used to be dedicated to voting on important matters as a community rather than letting the council get the only votes! \"},{\"text\":\" I can’t believe they never taught us that.\"}],\"text\":\"\"}"
+								"{\"text\":\"The council is too obsessed with the One Above All and reaching The End, we need to go back to our old ways.\"}"
+							]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5559B2B1DADAA7E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #16\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§kREDACTED\"},{\"text\":\"§l’s Journal\\nDay 152\\n\\n\"},{\"text\":\"I have always wondered what the ancient letters in the ceiling mean. \"},{\"text\":\"Today I learned they are in the Language of Enchantment.\"}],\"text\":\"\"}"
+								"{\"text\":\"Maybe there is a translator book that could help me decipher them...\"}"
+							]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6E901BEEEF36A473"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #17\"}"
+							}
+							pages: ["{\"extra\":[{\"text\":\"Found in the room of the priest\\n\\n\"},{\"text\":\"In the heart of the winged beast\\n\\n\"},{\"text\":\"Lies a gem of great worth\\n\\n\"},{\"text\":\"From deep within the earth\\n\\n\"}],\"text\":\"\"}"]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "666DCB8EB82FF828"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #18\"}"
+							}
+							pages: ["{\"extra\":[{\"text\":\"If you seek the portal to the close\\n\\n\"},{\"text\":\"Look in the place that lifts you down into the earth\\n\\n\"},{\"text\":\"The entrance waits for you…\\n\\n\"}],\"text\":\"\"}"]
+							resolved: 1b
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6FB156F96F98287F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Priest"
+							display: {
+								Name: "{\"text\":\"Scripture of the Dragon\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"text\":\"§lThe Scripture\\n\\n\"},{\"text\":\"We have one goal: to\\n\"},{\"text\":\"breath beauty and life\\n\"},{\"text\":\"into this world\\n\"},{\"text\":\"through building. Our\\n\"},{\"text\":\"current form limits\\n\"},{\"text\":\"our ability to fulfill\\n\"},{\"text\":\"our imaginations. To\\n\"},{\"text\":\"realize our full\\n\"},{\"text\":\"potential, we must\\n\"},{\"text\":\"achieve The End form.\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"form is the next step in our evolution.\\n\\n\"},{\"text\":\"It is our full potential realized. \"},{\"text\":\"The bounds of our mortal bodies would be lifted, we would be free to build. \"},{\"text\":\"§oThe End \"},{\"text\":\"will be granted to us by the One Above All. \"},{\"text\":\"She need us, her disciples, to fullfill her goals.\"}],\"text\":\"§oThe End \"}"
+								"{\"extra\":[{\"text\":\"§oThe One Above All \"},{\"text\":\"will snuff out the fires of the forest...\\n\\n\"},{\"text\":\"She will cease all famine...\\n\\n\"},{\"text\":\"She will save the sick and needy...\"}],\"text\":\"With our help,\\n\\n\"}"
+								"{\"extra\":[{\"text\":\"§kundead\"},{\"text\":\"from rising...\\n\\n\"},{\"text\":\"She will elevate us to new levels\\n\\n\"},{\"text\":\"Together, we will transform this world into a sanctuary for all, \"},{\"text\":\"free of violence, suffering, and \"},{\"text\":\"§kREDACTED\"}],\"text\":\"She will stop the\\n\"}"
+								"{\"extra\":[{\"text\":\"§oWe have already seen it in the rocks from the sky.\"}],\"text\":\"§nWe know this.\\n\\n\"}"
+								"{\"extra\":[{\"text\":\"§oWith her thunderous roar she waits for us.\\n\\n\"},{\"text\":\"§oWith her magical breath she waits for us.\\n\\n\"},{\"text\":\"§oFlying high in the sky she waits for us.\"}],\"text\":\"§oShe waits for us.\\n\\n\"}"
+								"{\"text\":\"And we will find her.\"}"
+							]
+							resolved: 1b
+							title: "Scripture"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "72CB3528BF68E10B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #13\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 25\n\n\"},\r\n                {\"text\":\"It has been around 2 weeks since the Asteroid fell into this mighty stronghold and we were blessed with a vision of the future. \"},\r\n                {\"text\":\"A better future.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"In honor of the One Above All, who will bring us this better future, we are erecting a statue. \"},\r\n                {\"text\":\"This will serve as a reminder of our main goal, achieving The End.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2BD48B1A1FA0042F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #14\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 79\n\n\"},\r\n                {\"text\":\"As tribute to the great One Above All, I donated my finest tools I forged in the armory. \"},\r\n                {\"text\":\"I hope the researchers can use these tools to help us fulfill our purpose.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "617D4FF0152DAF1D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"The Portal Device\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§lPortal Device\n\n\"},\r\n                {\"text\":\"We have assembled what we believe to be a portal device from the contents of the Asteroid. \"},\r\n                {\"text\":\"We are relocating this portal device to a location deep within the Stronghold behind a maze of puzzles and traps. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"This way, our hard work cannot be tampered with by those who think our experiments are too dangerous. \"},\r\n                {\"text\":\"We hope this portal device can finally help us reach the \"},\r\n                {\"text\":\"§oThe One Above All. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"We are going to send a team into the portal within the next few days. \"},\r\n                {\"text\":\"All our hard work is finally going to pay off!\"}\r\n              ]"
+							]
+							title: "Portal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "1E4736C88452E9A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #7\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 306\n\n\"},\r\n                {\"text\":\"The explorers just arrived back home from their expedition through the mysterious portal device. Well, one of them did, to be specific. \"},\r\n                {\"text\":\"According to them, the rest of the team was killed by \"},\r\n                {\"text\":\"§oThe One Above All. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"The one who returned was scarred and bruised, but the strangest thing was an obscure infection of darkness upon his head. \"},\r\n                {\"text\":\"I have been attempting to treat him the past few days. He has slowly been going insane, and the infection is spreading. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"I just noticed a black spot growing on my arm, I hope this is not the infection. If it is, we are all doomed.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "456BBEEC01DDAEB4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #8\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 315\n\n\"},\r\n                {\"text\":\"I am the last one left. After the expedition through the portal, an infection spread throughout the Stronghold rapidly. \"},\r\n                {\"text\":\"All who caught it turned into beings of darkness with glowing purple eyes.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Maybe \"},\r\n                {\"text\":\"§oThe One Above All \"},\r\n                {\"text\":\"is not as benevolent as we once thought. \"},\r\n                {\"text\":\"Maybe this is The End form. It is only a matter of time \"},\r\n                {\"text\":\"before I have to leave to restock food and water. For now, I’ll hide in here.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6C11846ECD1D1A89"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #10\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 318\n\n\"},\r\n                {\"text\":\"I caught it. On my way back from deactivating and locking the portal, \"},\r\n                {\"text\":\"I was met with a shadowy figure that resembled \"},\r\n                {\"text\":\"§kREDACTED.\"},\r\n                {\"text\":\"They snuck up behind me and hit me.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"Since then I have felt queasy and felt an immense hatred of water. \"},\r\n                {\"text\":\"How strange. My skin has also started to be consumed by darkness. \"},\r\n                {\"text\":\"It’s only a matter of time before I am fully infected.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0CE121F3AFB51593"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"The Secret Lab\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§lThe Secret Lab\n\n\"},\r\n                {\"text\":\"This newly built, as of Day 225, hidden lab behind the Grand Library is devoted to extraterrestrial research and development. \"},\r\n                {\"text\":\"The main goal behind this research is to find a way to reach the \"},\r\n                {\"text\":\"§oThe One Above All.\"}\r\n              ]"]
+							title: "Lab"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "67D04B2B83287929"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Mysterious Journal #9\"}"
+							}
+							pages: ["[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 317\n\n\"},\r\n                {\"text\":\"I am going to make the journey down to the portal room to deactivate it. \"},\r\n                {\"text\":\"I hope by doing this I can prevent more from being infected by \"},\r\n                {\"text\":\"§kThe End. \"},\r\n                {\"text\":\"My plan is to lock the portal behind the eyes of darkness and magic.\"}\r\n              ]"]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "565EF701571C393E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #6\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 114\n\n\"},\r\n                {\"text\":\"I broke their stupid rules and escaped to the surface through caves, and upon returning they are torturing me for information. \"},\r\n                {\"text\":\"They want to know if I saw the \"},\r\n                {\"text\":\"§kpillagers\"},\r\n                {\"text\":\"up on the surface and what they are up to. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"I’ll never tell them! \"},\r\n                {\"text\":\"They treated me with kindness unlike the council.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "30211399A70304F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #7\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§kREDACTED\"},\r\n                {\"text\":\"§l’s Journal\nDay 291\n\n\"},\r\n                {\"text\":\"After studying the Asteroid with the researchers, I came up with a recipe for the \"},\r\n                {\"text\":\"§kportal frame. \"},\r\n                {\"text\":\"Once I realized how dangerous it could be, I decided I would keep it secret.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"One of them found my notes and realized all they need is the recipe. \"},\r\n                {\"text\":\"They threatened to use all sorts of spikes and mechanisms of pain to get me to reveal the recipe.\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "43B323CE55A69BD9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"Prisoner's Journal #8\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"Day Tallies\n\n\"},\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \"},\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \"}\r\n              ]"
+								"[\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \"},\r\n                {\"text\":\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII I\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4914DBA28FB72299"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							display: {
+								Name: "{\"text\":\"5 Deadly Trap Designs\"}"
+							}
+							pages: [
+								"[\r\n                \"\",\r\n                {\"text\":\"§l5 Deadly Trap Designs\nBy \"},\r\n                {\"text\":\"§kREDACTED\n\n\"},\r\n                {\"text\":\"In this guidebook, I will teach you about 5 deadly trap designs to protect your treasures and secrets from others.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lLava fans\n\"},\r\n                {\"text\":\"Placing fans behind lava or fire will blow the heat, burning the victim. \"},\r\n                {\"text\":\"You can hide these fans behind walls or ceilings and use panels to reveal the fans. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"This is a great trap for discouraging entrance to an area without totally obliterating the victim. \"},\r\n                {\"text\":\"Plus, it's very flashy and looks very cool.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lTripwires\n\"},\r\n                {\"text\":\"Tripwires? That’s boring! You might say. Yes, it can be boring, but it's very effective and easy to set up. \"},\r\n                {\"text\":\"All you do is hide a dispenser in a dark area and place string along the floor to set off the trap. \"},\r\n                {\"text\":\"Bombs and tipped arrows work great in these dispensers.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lZombie Pit\n\"},\r\n                {\"text\":\"One way to ensure your victim doesn’t make it out alive is by moving the floor from under their feet and sending them spiraling into a pit of zombies. \"},\r\n                {\"text\":\"This sounds hard to set up, but apart from getting the zombies it's pretty straightforward. \"}\r\n              ]"
+								"[\r\n                {\"text\":\"Trap zombies in a pit below the floor, and set up a movable floor that either rotates or retracts into the walls to drop them down. \"},\r\n                {\"text\":\"Next, get zombies to follow you into the hole below the ground. \"},\r\n                {\"text\":\"Now all you have to set up is the activation mechanism. You can use pressure plates or tripwires. \"},\r\n                {\"text\":\"Either way will get the job done!\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§lDrills\n\"},\r\n                {\"text\":\"§kPlacing fans behind lava or fire will blow the heat, burning the victim. \"},\r\n                {\"text\":\"§kYou can hide these fans behind walls or ceilings and use panels to reveal the fans. \"},\r\n                {\"text\":\"§kThis is a great trap for discouraging entrance to an area without totally obliterating the victim. \"},\r\n                {\"text\":\"§kPlus, it's very flashy and looks very cool.\"}\r\n              ]"
+								"[\r\n                {\"text\":\"§kLava fans\n\"},\r\n                {\"text\":\"§kPlacing fans behind lava or fire will blow the heat, burning the victim. \"},\r\n                {\"text\":\"§kYou can hide these fans behind walls or ceilings and use panels to reveal the fans. \"},\r\n                {\"text\":\"§kThis is a great trap for discouraging entrance to an area without totally obliterating the victim. \"},\r\n                {\"text\":\"§kPlus, it's very flashy and looks very cool.\"}\r\n              ]"
+							]
+							title: "Traps"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Stronghold Loremaster"
+			x: -1.5d
+			y: 0.5d
 		}
 	]
 	title: "Challenges"
