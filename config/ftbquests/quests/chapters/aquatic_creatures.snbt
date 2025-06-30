@@ -2193,6 +2193,61 @@
 			x: -5.0d
 			y: 7.0d
 		}
+		{
+			description: ["TODO Add description"]
+			id: "39B76FD56D8A5C74"
+			invisible: true
+			subtitle: "When the coral is sus!"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:coralssus"
+					}
+				}
+				id: "28C714792E26ACEA"
+				observe_type: 5
+				timer: 0L
+				title: "Coralssus"
+				to_observe: "cataclysm:coralssus"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["TODO Add description"]
+			id: "10E33F1206C09F86"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:coral_golem"
+					}
+				}
+				id: "78BDB646C46580D7"
+				observe_type: 5
+				timer: 0L
+				title: "Coral Golem"
+				to_observe: "cataclysm:coral_golem"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
 	]
 	title: "Aquatic Creatures"
 }

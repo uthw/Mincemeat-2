@@ -489,7 +489,7 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -8.0d
+			x: -6.5d
 			y: -1.0d
 		}
 		{
@@ -551,7 +551,7 @@
 				value: 1L
 			}]
 			title: "Umvuthi, The Sunbird"
-			x: -5.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -1871,7 +1871,7 @@
 				value: 1L
 			}]
 			title: "Bellringer"
-			x: -6.5d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
@@ -1898,7 +1898,7 @@
 				}
 			]
 			title: "Dame Fortuna"
-			x: -9.5d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -1929,6 +1929,7 @@
 		}
 		{
 			dependencies: ["75D195C89EEFC1A2"]
+			description: [""]
 			id: "0CD34066894BD790"
 			rewards: [{
 				id: "378E6815DB0A01AC"
@@ -1951,7 +1952,7 @@
 				value: 1L
 			}]
 			title: "Berserker"
-			x: -3.5d
+			x: -9.5d
 			y: -1.0d
 		}
 		{
@@ -2001,7 +2002,7 @@
 				title: "Umvuthana Grove"
 				type: "structure"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -2017,7 +2018,7 @@
 				item: "meetyourfight:haunted_bell"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.0d
 			y: 0.5d
 		}
 		{
@@ -2027,7 +2028,15 @@
 				""
 				"You'll initially find the Berserker covered in pink salt. Get too close though, and it'll wake up on the wrong side of the bed. In fact, it'll be so cranky that it tries to kill you."
 				""
-				"You should get close to this boss and use melee attacks, since it can slam the ground for long-range shockwaves if you try using ranged attacks."
+				"This is a mechanically shallow boss with only a couple of attacks, but don't underestimate it just for that. "
+				""
+				"At long range, Berserkers attack with pink salt fang strikes (like what evokers use) and shockwaves. The former can be avoided by sidestepping (don't approach or retreat when it does this) and the latter is dodged by being airborne."
+				""
+				"When in melee, Berserkers have a pink salt ring attack and a swipe attack. The swipe is sometimes forecasted by the berserker chasing its target, but can also come out instantaneously if close enough. However, this shouldn't be too big of a deal due to its low damage."
+				""
+				"A Berserker summons the Preserved, its minions, when reduced to half health."
+				""
+				"These attacks are easily negated by dodge rolling. Alternatively, you can use a shield to block the pound and swipe attacks, but not the salt pillars. Use a fast melee weapon and weave in and out of the attacks."
 			]
 			id: "75D195C89EEFC1A2"
 			tasks: [{
@@ -2037,7 +2046,7 @@
 				title: "Pink Salt Shrine"
 				type: "structure"
 			}]
-			x: -3.5d
+			x: -9.5d
 			y: 0.5d
 		}
 		{
@@ -2193,7 +2202,7 @@
 				title: "Frostmaw's Cave"
 				type: "structure"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -2210,7 +2219,7 @@
 				item: "meetyourfight:devils_ante"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.0d
 			y: 0.5d
 		}
 		{
@@ -2268,7 +2277,7 @@
 				item: "meetyourfight:slicers_dice"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.5d
 			y: -2.5d
 		}
 		{
@@ -2280,7 +2289,7 @@
 				item: "meetyourfight:ace_of_iron"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.0d
 			y: -3.5d
 		}
 		{
@@ -2298,7 +2307,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.5d
 			y: -2.5d
 		}
 		{
@@ -2320,7 +2329,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -9.5d
 			y: -2.5d
 		}
 		{
@@ -2331,7 +2340,7 @@
 				item: "meetyourfight:spectres_eye"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -2342,7 +2351,7 @@
 				item: "meetyourfight:spectres_grasp"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -3405,18 +3414,28 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "dungeonnowloading:chaos_spawner"
-				icon: "dungeonnowloading:chaos_spawner_barrier_center"
-				id: "6C895EABCC75710E"
+				id: "49A8050B8FB98BE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dungeonnowloading:chaos_spawner_barrier_center"
+				}
 				title: "Chaos Spawner"
-				type: "kill"
-				value: 1L
+				type: "item"
 			}]
+			title: "Chaos Spawner"
 			x: -11.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["48D4BF288D59E907"]
+			dependencies: [
+				"48D4BF288D59E907"
+				"37272B0990886FAF"
+			]
 			id: "6138BDDAF5225818"
 			tasks: [
 				{
@@ -3485,11 +3504,14 @@
 				}
 			]
 			title: "Spawner Gear"
-			x: -10.5d
+			x: -10.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["48D4BF288D59E907"]
+			dependencies: [
+				"48D4BF288D59E907"
+				"37272B0990886FAF"
+			]
 			id: "47C84B9D8A67B7E3"
 			tasks: [
 				{
@@ -3516,7 +3538,7 @@
 				}
 			]
 			title: "Chaos Arsenal"
-			x: -11.5d
+			x: -12.0d
 			y: -4.0d
 		}
 		{
@@ -3672,6 +3694,52 @@
 			}]
 			x: -2.0d
 			y: 10.5d
+		}
+		{
+			dependencies: ["48D4BF288D59E907"]
+			description: [
+				"After a Chaos Spawner is defeated, Hollows start to spawn in the Labyrinth. They can only be damaged by potions, which includes tipped arrows."
+				""
+				"The Soul Cloth dropped by Hollows is required to craft Soul Silk, which you can use to craft some Labyrinth-themed weapons."
+			]
+			id: "37272B0990886FAF"
+			tasks: [
+				{
+					entity: "dungeonnowloading:hollow"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					id: "2952D05627397786"
+					title: "Kill a Hollow"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4FC2831DAA6E3628"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "dungeonnowloading:soul_cloth"
+					}
+					type: "item"
+				}
+			]
+			title: "Hollow"
+			x: -11.0d
+			y: -4.5d
 		}
 	]
 	title: "Overworld Adventure"

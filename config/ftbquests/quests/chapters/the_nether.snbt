@@ -524,11 +524,11 @@
 		{
 			dependencies: ["086E8054D516AFF4"]
 			description: [
-				"This large, armored wither skeleton can be found around ancient battleground ruins in the Nether. It's a formidable foe, with high health and dealing significant damage per hit."
+				"This large, armored floating set of armor can be found around ancient battleground ruins in the Nether. It's a formidable foe, with high health and dealing significant damage per hit."
 				""
-				"The best strategy for defeating this skeleton is to strike with a high-damage weapon and then retreat before returning for another hit. This approach is crucial, as he can disable your shield with just one or two strikes and may follow up with multiple swings in a row."
+				"The best strategy for defeating this foe is to strike with a high-damage weapon and then retreat before returning for another hit. This approach is crucial, as he can disable your shield with just one or two strikes and may follow up with multiple swings in a row."
 				""
-				"Upon defeat, he drops cinder essence and netherite scrap, with a rare chance to obtain the decrepit flameberge. This great sword deals 11 damage and grants an additional 5 armor points when equipped."
+				"Upon defeat, it drops cinder essence and netherite scrap, with a rare chance to obtain the decrepit flameberge. This sword deals 11 damage and grants an additional 5 armor points when equipped."
 			]
 			id: "3F7EE8543C47EE95"
 			invisible: true
@@ -1098,6 +1098,100 @@
 			}]
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			description: ["TODO Add description"]
+			id: "5A57F801362F35CB"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:netherite_ministrosity"
+					}
+				}
+				id: "5B0E5DFC1F093B00"
+				observe_type: 5
+				timer: 0L
+				title: "Netherite Ministrosity"
+				to_observe: "cataclysm:netherite_ministrosity"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: ["TODO Add description"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "cataclysm:ignited_revenant"
+				}
+			}
+			id: "59EA2BDCF549AC9D"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:ignited_revenant"
+					}
+				}
+				id: "5E2AE6F2F8DB0C43"
+				observe_type: 5
+				timer: 0L
+				title: "Ignited Revenant"
+				to_observe: "cataclysm:ignited_revenant"
+				type: "observation"
+			}]
+			title: "Ignited Revenant"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["TODO Add description"]
+			id: "45E8F9280C1DFD46"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:ignited_berserker"
+					}
+				}
+				id: "65E90AE6AC8AF479"
+				observe_type: 5
+				timer: 0L
+				title: "Ignited Berserker"
+				to_observe: "cataclysm:ignited_berserker"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 0.0d
 		}
 	]
 	title: "Nether and End"

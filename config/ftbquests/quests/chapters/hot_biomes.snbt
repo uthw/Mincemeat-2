@@ -1220,6 +1220,86 @@
 			x: -3.0d
 			y: 1.5d
 		}
+		{
+			description: ["TODO Add description"]
+			id: "5B16D375672BA61F"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:wadjet"
+					}
+				}
+				id: "1BA96FC0650A8A56"
+				observe_type: 5
+				timer: 0L
+				title: "Wadjet"
+				to_observe: "cataclysm:wadjet"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "7455AE3B112DFDB1"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:koboleton"
+					}
+				}
+				id: "3FF04440E4AFF539"
+				observe_type: 5
+				timer: 0L
+				title: "Koboleton"
+				to_observe: "cataclysm:koboleton"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			description: ["TODO Add description"]
+			id: "6DF39171A51A7437"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:kobolediator"
+					}
+				}
+				id: "4149E714B0CB1BDD"
+				observe_type: 5
+				timer: 0L
+				title: "Kobolediator"
+				to_observe: "cataclysm:kobolediator"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
 	]
 	title: "Hot/Tropical Biomes"
 }

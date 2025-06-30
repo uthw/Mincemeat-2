@@ -477,6 +477,86 @@
 			x: 1.0d
 			y: -0.5d
 		}
+		{
+			description: ["TODO Add description"]
+			id: "7B0B5D6A620391B9"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:draugr"
+					}
+				}
+				id: "2DC73D877BF3CEDE"
+				observe_type: 5
+				timer: 0L
+				title: "Draugr"
+				to_observe: "cataclysm:draugr"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "7A53CD136DC2713E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:royal_draugr"
+					}
+				}
+				id: "37E56FD2EA9EC955"
+				observe_type: 5
+				timer: 0L
+				title: "Royal Draugr"
+				to_observe: "cataclysm:royal_draugr"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: ["TODO Add description"]
+			id: "2711B6F7EDB56344"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:elite_draugr"
+					}
+				}
+				id: "6269ED2208E32B03"
+				observe_type: 5
+				timer: 0L
+				title: "Elite Draugr"
+				to_observe: "cataclysm:elite_draugr"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
 	]
 	title: "Cold Biomes"
 }

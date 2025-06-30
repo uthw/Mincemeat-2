@@ -808,8 +808,8 @@
 				to_observe: "cataclysm:the_watcher"
 				type: "observation"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -1461,6 +1461,33 @@
 			}]
 			x: 1.5d
 			y: -4.5d
+		}
+		{
+			description: ["TODO Add description"]
+			id: "74C4A0FE452A2BC6"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:the_prowler"
+					}
+				}
+				id: "2ED465F1F0A9DB31"
+				observe_type: 5
+				timer: 0L
+				title: "The Prowler"
+				to_observe: "cataclysm:the_prowler"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 5.0d
 		}
 	]
 	title: "Underground and Monsters"
