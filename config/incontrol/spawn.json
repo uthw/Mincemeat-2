@@ -104,7 +104,7 @@
     },
     {
         "when": "onjoin",
-        "mob": "environmental:yak",
+        "mob": ["environmental:yak", "environmental:zebra"],
         "result": "default",
         "damagemultiply": 10
     },
@@ -113,7 +113,7 @@
         "mob": "galosphere:berserker",
         "result": "default",
         "healthmultiply": 2.25,
-        "damagemultiply": 1.5
+        "damagemultiply": 0
     },
     {
         "when": "onjoin",
@@ -441,7 +441,15 @@
     },
     {
         "when": "finalize",
-        "mob": ["irons_spellbooks:cryomancer", "irons_spellbooks:pyromancer", "irons_spellbooks:archevoker", "irons_spellbooks:apothecarist", "traveloptics:aquamancer", "traveloptics:aqua_grandmaster", "irons_spellbooks:priest"],
+        "mob": [
+            "irons_spellbooks:cryomancer",
+            "irons_spellbooks:pyromancer",
+            "irons_spellbooks:archevoker",
+            "irons_spellbooks:apothecarist",
+            "traveloptics:aquamancer",
+            "traveloptics:aqua_grandmaster",
+            "irons_spellbooks:priest"
+        ],
         "healthmultiply": 3,
         "damagemultiply": 1.5,
         "result": "default"
