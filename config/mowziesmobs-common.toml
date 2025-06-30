@@ -137,7 +137,7 @@
 		[tools_and_abilities.earthrend_gauntlet.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 6.0
+			attack_damage = 9.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.2000000476837158
