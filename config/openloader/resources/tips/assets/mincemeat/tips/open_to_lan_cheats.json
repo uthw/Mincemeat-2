@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Do you want to use commands in a world that had them off when created? You can enable them until you exit the world by opening to LAN and enabling cheats there. This doesn't affect quests or advancements."
+    }
+}

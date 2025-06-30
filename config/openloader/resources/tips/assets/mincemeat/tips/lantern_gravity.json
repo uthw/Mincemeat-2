@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Amendments Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "If you break the chain a lantern is hanging from, it will fall to the ground and start a fire."
+    }
+}
