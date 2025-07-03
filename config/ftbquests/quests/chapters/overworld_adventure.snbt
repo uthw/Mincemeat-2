@@ -2122,7 +2122,7 @@
 		}
 		{
 			dependencies: ["34A83BB5D5DEFC82"]
-			description: ["After the Dead King is dead for good, he drops two items that are especially useful for Blood school sorcerors. You can also get other supplements like Legendary Ink and Upgrade Runes."]
+			description: ["After the Dead King is dead for good, he drops two items that are especially useful for Blood school wizards. You can also get other supplements like Legendary Ink and Upgrade Runes."]
 			id: "3210DD63988972BA"
 			tasks: [
 				{
@@ -3213,7 +3213,8 @@
 			dependencies: [
 				"71BD95734E41E591"
 				"34A83BB5D5DEFC82"
-				"21D6AB95329A4EEF"
+				"00294FF7CDCA91F0"
+				"4493D9650B5D1F71"
 			]
 			description: [
 				"If you're not interested in the Everbright or Everdawn, you can instead choose to skip them entirely and progress into the Prison without leaving the Overworld."
@@ -3223,7 +3224,15 @@
 				"Be warned, as this \"shortcut\" is much harder than taking the Blue Skies route."
 			]
 			hide_dependency_lines: true
-			icon: "forbidden_arcanus:sea_prism"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "forbidden_arcanus:sea_prism"
+			}
 			id: "00FC9BF5E2C82B11"
 			rewards: [{
 				auto: "invisible"
@@ -3422,9 +3431,9 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "dungeonnowloading:chaos_spawner_barrier_center"
+					id: "dungeonnowloading:chaotic_hexahedron"
 				}
-				title: "Chaos Spawner"
+				title: "Chaotic Hexahedron"
 				type: "item"
 			}]
 			title: "Chaos Spawner"
@@ -3698,7 +3707,9 @@
 		{
 			dependencies: ["48D4BF288D59E907"]
 			description: [
-				"After a Chaos Spawner is defeated, Hollows start to spawn in the Labyrinth. They can only be damaged by potions, which includes tipped arrows."
+				"Hollows spawn in the Labyrinth. They can only be damaged by potions, which includes tipped arrows."
+				""
+				"&7Hollows are undead, so make sure you're packing healing arrows and not harming arrows!"
 				""
 				"The Soul Cloth dropped by Hollows is required to craft Soul Silk, which you can use to craft some Labyrinth-themed weapons."
 			]
