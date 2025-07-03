@@ -963,7 +963,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "botania:fel_pumpkin" },
             "minecraft:string",
-            "alexscaves:dark_tatters",
+            "blue_skies:bug_guts",
         ],
         [
             { output: "easy_villagers:converter" },
