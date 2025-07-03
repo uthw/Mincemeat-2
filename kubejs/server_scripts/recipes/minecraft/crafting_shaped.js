@@ -400,7 +400,10 @@ ServerEvents.recipes((event) => {
             {
                 A: "minecraft:gunpowder",
                 B: "minecraft:glow_berries",
-                C: Item.of("minecraft:potion", '{Potion:"minecraft:water"}').strongNBT(),
+                C: Item.of(
+                    "minecraft:potion",
+                    '{Potion:"minecraft:water"}'
+                ).strongNBT(),
             },
         ],
         [
@@ -633,7 +636,7 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:diamond",
                 B: "irons_spellbooks:arcane_essence",
                 C: "forbidden_arcanus:cloth",
-                D: "forbidden_arcanus:rune"
+                D: "forbidden_arcanus:rune",
             },
         ],
         [
@@ -1519,56 +1522,105 @@ ServerEvents.recipes((event) => {
                 A: "forbidden_arcanus:xpetrified_orb",
                 B: "forbidden_arcanus:arcane_crystal",
                 C: "create:experience_nugget",
-                D: "alexsmobs:skreecher_soul"
-            }
+                D: "alexsmobs:skreecher_soul",
+            },
         ],
         [
             "enigmaticlegacy:enchantment_transposer",
             [" A ", "ABA", " A "],
             {
                 A: "apotheosis:improved_scrap_tome",
-                B: "reliquary:glowing_water"
-            }
+                B: "reliquary:glowing_water",
+            },
         ],
         [
             "l2artifacts:random_1",
             [" A ", "A A", " A "],
             {
-                A: "traveloptics:celestial_fragment"
-            }
+                A: "traveloptics:celestial_fragment",
+            },
         ],
         [
             "l2artifacts:random_2",
             [" A ", "ABA", "AAA"],
             {
                 A: "traveloptics:celestial_fragment",
-                B: "apotheosis:common_material"
-            }
+                B: "apotheosis:common_material",
+            },
         ],
         [
             "l2artifacts:random_3",
             ["AAA", "ABA", "AAA"],
             {
                 A: "traveloptics:celestial_fragment",
-                B: "apotheosis:uncommon_material"
-            }
+                B: "apotheosis:uncommon_material",
+            },
         ],
         [
             "l2artifacts:random_4",
             ["ABA", "AAA", "ABA"],
             {
                 A: "traveloptics:celestial_fragment",
-                B: "apotheosis:rare_material"
-            }
+                B: "apotheosis:rare_material",
+            },
         ],
         [
             "l2artifacts:random_5",
             ["AAA", "ABA", "AAA"],
             {
                 A: "traveloptics:celestial_fragment",
-                B: "apotheosis:epic_material"
-            }
-        ]
+                B: "apotheosis:epic_material",
+            },
+        ],
+        [
+            "forbidden_arcanus:reinforced_deorum_sword",
+            [" A ", " A ", " B "],
+            {
+                A: "forbidden_arcanus:deorum_ingot",
+                B: "mowziesmobs:bluff_rod",
+            },
+        ],
+        [
+            "forbidden_arcanus:reinforced_deorum_pickaxe",
+            ["AAA", " B ", " B "],
+            {
+                A: "forbidden_arcanus:deorum_ingot",
+                B: "#forge:rods/wooden",
+            },
+        ],
+        [
+            "forbidden_arcanus:reinforced_deorum_axe",
+            ["AA ", "AB ", " B "],
+            {
+                A: "forbidden_arcanus:deorum_ingot",
+                B: "#forge:rods/wooden",
+            },
+        ],
+        [
+            "forbidden_arcanus:reinforced_deorum_shovel",
+            [" A ", " B ", " B "],
+            {
+                A: "forbidden_arcanus:deorum_ingot",
+                B: "#forge:rods/wooden",
+            },
+        ],
+        [
+            "forbidden_arcanus:reinforced_deorum_hoe",
+            ["AA ", " B ", " B "],
+            {
+                A: "forbidden_arcanus:deorum_ingot",
+                B: "#forge:rods/wooden",
+            },
+        ],
+        [
+            "forbidden_arcanus:reinforced_deorum_blacksmith_gavel",
+            ["ABA", "ACA", " C "],
+            {
+                A: "forbidden_arcanus:deorum_ingot",
+                B: "forbidden_arcanus:blacksmith_gavel_head",
+                C: "#forge:rods/wooden",
+            },
+        ],
     ];
 
     recipes.forEach((recipe, index) => {
