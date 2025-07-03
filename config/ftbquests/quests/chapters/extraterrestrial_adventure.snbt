@@ -465,6 +465,18 @@
 			tasks: [
 				{
 					dimension: "minecells:black_bridge"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecells:ramparts_doorway"
+						tag: {
+							BlockEntityTag: { }
+						}
+					}
 					id: "60ED30486AD20C68"
 					type: "dimension"
 				}
@@ -1198,9 +1210,21 @@
 		}
 		{
 			dependencies: ["29D52E88824CB90D"]
-			description: ["You have to use Eyes of Ender to find the Stronghold. Your Explorer's Compass won't help you here!"]
+			description: [
+				"You have to use Eyes of Ender to find the Stronghold. Your Explorer's Compass won't help you here!"
+				""
+				"(It's easy enough to find it by exploring given the size of the structure and the way it generates)"
+			]
 			disable_toast: true
-			icon: "quark:tuff_bricks"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "quark:tuff_bricks"
+			}
 			id: "1B06AB14ACC698BD"
 			tasks: [{
 				icon: "minecraft:stone_bricks"
@@ -1219,7 +1243,16 @@
 				"0B5F5694881857E7"
 			]
 			dependency_requirement: "one_completed"
-			icon: "minecraft:end_portal_frame"
+			description: ["Disclaimer: all content beyond this quest lacks the polish of the rest of the pack due to a lack of testing. Expect The End to either be too easy or too hard. Open an issue on GitHub if you have any ideas for how I can improve your experience."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:end_portal_frame"
+			}
 			id: "112C59D69077AED4"
 			tasks: [{
 				dimension: "minecraft:the_end"
