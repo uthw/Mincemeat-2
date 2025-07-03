@@ -103,6 +103,14 @@ JEIEvents.information((event) => {
         {
             item: "netherexp:stridite",
             desc: "Found in Brazier Chests or through soul sand valley archaeology."
+        },
+        {
+            item: "farmersdelight:rice",
+            desc: "Grows in the wild in biomes similar to swamps and jungles (look in shallow water), or can be found in mineshafts and villages."
+        },
+        {
+            item: "supplementaries:flax_seeds",
+            desc: "Grows in the wild in beaches."
         }
     ];
 
