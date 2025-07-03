@@ -1391,8 +1391,8 @@
 				to_observe: "cataclysm:amethyst_crab"
 				type: "observation"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			description: [
