@@ -133,8 +133,6 @@ let tweaks = [
         name: "throwable",
         values: [
             "minecraft:piercing",
-            "apotheosis:spearfishing",
-            "enigmaticlegacy:wrath",
             // "spartanweaponry:razors_edge",
             // "spartanweaponry:propel",
             // "spartanweaponry:expanse",
