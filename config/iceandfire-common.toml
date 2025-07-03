@@ -129,10 +129,10 @@
 	[Mobs.Pixies]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Pixies Chance" = 60
+		"Spawn Pixies Chance" = 120
 		#size of pixie villages
 		#Range: 1 ~ 10000
-		"Pixie Village Size" = 5
+		"Pixie Village Size" = 3
 		#True if pixies are allowed to steal from players
 		"Pixies Steal Items" = true
 
@@ -227,7 +227,7 @@
 		"Stymphalian Birds Target Animals" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Stymhphalian Bird Chance" = 100
+		"Spawn Stymhphalian Bird Chance" = 150
 
 	[Mobs.Trolls]
 		#True if trolls are allowed to spawn
