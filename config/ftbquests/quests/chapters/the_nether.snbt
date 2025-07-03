@@ -1100,6 +1100,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["086E8054D516AFF4"]
 			description: ["TODO Add description"]
 			id: "5A57F801362F35CB"
 			invisible: true
@@ -1127,6 +1128,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["086E8054D516AFF4"]
 			description: ["TODO Add description"]
 			icon: {
 				Count: 1
@@ -1167,6 +1169,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["086E8054D516AFF4"]
 			description: ["TODO Add description"]
 			id: "45E8F9280C1DFD46"
 			invisible: true
