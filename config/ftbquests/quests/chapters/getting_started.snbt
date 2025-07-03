@@ -315,8 +315,8 @@
 				type: "checkmark"
 			}]
 			title: "The first arcane secret"
-			x: 0.0d
-			y: 2.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
@@ -517,7 +517,7 @@
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
 			description: [
-				"The pack is far from complete! I'd estimate around 55% right now."
+				"The pack is far from complete! I'd estimate around 65% right now."
 				""
 				"Quests, recipes, textures, other customization, lots of things aren't done."
 				""
@@ -533,6 +533,8 @@
 				"I hope this list gets smaller, but it will be a matter of months (maybe even years in Astral Sorcery's case) before it's empty!"
 				""
 				"&7It's been fun for me crossing mods off this list :)&r"
+				""
+				"&7It's been a while since I was last able to remove one of these..."
 			]
 			id: "0744F31452AD387B"
 			tasks: [{
@@ -3394,6 +3396,32 @@
 			}]
 			x: 7.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2BE6B05790E5A2DE"]
+			description: [
+				"All the way at the &atop left&r of the &2inventory screen&r, you'll find the &2Teams&r button. "
+				""
+				"If you're on a server playing co-op with someone, one of you should create a team through this menu and invite the other(s) to it."
+				""
+				"Here are some of the more &anoticeable benefits&r of &abeing on a team&r:"
+				""
+				"- All members of a &ateam&r share &2quest progress&r and &2chunk claims&r."
+				""
+				"- You can see &2where your teammates are on the map&r at any distance if you're in the same dimension as them, and &2their locations show up as in-world markers&r if you're not close."
+				""
+				"&7Tip: right click your teammate's head on the world map to see their XYZ coordinates."
+				""
+				"- You can use the &2/tpa&r and &2/tpahere&r commands to &ateleport&r to your teammates. I think this also works if the player isn't on your team, but I haven't tested it so I'm listing it here."
+			]
+			id: "0B270EFDF0E74726"
+			tasks: [{
+				id: "412ED23F7A021D97"
+				title: "Setting Up Teams in Multiplayer"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
 		}
 	]
 	title: "Getting Started"
