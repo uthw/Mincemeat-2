@@ -8009,6 +8009,7 @@
 		{
 			description: ["Most of these spears are made by making the handles out of various types of sticks from the Everbright and Everdawn."]
 			id: "762CE8F51524471D"
+			subtitle: "They're actually good now"
 			tasks: [
 				{
 					id: "46CCD57056DCFA0E"
