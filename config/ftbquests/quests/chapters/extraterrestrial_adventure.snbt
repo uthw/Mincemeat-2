@@ -1780,7 +1780,7 @@
 		{
 			dependencies: ["086E8054D516AFF4"]
 			description: [
-				"Rubies can be found near the ocean, roof, or bastions. You'll need a Freezer to chill them and make them useful."
+				"Rubies can be found near the ocean, upper half of the nether, or bastions. They're most abundant in the form of Molten Ruby Ore within veins of magma blocks. You'll need a Freezer to chill them and make them useful."
 				""
 				"Ruby Shards can also be used for Piglin Bartering."
 			]
