@@ -2052,6 +2052,8 @@
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
+				"&cIMPORTANT: This boss's healing mechanic is &lbugged &r&cand will regenerate its health fully. Until it's fixed, read how to overcome this on the &lsecond page!"
+				""
 				"The Void Blossom grows deep below the ground. You'll need to plant a Void Lily and follow its pollen, since your compass isn't able to find it."
 				""
 				"Void Lilies are crafted with Dark Matter, obtained by smelting Edelwood Logs found in Dark Forests. They also require the Yucca Flower, found in Scrublands and Spiny Thickets."
@@ -2059,6 +2061,11 @@
 				"This boss will awaken when you get too close to it. It (literally) has thorns, so be careful when you use melee attacks."
 				""
 				"During your fight, the Void Blossom will try and heal using blossoms around the arena. You'll need to climb into the cage and destroy the flowers to stop this and continue whittling it down."
+				"{@pagebreak}"
+				"If you can't out-DPS the Void Blossom's healing, you can prevent it entirely instead. Simply empty a lava bucket above each of the places where flowers spawn. The lava will flow down and break the flowers every time they appear."
+				""
+				""
+				"{image: width:100 height:100 align:center}"
 			]
 			id: "4D8E61449F85F893"
 			tasks: [{
