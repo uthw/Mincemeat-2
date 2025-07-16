@@ -459,5 +459,11 @@
         "mob": "eidolon:wraith",
         "damagemultiply": 0.5,
         "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "aquamirae:maw",
+        "random": 0.35,
+        "result": "deny"
     }
 ]
