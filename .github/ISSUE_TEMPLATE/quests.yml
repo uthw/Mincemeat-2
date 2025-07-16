@@ -15,7 +15,7 @@ body:
     - type: dropdown
       id: prevents_progress
       attributes:
-          label: "Does it prevent you from progressing through the quests?"
+          label: "Does it make it impossible to complete or access the quests?"
           options:
               - "Yes"
               - "No"

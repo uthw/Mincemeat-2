@@ -9,7 +9,7 @@ body:
       attributes:
           value: "Thank you for helping by reporting bugs. Please fill out the fields below to give me all the information I'll need to investigate."
 
-    - type: input
+    - type: textarea
       id: title
       attributes:
           label: "Description"
