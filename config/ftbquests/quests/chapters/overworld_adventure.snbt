@@ -2052,7 +2052,9 @@
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
-				"&cIMPORTANT: This boss's healing mechanic is &lbugged &r&cand will regenerate its health fully. Until it's fixed, read how to overcome this on the &lsecond page!"
+				"&cIMPORTANT: This boss's healing mechanic is &lbugged &r&cand will regenerate its health fully (it's not meant to do that). "
+				""
+				"&cUntil it's fixed, read how to overcome this on the &lsecond page!"
 				""
 				"The Void Blossom grows deep below the ground. You'll need to plant a Void Lily and follow its pollen, since your compass isn't able to find it."
 				""
@@ -2064,8 +2066,7 @@
 				"{@pagebreak}"
 				"If you can't out-DPS the Void Blossom's healing, you can prevent it entirely instead. Simply empty a lava bucket above each of the places where flowers spawn. The lava will flow down and break the flowers every time they appear."
 				""
-				""
-				"{image: width:100 height:100 align:center}"
+				"{image:kubejs:item/void_blossom_guide width:716 height:599 align:center fit:true}"
 			]
 			id: "4D8E61449F85F893"
 			tasks: [{
@@ -2101,7 +2102,9 @@
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
-				"These underground ruins are said to be the stronghold of a long-gone king. They're found using a Wayward Compass, which requires a Soul Bead. Tl;dr, you need to kill a Wraith from Quark. They're found in Soul Sand Valleys or Necromancer's Spires in the Overworld."
+				"These underground ruins are said to be the stronghold of a long-gone king. They're found using a Wayward Compass, which requires a Soul Bead. Tl;dr, you need to kill a Wraith from Quark. "
+				""
+				"Wraiths are easier to find in the Nether where they're native to Soul Sand Valleys, but can also be found in some Overworld structures like the Nexus and Ruins of the Deep."
 				""
 				"If you know Necromancers, you know this boss, but not all of him. You should at least have mid-game equipment, and spells can help but aren't necessary. "
 			]
@@ -2206,7 +2209,7 @@
 			tasks: [{
 				id: "6E231BDE3C2879B8"
 				structure: "mowziesmobs:frostmaw_spawn"
-				title: "Frostmaw's Cave"
+				title: "Frostmaw's Spawn"
 				type: "structure"
 			}]
 			x: -6.5d
