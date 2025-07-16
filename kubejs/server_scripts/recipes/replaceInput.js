@@ -1518,6 +1518,11 @@ ServerEvents.recipes((event) => {
             { output: "#exposure:film_rolls" },
             "minecraft:dried_kelp",
             "immersiveengineering:hemp_fabric"
+        ],
+        [
+            {},
+            "reliquary:zombie_heart",
+            "eidolon:zombie_heart"
         ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
