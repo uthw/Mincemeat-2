@@ -21,7 +21,7 @@
 		followRange = 128.0
 		pullAndSpinTargets = true
 		#Range: 0 ~ 1000
-		regenerationSkillUses = 3
+		regenerationSkillUses = 1
 
 	[Mobs.Anglerfish]
 		#Range: 0.0 ~ 100.0
