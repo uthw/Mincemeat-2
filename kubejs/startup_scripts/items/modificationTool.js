@@ -151,74 +151,73 @@ ItemEvents.modification((event) => {
         },
         {
             name: "aquaculture:neptunium_sword",
-            damage: 8
+            damage: 8,
         },
         {
             name: "eidolon:reaper_scythe",
-            damage: 10
+            damage: 10,
         },
         {
             name: "eidolon:sapping_sword",
-            damage: 7
+            damage: 7,
         },
         {
             name: "eidolon:deathbringer_scythe",
-            damage: 13
+            damage: 13,
         },
         {
             name: "endermanoverhaul:corrupted_blade",
-            damage: 13
+            damage: 13,
         },
         {
             name: "undergarden:forgotten_sword",
-            damage: 10
+            damage: 10,
         },
         {
             name: "meetyourfight:cocktail_cutlass",
-            damage: 10
+            damage: 10,
         },
         {
             name: "dungeonnowloading:life_stealer",
-            damage: 5.5
+            damage: 5.5,
         },
         {
             name: "dungeonnowloading:spawner_sword",
-            damage: 11
+            damage: 11,
         },
         {
             name: "celestisynth:crescentia",
-            damage: 10
+            damage: 10,
         },
         {
             name: "celestisynth:solaris",
-            damage: 9
+            damage: 9,
         },
         {
             name: "celestisynth:breezebreaker",
-            damage: 9
+            damage: 9,
         },
         // cannot edit poltergeist
         {
             name: "celestisynth:aquaflora",
-            damage: 4
+            damage: 4,
         },
         {
             name: "celestisynth:frostbound",
-            damage: 15
+            damage: 15,
         },
         {
             name: "celestisynth:keres",
-            damage: 23
-        }
-        
+            damage: 23,
+        },
     ];
 
     tools.forEach((tool) => {
         event.modify(tool.name, (item) => {
-            let spd = tool.speed ? tool.speed : item.attackSpeed;
-
             item.attackDamage = tool.damage;
-            // item.attackSpeed = spd;
+            // if (tool.speed !== undefined) {
+            //     item.attackSpeed = tool.speed;
+            // }
         });
     });
 

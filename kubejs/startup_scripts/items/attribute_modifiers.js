@@ -67,7 +67,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:charoite_chestplate",
@@ -75,7 +75,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:charoite_leggings",
@@ -83,7 +83,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:charoite_boots",
@@ -91,7 +91,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:charoite_helmet",
@@ -99,7 +99,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:charoite_chestplate",
@@ -107,7 +107,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:charoite_leggings",
@@ -115,7 +115,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:charoite_boots",
@@ -123,7 +123,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
 
     // Diopside is the same thing but for heat
@@ -133,7 +133,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:diopside_chestplate",
@@ -141,7 +141,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:diopside_leggings",
@@ -149,7 +149,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:diopside_boots",
@@ -157,7 +157,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "a2f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.125,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:diopside_helmet",
@@ -165,7 +165,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:diopside_chestplate",
@@ -173,7 +173,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:diopside_leggings",
@@ -181,7 +181,7 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
     {
         itemName: "blue_skies:diopside_boots",
@@ -189,16 +189,8 @@ let modifiers = [
         attributeName: "armor modifier",
         uuid: "12f3b0d4-5c8e-4f1b-9a7c-6d3e0f1b2c5d",
         value: 0.5,
-        op: "ADDITION"
+        op: "ADDITION",
     },
-    // {
-    //     itemName: "cataclysm:coral_bardiche",
-    //     attribute: "minecraft:generic.attack_damage",
-    //     attributeName: "tool modifier",
-    //     uuid: "cb3f55d3-645c-4f38-a497-9c13a33db5cf",
-    //     value: 12.0,
-    //     op: "ADDITION",
-    // },
 ];
 
 ItemEvents.modification((event) => {
