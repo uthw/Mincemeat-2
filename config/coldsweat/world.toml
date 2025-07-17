@@ -3,9 +3,9 @@
 #Common dimension IDs: minecraft:overworld, minecraft:the_nether, minecraft:the_end
 [Dimensions]
 	#Applies an offset to the world's temperature across an entire dimension
-	"Dimension Temperature Offsets" = [["minecraft:the_nether", 0.7, "MC"], ["aether:the_aether", -1.1, "MC"], ["blue_skies:everbright", -0.5, "MC"], ["undergarden:undergarden", 0.2, "MC"], ["minecraft:the_end", -0.1, "MC"], ["blue_skies:everdawn", 0.2, "MC"]]
+	"Dimension Temperature Offsets" = [["minecraft:the_nether", 0.7, "MC"], ["aether:the_aether", -1.1, "MC"], ["blue_skies:everbright", -0.5, "MC"], ["undergarden:undergarden", 0.2, "MC"], ["minecraft:the_end", -0.1, "MC"], ["blue_skies:everdawn", 0.1, "MC"]]
 	#Defines the temperature of a dimension, overriding all other biome and dimension temperatures/settings
-	"Dimension Temperatures" = [["blue_skies:everdawn", 124.0, "F"], ["blue_skies:everbright", 12.0, "F"]]
+	"Dimension Temperatures" = []
 
 #Format: [["biome_1", <low-temp>, <high-temp>, <*units>], ["biome_2", <low-temp>, <high-temp>, <*units>]... etc]
 #low-temp: The temperature of the biome at midnight
