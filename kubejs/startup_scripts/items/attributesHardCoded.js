@@ -110,6 +110,11 @@ let tweaks = [
         itemName: "blue_skies:maple_spear",
         attributeName: "minecraft:generic.attack_damage",
         value: 10.5, // originally 3
+    },
+    {
+        itemName: "savage_and_ravage:cleaver_of_beheading",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 13, // old: 11
     }
 ];
 
