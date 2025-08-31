@@ -30,12 +30,12 @@
             "attribute": "attributeslib:life_steal",
             "operation": "ADDITION",
             "values": {
-                "common": 0.03,
-                "uncommon": 0.05,
-                "rare": 0.07,
-                "epic": 0.1,
-                "mythic": 0.13,
-                "ancient": 0.16
+                "common": 0.02,
+                "uncommon": 0.03,
+                "rare": 0.04,
+                "epic": 0.05,
+                "mythic": 0.05,
+                "ancient": 0.05
             }
         },
         {
@@ -47,12 +47,12 @@
             "attribute": "attributeslib:overheal",
             "operation": "ADDITION",
             "values": {
-                "common": 0.03,
-                "uncommon": 0.04,
-                "rare": 0.05,
-                "epic": 0.08,
-                "mythic": 0.12,
-                "ancient": 0.15
+                "common": 0.01,
+                "uncommon": 0.02,
+                "rare": 0.025,
+                "epic": 0.025,
+                "mythic": 0.025,
+                "ancient": 0.025
             }
         },
         {
