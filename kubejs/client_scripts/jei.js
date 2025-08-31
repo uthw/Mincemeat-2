@@ -111,6 +111,10 @@ JEIEvents.information((event) => {
         {
             item: "supplementaries:flax_seeds",
             desc: "Grows in the wild in beaches."
+        },
+        {
+            item: "enigmaticlegacy:etherium_ore",
+            desc: "Dropped by Ender Guardians and Obsidiliths."
         }
     ];
 
