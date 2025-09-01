@@ -1,10 +1,1 @@
-[
-    {
-        "timeout": 20,
-        "structure": ["integrated_stronghold:stronghold"],
-        "potion": [
-            "xaerominimap:no_minimap,21,0",
-            "xaeroworldmap:no_world_map,21,0"
-        ]
-    }
-]
+[]
