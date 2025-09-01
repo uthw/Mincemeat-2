@@ -40,7 +40,7 @@
 	"obsidilithConfig": {
 		"health": 450.0,
 		"armor": 14.0,
-		"attack": 28.0,
+		"attack": 70.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnPillarOnDeath": true,
