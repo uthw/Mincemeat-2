@@ -19,7 +19,7 @@
       {
         "type": "REGISTRY_NAME",
         "negate": true,
-        "value": "minecraft:end_highlands"
+        "value": "outer_end:azure_forest"
       },
       {
         "type": "REGISTRY_NAME",
