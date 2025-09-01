@@ -465,5 +465,23 @@
         "mob": "aquamirae:maw",
         "random": 0.35,
         "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": [
+            "cataclysm:drowned_host",
+            "cataclysm:symbiocto",
+            "cataclysm:hippocamtus",
+            "cataclysm:cindaria",
+            "cataclysm:urchinkin"
+        ],
+        "healthmultiply": 2.25,
+        "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "traveloptics:the_nightwarden",
+        "healthmultiply": 0.65,
+        "result": "default"
     }
 ]
