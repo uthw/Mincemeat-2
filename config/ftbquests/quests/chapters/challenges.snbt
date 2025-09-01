@@ -3888,7 +3888,7 @@
 				""
 				"The Wild Hunt: Sold by Master-Level Shady Wizard"
 				""
-				"Parousia: Found in Aether Chests"
+				"Parousia: Progress through Eidolon, then perform a certain ritual while looking at a music disc"
 				""
 				"Aether Tune: Found in Aether Chests"
 				""
@@ -3916,9 +3916,9 @@
 				""
 				"Leaving Home: Wandering trader being killed by a skeleton"
 				""
-				"Slabrave: Feeding a slabfish a music disk"
+				"Slabrave: Feeding a slabfish a music disc"
 				""
-				"Epiloge: Holding disk 11 in your offhand while killing a myan"
+				"Epilogue: Hold C418 - 11 in your off hand while killing a mime"
 				""
 				"Kilobyte: Chests in the outer end"
 				""
@@ -3939,6 +3939,10 @@
 				"Buckshot Wonderland: Freeze a Shimmer Disc"
 				""
 				"Eldritch 169: Trade with Aqua Grandmaster"
+				""
+				"Scylla: Dropped by Scylla 10% of the time"
+				""
+				"Dragon Slayer: Dropped by The Nightwarden 20% of the time"
 				"{@pagebreak}"
 				"Most discs can also drop from hostile mobs with backpacks."
 			]
@@ -4399,6 +4403,32 @@
 							}
 						}
 						id: "netherexp:music_disc_buckshot_wonderland"
+					}
+					type: "item"
+				}
+				{
+					id: "5E5FB94D63D32C25"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:music_disc_nightwarden"
+					}
+					type: "item"
+				}
+				{
+					id: "4FA00C29925F2FDC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:music_disc_scylla"
 					}
 					type: "item"
 				}
@@ -9891,6 +9921,110 @@
 					type: "item"
 					weak_nbt_match: true
 				}
+				{
+					id: "50DCD723D4BD2F78"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:shear_of_the_stars"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "45D8D23BB8AF8243"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:supernova"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6A849315766741CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:conjure_void_tomes"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "14B22CDBE495054F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:blink"
+									index: 0
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
 			]
 			title: "Ender Scrolls"
 			x: -7.0d
@@ -10155,6 +10289,8 @@
 				"The Sunken Fate: on a lectern in the Aquamancer's Tower"
 				""
 				"Logbook: on a lectern in Ice Maze vindicator ships"
+				""
+				"Journal 1 ... Lost One: on lecterns in the Void Cathedral"
 			]
 			id: "6387A25BB246D61C"
 			tasks: [
@@ -10684,6 +10820,155 @@
 							]
 							resolved: 1b
 							title: "Logbook"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3CD06CD63A077458"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "GameTechBC"
+							filtered_title: "Journal #1"
+							pages: [
+								"{\"text\":\"I found him in the void.\\nAt first, I thought it was a statue - suspended in place, unmoving, almost lost to time. But the closer I got, the more certain I became: this wasn't a statue. It was a body locked in stasis, frozen between worlds...but still alive.\\n\\nSomehow...\"}"
+								"{\"text\":\"Not alive in the way most would recognize. I don't think he can speak. Maybe not even move. But I felt his presence. Like he was watching. Listening. Trapped just behind the veil of this world. There were journals near him, when I arrived. A few had already begun drifting into the void.\"}"
+								"{\"text\":\"But some remained. Enough to piece together the truth.\\n\\n\\n\\n\\n---->\"}"
+								"{\"text\":\"HE had broken the barrier.\\nYou probably know the one I mean. It wasn't a wall built by hands. IT was part of the dimension itself. Most never saw it. Fewer still understand what it was. And...\\n\\nAnyone who touches it unprepared would vanish in an instant.\"}"
+								"{\"text\":\"That's what I believe happened to him. He didn't die, exactly.\\nBut his body, his soul... caught somewhere between 'here and not.'\"}"
+							]
+							resolved: 1b
+							title: "Journal #1"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4D5E756E7BE5DC3E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "GameTechBC"
+							filtered_title: "Journal #2"
+							pages: [
+								"{\"text\":\"The journals say he was looking for someone. Someone he lost. Someone who meant everything. And to find her, he walked a path no one else dared.\\n\\n\\\"Breaking the barrier without hurting the creature in it's center wasn't so easy.\\\"\"}"
+								"{\"text\":\"That line stuck with me. He did it without violence. Without killing. That alone is something worth remembering.\\n\\nBut grief... Grief often blinds us.\"}"
+								"{\"text\":\"There were things he didn't account for. Fundamental truths buried deep beneath the laws of this dimension. Things I won't write down here. If that knowledge ever ender up in the wrong hands, none of us would be safe.\\n\\n-- Definitely not because I'm lazy.\"}"
+								"{\"text\":\"I'm not a mage. Not really. I just make some spells staying in the void here as my hobby. But I know enough to say this: what he did was near impossible.\\n\\nAnd he did it anyway. \"}"
+								"{\"text\":\"So, we built this place around him. A structure to keep his form safe. To wait - just in case someone more capable than me comes along. Someone who might be able to pull him back.\"}"
+							]
+							resolved: 1b
+							title: "Journal #2"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6E5D6308BBEFC0DC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "??????"
+							filtered_title: "Hope Unmade"
+							pages: [
+								"{\"text\":\"And eventually I did it.\\n\\nThe barrier shattered. And just for a second - I let myself believe I have won.\"}"
+								"{\"text\":\"\\n\\n\\n\\n\\n\\nBut I was wrong...\"}"
+								"{\"text\":\"I think I cannot continue this journal anym......\"}"
+							]
+							resolved: 1
+							title: "Hope Unmade"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "04B4ECFEA9ABA524"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "?????"
+							filtered_title: "The Other Way"
+							pages: [
+								"{\"text\":\"The barrier was made from old, raw power - something that couldn't be broken by force alone. I needed to overthink it.\\n\\nSo I studied. I let go of everything else. Spent YEARS pushing past every limit anyone ever told me existed.\"}"
+								"{\"text\":\"I was no longer \\\"just\\\" a mage. \\n\\nI am now a man ready to tear the stars apart just to reach her again.\"}"
+							]
+							resolved: 1
+							title: "The Other Way"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "40D022034F781AE2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "????"
+							filtered_title: "The Barrier"
+							pages: [
+								"{\"text\":\"The problem was... the End was sealed. I could feel her presence somewhere far beyond the main island. But to reach her, I had to cross something most people didn't even know existed.\\n\\nA Barrier...\"}"
+								"{\"text\":\"IT wasn't made by the Ender Dragon, but it's presence kept it in place.\\n\\nOther's might have for the obvious answer - kill the dragon. Force the way open.\\n\\n\\nBut not me...\"}"
+								"{\"text\":\"I don't hurt things that don't hurt me. The dragon had never attacked me.\\nIt was just there. Guarding its home...\\n\\nAnd maybe I understood that a little too well.\"}"
+							]
+							resolved: 1
+							title: "The Barrier"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "389623DC64197755"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "???"
+							filtered_title: "Lost One"
+							pages: ["{\"text\":\"She was taken. Lost to the End by something I couldn't name. No sign, no warning, no clue - just silence. Whatever it was, it left nothing behind but questions.\\n\\n\"}"]
+							resolved: 1
+							title: "Lost One"
 						}
 					}
 					match_nbt: true
