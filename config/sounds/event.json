@@ -1,0 +1,31 @@
+{
+	"ignoreSilencedStatusEffects": true,
+	"positiveStatusEffectGainSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 1.0,
+		"volume": 0.1,
+		"id": "positiveStatusEffectGain",
+		"soundEvent": "eidolon:select_rune"
+	},
+	"negativeStatusEffectGainSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 0.3,
+		"volume": 0.2,
+		"id": "negativeStatusEffectGain",
+		"soundEvent": "irons_spellbooks:entity.blood_needle.impact"
+	},
+	"positiveStatusEffectLoseSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 0.5,
+		"volume": 0.1,
+		"id": "positiveStatusEffectLose",
+		"soundEvent": "relics:ability_locked"
+	},
+	"negativeStatusEffectLoseSoundEffect": {
+		"shouldPlay": true,
+		"pitch": 0.5,
+		"volume": 0.1,
+		"id": "negativeStatusEffectLose",
+		"soundEvent": "relics:ability_locked"
+	}
+}
