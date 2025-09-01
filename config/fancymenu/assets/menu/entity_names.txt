@@ -175,6 +175,7 @@ blue_skies:venom_spider
 blue_skies:whistleshell_crab
 buzzier_bees:moobloom
 cataclysm:aptrgangr
+cataclysm:cindaria
 cataclysm:coral_golem
 cataclysm:coralssus
 cataclysm:deepling
@@ -185,16 +186,19 @@ cataclysm:deepling_warlock
 cataclysm:draugr
 cataclysm:elite_draugr
 cataclysm:endermaptera
+cataclysm:hippocamtus
 cataclysm:ignited_berserker
 cataclysm:ignited_revenant
 cataclysm:koboleton
 cataclysm:lionfish
 cataclysm:modern_remnant
 cataclysm:netherite_ministrosity
+cataclysm:octohost
 cataclysm:royal_draugr
 cataclysm:the_baby_leviathan
 cataclysm:the_prowler
 cataclysm:the_watcher
+cataclysm:urchinkin
 cataclysm:wadjet
 caverns_and_chasms:copper_golem
 caverns_and_chasms:deeper
@@ -339,6 +343,7 @@ thermal:blitz
 thermal:blizz
 traveloptics:aqua_grandmaster
 traveloptics:aquamancer
+traveloptics:void_tome
 undergarden:brute
 undergarden:dweller
 undergarden:gloomper
