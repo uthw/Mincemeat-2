@@ -138,5 +138,6 @@
     "tetra.holo.craft.materials.stat.tertiary.tooltip": "The material's flexibility or tensile strength, how fast does this material spring back when bent (determines secondary effect strength)",
     "subtitles.celestisynth.sword_clash": "Pulsating attack",
     "effect.xaerominimap.no_minimap.description": "No access to the minimap in this area.",
-    "effect.xaeroworldmap.no_world_map.description": "No access to the world map in this area."
+    "effect.xaeroworldmap.no_world_map.description": "No access to the world map in this area.",
+    "effect.cataclysm.wetness.description": "Causes Scylla's lightning attacks to deal lethal damage."
 }
