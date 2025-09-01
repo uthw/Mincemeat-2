@@ -1463,7 +1463,11 @@
 			y: -4.5d
 		}
 		{
-			description: ["TODO Add description"]
+			description: [
+				"The Prowler is a mechanical miniboss found in the Ancient Factory. It's effectively a larger, grounded Watcher. It fires homing missiles at intruders and has a laser beam to hit far-away targets. It also attacks in melee range with its sawblade."
+				""
+				"The Prowler's ranged attacks are harder to avoid than its melee ones, so stay close to it. Shields are also ineffective against the Prowler because most of its attacks are multi-hits, so the first hit disables your shield and then the subsequent hits go through it."
+			]
 			id: "74C4A0FE452A2BC6"
 			invisible: true
 			tasks: [{
@@ -1488,6 +1492,51 @@
 			}]
 			x: -2.5d
 			y: 5.0d
+		}
+		{
+			description: [
+				"Found in Echo Shrines underground, the Fading Mage is a peaceful spirit who tells you their life story while wardens come out of the ground to annoy you. Make sure you destroy the sculk shriekers nearby before talking to them."
+				""
+				"After it's done monologuing, talk to it again to trade with it like most other mages. The Fading Mage is knowledgeable in the Eldritch magic school. "
+				""
+				"If you just stumbled upon this bestiary entry, you almost certainly lack the void manuscripts required to trade with him yet -- you'll have to make a trip to the Outer End to find those."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "traveloptics:fading_mage"
+				}
+			}
+			id: "21080DFF9602FCAF"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "traveloptics:fading_mage"
+					}
+				}
+				id: "4E4E931B4FB39CA5"
+				observe_type: 5
+				timer: 0L
+				title: "Fading Mage"
+				to_observe: "traveloptics:fading_mage"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	title: "Underground and Monsters"

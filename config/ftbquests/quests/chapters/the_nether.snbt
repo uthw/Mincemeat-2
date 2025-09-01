@@ -626,11 +626,11 @@
 		{
 			dependencies: ["112C59D69077AED4"]
 			description: [
-				"These huge viruses float around in the End islands or appear from people with ender flu."
+				"These huge viruses float around in the Outer End. They're easiest to spot in End Midlands and End Highlands biomes."
 				""
 				"They don’t like spreading disease, so they will go after anyone with ender flu and eliminate them, believing this is a way of quarantining the virus, but it’s actually just murder."
 				""
-				"If you defeat an Enderdirophage, they will drop a capsid, which is just their head."
+				"If you defeat an Endiriophage, they will drop a capsid, which is just their head."
 				""
 				"They have some very strange abilities, such as being able to create rockets that produce DNA strands and transporting items upwards if stacked on top, similar to a hopper pointing upwards."
 			]
@@ -1195,6 +1195,38 @@
 			}]
 			x: -4.5d
 			y: 0.0d
+		}
+		{
+			description: [
+				"I'm 90% sure this isn't even alive, but I might as well include it here for the sake of completion. This flying book is summoned during the Nightwarden's fight to inflict agony on you by shooting purple darts."
+				""
+				"The Void Tomes thankfully don't have the same damage adaptation mechanics as the Nightwarden, so use whatever's the most effective to rip them apart."
+			]
+			id: "05C025F7E128D7EA"
+			invisible: true
+			subtitle: "1 Star Goodreads Review"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "traveloptics:void_tome"
+					}
+				}
+				id: "7E2ECF8FA27E9C94"
+				observe_type: 5
+				timer: 0L
+				title: "Void Tome"
+				to_observe: "traveloptics:void_tome"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 	title: "Nether and End"

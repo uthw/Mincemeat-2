@@ -478,7 +478,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["TODO Add description"]
+			description: ["Draugrs are the basic lowly grunts of the Frosted Prison. These frozen undead use basic attacks with either swords or axes and are nothing to worry about."]
 			id: "7B0B5D6A620391B9"
 			invisible: true
 			tasks: [{
@@ -505,6 +505,11 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"The Royal Draugr is a further-upgraded Draugr, and is a skilled shield user. It's not any better at melee combat than their basic counterparts, but they hide behind their shield whenever they're not attacking."
+				""
+				"If you're fast enough, you can dodge roll behind the Royal Draugr and backstab them while their shield is up. Otherwise, wait until they attack, block the hit, and answer with your own weapon."
+			]
 			id: "7A53CD136DC2713E"
 			invisible: true
 			tasks: [{
@@ -531,7 +536,11 @@
 			y: -1.5d
 		}
 		{
-			description: ["TODO Add description"]
+			description: [
+				"The Elite Draugr has been promoted, and uses a crossbow. It's not entirely a pushover though, since it fires arrows more quickly than most other crossbow-wielding foes in the game. "
+				""
+				"You should focus on them first in a group of enemies so they don't hit you with a constant stream of damage."
+			]
 			id: "2711B6F7EDB56344"
 			invisible: true
 			tasks: [{

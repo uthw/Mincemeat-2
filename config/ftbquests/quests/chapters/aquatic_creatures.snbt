@@ -1399,8 +1399,8 @@
 				to_observe: "aquamirae:tortured_soul"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -2247,6 +2247,128 @@
 			}]
 			x: 10.0d
 			y: 2.0d
+		}
+		{
+			description: [
+				"This seahorse-looking adversary lives in the Acropolis. Its weapon of choice is a spear, and its mediocre HP is made up for with good armor. Overall, this mob shouldn't be too much of a challenge for you if you're prepared."
+				""
+				"It drops lacrima on death, which you'll need to craft some of the interesting items related to the Acropolis."
+			]
+			id: "2D9A869EDA266F67"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:hippocamtus"
+					}
+				}
+				id: "38643881E77909C4"
+				observe_type: 5
+				timer: 0L
+				title: "Hippocamtus"
+				to_observe: "cataclysm:hippocamtus"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"This gelatinous being lives in the Acropolis. It attacks with its strange umbrella-looking weapon, and can shoot a blue dart that bounces off walls. This enemy is slow, but its weapon has a lot of range, so be careful."
+				""
+				"Cnidaria is the name of the phylum that jellyfish are part of (there're just 2 letters flipped in this mob's name), so this name has a straightforward etymology."
+			]
+			id: "2D3472618DE043D1"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:cindaria"
+					}
+				}
+				id: "7BDE9287FF72D316"
+				observe_type: 5
+				timer: 0L
+				title: "Cindaria"
+				to_observe: "cataclysm:cindaria"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"The Urchinkin, native to the Acropolis, rolls around and discharges thorns around itself. It also has a melee attack."
+				""
+				"It's very cute and I know you want to tame it and take it home, but I don't think the Urchinkin will let you."
+			]
+			id: "3BD91738F439F75C"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:urchinkin"
+					}
+				}
+				id: "72EEDB11D1789805"
+				observe_type: 5
+				timer: 0L
+				title: "Urchinkin"
+				to_observe: "cataclysm:urchinkin"
+				type: "observation"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			description: ["Here, we observe that an octopus has leeched onto a drowned and is controlling it. This intriguing mob is found in the Acropolis, and the octopus can discharge ink as the drowned moves to punch you. This is similar to a spider jockey."]
+			id: "52A0AE5C6E8AA1BE"
+			invisible: true
+			subtitle: "Drowned Jockey!"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "cataclysm:symbiocto"
+					}
+				}
+				id: "26C663D728D094C4"
+				observe_type: 5
+				timer: 0L
+				title: "Symbiocto"
+				to_observe: "cataclysm:symbiocto"
+				type: "observation"
+			}]
+			title: "Symbiocto/Octohost"
+			x: 11.0d
+			y: 4.0d
 		}
 	]
 	title: "Aquatic Creatures"
