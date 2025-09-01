@@ -963,7 +963,7 @@ ServerEvents.recipes((event) => {
             [" A ", "BCB", "DED"],
             {
                 A: "createaddition:connector",
-                B: "upgrade_aquatic:embedded_ammonite",
+                B: "create:ochrum",
                 C: "thermal:machine_frame",
                 D: "#forge:plates/zinc",
                 E: "thermal:rf_coil",
