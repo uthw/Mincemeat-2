@@ -631,7 +631,7 @@
 				value: 1L
 			}]
 			title: "Leviathan"
-			x: 13.0d
+			x: 14.0d
 			y: -4.0d
 		}
 		{
@@ -659,7 +659,7 @@
 				value: 1L
 			}]
 			title: "Ancient Remnant"
-			x: 11.0d
+			x: 12.5d
 			y: -4.0d
 		}
 		{
@@ -1778,7 +1778,7 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 2.0d
 		}
 		{
@@ -1807,7 +1807,7 @@
 				item: "cataclysm:abyss_eye"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 0.5d
 		}
 		{
@@ -1818,7 +1818,7 @@
 				item: "cataclysm:desert_eye"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: 0.5d
 		}
 		{
@@ -1829,7 +1829,7 @@
 				item: "cataclysm:cursed_eye"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.5d
 			y: 0.5d
 		}
 		{
@@ -2689,7 +2689,7 @@
 				value: 1L
 			}]
 			title: "Maledictus"
-			x: 14.5d
+			x: 15.5d
 			y: -4.0d
 		}
 		{
@@ -2708,7 +2708,7 @@
 				title: "Sunken City"
 				type: "structure"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -1.0d
 		}
 		{
@@ -2751,7 +2751,7 @@
 				}
 			]
 			title: "Blessed Amethyst Crab Meat"
-			x: 13.0d
+			x: 14.0d
 			y: -2.0d
 		}
 		{
@@ -2777,7 +2777,7 @@
 				item: "cataclysm:abyssal_sacrifice"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -3.0d
 		}
 		{
@@ -2798,7 +2798,7 @@
 				title: "Cursed Pyramid"
 				type: "structure"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -1.0d
 		}
 		{
@@ -2815,7 +2815,7 @@
 				item: "cataclysm:sticky_gloves"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -2848,7 +2848,7 @@
 				}
 			]
 			title: "Necklace of the Desert"
-			x: 11.0d
+			x: 12.5d
 			y: -3.0d
 		}
 		{
@@ -2897,7 +2897,7 @@
 				title: "Frosted Prison"
 				type: "structure"
 			}]
-			x: 14.5d
+			x: 15.5d
 			y: -1.0d
 		}
 		{
@@ -2925,7 +2925,7 @@
 				to_observe: "cataclysm:cursed_tombstone"
 				type: "observation"
 			}]
-			x: 14.5d
+			x: 15.5d
 			y: -2.5d
 		}
 		{
@@ -3632,7 +3632,7 @@
 				}
 			]
 			title: "Sky Arena"
-			x: 14.0d
+			x: 14.5d
 			y: 2.0d
 		}
 		{
@@ -3761,6 +3761,140 @@
 			title: "Hollow"
 			x: -11.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			id: "2909C62052585644"
+			tasks: [{
+				id: "46416FFF5B35A5D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:storm_eye"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2909C62052585644"]
+			description: [
+				"You've made your way to the largest structure in Cataclysm and probably also one of the largest in the entire modpack. Floating over the ocean and stretching up to almost Y-300, this is one hard-to-miss dungeon."
+				""
+				"If you're just here for the boss and nothing else, you should fly, grapple, or teleport your way up to the top of the Acropolis. Otherwise, take some time to explore, attack the residents of this place, and take their treasure."
+			]
+			id: "2D872F20E9EF84D3"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:goddess_statue"
+				}
+				id: "4052CAB8A3E95D73"
+				structure: "cataclysm:acropolis"
+				title: "Acropolis"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D872F20E9EF84D3"]
+			description: [
+				"Scylla is summoned by interacting with the anchor in the middle of the sanctum you'll find at the top of the Acropolis."
+				""
+				"Like all of Cataclysm's bosses, Scylla is a complicated foe with a wide variety of attacks which utilize water and lightning."
+				""
+				"Watch out for the waves she sends out, since they apply the wetness debuff, slightly decreasing your speed and making you vulnerable to her lightning attacks."
+				""
+				"Use a shield to block or parry Scylla, or dodge her if you have light armor. Try not to retreat, since she'll reel you back in with her anchor if you get too far away."
+			]
+			id: "3E621D62739D71C4"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:curved_azure_seastone_scylla_8"
+				}
+				id: "100C1FEBAD00043C"
+				observe_type: 5
+				timer: 0L
+				title: "Top of the Acropolis"
+				to_observe: "cataclysm:scylla"
+				type: "observation"
+			}]
+			title: "Acropolis Sanctum"
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E621D62739D71C4"]
+			id: "45F0109FB953866E"
+			rewards: [{
+				id: "312D6CC29711AB6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "paraglider:heart_container"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:essence_of_the_storm"
+				}
+				id: "23BD7A8C4A886270"
+				title: "Scylla"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D872F20E9EF84D3"]
+			description: ["Lacrima is a material dropped from enemies in the Acropolis. You can use this to craft the Azure Sea Shield and Scylla's weapons."]
+			id: "53EB86A1097A3D9A"
+			optional: true
+			tasks: [{
+				id: "7BFF4446C4F4FCC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:lacrima"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
 		}
 	]
 	title: "Overworld Adventure"

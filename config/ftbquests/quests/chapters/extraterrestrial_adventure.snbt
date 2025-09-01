@@ -1079,7 +1079,7 @@
 				type: "structure"
 			}]
 			title: "Find the Platinum Dungeon"
-			x: 5.5d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -1115,7 +1115,7 @@
 				}
 			]
 			title: "Slay the Aerwhale King"
-			x: 4.0d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -1379,6 +1379,10 @@
 			description: [
 				"The Mysterious Worm is obtained through an Enderiophage transforming Crimson Mosquito larva."
 				""
+				"Enderiophages are rare mobs found in the Outer End, most commonly in Midlands, Highlands, Crystal Crags, and Poise Forests."
+				""
+				"&o&7Quick 4th wall break: I configured it so they spawn in these biomes, but I've only seen them in End Midlands biomes since they're pretty rare."
+				""
 				"Crimson Mosquito stingers are required for this. You must bring a fly into the nether, and then kill it."
 				""
 				"Maggots are found by killing flies and in some other places around the world."
@@ -1397,7 +1401,19 @@
 		}
 		{
 			dependencies: ["07EF2C1B4D1EA725"]
-			description: [""]
+			description: [
+				"You're here. All that stands between you and the end of the game is this big, ugly worm. "
+				""
+				"Think for a moment about all that's happened for you to get here. Everything you're proud of, and all your mistakes, have led to this."
+				""
+				"But who even dwells on the past nowadays? Let's fight this worm."
+				""
+				"First, the Void Worm has a ton of HP, but it isn't affected by the distance scaling system other mobs use. Even with this in mind, you should fight it on the central end island so endermen aren't stronger than they need to be."
+				""
+				"The Void Worm does three things: bite targets in melee range, open portals to teleport around the End, and shoot homing crystals at targets. Consider that the crystals can't travel through walls."
+				""
+				"You should take care to only attack the head of the Void Worm, since focusing on body parts causes it to split into multiple mobs. This makes the fight become longer and more chaotic, which you don't want."
+			]
 			id: "72E1C3F859844F04"
 			rewards: [{
 				id: "2313B792D62A8F59"
@@ -1413,8 +1429,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -2101,7 +2117,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["47F8DC09096B0991"]
+			dependencies: ["44F41502DDB1A529"]
 			description: ["You've now progressed far enough into the game to obtain a pretty good charm. You can find the other Enigmatic Amulets by defeating bosses in the Overworld - check the information tab for more information."]
 			id: "3E49DFF824488A27"
 			tasks: [{
@@ -2118,8 +2134,122 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.0d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["20B6859C7A0C1D09"]
+			description: [
+				"The Void Cathedral is home to one of the most powerful beings in the End: the Nightwarden. You'll initially find him opposite the entrance to the cathedral in a defeated position, and you won't be able to fight him yet."
+				""
+				"First, you should make your way up the stairs to the second floor and take anything you'd like, but specifically the Excrucis."
+				""
+				"Next, use the Excrucis to bring the Nightwarden to life."
+				"{@pagebreak}"
+				"The Nightwarden is a bit of a superboss with a deep health pool and powerful attacks. The main catch here is that he adapts to the damage you deal, so throughout the fight you'll need to rely on both traditional weapons and different wizardry schools."
+				""
+				"Pay attention to the messages that appear above your hotbar throughout the fight: this is how the game tells you what damage source works best. "
+				""
+				"The Excrucis's tooltip gives extra tips. The highlight from this is that Counterspell is massively helpful and basically required."
+				""
+				"&7..."
+				""
+				"&7If this boss is too hard for you to figure out intuitively, open an issue saying it's too hard and I will add more tips here. I don't want to fill this space up out of fear of the quest becoming too wordy."
+			]
+			id: "4A534475AE962F18"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:void_manuscript"
+					}
+					id: "379E3DFCFBA814C0"
+					structure: "traveloptics:void_cathedral"
+					title: "Void Cathedral"
+					type: "structure"
+				}
+				{
+					id: "681A094125492804"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:excrucis"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A534475AE962F18"]
+			id: "3C64DA5B6BB4C78A"
+			subtitle: "Sorry, you'll have to look elsewhere to romance Nightwardens"
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:withered_excrucis"
+				}
+				id: "3A1AB219C2F4EC09"
+				title: "The Nightwarden"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A534475AE962F18"]
+			description: ["This structure, found in the Deep Dark, can give use to your Void Manuscripts."]
+			id: "5D52726E63AD542E"
+			tasks: [
+				{
+					id: "24AA16D6A369171C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:void_manuscript"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:sculk_shrieker"
+					}
+					id: "534DCDB6C6C752E2"
+					structure: "traveloptics:echo_shrine"
+					title: "Echo Shrine"
+					type: "structure"
+				}
+			]
+			title: "Echo Shrine"
+			x: 3.5d
+			y: 4.5d
 		}
 	]
 	title: "Dimensional Adventure"
