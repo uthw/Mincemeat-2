@@ -50,7 +50,6 @@ entitiesList = [
 	"ars_nouveau:wilden_boss",
 	"aquamirae:maze_mother",
 	"aquamirae:captain_cornelia",
-	"mowziesmobs:ferrous_wroughtnaut",
 	"mowziesmobs:frostmaw",
 	"mowziesmobs:umvuthi",
 	"minecraft:vex",
@@ -100,6 +99,13 @@ entitiesList = [
 
 	"galosphere:berserker",
 	"galosphere:preserved",
+
+	"minecraft:ender_dragon",
+	"minecraft:wither",
+
+	"cataclysm:scylla",
+	"cataclysm:clawdian",
+	"traveloptics:the_nightwarden"
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST

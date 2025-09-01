@@ -7,7 +7,10 @@ ServerEvents.tags("entity_type", (event) => {
     event.add("alexsmobs:cachalot_whale_targets", "cataclysm:deepling_warlock");
     event.add("alexsmobs:cachalot_whale_targets", "cataclysm:lionfish");
     // event.add("alexsmobs:cachalot_whale_targets", "biomeswevegone:man_o_war");
-    event.add("alexsmobs:cachalot_whale_targets", "creeperoverhaul:ocean_creeper");
+    event.add(
+        "alexsmobs:cachalot_whale_targets",
+        "creeperoverhaul:ocean_creeper"
+    );
 
     event.add("alexsmobs:orca_targets", "cataclysm:deepling");
     // event.add("alexsmobs:orca_targets", "cataclysm:deepling_brute");
@@ -127,6 +130,11 @@ ServerEvents.tags("entity_type", (event) => {
 
         "galosphere:berserker",
         "galosphere:preserved",
+
+        "cataclysm:scylla",
+        "cataclysm:clawdian",
+
+        "traveloptics:the_nightwarden",
     ];
 
     bossesAndMinions.forEach((boss) => {
@@ -134,5 +142,6 @@ ServerEvents.tags("entity_type", (event) => {
     });
 
     event.add("respawninganimals:persistent_animals", "quark:toretoise");
-    
+
+    event.add("forge:endermen", "traveloptics:the_nightwarden"); // don't know if it'll work but i'm trying to make endermen not aggro onto the nightwarden
 });
