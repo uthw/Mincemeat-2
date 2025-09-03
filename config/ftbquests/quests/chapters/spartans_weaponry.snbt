@@ -13,25 +13,14 @@
 		id: "eidolon:basic_belt"
 	}
 	id: "2BED532CEDEE8CE1"
-	images: [
-		{
-			dependency: "4A98B0635371C46A"
-			height: 1.0d
-			image: "iceandfire:item/fishing_spear"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.0d
-			y: -6.0d
-		}
-		{
-			height: 1.0d
-			image: "mekanismtools:item/bronze/paxel"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.0d
-			y: -6.0d
-		}
-	]
+	images: [{
+		height: 1.0d
+		image: "mekanismtools:item/bronze/paxel"
+		rotation: 0.0d
+		width: 1.0d
+		x: -8.0d
+		y: -6.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -124,7 +113,7 @@
 				"3E18AB1C28D6A54C"
 			]
 			description: [
-				"You may notice that when making Tetra tools and weapons, they require a certain tool level. To craft better tools, simply place your hammer on the workbench and upgrade both ends to higher-tier heads. The easiest hammers to obtain are the stone, iron, and blackstone ones. This is because, unlike higher tiers, they don’t require a Forge Hammer to create."
+				"You may notice that each Tetra tool and weapon requires a certain tool level. To craft better tools, simply place your hammer on the workbench and upgrade both ends to higher-tier heads. The easiest hammers to obtain are the stone, iron, and blackstone ones. This is because, unlike higher tiers, they don’t require a Forge Hammer to create."
 				""
 				"&oYou can get the blackstone hammer without going to the Nether, but I won't say how ;)&r"
 				""
@@ -366,11 +355,11 @@
 				""
 				"To make this hammer, you will need 2 combustion chambers and 2 thermal cells. Place the hammer one block above a hammer workbench, then place a thermal cell on the sides with small holes and combustion chambers on the ones with big holes."
 				""
-				"Forge hammers can also be found in ruins. Forge hammers from the ruins might need to be repaired, though. To repair one, remove scrap metal by right-clicking on the scrap with a claw. Despite it saying no tool is needed, you can harvest them with a hammer with Silk Touch."
+				"Forge hammers can also be found in ruins, but might need to be repaired. To repair one, remove scrap metal by right-clicking on the scrap with a claw. Despite it saying no tool is needed, you can harvest them with a hammer with Silk Touch."
 				"{@pagebreak}"
 				"The hammer workbench works like any normal workbench once set up. If the hammer workbench gets jammed in the down position, hover over it until you see a small \"4\", then right-click on it with a blackstone or better hammer."
 				""
-				"The thermal cells will use durability when used, so you will need to remove and replace them. You can remove them with a claw tip on a hammer by finding a small \"1\" on the thermal cell and right-clicking."
+				"The thermal cells lose durability when used, so you will need to remove and replace them. You can remove them with a claw tip on a hammer by finding a small \"1\" on the thermal cell and right-clicking."
 			]
 			id: "3E18AB1C28D6A54C"
 			subtitle: "This is why you went to the ruins"
@@ -435,11 +424,11 @@
 		{
 			dependencies: ["431C2B8BEE92DD05"]
 			description: [
-				"Extractor ruins and regular ruins, with the extractor ones being larger, can be found underground. Inside of them you can find various Matrials what are usefal when makeing modualar items."
+				"Extractor ruins and regular ruins, with the extractor ones being larger, can be found underground. Inside of them you can find various materials that are useful when making modular items."
 				""
 				"Inside the ruins, you can also find forge hammers, which you need for higher-level Tetra."
 				""
-				"Sometimes, you will find a forge container that can be opened by hitting all the latches with a hammer, then opening it with a claw."
+				"Sometimes, you will find a forge container that can be opened by hitting all the latches with a hammer and then opening it with a claw."
 			]
 			id: "29E5ECF00A0F35B4"
 			shape: "hexagon"
@@ -458,7 +447,7 @@
 			description: [
 				"While exploring the ruins, you may come across some valuable finds like Beams, which are great for raising a weapon’s integrity. They offer high integrity without significantly hurting speed. Very rarely, you might also find the Dark Orb, which boosts all major stats on a bow."
 				""
-				"You may also find Bolts, which can be socketed into modular items. Bolts have a special ability: they can be tweaked for higher or lower durability or increased damage."
+				"You may also find bolts, which can be socketed into modular items. Bolts have a special ability: they can be tweaked for higher or lower durability or increased damage."
 				""
 				"To use bolts, place one where a binding would normally go. Then return to the binding material selection screen and press &6D&r on your keyboard to open the tweak menu. In the menu, you'll see a slider. When you’re done, press &6S&r to exit tweak mode."
 			]
@@ -516,11 +505,11 @@
 		{
 			dependencies: ["29E5ECF00A0F35B4"]
 			description: [
-				"While in the ruins you may run into some things to put on your modualr items like the Extractor Pickaxe what mines a 3x3x1 volume for each block it breaks. What is gotten by putting a catolic extractor on the left side of a pickaxe. Additionally, you can create the Quarry Hammer, what you only break stone but has a larger volume."
+				"While in the ruins you may run into some things to put on your modular items, like the Extractor Pickaxe, which mines a 3x3x1 volume for each block it breaks. This is created by putting a chthonic extractor on the left side of a pickaxe. Additionally, you can create the Quarry Hammer, which can break stone but has a larger volume."
 				""
-				"You can also find the stone cutter and earthpiecrer. What convert the swing of a sword or spear into a instamine swing."
+				"You can also find the stone cutter and earthpiercer. These convert the swing of a sword or spear into a instamine swing."
 				""
-				"You may find some upgrades for your bow like stabilizers, that remove gravity from arrows."
+				"You may find some upgrades for your bow like stabilizers that remove gravity from arrows."
 			]
 			icon: {
 				Count: 1
@@ -741,55 +730,194 @@
 		{
 			dependencies: ["431C2B8BEE92DD05"]
 			description: [
-				"Tetra adds the ability to modify shovels to create polearms and spears."
+				"Tetra adds the ability to create spears with more range than normal weapons. Spears are split into 2 main types: 1 handed and 2 handed (also known as polearms). 1 handed spears are more like a normal sword, while polearms have much more range and are slower."
 				""
-				"They can have basic, light, or long handles:"
-				""
-				"-   Light handles allow the item to be thrown but have reduced range and durability."
-				""
-				"-   Long handles grant increased range but don’t support a thrown attack."
-				""
-				"-   Basic handles strike a middle ground in range and durability but cannot be thrown."
+				"1-handed spears are made by putting a shovel into a workbench while 2 handed spears (also known as polearms) are made by putting a spear into a workbench (click on the polearm task)"
 			]
 			hide_dependency_lines: false
-			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tetra:modular_single"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 216
+					id: "4b464a13-2889-4a64-b546-cc6b8c1b9a4b"
+					"single/basic_handle_material": "basic_handle/stick"
+					"single/handle": "single/basic_handle"
+					"single/head": "single/spearhead"
+					"single/head/settle_progress": 436
+					"single/spearhead_material": "spearhead/iron"
+					tetraticScaleY: 1.75f
+					tetraticScaleZ: 1.5f
+					weapon_attributes: "{\"parent\":\"bettercombat:trident\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"\",\"two_handed\":false,\"category\":\"trident\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				}
+			}
 			id: "4A98B0635371C46A"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "tetra:modular_single"
-					tag: {
-						Damage: 0
-						HideFlags: 1
-						honing_progress: 240
-						id: "a84315ab-b360-4a4b-87b1-278f0a40c51a"
-						"single/handle": "single/long_handle"
-						"single/head": "single/spearhead"
-						"single/long_handle_material": "long_handle/oak"
-						"single/spearhead_material": "spearhead/iron"
-						tetraticScaleY: 2.0f
-						tetraticScaleZ: 1.5f
-						weapon_attributes: "{\"parent\":\"bettercombat:spear\",\"attributes\":{\"attack_range\":5.0,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"spear\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "tetra:modular_single"
+						tag: {
+							Damage: 0
+							HideFlags: 1
+							honing_progress: 240
+							id: "a84315ab-b360-4a4b-87b1-278f0a40c51a"
+							"single/handle": "single/long_handle"
+							"single/head": "single/spearhead"
+							"single/long_handle_material": "long_handle/oak"
+							"single/spearhead_material": "spearhead/iron"
+							tetraticScaleY: 2.0f
+							tetraticScaleZ: 1.5f
+							weapon_attributes: "{\"parent\":\"bettercombat:spear\",\"attributes\":{\"attack_range\":5.0,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"spear\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+						}
 					}
-				}
-				id: "6397F6F3140FCE39"
-				item: {
-					Count: 1
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "tetra:modular_single"
+					id: "6397F6F3140FCE39"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "tetra:modular_single"
+						}
 					}
+					title: "Upgraded Shovel"
+					type: "item"
 				}
-				title: "Upgraded Shovel"
-				type: "item"
-			}]
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tetra:modular_polearm"
+						tag: {
+							Damage: 0
+							id: "356a76da-9aa4-4087-acac-cfd8937686e7"
+							"polearm/basic_handle_material": "basic_handle/oak"
+							"polearm/handle": "polearm/basic_handle"
+							"polearm/head": "polearm/spearhead"
+							"polearm/spearhead_material": "spearhead/iron"
+						}
+					}
+					id: "2E6B8300234139D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "tetra:modular_polearm"
+									tag: {
+										Damage: 0
+										id: "c4df30fc-0f61-4b44-92d1-d9f3a7b60b1a"
+										"polearm/basic_handle_material": "basic_handle/oak"
+										"polearm/handle": "polearm/basic_handle"
+										"polearm/head": "polearm/spearhead"
+										"polearm/spearhead_material": "spearhead/oak"
+										weapon_attributes: "{\"parent\":\"bettercombat:spear\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"spear\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "tetra:modular_polearm"
+									tag: {
+										Damage: 0
+										id: "56e7010c-0c12-4479-9f8f-67a3a39bc285"
+										"polearm/basic_handle_material": "basic_handle/oak"
+										"polearm/handle": "polearm/basic_handle"
+										"polearm/head": "polearm/spearhead"
+										"polearm/spearhead_material": "spearhead/stone"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "tetra:modular_polearm"
+									tag: {
+										Damage: 0
+										id: "356a76da-9aa4-4087-acac-cfd8937686e7"
+										"polearm/basic_handle_material": "basic_handle/oak"
+										"polearm/handle": "polearm/basic_handle"
+										"polearm/head": "polearm/spearhead"
+										"polearm/spearhead_material": "spearhead/iron"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "tetra:modular_polearm"
+									tag: {
+										Damage: 0
+										id: "2e07211f-055d-42c0-bec9-d7a735602a3a"
+										"polearm/basic_handle_material": "basic_handle/oak"
+										"polearm/handle": "polearm/basic_handle"
+										"polearm/head": "polearm/spearhead"
+										"polearm/spearhead_material": "spearhead/diamond"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "tetra:modular_polearm"
+									tag: {
+										Damage: 0
+										id: "b07848ea-f3e7-4917-900e-5f57998c73c4"
+										"polearm/basic_handle_material": "basic_handle/oak"
+										"polearm/handle": "polearm/basic_handle"
+										"polearm/head": "polearm/spearhead"
+										"polearm/spearhead_material": "spearhead/gold"
+									}
+								}
+							]
+						}
+					}
+					title: "Polearms"
+					type: "item"
+				}
+			]
 			title: "Spears!?"
 			x: 1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["431C2B8BEE92DD05"]
-			description: ["Tetra lets tools—such as axes, pickaxes, and hoes—be modified into a variety of multi‑tools and weapons. You can even create double‑headed implements by fitting a different head on each end (for example, a pickaxe with an axe head on the opposite side), allowing one item to serve two functions."]
+			description: ["Tetra lets traditional tools be modified into a variety of multi‑tools and weapons. You can even create double‑headed implements by fitting a different head on each end (for example, a pickaxe with an axe head on the opposite side), allowing one item to serve two functions."]
 			id: "3A686777F1FBD28E"
 			tasks: [{
 				icon: {
@@ -906,7 +1034,7 @@
 			description: [
 				"You can modify bows and crossbows. There are various upgrades to bows you can find, such as multishot."
 				""
-				"Also bows in genral need better hammers/knifes than other modualr items."
+				"Bows generally need better hammers/knives than other modular items."
 			]
 			icon: {
 				Count: 1
@@ -1016,7 +1144,7 @@
 			description: [
 				"There are 2 main types of shields you can make: passive and active. Active shields act like traditional shields, where you need to hold down right click for them to work. On the other hand, passive shields, like the bucker, do not require you to hold right click and will always give you defense while you are holding them."
 				""
-				"There are also 4 diffrent upgrades you can give to shields what do not take any integerity or materials to add to any shield."
+				"There are also 4 different upgrades you can give to shields that don't cost integrity or materials."
 			]
 			id: "76849D8818684472"
 			invisible: true
@@ -1284,7 +1412,7 @@
 		{
 			dependencies: ["431C2B8BEE92DD05"]
 			description: [
-				"These scrolls are different from most scrolls in that they do not add schematics or modules, but instead affect the usage of materials. There are 2 types: Expertise and Efficiency."
+				"These scrolls are different from most scrolls in that they do not add schematics or modules but instead affect the usage of materials. There are 2 types: Expertise and Efficiency."
 				""
 				"Expertise makes any material in the scroll's category stronger. For example, an iron Expertise scroll will make iron stronger."
 				""
@@ -2586,18 +2714,13 @@
 		{
 			dependencies: ["504FEF17493FD0C4"]
 			description: [
-				"The Tonal Blade schematic is rarely found in caves. Stat-wise, this sword is a straight downgrade from most others—but it has one effect, Judgment, which has a 5% chance to one-shot anything with less than 100 HP."
+				"The Tonal Blade schematic is rarely found in caves. Stat-wise, this sword is a straight downgrade from most others. The effect that sets it apart, Judgment, has a 5% chance to one-shot anything with less than 100 HP."
 				""
 				"5% might not seem like much, but it’s more common than you’d think."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "tetra:modular_sword"
 				tag: {
 					Damage: 0
@@ -3019,7 +3142,7 @@
 			description: [
 				"These hammers require a Shockwave Chamber, traded with a toolsmith. To obtain Vobrium, you’ll need to explore the ruins and collect various parts."
 				""
-				"When used, this hammer spawns 3 lightning bolts on hit—more if you hone its damage. All lightning strikes home in on nearby mobs within a 3-block radius. It’s highly effective against groups and deals massive DPS. The only downside is that using it may also kill you."
+				"When used, this hammer spawns 3 lightning bolts on hit, or more if you hone its damage. All lightning strikes home in on nearby mobs within a 3-block radius. It’s highly effective against groups and deals massive DPS. The only downside is that using it may also kill you."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -3061,7 +3184,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["3A686777F1FBD28E"]
+			dependencies: [
+				"3A686777F1FBD28E"
+				"3ECA1E73D2469159"
+			]
 			description: ["This axe is made by finding an ancient axe from killing Frostmaw. The axe has solid base stats, but the effects are where it really shines."]
 			hide_dependency_lines: true
 			icon: {
@@ -3106,7 +3232,7 @@
 			description: [
 				"This scythe is made from Soul Ember, which is obtained by killing Blazes on top of Soul Soil. This scythe deals a ton of damage and has both properties of Reaping Scythes, allowing you to collect heads from mobs."
 				""
-				"It also has an effect that is supposed to unleash a powerful explosion whenever you get 5 kills. Unfortunately, this effect does not work and instead spawns non-damaging fire around you."
+				"It also has an effect that allows the scythe to unleash a powerful explosion whenever you get at least 5 kills. to ative this explosion use the right click charge attack. You can also store the charges to have the equivlent of soulfire aspect."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -3148,7 +3274,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["4A98B0635371C46A"]
+			dependencies: ["7F87BD9DDF820097"]
 			description: ["Canes are one of the few ways to increase your movement speed in Tetra. The boost is based on the density stat of the material you use for the head. Density can be found in the materials section of the Holosphere."]
 			hide_dependency_lines: true
 			icon: {
@@ -3204,11 +3330,11 @@
 				type: "item"
 			}]
 			title: "Canes"
-			x: 6.0d
+			x: 8.0d
 			y: -7.0d
 		}
 		{
-			dependencies: ["4A98B0635371C46A"]
+			dependencies: ["7F87BD9DDF820097"]
 			description: [
 				"This flail is obtained by looting an Ancient Flail from a Night Lich and mixing it with Shards of Malice. "
 				""
@@ -3224,19 +3350,15 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
-			description: ["Halberds are stronger versions of spears. They deal more damage and have a high chance to stun mobs in place, making it easy to kill them. They can also be placed on polearms."]
+			dependency_requirement: "all_started"
+			description: ["Halberds are stronger versions of spears. They deal more damage and have a high chance to stun mobs in place, making it easy to kill them. They can also be placed on polearms or spears, and have the same stats on each."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "tetra:modular_single"
 				tag: {
 					Damage: 0
@@ -3286,11 +3408,11 @@
 				type: "item"
 			}]
 			title: "Halberds"
-			x: 7.0d
+			x: 10.0d
 			y: -8.0d
 		}
 		{
-			dependencies: ["4A98B0635371C46A"]
+			dependencies: ["7F87BD9DDF820097"]
 			description: [
 				"The mace is the opposite of other spears, as it does not extend your range but actually lowers it. Your base range is just 1 block, and it deals less damage than a halberd. "
 				""
@@ -3353,26 +3475,21 @@
 				type: "item"
 			}]
 			title: "Mace"
-			x: 8.0d
+			x: 7.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["3A686777F1FBD28E"]
 			description: [
-				"Sickles Allow for any weapon to be able to do powerful crits what deal more dmage randomly. When warforged there speed is incressed."
+				"Sickles allow any weapon to land critical hits. When warforged their speed is increased."
 				""
-				"The reaping scythe is like a sword but for double headed weapons, being a faster version of a axe that does less damage."
+				"The reaping scythe is like a sword but for double headed weapons with higher speed but lower damage."
 				""
 				"The Tools of War chapter on warsickles is an uncommon drop from necromancers."
 			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -4034,9 +4151,9 @@
 		{
 			dependencies: ["504FEF17493FD0C4"]
 			description: [
-				"These are similar to Basic Blades but are slower and deal less direct damage. However, they inflict heavy bleeding damage—dealing a set amount of damage over 2 seconds (this ignores defense)."
+				"These are similar to Basic Blades but are slower and deal less direct damage. However, they inflict heavy bleeding damage, dealing a set amount of damage over 2 seconds (this ignores defense)."
 				""
-				"One thing to remember about bleeding: it’s not linear. For example, 8 bleeding isn’t just twice as strong as 4—it’s closer to three times as strong."
+				"One thing to remember about bleeding: it’s not linear. For example, 8 stacks of bleeding isn’t just twice as strong as  stacks - it’s closer to three times as strong."
 			]
 			hide_dependency_lines: true
 			id: "197E7FAE8F164E98"
@@ -4245,8 +4362,8 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["4A98B0635371C46A"]
-			description: ["Don’t like how slow spears are? This is a faster version of the normal spearhead. It deals slightly less damage and has reduced range, but makes up for it with a powerful effect—it stuns your target for a few seconds, preventing them from moving."]
+			dependencies: ["7F87BD9DDF820097"]
+			description: ["Don’t like how slow spears are? This is a faster version of the normal spearhead. It deals slightly less damage and has reduced range, but makes up for it with a powerful effect: it stuns your target for a few seconds, preventing them from moving."]
 			hide_dependency_lines: true
 			id: "626E0045074B4281"
 			shape: "square"
@@ -4292,11 +4409,12 @@
 				title: "Quarter Staff"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
+			dependency_requirement: "all_started"
 			description: ["The long handle makes any polearm two-handed for the upside of more range."]
 			hide_dependency_lines: true
 			id: "4B5ACD60381979DF"
@@ -4324,13 +4442,14 @@
 				}
 				type: "item"
 			}]
-			title: "Long handle"
-			x: 6.0d
-			y: -8.0d
+			title: "Long Handle"
+			x: 10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4A98B0635371C46A"]
-			description: ["The light handle makes any spear thowable. Thown spears deal twice their normal damage, but with the downside of not being able to use enchantments."]
+			dependency_requirement: "all_started"
+			description: ["The light handle makes any spear throwable. Thown spears deal twice their normal damage, but with the downside of not being able to use enchantments."]
 			hide_dependency_lines: true
 			id: "37CA615D515365B0"
 			shape: "square"
@@ -4357,9 +4476,9 @@
 				}
 				type: "item"
 			}]
-			title: "Light handle"
-			x: 8.0d
-			y: -8.0d
+			title: "Light Handle"
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0E358250382901F4"]
@@ -4503,6 +4622,676 @@
 			title: "Tetra Enchanting"
 			x: -3.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["402A99CBDC2DDA24"]
+			description: ["The scythe has two effects: bleeding, which deals damage over time, and severing, which lowers victims' max health."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tetra:modular_polearm"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 240
+					id: "3e232a7f-17e9-481d-8dc2-847fc38f7707"
+					"polearm/basic_handle_material": "basic_handle/oak"
+					"polearm/handle": "polearm/basic_handle"
+					"polearm/head": "polearm/scythe_head"
+					"polearm/scythe_head_material": "scythe_head/iron"
+					weapon_attributes: "{\"parent\":\"bettercombat:scythe\",\"attributes\":{\"attack_range\":3.5,\"pose\":\"bettercombat:pose_two_handed_scythe\",\"two_handed\":true,\"category\":\"scythe\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				}
+			}
+			icon_scale: 1.25d
+			id: "6165446003CDDE90"
+			shape: "square"
+			subtitle: "You got blood on your hands"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "3e232a7f-17e9-481d-8dc2-847fc38f7707"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/scythe_head"
+						"polearm/scythe_head_material": "scythe_head/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:scythe\",\"attributes\":{\"attack_range\":3.5,\"pose\":\"bettercombat:pose_two_handed_scythe\",\"two_handed\":true,\"category\":\"scythe\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "094B6152DA75095C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/scythe_head"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Scythe"
+			x: 14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["402A99CBDC2DDA24"]
+			description: [
+				"This scythe is made from Soul Ember, which is obtained by killing Blazes on top of Soul Soil. This scythe is very fast and shares the properties of the normal scythe, allowing you to collect heads from mobs and lower their max HP."
+				""
+				"It also has an effect that allows the scythe to unleash a powerful explosion whenever you get at least 5 kills. To activate this explosion, use the right-click charge attack. You can also store the charges to have the equivlent of soulfire aspect."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tetra:modular_polearm"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 237
+					id: "af42add2-0ea3-4876-8c34-a2d793b3f5ba"
+					"polearm/basic_handle_material": "basic_handle/oak"
+					"polearm/handle": "polearm/basic_handle"
+					"polearm/handle/settle_progress": 286
+					"polearm/head": "polearm/soul_fire_scythe"
+					"polearm/soul_fire_scythe_material": "soul_fire_scythe/soul_fire_scythe"
+					weapon_attributes: "{\"parent\":\"bettercombat:scythe\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_scythe\",\"two_handed\":true,\"category\":\"scythe\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				}
+			}
+			icon_scale: 1.25d
+			id: "5B6AD74FD64B04AD"
+			shape: "square"
+			subtitle: "Blue fire is hotter than orange fire"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "art_of_forging:soul_ember"
+				}
+				id: "14F62EDD53757839"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/soul_fire_scythe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Soul Fire Scythe"
+			x: 13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"402A99CBDC2DDA24"
+				"3ECA1E73D2469159"
+			]
+			description: [
+				"This weapon can be created when using a workbench with a Sigil of Eden in your inventory."
+				""
+				"This polearm is a upgraded version of the scythe and retains all the effects it with increased speed. Additionally, this weapon withers targets and summons evoker fangs."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tetra:modular_polearm"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 300
+					id: "8a50adbe-f818-48af-8192-5ee2147fe0ac"
+					"polearm/basic_handle_material": "basic_handle/oak"
+					"polearm/handle": "polearm/basic_handle"
+					"polearm/head": "polearm/vice_of_eden"
+					"polearm/vice_of_eden_material": "vice_of_eden/vice_of_eden"
+					weapon_attributes: "{\"parent\":\"bettercombat:scythe\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_scythe\",\"two_handed\":true,\"category\":\"scythe\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:scythe_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				}
+			}
+			icon_scale: 1.25d
+			id: "2C749551F1A478B1"
+			shape: "square"
+			tasks: [{
+				id: "7D5186B26793DF8E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "art_of_forging:sigil_of_eden"
+				}
+				title: "Vice of Eden"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["402A99CBDC2DDA24"]
+			description: ["The trident is like a hammer, doing a lot of damage but being quite slow."]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "1F5F7F66C98E2549"
+			shape: "square"
+			subtitle: "Great for eating rice"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 154
+						id: "9b1d8a3b-f849-4b6e-bf12-7b386557e685"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/handle/settle_progress": 203
+						"polearm/head": "polearm/trident"
+						"polearm/trident_material": "trident/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:trident\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"\",\"two_handed\":false,\"category\":\"trident\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "44780DF379FD8333"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/trident"
+						}
+					}
+				}
+				title: "Trident"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["402A99CBDC2DDA24"]
+			description: ["If you hate getting hit, this weapon is perfect for you since the pike is all about range, and staying as far away as possibe."]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "5D3B783E55EAC8D3"
+			shape: "square"
+			subtitle: "Poke"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "21f2eee4-a590-4183-9604-9d8df7571ec0"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/pike_head"
+						"polearm/pike_head_material": "pike_head/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:pike\",\"attributes\":{\"attack_range\":4.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"pike\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_left\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "272B494A141DF12E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/pike_head"
+						}
+					}
+				}
+				title: "Pike"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["402A99CBDC2DDA24"]
+			description: ["The lance has a unique lunge attack, activated by right clicking, which does critical damage. Hitting a mob twice and then lunging will eliminate the cooldown and shorten the charge-up. "]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "637A7C877D2B8DC6"
+			shape: "square"
+			subtitle: "Aggressive dashing"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "30aa1894-9179-4505-a4c6-3ebc25487746"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/lance_head"
+						"polearm/lance_head_material": "lance_head/iron"
+						weapon_attributes: "{\"parent\":\"bettercombat:lance\",\"attributes\":{\"attack_range\":3.75,\"two_handed\":false,\"category\":\"lance\",\"attacks\":[{\"conditions\":[\"NOT_MOUNTED\"],\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"conditions\":[\"MOUNTED\"],\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab_mounted\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "2DBCDB828DBD0CF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/lance_head"
+						}
+					}
+				}
+				title: "Lance"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["402A99CBDC2DDA24"]
+			description: ["This polearm is mainly good for breaking though heavy armor."]
+			hide_dependency_lines: true
+			icon_scale: 1.25d
+			id: "753BC3B374903033"
+			shape: "square"
+			subtitle: "Bosses hate it"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "0a7750c9-fa1d-4ce1-9344-39f7a5d041e8"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/glaive_head_material": "glaive_head/iron"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/glaive_head"
+						weapon_attributes: "{\"parent\":\"bettercombat:glaive\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"glaive\",\"attacks\":[{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_left\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.4,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_slow\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "43B245C254C0D8D5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"polearm/head": "polearm/glaive_head"
+						}
+					}
+				}
+				title: "Glaive"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"402A99CBDC2DDA24"
+				"3ECA1E73D2469159"
+			]
+			description: ["This polearm shines in its ability to inflict bleed, dealing 20 damage over 2 seconds when activated. On the other hand, the wielder will be the one bleeding if they fail to use its power for too long."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tetra:modular_polearm"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 300
+					id: "cf6a9dab-0ec4-4538-85dc-55095b643441"
+					"polearm/basic_handle_material": "basic_handle/oak"
+					"polearm/handle": "polearm/basic_handle"
+					"polearm/head": "polearm/sanguisuga"
+					"polearm/sanguisuga_material": "sanguisuga/sanguisuga"
+					weapon_attributes: "{\"parent\":\"bettercombat:glaive\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"glaive\",\"attacks\":[{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_left\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.4,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_slow\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				}
+			}
+			icon_scale: 1.25d
+			id: "381EAB69B4B3BB42"
+			shape: "square"
+			subtitle: "Vampire Spear"
+			tasks: [{
+				id: "3E97DDFAAB396E67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "art_of_forging:shards_of_malice"
+				}
+				type: "item"
+			}]
+			title: "Sanguisuga"
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			dependency_requirement: "all_started"
+			description: ["Made by putting a spear into a workbench."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.75d
+			id: "402A99CBDC2DDA24"
+			shape: "square"
+			size: 1.0d
+			subtitle: "2 handed"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_polearm"
+					tag: {
+						Damage: 0
+						id: "356a76da-9aa4-4087-acac-cfd8937686e7"
+						"polearm/basic_handle_material": "basic_handle/oak"
+						"polearm/handle": "polearm/basic_handle"
+						"polearm/head": "polearm/spearhead"
+						"polearm/spearhead_material": "spearhead/iron"
+					}
+				}
+				id: "47ADA21CA33EF7CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "tetra:modular_polearm"
+								tag: {
+									Damage: 0
+									id: "c4df30fc-0f61-4b44-92d1-d9f3a7b60b1a"
+									"polearm/basic_handle_material": "basic_handle/oak"
+									"polearm/handle": "polearm/basic_handle"
+									"polearm/head": "polearm/spearhead"
+									"polearm/spearhead_material": "spearhead/oak"
+									weapon_attributes: "{\"parent\":\"bettercombat:spear\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"spear\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "tetra:modular_polearm"
+								tag: {
+									Damage: 0
+									id: "56e7010c-0c12-4479-9f8f-67a3a39bc285"
+									"polearm/basic_handle_material": "basic_handle/oak"
+									"polearm/handle": "polearm/basic_handle"
+									"polearm/head": "polearm/spearhead"
+									"polearm/spearhead_material": "spearhead/stone"
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "tetra:modular_polearm"
+								tag: {
+									Damage: 0
+									id: "356a76da-9aa4-4087-acac-cfd8937686e7"
+									"polearm/basic_handle_material": "basic_handle/oak"
+									"polearm/handle": "polearm/basic_handle"
+									"polearm/head": "polearm/spearhead"
+									"polearm/spearhead_material": "spearhead/iron"
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "tetra:modular_polearm"
+								tag: {
+									Damage: 0
+									id: "2e07211f-055d-42c0-bec9-d7a735602a3a"
+									"polearm/basic_handle_material": "basic_handle/oak"
+									"polearm/handle": "polearm/basic_handle"
+									"polearm/head": "polearm/spearhead"
+									"polearm/spearhead_material": "spearhead/diamond"
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "tetra:modular_polearm"
+								tag: {
+									Damage: 0
+									id: "b07848ea-f3e7-4917-900e-5f57998c73c4"
+									"polearm/basic_handle_material": "basic_handle/oak"
+									"polearm/handle": "polearm/basic_handle"
+									"polearm/head": "polearm/spearhead"
+									"polearm/spearhead_material": "spearhead/gold"
+								}
+							}
+						]
+					}
+				}
+				title: "Polearms"
+				type: "item"
+			}]
+			title: "Polearms"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4A98B0635371C46A"]
+			dependency_requirement: "all_started"
+			description: ["Made with a shovel in a workbench"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "iceandfire:fishing_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F87BD9DDF820097"
+			shape: "square"
+			subtitle: "1 handed"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 240
+						id: "a84315ab-b360-4a4b-87b1-278f0a40c51a"
+						"single/handle": "single/long_handle"
+						"single/head": "single/spearhead"
+						"single/long_handle_material": "long_handle/oak"
+						"single/spearhead_material": "spearhead/iron"
+						tetraticScaleY: 2.0f
+						tetraticScaleZ: 1.5f
+						weapon_attributes: "{\"parent\":\"bettercombat:spear\",\"attributes\":{\"attack_range\":5.0,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"spear\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_stab_right\",\"swing_sound\":{\"id\":\"bettercombat:spear_stab\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+					}
+				}
+				id: "3EF2220796360A72"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "tetra:modular_single"
+					}
+				}
+				title: "Upgraded Shovel"
+				type: "item"
+			}]
+			title: "Spears"
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["402A99CBDC2DDA24"]
+			description: ["This polearm is like a katana, having higher damage on unarmored mobs. However, this effect's fall-off is more gradual as the target's armor increases."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tetra:modular_polearm"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 58
+					id: "10f82717-085f-44a5-8009-5e6247c5b3f3"
+					"polearm/basic_handle_material": "basic_handle/oak"
+					"polearm/handle": "polearm/basic_handle"
+					"polearm/handle/settle_progress": 107
+					"polearm/head": "polearm/naginata_head"
+					"polearm/naginata_head_material": "naginata_head/iron"
+					weapon_attributes: "{\"parent\":\"bettercombat:glaive\",\"attributes\":{\"attack_range\":3.75,\"pose\":\"bettercombat:pose_two_handed_polearm\",\"two_handed\":true,\"category\":\"glaive\",\"attacks\":[{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":0.8,\"angle\":150.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_vertical_left\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_quick\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.4,\"angle\":180.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:glaive_slash_slow\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}"
+				}
+			}
+			icon_scale: 1.25d
+			id: "40238E155954FC5E"
+			shape: "square"
+			subtitle: "Kantana spear"
+			tasks: [{
+				id: "3278F9A40200CB8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								details: "art_of_forging"
+								glyphs: [I;
+									5
+									10
+									13
+									2
+								]
+								intricate: 0b
+								key: "sword/katana/katana_blade"
+								material: 2
+								ribbon: "dbff10"
+								schematics: [
+									"tetra:sword/katana/katana_blade"
+									"tetra:sword/tsuba_guard"
+								]
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Naginata"
+			x: 13.0d
+			y: -9.0d
 		}
 	]
 	title: "Equipment"
