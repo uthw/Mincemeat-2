@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["6202F882D0377E6B"]
-			description: ["These fish don’t do much other than occasionally jumping out of acid pools. However, due to their toxic nature, eating one—even when cooked—will irradiate you, preventing HP regeneration."]
+			description: ["These fish don’t do much other than occasionally jumping out of acid pools. However, due to their toxic nature, eating one, even when cooked, will irradiate you, preventing HP regeneration."]
 			id: "7F101D376435DDC2"
 			tasks: [{
 				icon: {

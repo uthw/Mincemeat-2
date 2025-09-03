@@ -3756,7 +3756,7 @@
 		{
 			dependencies: ["19E62F587AB8AB1D"]
 			description: [
-				"This bird may seem like a simple creature, but don’t be deceived—it’s the most complex pet in Mincemeat."
+				"This bird may seem like a simple creature, but don’t be deceived - it’s the most complex pet in Mincemeat."
 				""
 				"First, it doesn’t drop anything when killed and can be found flying around swamps or in raised villages. You can tame it using a seed mixture made from wheat, pumpkin, melon, beetroot, and sunflower seeds, created in a mortar and pestle. The seed mixture can also be eaten."
 				""

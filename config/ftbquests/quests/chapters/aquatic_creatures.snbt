@@ -1254,11 +1254,11 @@
 		}
 		{
 			description: [
-				"This dead fish can be found swimming near icemazes or fished up in any frozen ocean. It doesn’t exhibit any special behaviors, but it has an unusually high amount of HP for a fish."
+				"This dead fish can be found swimming near ice mazes or fished up in any frozen ocean. It doesn’t exhibit any special behaviors, but it has an unusually high amount of HP for a fish."
 				""
 				"You can cook this fish, and the cooked version is an ingredient in Poseidon's Breakfast, which fully restores your saturation and hunger when eaten. "
 				""
-				"Additionally, it can be consumed to obtain sharp bones, which can also be eaten. These sharp bones, along with leather, can be crafted into a Remnants Saber—a powerful sword that deals 10 damage in water and has the swing speed of a knife."
+				"Additionally, it can be consumed to obtain sharp bones, which can also be eaten. These sharp bones, along with leather, can be crafted into a Remnants Saber, a powerful sword that deals 10 damage in water and has the swing speed of a knife."
 			]
 			id: "1B793CD69BCD02FD"
 			invisible: true

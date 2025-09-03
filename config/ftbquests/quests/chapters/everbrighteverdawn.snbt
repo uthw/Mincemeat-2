@@ -281,7 +281,7 @@
 		}
 		{
 			dependencies: ["0063059B2778D392"]
-			description: ["These blue zombies are just regular zombies, but icy. They can be killed very quickly—faster than with swords—using a pickaxe. After they die, their souls emerge, which can be killed for star flares that act like brighter torches."]
+			description: ["These blue zombies are just regular zombies, but icy. They can be killed very quickly with a pickaxe. After they die, their souls emerge, which can be killed for star flares that act like brighter torches."]
 			id: "6FD9C74699D47069"
 			invisible: true
 			tasks: [{

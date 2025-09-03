@@ -361,7 +361,7 @@
 				""
 				"In addition to jumping, these bears will also drop down. After they land, they will viciously rip you apart with their claws, or they might unfortunately drop into lava."
 				""
-				"Upon dying, they will drop one of their claws, which can be made into flint and steel, a tendon whip, or even a Potion of Clinging. This potion allows you to walk on ceilings, at least until it runs out—ideally, avoid using it above lava."
+				"Upon dying, they will drop one of their claws, which can be made into flint and steel, a tendon whip, or even a Potion of Clinging. This potion allows you to walk on ceilings, at least until it runs out. Ideally, avoid using it above lava."
 			]
 			id: "3A9C6B51E542F0C6"
 			invisible: true
@@ -467,7 +467,7 @@
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
-			description: ["Don't be deceived—these are not actually ghosts; they're just zombies in ghost costumes. If you kill one of these trick-or-treaters, they will drop a soul bead, which acts like an Eye of Ender but is used for locating Nether fortresses."]
+			description: ["Don't be deceived! These are not actually ghosts; they're just zombies in ghost costumes. If you kill one of these trick-or-treaters, they will drop a soul bead, which acts like an Eye of Ender but is used for locating Nether fortresses."]
 			id: "6D93107A4AA2D868"
 			invisible: true
 			subtitle: "Having a permanent mental breakdown"
