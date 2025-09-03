@@ -184,6 +184,7 @@ cataclysm:deepling_brute
 cataclysm:deepling_priest
 cataclysm:deepling_warlock
 cataclysm:draugr
+cataclysm:drowned_host
 cataclysm:elite_draugr
 cataclysm:endermaptera
 cataclysm:hippocamtus
@@ -193,7 +194,6 @@ cataclysm:koboleton
 cataclysm:lionfish
 cataclysm:modern_remnant
 cataclysm:netherite_ministrosity
-cataclysm:octohost
 cataclysm:royal_draugr
 cataclysm:the_baby_leviathan
 cataclysm:the_prowler
