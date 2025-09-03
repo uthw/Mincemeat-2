@@ -1,0 +1,6 @@
+{
+  "parent": "bettercombat:fist",
+  "attributes": {
+    "attack_range": 4.25
+        }
+}

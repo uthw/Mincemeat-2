@@ -1,0 +1,6 @@
+{
+  "parent": "bettercombat:axe",
+  "attributes": {
+    "attack_range": 3
+        }
+}
