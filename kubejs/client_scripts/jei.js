@@ -115,6 +115,26 @@ JEIEvents.information((event) => {
         {
             item: "enigmaticlegacy:etherium_ore",
             desc: "Dropped by Ender Guardians and Obsidiliths."
+        },
+        {
+            item: "create:asurine",
+            desc: "Found with tuff and deepslate between Y -30 and 70."
+        },
+        {
+            item: "create:crimsite",
+            desc: "Found with tuff and deepslate between Y -30 and 70."
+        },
+        {
+            item: "create:ochrum",
+            desc: "Found with tuff and deepslate between Y -30 and 70."
+        },
+        {
+            item: "create:scoria",
+            desc: "Generates naturally in the Nether."
+        },
+        {
+            item: "create:scorchia",
+            desc: "Generates naturally in the Nether."
         }
     ];
 
