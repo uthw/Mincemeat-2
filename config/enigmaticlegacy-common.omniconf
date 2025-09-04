@@ -466,7 +466,7 @@
     D:EnigmaticAmuletDamageBonus=5.0
 
     # Whether or not it should be possible to equip multiple Enigmatic Amulets, granted player somehow gets more than one charm slot. [default: false, synchronized: yes]
-    B:EnigmaticAmuletMultiequip=false
+    B:EnigmaticAmuletMultiequip=true
 
     # If true, only original owner of Extradimensional Vessel will be able to pick it up. [default: false, synchronized: yes]
     B:EnigmaticAmuletOwnerOnlyVessel=false
