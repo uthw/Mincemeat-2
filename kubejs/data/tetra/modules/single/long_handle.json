@@ -17,7 +17,7 @@
       "integrity": 1,
       "attributes": {
         "generic.attack_speed": -1.155,
-        "forge:reach_distance": 2,
+        "forge:reach_distance": 1,
         "forge:attack_range": 2,
         "generic.attack_damage": -2.75
       },

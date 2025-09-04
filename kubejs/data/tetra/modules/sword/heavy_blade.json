@@ -48,9 +48,13 @@
           "generic.attack_speed": -0.15
         }
       },
-      "integrity": -1,
       "key": "heavy_blade/",
-      "materials": ["tetra:metal/", "tetra:stone/", "tetra:wood/"],
+      "materials": [
+        "tetra:metal/",
+        "tetra:stone/",
+        "tetra:wood/",
+        "tetra:gem/"
+      ],
       "tools": {
         "cut": [1, 3]
       }

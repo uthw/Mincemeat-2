@@ -1,0 +1,30 @@
+{
+  "category": "socket",
+  "durability": 48,
+  "effects": {
+    "criticalStrike": [30, 1]
+  },
+  "attributes": {
+    "attributeslib:crit_chance": 0.3,
+    "attributeslib:crit_damage": 0.5
+  },
+  "experienceCost": 4,
+  "hidden": true,
+  "integrityCost": 1,
+  "integrityGain": 0,
+  "key": "socket_pristine_emerald",
+  "magicCapacity": 0,
+  "material": {
+    "items": ["tetra:pristine_emerald"]
+  },
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "textures": ["pristine"],
+  "tints": {
+    "glyph": "emerald_glyph",
+    "texture": "emerald"
+  },
+  "toolEfficiency": 0,
+  "toolLevel": 0
+}

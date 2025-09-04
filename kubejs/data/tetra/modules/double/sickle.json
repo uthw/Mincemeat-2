@@ -18,7 +18,8 @@
       },
       "attributes": {
         "generic.attack_damage": -2,
-        "generic.attack_speed": -1.2
+        "generic.attack_speed": -1.2,
+        "attributeslib:crit_chance": 0.12
       },
       "durability": -10,
       "effects": {
@@ -40,13 +41,17 @@
           }
         ],
         "primaryAttributes": {
-          "generic.attack_damage": 1
+          "generic.attack_damage": 1,
+          "attributeslib:crit_chance": -0.01
         },
         "primaryEffects": {
-          "criticalStrike": [-1, 0.3]
+          "criticalStrike": [-1, 0]
         },
         "tertiaryEffects": {
-          "criticalStrike": [2.5, 0]
+          "criticalStrike": [3, 0]
+        },
+        "tertiaryAttributes": {
+          "attributeslib:crit_chance": 0.03
         },
         "tools": {
           "hoe_dig": [0.74, 0.4]

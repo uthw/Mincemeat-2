@@ -20,12 +20,13 @@
       "key": "saber_blade/",
       "attributes": {
         "generic.attack_speed": -2.1,
-        "generic.attack_damage": -0.3
+        "generic.attack_damage": -0.3,
+        "attributeslib:crit_chance": 0.3
       },
       "effects": {
         "sweeping": 1,
         "jab": 85,
-        "criticalStrike": [30, 1.5]
+        "criticalStrike": [30, 1]
       },
       "tools": {
         "cut": [1, 2]
@@ -37,7 +38,8 @@
       "durability": -20,
       "extract": {
         "primaryAttributes": {
-          "generic.attack_damage": 1
+          "generic.attack_damage": 1,
+          "attributeslib:crit_chance": -0.02
         },
         "tools": {
           "cut": [0.5, 1]
@@ -51,6 +53,9 @@
           "sweeping": 0.5,
           "jab": -4.5,
           "criticalStrike": [2, 0]
+        },
+        "tertiaryAttributes": {
+          "attributeslib:crit_chance": 0.02
         },
         "durability": 0.9,
         "integrity": -1,

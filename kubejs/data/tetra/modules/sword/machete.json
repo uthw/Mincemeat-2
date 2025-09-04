@@ -39,8 +39,7 @@
           }
         ],
         "primaryAttributes": {
-          "generic.attack_damage": 0.9,
-          "bleeding": -2
+          "generic.attack_damage": 0.9
         },
         "secondaryAttributes": {
           "generic.attack_speed": -0.1

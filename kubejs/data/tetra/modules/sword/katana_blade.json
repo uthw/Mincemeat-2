@@ -23,7 +23,7 @@
         "generic.attack_damage": -0.88
       },
       "effects": {
-        "skewering": [-0.5, 1],
+        "skewering": [-0.5, 5],
         "sweeping": 1,
         "abilityMomentum": [4, 0.5]
       },

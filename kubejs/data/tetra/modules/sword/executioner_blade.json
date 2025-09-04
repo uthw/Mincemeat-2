@@ -19,7 +19,8 @@
       ],
       "key": "executioner_blade/",
       "attributes": {
-        "generic.attack_speed": -1.9
+        "generic.attack_speed": -1.9,
+        "generic.attack_damage": -0.8
       },
       "effects": {
         "sweeping": 1,

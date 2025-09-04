@@ -1,12 +1,11 @@
 {
   "replace": true,
   "type": "tetra:basic_major_module",
-  "slots": ["single/head"],
+  "slots": ["polearm/head"],
   "improvements": [
-    "tetra:single/head/halberd_head/",
-    "tetra:single/shared_head/",
-    "tetra:single/head/shared/",
-    "tetra:single/shared/",
+    "tetra:polearm/head/halberd/",
+    "tetra:polearm/shared_head/",
+    "tetra:polearm/head/shared/",
     "tetra:shared/"
   ],
   "variants": [
@@ -20,21 +19,21 @@
       ],
       "key": "halberd_head/",
       "attributes": {
-        "generic.attack_speed": -1.35,
-        "generic.attack_damage": 1.75
+        "generic.attack_damage": 0.1,
+        "generic.attack_speed": -1.75
       },
       "effects": {
         "armorPenetration": 2.5,
         "stun": [15, 2],
-        "sweeping": 5,
-        "shieldbreaker": 1
+        "sweeping": 5
       },
       "aspects": {
         "pointyWeapon": 1,
         "edgedWeapon": 2,
-        "breakable": 2
+        "breakable": 2,
+        "shieldbreaker": 1
       },
-      "durability": -20,
+      "durability": 271,
       "extract": {
         "primaryAttributes": {
           "generic.attack_damage": 1.4
@@ -68,7 +67,7 @@
         "availableTextures": ["metal", "shiny", "crude"],
         "models": [
           {
-            "location": "tetra:item/module/single/head/halberd_head/"
+            "location": "tetra:item/module/polearm/head/halberd_head/"
           }
         ]
       }

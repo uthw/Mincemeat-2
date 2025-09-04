@@ -1,0 +1,27 @@
+{
+  "category": "socket",
+  "durability": 48,
+  "effects": {
+    "criticalStrike": [15, 1]
+  },
+  "attributes": { "attributeslib:crit_chance": 0.15 },
+  "experienceCost": 2,
+  "hidden": true,
+  "integrityCost": 1,
+  "integrityGain": 0,
+  "key": "socket_emerald",
+  "magicCapacity": 0,
+  "material": {
+    "items": ["minecraft:emerald"]
+  },
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "textures": ["default"],
+  "tints": {
+    "glyph": "emerald_glyph",
+    "texture": "emerald"
+  },
+  "toolEfficiency": 0,
+  "toolLevel": 0
+}

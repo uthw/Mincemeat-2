@@ -1,0 +1,32 @@
+{
+  "key": "socket_void_worm_eye",
+  "hidden": true,
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 45,
+  "integrityCost": 1,
+  "integrityGain": 0,
+  "magicCapacity": 0,
+  "toolLevel": 0,
+  "toolEfficiency": 0,
+  "attributes": {
+    "**generic.attack_damage": 0.2,
+    "attributeslib:crit_chance": 0.32,
+    "attributeslib:crit_damage": 0.5
+  },
+  "effects": {
+    "criticalStrike": [32, 1],
+    "intuit": 4,
+    "stabilizing": 10
+  },
+  "tints": {
+    "glyph": "4a42ab"
+  },
+  "textures": ["worm_eye"],
+  "experienceCost": 15,
+  "material": {
+    "items": ["alexsmobs:void_worm_eye"]
+  }
+}

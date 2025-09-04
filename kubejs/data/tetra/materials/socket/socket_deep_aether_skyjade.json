@@ -1,0 +1,36 @@
+{
+  "key": "socket_deep_aether_skyjade",
+  "hidden": true,
+  "category": "socket",
+  "primary": 0,
+  "secondary": 0,
+  "tertiary": 0,
+  "durability": 0.0,
+  "integrityCost": 1,
+  "integrityGain": 0,
+  "magicCapacity": 0,
+  "toolLevel": 0,
+  "toolEfficiency": 2.0,
+  "attributes": {
+    "**generic.movement_speed": 0.05,
+    "attributeslib:crit_chance": 0.3
+  },
+  "effects": {
+    "criticalStrike": [30, 1]
+  },
+  "tints": {
+    "glyph": "b2e865",
+    "texture": "b2e865"
+  },
+  "textures": ["default"],
+  "experienceCost": 2,
+  "material": {
+    "items": ["deep_aether:skyjade"]
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deep_aether"
+    }
+  ]
+}

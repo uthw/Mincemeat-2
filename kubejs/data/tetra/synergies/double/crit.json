@@ -3,7 +3,7 @@
     "modules": ["double/sickle"],
     "moduleVariants": ["double_socket/socket_emerald"],
     "effects": {
-      "criticalStrike": [0, -2]
+      "criticalStrike": [0, -1]
     },
     "visibilityKey": "double_socket/socket_emerald"
   },
@@ -11,21 +11,21 @@
     "modules": ["double/sickle"],
     "moduleVariants": ["double_socket/socket_pristine_emerald"],
     "effects": {
-      "criticalStrike": [0, -1.5]
+      "criticalStrike": [0, -1]
     },
     "visibilityKey": "double_socket/socket_pristine_emerald"
   },
   {
     "modules": ["double/sickle", "double/sickle"],
     "effects": {
-      "criticalStrike": [0, -2]
+      "criticalStrike": [0, -1]
     }
   },
   {
     "modules": ["double/sickle"],
     "moduleVariants": ["double_socket/socket_void_worm_eye"],
     "effects": {
-      "criticalStrike": [0, -1.5]
+      "criticalStrike": [0, -1]
     },
     "visibilityKey": "double_socket/socket_void_worm_eye"
   },
@@ -33,7 +33,7 @@
     "modules": ["double/sickle"],
     "moduleVariants": ["double_socket/socket_deep_aether_skyjade"],
     "effects": {
-      "criticalStrike": [0, -2]
+      "criticalStrike": [0, -1]
     },
     "visibilityKey": "double_socket/socket_deep_aether_skyjade"
   },
@@ -41,7 +41,7 @@
     "modules": ["double/sickle"],
     "moduleVariants": ["double_socket/socket_aquamirae_abyssal_amethyst"],
     "effects": {
-      "criticalStrike": [0, -2]
+      "criticalStrike": [0, -1]
     },
     "visibilityKey": "double_socket/socket_aquamirae_abyssal_amethyst"
   }
