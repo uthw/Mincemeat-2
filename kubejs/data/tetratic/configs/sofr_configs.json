@@ -1,0 +1,148 @@
+{
+    "Version": 1.0,
+    "attributemap": {
+        "sword/blade": {
+            "sword/stiletto_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:dagger"
+                    }
+                }
+            },
+            "sword/chillrend_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:sword"
+                    }
+                }
+            }
+        },
+        "greatsword/blade": {
+            "greatsword/longsword_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:longsword"
+                    }
+                }
+            },
+            "greatsword/claymore_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:claymore"
+                    }
+                }
+            },
+            "greatsword/crucible_blade": {
+                "conditions": [
+                    {
+                        "type": "improvement",
+                        "improvement": "sword/architect_imprv",
+                        "config": {
+                            "attributes": {
+                                "parent": "bettercombat:crucible"
+                            }
+                        }
+                    }
+                ],
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:claymore"
+                    }
+                }
+            },
+            "greatsword/cataclysm_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:claymore"
+                    }
+                }
+            },
+            "greatsword/flamberge_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:longsword"
+                    }
+                }
+            }
+        },
+        "polearm/head": {
+            "polearm/spearhead": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:spear"
+                    }
+                }
+            },
+            "polearm/glaive_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:glaive"
+                    }
+                }
+            },
+            "polearm/halberd_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:halberd"
+                    }
+                }
+            },
+            "polearm/lance_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:lance"
+                    }
+                }
+            },
+            "polearm/pike_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:pike"
+                    }
+                }
+            },
+            "polearm/naginata_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:glaive"
+                    }
+                }
+            },
+            "polearm/trident": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:spear"
+                    }
+                }
+            },
+            "polearm/scythe_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:scythe"
+                    }
+                }
+            },
+            "polearm/vice_of_eden": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:scythe"
+                    }
+                }
+            },
+            "polearm/soul_fire_scythe": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:scythe"
+                    }
+                }
+            },
+            "polearm/sanguisuga": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:glaive"
+                    }
+                }
+            }
+        }
+    }
+}
