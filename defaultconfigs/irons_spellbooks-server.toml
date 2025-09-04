@@ -380,8 +380,8 @@ priestHouseWeight = 4
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
+		SpellPowerMultiplier = 0.75
+		CooldownInSeconds = 6.5
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:summon_polar_bear"]
@@ -468,8 +468,8 @@ priestHouseWeight = 4
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 1.3
+		SpellPowerMultiplier = 0.75
+		CooldownInSeconds = 5.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:dragon_breath"]
@@ -657,8 +657,8 @@ priestHouseWeight = 4
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 1.7
+		SpellPowerMultiplier = 0.75
+		CooldownInSeconds = 7.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:acupuncture"]
@@ -1797,8 +1797,8 @@ priestHouseWeight = 4
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 5.0
+		SpellPowerMultiplier = 0.75
+		CooldownInSeconds = 8.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:thunderstorm"]
