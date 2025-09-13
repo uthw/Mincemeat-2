@@ -3943,6 +3943,12 @@
 				"Scylla: Dropped by Scylla 10% of the time"
 				""
 				"Dragon Slayer: Dropped by The Nightwarden 20% of the time"
+				""
+				"Clash of Duality \"Boros\": Defeat the Fairkeepers, but kill Ouros first"
+				""
+				"Clash of Duality \"Ouros\": Defeat the Fairkeepers, but kill Boros first"
+				""
+				"Clash of Duality \"Pythonic Overdrive\": Crafting recipe"
 				"{@pagebreak}"
 				"Most discs can also drop from hostile mobs with backpacks."
 			]
@@ -4430,6 +4436,21 @@
 						}
 						id: "cataclysm:music_disc_scylla"
 					}
+					type: "item"
+				}
+				{
+					id: "2DEC962D9065CB4D"
+					item: "dungeonnowloading:music_disc_clash_of_duality_ouros"
+					type: "item"
+				}
+				{
+					id: "70E67CC501097830"
+					item: "dungeonnowloading:music_disc_clash_of_duality_boros"
+					type: "item"
+				}
+				{
+					id: "00707EA889E22215"
+					item: "dungeonnowloading:music_disc_clash_of_duality_pythonic_overdrive"
 					type: "item"
 				}
 			]
@@ -8966,7 +8987,6 @@
 			y: -2.0d
 		}
 		{
-			description: ["There is another one, Keres, but it's disabled right now for the protection of your world. I'm not going to give it to you."]
 			id: "65BC034FDDDC9435"
 			subtitle: "A stellar performance"
 			tasks: [
@@ -9093,6 +9113,17 @@
 						tag: {
 							Damage: 0
 							csController: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7706628A719A916B"
+					item: {
+						Count: 1
+						id: "celestisynth:keres"
+						tag: {
+							Damage: 0
 						}
 					}
 					type: "item"
