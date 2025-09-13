@@ -3,7 +3,7 @@
 		"eternalNighttime": true,
 		"experienceDrop": 1500,
 		"idleHealingPerTick": 0.20000000298023224,
-		"health": 600.0,
+		"health": 900.0,
 		"missile": {
 			"mobEffectId": "cataclysm:stun",
 			"mobEffectDuration": 9,

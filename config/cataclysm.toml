@@ -5,9 +5,9 @@
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
 	#Forced viewpoint change when hit by a grab attack
-	"setThirdPerson(on/off)" = true
+	"setThirdPerson(on/off)" = false
 	#Forced viewpoint change when hit by a grab attack
-	"setFirstPerson(on/off)" = true
+	"setFirstPerson(on/off)" = false
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -248,7 +248,7 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 2.0
+	IgnisHealthMultiplier = 2.5
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 2.0
@@ -273,15 +273,15 @@
 [revenant]
 	#Revenant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantHealthMultiplier = 1.0
+	RevenantHealthMultiplier = 2.0
 	#Revenant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantDamageMultiplier = 1.0
+	RevenantDamageMultiplier = 2.5
 
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 2.0
+	HarbingerHealthMultiplier = 2.25
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 2.0
@@ -312,7 +312,7 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 2.25
+	LeviathanHealthMultiplier = 2.5
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageMultiplier = 2.0
@@ -367,7 +367,7 @@
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 3
+	AncientRemnantHealthMultiplier = 3.5
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 1.85
@@ -491,10 +491,10 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 2.5
+	MaledictusHealthMultiplier = 4.0
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 2.0
+	MaledictusDamageMultiplier = 2.25
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	MaledictusDamageCap = 50.0
@@ -599,7 +599,7 @@
 [Scylla]
 	#Scylla's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 3.0
+	ScyllaHealthMultiplier = 3.25
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	ScyllaDamageMultiplier = 2.25
