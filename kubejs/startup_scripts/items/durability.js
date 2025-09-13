@@ -27,6 +27,10 @@ let customDurabilities = [
         id: "cataclysm:coral_bardiche",
         durability: 900,
     },
+    {
+        id: "aether:golden_parachute",
+        durability: 1500,
+    },
 ];
 
 ItemEvents.modification((event) => {
