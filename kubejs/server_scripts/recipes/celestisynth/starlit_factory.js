@@ -112,6 +112,20 @@ ServerEvents.recipes((event) => {
             forging_time: 500,
             result: "celestisynth:celestial_spell_book",
         },
+        {
+            top_left_triangle: {
+                item: "irons_spellbooks:cinder_essence",
+            },
+            top_right_triangle: {
+                item: "alexscaves:pure_darkness",
+            },
+            bottom_triangle: { item: "cataclysm:cursium_ingot" },
+            right_bottom: { item: "minecraft:totem_of_undying" },
+            right_middle: { item: "minecells:metal_shards" },
+            right_top: { item: "cataclysm:essence_of_the_storm" },
+            forging_time: 500,
+            result: "celestisynth:keres",
+        },
     ];
 
     recipes.forEach((recipe) => {
