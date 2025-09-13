@@ -33,12 +33,19 @@ ServerEvents.tags("worldgen/biome", (event) => {
     //     event.add("cataclysm:has_structure/soul_black_smith_biomes", biome);
     // });
 
-    event.add("cataclysm:has_structure/burning_arena_biomes", "netherexp:black_ice_glaciers");
-    event.add("cataclysm:has_structure/soul_black_smith_biomes", "netherexp:black_ice_glaciers");
+    event.add(
+        "cataclysm:has_structure/burning_arena_biomes",
+        "netherexp:black_ice_glaciers"
+    );
+    event.add(
+        "cataclysm:has_structure/soul_black_smith_biomes",
+        "netherexp:black_ice_glaciers"
+    );
 
     event.add("mowziesmobs:is_magical", "biomeswevegone:enchanted_tangle");
     event.add("mowziesmobs:is_magical", "ars_nouveau:archwood_forest");
     event.add("mowziesmobs:is_magical", "biomeswevegone:forgotten_forest");
+    event.add("mowziesmobs:is_magical", "biomeswevegone:rose_fields");
 
     event.add(
         "buzzier_bees:has_animal/moobloom",
@@ -48,10 +55,26 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "buzzier_bees:has_animal/moobloom",
         "biomeswevegone:amaranth_grassland"
     );
-    event.add("mowziesmobs:is_magical", "biomeswevegone:rose_fields");
 
     event.add("graveyard:has_structure/dead_tree", "environmental:marsh");
     event.add("graveyard:has_structure/dead_tree", "hexerei:willow_swamp");
+
+    event.add(
+        "dungeonnowloading:has_structure/temple_of_duality",
+        "atmospheric:rainforest"
+    );
+    event.add(
+        "dungeonnowloading:has_structure/temple_of_duality",
+        "biomeswevegone:tropical_rainforest"
+    );
+    event.add(
+        "dungeonnowloading:has_structure/temple_of_duality",
+        "biomeswevegone:enchanted_tangle"
+    );
+    event.add(
+        "dungeonnowloading:has_structure/temple_of_duality",
+        "biomeswevegone:fragment_jungle"
+    );
 
     // remove oceans from ars addition structure gen since its structures seem to generate weird
     event.remove(

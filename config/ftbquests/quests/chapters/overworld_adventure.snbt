@@ -133,7 +133,7 @@
 				}
 			]
 			title: "Lich Tower"
-			x: 5.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -153,7 +153,7 @@
 				value: 1L
 			}]
 			title: "Void Blossom"
-			x: -14.0d
+			x: -15.5d
 			y: -1.0d
 		}
 		{
@@ -171,7 +171,7 @@
 				type: "advancement"
 			}]
 			title: "Ice Maze"
-			x: 2.0d
+			x: -14.0d
 			y: 0.5d
 		}
 		{
@@ -206,7 +206,7 @@
 				value: 1L
 			}]
 			title: "Corrupted Champion"
-			x: 6.5d
+			x: 3.0d
 			y: -4.5d
 		}
 		{
@@ -363,6 +363,8 @@
 				"Being in the caves or having radioactive items in your inventory may give you the &2irradiated&r effect, which prevents you from healing."
 				""
 				"More potent sources of radiation can cause damage over time, like withering."
+				""
+				"Your radiation level goes down over time, but this process can be accelerated by standing in water."
 			]
 			icon: "alexscaves:nuclear_bomb"
 			id: "6202F882D0377E6B"
@@ -610,8 +612,8 @@
 				value: 1L
 			}]
 			title: "Guardian of Gaia"
-			x: 3.5d
-			y: -0.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["431AB26EA0ED2433"]
@@ -631,7 +633,7 @@
 				value: 1L
 			}]
 			title: "Leviathan"
-			x: 14.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -659,7 +661,7 @@
 				value: 1L
 			}]
 			title: "Ancient Remnant"
-			x: 12.5d
+			x: 10.5d
 			y: -4.0d
 		}
 		{
@@ -687,7 +689,7 @@
 				value: 1L
 			}]
 			title: "The Harbinger"
-			x: 9.5d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -705,8 +707,8 @@
 				type: "structure"
 			}]
 			title: "Find the Stronghold"
-			x: 12.0d
-			y: 3.5d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -741,8 +743,8 @@
 				value: 1L
 			}]
 			title: "Wilden Chimera"
-			x: 3.5d
-			y: 0.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -1642,7 +1644,7 @@
 				value: 1L
 			}]
 			title: "Mother of the Maze"
-			x: 2.5d
+			x: -13.5d
 			y: -1.0d
 		}
 		{
@@ -1672,7 +1674,7 @@
 				value: 1L
 			}]
 			title: "Ghost of Captain Cornelia"
-			x: 2.0d
+			x: -14.0d
 			y: -3.5d
 		}
 		{
@@ -1686,7 +1688,7 @@
 				value: 1L
 			}]
 			title: "Eel"
-			x: 1.5d
+			x: -14.5d
 			y: -1.0d
 		}
 		{
@@ -1778,7 +1780,7 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: 2.0d
 		}
 		{
@@ -1795,7 +1797,7 @@
 				item: "cataclysm:mech_eye"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -1807,7 +1809,7 @@
 				item: "cataclysm:abyss_eye"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 0.5d
 		}
 		{
@@ -1818,7 +1820,7 @@
 				item: "cataclysm:desert_eye"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: 0.5d
 		}
 		{
@@ -1829,7 +1831,7 @@
 				item: "cataclysm:cursed_eye"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: 0.5d
 		}
 		{
@@ -1924,7 +1926,7 @@
 				type: "item"
 			}]
 			title: "Dusk Key"
-			x: 8.0d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -2076,7 +2078,7 @@
 				title: "Void Blossom Arena"
 				type: "structure"
 			}]
-			x: -14.0d
+			x: -15.5d
 			y: 0.5d
 		}
 		{
@@ -2096,7 +2098,7 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
+			x: -15.5d
 			y: -2.5d
 		}
 		{
@@ -2373,7 +2375,7 @@
 				item: "aquamirae:shell_horn"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -14.0d
 			y: -2.0d
 		}
 		{
@@ -2394,7 +2396,7 @@
 				value: 1L
 			}]
 			title: "Night Lich"
-			x: 5.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -2417,7 +2419,7 @@
 				title: "Dead Tree"
 				type: "structure"
 			}]
-			x: 6.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -2450,7 +2452,7 @@
 				}
 			]
 			title: "Bone Staff"
-			x: 7.0d
+			x: 3.5d
 			y: -1.5d
 		}
 		{
@@ -2475,7 +2477,7 @@
 				title: "Ruins"
 				type: "structure"
 			}]
-			x: 6.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -2514,7 +2516,7 @@
 				}
 			]
 			title: "Necessary Sacrifices"
-			x: 6.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -2540,7 +2542,7 @@
 				title: "Lich Prison"
 				type: "structure"
 			}]
-			x: 6.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -2589,7 +2591,7 @@
 				title: "Bone Staff"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -2609,7 +2611,7 @@
 				value: 1L
 			}]
 			title: "Rosalyne"
-			x: 8.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -2627,7 +2629,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 4.0d
 			y: -3.5d
 		}
 		{
@@ -2639,7 +2641,7 @@
 				item: "meetyourfight:wilted_ideals"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 5.0d
 			y: -3.5d
 		}
 		{
@@ -2650,7 +2652,7 @@
 				item: "meetyourfight:blossoming_mind"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -2662,7 +2664,7 @@
 				item: "meetyourfight:tomb_planter"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -2689,7 +2691,7 @@
 				value: 1L
 			}]
 			title: "Maledictus"
-			x: 15.5d
+			x: 13.5d
 			y: -4.0d
 		}
 		{
@@ -2708,7 +2710,7 @@
 				title: "Sunken City"
 				type: "structure"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -2751,7 +2753,7 @@
 				}
 			]
 			title: "Blessed Amethyst Crab Meat"
-			x: 14.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -2777,7 +2779,7 @@
 				item: "cataclysm:abyssal_sacrifice"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -2798,7 +2800,7 @@
 				title: "Cursed Pyramid"
 				type: "structure"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -2815,7 +2817,7 @@
 				item: "cataclysm:sticky_gloves"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -2848,7 +2850,7 @@
 				}
 			]
 			title: "Necklace of the Desert"
-			x: 12.5d
+			x: 10.5d
 			y: -3.0d
 		}
 		{
@@ -2864,7 +2866,7 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -2878,7 +2880,7 @@
 				title: "Ancient Factory"
 				type: "structure"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -2897,7 +2899,7 @@
 				title: "Frosted Prison"
 				type: "structure"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -1.0d
 		}
 		{
@@ -2925,7 +2927,7 @@
 				to_observe: "cataclysm:cursed_tombstone"
 				type: "observation"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -2.5d
 		}
 		{
@@ -2942,7 +2944,7 @@
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 7.5d
 			y: -5.5d
 		}
 		{
@@ -2959,7 +2961,7 @@
 				item: "cataclysm:wrath_of_the_desert"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 8.0d
 			y: -7.0d
 		}
 		{
@@ -2993,7 +2995,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 7.0d
 			y: -7.0d
 		}
 		{
@@ -3027,7 +3029,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 6.0d
 			y: -6.5d
 		}
 		{
@@ -3061,7 +3063,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
+			x: 9.0d
 			y: -6.5d
 		}
 		{
@@ -3078,7 +3080,7 @@
 				item: "cataclysm:the_immolator"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 5.5d
 			y: -7.5d
 		}
 		{
@@ -3095,7 +3097,7 @@
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 6.5d
 			y: -8.0d
 		}
 		{
@@ -3118,7 +3120,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
+			x: 7.5d
 			y: -8.0d
 		}
 		{
@@ -3135,7 +3137,7 @@
 				item: "cataclysm:void_assault_shoulder_weapon"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 8.5d
 			y: -8.0d
 		}
 		{
@@ -3153,7 +3155,7 @@
 				item: "cataclysm:gauntlet_of_maelstrom"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 9.5d
 			y: -7.5d
 		}
 		{
@@ -3632,7 +3634,7 @@
 				}
 			]
 			title: "Sky Arena"
-			x: 14.5d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -3778,7 +3780,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -3804,7 +3806,7 @@
 				title: "Acropolis"
 				type: "structure"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -3837,7 +3839,7 @@
 				type: "observation"
 			}]
 			title: "Acropolis Sanctum"
-			x: 11.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -3872,7 +3874,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: -4.0d
 		}
 		{
@@ -3893,8 +3895,196 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"&7If you want to have the most fun, start at the top of this dungeon and work your way down the intended way, since it's packed with details you won't find elsewhere!"
+				""
+				"The Temple of Duality is what you might think of when imagining a very scaled-up jungle temple. It's rife with unique mechanics, enemies, items, and a boss which you can discover. It can be found in jungles and similar biomes."
+				""
+				"The main mechanic of this temple is the red auras you'll find surrounding its puzzles. If you place or break any blocks within these, you'll aggravate the fairkeeper spawners, which summon enemies for you to defeat."
+				""
+				"If you solve the puzzle or defeat the enemies, you'll be able to loot the fairkeeper chests. Each way of unlocking the chest gives different crafting ingredients, so try using both ways."
+				""
+				"To complete the next quest, go down the elevator and look at the Serpent Caller in the center of the next room."
+			]
+			id: "0004ACC0F7A9C8FA"
+			subtitle: "Hope you're a Zelda fan"
+			tasks: [{
+				icon: "dungeonnowloading:fairkeeper_spawner"
+				id: "3F69216ACD67EDDD"
+				structure: "dungeonnowloading:temple_of_duality"
+				title: "Temple of Duality"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0004ACC0F7A9C8FA"]
+			description: [
+				"This is where the facets of the Temple of Duality start to shine. To the left and right of this grand hall are puzzles like the one you completed before. Straight ahead is an elevator that takes you deeper."
+				""
+				"If you right click the Serpent Caller, you'll realize you need a Redstone Idol first. This means more dungeon crawling is required."
+				""
+				"The Redstone Idol is crafted with materials found by exploring the dungeon. You need 8 of each to craft it, so make sure to complete the challenges both ways. Challenges deeper into the Temple reward more materials."
+			]
+			id: "3B101012AC55D584"
+			tasks: [{
+				icon: "dungeonnowloading:fairkeeper_serpent_caller"
+				id: "0D96583DDF197D43"
+				observe_type: 5
+				timer: 0L
+				title: "Serpent Caller"
+				to_observe: "dungeonnowloading:fairkeeper_serpent_caller"
+				type: "observation"
+			}]
+			title: "Main Room"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B101012AC55D584"]
+			description: [
+				"Hey, these puzzles can be tough to figure out yourself with all their exclusive blocks and mechanics. Let's clear things up by talking through what everything does:"
+				""
+				"- Redstone Stone Notch: emits a redstone signal with strength depending on the material placed inside. Netherite and diamond give more strength than iron and lapis."
+				""
+				"- Redstone Lanes: comes in three variants in the shape of I, L, and T. These are basically more powerful, full-block versions of redstone dust with extended range."
+				""
+				"- Rotator Pressure Plate: when triggered, rotates the block below it 90°. Projectiles fired onto it are launched upwards."
+				""
+				"- Overcharged Redstone Block: ignites redstone contraptions connected to it. Redstone lanes are an exception, becoming dangerous to walk on instead of exploding."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "297F9511D7D44797"
+			optional: true
+			tasks: [
+				{
+					icon: "dungeonnowloading:redstone_stone_notch"
+					id: "505E77C17BDB43B3"
+					observe_type: 0
+					timer: 0L
+					title: "Redstone Stone Notch"
+					to_observe: "dungeonnowloading:redstone_stone_notch"
+					type: "observation"
+				}
+				{
+					icon: "dungeonnowloading:redstone_lane_i"
+					id: "4AE1D83FFCDD2366"
+					observe_type: 0
+					timer: 0L
+					title: "Redstone Lanes"
+					to_observe: "dungeonnowloading:redstone_lane_i"
+					type: "observation"
+				}
+				{
+					icon: "dungeonnowloading:rotator_pressure_plate"
+					id: "40B80C1FCBB34025"
+					observe_type: 0
+					timer: 0L
+					title: "Rotator Pressure Plate"
+					to_observe: "dungeonnowloading:rotator_pressure_plate"
+					type: "observation"
+				}
+				{
+					icon: "dungeonnowloading:overcharged_redstone_block"
+					id: "37513A1469F449A3"
+					observe_type: 0
+					timer: 0L
+					title: "Overcharged Redstone Block"
+					to_observe: "dungeonnowloading:overcharged_redstone_block"
+					type: "observation"
+				}
+			]
+			title: "Duality Puzzle Cheat Sheet"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B101012AC55D584"]
+			description: [
+				"Once you obtain the Idol, make your way back to the large room you found earlier, get near the Serpent Caller, and right click the idol. This will summon Ouros and Boros, the bosses for this dungeon."
+				""
+				"Being the only dual boss fight in the modpack, these snakes present a unique challenge. Boros slithers on the ground and uses close range attacks to deal damage. Be sure to target its head and get a hit or two in while its mouth is open."
+				""
+				"Meanwhile, Ouros attacks from above with projectiles. These attacks can be countered by shooting them with arrows or breaking them with pickaxes, depending on the attack."
+				""
+				"To prepare for this fight, bring a melee weapon to attack Boros and a ranged weapon to attack Ouros. You may also consider progressing further, since both bosses can do 20+ damage per hit and have over a thousand health."
+				"{@pagebreak}"
+				"Initially, the bosses give you breathing room by staggering their attacks so only one is active at a time. However, getting their health down low enough triggers phase 2, where they start attacking in tandem, while also getting some upgrades."
+				""
+				"These attacks are telegraphed by red particles and borders on the ground, so pay attention to those."
+			]
+			id: "2CE05682A977332C"
+			tasks: [{
+				id: "61007BD4C27FFBC8"
+				item: "dungeonnowloading:redstone_idol"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CE05682A977332C"]
+			description: ["Here are some more options for flamethrowers, but shader friendly this time. Make the soul scorcher if you don't want to set fire to the world."]
+			id: "2B6A97F338C41000"
+			subtitle: "Defeat Boros first and Ouros last"
+			tasks: [{
+				id: "551D95E3B07195D0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dungeonnowloading:scorcher"
+								tag: {
+									Damage: 0
+									ScorcherHeat: 0.0f
+									ScorcherTimeStamp: 1020185L
+								}
+							}
+							{
+								Count: 1b
+								id: "dungeonnowloading:soul_scorcher"
+								tag: {
+									Damage: 0
+									ScorcherHeat: 0.0f
+									ScorcherTimeStamp: 1020192L
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Scorcher/Soul Scorcher"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2CE05682A977332C"]
+			id: "6703A99C4A72EF71"
+			subtitle: "Defeat Ouros first and Boros last"
+			tasks: [{
+				id: "542FB6AA08646A72"
+				item: {
+					Count: 1
+					id: "dungeonnowloading:vertex_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
 		}
 	]
 	title: "Overworld Adventure"

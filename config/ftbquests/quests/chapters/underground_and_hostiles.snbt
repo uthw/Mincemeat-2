@@ -1538,6 +1538,51 @@
 			x: -0.5d
 			y: 4.5d
 		}
+		{
+			description: [
+				"You discovered this mob because you failed one of the puzzles in the Temple of Duality. How naïve! Real adventurers like myself would never."
+				""
+				"This foe spews fire in pinwheels around itself. Use fire resistance or platforming prowess to avoid this."
+				""
+				"Scuttles have high armor and health, so you might be here a while if your weapon isn't up for the task. Hint: bows and arrows are not up for the task either."
+				""
+				"You can avoid the hassle of scuttles by Silk Touching their shoddy statues. When killed, they drop basic resources you already have hundreds to thousands of. Yay."
+			]
+			id: "0AECF67328A2FB5E"
+			invisible: true
+			subtitle: "Entity Model Now Loading"
+			tasks: [{
+				icon: "dungeonnowloading:scuttle_statue"
+				id: "4DA4F46EBCB23500"
+				observe_type: 5
+				timer: 0L
+				title: "Scuttle"
+				to_observe: "dungeonnowloading:scuttle"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Found in the deepest layer of the Temple of Duality, Ballista Golems are elaborate cubes of stone that fire explosive arrows at their targets. When it reloads, it does so in place, giving you the change to strike."
+				""
+				"You can collect it while it sleeps with Silk Touch, like its smaller relative."
+			]
+			id: "62712FAF13E9A217"
+			invisible: true
+			tasks: [{
+				icon: "dungeonnowloading:ballista_golem_statue"
+				id: "516898E8D6E9F4D3"
+				observe_type: 5
+				timer: 0L
+				title: "Ballista Golem"
+				to_observe: "dungeonnowloading:ballista_golem"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
 	]
 	title: "Underground and Monsters"
 }

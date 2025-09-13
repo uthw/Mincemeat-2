@@ -135,6 +135,9 @@ ServerEvents.tags("entity_type", (event) => {
         "cataclysm:clawdian",
 
         "traveloptics:the_nightwarden",
+
+        "dungeonnowloading:fairkeeper_ouros",
+        "dungeonnowloading:fairkeeper_boros",
     ];
 
     bossesAndMinions.forEach((boss) => {

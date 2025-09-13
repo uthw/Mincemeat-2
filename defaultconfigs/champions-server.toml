@@ -105,7 +105,11 @@ entitiesList = [
 
 	"cataclysm:scylla",
 	"cataclysm:clawdian",
-	"traveloptics:the_nightwarden"
+	"traveloptics:the_nightwarden",
+
+	"dungeonnowloading:fairkeeper_ouros",
+	"dungeonnowloading:fairkeeper_boros",
+
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST
