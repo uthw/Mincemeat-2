@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
                 "irons_spellbooks:lightning_bottle": 1,
                 "minecells:monster_cell": 6,
             },
-            output: "minecells:electric_whip"
+            output: "minecells:electric_whip",
         },
         {
             input: {
@@ -54,7 +54,7 @@ ServerEvents.recipes((event) => {
                 "yungscavebiomes:rare_ice": 1,
                 "minecells:monster_cell": 6,
             },
-            output: "minecells:frost_blast"
+            output: "minecells:frost_blast",
         },
         {
             input: {
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
                 "irons_spellbooks:arcane_ingot": 4,
                 "minecraft:obsidian": 2,
             },
-            output: "minecells:cudgel"
+            output: "minecells:cudgel",
         },
         {
             advancement: "minecells:unlock/fall_from_the_ramparts",
@@ -70,9 +70,9 @@ ServerEvents.recipes((event) => {
                 "minecraft:stick": 3,
                 "minecraft:string": 3,
                 "irons_spellbooks:cast_time_ring": 1,
-                "minecells:cell_infused_steel": 3
+                "minecells:cell_infused_steel": 3,
             },
-            output: "minecells:nerves_of_steel"
+            output: "minecells:nerves_of_steel",
         },
         {
             advancement: "minecells:unlock/kill_10_buzzcutters",
@@ -81,9 +81,9 @@ ServerEvents.recipes((event) => {
                 "minecells:cell_infused_steel": 6,
                 "celestisynth:celestial_core_heated": 1,
                 "minecells:buzzcutter_fang": 2,
-                "minecells:infected_flesh": 4
+                "minecells:infected_flesh": 4,
             },
-            output: "minecells:spite_sword"
+            output: "minecells:spite_sword",
         },
         {
             advancement: "minecells:unlock/kill_10_inquisitors",
@@ -91,18 +91,18 @@ ServerEvents.recipes((event) => {
                 "minecells:arcane_goo": 8,
                 "minecells:metal_shards": 4,
                 "irons_spellbooks:lightning_bottle": 1,
-                "minecells:monster_cell": 12
+                "minecells:monster_cell": 12,
             },
-            output: "minecells:lightning_bolt"
+            output: "minecells:lightning_bolt",
         },
         {
             advancement: "minecells:unlock/kill_10_shieldbearers",
             input: {
                 "minecells:cell_infused_steel": 8,
                 "minecells:arcane_goo": 2,
-                "thermal:cinnabar": 4
+                "thermal:cinnabar": 4,
             },
-            output: "minecells:rampart"
+            output: "minecells:rampart",
         },
         {
             advancement: "minecells:unlock/kill_15_undead_archers",
@@ -111,9 +111,9 @@ ServerEvents.recipes((event) => {
                 "minecraft:string": 3,
                 "minecraft:gold_ingot": 2,
                 "iceandfire:stymphalian_bird_feather": 4,
-                "minecells:cell_infused_steel": 4
+                "minecells:cell_infused_steel": 4,
             },
-            output: "minecells:infantry_bow"
+            output: "minecells:infantry_bow",
         },
         {
             advancement: "minecells:unlock/kill_20_grenadiers",
@@ -121,9 +121,9 @@ ServerEvents.recipes((event) => {
                 "aether:skyroot_stick": 1,
                 "minecells:cell_infused_steel": 6,
                 "caverns_and_chasms:silver_ingot": 4,
-                "atmospheric:grimweb": 1
+                "atmospheric:grimweb": 1,
             },
-            output: "minecells:hattoris_katana"
+            output: "minecells:hattoris_katana",
         },
         {
             advancement: "minecells:unlock/kill_30_shieldbearers",
@@ -131,18 +131,18 @@ ServerEvents.recipes((event) => {
                 "minecells:cell_infused_steel": 8,
                 "undergarden:froststeel_ingot": 4,
                 "minecraft:packed_ice": 6,
-                "yungscavebiomes:rare_ice": 1
+                "yungscavebiomes:rare_ice": 1,
             },
-            output: "minecells:ice_shield"
+            output: "minecells:ice_shield",
         },
         {
             advancement: "minecells:unlock/kill_30_shieldbearers",
             input: {
                 "minecells:cell_infused_steel": 8,
                 "minecells:metal_shards": 4,
-                "irons_spellbooks:blood_vial": 4
+                "irons_spellbooks:blood_vial": 4,
             },
-            output: "minecells:bloodthirsty_shield"
+            output: "minecells:bloodthirsty_shield",
         },
         {
             advancement: "minecells:unlock/kill_50_undead_archers",
@@ -151,9 +151,9 @@ ServerEvents.recipes((event) => {
                 "minecraft:string": 3,
                 "forbidden_arcanus:arcane_crystal": 6,
                 "minecells:infected_flesh": 16,
-                "minecells:monster_cell": 12
+                "minecells:monster_cell": 12,
             },
-            output: "minecells:bow_and_endless_quiver"
+            output: "minecells:bow_and_endless_quiver",
         },
         {
             advancement: "minecells:unlock/kill_a_leaping_zombie",
@@ -162,7 +162,32 @@ ServerEvents.recipes((event) => {
                 "irons_spellbooks:blood_vial": 5,
                 "minecells:cell_infused_steel": 6,
             },
-            output: "minecells:blood_sword"
-        }
+            output: "minecells:blood_sword",
+        },
+        {
+            advancement: "minecells:unlock/run_in_the_promenade",
+            input: {
+                "minecraft:stick": 3,
+                "minecraft:string": 3,
+                "alexscaves:peppermint_powder": 4,
+                "blue_skies:diopside_gem": 2,
+                "minecells:monster_cell": 6,
+            },
+            output: "minecells:quick_bow"
+        },
     ];
+
+    recipes.forEach((recipe) => {
+        const outputName = recipe.output.split(":")[1];
+        event
+            .custom({
+                type: "minecells:cell_forge_recipe",
+                category: "gear",
+                priority: 90,
+                advancement: recipe.advancement,
+                input: recipe.input,
+                output: { id: recipe.output, Count: 1 }, // Ah-ah-ah!
+            })
+            .id(`minecells:cell_crafter/gear/${outputName}`);
+    });
 });
