@@ -14,7 +14,16 @@
 				""
 				"\"This is the journal that reveals the secrets, mysteries, and techniques passed down through the centuries. As your journey advances, obtain this knowledge and venture forth.\""
 			]
-			icon: "minecraft:oak_sapling"
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_sapling"
+			}
 			id: "2BE6B05790E5A2DE"
 			rewards: [
 				{
@@ -66,7 +75,7 @@
 					type: "command"
 				}
 				{
-					id: "7CC364D38D48D013"
+					id: "5946E28CEA7BFE5D"
 					item: {
 						Count: 1
 						id: "eccentrictome:tome"
@@ -93,6 +102,15 @@
 										id: "aether:book_of_lore"
 									}
 								}
+								alexscavesexemplified: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "alexscavesexemplified:acewiki"
+										}
+									}
+								}
 								apotheosis: {
 									0: {
 										Count: 1b
@@ -106,21 +124,6 @@
 									0: {
 										Count: 1b
 										id: "ars_nouveau:worn_notebook"
-									}
-								}
-								betterend: {
-									0: {
-										Count: 1b
-										id: "minecraft:air"
-									}
-								}
-								bloodmagic: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "bloodmagic:guide"
-										}
 									}
 								}
 								botania: {
@@ -219,15 +222,6 @@
 										}
 									}
 								}
-								naturesaura: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "naturesaura:book"
-										}
-									}
-								}
 								occultism: {
 									0: {
 										Count: 1b
@@ -250,15 +244,6 @@
 									0: {
 										Count: 1b
 										id: "solcarrot:food_book"
-									}
-								}
-								storagenetwork: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "storagenetwork:network_book"
-										}
 									}
 								}
 								thermal: {

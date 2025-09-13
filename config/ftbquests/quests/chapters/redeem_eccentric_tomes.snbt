@@ -62,7 +62,7 @@
 			icon: "berry_good:sweet_berry_mince"
 			id: "34710AB0D1387508"
 			rewards: [{
-				id: "7CEDD7FBFE3CDA5F"
+				id: "6141A59A522064D8"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
@@ -89,6 +89,15 @@
 									id: "aether:book_of_lore"
 								}
 							}
+							alexscavesexemplified: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "alexscavesexemplified:acewiki"
+									}
+								}
+							}
 							apotheosis: {
 								0: {
 									Count: 1b
@@ -102,21 +111,6 @@
 								0: {
 									Count: 1b
 									id: "ars_nouveau:worn_notebook"
-								}
-							}
-							betterend: {
-								0: {
-									Count: 1b
-									id: "minecraft:air"
-								}
-							}
-							bloodmagic: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "bloodmagic:guide"
-									}
 								}
 							}
 							botania: {
@@ -215,15 +209,6 @@
 									}
 								}
 							}
-							naturesaura: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "naturesaura:book"
-									}
-								}
-							}
 							occultism: {
 								0: {
 									Count: 1b
@@ -246,15 +231,6 @@
 								0: {
 									Count: 1b
 									id: "solcarrot:food_book"
-								}
-							}
-							storagenetwork: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "storagenetwork:network_book"
-									}
 								}
 							}
 							thermal: {
