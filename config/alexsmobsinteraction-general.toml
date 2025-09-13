@@ -1,7 +1,7 @@
 
 [General]
 	#Gives you the ami wiki book at start
-	AMI_WIKI_ENABLED = true
+	AMI_WIKI_ENABLED = false
 	#Whether animals that target food recieve the effects of the food they grab
 	FOOD_TARGET_EFFECTS_ENABLED = true
 	#Pour lava bottles into mobs to combust them to flames
@@ -38,7 +38,7 @@
 
 	[Mobs."Bald Eagle"]
 		#Bald Eagle will rarely cannibalize weaker eagles
-		EAGLE_CANNIBALIZE_ENABLED = true
+		EAGLE_CANNIBALIZE_ENABLED = false
 		#--Compatibility with Alexs Caves--
 		#Bald Eagle can bomb targetted areas when being controlled
 		BIRD_BOMBING_ENABLED = true
@@ -110,19 +110,19 @@
 
 	[Mobs.Crow]
 		#Crow will rarely eat their weaker selves unless if tamed
-		CROW_CANNIBALIZE_ENABLED = true
+		CROW_CANNIBALIZE_ENABLED = false
 		#Crows will not drop their weapons in their beak when attacked
 		CROW_WARRIORS_ENABLED = true
 
 	[Mobs.Elephant]
 		#Tusked Elephants attack players when lingering long enough,unless holding Acacia Blossom
-		ELEPHANT_TERRITORIAL_ENABLED = true
+		ELEPHANT_TERRITORIAL_ENABLED = false
 		#Tamed Elephants will trample small entities when ridden
 		ELEPHANT_TRAMPLE_ENABLED = true
 
 	[Mobs.Emu]
 		#Emus will attack any that are seen with a ranged weapon
-		RANGED_AGGRO_ENABLED = true
+		RANGED_AGGRO_ENABLED = false
 		#Emu will attack any that are seen holding their eggs
 		EMU_EGG_ATTACK_ENABLED = true
 
@@ -207,7 +207,7 @@
 
 	[Mobs."Komodo Dragon"]
 		#Komodo Dragon is friendly towards players when tamed
-		FRIENDLY_KOMODO_ENABLED = false
+		FRIENDLY_KOMODO_ENABLED = true
 
 	[Mobs.Laviathan]
 		#Obsidian Laviathans can be mined for obsidian, but will cause them slight harm
@@ -229,7 +229,7 @@
 
 	[Mobs."Mantis Shrimp"]
 		#Mantis Shrimp will cannibalize on low health mantis shrimp
-		MANTIS_CANNIBALIZE_ENABLED = true
+		MANTIS_CANNIBALIZE_ENABLED = false
 		#Mantis will attack players, unless if holding tropical fish
 		MANTIS_AGGRO_ENABLED = true
 
@@ -265,7 +265,7 @@
 
 	[Mobs.Rhino]
 		#Adult rhinos will rarely accidentally attack baby rhinos
-		ACCIDENTAL_BETRAYAL_ENABLED = true
+		ACCIDENTAL_BETRAYAL_ENABLED = false
 
 	[Mobs.Roadrunner]
 		#Roadrunners will only hunt at day
@@ -281,7 +281,7 @@
 		#Seagulls below 40% health will not steal food
 		SEAGULL_WEAKEN_ENABLED = true
 		#Seagulls will only snatch food from your main or off hand
-		HELD_FOOD_ENABLED = false
+		HELD_FOOD_ENABLED = true
 
 	[Mobs.Skelewag]
 		#Skelewag circle their prey like hammerhead sharks
