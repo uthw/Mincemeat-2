@@ -1,0 +1,12 @@
+{
+    "attr": "minecraft:generic.attack_damage",
+    "base": 1.0,
+    "base_high": 1.0,
+    "base_low": 0.5,
+    "main_high": 0.4,
+    "main_low": 0.2,
+    "op": "ADDITION",
+    "sub_high": 0.4,
+    "sub_low": 0.2,
+    "usePercent": false
+}
