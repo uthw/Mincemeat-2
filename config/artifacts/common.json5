@@ -11,11 +11,11 @@
 		/* How many times a campsite will attempt to generate per chunk
 		   Set this to 0 to prevent campsites from generating
 		*/
-		"count": 4,
+		"count": 1,
 		// The minimum height campsites can spawn at
 		"minY": -60,
 		// The maximum height campsites can spawn at
-		"maxY": 40,
+		"maxY": 60,
 		// Probability that a campsite has a mimic instead of a chest
 		"mimicChance": 0.3,
 		// Whether to use wooden chests from other mods when generating campsites
