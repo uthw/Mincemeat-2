@@ -313,8 +313,8 @@
     {
         "when": "onjoin",
         "dimension": "aether:the_aether",
-        "healthmultiply": 3,
-        "damagemultiply": 3,
+        "healthmultiply": 4,
+        "damagemultiply": 4,
         "result": "default"
     },
     {
