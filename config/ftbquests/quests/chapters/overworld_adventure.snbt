@@ -2697,10 +2697,10 @@
 		{
 			dependencies: [
 				"2637C46156FAF5E4"
-				"67EDF8A2B69A158D"
+				"2BE6B05790E5A2DE"
 			]
+			dependency_requirement: "one_completed"
 			description: ["The Sunken City is a beautiful underwater acropolis. It can be easily identified by the dome peeking out of the water. Much of the place is submerged - you'll want water breathing, but you could use the good old doors if you're on a tight budget."]
-			hide_dependency_lines: true
 			id: "4FB85B4B5F80EACD"
 			subtitle: "If you liked: Deeplings, you'll LOVE: Sunken City"
 			tasks: [{
@@ -2783,7 +2783,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["48B996BDDEA77AF2"]
+			dependencies: [
+				"48B996BDDEA77AF2"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Are you looking for a nice, relaxing getaway after the cold, uninviting depths of the Sunken City? Well, you're in luck if your idea of that is dying of heat exhaustion while pursued by dinosaur skeletons."
 				""
@@ -2870,7 +2874,11 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["5C9813AF465AC6A3"]
+			dependencies: [
+				"5C9813AF465AC6A3"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			description: ["The Ancient Factory is the dungeon where the Harbinger rests. It's actually a factory, with more machines operating than you can count, and many rooms to explore."]
 			id: "0B5AD8BF86E068A0"
 			tasks: [{
@@ -2884,7 +2892,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0D9CED136C03F421"]
+			dependencies: [
+				"0D9CED136C03F421"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"The Frosted Prison is a massive keep located within snowy biomes. Its main draw is housing the ill-intentioned Maledictus, who was cursed to never leave the dungeon many years before your time."
 				""
@@ -3784,7 +3796,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2909C62052585644"]
+			dependencies: [
+				"2909C62052585644"
+				"2BE6B05790E5A2DE"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"You've made your way to the largest structure in Cataclysm and probably also one of the largest in the entire modpack. Floating over the ocean and stretching up to almost Y-300, this is one hard-to-miss dungeon."
 				""
