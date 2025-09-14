@@ -1621,6 +1621,16 @@ ServerEvents.recipes((event) => {
                 C: "#forge:rods/wooden",
             },
         ],
+        [
+            "cataclysm:storm_eye",
+            ["ABA", "CDC", "ACA"],
+            {
+                A: "minecraft:prismarine_crystals",
+                B: "upgrade_aquatic:mulberry",
+                C: "#forge:scales/sea_serpent",
+                D: "minecraft:ender_eye"
+            }
+        ]
     ];
 
     recipes.forEach((recipe, index) => {
