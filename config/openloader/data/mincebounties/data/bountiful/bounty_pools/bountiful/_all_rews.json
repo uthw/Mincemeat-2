@@ -413,6 +413,15 @@
 			"unitWorth": 30000,
 			"rarity": "LEGENDARY"
 		},
+		"apotheosis_common_material_rew": {
+			"type": "item",
+			"content": "apotheosis:common_material",
+			"amount": {
+				"min": 2,
+				"max": 6
+			},
+			"unitWorth": 4000
+		},
 		"apotheosis_uncommon_material_rew": {
 			"type": "item",
 			"content": "apotheosis:uncommon_material",
@@ -738,7 +747,16 @@
 			},
 			"unitWorth": 1000,
 			"rarity": "RARE"
+		},
+		"apotheosis_gem_fused_slate_rew": {
+			"type": "item",
+			"content": "apotheosis:gem_fused_slate",
+			"amount": {
+				"min": 8,
+				"max": 24
+			},
+			"unitWorth": 3000,
+			"rarity": "UNCOMMON"
 		}
-		
     }
 }
