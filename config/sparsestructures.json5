@@ -21,7 +21,7 @@
     // },
     {
       "structure": "integrated_villages:regular_villages",
-      "factor": 1.5
+      "factor": 1.4
     },
     {
       "structure": "repurposed_structures:villages_overworld",
@@ -169,6 +169,10 @@
     },
     {
       "structure": "dungeons_arise_seven_seas:victory_frigate",
+      "factor": 2
+    },
+    {
+      "structure": "iceandfire:mausoleum",
       "factor": 2
     }
     // add the structures you want to modify in the format:
