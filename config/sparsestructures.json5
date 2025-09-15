@@ -15,13 +15,13 @@
       "structure": "minecraft:mansion",
       "factor": 1.75
     },
-    {
-      "structure": "integrated_villages:air_villages",
-      "factor": 2.3
-    },
+    // {
+    //   "structure": "integrated_villages:air_villages",
+    //   "factor": 2.3
+    // },
     {
       "structure": "integrated_villages:regular_villages",
-      "factor": 1.75
+      "factor": 1.5
     },
     {
       "structure": "repurposed_structures:villages_overworld",
