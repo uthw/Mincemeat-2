@@ -814,7 +814,7 @@
 			dependencies: ["44061A57BC1657E2"]
 			id: "7D3CA5C984F11D23"
 			shape: "circle"
-			subtitle: "Pewter blend is made by mixing iron and lead."
+			subtitle: "Pewter blend is made by mixing iron, copper, and tin."
 			tasks: [{
 				count: 8L
 				id: "3C620F05A879A80A"
@@ -1926,7 +1926,7 @@
 		{
 			dependencies: ["0D59972E42B4D7A5"]
 			description: [
-				"Eventually, you'll learn the Blood Sign. First, craft a Goblet. This one is different in that it demands a blood sacrifice. Kill a mob near the altar and watch the goblet fill with blood. Then, you're good to use your new chant."
+				"Eventually, you'll learn the Blood Sign. First, craft a Goblet. This one is different in that it demands a blood sacrifice. Kill a sheep near the altar and watch the goblet fill with blood. Then, you're good to use your new chant."
 				""
 				"The composition of this chant should be Wicked --> Blood --> Wicked, as shown below. Make sure the goblet has blood before you use the chant, and the effigy is still somewhere near the altar."
 				""
@@ -2876,8 +2876,8 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["26748536E1E41168"]
@@ -2929,8 +2929,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: -7.5d
+			x: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["26748536E1E41168"]
@@ -2982,8 +2982,8 @@
 				}
 			]
 			title: "Scarecrow Armor"
-			x: -7.0d
-			y: -7.0d
+			x: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5390B26927C70B16"]
@@ -3075,7 +3075,7 @@
 				title: "Craftable Spell Books"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: -2.0d
 		}
 		{
@@ -3088,7 +3088,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5390B26927C70B16"]
@@ -3103,7 +3103,7 @@
 				item: "irons_spellbooks:ruined_book"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -3120,7 +3120,7 @@
 			}]
 			title: "Arcane Salvage"
 			x: -4.5d
-			y: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -3135,7 +3135,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1FAF889506FFFF18"]
@@ -3164,7 +3164,7 @@
 				value: 1L
 			}]
 			x: -3.0d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5390B26927C70B16"]
@@ -3327,7 +3327,7 @@
 				type: "item"
 			}]
 			title: "Unique Spell Books"
-			x: -6.0d
+			x: -5.5d
 			y: -1.0d
 		}
 		{
@@ -3414,8 +3414,8 @@
 				}
 			]
 			title: "Magical Items"
-			x: -4.5d
-			y: -5.5d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["55537BACC41D8793"]
@@ -3456,8 +3456,8 @@
 				type: "advancement"
 			}]
 			title: "Ink"
-			x: -3.0d
-			y: -5.5d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5390B26927C70B16"]
@@ -5652,7 +5652,7 @@
 				title: "Legendary Spell Books (Craftable)"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: -3.0d
 		}
 		{
@@ -5786,8 +5786,8 @@
 				type: "item"
 			}]
 			title: "Legendary Spell Books"
-			x: -8.0d
-			y: -1.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["16E74E12B4D36077"]
@@ -5806,7 +5806,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: -2.0d
 		}
 		{
@@ -5849,7 +5849,7 @@
 				title: "Greater Spell Slot Improvement"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: -2.0d
 		}
 		{
@@ -5877,6 +5877,18 @@
 			}]
 			title: "Echoes"
 			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5390B26927C70B16"]
+			description: ["You need this passage to learn spells from the Eldritch school. Ancient Knowledge Fragments are found in Ancient Cities, or carried by wandering traders."]
+			id: "3CB524B6EF1A9F06"
+			tasks: [{
+				id: "49EC6F000E0846AB"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: -6.5d
 			y: -4.0d
 		}
 	]
