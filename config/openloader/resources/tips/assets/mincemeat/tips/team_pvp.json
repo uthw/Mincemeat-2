@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Open Parties and Claims Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "PvP is disabled for players in the same party."
+    }
+}

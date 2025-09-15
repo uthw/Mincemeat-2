@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Adventuring Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Certain bosses from mods like Cataclysm and Bosses of Mass Destruction can be fought again after defeating them once. The methods vary by mod, so check the quests to find out more."
+    }
+}

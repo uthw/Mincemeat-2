@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "L2Artifacts Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Equipping multiple artifacts in the same set grants additional bonuses. The effects vary by set and rarity, and are listed in each artifact's tooltip."
+    }
+}

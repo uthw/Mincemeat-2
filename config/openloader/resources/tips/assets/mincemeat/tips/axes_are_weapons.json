@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Axes Are Weapons Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Axes only lose 1 durability when used as a weapon, instead of the usual 2. They can also receive sword enchantments on an enchanting table and break cobwebs at the same speed as swords."
+    }
+}

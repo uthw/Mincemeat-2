@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Oh The Biomes We've Gone Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "Lush caves always generate under lush stacks."
+    }
+}

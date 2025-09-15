@@ -5,6 +5,6 @@
         "color": "red"
     },
     "tip": {
-        "text": "Don't disregard enchanting your armor with Protection. Wearing full prot 4 diamond armor blocks 85.5% of damage, instead of 62.3% when unenchanted. That's a huge difference!"
+        "text": "Don't disregard enchanting your armor with Protection. An attack that originally does 20 damage is reduced to 7 with unenchanted diamond armor, but only 4 with full prot 4. That's a huge difference!"
     }
 }

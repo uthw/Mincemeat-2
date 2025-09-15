@@ -2,7 +2,7 @@
     "title": {
         "text": "Tips Tip",
         "bold": true,
-        "color": "golden"
+        "color": "gold"
     },
     "tip": {
         "text": "If you delete all the tips I added, the Tips mod will show a fallback tip instead of crashing. The fallback tip is not very interesting and isn't worth deleting all my tips over."

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "For some reason, the only ocean biome without a deep variant is Warm Ocean. Even weirder, deep warm oceans were added to the game in 1.13 but removed in 1.18."
+    }
+}
