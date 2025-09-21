@@ -1389,7 +1389,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "create:item_drain" },
             "minecraft:iron_bars",
-            "famersdelight:canvas",
+            "farmersdelight:canvas",
         ],
         [{ output: "create:spout" }, "minecraft:dried_kelp", "quark:chute"],
         [
