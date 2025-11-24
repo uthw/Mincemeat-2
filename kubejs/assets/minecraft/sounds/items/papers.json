@@ -1,0 +1,17 @@
+{
+    "keys": [
+        "minecraft:filled_map",
+        "minecraft:map",
+        "minecraft:paper",
+        "exposure:photograph",
+        "alexscaves:cave_map",
+        "supplementaries:slice_map",
+        "irons_spellbooks:scroll",
+        "waystones:return_scroll",
+        "waystones:warp_scroll",
+        "waystones:bound_scroll",
+        "kubejs:grave_scroll",
+        "tetra:scroll_rolled"
+    ],
+    "soundEvent": "minecraft:item.book.page_turn"
+}

@@ -1,0 +1,11 @@
+{
+    "keys": [
+        "minecraft:bone",
+        "minecraft:bone_meal",
+        "alexscaves:heavy_bone",
+        "alexsmobs:fish_bones",
+        "aquaculture:fish_bones",
+        "aquamirae:sharp_bones"
+    ],
+    "soundEvent": "minecraft:entity.skeleton.ambient"
+}

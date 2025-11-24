@@ -1,0 +1,6 @@
+{
+    "keys": ["minecraft:enchanted_book", "minecraft:experience_bottle", "quark:ancient_tome"],
+    "pitch": 0.01,
+    "soundEvent": "minecraft:block.end_portal_frame.fill",
+    "volume": 0.2
+}

@@ -1,0 +1,20 @@
+{
+    "keys": [
+        "#c:foods/cooked_fishes",
+        "#c:foods/cooked_meats",
+        "#c:foods/raw_fishes",
+        "#c:foods/raw_meats",
+        "#forge:foods/meat",
+        "#forge:foods/meat/cooked",
+        "#forge:meat/foods/cooked",
+        "#forge:foods/meat",
+        "#forge:foods/meat/raw",
+        "#forge:cooked_fishes",
+        "#forge:foods/meat/raw",
+        "#minecraft:fishes",
+        "#forge:raw_fishes"
+    ],
+    "pitch": 1.8,
+    "soundEvent": "minecraft:entity.puffer_fish.flop",
+    "volume": 0.2
+}

@@ -1,0 +1,11 @@
+{
+    "keys": [
+        "minecraft:disc_fragment_5",
+        "#minecraft:decorated_pot_sherds",
+        "alexscaves:disc_fragment_fusion",
+        "alexscaves:disc_fragment_tasty",
+        "idas:disc_fragment_slither",
+        "upgrade_aquatic:disc_fragment_atlantis"
+    ],
+    "soundEvent": "minecraft:block.decorated_pot.step"
+}

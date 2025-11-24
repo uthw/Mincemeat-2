@@ -1,0 +1,4 @@
+{
+    "keys": ["minecraft:fishing_rod", "#forge:tools/fishing_rods"],
+    "soundEvent": "minecraft:block.pointed_dripstone.drip_water_into_cauldron"
+}
