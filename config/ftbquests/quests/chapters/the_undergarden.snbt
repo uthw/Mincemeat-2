@@ -121,20 +121,14 @@
 				""
 				"These friendly critters want to travel the dimensions, so they allow you to pick them up and wear them as helmets. "
 				""
-				"If you have added a dynamic lighting mod or are playing with shaders, they can light up your surroundings."
+				"They can also light up your surroundings."
 			]
 			id: "60BDEF19ED239B54"
 			invisible: true
 			tasks: [{
-				icon: {
-					Count: 1
-					id: "alexsmobs:tab_icon"
-					tag: {
-						DisplayEntityType: "undergarden:gronglet"
-					}
-				}
+				icon: "undergarden:gronglet"
 				id: "5EDB379282A37CC2"
-				observe_type: 5
+				observe_type: 0
 				timer: 0L
 				title: "Gronglet"
 				to_observe: "undergarden:gronglet"
