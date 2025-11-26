@@ -1,4 +1,4 @@
 {
   "debug": false,
-  "trim_registry_mismatch_message": "§b[All The Trims] §cTrim Registry Mismatch. §rPlease ensure that the client and server have the same mods with the same versions."
+  "trim_registry_mismatch_message": "Â§b[All The Trims] Â§cTrim Registry Mismatch. Â§rPlease ensure that the client and server have the same mods with the same versions."
 }

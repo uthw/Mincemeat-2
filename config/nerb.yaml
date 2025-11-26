@@ -1,3 +1,4 @@
+!!it.hurts.octostudios.nerb.common.config.NERBConfig
 # Recipe Book mode:
 # DISABLED: Removes the recipe book button with its default functionality from your inventory.
 # ENABLED: Retains the recipe book button in your inventory, but its default functionality remains disabled.
