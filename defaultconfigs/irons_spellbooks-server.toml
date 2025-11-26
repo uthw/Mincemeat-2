@@ -606,7 +606,7 @@ priestHouseWeight = 4
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:greater_heal"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:holy"
 		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
