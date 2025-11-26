@@ -1517,13 +1517,19 @@ ServerEvents.recipes((event) => {
         [
             { output: "#exposure:film_rolls" },
             "minecraft:dried_kelp",
-            "immersiveengineering:hemp_fabric"
+            "immersiveengineering:hemp_fabric",
         ],
+        [{}, "reliquary:zombie_heart", "eidolon:zombie_heart"],
         [
-            {},
-            "reliquary:zombie_heart",
-            "eidolon:zombie_heart"
-        ]
+            { output: "thermal:stuffed_pumpkin" },
+            "thermal:bell_pepper",
+            "delightful:nut_butter_bottle",
+        ],
+        // [
+        //     { output: "thermal:machine_press" },
+        //     "thermal:constantan_gear",
+        //     "immersiveengineering:component_iron"
+        // ]
         //     // replace all aluminum with zinc, just for the sake of not adding too many ores
         //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
         //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
