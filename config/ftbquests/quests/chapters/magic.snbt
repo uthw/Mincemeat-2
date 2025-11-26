@@ -4455,7 +4455,6 @@
 				"Once you're done setting up and putting something like coal on the braziers, it's time to move on to the next quest."
 			]
 			id: "7D0E6CC8E50E7DC5"
-			optional: true
 			shape: "octagon"
 			size: 1.5d
 			tasks: [
