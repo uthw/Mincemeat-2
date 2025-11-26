@@ -38,7 +38,7 @@ primitiveClubRandomExtraStunTime = 150
 # Whether to revert the End Story back to its original form when beating Minecraft.
 # Alex's Caves replaces this story with their own. This config puts it back to normal if enabled.
 #
-restoreEndStory = false
+restoreEndStory = true
 #----------------------------------
 #
 # If enabled, this config makes the Compendium have all biomes and their info unlocked immediately on log-in.
