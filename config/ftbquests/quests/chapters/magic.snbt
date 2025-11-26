@@ -20,7 +20,7 @@
 		}
 	}
 	id: "151DB3F06C437377"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -2846,11 +2846,41 @@
 					type: "observation"
 				}
 				{
-					advancement: "irons_spellbooks:irons_spellbooks/spell_book_equip"
-					criterion: ""
-					id: "3EC21D93DF5EA2B6"
-					title: "Obtain a Spell Book"
-					type: "advancement"
+					id: "09779ACC591CA3E5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "irons_spellbooks:copper_spell_book"
+									tag: {
+										ISB_Spells: {
+											data: [ ]
+											maxSpells: 5
+											mustEquip: 1b
+											spellWheel: 1b
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "irons_spellbooks:iron_spell_book"
+									tag: {
+										ISB_Spells: {
+											data: [ ]
+											maxSpells: 6
+											mustEquip: 1b
+											spellWheel: 1b
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "Basic Spell Book"
+					type: "item"
 				}
 			]
 			title: "Become a Wizard"
@@ -4425,7 +4455,6 @@
 				"Once you're done setting up and putting something like coal on the braziers, it's time to move on to the next quest."
 			]
 			id: "7D0E6CC8E50E7DC5"
-			invisible: true
 			optional: true
 			shape: "octagon"
 			size: 1.5d
