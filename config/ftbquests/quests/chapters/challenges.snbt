@@ -2508,7 +2508,7 @@
 							value: "spartanweaponry:halberds"
 						}
 					}
-					title: "Any #spartanweaponry:halberds"
+					title: "Halberd"
 					type: "item"
 				}
 				{
@@ -2520,7 +2520,7 @@
 							value: "spartanweaponry:pikes"
 						}
 					}
-					title: "Any #spartanweaponry:pikes"
+					title: "Pike"
 					type: "item"
 				}
 				{
@@ -2532,7 +2532,7 @@
 							value: "spartanweaponry:battleaxes"
 						}
 					}
-					title: "Any #spartanweaponry:battleaxes"
+					title: "Battleaxe"
 					type: "item"
 				}
 				{
@@ -2544,7 +2544,7 @@
 							value: "spartanweaponry:quarterstaves"
 						}
 					}
-					title: "Any #spartanweaponry:quarterstaves"
+					title: "Quarterstaff"
 					type: "item"
 				}
 				{
@@ -2556,7 +2556,7 @@
 							value: "spartanweaponry:glaives"
 						}
 					}
-					title: "Any #spartanweaponry:glaives"
+					title: "Glaive"
 					type: "item"
 				}
 				{
@@ -2568,7 +2568,7 @@
 							value: "spartanweaponry:longswords"
 						}
 					}
-					title: "Any #spartanweaponry:longswords"
+					title: "Longsword"
 					type: "item"
 				}
 				{
@@ -2580,7 +2580,7 @@
 							value: "spartanweaponry:katanas"
 						}
 					}
-					title: "Any #spartanweaponry:katanas"
+					title: "Katana"
 					type: "item"
 				}
 				{
@@ -2592,7 +2592,7 @@
 							value: "spartanweaponry:greatswords"
 						}
 					}
-					title: "Any #spartanweaponry:greatswords"
+					title: "Greatsword"
 					type: "item"
 				}
 				{
@@ -2604,7 +2604,7 @@
 							value: "spartanweaponry:warhammers"
 						}
 					}
-					title: "Any #spartanweaponry:warhammers"
+					title: "Warhammer"
 					type: "item"
 				}
 			]
@@ -2624,7 +2624,7 @@
 							value: "spartanweaponry:daggers"
 						}
 					}
-					title: "Any #spartanweaponry:daggers"
+					title: "Dagger"
 					type: "item"
 				}
 				{
@@ -2636,7 +2636,7 @@
 							value: "spartanweaponry:sabers"
 						}
 					}
-					title: "Any #spartanweaponry:sabers"
+					title: "Saber"
 					type: "item"
 				}
 				{
@@ -2648,7 +2648,7 @@
 							value: "spartanweaponry:rapiers"
 						}
 					}
-					title: "Any #spartanweaponry:rapiers"
+					title: "Rapier"
 					type: "item"
 				}
 				{
@@ -2660,7 +2660,7 @@
 							value: "spartanweaponry:battle_hammers"
 						}
 					}
-					title: "Any #spartanweaponry:battle_hammers"
+					title: "Battle Hammer"
 					type: "item"
 				}
 				{
@@ -2672,7 +2672,7 @@
 							value: "spartanweaponry:spears"
 						}
 					}
-					title: "Any #spartanweaponry:spears"
+					title: "Spear"
 					type: "item"
 				}
 				{
@@ -2684,7 +2684,7 @@
 							value: "spartanweaponry:boomerangs"
 						}
 					}
-					title: "Any #spartanweaponry:boomerangs"
+					title: "Boomerang"
 					type: "item"
 				}
 				{
@@ -2696,7 +2696,7 @@
 							value: "spartanweaponry:javelins"
 						}
 					}
-					title: "Any #spartanweaponry:javelins"
+					title: "Javelin"
 					type: "item"
 				}
 				{
@@ -2708,7 +2708,7 @@
 							value: "spartanweaponry:tomahawks"
 						}
 					}
-					title: "Any #spartanweaponry:tomahawks"
+					title: "Tomahawk"
 					type: "item"
 				}
 				{
@@ -2720,7 +2720,7 @@
 							value: "spartanweaponry:throwing_knives"
 						}
 					}
-					title: "Any #spartanweaponry:throwing_knives"
+					title: "Throwing Knife"
 					type: "item"
 				}
 				{
@@ -2732,7 +2732,7 @@
 							value: "spartanweaponry:scythes"
 						}
 					}
-					title: "Any #spartanweaponry:scythes"
+					title: "Scythe"
 					type: "item"
 				}
 				{
@@ -2744,7 +2744,7 @@
 							value: "spartanweaponry:flanged_maces"
 						}
 					}
-					title: "Any #spartanweaponry:flanged_maces"
+					title: "Flanged Mace"
 					type: "item"
 				}
 				{
@@ -2756,7 +2756,7 @@
 							value: "spartanweaponry:lances"
 						}
 					}
-					title: "Any #spartanweaponry:lances"
+					title: "Lance"
 					type: "item"
 				}
 			]
@@ -3516,6 +3516,7 @@
 			subtitle: "Mince Scholar"
 			tasks: [
 				{
+					disable_toast: true
 					id: "45A36415344B0BD5"
 					item: {
 						Count: 1
@@ -3536,7 +3537,7 @@
 							]
 						}
 					}
-					title: "Normal Book shelves"
+					title: "Bookshelf"
 					type: "item"
 				}
 				{
@@ -6899,27 +6900,6 @@
 							ISB_Spells: {
 								data: [{
 									id: "irons_spellbooks:guiding_bolt"
-									index: 0
-								}]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 0b
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "521699062698CB52"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:scroll"
-						tag: {
-							ISB_Spells: {
-								data: [{
-									id: "irons_spellbooks:greater_heal"
 									index: 0
 								}]
 								maxSpells: 1
