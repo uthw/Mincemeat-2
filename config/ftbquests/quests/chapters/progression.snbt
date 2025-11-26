@@ -419,6 +419,8 @@
 			dependencies: ["1FFE9767A7118551"]
 			icon: "computercraft:computer_normal"
 			id: "6C9C8C1539414FA3"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "009FF2DF9FA55C80"
 				title: "CC: Tweaked and Advanced Peripherals"

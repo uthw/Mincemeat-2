@@ -125,23 +125,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5060CB512B950FD4"]
-			disable_toast: true
-			icon: "computercraft:monitor_advanced"
-			id: "502361D1083285AE"
-			invisible: true
-			tasks: [{
-				icon: "computercraft:monitor_advanced"
-				id: "3C3768D86B133DB0"
-				stat: "minecraft:play_time"
-				title: "Computer Programming"
-				type: "stat"
-				value: 1
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
 			dependencies: ["6C70C966E5655A38"]
 			disable_toast: true
 			id: "223F75E00097BEE2"

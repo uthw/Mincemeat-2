@@ -1519,12 +1519,20 @@
 				""
 				"The &6motor&r can transfer its &6electricity&r to adjacent blocks."
 			]
+			icon: "create_new_age:generator_coil"
 			id: "067561E11F848EBB"
 			tasks: [
 				{
 					count: 24L
 					id: "4339B9E982949828"
-					item: "create_new_age:magnetite_block"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create_new_age:magnet"
+						}
+					}
+					title: "Magnetic Block"
 					type: "item"
 				}
 				{
@@ -1539,7 +1547,7 @@
 					type: "item"
 				}
 			]
-			title: "Electricity"
+			title: "Electricity (Create)"
 			x: -1.5d
 			y: -14.0d
 		}
@@ -2134,20 +2142,6 @@
 		}
 		{
 			dependencies: ["1495D2307BF91921"]
-			id: "35FEED7EF4C10A3E"
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "Ready for computer science!"
-			tasks: [{
-				id: "5EBD89A7B171962D"
-				item: "computercraft:computer_normal"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -9.75d
-		}
-		{
-			dependencies: ["1495D2307BF91921"]
 			description: ["Allows levitation using compressed air from a backtank."]
 			id: "7D674D8DA6BF2107"
 			tasks: [{
@@ -2340,7 +2334,7 @@
 					type: "item"
 				}
 			]
-			title: "Electricity"
+			title: "Electricity (Immersive Engineering)"
 			x: 7.5d
 			y: -7.0d
 		}

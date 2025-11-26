@@ -8829,11 +8829,6 @@
 					type: "item"
 				}
 				{
-					id: "301362A216F73DCD"
-					item: "computercraft:computer_advanced"
-					type: "item"
-				}
-				{
 					id: "51A2E28C3330091F"
 					item: "betterarcheology:archeology_table"
 					type: "item"
@@ -11685,6 +11680,7 @@
 							title: "Nether"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{

@@ -2170,15 +2170,6 @@
 						}
 						"eccentrictome:is_tome": 1b
 						"eccentrictome:mods": {
-							advancedperipherals: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "advancedperipherals:manual"
-									}
-								}
-							}
 							aether: {
 								0: {
 									Count: 1b

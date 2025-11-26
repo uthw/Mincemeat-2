@@ -104,10 +104,6 @@ ServerEvents.recipes((event) => {
             ["forbidden_arcanus:cloth", "#forge:dyes/red", "#forge:dyes/blue"],
         ],
         [
-            "4x computercraft:cable",
-            ["4x prettypipes:pipe", "createaddition:copper_wire"],
-        ],
-        [
             "4x forbidden_arcanus:arcane_bone_meal",
             [
                 "forbidden_arcanus:arcane_crystal_dust",

@@ -49,7 +49,6 @@ ServerEvents.recipes((event) => {
         "enderio:sag_mill",
         "smallships:cannon",
         "ars_nouveau:basic_spell_turret",
-        "computercraft:cable",
         "iceandfire:ghost_sword",
         "pneumaticcraft:fluid_mixer",
         "pneumaticcraft:manual_compressor",
@@ -155,7 +154,10 @@ ServerEvents.recipes((event) => {
         "apotheosis:augmenting_table",
         "apotheosis:sigil_of_enhancement",
         "celestisynth:celestial_spell_book",
-        "cataclysm:storm_eye"
+        "cataclysm:storm_eye",
+        "industrialforegoing:iron_gear",
+        "industrialforegoing:gold_gear",
+        "industrialforegoing:diamond_gear",
     ];
 
     toRemove.forEach((recipeId) => {
