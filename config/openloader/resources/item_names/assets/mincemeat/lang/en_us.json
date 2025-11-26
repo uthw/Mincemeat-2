@@ -140,5 +140,6 @@
     "effect.xaerominimap.no_minimap.description": "No access to the minimap in this area.",
     "effect.xaeroworldmap.no_world_map.description": "No access to the world map in this area.",
     "effect.cataclysm.wetness.description": "Causes Scylla's lightning attacks to deal lethal damage.",
-    "effect.dungeonnowloading.vertex_transmission.description": "Deals two damage every half second and forms connections with nearby Vertex Arrows."
+    "effect.dungeonnowloading.vertex_transmission.description": "Deals two damage every half second and forms connections with nearby Vertex Arrows.",
+    "subtitles.block.generic.fall": "Falling"
 }
