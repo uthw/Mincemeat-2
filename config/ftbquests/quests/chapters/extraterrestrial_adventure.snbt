@@ -1146,8 +1146,8 @@
 				}
 			]
 			title: "Nether Gauntlet"
-			x: 7.0d
-			y: -4.0d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5B32D0F375182CA7"]
@@ -1727,24 +1727,33 @@
 			dependencies: ["086E8054D516AFF4"]
 			description: ["The Nether has new biomes waiting to be discovered."]
 			id: "62129193C48A0C03"
-			subtitle: "Just this one so far"
-			tasks: [{
-				biome: "netherexp:black_ice_glaciers"
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			subtitle: "Just these two so far"
+			tasks: [
+				{
+					biome: "netherexp:black_ice_glaciers"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "netherexp:black_ice"
 					}
-					id: "netherexp:black_ice"
+					id: "37D75C447903D70A"
+					title: "Black Ice Glaciers"
+					type: "biome"
 				}
-				id: "37D75C447903D70A"
-				title: "Black Ice Glaciers"
-				type: "biome"
-			}]
+				{
+					biome: "infernalexp:glowstone_canyon"
+					icon: "minecraft:glowstone"
+					id: "4BD3FC8770909250"
+					title: "Glowstone Canyon"
+					type: "biome"
+				}
+			]
 			title: "Modded Nether Biomes"
-			x: 8.5d
+			x: 9.0d
 			y: -6.0d
 		}
 		{
@@ -2134,8 +2143,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.5d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["20B6859C7A0C1D09"]
@@ -2250,6 +2259,71 @@
 			title: "Echo Shrine"
 			x: 3.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"The Citadel (make sure you're not in the Ruined Citadel of a similar size also found in this dimension) is a massive library with multiple levels. It will be essential for anyone wishing to call themselves a true wizard."
+				""
+				"You must really take a moment and appreciate the scale of this place, and then judge its maintainers for how poorly the books are organized. How am I supposed to find &oA is for Azuth, and other Gods&r here?!"
+				""
+				"Oh, also, mind the occasional suit of reanimated Netherite armor."
+			]
+			id: "299A6D31CD9AF4B3"
+			tasks: [{
+				icon: "irons_spellbooks:cinderous_soul_rune"
+				id: "5BF9361721CDD328"
+				structure: "irons_spellbooks:citadel"
+				title: "Find a Citadel"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["299A6D31CD9AF4B3"]
+			description: ["Once you're done admiring the Citadel, craft yourself a Cinderous Soulcaller (you should have plenty of Cinder Essence by now) and make your way up to the top part of the structure, with the black glass dome. Right click this item to summon your next foe, Tyros."]
+			id: "25DBF3F3678D3A44"
+			tasks: [{
+				id: "0A2F7F1D1E14C00D"
+				item: "irons_spellbooks:cinderous_soulcaller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25DBF3F3678D3A44"]
+			id: "49E8090E1AA53E7F"
+			rewards: [
+				{
+					id: "4B1BD3569D87EA7E"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "60B4F39A7AF802F1"
+					item: "irons_restrictions:legendary_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "This boss has the longest name of any mob in Mincemeat"
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:decrepit_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60BD11C056E9DEFF"
+				title: "Echo of Tyros, First Flamebreaker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -3.5d
 		}
 	]
 	title: "Dimensional Adventure"
