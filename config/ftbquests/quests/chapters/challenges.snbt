@@ -5,7 +5,7 @@
 	group: "375E2D7D7633EF28"
 	icon: "reliquary:hero_medallion"
 	id: "4B9659AC523B2633"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -559,39 +559,10 @@
 		}
 		{
 			dependencies: [
-				"61D2C5A3FC8F44A1"
-				"4BD31FADA7878D76"
-				"0D66977831260595"
-				"605C72C696B771E8"
-				"52159C48546AC297"
-				"1B7423FBB75C42D0"
-				"4945AF7FAA48DC75"
-				"261D4DE4C30A96CB"
-				"0650B5D88757F417"
-				"59B5C63E1263F1E6"
-				"50BCA96B68DC3F4C"
-				"1778A8C70C9AAF26"
-				"209D685CAF24C693"
-				"3ED0A7786EE4E65E"
-				"7345C4871A148662"
-				"257AB50C0C09A72B"
-				"1BC439BFF1BA35D0"
-				"29170AF76939F173"
-				"30D11229AC209A87"
-				"1B0938943DF35AE8"
-				"1C1591DDBA16007B"
-				"1863D9499DCB0B39"
-				"4AE768A427A14342"
-				"149585B5531D21E0"
-				"2540D912E2DC8B4E"
-				"2217237359C0CB91"
-				"095F8932D99F2A08"
 				"787807566EEFADE1"
 				"4ADC083229035C40"
 				"1B793CD69BCD02FD"
 				"269CF108719CCF44"
-				"0711C7D4A09F3C12"
-				"7DF69A5D72B6E677"
 				"3AA03B67C0184E0B"
 				"2D498CC9F5993FB0"
 			]
@@ -3950,6 +3921,8 @@
 				"Clash of Duality \"Ouros\": Defeat the Fairkeepers, but kill Boros first"
 				""
 				"Clash of Duality \"Pythonic Overdrive\": Crafting recipe"
+				""
+				"Whispers of Ice: Trade with Cryomancer"
 				"{@pagebreak}"
 				"Most discs can also drop from hostile mobs with backpacks."
 			]
@@ -4452,6 +4425,21 @@
 				{
 					id: "00707EA889E22215"
 					item: "dungeonnowloading:music_disc_clash_of_duality_pythonic_overdrive"
+					type: "item"
+				}
+				{
+					id: "5F48C035BD6CE5D1"
+					item: "irons_spellbooks:music_disc_whispers_of_ice"
+					type: "item"
+				}
+				{
+					id: "23F745B57A6DA5F0"
+					item: "infernalexp:music_disc_flush"
+					type: "item"
+				}
+				{
+					id: "3F66E0747E5D11DC"
+					item: "caverns_and_chasms:music_disc_analogue"
 					type: "item"
 				}
 			]
@@ -8920,15 +8908,6 @@
 					}
 					type: "item"
 				}
-				{
-					disable_toast: true
-					icon: "irons_spellbooks:invisibility_ring"
-					id: "5120E0F83B3DE88A"
-					stat: "minecraft:play_time"
-					title: "Automatically Completed"
-					type: "stat"
-					value: 1
-				}
 			]
 			title: "Workplace Union"
 			x: 12.5d
@@ -8943,15 +8922,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "waystones:waystone"
-				}
+				icon: "waystones:waystone"
 				id: "34056EC1D67D29E8"
 				stat: "waystones:waystone_activated"
 				type: "stat"
@@ -12458,6 +12429,59 @@
 			title: "Stronghold Loremaster"
 			x: -1.5d
 			y: 0.5d
+		}
+		{
+			id: "5EEDD0A06B50F306"
+			tasks: [
+				{
+					id: "17126BB001974CAC"
+					item: "starcatcher:aurora"
+					type: "item"
+				}
+				{
+					id: "13AE859DF46C0EA3"
+					item: "starcatcher:vesani"
+					type: "item"
+				}
+				{
+					id: "2BB56E32465B0336"
+					item: "starcatcher:boreal"
+					type: "item"
+				}
+				{
+					id: "59D08364DB12AE16"
+					item: "starcatcher:azure_crystalback_minnow"
+					type: "item"
+				}
+				{
+					id: "67B4C47A4C79B016"
+					item: "starcatcher:joel"
+					type: "item"
+				}
+				{
+					id: "2C0C74D30E116152"
+					item: "starcatcher:shroomfish"
+					type: "item"
+				}
+				{
+					id: "486D7CF5C48B38DE"
+					item: "starcatcher:lush_pike"
+					type: "item"
+				}
+				{
+					id: "4D44E1BD09C0327D"
+					item: "starcatcher:ward"
+					type: "item"
+				}
+				{
+					id: "6C1A322DBBEA46D8"
+					item: "starcatcher:cerberay"
+					type: "item"
+				}
+			]
+			title: "Master Angler"
+			x: 14.0d
+			y: 0.0d
 		}
 	]
 	title: "Challenges"
