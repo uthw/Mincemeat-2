@@ -75,7 +75,7 @@
 					type: "command"
 				}
 				{
-					id: "5946E28CEA7BFE5D"
+					id: "2C21BE97B0A66E37"
 					item: {
 						Count: 1
 						id: "eccentrictome:tome"
@@ -177,6 +177,15 @@
 										}
 									}
 								}
+								lightmanscurrency: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "lightmanscurrency:trader_guide"
+										}
+									}
+								}
 								littlelogistics: {
 									0: {
 										Count: 1b
@@ -235,6 +244,12 @@
 									0: {
 										Count: 1b
 										id: "solcarrot:food_book"
+									}
+								}
+								starcatcher: {
+									0: {
+										Count: 1b
+										id: "starcatcher:starcatcher_guide"
 									}
 								}
 								thermal: {
@@ -770,6 +785,8 @@
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
 			description: [
+				"&7Note: currently, EMI is not in the modpack due to performance concerns. These shortcuts still work."
+				""
 				"When you open your inventory, you're met with a &dbunch of item icons&r on the right and a &dsearch bar&r on the bottom."
 				""
 				"This is &9EMI&r, this modpack's recipe browser! &9EMI&r is quite similar to JEI."
@@ -778,10 +795,10 @@
 				"&2CTRL + O&r: hide EMI."
 				"&2r or Mouse 1&r: view recipes for an item."
 				"&2u or Mouse 2&r: view recipes an item is used in."
-				"&2CTRL + R&r: view recipe tree of an item."
+				"&m&2CTRL + R&r&m: view recipe tree of an item."
 				""
 				"&2@&r: search for items from a certain mod. Example: &a@alexscaves&r"
-				"&2#&r: search for items with a specific tag. Example: &a#ores/nickel&r. &lDifferent from JEI&r!"
+				"&2$&r: search for items with a specific tag. Example: &a$ores/nickel&r."
 				""
 				"-----"
 				""
@@ -794,8 +811,8 @@
 				title: "EMI (JEI)"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["50D43AFA6402629F"]
@@ -892,7 +909,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -1125,7 +1142,7 @@
 				type: "item"
 			}]
 			title: "Color Coding"
-			x: 3.5d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -1166,7 +1183,7 @@
 			}]
 			title: "Upgrade"
 			x: 5.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["57CC360D12424B1C"]
@@ -1195,72 +1212,6 @@
 			}]
 			x: -7.0d
 			y: -7.0d
-		}
-		{
-			dependencies: ["368309757EB6EC56"]
-			id: "54F75CF16EC2305D"
-			tasks: [{
-				id: "2E2DBB720917E034"
-				item: "aquaculture:sushi"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["368309757EB6EC56"]
-			description: ["The &btackle box&r allows you to upgrade your &6metal fishing rods&r with hooks, lines, bobbers, and bait."]
-			id: "693F2D3F38A6814F"
-			tasks: [
-				{
-					id: "50D44289A64B4076"
-					item: "aquaculture:tackle_box"
-					type: "item"
-				}
-				{
-					id: "54981C19BA8EF100"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "aquaculture:iron_fishing_rod"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "aquaculture:gold_fishing_rod"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "aquaculture:diamond_fishing_rod"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "aquaculture:neptunium_fishing_rod"
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Advanced Fishing"
-			x: -3.0d
-			y: -7.5d
 		}
 		{
 			dependencies: ["7C2D35E29A7FF6A2"]
@@ -1312,20 +1263,20 @@
 			]
 			id: "78CFC81068655538"
 			tasks: [{
-				id: "695EB1C9CE9DD250"
+				id: "51F06C3B33D3177A"
 				item: {
 					Count: 1
-					id: "sophisticatedstorage:limited_barrel_1"
+					id: "itemfilters:id_regex"
 					tag: {
-						accentColor: 16383998
-						mainColor: 16383998
+						value: "sophisticatedstorage:limited.*barrel"
 					}
 				}
+				title: "Limited Barrel"
 				type: "item"
 			}]
 			title: "Limited Barrels"
-			x: 4.5d
-			y: 0.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4EB10737C5B7CBAE"]
@@ -1345,7 +1296,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 0.5d
 		}
 		{
@@ -1366,7 +1317,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 0.5d
 		}
 		{
@@ -1402,7 +1353,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -1451,17 +1402,578 @@
 		}
 		{
 			dependencies: ["16C996E71E9BABC3"]
-			description: [
-				"You can level up and combine Relics at this table."
-				""
-				"The table is made using Aurum wood, which can be found in biomes such as Flower Forests."
-				""
-				"Make sure you are trying to modify your relics and not artifacts (check the mod name)."
-			]
+			description: ["Description forthcoming."]
 			id: "7B3D2B0D239513D7"
 			tasks: [{
-				id: "67326D0E36575DB0"
-				item: "relics:researching_table"
+				id: "53CC4BF62895BCC5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "relics:spatial_sign"
+								tag: {
+									abilities: {
+										seal: {
+											points: 0
+											stats: {
+												time: 3.41543d
+											}
+										}
+									}
+									pos: "[\"2301.8,101.9,4195.6\"]"
+									world: "minecraft:overworld"
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:spore_sack"
+								tag: {
+									abilities: {
+										buffer: {
+											points: 0
+											stats: {
+												capacity: 4.70895d
+												chance: 0.06438d
+											}
+										}
+										explosion: {
+											points: 0
+											stats: {
+												size: 0.1859d
+											}
+										}
+										multiplying: {
+											points: 0
+											stats: {
+												amount: 0.09912d
+												chance: 0.09373d
+												size: 0.0616d
+											}
+										}
+										spore: {
+											points: 0
+											stats: {
+												cooldown: 10.08859d
+												damage: 0.34857d
+												duration: 2.18262d
+												size: 0.25808d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:space_dissector"
+								tag: {
+									abilities: {
+										dissection: {
+											points: 0
+											stats: {
+												distance: 23.93438d
+												time: 7.50116d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:shadow_glaive"
+								tag: {
+									abilities: {
+										glaive: {
+											points: 0
+											stats: {
+												bounces: 3.92399d
+												damage: 4.23087d
+												radius: 3.22576d
+												recharge: 17.57797d
+											}
+										}
+										saw: {
+											points: 0
+											stats: {
+												damage: 1.40975d
+												speed: 19.98973d
+											}
+										}
+									}
+									charges: 8
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:roller_skates"
+								tag: {
+									abilities: {
+										skating: {
+											points: 0
+											stats: {
+												duration: 20.69892d
+												speed: 0.00185d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:reflection_necklace"
+								tag: {
+									abilities: {
+										explode: {
+											points: 0
+											stats: {
+												capacity: 43.28597d
+												damage: 0.46829d
+												stun: 0.24228d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:midnight_robe"
+								tag: {
+									abilities: {
+										backstab: {
+											points: 0
+											stats: {
+												damage: 1.47511d
+												distance: 18.2295d
+											}
+										}
+										vanish: {
+											points: 0
+											stats: {
+												light: 1.6939d
+												speed: 0.10715d
+											}
+											temp: {
+												ticking: 1b
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:magic_mirror"
+								tag: {
+									abilities: {
+										teleport: {
+											points: 0
+											stats: {
+												cooldown: 108.67779d
+												distance: 945.77628d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:leather_belt"
+								tag: {
+									abilities: {
+										slots: {
+											points: 0
+											stats: {
+												charm: 2.83784d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:jellyfish_necklace"
+								tag: {
+									abilities: {
+										paralysis: {
+											points: 0
+											stats: {
+												duration: 0.55916d
+											}
+										}
+										shock: {
+											points: 0
+											stats: {
+												damage: 1.07458d
+											}
+											temp: {
+												ticking: 1b
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:ice_breaker"
+								tag: {
+									abilities: {
+										impact: {
+											points: 0
+											stats: {
+												damage: 4.26376d
+												size: 3.31058d
+											}
+										}
+										sustainability: {
+											points: 0
+											stats: {
+												modifier: 0.6486d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:bastion_ring"
+								tag: {
+									abilities: {
+										trade: {
+											points: 0
+											stats: {
+												rolls: 0.85323d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:chorus_inhibitor"
+								tag: {
+									abilities: {
+										blink: {
+											points: 0
+											stats: {
+												cooldown: 8.35804d
+												distance: 31.79309d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:blazing_flask"
+								tag: {
+									abilities: {
+										bonfire: {
+											points: 0
+											stats: {
+												height: 3.18126d
+												speed: 0.03962d
+												step: 1.08258d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:drowned_belt"
+								tag: {
+									abilities: {
+										anchor: {
+											points: 0
+											stats: {
+												sinking: 3.93258d
+												slowness: 0.3152d
+											}
+										}
+										pressure: {
+											points: 0
+											stats: {
+												damage: 1.96402d
+											}
+										}
+										riptide: {
+											points: 0
+											stats: {
+												cooldown: 9.34109d
+											}
+										}
+										slots: {
+											points: 0
+											stats: {
+												charm: 0.96132d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:elytra_booster"
+								tag: {
+									abilities: {
+										boost: {
+											points: 0
+											stats: {
+												capacity: 93.12717d
+												speed: 1.10301d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:enders_hand"
+								tag: {
+									abilities: {
+										swap: {
+											points: 0
+											stats: {
+												distance: 19.20038d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:holy_locket"
+								tag: {
+									abilities: {
+										belief: {
+											points: 0
+											stats: {
+												amount: 0.20443d
+												capacity: 10.39721d
+												count: 1.71806d
+												radius: 3.75939d
+											}
+										}
+										blessing: {
+											points: 0
+											stats: {
+												consumption: 6.49483d
+											}
+											temp: {
+												ticking: 1b
+											}
+										}
+										repentance: {
+											points: 0
+											stats: {
+												damage: 0.11986d
+												radius: 4.08328d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:horse_flute"
+								tag: {
+									abilities: {
+										heal: {
+											points: 0
+											stats: {
+												amount: 0.06737d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:hunter_belt"
+								tag: {
+									abilities: {
+										slots: {
+											points: 0
+											stats: {
+												charm: 1.04347d
+											}
+										}
+										training: {
+											points: 0
+											stats: {
+												damage: 1.79067d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:magma_walker"
+								tag: {
+									abilities: {
+										pace: {
+											points: 0
+											stats: {
+												time: 28.29005d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:ice_skates"
+								tag: {
+									abilities: {
+										ram: {
+											points: 0
+											stats: {
+												damage: 0.23382d
+											}
+										}
+										skating: {
+											points: 0
+											stats: {
+												duration: 29.4279d
+												speed: 0.03127d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:rage_glove"
+								tag: {
+									abilities: {
+										phlebotomy: {
+											points: 0
+											stats: {
+												attack_speed: 0.00781d
+												heal: 1.2E-4d
+												movement_speed: 0.01376d
+											}
+										}
+										rage: {
+											points: 0
+											stats: {
+												dealt_damage: 0.03867d
+												duration: 3.87626d
+												incoming_damage: 0.03064d
+											}
+										}
+										spurt: {
+											points: 0
+											stats: {
+												cooldown: 19.62827d
+												damage: 0.12299d
+												distance: 6.84532d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:wool_mitten"
+								tag: {
+									abilities: {
+										mold: {
+											points: 0
+											stats: {
+												damage: 0.19107d
+												freeze: 1.0777d
+												size: 25.61991d
+												stun: 0.03546d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:amphibian_boot"
+								tag: {
+									abilities: {
+										gills: {
+											points: 0
+											stats: {
+												chance: 0.01148d
+											}
+										}
+										slipping: {
+											points: 0
+											stats: {
+												duration: 22.98379d
+												speed: 0.00631d
+											}
+										}
+										swimming: {
+											points: 0
+											stats: {
+												duration: 30.28529d
+												speed: 0.00651d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:aqua_walker"
+								tag: {
+									abilities: {
+										walking: {
+											points: 0
+											stats: {
+												time: 46.77425d
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "relics:arrow_quiver"
+								tag: {
+									abilities: {
+										agility: {
+											points: 0
+											stats: {
+												modifier: 1.0d
+											}
+										}
+										leap: {
+											points: 0
+											stats: {
+												cooldown: 14.68593d
+												duration: 4.97094d
+												multiplier: 0.37273d
+											}
+										}
+										rain: {
+											points: 0
+											stats: {
+												delay: 0.99939d
+												duration: 10.1357d
+												radius: 3.10345d
+											}
+										}
+										receptacle: {
+											points: 0
+											stats: {
+												slots: 4.50486d
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Relic"
 				type: "item"
 			}]
 			x: 1.0d
@@ -1488,8 +2000,8 @@
 				title: "Seven Curses"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["479B3130EB602E62"]
@@ -1785,8 +2297,8 @@
 				}
 			]
 			title: "Wasting Time"
-			x: 2.5d
-			y: 0.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3276690B1BAE040E"]
@@ -1798,8 +2310,8 @@
 				item: "darkutils:charm_sleep"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["649F0F57EC7E387E"]
@@ -1816,7 +2328,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1834,7 +2346,7 @@
 				item: "kubejs:grave_scroll"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -1859,7 +2371,7 @@
 			}]
 			title: "Neptune's Bounty"
 			x: -1.5d
-			y: -9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1980,8 +2492,8 @@
 				title: "Villager"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5D43A2BA54C9EC1C"]
@@ -2155,7 +2667,7 @@
 				value: 1
 			}]
 			title: "Die"
-			x: -3.5d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
@@ -2182,7 +2694,7 @@
 				}
 			]
 			x: -2.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6AAC671A5A3A8E24"]
@@ -2193,8 +2705,8 @@
 				item: "easy_villagers:trader"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["035DF30F0AC35C07"]
@@ -2228,8 +2740,8 @@
 				}
 			]
 			title: "Block-Size Villager Farms"
-			x: 2.0d
-			y: 2.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["78CFC81068655538"]
@@ -2252,8 +2764,8 @@
 				}
 			]
 			title: "Wandering Trader Begone"
-			x: 5.0d
-			y: 2.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["03B0D122AD821C0D"]
@@ -2279,74 +2791,6 @@
 			title: "Upgrade your Backpack"
 			x: 3.5d
 			y: -2.5d
-		}
-		{
-			dependencies: ["693F2D3F38A6814F"]
-			description: ["To be used with the Tackle Box."]
-			id: "61931D13565403DF"
-			tasks: [
-				{
-					id: "373320ECC3806D96"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "aquaculture:iron_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:gold_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:diamond_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:light_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:heavy_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:double_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:redstone_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:note_hook"
-								}
-								{
-									Count: 1b
-									id: "aquaculture:nether_star_hook"
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1F8E8CF91554E78A"
-					item: "aquaculture:fishing_line"
-					type: "item"
-				}
-				{
-					id: "0DE511EF6E2DB6BC"
-					item: "aquaculture:bobber"
-					type: "item"
-				}
-			]
-			title: "One of Each Fishing Augment"
-			x: -3.5d
-			y: -9.0d
 		}
 		{
 			dependencies: ["3571CB6136F6E3EB"]
@@ -2696,8 +3140,8 @@
 				type: "item"
 			}]
 			title: "Pet Bed"
-			x: 3.5d
-			y: 1.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B226922870DAAF2"]
@@ -2712,7 +3156,7 @@
 				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -2756,8 +3200,8 @@
 				}
 			]
 			title: "More Items from Domestication Innovation"
-			x: 6.0d
-			y: 2.5d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A6DBC786BCF967E"]
@@ -2860,7 +3304,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 1.0d
 		}
 		{
@@ -2966,7 +3410,7 @@
 				type: "stat"
 				value: 50
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 2.5d
 		}
 		{
@@ -3016,7 +3460,7 @@
 			}]
 			title: "Immersive Aircraft"
 			x: -1.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["479B3130EB602E62"]
@@ -3156,7 +3600,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -3399,6 +3843,295 @@
 			}]
 			x: -0.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["368309757EB6EC56"]
+			description: [
+				"This upgraded Fishing Rod has infinite durability and support for custom bobbers, bait, and hooks."
+				""
+				"Combining these together, you'll be able to catch more fish than permitted by your ordinary fishing rod. Just one issue: some fish may put up a fight!"
+				""
+				"When this happens, the fishing minigame will begin. On the left you'll see the fish you're about to reel in, and on the right is the crank. "
+				""
+				"Your goal is to hit the sweet spot as the handle overlaps with it, by left clicking or pressing space. Some fish have unique challenges, which are left for you to see!"
+				""
+				"{image:kubejs:item/fishing_minigame width:803 height:495 align:center fit:true}"
+				""
+				"That's not all though. There are special types of sweet spots, like the frozen one that you shouldn't click. We also have light blue ones that go away when you hit them, and golden ones that help you get treasure."
+			]
+			id: "77671975F4663BB3"
+			rewards: [{
+				id: "609C3F03612B51B2"
+				item: "starcatcher:starcatcher_guide"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F37321D0D6CDA7A"
+				item: "starcatcher:starcatcher_rod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50D43AFA6402629F"]
+			description: [
+				"I'm sure we're thinking the same thing right now. Minecraft is missing one thing, and that is the free market capitalism."
+				""
+				"Throughout the world (and these quests), you'll find coins. You can use coins in the Shop chapter to buy all sorts of things. I even violated the concept of scarcity so you can buy as many trinkets as you want."
+				""
+				"If you're on a server, you can also set up shops to buy and sell items to other players. But then, you'll have to accept these goods are scarce relative to supply and demand. Unless somebody decides to make a farm that endlessly creates that product, but that is impossible. This isn't Cookie Clicker!"
+			]
+			icon: "lightmanscurrency:coin_emerald"
+			id: "3A526671E42ED842"
+			tasks: [{
+				id: "74F5450E23DD18BA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "lightmanscurrency:coins"
+					}
+				}
+				title: "Any #lightmanscurrency:coins"
+				type: "item"
+			}]
+			title: "Coins"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A526671E42ED842"]
+			description: [
+				"This is an essential block if you're planning to do business, as it allows you to deposit to and withdraw from your back account."
+				""
+				"Also useful is the ability to convert your coins to lower or higher-value equivalents. For instance, if you have 1 Emerald Coin, you can use an ATM to turn that into 10 Gold Coins or 100 Iron Coins."
+			]
+			id: "093F58A21D224C89"
+			tasks: [{
+				id: "7B0D27F8DBFC6B78"
+				item: "lightmanscurrency:atm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A526671E42ED842"]
+			id: "73F17DC53DAE708F"
+			tasks: [{
+				id: "3945FC4B090A1996"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "lightmanscurrency:trader"
+					}
+				}
+				title: "Trading Station"
+				type: "item"
+			}]
+			title: "Trading Station"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A526671E42ED842"]
+			id: "5C7466CDEEA6E55E"
+			tasks: [{
+				id: "72DE4B68C11ABC2A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "lightmanscurrency:wallet"
+					}
+				}
+				title: "Wallet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77671975F4663BB3"]
+			description: ["You're not limited to the bobber and hook you used to craft your Starcatcher's Rod! Try some of these out!"]
+			id: "3559D5A5A3142AAA"
+			tasks: [
+				{
+					id: "4C353993B371FD5F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "starcatcher:steady_bobber"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:clear_bobber"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:aqua_bobber"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:vanilla_bobber"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Bobber"
+					type: "item"
+				}
+				{
+					id: "7935339A9960646E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "starcatcher:crystal_hook"
+								}
+								{
+									Count: 1b
+									id: "starcatcher:shiny_hook"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:gold_hook"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:mossy_hook"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:stone_hook"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:split_hook"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "starcatcher:heavy_hook"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Hook"
+					type: "item"
+				}
+				{
+					id: "5D9A1E75D9673543"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "starcatcher:baits"
+						}
+					}
+					title: "Bait"
+					type: "item"
+				}
+			]
+			title: "Geared-Out Fishing"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3559D5A5A3142AAA"]
+			description: ["Unlike Aquaculture, fishing is the only way of finding upgraded rods in Starcatcher. Most are rare fishing loot from their respective biomes. Can you find one?"]
+			id: "5813BB46E4D11CBC"
+			subtitle: "Address Me"
+			tasks: [{
+				id: "50CC3E55F94A24B6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "starcatcher:naturalist_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:iceborn_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:magmaforged_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:slimed_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:sharktooth_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:azure_crystal_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:good_old_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:bamboo_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:obsidian_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:alpha_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:boner_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:sky_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:lush_glowberry_rod"
+							}
+							{
+								Count: 1b
+								id: "starcatcher:humble_rod"
+							}
+						]
+					}
+				}
+				title: "Unique Fishing Rod"
+				type: "item"
+			}]
+			title: "Unique Fishing Rods"
+			x: -3.5d
+			y: -10.0d
 		}
 	]
 	title: "Getting Started"
