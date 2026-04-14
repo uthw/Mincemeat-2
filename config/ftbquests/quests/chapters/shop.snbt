@@ -618,6 +618,308 @@
 			x: 3.0d
 			y: -4.0d
 		}
+		{
+			can_repeat: true
+			description: ["You can also open the Controls and bind a key to open the quests, or use the button at the top left corner of the inventory menu."]
+			disable_toast: true
+			icon: "farmersdelight:minced_beef"
+			id: "01DBC3B178C589E7"
+			rewards: [{
+				id: "6A2F00926B605077"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				icon: "farmersdelight:minced_beef"
+				id: "7A9644623A439E81"
+				stat: "minecraft:play_time"
+				title: "Automatically Completed"
+				type: "stat"
+				value: 1
+			}]
+			title: "Redeem Quest Books"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"The Eccentric Tome contains (almost) every guide book in the game."
+				""
+				"These guides usually go into great depth on their mods' mechanics, making them good when quests aren't enough for you to learn what you need."
+				""
+				"Noteworthy is the Food Book, which tells you how many foods you have to eat to gain max HP."
+				""
+				"Also check out the Starcatcher's Guide, which acts as a completion list for all fish in the game and shows fish you can catch nearby."
+			]
+			disable_toast: true
+			icon: "berry_good:sweet_berry_mince"
+			id: "34710AB0D1387508"
+			rewards: [{
+				id: "65370CFB1F9E810F"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							actuallyadditions: {
+								0: {
+									Count: 1b
+									id: "actuallyadditions:booklet"
+								}
+							}
+							aether: {
+								0: {
+									Count: 1b
+									id: "aether:book_of_lore"
+								}
+							}
+							alexscavesexemplified: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "alexscavesexemplified:acewiki"
+									}
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							botania: {
+								0: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+							}
+							eidolon: {
+								0: {
+									Count: 1b
+									id: "eidolon:codex"
+								}
+							}
+							enderio: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "enderio:guide"
+									}
+								}
+							}
+							hexcasting: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
+									}
+								}
+							}
+							hexerei: {
+								0: {
+									Count: 1b
+									id: "hexerei:book_of_shadows"
+									tag: {
+										bookmarks: { }
+										chapter: 0
+										opened: 0b
+										page: 0
+									}
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+							lightmanscurrency: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "lightmanscurrency:trader_guide"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							minecells: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "minecells:minecells_guidebook"
+									}
+								}
+							}
+							modonomicon: {
+								0: {
+									Count: 1b
+									id: "modonomicon:modonomicon"
+									tag: {
+										"modonomicon:book_id": "theurgy:the_hermetica"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							occultism: {
+								0: {
+									Count: 1b
+									id: "occultism:dictionary_of_spirits"
+									tag: {
+										"modonomicon:book_id": "occultism:dictionary_of_spirits"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
+							starcatcher: {
+								0: {
+									Count: 1b
+									id: "starcatcher:starcatcher_guide"
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				icon: "alexsdelight:bison_mince"
+				id: "3483C0D10596557F"
+				stat: "minecraft:play_time"
+				title: "Automatically Completed"
+				type: "stat"
+				value: 1
+			}]
+			title: "Redeem Eccentric Tomes"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Tetra only gives you one holosphere, when you get the advancement for creating a workbench."
+				""
+				"This quest can be infinitely redeemed for holospheres, letting you get more in case you lose the original."
+			]
+			id: "77FDCD6CFBAC2CBA"
+			invisible: true
+			rewards: [{
+				id: "5F88B7DAC8B75AC7"
+				item: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				id: "03A24D92A08859B9"
+				title: "Redeem Holospheres"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
 	]
 	title: "Shop"
 }

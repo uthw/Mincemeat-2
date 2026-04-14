@@ -5,7 +5,7 @@
 	group: "375E2D7D7633EF28"
 	icon: "reliquary:hero_medallion"
 	id: "4B9659AC523B2633"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
