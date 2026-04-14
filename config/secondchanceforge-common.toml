@@ -44,7 +44,7 @@ secondChanceStalagmite = false
 usePercentConfig = true
 #Determines how much health the player must start with for 'Second Chance' to activate.
 #Range: 0.5 ~ 1.7976931348623157E308
-secondChanceActivationHealth = 13.5
+secondChanceActivationHealth = 12.0
 #Determines how much health the player should be left with after 'Second Chance' activates.
 #Range: 1.0 ~ 1.7976931348623157E308
 secondChanceHealthRemainder = 1.0

@@ -1,24 +1,22 @@
+// TODO Uncomment this and change the structure names so that they don't crash the game
+
 ServerEvents.highPriorityData((event) => {
     let tweak = {
         structures: [
             {
-                structure: "aquamirae:ice_maze/common",
+                structure: "aquamirae:surface/arch",
                 weight: 5,
             },
             {
-                structure: "aquamirae:ice_maze/arch",
-                weight: 2,
-            },
-            {
-                structure: "aquamirae:ice_maze/spiral",
+                structure: "aquamirae:surface/spiral",
                 weight: 1,
             },
         ],
         placement: {
             type: "minecraft:random_spread",
             salt: 9191766080,
-            spacing: 45,
-            separation: 25,
+            spacing: 60,
+            separation: 30,
         },
     };
 

@@ -71,7 +71,7 @@
 	    ["minecraft:jungle", 76.0, 87.0, "F"],
 	    ["minecraft:old_growth_birch_forest", 58.0, 72.0, "F"],
 	    ["minecraft:snowy_taiga", 19.0, 48.0, "F"],
-	    ["minecraft:river", 60.0, 70.0, "F"],
+	    ["minecraft:river", 59, 82, "F"],
 	    ["minecraft:bamboo_jungle", 76.0, 87.0, "F"],
 	    ["minecraft:wooded_badlands", 80.0, 108.0, "F"],
 	    ["minecraft:savanna", 70.0, 95.0, "F"],
@@ -106,7 +106,7 @@
 	    ["biomeswevegone:crimson_tundra", 8, 31, "F"],
 	    ["biomeswevegone:dacite_ridges", 40, 65, "F"],
 	    ["biomeswevegone:cypress_swamplands", 68, 82, "F"],
-	    ["biomeswevegone:skyrise_vale", 42, 68, "F"],
+	    ["biomeswevegone:skyris_vale", 42, 68, "F"],
 	    ["biomeswevegone:orchard", 58, 78, "F"],
 	    ["biomeswevegone:prairie", 66, 82, "F"],
 	    ["biomeswevegone:enchanted_tangle", 66, 82, "F"],
@@ -129,7 +129,8 @@
 	    ["atmospheric:sparse_rainforest", 62, 83, "F"],
 	    ["atmospheric:sparse_rainforest_basin", 62, 83, "F"],
 	    ["environmental:marsh", 60, 80, "F"],
-	    ["netherexp:black_ice_glacier", 45.0, 45.0, "F"]
+	    ["netherexp:black_ice_glaciers", 45.0, 45.0, "F"],
+	    ["minecraft:plains", 59, 82, "F"]
 	]
 
 [Blocks]
@@ -203,7 +204,7 @@
 	# When set to true, uses Cold Sweat's temperature system to determine water freezing behavior
 	"Custom Freezing Behavior" = true
 	#─────────────────────────────────────────────────────────────────────────
-	# When set to true, modifies ice blocks to be harvestable with a pickaxe
+	# When set to true, modifies ice blocks to be harvestable with a pickaxe and tweaks its mining speed
 	"Custom Ice Drops" = true
 	#─────────────────────────────────────────────────────────────────────────
 	# The speed at which wet players dry off
@@ -220,7 +221,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The default temperature of water
 	# └── Format: [temperature, *units]
-	"Default Water Temperature" = [-10, "f"]
+	"Default Water Temperature" = [-10.0, "f"]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum soak level a player can reach from rain alone (0.0 - 1.0)
 	#Range: 0.0 ~ Infinity

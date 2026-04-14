@@ -125,6 +125,7 @@ ServerEvents.tags("entity_type", (event) => {
         "irons_spellbooks:dead_king",
         "irons_spellbooks:dead_king_corpse",
         "irons_spellbooks:citadel_keeper",
+        "irons_spellbooks:fire_boss",
 
         "conjurer_illager:conjurer",
 
