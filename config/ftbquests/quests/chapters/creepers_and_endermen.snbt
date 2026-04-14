@@ -1173,6 +1173,33 @@
 			x: 2.5d
 			y: 4.0d
 		}
+		{
+			description: [
+				"This zombie couldn't handle the cold, and it turned out like this! Keep your distance, since it's understandably cold to the touch."
+				""
+				"On death, Chilled drop frozen flesh, which can be smelted directly into leather. They can also drop icicles."
+			]
+			hide_dependent_lines: true
+			id: "3165968C2C2158D5"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "windswept:chilled"
+					}
+				}
+				id: "4A86A28C69FF9676"
+				observe_type: 5
+				timer: 0L
+				title: "Chilled"
+				to_observe: "windswept:chilled"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
 	]
 	title: "Hostile Mob Variants"
 }
