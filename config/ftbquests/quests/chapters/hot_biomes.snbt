@@ -1300,6 +1300,56 @@
 			x: 4.5d
 			y: -1.5d
 		}
+		{
+			description: [
+				"The Elokosa Howler is observed to be a primate that lives in jungles. During the day it is harmless, but becomes a fierce, carnivorous hunter at night."
+				""
+				"Elokosa Howlers traverse treetops over their prey until noticed, at which point they will scream and attack as a pack. Explorers can tell they are in the presence of Elokosa based on drool from above."
+				""
+				"When killed, Elokosa drop paws based on the current moon phase which can inflict unwanted effects on nearby foes."
+			]
+			id: "6317818DAEA5C1FF"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "mowziesmobs:elokosa_howler"
+					}
+				}
+				id: "0E85B5C29B71CCEB"
+				observe_type: 5
+				timer: 0L
+				title: "Elokosa Howler"
+				to_observe: "mowziesmobs:elokosa_howler"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["These Elokosa are further down the hierarchy than Elokosa Howlers. They are similar in appearance during the day, but at night, they follow Howlers in their actions and lack the signature scythes on their tails."]
+			id: "41CB682C87830FDE"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "mowziesmobs:elokosa_follower_howler"
+					}
+				}
+				id: "51F3C2C2BA7414CC"
+				observe_type: 5
+				timer: 0L
+				title: "Elokosa"
+				to_observe: "mowziesmobs:elokosa_follower_howler"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
 	]
 	title: "Hot/Tropical Biomes"
 }

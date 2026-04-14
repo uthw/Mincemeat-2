@@ -19,41 +19,8 @@
 			image: "mcwroofs:block/water_still"
 			rotation: 0.0d
 			width: 0.03125d
-			x: 2.5d
+			x: 0.5d
 			y: 5.0d
-		}
-		{
-			height: 1.0d
-			image: "mcwroofs:block/water_still"
-			rotation: 0.0d
-			width: 0.03125d
-			x: 2.5d
-			y: 5.0d
-		}
-		{
-			height: 2.5d
-			image: "minecraft:block/blue_ice"
-			rotation: 0.0d
-			width: 5.0d
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			color: 43520
-			height: 5.0d
-			image: "blue_skies:block/plants/chilled_lily_pad"
-			rotation: 0.0d
-			width: 5.0d
-			x: 2.9d
-			y: 5.0d
-		}
-		{
-			height: 1.5d
-			image: "create:block/palettes/limesand"
-			rotation: 0.0d
-			width: 5.0d
-			x: -1.5d
-			y: 6.5d
 		}
 		{
 			height: 1.0d
@@ -108,14 +75,6 @@
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/kelp_plant"
-			rotation: 0.0d
-			width: 1.0d
 			x: 6.5d
 			y: 6.0d
 		}
@@ -126,14 +85,6 @@
 			width: 1.0d
 			x: 6.5d
 			y: 6.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/kelp_plant"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 7.0d
 		}
 		{
 			height: 1.0d
@@ -158,14 +109,6 @@
 			width: 1.0d
 			x: 8.0d
 			y: 6.0d
-		}
-		{
-			height: 2.5d
-			image: "alexsmobs:textures/advancement_background.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 7.0d
-			y: 4.5d
 		}
 		{
 			height: 1.0d
@@ -212,8 +155,8 @@
 			image: "minecraft:block/kelp_plant"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.0d
-			y: 10.0d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			height: 1.0d
@@ -248,7 +191,7 @@
 			y: 6.0d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1019,7 +962,7 @@
 				""
 				"Deepling brutes don't like being on land, since they'll suffocate after spending too much time there. This means finding an island or digging beneath the ocean are good forms of escape."
 				""
-				"To kill a brute, never stop moving. They can be bested and filling them up with arrows. If you can't find land, be sure to never stop moving and parry their attacks since you can't dodge underwater."
+				"To kill a brute, never stop moving. They can be bested by filling them up with arrows. If you can't find land, be sure to never stop moving and parry their attacks since you can't dodge underwater."
 				""
 				"They sometimes drop a coral bardiche, which are more powerful but slower than tridents."
 			]
@@ -1136,8 +1079,8 @@
 				to_observe: "alexsmobs:platypus"
 				type: "observation"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1162,36 +1105,8 @@
 				to_observe: "alexsmobs:terrapin"
 				type: "observation"
 			}]
-			x: -6.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"These heartless monkeys just hang out in peaceful meadows."
-				""
-				"When they get bored, they start to rip up the grass for valueless objects, making the area look untidy. If they get into a fight, these monkeys will abandon their friends mid-fight."
-				""
-				"Worst of all, if given wheat, they will run around and start destroying all the tall grass."
-			]
-			id: "35B1C875E8F5240D"
-			invisible: true
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "alexsmobs:tab_icon"
-					tag: {
-						DisplayEntityType: "alexsmobs:gelada_monkey"
-					}
-				}
-				id: "4A9923A78C3E738E"
-				observe_type: 5
-				timer: 0L
-				title: "Gelada Monkey"
-				to_observe: "alexsmobs:gelada_monkey"
-				type: "observation"
-			}]
-			x: -5.0d
-			y: -1.0d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1216,8 +1131,8 @@
 				to_observe: "alexsmobs:anaconda"
 				type: "observation"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -1250,7 +1165,7 @@
 				}
 			]
 			x: -6.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -1277,22 +1192,8 @@
 				to_observe: "aquamirae:spinefish"
 				type: "observation"
 			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			id: "53C26B742AB74DAE"
-			shape: "rsquare"
-			tasks: [{
-				icon: "minecraft:ice"
-				id: "2D33896C6C418D48"
-				structure: "aquamirae:ice_maze/common"
-				title: "Ice Maze"
-				type: "structure"
-			}]
-			title: "Find an Ice Maze"
-			x: 7.0d
-			y: -2.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1317,8 +1218,8 @@
 				to_observe: "aquamirae:golden_moth"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -1343,8 +1244,8 @@
 				to_observe: "aquamirae:maw"
 				type: "observation"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1373,8 +1274,8 @@
 				to_observe: "aquamirae:anglerfish"
 				type: "observation"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1399,396 +1300,8 @@
 				to_observe: "aquamirae:tortured_soul"
 				type: "observation"
 			}]
-			x: 9.0d
-			y: -1.0d
-		}
-		{
-			description: [
-				"This little black worm, with over 1,000 teeth, can be found by fishing in the jungle. While it cannot be eaten or cooked, it can be used as bait on a fishing rod. When placed in a tackle box with an upgraded fishing rod, it increases your chances of catching fish compared to using other items. The leech can only be used a total of 35 times before it breaks."
-				""
-				"It's puzzling why this harder-to-get, area-specific bait is less effective than bait that can be caught almost anywhere."
-				""
-				"Additionally, you can use two leeches in a potion mixing cauldron to create a large amount of mundane potion liquid. They can also be used in a normal brewing stand to create mundane potions."
-			]
-			disable_toast: true
-			id: "1B7423FBB75C42D0"
-			tasks: [{
-				id: "0EBF77823F89D435"
-				item: {
-					Count: 1
-					id: "aquaculture:leech"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "095F8932D99F2A08"
-			tasks: [{
-				id: "23271BF6EC2503D9"
-				item: "aquaculture:atlantic_cod"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "1B0938943DF35AE8"
-			tasks: [{
-				id: "07319C7F844EDBEF"
-				item: "aquaculture:blackfish"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "149585B5531D21E0"
-			tasks: [{
-				id: "573BB512924636B5"
-				item: "aquaculture:pacific_halibut"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "2217237359C0CB91"
-			tasks: [{
-				id: "3D433BA725D7139E"
-				item: "aquaculture:atlantic_halibut"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "1C1591DDBA16007B"
-			tasks: [{
-				id: "7A6D73EFF045C65B"
-				item: "aquaculture:atlantic_herring"
-				type: "item"
-			}]
 			x: -2.0d
 			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "4AE768A427A14342"
-			tasks: [{
-				id: "621EC4DFAFAD65A1"
-				item: "aquaculture:pink_salmon"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "2540D912E2DC8B4E"
-			tasks: [{
-				id: "1D3706E30AB46332"
-				item: "aquaculture:pollock"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "1863D9499DCB0B39"
-			tasks: [{
-				id: "6A8C045248AF36F1"
-				item: "aquaculture:rainbow_trout"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "30D11229AC209A87"
-			tasks: [{
-				id: "34F1DD9E59E1313A"
-				item: "aquaculture:bayad"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			disable_toast: true
-			id: "29170AF76939F173"
-			tasks: [{
-				id: "02A65D677E538F1C"
-				item: "aquaculture:boulti"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 6.5d
-		}
-		{
-			disable_toast: true
-			id: "1BC439BFF1BA35D0"
-			tasks: [{
-				id: "2BA28F7817F88859"
-				item: "aquaculture:capitaine"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 6.5d
-		}
-		{
-			disable_toast: true
-			id: "257AB50C0C09A72B"
-			tasks: [{
-				id: "7DBAA46C0D953634"
-				item: "aquaculture:synodontis"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			disable_toast: true
-			id: "3ED0A7786EE4E65E"
-			tasks: [{
-				id: "6A0C34C5D6851932"
-				item: "aquaculture:smallmouth_bass"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "7345C4871A148662"
-			tasks: [{
-				id: "4B0EEC22606ADD04"
-				item: "aquaculture:bluegill"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "209D685CAF24C693"
-			tasks: [{
-				id: "10A821EB4A950577"
-				item: "aquaculture:brown_trout"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "50BCA96B68DC3F4C"
-			tasks: [{
-				id: "00A549B0A6262184"
-				item: "aquaculture:catfish"
-				type: "item"
-			}]
-			title: "Catfish (Aquaculture 2)"
-			x: 4.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "1778A8C70C9AAF26"
-			tasks: [{
-				id: "6180195E2C473636"
-				item: "aquaculture:gar"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "0650B5D88757F417"
-			tasks: [{
-				id: "0297584A7BE3BE9F"
-				item: "aquaculture:muskellunge"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.0d
-		}
-		{
-			disable_toast: true
-			id: "59B5C63E1263F1E6"
-			tasks: [{
-				id: "4DE316DFF04C5B82"
-				item: "aquaculture:perch"
-				type: "item"
-			}]
-			title: "Perch (Aquaculture 2)"
-			x: 2.5d
-			y: 6.0d
-		}
-		{
-			description: [
-				"This fish yields 10 fish fillets when cut. Although it doesn't explicitly state it, I suspect this fish is inspired by Terraria. In Terraria, there's a giant fish found in jungles during hard mode."
-				""
-				"Interestingly, this fish is small in Mincemeat, yet it provides a substantial amount of fish fillets when harvested, which makes me wonder if it was intended to be more significant at one point."
-			]
-			disable_toast: true
-			id: "4945AF7FAA48DC75"
-			subtitle: "a-crap-aima lol"
-			tasks: [{
-				id: "3C97AD350263E14A"
-				item: "aquaculture:arapaima"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.0d
-		}
-		{
-			description: ["This fish is the biggest letdown, giving only 1 fillet when cut and doesn't even bite you, despite that being what piranhas are famous for."]
-			disable_toast: true
-			id: "261D4DE4C30A96CB"
-			tasks: [{
-				id: "57D6690994D3041D"
-				item: "aquaculture:piranha"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "52159C48546AC297"
-			tasks: [{
-				id: "471DDA3D45BCD80A"
-				item: "aquaculture:tambaqui"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 5.0d
-		}
-		{
-			disable_toast: true
-			id: "4BD31FADA7878D76"
-			tasks: [{
-				id: "171A4EC1AD42C0BB"
-				item: "aquaculture:red_grouper"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 6.5d
-		}
-		{
-			disable_toast: true
-			id: "605C72C696B771E8"
-			tasks: [{
-				id: "16B91D69DCE1D60B"
-				item: "aquaculture:tuna"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 6.5d
-		}
-		{
-			description: [
-				"These very small turtles can be found swimming around in rivers in their natural habitat. Box turtles are typically found in swamps, while Arrau turtles can be spotted in jungles."
-				""
-				"You can also fish for these turtles in their respective biomes. If you kill or fish up these turtles, you can combine them with a water bucket to make turtle soup."
-			]
-			disable_toast: true
-			id: "36DA4C1DB9F06C8C"
-			invisible: true
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "alexsmobs:tab_icon"
-						tag: {
-							DisplayEntityType: "aquaculture:box_turtle"
-						}
-					}
-					id: "5D659B3855D99D61"
-					observe_type: 5
-					timer: 0L
-					title: "Box Turtle"
-					to_observe: "aquaculture:box_turtle"
-					type: "observation"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "alexsmobs:tab_icon"
-						tag: {
-							DisplayEntityType: "aquaculture:arrau_turtle"
-						}
-					}
-					id: "1C8B12CEF45BCE35"
-					observe_type: 5
-					timer: 0L
-					title: "Arrau Turtle"
-					to_observe: "aquaculture:arrau_turtle"
-					type: "observation"
-				}
-			]
-			title: "Box/Arrau Turtle"
-			x: 6.5d
-			y: 4.0d
-		}
-		{
-			disable_toast: true
-			id: "0711C7D4A09F3C12"
-			tasks: [{
-				id: "5FF66C6D059D2B04"
-				item: "aquaculture:brown_shrooma"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			disable_toast: true
-			id: "7DF69A5D72B6E677"
-			tasks: [{
-				id: "485A30EF7044BCA0"
-				item: "aquaculture:red_shrooma"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			description: ["They can be caught anywhere and, if put in a crafting table, you will get 1 gold nugget."]
-			disable_toast: true
-			id: "61D2C5A3FC8F44A1"
-			tasks: [{
-				id: "610623E4AC869D43"
-				item: "aquaculture:goldfish"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 7.5d
-		}
-		{
-			disable_toast: true
-			id: "0D66977831260595"
-			tasks: [{
-				id: "6B5A6CF67151DEC7"
-				item: "aquaculture:jellyfish"
-				type: "item"
-			}]
-			title: "Jellyfish (Aquaculture 2)"
-			x: 7.0d
-			y: 6.5d
 		}
 		{
 			description: [
@@ -1868,7 +1381,7 @@
 				""
 				"While they are spinning, they deal very high damage and will continue spinning unless you sneak, which may give you a few seconds to get away."
 				""
-				"If you kill this Florida citizen, they will drop some of their super sunburned crocodile scutes, which can be made into a crocodile chestplate. Although it sounds impressive, it simply raises your swimming speed."
+				"If you kill this Floridian, they will drop some of their super sunburned crocodile scutes, which can be made into a crocodile chestplate. Although it sounds impressive, it simply raises your swimming speed."
 			]
 			id: "32DB1B0F5535C113"
 			invisible: true
@@ -2054,7 +1567,7 @@
 			}]
 			title: "Flying Fish"
 			x: -5.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			description: ["The koi lives in pools of water within the Blossom Woods biome. Those who spend time near the koi receive a status effect that prevents mobs from spawning near them."]
@@ -2190,11 +1703,17 @@
 				to_observe: "atmospheric:tetra"
 				type: "observation"
 			}]
-			x: -5.0d
-			y: 7.0d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
-			description: ["TODO Add description"]
+			description: [
+				"This creature is found possibly being held captive by Deeplings in the dreadful Sunken City."
+				""
+				"As expected for something this imposing, the Coralssus is hostile and will use its size to its advantage in combat with devastating punches and body slams."
+				""
+				"Coralssus drops its Coral Chunks, which you can fashion into an Abyssal Sacrifice."
+			]
 			id: "39B76FD56D8A5C74"
 			invisible: true
 			subtitle: "When the coral is sus!"
@@ -2218,8 +1737,8 @@
 				to_observe: "cataclysm:coralssus"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			description: ["TODO Add description"]
@@ -2245,8 +1764,8 @@
 				to_observe: "cataclysm:coral_golem"
 				type: "observation"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -2276,7 +1795,7 @@
 				to_observe: "cataclysm:hippocamtus"
 				type: "observation"
 			}]
-			x: 10.0d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -2307,7 +1826,7 @@
 				to_observe: "cataclysm:cindaria"
 				type: "observation"
 			}]
-			x: 10.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -2338,7 +1857,7 @@
 				to_observe: "cataclysm:urchinkin"
 				type: "observation"
 			}]
-			x: 11.0d
+			x: 2.0d
 			y: 5.0d
 		}
 		{
@@ -2367,8 +1886,169 @@
 				type: "observation"
 			}]
 			title: "Symbiocto/Octohost"
-			x: 11.0d
+			x: 2.0d
 			y: 4.0d
+		}
+		{
+			id: "361238A46DC7EC1E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "collectorsreap:chieftain_crab"
+					}
+				}
+				id: "392379C7BCC06432"
+				observe_type: 5
+				timer: 0L
+				title: "Chieftain Crab"
+				to_observe: "collectorsreap:chieftain_crab"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: ["This king of the rivers is very nutritious! Eat it cooked or cook its fillet into a Fish Mix."]
+			id: "21C0B906CEADE164"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "collectorsreap:platinum_bass"
+					}
+				}
+				id: "330DD7CE82269739"
+				observe_type: 5
+				timer: 0L
+				title: "Platinum Bass"
+				to_observe: "collectorsreap:platinum_bass"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			description: ["Urchins live in deep oceans. They can be cut to receive delicious uni, beautiful test blocks, or sharp darts."]
+			id: "7B01A335C5660E38"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "collectorsreap:urchin"
+					}
+				}
+				id: "013EC881C3AE1221"
+				observe_type: 5
+				timer: 0L
+				title: "Urchin"
+				to_observe: "collectorsreap:urchin"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"These mollusks chill at the bottom of lakes and oceans. Their primary usefulness to you is their meat, which you must cut the shell open at a Cutting Board to find."
+				""
+				"If you're lucky, you could find a Lunar Pearl, which can craft a variety of potent items!"
+			]
+			id: "6F487F907B1B395E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "collectorsreap:clam"
+					}
+				}
+				id: "7666D56FAF1FA2B7"
+				observe_type: 5
+				timer: 0L
+				title: "Tide Clam"
+				to_observe: "collectorsreap:clam"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			description: ["These large shrimp relatives are tasty too! Go ahead and cook them into a Ceviche, Spread, Noodles, or Po' Boy. That's not even all!"]
+			id: "5F5C2052526961DE"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "collectorsreap:tiger_prawn"
+					}
+				}
+				id: "11D5867BDA5F35B9"
+				observe_type: 5
+				timer: 0L
+				title: "Tiger Prawn"
+				to_observe: "collectorsreap:tiger_prawn"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"It's not all doom and gloom in the Ice Maze; case in point, look at this critter!"
+				""
+				"One thing I would not recommend with the Abyssal Scyphoid is getting close to or touching it. On second thought, I think this wouldn't be a good addition to my aquarium back home."
+			]
+			id: "1B5E64BB257089C6"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "aquamirae:abyssal_scyphoid"
+					}
+				}
+				id: "2993F152F23368B9"
+				observe_type: 5
+				timer: 0L
+				title: "Abyssal Scyphoid"
+				to_observe: "aquamirae:abyssal_scyphoid"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			description: ["TODO Add description"]
+			id: "772454CFECDA9A55"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "alexsmobs:seal"
+					}
+				}
+				id: "65B9B4879F0254B1"
+				observe_type: 5
+				timer: 0L
+				title: "Seal"
+				to_observe: "alexsmobs:seal"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 0.0d
 		}
 	]
 	title: "Aquatic Creatures"

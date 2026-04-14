@@ -110,6 +110,7 @@
 				"Take advantage of the fact that shockers are stationary. Choose your fights wisely."
 			]
 			id: "5A2688EE11FDD684"
+			optional: true
 			subtitle: "That's crazy! *not currently encounterable"
 			tasks: [{
 				icon: {

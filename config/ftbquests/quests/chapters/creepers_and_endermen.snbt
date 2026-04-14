@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "6A6465BBC7FB76E9"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -58,7 +58,7 @@
 				observe_type: 5
 				timer: 0L
 				title: "Savanna Creeper"
-				to_observe: "creeperoverhaul:savanna_creeper"
+				to_observe: "creeperoverhaul:savannah_creeper"
 				type: "observation"
 			}]
 			x: -3.5d
@@ -420,7 +420,7 @@
 				to_observe: "endermanoverhaul:warped_forest_enderman"
 				type: "observation"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -446,7 +446,7 @@
 				to_observe: "endermanoverhaul:windswept_hills_enderman"
 				type: "observation"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -474,7 +474,7 @@
 				to_observe: "endermanoverhaul:coral_enderman"
 				type: "observation"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -502,10 +502,10 @@
 				observe_type: 5
 				timer: 0L
 				title: "Savanna Enderman"
-				to_observe: "endermanoverhaul:savannah_enderman"
+				to_observe: "endermanoverhaul:savanna_enderman"
 				type: "observation"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -531,7 +531,7 @@
 				to_observe: "endermanoverhaul:desert_enderman"
 				type: "observation"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -559,7 +559,7 @@
 				to_observe: "endermanoverhaul:end_enderman"
 				type: "observation"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -585,7 +585,7 @@
 				to_observe: "endermanoverhaul:end_islands_enderman"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -602,7 +602,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -625,7 +625,7 @@
 				to_observe: "endermanoverhaul:hammerhead_pet_enderman"
 				type: "observation"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -648,7 +648,7 @@
 				to_observe: "endermanoverhaul:axolotl_pet_enderman"
 				type: "observation"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -671,7 +671,7 @@
 				to_observe: "endermanoverhaul:pet_enderman"
 				type: "observation"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -697,7 +697,7 @@
 				to_observe: "endermanoverhaul:snowy_enderman"
 				type: "observation"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
@@ -723,7 +723,7 @@
 				to_observe: "endermanoverhaul:dark_oak_enderman"
 				type: "observation"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -753,7 +753,7 @@
 				to_observe: "endermanoverhaul:flower_fields_enderman"
 				type: "observation"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -781,7 +781,7 @@
 				to_observe: "endermanoverhaul:ice_spikes_enderman"
 				type: "observation"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
@@ -809,7 +809,7 @@
 				to_observe: "endermanoverhaul:mushroom_fields_enderman"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -837,7 +837,7 @@
 				to_observe: "endermanoverhaul:soulsand_valley_enderman"
 				type: "observation"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -865,7 +865,7 @@
 				to_observe: "endermanoverhaul:badlands_enderman"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -893,7 +893,7 @@
 				to_observe: "endermanoverhaul:cave_enderman"
 				type: "observation"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -921,7 +921,7 @@
 				to_observe: "endermanoverhaul:crimson_forest_enderman"
 				type: "observation"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -947,7 +947,7 @@
 				to_observe: "endermanoverhaul:nether_wastes_enderman"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -973,9 +973,206 @@
 				to_observe: "endermanoverhaul:swamp_enderman"
 				type: "observation"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"Burned are the lava counterparts of Drowned. They have a chance to spawn when a zombie dies in lava, but are found naturally in Nether Wastes."
+				""
+				"They are hot to the touch! Burned set their targets on fire. At low health, they will enter a frenzy and become stronger."
+				""
+				"The Magma Rotten Flesh dropped by Burned could be good or bad, just like regular rotten flesh. You have to see for yourself."
+			]
+			id: "2CC39E95912D2892"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:burned"
+					}
+				}
+				id: "18081DB9DE098C52"
+				observe_type: 0
+				timer: 0L
+				title: "Burned"
+				to_observe: "rottencreatures:burned"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			description: ["Swampies are zombies who have adapted to live in swamps. They have developed special leaping attacks and can inflict poison and blindness. On top of this, they are skilled swimmers and can move quickly through the thick swamp water."]
+			id: "0297F6FB32D2C17B"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:swampy"
+					}
+				}
+				id: "2730A3DE337240A8"
+				observe_type: 5
+				timer: 0L
+				title: "Swampy"
+				to_observe: "rottencreatures:swampy"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Undead Miners are zombies who previously had occupations in mining. You can find them roaming the depths. Being equipped with pickaxes, these guys tend to be weaker than your standard zombie. "
+				""
+				"Pay attention to the pickaxe they're holding, since this determines the loot they'll drop!"
+			]
+			id: "73510EDAAE266D1E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:undead_miner"
+					}
+				}
+				id: "66F6C979DFEEFAFE"
+				observe_type: 5
+				timer: 0L
+				title: "Undead Miner"
+				to_observe: "rottencreatures:undead_miner"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Mummies are like powered-up husks, and if you look closely, this will be confirmed as they're really just husks who are dressed more fashionably."
+				""
+				"In addition to inflicting a stronger hunger than normal husks, Mummies can also occasionally dig up scarabs."
+				""
+				"Watch out for Ancient Mummies! These are extra rare and bring out Flying Scarabs instead of grounded ones."
+			]
+			id: "3544685696769212"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:mummy"
+					}
+				}
+				id: "1FE562EDBBECF70D"
+				observe_type: 5
+				timer: 0L
+				title: "Mummy"
+				to_observe: "rottencreatures:mummy"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Scarabs are disgruntled arthropods who will attack you until one of you dies."]
+			id: "12752571CD68AB6A"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:scarab"
+					}
+				}
+				id: "0B1E2E87BB3A90A2"
+				observe_type: 5
+				timer: 0L
+				title: "Scarab"
+				to_observe: "rottencreatures:scarab"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: ["Evidently, this undead took more time to dress appropriately than the Chilled, and look how far that's taken it. These zombies roam snowy biomes at night, sometimes bringing along their wolf or spear."]
+			id: "11B5D93D2A0A0285"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:glacial_hunter"
+					}
+				}
+				id: "4AF27E81B208BB9D"
+				observe_type: 5
+				timer: 0L
+				title: "Glacial Hunter"
+				to_observe: "rottencreatures:glacial_hunter"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"The elusive Dead Beard can be found washed up on beaches after suffering an unfortunate shipwreck. But don't make that think he's a pushover."
+				""
+				"Dead Beard stays in touch with his crew, and will summon them to assist him in combat. Plus, he uses his TNT barrel in a pinch when at low health. Watch out!"
+				""
+				"If you manage to kill him before he detonates, you'll claim his booty."
+			]
+			id: "791A24D0937D1549"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:dead_beard"
+					}
+				}
+				id: "38327ED733D5C2A7"
+				observe_type: 5
+				timer: 0L
+				title: "Dead Beard"
+				to_observe: "rottencreatures:dead_beard"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "0A3C33F3BDEAC6A7"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "rottencreatures:immortal"
+					}
+				}
+				id: "211F77EA045DFC8A"
+				observe_type: 5
+				timer: 0L
+				title: "Immortal"
+				to_observe: "rottencreatures:immortal"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
 	]
-	title: "Creepers and Endermen"
+	title: "Hostile Mob Variants"
 }

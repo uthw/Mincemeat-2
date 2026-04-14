@@ -1228,6 +1228,135 @@
 			x: 4.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Nominative determinists can rejoice, as this monster is, in fact, blind. Native to the Glowstone Canyon, Blindsights snack on Glowsquitos and leap about akin to frogs."
+				""
+				"Blindsights' tongues have a nutritional value and can be eaten raw or cooked into a delicious mushroom stew that enhances its jump-boosting effect. It could alternatively be fashioned into a whip."
+			]
+			id: "365BC6F1204A038E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "infernalexp:blindsight"
+					}
+				}
+				id: "5C71F824B23BB622"
+				observe_type: 5
+				timer: 0L
+				title: "Blindsight"
+				to_observe: "infernalexp:blindsight"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["These passive large-ish butterflies can be found in Glowstone Canyons. They drop a special sort of string which can be made into a whip (if you have slain a Blindsight) or a bow."]
+			id: "26E6F366CCF5879B"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "infernalexp:glowsilk_moth"
+					}
+				}
+				id: "3730A27C7534C09E"
+				observe_type: 5
+				timer: 0L
+				title: "Glowsilk Moth"
+				to_observe: "infernalexp:glowsilk_moth"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Luckily for you, these flying insects don't want to kill you. I'm sure you've gone through enough of that after the Promenade and Ramparts. But keep in mind that, like most bugs, they're attracted to light, which could include your body if you make the mistake of emitting one."
+				""
+				"These critters' diets consist of Glowstone. As they feed on it, they turn it into the less useful Dimstone and eventually Dullstone. "
+			]
+			id: "2624528D6D9E30A6"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "infernalexp:glowsquito"
+					}
+				}
+				id: "11B80A5FC95C817F"
+				observe_type: 5
+				timer: 0L
+				title: "Glowsquito"
+				to_observe: "infernalexp:glowsquito"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"Volines call the unremarkable Nether Wastes biome home. They may appear hostile, but are nice once you get to know them."
+				""
+				"Stuffing them with Magma Cream will fatten them and cause them to enter a food coma. At this point, the Voline will become your pet."
+				""
+				"It's worth noting they had more utility in older versions of Infernal Expansion which have not been ported to this version as of yet."
+			]
+			id: "503CB082B10677AF"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "infernalexp:voline"
+					}
+				}
+				id: "24A05BAA1D131CEC"
+				observe_type: 5
+				timer: 0L
+				title: "Voline"
+				to_observe: "infernalexp:voline"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["Warpbeetles were domesticated by Enderman and now call the Warped Forest home. They like to feed on their arachnid contemporaries known as Spiders and their shells are useful in brewing."]
+			id: "157A1867F9D2B57C"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "infernalexp:warpbeetle"
+					}
+				}
+				id: "373058AF6B3585FA"
+				observe_type: 5
+				timer: 0L
+				title: "Warpbeetle"
+				to_observe: "infernalexp:warpbeetle"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
 	]
 	title: "Nether and End"
 }

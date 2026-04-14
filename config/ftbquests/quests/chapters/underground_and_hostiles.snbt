@@ -809,7 +809,7 @@
 				type: "observation"
 			}]
 			x: -3.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -1310,7 +1310,7 @@
 		}
 		{
 			description: [
-				"This little axolotl-chinese dragon hybrid can be found in bodies of water in crystal canyons. They can be right clicked with a pickaxe to get a crystal from them. Using a silk touch pickaxe will give you a cluster of crystals instead of normal crystals. "
+				"This little axolotl hybrid can be found in bodies of water in crystal canyons. They can be right clicked with a pickaxe to get a crystal from them. Using a silk touch pickaxe will give you a cluster of crystals instead of normal crystals. "
 				""
 				"The clusters can be mixed with a enchanting setup to improve the Rectification. After ~10 mins it will grow another crystal."
 			]
@@ -1491,7 +1491,7 @@
 				type: "observation"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -1582,6 +1582,58 @@
 			}]
 			x: 4.5d
 			y: 4.5d
+		}
+		{
+			description: [
+				"So, you've found yourself in the Deepslate layer. Now that you're here, you should get acquaintanced with the explosively popular Evendeeper."
+				""
+				"These are effectively slower and frailer Deepers, but watch out, as what really sets them apart is how they can ignite their fuse without stopping, making it a little trickier than usual to take them out!"
+			]
+			id: "47C82C1E604F6E1A"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:evendeeper"
+					}
+				}
+				id: "371670DDD5EA6A6A"
+				observe_type: 5
+				timer: 0L
+				title: "Evendeeper"
+				to_observe: "caverns_and_chasms:evendeeper"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"This zombie couldn't handle the cold, and it turned out like this! Keep your distance, since it's understandably cold to the touch."
+				""
+				"On death, Chilled drop frozen flesh, which can be smelted directly into leather. They can also drop icicles."
+			]
+			hide_dependent_lines: true
+			id: "3165968C2C2158D5"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "windswept:chilled"
+					}
+				}
+				id: "4A86A28C69FF9676"
+				observe_type: 5
+				timer: 0L
+				title: "Chilled"
+				to_observe: "windswept:chilled"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 3.5d
 		}
 	]
 	title: "Underground and Monsters"
