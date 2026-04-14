@@ -1,6 +1,6 @@
 
 [slicer]
-	consume_tool_durability = true
+	consume_tool_durability = false
 	ignore_rotation = false
 	jei_show_converted_recipes = false
 
