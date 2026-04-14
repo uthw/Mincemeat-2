@@ -1,0 +1,27 @@
+{
+  "common": {
+    "geyser": {
+      "geyserSteamHeight": 8
+    },
+    "voline": {
+      "volineTurnIntoGeyser": true,
+      "volineSleepWhenFed": true,
+      "volineGetBig": true,
+      "volineMagmaCreamAmount": 3
+    },
+    "miscellaneous": {
+      "luminousFungusActivateDistance": 4.0,
+      "glowsilkBowSpeed": 1.0
+    },
+    "mobInteractions": {
+      "glowsquitoBlockSucking": true,
+      "blindsightExtinguishFire": true,
+      "blindsightEatBabyMobs": true
+    },
+    "worldGeneration": {
+      "enablePlantedQuartz": true,
+      "enableBuriedBone": true
+    }
+  },
+  "client": {}
+}
