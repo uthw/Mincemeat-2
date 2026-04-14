@@ -12,6 +12,11 @@
 			description: ["Found in the &5Theatre&r."]
 			hide_dependent_lines: true
 			id: "4493D9650B5D1F71"
+			rewards: [{
+				id: "546FFAB43F1C0251"
+				item: "irons_restrictions:rare_upgrade"
+				type: "item"
+			}]
 			subtitle: "Illagin' for a Pillagin'"
 			tasks: [{
 				entity: "conjurer_illager:conjurer"
@@ -1694,11 +1699,18 @@
 		{
 			dependencies: ["1F9A394264C7C588"]
 			id: "34A83BB5D5DEFC82"
-			rewards: [{
-				id: "5B3762CB4B335DBB"
-				item: "paraglider:heart_container"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5B3762CB4B335DBB"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "1A0A637ACB2AC295"
+					item: "irons_restrictions:epic_upgrade"
+					type: "item"
+				}
+			]
 			subtitle: "Hee hee hee haw!"
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
