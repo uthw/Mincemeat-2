@@ -141,5 +141,8 @@
     "effect.xaeroworldmap.no_world_map.description": "No access to the world map in this area.",
     "effect.cataclysm.wetness.description": "Causes Scylla's lightning attacks to deal lethal damage.",
     "effect.dungeonnowloading.vertex_transmission.description": "Deals two damage every half second and forms connections with nearby Vertex Arrows.",
-    "subtitles.block.generic.fall": "Falling"
+    "subtitles.block.generic.fall": "Falling",
+    "enchantment.caverns_and_chasms.obscurity.desc": "Grants invisibility to the wearer whilst sneaking.",
+    "enchantment.caverns_and_chasms.conceal.desc": "Increases the amount of stealth granted by the Cowl.",
+    "enchantment.caverns_and_chasms.extending.desc": "Increases the block reach granted by the Toolbelt."
 }
