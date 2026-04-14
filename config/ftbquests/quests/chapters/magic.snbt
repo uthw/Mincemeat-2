@@ -2826,7 +2826,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1FAF889506FFFF18"]
+			dependencies: ["27DF7D39245E5ACB"]
 			description: [
 				"An &dinscription table&r is commonly found in &5villages&r and many &5towers&r you can come across in your world. You could also craft one yourself, it isn't that hard. &5Complete the task by looking at a table.&r"
 				""
@@ -2884,7 +2884,7 @@
 				}
 			]
 			title: "Become a Wizard"
-			x: -4.5d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -2906,7 +2906,7 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -5.0d
 		}
 		{
@@ -2959,7 +2959,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -4.0d
 			y: -6.0d
 		}
 		{
@@ -3012,7 +3012,7 @@
 				}
 			]
 			title: "Scarecrow Armor"
-			x: -5.5d
+			x: -6.5d
 			y: -6.0d
 		}
 		{
@@ -3105,7 +3105,7 @@
 				title: "Craftable Spell Books"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: -2.0d
 		}
 		{
@@ -3117,7 +3117,7 @@
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: -7.0d
 		}
 		{
@@ -3133,7 +3133,7 @@
 				item: "irons_spellbooks:ruined_book"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: -3.0d
 		}
 		{
@@ -3149,7 +3149,7 @@
 				type: "observation"
 			}]
 			title: "Arcane Salvage"
-			x: -4.5d
+			x: -5.0d
 			y: -8.5d
 		}
 		{
@@ -3164,7 +3164,7 @@
 				item: "irons_spellbooks:upgrade_orb"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -8.5d
 		}
 		{
@@ -3193,7 +3193,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -7.0d
 		}
 		{
@@ -3357,7 +3357,7 @@
 				type: "item"
 			}]
 			title: "Unique Spell Books"
-			x: -5.5d
+			x: -6.5d
 			y: -1.0d
 		}
 		{
@@ -3444,7 +3444,7 @@
 				}
 			]
 			title: "Magical Items"
-			x: -5.5d
+			x: -6.5d
 			y: -4.5d
 		}
 		{
@@ -3465,7 +3465,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -3486,7 +3486,7 @@
 				type: "advancement"
 			}]
 			title: "Ink"
-			x: -3.5d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -5680,7 +5680,7 @@
 				title: "Legendary Spell Books (Craftable)"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -9.5d
 			y: -3.0d
 		}
 		{
@@ -5814,7 +5814,7 @@
 				type: "item"
 			}]
 			title: "Legendary Spell Books"
-			x: -6.5d
+			x: -7.5d
 			y: -1.5d
 		}
 		{
@@ -5834,7 +5834,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: -2.0d
 		}
 		{
@@ -5877,7 +5877,7 @@
 				title: "Greater Spell Slot Improvement"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: -2.0d
 		}
 		{
@@ -5916,8 +5916,150 @@
 				item: "irons_spellbooks:eldritch_manuscript"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["1FAF889506FFFF18"]
+			description: [
+				"As a budding wizard, most &5scrolls&r are indecipherable to you. You'll need &dmanuscripts&r to make up for this."
+				""
+				"Make your way to the &5Shop&r quests to purchase some &dmanuscripts&r in your preferred school. These will let you &5choose a spell to learn&r from the corresponding school."
+				""
+				"Still can't cast your spell? It's probably &5too high-level&r. You'll need to defeat powerful practitioners of magic and earn &5Rarity Upgrades&r."
+			]
+			id: "27DF7D39245E5ACB"
+			tasks: [{
+				id: "57FB934C9B3D3CC8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:evocation"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "traveloptics:aqua"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:fire"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:lightning"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:ice"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:holy"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:ender"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:blood"
+								}
+							}
+							{
+								Count: 1b
+								id: "irons_restrictions:manuscript"
+								tag: {
+									SchoolId: "irons_spellbooks:nature"
+								}
+							}
+						]
+					}
+				}
+				title: "Manuscript"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27DF7D39245E5ACB"]
+			description: [
+				"The Conjurer is a boss found in the Overworld required for access to the Everbright and\" ] Everdawn and beyond. It is documented in Overworld Adventure."
+				""
+				""
+				"{ \"text\": \"The Conjurer\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4493D9650B5D1F71\" } }"
+			]
+			id: "0F812CDA5A64A236"
+			subtitle: "Rewarded for killing the Conjurer."
+			tasks: [{
+				id: "37A1D8978A25A883"
+				item: "irons_restrictions:rare_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F812CDA5A64A236"]
+			description: [
+				"The Dead King is an optional boss found in the Overworld, documented in Overworld Adventure."
+				""
+				""
+				"{ \"text\": \"Dead King Questline Start\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F9A394264C7C588\" } }"
+			]
+			id: "273512915459B65A"
+			subtitle: "Rewarded for killing the Dead King."
+			tasks: [{
+				id: "2DF3752E391ED26C"
+				item: "irons_restrictions:epic_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["273512915459B65A"]
+			description: [
+				"Tyros is an optional boss found in the Nether, documented in Dimensional Adventure."
+				""
+				"{ \"text\": \"Tyros Questline Start (the link might look weird you haven't progressed far enough)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"299A6D31CD9AF4B3\" } }"
+			]
+			id: "4BCA31307DF2D2C0"
+			subtitle: "Rewarded for killing Tyros."
+			tasks: [{
+				id: "6E0C1E6CA8AD4CD4"
+				item: "irons_restrictions:legendary_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
 		}
 	]
 	title: "Supernatural Magic"
