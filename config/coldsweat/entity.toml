@@ -72,7 +72,9 @@
 	    ["minecraft:blaze", 0.13, 6],
 	    ["alexsmobs:froststalker", -0.08, 3],
 	    ["alexsmobs:guster", -0.1, 7],
-	    ["cataclysm:maledictus", -0.5, 12]
+	    ["cataclysm:maledictus", -0.5, 12],
+		["rottencreatures:burned", 0.3, 4],
+		["windswept:chilled", -0.3, 4]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines entities that are affected by temperature and the climates they can live in
