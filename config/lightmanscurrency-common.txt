@@ -1,0 +1,291 @@
+#Level of debug messages to be shown in the logs.
+#0-All debug messages. 1-Warnings/Errors only. 2-Errors only. 3-No debug messages.
+#Note: All debug messages will still be sent debug.log regardless of settings.
+#Range: 0 -> 3
+#Default: 0
+debugLevel=0
+#Crafting Settings
+#/reload required for any changes made to take effect.
+[crafting]
+	#Whether Network Traders can be crafted.
+	#Disabling will not remove any existing Network Traders from the world, nor prevent their use.
+	#Disabling does NOT disable the recipes of Network Upgrades or the Trading Terminals.
+	#Default: true
+	canCraftNetworkTrader=true
+	#Whether Trader Interface blocks can be crafted.
+	#Disabling will not remove any existing Trader Interfaces from the world, nor prevent their use.
+	#Default: true
+	canCraftTraderInterface=true
+	#Whether Auction Stand blocks can be crafted.
+	#Disabling will not remove any existing Auction Stands from the world, nor prevent their use.
+	#Default: true
+	canCraftAuctionStand=true
+	#Whether Tax Blocks can be crafted.
+	#Disabling will not remove any existing Tax Blocks from the world, nor prevent their use.
+	#Default: true
+	canCraftTaxCollector=true
+	#Whether ATM Cards can be crafted.
+	#Disabling will not remove any existing ATM Cards from the world, nor prevent their use.
+	#Default: false
+	canCraftATMCard=false
+	#Coin Mint Crafting
+	[crafting.coin_mint]
+		#Whether the Coin Mint machine can be crafted.
+		#Disabling will not remove and exist Coin Mints from the world, nor prevent their use.
+		#Default: true
+		canCraftCoinMint=false
+		#Whether or not built-in coin mint recipes that turn resources into coins will be loaded.
+		#Default: true
+		canMint=false
+		#Whether or not built-in coin mint recipes that turn coins back into resources will be loaded.
+		#Default: false
+		canMelt=false
+		#Specific Minting Options
+		#Does nothing if 'canMint' is already false/disabled.
+		[crafting.coin_mint.mint]
+			#Whether the default mint recipe to mint copper coins from copper ingots will be loaded.
+			#Default: true
+			copper=true
+			#Whether the default mint recipe to mint iron coins from iron ingots will be loaded.
+			#Default: true
+			iron=true
+			#Whether the default mint recipe to mint gold coins from gold ingots will be loaded.
+			#Default: true
+			gold=true
+			#Whether the default mint recipe to mint emerald coins from emeralds will be loaded.
+			#Default: true
+			emerald=true
+			#Whether the default mint recipe to mint diamond coins from diamonds will be loaded.
+			#Default: true
+			diamond=true
+			#Whether the default mint recipe to mint netherite coins from netherite ingots will be loaded.
+			#Default: true
+			netherite=true
+		#Specific Melting Options
+		#Does nothing if 'canMelt' is already false/disabled.
+		[crafting.coin_mint.melt]
+			#Whether the default mint recipe to melt copper coins back into copper ingots will be loaded.
+			#Default: true
+			copper=true
+			#Whether the default mint recipe to melt iron coins back into iron ingots will be loaded.
+			#Default: true
+			iron=true
+			#Whether the default mint recipe to melt gold coins back into gold ingots will be loaded.
+			#Default: true
+			gold=true
+			#Whether the default mint recipe to melt emerald coins back into emeralds will be loaded.
+			#Default: true
+			emerald=true
+			#Whether the default mint recipe to melt diamond coins back into diamonds will be loaded.
+			#Default: true
+			diamond=true
+			#Whether the default mint recipe to melt netherite coins back into netherite ingots will be loaded.
+			#Default: true
+			netherite=true
+	#Money Chest Crafting
+	[crafting.money_chest]
+		#Whether the Money Chest can be crafted.
+		#Disabling will not remove any existing Money Chests from the world, nor prevent their use.
+		#Disabling does NOT disable the recipes of Money Chest Upgrades.
+		#Default: true
+		canCraftCoinChest=true
+		#Whether the Money Chest Exchange Upgrade can be crafted.
+		#Disabling will not remove any existing Money Chest Exchange Upgrades from the world, nor prevent their use.
+		#Default: true
+		canCraftExchangeUpgrade=true
+		#Whether the Money Chest Magnet Upgrades can be crafted.
+		#Disabling will not remove any existing Money Chest Magnet Upgrades from the world, nor prevent their use.
+		#Default: true
+		canCraftMagnetUpgrade=true
+		#Whether the Money Chest Bank Upgrade can be crafted.
+		#Disabling will not remove any existing Money Chest Bank Upgrades from the world, nor prevent their use.
+		#Default: true
+		canCraftBankUpgrade=true
+		#Whether the Money Chest Security Upgrades can be crafted.
+		#Disabling will not remove any existing Money Chest Security Upgrades from the world, nor prevent their use.
+		#Default: true
+		canCraftSecurityUpgrade=true
+#Event Settings
+[events]
+	#Whether the Chocolate Event Coins will be added to the coin data.
+	#Note: Disabling will not remove any Chocolate Coin items that already exist, this simply makes them no longer function as money
+	#Default: true
+	chocolate=true
+	#Whether custom events defined in the 'SeasonalEvent.json' config can give players a one-time reward for logging in during the event.
+	#Default: true
+	startingRewards=true
+	#Whether custom events can replace a portion (or all) of the default loot with custom event loot.
+	#Default: true
+	lootReplacements=true
+#Villager Related Settings
+#Note: Any changes to villagers requires a full reboot to be applied due to how Minecraft/Forge registers trades.
+[villagers]
+	#Whether Piglins will accept gold coins as a valid bartering item
+	#Default: true
+	piglinsBarterCoins=true
+	#Whether the wandering trader will have additional trades that allow you to buy misc items with money.
+	#Default: true
+	addCustomWanderingTrades=true
+	#Whether the banker villager profession will have any registered trades. The banker sells Lightman's Currency items for coins.
+	#Default: true
+	addBanker=true
+	#Whether the cashier villager profession will have any registered trades.. The cashier sells an amalgamation of vanilla traders products for coins.
+	#Default: true
+	addCashier=true
+	#Villager Trade Modification
+	#Note: Changes made only apply to newly generated trades. Villagers with trades already defined will not be changed.
+	[villagers.modification]
+		#Whether vanilla villagers should have the Emeralds from their trades replaced with coins.
+		#Default: false
+		changeVanillaTrades=false
+		#Whether villagers added by other mods should have the Emeralds from their trades replaced with coins.
+		#Default: false
+		changeModdedTrades=false
+		#Whether the wandering trader should have the emeralds from their trades replaced with the default replacement coin.
+		#Default: false
+		changeWanderingTrades=false
+		#The default coin to replace a trades emeralds with.
+		#May seperate and define villager type specific entries by adding multiple items seperated by '-' with region
+		defaultEmeraldReplacementItem="lightmanscurrency:coin_emerald-r;minecraft:snow;lightmanscurrency:coin_chocolate_emerald"
+		#List of replacement coin overrides.
+		#Each entry must be formatted as follows: "mod:some_profession_type-SUB_ENTRY-SUB_ENTRY-..."
+		#You may use "minecraft:wandering_trader" as a profession id to override the vanilla Wandering Trader
+		#
+		#Each sub-entry must be formatted as either of the following: "r;minecraft:villager_type;ITEM_ENTRY" to define an entry specific to an in-game region (villagers from `mincraft:snow` or `minecraft:desert` regions, etc.)
+		#with the exception of a single 'default' entry with no defined villager type/region "...-ITEM_ENTRY-..."
+		#
+		#Each item-entry is either 1 or 2 item ids (e.g. "mod:coin_item" or "mod:coin_item_1;mod:coin_item_2".
+		#When two are given, the first will replace the cost items (items the player must pay the villager) and the second will replace the result (items the player will be paid by the villager)
+		#Every trader not on this list will use the default trader coin defined above.
+		professionEmeraldReplacementOverrides=["minecraft:cartographer-lightmanscurrency:coin_iron-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron","minecraft:fletcher-lightmanscurrency:coin_iron;lightmanscurrency:coin_copper-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron;lightmanscurrency:coin_chocolate_copper","minecraft:butcher-lightmanscurrency:coin_iron-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron","minecraft:farmer-lightmanscurrency:coin_iron-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron","minecraft:fisherman-lightmanscurrency:coin_iron-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron","minecraft:shepherd-lightmanscurrency:coin_iron-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron","minecraft:mason-lightmanscurrency:coin_iron-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron","minecraft:leatherworker-lightmanscurrency:coin_iron-r;minecraft:snow;lightmanscurrency:coin_chocolate_iron"]
+#Loot Options
+[loot]
+	#T1 loot item.
+	#Leave blank ("") to not spawn T1 loot.
+	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":1, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
+	#Default: "lightmanscurrency:coin_copper"
+	lootItemT1="lightmanscurrency:coin_copper"
+	#T2 loot item.
+	#Leave blank ("") to not spawn T2 loot.
+	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":2, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
+	#Default: "lightmanscurrency:coin_iron"
+	lootItemT2="lightmanscurrency:coin_iron"
+	#T3 loot item.
+	#Leave blank ("") to not spawn T3 loot.
+	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":3, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
+	#Default: "lightmanscurrency:coin_gold"
+	lootItemT3="lightmanscurrency:coin_gold"
+	#T4 loot item.
+	#Leave blank ("") to not spawn T4 loot.
+	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":4, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
+	#Default: "lightmanscurrency:coin_emerald"
+	lootItemT4="lightmanscurrency:coin_emerald"
+	#T5 loot item.
+	#Leave blank ("") to not spawn T5 loot.
+	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":5, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
+	#Default: "lightmanscurrency:coin_diamond"
+	lootItemT5="lightmanscurrency:coin_diamond"
+	#T6 loot item.
+	#Leave blank ("") to not spawn T6 loot.
+	#Applies to loot table loot type "lightmanscurrency:configured_item" with "tier":6, which is used in all "lightmanscurrency:loot_addons" loot tables configured below.
+	#Default: "lightmanscurrency:coin_netherite"
+	lootItemT6="lightmanscurrency:coin_netherite"
+	#Entity Loot Settings.
+	[loot.entities]
+		#Whether coins can be dropped by entities.
+		#Default: true
+		enabled=true
+		#Whether coins can be dropped by entities that were spawned by the vanilla spawner.
+		#Default: false
+		allowSpawnedDrops=false
+		#Whether modded machines that emulate player behaviour can trigger coin drops from entities.
+		#Set to false to help prevent autmated coin farming.
+		#Default: true
+		allowFakePlayerDrops=false
+		#Entity Drop Lists. Accepts the following inputs:
+		#Entity IDs. e.g. "minecraft:cow"
+		#Entity Tags. e.g. "#minecraft:skeletons"
+		#Every entity provided by a mod. e.g. "minecraft:*"
+		#Note: If an entity meets multiple criteria, it will drop the lowest tier loot that matches (starting with normal T1 -> T6 then boss T1 -> T6)
+		[loot.entities.lists]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/entity/tier1" loot table.
+			#Requires a player kill to trigger coin drops.
+			T1=["minecraft:slime","minecraft:silverfish","alexsmobs:cosmic_cod","alexsmobs:fly","alexsmobs:raccoon","alexsmobs:stradpole","galosphere:preserved","graveyard:corrupted_pillager","graveyard:reaper","graveyard:corrupted_vindicator","graveyard:wraith","graveyard:ghoul","forbidden_arcanus:lost_soul","mowziesmobs:grottol","cataclysm:lionfish","cataclysm:urchinkin","blue_skies:artificial_golem","minecells:disgusting_worm","minecells:rancid_rat","mincells:buzzcutter","minecells:kamikaze","minecells:mutated_bat","undergarden:rotling","undergarden:muncher","netherexp:ecto_slab","netherexp:wisp","alexscaves:notor","alexscaves:gammaroach","alexscaves:corrodent","alexscaves:caramel_cube","iceandfire:pixie"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/entity/tier2" loot table.
+			#Requires a player kill to trigger coin drops.
+			T2=["minecraft:zombie","minecraft:skeleton","minecraft:creeper","minecraft:spider","minecraft:cave_spider","minecraft:husk","minecraft:stray","minecraft:zombie_villager","minecraft:drowned","alexsmobs:bone_serpent","alexsmobs:anaconda","alexsmobs:froststalker","alexsmobs:rattlesnake","alexsmobs:rockey_roller","alexsmobs:skreecher","alexsmobs:soul_vulture","alexsmobs:tarantula_hawk"," neapolitan:plantain_spider","ars_nouveau:wilden_guardian","ars_nouveau:wilden_hunter","ars_nouveau:wilden_stalker","caverns_and_chasms:deeper","savage_and_ravage:skeleton_villager","minecraft:pillager","minecraft:vindicator","minecraft:evoker","eidolon:wraith","graveyard:skeleton_creeper","graveyard:nightmare","dungeonnowloading:hollow","aquamirae:tortured_soul","cataclysm:octohost","blue_skies:shrumpty","blue_skies:azulfo","blue_skies:armored_frost_spirit","blue_skies:nested_spider","blue_skies:nyctofly","minecells:leaping_zombie","minecells:undead_archer","quark:wraith","alexscaves:ferrouslime","alexscaves:gingerbread_man","iceandfire:hippogryph","iceandfire:death_worm","graveyard:revenant","creeperoverhaul:mushroom_creeper","creeperoverhaul:savannah_creeper","creeperoverhaul:spruce_creeper","creeperoverhaul:beach_creeper","creeperoverhaul:snowy_creeper","creeperoverhaul:ocean_creeper","creeperoverhaul:hills_creeper","creeperoverhaul:badlands_creeper","creeperoverhaul:desert_creeper","creeperoverhaul:jungle_creeper","creeperoverhaul:bamboo_creeper","creeperoverhaul:swamp_creeper","creeperoverhaul:cave_creeper","creeperoverhaul:dripstone_creeper","creeperoverhaul:dark_oak_creeper"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/entity/tier3" loot table.
+			#Requires a player kill to trigger coin drops.
+			T3=["minecraft:guardian","minecraft:elder_guardian","minecraft:phantom","minecraft:blaze","minecraft:ghast","minecraft:hoglin","minecraft:piglin_brute","minecraft:piglin","minecraft:zombified_piglin","alexsmobs:crimson_mosquito","alexsmobs:dropbear","alexsmobs:guster","alexsmobs:skelewag","alexsmobs:tusklin","cataclysm:koboleton","thermal:blitz","mowziesmobs:bluff","cataclysm:draugr","thermal:blizz","thermal:basalz","caverns_and_chasms:peeper","caverns_and_chasms:evendeeper","savage_and_ravage:griefer","savage_and_ravage:executioner","savage_and_ravage:trickster","savage_and_ravage:iceologer","hunterss_return:hunter","graveyard:acolyte","yungscavebiomes:sand_snapper","yungscavebiomes:ice_cube","cataclysm:the_watcher","cataclysm:deepling","aquamirae:anglerfish","aquamirae:maw","blue_skies:stonelet","blue_skies:polargeist","blue_skies:diophyde_prowler","blue_skies:crynocerous","blue_skies:venom_spider","blue_skies:infested_swarmer","blue_skies:emberback","blue_skies:shade_monitor","minecells:shieldbearer","minecells:scorpion","undergarden:rotwalker","netherexp:carcass","aether:sentry","alexscaves:deep_one","alexscaves:mine_guardian","alexscaves:vallumraptor","alexscaves:vesper","alexscaves:watcher","alexscaves:underzealot","alexscaves:candicorn","alexscaves:gumbeeper","minecraft:enderman","irons_spellbooks:citadel_keeper","caverns_and_chasms:mime","quark:forgotten","artifacts:mimic","endermanoverhaul:warped_forest_enderman","endermanoverhaul:windswept_hills_enderman","endermanoverhaul:coral_enderman","endermanoverhaul:savanna_enderman","endermanoverhaul:desert_enderman","endermanoverhaul:end_enderman","endermanoverhaul:end_islands_enderman","endermanoverhaul:hammerhead_pet_enderman","endermanoverhaul:axolotl_pet_enderman","endermanoverhaul:pet_enderman","endermanoverhaul:snowy_enderman","endermanoverhaul:dark_oak_enderman","endermanoverhaul:flower_fields_enderman","endermanoverhaul:ice_spikes_enderman","endermanoverhaul:mushroom_fields_enderman","endermanoverhaul:soulsand_valley_enderman","endermanoverhaul:badlands_enderman","endermanoverhaul:cave_enderman","endermanoverhaul:crimson_forest_enderman","endermanoverhaul:nether_wastes_enderman","endermanoverhaul:swamp_enderman"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/entity/tier4" loot table.
+			#Requires a player kill to trigger coin drops.
+			T4=["minecraft:shulker","alexsmobs:enderiophage","alexsmobs:farseer","alexsmobs:murmur","alexsmobs:straddler","cataclysm:royal_draugr","minecraft:ravager","immersiveengineering:fusilier","immersiveengineering:commando","immersiveengineering:bulwark","irons_spellbooks:necromancer","eidolon:zombie_brute","eidolon:giant_skeleton","eidolon:necromancer","dungeonnowloading:scuttle","cataclysm:deepling_brute","minecells:grenadier","minecells:shocker","minecells:inquisitor","minecells:sweeper","netherexp:banshee","aether:fire_minion","aether:valkyrie","alexscaves:teletor","alexscaves:boundroid","alexscaves:deep_one_knight","alexscaves:deep_one_mage","alexscaves:subterranodon","iceandfire:cockatrice","iceandfire:troll","iceandfire:stymphalian_bird","iceandfire:siren"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/entity/tier5" loot table.
+			#Requires a player kill to trigger coin drops.
+			T5=["minecraft:wither_skeleton","mowziesmobs:foliaath","cataclysm:elite_draugr","mowziesmobs:naga","dungeonnowloading:spawner_carrier","cataclysm:deepling_angler","cataclysm:deepling_priest","cataclysm:deepling_warlock","cataclysm:cindaria","minecells:runner","minecells:protector","undergarden:rotbeast","netherexp:apparition","netherexp:vessel","netherexp:stampede","alexscaves:grottoceratops","alexscaves:relicheirus","alexscaves:caniac","iceandfire:cyclops","irons_spellbooks:ice_spider"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/entity/tier6" loot table.
+			#Requires a player kill to trigger coin drops.
+			T6=["alexsmobs:mimicube","irons_spellbooks:priest","irons_spellbooks:pyromancer","irons_spellbooks:apothecarist","irons_spellbooks:cryomancer","irons_spellbooks:archevoker","traveloptics:aquamancer","traveloptics:aqua_grandmaster","cataclysm:amethyst_crab","dungeonnowloading:ballista_golem","cataclysm:hippocamtus","cataclysm:ignited_berserker","alexscaves:nucleeper","alexscaves:brainiac","alexscaves:atlatitan","alexscaves:gum_worm","alexscaves:licowitch","aquamirae:eel","aether:mimic"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/boss/tier1" loot table.
+			#Does NOT require a player kill to trigger coin drops.
+			BossT1=["cataclysm:coralssus","cataclysm:coral_golem","alexscaves:magnetron","iceandfire:gorgon","iceandfire:sea_serpent","iceandfire:hydra","meetyourfight:swampjaw","conjurer_illager:conjurer","undergarden:forgotten_guardian"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/boss/tier2" loot table.
+			#Does NOT require a player kill to trigger coin drops.
+			BossT2=["iceandfire:ice_dragon","iceandfire:fire_dragon","iceandfire:lightning_dragon","mowziesmobs:ferrous_wroughtnaut","mowziesmobs:umvuthi","meetyourfight:bellringer","aquamirae:maze_mother"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/boss/tier3" loot table.
+			#Does NOT require a player kill to trigger coin drops.
+			BossT3=["cataclysm:wadjet","cataclysm:kobolediator","cataclysm:the_prowler","mowziesmobs:frostmaw","meetyourfight:dame_fortuna","blue_skies:summoner","blue_skies:alchemist"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/boss/tier4" loot table.
+			#Does NOT require a player kill to trigger coin drops.
+			BossT4=["minecraft:warden","cataclysm:ignited_revenant","alexscaves:hullbreaker","alexscaves:tremorsaurus","alexscaves:forsaken","galosphere:berserker","dungeonnowloading:chaos_spawner","irons_spellbooks:dead_king","minecells:concierge","aether:slider","cataclysm:ender_golem"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/boss/tier5" loot table.
+			#Does NOT require a player kill to trigger coin drops.
+			BossT5=["minecraft:ender_dragon","aquamirae:captain_cornelia","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:lich","meetyourfight:rosalyne","botania:doppelganger","ars_nouveau:wilden_boss","blue_skies:arachnarch","blue_skies:starlit_crusher","cataclysm:netherite_monstrosity","aether:valkyrie_queen"]
+			#List of Entities that will drop loot from the "lightmanscurrency:loot_addons/boss/tier6" loot table.
+			#Does NOT require a player kill to trigger coin drops.
+			BossT6=["minecraft:wither","alexsmobs:void_worm","alexscaves:luxtructosaurus","graveyard:lich","cataclysm:scylla","cataclysm:ancient_remnant","cataclysm:the_leviathan","cataclysm:maledictus","minecells:conjunctivius","bosses_of_mass_destruction:gauntlet","cataclysm:ignis","aether:sun_spirit","lost_aether_content:aerwhale_king","bosses_of_mass_destruction:obsidilith","cataclysm:ender_guardian","traveloptics:the_nightwarden","irons_spellbooks:fire_boss"]
+	#Chest Loot Settings
+	[loot.chests]
+		#Whether coins can spawn in chests.
+		#Default: true
+		enabled=true
+		#Chest Spawn Lists
+		[loot.chests.lists]
+			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier1" loot table.
+			T1=["idas:chests/abandonedhouse/abandonedhouse","idas:chests/abandonedhouse/abandonedhouse_create","idas:chests/apothecary_abode/apothecary_abode","idas:chests/bearclaw_inn/bearclaw_inn_bedroom","idas:chests/beekeepers_house/beekeepers_bedroom","idas:chests/botanist/botanist_bedroom","idas:chests/brickhouse/brickhouse","idas:chests/cottage/cottage","idas:chests/farmhouse/farmhouse","idas:chests/farmhouse/farmhouse_bedroom","idas:chests/fishermans_lodge/fishermans_lodge","idas:chests/hermits_hollow/hollow_bedroom","idas:chests/hunters_cabin/hunters_cabin","idas:chests/mason_house/mason_house","idas:chests/mason_house/mason_house_bedroom","idas:chests/the_log/the_log","idas:chests/tinkers_workshop/tinkers_workshop","idas:chests/tinkers_workshop/tinkers_workshop_bedroom","idas:chests/tudor_pub/tudor_pub_barrel","idas:chests/tudor_pub/tudor_pub_storage","idas:chests/wacky_wares/wacky_wares_store","mvs:general","mvs:houses_common","mvs:houses_desert","mvs:houses_flower","mvs:cart","mvs:large_carts","mvs:swamps","aquamirae:chests/maze_camp_chest","aquamirae:chests/maze_common_chest","artifacts:chests/campsite_barrel","dungeoncrawl:chests/stage_1","eidolon:chests/catacomb_basic","eidolon:chests/catacomb_coffin","hunters_return:chests/illager_woodhut_barrel","integrated_villages:chests/airship_village/airship_village","integrated_villages:chests/airship_village/airship_village_bedroom","integrated_villages:chests/airship_village/airship_village_farmhouse","integrated_villages:chests/cabin_village/cabin_village","integrated_villages:chests/cabin_village/cabin_village_bedroom","integrated_villages:chests/cabin_village/cabin_village_farmhouse","integrated_villages:chests/clockwork_village/clockwork_village","integrated_villages:chests/clockwork_village/clockwork_village_bedroom","integrated_villages:chests/clockwork_village/clockwork_village_farmhouse","integrated_villages:chests/kutcha_village/kutcha_village","integrated_villages:chests/kutcha_village/kutcha_village_bedroom","integrated_villages:chests/kutcha_village/kutcha_village_farmhouse","integrated_villages:chests/marketstead_village/marketstead_village","integrated_villages:chests/marketstead_village/marketstead_village_bedroom","integrated_villages:chests/marketstead_village/marketstead_village_farmhouse","integrated_villages:chests/mediterranean_village/mediterranean_village","integrated_villages:chests/mediterranean_village/mediterranean_village_bedroom","integrated_villages:chests/mediterranean_village/mediterranean_village_farmhouse","integrated_villages:chests/minka_village/minka_village","integrated_villages:chests/minka_village/minka_village_bedroom","integrated_villages:chests/minka_village/minka_village_farmhouse","integrated_villages:chests/mossy_mounds/mossy_mounds","integrated_villages:chests/mossy_mounds/mossy_mounds_bedroom","integrated_villages:chests/mossy_mounds/mossy_mounds_farmhouse","integrated_villages:chests/oasis_village/oasis_village","integrated_villages:chests/oasis_village/oasis_village_bedroom","integrated_villages:chests/oasis_village/oasis_village_farmhouse","integrated_villages:chests/pirate_village/pirate_village","integrated_villages:chests/pirate_village/pirate_village_bedroom","integrated_villages:chests/pirate_village/pirate_village_farmhouse","integrated_villages:chests/swamp_village/swamp_village","integrated_villages:chests/swamp_village/swamp_village_bedroom","integrated_villages:chests/swamp_village/swamp_village_farmhouse","integrated_villages:chests/tavern_village/tavern_village","integrated_villages:chests/tavern_village/tavern_village_bedroom","integrated_villages:chests/tavern_village/tavern_village_farmhouse","mowziesmobs:chests/umvuthana_grove_chest","graveyard:chests/small_loot","graveyard:chests/small_graveyard_loot","graveyard:chests/vase_loot","graveyard:chests/misc_loot","irons_spellbooks:chests/battleground/piglin_camp","irons_spellbooks:chests/catacombs/pot","irons_spellbooks:chests/ice_spider_den/pot","irons_spellbooks:chests/sewer_loot"]
+			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier2" loot table.
+			T2=["idas:chests/ancient_mines/mineshall","idas:chests/abandonedhouse/abandonedhouse_library","idas:chests/brickhouse/brickhouse_library","idas:chests/collectors_museum/museum_basic","idas:chests/castle/castle_bedroom","idas:chests/desert_pyramid/desert_pyramid_surface","idas:chests/ruins_of_the_deep/ruins_create","idas:chests/train_ruins/train_ruins","idas:chests/treetop_tavern/treetop_tavern","idas:chests/treetop_tavern/treetop_tavern_bedroom","idas:chests/winter_wagon/winter_wagon","mvs:abandoned","mvs:houses_uncommon","mvs:houses_books","mvs:cartographer_tower","mvs:cathedral_base","mvs:large_carts_2","alexscaves:chests/abyssal_ruins","alexscaves:chests/licowitch_tower","apotheosis:chests/tome_tower","aquamirae:chests/ship_1","artifacts:chests/campsite_chest","deep_aether:chests/dungeon/brass/brass_dungeon","dungeoncrawl:chests/stage_3","dungeoncrawl:chests/stage_2","dungeonnowloading:chests/temple_of_duality/material/easy_combat","dungeonnowloading:chests/temple_of_duality/material/easy_puzzle","dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_normal","dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_supply","dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_barrels","dungeons_arise_seven_seas:chests/small_yacht/small_yacht_normal","dungeons_arise_seven_seas:chests/small_yacht/small_yacht_barrels","environmental:chests/log_cabin","hunters_return:chests/illager_woodhut","minecells:chests/prison","minecells:chests/common/prison_blocks","minecells:chests/promenade","minecells:chests/common/promenade_blocks","minecells:chests/promenade/promenade_common","mowziesmobs:chests/monastery_chest","graveyard:chests/medium_loot","graveyard:chests/medium_graveyard_loot","graveyard:chests/desert_graveyard_loot","graveyard:chests/swamp_graveyard_loot","conjurer_illager:chests/dressing_room","totw_modded:tower_chest","totw_modded:ocean_tower_chest","betterdeserttemples:chests/storage","betterdeserttemples:chests/pot","betterfortresses:chests/storage","betterwitchhuts:chests/hut_0","irons_spellbooks:chests/battleground/burial_loot","irons_spellbooks:chests/catacombs/armory_loot","irons_spellbooks:chests/catacombs/crypt_loot","irons_spellbooks:chests/catacombs/wall_loot","irons_spellbooks:chests/ice_spider_den/basement"]
+			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier3" loot table.
+			T3=["minecraft:chests/jungle_temple","minecraft:chests/nether_bridge","minecraft:chests/simple_dungeon","minecraft:chests/ruined_portal","idas:chests/archmages_tower/archmages_tower","idas:chests/bazaar/bazaar","idas:chests/brickhouse/brickhouse_windmill","idas:chests/castle/castle","idas:chests/collectors_museum/museum_jail","idas:chests/collectors_museum/museum_library","idas:chests/collectors_museum/museum_space","idas:chests/collectors_museum/museum_treasure","idas:chests/dread_citadel/dread_citadel","idas:chests/labyrinth/labyrinth","idas:chests/labyrinth/labyrinth_library","idas:chests/nexus/nexus","idas:chests/pillager_camp/pillager_camp","idas:chests/pillager_fortress/pillager_basic","idas:chests/pillager_fortress/pillager_bedroom","idas:chests/pillager_fortress/pillager_library","idas:chests/ruined_fort/ruined_fort","idas:chests/ruins_of_the_deep/ruins_library","idas:chests/tinkers_citadel/tinkers_citadel","idas:chests/tinkers_citadel/tinkers_citadel_bedroom","idas:chests/tinkers_citadel/tinkers_citadel_create","idas:chests/tinkers_citadel/tinkers_citadel_library","idas:chests/tinkers_citadel/tinkers_citadel_tools","idas:chests/train_ruins/train_ruins_create","idas:chests/wizardtower/wizardtower_basic","idas:chests/wizardtower/wizardtower_library","mvs:houses_rare","mvs:rare","mvs:pillager","mvs:jungle_tower","mvs:cathedral_common","aether:chests/dungeon/bronze/bronze_dungeon","aether:chests/dungeon/bronze/bronze_dungeon_loot","aether:chests/dungeon/silver/silver_dungeon","aether:chests/dungeon/silver/silver_dungeon_loot","aether:chests/ruined_portal","apotheosis:chests/spawner_brutal","atmospheric:chests/arid_garden","deep_aether:chests/dungeon/brass/brass_dungeon_loot","deep_aether:chests/dungeon/brass/brass_dungeon_reward","dungeoncrawl:chests/stage_5","dungeoncrawl:chests/stage_4","dungeonnowloading:chests/temple_of_duality/material/normal_combat","dungeonnowloading:chests/temple_of_duality/material/normal_puzzle","dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal","dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_barrels","dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_normal","dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_supply","dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_barrels","dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_normal_lower","dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_normal_upper","dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_supply","dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_barrels","integrated_villages:chests/airship_village/airship_village_blacksmith","integrated_villages:chests/cabin_village/cabin_village_blacksmith","integrated_villages:chests/clockwork_village/clockwork_village_blacksmith","integrated_villages:chests/kutcha_village/kutcha_village_blacksmith","integrated_villages:chests/marketstead_village/marketstead_village_blacksmith","integrated_villages:chests/mediterranean_village/mediterranean_village_blacksmith","integrated_villages:chests/minka_village/minka_village_blacksmith","integrated_villages:chests/mossy_mounds/mossy_mounds_blacksmith","integrated_villages:chests/oasis_village/oasis_village_blacksmith","integrated_villages:chests/pirate_village/pirate_village_blacksmith","integrated_villages:chests/swamp_village/swamp_village_armorer","integrated_villages:chests/swamp_village/swamp_village_blacksmith","integrated_villages:chests/tavern_village/tavern_village_blacksmith","netherexp:chests/chapel","netherexp:chests/sanctum_supply","minecells:chests/promenade/promenade_uncommon","minecells:chests/ramparts/ramparts_common","graveyard:chests/large_loot","graveyard:chests/large_graveyard_loot","graveyard:chests/crypt_urn_loot","graveyard:chests/crypt_loot","outer_end:chests/catacomb_generic","traveloptics:chests/aqua_mage_tower/aqua_mage_treasure_storage","betterdeserttemples:chests/lab","betterdeserttemples:chests/library","betterdeserttemples:chests/statue","betterfortresses:chests/hall","betterfortresses:chests/quarters","betterfortresses:chests/extra","irons_spellbooks:chests/catacombs/coffin_loot","irons_spellbooks:chests/citadel/rampart_chest","irons_spellbooks:chests/citadel/rampart_supplies","irons_spellbooks:chests/citadel/spawner_reward","irons_spellbooks:chests/evoker_fort","irons_spellbooks:chests/evoker_fort/guard_tower","irons_spellbooks:chests/generic_magic_treasure","irons_spellbooks:chests/impaled_icebreaker/captain_quarters","irons_spellbooks:chests/mountain_tower/mountain_tower","irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage","irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies"]
+			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier4" loot table.
+			T4=["minecraft:chests/stronghold_crossing","minecraft:chests/stronghold_corridor","minecraft:chests/stronghold_library","minecraft:chests/ancient_city","idas:chests/abandonedhouse/abandonedhouse_library","idas:chests/ancient_mines/mineshall","idas:chests/ancient_statue/ancient_statue_jungle","idas:chests/apothecary_abode/apothecary_abode_books","idas:chests/archmages_tower/archmages_tower_library","idas:chests/brickhouse/brickhouse_library","idas:chests/castle/castle_library","idas:chests/collectors_museum/museum_library","idas:chests/desert_pyramid/desert_pyramid_library","idas:chests/haunted_manor/haunted_manor_library","idas:chests/labyrinth/labyrinth_library","idas:chests/dread_citadel/dread_citadel_library","idas:chests/enchantingtower/enchantingtower_library","idas:chests/tinkers_citadel/tinkers_citadel_library","idas:chests/tinkers_workshop/tinkers_workshop_vault","idas:chests/wizardtower/wizardtower_top","mvs:cathedral_rare","aether:chests/dungeon/bronze/bronze_dungeon_reward","aether:chests/dungeon/bronze/bronze_dungeon_treasure","aether:chests/dungeon/silver/silver_dungeon_reward","apotheosis:chests/chest_valuable","aquamirae:chests/frozen_chest","atmospheric:kousa_sanctum","deep_aether:chests/dungeon/brass/brass_dungeon_treasure","dungeoncrawl:chests/treasure","dungeonnowloading:chests/labyrinth/reward","dungeonnowloading:chests/temple_of_duality/material/hard_combat","dungeonnowloading:chests/temple_of_duality/material/hard_puzzle","dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure","dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_treasure","dungeons_arise_seven_seas:chests/small_yacht/small_yacht_treasure","dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_treasure","dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_treasure","infernalexp:chests/heaven_portal","integrated_villages:chests/airship_village/airship_village_create","integrated_villages:chests/marketstead_village/marketstead_village_create","integrated_villages:chests/mediterranean_village/mediterranean_village_create","integrated_villages:chests/pirate_village/pirate_village_create","integrated_villages:chests/swamp_village/swamp_village_create","integrated_villages:chests/tavern_village/tavern_village_create","minecells:chests/promenade/promenade_rare","minecells:chests/promenade_rune","minecells:chests/ramparts/ramparts_uncommon","minecells:chests/common/general_treasure","graveyard:chests/great_crypt_loot","outer_end:chests/basement_loot","traveloptics:chests/aqua_mage_tower/aqua_mage_basic_storage","traveloptics:chests/impaled_icebreaker_captain_quarters","betterdeserttemples:chests/tomb","betterdeserttemples:chests/tomb_pharaoh","betterjungletemples:chests/treasure","betterfortresses:chests/puzzle","irons_spellbooks:chests/citadel/citadel_vault","irons_spellbooks:chests/catacombs/hidden_trough_treasure","irons_spellbooks:chests/ice_spider_den/dungeon","irons_spellbooks:chests/ice_spider_den/spawner_reward","irons_spellbooks:chests/pyromancer_tower/fire_ale_cask","irons_spellbooks:chests/pyromancer_tower/fire_ale_trove","irons_spellbooks:chests/pyromancer_tower/old_cask"]
+			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier5" loot table.
+			T5=["minecraft:chests/buried_treasure","minecraft:chests/bastion_hoglin_stable","minecraft:chests/bastion_bridge","minecraft:chests/bastion_other","minecraft:chests/bastion_treasure","minecraft:chests/end_city_treasure","idas:chests/ancient_portal/ancient_portal_nether","idas:chests/ancient_portal/ancient_portal_overworld","idas:chests/ancient_statue/ancient_statue_treasure_desert","idas:chests/ancient_statue/ancient_statue_treasure_jungle","idas:chests/ancient_statue/ancient_statue_treasure_plains","idas:chests/archmages_tower/archmages_tower_treasure","idas:chests/castle/castle_throne","idas:chests/dread_citadel/dread_citadel_throne","idas:chests/desert_pyramid/desert_pyramid_tomb","idas:chests/desert_pyramid/desert_pyramid_treasure","idas:chests/labyrinth/labyrinth_treasure","idas:chests/labyrinth/if_labyrinth_tomb","idas:chests/ruins_of_the_deep/ruins_treasure","idas:chests/sunken_ship/sunken_ship_treasure","idas:chests/tinkers_citadel/tinkers_citadel_vault","idas:chests/tinkers_workshop/tinkers_workshop_vault","aether:chests/dungeon/bronze/bronze_dungeon_neptune","aether:chests/dungeon/silver/silver_dungeon_gravitite","aether:chests/dungeon/silver/silver_dungeon_treasure","integrated_villages:chests/airship_village/airship_village_treasure","integrated_villages:chests/marketstead_village/marketstead_village_tomb","integrated_villages:chests/mediterranean_village/mediterranean_village_treasure","integrated_villages:chests/minka_village/minka_village_treasure","integrated_villages:chests/mossy_mounds/mossy_mounds_treasure","integrated_villages:chests/pirate_village/pirate_village_treasure","integrated_villages:chests/swamp_village/swamp_village_tomb","integrated_villages:chests/tavern_village/tavern_village_treasure","cataclysm:chests/acropolis_treasure","skyarena:battle_rewards/crimson_key","skyarena:battle_rewards/desert_key","skyarena:battle_rewards/ender_key","skyarena:battle_rewards/forest_key","skyarena:battle_rewards/ice_key","outer_end:chests/catacomb_treasure","traveloptics:chests/void_cathedral/hidden_sculk_room","traveloptics:chests/void_cathedral/library_lower_basic","traveloptics:chests/void_cathedral/library_higher_basic","betterdeserttemples:chests/pharaoh_hidden","betterfortresses:chests/worship","betterfortresses:chests/keep","betteroceanmonuments:chests/upper_side_chamber"]
+			#List of Loot Tables that will also spawn loot from the "lightmanscurrency:loot_addons/chest/tier6" loot table.
+			T6=["aether:chests/dungeon/gold/gold_dungeon_reward","aether:chests/dungeon/gold/gold_dungeon_treasure","aether:chests/dungeon/silver/silver_dungeon_valkyrie","caverns_and_chasms:chests/vault","cataclysm:chests/frosted_prison_treasure","lost_aether_content:chests/platinum_treasure_loot","minecells:chests/ramparts/ramparts_rare","traveloptics:chests/void_cathedral/hidden_treasure_place","traveloptics:chests/void_cathedral/library_lower_treasure","traveloptics:chests/void_cathedral/library_higher_treasure","traveloptics:chests/void_cathedral/silly_treasure"]
+#Structure Settings
+#Requires a /reload command to be applied correctly
+[structures]
+	#Whether new village structures will have a chance to spawn in vanilla villages
+	#Default: true
+	villageHouses=true
+	#Whether new structures will have a chance to spawn in ancient cities
+	#Default: true
+	ancientCity=true
+	#Whether new special structures designed for Integrated Dungeons and Structures compatibility can spawn
+	#Does nothing if IDAS is not installed
+	#Default: true
+	idasStructures=true
+#Mixin Options
+[mixins]
+	#Whether coins given to a player with the /give command should be intercepted by the players wallet if one is equipped
+	#Default: true
+	giveCommandIntercept=true
+	#Whether coins give to the player via Forges ItemHandlerHelper utilities should be intercepted by the players wallet if one is equipped
+	#Default: true
+	itemHelperIntercept=true
+	[mixins.compat]
+		#Whether the Impactor compat will be initialized.
+		#Requires a full server reboot for changes to be applied!
+		#Default: true
+		impactorModule=true

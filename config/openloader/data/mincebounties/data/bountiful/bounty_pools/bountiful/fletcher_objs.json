@@ -71,6 +71,33 @@
                 "max": 16
             },
             "unitWorth": 100
+        },
+        "caverns_and_chasms_blunt_arrow_obj": {
+            "type": "item",
+            "content": "caverns_and_chasms:blunt_arrow",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 1000
+        },
+        "caverns_and_chasms_ricochet_arrow_obj": {
+            "type": "item",
+            "content": "caverns_and_chasms:ricochet_arrow",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 1000
+        },
+        "hunters_return_boomerang_obj": {
+            "type": "item",
+            "content": "huntersreturn:boomerang",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2000
         }
     }
 }

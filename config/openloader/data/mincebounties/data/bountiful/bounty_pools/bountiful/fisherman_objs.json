@@ -472,6 +472,66 @@
             },
             "unitWorth": 5000,
             "rarity": "RARE"
+        },
+        "collectorsreap_tiger_prawn_obj": {
+            "type": "item",
+            "content": "collectorsreap:tiger_prawn",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "RARE"
+        },
+        "collectorsreap_platinum_bass_obj": {
+            "type": "item",
+            "content": "collectorsreap:platinum_bass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "RARE"
+        },
+        "collectorsreap_chieftain_crab_obj": {
+            "type": "item",
+            "content": "collectorsreap:chieftain_crab",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "rarity": "RARE"
+        },
+        "collectorsreap_uni_obj": {
+            "type": "item",
+            "content": "collectorsreap:uni",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1500,
+            "rarity": "RARE"
+        },
+        "collectorsreap_clam_obj": {
+            "type": "item",
+            "content": "collectorsreap:clam",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "rarity": "RARE"
+        },
+        "collectorsreap_lunar_pearl_obj": {
+            "type": "item",
+            "content": "collectorsreap:lunar_pearl",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000,
+            "rarity": "LEGENDARY"
         }
     }
 }
