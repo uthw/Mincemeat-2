@@ -1,0 +1,623 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	default_repeatable_quest: true
+	filename: "shop"
+	group: "375E2D7D7633EF28"
+	hide_quest_until_deps_complete: true
+	icon: "lightmanscurrency:trading_core"
+	id: "3931D28B6EF891A1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:evocation"
+				}
+			}
+			id: "416D652B31DE3F14"
+			rewards: [{
+				id: "42B1A148161E878D"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:evocation"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "574A978BE0A0D8FE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Evocation Manuscript"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "traveloptics:aqua"
+				}
+			}
+			id: "1E5B5C61294744F3"
+			rewards: [{
+				id: "560D1393789E3268"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "traveloptics:aqua"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "1588F98EA7F71ACE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Aqua Manuscript"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:fire"
+				}
+			}
+			id: "6A7E97C1AB0FCB2A"
+			rewards: [{
+				id: "615FDA363B3AC666"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:fire"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "59B4FC546E6F72FC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Fire Manuscript"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:lightning"
+				}
+			}
+			id: "37D50579BD0CF8E4"
+			rewards: [{
+				id: "0FD5D76C1C8812B2"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:lightning"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "1B411DEE46FED288"
+				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "Lightning Manuscript"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:holy"
+				}
+			}
+			id: "3314272A6EF345AB"
+			rewards: [{
+				id: "6FF7D4BCB7510884"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:holy"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "59034F6C9C40D199"
+				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "Holy Manuscript"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:ender"
+				}
+			}
+			id: "3C8CB81812D4DF4D"
+			rewards: [{
+				id: "63118267EC43C5E2"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:ender"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "57523F727E80E243"
+				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "Ender Manuscript"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:blood"
+				}
+			}
+			id: "70D3C0AE7CDC3149"
+			rewards: [{
+				id: "11878A30061FDB2B"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:blood"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "321EE2B7D962F7C9"
+				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "Blood Manuscript"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:nature"
+				}
+			}
+			id: "3BBE03A7A1FDE495"
+			tasks: [{
+				count: 5L
+				id: "6790C62A479399EF"
+				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "Nature Manuscript"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "everycomp:q/alexscaves/pewen_chest"
+			id: "48226134BF3781A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C530BEC457F559D"
+				table_id: 2485369126129112921L
+				title: "Economy Crate"
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72780BB5204E22DC"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Economy Crate (1 Emerald)"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "62F2E5BC15EE67FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68AFF90609915A33"
+				table_id: 3622592181297747645L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "591010D4D5DB7077"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Artifact Crate (2 Emerald)"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "4CAC0548803144B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47F7F5811F493992"
+				table_id: 6949821815773563770L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "623566F5A381F715"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Relic Crate (4 Emerald)"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "caverns_and_chasms:conceal"
+						lvl: 7s
+					}]
+				}
+			}
+			id: "41AFA5A90827DE8E"
+			rewards: [{
+				command: "/loot give @p loot mincemeat:level_30_book"
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "majruszsenchantments:slippery_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				id: "5C488A72F3C263E0"
+				title: "Enchanted Book (Level 30)"
+				type: "command"
+			}]
+			tasks: [{
+				count: 6L
+				id: "502B11D66ECD0695"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Enchanted Book (Level 30) (6 Gold)"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["722B113FC9042698"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:gold_fuelled"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "68D552E9B59FE676"
+			rewards: [{
+				command: "/loot give @p loot mincemeat:level_45_book"
+				id: "6878EACAD7687215"
+				type: "command"
+			}]
+			tasks: [{
+				count: 6L
+				id: "702F888D68074BA0"
+				item: { Count: 6, id: "lightmanscurrency:coin_emerald" }
+				type: "item"
+			}]
+			title: "Enchanted Book (Level 45) (6 Emerald)"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["520A629F81C286FF"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ensorcellation:magic_protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "7B73366238FD5D2A"
+			rewards: [{
+				command: "/loot give @p loot mincemeat:level_60_book"
+				id: "6F546B58ACBF7411"
+				type: "command"
+			}]
+			tasks: [{
+				count: 8L
+				id: "63A1F8BFA9A3347B"
+				item: { Count: 8, id: "lightmanscurrency:coin_diamond" }
+				type: "item"
+			}]
+			title: "Enchanted Book (Level 60) (8 Diamond)"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 11s
+					}]
+				}
+			}
+			id: "55A29F71DD647B7D"
+			rewards: [{
+				command: "/loot give @p loot mincemeat:ancient_tome"
+				icon: {
+					Count: 1
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 11s
+						}]
+					}
+				}
+				id: "7375672352D74D44"
+				title: "Random Ancient Tome"
+				type: "command"
+			}]
+			tasks: [{
+				count: 3L
+				id: "798F140829AD45A1"
+				item: { Count: 2, id: "lightmanscurrency:coin_emerald" }
+				type: "item"
+			}]
+			title: "Random Ancient Tome (3 Emerald)"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			icon: "l2artifacts:random_1"
+			id: "376CC18F3D0F1FD8"
+			rewards: [{
+				id: "3DB86E42CEA691A3"
+				item: "l2artifacts:random_1"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "030772BE25B0730B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Common Artifact (4 Gold)"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			icon: "l2artifacts:random_2"
+			id: "5282AC6E03A79F8A"
+			rewards: [{
+				id: "2667600451AAEFDA"
+				item: "l2artifacts:random_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "397F3B70A6A7C28B"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Rare Artifact (1 Emerald)"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			icon: "l2artifacts:random_3"
+			id: "346CF2CDFC9CDB11"
+			rewards: [{
+				id: "728EF984C79EBFEC"
+				item: "l2artifacts:random_3"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7DACE113FEB76B27"
+				item: { Count: 4, id: "lightmanscurrency:coin_emerald" }
+				type: "item"
+			}]
+			title: "Epic Artifact (4 Emerald)"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47F8DC09096B0991"]
+			hide_until_deps_complete: true
+			icon: "l2artifacts:random_4"
+			id: "24A58A56F611AAE2"
+			rewards: [{
+				id: "64B4A1788BC0E9D3"
+				item: "l2artifacts:random_4"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3414D55270DA5572"
+				item: { Count: 2, id: "lightmanscurrency:coin_diamond" }
+				type: "item"
+			}]
+			title: "Legendary Artifact (2 Diamond)"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			icon: "enigmaticlegacy:recall_potion"
+			id: "1DA793BEAFCF7294"
+			rewards: [{
+				id: "4A1B1755702685EF"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "13B7793B5C0765F9"
+				item: { Count: 3, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "Potion of Recall (3 Gold)"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: "waystones:warp_scroll"
+			id: "4171B2773931BE73"
+			rewards: [{
+				id: "6E61995B7B93B1AB"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "04A7CE44E1DE6917"
+				item: { Count: 9, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "Warp Scroll (9 Gold)"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1495D2307BF91921"]
+			icon: "create:precision_mechanism"
+			id: "668AECE84AE6C0BC"
+			rewards: [{
+				id: "15231DA70C840FE7"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "15C4874FD9B69D1F"
+				item: { Count: 5, id: "lightmanscurrency:coin_emerald" }
+				type: "item"
+			}]
+			title: "Precision Mechanism (2 Emerald)"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CB095891B94A06A"]
+			icon: "mekanism:basic_universal_cable"
+			id: "6C80ED380C992B44"
+			rewards: [{
+				count: 8
+				id: "6960AD884AA03901"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "569021BC4F2F91D4"
+				item: { Count: 5, id: "lightmanscurrency:coin_iron" }
+				type: "item"
+			}]
+			title: "8x Basic Universal Cable (5 Iron)"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CB095891B94A06A"]
+			icon: "mekanism:basic_universal_cable"
+			id: "73FF87DDC5A66A1B"
+			rewards: [{
+				count: 64
+				id: "2E025A28E5C5FBDF"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "1DA917572CF1CC21"
+				item: { Count: 3, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "64x Basic Universal Cable (3 Gold)"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D43A2BA54C9EC1C"]
+			icon: "apotheosis:gem_dust"
+			id: "7F5BEF87900BFFD9"
+			rewards: [{
+				count: 3
+				id: "7257BD3C9787ACB3"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6D7271BA022106DA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "3x Gem Dust (8 Iron)"
+			x: 3.0d
+			y: -4.0d
+		}
+	]
+	title: "Shop"
+}

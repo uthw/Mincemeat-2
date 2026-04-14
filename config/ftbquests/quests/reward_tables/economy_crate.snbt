@@ -1,4 +1,6 @@
 {
+	hide_tooltip: true
+	icon: "everycomp:q/alexscaves/pewen_chest"
 	id: "227DCE0D5AA61759"
 	loot_size: 1
 	order_index: 0
@@ -6,7 +8,7 @@
 		{ count: 16, item: "caverns_and_chasms:large_arrow" }
 		{ count: 32, item: "caverns_and_chasms:large_arrow" }
 		{ count: 4, item: "farmersdelight:rich_soil" }
-		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:enchanted_golden_apple", weight: 0.2f }
 		{
 			item: {
 				Count: 1
@@ -55,6 +57,191 @@
 			}
 		}
 		{ count: 4, item: "minecraft:coal_block" }
+		{ count: 3, item: "forbidden_arcanus:xpetrified_orb", random_bonus: 6 }
+		{ count: 2, item: "waystones:return_scroll" }
+		{ count: 2, item: "waystones:bound_scroll" }
+		{ item: "irons_restrictions:unfinished_manuscript" }
+		{ count: 64, item: "architects_palette:sunmetal_block" }
+		{ item: "sophisticatedbackpacks:upgrade_base" }
+		{ item: "sophisticatedstorage:upgrade_base" }
+		{ count: 64, item: "caverns_and_chasms:dripstone_bricks" }
+		{ count: 2, item: "create:andesite_alloy", random_bonus: 8 }
+		{ item: "minecraft:bell" }
+		{ count: 4, item: "miners_delight:vegan_hamburger", random_bonus: 4, weight: 0.2f }
+		{ count: 3, item: "farmersdelight:hamburger", random_bonus: 6 }
+		{ count: 3, item: "apotheosis:gem_dust", random_bonus: 2 }
+		{
+			item: {
+				Count: 1
+				id: "hunters_return:boomerang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "minecraft:golden_apple", random_bonus: 2 }
+		{ count: 64, item: "architects_palette:coal_ore_bricks", weight: 0.2f }
+		{ count: 64, item: "architects_palette:lapis_ore_bricks", weight: 0.2f }
+		{ count: 64, item: "architects_palette:redstone_ore_bricks", weight: 0.2f }
+		{ count: 64, item: "architects_palette:iron_ore_bricks", weight: 0.2f }
+		{ count: 64, item: "architects_palette:gold_ore_bricks", weight: 0.2f }
+		{ count: 64, item: "architects_palette:emerald_ore_bricks", weight: 0.2f }
+		{ count: 64, item: "architects_palette:diamond_ore_bricks", weight: 0.1f }
+		{ count: 4, item: "ars_nouveau:sourceberry_bush", random_bonus: 4 }
+		{ count: 2, item: "irons_spellbooks:magic_cloth", random_bonus: 2 }
+		{ count: 6, item: "ars_nouveau:source_gem", random_bonus: 7 }
+		{ item: "blue_skies:soul_fragment", weight: 0.5f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strength"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "apotheosis:resistance"
+				}
+			}
+			weight: 0.4f
+		}
+		{ count: 15, item: "quark:cherry_bookshelf", weight: 0.2f }
+		{ count: 15, item: "minecraft:bookshelf", weight: 0.2f }
+		{ count: 15, item: "quark:spruce_bookshelf", weight: 0.2f }
+		{ count: 15, item: "quark:dark_oak_bookshelf", weight: 0.2f }
+		{ count: 15, item: "quark:blossom_bookshelf", weight: 0.2f }
+		{ item: "farmersdelight:honey_glazed_ham_block" }
+		{ item: "botanypots:terracotta_botany_pot", weight: 0.5f }
+		{ item: "create:flywheel" }
+		{
+			item: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 12, item: "minecraft:copper_ingot", random_bonus: 12 }
+		{ count: 6, item: "minecraft:iron_ingot", random_bonus: 18 }
+		{ count: 5, item: "minecraft:gold_ingot", random_bonus: 8 }
+		{ count: 2, item: "minecraft:diamond", random_bonus: 3, weight: 0.6f }
+		{ count: 32, item: "caverns_and_chasms:copper_rail", random_bonus: 32 }
+		{ count: 24, item: "minecraft:rail", random_bonus: 24 }
+		{ item: "minecraft:minecart" }
+		{ item: "smallships:sail" }
+		{ item: "enigmaticlegacy:iron_ring" }
+		{ item: "enigmaticlegacy:golden_ring", weight: 0.1f }
+		{ item: "enigmaticlegacy:recall_potion" }
+		{ count: 24, item: "mcwwindows:window_base", random_bonus: 16 }
+		{ item: "forbidden_arcanus:edelwood_bucket" }
+		{ count: 3, item: "eidolon:tattered_cloth", random_bonus: 4 }
+		{ count: 32, item: "minecraft:bone", random_bonus: 32 }
+		{ count: 2, item: "forbidden_arcanus:obsidian_ingot" }
+		{ count: 3, item: "minecraft:ender_pearl", random_bonus: 3 }
+		{ count: 16, item: "farmersdelight:rope", random_bonus: 32 }
+		{ item: "forbidden_arcanus:rune" }
+		{ count: 4, item: "minecraft:lantern", random_bonus: 8 }
+		{ count: 2, item: "iceandfire:ectoplasm", random_bonus: 4 }
+		{ item: "iceandfire:stymphalian_feather_bundle" }
+		{ item: "l2artifacts:random_1" }
+		{ item: "l2artifacts:random_2", weight: 0.5f }
+		{ item: "l2artifacts:random_3", weight: 0.25f }
+		{ count: 5, item: "forbidden_arcanus:arcane_crystal", random_bonus: 5 }
+		{ item: "minecraft:blast_furnace" }
+		{ count: 8, item: "minecraft:feather", random_bonus: 8 }
+		{ item: "irons_spellbooks:blank_rune" }
+		{ item: "majruszsaccessories:gambling_card" }
+		{ item: "majruszsaccessories:reverse_card" }
+		{ item: "majruszsaccessories:dice", weight: 0.5f }
+		{ item: "majruszsaccessories:owl_feather", weight: 0.5f }
+		{ item: "paraglider:stamina_vessel" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_regeneration"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "prettypipes:pipe"
+				tag: { }
+			}
+			random_bonus: 16
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{ count: 64, item: "minecraft:lapis_lazuli" }
+		{ count: 2, item: "reliquary:glowing_water", random_bonus: 1 }
+		{ item: "supplementaries:globe" }
+		{ item: "supplementaries:clock_block" }
+		{ item: "supplementaries:statue" }
+		{ count: 2, item: "supplementaries:doormat" }
+		{ item: "supplementaries:wind_vane" }
+		{ count: 4, item: "supplementaries:soap", random_bonus: 4 }
+		{ count: 3, item: "supplementaries:bomb", random_bonus: 3 }
+		{ count: 2, item: "minecraft:tnt", random_bonus: 3 }
+		{ count: 3, item: "caverns_and_chasms:spinel", random_bonus: 4 }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: { }
+				}
+			}
+			random_bonus: 4
+		}
 	]
 	title: "Economy Crate"
 }
