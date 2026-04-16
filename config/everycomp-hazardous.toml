@@ -25,12 +25,12 @@
 	#        "biomesoplenty:redwood"		COMMENT: exclude redwood from Wood Mod for any module
 	#    ]
 	#
-	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen"]
+	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen", "biomeswevegone:holly"]
 
 [leavestype]
 	#Exclude LeavesType from all of Modules
 	#	The example is same as WoodType's
-	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen"]
+	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen", "biomeswevegone:holly"]
 
 [block]
 	#Exclude a specific WoodType/LeavesType block
