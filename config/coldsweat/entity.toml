@@ -10,7 +10,13 @@
 	    ["minecraft:bamboo_jungle", 80],
 	    ["minecraft:jungle", 80],
 	    ["minecraft:sparse_jungle", 35],
-	    ["minecraft:desert", 1]
+	    ["minecraft:desert", 1],
+	    ["biomeswevegone:fragment_jungle", 50],
+	    ["biomeswevegone:jacaranda_jungle", 50],
+	    ["atmospheric:rainforest", 50],
+	    ["atmospheric:sparse_rainforest", 20],
+	    ["atmospheric:sparse_rainforest_basin", 10],
+	    ["biomeswevegone:tropical_rainforest", 50]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the biomes that Chameleons can spawn in
@@ -19,15 +25,18 @@
 	# • weight: The likelihood for the entity to spawn compared to other entities, higher values mean more common spawns
 	# ⌄ 
 	"Goat Spawn Biomes" = [
-	    ["minecraft:frozen_peaks", 8],
-	    ["minecraft:jagged_peaks", 8],
-	    ["minecraft:snowy_slopes", 8],
-	    ["minecraft:meadow", 3],
-	    ["minecraft:windswept_hills", 6],
-	    ["minecraft:windswept_forest", 6],
-	    ["minecraft:windswept_gravelly_hills", 4],
-	    ["minecraft:grove", 5],
-	    ["minecraft:stony_peaks", 8]
+	    ["minecraft:frozen_peaks", 10],
+	    ["minecraft:jagged_peaks", 12],
+	    ["minecraft:snowy_slopes", 12],
+	    ["minecraft:meadow", 6],
+	    ["minecraft:windswept_hills", 9],
+	    ["minecraft:windswept_forest", 9],
+	    ["minecraft:windswept_gravelly_hills", 8],
+	    ["minecraft:grove", 10],
+	    ["minecraft:stony_peaks", 12],
+	    ["biomeswevegone:howling_peaks", 20],
+	    ["minecraft:cherry_grove", 5],
+	    ["biomeswevegone:temperate_grove", 10]
 	]
 
 #─────────────────────────────────────────────────────────────────────────
@@ -73,8 +82,8 @@
 	    ["alexsmobs:froststalker", -0.08, 3],
 	    ["alexsmobs:guster", -0.1, 7],
 	    ["cataclysm:maledictus", -0.5, 12],
-		["rottencreatures:burned", 0.3, 4],
-		["windswept:chilled", -0.3, 4]
+	    ["rottencreatures:burned", 0.3, 4],
+	    ["windswept:chilled", -0.3, 4]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines entities that are affected by temperature and the climates they can live in
