@@ -1,3 +1,267 @@
 {
-  "content": {}
+    "content": {
+        "nether_wart_obj": {
+            "type": "item",
+            "content": "minecraft:nether_wart",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "glistering_melon_slice_obj": {
+            "type": "item",
+            "content": "minecraft:glistering_melon_slice",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 150
+        },
+        "golden_carrot_obj": {
+            "type": "item",
+            "content": "minecraft:golden_carrot",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 150
+        },
+        "sugar_obj": {
+            "type": "item",
+            "content": "minecraft:sugar",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 75
+        },
+        "ars_nouveau_source_gem_obj": {
+            "type": "item",
+            "content": "ars_nouveau:source_gem",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 1000,
+            "rarity": "RARE"
+        },
+        "ars_nouveau_sourceberry_bush_obj": {
+            "type": "item",
+            "content": "ars_nouveau:sourceberry_bush",
+            "amount": {
+                "min": 4,
+                "max": 8
+            },
+            "unitWorth": 600,
+            "rarity": "UNCOMMON"
+        },
+        "eidolon_pewter_blend_obj": {
+            "type": "item",
+            "content": "eidolon:pewter_blend",
+            "amount": {
+                "min": 4,
+                "max": 12
+            },
+            "unitWorth": 600,
+            "rarity": "UNCOMMON"
+        },
+        "irons_spellbooks_necromancer_kill": {
+            "type": "entity",
+            "content": "irons_spellbooks:necromancer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "graveyard_ghoul_kill": {
+            "type": "entity",
+            "content": "graveyard:ghoul",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1250
+        },
+        "phantom_kill_obj": {
+            "type": "entity",
+            "content": "minecraft:phantom",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 500,
+            "rarity": "UNCOMMON"
+        },
+        "eidolon_wraith_kill": {
+            "type": "entity",
+            "content": "eidolon:wraith",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 400
+        },
+        "alexsmobs_murmur_kill": {
+            "type": "entity",
+            "content": "alexsmobs:murmur",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1750
+        },
+        "graveyard_skeleton_creeper_kill": {
+            "type": "entity",
+            "content": "graveyard:skeleton_creeper",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 350
+        },
+        "eidolon_zombie_heart_obj": {
+            "type": "item",
+            "content": "eidolon:zombie_heart",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000,
+            "rarity": "UNCOMMON"
+        },
+        "eidolon_wraith_heart_obj": {
+            "type": "item",
+            "content": "eidolon:wraith_heart",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1800,
+            "rarity": "EPIC"
+        },
+        "forbidden_arcanus_arcane_crystal_dust_obj": {
+            "type": "item",
+            "content": "forbidden_arcanus:arcane_crystal_dust",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 300
+        },
+        "reliquary_glowing_water_obj": {
+            "type": "item",
+            "content": "reliquary:glowing_water",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 600
+        },
+        "gold_ingot_obj": {
+            "type": "item",
+            "content": "minecraft:gold_ingot",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 250
+        },
+        "totem_of_undying_obj": {
+            "type": "item",
+            "content": "minecraft:totem_of_undying",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "rarity": "EPIC"
+        },
+        "eidolon_shadow_gem_obj": {
+            "type": "item",
+            "content": "eidolon:shadow_gem",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4500,
+            "rarity": "RARE"
+        },
+        "eidolon_lesser_soul_gem_obj": {
+            "type": "item",
+            "content": "eidolon:lesser_soul_gem",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "rarity": "RARE"
+        },
+        "irons_spellbooks_arcane_essence_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:arcane_essence",
+            "amount": {
+                "min": 8,
+                "max": 24
+            },
+            "unitWorth": 250
+        },
+        "mowziesmobs_naga_fang_obj": {
+            "type": "item",
+            "content": "mowziesmobs:naga_fang",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "irons_spellbooks_arcane_cloth_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:arcane_cloth",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 800
+        },
+        "irons_spellbooks_lightning_bottle_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:lightning_bottle",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000,
+            "rarity": "RARE"
+        },
+        "redstone_obj": {
+            "type": "item",
+            "content": "minecraft:redstone",
+            "amount": {
+                "min": 24,
+                "max": 48
+            },
+            "unitWorth": 25
+        },
+        "bulk_redstone_obj": {
+            "type": "item",
+            "content": "minecraft:redstone",
+            "amount": {
+                "min": 128,
+                "max": 256
+            },
+            "unitWorth": 25,
+            "rarity": "RARE"
+        },
+        "glowstone_dust_obj": {
+            "type": "item",
+            "content": "minecraft:glowstone_dust",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 100
+        }
+    }
 }

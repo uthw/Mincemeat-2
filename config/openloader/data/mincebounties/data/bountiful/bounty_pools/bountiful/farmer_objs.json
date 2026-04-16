@@ -53,6 +53,276 @@
                 "max": 8
             },
             "unitWorth": 600
+        },
+        "composter_obj": {
+            "type": "item",
+            "content": "minecraft:composter",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 50
+        },
+        "create_mechanical_harvester_obj": {
+            "type": "item",
+            "content": "create:mechanical_harvester",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "rarity": "RARE"
+        },
+        "supplementaries_planter_obj": {
+            "type": "item",
+            "content": "supplementaries:planter",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 800
+        },
+        "hay_block_obj": {
+            "type": "item",
+            "content": "minecraft:hay_block",
+            "amount": {
+                "min": 3,
+                "max": 9
+            },
+            "unitWorth": 100
+        },
+        "hay_block_bulk_obj": {
+            "type": "item",
+            "content": "minecraft:hay_block",
+            "amount": {
+                "min": 16,
+                "max": 48
+            },
+            "unitWorth": 100,
+            "rarity": "RARE"
+        },
+        "lead_obj": {
+            "type": "item",
+            "content": "minecraft:lead",
+             "amount": {
+                "min": 4,
+                "max": 8
+            },
+            "unitWorth": 300
+        },
+        "domesticationinnovation_collar_tag_obj": {
+            "type": "item",
+            "content": "domesticationinnovation:collar_tag",
+            "amount": {
+                "min": 1,
+                "max": 5
+            },
+            "unitWorth": 300
+        },
+        "ars_nouveau_magebloom_crop_obj": {
+            "type": "item",
+            "content": "ars_nouveau:magebloom_crop",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 700,
+            "rarity": "RARE"
+        },
+        "sugar_cane_obj": {
+            "type": "item",
+            "content": "minecraft:sugar_cane",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 25
+        },
+        "blue_skies_pine_fruit_obj": {
+            "type": "item",
+            "content": "blue_skies:pine_fruit",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 400,
+            "rarity": "EPIC"
+        },
+        "blue_skies_winter_leaves_obj": {
+            "type": "item",
+            "content": "blue_skies:winter_leaves",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 400,
+            "rarity": "EPIC"
+        },
+        "blue_skies_scalefruit_obj": {
+            "type": "item",
+            "content": "blue_skies:scalefruit",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 400,
+            "rarity": "EPIC"
+        },
+        "blue_skies_fiery_beans_obj": {
+            "type": "item",
+            "content": "blue_skies:fiery_beans",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 400,
+            "rarity": "EPIC"
+        },
+        "delightful_cactus_flesh_obj": {
+            "type": "item",
+            "content": "delightful:cactus_flesh",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 200
+        },
+        "farmersdelight_cabbage_obj": {
+            "type": "item",
+            "content": "farmersdelight:cabbage",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "farmersdelight_tomato_obj": {
+            "type": "item",
+            "content": "farmersdelight:tomato",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "farmersdelight_onion_obj": {
+            "type": "item",
+            "content": "farmersdelight:onion",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "farmersdelight_rice_obj": {
+            "type": "item",
+            "content": "farmersdelight:rice",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "miners_delight_cave_carrot_obj": {
+            "type": "item",
+            "content": "miners_delight:cave_carrot",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "biomeswevegone_blueberries_obj": {
+            "type": "item",
+            "content": "biomeswevegone:blueberries",
+            "amount": {
+                "min": 4,
+                "max": 8
+            },
+            "unitWorth": 300
+        },
+        "supplementaries_flax_obj": {
+            "type": "item",
+            "content": "supplementaries:flax",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "windswept_ginger_root_obj": {
+            "type": "item",
+            "content": "windswept:ginger_root",
+            "amount": {
+                "min": 4,
+                "max": 12
+            },
+            "unitWorth": 350
+        },
+        "collectorsreap_lucuma_obj": {
+            "type": "item",
+            "content": "collectorsreap:lucuma",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 3000,
+            "rarity": "LEGENDARY"
+        },
+        "collectorsreap_lime_obj": {
+            "type": "item",
+            "content": "collectorsreap:lime",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "collectorsreap_pink_dragon_fruit_obj": {
+            "type": "item",
+            "content": "collectorsreap:pink_dragon_fruit",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 500,
+            "rarity": "RARE"
+        },
+        "farmersdelight_wheat_dough_obj": {
+            "type": "item",
+            "content": "farmersdelight:wheat_dough",
+            "amount": {
+                "min": 32,
+                "max": 64
+            },
+            "unitWorth": 60
+        },
+        "delightful_acorn_obj": {
+            "type": "item",
+            "content": "delightful:acorn",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 125
+        },
+        "delightful_green_tea_leaf_obj": {
+            "type": "item",
+            "content": "delightful:green_tea_leaf",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 125
+        },
+        "delightful_matcha_obj": {
+            "type": "item",
+            "content": "delightful:matcha",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 375
         }
     }
 }

@@ -98,6 +98,100 @@
                 "max": 2
             },
             "unitWorth": 2000
+        },
+        "alexsmobs_moose_antler_obj": {
+            "type": "item",
+            "content": "alexsmobs:moose_antler",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2000
+        },
+        "iceandfire_stymphalian_bird_feather_obj": {
+            "type": "item",
+            "content": "iceandfire:stymphalian_bird_feather",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 1500,
+            "rarity": "UNCOMMON"
+        },
+        "iceandfire:stymphalian_arrow_obj": {
+            "type": "item",
+            "content": "iceandfire:stymphalian_arrow",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 1500,
+            "rarity": "UNCOMMON"
+        },
+        "iceandfire_dragonbone_obj": {
+            "type": "item",
+            "content": "iceandfire:dragonbone",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 3000,
+            "rarity": "RARE"
+        },
+        "skeleton_kill": {
+            "type": "entity",
+            "content": "minecraft:skeleton",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "pillager_kill": {
+            "type": "entity",
+            "content": "minecraft:pillager",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "savage_and_ravage_skeleton_villager_kill": {
+            "type": "entity",
+            "content": "savage_and_ravage:skeleton_villager",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "hunters_return_hunter_kill": {
+            "type": "entity",
+            "content": "hunters_return:hunter",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+        "quark_forgotten_kill": {
+            "type": "entity",
+            "content": "quark:forgotten",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2500,
+            "rarity": "RARE"
+        },
+        "stray_kill": {
+            "type": "entity",
+            "content": "minecraft:stray",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 750
         }
     }
 }

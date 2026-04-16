@@ -57,7 +57,7 @@
         },
         "naturescompass_natures_compass_obj": {
             "type": "item",
-            "content": "naturescompass:natures_compass",
+            "content": "naturescompass:naturescompass",
             "amount": {
                 "min": 1,
                 "max": 1
@@ -66,12 +66,173 @@
         },
         "explorerscompass_explorers_compass_obj": {
             "type": "item",
-            "content": "explorerscompass:explorers_compass",
+            "content": "explorerscompass:explorerscompass",
             "amount": {
                 "min": 1,
                 "max": 1
             },
             "unitWorth": 2000
+        },
+        "quark_pathfinders_quill_obj": {
+            "type": "item",
+            "content": "quark:pathfinders_quill",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+        "irons_spellbooks_common_ink_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:common_ink",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1000
+        },
+        "irons_spellbooks_uncommon_ink_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:uncommon_ink",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+        "irons_spellbooks_rare_ink_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:rare_ink",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000,
+            "rarity": "RARE"
+        },
+        "irons_spellbooks_epic_ink_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:epic_ink",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "rarity": "EPIC"
+        },
+        "irons_spellbooks_legendary_ink_obj": {
+            "type": "item",
+            "content": "irons_spellbooks:legendary_ink",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "rarity": "EPIC"
+        },
+        "waystones_bound_scroll_obj": {
+            "type": "item",
+            "content": "waystones:bound_scroll",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+        "waystones_return_scroll_obj": {
+            "type": "item",
+            "content": "waystones:return_scroll",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+        "caverns_and_chasms_monocle_obj": {
+            "type": "item",
+            "content": "caverns_and_chasms:monocle",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 12500
+        },
+        "amethyst_shard_obj": {
+            "type": "item",
+            "content": "minecraft:amethyst_shard",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+        "glass_bottle_obj": {
+            "type": "item",
+            "content": "minecraft:glass_bottle",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 100
+        },
+        "supplementaries_antique_ink_obj": {
+            "type": "item",
+            "content": "supplementaries:antique_ink",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000,
+            "rarity": "RARE"
+        },
+        "supplementaries_globe_obj": {
+            "type": "item",
+            "content": "supplementaries:globe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "rarity": "EPIC"
+        },
+        "supplementaries_sepia_globe_obj": {
+            "type": "item",
+            "content": "supplementaries:sepia_globe",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "rarity": "EPIC"
+        },
+        "bulk_paper_obj": {
+            "type": "item",
+            "content": "minecraft:paper",
+            "amount": {
+                "min": 200,
+                "max": 400
+            },
+            "unitWorth": 50,
+            "rarity": "RARE"
+        },
+        "bulk_ink_sac_obj": {
+            "type": "item",
+            "content": "minecraft:ink_sac",
+            "amount": {
+                "min": 50,
+                "max": 150
+            },
+            "unitWorth": 110,
+            "rarity": "RARE"
+        },
+        "ink_sac_obj": {
+            "type": "item",
+            "content": "minecraft:ink_sac",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 100
         }
     }
 }

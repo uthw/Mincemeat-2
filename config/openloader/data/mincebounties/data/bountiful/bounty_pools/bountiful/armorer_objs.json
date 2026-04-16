@@ -25,7 +25,8 @@
                 "min": 1,
                 "max": 6
             },
-            "unitWorth": 2000
+            "unitWorth": 2000,
+            "rarity": "LEGENDARY"
         },
         "undergarden_regalium_crystal_obj": {
             "type": "item",
@@ -98,6 +99,104 @@
                 "max": 24
             },
             "unitWorth": 250
+        },
+        "coal_block_obj": {
+            "type": "item",
+            "content": "minecraft:coal_block",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 400
+        },
+        "bulk_coal_block_obj": {
+            "type": "item",
+            "content": "minecraft:coal_block",
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 425,
+            "rarity": "RARE"
+        },
+        "blaze_rod_obj": {
+            "type": "item",
+            "content": "minecraft:blaze_rod",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 640,
+            "rarity": "RARE"
+        },
+        "createaddition_biomass_pellet_block_obj": {
+            "type": "item",
+            "content": "createaddition:biomass_pellet_block",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 35000,
+            "rarity": "LEGENDARY"
+        },
+        "lava_bucket_obj": {
+            "type": "item",
+            "content": "minecraft:lava_bucket",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 500
+        },
+        "create_sturdy_sheet_obj": {
+            "type": "item",
+            "content": "create:sturdy_sheet",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 6000,
+            "rarity": "RARE"
+        },
+        "create_brass_sheet_obj": {
+            "type": "item",
+            "content": "create:brass_sheet",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 2500,
+            "rarity": "RARE"
+        },
+        "create_brass_ingot_obj": {
+            "type": "item",
+            "content": "create:brass_ingot",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 2000,
+            "rarity": "UNCOMMON"
+        },
+        "iceandfire_troll_leather_obj": {
+            "type": "item_tag",
+            "content": "iceandfire:troll_leather",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 17500,
+            "rarity": "RARE"
+        },
+        "iceandfire_troll_tusk_obj": {
+            "type": "item",
+            "content": "iceandfire:troll_tusk",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 17500,
+            "rarity": "EPIC"
         }
     }
 }

@@ -90,6 +90,138 @@
                 "max": 6
             },
             "unitWorth": 500
+        },
+        "collectorsreap:chieftain_crab_meat_obj": {
+            "type": "item",
+            "content": "collectorsreap:chieftain_crab_meat",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2000,
+            "rarity": "RARE"
+        },
+        "windswept_goat_obj": {
+            "type": "item",
+            "content": "windswept:goat",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 800
+        },
+        "farmersdelight_iron_knife_obj": {
+            "type": "item",
+            "content": "farmersdelight:iron_knife",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200
+        },
+        "farmersdelight_flint_knife_obj": {
+            "type": "item",
+            "content": "farmersdelight:flint_knife",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 400
+        },
+        "farmersdelight_cutting_board_obj": {
+            "type": "item",
+            "content": "farmersdelight:cutting_board",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 250
+        },
+        "bulk_bone_obj": {
+            "type": "item",
+            "content": "minecraft:bone",
+            "amount": {
+                "min": 50,
+                "max": 150
+            },
+            "unitWorth": 25,
+            "rarity": "RARE"
+        },
+        "packed_ice_obj": {
+            "type": "item",
+            "content": "minecraft:packed_ice",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 200
+        },
+        "blue_ice_obj": {
+            "type": "item",
+            "content": "minecraft:blue_ice",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 700,
+            "rarity": "RARE"
+        },
+        "yungscavebiomes_rare_ice_obj": {
+            "type": "item",
+            "content": "yungscavebiomes:rare_ice",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2500,
+            "rarity": "LEGENDARY"
+        },
+        "alexscaves_dinosaur_chop_obj": {
+            "type": "item",
+            "content": "alexscaves:dinosaur_chop",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000,
+            "rarity": "LEGENDARY"
+        },
+        "alexsmobs_kangaroo_meat_obj": {
+            "type": "item",
+            "content": "alexsmobs:kangaroo_meat",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "alexsmobs_moose_ribs_obj": {
+            "type": "item",
+            "content": "alexsmobs:moose_ribs",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+        "undergarden_raw_gloomper_leg_obj": {
+            "type": "item",
+            "content": "undergarden:raw_gloomper_leg",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 2500,
+            "rarity": "EPIC"
+        },
+        "alexsmobs_grizzly_bear_kill": {
+            "type": "entity",
+            "content": "alexsmobs:grizzly_bear",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 4000
         }
     }
 }
