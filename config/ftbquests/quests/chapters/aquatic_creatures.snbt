@@ -196,6 +196,7 @@
 	quests: [
 		{
 			id: "1144180201A60767"
+			invisible: true
 			tasks: [{
 				id: "70A460B43B95F022"
 				item: {
