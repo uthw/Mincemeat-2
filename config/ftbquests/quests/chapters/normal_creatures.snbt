@@ -51,7 +51,6 @@
 			id: "120AA32518CBBE10"
 			invisible: true
 			optional: true
-			subtitle: "Delicious pancakes?"
 			tasks: [{
 				id: "7D068FD4568C6660"
 				observe_type: 5
@@ -641,6 +640,7 @@
 			]
 			id: "4683A2AE3083D86A"
 			invisible: true
+			optional: true
 			tasks: [{
 				icon: {
 					Count: 1
@@ -656,8 +656,8 @@
 				to_observe: "eidolon:slimy_slug"
 				type: "observation"
 			}]
-			x: -2.0d
-			y: 6.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -690,9 +690,9 @@
 		}
 		{
 			description: [
-				"These humans can be found around villages and will attack any hostile mobs (except some mobs like creepers), even boss mobs they have no chance of killing. "
+				"These villagers can be found around villages and will attack any hostile mobs (except some mobs like creepers), even boss mobs they have no chance of killing. "
 				""
-				"Guard villagers are heavily affected by distance scaling, meaning they get better gear and deal much more damage the further you go out. While this is usually a bad thing for most mobs, for these guards it actually makes them a very good defense because they make swift work of mobs who would otherwise be nuisances."
+				"Guard villagers are affected by distance scaling, meaning they get better gear and deal much more damage the further you stray from spawn. This means guards are competent defenders of their homes."
 				""
 				"Another thing about these mobs is that when they die, they have an 80% chance of dropping the gear they have equipped, unless they have modded gear on."
 			]
@@ -811,8 +811,8 @@
 				to_observe: "mowziesmobs:lantern"
 				type: "observation"
 			}]
-			x: -1.0d
-			y: 7.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			description: ["These passive mobs can be hunted and killed for their venison. They're skittish and not the unwitting killers we know in real life."]

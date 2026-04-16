@@ -495,5 +495,10 @@
         "mob": "rottencreatures:burned",
         "potionnoparticles": "minecraft:fire_resistance,999999,0",
         "result": "default"
+    },
+    {
+        "when": "onjoin",
+        "mob": "eidolon:slimy_slug",
+        "result": "deny"
     }
 ]
