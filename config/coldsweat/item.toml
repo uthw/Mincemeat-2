@@ -218,7 +218,50 @@
 	    ["cold_sweat:chameleon_scale_helmet", 10, 0.0085, "adaptive"],
 	    ["cold_sweat:chameleon_scale_chestplate", 14, 0.0085, "adaptive"],
 	    ["cold_sweat:chameleon_scale_leggings", 12, 0.0085, "adaptive"],
-	    ["cold_sweat:chameleon_scale_boots", 10, 0.0085, "adaptive"]
+	    ["cold_sweat:chameleon_scale_boots", 10, 0.0085, "adaptive"],
+	    ["alexsmobs:frontier_cap", 8, 0, "static"],
+	    ["alexsmobs:froststalker_helmet", 0, 10, "static"],
+	    ["aquamirae:terrible_helmet", 4, 4, "static"],
+	    ["aquamirae:terrible_chestplate", 4, 4, "static"],
+	    ["aquamirae:terrible_leggings", 4, 4, "static"],
+	    ["aquamirae:terrible_boots", 4, 4, "static"],
+	    ["aquamirae:abyssal_heaume", 8, 8, "static"],
+	    ["aquamirae:abyssal_brigantine", 8, 8, "static"],
+	    ["aquamirae:abyssal_leggings", 8, 8, "static"],
+	    ["aquamirae:abyssal_boots", 8, 8, "static"],
+	    ["aquamirae:abyssal_tiara", 8, 8, "static"],
+	    ["traveloptics:abyssal_hide_armor_hat", 12, 12, "static"],
+	    ["traveloptics:abyssal_hide_armor_robe", 12, 12, "static"],
+	    ["traveloptics:abyssal_hide_armor_leggings", 12, 12, "static"],
+	    ["traveloptics:abyssal_hide_armor_boots", 12, 12, "static"],
+	    ["blue_skies:pyrope_helmet", 8, 0, "static"],
+	    ["blue_skies:pyrope_chestplate", 8, 0, "static"],
+	    ["blue_skies:pyrope_leggings", 8, 0, "static"],
+	    ["blue_skies:pyrope_boots", 8, 0, "static"],
+	    ["blue_skies:aquite_helmet", 0, 8, "static"],
+	    ["blue_skies:aquite_chestplate", 0, 8, "static"],
+	    ["blue_skies:aquite_leggings", 0, 8, "static"],
+	    ["blue_skies:aquite_boots", 0, 8, "static"],
+	    ["ars_elemental:fire_hat", 0, 10, "static"],
+	    ["ars_elemental:fire_robes", 0, 10, "static"],
+	    ["ars_elemental:fire_leggings", 0, 10, "static"],
+	    ["ars_elemental:fire_boots", 0, 10, "static"],
+	    ["irons_spellbooks:pyromancer_helmet", 0, 8, "static"],
+	    ["irons_spellbooks:pyromancer_chestplate", 0, 8, "static"],
+	    ["irons_spellbooks:pyromancer_leggings", 0, 8, "static"],
+	    ["irons_spellbooks:pyromancer_boots", 0, 8, "static"],
+	    ["irons_spellbooks:cryomancer_helmet", 8, 0, "static"],
+	    ["irons_spellbooks:cryomancer_chestplate", 8, 0, "static"],
+	    ["irons_spellbooks:cryomancer_leggings", 8, 0, "static"],
+	    ["irons_spellbooks:cryomancer_boots", 8, 0, "static"],
+	    ["traveloptics:deepling_mage_armor_helmet", 8, 8, "static"],
+	    ["traveloptics:deepling_mage_armor_robe", 8, 8, "static"],
+	    ["traveloptics:deepling_mage_armor_leggings", 8, 8, "static"],
+	    ["traveloptics:deepling_mage_armor_boots", 8, 8, "static"],
+	    ["traveloptics:riptide_sovereign_hat", 12, 12, "static"],
+	    ["traveloptics:riptide_sovereign_fincloak", 12, 12, "static"],
+	    ["traveloptics:riptide_sovereign_leggings", 12, 12, "static"],
+	    ["traveloptics:riptide_sovereign_boots", 12, 12, "static"]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn in a curio slot
@@ -236,7 +279,9 @@
 	    ["enigmaticlegacy:blazing_core", 12.0, 0.0, "static", "{}"],
 	    ["traveloptics:fire_echo", 4.0, 0.0, "static", "{}"],
 	    ["traveloptics:ice_echo", 0.0, 4.0, "static", "{}"],
-	    ["traveloptics:aqua_echo", 2.0, 2.0, "static", "{}"]
+	    ["traveloptics:aqua_echo", 2.0, 2.0, "static", "{}"],
+	    ["irons_spellbooks:fireward_ring", 6.0, 0.0, "static", "{}"],
+	    ["irons_spellbooks:frostward_ring", 0.0, 6.0, "static", "{}"]
 	]
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines how many insulation slots armor pieces have
