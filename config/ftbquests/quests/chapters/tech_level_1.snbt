@@ -1555,6 +1555,8 @@
 			dependencies: ["067561E11F848EBB"]
 			description: ["The &6energizer&r provides electricity to items on belts and depots under it."]
 			id: "6C5D061B5AFEC926"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "323BA25D43A97F32"
 				item: "create_new_age:energiser_t1"
@@ -1781,11 +1783,6 @@
 					item: "littlelogistics:vacuum_barge"
 					type: "item"
 				}
-				{
-					id: "7E254B21E2FA8ADA"
-					item: "littlecontraptions:contraption_barge"
-					type: "item"
-				}
 			]
 			title: "Make Every Tug"
 			x: 7.5d
@@ -1829,17 +1826,6 @@
 			}]
 			x: 2.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["0810BF748CEE5680"]
-			id: "3CF2F65233C67347"
-			tasks: [{
-				id: "401CB6729DDC8619"
-				item: "littlecontraptions:barge_assembler"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["2635DBAEEA555FE2"]
