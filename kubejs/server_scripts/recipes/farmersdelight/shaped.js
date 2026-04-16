@@ -25,4 +25,6 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe) => {
         event.shaped(recipe[0], recipe[1], recipe[2]);
     });
+
+    event.replaceOutput({}, "create:dough", "farmersdelight:wheat_dough")
 });
