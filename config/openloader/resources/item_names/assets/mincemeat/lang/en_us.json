@@ -133,8 +133,6 @@
     "effect.netherexp.betrayed.description": "Given by a Treacherous Candle. Removes the ability to place blocks and hostile mobs become neutral to the inflicted.",
     "effect.hexcasting.enlarge_grid.description": "Increases the space available for casting spells.",
     "effect.hexcasting.shrink_grid.description": "Decreases the space available for casting spells.",
-    "tetra.holo.craft.materials.stat.primary.tooltip": "The material's hardness or sharpness, or the ability to shape this material into something with a hard/sharp edge (determines attack damage)",
-    "tetra.holo.craft.materials.stat.secondary.tooltip": "The material's density, rigidity or weight, how much kinetic energy does this carry as it's swung (determines attack speed)",
     "tetra.holo.craft.materials.stat.tertiary.tooltip": "The material's flexibility or tensile strength, how fast does this material spring back when bent (determines secondary effect strength)",
     "subtitles.celestisynth.sword_clash": "Pulsating attack",
     "effect.xaerominimap.no_minimap.description": "No access to the minimap in this area.",

@@ -1,0 +1,20 @@
+{
+    "tetra/schematic/sword/rapier_blade.description": "Replace the current sword blade with a rapier, an elegant blade that trades damage for speed.\n \nMaterial §fhardness§r increases §fspeed§r.",
+    "tetra/schematic/sword/saber_blade.description": "Replace the current sword blade with a saber, a regal and militant blade which can strike critically.\n\nMaterial §fflexibility§r increases §fcrit chance§r.",
+    "tetra/schematic/sword/bastard_blade.description": "Replace the current sword blade with a practical bastard blade with increased range and swing length.\n \nMaterial §fhardness§r increases §fdamage§r.",
+    "tetra/schematic/sword/machete.description": "Replace the current sword blade with a sharp machete that can inflict bleeding.\n \nMaterial §fflexibility§r increases §fbleeding.§r",
+    "tetra/schematic/sword/executioner_blade.description": "Replace the current sword blade with an formidable executioner blade with a charge attack.\n\nMaterial §fhardness§r increases §fdamage§r.",
+    "tetra/schematic/sword/katana/katana_blade.description": "Replace the current sword blade with an honorable katana blade which is effective against the undead.\n\nMaterial §fhardness§r increases §fdamage§r.",
+    "tetra/schematic/sword/tonal_blade.description": "Replace the current sword blade with a tonal blade, a sword tuned into the resonant frequency of living beings. Has a chance to slay a foe in one hit.\n \nMaterial §fdensity§r lowers §fspeed§r.",
+    "tetra/schematic/sword/flamberge/flamberge_blade.description": "Replace the current sword blade with a flamberge, which can penetrate armor.\n \nMaterial §fhardness§r increases §farmor penetration§r.",
+    "tetra/schematic/double/shockwave_hammer/shockwave_hammer.description": "A hammer head forged from the shockwave chamber. It summons lightning on hit and has a charge attack.",
+    "tetra/schematic/double/claw/claw.description": "Craft a claw from the given material. The claw can be used for prying things open and to quickly break most wooden blocks. Increases bleeding dealt by weapons.",
+    "tetra/schematic/double/sickle/sickle.description": "Craft a sickle from the given material with the ability to deal critical hits to mobs.",
+    "tetra.holo.craft.materials.stat.primary.tooltip": "The material's hardness or sharpness, or the ability to shape this material into something with a hard/sharp edge (determines attack damage)",
+    "tetra.holo.craft.materials.stat.secondary.tooltip": "The material's density, rigidity or weight, how much kinetic energy does this carry as it's swung (determines attack speed)",
+    "tetra/schematic/single/head/mace_head/mace_head.description": "Forge a mace head from the given material. Maces are a strong melee weapon, stunning enemies and crushing their armor. However, they suffer from a lack of range.\n\nMaterial §fhardness§r increases §fdamage§r.\nMaterial §fdensity§r slightly increases §fdamage§r and slightly decreases §fattack speed§r.",
+    "tetra/schematic/polearm/head/trident/trident.description": "Craft a trident from the given material. The knowledge of how one is made has been rediscovered. Tridents are slow but powerful polearms.",
+    "tetra/schematic/polearm/head/glaive_head/glaive_head.description": "Forge a glaive head from the given material. Glaives are a longer ranged melee weapon used pierce though foes' armor.",
+    "tetra/schematic/polearm/head/lance_head/lance_head.description": "A lance head, large weapons typically used for mounted jousting, and perfect for impaling opponents and lunging into the air.",
+    "tetra/schematic/polearm/head/scythe_head/scythe_head.description": "Forge a scythe head from the given material. Scythes are powerful weapons due to their leverage; they're most notable for their sweeping attacks and ability to inflict deep wounds."
+}
