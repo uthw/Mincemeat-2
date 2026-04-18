@@ -481,32 +481,6 @@
             ]
         },
         {
-            "type": "bongo.group",
-            "weight": 10,
-            "tasks": [
-                {
-                    "type": "bongo.stat",
-                    "value": {
-                        "category": "custom",
-                        "stat": "minecraft:waystone_activated",
-                        "value": 15
-                    },
-                    "weight": 5.0,
-                    "custom_texture": "ftbchunks:textures/waystone.png"
-                },
-                {
-                    "type": "bongo.stat",
-                    "value": {
-                        "category": "custom",
-                        "stat": "minecraft:waystone_activated",
-                        "value": 5
-                    },
-                    "weight": 5.0,
-                    "custom_texture": "ftbchunks:textures/waystone.png"
-                }
-            ]
-        },
-        {
             "type": "bongo.item",
             "value": {
                 "item": "iceandfire:dragonbone"
