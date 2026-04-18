@@ -3923,6 +3923,12 @@
 				"Clash of Duality \"Pythonic Overdrive\": Crafting recipe"
 				""
 				"Whispers of Ice: Trade with Cryomancer"
+				""
+				"Rain: Drowned killed by Skeleton"
+				""
+				"Snow: Chilled killed by Skeleton"
+				""
+				"Bumblebee: Rare drop from shearing beehives"
 				"{@pagebreak}"
 				"Most discs can also drop from hostile mobs with backpacks."
 			]
@@ -4440,6 +4446,21 @@
 				{
 					id: "3F66E0747E5D11DC"
 					item: "caverns_and_chasms:music_disc_analogue"
+					type: "item"
+				}
+				{
+					id: "2E04829A6EF54E4E"
+					item: "windswept:music_disc_rain"
+					type: "item"
+				}
+				{
+					id: "23EB0E68B662AB98"
+					item: "windswept:music_disc_snow"
+					type: "item"
+				}
+				{
+					id: "744D4D917D7B7220"
+					item: "windswept:music_disc_bumblebee"
 					type: "item"
 				}
 			]
@@ -8916,11 +8937,6 @@
 		{
 			description: ["Tip: Towers are not the only structures with waystones. You can also find them in villages, Sky Arenas, Strongholds, Castles, and some other structures that're too rare to list here."]
 			id: "05C388A2AF035AD5"
-			rewards: [{
-				id: "68D69625F57A2F30"
-				item: "waystones:waystone"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "waystones:waystone"
 				id: "34056EC1D67D29E8"
