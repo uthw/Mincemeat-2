@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:ender_dragon",
+        "minecraft:wither",
+        "minecraft:elder_guardian",
+        "minecraft:warden",
+        "dummmmmmy:target_dummy",
+        "#forge:bosses",
+        "#mincemeat:heal_on_player_death"
+    ]
+}
