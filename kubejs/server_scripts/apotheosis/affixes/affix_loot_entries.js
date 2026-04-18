@@ -167,10 +167,10 @@ ServerEvents.highPriorityData((event) => {
                 { item: "undergarden:cloggrum_leggings", weight: 10 },
                 { item: "undergarden:cloggrum_boots", weight: 10 },
 
-                { item: "ars_nouveau:sorceror_hood", weight: 30 },
-                { item: "ars_nouveau:sorceror_robes", weight: 30 },
-                { item: "ars_nouveau:sorceror_leggings", weight: 30 },
-                { item: "ars_nouveau:sorceror_boots", weight: 30 },
+                { item: "ars_nouveau:sorcerer_hood", weight: 30 },
+                { item: "ars_nouveau:sorcerer_robes", weight: 30 },
+                { item: "ars_nouveau:sorcerer_leggings", weight: 30 },
+                { item: "ars_nouveau:sorcerer_boots", weight: 30 },
 
                 { item: "ars_nouveau:arcanist_hood", weight: 15, quality: 4 },
                 { item: "ars_nouveau:arcanist_robes", weight: 15, quality: 4 },
@@ -328,7 +328,7 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "cataclysm:khopesh", weight: 12, quality: 6 },
                 { item: "cataclysm:coral_spear", weight: 12, quality: 6 },
-                { item: "cataclysm:coral_brandiche", weight: 12, quality: 6 },
+                { item: "cataclysm:coral_bardiche", weight: 12, quality: 6 },
 
                 { item: "cataclysm:black_steel_sword", weight: 8, quality: 5 },
             ],

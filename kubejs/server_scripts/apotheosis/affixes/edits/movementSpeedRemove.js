@@ -45,7 +45,7 @@ ServerEvents.highPriorityData((event) => {
                     key: "lower_armor",
                     types: ["boots", "leggings"],
                 },
-                attribute: "feathers:featheres.feather_regen",
+                attribute: "feathers:feathers.feather_regen",
                 operation: "MULTIPLY_TOTAL",
                 values: {
                     common: 0.1,
