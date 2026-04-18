@@ -6,10 +6,10 @@ PlayerEvents.loggedIn((event) => {
         "gamerule artifacts.crystalHeart.healthBonus 6",
         "gamerule artifacts.eternalSteak.enabled false",
         "gamerule artifacts.everlastingBeef.enabled false",
-        "gamerule persistentAnimals false",
         "gamerule playersSleepingPercentage 1",
         "gamerule artifacts.vampiricGlove.absorptionRatio 12",
-        "gamerule artifacts.vampiricGlove.absorptionChance 40"
+        "gamerule artifacts.vampiricGlove.absorptionChance 40",
+        "gamerule artifacts.powerGlove.attackDamageBonus 3",
     ];
 
     commands.forEach((command) => {
