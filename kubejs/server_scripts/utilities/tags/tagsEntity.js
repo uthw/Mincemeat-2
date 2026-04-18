@@ -142,7 +142,7 @@ ServerEvents.tags("entity_type", (event) => {
     ];
 
     bossesAndMinions.forEach((boss) => {
-        event.add("heal_on_player_death", boss);
+        event.add("mincemeat:heal_on_player_death", boss);
     });
 
     event.add("respawninganimals:persistent_animals", "quark:toretoise");

@@ -12,8 +12,9 @@ EntityEvents.death("minecraft:player", (event) => {
 
     // health refill
     let dim = `${event.level.dimension.namespace}:${event.level.dimension.path}`;
-    event.server.runCommandSilent( // This works in 0.5.1 but you can switch to runCommand if weird things are happening
-        `execute in ${dim} positioned ${x} ${y} ${z} unless entity @a[distance=2..10] as @e[distance=..50,type=#minecraft:heal_on_player_death] run data modify entity @s Health set value 9999.0`
+    event.server.runCommandSilent(
+        // This works in 0.5.1 but you can switch to runCommand if weird things are happening
+        `execute in ${dim} positioned ${x} ${y} ${z} unless entity @a[distance=2..10] as @e[distance=..50,type=#mincemeat:heal_on_player_death] run data modify entity @s Health set value 9999.0`
     );
 
     event.server.scheduleInTicks(4, () => {
@@ -38,12 +39,8 @@ EntityEvents.death("minecraft:player", (event) => {
 
 // TODO Wait for movement before giving a scroll
 PlayerEvents.respawned((event) => {
-    // console.log("PlayerEvents.respawned");
 
     // 40% chance the player gets a gravescroll when they respawn
-    // if (global.mostRecentlyDied != event.player.username) {
-    //     return;
-    // }
     if (event.player.stats.timeSinceDeath >= 10) {
         return;
     }
