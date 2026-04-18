@@ -14,6 +14,8 @@ global.dimChangeEvent = (event) => {
         let targetDimension = event.dimension.location();
         let server = player.server;
 
+        if (player.isCreative()) return;
+
         if (targetDimension == enteringDimension) {
             if (!player.stages.has(neededStage)) {
                 player.statusMessage = Text.of(
