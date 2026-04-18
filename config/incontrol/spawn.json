@@ -493,7 +493,7 @@
     {
         "when": "finalize",
         "mob": "rottencreatures:burned",
-        "potionnoparticles": "minecraft:fire_resistance,999999,0",
+        "potionnoparticles": "minecraft:fire_resistance,-1,0",
         "result": "default"
     },
     {
