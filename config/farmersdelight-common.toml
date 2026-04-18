@@ -97,7 +97,7 @@
 	[world.wild_rice]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 20
+		chance = 8
 
 	#Brown Mushroom Colony generation
 	[world.brown_mushroom_colonies]
