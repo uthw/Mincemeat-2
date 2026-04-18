@@ -111,6 +111,8 @@ ServerEvents.recipes((event) => {
     ];
 
     recipes.forEach((recipe) => {
+        let fishName = recipe.ingredients.item.split(":").pop();
+        event.remove({ id: `aquaculture:fish_fillet.${fishName}` });
         event.custom({
             type: "farmersdelight:cutting",
             ingredients: [recipe.ingredients],
@@ -123,13 +125,20 @@ ServerEvents.recipes((event) => {
         event.custom({
             type: "farmersdelight:cutting",
             ingredients: [{ item: recipe.fish }],
-            result: [
-                { item: "aquaculture:fish_fillet_raw", count: recipe.count },
-            ],
+            result: [{ item: "aquaculture:fish_fillet_raw", count: recipe.count }],
             tool: {
                 // must enable probe to see how this works
                 tag: "forge:tools/knives",
             },
         });
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [{ tag: "starcatcher:starcaught_fishes" }],
+        result: [{ item: "aquaculture:fish_fillet_raw", count: 4 }],
+        tool: {
+            tag: "forge:tools/knives",
+        },
     });
 });

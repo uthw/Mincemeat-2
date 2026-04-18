@@ -158,6 +158,16 @@ ServerEvents.recipes((event) => {
         "industrialforegoing:iron_gear",
         "industrialforegoing:gold_gear",
         "industrialforegoing:diamond_gear",
+        "irons_restrictions:ender_manuscript",
+        "irons_restrictions:lightning_manuscript",
+        "irons_restrictions:fire_manuscript",
+        "irons_restrictions:aqua_manuscript",
+        "irons_restrictions:evocation_manuscript",
+        "irons_restrictions:ice_manuscript",
+        "irons_restrictions:nature_manuscript",
+        "irons_restrictions:holy_manuscript",
+        "neapolitan:chocolate/chocolate_bar",
+        "create:milling/wheat",
     ];
 
     toRemove.forEach((recipeId) => {

@@ -7,101 +7,49 @@ ServerEvents.recipes((event) => {
 
         // Copied over from Mincemeat 1.16.5
 
-        [
-            { mod: "aquamirae" },
-            "minecraft:diamond",
-            "aquaculture:neptunium_ingot",
-        ],
+        [{ mod: "aquamirae" }, "minecraft:diamond", "aquaculture:neptunium_ingot"],
         // need to change AN lang to accomodate this eventually
         [
             { output: "ars_nouveau:end_fiber" },
             "minecraft:popped_chorus_fruit",
             "undergarden:forgotten_nugget",
         ],
-        [
-            { output: "ars_nouveau:blaze_fiber" },
-            "minecraft:blaze_powder",
-            "aether:ambrosium_shard",
-        ],
+        [{ output: "ars_nouveau:blaze_fiber" }, "minecraft:blaze_powder", "aether:ambrosium_shard"],
         [
             { output: "ars_nouveau:ring_of_greater_discount" },
             "minecraft:diamond",
             "aether:ambrosium_shard",
         ],
-        [
-            { mod: "ars_nouveau" },
-            "minecraft:lapis_block",
-            "forbidden_arcanus:arcane_crystal_block",
-        ],
-        [
-            { mod: "ars_nouveau" },
-            "minecraft:lapis_lazuli",
-            "forbidden_arcanus:arcane_crystal",
-        ],
+        [{ mod: "ars_nouveau" }, "minecraft:lapis_block", "forbidden_arcanus:arcane_crystal_block"],
+        [{ mod: "ars_nouveau" }, "minecraft:lapis_lazuli", "forbidden_arcanus:arcane_crystal"],
         [
             { mod: "ars_nouveau", output: "ars_nouveau:runic_chalk" },
             "minecraft:bone_meal",
             "#create:stone_types/limestone",
         ],
         [{ mod: "ars_nouveau" }, "minecraft:hopper", "prettypipes:pipe"],
-        [
-            { output: "ars_nouveau:belt_of_levitation" },
-            "#forge:feathers",
-            "aquamirae:oxygelium",
-        ],
+        [{ output: "ars_nouveau:belt_of_levitation" }, "#forge:feathers", "aquamirae:oxygelium"],
         [
             { output: "ars_nouveau:ritual_fertility" },
             "minecraft:blaze_powder",
             "create:tree_fertilizer",
         ],
-        [
-            { mod: "botania" },
-            "minecraft:blaze_powder",
-            "forbidden_arcanus:arcane_crystal_dust",
-        ],
+        [{ mod: "botania" }, "minecraft:blaze_powder", "forbidden_arcanus:arcane_crystal_dust"],
         [{ mod: "botania" }, "minecraft:ender_eye", "iceandfire:ectoplasm"],
-        [
-            { mod: "botania" },
-            "minecraft:brewing_stand",
-            "eidolon:wooden_brewing_stand",
-        ],
-        [
-            { mod: "botania" },
-            "minecraft:prismarine_crystals",
-            "theurgy:sal_ammoniac_crystal",
-        ],
+        [{ mod: "botania" }, "minecraft:brewing_stand", "eidolon:wooden_brewing_stand"],
+        [{ mod: "botania" }, "minecraft:prismarine_crystals", "theurgy:sal_ammoniac_crystal"],
         [{ mod: "botania" }, "minecraft:quartz", "thermal:sulfur"],
         [{}, "mythicbotany:alfsteel_pylon", "botania:natura_pylon"],
         [{ mod: "capsule" }, "minecraft:ender_pearl", "paraglider:spirit_orb"],
         // create
         // Thermal items havent been ported yet
-        [
-            { output: "create:furnace_engine" },
-            "minecraft:sticky_piston",
-            "thermal:dynamo_stirling",
-        ],
+        [{ output: "create:furnace_engine" }, "minecraft:sticky_piston", "thermal:dynamo_stirling"],
         [{ output: "create:rope_pulley" }, "#minecraft:wool", "#forge:rope"],
-        [
-            { output: "create:gantry_shaft" },
-            "minecraft:redstone",
-            "#forge:rods/iron",
-        ],
-        [
-            { output: "create:windmill_bearing" },
-            "#forge:stone",
-            "create:copper_casing",
-        ],
+        [{ output: "create:gantry_shaft" }, "minecraft:redstone", "#forge:rods/iron"],
+        [{ output: "create:windmill_bearing" }, "#forge:stone", "create:copper_casing"],
         // Uses thermal item
-        [
-            { output: "create:large_cogwheel" },
-            "create:andesite_alloy",
-            "#forge:ingots/tin",
-        ],
-        [
-            { output: "create:cogwheel" },
-            "create:andesite_alloy",
-            "#forge:ingots/tin",
-        ],
+        [{ output: "create:large_cogwheel" }, "create:andesite_alloy", "#forge:ingots/tin"],
+        [{ output: "create:cogwheel" }, "create:andesite_alloy", "#forge:ingots/tin"],
         // Uses Immersive Engineering item
         // [
         //     { output: "create:filter" },
@@ -118,11 +66,7 @@ ServerEvents.recipes((event) => {
         //     "minecraft:dried_kelp",
         //     "immersiveengineering:hemp_fabric",
         // ],
-        [
-            { output: "createaddition:rolling_mill" },
-            "create:andesite_alloy",
-            "#forge:ingots/zinc",
-        ],
+        [{ output: "createaddition:rolling_mill" }, "create:andesite_alloy", "#forge:ingots/zinc"],
         [
             { output: "darkutils:charm_experience" },
             "minecraft:emerald",
@@ -144,11 +88,7 @@ ServerEvents.recipes((event) => {
             "minecraft:iron_ingot",
             "#forge:ingots/osmium",
         ],
-        [
-            { mod: "industrialforegoing" },
-            "minecraft:lapis_lazuli",
-            "ars_nouveau:mana_gem",
-        ],
+        [{ mod: "industrialforegoing" }, "minecraft:lapis_lazuli", "ars_nouveau:mana_gem"],
         [
             { output: "industrialforegoing:fluid_transporter_type" },
             "minecraft:ender_pearl",
@@ -175,27 +115,15 @@ ServerEvents.recipes((event) => {
             "undergarden:cloggrum_ingot",
         ],
         // Uses gears not currently in the modpack
-        [
-            { mod: "industrialforegoing" },
-            "#forge:gears/iron",
-            "#forge:gears/silver",
-        ],
-        [
-            { mod: "industrialforegoing" },
-            "#forge:gears/iron",
-            "#forge:gears/lumium",
-        ],
+        [{ mod: "industrialforegoing" }, "#forge:gears/iron", "#forge:gears/silver"],
+        [{ mod: "industrialforegoing" }, "#forge:gears/iron", "#forge:gears/lumium"],
         [
             { output: "industrialforegoing:material_stonework_factory" },
             "minecraft:diamond_pickaxe",
             "undergarden:cloggrum_pickaxe",
         ],
         // thermal
-        [
-            { mod: "industrialforegoing" },
-            "minecraft:redstone",
-            "thermal:rf_coil",
-        ],
+        [{ mod: "industrialforegoing" }, "minecraft:redstone", "thermal:rf_coil"],
         // engineer's decor
         // [
         //     { mod: "industrialforegoing" },
@@ -213,36 +141,12 @@ ServerEvents.recipes((event) => {
             "#forge:ingots/copper",
             "#forge:plates/constantan",
         ],
-        [
-            { mod: "modularrouters" },
-            "minecraft:iron_ingot",
-            "undergarden:cloggrum_ingot",
-        ],
-        [
-            { mod: "modularrouters" },
-            "minecraft:iron_bars",
-            "undergarden:cloggrum_bars",
-        ],
-        [
-            { mod: "modularrouters" },
-            "minecraft:gold_nugget",
-            "undergarden:cloggrum_nugget",
-        ],
-        [
-            { mod: "modularrouters" },
-            "minecraft:quartz",
-            "undergarden:froststeel_ingot",
-        ],
-        [
-            { mod: "modularrouters" },
-            "minecraft:paper",
-            "undergarden:twistytwig",
-        ],
-        [
-            { mod: "modularrouters" },
-            "minecraft:ender_pearl",
-            "forbidden_arcanus:dark_matter",
-        ],
+        [{ mod: "modularrouters" }, "minecraft:iron_ingot", "undergarden:cloggrum_ingot"],
+        [{ mod: "modularrouters" }, "minecraft:iron_bars", "undergarden:cloggrum_bars"],
+        [{ mod: "modularrouters" }, "minecraft:gold_nugget", "undergarden:cloggrum_nugget"],
+        [{ mod: "modularrouters" }, "minecraft:quartz", "undergarden:froststeel_ingot"],
+        [{ mod: "modularrouters" }, "minecraft:paper", "undergarden:twistytwig"],
+        [{ mod: "modularrouters" }, "minecraft:ender_pearl", "forbidden_arcanus:dark_matter"],
         // [
         //     { mod: "naturesaura", type: "naturesaura_tree_ritual" },
         //     "minecraft:gold_ingot",
@@ -290,41 +194,13 @@ ServerEvents.recipes((event) => {
         //     "paraglider:spirit_orb",
         // ],
         // thermal
-        [
-            { output: "powah:capacitor_basic" },
-            "minecraft:redstone_block",
-            "thermal:rf_coil",
-        ],
-        [
-            { output: "powah:capacitor_basic" },
-            "minecraft:iron_ingot",
-            "#forge:plates/iron",
-        ],
-        [
-            { output: "powah:thermoelectric_paste" },
-            "minecraft:blaze_powder",
-            "create:super_glue",
-        ],
-        [
-            { output: "powah:dielectric_rod" },
-            "minecraft:iron_bars",
-            "prettypipes:pipe",
-        ],
-        [
-            { output: "powah:dielectric_rod_horizontal" },
-            "minecraft:iron_bars",
-            "prettypipes:pipe",
-        ],
-        [
-            { output: "powah:photoelectric_pane" },
-            "minecraft:lapis_lazuli",
-            "#forge:silicon",
-        ],
-        [
-            { mod: "refinedstorage" },
-            "minecraft:redstone",
-            "rubinated_nether:ruby",
-        ],
+        [{ output: "powah:capacitor_basic" }, "minecraft:redstone_block", "thermal:rf_coil"],
+        [{ output: "powah:capacitor_basic" }, "minecraft:iron_ingot", "#forge:plates/iron"],
+        [{ output: "powah:thermoelectric_paste" }, "minecraft:blaze_powder", "create:super_glue"],
+        [{ output: "powah:dielectric_rod" }, "minecraft:iron_bars", "prettypipes:pipe"],
+        [{ output: "powah:dielectric_rod_horizontal" }, "minecraft:iron_bars", "prettypipes:pipe"],
+        [{ output: "powah:photoelectric_pane" }, "minecraft:lapis_lazuli", "#forge:silicon"],
+        [{ mod: "refinedstorage" }, "minecraft:redstone", "rubinated_nether:ruby"],
         // Enigmatic Legacy
         [
             { output: "sophisticatedbackpacks:magnet_upgrade" },
@@ -332,16 +208,8 @@ ServerEvents.recipes((event) => {
             "enigmaticlegacy:magnet_ring",
         ],
         // Thermal
-        [
-            { mod: "sophisticatedbackpacks" },
-            "minecraft:redstone",
-            "thermal:cinnabar",
-        ],
-        [
-            { output: "createaddition:rolling_mill" },
-            "create:shaft",
-            "#forge:plates/nickel",
-        ],
+        [{ mod: "sophisticatedbackpacks" }, "minecraft:redstone", "thermal:cinnabar"],
+        [{ output: "createaddition:rolling_mill" }, "create:shaft", "#forge:plates/nickel"],
         // iron spells
         [
             { output: "irons_spellbooks:pumpkin_helmet" },
@@ -383,63 +251,27 @@ ServerEvents.recipes((event) => {
             "#forge:obsidian",
             "alexscaves:occult_gem",
         ],
-        [
-            { output: "prettypipes:pressurizer" },
-            "minecraft:iron_ingot",
-            "#forge:ingots/tin",
-        ],
+        [{ output: "prettypipes:pressurizer" }, "minecraft:iron_ingot", "#forge:ingots/tin"],
         [
             { output: "prettypipes:item_terminal" },
             "#forge:storage_blocks/iron",
             "#forge:storage_blocks/tin",
         ],
-        [
-            { mod: "prettypipes" },
-            "minecraft:ender_pearl",
-            "iceandfire:ectoplasm",
-        ],
-        [
-            { output: "prettypipes:low_filter_module" },
-            "minecraft:hopper",
-            "create:filter",
-        ],
+        [{ mod: "prettypipes" }, "minecraft:ender_pearl", "iceandfire:ectoplasm"],
+        [{ output: "prettypipes:low_filter_module" }, "minecraft:hopper", "create:filter"],
         [
             { output: "prettypipes:medium_speed_module" },
             "minecraft:sugar",
             "#supplementaries:cookies",
         ],
-        [
-            { output: "prettypipes:high_speed_module" },
-            "minecraft:sugar",
-            "create:hand_crank",
-        ],
-        [
-            { mod: "prettypipes" },
-            "minecraft:gold_ingot",
-            "eidolon:pewter_ingot",
-        ],
+        [{ output: "prettypipes:high_speed_module" }, "minecraft:sugar", "create:hand_crank"],
+        [{ mod: "prettypipes" }, "minecraft:gold_ingot", "eidolon:pewter_ingot"],
         [{ mod: "prettypipes" }, "minecraft:quartz", "#forge:ingots/copper"],
-        [
-            { mod: "prettypipes" },
-            "minecraft:stone_slab",
-            "create:dark_scoria_cobblestone_slab",
-        ],
+        [{ mod: "prettypipes" }, "minecraft:stone_slab", "create:dark_scoria_cobblestone_slab"],
         [{ mod: "prettypipes" }, "minecraft:piston", "supplementaries:jar"],
-        [
-            { output: "supplementaries:planter" },
-            "minecraft:bone_meal",
-            "create:tree_fertilizer",
-        ],
-        [
-            { output: "create:tree_fertilizer" },
-            "minecraft:bone_meal",
-            "#forge:gems/niter",
-        ],
-        [
-            { output: "thermal:phytogro" },
-            "minecraft:bone_meal",
-            "create:tree_fertilizer",
-        ],
+        [{ output: "supplementaries:planter" }, "minecraft:bone_meal", "create:tree_fertilizer"],
+        [{ output: "create:tree_fertilizer" }, "minecraft:bone_meal", "#forge:gems/niter"],
+        [{ output: "thermal:phytogro" }, "minecraft:bone_meal", "create:tree_fertilizer"],
         [
             {
                 output: "pneumaticcraft:pressure_tube",
@@ -462,11 +294,7 @@ ServerEvents.recipes((event) => {
             "#forge:obsidian",
             "forbidden_arcanus:dark_rune",
         ],
-        [
-            { mod: "storagedrawers" },
-            "#forge:rods/wooden",
-            "farmersdelight:straw",
-        ],
+        [{ mod: "storagedrawers" }, "#forge:rods/wooden", "farmersdelight:straw"],
         [
             { output: "storagedrawers:obsidian_storage_upgrade" },
             "#forge:obsidian",
@@ -487,38 +315,18 @@ ServerEvents.recipes((event) => {
             "#forge:workbench",
             "toms_storage:ts.inventory_cable", // Why is it spelled like this? Inside joke?
         ],
-        [
-            { output: "grapplemod:swingupgradeitem" },
-            "minecraft:feather",
-            "aquaculture:iron_hook",
-        ],
+        [{ output: "grapplemod:swingupgradeitem" }, "minecraft:feather", "aquaculture:iron_hook"],
         [{ mod: "grapplemod" }, "minecraft:lead", "#supplementaries:ropes"],
-        [
-            { mod: "sophisticatedbackpacks" },
-            "#forge:ingots/iron",
-            "#forge:ingots/tin",
-        ],
+        [{ mod: "sophisticatedbackpacks" }, "#forge:ingots/iron", "#forge:ingots/tin"],
         [{}, "xreliquary:zombie_heart", "eidolon:zombie_heart"],
-        [
-            { output: "thermal:rubber" },
-            "minecraft:dandelion",
-            "#minecraft:flowers",
-        ],
+        [{ output: "thermal:rubber" }, "minecraft:dandelion", "#minecraft:flowers"],
         // [
         //     { output: "thermal:rf_coil" },
         //     "minecraft:gold_ingot",
         //     "#forge:rods/gold",
         // ],
-        [
-            { output: "thermal:machine_frame" },
-            "minecraft:iron_ingot",
-            "#forge:plates/iron",
-        ],
-        [
-            { output: "sophisticatedbackpacks:tank_upgrade" },
-            "#forge:glass",
-            "thermal:cured_rubber",
-        ],
+        [{ output: "thermal:machine_frame" }, "minecraft:iron_ingot", "#forge:plates/iron"],
+        [{ output: "sophisticatedbackpacks:tank_upgrade" }, "#forge:glass", "thermal:cured_rubber"],
         [
             { output: "sophisticatedbackpacks:advanced_puup_upgrade" },
             "minecraft:dispenser",
@@ -529,108 +337,44 @@ ServerEvents.recipes((event) => {
             "minecraft:netherite_block",
             "#forge:storage_blocks/steel",
         ],
-        [
-            { output: "create:crushing_wheel" },
-            "create:andesite_alloy",
-            "#forge:ingots/invar",
-        ],
+        [{ output: "create:crushing_wheel" }, "create:andesite_alloy", "#forge:ingots/invar"],
         [{ mod: "grapplemod" }, "minecraft:lead", "#forge:rope"],
         [{ mod: "grapplemod" }, "minecraft:gold_ingot", "thermal:cinnabar"],
-        [
-            { mod: "grapplemod" },
-            "minecraft:piston",
-            "immersive_aircraft:engine",
-        ],
-        [
-            { output: "enigmaticlegacy:ender_rod" },
-            "#forge:ender_pearls",
-            "alexscaves:sulfur_dust",
-        ],
-        [
-            { output: "reliquary:harvest_rod" },
-            "minecraft:rose_bush",
-            "#botania:petals",
-        ],
-        [
-            { output: "reliquary:harvest_rod" },
-            "minecraft:vine",
-            "environmental:cattail",
-        ],
-        [
-            { mod: "prettypipes" },
-            "minecraft:iron_ingot",
-            "minecraft:copper_ingot",
-        ],
+        [{ mod: "grapplemod" }, "minecraft:piston", "immersive_aircraft:engine"],
+        [{ output: "enigmaticlegacy:ender_rod" }, "#forge:ender_pearls", "alexscaves:sulfur_dust"],
+        [{ output: "reliquary:harvest_rod" }, "minecraft:rose_bush", "#botania:petals"],
+        [{ output: "reliquary:harvest_rod" }, "minecraft:vine", "environmental:cattail"],
+        [{ mod: "prettypipes" }, "minecraft:iron_ingot", "minecraft:copper_ingot"],
         [
             { output: "sophisticatedstorage:upgrade_base" },
             "minecraft:iron_ingot",
             "#forge:ingots/tin",
         ],
-        [
-            { mod: "sophisticatedstorage" },
-            "minecraft:redstone",
-            "thermal:cinnabar",
-        ],
+        [{ mod: "sophisticatedstorage" }, "minecraft:redstone", "thermal:cinnabar"],
         [
             { input: "sophisticatedstorage:upgrade_base" },
             "minecraft:iron_ingot",
             "#forge:ingots/tin",
         ],
-        [
-            { mod: "sophisticatedstorage" },
-            "minecraft:piston",
-            "supplementaries:ash_brick",
-        ],
-        [
-            { mod: "sophisticatedbackpacks" },
-            "minecraft:piston",
-            "supplementaries:ash_brick",
-        ],
-        [
-            { mod: "sophisticatedstorage" },
-            "#forge:stone",
-            "quark:polished_tuff",
-        ],
+        [{ mod: "sophisticatedstorage" }, "minecraft:piston", "supplementaries:ash_brick"],
+        [{ mod: "sophisticatedbackpacks" }, "minecraft:piston", "supplementaries:ash_brick"],
+        [{ mod: "sophisticatedstorage" }, "#forge:stone", "quark:polished_tuff"],
         [
             { mod: "sophisticatedstorage" },
             "minecraft:comparator",
             "forbidden_arcanus:xpetrified_orb",
         ],
-        [
-            { mod: "sophisticatedstorage" },
-            "minecraft:repeater",
-            "forbidden_arcanus:arcane_crystal",
-        ],
-        [
-            { mod: "toms_storage" },
-            "toms_storage:ts.inventory_cable",
-            "prettypipes:pipe",
-        ],
-        [
-            { output: "forbidden_arcanus:cloth" },
-            "minecraft:white_wool",
-            "eidolon:tattered_cloth",
-        ],
-        [
-            { output: "minecraft:item_frame" },
-            "minecraft:leather",
-            "eidolon:tattered_cloth",
-        ],
+        [{ mod: "sophisticatedstorage" }, "minecraft:repeater", "forbidden_arcanus:arcane_crystal"],
+        [{ mod: "toms_storage" }, "toms_storage:ts.inventory_cable", "prettypipes:pipe"],
+        [{ output: "forbidden_arcanus:cloth" }, "minecraft:white_wool", "eidolon:tattered_cloth"],
+        [{ output: "minecraft:item_frame" }, "minecraft:leather", "eidolon:tattered_cloth"],
         [
             { output: "create_new_age:nuclear_fuel" },
             "create_new_age:radioactive_thorium",
             "alexscaves:uranium",
         ],
-        [
-            { output: "create_new_age:heat_pump" },
-            "create_new_age:thorium",
-            "#forge:ingots/nickel",
-        ],
-        [
-            { output: "create_new_age:heat_pipe" },
-            "#minecraft:terracotta",
-            "create:ochrum",
-        ],
+        [{ output: "create_new_age:heat_pump" }, "create_new_age:thorium", "#forge:ingots/nickel"],
+        [{ output: "create_new_age:heat_pipe" }, "#minecraft:terracotta", "create:ochrum"],
         [
             { output: "create_enchantment_industry:printer" },
             "minecraft:dried_kelp",
@@ -646,11 +390,7 @@ ServerEvents.recipes((event) => {
             "minecraft:clock",
             "delightful:green_tea_leaf",
         ],
-        [
-            { output: "ars_nouveau:glyph_aoe" },
-            "minecraft:firework_star",
-            "thermal:basalz_rod",
-        ],
+        [{ output: "ars_nouveau:glyph_aoe" }, "minecraft:firework_star", "thermal:basalz_rod"],
         [
             { output: "ars_nouveau:glyph_accelerate" },
             "minecraft:powered_rail",
@@ -671,11 +411,7 @@ ServerEvents.recipes((event) => {
             "minecraft:nether_brick",
             "#forge:death_worm_chitins",
         ],
-        [
-            { output: "ars_nouveau:glyph_decelerate" },
-            "minecraft:clock",
-            "autumnity:snail_goo",
-        ],
+        [{ output: "ars_nouveau:glyph_decelerate" }, "minecraft:clock", "autumnity:snail_goo"],
         [
             { output: "ars_nouveau:glyph_decelerate" },
             "minecraft:soul_sand",
@@ -691,16 +427,8 @@ ServerEvents.recipes((event) => {
             "minecraft:redstone_block",
             "thermal:cured_rubber",
         ],
-        [
-            { output: "ars_nouveau:glyph_fortune" },
-            "minecraft:rabbit_foot",
-            "eidolon:zombie_heart",
-        ],
-        [
-            { output: "ars_nouveau:glyph_pierce" },
-            "minecraft:arrow",
-            "theurgy:sal_ammoniac_crystal",
-        ],
+        [{ output: "ars_nouveau:glyph_fortune" }, "minecraft:rabbit_foot", "eidolon:zombie_heart"],
+        [{ output: "ars_nouveau:glyph_pierce" }, "minecraft:arrow", "theurgy:sal_ammoniac_crystal"],
         [
             { output: "ars_nouveau:glyph_randomize" },
             "minecraft:pink_carpet",
@@ -716,89 +444,41 @@ ServerEvents.recipes((event) => {
             "minecraft:water_bucket",
             "delightful:salmonberries",
         ],
-        [
-            { output: "ars_nouveau:glyph_split" },
-            "minecraft:stonecutter",
-            "#quark:shards",
-        ],
+        [{ output: "ars_nouveau:glyph_split" }, "minecraft:stonecutter", "#quark:shards"],
         [
             { output: "ars_nouveau:glyph_animate_block" },
             "#forge:obsidian",
             "create_new_age:magnetite_block",
         ],
-        [
-            { output: "ars_nouveau:glyph_blink" },
-            "#forge:ender_pearls",
-            "eidolon:wraith_heart",
-        ],
+        [{ output: "ars_nouveau:glyph_blink" }, "#forge:ender_pearls", "eidolon:wraith_heart"],
         [
             { output: "ars_nouveau:glyph_break" },
             "minecraft:iron_pickaxe",
             "createoreexcavation:drill",
         ],
-        [
-            { output: "mekanism:osmium_compressor" },
-            "minecraft:bucket",
-            "thermal:rose_gold_gear",
-        ],
-        [
-            { output: "eidolon:planter" },
-            "minecraft:dirt",
-            "farmersdelight:rich_soil",
-        ],
-        [
-            { output: "explorerscompass:explorerscompass" },
-            "minecraft:cobweb",
-            "thermal:apatite",
-        ],
+        [{ output: "mekanism:osmium_compressor" }, "minecraft:bucket", "thermal:rose_gold_gear"],
+        [{ output: "eidolon:planter" }, "minecraft:dirt", "farmersdelight:rich_soil"],
+        [{ output: "explorerscompass:explorerscompass" }, "minecraft:cobweb", "thermal:apatite"],
         [{}, "eidolon:candle", "#minecraft:candles"],
-        [
-            { output: "hexerei:tallow" },
-            "minecraft:string",
-            "supplementaries:ash",
-        ],
+        [{ output: "hexerei:tallow" }, "minecraft:string", "supplementaries:ash"],
         [{}, "delightful:animal_fat", "hexerei:animal_fat"],
         [
             { output: "hexerei:willow_broom" },
             "minecraft:gold_block",
             "apotheosis:uncommon_material",
         ],
-        [
-            { output: "hexerei:witch_hazel_broom" },
-            "minecraft:diamond",
-            "apotheosis:rare_material",
-        ],
+        [{ output: "hexerei:witch_hazel_broom" }, "minecraft:diamond", "apotheosis:rare_material"],
         [
             { output: "hexerei:mahogany_broom" },
             "minecraft:netherite_ingot",
             "alexscaves:occult_gem",
         ],
         [{ mod: "hexerei" }, "minecraft:wheat", "farmersdelight:straw"],
-        [
-            { output: "hexerei:pestle_and_mortar" },
-            "minecraft:quartz",
-            "create:shaft",
-        ],
-        [
-            { output: "botania:travel_belt" },
-            "botania:manasteel_ingot",
-            "miners_delight:gossypium",
-        ],
-        [
-            { output: "botania:speed_up_belt" },
-            "minecraft:sugar",
-            "neapolitan:chocolate_bar",
-        ],
-        [
-            { output: "botania:cloud_pendant" },
-            "botania:manasteel_ingot",
-            "#aether:aerclouds",
-        ],
-        [
-            { output: "ars_nouevau:ritual_cloudshaping" },
-            "minecraft:feather",
-            "#aether:aerclouds",
-        ],
+        [{ output: "hexerei:pestle_and_mortar" }, "minecraft:quartz", "create:shaft"],
+        [{ output: "botania:travel_belt" }, "botania:manasteel_ingot", "miners_delight:gossypium"],
+        [{ output: "botania:speed_up_belt" }, "minecraft:sugar", "neapolitan:chocolate_bar"],
+        [{ output: "botania:cloud_pendant" }, "botania:manasteel_ingot", "#aether:aerclouds"],
+        [{ output: "ars_nouevau:ritual_cloudshaping" }, "minecraft:feather", "#aether:aerclouds"],
         [
             { output: "ars_elemental:glyph_arc_projectile" },
             "minecraft:slime_ball",
@@ -814,16 +494,8 @@ ServerEvents.recipes((event) => {
             "minecraft:nether_star",
             "alexscaves:notor_gizmo",
         ],
-        [
-            { output: "ars_nouveau:glyph_extract" },
-            "minecraft:emerald",
-            "alexsmobs:shark_tooth",
-        ],
-        [
-            { output: "ars_nouveau:glyph_bounce" },
-            "#forge:slimeballs",
-            "thermal:florb",
-        ],
+        [{ output: "ars_nouveau:glyph_extract" }, "minecraft:emerald", "alexsmobs:shark_tooth"],
+        [{ output: "ars_nouveau:glyph_bounce" }, "#forge:slimeballs", "thermal:florb"],
         // [
         //     { output: "relics:researching_table" },
         //     "#minecraft:wooden_slabs",
@@ -834,11 +506,7 @@ ServerEvents.recipes((event) => {
         //     "#minecraft:wooden_planks",
         //     "forbidden_arcanus:aurum_planks",
         // ],
-        [
-            { output: "ars_nouveau:burst" },
-            "minecraft:fire_charge",
-            "thermal:earth_charge",
-        ],
+        [{ output: "ars_nouveau:burst" }, "minecraft:fire_charge", "thermal:earth_charge"],
         [
             { output: "ars_elemental:glyph_discharge" },
             "minecraft:lightning_rod",
@@ -869,26 +537,14 @@ ServerEvents.recipes((event) => {
             "minecraft:dirt",
             "farmersdelight:organic_compost",
         ],
-        [
-            { output: "ars_nouveau:glyph_craft" },
-            "minecraft:crafting_table",
-            "eidolon:worktable",
-        ],
-        [
-            { output: "ars_nouveau:glyph_crush" },
-            "minecraft:piston",
-            "create:mechanical_press",
-        ],
+        [{ output: "ars_nouveau:glyph_craft" }, "minecraft:crafting_table", "eidolon:worktable"],
+        [{ output: "ars_nouveau:glyph_crush" }, "minecraft:piston", "create:mechanical_press"],
         [
             { output: "ars_nouveau:glyph_crush" },
             "minecraft:grindstone",
             "forbidden_arcanus:iron_blacksmith_gavel",
         ],
-        [
-            { output: "ars_nouveau:glyph_cut" },
-            "minecraft:iron_sword",
-            "farmersdelight:iron_knife",
-        ],
+        [{ output: "ars_nouveau:glyph_cut" }, "minecraft:iron_sword", "farmersdelight:iron_knife"],
         [
             { output: "ars_elemental:glyph_discharge" },
             "minecraft:lightning_rod",
@@ -919,11 +575,7 @@ ServerEvents.recipes((event) => {
             "#forge:ender_pearls",
             "caverns_and_chasms:spinel",
         ],
-        [
-            { output: "create:weighted_ejector" },
-            "create:depot",
-            "supplementaries:spring_launcher",
-        ],
+        [{ output: "create:weighted_ejector" }, "create:depot", "supplementaries:spring_launcher"],
         [{}, "mekanism:fluorite_gem", "thermal:sulfur"],
         [{}, "mekanism:dust_fluorite", "thermal:sulfur_dust"],
         [
@@ -952,39 +604,15 @@ ServerEvents.recipes((event) => {
             "enderio:grains_of_infinity",
             "create:cogwheel",
         ],
-        [
-            { output: "enderio:basic_capacitor" },
-            "minecraft:gold_nugget",
-            "#forge:nuggets/zinc",
-        ],
+        [{ output: "enderio:basic_capacitor" }, "minecraft:gold_nugget", "#forge:nuggets/zinc"],
         [{ output: "smallships:sail" }, "#minecraft:wool", "create:white_sail"],
         [{ mod: "smallships" }, "minecraft:lead", "#forge:rope"],
         [{ output: "smallships:sail" }, "#minecraft:logs", "#quark:posts"],
-        [
-            { output: "botania:fel_pumpkin" },
-            "minecraft:string",
-            "blue_skies:bug_guts",
-        ],
-        [
-            { output: "easy_villagers:converter" },
-            "minecraft:rotten_flesh",
-            "eidolon:zombie_heart",
-        ],
-        [
-            { output: "easy_villagers:auto_trader" },
-            "minecraft:netherite_ingot",
-            "aether:swet_ball",
-        ],
-        [
-            { output: "easy_villagers:auto_trader" },
-            "minecraft:redstone",
-            "create:belt_connector",
-        ],
-        [
-            { output: "easy_villagers:farmer" },
-            "minecraft:dirt",
-            "farmersdelight:rich_soil",
-        ],
+        [{ output: "botania:fel_pumpkin" }, "minecraft:string", "blue_skies:bug_guts"],
+        [{ output: "easy_villagers:converter" }, "minecraft:rotten_flesh", "eidolon:zombie_heart"],
+        [{ output: "easy_villagers:auto_trader" }, "minecraft:netherite_ingot", "aether:swet_ball"],
+        [{ output: "easy_villagers:auto_trader" }, "minecraft:redstone", "create:belt_connector"],
+        [{ output: "easy_villagers:farmer" }, "minecraft:dirt", "farmersdelight:rich_soil"],
         [
             { output: "easy_villagers:iron_farm" },
             "minecraft:stone",
@@ -1007,11 +635,7 @@ ServerEvents.recipes((event) => {
             "forbidden_arcanus:arcane_crystal",
         ],
         [{}, "minecraft:bowl", "#forge:bowls"],
-        [
-            { output: "pneumaticcraft:turbine_blade" },
-            "minecraft:gold_ingot",
-            "#forge:ingots/zinc",
-        ],
+        [{ output: "pneumaticcraft:turbine_blade" }, "minecraft:gold_ingot", "#forge:ingots/zinc"],
         [
             { output: "pneumaticcraft:pneumatic_wrench" },
             "minecraft:orange_dye",
@@ -1046,11 +670,7 @@ ServerEvents.recipes((event) => {
             "#forge:sandstone",
             "#create:stone_types/limestone",
         ],
-        [
-            { output: "immersiveen:capacitor_mv" },
-            "#forge:ingots/steel",
-            "#forge:ingots/brass",
-        ],
+        [{ output: "immersiveen:capacitor_mv" }, "#forge:ingots/steel", "#forge:ingots/brass"],
         [
             { output: "immersiveengineering:capacitor_hv" },
             "#forge:ingots/steel",
@@ -1061,11 +681,7 @@ ServerEvents.recipes((event) => {
             "minecraft:iron_trapdoor",
             "create:chute",
         ],
-        [
-            { output: "immersiveengineering:windmill" },
-            "#forge:ingots/iron",
-            "#forge:ingots/steel",
-        ],
+        [{ output: "immersiveengineering:windmill" }, "#forge:ingots/iron", "#forge:ingots/steel"],
         [
             { output: "immersiveengineering:conveyor_basic" },
             "#forge:ingots/iron",
@@ -1076,16 +692,8 @@ ServerEvents.recipes((event) => {
             "#forge:sticks/wooden",
             "#forge:rods/iron",
         ],
-        [
-            { output: "immersiveengineering:coil_lv" },
-            "minecraft:iron_ingot",
-            "thermal:rf_coil",
-        ],
-        [
-            { output: "immersiveengineering:dynamo" },
-            "minecraft:iron_ingot",
-            "#forge:plates/steel",
-        ],
+        [{ output: "immersiveengineering:coil_lv" }, "minecraft:iron_ingot", "thermal:rf_coil"],
+        [{ output: "immersiveengineering:dynamo" }, "minecraft:iron_ingot", "#forge:plates/steel"],
         [
             { output: "immersiveengineering:blastbrick" },
             "minecraft:nether_brick",
@@ -1127,16 +735,8 @@ ServerEvents.recipes((event) => {
             "minecraft:gold_nugget",
             "#forge:nuggets/constantan",
         ],
-        [
-            { output: "actuallyadditions:lens" },
-            "#forge:glass",
-            "thermal:signalum_glass",
-        ],
-        [
-            { output: "actuallyadditions:iron_casing" },
-            "#forge:rods/wooden",
-            "forge:plates/zinc",
-        ],
+        [{ output: "actuallyadditions:lens" }, "#forge:glass", "thermal:signalum_glass"],
+        [{ output: "actuallyadditions:iron_casing" }, "#forge:rods/wooden", "forge:plates/zinc"],
         [
             // [
             //     {
@@ -1151,11 +751,7 @@ ServerEvents.recipes((event) => {
             "actuallyadditions:black_quartz",
             "forbidden_arcanus:arcane_crystal_dust",
         ],
-        [
-            { output: "thermal:machine_frame" },
-            "thermal:tin_gear",
-            "createaddition:capacitor",
-        ],
+        [{ output: "thermal:machine_frame" }, "thermal:tin_gear", "createaddition:capacitor"],
         [
             { output: "actuallyadditions:ring_of_magnetizing" },
             "minecraft:lapis_lazuli",
@@ -1166,16 +762,8 @@ ServerEvents.recipes((event) => {
             "actuallyadditions:restonia_crystal",
             "alexscaves:azure_neodymium_ingot",
         ],
-        [
-            { output: "actuallyadditions:ender_casing" },
-            "#forge:ender_pearls",
-            "eidolon:ender_calx",
-        ],
-        [
-            { output: "actuallyadditions:feeder" },
-            "#minecraft:planks",
-            "farmersdelight:straw_bale",
-        ],
+        [{ output: "actuallyadditions:ender_casing" }, "#forge:ender_pearls", "eidolon:ender_calx"],
+        [{ output: "actuallyadditions:feeder" }, "#minecraft:planks", "farmersdelight:straw_bale"],
         [
             { output: "actuallyadditions:feeder" },
             "minecraft:golden_carrot",
@@ -1201,11 +789,7 @@ ServerEvents.recipes((event) => {
             "#forge:cobblestone",
             "create:industrial_iron_block",
         ],
-        [
-            { output: "actuallyadditions:dropper" },
-            "#forge:cobblestone",
-            "quark:iron_plate",
-        ],
+        [{ output: "actuallyadditions:dropper" }, "#forge:cobblestone", "quark:iron_plate"],
         [
             { output: "#domesticationinnovation:pet_beds" },
             "minecraft:bone",
@@ -1216,11 +800,7 @@ ServerEvents.recipes((event) => {
             "minecraft:feather",
             "minersdelight:gossypium",
         ],
-        [
-            { output: "minecraft:bread" },
-            "minecraft:wheat",
-            "farmersdelight:wheat_dough",
-        ],
+        [{ output: "minecraft:bread" }, "minecraft:wheat", "farmersdelight:wheat_dough"],
         [
             { output: "cataclysm:abyss_eye" },
             "minecraft:crying_obsidian",
@@ -1241,11 +821,7 @@ ServerEvents.recipes((event) => {
             "minecraft:redstone_block",
             "irons_spellbooks:lightning_bottle",
         ],
-        [
-            { output: "thermal:watering_can" },
-            "minecraft:bucket",
-            "miners_delight:copper_cup",
-        ],
+        [{ output: "thermal:watering_can" }, "minecraft:bucket", "miners_delight:copper_cup"],
         [
             { output: "cold_sweat:thermolith" },
             "#minecraft:terracotta",
@@ -1256,26 +832,14 @@ ServerEvents.recipes((event) => {
             "minecraft:leather",
             "forbidden_arcanus:cloth",
         ],
-        [
-            { mod: "meetyourfight" },
-            "minecraft:amethyst_shard",
-            "aether:zanite_gemstone",
-        ],
-        [
-            { output: "meetyourfight:tomb_planeter" },
-            "#minecraft:dirt",
-            "farmersdelight:rich_soil",
-        ],
+        [{ mod: "meetyourfight" }, "minecraft:amethyst_shard", "aether:zanite_gemstone"],
+        [{ output: "meetyourfight:tomb_planeter" }, "#minecraft:dirt", "farmersdelight:rich_soil"],
         [
             { output: "meetyourfight:blossoming_mind" },
             "minecraft:lapis_lazuli",
             "alexscaves:occult_gem",
         ],
-        [
-            { output: "meetyourfight:wilted_ideals" },
-            "#c:black_dyes",
-            "#botania:petals/black",
-        ],
+        [{ output: "meetyourfight:wilted_ideals" }, "#c:black_dyes", "#botania:petals/black"],
         [
             { output: "bosses_of_mass_destruction:void_lily" },
             "minecraft:amethyst_shard",
@@ -1306,41 +870,17 @@ ServerEvents.recipes((event) => {
             "minecraft:ender_pearl",
             "irons_spellbooks:arcane_essence",
         ],
-        [
-            { mod: "industrialforegoing" },
-            "minecraft:ender_eye",
-            "alexscaves:ferrouslime_ball",
-        ],
-        [
-            { mod: "industrialforegoing" },
-            "minecraft:ender_pearl",
-            "graveyard:corruption",
-        ],
-        [
-            { output: "graveyard:bone_dagger" },
-            "minecraft:bone",
-            "irons_spellbooks:frozen_bone",
-        ],
-        [
-            { output: "botania:fel_pumpkin" },
-            "minecraft:bone",
-            "irons_spellbooks:frozen_bone",
-        ],
-        [
-            { output: "reliquary:mob_charm" },
-            "#forge:leather",
-            "forbidden_arcanus:cloth",
-        ],
+        [{ mod: "industrialforegoing" }, "minecraft:ender_eye", "alexscaves:ferrouslime_ball"],
+        [{ mod: "industrialforegoing" }, "minecraft:ender_pearl", "graveyard:corruption"],
+        [{ output: "graveyard:bone_dagger" }, "minecraft:bone", "irons_spellbooks:frozen_bone"],
+        [{ output: "botania:fel_pumpkin" }, "minecraft:bone", "irons_spellbooks:frozen_bone"],
+        [{ output: "reliquary:mob_charm" }, "#forge:leather", "forbidden_arcanus:cloth"],
         [
             { output: "immersive_aircraft:enhanced_propeller" },
             "minecraft:copper_ingot",
             "#forge:ingots/brass",
         ],
-        [
-            { output: "immersive_aircraft:boiler" },
-            "minecraft:furnace",
-            "cold_sweat:boiler",
-        ],
+        [{ output: "immersive_aircraft:boiler" }, "minecraft:furnace", "cold_sweat:boiler"],
         [
             { output: "immersive_aircraft:gyroscope" },
             "minecraft:comparator",
@@ -1361,36 +901,20 @@ ServerEvents.recipes((event) => {
             "irons_spellbooks:cinder_essence",
             "mowziesmobs:naga_fang",
         ],
-        [
-            { output: "supplementaries:cannon" },
-            "minecraft:iron_ingot",
-            "#forge:ingots/aluminum",
-        ],
+        [{ output: "supplementaries:cannon" }, "minecraft:iron_ingot", "#forge:ingots/aluminum"],
         // [
         //     { output: "sawmill:sawmill" },
         //     "minecraft:iron_ingot",
         //     "thermal:saw_blade",
         // ],
-        [
-            { output: "framedblocks:framing_saw" },
-            "minecraft:iron_ingot",
-            "thermal:saw_blade",
-        ],
+        [{ output: "framedblocks:framing_saw" }, "minecraft:iron_ingot", "thermal:saw_blade"],
         [
             { output: "framedblocks:powered_framing_saw" },
             "minecraft:iron_ingot",
             "thermal:saw_blade",
         ],
-        [
-            { mod: "elevatorid" },
-            "minecraft:ender_pearl",
-            "ars_nouveau:manipulation_essence",
-        ],
-        [
-            { output: "create:item_drain" },
-            "minecraft:iron_bars",
-            "farmersdelight:canvas",
-        ],
+        [{ mod: "elevatorid" }, "minecraft:ender_pearl", "ars_nouveau:manipulation_essence"],
+        [{ output: "create:item_drain" }, "minecraft:iron_bars", "farmersdelight:canvas"],
         [{ output: "create:spout" }, "minecraft:dried_kelp", "quark:chute"],
         [
             { output: "grapplemod:block_grapple_modifier" },
@@ -1402,16 +926,8 @@ ServerEvents.recipes((event) => {
             "irons_spellbooks:lightning_bottle",
             "dungeonnowloading:chaotic_hexahedron",
         ],
-        [
-            { output: "skyarena:ice_eye" },
-            "minecraft:snow_block",
-            "irons_spellbooks:frozen_bone",
-        ],
-        [
-            { output: "skyarena:ice_eye" },
-            "minecraft:packed_ice",
-            "aquamirae:fin",
-        ],
+        [{ output: "skyarena:ice_eye" }, "minecraft:snow_block", "irons_spellbooks:frozen_bone"],
+        [{ output: "skyarena:ice_eye" }, "minecraft:packed_ice", "aquamirae:fin"],
         // [
         //     { output: "skyarena:crimson_eye" },
         //     "minecraft:blaze_powder",
@@ -1427,26 +943,14 @@ ServerEvents.recipes((event) => {
             "hexcasting:amethyst_dust",
             "irons_spellbooks:divine_pearl",
         ],
-        [
-            { output: "hexcasting:lens" },
-            "minecraft:glass",
-            "hexcasting:amethyst_dust",
-        ],
+        [{ output: "hexcasting:lens" }, "minecraft:glass", "hexcasting:amethyst_dust"],
         [
             { output: "hexcasting:focus" },
             "minecraft:glowstone_dust",
             "irons_spellbooks:arcane_essence",
         ],
-        [
-            { output: "hexcasting:focus" },
-            "minecraft:paper",
-            "ars_nouveau:magebloom_fiber",
-        ],
-        [
-            { output: "hexcasting:focus" },
-            "#forge:leather",
-            "farmersdelight:canvas",
-        ],
+        [{ output: "hexcasting:focus" }, "minecraft:paper", "ars_nouveau:magebloom_fiber"],
+        [{ output: "hexcasting:focus" }, "#forge:leather", "farmersdelight:canvas"],
         [
             { output: "caverns_and_chasms:living_flesh" },
             "minecraft:ghast_tear",
@@ -1508,11 +1012,7 @@ ServerEvents.recipes((event) => {
             "minecraft:glow_ink_sac",
             "autumnity:snail_goo",
         ],
-        [
-            { output: "exposure:camera" },
-            "minecraft:iron_ingot",
-            "#forge:ingots/aluminum",
-        ],
+        [{ output: "exposure:camera" }, "minecraft:iron_ingot", "#forge:ingots/aluminum"],
         [{ output: "exposure:camera" }, "minecraft:lever", "create:cogwheel"],
         [
             { output: "#exposure:film_rolls" },
@@ -1525,6 +1025,19 @@ ServerEvents.recipes((event) => {
             "thermal:bell_pepper",
             "delightful:nut_butter_bottle",
         ],
+        [{ output: "starcatcher:cherry_bait" }, "minecraft:pink_petals", "environmental:cherries"],
+        [{ output: "starcatcher:crystal_hook" }, "minecraft:glass", "galosphere:allurite_shard"],
+        [{ output: "starcatcher:mossy_hook" }, "minecraft:iron_nugget", "environmental:mud_ball"],
+        [
+            { output: "starcatcher:heavy_hook" },
+            "minecraft:iron_block",
+            "#forge:storage_blocks/lead",
+        ],
+        [
+            {},
+            "farmersrespite:coffee_beans",
+            "#rusticdelight:coffee_ingredients"
+        ]
         // [
         //     { output: "thermal:machine_press" },
         //     "thermal:constantan_gear",

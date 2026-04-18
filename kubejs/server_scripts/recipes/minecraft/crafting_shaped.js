@@ -298,9 +298,7 @@ ServerEvents.recipes((event) => {
                 A: "artifacts:golden_hook",
                 B: "thermal:xp_crystal",
                 C: "#forge:heads",
-                D: Item.of("minecraft:enchanted_book")
-                    .enchant("minecraft:looting", 3)
-                    .strongNBT(),
+                D: Item.of("minecraft:enchanted_book").enchant("minecraft:looting", 3).strongNBT(),
             },
         ],
         [
@@ -400,10 +398,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "minecraft:gunpowder",
                 B: "minecraft:glow_berries",
-                C: Item.of(
-                    "minecraft:potion",
-                    '{Potion:"minecraft:water"}'
-                ).strongNBT(),
+                C: Item.of("minecraft:potion", '{Potion:"minecraft:water"}').strongNBT(),
             },
         ],
         [
@@ -572,9 +567,9 @@ ServerEvents.recipes((event) => {
             "waystones:warp_stone",
             ["ABA", "BCB", "ABA"],
             {
-                A: "aether:zanite_gemstone",
+                A: "netherexp:phasmo_shard",
                 B: "forbidden_arcanus:arcane_crystal",
-                C: "alexscaves:pearl",
+                C: "netherexp:wisp_bottle",
             },
         ],
         [
@@ -724,7 +719,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;6,15,4,7],intricate:0b,key:"tetra/flamberge_blade",material:2,ribbon:"ff9612",schematics:["tetra:sword/flamberge_blade"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;6,15,4,7],intricate:0b,key:"tetra/flamberge_blade",material:2,ribbon:"ff9612",schematics:["tetra:sword/flamberge_blade"]}]}}',
             ),
             [" A ", "BC ", " D "],
             {
@@ -737,7 +732,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,1,4,5],intricate:0b,key:"single/head/halberd_head/halberd_head",material:1,ribbon:"444aff",schematics:["tetra:single/head/halberd_head/halberd_head"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,1,4,5],intricate:0b,key:"single/head/halberd_head/halberd_head",material:1,ribbon:"444aff",schematics:["tetra:single/head/halberd_head/halberd_head"]}]}}',
             ),
             [" A ", "BC ", "   "],
             {
@@ -749,7 +744,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;0,1,9,4],intricate:0b,key:"sword/key_guard",material:1,ribbon:"fae409",schematics:["tetra:sword/key_guard"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;0,1,9,4],intricate:0b,key:"sword/key_guard",material:1,ribbon:"fae409",schematics:["tetra:sword/key_guard"]}]}}',
             ),
             [" A ", " BC", " C "],
             {
@@ -761,7 +756,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;9,3,6,2],intricate:0b,key:"single/head/mace_head/mace_head",material:1,ribbon:"560060",schematics:["tetra:single/head/mace_head/mace_head"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;9,3,6,2],intricate:0b,key:"single/head/mace_head/mace_head",material:1,ribbon:"560060",schematics:["tetra:single/head/mace_head/mace_head"]}]}}',
             ),
             [" A ", "DBD", " C "],
             {
@@ -774,7 +769,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;5,10,13,2],intricate:0b,key:"sword/katana/katana_blade",material:2,ribbon:"dbff10",schematics:["tetra:sword/katana/katana_blade","tetra:sword/tsuba_guard"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;5,10,13,2],intricate:0b,key:"sword/katana/katana_blade",material:2,ribbon:"dbff10",schematics:["tetra:sword/katana/katana_blade","tetra:sword/tsuba_guard"]}]}}',
             ),
             [" A ", "BCB", " D "],
             {
@@ -787,12 +782,12 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,7,9,2],intricate:0b,key:"tetra/crucible_blade",material:2,ribbon:"ff1e00",schematics:["tetra:sword/crucible_blade"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,7,9,2],intricate:0b,key:"tetra/crucible_blade",material:2,ribbon:"ff1e00",schematics:["tetra:sword/crucible_blade"]}]}}',
             ),
             [" A ", "BCB", " D "],
             {
                 A: "art_of_forging:enigmatic_construct",
-                B: "nethersdelight:propelplant_cane",
+                B: "mynetheresdelight:powder_cannon",
                 C: "enigmaticlegacy:thicc_scroll",
                 D: "apotheosis:epic_material",
             },
@@ -800,7 +795,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{glyphs:[I;15,14,15,15],intricate:1b,key:"hone/gild_1",material:2,ribbon:"c9ae69",schematics:["tetra:hone/gild_1"]}]}}'
+                '{BlockEntityTag:{data:[{glyphs:[I;15,14,15,15],intricate:1b,key:"hone/gild_1",material:2,ribbon:"c9ae69",schematics:["tetra:hone/gild_1"]}]}}',
             ),
             [" A ", "BCB", " D "],
             {
@@ -904,7 +899,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,1,9,5],intricate:0b,key:"bow/stave/dreadnought_stave",material:1,ribbon:"f3b31f",schematics:["tetra:bow/stave/dreadnought_stave","tetra:bow/stave/dreadnought_cross_stave"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;8,1,9,5],intricate:0b,key:"bow/stave/dreadnought_stave",material:1,ribbon:"f3b31f",schematics:["tetra:bow/stave/dreadnought_stave","tetra:bow/stave/dreadnought_cross_stave"]}]}}',
             ),
             [" A ", "BCB", " D "],
             {
@@ -917,7 +912,7 @@ ServerEvents.recipes((event) => {
         [
             Item.of(
                 "tetra:scroll_rolled",
-                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;15,13,12,14],intricate:0b,key:"bow/string/compound_string",material:1,ribbon:"19e588",schematics:["tetra:bow/string/compound_string","tetra:crossbow/string/compound_cross_string"]}]}}'
+                '{BlockEntityTag:{data:[{details:"art_of_forging",glyphs:[I;15,13,12,14],intricate:0b,key:"bow/string/compound_string",material:1,ribbon:"19e588",schematics:["tetra:bow/string/compound_string","tetra:crossbow/string/compound_cross_string"]}]}}',
             ),
             [" A ", "BCB", " D "],
             {
@@ -1324,7 +1319,7 @@ ServerEvents.recipes((event) => {
             ["ABA", "CCC", "ABA"],
             {
                 A: "#minecraft:logs",
-                B: "alexscaves:ferrouslime_ball",
+                B: "environmental:mud_ball",
                 C: "#forge:ingots/aluminum",
             },
         ],
@@ -1628,9 +1623,9 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:prismarine_crystals",
                 B: "upgrade_aquatic:mulberry",
                 C: "#forge:scales/sea_serpent",
-                D: "minecraft:ender_eye"
-            }
-        ]
+                D: "minecraft:ender_eye",
+            },
+        ],
     ];
 
     recipes.forEach((recipe, index) => {

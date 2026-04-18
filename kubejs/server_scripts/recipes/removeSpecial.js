@@ -42,6 +42,10 @@ ServerEvents.recipes((event) => {
             type: "minecraft:crafting_shapeless",
             input: "immersiveengineering:hammer",
         },
+        {
+            type: "minecraft:crafting_shapeless",
+            output: "aquaculture:fish_fillet_raw"
+        }
     ];
 
     toRemove.forEach((item) => {

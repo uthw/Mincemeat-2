@@ -32,31 +32,16 @@ ServerEvents.recipes((event) => {
         ],
         [
             "4x reliquary:aphrodite_potion",
-            [
-                "reliquary:fertile_essence",
-                "farmersdelight:rice",
-                "traveloptics:resonant_scrap",
-            ],
+            ["reliquary:fertile_essence", "farmersdelight:rice", "traveloptics:resonant_scrap"],
         ],
         [
             "reliquary:infernal_tear",
-            [
-                "reliquary:void_tear",
-                "cataclysm:koboleton_bone",
-                "botania:endoflame",
-            ],
+            ["reliquary:void_tear", "cataclysm:koboleton_bone", "botania:endoflame"],
         ],
-        [
-            "reliquary:void_tear",
-            ["minecraft:ghast_tear", "alexscaves:moth_dust"],
-        ],
+        ["reliquary:void_tear", ["minecraft:ghast_tear", "alexscaves:moth_dust"]],
         [
             "reliquary:destruction_catalyst",
-            [
-                "reliquary:catalyzing_gland",
-                "irons_spellbooks:fire_rune",
-                "ars_nouveau:source_gem",
-            ],
+            ["reliquary:catalyzing_gland", "irons_spellbooks:fire_rune", "ars_nouveau:source_gem"],
         ],
         [
             "4x reliquary:holy_hand_grenade",
@@ -66,38 +51,16 @@ ServerEvents.recipes((event) => {
                 "minecraft:gold_ingot",
             ],
         ],
-        [
-            "reliquary:infernal_claw",
-            ["alexsmobs:dropbear_claw", "minecraft:blaze_powder"],
-        ],
+        ["reliquary:infernal_claw", ["alexsmobs:dropbear_claw", "minecraft:blaze_powder"]],
         ["ftbquests:book", ["minecraft:book", "minecraft:paper"]],
-        [
-            "kubejs:grave_scroll",
-            ["enigmaticlegacy:thicc_scroll", "iceandfire:ectoplasm"],
-        ],
-        [
-            "4x spartanweaponry:handle",
-            ["4x #forge:rods/wooden", "forbidden_arcanus:cloth"],
-        ],
-        [
-            "4x spartanweaponry:handle",
-            ["4x #forge:rods/wooden", "eidolon:tattered_cloth"],
-        ],
-        [
-            "4x spartanweaponry:pole",
-            ["8x #forge:rods/wooden", "forbidden_arcanus:cloth"],
-        ],
-        [
-            "4x spartanweaponry:pole",
-            ["8x #forge:rods/wooden", "eidolon:tattered_cloth"],
-        ],
+        ["kubejs:grave_scroll", ["enigmaticlegacy:thicc_scroll", "iceandfire:ectoplasm"]],
+        ["4x spartanweaponry:handle", ["4x #forge:rods/wooden", "forbidden_arcanus:cloth"]],
+        ["4x spartanweaponry:handle", ["4x #forge:rods/wooden", "eidolon:tattered_cloth"]],
+        ["4x spartanweaponry:pole", ["8x #forge:rods/wooden", "forbidden_arcanus:cloth"]],
+        ["4x spartanweaponry:pole", ["8x #forge:rods/wooden", "eidolon:tattered_cloth"]],
         [
             "irons_spellbooks:arcane_essence",
-            [
-                "forbidden_arcanus:arcane_crystal_dust",
-                "supplementaries:ash",
-                "mekanism:salt",
-            ],
+            ["forbidden_arcanus:arcane_crystal_dust", "supplementaries:ash", "mekanism:salt"],
         ],
         [
             "4x nomowanderer:trader_cloth_piece",
@@ -107,34 +70,23 @@ ServerEvents.recipes((event) => {
             "4x forbidden_arcanus:arcane_bone_meal",
             [
                 "forbidden_arcanus:arcane_crystal_dust",
-                "nethersdelight:propelplant_cane",
+                "mynetheresdelight:powder_cannon",
                 "4x minecraft:bone_meal",
             ],
         ],
         [
             "3x reliquary:glowing_bread",
-            [
-                "3x minecraft:bread",
-                "reliquary:glowing_water",
-                "2x theurgy:purified_gold",
-            ],
+            ["3x minecraft:bread", "reliquary:glowing_water", "2x theurgy:purified_gold"],
         ],
         [
             "3x reliquary:glowing_bread",
-            [
-                "3x minecraft:bread",
-                "reliquary:glowing_water",
-                "aquamirae:ship_graveyard_echo",
-            ],
+            ["3x minecraft:bread", "reliquary:glowing_water", "aquamirae:ship_graveyard_echo"],
         ],
         [
             "actuallyadditions:engineers_goggles",
             ["create:goggles", "actuallyadditions:restonia_crystal"],
         ],
-        [
-            "actuallyadditions:filter",
-            ["create:filter", "actuallyadditions:restonia_crystal"],
-        ],
+        ["actuallyadditions:filter", ["create:filter", "actuallyadditions:restonia_crystal"]],
         [
             "actuallyadditions:wooden_aiot",
             [
@@ -205,36 +157,15 @@ ServerEvents.recipes((event) => {
         [
             "enigmaticlegacy:ascension_amulet",
             [
-                Item.of(
-                    "enigmaticlegacy:enigmatic_amulet",
-                    "{AssignedColor:0.1f}"
-                ).strongNBT(),
-                Item.of(
-                    "enigmaticlegacy:enigmatic_amulet",
-                    "{AssignedColor:0.2f}"
-                ).strongNBT(),
-                Item.of(
-                    "enigmaticlegacy:enigmatic_amulet",
-                    "{AssignedColor:0.3f}"
-                ).strongNBT(),
-                Item.of(
-                    "enigmaticlegacy:enigmatic_amulet",
-                    "{AssignedColor:0.4f}"
-                ).strongNBT(),
-                Item.of(
-                    "enigmaticlegacy:enigmatic_amulet",
-                    "{AssignedColor:0.5f}"
-                ).strongNBT(),
-                Item.of(
-                    "enigmaticlegacy:enigmatic_amulet",
-                    "{AssignedColor:0.6f}"
-                ).strongNBT(),
-                Item.of(
-                    "enigmaticlegacy:enigmatic_amulet",
-                    "{AssignedColor:0.7f}"
-                ).strongNBT(),
+                Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.1f}").strongNBT(),
+                Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.2f}").strongNBT(),
+                Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.3f}").strongNBT(),
+                Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.4f}").strongNBT(),
+                Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.5f}").strongNBT(),
+                Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.6f}").strongNBT(),
+                Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.7f}").strongNBT(),
             ],
-        ]
+        ],
     ];
 
     recipes.forEach((recipe) => {

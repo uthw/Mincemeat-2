@@ -121,7 +121,6 @@ ServerEvents.recipes((event) => {
         "iceandfire:armor_silver_metal_chestplate",
         "iceandfire:armor_silver_metal_leggings",
         "iceandfire:armor_silver_metal_boots",
-        "#waystones:waystones",
         "waystones:warp_stone",
         "forbidden_arcanus:quantum_catcher",
         "forbidden_arcanus:mundabitur_dust",
@@ -191,7 +190,15 @@ ServerEvents.recipes((event) => {
         "v_slab_compat:environmental/grass_thatch_vertical_slab",
         "art_of_forging:shockwave_chamber",
         "celestisynth:celestial_spell_book",
-        "enigmaticlegacy:enchantment_transposer"
+        "enigmaticlegacy:enchantment_transposer",
+        "irons_patreon_lib:transmog_table",
+        "irons_patreon_lib:player_statue",
+        "rusticdelight:coffee",
+        "rusticdelight:dark_coffee",
+        "rusticdelight:milk_coffee",
+        "rusticdelight:chocolate_coffee",
+        "rusticdelight:honey_coffee",
+        "rusticdelight:syrup_coffee",
     ];
 
     toRemove.forEach((item) => {

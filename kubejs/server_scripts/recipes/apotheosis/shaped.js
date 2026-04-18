@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
             inputs: ["AAA", "BCD", "AAA"],
             keys: {
                 A: "minecraft:nether_bricks",
-                B: "nethersdelight:propelplant_cane",
+                B: "mynetheresdelight:powder_cannon",
                 C: "#c:bookshelves",
                 D: "iceandfire:witherbone",
             },
