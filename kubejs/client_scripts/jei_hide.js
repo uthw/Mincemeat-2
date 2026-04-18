@@ -45,6 +45,26 @@ JEIEvents.hideItems((event) => {
         "thermal:spring_salad",
         "thermal:hearty_stew",
         "thermal:xp_stew",
+        "irons_patreon_lib:transmog_table",
+        "irons_patreon_lib:player_statue",
+        "windswept:gingerbread_block",
+        "windswept:glazed_gingerbread_block",
+        "windswept:gingerbread_bricks",
+        "windswept:gingerbread_brick_stairs",
+        "windswept:gingerbread_brick_slab",
+        "windswept:gingerbread_brick_wall",
+        "windswept:glazed_gingerbread_bricks",
+        "windswept:glazed_gingerbread_brick_stairs",
+        "windswept:glazed_gingerbread_brick_slab",
+        "windswept:glazed_gingerbread_brick_wall",
+        /environmental:.*pine(?!cone_golem).*/,
+        "environmental:bluebell",
+        "v_slab_compat:windswept/gingerbread_brick_vertical_slab",
+        "v_slab_compat:windswept/glazed_gingerbread_brick_vertical_slab",
+        "v_slab_compat:environmental/pine_vertical_slab",
+        "fallen_gems_affixes:augment",
+        "fallen_gems_affixes:affix_scroll",
+        // "fallen_gems_affixes:sigil_of_ascension"
     ];
 
     items.forEach((item) => {

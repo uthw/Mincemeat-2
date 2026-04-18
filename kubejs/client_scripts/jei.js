@@ -62,80 +62,112 @@ JEIEvents.information((event) => {
         },
         {
             item: "art_of_forging:vobrite_crystal",
-            desc: "Dropped by murmurs."
+            desc: "Dropped by murmurs.",
         },
         {
             item: "art_of_forging:shards_of_malice",
-            desc: "Dropped by Ancient Knights - see supernatural magic quests for how to summon one."
+            desc: "Dropped by Ancient Knights - see supernatural magic quests for how to summon one.",
         },
         {
             item: "art_of_forging:fragment_of_eden",
-            desc: "Dropped in large quantities by the Corrupted Champion."
+            desc: "Dropped in large quantities by the Corrupted Champion.",
         },
         {
             item: "art_of_forging:ancient_axe",
-            desc: "Dropped by Frostmaw."
+            desc: "Dropped by Frostmaw.",
         },
         {
             item: "art_of_forging:ancient_blade",
-            desc: "Dropped by Ghost of Captain Cornelia."
+            desc: "Dropped by Ghost of Captain Cornelia.",
         },
         {
             item: "art_of_forging:ancient_flail",
-            desc: "Dropped by Night Lich."
+            desc: "Dropped by Night Lich.",
         },
         {
             item: "art_of_forging:soul_ember",
-            desc: "Obtained by killing a blaze on soul soil."
+            desc: "Obtained by killing a blaze on soul soil.",
         },
         {
             item: "art_of_forging:nano_insectoid",
-            desc: "Dropped from clawing forged storage containers in extractor ruins."
+            desc: "Dropped from clawing forged storage containers in extractor ruins.",
         },
         {
             item: "art_of_forging:encoded_canister",
-            desc: "Dropped from clawing forged storage containers in extractor ruins."
+            desc: "Dropped from clawing forged storage containers in extractor ruins.",
         },
         {
             item: "art_of_forging:esoteric_codex",
-            desc: "Dropped from clawing forged storage containers in extractor ruins."
+            desc: "Dropped from clawing forged storage containers in extractor ruins.",
         },
         {
             item: "netherexp:stridite",
-            desc: "Found in Brazier Chests or through soul sand valley archaeology."
+            desc: "Found in Brazier Chests or through soul sand valley archaeology.",
         },
         {
             item: "farmersdelight:rice",
-            desc: "Grows in the wild in biomes similar to swamps and jungles (look in shallow water), or can be found in mineshafts and villages."
+            desc: "Grows in the wild in biomes similar to swamps and jungles (look in shallow water), or can be found in mineshafts and villages.",
         },
         {
             item: "supplementaries:flax_seeds",
-            desc: "Grows in the wild in beaches."
+            desc: "Grows in the wild in beaches.",
         },
         {
             item: "enigmaticlegacy:etherium_ore",
-            desc: "Dropped by Ender Guardians and Obsidiliths."
+            desc: "Dropped by Ender Guardians and Obsidiliths.",
         },
         {
             item: "create:asurine",
-            desc: "Found with tuff and deepslate between Y -30 and 70."
+            desc: "Found with tuff and deepslate between Y -30 and 70.",
         },
         {
             item: "create:crimsite",
-            desc: "Found with tuff and deepslate between Y -30 and 70."
+            desc: "Found with tuff and deepslate between Y -30 and 70.",
         },
         {
             item: "create:ochrum",
-            desc: "Found with tuff and deepslate between Y -30 and 70."
+            desc: "Found with tuff and deepslate between Y -30 and 70.",
         },
         {
             item: "create:scoria",
-            desc: "Generates naturally in the Nether."
+            desc: "Generates naturally in the Nether.",
         },
         {
             item: "create:scorchia",
-            desc: "Generates naturally in the Nether."
-        }
+            desc: "Generates naturally in the Nether.",
+        },
+        {
+            item: "rusticdelight:coffee_beans",
+            desc: "Grows in the wild in jungles, rainforests, and the like.",
+        },
+        {
+            item: "rusticdelight:wild_coffee",
+            desc: "Grows in the wild in jungles, rainforests, and the like.",
+        },
+        {
+            item: "#forge:vegetables/bell_pepper",
+            desc: "Grows in the wild in jungles, rainforests, and the like.",
+        },
+        {
+            item: "rusticdelight:wild_bell_peppers",
+            desc: "Grows in the wild in jungles, rainforests, and the like.",
+        },
+        {
+            item: "rusticdelight:wild_cotton",
+            desc: "Grows in the wild in forests.",
+        },
+        {
+            item: "rusticdelight:cotton_boll",
+            desc: "Grows in the wild in forests.",
+        },
+        {
+            item: "farmersrespite:wild_tea_bush",
+            desc: "Grows in the wild in swamps and similar biomes.",
+        },
+        {
+            item: "#farmersrespite:tea_leaves",
+            desc: "Grow in the wild in swamps and similar biomes.",
+        },
     ];
 
     additions.forEach((addition) => {
