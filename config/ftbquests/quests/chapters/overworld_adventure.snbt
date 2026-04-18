@@ -2066,9 +2066,9 @@
 		{
 			dependencies: ["67EDF8A2B69A158D"]
 			description: [
-				"&cIMPORTANT: This boss's healing mechanic is &lbugged &r&cand will regenerate its health fully (it's not meant to do that). "
+				"&cIMPORTANT: There is a bug where the boss can &lheal fully!&r &cIt should only heal up to the rhombuses on its HP bar!"
 				""
-				"&cUntil it's fixed, read how to overcome this on the &lsecond page!"
+				"&cI made a fix for it, but if it doesn't work, see the next page for how to prevent the healing entirely!"
 				""
 				"The Void Blossom grows deep below the ground. You'll need to plant a Void Lily and follow its pollen, since your compass isn't able to find it."
 				""
@@ -2081,6 +2081,8 @@
 				"If you can't out-DPS the Void Blossom's healing, you can prevent it entirely instead. Simply empty a lava bucket above each of the places where flowers spawn. The lava will flow down and break the flowers every time they appear."
 				""
 				"{image:kubejs:item/void_blossom_guide width:716 height:599 align:center fit:true}"
+				""
+				"If that didn't work or you have lost hope, open your world to LAN with cheats on (singleplayer) or contact/be an operator (multiplayer), then run this command to stop its healing:"
 			]
 			id: "4D8E61449F85F893"
 			tasks: [{
@@ -3251,6 +3253,7 @@
 				"34A83BB5D5DEFC82"
 				"00294FF7CDCA91F0"
 				"4493D9650B5D1F71"
+				"21D6AB95329A4EEF"
 			]
 			description: [
 				"If you're not interested in the Everbright or Everdawn, you can instead choose to skip them entirely and progress into the Prison without leaving the Overworld."
@@ -3260,15 +3263,7 @@
 				"Be warned, as this \"shortcut\" is much harder than taking the Blue Skies route."
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "forbidden_arcanus:sea_prism"
-			}
+			icon: "forbidden_arcanus:sea_prism"
 			id: "00FC9BF5E2C82B11"
 			rewards: [{
 				auto: "invisible"
