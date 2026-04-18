@@ -1,5 +1,14 @@
 {
-    "keys": ["minecraft:enchanted_book", "minecraft:experience_bottle", "quark:ancient_tome"],
+    "keys": [
+        "minecraft:enchanted_book",
+        "minecraft:experience_bottle",
+        "quark:ancient_tome",
+        "#mincemeat:sounds/enchanting_books",
+        "#curios:spellbook",
+        "#curios:spellstone",
+        "alexsmobs:dimensional_carver",
+        "alexsmobs:shattered_dimensional_carver"
+    ],
     "pitch": 0.01,
     "soundEvent": "minecraft:block.end_portal_frame.fill",
     "volume": 0.2

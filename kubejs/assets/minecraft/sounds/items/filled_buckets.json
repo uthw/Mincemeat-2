@@ -1,0 +1,4 @@
+{
+    "keys": ["#c:buckets/entity_water", "#c:buckets/water", "mincemeat:sounds/filled_buckets"],
+    "soundEvent": "minecraft:item.bucket.fill"
+}

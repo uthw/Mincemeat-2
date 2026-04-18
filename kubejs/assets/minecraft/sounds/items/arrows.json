@@ -1,0 +1,6 @@
+{
+    "keys": ["#minecraft:arrows", "#mincemeat:sounds/arrow", "spartanweaponry:bolts"],
+    "pitch": 0.7,
+    "soundEvent": "minecraft:entity.arrow.hit",
+    "volume": 0.3
+}

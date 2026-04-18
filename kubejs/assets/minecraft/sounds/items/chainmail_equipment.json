@@ -1,0 +1,11 @@
+{
+    "keys": [
+        "minecraft:chainmail_boots",
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_helmet",
+        "minecraft:chainmail_leggings",
+        "#mincemeat:sounds/chainmail_equipment",
+        "littlelogistics:spring"
+    ],
+    "soundEvent": "minecraft:block.chain.place"
+}

@@ -5,7 +5,11 @@
         "alexscaves:heavy_bone",
         "alexsmobs:fish_bones",
         "aquaculture:fish_bones",
-        "aquamirae:sharp_bones"
+        "aquamirae:sharp_bones",
+        "#mincemeat:sounds/bones",
+        "#forge:bones",
+        "irons_spellbooks:frozen_bone",
+        "meetyourfight:bone_raker"
     ],
     "soundEvent": "minecraft:entity.skeleton.ambient"
 }

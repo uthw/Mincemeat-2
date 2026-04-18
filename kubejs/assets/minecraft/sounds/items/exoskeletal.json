@@ -1,0 +1,11 @@
+{
+    "keys": [
+        "minecraft:armadillo_scute",
+        "minecraft:turtle_egg",
+        "minecraft:turtle_scute",
+        "#mincemeat:sounds/exoskeletal"
+    ],
+    "pitch": 1.8,
+    "soundEvent": "minecraft:item.armor.equip_turtle",
+    "volume": 0.5
+}

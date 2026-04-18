@@ -1,0 +1,11 @@
+{
+    "keys": [
+        "#c:foods/soups",
+        "#mincemeat:sounds/bowl_foods",
+        "alexscaves:sundae",
+        "alexscaves:green_soylent"
+    ],
+    "pitch": 1.58,
+    "soundEvent": "minecraft:entity.mooshroom.suspicious_milk",
+    "volume": 0.5
+}

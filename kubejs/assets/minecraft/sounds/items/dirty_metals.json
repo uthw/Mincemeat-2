@@ -1,0 +1,22 @@
+{
+    "keys": [
+        "minecraft:charcoal",
+        "minecraft:clay_ball",
+        "minecraft:coal",
+        "minecraft:flint",
+        "minecraft:glowstone",
+        "minecraft:gunpowder",
+        "minecraft:redstone",
+        "#mincemeat:dirty_metals",
+        "#forge:dusts",
+        "apotheosis:common_material",
+        "apotheosis:uncommon_material",
+        "apotheosis:epic_material",
+        "botania:pixie_dust",
+        "alexscaves:moth_dust",
+        "apotheosis:gem_dust",
+        "enigmaticlegacy:astral_dust",
+        "#create:crushed_raw_materials"
+    ],
+    "soundEvent": "minecraft:block.gravel.hit"
+}

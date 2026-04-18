@@ -1,0 +1,4 @@
+{
+    "keys": ["minecraft:trident", "#mincemeat:sounds/trident"],
+    "soundEvent": "minecraft:item.trident.hit"
+}

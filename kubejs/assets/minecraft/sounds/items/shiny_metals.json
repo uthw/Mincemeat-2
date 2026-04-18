@@ -5,7 +5,11 @@
         "minecraft:emerald",
         "minecraft:lapis_lazuli",
         "minecraft:quartz",
-        "#forge:gems"
+        "#forge:gems",
+        "#mincemeat:sounds/shiny_metals",
+        "apotheosis:rare_material",
+        "apotheosis:mythic_material",
+        "apotheosis:gem"
     ],
     "soundEvent": "minecraft:block.amethyst_cluster.hit"
 }

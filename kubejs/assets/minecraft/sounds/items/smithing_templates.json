@@ -1,0 +1,11 @@
+{
+    "keys": [
+        "minecraft:netherite_upgrade_smithing_template",
+        "#minecraft:trim_templates",
+        "#mincemeat:sounds/smithing_templates",
+        "alexscaves:cave_tablet",
+        "galosphere:saltbound_tablet",
+        "forbidden_arcanus:stellarite_piece"
+    ],
+    "soundEvent": "minecraft:entity.iron_golem.step"
+}

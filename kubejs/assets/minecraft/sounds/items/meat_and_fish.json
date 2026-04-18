@@ -12,9 +12,10 @@
         "#forge:cooked_fishes",
         "#forge:foods/meat/raw",
         "#minecraft:fishes",
-        "#forge:raw_fishes"
+        "#forge:raw_fishes",
+        "#mincemeat:sounds/meat_and_fish"
     ],
     "pitch": 1.8,
     "soundEvent": "minecraft:entity.puffer_fish.flop",
-    "volume": 0.2
+    "volume": 1.0
 }

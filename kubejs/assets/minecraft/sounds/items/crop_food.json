@@ -1,0 +1,12 @@
+{
+    "keys": [
+        "#c:foods/berries",
+        "#c:foods/breads",
+        "#c:foods/fruits",
+        "#c:foods/vegetables",
+        "#mincemeat:sounds/crop_food"
+    ],
+    "pitch": 1.76,
+    "soundEvent": "minecraft:block.crop.break",
+    "volume": 1.0
+}

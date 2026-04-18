@@ -1,5 +1,6 @@
 {
     "keys": [
+        "#bookshelf_books",
         "minecraft:filled_map",
         "minecraft:map",
         "minecraft:paper",
@@ -11,7 +12,13 @@
         "waystones:warp_scroll",
         "waystones:bound_scroll",
         "kubejs:grave_scroll",
-        "tetra:scroll_rolled"
+        "tetra:scroll_rolled",
+        "#mincemeat:sounds/papers",
+        "hexcasting:lore_fragment",
+        "enigmaticlegacy:lore_fragment",
+        "alexscaves:cave_codex",
+        "#exposure:film_rolls",
+        "#exposure:developed_film_rolls"
     ],
     "soundEvent": "minecraft:item.book.page_turn"
 }

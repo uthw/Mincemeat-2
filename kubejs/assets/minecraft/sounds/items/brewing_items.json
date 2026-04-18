@@ -1,0 +1,12 @@
+{
+    "keys": [
+        "minecraft:dragon_breath",
+        "minecraft:glass_bottle",
+        "minecraft:lingering_potion",
+        "minecraft:ominous_bottle",
+        "minecraft:potion",
+        "minecraft:splash_potion",
+        "#mincemeat:sounds/brewing_items"
+    ],
+    "soundEvent": "supplementaries:block.jar.place"
+}

@@ -1,0 +1,8 @@
+{
+    "keys": [
+        "minecraft:flint_and_steel",
+        "blue_skies:zeal_lighter",
+        "#mincemeat:sounds/flint_and_steel"
+    ],
+    "soundEvent": "minecraft:item.flintandsteel.use"
+}

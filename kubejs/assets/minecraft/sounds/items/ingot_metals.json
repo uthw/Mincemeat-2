@@ -11,7 +11,23 @@
         "minecraft:raw_gold",
         "minecraft:raw_iron",
         "#forge:ingots",
-        "#forge:raw_materials"
+        "#forge:raw_materials",
+        "#mincemeat:sounds/ingot_metals",
+        "#forge:gears",
+        "#forge:plates",
+        "#curios:ring",
+        "createaddition:capacitor",
+        "enderio:basic_capacitor",
+        "enderio:double_layer_capacitor",
+        "enderio:octadic_capacitor",
+        "pneumaticcraft:capacitor",
+        "apotheosis:common_material",
+        "enigmaticlegacy:etherium_scraps",
+        "forbidden_arcanus:spawner_scrap",
+        "irons_spellbooks:mithril_scrap",
+        "tetra:metal_scrap",
+        "majruszsaccessories:tool_scraps",
+        "#curios:bracelet"
     ],
-    "soundEvent": "minecraft:block.metal.break"
+    "soundEvent": "mincemeat:sounds/block.sheet_metal.break"
 }

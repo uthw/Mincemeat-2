@@ -1,4 +1,4 @@
 {
-    "keys": ["minecraft:bow", "minecraft:crossbow", "#minecraft:bows"],
+    "keys": ["minecraft:bow", "minecraft:crossbow", "#minecraft:bows", "#mincemeat:sounds/bows"],
     "soundEvent": "minecraft:entity.arrow.shoot"
 }
