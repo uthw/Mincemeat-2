@@ -1,0 +1,281 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "agriculture"
+	group: "357B296D74E0575E"
+	icon: {
+		Count: 1
+		id: "mowziesmobs:sand_rake"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "386A9982C45FB14C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You can find all sorts of crops by exploring the various biomes of the world."]
+			id: "7977CFE487433B9A"
+			tasks: [{
+				advancement: "farmersdelight:main/get_fd_seed"
+				criterion: ""
+				disable_toast: true
+				id: "06A06E27182D8F2A"
+				title: "Crops of the Wild"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "71805D96B1D5B73D"
+			subtitle: "Found in biomes similar to jungles"
+			tasks: [{
+				id: "65465A06D4A3AE78"
+				item: "rusticdelight:coffee_beans"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "04E46F0C677D03AD"
+			subtitle: "Found in forests"
+			tasks: [{
+				id: "2C8A9D5AD45765C1"
+				item: "delightful:salmonberries"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "300F99C030AD21D4"
+			subtitle: "Found on beaches"
+			tasks: [{
+				id: "0576C576030DEC7F"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "64D109363C42B7C0"
+			subtitle: "Found in temperate biomes"
+			tasks: [{
+				id: "4D83A38EB503E8A4"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "375C325B0765366D"
+			subtitle: "Found in wetlands such as swamps and jungles"
+			tasks: [{
+				id: "2A7C07CEC8F32977"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "030B76431A011336"
+			subtitle: "Found in caves"
+			tasks: [{
+				id: "709E705648C76275"
+				item: "miners_delight:cave_carrot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "493527566FAE325B"
+			tasks: [{
+				id: "21E35AD0985122B0"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "70C26837CEF88353"
+			tasks: [{
+				id: "0844E3B4023874DF"
+				item: "windswept:ginger_root"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "2F538706DF609B78"
+			subtitle: "Found in biomes similar to jungles"
+			tasks: [{
+				id: "717F73596AE1BE22"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/bell_pepper"
+					}
+				}
+				title: "Bell Pepper"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "667DD4FDB6E1F92A"
+			subtitle: "Found in forests"
+			tasks: [{
+				id: "40DD722EC9DB10ED"
+				item: "rusticdelight:cotton_boll"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "7DD927B9F4F50CC1"
+			subtitle: "Found in prairies"
+			tasks: [{
+				id: "1D1002BB45392B59"
+				item: "immersiveengineering:hemp_fiber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "049D75FABDF56178"
+			subtitle: "Found in swamps (and less often in deserts)"
+			tasks: [{
+				id: "23E2D79783F3CB04"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersrespite:tea_leaves"
+					}
+				}
+				title: "Tea Leaves"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The &6Kettle&r is a crafting station which allows you to &cbrew tea and other aromatic beverages&r."
+				""
+				"It is similar to the Cooking Pot, taking&c two items and a bottle as input&r. Where it differs, however, is that it also needs a &cliquid to brew the items into&r."
+				""
+				"You may&c insert liquid&r using the bottle slot in its UI or by simply right clicking the &6kettle&r.&7 In case you're not familiar with the terminology, 250 mB (milliblocks) is one glass bottle and 1,000 mB is one bucket."
+				""
+				"Look at the recipes you can use a &6kettle&r for by pressing \"u\"&7 (or the Show Uses key if you changed it)&r on the item in JEI or your inventory."
+				"{@pagebreak}"
+				"{image:kubejs:item/respite_brewing width:258 height:139 align:center fit:true}"
+				""
+				"On the left is the&c input liquid&r. This recipe requires 1000 mB of milk."
+				""
+				"The two slots above the fire are the &cinputs&r. This recipe requires one sugar and one cocoa beans."
+				""
+				"On the bottom is the &ccontainer&r the finished product can be captured in. This recipe (and most others) accept glass bottles."
+			]
+			id: "5A9395C87DAFFC73"
+			tasks: [{
+				id: "5EAAA41BA0428F22"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "Brewing"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			id: "254EED6A452E3F71"
+			subtitle: "Found in flower forests"
+			tasks: [{
+				id: "54B1348BEE5E6A66"
+				item: "collectorsreap:lime"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A9395C87DAFFC73"]
+			description: [
+				"The &6keg&r is your go-to for&6 fermenting&r, which is the process that primarily results in &cbeverages, cheese, and preserves&r."
+				""
+				"This is much like &cbrewing tea&r as described earlier, but with some more factors."
+				""
+				"The first is &ctemperature&r. Each recipe has a&c range of temperatures&r in which it can be made. This is influenced by the&c biome&r you're in, and the presence of &cHeating Casks&r or &cIce Crates&r. "
+				""
+				"Make sure the &6keg's&r temperature readout &cexactly matches &rthe recipe's requirements."
+				""
+				"Next, you'll have to plan ahead with &6kegs&r, since they &ctake a long time&r to do their thing: &cbetween 4 and 10 minutes&r depending on the recipe. Don't freak out if the arrow isn't filling; as long as the &cbubbles&r in the UI are animated, your &6keg&r is working."
+				""
+				"And that's about it! Everything else about the &6keg&r is more or less the same as the&c kettle&r. JEI is once again your best friend for figuring out the recipes."
+			]
+			id: "3C063940B82E6A4E"
+			tasks: [
+				{
+					id: "2F6B870E3BAEE4EB"
+					item: "brewinandchewin:keg"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A06ABFEFE8DB70B"
+					item: "brewinandchewin:tankard"
+					type: "item"
+				}
+			]
+			title: "Fermenting"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C063940B82E6A4E"]
+			description: ["These blocks can manipulate the surrounding temperature, allowing kegs to ferment different substances."]
+			id: "7036A40B4629174F"
+			tasks: [
+				{
+					id: "6198DCC7B7074FB2"
+					item: "brewinandchewin:heating_cask"
+					type: "item"
+				}
+				{
+					id: "673C97E58F522219"
+					item: "brewinandchewin:ice_crate"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+	]
+	title: "Agriculture"
+}
