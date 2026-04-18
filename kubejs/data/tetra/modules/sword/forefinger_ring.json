@@ -1,0 +1,64 @@
+{
+    "renderLayer": "higher",
+    "replace": true,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "materials": ["tetra:bone/", "tetra:metal/"],
+            "key": "forefinger_ring/",
+            "integrity": -1,
+            "durability": 15,
+            "effects": {
+                "crushing": -3
+            },
+            "extract": {
+                "primaryEffects": {
+                    "crushing": 0.35
+                },
+                "secondaryEffects": {
+                    "crushing": 1
+                },
+                "availableTextures": ["default"],
+                "durability": 0.12,
+                "glyph": {
+                    "textureX": 48,
+                    "textureY": 112
+                },
+                "models": [
+                    {
+                        "location": "tetra:item/module/sword/guard/forefinger_ring/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": ["tetra:wood/"],
+            "key": "forefinger_ring/",
+            "integrity": -1,
+            "durability": 15,
+            "effects": {
+                "crushing": -1
+            },
+            "extract": {
+                "primaryEffects": {
+                    "crushing": 0.75
+                },
+                "secondaryEffects": {
+                    "crushing": 0.75
+                },
+                "availableTextures": ["default"],
+                "durability": 0.12,
+                "glyph": {
+                    "textureX": 48,
+                    "textureY": 112
+                },
+                "models": [
+                    {
+                        "location": "tetra:item/module/sword/guard/forefinger_ring/"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "replace": true,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "materials": ["tetra:wood/"],
+            "key": "straight_guard/",
+            "integrity": -2,
+            "attributes": {
+                "generic.armor": 0.5,
+                "generic.attack_speed": -0.3
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "generic.armor": 0.3
+                },
+                "secondaryAttributes": {
+                    "generic.armor": 0.2
+                },
+                "tertiaryAttributes": {
+                    "generic.armor": -0.1,
+                    "generic.attack_speed": 0.07
+                },
+                "durability": 0.2,
+                "integrity": -0.1,
+                "glyph": {
+                    "textureX": 7,
+                    "textureY": 112
+                },
+                "availableTextures": ["metal", "crude", "shiny"],
+                "models": [
+                    {
+                        "location": "tetra:item/module/sword/guard/straight_guard/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": ["tetra:metal/", "tetra:scale/", "tetra:misc/vent_plate"],
+            "key": "straight_guard/",
+            "integrity": -2,
+            "attributes": {
+                "generic.armor": 1,
+                "generic.attack_speed": -0.04
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "generic.armor": 0.3
+                },
+                "secondaryAttributes": {
+                    "generic.armor": 0.2
+                },
+                "tertiaryAttributes": {
+                    "generic.armor": -0.1,
+                    "generic.attack_speed": 0.04
+                },
+                "durability": 0.2,
+                "integrity": -0.1,
+                "glyph": {
+                    "textureX": 7,
+                    "textureY": 112
+                },
+                "availableTextures": ["metal", "crude", "shiny"],
+                "models": [
+                    {
+                        "location": "tetra:item/module/sword/guard/straight_guard/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": ["tetra:bone/"],
+            "key": "straight_guard/",
+            "integrity": -2,
+            "attributes": {
+                "generic.armor": 1,
+                "generic.attack_speed": -0.06
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "generic.armor": 0.3
+                },
+                "secondaryAttributes": {
+                    "generic.armor": 0.2
+                },
+                "tertiaryAttributes": {
+                    "generic.armor": -0.1,
+                    "generic.attack_speed": 0.05
+                },
+                "durability": 0.2,
+                "integrity": -0.1,
+                "glyph": {
+                    "textureX": 7,
+                    "textureY": 112
+                },
+                "availableTextures": ["metal", "crude", "shiny"],
+                "models": [
+                    {
+                        "location": "tetra:item/module/sword/guard/straight_guard/"
+                    }
+                ]
+            }
+        }
+    ]
+}
