@@ -403,7 +403,7 @@ mobDropsEnabled = true
 	#Sojourner Staff settings
 	[items.sojournerStaff]
 		#List of torches that are supported by the staff
-		torches = ["minecraft:torch", "minecraft:soul_torch", "minecraft:lantern", "minecraft:jack_o_lantern", "minecraft:sea_lantern", "minecraft:soul_lantern", "minecraft:shroomlight", "minecraft:glowstone", "minecraft:end_rod", "architects_palette:nether_brass_torch", "betternether:willow_torch", "integrateddynamics:menril_torch", "integrateddynamics:menril_torch_stone", "botania:animated_torch", "occultism:spirit_torch", "undergarden:shard_torch", "framedblocks:framed_torch", "aether:ambrosium_torch", "actuallyadditions:tiny_torch", "alexscaves:bioluminescent_torch", "nethersdelight:propelplant_torch"]
+		torches = ["minecraft:torch", "minecraft:soul_torch", "minecraft:lantern", "minecraft:jack_o_lantern", "minecraft:sea_lantern", "minecraft:soul_lantern", "minecraft:shroomlight", "minecraft:glowstone", "minecraft:end_rod", "architects_palette:nether_brass_torch", "betternether:willow_torch", "integrateddynamics:menril_torch", "integrateddynamics:menril_torch_stone", "botania:animated_torch", "occultism:spirit_torch", "undergarden:shard_torch", "framedblocks:framed_torch", "aether:ambrosium_torch", "actuallyadditions:tiny_torch", "alexscaves:bioluminescent_torch"]
 		#Number of items the staff can store per item type
 		#Range: 1 ~ 9999
 		maxCapacityPerItemType = 1500
