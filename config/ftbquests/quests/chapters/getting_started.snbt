@@ -600,7 +600,7 @@
 				type: "item"
 			}]
 			title: "Upgrade your Inventory"
-			x: 2.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -888,7 +888,7 @@
 				}
 			]
 			title: "Enchanting Essentials"
-			x: 6.0d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -1015,7 +1015,7 @@
 				item: "torchmaster:dreadlamp"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -3.0d
 		}
 		{
@@ -1365,7 +1365,7 @@
 				item: "darkutils:blank_plate"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -5.5d
 		}
 		{
@@ -1381,8 +1381,8 @@
 				item: "mekanism:basic_fluid_tank"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -7.0d
+			x: 7.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2F5046E30C8273CB"]
@@ -1397,8 +1397,8 @@
 				item: "quark:abacus"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["16C996E71E9BABC3"]
@@ -2016,7 +2016,7 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: -1.5d
 		}
 		{
@@ -2050,8 +2050,8 @@
 				}
 			]
 			title: "Gems"
-			x: 4.5d
-			y: -2.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["36F98327138AA247"]
@@ -2061,7 +2061,7 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -2074,8 +2074,8 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.5d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["74F529B8810608A5"]
@@ -2109,7 +2109,7 @@
 				item: "apotheosis:scrap_tome"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -2298,7 +2298,7 @@
 			]
 			title: "Wasting Time"
 			x: 3.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3276690B1BAE040E"]
@@ -2518,7 +2518,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 13.0d
 			y: -3.5d
 		}
 		{
@@ -2789,7 +2789,7 @@
 				}
 			]
 			title: "Upgrade your Backpack"
-			x: 3.5d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -2854,7 +2854,7 @@
 				type: "item"
 			}]
 			title: "Runic Etching"
-			x: 5.5d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -2922,8 +2922,8 @@
 				item: "enchantinginfuser:enchanting_infuser"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.0d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["75F280F613E3A621"]
@@ -2934,8 +2934,8 @@
 				item: "enchantinginfuser:advanced_enchanting_infuser"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
+			x: 11.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["68BF59DD76897182"]
@@ -2963,8 +2963,8 @@
 				item: "galosphere:shadow_frame"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.0d
+			x: 6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["03B0D122AD821C0D"]
@@ -3483,7 +3483,7 @@
 				item: "minecraft:spawner"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: -0.5d
 		}
 		{
@@ -3571,7 +3571,7 @@
 				}
 			]
 			title: "Spawner Upgrades"
-			x: 9.5d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -3788,8 +3788,8 @@
 				}
 			]
 			title: "Photography Part 2"
-			x: 5.5d
-			y: -4.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["479B3130EB602E62"]
@@ -3815,7 +3815,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -4132,6 +4132,54 @@
 			title: "Unique Fishing Rods"
 			x: -3.5d
 			y: -10.0d
+		}
+		{
+			dependencies: ["318679419AB897F1"]
+			description: [
+				"Are you short on time and don't want to worry about all this \"rule of thirds\" and \"post processing\" nonsense? Try the Instant Camera to cut out the development!"
+				""
+				"This camera is more convenient than its more advanced counterpart, but you will lose the ability to fine-tune your captures. The Instant Camera is also more limited in its hardware capabilities, so you have less focal length."
+			]
+			id: "3637281BA79F5F6B"
+			tasks: [
+				{
+					id: "7F7539F54022C62D"
+					item: "exposure_polaroid:instant_camera"
+					type: "item"
+				}
+				{
+					id: "372D54FE5F727653"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "exposure_polaroid:instant_black_and_white_slide"
+								}
+								{
+									Count: 1b
+									id: "exposure_polaroid:instant_color_slide"
+								}
+								{
+									Count: 1b
+									id: "exposure_polaroid:high_sensitivity_instant_black_and_white_slide"
+								}
+								{
+									Count: 1b
+									id: "exposure_polaroid:high_sensitivity_instant_color_slide"
+								}
+							]
+						}
+					}
+					title: "Instant Slide"
+					type: "item"
+				}
+			]
+			title: "Instant Photography"
+			x: 5.5d
+			y: -4.5d
 		}
 	]
 	title: "Getting Started"

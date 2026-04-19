@@ -1014,11 +1014,6 @@ ServerEvents.recipes((event) => {
         ],
         [{ output: "exposure:camera" }, "minecraft:iron_ingot", "#forge:ingots/aluminum"],
         [{ output: "exposure:camera" }, "minecraft:lever", "create:cogwheel"],
-        [
-            { output: "#exposure:film_rolls" },
-            "minecraft:dried_kelp",
-            "immersiveengineering:hemp_fabric",
-        ],
         [{}, "reliquary:zombie_heart", "eidolon:zombie_heart"],
         [
             { output: "thermal:stuffed_pumpkin" },
@@ -1033,11 +1028,19 @@ ServerEvents.recipes((event) => {
             "minecraft:iron_block",
             "#forge:storage_blocks/lead",
         ],
+        [{}, "farmersrespite:coffee_beans", "#rusticdelight:coffee_ingredients"],
         [
-            {},
-            "farmersrespite:coffee_beans",
-            "#rusticdelight:coffee_ingredients"
-        ]
+            { output: "exposure_polaroid:instant_camera" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/zinc",
+        ],
+        [
+            { output: "exposure_polaroid:instant_camera" },
+            "minecraft:crafting_table",
+            "sophisticatedbackpacks:crafting_upgrade",
+        ],
+        [{ output: "#exposure:film_rolls" }, "minecraft:iron_ingot", "#forge:ingots/silver"],
+        [{ output: "#exposure:film_rolls" }, "minecraft:iron_nugget", "#forge:nuggets/silver"],
         // [
         //     { output: "thermal:machine_press" },
         //     "thermal:constantan_gear",
