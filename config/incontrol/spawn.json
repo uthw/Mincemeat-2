@@ -416,12 +416,6 @@
         "result": "deny"
     },
     {
-        "when": "finalize",
-        "mob": "minecraft:skeleton",
-        "healthmultiply": 2,
-        "result": "default"
-    },
-    {
         "when": "position",
         "mob": "biomeswevegone:man_o_war",
         "result": "deny"
