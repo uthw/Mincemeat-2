@@ -187,28 +187,28 @@ ItemEvents.modification((event) => {
         },
         {
             name: "celestisynth:crescentia",
-            damage: 10,
+            damage: 5,
         },
         {
             name: "celestisynth:solaris",
-            damage: 9,
+            damage: 4.5,
         },
         {
             name: "celestisynth:breezebreaker",
-            damage: 9,
+            damage: 4.5,
         },
-        // cannot edit poltergeist
+        // // cannot edit poltergeist
         {
             name: "celestisynth:aquaflora",
-            damage: 4,
+            damage: 2,
         },
         {
             name: "celestisynth:frostbound",
-            damage: 15,
+            damage: 7.5,
         },
         {
             name: "celestisynth:keres",
-            damage: 23,
+            damage: 11.5,
         },
     ];
 

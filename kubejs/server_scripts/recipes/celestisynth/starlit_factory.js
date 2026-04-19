@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
         {
             top_left_triangle: { item: "iceandfire:ectoplasm" },
             top_right_triangle: {
-                item: "iceandfire:ectoplasm",
+                item: "netherexp:phasmo_shard",
             },
             bottom_triangle: {
                 item: "bosses_of_mass_destruction:ancient_anima",
@@ -34,17 +34,17 @@ ServerEvents.recipes((event) => {
             bottom_triangle: { item: "quark:bottled_cloud" },
             right_bottom: { item: "celestisynth:celestial_core_heated" },
             right_middle: { item: "undergarden:cloggrum_ingot" },
-            right_top: { item: "undergarden:cloggrum_ingot" },
+            right_top: { item: "netherexp:banshee_powder" },
             forging_time: 500,
             result: "celestisynth:solaris",
         },
         {
-            top_left_triangle: { item: "irons_spellbooks:lightning_bottle" },
+            top_left_triangle: { item: "caverns_and_chasms:zirconia" },
             top_right_triangle: {
                 item: "irons_spellbooks:lightning_bottle",
             },
             bottom_triangle: { item: "celestisynth:supernal_netherite_ingot" },
-            right_bottom: { item: "aether_redux:gravitite_ingot" },
+            right_bottom: { item: "deep_aether:stratus_ingot" },
             right_middle: { item: "aether_redux:gravitite_ingot" },
             right_top: { item: "thermal:blitz_rod" },
             forging_time: 500,
