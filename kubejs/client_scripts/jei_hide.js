@@ -65,6 +65,15 @@ JEIEvents.hideItems((event) => {
         "fallen_gems_affixes:augment",
         "fallen_gems_affixes:affix_scroll",
         // "fallen_gems_affixes:sigil_of_ascension"
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:copper_sword",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_axe",
     ];
 
     items.forEach((item) => {
