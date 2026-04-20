@@ -190,7 +190,7 @@ ServerEvents.recipes((event) => {
             "sophisticatedbackpacks:battery_upgrade",
             ["ABA", "BCB", "ABA"],
             {
-                A: "createaddition:copper_wire",
+                A: "#forge:wires/copper",
                 B: "thermal:rf_potato",
                 C: "sophisticatedbackpacks:upgrade_base",
             },
