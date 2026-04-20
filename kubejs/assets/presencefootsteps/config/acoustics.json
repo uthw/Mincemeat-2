@@ -1,0 +1,43 @@
+{
+    "type": "library",
+    "engineversion": 1,
+    "defaults": {
+        "vol_min": 90,
+        "vol_max": 100,
+        "pitch_min": 95,
+        "pitch_max": 105
+    },
+    "soundroot": "pf_presence.",
+    "contents": {
+        "pink_salt": {
+            "walk": "@galosphere:block.pink_salt.step",
+            "run": "@galosphere:block.pink_salt.step",
+            "jump": "@galosphere:block.pink_salt.step",
+            "land": "@galosphere:block.pink_salt.step"
+        },
+        "cured_membrane": {
+            "walk": "@galosphere:block.cured_membrane.step",
+            "run": "@galosphere:block.cured_membrane.step",
+            "jump": "@galosphere:block.cured_membrane.step",
+            "land": "@galosphere:block.cured_membrane.step"
+        },
+        "lichen_moss": {
+            "walk": "@galosphere:block.lichen_moss.step",
+            "run": "@galosphere:block.lichen_moss.step",
+            "jump": "@galosphere:block.lichen_moss.step",
+            "land": "@galosphere:block.lichen_moss.step"
+        },
+        "silver": {
+            "walk": "@galosphere:block.silver.step",
+            "run": "@galosphere:block.silver.step",
+            "jump": "@galosphere:block.silver.step",
+            "land": "@galosphere:block.silver.step"
+        },
+        "silver_lattice": {
+            "walk": "@galosphere:block.silver_lattice.step",
+            "run": "@galosphere:block.silver_lattice.step",
+            "jump": "@galosphere:block.silver_lattice.step",
+            "land": "@galosphere:block.silver_lattice.step"
+        }
+    }
+}

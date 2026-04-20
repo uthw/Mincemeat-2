@@ -1,0 +1,96 @@
+{
+    "galosphere:allurite_block": "chimes",
+    "galosphere:allurite_stairs": "chimes",
+    "galosphere:allurite_slab": "chimes",
+    "galosphere:chiseled_allurite": "chimes",
+    "galosphere:allurite_lamp": "chimes",
+    "galosphere:smooth_allurite": "chimes",
+    "galosphere:smooth_allurite_stairs": "chimes",
+    "galosphere:smooth_allurite_slab": "chimes",
+    "galosphere:allurite_bricks": "chimes",
+    "galosphere:allurite_brick_stairs": "chimes",
+    "galosphere:allurite_brick_slab": "chimes",
+    "galosphere:allurite_cluster": "chimes",
+    "galosphere:glinted_allurite_cluster": "chimes",
+
+    "galosphere:lumiere_block": "chimes",
+    "galosphere:lumiere_stairs": "chimes",
+    "galosphere:lumiere_slab": "chimes",
+    "galosphere:chiseled_lumiere": "chimes",
+    "galosphere:lumiere_lamp": "chimes",
+    "galosphere:smooth_lumiere": "chimes",
+    "galosphere:smooth_lumiere_stairs": "chimes",
+    "galosphere:smooth_lumiere_slab": "chimes",
+    "galosphere:lumiere_bricks": "chimes",
+    "galosphere:lumiere_brick_stairs": "chimes",
+    "galosphere:lumiere_brick_slab": "chimes",
+    "galosphere:lumiere_cluster": "chimes",
+    "galosphere:glinted_lumiere_cluster": "chimes",
+
+    "galosphere:silver_panel": "silver",
+    "galosphere:silver_panel_stairs": "silver",
+    "galosphere:silver_panel_slab": "silver",
+    "galosphere:silver_tiles": "silver",
+    "galosphere:silver_tiles_stairs": "silver",
+    "galosphere:silver_tiles_slab": "silver",
+    "galosphere:silver_lattice": "silver_lattice",
+    "galosphere:silver_balance": "silver",
+
+    "galosphere:lichen_moss": "lichen_moss",
+
+    "galosphere:charged_lumiere_block": "chimes",
+
+    "#galosphere:pink_salt_blocks": "pink_salt",
+    "galosphere:pink_salt": "pink_salt",
+    "galosphere:rose_pink_salt": "pink_salt",
+    "galosphere:pastel_pink_salt": "pink_salt",
+
+    "galosphere:pink_salt_stairs": "pink_salt",
+    "galosphere:rose_pink_salt_stairs": "pink_salt",
+    "galosphere:pastel_pink_salt_stairs": "pink_salt",
+
+    "galosphere:pink_salt_slab": "pink_salt",
+    "galosphere:rose_pink_salt_slab": "pink_salt",
+    "galosphere:pastel_pink_salt_slab": "pink_salt",
+
+    "galosphere:pink_salt_wall": "pink_salt",
+    "galosphere:rose_pink_salt_wall": "pink_salt",
+    "galosphere:pastel_pink_salt_wall": "pink_salt",
+
+    "galosphere:polished_pink_salt": "pink_salt",
+    "galosphere:polished_rose_pink_salt": "pink_salt",
+    "galosphere:polished_pastel_pink_salt": "pink_salt",
+
+    "galosphere:polished_pink_salt_stairs": "pink_salt",
+    "galosphere:polished_rose_pink_salt_stairs": "pink_salt",
+    "galosphere:polished_pastel_pink_salt_stairs": "pink_salt",
+
+    "galosphere:polished_pink_salt_slab": "pink_salt",
+    "galosphere:polished_rose_pink_salt_slab": "pink_salt",
+    "galosphere:polished_pastel_pink_salt_slab": "pink_salt",
+
+    "galosphere:pink_salt_bricks": "pink_salt",
+    "galosphere:rose_pink_salt_bricks": "pink_salt",
+    "galosphere:pastel_pink_salt_bricks": "pink_salt",
+
+    "galosphere:pink_salt_brick_stairs": "pink_salt",
+    "galosphere:rose_pink_salt_brick_stairs": "pink_salt",
+    "galosphere:pastel_pink_salt_brick_stairs": "pink_salt",
+
+    "galosphere:pink_salt_brick_slab": "pink_salt",
+    "galosphere:rose_pink_salt_brick_slab": "pink_salt",
+    "galosphere:pastel_pink_salt_brick_slab": "pink_salt",
+
+    "galosphere:chiseled_pink_salt": "pink_salt",
+    "galosphere:chiseled_rose_pink_salt": "pink_salt",
+    "galosphere:chiseled_pastel_pink_salt": "pink_salt",
+
+    "galosphere:pink_salt_chamber": "pink_salt",
+    "galosphere:pink_salt_lamp": "pink_salt",
+
+    "galosphere:cured_membrane_block": "cured_membrane",
+    "galosphere:stranded_membrane_block": "cured_membrane",
+
+    "galosphere:combustion_table": "silver",
+    "galosphere:monstrometer": "silver"
+}
