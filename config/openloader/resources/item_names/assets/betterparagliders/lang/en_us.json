@@ -1,0 +1,16 @@
+{
+    "attribute.name.betterparagliders.base_melee_stamina_reduction": "Melee Stamina Reduction",
+    "attribute.name.betterparagliders.base_melee_stamina_reduction.desc": "Reduction of stamina cost for melee attacks.",
+    "attribute.name.betterparagliders.block_stamina_reduction": "Block Stamina Reduction",
+    "attribute.name.betterparagliders.block_stamina_reduction.desc": "Reduction of stamina cost for blocking attacks with a shield.",
+    "attribute.name.betterparagliders.idle_stamina_regen": "Stamina Regeneration",
+    "attribute.name.betterparagliders.idle_stamina_regen.desc": "Amount of stamina regenerated per second while not exerting oneself.",
+    "attribute.name.betterparagliders.one_handed_stamina_reduction": "One-Handed Melee Stamina Reduction",
+    "attribute.name.betterparagliders.one_handed_stamina_reduction.desc": "Reduction of stamina cost for one-handed melee attacks.",
+    "attribute.name.betterparagliders.range_stamina_reduction": "Ranged Attack Stamina Reduction",
+    "attribute.name.betterparagliders.range_stamina_reduction.desc": "Reduction of stamina cost for ranged attacks.",
+    "attribute.name.betterparagliders.sprinting_stamina_reduction": "Sprinting Stamina Reduction",
+    "attribute.name.betterparagliders.sprinting_stamina_reduction.desc": "Reduction of stamina cost for sprinting.",
+    "attribute.name.betterparagliders.two_handed_stamina_reduction": "Two-Handed Melee Stamina Reduction",
+    "attribute.name.betterparagliders.two_handed_stamina_reduction.desc": "Reduction of stamina cost for two-handed melee attacks."
+}

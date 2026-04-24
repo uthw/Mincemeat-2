@@ -45,7 +45,8 @@ ServerEvents.highPriorityData((event) => {
                     key: "lower_armor",
                     types: ["boots", "leggings"],
                 },
-                attribute: "feathers:feathers.feather_regen",
+                // attribute: "feathers:feathers.feather_regen",
+                attribute: "betterparagliders:idle_stamina_regen",
                 operation: "MULTIPLY_TOTAL",
                 values: {
                     common: 0.1,
@@ -113,7 +114,8 @@ ServerEvents.highPriorityData((event) => {
                     key: "boots",
                     types: ["boots"],
                 },
-                attribute: "feathers:feathers.feather_regen",
+                // attribute: "feathers:feathers.feather_regen",
+                attribute: "betterparagliders:idle_stamina_regen",
                 operation: "MULTIPLY_TOTAL",
                 values: {
                     common: 0.1,
@@ -174,7 +176,8 @@ ServerEvents.highPriorityData((event) => {
                     key: "lower_armor",
                     types: ["leggings", "boots"],
                 },
-                attribute: "feathers:feathers.feather_regen",
+                // attribute: "feathers:feathers.feather_regen",
+                attribute: "betterparagliders:idle_stamina_regen",
                 operation: "MULTIPLY_TOTAL",
                 values: {
                     common: 0.05,

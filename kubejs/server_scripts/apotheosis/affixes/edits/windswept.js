@@ -1,7 +1,8 @@
 ServerEvents.highPriorityData((event) => {
     let windsweptEdit = {
         type: "apotheosis:attribute",
-        attribute: "feathers:feathers.feather_regen",
+        // attribute: "feathers:feathers.feather_regen",
+        attribute: "betterparagliders:idle_stamina_regen",
         operation: "MULTIPLY_TOTAL",
         values: {
             common: {

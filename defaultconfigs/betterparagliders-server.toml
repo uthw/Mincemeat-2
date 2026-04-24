@@ -1,0 +1,75 @@
+
+[stamina]
+	#How much more/less stamina is consumed from melee attacks (multiplied onto the base amount).
+	#Range: 0.0 ~ 10.0
+	melee_stamina_consumption = 1.0
+	#How much more/less stamina is consumed from two handed attacks  (multiplied onto the base amount).
+	#Range: 0.0 ~ 10.0
+	two_handed_stamina_consumption = 1.5
+	#How much more/less stamina is consumed from one handed attacks (multiplied onto the base amount).
+	#Range: 0.0 ~ 10.0
+	one_handed_stamina_consumption = 2.0
+	#The base amount of stamina a range attack will cost.
+	#Range: 0.0 ~ 10.0
+	ranged_stamina_consumption = 5.0
+	#The base amount of stamina blocking with a shield will cost.
+	#Range: 0.0 ~ 100.0
+	block_stamina_consumption = 10.0
+	#The base amount of stamina blocking a projectile will cost (in addition to blocking cost).
+	#Range: 0.0 ~ 100.0
+	block_projectile_stamina_consumption = 5.0
+
+[weapon_classes]
+    #Range: 0.0 ~ 500.0
+    default_base_cost = 3.0
+    #Range: 0.0 ~ 500.0
+    hammer_cost = 12.0
+    #Range: 0.0 ~ 500.0
+    anchor_cost = 12.0
+    #Range: 0.0 ~ 500.0
+    claymore_cost = 9.0
+    #Range: 0.0 ~ 500.0
+    double_axe_cost = 9.0
+    #Range: 0.0 ~ 500.0
+    halberd_cost = 7.0
+    #Range: 0.0 ~ 500.0
+    lance_cost = 7.0
+    #Range: 0.0 ~ 500.0
+    glaive_cost = 6.5
+    #Range: 0.0 ~ 500.0
+    scythe_cost = 6.5
+    #Range: 0.0 ~ 500.0
+    axe_cost = 5.0
+    #Range: 0.0 ~ 500.0
+    mace_cost = 5.0
+    #Range: 0.0 ~ 500.0
+    trident_cost = 5.0
+    #Range: 0.0 ~ 500.0
+    spear_cost = 4.0
+    #Range: 0.0 ~ 500.0
+    sword_cost = 3.0
+    #Range: 0.0 ~ 500.0
+    coral_blade_cost = 3.0
+    #Range: 0.0 ~ 500.0
+    cutlass_cost = 2.5
+    #Range: 0.0 ~ 500.0
+    twin_blade_cost = 2.5
+    #Range: 0.0 ~ 500.0
+    battlestaff_cost = 2.0
+    #Range: 0.0 ~ 500.0
+    katana_cost = 2.0
+    #Range: 0.0 ~ 500.0
+    rapier_cost = 1.5
+    #Range: 0.0 ~ 500.0
+    wand_cost = 1.5
+    #Range: 0.0 ~ 500.0
+    sickle_cost = 1.0
+    #Range: 0.0 ~ 500.0
+    claw_cost = 1.0
+    #Range: 0.0 ~ 500.0
+    dagger_cost = 0.8
+    #Range: 0.0 ~ 500.0
+    soul_knife_cost = 0.8
+    #Range: 0.0 ~ 500.0
+    fist_cost = 0.5
+
