@@ -101,3 +101,8 @@ data/fabricDefaultResourcePacks.dat
 kubejs/assets/kubejs/textures/item/message.txt
 
 config/packetfixer.properties
+config/dnl/patrons.json
+config/asyncparticles/asyncparticles-mixin.properties
+config/asyncparticles/asyncparticles-mixin.properties
+config/fancymenu/customizablemenus.txt
+config/packetfixer.properties
