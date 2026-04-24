@@ -27,14 +27,14 @@
     "galosphere:lumiere_cluster": "chimes",
     "galosphere:glinted_lumiere_cluster": "chimes",
 
-    "galosphere:silver_panel": "silver",
-    "galosphere:silver_panel_stairs": "silver",
-    "galosphere:silver_panel_slab": "silver",
-    "galosphere:silver_tiles": "silver",
-    "galosphere:silver_tiles_stairs": "silver",
-    "galosphere:silver_tiles_slab": "silver",
-    "galosphere:silver_lattice": "silver_lattice",
-    "galosphere:silver_balance": "silver",
+    "galosphere:palladium_panel": "palladium",
+    "galosphere:palladium_panel_stairs": "palladium",
+    "galosphere:palladium_panel_slab": "palladium",
+    "galosphere:palladium_tiles": "palladium",
+    "galosphere:palladium_tiles_stairs": "palladium",
+    "galosphere:palladium_tiles_slab": "palladium",
+    "galosphere:palladium_lattice": "palladium_lattice",
+    "galosphere:palladium_balance": "palladium",
 
     "galosphere:lichen_moss": "lichen_moss",
 
@@ -91,6 +91,15 @@
     "galosphere:cured_membrane_block": "cured_membrane",
     "galosphere:stranded_membrane_block": "cured_membrane",
 
-    "galosphere:combustion_table": "silver",
-    "galosphere:monstrometer": "silver"
+    "galosphere:combustion_table": "palladium",
+    "galosphere:monstrometer": "palladium",
+
+    "galosphere:opal_log": "chimes",
+    "galosphere:opal_leaves": "leaves",
+    "galosphere:opal_block": "chimes",
+    "galosphere:opal_bricks": "chimes",
+    "galosphere:opal_brick_stairs": "chimes",
+    "galosphere:opal_brick_slab": "chimes",
+    "galosphere:opal_brick_wall": "chimes",
+    "galosphere:chiseled_opal_bricks": "chimes"
 }

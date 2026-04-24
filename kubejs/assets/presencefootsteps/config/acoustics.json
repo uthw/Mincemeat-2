@@ -27,17 +27,17 @@
             "jump": "@galosphere:block.lichen_moss.step",
             "land": "@galosphere:block.lichen_moss.step"
         },
-        "silver": {
-            "walk": "@galosphere:block.silver.step",
-            "run": "@galosphere:block.silver.step",
-            "jump": "@galosphere:block.silver.step",
-            "land": "@galosphere:block.silver.step"
+        "palladium": {
+            "walk": "@galosphere:block.palladium.step",
+            "run": "@galosphere:block.palladium.step",
+            "jump": "@galosphere:block.palladium.step",
+            "land": "@galosphere:block.palladium.step"
         },
-        "silver_lattice": {
-            "walk": "@galosphere:block.silver_lattice.step",
-            "run": "@galosphere:block.silver_lattice.step",
-            "jump": "@galosphere:block.silver_lattice.step",
-            "land": "@galosphere:block.silver_lattice.step"
+        "palladium_lattice": {
+            "walk": "@galosphere:block.palladium_lattice.step",
+            "run": "@galosphere:block.palladium_lattice.step",
+            "jump": "@galosphere:block.palladium_lattice.step",
+            "land": "@galosphere:block.palladium_lattice.step"
         }
     }
 }
