@@ -659,7 +659,7 @@
 			icon: "berry_good:sweet_berry_mince"
 			id: "34710AB0D1387508"
 			rewards: [{
-				id: "65370CFB1F9E810F"
+				id: "2F0FB4A29587D4D4"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
@@ -777,6 +777,12 @@
 									tag: {
 										"patchouli:book": "littlelogistics:guide"
 									}
+								}
+							}
+							malum: {
+								0: {
+									Count: 1b
+									id: "malum:encyclopedia_arcana"
 								}
 							}
 							minecells: {

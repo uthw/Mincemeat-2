@@ -75,7 +75,7 @@
 					type: "command"
 				}
 				{
-					id: "2C21BE97B0A66E37"
+					id: "07BADF05C9CECFEC"
 					item: {
 						Count: 1
 						id: "eccentrictome:tome"
@@ -193,6 +193,12 @@
 										tag: {
 											"patchouli:book": "littlelogistics:guide"
 										}
+									}
+								}
+								malum: {
+									0: {
+										Count: 1b
+										id: "malum:encyclopedia_arcana"
 									}
 								}
 								minecells: {
@@ -2459,7 +2465,11 @@
 		}
 		{
 			dependencies: ["51A20901B9871737"]
-			description: ["Craft &aorganic compost&r and place it &bnext to water&r. Eventually, it will turn into &arich soil&r, which can &bgrow crops faster than regular soil&r when tilled."]
+			description: [
+				"Craft &aorganic compost&r and place it &bnext to water&r. Eventually, it will turn into &arich soil&r, which can &bgrow crops faster than regular soil&r when tilled."
+				""
+				"The creation of &arich soil &ris accelerated by the &bpresence of sunlight and mushrooms&r nearby."
+			]
 			id: "7CBCC47AA6904CFD"
 			tasks: [
 				{
@@ -2938,19 +2948,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["68BF59DD76897182"]
-			id: "321B54476858F547"
-			optional: true
-			subtitle: "Fun: outputs a redstone signal with strength based on hardness of the block above"
-			tasks: [{
-				id: "294EACB2B413B628"
-				item: "galosphere:silver_balance"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -10.5d
-		}
-		{
 			dependencies: ["1A0BCE5BB7716C0F"]
 			description: [
 				"This block can take on the appearance of any block. Simply interact with the block with the desired appearance in hand to change it."
@@ -3225,6 +3222,7 @@
 				"Green means the item dynamically provides insulation that varies based on the regional temperature"
 			]
 			id: "5818946310414790"
+			subtitle: "Let's just ignore the Second Law of Thermodynamics"
 			tasks: [
 				{
 					id: "43C00A68F78ECE0C"
@@ -3884,6 +3882,7 @@
 			]
 			icon: "lightmanscurrency:coin_emerald"
 			id: "3A526671E42ED842"
+			subtitle: "Infinite wealth"
 			tasks: [{
 				id: "74F5450E23DD18BA"
 				item: {
