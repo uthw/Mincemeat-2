@@ -228,11 +228,6 @@
 				{
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "tetra:modular_double"
 						tag: {
 							Damage: 0
@@ -265,17 +260,12 @@
 							}
 						}
 					}
-					title: "Hammer VIII (Neather star)"
+					title: "Hammer VIII (Nether Star)"
 					type: "item"
 				}
 				{
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "tetra:modular_double"
 						tag: {
 							Damage: 0
@@ -337,7 +327,7 @@
 							]
 						}
 					}
-					title: "Hammer IX (Honeing)"
+					title: "Hammer IX (Honing)"
 					type: "item"
 				}
 			]
