@@ -17,6 +17,12 @@
 		{
 			description: ["You can find all sorts of crops by exploring the various biomes of the world."]
 			id: "7977CFE487433B9A"
+			rewards: [{
+				count: 15
+				id: "78DDC3CCEBAF8794"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "farmersdelight:main/get_fd_seed"
 				criterion: ""
@@ -31,6 +37,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "71805D96B1D5B73D"
+			rewards: [{
+				count: 17
+				id: "3CEFE2FD0F3895F8"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in biomes similar to jungles"
 			tasks: [{
 				id: "65465A06D4A3AE78"
@@ -43,6 +55,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "04E46F0C677D03AD"
+			rewards: [{
+				count: 17
+				id: "50A845FB1CC96B20"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in forests"
 			tasks: [{
 				id: "2C8A9D5AD45765C1"
@@ -55,6 +73,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "300F99C030AD21D4"
+			rewards: [{
+				count: 17
+				id: "138F5A37F7D0D6B9"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found on beaches"
 			tasks: [{
 				id: "0576C576030DEC7F"
@@ -67,6 +91,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "64D109363C42B7C0"
+			rewards: [{
+				count: 17
+				id: "644C82AB455D71AF"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in temperate biomes"
 			tasks: [{
 				id: "4D83A38EB503E8A4"
@@ -79,6 +109,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "375C325B0765366D"
+			rewards: [{
+				count: 17
+				id: "67743994D98E59A4"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in wetlands such as swamps and jungles"
 			tasks: [{
 				id: "2A7C07CEC8F32977"
@@ -91,6 +127,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "030B76431A011336"
+			rewards: [{
+				count: 17
+				id: "65E9BB2F27ABD97B"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in caves"
 			tasks: [{
 				id: "709E705648C76275"
@@ -103,6 +145,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "493527566FAE325B"
+			rewards: [{
+				count: 17
+				id: "256467C4C9E38E11"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21E35AD0985122B0"
 				item: "supplementaries:flax"
@@ -114,6 +162,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "70C26837CEF88353"
+			rewards: [{
+				count: 17
+				id: "55D72D3B00418997"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0844E3B4023874DF"
 				item: "windswept:ginger_root"
@@ -125,6 +179,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "2F538706DF609B78"
+			rewards: [{
+				count: 18
+				id: "1521495868043FAD"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in biomes similar to jungles"
 			tasks: [{
 				id: "717F73596AE1BE22"
@@ -144,6 +204,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "667DD4FDB6E1F92A"
+			rewards: [{
+				count: 17
+				id: "1E023468AFCDED10"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in forests"
 			tasks: [{
 				id: "40DD722EC9DB10ED"
@@ -156,6 +222,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "7DD927B9F4F50CC1"
+			rewards: [{
+				count: 25
+				id: "0AA3C48F351426C6"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in prairies"
 			tasks: [{
 				id: "1D1002BB45392B59"
@@ -168,6 +240,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "049D75FABDF56178"
+			rewards: [{
+				count: 18
+				id: "46EFC7F5C94DB53A"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in swamps (and less often in deserts)"
 			tasks: [{
 				id: "23E2D79783F3CB04"
@@ -203,6 +281,12 @@
 				"On the bottom is the &ccontainer&r the finished product can be captured in. This recipe (and most others) accept glass bottles."
 			]
 			id: "5A9395C87DAFFC73"
+			rewards: [{
+				count: 15
+				id: "7B9AE2E3E61C1817"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EAAA41BA0428F22"
 				item: "farmersrespite:kettle"
@@ -215,6 +299,12 @@
 		{
 			dependencies: ["7977CFE487433B9A"]
 			id: "254EED6A452E3F71"
+			rewards: [{
+				count: 17
+				id: "07B1AA4D0A27FC33"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Found in flower forests"
 			tasks: [{
 				id: "54B1348BEE5E6A66"
@@ -240,6 +330,12 @@
 				"And that's about it! Everything else about the &6keg&r is more or less the same as the&c kettle&r. JEI is once again your best friend for figuring out the recipes."
 			]
 			id: "3C063940B82E6A4E"
+			rewards: [{
+				count: 18
+				id: "684C2305DD779C96"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2F6B870E3BAEE4EB"
@@ -261,6 +357,12 @@
 			dependencies: ["3C063940B82E6A4E"]
 			description: ["These blocks can manipulate the surrounding temperature, allowing kegs to ferment different substances."]
 			id: "7036A40B4629174F"
+			rewards: [{
+				count: 18
+				id: "2E5C29737C0DF308"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6198DCC7B7074FB2"

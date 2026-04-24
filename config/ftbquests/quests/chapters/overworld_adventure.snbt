@@ -83,13 +83,21 @@
 			description: ["You'll be back in the Overworld before long..."]
 			icon: "forbidden_arcanus:whirlwind_prism"
 			id: "18D1EA8E41311823"
-			rewards: [{
-				auto: "no_toast"
-				id: "3194D1EFED4F6662"
-				ignore_reward_blocking: true
-				stage: "dimension_access"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "7B6AAC3F4026D5F7"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "3194D1EFED4F6662"
+					ignore_reward_blocking: true
+					stage: "dimension_access"
+					type: "gamestage"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Dimensional Adventure Unlocked"
@@ -122,6 +130,12 @@
 				id: "bosses_of_mass_destruction:soul_star"
 			}
 			id: "0579360EE0F0D4AD"
+			rewards: [{
+				count: 5
+				id: "39FCE5685784FA33"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -169,6 +183,12 @@
 			]
 			icon: "aquamirae:ship_graveyard_echo"
 			id: "1808E3ABC3AF6D82"
+			rewards: [{
+				count: 2
+				id: "140FA2B681FED67A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aquamirae:adventure/find_ice_maze"
 				criterion: ""
@@ -224,11 +244,19 @@
 				"Also, your Nature's Compass isn't capable of finding these biomes, so pay close attention to the subsequent quests!"
 			]
 			id: "391AAC02FA3ADE08"
-			rewards: [{
-				id: "59EA64E725A43E50"
-				item: "alexscaves:cave_book"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0E61DAF9F567FC14"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "59EA64E725A43E50"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
 			subtitle: "Hopefully there's no angel statue in this one."
 			tasks: [
 				{
@@ -300,6 +328,12 @@
 				"The subsequent quests will be revealed as you locate the various caves. &eHappy spelunking!&r"
 			]
 			id: "2287726086131598"
+			rewards: [{
+				count: 4
+				id: "2E62B05CF22F1524"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Get ready to get walkin'"
 			tasks: [{
 				id: "4C1ACBAB4DA4BFDB"
@@ -330,6 +364,12 @@
 			icon: "alexscaves:scarlet_magnet"
 			id: "0A6104C04414F37B"
 			invisible: true
+			rewards: [{
+				count: 4
+				id: "288DEFB9454A4DE4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Yeah, (dog)! Magnets!"
 			tasks: [{
 				biome: "alexscaves:magnetic_caves"
@@ -349,6 +389,12 @@
 			icon: "alexscaves:dinosaur_nugget"
 			id: "114699FC353B18CE"
 			invisible: true
+			rewards: [{
+				count: 4
+				id: "1F6EE70098969166"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				biome: "alexscaves:primordial_caves"
 				id: "6A447A8AD0C94510"
@@ -374,6 +420,12 @@
 			icon: "alexscaves:nuclear_bomb"
 			id: "6202F882D0377E6B"
 			invisible: true
+			rewards: [{
+				count: 4
+				id: "7BF6FCED97087F50"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "War. War never changes."
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
@@ -393,6 +445,12 @@
 			icon: "alexscaves:copper_valve"
 			id: "403B8F4A5838932B"
 			invisible: true
+			rewards: [{
+				count: 4
+				id: "2A5A920D3CFF1397"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Don't use your Rod of Discord :)"
 			tasks: [{
 				biome: "alexscaves:abyssal_chasm"
@@ -425,6 +483,12 @@
 			}
 			id: "06D8CD953FBEE3D2"
 			invisible: true
+			rewards: [{
+				count: 4
+				id: "45B8803ED5A473C7"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Ah, crap."
 			tasks: [{
 				biome: "alexscaves:forlorn_hollows"
@@ -706,6 +770,12 @@
 			]
 			icon: "minecraft:ender_eye"
 			id: "0522653117110CC8"
+			rewards: [{
+				count: 2
+				id: "3E48FC5C3CD82013"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "182AF139AFB5C642"
 				structure: "integrated_stronghold:stronghold"
@@ -832,6 +902,12 @@
 			dependencies: ["0958E22D0265B1EF"]
 			description: ["Spawns mobs from the primordial caves."]
 			id: "08813A660A2B1A5A"
+			rewards: [{
+				count: 3
+				id: "47D9D2F7DB83D29A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F3B3866EAABEEDD"
 				item: "alexscaves:amber_monolith"
@@ -843,6 +919,12 @@
 		{
 			dependencies: ["114699FC353B18CE"]
 			id: "5B149E24369F09ED"
+			rewards: [{
+				count: 3
+				id: "04B74413DF7688F1"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "176DCD4BEB888685"
 				item: "alexscaves:heavy_bone"
@@ -855,6 +937,12 @@
 			dependencies: ["5B149E24369F09ED"]
 			description: ["This armor lets your body absorb more nutrients from raw meat."]
 			id: "56792465EBD9F4C1"
+			rewards: [{
+				count: 5
+				id: "2649690F9772ADA6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "26E06A3165BB4B1E"
@@ -904,6 +992,12 @@
 				"You can also coat swords to increase their damage and give them special effects if you've killed a dragon; see how in the Mythical Creatures quests."
 			]
 			id: "4FBF403602D611F5"
+			rewards: [{
+				count: 3
+				id: "348B40965971BCBC"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "75CAFF8D6B85DC67"
@@ -950,6 +1044,12 @@
 			]
 			description: ["You can summon a boss, the Luxtructosaururs, by dropping an Ominous Catalyst into an active Volcanic Core."]
 			id: "365E0C8A9768664A"
+			rewards: [{
+				count: 4
+				id: "67BC0E1974FFD3BE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "190500731F261980"
@@ -975,6 +1075,12 @@
 			dependencies: ["0A6104C04414F37B"]
 			description: ["You can use the gauntlet to shoot netherite tools and use them from afar. That means you can remotely mine blocks and attack mobs."]
 			id: "7491B85F3E282774"
+			rewards: [{
+				count: 4
+				id: "5BCF6D5A813AE47A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B65521BD75CBAA8"
 				item: {
@@ -999,6 +1105,12 @@
 				"This does not need any sort of energy or fuel; magnetic energy is the source of power."
 			]
 			id: "66A3D9F944D1965A"
+			rewards: [{
+				count: 4
+				id: "1E507279130639BC"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Tunneling Machine"
 			tasks: [
 				{
@@ -1018,6 +1130,12 @@
 		{
 			dependencies: ["0A6104C04414F37B"]
 			id: "104229AD939B60C2"
+			rewards: [{
+				count: 4
+				id: "6F65753F5F6F9A93"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F9B0FCA3CF4DDDC"
 				item: {
@@ -1047,6 +1165,12 @@
 				"Has unique enchantments."
 			]
 			id: "66379C8C9AB2C51B"
+			rewards: [{
+				count: 4
+				id: "4AA1C05D006D09CD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00E0E23D5315CB9D"
 				item: {
@@ -1064,6 +1188,12 @@
 		{
 			dependencies: ["0A6104C04414F37B"]
 			id: "665D577C17F2A23D"
+			rewards: [{
+				count: 3
+				id: "185C346BAADE325C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B6AF53561189609"
 				item: "alexscaves:seeking_arrow"
@@ -1086,6 +1216,12 @@
 				"Double Stab - Makes the ghost dagger count increase from 1-2 to 2-3 per attack."
 			]
 			id: "7ABBA605B0C18FBD"
+			rewards: [{
+				count: 4
+				id: "7B383130FEB148A9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Sephiroth Side Special Simulator"
 			tasks: [{
 				id: "103A46F89C568BBF"
@@ -1104,6 +1240,12 @@
 		{
 			dependencies: ["6B15B902E71DC308"]
 			id: "65853019D72D1C19"
+			rewards: [{
+				count: 4
+				id: "6205C73695FB7876"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "263695347D478A8D"
 				item: {
@@ -1132,6 +1274,12 @@
 				"&o(by default, the hotkey is set to G and is labelled \"Alex's Caves Special Ability\")&r"
 			]
 			id: "14912F7215D1DA76"
+			rewards: [{
+				count: 4
+				id: "7BB5584E9FBC8230"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Darkness, Imprisoning Me"
 			tasks: [
 				{
@@ -1184,6 +1332,12 @@
 				"Astral Transferring: mobs can swap possession with tougher/healthier mbos they fight"
 			]
 			id: "037FF3083AB9540A"
+			rewards: [{
+				count: 4
+				id: "4B7D2A42A3B7B66A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Mined Control"
 			tasks: [{
 				id: "48A93391D3FE3AF1"
@@ -1203,6 +1357,12 @@
 			dependencies: ["6202F882D0377E6B"]
 			description: ["Use a glass bottle on a vent to obtain this."]
 			id: "446B39B10B58282C"
+			rewards: [{
+				count: 3
+				id: "009F152BC01002B8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CEBC1A707A0A929"
 				item: "alexscaves:radon_bottle"
@@ -1221,6 +1381,12 @@
 				"As a bonus, wearing the mask makes you breathe neon-green particles &o(which can get annoying in first person... might I remind you of the Nolijium particles settings?)&r"
 			]
 			id: "3BF2B14D3C047D6D"
+			rewards: [{
+				count: 5
+				id: "68416F2039963F67"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "I Can Haz Mat?"
 			tasks: [
 				{
@@ -1276,6 +1442,12 @@
 			dependencies: ["6202F882D0377E6B"]
 			description: ["Made by hand or found in chests, there's some food that can bypass the radiation and &cheal you&r through it. However, they aren't quite filling or easy to mass-produce, so don't depend on them too much outside of the caves."]
 			id: "3D5E13147B9022C3"
+			rewards: [{
+				count: 4
+				id: "1536E8BCFF7726A0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Soylent Green is Made of Steves"
 			tasks: [
 				{
@@ -1312,19 +1484,27 @@
 				"Gamma Ray: makes the raygun shoot pack-a-punched blue beams that deal more damage."
 			]
 			id: "4F0B0E1714000C18"
-			rewards: [{
-				id: "5474A8D873786215"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "supplementaries:pancake"
+			rewards: [
+				{
+					count: 3
+					id: "69FEB4E60E28416C"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5474A8D873786215"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "supplementaries:pancake"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "The Iconic Wonder Waffle"
 			tasks: [{
 				id: "50ED2F36C303B9A1"
@@ -1342,6 +1522,12 @@
 				"Interact with the explosive while holding the Detonator to link them together."
 			]
 			id: "0D24AF036EA999ED"
+			rewards: [{
+				count: 3
+				id: "1F818FDC6D280490"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38A43D24A3AB366B"
 				item: "alexscaves:remote_detonator"
@@ -1360,6 +1546,12 @@
 				"The nuclear siren will activate whenever a nearby nuke has been lit, or when activated with redstone. The siren can be heard from quite a distance - at least 200 blocks away. It's kind of annoying, and not particularly useful unless you have mean friends."
 			]
 			id: "6AA9EFDF2749A2FB"
+			rewards: [{
+				count: 4
+				id: "315337E69DC7B1A1"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "...And Hell Followed With Him"
 			tasks: [
 				{
@@ -1379,6 +1571,12 @@
 		{
 			dependencies: ["403B8F4A5838932B"]
 			id: "5DBFCD2E79D22E51"
+			rewards: [{
+				count: 3
+				id: "4B9B14247756C8DA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Aquatic Ascend"
 			tasks: [{
 				id: "4F48607DA7C7868E"
@@ -1392,6 +1590,12 @@
 			dependencies: ["403B8F4A5838932B"]
 			description: ["Throwable explosives."]
 			id: "4E163D969F4B9C9F"
+			rewards: [{
+				count: 3
+				id: "5D4E3DE5B87DC9FE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61C9231FA0B078F4"
 				item: "alexscaves:depth_charge"
@@ -1404,6 +1608,12 @@
 			dependencies: ["403B8F4A5838932B"]
 			description: ["Helps you navigate the Chasm more easily."]
 			id: "7ACC2DAC646A3E89"
+			rewards: [{
+				count: 5
+				id: "375208C28BAEC36B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "473282FCABEC0096"
@@ -1482,6 +1692,12 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7EB9F437E980E400"
+			rewards: [{
+				count: 4
+				id: "3F9EA59A4BD6838D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1531,6 +1747,12 @@
 		{
 			dependencies: ["06D1991EE22CF1B3"]
 			id: "2161A23771C7D7BC"
+			rewards: [{
+				count: 4
+				id: "569CE2260D16C56C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D19FFEE5FD3F4C2"
 				item: {
@@ -1572,6 +1794,12 @@
 				"Submarines can take damage and start showing it after enough has built up. You can repair your submarine using copper ingots."
 			]
 			id: "6B27AAA29B087E79"
+			rewards: [{
+				count: 3
+				id: "60FE77D53EF763C3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Ah, look at all the lonely people!"
 			tasks: [{
 				id: "066B08F419FD2749"
@@ -1585,6 +1813,12 @@
 			dependencies: ["06D1991EE22CF1B3"]
 			description: ["Distress signal-like item that lets you summon Deep Ones to aid you in battle."]
 			id: "4EBF7BC295F4BA5C"
+			rewards: [{
+				count: 4
+				id: "6EEE632722E8D6A4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A3EE359357DA95D"
 				item: {
@@ -1624,6 +1858,12 @@
 		{
 			dependencies: ["06D1991EE22CF1B3"]
 			id: "482C2813DBA6D925"
+			rewards: [{
+				count: 4
+				id: "572DC8CE6CC27328"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67289A007D7D1912"
 				item: {
@@ -1759,6 +1999,12 @@
 			description: ["Immediately upon arriving, you may notice the Candy Cavity is much less foreboding than other cave biomes; there're no nuclear explosions or cultists here. Instead, you can eat every block. Each one counts towards Spice of Life, so get to work?!"]
 			id: "7A8F28E754BB375D"
 			invisible: true
+			rewards: [{
+				count: 4
+				id: "26C69110DF459C38"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Remember the texture pack?"
 			tasks: [{
 				biome: "alexscaves:candy_cavity"
@@ -1786,6 +2032,12 @@
 				"Lastly, if you really want to roll the dice, the &aWandering Trader&r rarely sells Eyes of Ender at affordable prices."
 			]
 			id: "49975EE359AD20F3"
+			rewards: [{
+				count: 2
+				id: "5BB5357749F2FAA6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Probably not worth attempting these until you're in the Nether anyway"
 			tasks: [{
 				id: "6238B470E046B2E7"
@@ -1803,6 +2055,12 @@
 				"Requires killing the Wither and obtaining a Nether Star to summon."
 			]
 			id: "5C9813AF465AC6A3"
+			rewards: [{
+				count: 5
+				id: "718F763341801727"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Start here for Cataclysm"
 			tasks: [{
 				id: "000E7494D4CFDE90"
@@ -1816,6 +2074,12 @@
 			dependencies: ["49975EE359AD20F3"]
 			description: ["Leads you to the Sunken City, the home of the Leviathan."]
 			id: "2637C46156FAF5E4"
+			rewards: [{
+				count: 5
+				id: "39EB6A1DE883FFA3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DA236519B0EBD64"
 				item: "cataclysm:abyss_eye"
@@ -1827,6 +2091,12 @@
 		{
 			dependencies: ["49975EE359AD20F3"]
 			id: "48B996BDDEA77AF2"
+			rewards: [{
+				count: 5
+				id: "72D073F56EDB8A83"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BE96B382EDC1119"
 				item: "cataclysm:desert_eye"
@@ -1838,6 +2108,12 @@
 		{
 			dependencies: ["49975EE359AD20F3"]
 			id: "0D9CED136C03F421"
+			rewards: [{
+				count: 5
+				id: "1D37C1D8BBF80ACD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F4A9A7C6EA92073"
 				item: "cataclysm:cursed_eye"
@@ -1932,6 +2208,12 @@
 				id: "meetyourfight:dusk_key"
 			}
 			id: "52703C0374BD3492"
+			rewards: [{
+				count: 2
+				id: "0E951E61D51E8BA8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "678681F3EBE2AC88"
 				item: "meetyourfight:dusk_key"
@@ -1979,6 +2261,12 @@
 				"I recommend fighting Swampjaw in a Plains, Strawberry Fields, or other flat biome. This is because one of its attacks can send you flying. You'll also want to pack a ranged weapon with a healthy supply of arrows."
 			]
 			id: "1B8E4A72A675FF9D"
+			rewards: [{
+				count: 2
+				id: "6552C88CE3BFBED2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Start here"
 			tasks: [{
 				id: "4C9F62E025BF70EC"
@@ -1998,6 +2286,12 @@
 				"Umvuthi doesn't move and is somewhat defenseless when you actually get to his throne. Even before you get diamonds, this fight can end favorably in a matter of seconds if you consider this."
 			]
 			id: "0AA5EC48FDAEEDDF"
+			rewards: [{
+				count: 3
+				id: "453C76768F4939DD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2027,6 +2321,12 @@
 				"Because this enemy spends its time in the air, you'll want to use similar strategies to Swampjaw, namely resorting to ranged combat."
 			]
 			id: "70114AE9DEBF79F6"
+			rewards: [{
+				count: 2
+				id: "78F61A261696B128"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F18AE20AB854832"
 				item: "meetyourfight:haunted_bell"
@@ -2053,6 +2353,12 @@
 				"These attacks are easily negated by dodge rolling. Alternatively, you can use a shield to block the pound and swipe attacks, but not the salt pillars. Use a fast melee weapon and weave in and out of the attacks."
 			]
 			id: "75D195C89EEFC1A2"
+			rewards: [{
+				count: 2
+				id: "5CE77004763726D9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "galosphere:pink_salt_shard"
 				id: "493C654CFAFB0122"
@@ -2083,6 +2389,12 @@
 				"{image:kubejs:item/void_blossom_guide width:716 height:599 align:center fit:true}"
 			]
 			id: "4D8E61449F85F893"
+			rewards: [{
+				count: 4
+				id: "48E962C91D924313"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "bosses_of_mass_destruction:void_lily"
 				id: "2FA971D6692A5792"
@@ -2098,6 +2410,12 @@
 			description: ["This is what you get when you slay the Void Blossom. It may look tasty, and it &ois&r tasty, but don't eat it! You can use it to craft an Advanced Enchanting Infuser later on."]
 			icon: "bosses_of_mass_destruction:crystal_fruit"
 			id: "2CBE39630F119B55"
+			rewards: [{
+				count: 5
+				id: "4CAA857A27DB46F8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "033F9F7E48FBCD41"
@@ -2123,6 +2441,12 @@
 				"If you know Necromancers, you know this boss, but not all of him. You should at least have mid-game equipment, and spells can help but aren't necessary. "
 			]
 			id: "1F9A394264C7C588"
+			rewards: [{
+				count: 3
+				id: "06553D8EEDBD0521"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2148,6 +2472,12 @@
 			dependencies: ["34A83BB5D5DEFC82"]
 			description: ["After the Dead King is dead for good, he drops two items that are especially useful for Blood school wizards. You can also get other supplements like Legendary Ink and Upgrade Runes."]
 			id: "3210DD63988972BA"
+			rewards: [{
+				count: 4
+				id: "3EF033A709DF156A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7F59F4F3D3537BA6"
@@ -2220,6 +2550,12 @@
 				}
 			}
 			id: "2150984E9EF5452C"
+			rewards: [{
+				count: 2
+				id: "0A67DC7D7F3DB926"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E231BDE3C2879B8"
 				structure: "mowziesmobs:frostmaw_spawn"
@@ -2237,6 +2573,12 @@
 				"This adversary uses casino-themed ranged attacks. Use third person and keep your eyes trained on the projectiles to avoid them, then attack if you see an opening."
 			]
 			id: "632640CDF9AF2DBE"
+			rewards: [{
+				count: 2
+				id: "02B1430452E442DD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Small Blind gives no reward money"
 			tasks: [{
 				id: "0DAAFD816420C6CC"
@@ -2250,6 +2592,12 @@
 			dependencies: ["7CCAA4C36D8E088F"]
 			description: ["The Bone Raker is a great use of your Mossy Tooth. It's better than a pair of Diamond Gloves, but the Power Glove from Artifacts outperforms this if you're lucky enough to find one."]
 			id: "72F0C2B9D4782D12"
+			rewards: [{
+				count: 2
+				id: "1E6FA2E2DEFA57C2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "15366DAC9D927465"
 				item: "meetyourfight:bone_raker"
@@ -2266,6 +2614,12 @@
 				"It's also worth mentioning that the Caged Heart works for fall damage."
 			]
 			id: "052D2984A4B8D141"
+			rewards: [{
+				count: 2
+				id: "13CEE0CABC569C9A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "35ADE9FA2E1537F0"
 				item: "meetyourfight:caged_heart"
@@ -2278,6 +2632,12 @@
 			dependencies: ["7CCAA4C36D8E088F"]
 			description: ["The Depth Star is an okay melee weapon."]
 			id: "3DFF597B8C9D9044"
+			rewards: [{
+				count: 2
+				id: "7F8DCFE2357D30EA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31BF2C8E38837B29"
 				item: {
@@ -2296,6 +2656,12 @@
 			dependencies: ["4146A3AAFACC851A"]
 			description: ["This item looks okay until you read the fine print and realize that it's busted. Socket some Splendor Gems into your armor, put on an Exquisite Ring, and don a Forgotten Helmet. This is your calling - it's gambling time."]
 			id: "76760CA30AA5D115"
+			rewards: [{
+				count: 2
+				id: "7CB075CD786152AD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D6AF30479A1A9A4"
 				item: "meetyourfight:slicers_dice"
@@ -2308,6 +2674,12 @@
 			dependencies: ["4146A3AAFACC851A"]
 			description: ["Would you like a Slicer's Dice, but it makes you invulnerable a good portion of the time instead? Invest in the Ace of Iron. Why not wear both, actually?"]
 			id: "4004BEC83A1088B0"
+			rewards: [{
+				count: 2
+				id: "192A82875D281DD9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F84BBBF09665E1D"
 				item: "meetyourfight:ace_of_iron"
@@ -2320,6 +2692,12 @@
 			dependencies: ["4146A3AAFACC851A"]
 			description: ["This sword can give you a variety of beneficial effects when you hit things with it, including speed, strength, absorption, and luck. Remember that getting Luck from this sword makes you even more likely to get other effects."]
 			id: "726879A0021AFF3F"
+			rewards: [{
+				count: 2
+				id: "4ABE3DF9D12E7EF5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AFAE495C13753B9"
 				item: {
@@ -2342,6 +2720,12 @@
 				"Instead, you should use it on something fun. The Saltbound Tablet turns you into the Berserker, giving access to its salt spikes attack."
 			]
 			id: "121F1EAAE65AB2E5"
+			rewards: [{
+				count: 2
+				id: "208D2B0EA8158A96"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B438612A716AA4A"
 				item: {
@@ -2359,6 +2743,12 @@
 		{
 			dependencies: ["4C2CB24F4BB67925"]
 			id: "2BB731D26F3679F0"
+			rewards: [{
+				count: 2
+				id: "1424FE6F5C011641"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09E1D93F3B2A7A80"
 				item: "meetyourfight:spectres_eye"
@@ -2370,6 +2760,12 @@
 		{
 			dependencies: ["4C2CB24F4BB67925"]
 			id: "740663ADBDDA1FB7"
+			rewards: [{
+				count: 2
+				id: "08CD7289F97A1A77"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CA7D3BBB7935872"
 				item: "meetyourfight:spectres_grasp"
@@ -2382,6 +2778,12 @@
 			dependencies: ["1808E3ABC3AF6D82"]
 			description: ["The Shell Horn is found on the ground in the Ice Maze. It can be consumed to summon the Ghost of Captain Cornelia. "]
 			id: "227EBBF0DFD6D002"
+			rewards: [{
+				count: 2
+				id: "62C653C799352F9A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C4268408739888C"
 				item: "aquamirae:shell_horn"
@@ -2424,6 +2826,12 @@
 			]
 			id: "4F1308DFE10F7AA8"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "21D198D6D5B8F0E8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "alexscaves:thornwood_branch"
 				id: "41A716617AA4374E"
@@ -2446,6 +2854,12 @@
 				"Sound hard? It isn't really, but it'll take you hours. Both the journey and reward are worth it though."
 			]
 			id: "032F477572659E04"
+			rewards: [{
+				count: 3
+				id: "2F167BDAADAAEBF7"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1360B5C7C45E6077"
@@ -2482,6 +2896,12 @@
 			]
 			id: "6738C9B7C7EBFD83"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "2552B88489FD0FE1"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "graveyard:upper_bone_staff"
 				id: "128FEEFF8B47D4D4"
@@ -2501,6 +2921,12 @@
 			]
 			hide_dependency_lines: true
 			id: "4BA287398A12F31C"
+			rewards: [{
+				count: 2
+				id: "408E6CB83DDEA3EB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Blood for the blood god"
 			tasks: [
 				{
@@ -2546,6 +2972,12 @@
 				"You should place the staff pieces you've collected on the Corrupt Deepslate Center blocks and then interact with the Altar block in the middle during the night. The Corrupted Champion will then awaken."
 			]
 			id: "081460416503B7FE"
+			rewards: [{
+				count: 2
+				id: "34128791DEC1B199"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "It's lonely at the top"
 			tasks: [{
 				icon: "graveyard:hanged_skeleton"
@@ -2569,6 +3001,12 @@
 				"I hope you enjoy your new companion."
 			]
 			id: "41CFD7AE2F36AA58"
+			rewards: [{
+				count: 3
+				id: "1AF0BB9330BC0DC4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Good as new!"
 			tasks: [{
 				id: "1E241FF2FC0D59DD"
@@ -2630,6 +3068,12 @@
 			dependencies: ["6DF9E50004A7AE0C"]
 			description: ["This sword, while not exceptional in damage, has the highest enchantment level cap in the game."]
 			id: "3FEEF3599DE97195"
+			rewards: [{
+				count: 2
+				id: "15F8A1B19FDCBCAF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76DB38EE4D328B39"
 				item: {
@@ -2648,6 +3092,12 @@
 			dependencies: ["6DF9E50004A7AE0C"]
 			description: ["This item pairs well with the Glass Hand from Eidolon. Together, they'll give you a very unpleasant experience."]
 			id: "0CD905D34A83DF54"
+			rewards: [{
+				count: 2
+				id: "41EBF875B45EDDA8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7544AF341CC0A208"
 				item: "meetyourfight:wilted_ideals"
@@ -2659,6 +3109,12 @@
 		{
 			dependencies: ["6DF9E50004A7AE0C"]
 			id: "1EE46DC52EF89C95"
+			rewards: [{
+				count: 2
+				id: "09BCB31F32132756"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1FEAB145C82EBE2B"
 				item: "meetyourfight:blossoming_mind"
@@ -2671,6 +3127,12 @@
 			dependencies: ["6DF9E50004A7AE0C"]
 			description: ["By \"fertilize,\" it's meant that you basically place bone meal where the mob died if it was grounded. "]
 			id: "6DAD1C2E71451CF8"
+			rewards: [{
+				count: 2
+				id: "7D73007E989D1481"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "312F73E48084FC89"
 				item: "meetyourfight:tomb_planter"
@@ -2714,6 +3176,12 @@
 			dependency_requirement: "one_completed"
 			description: ["The Sunken City is a beautiful underwater acropolis. It can be easily identified by the dome peeking out of the water. Much of the place is submerged - you'll want water breathing, but you could use the good old doors if you're on a tight budget."]
 			id: "4FB85B4B5F80EACD"
+			rewards: [{
+				count: 6
+				id: "66E37EDA66E86888"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "If you liked: Deeplings, you'll LOVE: Sunken City"
 			tasks: [{
 				icon: "quark:tuff_bricks"
@@ -2786,6 +3254,12 @@
 				"Leviathan's first phase is straightforward. It mostly goes for melee attacks. In phase two, do anything except get hit by the lasers or grab attack."
 			]
 			id: "431AB26EA0ED2433"
+			rewards: [{
+				count: 6
+				id: "7441411972DA6884"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E3A5DD2A56B7830"
 				item: "cataclysm:abyssal_sacrifice"
@@ -2808,6 +3282,12 @@
 				"This pyramid is the only place you can find a species of enemy called Koboletons. Be careful, since they don't like visitors and lay trivial traps that you can identify by looking at the top of your screen."
 			]
 			id: "6AFCFE64493D848E"
+			rewards: [{
+				count: 6
+				id: "447A5439DDE45F9A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Atum 3: The Return of the Pharaoh"
 			tasks: [{
 				icon: "create:ochrum_pillar"
@@ -2828,6 +3308,12 @@
 			]
 			id: "1C128F9D7D022C12"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "75E19440F200170A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EE24C01C9956957"
 				item: "cataclysm:sticky_gloves"
@@ -2846,6 +3332,12 @@
 				"That leaves the Remnant sleeping defenselessly. Personally I would just kill it right now, but due to an oversight you're not able to do that. Instead, wake up the dino by right clicking it with the Necklace."
 			]
 			id: "6030F09BDD1A5FA6"
+			rewards: [{
+				count: 6
+				id: "27BE01D5117CF934"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3E73DA07A8E23D23"
@@ -2877,6 +3369,12 @@
 				"The Harbinger is clearly inspired by a certain 2D game - you can tell all the way down to its sound design. This enemy mostly aims to wither and incinerate you with its artillery. While it's above half health, rely on ranged damage since The Harbinger doesn't have melee attacks."
 			]
 			id: "5AF9020E9AC8C2D6"
+			rewards: [{
+				count: 2
+				id: "4FF91D270CBA49B6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38080DE1A060126E"
 				item: "minecraft:nether_star"
@@ -2893,6 +3391,12 @@
 			dependency_requirement: "one_completed"
 			description: ["The Ancient Factory is the dungeon where the Harbinger rests. It's actually a factory, with more machines operating than you can count, and many rooms to explore."]
 			id: "0B5AD8BF86E068A0"
+			rewards: [{
+				count: 6
+				id: "4C7AC077BDC5953F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "cataclysm:emp"
 				id: "7B1A686FAEFD5BF9"
@@ -2915,6 +3419,12 @@
 				"During your stay, watch out for Draugrs, the frozen skeletons who wield a variety of Dark Steel weapons and crossbows. Large draugrs known as Aptrgangrs can be found around the dungeon serving as its minibosses."
 			]
 			id: "1FD18DA475F5347D"
+			rewards: [{
+				count: 6
+				id: "327FAEE70B6A8301"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Fus ro dah!"
 			tasks: [{
 				icon: "cataclysm:door_of_seal"
@@ -2962,6 +3472,12 @@
 				"The quests now available to you after finishing this quest are for items you can create using this item. The bottom row can be crafted without needing to fight the dimensional bosses."
 			]
 			id: "56B51E74AE4F90A9"
+			rewards: [{
+				count: 5
+				id: "44C4F4F8F10DA4E3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Best of Both Worlds"
 			tasks: [{
 				id: "5D5D09CF301EB3C6"
@@ -2979,6 +3495,12 @@
 			]
 			hide_dependency_lines: true
 			id: "41C248C64CE7CEF2"
+			rewards: [{
+				count: 7
+				id: "761B9C4BC93AF950"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Ancient Remnant + Maledictus"
 			tasks: [{
 				id: "638A91A9D17896E2"
@@ -2996,6 +3518,12 @@
 			]
 			hide_dependency_lines: true
 			id: "03E93966EEDD7115"
+			rewards: [{
+				count: 4
+				id: "5C7CAB435C022078"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Leviathan + Maledictus"
 			tasks: [{
 				id: "59E5BCE868E83191"
@@ -3030,6 +3558,12 @@
 			]
 			hide_dependency_lines: true
 			id: "52F7CB21607530EE"
+			rewards: [{
+				count: 4
+				id: "0CEDEBB2958A5EA9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Leviathan + Ancient Remnant"
 			tasks: [{
 				id: "3359E17BE4796EA1"
@@ -3064,6 +3598,12 @@
 			]
 			hide_dependency_lines: true
 			id: "77D4AE9501A408E3"
+			rewards: [{
+				count: 4
+				id: "52C65BB594A127BA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Harbinger + Maledictus"
 			tasks: [{
 				id: "556BF84446493E99"
@@ -3098,6 +3638,12 @@
 			]
 			hide_dependency_lines: true
 			id: "7985650B14A0AB78"
+			rewards: [{
+				count: 7
+				id: "129E5D98804B2506"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Maledictus + Ignis"
 			tasks: [{
 				id: "019EAFBAB31A0894"
@@ -3115,6 +3661,12 @@
 			]
 			hide_dependency_lines: true
 			id: "1B2832F49FB76AA5"
+			rewards: [{
+				count: 7
+				id: "0A7E0ACF2FE4BE9B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Ender Guardian + Ignis"
 			tasks: [{
 				id: "45AD4E977505F977"
@@ -3132,6 +3684,12 @@
 			]
 			hide_dependency_lines: true
 			id: "1EED781A9D66A23A"
+			rewards: [{
+				count: 7
+				id: "1B3765AFB306B489"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Netherite Monstrosity + Ender Guardian"
 			tasks: [{
 				id: "605A9105803BC85F"
@@ -3155,6 +3713,12 @@
 			]
 			hide_dependency_lines: true
 			id: "06B9537D7D24ABB0"
+			rewards: [{
+				count: 7
+				id: "1109D5BAAE359821"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "The Harbinger + Ancient Guardian"
 			tasks: [{
 				id: "1241A5DDD86A1C36"
@@ -3173,6 +3737,12 @@
 			description: [""]
 			hide_dependency_lines: true
 			id: "1AB881CDF89938E5"
+			rewards: [{
+				count: 7
+				id: "2D4EB98CEAD31F71"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Ancient Remnant + Ender Guardian"
 			tasks: [{
 				id: "7194A2903AEDDFE9"
@@ -3192,6 +3762,12 @@
 				"The Sculptor can be challenged by bringing him a Bluff Rod. You'll find this soon enough by exploring the Monastery. Be sure to collect some souvenirs to bring home!"
 			]
 			id: "7D847F3BACE438C7"
+			rewards: [{
+				count: 3
+				id: "4DC2529F4C55B6B3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3222,6 +3798,12 @@
 				"Right-click the Sculptor to complete his challenge. He'll reward you handsomely."
 			]
 			id: "596E627E97F6662D"
+			rewards: [{
+				count: 2
+				id: "2623E8912FF5C0D3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00D363D6CB2D69D8"
 				item: "mowziesmobs:bluff_rod"
@@ -3234,6 +3816,12 @@
 			dependencies: ["596E627E97F6662D"]
 			description: [""]
 			id: "58310CFA04C12176"
+			rewards: [{
+				count: 2
+				id: "30FC59AA814B316F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Only Up lives on"
 			tasks: [{
 				advancement: "mowziesmobs:sculptor_challenge"
@@ -3263,13 +3851,21 @@
 			hide_dependency_lines: true
 			icon: "forbidden_arcanus:sea_prism"
 			id: "00FC9BF5E2C82B11"
-			rewards: [{
-				auto: "invisible"
-				id: "254F7914C0A94788"
-				ignore_reward_blocking: true
-				stage: "minecells_access"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "355A77C08AE3E3C0"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "254F7914C0A94788"
+					ignore_reward_blocking: true
+					stage: "minecells_access"
+					type: "gamestage"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "If you're tired of Blue Skies"
@@ -3308,6 +3904,12 @@
 				"Gelatin can be turned into a couple of accessories, like a fun pair of boots."
 			]
 			id: "1EF60F0350C0A0CA"
+			rewards: [{
+				count: 4
+				id: "187FCF22226B179B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A951BA4E8183F6E"
 				item: {
@@ -3328,6 +3930,12 @@
 			dependencies: ["7AB1C363FF5D6796"]
 			description: ["This furnace can summon gingerbread men when given a redstone signal."]
 			id: "41045BA55ED040FC"
+			rewards: [{
+				count: 3
+				id: "5B1447679B5CBB05"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "016D3F9CFBEB0107"
 				item: "alexscaves:confection_oven"
@@ -3339,6 +3947,12 @@
 		{
 			dependencies: ["7A8F28E754BB375D"]
 			id: "0B5B61503823E249"
+			rewards: [{
+				count: 3
+				id: "025C84B2401234CA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22E9293E87882A17"
 				item: "alexscaves:shot_gum"
@@ -3350,6 +3964,12 @@
 		{
 			dependencies: ["7AB1C363FF5D6796"]
 			id: "423BE732F25FB885"
+			rewards: [{
+				count: 4
+				id: "6D203060C3A12493"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63CD182F00EA38FF"
 				item: {
@@ -3368,6 +3988,12 @@
 			dependencies: ["1EF60F0350C0A0CA"]
 			description: ["The Gobthumper, when placed, summons the massive Gum Worm. Hooking onto it with the Candy Cane Hook lets you ride it."]
 			id: "4103684D9105470C"
+			rewards: [{
+				count: 3
+				id: "4537CEE97424F9DE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10C85DE55182D059"
 				item: "alexscaves:gobthumper"
@@ -3380,6 +4006,12 @@
 			dependencies: ["4103684D9105470C"]
 			description: ["Crafted using the Sweet Tooth, dropped by the Gum Worm. It's able to eat any food in your inventory and automatically feed you when you get hungry."]
 			id: "557A09990960B97E"
+			rewards: [{
+				count: 3
+				id: "43F67ED7F00DE8E8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "366D0E99BF281806"
 				item: "alexscaves:sack_of_sating"
@@ -3396,6 +4028,12 @@
 				"You'll need to eat the Biome Treat in the biome you want duplicated, drop the treat into the cauldron, then follow the instructions (it will want blocks from that biome)."
 			]
 			id: "7E15B90CC27673C7"
+			rewards: [{
+				count: 4
+				id: "25EA2D56DB4A7F0A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "05DEB063BA914BE6"
@@ -3424,6 +4062,12 @@
 				"If you're having trouble finding the boss, it helps to know that it always spawns in the deepest part of this dungeon. One labyrinth can house multiple Chaos Spawners."
 			]
 			id: "61963A7E3CC5B4B6"
+			rewards: [{
+				count: 2
+				id: "3FAD75EAA33167F6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "dungeonnowloading:spikes"
 				id: "2C310BDE5E57DFE6"
@@ -3438,19 +4082,27 @@
 		{
 			dependencies: ["4D4F147344834529"]
 			id: "48D4BF288D59E907"
-			rewards: [{
-				id: "03EC3819ED3FEF24"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "paraglider:heart_container"
+			rewards: [
+				{
+					count: 2
+					id: "1C7F931BDF675302"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "03EC3819ED3FEF24"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paraglider:heart_container"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "49A8050B8FB98BE1"
 				item: {
@@ -3475,6 +4127,12 @@
 				"37272B0990886FAF"
 			]
 			id: "6138BDDAF5225818"
+			rewards: [{
+				count: 4
+				id: "28AD0F7257586B54"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4CF1D7533DDF66B1"
@@ -3551,6 +4209,12 @@
 				"37272B0990886FAF"
 			]
 			id: "47C84B9D8A67B7E3"
+			rewards: [{
+				count: 3
+				id: "40573ED6F225F1B6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6CE2342A3BB381E8"
@@ -3593,6 +4257,12 @@
 				"With all of this in mind, this is a boss where having a fast mining speed and high burst damage is imperative to your success. Drinking a potion of haste is especially good here, since it improves both of these."
 			]
 			id: "4D4F147344834529"
+			rewards: [{
+				count: 2
+				id: "4FA02D8EF6480E67"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "29DC2526A75F48F9"
 				item: {
@@ -3658,6 +4328,12 @@
 			dependencies: ["06D8CD953FBEE3D2"]
 			description: ["This funky little pendant is similar to the Desolate Dagger in the fact they are both desolate and create weapons out of thin air to stab things. The only difference is the dagger works when using any weapon, but only has a chance of activating."]
 			id: "295439DC7816F155"
+			rewards: [{
+				count: 3
+				id: "78F3A86FF6D12A84"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Well Desolation, Isolation"
 			tasks: [{
 				id: "4983F66C42111A1C"
@@ -3713,6 +4389,12 @@
 				"Shaded Respite: the Dreadbow doesn't consume an arrow or durabiltiy when fired in darkness"
 			]
 			id: "01C9AD5B24AF0C26"
+			rewards: [{
+				count: 4
+				id: "49CD5F9BC23B705F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Daedalus Stormbow enters its goth phase"
 			tasks: [{
 				id: "7C927D708C70DA3B"
@@ -3784,6 +4466,12 @@
 		{
 			dependencies: ["49975EE359AD20F3"]
 			id: "2909C62052585644"
+			rewards: [{
+				count: 6
+				id: "5E35A392A69A0FD7"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46416FFF5B35A5D9"
 				item: {
@@ -3812,6 +4500,12 @@
 				"If you're just here for the boss and nothing else, you should fly, grapple, or teleport your way up to the top of the Acropolis. Otherwise, take some time to explore, attack the residents of this place, and take their treasure."
 			]
 			id: "2D872F20E9EF84D3"
+			rewards: [{
+				count: 7
+				id: "2E34F8FB0C548F9D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3903,6 +4597,12 @@
 			description: ["Lacrima is a material dropped from enemies in the Acropolis. You can use this to craft the Azure Sea Shield and Scylla's weapons."]
 			id: "53EB86A1097A3D9A"
 			optional: true
+			rewards: [{
+				count: 6
+				id: "104A5E4C3A06DD2C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BFF4446C4F4FCC6"
 				item: {
@@ -3933,6 +4633,12 @@
 				"To complete the next quest, go down the elevator and look at the Serpent Caller in the center of the next room."
 			]
 			id: "0004ACC0F7A9C8FA"
+			rewards: [{
+				count: 2
+				id: "6132115AEE328515"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Hope you're a Zelda fan"
 			tasks: [{
 				icon: "dungeonnowloading:fairkeeper_spawner"
@@ -4042,6 +4748,12 @@
 				"These attacks are telegraphed by red particles and borders on the ground, so pay attention to those."
 			]
 			id: "2CE05682A977332C"
+			rewards: [{
+				count: 2
+				id: "7D598E2A12E34FC6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61007BD4C27FFBC8"
 				item: "dungeonnowloading:redstone_idol"
@@ -4054,6 +4766,12 @@
 			dependencies: ["2CE05682A977332C"]
 			description: ["Here are some more options for flamethrowers, but shader friendly this time. Make the soul scorcher if you don't want to set fire to the world."]
 			id: "2B6A97F338C41000"
+			rewards: [{
+				count: 2
+				id: "2F0E7A249F3CC5AA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Defeat Boros first and Ouros last"
 			tasks: [{
 				id: "551D95E3B07195D0"
@@ -4092,6 +4810,12 @@
 		{
 			dependencies: ["2CE05682A977332C"]
 			id: "6703A99C4A72EF71"
+			rewards: [{
+				count: 2
+				id: "4C3C0AF9456D4FAB"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Defeat Ouros first and Boros last"
 			tasks: [{
 				id: "542FB6AA08646A72"

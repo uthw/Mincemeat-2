@@ -20,10 +20,17 @@
 				"Lastly, the &3upgrades&f enhance the capabilities of the router, like the speed it processes items and the amount of items it can handle at once."
 			]
 			id: "0122BB7E8732B800"
-			rewards: [{
-				id: "4505A9B698F476E7"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					id: "26FB387F6D9698A7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "4505A9B698F476E7"
+					type: "custom"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "0F06B27044954532"
@@ -37,10 +44,17 @@
 			dependencies: ["0122BB7E8732B800"]
 			description: ["Try using routers to effortlessly move items between inventories without cables."]
 			id: "58D1E19D9FABC2F8"
-			rewards: [{
-				id: "3CA2143FD7113B3C"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					id: "454A2A9A40DE5007"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "3CA2143FD7113B3C"
+					type: "custom"
+				}
+			]
 			subtitle: "Only for the weak, real ones use the boats"
 			tasks: [
 				{
@@ -84,6 +98,12 @@
 				"Industrial Foregoing's machines are configured similarly to Thermal's machines using the four colored buttons right above your inventory and at the bottom of the machine GUI."
 			]
 			id: "01E2E064ED6CE0E5"
+			rewards: [{
+				count: 2
+				id: "323591E2E4C1810F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -99,6 +119,12 @@
 			dependencies: ["01E2E064ED6CE0E5"]
 			description: ["Generates latex (the liquid, not the math typeset) at a pretty slow rate unless given power. You should consider pumping the latex out of the box and sending it directly where it'll be processed."]
 			id: "3E03B91EDDD972C3"
+			rewards: [{
+				count: 2
+				id: "54E402E27E60E27F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Place it adjacent to a log, and this machine starts working without a need for energy."
 			tasks: [{
 				id: "006D9555A2CACC79"
@@ -111,6 +137,12 @@
 		{
 			dependencies: ["3E03B91EDDD972C3"]
 			id: "583F2E600C14A426"
+			rewards: [{
+				count: 2
+				id: "3DC1E073DFD80F49"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "The processing unit takes 100 mb of latex and 500 mb of water and outputs 1 tiny dry rubber"
 			tasks: [{
 				id: "523A76EFF11DE738"
@@ -123,6 +155,12 @@
 		{
 			dependencies: ["583F2E600C14A426"]
 			id: "660EF4A9ADCC837E"
+			rewards: [{
+				count: 2
+				id: "7CF9A470FD2E5AF2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A5028ED7FD73912"
 				item: "industrialforegoing:plastic"
@@ -134,6 +172,12 @@
 		{
 			dependencies: ["6D64F29FC47F9656"]
 			id: "4AF517AE1C0E5F78"
+			rewards: [{
+				count: 2
+				id: "0B69955FECC8C892"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Decreases the amount the progress bar needs to fill to complete an operation"
 			tasks: [{
 				id: "6CE1FC291DB17FC7"
@@ -154,6 +198,12 @@
 		{
 			dependencies: ["6D64F29FC47F9656"]
 			id: "5594BD73799EE491"
+			rewards: [{
+				count: 2
+				id: "309E9A3CA629B31F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Increases range of machines that work within a limited area"
 			tasks: [{
 				id: "6DAB6627B2E2B2B9"
@@ -174,6 +224,12 @@
 		{
 			dependencies: ["6D64F29FC47F9656"]
 			id: "28BBA43EE8092D4F"
+			rewards: [{
+				count: 2
+				id: "3479E7204ED36032"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F2D2D5D4C3B53FF"
 				item: {
@@ -193,6 +249,12 @@
 		{
 			dependencies: ["6D64F29FC47F9656"]
 			id: "360004F636128CAA"
+			rewards: [{
+				count: 2
+				id: "2396C1A6A6242361"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Increases the speed at which the progress bar fills"
 			tasks: [{
 				id: "12EDE66562BDF405"
@@ -213,6 +275,12 @@
 		{
 			dependencies: ["660EF4A9ADCC837E"]
 			id: "6D64F29FC47F9656"
+			rewards: [{
+				count: 2
+				id: "429EA8525E1DD08E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Shapeless crafter that handles many IF recipes, takes 8 items and a fluid without considering their positions"
 			tasks: [{
 				id: "34BB80EB11857319"
@@ -225,6 +293,12 @@
 		{
 			dependencies: ["660EF4A9ADCC837E"]
 			id: "7377EE160E47B30B"
+			rewards: [{
+				count: 2
+				id: "4B86A50EEE91646B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "A machine that shears sheep and milks cows."
 			tasks: [{
 				id: "382B17599CAA4A7F"
@@ -237,6 +311,12 @@
 		{
 			dependencies: ["73DC42DC2E236E58"]
 			id: "2A3635EA5FAC6134"
+			rewards: [{
+				count: 2
+				id: "7E5680A513344DF3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D73B260720662D0"
 				item: "industrialforegoing:wither_builder"
@@ -248,6 +328,12 @@
 		{
 			dependencies: ["660EF4A9ADCC837E"]
 			id: "6B1B6B00933E1A2B"
+			rewards: [{
+				count: 2
+				id: "4844EA9F0BD12497"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Automatically chops and harvests, generating some sludge with each operation"
 			tasks: [{
 				id: "3F4A8E937CC77E34"
@@ -260,6 +346,12 @@
 		{
 			dependencies: ["6B1B6B00933E1A2B"]
 			id: "1717EA0C28EE97EC"
+			rewards: [{
+				count: 2
+				id: "6D367D06DFD1121B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Uses a lot of energy (1k rf/t) to turn sludge into something useful"
 			tasks: [{
 				id: "70714F6435F26F4C"
@@ -272,6 +364,12 @@
 		{
 			dependencies: ["6B1B6B00933E1A2B"]
 			id: "5AECE3928097DC58"
+			rewards: [{
+				count: 2
+				id: "138BD66F1381040A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Plants seeds, the color coded slots in the gui correspond to the highlighted blocks"
 			tasks: [{
 				id: "7114FBB7C557B424"
@@ -284,6 +382,12 @@
 		{
 			dependencies: ["660EF4A9ADCC837E"]
 			id: "7EBEB2C4ED9C045B"
+			rewards: [{
+				count: 2
+				id: "50CF97DD95F1FBAF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Kills mobs and turns them into liquid meat and pink slime, more effective on passive mobs"
 			tasks: [{
 				id: "239140B4BC173F06"
@@ -296,6 +400,12 @@
 		{
 			dependencies: ["7377EE160E47B30B"]
 			id: "7339EC1F683759AD"
+			rewards: [{
+				count: 2
+				id: "47FB2CD4A09A6B13"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Feeds food to animals so they can be bred, needs to be given the proper breeding item"
 			tasks: [{
 				id: "07B4590B8470A4CC"
@@ -308,6 +418,12 @@
 		{
 			dependencies: ["7377EE160E47B30B"]
 			id: "5628035722463E00"
+			rewards: [{
+				count: 2
+				id: "342BD0D7B649AFA6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Collects sewage from animals"
 			tasks: [{
 				id: "729986E989B4601F"
@@ -320,6 +436,12 @@
 		{
 			dependencies: ["5628035722463E00"]
 			id: "6DBCA42FD9A4D539"
+			rewards: [{
+				count: 2
+				id: "7FB0D9764A71EC7C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Turns input sewage into fertilizer"
 			tasks: [{
 				id: "7314AE7594D3868F"
@@ -332,6 +454,12 @@
 		{
 			dependencies: ["7339EC1F683759AD"]
 			id: "506A305CE845004F"
+			rewards: [{
+				count: 2
+				id: "64079EAFEF4A0074"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Separates parent animals from babies. Babies are moved to the back of the machine"
 			tasks: [{
 				id: "6963D927A1920413"
@@ -347,6 +475,12 @@
 				"2965D03D8FD48A5D"
 			]
 			id: "6E53E6B090910D95"
+			rewards: [{
+				count: 2
+				id: "0223B07A7D48A88C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "When given water or lava, it grows plants. Ether makes it faster and allows it to replant"
 			tasks: [{
 				id: "6FA2E44FF6B70316"
@@ -364,6 +498,12 @@
 				"More biofuel is made when more unique inputs (see previous paragraph) are provided. Can you automate 'em all?"
 			]
 			id: "52C46DBF5F599A39"
+			rewards: [{
+				count: 2
+				id: "2D027B1D27D95998"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Makes biofuel. Not to be confused with the biodiesel from IE or PNC"
 			tasks: [{
 				id: "0C38B3FB516D318F"
@@ -376,6 +516,12 @@
 		{
 			dependencies: ["52C46DBF5F599A39"]
 			id: "5850B132203CD5D6"
+			rewards: [{
+				count: 2
+				id: "3515518FCF69644A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Generates 160 RF/t using biofuel. Will stop using fuel when its buffer is full"
 			tasks: [{
 				id: "033D4BD87C1F98BD"
@@ -389,6 +535,12 @@
 			dependencies: ["73DC42DC2E236E58"]
 			description: ["I don't have a damn clue how this item works. You're gonna have to look this one up yourself, Buddy."]
 			id: "7A8C820BCC329A8D"
+			rewards: [{
+				count: 2
+				id: "02EB7248967982C6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B0E42588DAA3641"
 				item: "industrialforegoing:mycelial_reactor"
@@ -400,6 +552,12 @@
 		{
 			dependencies: ["6D64F29FC47F9656"]
 			id: "2965D03D8FD48A5D"
+			rewards: [{
+				count: 2
+				id: "1AC20413CB49818B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "497333B68C81FE9A"
 				item: "industrialforegoing:machine_frame_simple"
@@ -411,6 +569,12 @@
 		{
 			dependencies: ["2965D03D8FD48A5D"]
 			id: "61D791CCD650C46B"
+			rewards: [{
+				count: 2
+				id: "1D2016B14AFBC42B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C5F9EA02DE67306"
 				item: "industrialforegoing:machine_frame_advanced"
@@ -422,6 +586,12 @@
 		{
 			dependencies: ["61D791CCD650C46B"]
 			id: "73DC42DC2E236E58"
+			rewards: [{
+				count: 2
+				id: "73222F383328D6E5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B064E206B0D7E23"
 				item: "industrialforegoing:machine_frame_supreme"
@@ -433,6 +603,12 @@
 		{
 			dependencies: ["7EBEB2C4ED9C045B"]
 			id: "48CD359F0AF5B0AE"
+			rewards: [{
+				count: 2
+				id: "5F261837B21AFB5C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "With this item equipped, it will auto feed the liquid meat stored within."
 			tasks: [{
 				id: "42B808F734CFCC01"
@@ -450,6 +626,12 @@
 				"You can also configure slots to void or refill and some other things; for details see the patchouli book :)"
 			]
 			id: "755F71F2B9BAC6BF"
+			rewards: [{
+				count: 2
+				id: "799A3A8E2DAFF7DC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Meet sophisticated backpack's big cousin"
 			tasks: [{
 				id: "6C9971409DFE210E"
@@ -471,6 +653,12 @@
 		{
 			dependencies: ["07570052A4EBD45C"]
 			id: "60CB71FE159C4029"
+			rewards: [{
+				count: 2
+				id: "0F30BEE691C91884"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60FCD455C25A8983"
 				item: {
@@ -513,6 +701,12 @@
 		{
 			dependencies: ["07570052A4EBD45C"]
 			id: "5ED5A83CCB4AD236"
+			rewards: [{
+				count: 2
+				id: "499E4E22A80B4AFB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42C1C106AF5A4B9B"
 				item: {
@@ -542,6 +736,12 @@
 				"Glowstone dust increases speed of the conveyor and plastic prevents you from picking up the item."
 			]
 			id: "159B1ADA0570B7C5"
+			rewards: [{
+				count: 2
+				id: "577CF5A58947D8B2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "In case Create and IE's conveyors haven't convinced you"
 			tasks: [{
 				id: "302D15D351B7F1C7"
@@ -560,6 +760,12 @@
 			]
 			id: "14F42CAFDACE3C75"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "70F541B6A522DCB5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Transports fluid between inventories 1 block away"
 			tasks: [
 				{
@@ -580,6 +786,12 @@
 		{
 			dependencies: ["61D791CCD650C46B"]
 			id: "74651976583703D4"
+			rewards: [{
+				count: 2
+				id: "1BC410CD92B2D928"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Upgraded cobblestone generator"
 			tasks: [{
 				id: "752DFBDF1A7948C5"
@@ -592,6 +804,12 @@
 		{
 			dependencies: ["61D791CCD650C46B"]
 			id: "0EA3B42C21990AE8"
+			rewards: [{
+				count: 2
+				id: "4599A166623AEF64"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "306F8E730AC9D518"
 				item: "industrialforegoing:potion_brewer"
@@ -603,6 +821,12 @@
 		{
 			dependencies: ["660EF4A9ADCC837E"]
 			id: "1E7A5E981A06ECD7"
+			rewards: [{
+				count: 2
+				id: "39E5D4B1211705B0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Generates water from nearby source blocks"
 			tasks: [{
 				id: "460D2F5D37D9EF03"
@@ -616,6 +840,12 @@
 			dependencies: ["78F48E17922BE3E9"]
 			description: ["Check JEI"]
 			id: "069217F599C369D6"
+			rewards: [{
+				count: 2
+				id: "0C243F068024A2CE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Produces ores like the drill from IE. You can equip a lens to make it more likely to produce certain ores"
 			tasks: [{
 				id: "2733A425FE831AA7"
@@ -629,6 +859,12 @@
 			dependencies: ["61D791CCD650C46B"]
 			description: ["The laser drill should be adjacent to the base with the back of the drill facing the base."]
 			id: "78F48E17922BE3E9"
+			rewards: [{
+				count: 2
+				id: "17FF3380A501E10F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Converts power into a suitable version for fluid/ore laser bases."
 			tasks: [{
 				id: "138EED81DDB07F77"
@@ -642,6 +878,12 @@
 			dependencies: ["78F48E17922BE3E9"]
 			description: ["Check JEI"]
 			id: "0BBBEB6B7F222D19"
+			rewards: [{
+				count: 2
+				id: "02D6CD88EA3B2774"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Produces fluid. Equip it with a lens to make it more likely to produce certain fluids."
 			tasks: [{
 				id: "7C6E2A70C41CF694"
@@ -657,6 +899,12 @@
 				"60CB71FE159C4029"
 			]
 			id: "6A17B0178D1E797E"
+			rewards: [{
+				count: 2
+				id: "106FDE1799AAD872"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Charges items with energy, Infinity Items charge faster"
 			tasks: [{
 				id: "633EEC1309CD4044"
@@ -683,6 +931,12 @@
 			]
 			icon: "mekanism:metallurgic_infuser"
 			id: "1CB095891B94A06A"
+			rewards: [{
+				count: 2
+				id: "1B9B14D750502FDB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [
@@ -705,6 +959,12 @@
 		{
 			dependencies: ["1CB095891B94A06A"]
 			id: "615FC6EA071C8ED5"
+			rewards: [{
+				count: 2
+				id: "4FF7236CCD8450C5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Pulverizer, but it can handle more items and needs less energy"
 			tasks: [{
 				id: "5E028514249635B3"
@@ -717,6 +977,12 @@
 		{
 			dependencies: ["1CB095891B94A06A"]
 			id: "5F3E819FBB656AFD"
+			rewards: [{
+				count: 2
+				id: "72F0E2B4F678909E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Like the redstone furnace, but it needs less energy"
 			tasks: [{
 				id: "3AF4BD05A6536B94"
@@ -729,6 +995,12 @@
 		{
 			dependencies: ["1CB095891B94A06A"]
 			id: "3B47ADA15355EDDD"
+			rewards: [{
+				count: 2
+				id: "09B97BF032D8F034"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Whatever the woodcutter from thermal is called (i don't remember its name lol)"
 			tasks: [{
 				id: "38FF8FD7AD687989"
@@ -741,6 +1013,12 @@
 		{
 			dependencies: ["1CB095891B94A06A"]
 			id: "4F65521A3542AA88"
+			rewards: [{
+				count: 2
+				id: "0466CF4723DF32D8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "4x as much storage as a Capacitato"
 			tasks: [{
 				id: "181643AA55C43E4D"
@@ -753,12 +1031,20 @@
 		{
 			dependencies: ["4F65521A3542AA88"]
 			id: "5713E11A48A518AA"
-			rewards: [{
-				count: 16
-				id: "074E5603E0791E32"
-				item: "mekanism:basic_universal_cable"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "136086862E0E0763"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "074E5603E0791E32"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
 			subtitle: "Needed for some things like connecting cables"
 			tasks: [{
 				id: "2074ED9953901F89"
@@ -771,6 +1057,12 @@
 		{
 			dependencies: ["4F65521A3542AA88"]
 			id: "5EF570C963D671D3"
+			rewards: [{
+				count: 2
+				id: "0ECF46E6E7341B59"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "757A6B6BDD9FAEC5"
 				item: "mekanism:basic_energy_cube"
@@ -782,6 +1074,12 @@
 		{
 			dependencies: ["1CB095891B94A06A"]
 			id: "291725E8B02FA1A6"
+			rewards: [{
+				count: 2
+				id: "48CF953124490EC8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "34492A779488A7EA"
 				item: "mekanism:restrictive_transporter"
@@ -793,6 +1091,12 @@
 		{
 			dependencies: ["1CB095891B94A06A"]
 			id: "7718EEE0B2B2DB5F"
+			rewards: [{
+				count: 2
+				id: "60C1B81F656680F9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "219BA75562AE8B4B"
 				item: "mekanism:diversion_transporter"
@@ -809,6 +1113,12 @@
 				"Pressing the new filter button leads you through a GUI in which the filter is specified."
 			]
 			id: "70C378B89003E0AC"
+			rewards: [{
+				count: 2
+				id: "54D486A1FE29E672"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Advanced sorting for items"
 			tasks: [{
 				id: "7081EA7350EBF26C"
@@ -831,6 +1141,12 @@
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:pressure_gauge"
 			id: "317406E8D0562528"
+			rewards: [{
+				count: 2
+				id: "2260FAF8C303A0CE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -853,6 +1169,12 @@
 			dependencies: ["615FC6EA071C8ED5"]
 			description: ["&eCoal &rcan be enriched to &6carbon&r, which you can use to &einfuse&r to your &emetallurgic infuser&r."]
 			id: "560B0F3B066129AC"
+			rewards: [{
+				count: 2
+				id: "6DA8080EAF196803"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "482292413C54C030"
@@ -886,6 +1208,12 @@
 				"Keep in mind that an upgraded machine's &eenergy usage &rincreases proportionally to its output."
 			]
 			id: "71B5319AD4CD5432"
+			rewards: [{
+				count: 2
+				id: "30CC7FD2A4393745"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FEB0A1ABDEC00DD"
 				item: "mekanism:basic_tier_installer"
@@ -906,6 +1234,12 @@
 				"&o&7Hint: you can use &ecrushing wheels&7 to turn obsidian into dust when you're starting out. However, an &eenriching factory&7 yields more dust per obsidian.&r&r"
 			]
 			id: "3F37880D357B0BEA"
+			rewards: [{
+				count: 2
+				id: "54FB1E56B2D30E72"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5C653E42D5AF78CB"
@@ -936,6 +1270,12 @@
 		{
 			dependencies: ["71B5319AD4CD5432"]
 			id: "6DFB27BB8E824A4B"
+			rewards: [{
+				count: 2
+				id: "6C3F3E8F7AB05952"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7C608809F0826789"
@@ -961,6 +1301,12 @@
 			dependencies: ["2E12FB5830AC5E5C"]
 			description: ["WIP"]
 			id: "3083AE45932729EC"
+			rewards: [{
+				count: 2
+				id: "7CE34048AA987A62"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "660DB69EA1010FB9"
 				item: "mekanism:digital_miner"
@@ -973,6 +1319,12 @@
 			dependencies: ["1CB095891B94A06A"]
 			description: ["A backpack"]
 			id: "770B05A88274E043"
+			rewards: [{
+				count: 2
+				id: "14CFEB2C74EAC41E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F302426F20C4B7A"
 				item: {
@@ -1009,6 +1361,12 @@
 				"Use the &6robit&r's GUI (right click on it) to give it &ecommands&r or access luxuries such as its &ecrafting grid&r and &eanvil&r."
 			]
 			id: "2E12FB5830AC5E5C"
+			rewards: [{
+				count: 3
+				id: "6AD7885079F6CFB2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6D2C5C5715E2AA52"
@@ -1036,6 +1394,11 @@
 				"Multiple flux plugs on the same network add RF to that network, while flux points extract it."
 			]
 			id: "2E7D2F50E760381A"
+			rewards: [{
+				id: "47FCADC41E8162DD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -1066,6 +1429,12 @@
 				"Also for the normal air compressor, you'll need a lot of coal or other fuel since this compressor is power-hungry."
 			]
 			id: "1D8E21B0BD044042"
+			rewards: [{
+				count: 3
+				id: "1F06F48BA7AD6B48"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31B6B64C96CEE48E"
 				item: {
@@ -1094,6 +1463,12 @@
 			dependencies: ["1D8E21B0BD044042"]
 			description: ["You can use this station to upgrade and charge your pneumatic items. Not that you have any right now, but this will be useful later."]
 			id: "0F1D88F754127603"
+			rewards: [{
+				count: 2
+				id: "6BFEB888F1550D7E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "30A3525FB266708A"
 				item: "pneumaticcraft:charging_station"
@@ -1115,6 +1490,12 @@
 				"There are 4 main categories of upgrades; equipment, drone, transport, and sensing."
 			]
 			id: "1AF0FCCA38CDA801"
+			rewards: [{
+				count: 7
+				id: "21EC2348027A6370"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A0489BA486BD2E0"
 				item: {
@@ -1239,6 +1620,12 @@
 				"The Manometer measures the air pressure in pipes and machines."
 			]
 			id: "0B988EB1DA24F75F"
+			rewards: [{
+				count: 2
+				id: "11A9A7516D615387"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "17C0383E2C3973E1"
@@ -1263,6 +1650,12 @@
 				"These pipes can also be outfitted with modules which act as upgrades."
 			]
 			id: "6826BB2923EBEFA2"
+			rewards: [{
+				count: 2
+				id: "1C37FC50C842DB23"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "388DC4A548D47402"
 				item: "pneumaticcraft:pressure_tube"
@@ -1282,6 +1675,12 @@
 				"The other very useful one is pressure gadge, a gadget that shows the pressure gauge in the pipe at all times."
 			]
 			id: "34CB47B496F5E80F"
+			rewards: [{
+				count: 3
+				id: "237F09E3AAB6F98A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0844B0F6CD26BD16"
 				item: {
@@ -1333,6 +1732,12 @@
 				"They can be filled at a charging station."
 			]
 			id: "07CBBDA417272C74"
+			rewards: [{
+				count: 2
+				id: "4173F78C7C210183"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7102A79974E7DFDE"
 				item: "pneumaticcraft:air_canister"
@@ -1355,6 +1760,12 @@
 				"You can also use omnidirectional Hoppers as filters by switching their mode to \"leave one item per slot to filter\"."
 			]
 			id: "3159FEEDB7AC5956"
+			rewards: [{
+				count: 2
+				id: "1EA29D65EE12DDE4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "091DF3292B3D3038"
 				item: "pneumaticcraft:omnidirectional_hopper"
@@ -1371,6 +1782,12 @@
 				"An example of this item's application is in an extractinator cobblestone farm used for both getting cobblestone and getting other materials."
 			]
 			id: "3BE7C98DD84D5DBA"
+			rewards: [{
+				count: 2
+				id: "2A4745D5956F60D5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "363CF1C211145871"
 				item: "pneumaticcraft:smart_chest"
@@ -1390,6 +1807,12 @@
 				"Valid blocks glow purple to help you."
 			]
 			id: "398BB7E0405761B6"
+			rewards: [{
+				count: 2
+				id: "0EF3ACAD2E472054"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6566E8746C042918"
 				item: "pneumaticcraft:camo_applicator"
@@ -1427,6 +1850,12 @@
 				"Now the last part is actually putting some pressure in the chamber.  For right now the best way is by useing a manual compressor since it's much faster and won't burn through as much fuel. Also quick tip whenever you are using a manual compressor it'll look like it will be loseing pressure immediately after but it only loses around .05 bar, this is actually not caused by the manual compressor but instead the delay that the valve on the pressure chamber gives."
 			]
 			id: "4160802E31D67A4B"
+			rewards: [{
+				count: 2
+				id: "18217F9EE7CB9349"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "pneumaticcraft:pressure_chamber"
 				criterion: ""
@@ -1458,6 +1887,12 @@
 				"Weighted: more powerful than regular ammo, best suited for your run-of-the-mill zombies and skeletons"
 			]
 			id: "62AD4B45F2DF55D9"
+			rewards: [{
+				count: 2
+				id: "28A8F11B807BBAE0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2863496F298CAF7F"
 				item: "pneumaticcraft:minigun"
@@ -1471,6 +1906,12 @@
 			dependencies: ["62AD4B45F2DF55D9"]
 			description: ["This gun pushes targets away. It can also be aimed into the ground with enough pressure to launch yourself into the air. The force of the gun diminishes with its charge."]
 			id: "1C9A5BEF712B20AB"
+			rewards: [{
+				count: 2
+				id: "6CB84D5496570D5D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E5E3988EAF7C1E1"
 				item: "pneumaticcraft:vortex_cannon"
@@ -1506,6 +1947,12 @@
 			dependencies: ["4160802E31D67A4B"]
 			description: ["These little compressed iron cages can be placed on crops to speed up their growth. It's passive and takes no resources, so it's never a bad idea."]
 			id: "48057860AA9DB409"
+			rewards: [{
+				count: 2
+				id: "76575522940E087D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56D0A88C76FE6CC6"
 				item: "pneumaticcraft:crop_support"
@@ -1524,6 +1971,12 @@
 				"Heatsinks basically act as batteries for heat, so you can store cold or heat inside. Then, you can route the heat with heat pipes to devices that need heat."
 			]
 			id: "00DC1217BFC0359B"
+			rewards: [{
+				count: 2
+				id: "6B223AB96B590A75"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "328FF2602ACBC483"
@@ -1548,6 +2001,12 @@
 				"It can be combined with a heatsink to better move heat or cold from something. This has a similar function to encased fans involving wind generation."
 			]
 			id: "49A9EA462CDEDE68"
+			rewards: [{
+				count: 2
+				id: "0B06A7CC2C86BE17"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "024CE4C1FF96ED78"
@@ -1573,6 +2032,12 @@
 				"With any of these tools, you should be able to find some in the &mEverdawn&r Overworld &7&obut oil will move back to the Everdawn in a later update&r."
 			]
 			id: "0000B590B237BC35"
+			rewards: [{
+				count: 4
+				id: "2A6D6AE98D198E45"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4061822004A34B1B"
@@ -1656,6 +2121,12 @@
 			dependencies: ["00DC1217BFC0359B"]
 			description: ["These tanks are useful materials, and can store liquid too, but you have pipes that are better than these, to be frank."]
 			id: "1F6F1AD6B89BDF7D"
+			rewards: [{
+				count: 2
+				id: "7F506FBAE8BB4039"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Make the small fluid tank"
 			tasks: [{
 				id: "7CC6058D19AB299E"
@@ -1685,6 +2156,12 @@
 				"Molten plastic (you get 1% chance for every degree under zero of getting more than one obsidian per transformation.)"
 			]
 			id: "332CCCC5D904E7DF"
+			rewards: [{
+				count: 2
+				id: "0A09F5C6A11BC9E4"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D8AB57ACEE1CDB4"
 				item: "pneumaticcraft:heat_frame"
@@ -1701,6 +2178,12 @@
 				"With this hopper, to make one chest transfer to another chest, it'll only take two blocks of volume insted of 3 (2 for the chests and 1 for a hopper)."
 			]
 			id: "6EF5353C0E6D6503"
+			rewards: [{
+				count: 2
+				id: "075F0C31A5CC65AA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6698AAFF4F12B18C"
 				item: "pneumaticcraft:transfer_gadget"
@@ -1715,6 +2198,12 @@
 			description: [""]
 			icon: "pneumaticcraft:module_expansion_card"
 			id: "3ACA05C0D9266614"
+			rewards: [{
+				count: 2
+				id: "43E801F5349484E1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -1741,6 +2230,12 @@
 				"But you need to upgrade it to make it the best. at the end it will auto vein mine and be able to mine 128 blocks at once."
 			]
 			id: "06FC9859182DAF30"
+			rewards: [{
+				count: 2
+				id: "41DB7E09B16ACA28"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F9054F174800ABC"
 				item: "pneumaticcraft:jackhammer"
@@ -1756,6 +2251,12 @@
 				"The netherite drill bit requires the use of an assembly line."
 			]
 			id: "31314E6CE9435DC3"
+			rewards: [{
+				count: 3
+				id: "3DB8DCD643F29E45"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6159DA67684A3C81"
 				item: {
@@ -1792,6 +2293,12 @@
 			description: ["These doors are unlike most doors. These doors are smart and can have varios functions such as acting like one of the automatic doors they have in every super market. also the automatic door will only open to players and not anything else what can be a great altinitve for presure plates."]
 			id: "74BB062E3392501C"
 			invisible: true
+			rewards: [{
+				count: 2
+				id: "1C6DDA6505D2316D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "369F19B570E05D99"
@@ -1819,6 +2326,12 @@
 				"Also, make sure you get speed upgrades so the assembly line actually works at a reasonable speed."
 			]
 			id: "532FF26E3D8A4144"
+			rewards: [{
+				count: 4
+				id: "28619393A11DA9D9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "745FF9196713AAD7"
@@ -1866,6 +2379,12 @@
 			dependencies: ["1F6F1AD6B89BDF7D"]
 			description: ["This machine is used for a lot of liquid base resipes. it need's both heat and Presure to be used . It after haveing enogh heat and presure you just put in a liquid it and a solid and it should produce new liquids that can be used for varios diffrent things."]
 			id: "0E0D1FD7FDF80488"
+			rewards: [{
+				count: 2
+				id: "63222A2DC99357A6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1684537AB3DAA070"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
@@ -1882,6 +2401,12 @@
 				"The best way of doing this is by useing the gas lift. You use the gas lift by placeing it right above where oil would be and feeding the gas lift a drill, pipes, and pressure to start lifting up oil."
 			]
 			id: "20AC5EF34A34D2F0"
+			rewards: [{
+				count: 2
+				id: "65C94409BE5F96AF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6B0AB2E382A1947D"
@@ -1946,6 +2471,12 @@
 			dependencies: ["0E0D1FD7FDF80488"]
 			description: [""]
 			id: "3CF34A4F1FB1DDE9"
+			rewards: [{
+				count: 2
+				id: "41302E4D54970BE0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "08761F5CDA563319"
@@ -1971,6 +2502,12 @@
 			dependencies: ["551CC584ACFC9B34"]
 			description: ["This diesel is created by mixing togther seed oil and ethanol. It can be used as a fuel and has the same properties as normal diesel (apart from how you can't make plastic with this)."]
 			id: "3C4B139A57D7660B"
+			rewards: [{
+				count: 2
+				id: "5940A85331B5BDCF"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			subtitle: "Eco-friendly Oil"
 			tasks: [{
 				id: "54A84DDF9D4E948A"
@@ -1990,6 +2527,12 @@
 				"The heating frame is superior if you plan to automate, as it sometimes gives extra plastic."
 			]
 			id: "5A7F9642EDA6A2C3"
+			rewards: [{
+				count: 2
+				id: "4BBEA2FF0CB21847"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "31FCF1C83542B73D"
@@ -2010,6 +2553,12 @@
 			dependencies: ["0E0D1FD7FDF80488"]
 			description: ["These are a cheaper way of creating Upgrades. Instead of using 4 lapis per upgrade, you can use 1 lapis to create 4 of these."]
 			id: "3B4C69C213BCADE1"
+			rewards: [{
+				count: 2
+				id: "5656716ACC7A3E5A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F5AB0E9C47BF0AE"
 				item: "pneumaticcraft:upgrade_matrix"
@@ -2022,6 +2571,12 @@
 			dependencies: ["0E0D1FD7FDF80488"]
 			description: ["This machine allows you to combine 2 different liquids to create new things. It only needs pressure to operate."]
 			id: "551CC584ACFC9B34"
+			rewards: [{
+				count: 2
+				id: "179874553AD7FFF8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B21A0B588432AAB"
 				item: "pneumaticcraft:fluid_mixer"
@@ -2040,6 +2595,12 @@
 				"It's best to get this chance to 100% so you won't have to set up a mechanical press that resets PCBs in the case of failure."
 			]
 			id: "217B9547B555D382"
+			rewards: [{
+				count: 2
+				id: "1D01984308A7E6F6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "582F1FA17FB10CC3"
@@ -2063,6 +2624,12 @@
 				"The main thing you will want to buy for right now is the PCB blueprint, which you'll need for an upcoming recipe."
 			]
 			id: "66A2FCC807306A32"
+			rewards: [{
+				count: 2
+				id: "147E77C70D462C94"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "605A1E38B42856F1"
@@ -2087,6 +2654,12 @@
 			description: ["This little stick allows you to store your exp/levels inside of it. you can also equip it to have it store exp automatily as you get some."]
 			id: "58FD171E4D6E745A"
 			invisible: true
+			rewards: [{
+				count: 2
+				id: "5563126A80E32BE9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31FA886D3602DC71"
 				item: "pneumaticcraft:memory_stick"
@@ -2105,6 +2678,12 @@
 				"If you did it correctly, you should have some unfinished PCBs. You might get a failed PCB instead, which you can press to turn them back into normal empty PCBs."
 			]
 			id: "74358244B079DBAC"
+			rewards: [{
+				count: 2
+				id: "5D964609E2C73CF1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E0CEBF796645C37"
@@ -2129,6 +2708,12 @@
 			dependencies: ["74358244B079DBAC"]
 			description: ["After getting some capacitors and transistors with the presure chamber, you can create a finished PCB."]
 			id: "64206EB5A53F2A6F"
+			rewards: [{
+				count: 2
+				id: "3A863BD910F96C0A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "58AE7DDBFEA78FC2"
@@ -2159,163 +2744,171 @@
 				"After you open the book go to drone programming then Basic drone tutourial."
 			]
 			id: "155B9879593542A6"
-			rewards: [{
-				id: "6402D1E910195CF8"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						display: {
-							Name: "{\"translate\":\"eccentrictome.name\",\"with\":[{\"color\":\"green\",\"translate\":\"pneumaticcraft.patchouli.book.name\"}]}"
-						}
-						"eccentrictome:is_tome": 1b
-						"eccentrictome:mods": {
-							aether: {
-								0: {
-									Count: 1b
-									id: "aether:book_of_lore"
-								}
-							}
-							apotheosis: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "apotheosis:apoth_chronicle"
-									}
-								}
-							}
-							ars_nouveau: {
-								0: {
-									Count: 1b
-									id: "ars_nouveau:worn_notebook"
-								}
-							}
-							betterend: {
-								0: {
-									Count: 1b
-									id: "betterend:guidebook"
-								}
-							}
-							bloodmagic: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "bloodmagic:guide"
-									}
-								}
-							}
-							botania: {
-								0: {
-									Count: 1b
-									id: "botania:lexicon"
-								}
-								1: {
-									Count: 1b
-									id: "botania:lexicon"
-								}
-							}
-							eidolon: {
-								0: {
-									Count: 1b
-									id: "eidolon:codex"
-								}
-							}
-							enderio: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "enderio:guide"
-									}
-								}
-							}
-							industrialforegoing: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "industrialforegoing:industrial_foregoing"
-									}
-								}
-							}
-							irons_spellbooks: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "irons_spellbooks:iss_guide_book"
-									}
-								}
-							}
-							littlelogistics: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "littlelogistics:guide"
-									}
-								}
-							}
-							minecells: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "minecells:minecells_guidebook"
-									}
-								}
-							}
-							modularrouters: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "modularrouters:book"
-									}
-								}
-							}
-							naturesaura: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "naturesaura:book"
-									}
-								}
-							}
-							solcarrot: {
-								0: {
-									Count: 1b
-									id: "solcarrot:food_book"
-								}
-							}
-							storagenetwork: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "storagenetwork:network_book"
-									}
-								}
-							}
-							thermal: {
-								0: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "thermal:guidebook"
-									}
-								}
-							}
-						}
-						"eccentrictome:version": 1
-						"patchouli:book": "pneumaticcraft:book"
-					}
+			rewards: [
+				{
+					count: 3
+					id: "14D7E184BCFB5AA5"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6402D1E910195CF8"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							display: {
+								Name: "{\"translate\":\"eccentrictome.name\",\"with\":[{\"color\":\"green\",\"translate\":\"pneumaticcraft.patchouli.book.name\"}]}"
+							}
+							"eccentrictome:is_tome": 1b
+							"eccentrictome:mods": {
+								aether: {
+									0: {
+										Count: 1b
+										id: "aether:book_of_lore"
+									}
+								}
+								apotheosis: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+								}
+								ars_nouveau: {
+									0: {
+										Count: 1b
+										id: "ars_nouveau:worn_notebook"
+									}
+								}
+								betterend: {
+									0: {
+										Count: 1b
+										id: "betterend:guidebook"
+									}
+								}
+								bloodmagic: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "bloodmagic:guide"
+										}
+									}
+								}
+								botania: {
+									0: {
+										Count: 1b
+										id: "botania:lexicon"
+									}
+									1: {
+										Count: 1b
+										id: "botania:lexicon"
+									}
+								}
+								eidolon: {
+									0: {
+										Count: 1b
+										id: "eidolon:codex"
+									}
+								}
+								enderio: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "enderio:guide"
+										}
+									}
+								}
+								industrialforegoing: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+									}
+								}
+								irons_spellbooks: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "irons_spellbooks:iss_guide_book"
+										}
+									}
+								}
+								littlelogistics: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "littlelogistics:guide"
+										}
+									}
+								}
+								minecells: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "minecells:minecells_guidebook"
+										}
+									}
+								}
+								modularrouters: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "modularrouters:book"
+										}
+									}
+								}
+								naturesaura: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "naturesaura:book"
+										}
+									}
+								}
+								solcarrot: {
+									0: {
+										Count: 1b
+										id: "solcarrot:food_book"
+									}
+								}
+								storagenetwork: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "storagenetwork:network_book"
+										}
+									}
+								}
+								thermal: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "thermal:guidebook"
+										}
+									}
+								}
+							}
+							"eccentrictome:version": 1
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "This is the most complex part of this mod"
 			tasks: [
 				{
@@ -2357,6 +2950,12 @@
 				"Power the elevator bases at the bottom with at least 3 bar, and you'll have a functional elevator."
 			]
 			id: "2220D3592E181329"
+			rewards: [{
+				count: 3
+				id: "6E071179F3911752"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6B0F6A51465AD565"
@@ -2404,6 +3003,12 @@
 				"This drone attacks nearby mobs using weapons it finds in the chests."
 			]
 			id: "5F77024B90F19740"
+			rewards: [{
+				count: 2
+				id: "4B0105D8ADC11AE2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "29A7A121561FE22C"
@@ -2428,6 +3033,12 @@
 			dependencies: ["2BA01F0BF154E2C1"]
 			description: ["The flux compressor allows compressed air to be generated using the Forge Energy you might be familiar with from Thermal, Mekanism, you name it."]
 			id: "2063BE715B4EB117"
+			rewards: [{
+				count: 2
+				id: "5CFF50E5BE597684"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CE93C339C6920D1"
 				item: "pneumaticcraft:flux_compressor"
@@ -2440,6 +3051,12 @@
 			dependencies: ["2BA01F0BF154E2C1"]
 			description: ["If you have a state-of-the-art air compressor, use this machine to turn it into energy for use in machines from other tech mods."]
 			id: "25F68BF1F16E0477"
+			rewards: [{
+				count: 2
+				id: "5E25BC715F1D13DA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0CB76692E5F5E5C5"
@@ -2466,6 +3083,12 @@
 				"It's a good form of base defense."
 			]
 			id: "6C32313C006D30C7"
+			rewards: [{
+				count: 2
+				id: "4C02FBB78E8380F2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BD5C377A2CB1714"
 				item: "pneumaticcraft:sentry_turret"
@@ -2490,6 +3113,12 @@
 				"Lastly, you should know about hacking. Without the proper precautions, security systems are easy to hack. If you hack someone else's station, you'll be falsely considered a trusted player until the system is somehow rebooted."
 			]
 			id: "30E6A6B2D0521477"
+			rewards: [{
+				count: 3
+				id: "62CBB1F3A1E3421F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0A6E1267A300FA69"
@@ -2524,6 +3153,12 @@
 			dependencies: ["155B9879593542A6"]
 			description: ["This allows you to save your programs to a diffrent item so you don't lose any of your programs if you lose the drone or have multiple programs but only 1 drone."]
 			id: "40AABDB7D48DC8DD"
+			rewards: [{
+				count: 2
+				id: "144D839E572AAB26"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FBD7692F4E3BD8E"
 				item: "pneumaticcraft:network_data_storage"
@@ -2544,6 +3179,12 @@
 				"Doing this will force the hacker to have a ton of STOP! worms to even try to hack you."
 			]
 			id: "3F64A54C367FDA2D"
+			rewards: [{
+				count: 3
+				id: "7C38262EA9AFBE83"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 12L
@@ -2571,6 +3212,12 @@
 			dependencies: ["532FF26E3D8A4144"]
 			description: ["Superior to the other pressure tube, and a crafting material as well."]
 			id: "2BA01F0BF154E2C1"
+			rewards: [{
+				count: 2
+				id: "62BD1028DD79D23B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FF9B07ED4035518"
 				item: "pneumaticcraft:advanced_pressure_tube"
@@ -2583,6 +3230,12 @@
 			dependencies: ["2BA01F0BF154E2C1"]
 			description: ["The name says it all. It's a better version the normal one."]
 			id: "0CC167CD6A25E207"
+			rewards: [{
+				count: 2
+				id: "3E91F0E2F37A8A3A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BD65FA6FF3C6C6A"
 				item: "pneumaticcraft:advanced_air_compressor"
@@ -2595,6 +3248,12 @@
 			dependencies: ["2BA01F0BF154E2C1"]
 			description: [""]
 			id: "2FF4EC9EE6CA46E0"
+			rewards: [{
+				count: 2
+				id: "7E87DEE4C569D594"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F105EE74C06CD55"
 				item: "pneumaticcraft:advanced_liquid_compressor"
@@ -2607,6 +3266,12 @@
 			dependencies: ["2BA01F0BF154E2C1"]
 			description: ["This machine passively compresses air using sunlight."]
 			id: "76BD9A208C317520"
+			rewards: [{
+				count: 2
+				id: "7BD6697B53C1DA28"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FD564FA2FECAB29"
 				item: "pneumaticcraft:solar_compressor"
@@ -2619,6 +3284,12 @@
 			dependencies: ["3ACA05C0D9266614"]
 			description: ["To use the armor's features, you will want to set a keybind for configuring the armor."]
 			id: "24659EC79C6A595E"
+			rewards: [{
+				count: 3
+				id: "5DB468F5B35A50C9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "56F8DA0960DBF2A1"
@@ -2673,6 +3344,12 @@
 			dependencies: ["00DC1217BFC0359B"]
 			description: ["These flat glass sheets can be attched to the sides of devices to let them maintain their heat. They can useful to save fuel in a compressor."]
 			id: "583BC98CD030E344"
+			rewards: [{
+				count: 2
+				id: "794B7EAAA40ABACC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C4D14E77E199369"
 				item: "pneumaticcraft:thermal_lagging"
@@ -2693,6 +3370,12 @@
 				"LPG stands for Low Pier God. Mods, ban that guy."
 			]
 			id: "35F6AEB790B93C2C"
+			rewards: [{
+				count: 2
+				id: "273C154DDBEC84C2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "64AD3A12548D3D86"
@@ -2713,6 +3396,12 @@
 			dependencies: ["35F6AEB790B93C2C"]
 			description: ["This is a better version of the liquid compressor and can use liquid commpared to burnables. Its best to us LPG or Gasoline to produce the most presure possible. Also useing the thermpnumatic plant you can convert kerosene gasoline to LPG which can stream line the usage of this compressor"]
 			id: "2F023D420C554C63"
+			rewards: [{
+				count: 2
+				id: "5B0CC053DC8B20AE"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "515FD2B053CC265C"
 				item: "pneumaticcraft:liquid_compressor"
@@ -2728,6 +3417,12 @@
 			]
 			description: ["Made by using some diesel with redstone in a thermopneumatic plant. It is used to make a very powerful pickaxe."]
 			id: "250C91034BA8A8AA"
+			rewards: [{
+				count: 2
+				id: "1C89283840A92918"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B2AD72E2C752A08"
 				item: "pneumaticcraft:lubricant_bucket"
@@ -2741,6 +3436,12 @@
 			description: ["After refining, you will get some kerosene. you can use this kerosene to power the lamp, which provides light in a large area around it."]
 			id: "615A645013260C8B"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "093304AF80E4030F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "15735107C4DB17BB"
 				item: "pneumaticcraft:kerosene_lamp"
@@ -2753,6 +3454,12 @@
 			dependencies: ["532FF26E3D8A4144"]
 			description: ["An easier way of makeing these that does not take the time to UV cure and etch."]
 			id: "7C912A7F8CB15C4E"
+			rewards: [{
+				count: 2
+				id: "07D0577E94BA8E4F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0926FD2897567575"
 				item: "pneumaticcraft:unassembled_pcb"
@@ -2765,6 +3472,12 @@
 			dependencies: ["5F77024B90F19740"]
 			description: ["These upgrades are applied to drones at a charging station and allow for multiple different types of abilities such as not being unloaded when too far away or being able to attack enemies with a minigun."]
 			id: "011FBD53777EE966"
+			rewards: [{
+				count: 3
+				id: "4ECD831AD935720E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "766EB3812EED6497"
 				item: {
@@ -2801,6 +3514,12 @@
 			dependencies: ["24659EC79C6A595E"]
 			description: ["These upgrades are applied to the pneumatic armor at a charging station and allow for multiple different abilities."]
 			id: "7EEE2F478B258358"
+			rewards: [{
+				count: 4
+				id: "489D822C9A47ED02"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "126372DD2499BEBD"
 				item: {
@@ -2869,6 +3588,12 @@
 			dependencies: ["1AF0FCCA38CDA801"]
 			description: ["These upgrades apply to anything that has to do with items, like armor, drones, and machines. When slotted in, they have various purposes such as increasing movement and capacity."]
 			id: "72663B5BA63AEAAB"
+			rewards: [{
+				count: 3
+				id: "22D3B5EE7DE438BC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D4DB80395965DE9"
 				item: {
@@ -2905,6 +3630,12 @@
 			dependencies: ["1AF0FCCA38CDA801"]
 			description: ["These upgrades are applied to various pneumatic machines and items. They have the ability to sense their surroundings like an omni-directional hopper sensing a entity and taking items or moving items to it."]
 			id: "1C746281E723B733"
+			rewards: [{
+				count: 3
+				id: "0730B323CA8611AC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EBA017FC42DFF1F"
 				item: {
@@ -2941,6 +3672,12 @@
 				"Sometimes, this upgrade is even cross-compatible with other upgrades, such as the magnet upgrade."
 			]
 			id: "452470D56184ADE2"
+			rewards: [{
+				count: 2
+				id: "7DF3D6F41693B779"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EAACAC4E5A51C65"
 				item: "pneumaticcraft:range_upgrade"
@@ -2956,6 +3693,12 @@
 			]
 			description: ["This upgrade is used in various pneumatic machines. It is capable of adding safeguards to them, like preventing machines from exploding when they have too much air."]
 			id: "64588A41966059FC"
+			rewards: [{
+				count: 2
+				id: "6A997B592BBD20E7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B3967647670123D"
 				item: { Count: 64, id: "pneumaticcraft:security_upgrade" }
@@ -2972,6 +3715,12 @@
 				"It can also be used on the pneumatic chest plate to also retore presure when doing a action."
 			]
 			id: "1E7A680A7E0711E2"
+			rewards: [{
+				count: 2
+				id: "06D051DB6B51717F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D6024740E3E7427"
 				item: "pneumaticcraft:charging_upgrade"
@@ -2984,6 +3733,12 @@
 			dependencies: ["20AC5EF34A34D2F0"]
 			description: ["After setting up your gas lift, you can use liquid hoppers to move the oil to diffrent machines. This hopper also works with other mods and liquid and is an easy, pipeless solution for moving liquid."]
 			id: "5BC890428333B435"
+			rewards: [{
+				count: 2
+				id: "459C71D55F21A8FB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73DDB9F84EFF0979"
 				item: "pneumaticcraft:liquid_hopper"
@@ -2995,6 +3750,11 @@
 		{
 			dependencies: ["6826BB2923EBEFA2"]
 			id: "1DEBEEE7084BCD6A"
+			rewards: [{
+				id: "7647551FDA60B1E2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7423D72E0A633D1E"
 				item: "compressedcreativity:rotational_compressor"

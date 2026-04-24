@@ -27,6 +27,12 @@
 			id: "2BE6B05790E5A2DE"
 			rewards: [
 				{
+					count: 20
+					id: "7262CB885CBCE855"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
 					auto: "invisible"
 					command: "clear @p patchouli:guide_book"
 					elevate_perms: true
@@ -327,6 +333,12 @@
 				}
 			}
 			id: "50D43AFA6402629F"
+			rewards: [{
+				count: 26
+				id: "131EA42410E11CA5"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4603D9444387E808"
@@ -503,6 +515,12 @@
 				"&m&8(torches are ugly and think about how you've degraded this far if you choose to use them in your builds)&r&r"
 			]
 			id: "0A6DBC786BCF967E"
+			rewards: [{
+				count: 11
+				id: "0ECAFBCEF94F6B19"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6040BD17B8C52FA6"
 				item: "minecraft:torch"
@@ -556,6 +574,12 @@
 			]
 			id: "03B0D122AD821C0D"
 			rewards: [
+				{
+					count: 18
+					id: "5F0BAAED9DCA015F"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
 				{
 					id: "644EA08953E0366B"
 					item: "sophisticatedbackpacks:feeding_upgrade"
@@ -621,6 +645,12 @@
 				"Then, place the itemized Jumbo Furnace into the existing furnace's upgrade slot."
 			]
 			id: "74F529B8810608A5"
+			rewards: [{
+				count: 11
+				id: "1D874D6F0B24319E"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Don't make a super smelter!"
 			tasks: [{
 				advancement: "jumbofurnace:assemble_jumbo_furnace"
@@ -652,6 +682,12 @@
 			}
 			id: "51A20901B9871737"
 			rewards: [
+				{
+					count: 14
+					id: "62ED17D17E1CB0B5"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
 				{
 					count: 4
 					id: "76A48FD971963ABF"
@@ -709,6 +745,12 @@
 				"The pot must be heated by a block below it (such as fire or a stove) in order to work."
 			]
 			id: "28D91722F8C4E87D"
+			rewards: [{
+				count: 11
+				id: "54DDF51E57247C01"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -724,6 +766,12 @@
 			dependencies: ["0A6DBC786BCF967E"]
 			description: ["The strength of the foes you fight increases with how far away you are from your world spawn. If you're going on an expedition, be sure to pack your strongest gear!"]
 			id: "3571CB6136F6E3EB"
+			rewards: [{
+				count: 11
+				id: "3287FD00EC9F13CF"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
 				criterion: ""
@@ -745,6 +793,12 @@
 				"Look at how pretty its model is!!!"
 			]
 			id: "6C08AF09C8F20F4F"
+			rewards: [{
+				count: 11
+				id: "72795E39D4DDDE67"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72D0F18AF65EFF81"
 				item: "extractinator:extractinator"
@@ -770,12 +824,20 @@
 			]
 			icon: "create:water_wheel"
 			id: "2F5046E30C8273CB"
-			rewards: [{
-				count: 8
-				id: "0C313AEFBC911691"
-				item: "create:shaft"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 14
+					id: "00F7D51EF472B7DE"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0C313AEFBC911691"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Ready for Technology \\& Magic!"
@@ -828,6 +890,12 @@
 				"Since a lot of the progression revolves around exploring for specific, notable &astructures&r, never let these &acompasses&r leave your backpack!"
 			]
 			id: "7C2D35E29A7FF6A2"
+			rewards: [{
+				count: 14
+				id: "71435E4101D4D0C0"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "411B55C3CA73E44F"
@@ -861,6 +929,12 @@
 			]
 			icon: "minecraft:enchanting_table"
 			id: "479B3130EB602E62"
+			rewards: [{
+				count: 15
+				id: "22957F488D0C8121"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "13BC146CD41C16D6"
@@ -907,6 +981,12 @@
 				"By crafting four with five &cheart crystals&r from Scaling Health (which drop from more powerful mobs), you can make a &cHeart&c Container&r&r."
 			]
 			id: "649F0F57EC7E387E"
+			rewards: [{
+				count: 11
+				id: "17B93DC454D91979"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Turn that orange into blue"
 			tasks: [{
 				count: 4L
@@ -927,6 +1007,12 @@
 				"&7&oDid you know: this item is used in RLCraft speedruns to fling Battle Tower Golems to their deaths?&r"
 			]
 			id: "378BAA7FDE9DA51C"
+			rewards: [{
+				count: 13
+				id: "60BA69FC985302D8"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "70E71543A196274D"
@@ -988,6 +1074,12 @@
 			dependencies: ["378BAA7FDE9DA51C"]
 			description: [""]
 			id: "5C1C3593AF332AA4"
+			rewards: [{
+				count: 11
+				id: "5CBF356B17B87C37"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05D98B1E7EB11BF8"
 				item: "grapplemod:motorupgradeitem"
@@ -1004,6 +1096,12 @@
 				"To craft it, you'll need &aazalea logs&r, which can be found &bin place of oak logs on azalea trees&r or from &bbone mealing flowering azalea&r."
 			]
 			id: "054958A1638D1D71"
+			rewards: [{
+				count: 11
+				id: "1992C6A260B6CCAC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F3742E10EF006BD"
 				item: "torchmaster:megatorch"
@@ -1016,6 +1114,12 @@
 			dependencies: ["054958A1638D1D71"]
 			description: ["The &adread lamp &ris a useful item for your farms that &bprevents passive and neutral mobs spawns nearby&r."]
 			id: "2162E9E7105B7FBB"
+			rewards: [{
+				count: 11
+				id: "281CC94FE22C135C"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64552ADA68F4C964"
 				item: "torchmaster:dreadlamp"
@@ -1036,6 +1140,12 @@
 				"There's a swath of possibilities."
 			]
 			id: "443B7A38B97BD04B"
+			rewards: [{
+				count: 12
+				id: "601E006856B80ED0"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54E57F763B0C2565"
 				item: {
@@ -1053,6 +1163,12 @@
 		{
 			dependencies: ["51A20901B9871737"]
 			id: "7816E6089A4F0846"
+			rewards: [{
+				count: 13
+				id: "1253FE3721D9A476"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1085,6 +1201,12 @@
 			dependency_requirement: "one_completed"
 			description: ["Mitigates fall damage."]
 			id: "1A246434519F75C5"
+			rewards: [{
+				count: 13
+				id: "7D6D96B91C0FF88E"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E8C0A16093607D0"
 				item: "farmersdelight:safety_net"
@@ -1101,6 +1223,12 @@
 				"You can use a cutting board to cut fish into fillets."
 			]
 			id: "368309757EB6EC56"
+			rewards: [{
+				count: 13
+				id: "783AACBA0AA3DFA3"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5CB3C67295B386F6"
@@ -1135,6 +1263,12 @@
 				"You can mix and match multiple colors in different parts of the container."
 			]
 			id: "4EB10737C5B7CBAE"
+			rewards: [{
+				count: 12
+				id: "1CC262B01D8D1DDD"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CBF69E23D133305"
 				item: {
@@ -1155,6 +1289,12 @@
 			dependencies: ["4EB10737C5B7CBAE"]
 			description: ["&cRight click&r your container to upgrade it, increasing its storage capacity and upgrade slots on the left."]
 			id: "23B75CD0B5815418"
+			rewards: [{
+				count: 17
+				id: "16FCA1222E48BEBC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "711CBA81AE80E322"
 				item: {
@@ -1199,6 +1339,12 @@
 				"It can also automatically cook these foods for you."
 			]
 			id: "6266A08FE8D95523"
+			rewards: [{
+				count: 11
+				id: "7A9FEE1286971A52"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71B5F01BE076399B"
 				item: "cookingforblockheads:crafting_book"
@@ -1211,6 +1357,12 @@
 			dependencies: ["7816E6089A4F0846"]
 			description: ["This modpack has over 800 foods to eat. Trying more unique foods gives you &dpermanent increases to max HP&r. This book can track your progress towards each milestone."]
 			id: "57CC360D12424B1C"
+			rewards: [{
+				count: 11
+				id: "2E972C044086D165"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CE227D6C3F13239"
 				item: "solcarrot:food_book"
@@ -1222,6 +1374,12 @@
 		{
 			dependencies: ["7C2D35E29A7FF6A2"]
 			id: "16C996E71E9BABC3"
+			rewards: [{
+				count: 14
+				id: "5E6A476D3502FEA5"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0177EE85C3C27FB1"
 				item: {
@@ -1268,6 +1426,12 @@
 				"Shift + left click: remove a stack of items"
 			]
 			id: "78CFC81068655538"
+			rewards: [{
+				count: 12
+				id: "6D6CED94C4C39A3D"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "51F06C3B33D3177A"
 				item: {
@@ -1288,6 +1452,12 @@
 			dependencies: ["4EB10737C5B7CBAE"]
 			description: ["Needed by every storage network. This item does not require energy to be given to it in order to function."]
 			id: "124F78ABE60D125F"
+			rewards: [{
+				count: 12
+				id: "15FA04A82CCB93A7"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "For all your storage needs"
 			tasks: [{
 				id: "7B8405AB074B05A9"
@@ -1309,6 +1479,12 @@
 			dependencies: ["124F78ABE60D125F"]
 			description: ["Place this adjacent to or linked to the inventory connector using network cables."]
 			id: "5D90018D6FA71B0A"
+			rewards: [{
+				count: 12
+				id: "0BA218B01311DA6E"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Access all inventories on your network"
 			tasks: [{
 				id: "53C5775D4B6047BF"
@@ -1330,6 +1506,12 @@
 			dependencies: ["5D90018D6FA71B0A"]
 			description: ["Run these between your root and various inventories (chests and the like) to connect them."]
 			id: "1E50764219F50711"
+			rewards: [{
+				count: 14
+				id: "43AAF8EF1102F3EC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Add inventories to your network"
 			tasks: [
 				{
@@ -1366,6 +1548,12 @@
 			dependencies: ["6C08AF09C8F20F4F"]
 			description: ["An ingredient with no effects. Type &a#flat&r to see what you can make with it (it's useful for mob farms)."]
 			id: "1A0BCE5BB7716C0F"
+			rewards: [{
+				count: 11
+				id: "42D4FB4D21D7B50B"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07CC791D8B1C9D07"
 				item: "darkutils:blank_plate"
@@ -1382,6 +1570,12 @@
 				"This item can hold many buckets of any liquid."
 			]
 			id: "1B1350D0F4D41FA6"
+			rewards: [{
+				count: 23
+				id: "00F3DEFBDB175591"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C8C54A3FBD24042"
 				item: "mekanism:basic_fluid_tank"
@@ -1398,6 +1592,12 @@
 				"Semi-related: the shortcut to turn on chunk borders is F3 + G."
 			]
 			id: "7086E70956F7DC48"
+			rewards: [{
+				count: 11
+				id: "5088D19701DF9AE1"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DB180A1CA7D2241"
 				item: "quark:abacus"
@@ -1410,6 +1610,12 @@
 			dependencies: ["16C996E71E9BABC3"]
 			description: ["Description forthcoming."]
 			id: "7B3D2B0D239513D7"
+			rewards: [{
+				count: 39
+				id: "1B13CC9DE9EA2613"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53CC4BF62895BCC5"
 				item: {
@@ -2017,6 +2223,12 @@
 				"These &drarity materials&r are used in crafting recipes and can turn &dregular items into affix items&r. See the quests extending from this one for more information."
 			]
 			id: "36F98327138AA247"
+			rewards: [{
+				count: 17
+				id: "6D51D3589FDB6A5B"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FDE38375348AF4C"
 				item: "apotheosis:salvaging_table"
@@ -2033,6 +2245,12 @@
 				"To do this, combine the item with the &dgem&r at a smithing table."
 			]
 			id: "5A9940962797FE6E"
+			rewards: [{
+				count: 20
+				id: "5FCE6075B51310C1"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "68AA38DEF6DD257F"
@@ -2062,6 +2280,12 @@
 		{
 			dependencies: ["36F98327138AA247"]
 			id: "5D43A2BA54C9EC1C"
+			rewards: [{
+				count: 17
+				id: "35B14E02B60820F4"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EE73E2FE0D16B9F"
 				item: "apotheosis:gem_cutting_table"
@@ -2074,6 +2298,12 @@
 			dependencies: ["479B3130EB602E62"]
 			description: ["The &3seashelf&r is more potent than regular bookshelves, allowing you to enchant above&d level 30&r. With &315 seashelves&r, you can enchant at &dlevel 45&r."]
 			id: "6B9C52397843B044"
+			rewards: [{
+				count: 17
+				id: "5B43311BE45E326B"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				count: 5L
 				id: "798EE2298D81F730"
@@ -2087,6 +2317,12 @@
 			dependencies: ["74F529B8810608A5"]
 			description: ["This item can be useful for labelling contraptions and other things you make throughout your time here."]
 			id: "4676178D308CEE55"
+			rewards: [{
+				count: 11
+				id: "4D065C67CA44FF15"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6502A66A396F9600"
 				item: "quark:glass_item_frame"
@@ -2098,6 +2334,12 @@
 		{
 			dependencies: ["28D91722F8C4E87D"]
 			id: "2DA46F0A7B32DEBC"
+			rewards: [{
+				count: 11
+				id: "6CFCD3F7C3B5BFE7"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "438D9C0BDE1AA28B"
 				item: "quark:seed_pouch"
@@ -2110,6 +2352,12 @@
 			dependencies: ["479B3130EB602E62"]
 			description: ["Read the description of the item!"]
 			id: "047E69405C7A2588"
+			rewards: [{
+				count: 17
+				id: "6A0F7B298272A9AD"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "255F132EF0BA2077"
 				item: "apotheosis:scrap_tome"
@@ -2134,6 +2382,12 @@
 				"On its own, you can have a line of up to 15 dust before it's too far and the signal stops reaching. The further away from the source, the weaker the redstone signal is."
 			]
 			id: "5AA15937C7BBDF98"
+			rewards: [{
+				count: 11
+				id: "7D505C14155EDC37"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Re-introduction to Redstone - REDS101"
 			tasks: [{
 				id: "02E8724166D9556F"
@@ -2154,12 +2408,20 @@
 			]
 			id: "60908EB38E53D39E"
 			optional: true
-			rewards: [{
-				count: 3
-				id: "2CB185507D40F6F1"
-				item: "minecraft:redstone_lamp"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 11
+					id: "3A13380B07F370AF"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2CB185507D40F6F1"
+					item: "minecraft:redstone_lamp"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1B5911971D26EC7C"
 				item: "minecraft:redstone_torch"
@@ -2173,6 +2435,12 @@
 			description: [""]
 			id: "7DC01C4737C759C5"
 			optional: true
+			rewards: [{
+				count: 11
+				id: "790ED096184301E4"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Always emits a signal in all directions"
 			tasks: [{
 				id: "575BD19AB161F1BE"
@@ -2187,6 +2455,12 @@
 			description: ["Emits 15 power in a direction. It can extend the signal from redstone dust. You can right click the repeater to add a delay to it."]
 			id: "20D956D4F4DFF0A1"
 			optional: true
+			rewards: [{
+				count: 11
+				id: "6D01E5755E8107B8"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Extends redstone signals"
 			tasks: [{
 				id: "795302432C8D97B8"
@@ -2205,6 +2479,12 @@
 			]
 			id: "05416B7F1CC1849F"
 			optional: true
+			rewards: [{
+				count: 11
+				id: "7216D6C5A52152F3"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Important in modded MC! Produces a signal based on the block its arrow points at"
 			tasks: [{
 				id: "40D85F1E75D99E8D"
@@ -2219,6 +2499,12 @@
 			description: ["When powered from the back (the base of the T), it randomly outputs the signal to the left or right."]
 			id: "68BF59DD76897182"
 			optional: true
+			rewards: [{
+				count: 11
+				id: "41DB3711BDF12BC2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Have some modded redstone blocks as a bonus!"
 			tasks: [{
 				id: "2DE95CFA79E521AF"
@@ -2232,6 +2518,12 @@
 			dependencies: ["68BF59DD76897182"]
 			id: "6FD9046E210E49DF"
 			optional: true
+			rewards: [{
+				count: 11
+				id: "00D1E9F14F37F593"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Alternative randomizer. Choose the one you want to use."
 			tasks: [{
 				id: "27C0954E6259BC9C"
@@ -2244,6 +2536,12 @@
 		{
 			dependencies: ["0A6DBC786BCF967E"]
 			id: "207D37FD2A45D7AC"
+			rewards: [{
+				count: 12
+				id: "05CEE5463EF0E3BA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C7E914DAC215C91"
 				item: {
@@ -2276,6 +2574,12 @@
 				"Then, right click one of them with the &bhammock&r."
 			]
 			id: "3276690B1BAE040E"
+			rewards: [{
+				count: 14
+				id: "5AA79F083FF51291"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "14D0256FEDA3A1C5"
@@ -2310,6 +2614,12 @@
 			dependencies: ["3276690B1BAE040E"]
 			description: ["Just as it was meant to be."]
 			id: "66F4EB10A562866A"
+			rewards: [{
+				count: 11
+				id: "6D3C52C8946BBFF7"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "No more phantoms"
 			tasks: [{
 				id: "705186ADBCC99590"
@@ -2323,11 +2633,19 @@
 			dependencies: ["649F0F57EC7E387E"]
 			description: ["Heart Containers are rewards for defeating major bosses. When you complete a quest for such a boss (for example, the Ferrous Wroughtnaut), be sure to claim it in the rewards section."]
 			id: "5D629B3D9A8495D4"
-			rewards: [{
-				id: "473C0C9A21FB40B6"
-				item: "irons_spellbooks:greater_healing_potion"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 14
+					id: "188823ECCDB3C85D"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					id: "473C0C9A21FB40B6"
+					item: "irons_spellbooks:greater_healing_potion"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0D72F2BA832D04C5"
 				item: "paraglider:heart_container"
@@ -2347,6 +2665,12 @@
 				"&o&7Well, it's useful provided you're not playing on hardcore.&r&r"
 			]
 			id: "58131AE32AFDECC9"
+			rewards: [{
+				count: 13
+				id: "22972586642BBEA3"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09C3A097095A5CCA"
 				item: "kubejs:grave_scroll"
@@ -2359,6 +2683,12 @@
 			dependencies: ["28D91722F8C4E87D"]
 			description: ["Soups made using the &6copper pot&r are &chalf as filling&r but &atwice as quick to drink&r."]
 			id: "6C976B8ECF935F65"
+			rewards: [{
+				count: 11
+				id: "789263ED982275E1"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BB727CDF1A83AB0"
 				item: "miners_delight:copper_pot"
@@ -2370,6 +2700,12 @@
 		{
 			dependencies: ["368309757EB6EC56"]
 			id: "2679271970C50541"
+			rewards: [{
+				count: 11
+				id: "1DD73DD8F2C3CAB9"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A8AF47A290E7E1B"
 				item: "aquaculture:neptunes_bounty"
@@ -2392,6 +2728,12 @@
 				"Place an item transport system (like a &6hopper&r) to put it into a &6furnace&r or other inventory afterwards!"
 			]
 			id: "70F3F301E295897A"
+			rewards: [{
+				count: 14
+				id: "522216BDBB36370A"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18C148347CAA6D31"
 				item: {
@@ -2471,6 +2813,12 @@
 				"The creation of &arich soil &ris accelerated by the &bpresence of sunlight and mushrooms&r nearby."
 			]
 			id: "7CBCC47AA6904CFD"
+			rewards: [{
+				count: 12
+				id: "5C2679950CD66083"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "307B4AF33526F541"
@@ -2495,6 +2843,12 @@
 				"You can safely carry this villager around and place it back down when you feel like it by right clicking the ground."
 			]
 			id: "6AAC671A5A3A8E24"
+			rewards: [{
+				count: 11
+				id: "30F1FAC5E40D7778"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				icon: "minecraft:emerald"
 				id: "59922A000F7FAB03"
@@ -2515,6 +2869,12 @@
 				"The reforging table works like an enchantment table. You pay in XP and the two materials to add affixes to your item."
 			]
 			id: "23575BBFCB90042C"
+			rewards: [{
+				count: 18
+				id: "4ABFB89E8EBADF55"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5A0C7EE1CF519EDC"
@@ -2548,6 +2908,12 @@
 				}
 			}
 			id: "7198B814B286A3EC"
+			rewards: [{
+				count: 15
+				id: "127209C8C16B4C45"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0D320A16E4A4736B"
@@ -2591,6 +2957,12 @@
 				"When you find an Unidentified Artifact, this table has the resources to help you determine what it is."
 			]
 			id: "4B3D23126A7F3A9B"
+			rewards: [{
+				count: 12
+				id: "0A40FC8EC4D30B20"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5291F7450911EC94"
@@ -2638,6 +3010,12 @@
 				"All ships move faster than vanilla boats and can have their speed boosted by holding forward (paddling). They will move for a good while even if you aren't paddling."
 			]
 			id: "28B44DDB5378D2E6"
+			rewards: [{
+				count: 12
+				id: "6441ED71D0B3954A"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Sail the seven seas"
 			tasks: [{
 				id: "46E064570EBE6345"
@@ -2669,6 +3047,12 @@
 			id: "609E3CBD113337E6"
 			invisible: true
 			optional: true
+			rewards: [{
+				count: 10
+				id: "582C588DA1DD9B00"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "What a shame!"
 			tasks: [{
 				id: "23CB041D97B15C01"
@@ -2690,6 +3074,12 @@
 				"Interact using an axe to remove the cannon."
 			]
 			id: "09513016F40818AF"
+			rewards: [{
+				count: 12
+				id: "446F57E6A2879191"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "587E194E9F5F488F"
@@ -2710,6 +3100,12 @@
 			dependencies: ["6AAC671A5A3A8E24"]
 			description: ["If you hold the inventory version of your villager in your hand, you can put it in the trader and it will remain there."]
 			id: "035DF30F0AC35C07"
+			rewards: [{
+				count: 11
+				id: "4D02FBA58C8786AE"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "694E804C55BE3B9F"
 				item: "easy_villagers:trader"
@@ -2722,6 +3118,12 @@
 			dependencies: ["035DF30F0AC35C07"]
 			description: ["These blocks represent vanilla farms involving villagers, but highly simplified so that you can focus on building new, modded things instead of following a YouTube tutorial for something you've already made 10 times."]
 			id: "727FC48F7FCABDC8"
+			rewards: [{
+				count: 15
+				id: "64C4901548BB2574"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "37A7B108EF8A8EB4"
@@ -2761,6 +3163,12 @@
 				"Here are some items you might find useful. If you don't want wandering traders spawning all the time, you can use the No Soliciting sign to make them go away. Or, if you want them to always spawn in a specific spot, the Rug lets you specify it."
 			]
 			id: "3A9ADABA568466BB"
+			rewards: [{
+				count: 12
+				id: "493480AF601A53EB"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6C6C2D95F469CC73"
@@ -2781,6 +3189,12 @@
 			dependencies: ["03B0D122AD821C0D"]
 			description: ["Each upgrade increases the capacity of the backpack for storage and upgrades."]
 			id: "2F488600877607A8"
+			rewards: [{
+				count: 13
+				id: "55BA29D68B825A4C"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5ACD4E260B8BDC65"
@@ -2806,6 +3220,12 @@
 			dependencies: ["3571CB6136F6E3EB"]
 			description: ["These discs play ambient sounds and can be obtained from a skeleton killing a spider."]
 			id: "2A03AD459C6EB4A1"
+			rewards: [{
+				count: 20
+				id: "2C980F1F76202DBE"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "151CAE86ED65A525"
 				item: {
@@ -2858,6 +3278,12 @@
 			dependencies: ["5A9940962797FE6E"]
 			description: ["When this is combined with an item and dye in a Smithing Table, the color of the item's enchantment glint can be customized."]
 			id: "6DB52129A5517DAB"
+			rewards: [{
+				count: 11
+				id: "1B7621887321E470"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FF00C65CE84E0A6"
 				item: "quark:smithing_template_rune"
@@ -2887,6 +3313,12 @@
 				"These façades can be removed by shift right clicking with an empty hand."
 			]
 			id: "2828C315C94E06D3"
+			rewards: [{
+				count: 12
+				id: "4715FE9FDA0831F4"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0F04DCAD04FCE88E"
@@ -2911,6 +3343,12 @@
 				"When placed, they can call and control the elevator from a different location."
 			]
 			id: "70618DCB0F4527EC"
+			rewards: [{
+				count: 11
+				id: "487E253EBAE144F8"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46A18C0D724B9A69"
 				item: "movingelevators:button_block"
@@ -2927,6 +3365,12 @@
 				"This removes a lot of uncertainty and time from the enchanting process. You should gather materials for this as quickly as possible!"
 			]
 			id: "75F280F613E3A621"
+			rewards: [{
+				count: 11
+				id: "0B03C2364286313D"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3867CC82E0FC5D51"
 				item: "enchantinginfuser:enchanting_infuser"
@@ -2939,6 +3383,12 @@
 			dependencies: ["75F280F613E3A621"]
 			description: ["Once you've been to more places, you'll have access to the materials you need for a superior enchanting infuser which can also modify and remove enchantments from existing items."]
 			id: "1F65A75D608B7162"
+			rewards: [{
+				count: 11
+				id: "1B3B75C3739DD51B"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02C7CA30D15A5301"
 				item: "enchantinginfuser:advanced_enchanting_infuser"
@@ -2955,6 +3405,12 @@
 				"If the Shadow Frame is powered by redstone, it will have no collision meaning players, mobs, and items will fall right through it!"
 			]
 			id: "5E6F12834B5460D7"
+			rewards: [{
+				count: 11
+				id: "69F7B899CA55A39D"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AF1569D7DF0229D"
 				item: "galosphere:shadow_frame"
@@ -2985,6 +3441,12 @@
 			]
 			icon: "mcwroofs:roofing_hammer"
 			id: "3D2016CD8B38DD57"
+			rewards: [{
+				count: 32
+				id: "770A90DB453B63FD"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "516A3B1413812712"
@@ -3124,6 +3586,12 @@
 			dependencies: ["3276690B1BAE040E"]
 			description: ["If you have any tamed animal and it stands on top of this, the bed becomes its home. If the animal dies, it will respawn the next morning at this bed."]
 			id: "4B226922870DAAF2"
+			rewards: [{
+				count: 12
+				id: "39440A0A77E471FC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "060317DD54F619F4"
 				item: {
@@ -3148,6 +3616,12 @@
 				"Collar tags can be enchanted and have many options. Using an enchanted collar on a pet will give it any enchantments on the tag."
 			]
 			id: "084EF9537847555B"
+			rewards: [{
+				count: 11
+				id: "3A6547CDC3EF44BD"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2945EDB37BB9F94F"
 				item: "domesticationinnovation:collar_tag"
@@ -3168,6 +3642,12 @@
 				"Feather on a Stick: useful if a pet gets stuck. Pets try to follow you while holding this item."
 			]
 			id: "0EAFBD8FB9B00DDE"
+			rewards: [{
+				count: 15
+				id: "05DADB8115C3275B"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "71D4639891492C6E"
@@ -3222,6 +3702,12 @@
 				"Green means the item dynamically provides insulation that varies based on the regional temperature"
 			]
 			id: "5818946310414790"
+			rewards: [{
+				count: 14
+				id: "1EB3A84B543E1F85"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Let's just ignore the Second Law of Thermodynamics"
 			tasks: [
 				{
@@ -3259,6 +3745,12 @@
 				"Other items exist which also provide adaptive resistance, which you may find in your travels."
 			]
 			id: "58DA27E383298761"
+			rewards: [{
+				count: 11
+				id: "795B7FEA03FA8EAC"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3839022D31DEADDE"
 				item: "cold_sweat:chameleon_molt"
@@ -3277,6 +3769,12 @@
 				"The waterskin can then be consumed to increase or decrease your temperature, or can be passively be held to apply the change more slowly (changing the temperature of the waterskin)"
 			]
 			id: "22196240064E75A8"
+			rewards: [{
+				count: 11
+				id: "5C620D3EE8A7EE06"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F9A1126F22BA742"
 				item: "cold_sweat:waterskin"
@@ -3289,6 +3787,12 @@
 			dependencies: ["5D90018D6FA71B0A"]
 			description: ["The same as a Storage Inventory, but this block includes a crafting grid to make items using whatever you have in your storage inventory for your convenience."]
 			id: "1BD37892B0CBA88E"
+			rewards: [{
+				count: 12
+				id: "30B614D34857D81F"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "677DD2E01575CB08"
 				item: {
@@ -3317,6 +3821,12 @@
 				"You may also use a Schematic and Quill to save and load your own schematics, which may be useful if you prefer building in creative mode or would like to move your entire base."
 			]
 			id: "5D28902B7245B1CA"
+			rewards: [{
+				count: 16
+				id: "20A5DC191D06BB23"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0ED11679171E20DA"
@@ -3361,6 +3871,12 @@
 			dependencies: ["0A6DBC786BCF967E"]
 			description: ["Allows easy access to a crafting table by right clicking while holding this item."]
 			id: "331AF9614A44E780"
+			rewards: [{
+				count: 16
+				id: "7C81D54E5C740ACB"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D55B1E4056580AA"
 				item: "actuallyadditions:crafter_on_a_stick"
@@ -3379,21 +3895,29 @@
 			id: "3657E5EE126A6A7F"
 			invisible: true
 			optional: true
-			rewards: [{
-				count: 2
-				id: "6AFB4CEEB33F8CFE"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "ensorcellation:vitality"
-							lvl: 3s
-						}]
-					}
+			rewards: [
+				{
+					count: 12
+					id: "0B2E8F298C644EAE"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "6AFB4CEEB33F8CFE"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ensorcellation:vitality"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3423,6 +3947,12 @@
 				"If you press E, you'll see your plane's inventory. This is where you can slot in weapons and upgrades. The plane can also hold a few stacks of items."
 			]
 			id: "20F319508F5D6AC6"
+			rewards: [{
+				count: 17
+				id: "0E0FFD8B5867E258"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "470F74B9971F9451"
 				item: {
@@ -3476,6 +4006,12 @@
 				"&aSpawn Range:&r how far the mobs can spawn"
 			]
 			id: "1CAD0713BCA3D2EB"
+			rewards: [{
+				count: 11
+				id: "76DE50187F0EF529"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0444733B813B1F4D"
 				item: "minecraft:spawner"
@@ -3489,6 +4025,12 @@
 			description: ["Search for a spawner in JEI and click or right click on it to see the blocks that can modify it and what those modifications will do."]
 			id: "4E1FFCC11DCC7F97"
 			optional: true
+			rewards: [{
+				count: 25
+				id: "2F13165C1CF5CEDF"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "43278C3AE694B06C"
@@ -3585,6 +4127,12 @@
 				"Be warned, as the hopper is pretty slow. If you need speed, try connecting a Sophisticated Storage container with an advanced hopper upgrade to this item, since it can be used as an intermediary while being faster and accessible."
 			]
 			id: "3FCA897BD6B5F20B"
+			rewards: [{
+				count: 12
+				id: "1BA4DED6039EEDA9"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00CEC5A2CCDC811B"
 				item: {
@@ -3616,6 +4164,12 @@
 				"Once you're done setting up, go out in the world and capture some moments. Each one will use up some space on the film, so keep its limited capacity in mind. Return to part 2 to find out what to do next!"
 			]
 			id: "318679419AB897F1"
+			rewards: [{
+				count: 15
+				id: "428C3EE46D4DFB7F"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "When F2 just isn't enough"
 			tasks: [
 				{
@@ -3674,6 +4228,12 @@
 				"&o&7The pyromancer did not win"
 			]
 			id: "36354FF7C93EEC3D"
+			rewards: [{
+				count: 27
+				id: "1AA9CE1DDCC7249C"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3B9B2FFE65EEC386"
@@ -3799,6 +4359,12 @@
 				"If you want an upgrade that works as a curio and has more features, consider the Scroll of Ageless Wisdom, which you can make later."
 			]
 			id: "210ECCA38DC8EF61"
+			rewards: [{
+				count: 18
+				id: "79F46D4B71DFD3DF"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43599EFD83F28DF8"
 				item: {
@@ -3858,11 +4424,19 @@
 				"That's not all though. There are special types of sweet spots, like the frozen one that you shouldn't click. We also have light blue ones that go away when you hit them, and golden ones that help you get treasure."
 			]
 			id: "77671975F4663BB3"
-			rewards: [{
-				id: "609C3F03612B51B2"
-				item: "starcatcher:starcatcher_guide"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 11
+					id: "76C7463CB083B760"
+					item: "lightmanscurrency:coin_copper"
+					type: "item"
+				}
+				{
+					id: "609C3F03612B51B2"
+					item: "starcatcher:starcatcher_guide"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3F37321D0D6CDA7A"
 				item: "starcatcher:starcatcher_rod"
@@ -3882,6 +4456,12 @@
 			]
 			icon: "lightmanscurrency:coin_emerald"
 			id: "3A526671E42ED842"
+			rewards: [{
+				count: 15
+				id: "07C3C618A5B98E55"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Infinite wealth"
 			tasks: [{
 				id: "74F5450E23DD18BA"
@@ -3907,6 +4487,12 @@
 				"Also useful is the ability to convert your coins to lower or higher-value equivalents. For instance, if you have 1 Emerald Coin, you can use an ATM to turn that into 10 Gold Coins or 100 Iron Coins."
 			]
 			id: "093F58A21D224C89"
+			rewards: [{
+				count: 11
+				id: "76453A515EF41DA1"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B0D27F8DBFC6B78"
 				item: "lightmanscurrency:atm"
@@ -3918,6 +4504,12 @@
 		{
 			dependencies: ["3A526671E42ED842"]
 			id: "73F17DC53DAE708F"
+			rewards: [{
+				count: 12
+				id: "08F5E04B0880DD37"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3945FC4B090A1996"
 				item: {
@@ -3937,6 +4529,12 @@
 		{
 			dependencies: ["3A526671E42ED842"]
 			id: "5C7466CDEEA6E55E"
+			rewards: [{
+				count: 12
+				id: "60948777179896D9"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72DE4B68C11ABC2A"
 				item: {
@@ -3956,6 +4554,12 @@
 			dependencies: ["77671975F4663BB3"]
 			description: ["You're not limited to the bobber and hook you used to craft your Starcatcher's Rod! Try some of these out!"]
 			id: "3559D5A5A3142AAA"
+			rewards: [{
+				count: 27
+				id: "352D28D078312CA2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4C353993B371FD5F"
@@ -4058,6 +4662,12 @@
 			dependencies: ["3559D5A5A3142AAA"]
 			description: ["Unlike Aquaculture, fishing is the only way of finding upgraded rods in Starcatcher. Most are rare fishing loot from their respective biomes. Can you find one?"]
 			id: "5813BB46E4D11CBC"
+			rewards: [{
+				count: 26
+				id: "7E17B764130737DA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			subtitle: "Address Me"
 			tasks: [{
 				id: "50CC3E55F94A24B6"
@@ -4140,6 +4750,12 @@
 				"This camera is more convenient than its more advanced counterpart, but you will lose the ability to fine-tune your captures. The Instant Camera is also more limited in its hardware capabilities, so you have less focal length."
 			]
 			id: "3637281BA79F5F6B"
+			rewards: [{
+				count: 17
+				id: "447C49D8D9AAEA2D"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7F7539F54022C62D"

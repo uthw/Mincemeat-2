@@ -49,10 +49,18 @@
 				"*You can obtain silicon without going to the Nether and collecting quartz by using Create washing on stone."
 			]
 			id: "2B189053BCA54F8D"
-			rewards: [{
-				id: "6870F74560655BD7"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "75AED304C523429D"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "6870F74560655BD7"
+					type: "custom"
+				}
+			]
 			tasks: [{
 				id: "40DBD2730970C8A0"
 				item: "refinedstorage:controller"
@@ -71,10 +79,18 @@
 				"Items must be attached to the controller somehow in order to be functional. If the item is attached properly, it will be lit up."
 			]
 			id: "5251048FABCC1731"
-			rewards: [{
-				id: "159DFEED7A2B99E7"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "7E2872C6939F2E20"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "159DFEED7A2B99E7"
+					type: "custom"
+				}
+			]
 			tasks: [
 				{
 					id: "2BC1FF92F203D71E"
@@ -105,10 +121,18 @@
 			dependencies: ["5251048FABCC1731"]
 			description: [""]
 			id: "72996FDB1ECB9BC4"
-			rewards: [{
-				id: "283F94980A1690DA"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "689BCE4DC17F9C9A"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "283F94980A1690DA"
+					type: "custom"
+				}
+			]
 			subtitle: "You can connect these items to an inventory to import or export items to/from it."
 			tasks: [
 				{
@@ -129,10 +153,18 @@
 		{
 			dependencies: ["5251048FABCC1731"]
 			id: "758E2F02A79F9AE1"
-			rewards: [{
-				id: "428EB009562A4C9A"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6F5BE07EDE4DF9B2"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "428EB009562A4C9A"
+					type: "custom"
+				}
+			]
 			subtitle: "Has the functionality of an importer and exporter all in one block."
 			tasks: [{
 				id: "0A6AC3DB3217794E"
@@ -146,10 +178,18 @@
 			dependencies: ["5251048FABCC1731"]
 			description: [""]
 			id: "581D9139E23C46AD"
-			rewards: [{
-				id: "1FC3A51CC260FFBF"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "74893E1D69CD5BE8"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "1FC3A51CC260FFBF"
+					type: "custom"
+				}
+			]
 			subtitle: "When you configure the filters to the block you want, these items can place/destroythat block in the world, depending on which one you're using."
 			tasks: [
 				{
@@ -171,10 +211,18 @@
 			dependencies: ["5251048FABCC1731"]
 			description: [""]
 			id: "706D796AEB59679E"
-			rewards: [{
-				id: "0CF5B5B1F3BE6244"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6827EB208F590A69"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "0CF5B5B1F3BE6244"
+					type: "custom"
+				}
+			]
 			subtitle: "This block aids with moving items between disks. You can configure it to have a whitelist or blacklist, and choose whether it should import or export."
 			tasks: [{
 				id: "3E0EC8CAD5C0DFB7"
@@ -188,6 +236,12 @@
 			dependencies: ["5251048FABCC1731"]
 			description: [""]
 			id: "198EA622D8755FF5"
+			rewards: [{
+				count: 4
+				id: "592C155E9E35A78A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Import, export, view, and search items, all in one block."
 			tasks: [{
 				id: "393AD7D56665B538"
@@ -200,10 +254,18 @@
 		{
 			dependencies: ["198EA622D8755FF5"]
 			id: "319BD115367B8096"
-			rewards: [{
-				id: "33690918821D1B74"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4446C0FEB09367A7"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "33690918821D1B74"
+					type: "custom"
+				}
+			]
 			tasks: [{
 				id: "34C99F41E993734F"
 				item: "refinedstorage:crafting_grid"
@@ -215,10 +277,18 @@
 		{
 			dependencies: ["198EA622D8755FF5"]
 			id: "5E0C50ED9E9A6BA0"
-			rewards: [{
-				id: "5DE975D24344044E"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "7650EECD89805893"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "5DE975D24344044E"
+					type: "custom"
+				}
+			]
 			subtitle: "Shift clicking buckets causes them to empty their fluids into the fluid grid. This item requires a special disk type for fluids."
 			tasks: [{
 				id: "55F5DF5FB65F9292"
@@ -231,10 +301,18 @@
 		{
 			dependencies: ["198EA622D8755FF5"]
 			id: "017618231F84986C"
-			rewards: [{
-				id: "40EA7D1739E68BEE"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4B3229F5A081610E"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "40EA7D1739E68BEE"
+					type: "custom"
+				}
+			]
 			subtitle: "Make patterns which make your storage system automatically craft items"
 			tasks: [{
 				id: "20DFAE59590D8851"
@@ -249,6 +327,12 @@
 			description: ["This is useful if you'd like to use something like Storage Drawers."]
 			id: "5F978FBCC74F902E"
 			rewards: [
+				{
+					count: 4
+					id: "0E9BF382F229CF78"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "1F383EE5C3A9CDAA"
 					type: "custom"
@@ -279,6 +363,12 @@
 				"The pouch acts as an EnderStorage chest, but it's portable. You can set the Pouch's color to be the same as the Ender Chest you shift + Rclick while holding the pouch."
 			]
 			id: "3B8312D8718DC5B4"
+			rewards: [{
+				count: 3
+				id: "1F0186FE464AAD1D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Not to be confused with vanilla Ender Chests"
 			tasks: [
 				{
@@ -303,6 +393,12 @@
 				"These tanks are powerful in that they can transfer liquids between dimensions!"
 			]
 			id: "313E61ACD510E3B2"
+			rewards: [{
+				count: 3
+				id: "0536685627AD3997"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CFFF0F0CC95F579"
 				item: "enderstorage:ender_tank"
@@ -314,6 +410,12 @@
 		{
 			dependencies: ["3B8312D8718DC5B4"]
 			id: "0CD280401B8BF9BC"
+			rewards: [{
+				count: 6
+				id: "0A745DD14B2C4CDE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "You can use an Ars Nouveau spellbook as an Ender Pouch instead!"
 			tasks: [{
 				id: "4532A2D84CC89D32"
@@ -330,6 +432,12 @@
 				"This adds some settings using the tabs on the right as well as an &eupgrade slot&r."
 			]
 			id: "7AB039C4BFD81737"
+			rewards: [{
+				count: 3
+				id: "12D55E1F4EC36A52"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "2870D2F67968781D"
@@ -342,11 +450,19 @@
 		}
 		{
 			id: "335C32B754AFB2DE"
-			rewards: [{
-				id: "3E6EDCD89D3DA5CF"
-				item: "integrateddynamics:on_the_dynamics_of_integration"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "68705BBCA59CD200"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "3E6EDCD89D3DA5CF"
+					item: "integrateddynamics:on_the_dynamics_of_integration"
+					type: "item"
+				}
+			]
 			subtitle: "Unique tree that you'll want to have in order to start using Integrated Dynamics."
 			tasks: [{
 				id: "690FC9ABE2EBF213"
@@ -371,6 +487,12 @@
 			]
 			icon: "integrateddynamics:squeezer"
 			id: "5CBB6EA7FB333EA6"
+			rewards: [{
+				count: 6
+				id: "760510B213E877CE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6AC7429C4E24AF8D"
@@ -409,6 +531,12 @@
 			description: ["These items can do what you just did, but on their own using energy."]
 			id: "03ED299282E5C76A"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "6049A14C6B966899"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "(recommended)"
 			tasks: [
 				{
@@ -440,6 +568,12 @@
 				"It doesn't need any energy."
 			]
 			id: "44E53A8A061B85E9"
+			rewards: [{
+				count: 6
+				id: "30762B2718060CF4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -476,6 +610,12 @@
 				"... I wonder what types of automation you can do using this mod?"
 			]
 			id: "4B407F60FF0D3AA2"
+			rewards: [{
+				count: 6
+				id: "756562452075ED25"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "31A1171C4657205D"
@@ -529,6 +669,12 @@
 				"Pretty cool, right?"
 			]
 			id: "2268E46AD333F9CD"
+			rewards: [{
+				count: 6
+				id: "7C3F4C4A711FDCFF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1BD378ADB28E7531"
@@ -569,6 +715,12 @@
 				"Now, find the Addition operator. Insert your two variable cards, which will bind them into a new one."
 			]
 			id: "054A34E6B912C042"
+			rewards: [{
+				count: 6
+				id: "3513B48E2E5C9B86"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0CEA0F9E3F03ABFF"
@@ -611,6 +763,12 @@
 				"The Logic Programmer and Variable Stores are going to be your best friends when you want to do more complex automation."
 			]
 			id: "2BCF1DA646EB606E"
+			rewards: [{
+				count: 5
+				id: "28FFE96A59EF7F43"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "*description taken from Integrated Dynamics guidebook because I don't understand this item*"
 			tasks: [
 				{

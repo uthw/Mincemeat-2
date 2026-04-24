@@ -16,6 +16,12 @@
 			]
 			disable_toast: true
 			id: "019D4506638BC007"
+			rewards: [{
+				count: 6
+				id: "30F03FD36722C5DE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "See Getting Started for the description"
 			tasks: [{
 				id: "546DC499D94AAF1F"
@@ -58,6 +64,12 @@
 				"{image:kubejs:item/hovering_over_speedometer width:896 height:504 align:1 fit:true}"
 			]
 			id: "6E51F7DE0D0CC8CB"
+			rewards: [{
+				count: 10
+				id: "6180DC3DDCECCA98"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -110,6 +122,12 @@
 			]
 			icon: "create:goggles"
 			id: "791DF6ADBF550A3F"
+			rewards: [{
+				count: 7
+				id: "0ECD0ED7967DBC7D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Engineer's &mOnly&r Best Friends"
 			tasks: [
 				{
@@ -130,6 +148,12 @@
 		{
 			dependencies: ["6E51F7DE0D0CC8CB"]
 			id: "334D40427C78EFB2"
+			rewards: [{
+				count: 6
+				id: "01D04902A39A1C1E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Ready for magic!"
@@ -170,11 +194,19 @@
 				"Oh yeah! &e&lOverstressing&r&r! Or... nevermind. You'll learn that one as you go."
 			]
 			id: "7D336EA43CCF5FD5"
-			rewards: [{
-				id: "44FB2615CD10A7DD"
-				item: "create:weighted_ejector"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "77D833FFA1AA4403"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "44FB2615CD10A7DD"
+					item: "create:weighted_ejector"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7F234B2F8E37FB46"
@@ -224,6 +256,12 @@
 				"&eI&r am not liable for any damage caused by a player standing in lava-heated air."
 			]
 			id: "71F6B210686685F3"
+			rewards: [{
+				count: 7
+				id: "5DA0A8C19A0D9FE5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79951539AD4CC9C7"
 				item: "create:encased_fan"
@@ -236,6 +274,12 @@
 		{
 			dependencies: ["7D336EA43CCF5FD5"]
 			id: "426B2D26B6AF75C6"
+			rewards: [{
+				count: 7
+				id: "2E2511FD57007F6F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E26DBC8B653E959"
 				item: "create:millstone"
@@ -254,6 +298,12 @@
 				"&6Chutes&r are similar to &6mechanical belts&r, but move items vertically instead of horizontally."
 			]
 			id: "7A3E1BC754A91448"
+			rewards: [{
+				count: 8
+				id: "2F407B50D52D15B6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0B652333A4263687"
@@ -279,6 +329,12 @@
 			dependencies: ["7D336EA43CCF5FD5"]
 			description: ["All of these accessible blocks can do neat things to &6shafts&r, manipulating how and when they power other blocks with &erotational force&r."]
 			id: "1BCFF5B040A3D70E"
+			rewards: [{
+				count: 9
+				id: "108FCC5B37288317"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7DA5EF75671D6375"
@@ -317,6 +373,12 @@
 				"I know what you're thinking."
 			]
 			id: "0B332B12ED9F9FA8"
+			rewards: [{
+				count: 7
+				id: "0DBA48E2ED2CE1FD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "What you know about rollin' down in the deep?"
 			tasks: [{
 				id: "75B1D30D0EA7CE95"
@@ -343,6 +405,12 @@
 			]
 			id: "048233AB927943AD"
 			rewards: [
+				{
+					count: 8
+					id: "25DCA28BA797A416"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "281EDA9ACAE17AE7"
 					item: "create:gantry_carriage"
@@ -382,6 +450,12 @@
 			dependencies: ["7D336EA43CCF5FD5"]
 			hide_dependency_lines: true
 			id: "5C2FC374E95F0CC4"
+			rewards: [{
+				count: 7
+				id: "157BE6805DD51E66"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Launches blocks and items up to 32 blocks away. Blasting off again!"
 			tasks: [{
 				id: "0FE5475E231FBC7D"
@@ -401,6 +475,12 @@
 			]
 			icon: "create:mechanical_drill"
 			id: "6996A69FC311A78F"
+			rewards: [{
+				count: 8
+				id: "599BFAA5213E3A9D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5DAA37F8719EC19B"
@@ -437,6 +517,12 @@
 			]
 			id: "2F96EF10492DB5FC"
 			optional: true
+			rewards: [{
+				count: 9
+				id: "12E7F846309D3065"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "47229602AA5EEC11"
@@ -472,6 +558,12 @@
 			dependencies: ["791DF6ADBF550A3F"]
 			description: ["&6Copper casing&r opens the door to the next tier of Create items."]
 			id: "02AC20A93D39F2C6"
+			rewards: [{
+				count: 7
+				id: "302C84AED8AA3C6D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "766A14F944FE6C79"
 				item: "create:copper_casing"
@@ -500,6 +592,12 @@
 				"The &6blaze&r will provide &eheat&r to your &ebasin&r, unlocking recipes in EMI that claim to &erequire heat&r."
 			]
 			id: "2CB2CB53F495DEC9"
+			rewards: [{
+				count: 8
+				id: "51903F9139279F3C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "&6&oThe air is getting warmer around you."
 			tasks: [
 				{
@@ -521,6 +619,12 @@
 			dependencies: ["2CB2CB53F495DEC9"]
 			description: ["You've unlocked &6Brass&r! Well done getting this far!"]
 			id: "3DEAE7C404A35245"
+			rewards: [{
+				count: 7
+				id: "36802988F0B77DF2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FD758DB610336E0"
 				item: "create:brass_ingot"
@@ -534,6 +638,12 @@
 			dependencies: ["3DEAE7C404A35245"]
 			hide_until_deps_visible: true
 			id: "0A26B049A30FF9DA"
+			rewards: [{
+				count: 7
+				id: "219B0CD962DB4D64"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "TAKE A LOOK AT THESE HANDS"
 			tasks: [{
 				id: "3E346A5753C725F4"
@@ -546,6 +656,12 @@
 		{
 			dependencies: ["0A26B049A30FF9DA"]
 			id: "2A31B4314985CDF6"
+			rewards: [{
+				count: 7
+				id: "49DEE47B2707CBF3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08A8DC409914DCD6"
 				item: "create:brass_casing"
@@ -558,6 +674,12 @@
 			dependencies: ["02AC20A93D39F2C6"]
 			description: ["Some recipes will call for &efluids&r: these can be your &ewaters&r, &elavas&r, and as you get later into the game, &egases&r."]
 			id: "2635DBAEEA555FE2"
+			rewards: [{
+				count: 9
+				id: "3C3A9FCEA80EC97F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -602,6 +724,12 @@
 			]
 			hide_until_deps_visible: true
 			id: "1F0A5F83AD3401F9"
+			rewards: [{
+				count: 8
+				id: "6D9F0BB3D8B146A0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "51C8268315787B3B"
@@ -631,6 +759,12 @@
 				"There are also items which can only be made using &6mechanical crafters&r."
 			]
 			id: "678E6CB5A7AB483B"
+			rewards: [{
+				count: 7
+				id: "4ACCAE5F2822F317"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				count: 9L
 				id: "2E6678DC5A0902CB"
@@ -648,6 +782,12 @@
 				"Use the &ewrench&r to select the &eblocks&r."
 			]
 			id: "4A6C9F622CE2066A"
+			rewards: [{
+				count: 7
+				id: "7A211AB32C5C4C83"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DBD26EFD9DAD3DD"
 				item: "create:mechanical_arm"
@@ -674,6 +814,12 @@
 			hide_until_deps_visible: true
 			id: "16CCD414DF230E54"
 			rewards: [
+				{
+					count: 10
+					id: "55C30EA8D386A8C6"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					count: 4
 					id: "434846E7A6B61DB3"
@@ -724,6 +870,12 @@
 				"&7&oClick on \"configuration\" to choose where inputs come from and where outputs go to on machines. This will avoid any need for hoppers since you can directly output the pulverizer to the input side of the furnace.&r"
 			]
 			id: "4DBC82BD55237E6A"
+			rewards: [{
+				count: 8
+				id: "5B8B64C3ACBE0430"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08EDC54EF0C1FE0D"
 				item: "thermal:machine_pulverizer"
@@ -752,6 +904,12 @@
 			]
 			id: "377ABE3893DBCCAF"
 			optional: true
+			rewards: [{
+				count: 12
+				id: "58BF8E517C1D922B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6BEA2CCD74556E12"
@@ -792,6 +950,12 @@
 			dependencies: ["4DBC82BD55237E6A"]
 			description: ["Machines can get more material from a log than what you can do by hand."]
 			id: "2F65AA378ABCB05C"
+			rewards: [{
+				count: 8
+				id: "6D0D60E68DA8355C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47205F1FB627E79C"
 				item: "thermal:machine_sawmill"
@@ -805,6 +969,12 @@
 			dependencies: ["2F65AA378ABCB05C"]
 			description: ["&eInvar blend&r can be made by mixing, which can then be smelted or bulk blasted into &einvar ingots&r."]
 			id: "42F8AD78D500C942"
+			rewards: [{
+				count: 8
+				id: "5444FBD073A6B866"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B140041CC5B0A2E"
 				item: "thermal:machine_smelter"
@@ -830,6 +1000,12 @@
 		{
 			dependencies: ["2BFF61AFF24B0404"]
 			id: "472EC26B3D7A1533"
+			rewards: [{
+				count: 8
+				id: "19F307D5BE97D800"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Don't worry, no calculus here"
 			tasks: [{
 				id: "3E67972A13363221"
@@ -844,6 +1020,12 @@
 			dependencies: ["16CCD414DF230E54"]
 			description: ["You can place these in the &eaugments menu&r seen in Thermal machine GUIs."]
 			id: "2BFF61AFF24B0404"
+			rewards: [{
+				count: 9
+				id: "7DC30D6918169DD5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "53B129D6E512D7C6"
@@ -863,6 +1045,12 @@
 		{
 			dependencies: ["472EC26B3D7A1533"]
 			id: "1FCF7D204368C33E"
+			rewards: [{
+				count: 8
+				id: "57FE3EBD6A418464"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61F313361C9E0EB4"
 				item: "thermal:upgrade_augment_2"
@@ -874,6 +1062,12 @@
 		{
 			dependencies: ["1FCF7D204368C33E"]
 			id: "424D8D4B8D4B3D33"
+			rewards: [{
+				count: 8
+				id: "78273E2E4B3ADD26"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31DAD36CD5FF5D09"
 				item: "thermal:upgrade_augment_3"
@@ -891,11 +1085,19 @@
 			]
 			hide_until_deps_visible: true
 			id: "1970165E2199C721"
-			rewards: [{
-				id: "49A5A79F7E374692"
-				item: "thermal:device_water_gen"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "57B2708AA06CB6DF"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "49A5A79F7E374692"
+					item: "thermal:device_water_gen"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1C4D3321145659E2"
@@ -928,6 +1130,12 @@
 				"Also, use &6aqua chow&r (bait) to speed up the fishing process."
 			]
 			id: "7F0338C4AF8661C0"
+			rewards: [{
+				count: 9
+				id: "4F55BB690CDAA438"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Throw away your fishing rod."
 			tasks: [
 				{
@@ -954,6 +1162,12 @@
 				"This can be used as bone meal or as a powerful catalyst in the &ephytogenic insolator&r."
 			]
 			id: "2B39981C511EEB61"
+			rewards: [{
+				count: 9
+				id: "40732B23EBF00454"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7003DE0D32BB4FE0"
@@ -980,6 +1194,12 @@
 				"By &epumping liquids&r into the &6workbench&r, you can &edrain its storage &rto fill &ebuckets&r and similar items."
 			]
 			id: "49E17DAC684FAC93"
+			rewards: [{
+				count: 8
+				id: "330C1541745A910B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "013F76D380F8199D"
 				item: "thermal:tinker_bench"
@@ -996,20 +1216,28 @@
 				"The &6Capacitato&r is an example of this. It &estores&r up to 100,000 RF."
 			]
 			id: "11FEA8EE423542D3"
-			rewards: [{
-				id: "04AF334FA09C219C"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "cofh_core:holding"
-							lvl: 2s
-						}]
-					}
+			rewards: [
+				{
+					count: 9
+					id: "17542916A31A7247"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "04AF334FA09C219C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "cofh_core:holding"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "08D5998B59548E20"
 				item: {
@@ -1026,6 +1254,12 @@
 		{
 			dependencies: ["49E17DAC684FAC93"]
 			id: "1B55948DCE7F4F34"
+			rewards: [{
+				count: 10
+				id: "342E6E13B70E41E4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4146C13809A9EE6F"
@@ -1058,6 +1292,12 @@
 				"Make sure the &6capacitor&r itself is charged!"
 			]
 			id: "009B15D7455CBB05"
+			rewards: [{
+				count: 9
+				id: "72EDF5828924F56B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "OUTATIME"
 			tasks: [{
 				id: "547FE896ABA4CD3E"
@@ -1075,6 +1315,12 @@
 			dependencies: ["49E17DAC684FAC93"]
 			description: ["This item can charge upwards of &e9 items that need energy&r at a time."]
 			id: "3B65FE1645F3BB9D"
+			rewards: [{
+				count: 8
+				id: "5CA29D8CB0605ED3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "49822D9521245AFD"
 				item: "thermal:charge_bench"
@@ -1100,6 +1346,12 @@
 				"Make sure you configure the &6interfaces&r to your liking and place a &6connector&r on top of the stationary &6interface&r to &emove energy elsewhere&r. "
 			]
 			id: "7D263E9149AD8158"
+			rewards: [{
+				count: 8
+				id: "205AABA6FBD36D56"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2BA37C17F521619E"
@@ -1133,6 +1385,12 @@
 				"&o&7The Alternator converts rotation into FE.&r"
 			]
 			id: "7BCE10D50BB54C12"
+			rewards: [{
+				count: 7
+				id: "7EFE1D25A9B00A95"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5098E226F6A250E7"
@@ -1157,6 +1415,12 @@
 				"If it has &eenergy&r, the &6Tesla Coil&r can be powered with redstone to &eshock&r nearby living things."
 			]
 			id: "7699DFE3E93CF011"
+			rewards: [{
+				count: 7
+				id: "51AE28D0592CFD0A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3CCB7B12FA6B7C58"
@@ -1177,6 +1441,12 @@
 			dependencies: ["048233AB927943AD"]
 			description: ["An adhesive that &econnects groups of blocks together&r for moving contraptions. You may check the Ponder scene for more information."]
 			id: "35BF0E849AB4F00A"
+			rewards: [{
+				count: 7
+				id: "421DB5AB36D51C45"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25CBEA27B82A44F5"
 				item: {
@@ -1198,6 +1468,12 @@
 			]
 			description: ["Can extract &estacks of items&r, instead of only one at a time."]
 			id: "54E46805990C15F2"
+			rewards: [{
+				count: 8
+				id: "15569BAE10497C8E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "089C4F5550250E61"
 				item: "create:brass_funnel"
@@ -1219,6 +1495,12 @@
 				"The &6crushing wheels&r can also make &enew materials&r, like aluminum."
 			]
 			id: "2222A4CF9318FB92"
+			rewards: [{
+				count: 8
+				id: "7E33CD1C5E0AE9B9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Make sure you have an Induction Smelter for Invar!"
 			tasks: [{
 				id: "14FDFD2979CE8F11"
@@ -1252,12 +1534,20 @@
 				"&eMachines on the train&r can only see &einventories&r in &etheir own carriages&r."
 			]
 			id: "6C59243E9AAADB66"
-			rewards: [{
-				count: 2
-				id: "2D263112C38EF750"
-				item: "railways:smokestack_coalburner"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 11
+					id: "3BC505A613B929C8"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D263112C38EF750"
+					item: "railways:smokestack_coalburner"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1DBF1ABFCFC5AAEE"
@@ -1310,6 +1600,12 @@
 		{
 			dependencies: ["6C59243E9AAADB66"]
 			id: "334B373D6E77103A"
+			rewards: [{
+				count: 5
+				id: "1ECFC16D84E8D264"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BBB50E2095CAD9E"
 				item: "railways:semaphore"
@@ -1326,6 +1622,12 @@
 				"Alongside being adorable, &econductors&r can activate redstone switches (&elevers&r and &ebuttons&r) when &eyou&r look at them."
 			]
 			id: "18E25A1E2145948B"
+			rewards: [{
+				count: 7
+				id: "169F6AA5F5DD0520"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "79E846071B7D6508"
@@ -1350,6 +1652,12 @@
 				"whistles that can summon a train driven by a conductor"
 			]
 			id: "361B007EE6359691"
+			rewards: [{
+				count: 5
+				id: "03A5C88D6D47F7ED"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75DFD1D746865E3A"
 				item: "railways:conductor_whistle"
@@ -1361,6 +1669,12 @@
 		{
 			dependencies: ["334B373D6E77103A"]
 			id: "0FAF0F4DF51C38DC"
+			rewards: [{
+				count: 6
+				id: "7CF1CC657115BA3D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "51DA975062FE8B9B"
@@ -1387,6 +1701,12 @@
 			]
 			hide_until_deps_visible: true
 			id: "6E77A3D78F1891FE"
+			rewards: [{
+				count: 6
+				id: "09C7C4BC9B150372"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "357B6310F88B091C"
 				item: "prettypipes:pipe"
@@ -1399,6 +1719,12 @@
 			dependencies: ["49E17DAC684FAC93"]
 			description: ["By interacting with an explosive block, you can link it so you can detonate it from any distance. This can affect multiple explosives at once."]
 			id: "0AB45DEA1D8C8865"
+			rewards: [{
+				count: 9
+				id: "4D9E39825F5CCF76"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Bazinga!"
 			tasks: [{
 				id: "5BC4005D9721594F"
@@ -1415,6 +1741,12 @@
 		{
 			dependencies: ["6E77A3D78F1891FE"]
 			id: "0C48A615F6ED8FE2"
+			rewards: [{
+				count: 6
+				id: "39642C4F9CE16B81"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C1B07CF8F735801"
 				item: "prettypipes:pressurizer"
@@ -1431,6 +1763,12 @@
 				"This would end up functioning similarly to what you get with Tom's Simple Storage, but here you arguably get more flexibility with your modules."
 			]
 			id: "6CDC24AA62B61106"
+			rewards: [{
+				count: 6
+				id: "1756EF4F5C12A0D3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "776B825E2CE5C1EF"
 				item: "prettypipes:item_terminal"
@@ -1442,6 +1780,12 @@
 		{
 			dependencies: ["6CDC24AA62B61106"]
 			id: "00B3DD86512994FA"
+			rewards: [{
+				count: 6
+				id: "3E830CB32026EE3A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "560E6082A9434917"
 				item: "prettypipes:crafting_terminal"
@@ -1454,6 +1798,12 @@
 			dependencies: ["49E17DAC684FAC93"]
 			description: ["By interacting with any block that can hold liquid potions, the liquid is transferred. Alternatively, you can combine it with a potion in a crafting grid."]
 			id: "77ADA528C452276C"
+			rewards: [{
+				count: 9
+				id: "4E2450DEBCF34103"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56E38A0772DA8602"
 				item: {
@@ -1470,6 +1820,12 @@
 			dependencies: ["49E17DAC684FAC93"]
 			description: ["Infuses you with the effects of a potion. Fill it with potion liquid at a workbench. You can use a hotkey to infuse yourself automatically every so often."]
 			id: "01D953FA3239DA91"
+			rewards: [{
+				count: 9
+				id: "04437D825A53C913"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "39353F700ACCAE29"
 				item: {
@@ -1492,6 +1848,12 @@
 				"You can run a &epipe&r out of the &efluid tank&r without connecting it to anything and &eexperience orbs&r will leak out of it."
 			]
 			id: "004EC4F43533B12C"
+			rewards: [{
+				count: 7
+				id: "3CA203B53298C413"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BEFDD9A2D5FA6DF"
 				item: "create_enchantment_industry:disenchanter"
@@ -1504,6 +1866,12 @@
 			dependencies: ["004EC4F43533B12C"]
 			description: ["The &6printer&r can duplicate various written items, like &eenchanted books&r and &etrain schedules&r."]
 			id: "5794C4195BB5D0C6"
+			rewards: [{
+				count: 7
+				id: "0D7B9470551E87D4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CA71611236B697A"
 				item: "create_enchantment_industry:printer"
@@ -1521,6 +1889,12 @@
 			]
 			icon: "create_new_age:generator_coil"
 			id: "067561E11F848EBB"
+			rewards: [{
+				count: 9
+				id: "4EDBB6E3D3BE512D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 24L
@@ -1557,6 +1931,12 @@
 			id: "6C5D061B5AFEC926"
 			invisible: true
 			optional: true
+			rewards: [{
+				count: 7
+				id: "2251EF19CC25A7A4"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "323BA25D43A97F32"
 				item: "create_new_age:energiser_t1"
@@ -1573,6 +1953,12 @@
 				"Once in this chunk, place the &6drilling machine&r or &6fluid extractor&r and give it a &6drill&r and &6rotational force&r. It will then start working. Congratulations; you've now &eautomated ore&r!"
 			]
 			id: "49A781E15CF02B22"
+			rewards: [{
+				count: 12
+				id: "7CB354115016968E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3925A7A3E43BEFF2"
@@ -1633,6 +2019,12 @@
 				"*I remember writing these descriptions for mincemeat 1 at 3 am so if they make no sense I'm sorry"
 			]
 			id: "18D5766DA3ACAEF3"
+			rewards: [{
+				count: 5
+				id: "2F69DF311A2C4669"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Cute trains (real) and boats"
 			tasks: [{
 				id: "0D50686233CB2463"
@@ -1646,6 +2038,12 @@
 			dependencies: ["22CD98412754D6B5"]
 			description: ["&6Guide rails&r are paths that &etugboats will follow&r when placed under water. &6Corner guides&r are useful for sharp corners."]
 			id: "4303A5763DE99D5E"
+			rewards: [{
+				count: 6
+				id: "402155D9659195F2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0041238B79A289C8"
@@ -1672,6 +2070,12 @@
 				"The dock's effects are applied to boats that are adjacent to the docks. Tug docks can only insert, and barge docks can do either."
 			]
 			id: "7D73D350CF15B5EA"
+			rewards: [{
+				count: 6
+				id: "31126D6B731F7008"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7317A7CC2D56DFC6"
@@ -1692,6 +2096,12 @@
 			description: ["&eLink barges or cars&r together, forming a train."]
 			hide_until_deps_visible: true
 			id: "22CD98412754D6B5"
+			rewards: [{
+				count: 5
+				id: "41E3879F479D26D9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "39FB278B8C8FEBF9"
 				item: "littlelogistics:spring"
@@ -1703,6 +2113,12 @@
 		{
 			dependencies: ["22CD98412754D6B5"]
 			id: "3A102D4559D4268E"
+			rewards: [{
+				count: 5
+				id: "3F349A23196198A7"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Powered with furnace fuel, loaded manually or automatically using hoppers on top of tug docks"
 			tasks: [{
 				id: "3B1C1DCA9FA625CA"
@@ -1716,6 +2132,12 @@
 			dependencies: ["22CD98412754D6B5"]
 			description: ["Has a slot for a capacitor for longer trips."]
 			id: "5FE32E36F5E50636"
+			rewards: [{
+				count: 5
+				id: "3DBD031EDB7C86DE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Powered with energy, charged when docked with a vessel charger"
 			tasks: [{
 				id: "4DF9A85EAE8C3C84"
@@ -1737,11 +2159,19 @@
 				"&6Tugs with inventories&r can be loaded and unloaded using &ehoppers&r (or the liquid equivalent)"
 			]
 			id: "0810BF748CEE5680"
-			rewards: [{
-				id: "4AA995FDD3980D50"
-				item: "littlelogistics:fluid_hopper"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "61921D8191E8C68B"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "4AA995FDD3980D50"
+					item: "littlelogistics:fluid_hopper"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5FBD931C6F65B11A"
@@ -1791,6 +2221,12 @@
 		{
 			dependencies: ["5C6E8209B322BCAB"]
 			id: "3C11DA9FBC69444C"
+			rewards: [{
+				count: 7
+				id: "6BFDA5DF634D2618"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "631F998F7807AF5F"
 				item: {
@@ -1819,6 +2255,12 @@
 			dependencies: ["18D5766DA3ACAEF3"]
 			hide_until_deps_visible: true
 			id: "5C6E8209B322BCAB"
+			rewards: [{
+				count: 5
+				id: "32CC4C0B368A29F1"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FDCCD7A8F6B2F07"
 				item: "littlelogistics:locomotive_route"
@@ -1831,6 +2273,12 @@
 			dependencies: ["2635DBAEEA555FE2"]
 			description: ["&eWaters crops&r below it."]
 			id: "2C5AA0A1DB97778A"
+			rewards: [{
+				count: 5
+				id: "4DDF03B568E26FC0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "213035D6CA602B04"
 				item: "sliceanddice:sprinkler"
@@ -1843,6 +2291,12 @@
 			dependencies: ["048233AB927943AD"]
 			description: ["A turntable stuck onto a mechanical press. Stick a knife to it and it becomes a reverse garbage disposal that's really precise."]
 			id: "6EBA8FD6B1771AC0"
+			rewards: [{
+				count: 5
+				id: "7AC96DB652B6A85D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Slicer, no slicing"
 			tasks: [{
 				id: "1C5DEFFF9FDEFA5E"
@@ -1860,6 +2314,12 @@
 				"This tool can find ores in the Overworld, Nether, Everbright, Everdawn, and Aether."
 			]
 			id: "72083B3DB68503A5"
+			rewards: [{
+				count: 7
+				id: "5B1AF54BD1075B8A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "693EE9EFC762FE62"
 				item: "createoreexcavation:vein_finder"
@@ -1878,6 +2338,12 @@
 				"You'll need some sort of pipe to get liquid out of the pump."
 			]
 			id: "4D384000D7499C30"
+			rewards: [{
+				count: 5
+				id: "694C1B695363DE3E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F2BA7E0C8CBE18C"
 				item: "rangedpumps:pump"
@@ -1890,6 +2356,12 @@
 			dependencies: ["6E51F7DE0D0CC8CB"]
 			description: ["Simple machine that is capable of &ecreating certain alloys&r, prominently &6Dark Steel&r."]
 			id: "3AD7E8EA4A09F91C"
+			rewards: [{
+				count: 8
+				id: "4B519659078CBD6E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0082D23BF81354C6"
@@ -1925,6 +2397,12 @@
 			]
 			hide_until_deps_visible: true
 			id: "5F68AE8317D33D19"
+			rewards: [{
+				count: 8
+				id: "21B9B93D66DD98C6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6450AF44C45E8A1C"
@@ -1949,6 +2427,12 @@
 				"&eIt works on many vanilla Minecraft items&r. You can right click on it in EMI and check the &6SAG Mill&r tab to see what you can do."
 			]
 			id: "47542F849F8E385F"
+			rewards: [{
+				count: 7
+				id: "3ADD7CE493F0324E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "092185AA928FE44C"
 				item: "enderio:sag_mill"
@@ -1969,6 +2453,12 @@
 				"Interact with &6conduits &rin the world to open a &egeneral configuration menu&r."
 			]
 			id: "7040378812F9AF81"
+			rewards: [{
+				count: 12
+				id: "08DA4ED7B9650AC2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 6L
@@ -2022,6 +2512,12 @@
 			dependencies: ["3AD7E8EA4A09F91C"]
 			description: ["A unique way of enchanting that lets you select an enchantment to put on a book, but for more experience levels and a certain item."]
 			id: "4C215D71E9472F27"
+			rewards: [{
+				count: 7
+				id: "6D18B963DD35DE0B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C17F86176B2D25F"
 				item: "enderio:enchanter"
@@ -2034,6 +2530,12 @@
 			dependencies: ["5F68AE8317D33D19"]
 			description: ["Turns heads and alloys into new components using energy. It requires shears to slice and an axe to splice."]
 			id: "25819302349171D0"
+			rewards: [{
+				count: 7
+				id: "14BEF19D448DDC56"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "13BADF7FDAB301B9"
 				item: "enderio:slice_and_splice"
@@ -2053,6 +2555,12 @@
 			]
 			id: "00B285EA4937657F"
 			optional: true
+			rewards: [{
+				count: 6
+				id: "634F9E0F329DFA1A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7BA94FD3ED96D08E"
@@ -2079,6 +2587,12 @@
 				"For the &6pyrolyzer&r, you'll need some &econstantan gears&r, which you're now able to make using your &einduction smelter&r. "
 			]
 			id: "329604AC74DDA615"
+			rewards: [{
+				count: 10
+				id: "0D64A1329B1CC634"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1AC9786C370AC7D8"
@@ -2117,6 +2631,12 @@
 				"A somewhat simple example of this is the &6precision mechanism&r. To make it, it needs to have a cogwheel, large cogwheel, and iron nugget &edeployed&r to it, in that order, &efive times&r."
 			]
 			id: "1495D2307BF91921"
+			rewards: [{
+				count: 7
+				id: "155855644E9F04F2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "499A167AE6B93E6E"
 				item: "create:precision_mechanism"
@@ -2130,6 +2650,12 @@
 			dependencies: ["1495D2307BF91921"]
 			description: ["Allows levitation using compressed air from a backtank."]
 			id: "7D674D8DA6BF2107"
+			rewards: [{
+				count: 7
+				id: "7373D6BE84EDBDA5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BC8FB7236647695"
 				item: {
@@ -2154,6 +2680,12 @@
 				"If it &5absorbs enough experience&r, you'll get an &5xpetrified orb&r as a bonus."
 			]
 			id: "0926270F47F83BCE"
+			rewards: [{
+				count: 6
+				id: "5DA20AE3DF2A7026"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "630E0C7DDFE20267"
@@ -2185,6 +2717,12 @@
 				"If you struggle with reading the text, try putting your GUI scale on auto."
 			]
 			id: "4F20624095433B21"
+			rewards: [{
+				count: 8
+				id: "4FE94573BF29587F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CE4858CAC13A056"
 				item: "immersiveengineering:capacitor_lv"
@@ -2206,6 +2744,12 @@
 			]
 			hide_until_deps_visible: true
 			id: "3C5831C2EDC2C8F5"
+			rewards: [{
+				count: 10
+				id: "606D0F4B964C3676"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 27L
@@ -2246,6 +2790,12 @@
 				"Please read description for LV Accumulator if you'd like a visual example of wires."
 			]
 			id: "1DDC9DC36A4FA5F0"
+			rewards: [{
+				count: 20
+				id: "1746EB42CA4F52EF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4F6A4ED6C72EF552"
@@ -2334,6 +2884,12 @@
 				"The wooden barrel can store liquid. However, if the liquid is too high temperature you'll need a metal barrel."
 			]
 			id: "7EB8A00E18D08EC6"
+			rewards: [{
+				count: 11
+				id: "36B3B68E6FD22F6A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "63468CB22F44D189"
@@ -2375,6 +2931,12 @@
 				"The item batcher collects a set amount of items from conveyors feeding into it. It then sends them along. It can also use filters."
 			]
 			id: "353861E7291A7FD1"
+			rewards: [{
+				count: 10
+				id: "3DCC64D983CA8C03"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "54591EA0CE86A139"
@@ -2400,6 +2962,12 @@
 			dependencies: ["7EB8A00E18D08EC6"]
 			description: ["Can store a large amount of one item: over 40,000! That's more than twice the amount of a netherite limited-storage barrel!"]
 			id: "08DAA4C93DF95570"
+			rewards: [{
+				count: 9
+				id: "6CEC4EBC6F9731B2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -2426,6 +2994,12 @@
 				"One of the bottom center blocks of iron sheetmetal must be right clicked to transform the stucture."
 			]
 			id: "096878F54CDAD146"
+			rewards: [{
+				count: 9
+				id: "7883FE73627F1F69"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -2456,6 +3030,12 @@
 				"This workbench also letts you modify some items from IE such as the Revolver. Place it in the left slot and then add your upgrades."
 			]
 			id: "10F72DF973999E15"
+			rewards: [{
+				count: 8
+				id: "7B21E8335F468D3A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1331FAEE5D3761A9"
 				item: "immersiveengineering:workbench"
@@ -2476,6 +3056,12 @@
 				"Remember that you can mine magma blocks in the ocean to make this without going to the nether."
 			]
 			id: "26C8D9822EF6663C"
+			rewards: [{
+				count: 8
+				id: "478D591AD4626BB2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				count: 27L
 				id: "4A6A129EF0941B06"
@@ -2491,6 +3077,12 @@
 			description: ["In terms of its construction, it's another cube. A hopper is to be added to the top for the inputs. Steel out the front and slag out the back, and they automatically are put into inventories found there."]
 			id: "65310E6D6F6B4E9A"
 			optional: true
+			rewards: [{
+				count: 9
+				id: "66C0471533DE5E5A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Not mandatory to progress, but really useful"
 			tasks: [
 				{
@@ -2522,6 +3114,12 @@
 				"To harness the kinetic energy of the windmill, you'll need to connect a Kinetic Dynamo."
 			]
 			id: "6BCB133D5CD72D57"
+			rewards: [{
+				count: 10
+				id: "644AA953884E6314"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Simple power generation"
 			tasks: [
 				{
@@ -2541,6 +3139,12 @@
 		{
 			dependencies: ["6BCB133D5CD72D57"]
 			id: "0D1CE700D0C94556"
+			rewards: [{
+				count: 8
+				id: "7C0659039063A1FE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "55BB99AD85CCFAFD"
 				item: "immersiveengineering:thermoelectric_generator"
@@ -2557,6 +3161,12 @@
 				"Energy generated is slowly distributed among the 4 plugs on each side of the structure."
 			]
 			id: "59727B0DA0795B40"
+			rewards: [{
+				count: 12
+				id: "1E6AFF673DB6CE8B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -2603,6 +3213,12 @@
 			dependencies: ["65310E6D6F6B4E9A"]
 			description: ["Shoots cartridges. It can be loaded with ammunition by shift-clicking."]
 			id: "0EAF87067B5236B3"
+			rewards: [{
+				count: 9
+				id: "19C50AEB9F69E687"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Where do they all come from?"
 			tasks: [{
 				id: "722CA75D32580030"
@@ -2631,6 +3247,12 @@
 				"Crusher is stopped when the control panel in the middle is given a redstone signal."
 			]
 			id: "6ABB3339DA478C5A"
+			rewards: [{
+				count: 11
+				id: "116433C18A008D35"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Crushes ores into grit (ore doubling)"
 			tasks: [
 				{
@@ -2681,6 +3303,12 @@
 				"This machine can be automated. You may find the outputs in the bucket at the front and slag can come out of the port in the back. Inputs go through the top slot on the left and additives to the right relative to the electrodes."
 			]
 			id: "0AAE604043C943B2"
+			rewards: [{
+				count: 13
+				id: "5AC1D1A8500C3D5D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Large structure, can do many things"
 			tasks: [
 				{
@@ -2742,6 +3370,12 @@
 				"Attach a mold to a metal press by right clicking or throwing, and detach using a hammer."
 			]
 			id: "11E96A5DA12A0621"
+			rewards: [{
+				count: 11
+				id: "123C673ECCEF0018"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Uses stamps to turn ingots into plates, rods, and wires."
 			tasks: [
 				{
@@ -2780,6 +3414,12 @@
 			dependencies: ["019D4506638BC007"]
 			description: ["&6Void containers&r delete things placed inside, according to what type you make. This is good for &eremoving unwanted items&r in a farm or machine in a lag-free way."]
 			id: "0EC7C83FE1DC7AD0"
+			rewards: [{
+				count: 6
+				id: "4B9386EF3847DF18"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2B773E0B90CACAC6"
@@ -2799,6 +3439,12 @@
 		{
 			dependencies: ["4DBC82BD55237E6A"]
 			id: "570456AF86EE7ED6"
+			rewards: [{
+				count: 8
+				id: "1403A0DD192370AC"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "More powerful Pulverizer."
 			tasks: [{
 				id: "0DF083049EA09BE2"
@@ -2812,6 +3458,12 @@
 			dependencies: ["5F68AE8317D33D19"]
 			description: ["This item can turn vanilla resources into crystals which you may find to be helpful crafting ingredients."]
 			id: "70E114954B563351"
+			rewards: [{
+				count: 9
+				id: "1C435434C872CAB0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7FA006515386A7FD"
@@ -2840,6 +3492,12 @@
 				"This saves space as you will no longer need to use a more complicated setup to accomplish this."
 			]
 			id: "3BFCAF0D9B624149"
+			rewards: [{
+				count: 7
+				id: "333716C4FB4140D3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "55158EE59D98073D"
 				item: "create:rotation_speed_controller"
@@ -2852,6 +3510,12 @@
 			dependencies: ["70E114954B563351"]
 			description: ["Causes the Atomic Reconstructor to turn stone and netherrack placed in front of it into ore."]
 			id: "4AD07EE136728DDD"
+			rewards: [{
+				count: 8
+				id: "63F77604FC23CCF8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FE9D7DF0405B552"
 				item: "actuallyadditions:lens_of_the_miner"
@@ -2868,6 +3532,12 @@
 				"The most powerful of these is the costly graphite electrode, but you may prefer iron, steel, or aluminum rods due to their availability."
 			]
 			id: "56DD8398F34856EE"
+			rewards: [{
+				count: 9
+				id: "08E9CE3E2100D780"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "175152525CD5C62A"
 				item: {
@@ -2893,6 +3563,12 @@
 				"The most useful module is Block. Being able to see exactly where a block you're interested in is makes caving much less tedious."
 			]
 			id: "44B6652493DAB413"
+			rewards: [{
+				count: 7
+				id: "4AF9F082FD70E7A9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4E27F4B153F9448B"
@@ -2925,6 +3601,12 @@
 			dependencies: ["70E114954B563351"]
 			description: ["Coffee has a complex crafting tree involving many plates and alloys, but it's one of the best foods in the game if you can get it. It's more of a novelty than a necessity."]
 			id: "23E19D5676726E21"
+			rewards: [{
+				count: 8
+				id: "759A805A984E7481"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "None of the people I respect get good sleep."
 			tasks: [{
 				id: "436C9338A15B07D2"

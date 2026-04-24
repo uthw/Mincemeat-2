@@ -17,6 +17,12 @@
 		{
 			description: ["Botania is a classic tech mod that is themed around natural magic. It's different from any other tech mods you may have used up to this point, though, containing RPG-like elements such as equipment, trinkets, and boss fights."]
 			id: "0CC23EBAA624C4C6"
+			rewards: [{
+				count: 5
+				id: "39C424C10B09ECA6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "The kitchen sink mod"
 			tasks: [{
@@ -36,6 +42,12 @@
 			dependencies: ["0CC23EBAA624C4C6"]
 			description: ["Generally, two petals can be made from one block, but taller variants can be plucked with shears for four petals."]
 			id: "35A9F1C4FA55A371"
+			rewards: [{
+				count: 6
+				id: "36195BB2F831D7A3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Petals are a crafting ingredient in Botania."
 			tasks: [{
 				id: "5524616673CACB0D"
@@ -56,6 +68,12 @@
 			dependencies: ["35A9F1C4FA55A371"]
 			description: ["You should make a lot of these to collect lots of petals, since they are used often in Botania's recipes."]
 			id: "30F34FCDC31CD2E9"
+			rewards: [{
+				count: 5
+				id: "2CF6135F34BF5F33"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Using on the grass can grow some Botania flowers."
 			tasks: [{
 				id: "0F1C27C3320FD6DB"
@@ -75,6 +93,12 @@
 				"From your guide book: \"A simple tip for the more efficiency-minded: Up to twenty seconds after crafting a flower and after refilling the water, if you right-click the apothecary with an empty hand, it'll pull another set of the same ingredients out of your inventory, for quick crafting in bulk.\""
 			]
 			id: "0C54EDFDF7DC2500"
+			rewards: [{
+				count: 5
+				id: "7BB781C9E41B1435"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "When given water, throwing in certain collections of mystical petals causes this block to absorb their energies. Begin the process by throwing in any seeds."
 			tasks: [{
 				id: "4628B25CFF4DFDBF"
@@ -87,6 +111,12 @@
 		{
 			dependencies: ["0C54EDFDF7DC2500"]
 			id: "2B46AF8CE1809421"
+			rewards: [{
+				count: 5
+				id: "360F47C1C20D254F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Turns wood and stone blocks into livingwood and livingrock, which are crafting ingredients."
 			tasks: [{
 				id: "6C3147323A3B4482"
@@ -100,6 +130,12 @@
 			dependencies: ["2B46AF8CE1809421"]
 			description: ["Complete the ritual using the items specified under the checkmark and arrow. Shift right click to take item off"]
 			id: "40D5A2EF84EBB3C7"
+			rewards: [{
+				count: 5
+				id: "055182EE09F64429"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Makes runes, which are crafting ingredients. Right click on it with an item to put it on the altar. Needs mana instead of water"
 			tasks: [{
 				id: "697CF4E1E002FA69"
@@ -113,6 +149,12 @@
 			dependencies: ["0C54EDFDF7DC2500"]
 			description: ["When placed, this flower automatically binds itself to the nearest mana spreader. You may shift right click the flower and then do the same to a spreader if you'd like to rebind it."]
 			id: "278CC3F3C1AD1C6D"
+			rewards: [{
+				count: 5
+				id: "5BAD8FFC62AA1D5F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Burns items that can be used as furnace fuel to generate mana"
 			tasks: [{
 				id: "771BEDACB60D97E7"
@@ -129,6 +171,12 @@
 				"Here's an example of a farm you can use. The pressure plate uses the mechanic of the crate stopping when given a redstone signal."
 			]
 			id: "7B0AFB41528211E3"
+			rewards: [{
+				count: 5
+				id: "4C3D325332895FA8"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "When items are put in its inventory, they fall through the hole in the bottom"
 			tasks: [{
 				id: "790DFA93B3E561DD"
@@ -141,6 +189,12 @@
 		{
 			dependencies: ["0C54EDFDF7DC2500"]
 			id: "412F2C1C93006975"
+			rewards: [{
+				count: 5
+				id: "68A55D2892680C02"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Sucks up nearby water to generate mana before decaying after 3 in-game days"
 			tasks: [{
 				id: "17DF6C4E84FFD27A"
@@ -168,6 +222,12 @@
 			]
 			id: "40A6C999BE2D99F8"
 			rewards: [
+				{
+					count: 8
+					id: "0EBE3D9AC5CBBDD3"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "2807CB206B4B04BD"
 					type: "custom"
@@ -211,6 +271,12 @@
 				"Items in your inventory requiring mana will drain the tablet automatically."
 			]
 			id: "17A2A2D56B549FB6"
+			rewards: [{
+				count: 6
+				id: "2BA2659657117079"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "It doesn't have Angry Birds"
 			tasks: [{
 				id: "1DB59F8D37EBCDC2"
@@ -228,11 +294,19 @@
 			dependencies: ["0BA546DC8B8D476A"]
 			description: ["- You can combine two mana lenses using either a slime ball or bottle of honey."]
 			id: "4FFAA8A577F95B12"
-			rewards: [{
-				id: "60B2A051822CDC8E"
-				item: "botania:pool_minecart"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "686153927492FDF0"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "60B2A051822CDC8E"
+					item: "botania:pool_minecart"
+					type: "item"
+				}
+			]
 			subtitle: "Upgrade for a mana spreader. Can be dyed, and add effects to the spreader they're attached to. See JEI for the different lenses."
 			tasks: [{
 				id: "0A2F14175F317CF1"
@@ -249,6 +323,12 @@
 		{
 			dependencies: ["6A0DCA9557AF4CD2"]
 			id: "419AA9ED181F13C7"
+			rewards: [{
+				count: 5
+				id: "3D7D2CEA04D9D10B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Better mana spreader."
 			tasks: [{
 				id: "56605B02D0F6211E"
@@ -261,6 +341,12 @@
 		{
 			dependencies: ["0C54EDFDF7DC2500"]
 			id: "61F6869A0D42ACB0"
+			rewards: [{
+				count: 5
+				id: "38A1968FC2F5E808"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Changes color depending on the profit/loss of the pool next to it"
 			tasks: [{
 				id: "5D48CC311DDB38AB"
@@ -273,6 +359,12 @@
 		{
 			dependencies: ["0BA546DC8B8D476A"]
 			id: "06987673FFD52F32"
+			rewards: [{
+				count: 5
+				id: "6623EF30167CD469"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Converts incoming mana to RF which is pretty cool"
 			tasks: [{
 				id: "4B5E6118B41D01DF"
@@ -285,6 +377,12 @@
 		{
 			dependencies: ["1E9420A3765BFAD9"]
 			id: "1CE6A334BA3D6FC8"
+			rewards: [{
+				count: 6
+				id: "4AD3A361E4853A83"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "When bound to a mana pool, your items that use mana as durability will get their charge from the mirror"
 			tasks: [{
 				id: "7A4F5092CE85FC51"
@@ -306,6 +404,12 @@
 				"Bursts passing through the prism have their effects modified depending on the lens."
 			]
 			id: "49EC386B0C7A5336"
+			rewards: [{
+				count: 5
+				id: "7B33D00B8F484B76"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Prisms are a more convenient way for mana lenses to be changed."
 			tasks: [{
 				id: "05443120AE63203B"
@@ -318,10 +422,18 @@
 		{
 			dependencies: ["40A6C999BE2D99F8"]
 			id: "76EEEB1BF715B905"
-			rewards: [{
-				id: "048124F40263F110"
-				type: "custom"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "751AB2B5E4463C52"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "048124F40263F110"
+					type: "custom"
+				}
+			]
 			subtitle: "Divides mana bursts into pools adjacent to it"
 			tasks: [{
 				id: "2F4A939208C4F02D"
@@ -334,6 +446,12 @@
 		{
 			dependencies: ["0BA546DC8B8D476A"]
 			id: "58779E8265553E35"
+			rewards: [{
+				count: 5
+				id: "2FBDA1BD513F0DFC"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Mana entering this block is deleted"
 			tasks: [{
 				id: "39D54D4A25A04C66"
@@ -346,6 +464,12 @@
 		{
 			dependencies: ["40A6C999BE2D99F8"]
 			id: "2838BFAB495C24B1"
+			rewards: [{
+				count: 5
+				id: "2E857383DBBD65A6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "In a hurry? Bellows increases the speed at which mana pools export mana"
 			tasks: [{
 				id: "4ED6614AC913D41F"
@@ -363,6 +487,12 @@
 				"Can be dyed. The star orbiting it changes color."
 			]
 			id: "1B51A4C1DE504D62"
+			rewards: [{
+				count: 5
+				id: "77FDD287D04F338C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Place a spark on a mana pool and another on another valid item"
 			tasks: [{
 				id: "505508ABEEE14F15"
@@ -399,6 +529,12 @@
 				"&oMana spreaders directing mana from the diluted pool on the right to the regular one on the left.&r"
 			]
 			id: "0BA546DC8B8D476A"
+			rewards: [{
+				count: 7
+				id: "64D4EDB87C1C9FCF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "04C5B1AA5F2819D8"
@@ -425,6 +561,12 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "3F0D8F2D6BF7BB34"
+			rewards: [{
+				count: 5
+				id: "6C6F5650927B27E9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D74176DADA0ED02"
 				item: "botania:entropinnyum"
@@ -437,6 +579,12 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "276BB2128C4B2A37"
+			rewards: [{
+				count: 5
+				id: "113282632EECF3CF"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Eats food and generates mana based on saturation. It must be a fan of Spice of Life since it doesn't like eating the same thing constantly."
 			tasks: [{
 				id: "07EC7B87F014BDB3"
@@ -450,6 +598,12 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "0DC6EF0C1BD504EA"
+			rewards: [{
+				count: 5
+				id: "6AAA2D7B4EA41D62"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Eats cake"
 			tasks: [{
 				id: "240B7BC6B68A4A24"
@@ -463,6 +617,12 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "10AC00C23B561D62"
+			rewards: [{
+				count: 5
+				id: "294969E3F48CC9F7"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Eats slimes"
 			tasks: [{
 				id: "66E6A1F921953D64"
@@ -476,6 +636,12 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "3BF7155B188F0106"
+			rewards: [{
+				count: 5
+				id: "04CE0C07265FBAD3"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Takes XP to generate mana"
 			tasks: [{
 				id: "726B7A466F238A00"
@@ -489,6 +655,12 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "508CEE79471E44F9"
+			rewards: [{
+				count: 8
+				id: "7A0695BF55C88F77"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Eats lava"
 			tasks: [{
 				id: "62F428F40D6CA5AA"
@@ -502,6 +674,12 @@
 			dependencies: ["40D5A2EF84EBB3C7"]
 			hide_dependency_lines: true
 			id: "668FAA92294CF348"
+			rewards: [{
+				count: 5
+				id: "608F369E08E3AC83"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Eats the trees"
 			tasks: [{
 				id: "473219D94484EB8F"
@@ -514,6 +692,12 @@
 		{
 			dependencies: ["1B51A4C1DE504D62"]
 			id: "60B3AA5D699D3A68"
+			rewards: [{
+				count: 8
+				id: "7D0316AD9FE0452D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Please check your lexicon for these items."
 			tasks: [{
 				id: "1F7606558F437AD1"
@@ -553,6 +737,12 @@
 				"1B51A4C1DE504D62"
 			]
 			id: "3A19695C8476D071"
+			rewards: [{
+				count: 7
+				id: "5D3CAD07CAAD77FA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Multiblock used to make Terrasteel, you can use a schematicannon. The agglomerator needs mana, achieve this with a spark"
 			tasks: [
 				{
@@ -580,6 +770,12 @@
 			dependencies: ["3A19695C8476D071"]
 			description: ["Can make some pretty nifty tools."]
 			id: "1E9420A3765BFAD9"
+			rewards: [{
+				count: 7
+				id: "55910A54E2E372FD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Alloy of manasteel, pewter, and diopside. This creates an especially potent material for botanists."
 			tasks: [{
 				id: "595B334A239584FF"
@@ -592,6 +788,12 @@
 		{
 			dependencies: ["1E9420A3765BFAD9"]
 			id: "7539C9D4F9574B6B"
+			rewards: [{
+				count: 5
+				id: "2BEA81F6CB057022"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "751EEC8EE251D036"
@@ -609,6 +811,12 @@
 				"Image credit:"
 			]
 			id: "4676F51D510F7026"
+			rewards: [{
+				count: 6
+				id: "3EA1D45C5C26E2B5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -635,6 +843,12 @@
 		{
 			dependencies: ["4676F51D510F7026"]
 			id: "6A0DCA9557AF4CD2"
+			rewards: [{
+				count: 5
+				id: "39997747E9383CDC"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E68CFA4A785546D"
 				item: "botania:elementium_ingot"
@@ -646,6 +860,12 @@
 		{
 			dependencies: ["17A2A2D56B549FB6"]
 			id: "65D4C85176645FEF"
+			rewards: [{
+				count: 6
+				id: "153C87CC5BB848E9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Portable mana storage that also provides mana to items that need it"
 			tasks: [{
 				id: "1FEFCC0172B5DA01"
@@ -662,6 +882,12 @@
 		{
 			dependencies: ["65D4C85176645FEF"]
 			id: "57B645C1283FDDB5"
+			rewards: [{
+				count: 6
+				id: "660599FC0F17083D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "000AC231F01AF31A"
 				item: {
@@ -677,6 +903,12 @@
 		{
 			dependencies: ["385F626E79D1DBF8"]
 			id: "1FE8FE3C28ACD0A1"
+			rewards: [{
+				count: 6
+				id: "57AFB634CD4A5A10"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "172EDC603B825F1E"
 				item: {
@@ -694,6 +926,12 @@
 		{
 			dependencies: ["4676F51D510F7026"]
 			id: "385F626E79D1DBF8"
+			rewards: [{
+				count: 5
+				id: "7FD91190B41B7086"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18359B8939AEA90A"
 				item: "botania:dragonstone"
@@ -705,6 +943,12 @@
 		{
 			dependencies: ["6A0DCA9557AF4CD2"]
 			id: "655CCD03C0FBE223"
+			rewards: [{
+				count: 6
+				id: "2945360AC6064F7A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "705006991D12309D"
 				item: {
@@ -723,6 +967,12 @@
 		{
 			dependencies: ["40D5A2EF84EBB3C7"]
 			id: "267A0160E47ACA5F"
+			rewards: [{
+				count: 6
+				id: "573C0D18FBDEBA06"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Increase movement speed and get auto jump"
 			tasks: [{
 				id: "5B61D76FFB7EECCE"
@@ -739,6 +989,12 @@
 		{
 			dependencies: ["40D5A2EF84EBB3C7"]
 			id: "331E57219FEC4EC0"
+			rewards: [{
+				count: 6
+				id: "20202E6B178B2A66"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Double jump"
 			tasks: [{
 				id: "7DC25F63919B165C"
@@ -755,6 +1011,12 @@
 		{
 			dependencies: ["40D5A2EF84EBB3C7"]
 			id: "594DE0BCE765FD34"
+			rewards: [{
+				count: 6
+				id: "62473C9226F82AE9"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Nullifies nearby creeper explosions"
 			tasks: [{
 				id: "0213CE5448E76F35"
@@ -771,6 +1033,12 @@
 		{
 			dependencies: ["1E9420A3765BFAD9"]
 			id: "724C19BA37C6FAF9"
+			rewards: [{
+				count: 6
+				id: "78BB533EC0776F80"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "449B298312BEDD4E"
 				item: {
@@ -792,6 +1060,12 @@
 				"6A0DCA9557AF4CD2"
 			]
 			id: "0C1CD88A9DE22872"
+			rewards: [{
+				count: 6
+				id: "6E047A47B7C01F01"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46F1CC33C7939896"
 				item: "botania:rainbow_rod"
@@ -803,6 +1077,12 @@
 		{
 			dependencies: ["267A0160E47ACA5F"]
 			id: "6241DC31A9820757"
+			rewards: [{
+				count: 6
+				id: "644D1E8F05BE3C0C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "098C31404282FB77"
 				item: {
@@ -818,11 +1098,19 @@
 		{
 			dependencies: ["1DA45BD335E61671"]
 			id: "78569B65CFBBDB2D"
-			rewards: [{
-				id: "6805D15245E9CD16"
-				item: "paraglider:heart_container"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "146D789C8EAF0851"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
+					id: "6805D15245E9CD16"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
 			subtitle: "Dropped by Gaia Guardian"
 			tasks: [{
 				id: "2EFA4CF450BC71EC"
@@ -841,6 +1129,12 @@
 			]
 			icon: "minecraft:beacon"
 			id: "1DA45BD335E61671"
+			rewards: [{
+				count: 6
+				id: "187E2A11A4E599B2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "(You'll also need 9 blocks of choice to power it)"
 			tasks: [
 				{
@@ -867,6 +1161,12 @@
 		{
 			dependencies: ["78569B65CFBBDB2D"]
 			id: "2ADCEF023215E642"
+			rewards: [{
+				count: 5
+				id: "6A439D85E53F3F95"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Summons level 2 gaia when used in place of terrasteel. Defeat it for better rewards, or just for the hell of it."
 			tasks: [{
 				id: "7DED7A41F445B1DF"
@@ -880,6 +1180,12 @@
 			dependencies: ["0C54EDFDF7DC2500"]
 			description: ["How can you automate this ...?"]
 			id: "026197B2CA75D274"
+			rewards: [{
+				count: 5
+				id: "252D2D224B35209B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Transmutes some items. Place it under the pool and then put things in it"
 			tasks: [{
 				id: "4865D1D06EDDEAB9"
@@ -892,6 +1198,12 @@
 		{
 			dependencies: ["6A0DCA9557AF4CD2"]
 			id: "6D4D2FA97B03E17F"
+			rewards: [{
+				count: 5
+				id: "7F5DFCC96A9405EA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Item duper (no joke). Laggy"
 			tasks: [{
 				id: "7B5A704D6D14DF4B"
@@ -904,6 +1216,12 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "32AA68DD0203AB8B"
+			rewards: [{
+				count: 5
+				id: "006D64AB404CF6C0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Warps items up to 2,000 blocks away, use bind wand to set a location"
 			tasks: [{
 				id: "320F85F830CCBAD3"
@@ -916,6 +1234,12 @@
 		{
 			dependencies: ["78569B65CFBBDB2D"]
 			id: "5D3649E535D2A5BF"
+			rewards: [{
+				count: 5
+				id: "32D66BB997FABAE0"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F3AD81A6DD2C815"
 				item: "botania:mana_bomb"
@@ -927,6 +1251,12 @@
 		{
 			dependencies: ["1E9420A3765BFAD9"]
 			id: "6B479EB7B5BE7A79"
+			rewards: [{
+				count: 6
+				id: "48DB31F579428022"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16D9EFC4B5DC6BFC"
 				item: {
@@ -944,6 +1274,12 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "3E9E01CCDF993320"
+			rewards: [{
+				count: 5
+				id: "61A08F95142E0EF5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Generates ores from nearby stone"
 			tasks: [{
 				id: "2A6625FB9936E87B"
@@ -956,6 +1292,12 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "2CC8A77B261E87B0"
+			rewards: [{
+				count: 5
+				id: "62FBF19971481BB2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Turns mana into fertilizer, promoting growth of nearby crops"
 			tasks: [{
 				id: "53A7AEC6B89D3628"
@@ -968,6 +1310,12 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "0BF86D02D49B8B5F"
+			rewards: [{
+				count: 5
+				id: "6C1EFEAA44A2F784"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Silence!"
 			tasks: [{
 				id: "42D47EF7314FB87D"
@@ -980,6 +1328,12 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "206B2C2EFCA85C86"
+			rewards: [{
+				count: 5
+				id: "142CF03813FD3551"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Pushes items in front of it forward"
 			tasks: [{
 				id: "3E505A8C19497A20"
@@ -992,6 +1346,12 @@
 		{
 			dependencies: ["491A34691200FD1F"]
 			id: "27FA8C7316887DAF"
+			rewards: [{
+				count: 5
+				id: "31B752B7F5D68311"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Gives regeneration to nearby players and tamed pets"
 			tasks: [{
 				id: "2AFD3DB26E0F9AA7"
@@ -1018,6 +1378,12 @@
 			dependencies: ["491A34691200FD1F"]
 			description: ["Item frames can specify a whitelist or blacklist, configure this by shift Rclicking the flower with a wand"]
 			id: "55427C2E4D3AF858"
+			rewards: [{
+				count: 5
+				id: "47AE975C880BD77A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Funnels items into adjacent inventories, giving it mana increases the range"
 			tasks: [{
 				id: "18FDBC818E71D06F"
@@ -1031,6 +1397,12 @@
 			dependencies: ["491A34691200FD1F"]
 			description: [""]
 			id: "55ABA1C1C9713642"
+			rewards: [{
+				count: 5
+				id: "5123D443886C030B"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			subtitle: "Summons a foe which drops good loot"
 			tasks: [{
 				id: "2E323EA804395F28"
@@ -1044,6 +1416,12 @@
 			dependencies: ["2B46AF8CE1809421"]
 			id: "38A926D67A5A3203"
 			optional: true
+			rewards: [{
+				count: 5
+				id: "46D6C37A1A1169C5"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6096D4460F379A96"
 				item: "minecraft:blue_ice"

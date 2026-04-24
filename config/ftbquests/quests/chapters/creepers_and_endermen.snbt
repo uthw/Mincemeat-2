@@ -592,6 +592,12 @@
 			dependencies: ["596F613DAE1CC2DE"]
 			description: ["Throw the pearl to summon a friendly enderman who will assist you in combat. Interact with the enderman to reobtain its pearl, which you can use later to summon it again."]
 			id: "70ACF3EEB5681395"
+			rewards: [{
+				count: 6
+				id: "6B91C051258EC13E"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "1307C2E5EAF77C88"
