@@ -195,7 +195,7 @@
 	    ["netherexp:thin_black_ice", -0.1, 4, "mc", 0.6],
 	    ["brewinandchewin:heating_cask", 0.15, 5, "mc", 1.0],
 	    ["brewinandchewin:ice_crate", -0.15, 5, "mc", 1.0],
-		["dungeonnowloading:overcharged_redstone_block", 0.2, 4, "mc", 1.0, "", "", 15, true]
+	    ["dungeonnowloading:overcharged_redstone_block", 0.2, 4, "mc", 1.0, "", "", 15, true]
 	]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum range of blocks' area of effect

@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers", "Shield Expansion", "minecraft/VeryBiasedToBottomHeight", "biomemakeover", "Failed to create mob", "Empty height range", "missing acoustic", "Detected setBlock in a far chunk"]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers", "Shield Expansion", "minecraft/VeryBiasedToBottomHeight", "biomemakeover", "Failed to create mob", "Empty height range", "missing acoustic", "Detected setBlock in a far chunk"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers", "Shield Expansion", "minecraft/VeryBiasedToBottomHeight", "biomemakeover", "Failed to create mob", "Empty height range", "missing acoustic", "Detected setBlock in a far chunk", "UUID of added entity already exists"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "feathers", "Shield Expansion", "minecraft/VeryBiasedToBottomHeight", "biomemakeover", "Failed to create mob", "Empty height range", "missing acoustic", "Detected setBlock in a far chunk", "UUID of added entity already exists"]
 
