@@ -275,7 +275,7 @@ ServerEvents.recipes((event) => {
             "undergarden:catalyst",
             ["ABA", "BCB", "ABA"],
             {
-                A: "thermal:apatite",
+                A: "thermal:cinnabar",
                 B: "galosphere:lumiere_shard",
                 C: "forbidden_arcanus:rune",
             },
@@ -1375,7 +1375,7 @@ ServerEvents.recipes((event) => {
             {
                 A: "prettypipes:pipe",
                 B: "create:fluid_pipe",
-                C: "thermal:apatite",
+                C: "thermal:cinnabar",
             },
         ],
         [
@@ -1443,7 +1443,7 @@ ServerEvents.recipes((event) => {
                 A: "forbidden_arcanus:arcane_crystal",
                 B: "apotheosis:gem_dust",
                 C: "enigmaticlegacy:thicc_scroll",
-                D: "thermal:apatite",
+                D: "caverns_and_chasms:spinel",
             },
         ],
         [
@@ -1453,7 +1453,7 @@ ServerEvents.recipes((event) => {
                 A: "ars_nouveau:source_gem",
                 B: "theurgy:mercury_shard",
                 C: "enigmaticlegacy:thicc_scroll",
-                D: "thermal:apatite",
+                D: "caverns_and_chasms:spinel",
             },
         ],
         [
@@ -1507,7 +1507,7 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:redstone",
                 B: "#minecraft:planks",
                 C: "prettypipes:pipe",
-                D: "thermal:apatite",
+                D: "thermal:cinnabar",
             },
         ],
         [

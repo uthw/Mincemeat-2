@@ -307,8 +307,8 @@
             "unitWorth": 125
         },
         "delightful_green_tea_leaf_obj": {
-            "type": "item",
-            "content": "delightful:green_tea_leaf",
+            "type": "tag",
+            "content": "farmersrespite:green_tea_leaves",
             "amount": {
                 "min": 4,
                 "max": 16

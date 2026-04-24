@@ -41,15 +41,6 @@ LootJS.modifiers(event => {
             [Item.of("thermal:cinnabar").withChance(100)]
     );
 
-    // thermal:apatite
-    event
-        .addLootTableModifier("mvs:crystal")
-        .randomChance(0.18)
-        .addWeightedLoot(
-            [5, 20],
-            [Item.of("thermal:apatite").withChance(100)]
-    );
-
     // theurgy:sal_ammoniac_crystal
     event
         .addLootTableModifier("mvs:crystal")

@@ -154,7 +154,7 @@ ServerEvents.recipes((event) => {
             inputs: [" A ", "BCB", " D "],
             keys: {
                 A: "farmersdelight:diamond_knife",
-                B: "thermal:apatite",
+                B: "#forge:ingots/silver",
                 C: "minecraft:smithing_table",
                 D: "apotheosis:gem_dust",
             },

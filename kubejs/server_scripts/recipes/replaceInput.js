@@ -270,7 +270,7 @@ ServerEvents.recipes((event) => {
         [{ mod: "prettypipes" }, "minecraft:stone_slab", "create:dark_scoria_cobblestone_slab"],
         [{ mod: "prettypipes" }, "minecraft:piston", "supplementaries:jar"],
         [{ output: "supplementaries:planter" }, "minecraft:bone_meal", "create:tree_fertilizer"],
-        [{ output: "create:tree_fertilizer" }, "minecraft:bone_meal", "#forge:gems/niter"],
+        [{ output: "create:tree_fertilizer" }, "minecraft:bone_meal", "#forge:gems/sulfur"],
         [{ output: "thermal:phytogro" }, "minecraft:bone_meal", "create:tree_fertilizer"],
         [
             {
@@ -383,12 +383,12 @@ ServerEvents.recipes((event) => {
         [
             { output: "ars_nouveau:manipulation_essence" },
             "minecraft:stone_button",
-            "thermal:apatite",
+            "thermal:cinnabar",
         ],
         [
             { output: "ars_nouveau:manipulation_essence" },
             "minecraft:clock",
-            "delightful:green_tea_leaf",
+            "#forge:tea_leaves/green",
         ],
         [{ output: "ars_nouveau:glyph_aoe" }, "minecraft:firework_star", "thermal:basalz_rod"],
         [
@@ -458,7 +458,7 @@ ServerEvents.recipes((event) => {
         ],
         [{ output: "mekanism:osmium_compressor" }, "minecraft:bucket", "thermal:rose_gold_gear"],
         [{ output: "eidolon:planter" }, "minecraft:dirt", "farmersdelight:rich_soil"],
-        [{ output: "explorerscompass:explorerscompass" }, "minecraft:cobweb", "thermal:apatite"],
+        [{ output: "explorerscompass:explorerscompass" }, "minecraft:cobweb", "thermal:cinnabar"],
         [{}, "eidolon:candle", "#minecraft:candles"],
         [{ output: "hexerei:tallow" }, "minecraft:string", "supplementaries:ash"],
         [{}, "delightful:animal_fat", "hexerei:animal_fat"],
@@ -1041,6 +1041,16 @@ ServerEvents.recipes((event) => {
         ],
         [{ output: "#exposure:film_rolls" }, "minecraft:iron_ingot", "#forge:ingots/silver"],
         [{ output: "#exposure:film_rolls" }, "minecraft:iron_nugget", "#forge:nuggets/silver"],
+        [
+            { output: "thermal:phytogro"},
+            "thermal:niter",
+            "#forge:gems/sulfur"
+        ],
+        [
+            { output: "thermal:phytogro" },
+            "thermal:apatite",
+            "#forge:bones"
+        ]
         // [
         //     { output: "thermal:machine_press" },
         //     "thermal:constantan_gear",

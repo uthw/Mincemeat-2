@@ -353,7 +353,7 @@ ServerEvents.recipes((event) => {
         {
             inputs: [
                 "ars_nouveau:water_essence",
-                "delightful:green_tea_leaf",
+                "#forge:tea_leaves/green",
                 "ars_novueau:source_gem_block",
                 "forbidden_arcanus:arcane_crystal_block",
             ],
@@ -364,7 +364,7 @@ ServerEvents.recipes((event) => {
         {
             inputs: [
                 "2x ars_nouveau:water_essence",
-                "2x delightful:green_tea_leaf",
+                "2x #forge:tea_leaves/green",
                 "2x ars_novueau:source_gem_block",
                 "forbidden_arcanus:arcane_crystal_block",
             ],
@@ -670,11 +670,7 @@ ServerEvents.recipes((event) => {
             sourceCost: 5000,
         },
         {
-            inputs: [
-                "4x ars_nouveau:water_essence",
-                "2x #minecraft:corals",
-                "aquamirae:fin",
-            ],
+            inputs: ["4x ars_nouveau:water_essence", "2x #minecraft:corals", "aquamirae:fin"],
             enchantment: "enigmaticlegacy:torrent",
             level: 4,
             sourceCost: 6500,
@@ -822,7 +818,7 @@ ServerEvents.recipes((event) => {
                 "2x ars_nouveau:source_gem_block",
                 "alexscaves:tree_star",
                 "#forge:crops/cabbage",
-                "delightful:green_tea_leaf",
+                "#forge:tea_leaves/green",
             ],
             enchantment: "apotheosis:chainsaw",
             level: 1,
@@ -948,37 +944,25 @@ ServerEvents.recipes((event) => {
             sourceCost: 7500,
         },
         {
-            inputs: [
-                "2x forbidden_arcanus:xpetrified_orb",
-                "2x ars_nouveau:experience_gem",
-            ],
+            inputs: ["2x forbidden_arcanus:xpetrified_orb", "2x ars_nouveau:experience_gem"],
             enchantment: "apotheosis:knowledge",
             level: 1,
             sourceCost: 5000,
         },
         {
-            inputs: [
-                "4x forbidden_arcanus:xpetrified_orb",
-                "4x ars_nouveau:experience_gem",
-            ],
+            inputs: ["4x forbidden_arcanus:xpetrified_orb", "4x ars_nouveau:experience_gem"],
             enchantment: "apotheosis:knowledge",
             level: 2,
             sourceCost: 7500,
         },
         {
-            inputs: [
-                "ars_nouveau:earth_essence",
-                "4x #forge:storage_blocks/diamond",
-            ],
+            inputs: ["ars_nouveau:earth_essence", "4x #forge:storage_blocks/diamond"],
             enchantment: "apotheosis:miners_fervor",
             level: 1,
             sourceCost: 5000,
         },
         {
-            inputs: [
-                "ars_nouveau:earth_essence",
-                "5x #forge:storage_blocks/diamond",
-            ],
+            inputs: ["ars_nouveau:earth_essence", "5x #forge:storage_blocks/diamond"],
             enchantment: "apotheosis:miners_fervor",
             level: 2,
             sourceCost: 7500,
@@ -1107,10 +1091,7 @@ ServerEvents.recipes((event) => {
             sourceCost: 10000,
         },
         {
-            inputs: [
-                "3x alexscaves:sea_glass_shards",
-                "5x ars_nouveau:source_gem_block",
-            ],
+            inputs: ["3x alexscaves:sea_glass_shards", "5x ars_nouveau:source_gem_block"],
             enchantment: "apotheosis:scavenger",
             level: 2,
             sourceCost: 15000,
@@ -1166,11 +1147,7 @@ ServerEvents.recipes((event) => {
             sourceCost: 5000,
         },
         {
-            inputs: [
-                "ars_nouveau:water_essence",
-                "6x #minecraft:fishes",
-                "miners_delight:squid",
-            ],
+            inputs: ["ars_nouveau:water_essence", "6x #minecraft:fishes", "miners_delight:squid"],
             enchantment: "apotheosis:spearfishing",
             level: 2,
             sourceCost: 7500,
@@ -1441,10 +1418,7 @@ ServerEvents.recipes((event) => {
             sourceCost: 5000,
         },
         {
-            inputs: [
-                "4x iceandfire:wither_shard",
-                "4x ars_nouveau:source_gem_block",
-            ],
+            inputs: ["4x iceandfire:wither_shard", "4x ars_nouveau:source_gem_block"],
             enchantment: "enderio:withering",
             level: 1,
             sourceCost: 9000,
