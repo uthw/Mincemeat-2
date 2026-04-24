@@ -168,6 +168,9 @@ ServerEvents.recipes((event) => {
         "irons_restrictions:holy_manuscript",
         "neapolitan:chocolate/chocolate_bar",
         "create:milling/wheat",
+        "malum:spirit_infusion/brilliant_obelisk",
+        "malum:spirit_infusion/ring_of_arcane_prowess",
+        "malum:spirit_infusion/hex_ash"
     ];
 
     toRemove.forEach((recipeId) => {

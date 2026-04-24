@@ -62,8 +62,8 @@
 				type: "item"
 			}]
 			title: "Ars Nouveau"
-			x: 8.0d
-			y: -2.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -86,7 +86,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 15.0d
 			y: -4.5d
 		}
 		{
@@ -106,7 +106,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 12.0d
 			y: -6.0d
 		}
 		{
@@ -134,7 +134,7 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -203,7 +203,7 @@
 				}
 			]
 			title: "How to Get Source Gems"
-			x: 6.0d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -275,7 +275,7 @@
 				}
 			]
 			title: "Tier 1 Combo #1"
-			x: 6.0d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -345,7 +345,7 @@
 				}
 			]
 			title: "Tier 1 combo #2"
-			x: 6.5d
+			x: 11.5d
 			y: -1.0d
 		}
 		{
@@ -370,7 +370,7 @@
 				id: "0FFE96D33CA75C86"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			x: 9.5d
 			y: -3.0d
 		}
 		{
@@ -384,7 +384,7 @@
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
@@ -404,7 +404,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -424,7 +424,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -444,7 +444,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -456,7 +456,7 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -477,7 +477,7 @@
 				item: "ars_nouveau:relay"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -491,11 +491,6 @@
 			disable_toast: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "enigmaticlegacy:tattered_tome"
 				tag: { }
 			}
@@ -564,7 +559,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 8.0d
 			y: -7.5d
 		}
 		{
@@ -598,7 +593,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 8.0d
 			y: -4.5d
 		}
 		{
@@ -632,7 +627,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 8.0d
 			y: -6.0d
 		}
 		{
@@ -643,7 +638,7 @@
 				item: "ars_nouveau:relay_splitter"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -662,7 +657,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -681,7 +676,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -697,7 +692,7 @@
 				item: "ars_nouveau:magebloom"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 9.5d
 			y: -7.5d
 		}
 		{
@@ -708,7 +703,7 @@
 				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 9.5d
 			y: -6.0d
 		}
 		{
@@ -783,7 +778,7 @@
 				}
 			]
 			title: "Novice Armor"
-			x: 6.0d
+			x: 11.0d
 			y: -6.5d
 		}
 		{
@@ -807,7 +802,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 10.5d
 			y: -7.5d
 		}
 		{
@@ -1840,7 +1835,7 @@
 				type: "item"
 			}]
 			title: "Wicked Weave"
-			x: 8.0d
+			x: 9.0d
 			y: 3.5d
 		}
 		{
@@ -2029,7 +2024,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -2203,8 +2198,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["77D7C0FA8A37671F"]
@@ -2251,8 +2246,8 @@
 				title: "Mana"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: -1.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["129CAC4D971CBAD8"]
@@ -2291,7 +2286,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 11.5d
 			y: -7.5d
 		}
 		{
@@ -2339,7 +2334,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 9.0d
 			y: -8.5d
 		}
 		{
@@ -2370,7 +2365,7 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 9.5d
 			y: -4.5d
 		}
 		{
@@ -2391,7 +2386,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 12.0d
 			y: -4.5d
 		}
 		{
@@ -2431,7 +2426,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 13.5d
 			y: -4.5d
 		}
 		{
@@ -2510,7 +2505,7 @@
 				}
 			]
 			title: "Tier 2 Combo"
-			x: 10.0d
+			x: 15.0d
 			y: -6.0d
 		}
 		{
@@ -2567,7 +2562,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 12.0d
 			y: -3.5d
 		}
 		{
@@ -2584,7 +2579,7 @@
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 16.5d
 			y: -3.5d
 		}
 		{
@@ -2622,7 +2617,7 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 14.5d
 			y: -3.5d
 		}
 		{
@@ -2642,7 +2637,7 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 14.5d
 			y: -2.5d
 		}
 		{
@@ -2662,7 +2657,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 10.0d
 			y: -8.5d
 		}
 		{
@@ -2759,7 +2754,7 @@
 				item: "ars_creo:starbuncle_wheel"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 18.5d
 			y: -3.5d
 		}
 		{
@@ -2787,7 +2782,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 15.5d
 			y: -3.0d
 		}
 		{
@@ -3945,8 +3940,8 @@
 				type: "item"
 			}]
 			title: "Enchanter's Items"
-			x: 6.0d
-			y: 0.5d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AA8E8253E201B38"]
@@ -3957,7 +3952,7 @@
 				item: "ars_nouveau:ritual_disintegration"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 16.5d
 			y: -6.0d
 		}
 		{
@@ -3976,7 +3971,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 6.5d
 			y: -5.5d
 		}
 		{
@@ -3988,7 +3983,7 @@
 				item: "ars_nouveau:alteration_table"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 13.5d
 			y: -7.0d
 		}
 		{
@@ -4078,8 +4073,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["77219718DABB8F62"]
@@ -4541,6 +4536,7 @@
 				"&d&lRange"
 				"Up to 30 blocks from your position. However, if you have a reference to an entity, it works at any distance."
 			]
+			icon: "hexcasting:staff/oak"
 			id: "173A561DF4516DC0"
 			shape: "hexagon"
 			size: 1.5d
@@ -4592,11 +4588,6 @@
 				"&dGemini Decomposition"
 				"&oPeeks the top iota, then pushes a copy."
 				"Stack: [X] --> [X, X]"
-				""
-				"&l&dReminders:"
-				"- The stack is empty when you start a hex."
-				"- Actions fail if there aren't enough iotas (example: casting Jester's Gambit with only 1 iota)"
-				"- Order matters."
 			]
 			icon: "beautify:bookstack"
 			id: "2878EB75598EB9F3"
@@ -5390,8 +5381,8 @@
 				}
 			]
 			title: "Enchanter's Curiosities"
-			x: 5.0d
-			y: 0.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3D4F3D27DC68EEF3"]
@@ -5410,7 +5401,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -5436,7 +5427,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 18.0d
 			y: -4.5d
 		}
 		{
@@ -5456,7 +5447,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 18.0d
 			y: -6.0d
 		}
 		{
@@ -5528,7 +5519,7 @@
 				}
 			]
 			title: "Advanced Item/Fluid/Energy Transport"
-			x: 13.5d
+			x: 18.5d
 			y: -2.5d
 		}
 		{
@@ -5548,7 +5539,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 17.5d
 			y: -2.0d
 		}
 		{
@@ -5587,7 +5578,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -6060,6 +6051,764 @@
 			}]
 			x: -2.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["2A2B25F44A4AE27B"]
+			description: [
+				"Somewhere between light and dark lie the spirit arcana, which focus on reading (and harvesting) the souls of living creatures."
+				""
+				"To start, you'll want to head underground and find yourself some soulstone. This is a special sort of rock with the special ability to harbor souls."
+				""
+				"Your main use for soulstones at this moment is to incorporate it into a Crude Scythe, which will glean the souls from living creatures killed with it."
+				""
+				"&7Malum was recently added to the modpack and I haven't finished these quests yet. For more information, see the Encyclopedia Arcana, included in your Eccentric Tome."
+			]
+			icon: {
+				Count: 1
+				id: "malum:crude_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31982B9D7EEA70B5"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "I want your soul"
+			tasks: [
+				{
+					id: "081A5F08E086F829"
+					item: "malum:raw_soulstone"
+					type: "item"
+				}
+				{
+					id: "0A390BCE734A9D34"
+					item: {
+						Count: 1
+						id: "malum:crude_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Malum"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31982B9D7EEA70B5"]
+			description: [
+				"For now, the Runic Workbench is going to be the main way of using your newly collected souls. It allows you to infuse souls into mundane items, transforming them into something entirely new."
+				""
+				"Runewood is a type of wood suitable for spirit magic. You can find it in plains and forests."
+				""
+				"Make yourself a Runic Workbench and surround it with Item Stands or Item Pedestals as you see fit - just make sure they're within 4 blocks of the workbench."
+				""
+				"You should start by crafting a Hex Ash, as this is an inexpensive and widely used material during infusion."
+				""
+				"See the next page for a diagram on how to read JEI infusion recipes."
+				"{@pagebreak}"
+				"{image:kubejs:item/malum_ritual width:262 height:333 align:center fit:true}"
+				""
+				"&c1:&r Necessary spirit. Right click the Workbench while holding this."
+				""
+				"&c2:&r The reagent. Place this upon the Workbench."
+				""
+				"&c3:&r The extra items. Place these upon the Item Pedestals or Holders."
+				""
+				"&c4:&r What you will get when the process is finished."
+			]
+			id: "304860DD2E9FA817"
+			tasks: [
+				{
+					id: "75C15A7802BADFE6"
+					item: "malum:runic_workbench"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4C99B6B9D1AAE0E8"
+					item: {
+						Count: 4
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "malum:runewood_item_stand"
+								}
+								{
+									Count: 1b
+									id: "malum:runewood_item_pedestal"
+								}
+							]
+						}
+					}
+					title: "Runewood Item Holder"
+					type: "item"
+				}
+			]
+			title: "Spirit Infusion"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: ["Here is your basic infused armor. It enhances Magic Proficiency, which increases the damage dealt by your magic attacks."]
+			id: "6E1AF409C5E797A5"
+			tasks: [
+				{
+					id: "225FE0C253F6A367"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_cloak"
+						tag: {
+							Damage: 0
+							insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B8CF796EDF5FD21"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_robe"
+						tag: {
+							Damage: 0
+							insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C0F02E711638449"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_leggings"
+						tag: {
+							Damage: 0
+							insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70E4E0336E3B1C19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_hunter_boots"
+						tag: {
+							Damage: 0
+							insulation: [ ]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Soulhunter Armor"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: ["Soulstained Steel armor is specially created for those practicing the spirit arcana. It has a mechanism known as Soul Ward, which is capable of absorbing additional damage, and is better at negating magic damage."]
+			id: "6AC04074AD62BF06"
+			tasks: [
+				{
+					id: "1D981110467C7B77"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_stained_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "777420F9F8CECA43"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_stained_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60422BA02CAF29F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_stained_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D9D7361C5A4B10C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "malum:soul_stained_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Soulstained Steel Armor"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: [
+				"Belts will improve your knowledge of explosions."
+				""
+				"Many of the rings will give various positive effects upon collecting spirit, such as experience."
+				""
+				"Arcane resonance amplifies rings that add extra effects on spirit collection."
+			]
+			id: "19DBDE0036FB953F"
+			tasks: [
+				{
+					id: "4F5FBA5408ED1F15"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "malum:belt_of_the_magebane"
+								}
+								{
+									Count: 1b
+									id: "malum:belt_of_the_starved"
+								}
+								{
+									Count: 1b
+									id: "malum:belt_of_the_prospector"
+								}
+							]
+						}
+					}
+					title: "Belt"
+					type: "item"
+				}
+				{
+					id: "3697CE6C572369C9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "malum:ornate_necklace"
+								}
+								{
+									Count: 1b
+									id: "malum:necklace_of_the_mystic_mirror"
+								}
+								{
+									Count: 1b
+									id: "malum:necklace_of_blissful_harmony"
+								}
+								{
+									Count: 1b
+									id: "malum:necklace_of_the_narrow_edge"
+								}
+								{
+									Count: 1b
+									id: "malum:necklace_of_tidal_affinity"
+								}
+							]
+						}
+					}
+					title: "Necklace"
+					type: "item"
+				}
+				{
+					id: "6E1FC77BF884C3AE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "malum:gilded_ring"
+								}
+								{
+									Count: 1b
+									id: "malum:gilded_belt"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_the_demolitionist"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_the_hoarder"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_desperate_voracity"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_alchemical_mastery"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_manaweaving"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_arcane_prowess"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_curative_talent"
+								}
+								{
+									Count: 1b
+									id: "malum:ring_of_esoteric_spoils"
+								}
+							]
+						}
+					}
+					title: "Ring"
+					type: "item"
+				}
+			]
+			title: "Magical Accessories"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			id: "1971836FA6216958"
+			tasks: [{
+				id: "76E9526FF265AC8C"
+				item: {
+					Count: 1
+					id: "malum:soul_stained_steel_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["449B29CB8C4F7A91"]
+			id: "25F68FBFCB45D031"
+			tasks: [
+				{
+					id: "113220501DC4DCC4"
+					item: "malum:runic_workbench"
+					type: "item"
+				}
+				{
+					id: "69EA6B69C8271BFB"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "malum:rune_of_idle_restoration"
+								}
+								{
+									Count: 1b
+									id: "malum:rune_of_culling"
+								}
+								{
+									Count: 1b
+									id: "malum:rune_of_reinforcement"
+								}
+								{
+									Count: 1b
+									id: "malum:rune_of_dexterity"
+								}
+								{
+									Count: 1b
+									id: "malum:rune_of_aliment_cleansing"
+								}
+								{
+									Count: 1b
+									id: "malum:rune_of_reactive_shielding"
+								}
+								{
+									Count: 1b
+									id: "malum:rune_of_fervor"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Runesmithing"
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: ["The Runic and Glass Brooches are the only ways of obtaining Runes, which are explained in the next quest but essentially offer passive buffs."]
+			id: "449B29CB8C4F7A91"
+			tasks: [{
+				id: "5107D807C1E4E562"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "malum:runic_brooch"
+							}
+							{
+								Count: 1b
+								id: "malum:elaborate_brooch"
+							}
+							{
+								Count: 1b
+								id: "malum:glass_brooch"
+							}
+							{
+								Count: 1b
+								id: "malum:gluttonous_brooch"
+							}
+						]
+					}
+				}
+				title: "Brooch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: [
+				"By placing Runewood Logs above a Runewood Totem Base, you create a pole which can be infused with spirit to provide boons for the surrounding area, similar to a beacon."
+				""
+				"Embed spirit into a pole by right clicking the logs with spirit in hand. When you're done, right click the base to initiate the ritual."
+				""
+				" To remove spirits from a totem pole, right click them with an axe as if you were about to strip the log."
+				""
+				"The Totemic Staff is useful for seeing the area affected by a Totem."
+				""
+				"This is one of those times when I tell you to grab an Eccentric Tome, look inside the Encyclopedia Arcana, and pan the graph up to where the rituals are and see what you need. In a future update, I will include descriptions on them all here."
+			]
+			id: "73FAFBAB2CB0B74D"
+			tasks: [
+				{
+					id: "572798F24F83E52F"
+					item: "malum:runewood_totem_base"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1BE680448C663C46"
+					item: "malum:runewood_log"
+					type: "item"
+				}
+				{
+					id: "0C0D11BFF496927E"
+					item: "malum:totemic_staff"
+					type: "item"
+				}
+			]
+			title: "Totem Rituals"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: [
+				"Runewood Obelisks help to alleviate part of the waiting involved with Spirit Infusion. Each Runewood Obelisk placed near the Workbench speeds up the process by 25%, with the maximum effect being reached at 4 obelisks."
+				""
+				"Meanwhile, Brilliant Obelisks are like condensed bookshelves, with each one adding 5 Eterna. They are made with Xpetrified Orbs instead of Hallowed Gold."
+			]
+			id: "7A57151D5D92E58A"
+			tasks: [{
+				id: "491F5837CF7792B7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "malum:runewood_obelisk"
+							}
+							{
+								Count: 1b
+								id: "malum:brilliant_obelisk"
+							}
+						]
+					}
+				}
+				title: "Obelisk"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73FAFBAB2CB0B74D"]
+			description: [
+				"The Undirected Rite requires 5 Arcane Spirit to be infused on a pole, and will alter the surrounding area. Notably, it turns the totem pole from Runewood into purple Soulwood."
+				""
+				"The effects of the same ritual on a Runewood and Soulwood totem can be very different, so be sure to plan accordingly!"
+			]
+			id: "35F2C77F40458C22"
+			tasks: [
+				{
+					count: 5L
+					id: "515D30C61C0A15BB"
+					item: "malum:arcane_spirit"
+					type: "item"
+				}
+				{
+					id: "14BC1C3133B21D4A"
+					item: "malum:soulwood_totem_base"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3D364D44C11723A1"
+					item: { Count: 5, id: "malum:soulwood_log" }
+					type: "item"
+				}
+			]
+			title: "Corrupted Rituals"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: [
+				"Given an impetus and the appropriate spirit (usually Earthen and Infernal), a Crucible can generate nodes which can be smelted into nuggets."
+				""
+				"Its usage is similar to the Runic Workbench, but it does not need extra items to be placed on pedestals."
+			]
+			icon: "malum:spirit_crucible"
+			id: "7E9538DE12A0B760"
+			tasks: [
+				{
+					id: "19393FF7FD88C267"
+					item: "malum:spirit_crucible"
+					type: "item"
+				}
+				{
+					id: "1FC2EEB9ED010795"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "malum:iron_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:copper_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:gold_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:lead_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:silver_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:aluminum_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:nickel_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:uranium_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:zinc_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:tin_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:cobalt_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:alchemical_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "malum:osmium_impetus"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Impetus"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["304860DD2E9FA817"]
+			description: ["The Repair Pylon can restore the durability of your favorite tools using Spirit instead of experience. Place the repair material on the pylon itself and the tool to be repaired on an item holder."]
+			id: "78780580C4B2A7A8"
+			tasks: [{
+				id: "495D3843415A7451"
+				item: "malum:repair_pylon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E9538DE12A0B760"]
+			description: ["Up to eight of these can be placed near a Crucible to accelerate its process. However, this also increases its instability, which could result in your impetus taking more of a beating."]
+			id: "6E005D2ECE3F9344"
+			tasks: [{
+				id: "072BC9526E73F602"
+				item: "malum:spirit_catalyzer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1971836FA6216958"]
+			description: ["Tyrving makes up for its lack of base damage with extra damage based on how much soul the target has."]
+			id: "1A2FDCB74BB74D59"
+			tasks: [{
+				id: "7FEDEFC8470D904F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "malum:tyrving"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
 		}
 	]
 	title: "Supernatural Magic"

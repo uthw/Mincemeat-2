@@ -1,7 +1,7 @@
-// This is for modifiying the attack damage of items with hard coded attributes. 
+// This is for modifiying the attack damage of items with hard coded attributes.
 // Currently only supports tools and weapons.
 // Attributes modified with this don't have the green attributeslib tooltips with f3+h, but this isn't a big deal
-// Parts used from kubejs discord server, 
+// Parts used from kubejs discord server,
 
 let tweaks = [
     // Cataclysm items
@@ -34,7 +34,7 @@ let tweaks = [
     {
         itemName: "cataclysm:gauntlet_of_guard",
         attributeName: "minecraft:generic.attack_damage",
-        value: 19, // originally 10 
+        value: 19, // originally 10
     },
     {
         itemName: "cataclysm:gauntlet_of_bulwark",
@@ -115,11 +115,31 @@ let tweaks = [
         itemName: "savage_and_ravage:cleaver_of_beheading",
         attributeName: "minecraft:generic.attack_damage",
         value: 13, // old: 11
+    },
+    {
+        itemName: "malum:soul_stained_steel_scythe",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10,
+    },
+    {
+        itemName: "malum:soul_stained_steel_sword",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 5.5,
+    },
+    {
+        itemName: "malum:crude_scythe",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 9,
+    },
+    {
+        itemName: "malum:tyrving",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10,
     }
 ];
 
 let $AttributeModifier = Java.loadClass(
-    "net.minecraft.world.entity.ai.attributes.AttributeModifier"
+    "net.minecraft.world.entity.ai.attributes.AttributeModifier",
 );
 
 tweaks.forEach((tweak) => {
@@ -127,19 +147,16 @@ tweaks.forEach((tweak) => {
         "133a6368-4778-4aa9-9025-fb3cba698200", // Idk if the uuid matters since we're removing the old one
         tweak.attributeName,
         tweak.value,
-        "ADDITION" // Will need to add this to the tweaks entries if we want to change the operation
+        "ADDITION", // Will need to add this to the tweaks entries if we want to change the operation
     );
 
-    ForgeEvents.onEvent(
-        "net.minecraftforge.event.ItemAttributeModifierEvent",
-        (event) => {
-            if (
-                event.itemStack.id == tweak.itemName &&
-                event.slotType == "mainhand" // might need to add this to the tweaks entries for future expansion too
-            ) {
-                event.removeAttribute(tweak.attributeName);
-                event.addModifier(tweak.attributeName, attackDamageModifier);
-            }
+    ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (event) => {
+        if (
+            event.itemStack.id == tweak.itemName &&
+            event.slotType == "mainhand" // might need to add this to the tweaks entries for future expansion too
+        ) {
+            event.removeAttribute(tweak.attributeName);
+            event.addModifier(tweak.attributeName, attackDamageModifier);
         }
-    );
+    });
 });

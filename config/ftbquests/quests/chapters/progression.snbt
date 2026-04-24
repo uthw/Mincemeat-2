@@ -18,8 +18,6 @@
 				""
 				"To the bottom left and right, you can find the magic and tech progression, respectively."
 				""
-				"On top of this quest is the boss / main game progression &c(not complete)&r."
-				""
 				"You can click the checkmarks to note when you're done with tech/magic mods and ready to move on (note one mod will often require previous mods, being \"locked\" behind it)."
 			]
 			disable_toast: true
@@ -40,25 +38,6 @@
 			title: "What's this?"
 			x: -0.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["7DEAC972117F045B"]
-			id: "630B1C4C9BE35418"
-			tasks: [{
-				entity: "conjurer_illager:conjurer"
-				icon: {
-					Count: 1
-					id: "conjurer_illager:conjurer_hat"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "5FDF87D158E169EB"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.5d
-			y: -3.5d
 		}
 		{
 			dependencies: ["5BE15B2099714A22"]
@@ -140,20 +119,6 @@
 			}]
 			x: -3.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["48589341ABDDAED8"]
-			icon: "naturesaura:gold_leaf"
-			id: "080F8244C005A607"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "7583259F2BF4807B"
-				title: "Nature's Aura"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["5DE22DEFA690FDE0"]
@@ -284,28 +249,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["080F8244C005A607"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "bloodmagic:altar"
-			}
-			id: "0121C2C9B72C0A54"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "068C17297478FAE0"
-				title: "Blood Magic"
-				type: "checkmark"
-			}]
-			x: -5.0d
-			y: 1.5d
-		}
-		{
 			dependencies: [
 				"477A58774B7737C5"
 				"658305B48F9FE4DD"
@@ -414,20 +357,6 @@
 			}]
 			x: 0.0d
 			y: 5.5d
-		}
-		{
-			dependencies: ["1FFE9767A7118551"]
-			icon: "computercraft:computer_normal"
-			id: "6C9C8C1539414FA3"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "009FF2DF9FA55C80"
-				title: "CC: Tweaked and Advanced Peripherals"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 4.5d
 		}
 		{
 			dependencies: ["1FFE9767A7118551"]
@@ -578,6 +507,24 @@
 			}]
 			x: -2.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["7DEAC972117F045B"]
+			icon: {
+				Count: 1
+				id: "malum:soul_stained_steel_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3221219374A52FF6"
+			tasks: [{
+				id: "78B04585CC6C4E2A"
+				title: "Malum"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
 		}
 	]
 	title: "Progression"
