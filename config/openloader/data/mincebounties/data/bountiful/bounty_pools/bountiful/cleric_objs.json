@@ -218,7 +218,7 @@
         },
         "irons_spellbooks_arcane_cloth_obj": {
             "type": "item",
-            "content": "irons_spellbooks:arcane_cloth",
+            "content": "irons_spellbooks:magic_cloth",
             "amount": {
                 "min": 2,
                 "max": 6

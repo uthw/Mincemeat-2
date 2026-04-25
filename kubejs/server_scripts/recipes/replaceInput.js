@@ -653,7 +653,7 @@ ServerEvents.recipes((event) => {
         ],
         [{}, "reliquary:bat_wing", "miners_delight:bat_wing"],
         [{}, "forbidden_arcanus:bat_wing", "miners_delight:bat_wing"],
-        [{}, "galosphere:silver_ingot", "#forge:ingots/silver"],
+        [{}, "galosphere:palladium_ingot", "#forge:ingots/silver"],
         [{}, "minecraft:crafting_table", "#forge:workbench"],
         [
             { output: "immersiveengineering:cokebrick" },
@@ -1041,16 +1041,8 @@ ServerEvents.recipes((event) => {
         ],
         [{ output: "#exposure:film_rolls" }, "minecraft:iron_ingot", "#forge:ingots/silver"],
         [{ output: "#exposure:film_rolls" }, "minecraft:iron_nugget", "#forge:nuggets/silver"],
-        [
-            { output: "thermal:phytogro"},
-            "thermal:niter",
-            "#forge:gems/sulfur"
-        ],
-        [
-            { output: "thermal:phytogro" },
-            "thermal:apatite",
-            "#forge:bones"
-        ]
+        [{ output: "thermal:phytogro" }, "thermal:niter", "#forge:gems/sulfur"],
+        [{ output: "thermal:phytogro" }, "thermal:apatite", "#forge:bones"],
         // [
         //     { output: "thermal:machine_press" },
         //     "thermal:constantan_gear",

@@ -8,9 +8,6 @@ WorldgenEvents.remove((event) => {
         // If you're not me, this file might give you insight as to mods that used to be in Mincemeat 2 but were removed for varying reasons
 
         props.blocks = [
-            "galosphere:silver_ore",
-            "galosphere:deepslate_silver_ore",
-
             "iceandfire:silver_ore",
             "iceandfire:deepslate_silver_ore",
 

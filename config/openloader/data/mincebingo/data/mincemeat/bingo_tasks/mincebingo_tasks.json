@@ -833,14 +833,6 @@
         {
             "type": "bongo.item",
             "value": {
-                "item": "paraglider:spirit_orb",
-                "count": 12
-            },
-            "weight": 10
-        },
-        {
-            "type": "bongo.item",
-            "value": {
                 "item": "galosphere:salted_jerky"
             },
             "weight": 5.0
@@ -1136,7 +1128,7 @@
         {
             "type": "bongo.item",
             "value": {
-                "item": "galosphere:silver_bomb"
+                "item": "galosphere:palladium_bomb"
             },
             "weight": 10
         },
@@ -1254,6 +1246,77 @@
                 "item": "irons_spellbooks:druidic_spell_book"
             },
             "weight": 3
+        },
+        {
+            "type": "bongo.entity",
+            "value": "rottencreatures:burned",
+            "weight": 3
+        },
+        {
+            "type": "bongo.entity",
+            "value": "rottencreatures:swampy",
+            "weight": 3
+        },
+        {
+            "type": "bongo.entity",
+            "value": "rottencreatures:undead_miner",
+            "weight": 3
+        },
+        {
+            "type": "bongo.entity",
+            "value": "rottencreatures:glacial_hunter",
+            "weight": 3
+        },
+        {
+            "type": "bongo.entity",
+            "value": "windswept:chilled",
+            "weight": 3
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "lightmanscurrency:coin_emerald",
+                        "count": 4
+                    },
+                    "weight": 5
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "lightmanscurrency:coin_emerald",
+                        "count": 8
+                    },
+                    "weight": 5
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "lightmanscurrency:coin_emerald",
+                        "count": 12
+                    },
+                    "weight": 5
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "lightmanscurrency:coin_diamond",
+                        "count": 2
+                    },
+                    "weight": 5
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "lightmanscurrency:coin_diamond",
+                        "count": 4
+                    },
+                    "weight": 5
+                }
+            ]
         }
     ]
 }
