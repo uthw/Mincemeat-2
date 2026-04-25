@@ -42,8 +42,8 @@ ServerEvents.highPriorityData((event) => {
         ],
         placement: {
             type: "minecraft:random_spread",
-            spacing: 42, // 45
-            separation: 15, // 25
+            spacing: 50, // 45
+            separation: 30, // 25
             salt: 293423488,
         },
     };
