@@ -456,7 +456,7 @@ ServerEvents.highPriorityData((event) => {
                 },
                 {
                     weight: 1,
-                    stack: { item: "spartanweaponry:silver_hammer" },
+                    stack: { item: "spartanweaponry:silver_battle_hammer" },
                 },
                 {
                     weight: 1,
