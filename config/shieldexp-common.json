@@ -5,7 +5,7 @@
   "stashingCooldown": true,
   "generalCooldown": true,
   "speedModification": true,
-  "advancedExplosions": false,
+  "advancedExplosions": true,
   "lenientParry": false,
   "lenientStamina": false,
   "tooltips": true,
@@ -14,5 +14,5 @@
   "tooltipSpeed": false,
   "tooltipParryDamage": false,
   "tooltipParryWindow": true,
-  "tooltipBlastResistance": false
+  "tooltipBlastResistance": true
 }
