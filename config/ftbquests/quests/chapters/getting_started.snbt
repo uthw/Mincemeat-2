@@ -1582,7 +1582,15 @@
 		}
 		{
 			dependencies: ["16C996E71E9BABC3"]
-			description: ["Description forthcoming."]
+			description: [
+				"Relics are special accessories which become stronger as you continue to use them. They are upgraded via Research, which is accessed by holding shift while hovering over a Relic in the inventory."
+				""
+				"Each Relic has a different effect, so while you're in the Research menu, you'll want to read what you'll get out of your specific item."
+				""
+				"When you first obtain a Relic, it will have random stats and a level of quality indicated by a rating out of 5 circles. If you're not satisfied and have enough experience, you can spend some to reroll the relic."
+				""
+				"To actually upgrade a Relic, it suffices to equip it and utilize its effect until you get an Upgrade Point, and then spend that."
+			]
 			id: "7B3D2B0D239513D7"
 			rewards: [{
 				count: 39
