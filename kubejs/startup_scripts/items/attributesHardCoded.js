@@ -210,28 +210,38 @@ let tweaks = [
         itemName: "traveloptics:charged_sands",
         attributeName: "minecraft:generic.attack_damage",
         value: 22.5, // originally 13
-    }
+    },
 ];
 
 let $AttributeModifier = Java.loadClass(
     "net.minecraft.world.entity.ai.attributes.AttributeModifier",
 );
 
+let tweakMap = {};
+
 tweaks.forEach((tweak) => {
-    let attackDamageModifier = new $AttributeModifier(
-        "133a6368-4778-4aa9-9025-fb3cba698200", // Idk if the uuid matters since we're removing the old one
+    // Precompile the attribute modifier
+    let compiledModifier = new $AttributeModifier(
+        "133a6368-4778-4aa9-9025-fb3cba698200",
         tweak.attributeName,
         tweak.value,
-        "ADDITION", // Will need to add this to the tweaks entries if we want to change the operation
+        "ADDITION",
     );
 
-    ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (event) => {
-        if (
-            event.itemStack.id == tweak.itemName &&
-            event.slotType == "mainhand" // might need to add this to the tweaks entries for future expansion too
-        ) {
-            event.removeAttribute(tweak.attributeName);
-            event.addModifier(tweak.attributeName, attackDamageModifier);
-        }
-    });
+    // Put the tweak in a map because maps are faster than arrays
+    tweakMap[tweak.itemName] = {
+        name: tweak.attributeName,
+        modifier: compiledModifier,
+    };
+});
+
+// Only one onEvent is used for performance. The old version did it for each tweak, which was making the world take ~15 seconds longer to load
+ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (event) => {
+    if (event.slotType != "mainhand") return;
+
+    let tweak = tweakMap[event.itemStack.id];
+    if (tweak) {
+        event.removeAttribute(tweak.name);
+        event.addModifier(tweak.name, tweak.modifier);
+    }
 });
