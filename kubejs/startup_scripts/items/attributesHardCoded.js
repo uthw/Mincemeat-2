@@ -19,7 +19,7 @@ let tweaks = [
     {
         itemName: "cataclysm:the_incinerator",
         attributeName: "minecraft:generic.attack_damage",
-        value: 23,
+        value: 27,
     },
     {
         itemName: "cataclysm:the_annihilator",
@@ -135,6 +135,81 @@ let tweaks = [
         itemName: "malum:tyrving",
         attributeName: "minecraft:generic.attack_damage",
         value: 10,
+    },
+    {
+        itemName: "cataclysm:astrape",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 14.5, // originally 9.5
+    },
+    {
+        itemName: "cataclysm:ceraunus",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 29, // originally 15
+    },
+    {
+        itemName: "traveloptics:stellothorn",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 54, // originally 21
+    },
+    {
+        itemName: "traveloptics:trident_of_the_eternal_maelstrom",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 24, // originally 14
+    },
+    {
+        itemName: "traveloptics:gauntlet_of_extinction",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 25, // originally 15
+    },
+    {
+        itemName: "traveloptics:abyssal_tidecaller",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 31, // originally 21
+    },
+    {
+        itemName: "traveloptics:the_obliterator",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 21, // originally 14
+    },
+    {
+        itemName: "traveloptics:cursed_wraithblade",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 25, // originally 17
+    },
+    {
+        itemName: "traveloptics:mechanized_wraithblade",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 25, // originally 17
+    },
+    {
+        itemName: "traveloptics:flames_of_eldritch",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 34, // originally 14
+    },
+    {
+        itemName: "traveloptics:scourge_of_the_sands",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 19, // originally 13
+    },
+    {
+        itemName: "traveloptics:thorns_of_oblivion",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 19, // originally 13
+    },
+    {
+        itemName: "traveloptics:voidstrike_reaper",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 49, // originally 19
+    },
+    {
+        itemName: "traveloptics:infernal_devastator",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 24, // originally 16
+    },
+    {
+        itemName: "traveloptics:charged_sands",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 22.5, // originally 13
     }
 ];
 
