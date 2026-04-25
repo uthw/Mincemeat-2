@@ -5377,6 +5377,21 @@
 					to_observe: "endergetic:ender_fire"
 					type: "observation"
 				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "infernalexp:block/glowlight_fire_0"
+						}
+					}
+					id: "7639CD7A66AF72EB"
+					observe_type: 0
+					timer: 0L
+					title: "Glowlight Fire"
+					to_observe: "infernalexp:glowlight_fire"
+					type: "observation"
+				}
 			]
 			title: "The Fire Whisperer"
 			x: 12.5d
@@ -7509,32 +7524,6 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "4C84C221D3E4F787"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "irons_spellbooks:scroll"
-						tag: {
-							ISB_Spells: {
-								data: [{
-									id: "traveloptics:cursed_blast"
-									index: 0
-								}]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 0b
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
 					id: "4E9EA1A5DEB29BAE"
 					item: {
 						Count: 1
@@ -8676,6 +8665,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "327D0C89B66338F9"
+					item: "farmersrespite:coffee_cake"
+					type: "item"
+				}
 			]
 			title: "All the Cakes"
 			x: 8.0d
@@ -9719,32 +9713,6 @@
 							ISB_Spells: {
 								data: [{
 									id: "traveloptics:tsunami"
-									index: 0
-								}]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 0b
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "500398401999A66D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "irons_spellbooks:scroll"
-						tag: {
-							ISB_Spells: {
-								data: [{
-									id: "traveloptics:tidal_slash"
 									index: 0
 								}]
 								maxSpells: 1

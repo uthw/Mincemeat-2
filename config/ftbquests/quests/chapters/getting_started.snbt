@@ -4399,12 +4399,6 @@
 			]
 			icon: "lightmanscurrency:coin_emerald"
 			id: "3A526671E42ED842"
-			rewards: [{
-				count: 15
-				id: "07C3C618A5B98E55"
-				item: "lightmanscurrency:coin_copper"
-				type: "item"
-			}]
 			subtitle: "Infinite wealth"
 			tasks: [{
 				id: "74F5450E23DD18BA"
