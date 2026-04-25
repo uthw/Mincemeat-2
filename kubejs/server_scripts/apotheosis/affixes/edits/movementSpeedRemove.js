@@ -47,7 +47,7 @@ ServerEvents.highPriorityData((event) => {
                 },
                 // attribute: "feathers:feathers.feather_regen",
                 attribute: "betterparagliders:idle_stamina_regen",
-                operation: "MULTIPLY_TOTAL",
+                operation: "ADDITION",
                 values: {
                     common: 0.1,
                     uncommon: 0.225,
@@ -116,7 +116,7 @@ ServerEvents.highPriorityData((event) => {
                 },
                 // attribute: "feathers:feathers.feather_regen",
                 attribute: "betterparagliders:idle_stamina_regen",
-                operation: "MULTIPLY_TOTAL",
+                operation: "ADDITION",
                 values: {
                     common: 0.1,
                     uncommon: 0.25,
@@ -178,7 +178,7 @@ ServerEvents.highPriorityData((event) => {
                 },
                 // attribute: "feathers:feathers.feather_regen",
                 attribute: "betterparagliders:idle_stamina_regen",
-                operation: "MULTIPLY_TOTAL",
+                operation: "ADDITION",
                 values: {
                     common: 0.05,
                     uncommon: 0.15,

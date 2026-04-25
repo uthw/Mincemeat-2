@@ -3,7 +3,7 @@ ServerEvents.highPriorityData((event) => {
         type: "apotheosis:attribute",
         // attribute: "feathers:feathers.feather_regen",
         attribute: "betterparagliders:idle_stamina_regen",
-        operation: "MULTIPLY_TOTAL",
+        operation: "ADDITION",
         values: {
             common: {
                 min: 0.05,
