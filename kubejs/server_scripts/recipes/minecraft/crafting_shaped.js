@@ -1610,12 +1610,20 @@ ServerEvents.recipes((event) => {
                 D: "minecraft:ender_eye",
             },
         ],
+        [
+            "dungeonnowloading:spawner_fragment",
+            [" A ", "ABA", " A "],
+            {
+                A: "forbidden_arcanus:darkstone",
+                B: "caverns_and_chasms:zirconia",
+            },
+        ],
     ];
 
     recipes.forEach((recipe, index) => {
         if (!Array.isArray(recipe) || recipe.length !== 3) {
             console.error(
-                `Invalid recipe at index ${index}: expected [output, pattern, mapping], got ${recipe}`
+                `Invalid recipe at index ${index}: expected [output, pattern, mapping], got ${recipe}`,
             );
             return;
         }

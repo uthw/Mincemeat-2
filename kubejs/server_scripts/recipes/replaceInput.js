@@ -593,7 +593,7 @@ ServerEvents.recipes((event) => {
             "minecraft:mushroom_stew",
             "thermal:slime_mushroom_spores",
         ],
-        [{}, "forbidden_arcanus:spawner_scrap", "paraglider:spirit_orb"],
+        [{}, "forbidden_arcanus:spawner_scrap", "dungeonnowloading:spawner_fragment"],
         [
             { output: "enderio:primitive_alloy_smelter" },
             "minecraft:deepslate",
