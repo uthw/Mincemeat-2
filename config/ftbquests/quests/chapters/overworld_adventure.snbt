@@ -159,9 +159,10 @@
 			dependencies: ["4D8E61449F85F893"]
 			id: "21D6AB95329A4EEF"
 			rewards: [{
-				id: "7C65CB1D5B64E7F1"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "384AD78AFA8E1E7F"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "More like Void Out of Season now, right?"
 			tasks: [{
@@ -219,9 +220,10 @@
 			icon: "minecells:skeleton"
 			id: "5FD7C7EDDE0E119C"
 			rewards: [{
-				id: "334BB7C32ED77C91"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6F662D851D5FA490"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Who the Wither always wanted to be"
 			tasks: [{
@@ -515,9 +517,11 @@
 			]
 			id: "00294FF7CDCA91F0"
 			rewards: [{
-				id: "4D4711C3B9B55805"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "143F01D4E03CBF18"
+				table_id: 4519848194868148161L
+				title: "Boss Reward"
+				type: "choice"
 			}]
 			subtitle: "Double the axe, double the fun"
 			tasks: [{
@@ -548,9 +552,10 @@
 			}
 			id: "3F9A7DCBF8CE1DCB"
 			rewards: [{
-				id: "7619D1539550902F"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6858E70EE9E447BA"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Cooler than a polar bear's toenails"
 			tasks: [{
@@ -610,9 +615,10 @@
 			}
 			id: "09F0100DAEDAD582"
 			rewards: [{
-				id: "0F089986D6233EAB"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1BD3D352E006B077"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Most people are not okay, but they're taking siestas in the sun"
 			tasks: [{
@@ -646,9 +652,10 @@
 			}
 			id: "6B15B902E71DC308"
 			rewards: [{
-				id: "51DEF85D6877E65C"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "5DD5992095BA6B08"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [{
 				entity: "alexscaves:forsaken"
@@ -690,9 +697,10 @@
 			icon: "cataclysm:altar_of_void"
 			id: "05765DE630B7CDC2"
 			rewards: [{
-				id: "22DE1515C3B2CA2A"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "5E2308D63BD9368D"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Call me Ishmael."
 			tasks: [{
@@ -718,9 +726,10 @@
 			}
 			id: "4C66466F73102684"
 			rewards: [{
-				id: "1BFC650C1CAECCB1"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "241EB46D3EFAA1E3"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Come forth"
 			tasks: [{
@@ -746,9 +755,10 @@
 			}
 			id: "690AAE1274B3821D"
 			rewards: [{
-				id: "585D0B46B9D01F75"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "603E049CABF1804E"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Batteries not included"
 			tasks: [{
@@ -806,9 +816,10 @@
 			}
 			id: "732BF9F02A4D0E26"
 			rewards: [{
-				id: "3C844E038C348FC4"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "03BD9587FAC9B191"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Follow Supernatural Magic for this one"
 			tasks: [{
@@ -1670,9 +1681,10 @@
 			icon: "alexscaves:immortal_embryo"
 			id: "6A8DF7B095C4D714"
 			rewards: [{
-				id: "3012DB08431C490D"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "54B10409737C2B2C"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [{
 				entity: "alexscaves:hullbreaker"
@@ -1714,9 +1726,10 @@
 			icon: "alexscaves:tectonic_shard"
 			id: "4093A51E42C29851"
 			rewards: [{
-				id: "4213B4B6B71089BA"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1AF9E0B456123FB0"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"
@@ -1907,9 +1920,10 @@
 			}
 			id: "71BD95734E41E591"
 			rewards: [{
-				id: "5E746BC171A9046A"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "62DEF37835D04345"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "The cryogenic aging didn't work so well"
 			tasks: [{
@@ -1941,14 +1955,15 @@
 			id: "34A83BB5D5DEFC82"
 			rewards: [
 				{
-					id: "5B3762CB4B335DBB"
-					item: "paraglider:heart_container"
-					type: "item"
-				}
-				{
 					id: "1A0A637ACB2AC295"
 					item: "irons_restrictions:epic_upgrade"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6669A5298E7204EC"
+					table_id: 4519848194868148161L
+					type: "choice"
 				}
 			]
 			subtitle: "Hee hee hee haw!"
@@ -2128,9 +2143,10 @@
 			icon: "meetyourfight:mossy_tooth"
 			id: "7CCAA4C36D8E088F"
 			rewards: [{
-				id: "774B8BBB2E83C0BA"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4FC58F5902C7D803"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Dead in the water (or air, in this case?)"
 			tasks: [{
@@ -2149,9 +2165,10 @@
 			icon: "meetyourfight:phantoplasm"
 			id: "4C2CB24F4BB67925"
 			rewards: [{
-				id: "09C91DE981503468"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "50EF70D19DF1CB9C"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Cabron, let me see your bells"
 			tasks: [{
@@ -2169,9 +2186,10 @@
 			icon: "meetyourfight:fortunes_favor"
 			id: "4146A3AAFACC851A"
 			rewards: [{
-				id: "1451F82B06A36682"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "42F47BC2350F9BAD"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "90% of gamblers quit before they win big"
 			tasks: [
@@ -2228,9 +2246,10 @@
 			description: [""]
 			id: "0CD34066894BD790"
 			rewards: [{
-				id: "378E6815DB0A01AC"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3C651C1F6AAC020F"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Don't get too salty about it"
 			tasks: [{
@@ -2797,9 +2816,10 @@
 			description: ["&7&oBut the sun is eclipsed by the moon"]
 			id: "4F0CB3BF8C85DACC"
 			rewards: [{
-				id: "506B9AEEC7FDFCA9"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "41446EAF05886F85"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Everything under the sun is in tune"
 			tasks: [{
@@ -3048,9 +3068,10 @@
 			dependencies: ["52703C0374BD3492"]
 			id: "6DF9E50004A7AE0C"
 			rewards: [{
-				id: "67977054C89720F2"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4442F0E34D47E922"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Float down the Liffey"
 			tasks: [{
@@ -3146,14 +3167,15 @@
 			id: "5EE95A37004F9F6A"
 			rewards: [
 				{
-					id: "3F44D86043B53106"
-					item: "paraglider:heart_container"
-					type: "item"
-				}
-				{
 					id: "30D907E5BA2B3249"
 					item: "enigmaticlegacy:ichor_bottle"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3628A114F37C1DCA"
+					table_id: 4519848194868148161L
+					type: "choice"
 				}
 			]
 			subtitle: "Ice breakers aren't worth it"
@@ -4082,27 +4104,12 @@
 		{
 			dependencies: ["4D4F147344834529"]
 			id: "48D4BF288D59E907"
-			rewards: [
-				{
-					count: 2
-					id: "1C7F931BDF675302"
-					item: "lightmanscurrency:coin_iron"
-					type: "item"
-				}
-				{
-					id: "03EC3819ED3FEF24"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "paraglider:heart_container"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57B87FDB1F9F174E"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "49A8050B8FB98BE1"
 				item: {
@@ -4561,17 +4568,10 @@
 			dependencies: ["3E621D62739D71C4"]
 			id: "45F0109FB953866E"
 			rewards: [{
-				id: "312D6CC29711AB6F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "paraglider:heart_container"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2CEB45AA36A3B104"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [{
 				entity: "cataclysm:scylla"
@@ -4763,7 +4763,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["2CE05682A977332C"]
+			dependencies: ["1FB1BEE61B700A79"]
 			description: ["Here are some more options for flamethrowers, but shader friendly this time. Make the soul scorcher if you don't want to set fire to the world."]
 			id: "2B6A97F338C41000"
 			rewards: [{
@@ -4805,10 +4805,10 @@
 			}]
 			title: "Scorcher/Soul Scorcher"
 			x: 5.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["2CE05682A977332C"]
+			dependencies: ["1FB1BEE61B700A79"]
 			id: "6703A99C4A72EF71"
 			rewards: [{
 				count: 2
@@ -4829,7 +4829,35 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2CE05682A977332C"]
+			icon: "dungeonnowloading:temple_of_duality_trophy"
+			id: "1FB1BEE61B700A79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22D2E7897DBF63F5"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					entity: "dungeonnowloading:fairkeeper_boros"
+					id: "1E92A7EFF6E1DD9D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "dungeonnowloading:fairkeeper_ouros"
+					id: "2BD5732D96698F29"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Fairkeeper Ouros and Boros"
+			x: 6.0d
+			y: -4.0d
 		}
 	]
 	title: "Overworld Adventure"

@@ -972,32 +972,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3571CB6136F6E3EB"]
-			description: [
-				"Obtain &5Spirit Orbs&r by breaking &eSpawners&r in structures like dungeons underground."
-				""
-				"Four can be exchanged for a &2stamina vessel&r in villages. Look for the small stone statue."
-				""
-				"By crafting four with five &cheart crystals&r from Scaling Health (which drop from more powerful mobs), you can make a &cHeart&c Container&r&r."
-			]
-			id: "649F0F57EC7E387E"
-			rewards: [{
-				count: 11
-				id: "17B93DC454D91979"
-				item: "lightmanscurrency:coin_copper"
-				type: "item"
-			}]
-			subtitle: "Turn that orange into blue"
-			tasks: [{
-				count: 4L
-				id: "7AD134D30B2E9839"
-				item: "paraglider:spirit_orb"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["0A6DBC786BCF967E"]
 			description: [
 				"A fun and practical form of transportation. It can be upgraded for various use cases. It may be a good idea to carry multiple grappling hooks, each with different upgrades, at a time to fit your scenario."
@@ -2630,8 +2604,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["649F0F57EC7E387E"]
-			description: ["Heart Containers are rewards for defeating major bosses. When you complete a quest for such a boss (for example, the Ferrous Wroughtnaut), be sure to claim it in the rewards section."]
+			dependencies: ["3571CB6136F6E3EB"]
+			description: ["When you defeat a major boss, you will be offered the choice between a Heart Container or Stamina Vessel. When you complete a quest for such a boss (for example, the Ferrous Wroughtnaut), be sure to claim it in the rewards section."]
 			id: "5D629B3D9A8495D4"
 			rewards: [
 				{
@@ -2647,11 +2621,27 @@
 				}
 			]
 			tasks: [{
-				id: "0D72F2BA832D04C5"
-				item: "paraglider:heart_container"
+				id: "53A068C3DDD13A38"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "paraglider:heart_container"
+							}
+							{
+								Count: 1b
+								id: "paraglider:stamina_vessel"
+							}
+						]
+					}
+				}
+				title: "Heart Container or Stamina Vessel"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -2749,61 +2739,6 @@
 			title: "Botany Pot"
 			x: -7.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["649F0F57EC7E387E"]
-			description: [
-				"Convert &dspirit orbs&r into &astamina upgrades&r."
-				""
-				"Goddess statues also boost &aeterna&r, &5arcana&r, and &erectification&r significantly while taking up less space than bookshelves."
-			]
-			icon: "paraglider:goddess_statue"
-			id: "1BB40176C79A18D0"
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "paraglider:goddess_statue"
-				}
-				id: "6C2787380F6BF16D"
-				observe_type: 1
-				timer: 0L
-				to_observe: "paraglider:statues"
-				type: "observation"
-			}]
-			title: "Goddess Statue"
-			x: -6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1BB40176C79A18D0"]
-			icon: "paraglider:horned_statue"
-			id: "77058380D7029C96"
-			invisible: true
-			optional: true
-			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "paraglider:horned_statue"
-				}
-				id: "772C1A98C08FBF3B"
-				observe_type: 0
-				timer: 0L
-				to_observe: "paraglider:horned_statue"
-				type: "observation"
-			}]
-			title: "Horned Statue"
-			x: -8.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["51A20901B9871737"]

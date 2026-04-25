@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
                 "minecraft:nautilus_shell",
                 "caverns_and_chasms:necromium_nugget",
                 "eidolon:zombie_heart",
-                "paraglider:spirit_orb",
+                "dungeonnowloading:spawner_fragment",
                 "cataclysm:coral_chunk",
             ],
         ],

@@ -82,8 +82,8 @@ ServerEvents.recipes((event) => {
             output: "scalinghealth:enchanted_heart",
             reagent: "forbidden_arcanus:rune",
             inputs: [
-                "paraglider:spirit_orb",
-                "paraglider:spirit_orb",
+                "dungeonnowloading:spawner_fragment",
+                "dungeonnowloading:spawner_fragment",
                 "forbidden_arcanus:arcane_crystal_dust",
                 "forbidden_arcanus:arcane_crystal_dust",
             ],
@@ -92,18 +92,15 @@ ServerEvents.recipes((event) => {
             output: "scalinghealth:cursed_heart",
             reagent: "forbidden_arcanus:dark_rune",
             inputs: [
-                "paraglider:spirit_orb",
-                "paraglider:spirit_orb",
+                "dungeonnowloading:spawner_fragment",
+                "dungeonnowloading:spawner_fragment",
                 "iceandfire:ectoplasm",
                 "iceandfire:ectoplasm",
             ],
         },
         {
             output: "reliquary:angelheart_vial",
-            reagent: Item.of(
-                "minecraft:potion",
-                '{Potion:"ars_nouveau:shielding_potion"}'
-            ),
+            reagent: Item.of("minecraft:potion", '{Potion:"ars_nouveau:shielding_potion"}'),
             inputs: [
                 "forbidden_arcanus:golden_feather",
                 "forbidden_arcanus:golden_feather",
@@ -130,11 +127,7 @@ ServerEvents.recipes((event) => {
         {
             output: "enigmaticlegacy:mega_sponge",
             reagent: "enigmaticlegacy:unholy_grail",
-            inputs: [
-                "alexscaves:ping_pong_sponge",
-                "minecells:blank_rune",
-                "reliquary:squid_beak",
-            ],
+            inputs: ["alexscaves:ping_pong_sponge", "minecells:blank_rune", "reliquary:squid_beak"],
         },
         {
             output: "reliquary:magicbane",
@@ -203,7 +196,7 @@ ServerEvents.recipes((event) => {
             reagent: "minecraft:gold_ingot",
             inputs: [
                 "create:asurine",
-                "paraglider:spirit_orb",
+                "thermal:cinnabar",
                 "caverns_and_chasms:necromium_ingot",
                 "rubinated_nether:ruby",
             ],
@@ -281,11 +274,7 @@ ServerEvents.recipes((event) => {
         {
             output: "actuallyadditions:coffee_beans",
             reagent: "neapolitan:adzuki_beans",
-            inputs: [
-                "minecraft:cocoa_beans",
-                "minecraft:blaze_powder",
-                "thermal:basalz_powder",
-            ],
+            inputs: ["minecraft:cocoa_beans", "minecraft:blaze_powder", "thermal:basalz_powder"],
         },
         {
             output: "integrateddynamics:menril_sapling",
@@ -303,7 +292,7 @@ ServerEvents.recipes((event) => {
                 "alexscaves:cycad",
                 "alexscaves:cycad",
             ],
-        }
+        },
     ];
 
     recipes.forEach((recipe) => {

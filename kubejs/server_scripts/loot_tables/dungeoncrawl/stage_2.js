@@ -15,13 +15,12 @@ LootJS.modifiers((event) => {
             [Item.of("irons_spellbooks:silver_ring").withChance(100)]
         );
 
-    // paraglider:spirit_orb
     event
         .addLootTableModifier("dungeoncrawl:chests/stage_2")
         .randomChance(0.06)
         .addWeightedLoot(
             [1, 4],
-            [Item.of("paraglider:spirit_orb").withChance(100)]
+            [Item.of("forbidden_arcanus:arcane_crystal").withChance(100)]
         );
 
     // iceandfire:ectoplasm

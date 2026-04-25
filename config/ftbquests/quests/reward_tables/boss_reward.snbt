@@ -1,0 +1,11 @@
+{
+	id: "3EB9B9FC6DCE77C1"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "paraglider:heart_container" }
+		{ item: "paraglider:stamina_vessel" }
+	]
+	title: "Boss Reward"
+	use_title: true
+}

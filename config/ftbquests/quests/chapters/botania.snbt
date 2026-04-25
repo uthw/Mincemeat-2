@@ -1106,9 +1106,10 @@
 					type: "item"
 				}
 				{
-					id: "6805D15245E9CD16"
-					item: "paraglider:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "18F8210E25252BD0"
+					table_id: 4519848194868148161L
+					type: "choice"
 				}
 			]
 			subtitle: "Dropped by Gaia Guardian"

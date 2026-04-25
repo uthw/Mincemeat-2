@@ -121,9 +121,10 @@
 			dependencies: ["792A8A1D64F2208D"]
 			id: "7179EC83E4723D95"
 			rewards: [{
-				id: "5D479C0FCCBEF98A"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "112D67CACEA51C9F"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Found in large Nature Dungeons rarely found in the Everbright"
 			tasks: [{
@@ -149,9 +150,10 @@
 			description: ["A shield may be useful in blocking its attacks."]
 			id: "354079B354E82E4E"
 			rewards: [{
-				id: "4CE0171C674FDBF7"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "267F64B6EEBE405E"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Found in Poison Dungeons deep underground in the Everdawn"
 			tasks: [{
@@ -407,9 +409,10 @@
 			}
 			id: "00D6D925A67CDC78"
 			rewards: [{
-				id: "0F7B395A57E72316"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3258DC2F444CF4F8"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [
 				{
@@ -494,14 +497,15 @@
 					type: "gamestage"
 				}
 				{
-					id: "0CF42BDE4F4EE010"
-					item: "paraglider:heart_container"
-					type: "item"
-				}
-				{
 					id: "2067947454CAFA5F"
 					item: "enigmaticlegacy:ichor_bottle"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BDCDDF585DF5A7C"
+					table_id: 4519848194868148161L
+					type: "choice"
 				}
 			]
 			tasks: [
@@ -585,15 +589,7 @@
 		{
 			dependencies: ["086E8054D516AFF4"]
 			description: ["This is not every structure you can find in the Nether. You can also find familiar overworld structure variants here, but they're not covered by this quest."]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "nethersdelight:propelplant_cane"
-			}
+			icon: "mynethersdelight:powder_cannon"
 			id: "70795731019BA757"
 			rewards: [{
 				count: 7
@@ -659,9 +655,10 @@
 					type: "gamestage"
 				}
 				{
-					id: "647D30F09F7A93BF"
-					item: "paraglider:heart_container"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3E5E97F542BB907A"
+					table_id: 4519848194868148161L
+					type: "choice"
 				}
 			]
 			subtitle: "and kill the Netherite Monstrosity"
@@ -780,9 +777,10 @@
 			}
 			id: "44F41502DDB1A529"
 			rewards: [{
-				id: "66543F7B2D618AB6"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "26621AF6A447E38F"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "&4&oI am Ignis, blade of Miquella."
 			tasks: [
@@ -884,9 +882,10 @@
 			icon: "aether:bronze_dungeon_key"
 			id: "125D0F9B857A3775"
 			rewards: [{
-				id: "366287D3F6066093"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6133EDAFFBE44A62"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "You must be strong. And pretty fast. Fast enough to beat me... Koopa the Quick?"
 			tasks: [{
@@ -1006,9 +1005,10 @@
 			icon: "aether:silver_dungeon_key"
 			id: "0FE391A15589A3C7"
 			rewards: [{
-				id: "01DCF812BAD96E29"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3F2BA0811CED4D29"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [{
 				entity: "aether:valkyrie_queen"
@@ -1051,9 +1051,10 @@
 			icon: "aether:gold_dungeon_key"
 			id: "2C47A12A20C50CE6"
 			rewards: [{
-				id: "43DCB5BEB8612892"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "7972740D8F9E3478"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "Don't fly too close to it"
 			tasks: [{
@@ -1207,9 +1208,10 @@
 			icon: "lost_aether_content:platinum_key"
 			id: "1BA05933619C6884"
 			rewards: [{
-				id: "130A6959DB00107B"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "35406B545435286B"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "The final boss of the Aether"
 			tasks: [
@@ -1237,9 +1239,10 @@
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "1DEE7C3ED8858245"
 			rewards: [{
-				id: "4D7B26BFB87CCC4D"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3551055894ADFB05"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [
 				{
@@ -1306,6 +1309,12 @@
 				id: "minecraft:wither_skeleton_skull"
 			}
 			id: "080F3639CF9971BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B76505F7F1D8217"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "0FB7A3F9990809BC"
@@ -1436,8 +1445,15 @@
 			dependencies: ["112C59D69077AED4"]
 			icon: "minecraft:dragon_egg"
 			id: "20B6859C7A0C1D09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B23433D30D166B3"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
 				id: "364CBD17846C1509"
 				type: "kill"
 				value: 1L
@@ -1452,9 +1468,10 @@
 			icon: "bosses_of_mass_destruction:obsidian_heart"
 			id: "283CD42DB879C756"
 			rewards: [{
-				id: "7A346ED16339D45C"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4709E033D8C4F50F"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [
 				{
@@ -1488,9 +1505,10 @@
 			icon: "cataclysm:void_core"
 			id: "70E9EE74EE5A5D7F"
 			rewards: [{
-				id: "73A9DA321D34109E"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1E263F4DF5D67524"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			tasks: [
 				{
@@ -1560,9 +1578,10 @@
 			]
 			id: "72E1C3F859844F04"
 			rewards: [{
-				id: "2313B792D62A8F59"
-				item: "paraglider:heart_container"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2BDC7D578C6BF66A"
+				table_id: 4519848194868148161L
+				type: "choice"
 			}]
 			subtitle: "A GOD DOES NOT FEAR DEATH!"
 			tasks: [{
@@ -2331,19 +2350,6 @@
 			dependencies: ["170B3DD645FA3EAE"]
 			description: [""]
 			id: "72FD5A88433039F9"
-			rewards: [{
-				id: "1B3AFD36B049FACF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "paraglider:heart_container"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				entity: "deep_aether:eots_controller"
 				icon: {
@@ -2478,6 +2484,12 @@
 		{
 			dependencies: ["4A534475AE962F18"]
 			id: "3C64DA5B6BB4C78A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "513789F703A25113"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
 			subtitle: "Sorry, you'll have to look elsewhere to romance Nightwardens"
 			tasks: [{
 				entity: "traveloptics:the_nightwarden"
@@ -2591,14 +2603,15 @@
 			id: "49E8090E1AA53E7F"
 			rewards: [
 				{
-					id: "4B1BD3569D87EA7E"
-					item: "paraglider:heart_container"
-					type: "item"
-				}
-				{
 					id: "60B4F39A7AF802F1"
 					item: "irons_restrictions:legendary_upgrade"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0901EE82714D31A5"
+					table_id: 4519848194868148161L
+					type: "choice"
 				}
 			]
 			subtitle: "This boss has the longest name of any mob in Mincemeat"

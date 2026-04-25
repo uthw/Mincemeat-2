@@ -95,14 +95,6 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "paraglider:heart_container",
-            ["ABA", "BAB", "ABA"],
-            {
-                A: "scalinghealth:heart_crystal",
-                B: "paraglider:spirit_orb",
-            },
-        ],
-        [
             "sophisticatedbackpacks:pickup_upgrade",
             [" A ", "BCB", "DED"],
             {
@@ -210,7 +202,7 @@ ServerEvents.recipes((event) => {
             ["ABA", "BCB", "ABA"],
             {
                 A: "#forge:ingots/tin",
-                B: "paraglider:spirit_orb",
+                B: "farmersdelight:canvas",
                 C: "#forge:leather",
             },
         ],
@@ -1387,14 +1379,6 @@ ServerEvents.recipes((event) => {
                 C: "thermal:rf_coil",
                 D: "#forge:ingots/pewter",
                 E: "createaddition:capacitor",
-            },
-        ],
-        [
-            "dungeonnowloading:spawner_fragment",
-            [" A ", "ABA", " A "],
-            {
-                A: "forbidden_arcanus:darkstone",
-                B: "paraglider:spirit_orb",
             },
         ],
         [

@@ -181,7 +181,6 @@
 		{ item: "majruszsaccessories:reverse_card" }
 		{ item: "majruszsaccessories:dice", weight: 0.5f }
 		{ item: "majruszsaccessories:owl_feather", weight: 0.5f }
-		{ item: "paraglider:stamina_vessel" }
 		{
 			item: {
 				Count: 1

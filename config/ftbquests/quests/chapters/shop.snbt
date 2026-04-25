@@ -927,6 +927,45 @@
 			x: 5.0d
 			y: -2.0d
 		}
+		{
+			description: [
+				"Did you accidentally choose the wrong upgrade as your boss reward, or realize you've hit the limit on that upgrade?"
+				""
+				"Then, you can use this quest to swap it out for the other."
+			]
+			id: "0CB83266473448BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "575EEA42AEEAB1DF"
+				table_id: 4519848194868148161L
+				title: "Choice"
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5E0EB57218F8F293"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "paraglider:heart_container"
+							}
+							{
+								Count: 1b
+								id: "paraglider:stamina_vessel"
+							}
+						]
+					}
+				}
+				title: "Heart Container or Stamina Vessel"
+				type: "item"
+			}]
+			title: "Health/Stamina Upgrade Exchange"
+			x: 7.0d
+			y: -4.0d
+		}
 	]
 	title: "Shop"
 }

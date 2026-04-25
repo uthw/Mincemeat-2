@@ -1213,7 +1213,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "forbidden_arcanus:rune",
                 "3x ars_nouveau:source_gem_block",
-                "4x paraglider:spirit_orb",
+                "4x forbidden_arcanus:arcane_crystal",
             ],
             enchantment: "apotheosis:capturing",
             level: 1,
@@ -1223,7 +1223,7 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "forbidden_arcanus:rune",
                 "2x ars_nouveau:source_gem_block",
-                "5x paraglider:spirit_orb",
+                "5x forbidden_arcanus:arcane_crystal",
             ],
             enchantment: "apotheosis:capturing",
             level: 2,
@@ -1233,45 +1233,45 @@ ServerEvents.recipes((event) => {
             inputs: [
                 "2x forbidden_arcanus:rune",
                 "ars_nouveau:source_gem_block",
-                "5x paraglider:spirit_orb",
+                "5x forbidden_arcanus:arcane_crystal",
             ],
             enchantment: "apotheosis:capturing",
             level: 3,
             sourceCost: 10000,
         },
-        {
-            inputs: [
-                "ars_nouveau:air_essence",
-                "forbidden_arcanus:arcane_crystal_block",
-                "2x paraglider:spirit_orb",
-                "2x farmersdelight:apple_pie_slice",
-            ],
-            enchantment: "feathers:lightweight",
-            level: 1,
-            sourceCost: 2000,
-        },
-        {
-            inputs: [
-                "ars_nouveau:air_essence",
-                "forbidden_arcanus:arcane_crystal_block",
-                "3x paraglider:spirit_orb",
-                "3x farmersdelight:apple_pie_slice",
-            ],
-            enchantment: "feathers:lightweight",
-            level: 2,
-            sourceCost: 3500,
-        },
-        {
-            inputs: [
-                "ars_nouveau:air_essence",
-                "2x forbidden_arcanus:arcane_crystal_block",
-                "3x paraglider:spirit_orb",
-                "2x farmersdelight:apple_pie_slice",
-            ],
-            enchantment: "feathers:lightweight",
-            level: 3,
-            sourceCost: 6000,
-        },
+        // {
+        //     inputs: [
+        //         "ars_nouveau:air_essence",
+        //         "forbidden_arcanus:arcane_crystal_block",
+        //         "2x thermal:cinnabar",
+        //         "2x farmersdelight:apple_pie_slice",
+        //     ],
+        //     enchantment: "feathers:lightweight",
+        //     level: 1,
+        //     sourceCost: 2000,
+        // },
+        // {
+        //     inputs: [
+        //         "ars_nouveau:air_essence",
+        //         "forbidden_arcanus:arcane_crystal_block",
+        //         "3x thermal:cinnabar",
+        //         "3x farmersdelight:apple_pie_slice",
+        //     ],
+        //     enchantment: "feathers:lightweight",
+        //     level: 2,
+        //     sourceCost: 3500,
+        // },
+        // {
+        //     inputs: [
+        //         "ars_nouveau:air_essence",
+        //         "2x forbidden_arcanus:arcane_crystal_block",
+        //         "3x paraglider:spirit_orb",
+        //         "2x farmersdelight:apple_pie_slice",
+        //     ],
+        //     enchantment: "feathers:lightweight",
+        //     level: 3,
+        //     sourceCost: 6000,
+        // },
         // {
         //     inputs: [
         //         "forbidden_arcanus:xpetrified_orb",
