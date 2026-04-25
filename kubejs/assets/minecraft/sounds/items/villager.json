@@ -1,0 +1,5 @@
+{
+    "keys": ["easy_villagers:villager"],
+    "soundEvent": "minecraft:entity.villager.trade",
+    "pitch": 1
+}

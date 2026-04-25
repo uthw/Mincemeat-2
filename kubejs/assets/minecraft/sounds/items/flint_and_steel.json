@@ -2,7 +2,8 @@
     "keys": [
         "minecraft:flint_and_steel",
         "blue_skies:zeal_lighter",
-        "#mincemeat:sounds/flint_and_steel"
+        "#mincemeat:flint_and_steel",
+        "minecells:firebrands"
     ],
     "soundEvent": "minecraft:item.flintandsteel.use"
 }

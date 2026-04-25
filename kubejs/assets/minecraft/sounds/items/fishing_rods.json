@@ -1,4 +1,12 @@
 {
-    "keys": ["minecraft:fishing_rod", "#forge:tools/fishing_rods"],
+    "keys": [
+        "minecraft:fishing_rod",
+        "#forge:tools/fishing_rods",
+        "#mincemeat:fishing_rods",
+        "aquaculture:gold_fishing_rod",
+        "aquaculture:iron_fishing_rod",
+        "aquaculture:neptunium_fishing_rod",
+        "aquaculture:diamond_fishing_rod"
+    ],
     "soundEvent": "minecraft:block.pointed_dripstone.drip_water_into_cauldron"
 }

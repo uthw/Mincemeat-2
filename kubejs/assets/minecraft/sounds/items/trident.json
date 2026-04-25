@@ -1,4 +1,15 @@
 {
-    "keys": ["minecraft:trident", "#mincemeat:sounds/trident"],
+    "keys": [
+        "minecraft:trident",
+        "#mincemeat:trident",
+        "iceandfire:tide_trident_inventory",
+        "iceandfire:tide_trident",
+        "traveloptics:trident_of_the_eternal_maelstrom_level_two",
+        "traveloptics:trident_of_the_eternal_maelstrom_level_one",
+        "apotheosis:inert_trident",
+        "traveloptics:trident_of_the_eternal_maelstrom",
+        "industrialforegoing:infinity_trident",
+        "traveloptics:trident_of_the_eternal_maelstrom_level_three"
+    ],
     "soundEvent": "minecraft:item.trident.hit"
 }
