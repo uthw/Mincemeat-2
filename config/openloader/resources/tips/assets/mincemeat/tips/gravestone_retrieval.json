@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Enigmatic Graves Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can retrieve your belongings from your gravestone by right clicking or sneaking over it."
+    }
+}

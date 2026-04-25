@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Paragliders Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "In the early game, it may be more beneficial to invest in stamina vessels rather than heart containers, since there are many sources of maximum health but no other sources of maximum stamina."
+    }
+}

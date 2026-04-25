@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "If you like this modpack, you can star its GitHub repository, which is accessible from the main menu. If you don't like the modpack, don't star the repository since that may cause other people to try the modpack and be disappointed by it."
+    }
+}

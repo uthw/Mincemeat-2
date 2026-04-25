@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Just Enough Items Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can shift + left-click items in JEI to try to craft them."
+    }
+}

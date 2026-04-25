@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Environmental Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Pinecone Golems are created by placing a carved pumpkin on top of a pinecone block. They automatically plant saplings on nearby land."
+    }
+}

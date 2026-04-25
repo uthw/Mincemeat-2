@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Weighted Ejectors launch input items towards a specific location. They are not affected by item magnets like the Magnetic Ring."
+    }
+}

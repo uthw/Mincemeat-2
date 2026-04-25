@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Enigmatic Graves Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "All of your hard-earned XP is safely stored in your gravestone when you die, so don't worry about it being gone forever."
+    }
+}

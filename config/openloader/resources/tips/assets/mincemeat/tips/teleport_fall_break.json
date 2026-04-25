@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Iron's Spellbooks Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "Spells like Teleport and Blink can break your fall if you cast them while looking directly up, but keep in mind there are many better ways of doing so."
+    }
+}

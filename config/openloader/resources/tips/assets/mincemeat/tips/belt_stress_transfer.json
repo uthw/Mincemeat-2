@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Mechanical Belts are a good way of transferring stress perpendicular to a shaft."
+    }
+}
