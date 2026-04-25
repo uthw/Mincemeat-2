@@ -168,6 +168,22 @@ JEIEvents.information((event) => {
             item: "#farmersrespite:tea_leaves",
             desc: "Grow in the wild in swamps and similar biomes.",
         },
+        {
+            item: "malum:rotting_essence",
+            desc: "Dropped by zombies killed by spirit-harvesting weapons."
+        },
+        {
+            item: "malum:grim_talc",
+            desc: "Dropped by skeletons killed by spirit-harvesting weapons."
+        },
+        {
+            item: "malum:warp_flux",
+            desc: "Dropped by endermen killed by spirit-harvesting weapons."
+        },
+        {
+            item: "malum:astral_weave",
+            desc: "Dropped by phantoms killed by spirit-harvesting weapons."
+        }
     ];
 
     additions.forEach((addition) => {

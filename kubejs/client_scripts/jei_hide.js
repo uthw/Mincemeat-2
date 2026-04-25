@@ -74,6 +74,15 @@ JEIEvents.hideItems((event) => {
         "iceandfire:copper_pickaxe",
         "iceandfire:copper_hoe",
         "iceandfire:copper_axe",
+        // I am hiding these because it seems like they are meant to be secrets and leaving them viewable could ruin the fun
+        "starcatcher:drifting_waterlogged_bottle",
+        "starcatcher:scalding_bottle",
+        "starcatcher:burning_bottle",
+        "starcatcher:hopeful_bottle",
+        "starcatcher:hopeless_bottle",
+        "starcatcher:true_blue_bottle",
+        "starcatcher:withered_bottle",
+        "starcatcher:waterlogged_bottle"
     ];
 
     items.forEach((item) => {
