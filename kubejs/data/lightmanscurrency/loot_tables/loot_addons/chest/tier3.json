@@ -17,52 +17,36 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 15.0,
-                                "min": 5.0
+                                "max": 20.0,
+                                "min": 10.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "tier": 1,
+                    "weight": 50
+                },
+                {
+                    "type": "lightmanscurrency:configured_item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 3.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
                     "tier": 2,
-                    "weight": 70
-                },
-                {
-                    "type": "lightmanscurrency:configured_item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "tier": 3,
-                    "weight": 25
-                },
-                {
-                    "type": "lightmanscurrency:configured_item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "tier": 4,
-                    "weight": 5
+                    "weight": 50
                 }
             ],
             "rolls": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 2.0,
+                "min": 1.0
             }
         }
     ],

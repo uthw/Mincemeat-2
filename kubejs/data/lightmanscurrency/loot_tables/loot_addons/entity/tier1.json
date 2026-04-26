@@ -4,7 +4,7 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "chance": 0.5,
+                    "chance": 0.6,
                     "condition": "minecraft:random_chance_with_looting",
                     "looting_multiplier": 0.02
                 }
@@ -17,7 +17,7 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 3.0,
+                                "max": 4.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"

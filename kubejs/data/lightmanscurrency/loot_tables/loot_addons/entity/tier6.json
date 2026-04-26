@@ -4,7 +4,43 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "chance": 0.3,
+                    "chance": 0.8,
+                    "condition": "minecraft:random_chance_with_looting",
+                    "looting_multiplier": 0.02
+                }
+            ],
+            "entries": [
+                {
+                    "type": "lightmanscurrency:configured_item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 4.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
+                        }
+                    ],
+                    "tier": 3
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "chance": 0.4,
                     "condition": "minecraft:random_chance_with_looting",
                     "looting_multiplier": 0.05
                 }
@@ -17,7 +53,7 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 2.0,
+                                "max": 3.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"
@@ -31,7 +67,7 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "tier": 5
+                    "tier": 4
                 }
             ],
             "rolls": 1.0
@@ -40,7 +76,7 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "chance": 0.02,
+                    "chance": 0.05,
                     "condition": "minecraft:random_chance_with_looting",
                     "looting_multiplier": 0.01
                 }
@@ -67,7 +103,7 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "tier": 6
+                    "tier": 5
                 }
             ],
             "rolls": 1.0
