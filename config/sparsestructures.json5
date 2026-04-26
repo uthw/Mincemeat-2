@@ -182,6 +182,10 @@
     {
       "structure": "mowziesmobs:monastery",
       "factor": 2.25
+    },
+    {
+      "structure": "idas:ars_nouveau/archmages_tower",
+      "factor": 1.8
     }
     // add the structures you want to modify in the format:
     // {
