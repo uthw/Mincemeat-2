@@ -9,5 +9,5 @@
 	#Whether feathers freeze in cold biomes. If they do, they don't regenerate until in a different biome
 	"Enable Frost In Cold Biomes" = false
 	#Whether the Lightweight enchantment can be enhanted in an enchantment table, or if it is treasure only.
-	"Enable Lightweight Enchantment in Table" = true
+	"Enable Lightweight Enchantment in Table" = false
 
