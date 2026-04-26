@@ -263,6 +263,7 @@
 		}
 		{
 			id: "62F2E5BC15EE67FE"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "68AFF90609915A33"
@@ -281,6 +282,7 @@
 		}
 		{
 			id: "4CAC0548803144B7"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47F7F5811F493992"
@@ -513,12 +515,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 3L
+				count: 12L
 				id: "13B7793B5C0765F9"
-				item: { Count: 3, id: "lightmanscurrency:coin_gold" }
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Potion of Recall (3 Gold)"
+			title: "Potion of Recall (12 Gold)"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -531,12 +533,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 9L
+				count: 36L
 				id: "04A7CE44E1DE6917"
-				item: { Count: 9, id: "lightmanscurrency:coin_gold" }
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Warp Scroll (9 Gold)"
+			title: "Warp Scroll (36 Gold)"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -638,7 +640,7 @@
 				type: "checkmark"
 			}]
 			title: "Redeem Quest Books"
-			x: 7.0d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -862,7 +864,7 @@
 				type: "checkmark"
 			}]
 			title: "Redeem Eccentric Tomes"
-			x: 6.0d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -913,7 +915,7 @@
 				title: "Redeem Holospheres"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -953,7 +955,7 @@
 			}]
 			title: "Health/Stamina Upgrade Exchange"
 			x: 7.0d
-			y: -4.0d
+			y: -2.0d
 		}
 	]
 	title: "Shop"
