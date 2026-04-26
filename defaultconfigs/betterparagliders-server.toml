@@ -5,10 +5,10 @@
 	melee_stamina_consumption = 1.0
 	#How much more/less stamina is consumed from two handed attacks  (multiplied onto the base amount).
 	#Range: 0.0 ~ 10.0
-	two_handed_stamina_consumption = 1.5
+	two_handed_stamina_consumption = 2.0
 	#How much more/less stamina is consumed from one handed attacks (multiplied onto the base amount).
 	#Range: 0.0 ~ 10.0
-	one_handed_stamina_consumption = 2.0
+	one_handed_stamina_consumption = 2.5
 	#The base amount of stamina a range attack will cost.
 	#Range: 0.0 ~ 10.0
 	ranged_stamina_consumption = 5.0
