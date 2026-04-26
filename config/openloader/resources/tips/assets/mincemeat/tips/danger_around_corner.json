@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "gold"
+    },
+    "tip": {
+        "text": "Danger is around the corner. Therefore, you should avoid all corners."
+    }
+}
