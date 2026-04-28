@@ -2182,12 +2182,6 @@
 			disable_toast: true
 			icon: "artifacts:mimic_spawn_egg"
 			id: "1A04B7AF864F4CE9"
-			rewards: [{
-				count: 2
-				id: "39DFFFB48EA3EC6C"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
@@ -3497,7 +3491,7 @@
 							}
 						}
 					}
-					title: "Gem of the earth"
+					title: "Gem of the Earth"
 					type: "item"
 				}
 				{
@@ -3511,7 +3505,7 @@
 							}
 						}
 					}
-					title: "Gem of the royal family"
+					title: "Gem of the Royal Family"
 					type: "item"
 				}
 				{
@@ -3571,15 +3565,6 @@
 					type: "item"
 				}
 				{
-					disable_toast: true
-					icon: "irons_spellbooks:invisibility_ring"
-					id: "01D767DA46ECFEF6"
-					stat: "minecraft:play_time"
-					title: " "
-					type: "stat"
-					value: 1
-				}
-				{
 					id: "247ECBFC75084E67"
 					item: {
 						Count: 1
@@ -3608,13 +3593,452 @@
 					type: "item"
 				}
 				{
-					disable_toast: true
-					icon: "irons_spellbooks:invisibility_ring"
-					id: "30D62D7F0E1E9107"
-					stat: "minecraft:play_time"
-					title: " "
-					type: "stat"
-					value: 1
+					id: "4D149BDF377CEADB"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/blood_tyrant"
+							}
+						}
+					}
+					title: "Gem of the Blood Tyrant"
+					type: "item"
+				}
+				{
+					id: "41D367E479ED7BAF"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/guardian_of_hell"
+							}
+						}
+					}
+					title: "Gem of the Guardian of Hell"
+					type: "item"
+				}
+				{
+					id: "19A404C15C0425F4"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/fallen_warrior"
+							}
+						}
+					}
+					title: "Gem of the Fallen Warrior"
+					type: "item"
+				}
+				{
+					id: "09440887289B543B"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/howling_storm"
+							}
+						}
+					}
+					title: "Gem of the Howling Storm"
+					type: "item"
+				}
+				{
+					id: "2EF2D3981D31E936"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/infernal_overlord"
+							}
+						}
+					}
+					title: "Gem of the Infernal Overlord"
+					type: "item"
+				}
+				{
+					id: "3A2CF5F7072079D8"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/ruler_of_abyss"
+							}
+						}
+					}
+					title: "Gem of the Ruler of Abyss"
+					type: "item"
+				}
+				{
+					id: "7E90FDDEB22D878C"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/void_guardian"
+							}
+						}
+					}
+					title: "Gem of the Void Guardian"
+					type: "item"
+				}
+				{
+					id: "0DFEDE0C45D7A44F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:boss_gems/withered_sentinel"
+							}
+						}
+					}
+					title: "Gem of the Withered Sentinel"
+					type: "item"
+				}
+				{
+					id: "7F21ABFA1A8413B1"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/arcane_catalyst"
+							}
+						}
+					}
+					title: "Arcane Catalyst"
+					type: "item"
+				}
+				{
+					id: "25DD17FF2BE92873"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/divine_stone"
+							}
+						}
+					}
+					title: "Divine Stone"
+					type: "item"
+				}
+				{
+					id: "7B29E258FF2E145C"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/emberheart_shard"
+							}
+						}
+					}
+					title: "Emberheart Shard"
+					type: "item"
+				}
+				{
+					id: "658400D9443CC1A8"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/frostvein_crystal"
+							}
+						}
+					}
+					title: "Frostvein Crystal"
+					type: "item"
+				}
+				{
+					id: "46DDCCE32C38F7BA"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/hemolith_shard"
+							}
+						}
+					}
+					title: "Hemolith Shard"
+					type: "item"
+				}
+				{
+					id: "7729696B00531D55"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/nyxite_crystal"
+							}
+						}
+					}
+					title: "Nyxite Crystal"
+					type: "item"
+				}
+				{
+					id: "0C02BC8563B54D14"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/power_eldritch"
+							}
+						}
+					}
+					title: "Eldritch Gem"
+					type: "item"
+				}
+				{
+					id: "2B933CD36710D005"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_blood"
+							}
+						}
+					}
+					title: "Blood Level Gem"
+					type: "item"
+				}
+				{
+					id: "255D2455A74DFA6D"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_eldritch"
+							}
+						}
+					}
+					title: "Eldritch Level Gem"
+					type: "item"
+				}
+				{
+					id: "52F46DB44D9A88A7"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_ender"
+							}
+						}
+					}
+					title: "Ender Level Gem"
+					type: "item"
+				}
+				{
+					id: "61B9D18771F88A2A"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_evocation"
+							}
+						}
+					}
+					title: "Evocation Level Gem"
+					type: "item"
+				}
+				{
+					id: "7493D9B7B2819B04"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_fire"
+							}
+						}
+					}
+					title: "Fire Level Gem"
+					type: "item"
+				}
+				{
+					id: "663548EE0D500F79"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_holy"
+							}
+						}
+					}
+					title: "Holy Level Gem"
+					type: "item"
+				}
+				{
+					id: "234274062D002FD4"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_ice"
+							}
+						}
+					}
+					title: "Ice Level Gem"
+					type: "item"
+				}
+				{
+					id: "0D476CF27CB0F369"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_lightning"
+							}
+						}
+					}
+					title: "Lightning Level Gem"
+					type: "item"
+				}
+				{
+					id: "39C5C65787ADDC67"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/spell_nature"
+							}
+						}
+					}
+					title: "Nature Level Gem"
+					type: "item"
+				}
+				{
+					id: "0A342803DF1A9794"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/thunderheart_fragment"
+							}
+						}
+					}
+					title: "Thunderheart Fragment"
+					type: "item"
+				}
+				{
+					id: "527BA1C9137B7139"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/verdanite_shard"
+							}
+						}
+					}
+					title: "Verdanite Shard"
+					type: "item"
+				}
+				{
+					id: "3F654FD78E26E4E8"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/voidmancers_eye"
+							}
+						}
+					}
+					title: "Voidmancer's Eye"
+					type: "item"
+				}
+				{
+					id: "1AD2C7388BB8C638"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:ragnarok"
+							}
+						}
+					}
+					title: "Ragnarok Gem"
+					type: "item"
+				}
+				{
+					id: "666A80C99B633960"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:void_hunter"
+							}
+						}
+					}
+					title: "Void Hunter Gem"
+					type: "item"
+				}
+				{
+					id: "4D063ED777125E77"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/iceandfire/abyssal_pearl"
+							}
+						}
+					}
+					title: "Abyssal Pearl"
+					type: "item"
+				}
+				{
+					id: "5F77331FF3B297FE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/iceandfire/hydra_scale"
+							}
+						}
+					}
+					title: "Hydra Scale"
+					type: "item"
+				}
+				{
+					id: "21E856EAB0742686"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								gem: "fallen_gems_affixes:compat/iceandfire/yggdrasil"
+							}
+						}
+					}
+					title: "Ash of Yggdrasil"
+					type: "item"
 				}
 			]
 			title: "Gem Collection"
