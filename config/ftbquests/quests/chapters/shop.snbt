@@ -460,11 +460,12 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 5L
 				id: "397F3B70A6A7C28B"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Rare Artifact (1 Emerald)"
+			title: "Rare Artifact (5 Emerald)"
 			x: 7.0d
 			y: 1.0d
 		}
@@ -477,12 +478,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
+				count: 2L
 				id: "7DACE113FEB76B27"
-				item: { Count: 4, id: "lightmanscurrency:coin_emerald" }
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Epic Artifact (4 Emerald)"
+			title: "Epic Artifact (2 Diamond)"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -497,12 +498,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 2L
+				count: 8L
 				id: "3414D55270DA5572"
-				item: { Count: 2, id: "lightmanscurrency:coin_diamond" }
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Legendary Artifact (2 Diamond)"
+			title: "Legendary Artifact (8 Diamond)"
 			x: 7.0d
 			y: 3.0d
 		}
@@ -612,12 +613,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
 				id: "6D7271BA022106DA"
-				item: "lightmanscurrency:coin_iron"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "3x Gem Dust (8 Iron)"
+			title: "3x Gem Dust (1 Gold)"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -956,6 +956,44 @@
 			title: "Health/Stamina Upgrade Exchange"
 			x: 7.0d
 			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "fallen_gems_affixes:compat/spell_evocation"
+				}
+			}
+			id: "0728FF69EF8D0D24"
+			rewards: [{
+				command: "/apoth gem random"
+				icon: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "fallen_gems_affixes:compat/spell_evocation"
+					}
+				}
+				id: "34297D46D11D6309"
+				title: "Random Gem"
+				type: "command"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3A60395C6CD40151"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Random Gem (2 Emerald)"
+			x: 9.0d
+			y: 0.0d
 		}
 	]
 	title: "Shop"
