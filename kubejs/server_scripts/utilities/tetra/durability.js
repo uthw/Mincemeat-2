@@ -190,8 +190,8 @@ ServerEvents.highPriorityData((event) => {
             },
         },
         {
-            name: "wood/blue_skies_comet",
-            durability: 200,
+            name: "wood/comet",
+            durability: 108,
             improvements: {
                 "dimasctetracompat/fairweather": 0,
             },
@@ -366,8 +366,11 @@ ServerEvents.highPriorityData((event) => {
             improvements: {
                 "dimasctetracompat/fairweather": 0,
             },
+            attributes: {
+                "minecraft:generic.attack_speed": -0.4,
+            },
             secondary: 4.3,
-            primary: 6,
+            primary: 8,
         },
         {
             name: "gem/blue_skies_charoite",
@@ -544,7 +547,7 @@ ServerEvents.highPriorityData((event) => {
         { name: "metal/electrum", durability: 106 },
         { name: "metal/elementium", durability: 1440 },
         // { name: "metal/infused_iron", durability: 500 },
-        { name: "metal/lead", durability: 240 },
+        { name: "metal/lead", durability: 240, secondary: 7.2 },
         {
             name: "metal/manasteel",
             durability: 600,
@@ -583,7 +586,7 @@ ServerEvents.highPriorityData((event) => {
             name: "gem/diopside",
             durability: 3122,
             hardness: 9,
-            primary: 6,
+            primary: 8,
             secondary: 4.3,
             toolEfficiency: 6,
         },
@@ -624,15 +627,11 @@ ServerEvents.highPriorityData((event) => {
             durability: 108,
         },
         {
-            name: "wood/comet",
-            durability: 108,
-        },
-        {
             name: "wood/dusk",
             durability: 108,
         },
         {
-            name: "wood/dusk",
+            name: "wood/blue_skies_dusk",
             durability: 108,
         },
         {
@@ -697,6 +696,9 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "bone/alexsmobs_froststalker_horn",
             durability: 1024,
+            effects: {
+                "irons_spellbooks:freeze": 5,
+            },
         },
         {
             name: "bone/alexsmobs_gazelle_horn",
@@ -739,6 +741,9 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "wood/forbidden_arcanus_aurum",
             durability: 1536,
+            attributes: {
+                "irons_spellbooks:max_mana": 30,
+            },
         },
         {
             name: "wood/forbidden_arcanus_edelwood",
@@ -946,7 +951,7 @@ ServerEvents.highPriorityData((event) => {
         },
         {
             path: "metal/aquite",
-            gain: 5,
+            gain: 3,
         },
         {
             path: "rod/enigmatic_legacy/ender_rod",
@@ -1003,7 +1008,7 @@ ServerEvents.highPriorityData((event) => {
         },
         {
             path: "metal/forged_steel_ingot",
-            gain: 6,
+            gain: 5,
         },
         {
             path: "metal/copper",
@@ -1072,12 +1077,9 @@ ServerEvents.highPriorityData((event) => {
             path: "wood/blue_skies_starlit_wood", // duplicate
             gain: 2,
         },
+        // wood/blue_skies_dusk needs to be set with a datapack
         {
             path: "wood/dusk",
-            gain: 2,
-        },
-        {
-            path: "wood/blue_skies_dusk", // duplicate
             gain: 2,
         },
         {
@@ -1096,12 +1098,9 @@ ServerEvents.highPriorityData((event) => {
             path: "wood/blue_skies_bluebright", // duplicate
             gain: 2,
         },
+        // Wood/comet needs to be set with a datapack
         {
-            path: "wood/comet",
-            gain: 2,
-        },
-        {
-            path: "wood/blue_skies_comet", // duplicate
+            path: "wood/blue_skies_comet",
             gain: 2,
         },
         {
@@ -1170,7 +1169,7 @@ ServerEvents.highPriorityData((event) => {
         },
         {
             path: "wood/alexscaves_thornwood",
-            gain: 4,
+            gain: 3,
         },
         {
             path: "wood/ecologics_walnut",
@@ -1202,12 +1201,134 @@ ServerEvents.highPriorityData((event) => {
         },
         // hidden woods (wtf Quark) making these +3 because they are obtainable but hidden in the Holosphere
         {
-            path: "wood/quark/blossom",
+            path: "wood/quark_azalea",
+            gain: 3,
+        },
+        // Updated 4-25-26
+        {
+            path: "metal/cataclysm/ignitium_ingot",
+            gain: 8,
+        },
+        {
+            path: "metal/endsteel_ingot",
+            gain: 6,
+        },
+        {
+            path: "metal/undergarden_froststeel",
             gain: 3,
         },
         {
-            path: "wood/quark/azalea",
+            path: "metal/forbidden_arcanus_reinforced_deorum",
+            gain: 4,
+        },
+        {
+            path: "metal/bronze",
+            gain: 4,
+        },
+        {
+            path: "metal/arcane_metal",
+            gain: 4,
+        },
+        {
+            path: "metal/ventium",
+            gain: 4,
+        },
+        {
+            path: "wood/environmental_pine",
+            gain: 2,
+        },
+        {
+            path: "wood/atmospheric_yucca",
+            gain: 2,
+        },
+        {
+            path: "wood/atmospheric_aspen.json",
+            gain: 2,
+        },
+        {
+            path: "wood/upgrade_aquatic_driftwood",
+            gain: 2,
+        },
+        {
+            path: "wood/upgrade_aquatic_riverwood",
+            gain: 2,
+        },
+        {
+            path: "wood/environmental_wisteria",
+            gain: 2,
+        },
+        {
+            path: "wood/forbidden_arcanus_aurum",
+            gain: 2,
+        },
+        {
+            path: "wood/atmospheric_laurel",
+            gain: 2,
+        },
+        {
+            path: "wood/atmospheric_grimwood",
+            gain: 2,
+        },
+        {
+            path: "wood/environmental_plum",
+            gain: 2,
+        },
+        {
+            path: "wood/atmospheric_kousa",
+            gain: 2,
+        },
+        {
+            path: "wood/autumnity_maple",
+            gain: 2,
+        },
+        {
+            path: "wood/atmospheric_rosewood",
+            gain: 2,
+        },
+        {
+            path: "wood/quark_trumpet_wood",
+            gain: 2,
+        },
+        {
+            path: "wood/forbidden_arcanus_edelwood",
             gain: 3,
+        },
+        {
+            path: "wood/quark_ashen_wood",
+            gain: 2,
+        },
+        {
+            path: "wood/endergetic_poise",
+            gain: 4,
+        },
+        {
+            path: "metal/terrasteel",
+            gain: 6,
+        },
+        {
+            path: "wood/atmospheric_morado",
+            gain: 2,
+        },
+        {
+            path: "wood/forbidden_arcanus_fungyss",
+            gain: 3,
+        },
+        {
+            path: "bone/alexsmobs_froststalker_horn",
+            gain: 3,
+        },
+        {
+            path: "bone/alexsmobs_void_chitin",
+            gain: 8,
+            cost: 5,
+        },
+        {
+            path: "bone/alexsmobs_gazelle_horn",
+            gain: 4,
+        },
+        {
+            path: "bone/alexsmobs_serpentbone",
+            gain: 5,
         },
     ];
 
@@ -1229,19 +1350,16 @@ ServerEvents.highPriorityData((event) => {
 
     materials.forEach((material) => {
         let jsonData = {};
-        if (material.durability !== undefined)
-            jsonData.durability = material.durability;
+        if (material.durability !== undefined) jsonData.durability = material.durability;
         if (material.attributes) jsonData.attributes = material.attributes;
         if (material.effects) jsonData.effects = material.effects;
-        if (material.improvements)
-            jsonData.improvements = material.improvements;
+        if (material.improvements) jsonData.improvements = material.improvements;
         if (material.primary !== undefined) jsonData.primary = material.primary;
-        if (material.secondary !== undefined)
-            jsonData.secondary = material.secondary;
-        if (material.hardness !== undefined)
-            jsonData.hardness = material.hardness;
+        if (material.secondary !== undefined) jsonData.secondary = material.secondary;
+        if (material.hardness !== undefined) jsonData.hardness = material.hardness;
         if (material.cost !== undefined) jsonData.integrityCost = material.cost;
         if (material.gain !== undefined) jsonData.integrityGain = material.gain;
+        if (material.toolLevel) jsonData.toolLevel = material.toolLevel;
         event.addJson(`tetra:materials/${material.name}`, jsonData);
     });
 });

@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "slots": ["polearm/head"],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "tint": "4d080f",
+        "textureLocation": "tetra:textures/gui/sofr_glyph.png",
+        "textureX": 0
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["bosses_of_mass_destruction:obsidian_heart"],
+                "count": 1
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:netherite"
+            },
+            "moduleKey": "polearm/sanguisuga",
+            "moduleVariant": "sanguisuga/sanguisuga"
+        }
+    ]
+}

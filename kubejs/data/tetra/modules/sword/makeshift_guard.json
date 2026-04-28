@@ -1,0 +1,41 @@
+{
+    "renderLayer": "higher",
+    "replace": true,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "attributes": {
+                "generic.attack_speed": -0.05
+            },
+            "extract": {
+                "availableTextures": ["shiny", "default"],
+                "durability": 0.06,
+                "glyph": {
+                    "textureX": 8,
+                    "textureY": 112
+                },
+                "models": [
+                    {
+                        "location": "tetra:item/module/sword/guard/makeshift_guard/"
+                    }
+                ]
+            },
+            "key": "makeshift_guard/",
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:metal/",
+                "tetra:bone/",
+                "tetra:gem/"
+            ]
+        },
+        {
+            "key": "makeshift_guard/blue_skies_diopside",
+            "attributes": {
+                "generic.attack_speed": -0.15
+            },
+            "integrity": 2
+        }
+    ]
+}

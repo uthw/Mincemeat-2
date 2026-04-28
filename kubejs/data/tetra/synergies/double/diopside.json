@@ -1,0 +1,17 @@
+[
+    {
+        "modules": ["double/butt"],
+        "moduleVariants": ["butt/blue_skies_diopside"],
+        "attributes": {
+            "generic.attack_speed": 0.4
+        }
+    },
+    {
+        "modules": ["double/basic_pickaxe", "double/basic_pickaxe"],
+        "moduleVariants": ["basic_pickaxe/blue_skies_diopside"],
+        "sameVariant": true,
+        "attributes": {
+            "generic.attack_speed": 0.8
+        }
+    }
+]

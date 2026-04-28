@@ -1,0 +1,27 @@
+{
+    "key": "comet",
+    "category": "wood",
+    "primary": 3,
+    "secondary": 1.7,
+    "tertiary": 6,
+    "durability": 131,
+    "integrityCost": 1,
+    "integrityGain": 2,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 2,
+    "improvements": {
+        "dimasctetracompat/fairweather": 0
+    },
+    "tints": {
+        "glyph": "bc6877",
+        "texture": "bc6877"
+    },
+    "textures": ["crude", "wooden"],
+    "material": {
+        "items": ["blue_skies:comet_planks"]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:gold"
+    }
+}

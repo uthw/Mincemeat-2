@@ -1,0 +1,39 @@
+{
+    "replace": true,
+    "slots": ["sword/pommel"],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "attributes": {
+                "generic.attack_speed": -0.05
+            },
+            "extract": {
+                "availableTextures": ["default"],
+                "durability": 0.04,
+                "glyph": {
+                    "textureX": 16,
+                    "textureY": 112
+                },
+                "models": [
+                    {
+                        "location": "tetra:item/module/sword/pommel/decorative_pommel/"
+                    }
+                ]
+            },
+            "key": "decorative_pommel/",
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:metal/",
+                "tetra:bone/",
+                "tetra:gem/"
+            ]
+        },
+        {
+            "key": "decorative_pommel/blue_skies_diopside",
+            "attributes": {
+                "generic.attack_speed": 0
+            }
+        }
+    ]
+}
