@@ -3,9 +3,9 @@ tintBasePage = true
 #For untextured items, should the generated texture tint the overlay layer
 tintOverlayPage = true
 #If true, to use a spell on an imbued item, the spell must be learnt
-imbuedItemsRequireLearning = false
+imbuedItemsRequireLearning = true
 #If true, to use a spell on an imbued item, the rarity of the spell must be gained
-imbuedItemsRequireRarity = false
+imbuedItemsRequireRarity = true
 #If true, the spell on an imbued item will be obfuscated, if the user doesnt know it
 ImbuedItemsObfuscate = true
 #The spells listed in the defaultLearntSpells, will instead be the only spells that are not learnt by default
