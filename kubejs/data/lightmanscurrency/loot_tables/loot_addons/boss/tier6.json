@@ -8,7 +8,7 @@
                     "functions": [
                         {
                             "add": false,
-                            "count": { "type": "minecraft:uniform", "max": 30.0, "min": 15.0 },
+                            "count": { "type": "minecraft:uniform", "max": 10.0, "min": 5.0 },
                             "function": "minecraft:set_count"
                         },
                         {
@@ -16,7 +16,7 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "tier": 4
+                    "tier": 3
                 }
             ],
             "rolls": 1.0
@@ -29,15 +29,11 @@
                     "functions": [
                         {
                             "add": false,
-                            "count": { "type": "minecraft:uniform", "max": 3.0, "min": 1.0 },
+                            "count": { "type": "minecraft:uniform", "max": 1.0, "min": 1.0 },
                             "function": "minecraft:set_count"
-                        },
-                        {
-                            "count": { "type": "minecraft:uniform", "max": 1.0, "min": 0.0 },
-                            "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "tier": 5
+                    "tier": 4
                 }
             ],
             "rolls": 1.0
