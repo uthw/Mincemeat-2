@@ -10,23 +10,23 @@ ServerEvents.highPriorityData((event) => {
         placement: [
             {
                 type: "minecraft:count",
-                count: 1, // The changed value
+                count: 15, // The changed value
             },
             {
                 type: "minecraft:in_square",
             },
-            // {
-            //     type: "minecraft:height_range",
-            //     height: {
-            //         type: "minecraft:uniform",
-            //         max_inclusive: {
-            //             absolute: -1,
-            //         },
-            //         min_inclusive: {
-            //             above_bottom: 6,
-            //         },
-            //     },
-            // },
+            {
+                type: "minecraft:height_range",
+                height: {
+                    type: "minecraft:uniform",
+                    max_inclusive: {
+                        absolute: -1,
+                    },
+                    min_inclusive: {
+                        above_bottom: 6,
+                    },
+                },
+            },
             {
                 type: "minecraft:biome",
             },
