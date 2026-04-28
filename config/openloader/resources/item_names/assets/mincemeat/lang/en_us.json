@@ -144,12 +144,12 @@
     "enchantment.caverns_and_chasms.conceal.desc": "Increases the amount of stealth granted by the Cowl.",
     "enchantment.caverns_and_chasms.extending.desc": "Increases the block reach granted by the Toolbelt.",
     "affix.apotheosis:heavy_weapon/attribute/light": "Tireless",
-    "affix.apotheosis:heavy_weapon/attribute/light.suffix": " of the Wind",
+    "affix.apotheosis:heavy_weapon/attribute/light.suffix": "of the Wind",
     "affix.apotheosis:ranged/attribute/light": "Limber",
-    "affix.apotheosis:ranged/attribute/light.suffix": " of Balance",
+    "affix.apotheosis:ranged/attribute/light.suffix": "of Balance",
     "affix.apotheosis:shield/attribute/light": "Lightweight",
-    "affix.apotheosis:shield/attribute/light.suffix": " of the Steadfast",
+    "affix.apotheosis:shield/attribute/light.suffix": "of the Steadfast",
     "affix.apotheosis:sword/attribute/light": "Weightless",
-    "affix.apotheosis:sword/attribute/light.suffix": " of Vigor",
+    "affix.apotheosis:sword/attribute/light.suffix": "of Vigor",
     "chatText.subtitle.success": "Success"
 }
