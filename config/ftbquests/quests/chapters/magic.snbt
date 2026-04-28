@@ -579,12 +579,6 @@
 				tag: { }
 			}
 			id: "2A2B25F44A4AE27B"
-			rewards: [{
-				count: 5
-				id: "65D91D8DB0F751DA"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "So glad you've come here!"
