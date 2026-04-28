@@ -79,7 +79,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lightmanscurrency:loot_addons/boss/tier2"
+                    "name": "lightmanscurrency:loot_addons/boss/tier1"
                 }
             ]
         },
@@ -135,7 +135,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lightmanscurrency:loot_addons/boss/tier3"
+                    "name": "lightmanscurrency:loot_addons/boss/tier2"
                 }
             ]
         },
@@ -191,7 +191,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lightmanscurrency:loot_addons/boss/tier4"
+                    "name": "lightmanscurrency:loot_addons/boss/tier2"
                 }
             ]
         }
