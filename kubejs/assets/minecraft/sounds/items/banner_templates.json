@@ -297,7 +297,15 @@
         "forbidden_arcanus:golden_feather",
         "cataclysm:ignitium_elytra_chestplate",
         "endergetic:magenta_bolloom_balloon",
-        "forbidden_arcanus:cloth"
+        "forbidden_arcanus:cloth",
+        "thermal:diving_fabric",
+        "immersiveengineering:hemp_fabric",
+        "thermal:beekeeper_fabric",
+        "thermal:hazmat_fabric",
+        "minecraft:feather",
+        "minecraft:string"
     ],
-    "soundEvent": "minecraft:block.wool.hit"
+    "pitch": 1.2,
+    "soundEvent": "malum:cloth_trinket_equipped",
+    "volume": 0.1
 }

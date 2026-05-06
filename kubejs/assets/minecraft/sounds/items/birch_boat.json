@@ -333,7 +333,11 @@
         "upgrade_aquatic:large_driftwood_boat",
         "alexscaves:thornwood_chest_boat",
         "boatload:warped_chest_boat",
-        "everycomp:abnbl/biomeswevegone/large_baobab_boat"
+        "everycomp:abnbl/biomeswevegone/large_baobab_boat",
+        "aquaculture:box",
+        "aquaculture:treasure_chest",
+        "aquaculture:lockbox",
+        "aquaculture:driftwood"
     ],
     "pitch": 1.75,
     "soundEvent": "sounds:block.birch_planks.hit",

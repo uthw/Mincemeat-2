@@ -222,7 +222,11 @@
         "l2artifacts:wrath_necklace_3",
         "l2artifacts:wrath_necklace_4",
         "l2artifacts:wrath_necklace_5",
-        "blue_skies:nature_key"
+        "blue_skies:nature_key",
+        "malum:lamplighters_tongs",
+        "malum:tyrving",
+        "malum:tuning_fork",
+        "aquamirae:maze_rose"
     ],
     "soundEvent": "minecraft:block.chain.place"
 }

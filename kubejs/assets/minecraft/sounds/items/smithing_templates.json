@@ -628,7 +628,8 @@
         "modularrouters:regex_filter",
         "thermal:fluid_filter_augment",
         "create:attribute_filter",
-        "thermal:press_gear_die"
+        "thermal:press_gear_die",
+        "mekanism:crafting_formula"
     ],
     "soundEvent": "malum:soul_stained_steel_place",
     "pitch": 0.7

@@ -1281,7 +1281,12 @@
         "forbidden_arcanus:draco_arcanus_shovel",
         "iceandfire:myrmex_jungle_boots",
         "irons_spellbooks:tarnished_helmet",
-        "iceandfire:silver_sword"
+        "iceandfire:silver_sword",
+        "rechiseled:chisel",
+        "mekanism:configurator",
+        "mekanism:gauge_dropper",
+        "mekanism:network_reader",
+        "mekanism:free_runners"
     ],
     "soundEvent": "minecraft:item.armor.equip_iron"
 }

@@ -168,7 +168,13 @@
         "theurgy:empty_ceramic_jar_icon",
         "botania:phantom_ink",
         "cataclysm:sandstorm_in_a_bottle",
-        "delightful:jam_jar"
+        "delightful:jam_jar",
+        "irons_spellbooks:oakskin_elixir",
+        "irons_spellbooks:greater_oakskin_elixir",
+        "irons_spellbooks:invisibility_elixir",
+        "irons_spellbooks:greater_invisibility_elixir",
+        "irons_spellbooks:evasion_elixir",
+        "irons_spellbooks:greater_evasion_elixir"
     ],
     "soundEvent": "supplementaries:block.jar.place"
 }

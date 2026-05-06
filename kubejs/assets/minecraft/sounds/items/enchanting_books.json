@@ -489,7 +489,14 @@
         "occultism:ritual_dummy/familiar_cthulhu",
         "ars_nouveau:glyph_randomize",
         "ars_nouveau:shapers_focus",
-        "traveloptics:nature_echo"
+        "traveloptics:nature_echo",
+        "malum:mending_diffuser",
+        "malum:impurity_stabilizer",
+        "malum:warping_engine",
+        "malum:blazing_diode",
+        "malum:intricate_assembly",
+        "paraglider:heart_container",
+        "paraglider:stamina_vessel"
     ],
     "pitch": 0.01,
     "soundEvent": "minecraft:block.end_portal_frame.fill",

@@ -761,7 +761,15 @@
         "aquaculture:neptunium_axe",
         "spartanshields:lumium_tower_shield",
         "shieldexp:griefer_shield",
-        "outer_end:shulker_shield"
+        "outer_end:shulker_shield",
+        "mekanism:atomic_disassembler",
+        "traveloptics:galenic_polarizer",
+        "traveloptics:infernal_devastator",
+        "traveloptics:scourge_of_the_sands",
+        "traveloptics:charged_sands",
+        "traveloptics:flames_of_eldritch",
+        "mekanism:meka_tool",
+        "mekanism:scuba_mask"
     ],
     "soundEvent": "minecraft:item.armor.equip_netherite"
 }

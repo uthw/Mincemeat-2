@@ -785,7 +785,13 @@
         "aquaculture:blackfish",
         "neapolitan:strawberry_scones",
         "alexsdelight:bunfungus_sandwich",
-        "brewinandchewin:mead"
+        "brewinandchewin:mead",
+        "aquaculture:starshell_turtle",
+        "aquaculture:box_turtle",
+        "aquaculture:arrau_turtle",
+        "aquaculture:jellyfish",
+        "aquaculture:goldfish",
+        "aquaculture:leech"
     ],
     "pitch": 1.8,
     "soundEvent": "minecraft:entity.puffer_fish.flop",

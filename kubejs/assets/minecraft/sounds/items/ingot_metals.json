@@ -410,7 +410,9 @@
         "irons_spellbooks:lurker_ring",
         "enigmaticlegacy:evil_ingot",
         "traveloptics:crimson_spellweave_ingot",
-        "refinedstorageaddons:wireless_crafting_grid"
+        "refinedstorageaddons:wireless_crafting_grid",
+        "traveloptics:hullbreaker_steel",
+        "aquaculture:tin_can"
     ],
     "soundEvent": "sounds:block.sheet_metal.break"
 }

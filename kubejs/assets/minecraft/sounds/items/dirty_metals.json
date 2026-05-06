@@ -268,7 +268,20 @@
         "enderio:powdered_tin",
         "cataclysm:burning_ashes",
         "create:crushed_raw_aluminum",
-        "thermal:gold_dust"
+        "thermal:gold_dust",
+        "occultism:chalk_red",
+        "occultism:chalk_purple",
+        "occultism:chalk_gold",
+        "ars_nouveau:runic_chalk",
+        "dungeonnowloading:mendstone_chalk",
+        "occultism:chalk_white",
+        "occultism:chalk_purple_impure",
+        "occultism:chalk_gold_impure",
+        "occultism:chalk_red_impure",
+        "occultism:chalk_white_impure",
+        "enigmaticlegacy:infinimeal"
     ],
-    "soundEvent": "minecraft:block.gravel.hit"
+    "soundEvent": "minecraft:block.suspicious_gravel.hit",
+    "volume": 0.3,
+    "pitch": 1.3
 }

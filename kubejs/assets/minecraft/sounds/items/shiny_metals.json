@@ -128,7 +128,10 @@
         "theurgy:alchemical_sulfur_gems_rare",
         "malum:aqueous_spirit",
         "fallen_gems_affixes:reinforced_gem_slate",
-        "deep_aether:bio_crystal"
+        "deep_aether:bio_crystal",
+        "minecraft:nether_star",
+        "actuallyadditions:ender_star",
+        "bosses_of_mass_destruction:soul_star"
     ],
     "soundEvent": "minecraft:block.amethyst_cluster.hit"
 }
