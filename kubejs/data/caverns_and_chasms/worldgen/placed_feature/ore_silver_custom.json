@@ -1,9 +1,9 @@
 {
-    "feature": "caverns_and_chasms:ore_silver",
+    "feature": "caverns_and_chasms:ore_silver_buried",
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 55
+            "count": 4
         },
         {
             "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
         {
             "type": "minecraft:height_range",
             "height": {
-                "type": "minecraft:uniform",
+                "type": "minecraft:trapezoid",
                 "max_inclusive": {
-                    "absolute": 256
+                    "absolute": 32
                 },
                 "min_inclusive": {
-                    "absolute": -48
+                    "absolute": -56
                 }
             }
         },
