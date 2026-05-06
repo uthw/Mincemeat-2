@@ -907,12 +907,6 @@ ServerEvents.recipes((event) => {
         //     "minecraft:iron_ingot",
         //     "thermal:saw_blade",
         // ],
-        [{ output: "framedblocks:framing_saw" }, "minecraft:iron_ingot", "thermal:saw_blade"],
-        [
-            { output: "framedblocks:powered_framing_saw" },
-            "minecraft:iron_ingot",
-            "thermal:saw_blade",
-        ],
         [{ mod: "elevatorid" }, "minecraft:ender_pearl", "ars_nouveau:manipulation_essence"],
         [{ output: "create:item_drain" }, "minecraft:iron_bars", "farmersdelight:canvas"],
         [{ output: "create:spout" }, "minecraft:dried_kelp", "quark:chute"],
@@ -928,11 +922,11 @@ ServerEvents.recipes((event) => {
         ],
         [{ output: "skyarena:ice_eye" }, "minecraft:snow_block", "irons_spellbooks:frozen_bone"],
         [{ output: "skyarena:ice_eye" }, "minecraft:packed_ice", "aquamirae:fin"],
-        // [
-        //     { output: "skyarena:crimson_eye" },
-        //     "minecraft:blaze_powder",
-        //     "betternether:nether_ruby",
-        // ], // TODO replace with rubinated nether
+        [
+            { output: "skyarena:crimson_eye" },
+            "minecraft:blaze_powder",
+            "rubinated_nether:molten_ruby",
+        ],
         [
             { output: "skyarena:crimson_eye" },
             "minecraft:polished_blackstone",

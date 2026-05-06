@@ -2832,17 +2832,6 @@
 				"Here are just a few of the mods and items that can help you build something that truly embraces the modded Minecraft spirit."
 				""
 				"&o&7Some of the tasks for this quest require you to obtain any item from the specified mod."
-				"{@pagebreak}"
-				"&lAbout FramedBlocks:"
-				""
-				"This mod comes with different tools to make your building experience easier:"
-				""
-				"- The wrench rotates blocks."
-				"- The blueprint copies framed blocks."
-				"- The key locks blocks in place, preventing nearby blocks from changing their state."
-				"- The screwdriver cycles through different block states."
-				""
-				"Also, note that frames can imitate any solid block or liquid."
 			]
 			icon: "mcwroofs:roofing_hammer"
 			id: "3D2016CD8B38DD57"
@@ -2966,11 +2955,6 @@
 					type: "item"
 				}
 				{
-					id: "7E31408DE78C4362"
-					item: { Count: 64, id: "framedblocks:framing_saw" }
-					type: "item"
-				}
-				{
 					id: "0DAAB204D841984D"
 					item: {
 						Count: 1
@@ -2980,6 +2964,18 @@
 						}
 					}
 					title: "Beautify"
+					type: "item"
+				}
+				{
+					id: "498B1FD5DE8C8B5C"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: ".*copycat.*"
+						}
+					}
+					title: "Create Copycats"
 					type: "item"
 				}
 			]

@@ -262,8 +262,6 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.unknown
-key_framedblocks.key.update_cull:key.keyboard.unknown
-key_framedblocks.key.wipe_cache:key.keyboard.unknown
 key_key.jetpack.toggle_active.description:key.keyboard.unknown
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_key.jei.previousPage:key.keyboard.unknown
