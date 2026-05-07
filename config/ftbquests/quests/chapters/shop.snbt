@@ -232,6 +232,17 @@
 				}
 			}
 			id: "3BBE03A7A1FDE495"
+			rewards: [{
+				id: "6DA279BB8E76F899"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:nature"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 5L
 				id: "6790C62A479399EF"
