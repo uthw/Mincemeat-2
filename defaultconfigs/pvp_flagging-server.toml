@@ -1,0 +1,11 @@
+
+[PVP_FLAGGING]
+	#Allowed Values: PRESERVE, FLAG, UNFLAG
+	player_login_state = "PRESERVE"
+	#Allowed Values: PRESERVE, FLAG, UNFLAG
+	player_respawn_state = "UNFLAG"
+	unflag_wait_time_ticks = 300
+	pvp_zone_bounds_check_ticks = 20
+	pvp_damage_multiplier = 1.0
+	display_welcome_message = false
+
