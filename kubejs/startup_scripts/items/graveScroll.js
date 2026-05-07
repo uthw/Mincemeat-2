@@ -10,7 +10,9 @@ StartupEvents.registry("item", (e) => {
             if (entity.player) global.gravescroll(entity);
             return itemstack;
         })
-        .tooltip("Go back to the past for a chance to correct your mistake");
+        .tooltip(
+            "Teleports you to the location of your last death and gives you some temporary protection",
+        );
 });
 
 global.gravescroll = (entity) => {
@@ -101,16 +103,16 @@ global.gravescroll = (entity) => {
 
 function applyEffectsAndTeleport(entity, targetDimension, effects) {
     entity.server.runCommandSilent(
-        `execute as ${entity.username} at @s run effect give @s minecraft:resistance 8 4 true`
+        `execute as ${entity.username} at @s run effect give @s minecraft:resistance 8 4 true`,
     );
 
     effects.forEach((effect) => {
         entity.server.runCommandSilent(
-            `execute as ${entity.username} at @s run effect give @s ${effect} 20 0 true`
+            `execute as ${entity.username} at @s run effect give @s ${effect} 20 0 true`,
         );
     });
 
     entity.server.runCommandSilent(
-        `execute as ${entity.username} in ${targetDimension} run tp @s ${entity.persistentData.deathx} ${entity.persistentData.deathy} ${entity.persistentData.deathz}`
+        `execute as ${entity.username} in ${targetDimension} run tp @s ${entity.persistentData.deathx} ${entity.persistentData.deathy} ${entity.persistentData.deathz}`,
     );
 }

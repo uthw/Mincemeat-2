@@ -10,11 +10,19 @@ EntityEvents.death("minecraft:player", (event) => {
     pData.deathreset = 1;
     pData.deathDimension = event.level.dimension.path;
 
+    // XP storage
+    const retainedXp = Math.floor(player.xp * 0.75);
+    pData.remove("retainedXp");
+    pData.putInt("retainedXp", retainedXp);
+
+    player.setXpLevel(0);
+    player.setXpProgress(0);
+
     // health refill
     let dim = `${event.level.dimension.namespace}:${event.level.dimension.path}`;
     event.server.runCommandSilent(
         // This works in 0.5.1 but you can switch to runCommand if weird things are happening
-        `execute in ${dim} positioned ${x} ${y} ${z} unless entity @a[distance=2..10] as @e[distance=..50,type=#mincemeat:heal_on_player_death] run data modify entity @s Health set value 9999.0`
+        `execute in ${dim} positioned ${x} ${y} ${z} unless entity @a[distance=2..10] as @e[distance=..50,type=#mincemeat:heal_on_player_death] run data modify entity @s Health set value 9999.0`,
     );
 
     event.server.scheduleInTicks(4, () => {
@@ -23,22 +31,27 @@ EntityEvents.death("minecraft:player", (event) => {
         // The blue skies devs have a fix for this on 1.20.4 and 1.21 but don't seem to plan on backporting it
 
         event.entity.server.runCommandSilent(
-            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Dusk Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Dusk Arc"]`,
         );
         event.entity.server.runCommandSilent(
-            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Nature Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Nature Arc"]`,
         );
         event.entity.server.runCommandSilent(
-            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Poisonous Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Poisonous Arc"]`,
         );
         event.entity.server.runCommandSilent(
-            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Ethereal Arc"]`
+            `execute in ${dim} positioned ${pData.deathx} ${pData.deathy} ${pData.deathz} run kill @e[type=item,name="Ethereal Arc"]`,
         );
     });
 });
 
 // TODO Wait for movement before giving a scroll
 PlayerEvents.respawned((event) => {
+    if (event.player.persistentData.contains("retainedXp")) {
+        const restoredXp = event.player.persistentData.getInt("retainedXp");
+        event.player.xp = restoredXp;
+        event.player.persistentData.remove("retainedXp");
+    }
 
     // 40% chance the player gets a gravescroll when they respawn
     if (event.player.stats.timeSinceDeath >= 10) {
@@ -46,8 +59,6 @@ PlayerEvents.respawned((event) => {
     }
     let rng = Math.random();
     if (rng > 0.6) {
-        event.entity.server.runCommandSilent(
-            `execute as ${event.entity.username} run give @s kubejs:grave_scroll`
-        );
+        event.player.give("kubejs:grave_scroll");
     }
 });
