@@ -25,7 +25,7 @@
 	enableBossSpawnerConversion = true
 	#Chance for a natural spawner to become a boss spawner (0.0 = never, 1.0 = always)
 	#Range: 0.0 ~ 1.0
-	bossSpawnerChance = 0.1
+	bossSpawnerChance = 0.01
 	#Chance for a universal boss to drop an Affix Scroll on death (0.0 = never, 1.0 = always)
 	#Range: 0.0 ~ 1.0
 	affixScrollDropChance = 0.05
