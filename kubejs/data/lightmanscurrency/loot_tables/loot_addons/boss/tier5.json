@@ -8,28 +8,7 @@
                     "functions": [
                         {
                             "add": false,
-                            "count": { "type": "minecraft:uniform", "max": 30.0, "min": 20.0 },
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "count": { "type": "minecraft:uniform", "max": 2.0, "min": 0.0 },
-                            "function": "minecraft:looting_enchant"
-                        }
-                    ],
-                    "tier": 2
-                }
-            ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "lightmanscurrency:configured_item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": { "type": "minecraft:uniform", "max": 3.0, "min": 2.0 },
+                            "count": { "type": "minecraft:uniform", "max": 10.0, "min": 6.0 },
                             "function": "minecraft:set_count"
                         }
                     ],
