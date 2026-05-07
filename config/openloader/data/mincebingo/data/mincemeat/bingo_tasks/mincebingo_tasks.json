@@ -1249,26 +1249,6 @@
         },
         {
             "type": "bongo.entity",
-            "value": "rottencreatures:burned",
-            "weight": 3
-        },
-        {
-            "type": "bongo.entity",
-            "value": "rottencreatures:swampy",
-            "weight": 3
-        },
-        {
-            "type": "bongo.entity",
-            "value": "rottencreatures:undead_miner",
-            "weight": 3
-        },
-        {
-            "type": "bongo.entity",
-            "value": "rottencreatures:glacial_hunter",
-            "weight": 3
-        },
-        {
-            "type": "bongo.entity",
             "value": "windswept:chilled",
             "weight": 3
         },

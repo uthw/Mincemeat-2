@@ -479,18 +479,6 @@
         "result": "default"
     },
     {
-        "when": "finalize",
-        "mob": "rottencreatures:frostbitten",
-        "customevent": "replace_with_chilled",
-        "result": "deny_with_actions"
-    },
-    {
-        "when": "finalize",
-        "mob": "rottencreatures:burned",
-        "potionnoparticles": "minecraft:fire_resistance,-1,0",
-        "result": "default"
-    },
-    {
         "when": "onjoin",
         "mob": "eidolon:slimy_slug",
         "result": "deny"

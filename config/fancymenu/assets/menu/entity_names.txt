@@ -395,7 +395,6 @@ minecraft:wolf
 minecraft:zoglin
 minecraft:zombie
 minecraft:zombie_horse
-minecraft:zombie_villager
 minecraft:zombified_piglin
 mowziesmobs:bluff
 mowziesmobs:elokosa_howler
@@ -420,14 +419,6 @@ quark:shiba
 quark:stoneling
 quark:toretoise
 quark:wraith
-rottencreatures:burned
-rottencreatures:dead_beard
-rottencreatures:glacial_hunter
-rottencreatures:immortal
-rottencreatures:mummy
-rottencreatures:scarab
-rottencreatures:swampy
-rottencreatures:undead_miner
 savage_and_ravage:creepie
 savage_and_ravage:executioner
 savage_and_ravage:griefer
