@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Enigmatic Graves Tip",
+        "text": "Corpse Complex Tip",
         "bold": true,
         "color": "yellow"
     },
     "tip": {
-        "text": "All of your hard-earned XP is safely stored in your gravestone when you die, so don't worry about it being gone forever."
+        "text": "When you die, 25% of your experience will be gone forever with the remaining 75% dropping on the ground. This is different from vanilla Minecraft, where up to around 7 levels' worth of experience is dropped."
     }
 }
