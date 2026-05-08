@@ -527,12 +527,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 12L
-				id: "13B7793B5C0765F9"
-				item: "lightmanscurrency:coin_gold"
+				id: "742DD7CCB4E9D5A6"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Potion of Recall (12 Gold)"
+			title: "Potion of Recall (1 Emerald)"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -545,12 +544,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 36L
-				id: "04A7CE44E1DE6917"
-				item: "lightmanscurrency:coin_gold"
+				count: 3L
+				id: "2F85476A2BB37C61"
+				item: { Count: 3, id: "lightmanscurrency:coin_emerald" }
 				type: "item"
 			}]
-			title: "Warp Scroll (36 Gold)"
+			title: "Warp Scroll (3 Emerald)"
 			x: 1.0d
 			y: -2.0d
 		}
