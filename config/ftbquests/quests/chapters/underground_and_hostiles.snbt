@@ -1535,7 +1535,7 @@
 				to_observe: "traveloptics:fading_mage"
 				type: "observation"
 			}]
-			x: -0.5d
+			x: 3.5d
 			y: 4.5d
 		}
 		{
@@ -1560,8 +1560,8 @@
 				to_observe: "dungeonnowloading:scuttle"
 				type: "observation"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -1580,8 +1580,8 @@
 				to_observe: "dungeonnowloading:ballista_golem"
 				type: "observation"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -1607,6 +1607,70 @@
 				type: "observation"
 			}]
 			x: -4.5d
+			y: -4.5d
+		}
+		{
+			id: "5F848814B143A8F3"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "dungeonnowloading:garhold"
+					}
+				}
+				id: "634EBCDAA1D6806C"
+				observe_type: 5
+				timer: 0L
+				title: "Garhold"
+				to_observe: "dungeonnowloading:garhold"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "5E37A1D2BC241AB0"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "dungeonnowloading:spawner_carrier"
+					}
+				}
+				id: "539EE628CE789D85"
+				observe_type: 5
+				timer: 0L
+				title: "Spawner Carrier"
+				to_observe: "dungeonnowloading:spawner_carrier"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: ["This creature has a shell made from tin and enjoys rapidly bouncing around the walls of caves."]
+			id: "72E9AD5D0D2EB987"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:grazer"
+					}
+				}
+				id: "2B3B01737AA8650F"
+				observe_type: 5
+				timer: 0L
+				title: "Grazer"
+				to_observe: "caverns_and_chasms:grazer"
+				type: "observation"
+			}]
+			x: -5.5d
 			y: -4.5d
 		}
 	]
