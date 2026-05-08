@@ -2,18 +2,17 @@
 
 Distant Horizons uses LODs to allow high render distances to be attainable without sacrificing FPS. This basically means things in the distance will render in lower quality, and is how other open-world games like Breath of the Wild work.
 
-Out of the box, DH is **incompatible** with Mincemeat 2 and needs some tweaks in order to run. Here they are:
+Out of the box, DH is **incompatible** with Mincemeat 2 and some tweaks in order to work:
 
-### Configure ModernFix
+### Configure Distant Horizons
 
-1. Open Mincemeat 2 and open the mod list from the title screen.
-2. Search for ModernFix, select it, and press the "Config" button.
-3. Scroll down to the bottom of the list of mixins.
-4. You'll see an option called "mixin.perf.remove_spawn_chunks (modified)" in italics. Click on the button next to it to disable it. This setting causes a crash when loading a world with DH if left on. Be aware that disabling it will make creating a new world take significantly longer.
+DH has a config menu accessible from the options menu, found to the left of the FOV slider. You will want to change these settings to get the best performance for your PC.
+
+If you are running Mincemeat 2 v0.5.11, open `minecraft/config/DistantHorizons.toml` and change the value of `distantGeneratorMode` from `"FEATURES"` to `"INTERNAL_SERVER"`. This will fix log spam with Yung's Better Caves and likely other mod incompatiblities I don't know about.
 
 ### Configure Alex's Caves
 
-1. Go back to the mod list menu.
+1. Go to the mod list menu.
 2. Find the Alex's Caves mod and click its "Config" button.
 3. Click on "alexscaves-client".
 4. Click on the "Visuals" button.
@@ -21,6 +20,10 @@ Out of the box, DH is **incompatible** with Mincemeat 2 and needs some tweaks in
 
 ### Allocate more RAM
 
-If you run DH with 8 GB or less allocated, you'll be lucky if your game survives more than 1 minute. You should set your allocated memory to 12 GB or more for ideal performance.
+You should set your allocated memory to 12-16 GB for optimal performance, especially if you're going to use shaders. Any less than that will be a struggle.
 
-You can find the Distant Horizons settings button next to the FOV slider in the options.
+### Notes
+
+I tested this in a singleplayer world with an AMD CPU, Nvidia GPU, and Linux. I also used DH in combination with Complementary Shaders 5.7.1 and Euphoria Patches 1.8.6 at high settings without any issues apart from worrying 1% lows.
+
+Because DH isn't included with the modpack by default, issues related to it aren't guaranteed to be worked on. Make sure you're always using the latest version of DH.
