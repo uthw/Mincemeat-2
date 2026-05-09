@@ -1,29 +1,8 @@
 // Decreases all saturation restoration from food, but increases all nutrition to compensate
-//
 
-// // this is my stupid script
-// ItemEvents.modification((event) => {
-//     Item.list.forEach((item) => {
-//         event.modify(item, (food) => {
-//             if (food.foodProperties) {
-//                 // saturation (does work)
-//                 food.foodProperties.saturationModifier /= 1.5;
-//                 // // food (does not work)
-//                 // if (food.foodProperties.nutrition) {
-//                 //     food.foodProperties.nutrition = Math.floor(
-//                 //         food.foodProperties.nutrition * 1.33
-//                 //     );
-//                 //     food.setFoodProperties();
-//                 // }
-//             }
-//         });
-//     });
-// });
-
-// this is another example script from nol_an on discord, this is very helpful, thank you!
-let hungerRatio = 1.35;
-let saturationRatio = 0.42;
-let foodOverride = {
+const hungerRatio = 1.35;
+const saturationRatio = 0.42;
+const foodOverride = {
     "minecraft:cooked_beef": 6,
     "minecraft:cooked_porkchop": 6,
     "minecraft:bread": 4,
@@ -34,28 +13,27 @@ let foodOverride = {
     "farmersdelight:kelp_roll_slice": 6,
 };
 
-let foodOverrideKeys = Object.keys(foodOverride);
-
 ItemEvents.modification((event) => {
-    let edibleStacks = Ingredient.custom((i) => i.edible).getStacks();
+    // Single global listener
+    event.modify(/.*:/, (item) => {
+        // Only trigger if the item is edible
+        if (item.foodProperties) {
+            let id = item.id;
 
-    edibleStacks.forEach((stack) => {
-        let foodProperties = stack.item.foodProperties;
-        if (foodProperties) {
-            event.modify(stack.item.id, (foodItem) => {
-                foodItem.foodProperties = (food) => {
-                    if (foodOverrideKeys.includes(stack.item.id)) {
-                        food.hunger(foodOverride[stack.item.id]);
-                    } else {
-                        food.hunger(
-                            parseInt(foodProperties.nutrition * hungerRatio)
-                        );
-                    }
-                    food.saturation(
-                        foodProperties.saturationModifier * saturationRatio
-                    );
-                };
-            });
+            // Store the base values before modification
+            let baseNutrition = item.foodProperties.nutrition;
+            let baseSaturation = item.foodProperties.saturationModifier;
+
+            item.foodProperties = (food) => {
+                // Lookup override values, if they exist, otherwise calculate based on ratios
+                if (foodOverride[id] !== undefined) {
+                    food.hunger(foodOverride[id]);
+                } else {
+                    food.hunger(Math.floor(baseNutrition * hungerRatio));
+                }
+
+                food.saturation(baseSaturation * saturationRatio);
+            };
         }
     });
 });

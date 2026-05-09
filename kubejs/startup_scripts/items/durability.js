@@ -8,75 +8,49 @@ const fiftyPercent =
 const seventyFivePercent = "blacksmith_gavel|montus_strike|troll_weapon";
 const critTen = "katana|saber|dagger|rapier|magicbane|divider";
 
+const $ArmorItem = Java.loadClass("net.minecraft.world.item.ArmorItem");
+const $ShieldItem = Java.loadClass("net.minecraft.world.item.ShieldItem");
+
 const toolFactor = 2;
+const shieldFactor = 5;
 const armorFactor = 10;
 
 // Items that this script will not touch
-let blacklist = [
+const blacklist = new Set([
     "bosses_of_mass_destruction:earthdive_spear", // Crashes
     "galosphere:preserved_flesh", // Food item
     "actuallyadditions:coffee_cup", // Food item
-];
+]);
 
-let customDurabilities = [
-    {
-        id: "cataclysm:coral_spear",
-        durability: 600,
-    },
-    {
-        id: "cataclysm:coral_bardiche",
-        durability: 900,
-    },
-    {
-        id: "aether:golden_parachute",
-        durability: 1500,
-    },
-];
+const customDurabilities = {
+    "cataclysm:coral_spear": 600,
+    "cataclysm:coral_bardiche": 900,
+    "aether:golden_parachute": 1500,
+};
 
 ItemEvents.modification((event) => {
-    Item.list.forEach((item) => {
-        if (item.maxDamage != 0) {
-            // Double the durability of every item
-            event.modify(item, (tool) => {
-                // Avoid modifying blacklisted items
-                if (blacklist.includes(tool.id.toString())) {
-                    return;
-                }
+    event.modify(/.*:/, (item) => {
+        // Skip items that don't have durability
+        if (item.maxDamage <= 0) return;
 
-                if (
-                    customDurabilities.some((d) => d.id === tool.id.toString())
-                ) {
-                    let customDurability = customDurabilities.find(
-                        (d) => d.id === tool.id.toString()
-                    );
-                    try {
-                        tool.maxDamage = customDurability.durability;
-                    } catch (error) {
-                        console.error(
-                            `Error setting custom durability for ${tool.id}:`,
-                            error
-                        );
-                    }
+        const id = item.id;
 
-                    return;
-                }
+        // Check blacklist
+        if (blacklist.has(id)) return;
 
-                try {
-                    let armorAttribute = Item.of(item)
-                        .getItem()
-                        .getAttributes("generic.armor");
+        // Check for a custom durability override
+        if (customDurabilities[id] !== undefined) {
+            item.maxDamage = customDurabilities[id];
+            return;
+        }
 
-                    if (armorAttribute[0]) {
-                        tool.maxDamage *= armorFactor;
-                        // console.log(`${tool.id} is armor`);
-                    } else {
-                        tool.maxDamage *= toolFactor;
-                        // console.log(`${tool.id} is not armor`);
-                    }
-                } catch (error) {
-                    // console.log("Error when applying durability to " + tool.id.toString());
-                }
-            });
+        // Check if the item is armor and apply the appropriate multiplier
+        if (item.getItem() instanceof $ArmorItem) {
+            item.maxDamage *= armorFactor;
+        } else if (item.getItem() instanceof $ShieldItem) {
+            item.maxDamage *= shieldFactor;
+        } else {
+            item.maxDamage *= toolFactor;
         }
     });
 });
