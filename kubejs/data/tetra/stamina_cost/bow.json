@@ -1,0 +1,7 @@
+[
+    {
+        "type": "ranged_weapon",
+        "name": "modular_bow",
+        "stamina_cost": 3
+    }
+]
