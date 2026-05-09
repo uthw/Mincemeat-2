@@ -9,9 +9,21 @@ com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
 net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+de.maxhenkel.voicechat.gui.VoiceChatScreen {
+}
+
+io.wispforest.owo.config.ui.ConfigScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
 net.minecraft.client.gui.screens.PauseScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
+net.minecraft.client.gui.screens.OptionsScreen {
 }
 
