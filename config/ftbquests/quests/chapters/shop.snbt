@@ -879,11 +879,13 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["431C2B8BEE92DD05"]
 			description: [
 				"Tetra only gives you one holosphere, when you get the advancement for creating a workbench."
 				""
 				"This quest can be infinitely redeemed for holospheres, letting you get more in case you lose the original."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "tetra:holo"
@@ -899,7 +901,6 @@
 				}
 			}
 			id: "77FDCD6CFBAC2CBA"
-			invisible: true
 			rewards: [{
 				id: "5F88B7DAC8B75AC7"
 				item: {
