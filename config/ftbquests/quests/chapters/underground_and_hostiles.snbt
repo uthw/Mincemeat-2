@@ -809,7 +809,7 @@
 				type: "observation"
 			}]
 			x: -3.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -1491,7 +1491,7 @@
 				type: "observation"
 			}]
 			x: -2.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -1606,7 +1606,7 @@
 				to_observe: "caverns_and_chasms:evendeeper"
 				type: "observation"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: -4.5d
 		}
 		{
@@ -1652,7 +1652,11 @@
 			y: 4.5d
 		}
 		{
-			description: ["This creature has a shell made from tin and enjoys rapidly bouncing around the walls of caves."]
+			description: [
+				"This creature has a sturdy shell made from tin and enjoys rapidly bouncing around the walls of caves. To damage a Grazer, you'll have to hit in the face or legs."
+				""
+				"Grazers are similar to Rocky Rollers in that they attack by rolling. If confronted by one, it's best to let it roll around until it tires itself out, at which point you can begin your offensive."
+			]
 			id: "72E9AD5D0D2EB987"
 			invisible: true
 			tasks: [{
@@ -1671,6 +1675,76 @@
 				type: "observation"
 			}]
 			x: -5.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Rats are one of the most successful species of rodents. They thrive in packs within dark caves. You can find 5 variants of rats in the world, with the rarest one being the white rat."
+				""
+				"The temperament of a rat depends on the size of their pack. If a rat is alone, it will run away if provoked. However, packs of multiple rats will defend themselves."
+				""
+				"Rats can be tamed with rotten flesh. Alternatively, up to 9 can be tamed at once by providing a rotten flesh block to eat! If you manage to tame 9 with a single block, a Bone Flute which can control a pack of rats will be dropped."
+				""
+				"Like wolves, tamed rats will assist you in combat. They work by overwhelming targets, if the target is large enough, latching onto them."
+				""
+				"Rats are exceptionally resilient. If any rat runs out of health, it will become incapacitated instead of dying. You can then restore its health by giving it any food."
+			]
+			id: "099C49A5766852B9"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:rat"
+					}
+				}
+				id: "605A720FBDA286DE"
+				observe_type: 5
+				timer: 0L
+				title: "Rat"
+				to_observe: "caverns_and_chasms:rat"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["099C49A5766852B9"]
+			id: "7E313274039F64E6"
+			shape: "rsquare"
+			tasks: [{
+				id: "2944FDA10D735D5B"
+				item: "caverns_and_chasms:bone_flute"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Grazers occasionally drop Saddled Eggs, which can be placed and are hatched by landing on them."
+				""
+				"The egg will hatch and a baby Saddled Grazer will be born, which is passive and can be ridden."
+			]
+			id: "62A4AF85D557439C"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "caverns_and_chasms:saddled_grazer"
+					}
+				}
+				id: "4E5E5F2B074E8850"
+				observe_type: 5
+				timer: 0L
+				title: "Saddled Grazer"
+				to_observe: "caverns_and_chasms:saddled_grazer"
+				type: "observation"
+			}]
+			x: -4.5d
 			y: -4.5d
 		}
 	]

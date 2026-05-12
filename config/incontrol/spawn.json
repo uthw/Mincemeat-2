@@ -482,10 +482,5 @@
         "when": "onjoin",
         "mob": "eidolon:slimy_slug",
         "result": "deny"
-    },
-    {
-        "when": "onjoin",
-        "mob": "caverns_and_chasms:rat",
-        "result": "deny"
     }
 ]
