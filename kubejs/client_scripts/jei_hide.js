@@ -82,7 +82,8 @@ JEIEvents.hideItems((event) => {
         "starcatcher:hopeless_bottle",
         "starcatcher:true_blue_bottle",
         "starcatcher:withered_bottle",
-        "starcatcher:waterlogged_bottle"
+        "starcatcher:waterlogged_bottle",
+        "architects_palette:rotten_flesh_block",
     ];
 
     items.forEach((item) => {

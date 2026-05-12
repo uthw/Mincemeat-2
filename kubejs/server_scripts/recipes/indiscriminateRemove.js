@@ -199,6 +199,7 @@ ServerEvents.recipes((event) => {
         "rusticdelight:chocolate_coffee",
         "rusticdelight:honey_coffee",
         "rusticdelight:syrup_coffee",
+        "architects_palette:rotten_flesh_block"
     ];
 
     toRemove.forEach((item) => {
