@@ -170,7 +170,13 @@ ServerEvents.recipes((event) => {
         "create:milling/wheat",
         "malum:spirit_infusion/brilliant_obelisk",
         "malum:spirit_infusion/ring_of_arcane_prowess",
-        "malum:spirit_infusion/hex_ash"
+        "malum:spirit_infusion/hex_ash",
+        "jaopca:immersiveengineering.plate_to_wire.gold",
+        "jaopca:immersiveengineering.plate_to_wire.iron",
+        "immersive_aircraft:bomb_bay",
+        "immersive_aircraft:eco_engine",
+        "immersive_aircraft:lava_engine",
+        "immersive_aircraft:gyroscope_dials"
     ];
 
     toRemove.forEach((recipeId) => {

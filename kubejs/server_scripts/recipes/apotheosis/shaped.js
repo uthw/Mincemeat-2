@@ -235,9 +235,80 @@ ServerEvents.recipes((event) => {
             },
             id: "apotheosis:sigil_of_enhancement",
         },
+        {
+            output: "apotheosis:helmet_tome",
+            inputs: ["   ", "AAA", "ABA"],
+            keys: {
+                A: "minecraft:book",
+                B: "thermal:basalz_rod",
+            },
+        },
+        {
+            output: "apotheosis:chestplate_tome",
+            inputs: ["ABA", "AAA", "AAA"],
+            keys: {
+                A: "minecraft:book",
+                B: "thermal:basalz_rod",
+            },
+        },
+        {
+            output: "apotheosis:leggings_tome",
+            inputs: ["A A", "ABA", "AAA"],
+            keys: {
+                A: "minecraft:book",
+                B: "thermal:basalz_rod",
+            },
+        },
+        {
+            output: "apotheosis:boots_tome",
+            inputs: ["   ", "AAA", "ABA"],
+            keys: {
+                A: "minecraft:book",
+                B: "thermal:basalz_rod",
+            },
+        },
+        {
+            output: "apotheosis:weapon_tome",
+            inputs: [" A ", " A ", " B "],
+            keys: {
+                A: "minecraft:book",
+                B: "thermal:basalz_powder",
+            },
+        },
+        {
+            output: "apotheosis:bow_tome",
+            inputs: [" AB", "C B", " AB"],
+            keys: {
+                A: "minecraft:stick",
+                B: "minecraft:book",
+                C: "thermal:basalz_rod",
+            },
+        },
+        {
+            output: "apotheosis:pickaxe_tome",
+            inputs: ["AAA", " B ", " C "],
+            keys: {
+                A: "minecraft:book",
+                B: "thermal:basalz_rod",
+                C: "minecraft:stick",
+            },
+        },
+        {
+            output: "apotheosis:fishing_tome",
+            inputs: ["  B", " CA", "C A"],
+            keys: {
+                A: "minecraft:book",
+                B: "thermal:basalz_rod",
+                C: "minecraft:stick",
+            },
+        },
     ];
 
     recipes.forEach((recipe) => {
-        event.shaped(recipe.output, recipe.inputs, recipe.keys).id(recipe.id);
+        event.shaped(recipe.output, recipe.inputs, recipe.keys).id(recipe.id || recipe.output);
     });
+
+    event
+        .shapeless("apotheosis:other_tome", ["6x minecraft:book", "thermal:basalz_rod"])
+        .id("apotheosis:other_tome");
 });

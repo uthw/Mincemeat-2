@@ -1618,6 +1618,49 @@ ServerEvents.recipes((event) => {
                 B: "caverns_and_chasms:zirconia",
             },
         ],
+        [
+            "immersive_aircraft:bomb_bay",
+            [" A ", "BCB", "BDB"],
+            {
+                A: "create:fluid_pipe",
+                B: "#forge:ingots/silver",
+                C: "supplementaries:bomb",
+                D: "create:chute",
+            },
+        ],
+        [
+            "immersive_aircraft:eco_engine",
+            ["ABA", "BCB", "DDD"],
+            {
+                A: "environmental:mud_ball",
+                B: "#forge:ingots/tin",
+                C: "immersive_aircraft:engine",
+                D: "architects_palette:algal_brick",
+            },
+        ],
+        [
+            "immersive_aircraft:nether_engine",
+            ["ABA", "CDC", "EEE"],
+            {
+                A: "architects_palette:sunmetal_blend",
+                B: "minecraft:netherite_ingot",
+                C: "rubinated_nether:ruby",
+                D: "immersive_aircraft:engine",
+                E: "#forge:ingots/obsidian",
+            },
+        ],
+        [
+            "immersive_aircraft:gyroscope_dials",
+            ["   ", "ABC", "DEF"],
+            {
+                A: "caverns_and_chasms:depth_gauge",
+                B: "minecraft:clock",
+                C: "cold_sweat:thermometer",
+                D: "supplementaries:speaker_block",
+                E: "immersive_aircraft:gyroscope",
+                F: "minecraft:lever",
+            },
+        ],
     ];
 
     recipes.forEach((recipe, index) => {

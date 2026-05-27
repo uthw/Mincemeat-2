@@ -1037,6 +1037,29 @@ ServerEvents.recipes((event) => {
         [{ output: "#exposure:film_rolls" }, "minecraft:iron_nugget", "#forge:nuggets/silver"],
         [{ output: "thermal:phytogro" }, "thermal:niter", "#forge:gems/sulfur"],
         [{ output: "thermal:phytogro" }, "thermal:apatite", "#forge:bones"],
+        [
+            { output: "immersive_aircraft:steel_boiler" },
+            "minecraft:blast_furnace",
+            "#railways:coalburner_stack",
+        ],
+        [
+            { output: "immersive_aircraft:improved_landing_gear" },
+            "minecraft:coal",
+            "thermal:cured_rubber",
+        ],
+        [
+            { output: "immersive_aircraft:gyroscope_hud" },
+            "minecraft:redstone_lamp",
+            "create:display_board",
+        ],
+        [
+            { output: "immersive_aircraft:gyroscope_hud" },
+            "minecraft:note_block",
+            "supplementaries:speaker_block",
+        ],
+        [{ output: "thermal:dynamo_stirling" }, "#forge:gears/iron", "#forge:wires/iron"],
+        [{ output: "thermal:dynamo_gourmand" }, "#forge:gears/copper", "#forge:wires/copper"],
+        [{ output: "thermal:dynamo_lapidary" }, "#forge:gears/gold", "#forge:wires/gold"],
         // [
         //     { output: "thermal:machine_press" },
         //     "thermal:constantan_gear",
