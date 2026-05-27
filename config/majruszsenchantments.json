@@ -104,10 +104,10 @@
       "loot_id": "majruszsenchantments:chests/ancient_city_sixth_sense"
     },
     "smelter": {
-      "is_enabled": true
+      "is_enabled": false
     },
     "telekinesis": {
-      "is_enabled": true
+      "is_enabled": false
     }
   },
   "curses": {
