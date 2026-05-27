@@ -5,6 +5,6 @@
         "color": "aqua"
     },
     "tip": {
-        "text": "Librarians no longer sell random enchanted books, so you will have to get them from other places."
+        "text": "Librarians sell random enchanted books, but they cannot exceed their vanilla enchanting limits. If you've never traded with the librarian, you can use the reroll button to quickly change the offered book."
     }
 }
