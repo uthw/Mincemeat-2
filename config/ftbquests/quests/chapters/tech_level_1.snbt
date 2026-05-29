@@ -358,7 +358,7 @@
 				}
 			]
 			title: "Some Useful Blocks"
-			x: 1.5d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -3503,7 +3503,7 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -9.0d
 		}
 		{
@@ -3621,6 +3621,109 @@
 			}]
 			x: 10.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["1BCFF5B040A3D70E"]
+			description: ["These &evariations of well-known classics&r may prove helpful when designing your factories."]
+			id: "14094A65794BD8B4"
+			rewards: [{
+				count: 11
+				id: "66C633CFC529B5EE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B9440F024EED1EE"
+					item: "create_connected:encased_chain_cogwheel"
+					type: "item"
+				}
+				{
+					id: "070152CC77F2CE90"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create_connected:crank_wheel"
+								}
+								{
+									Count: 1b
+									id: "create_connected:large_crank_wheel"
+								}
+							]
+						}
+					}
+					title: "Crank Wheel"
+					type: "item"
+				}
+				{
+					id: "64496DD37A75A6FC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create_connected:inverted_clutch"
+								}
+								{
+									Count: 1b
+									id: "create_connected:inverted_gearshift"
+								}
+							]
+						}
+					}
+					title: "Inverted Block"
+					type: "item"
+				}
+				{
+					id: "0B505FE3E7C86EA8"
+					item: "create_connected:parallel_gearbox"
+					type: "item"
+				}
+				{
+					id: "717F75F73176DAE6"
+					item: "create_connected:six_way_gearbox"
+					type: "item"
+				}
+				{
+					id: "20C56A109C2C411A"
+					item: "create_connected:cross_connector"
+					type: "item"
+				}
+				{
+					id: "7F311AA4D3D444E1"
+					item: "create_connected:brake"
+					type: "item"
+				}
+			]
+			title: "More Wacky Blocks"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BFCAF0D9B624149"]
+			description: ["At a glance, these utility blocks give &eeven more control&r over where the &eenergy&r in your contraptions can go."]
+			id: "16FCEEE9D73514BA"
+			tasks: [
+				{
+					id: "41B255378F8A382D"
+					item: "create_connected:kinetic_battery"
+					type: "item"
+				}
+				{
+					id: "51C3A50653E94F14"
+					item: "create_connected:kinetic_bridge"
+					type: "item"
+				}
+			]
+			title: "Storing and Transferring Rotation"
+			x: -2.5d
+			y: -9.5d
 		}
 	]
 	title: "Tech Level 1"

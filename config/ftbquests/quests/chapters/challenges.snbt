@@ -4517,6 +4517,9 @@
 				"Snow: Chilled killed by Skeleton"
 				""
 				"Bumblebee: Rare drop from shearing beehives"
+				""
+				"Casa Bossa Nova and Local Forecast - Elevator: same as vanilla discs"
+				""
 				"{@pagebreak}"
 				"Most discs can also drop from hostile mobs with backpacks."
 			]
@@ -5055,6 +5058,16 @@
 				{
 					id: "744D4D917D7B7220"
 					item: "windswept:music_disc_bumblebee"
+					type: "item"
+				}
+				{
+					id: "0A4622394201EBE9"
+					item: "create_connected:music_disc_elevator"
+					type: "item"
+				}
+				{
+					id: "6E78BB8632C8D964"
+					item: "create_connected:music_disc_interlude"
 					type: "item"
 				}
 			]
