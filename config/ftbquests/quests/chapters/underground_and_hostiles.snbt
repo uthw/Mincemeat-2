@@ -664,7 +664,7 @@
 		}
 		{
 			description: [
-				"These monsters take the appearance of chests in small resting areas underground. Don't let your guard down! When these chests are killed, they will drop a random accessory from the Artifacts mod."
+				"These monsters take the appearance of chests in small resting areas underground. Don't let your guard down! When these chests are killed, they will drop a random artifact."
 				""
 				"Your minimap will show a chest icon if a mimic is nearby, so this can be an easy way of sleuthing them out."
 				""
@@ -1287,7 +1287,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["This little slug is the baby of a specter and will move very slowly. If you feed this absurdly slow slug some lichen shelves, they will quickly dash for the first and only time in their life to a random patch of lichen moss and then dig in. After digging in, they will plant a &mlichen cordyceps&r missing texture which can grow to be very tall."]
+			description: ["This little slug is the baby of a specter and will move very slowly. If you feed this absurdly slow slug some lichen shelves, they will quickly dash for the first and only time in their life to a random patch of lichen moss and then dig in. After digging in, they will plant a lichen cordyceps which can grow to great heights."]
 			id: "1C6F59FAE9CCAA6B"
 			invisible: true
 			tasks: [{
@@ -1706,7 +1706,7 @@
 				to_observe: "caverns_and_chasms:rat"
 				type: "observation"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
@@ -1718,7 +1718,7 @@
 				item: "caverns_and_chasms:bone_flute"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.5d
 			y: 3.5d
 		}
 		{
@@ -1746,6 +1746,34 @@
 			}]
 			x: -4.5d
 			y: -4.5d
+		}
+		{
+			description: [
+				"Moles are the residents of underground ruins, located inside buildings. Being blind, these cubic mammals depend on their sense of smell. This would give them something in common with their underground contemporaries known as Wardens. "
+				""
+				"Unlike Wardens though, moles are completely docile and even eat pesky silverfish. If you feed these silverfish (in item form) to a mole and tuff dirt is nearby, the mole will burrow into the ground, creating a hole which occasionally generates Mining Pouches."
+				""
+				"I've learned that Mining Pouches are sort of like the bounties offered by villagers on the surface. Collect all the requested items, put them in the pouch, and return them to the hole to receive a reward."
+			]
+			id: "3F632F1140716DBC"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "galosphere:mole"
+					}
+				}
+				id: "7C99B603261A43AB"
+				observe_type: 5
+				timer: 0L
+				title: "Mole"
+				to_observe: "galosphere:mole"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 3.5d
 		}
 	]
 	title: "Underground and Monsters"
