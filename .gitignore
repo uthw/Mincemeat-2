@@ -107,3 +107,10 @@ config/fancymenu/customizablemenus.txt
 config/packetfixer.properties
 config/fancymenu/customizablemenus.txt
 config/fancymenu/ui_themes/dark.json
+visual_keybinder/initialized.dat
+visual_keybinder/preset to load on first startup.txt
+visual_keybinder/layouts/1.Full Keyboard and mouse.layout.txt
+visual_keybinder/layouts/2.Mouse.layout.txt
+visual_keybinder/layouts/3.Keyboard.layout.txt
+visual_keybinder/layouts/4.Keypad.layout.txt
+visual_keybinder/layouts/5.Function keys.layout.txt
