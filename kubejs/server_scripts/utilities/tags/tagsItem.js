@@ -90,9 +90,6 @@ ServerEvents.tags("item", (event) => {
         ["iceandfire:troll_leather", "iceandfire:troll_leather_forest"],
         ["iceandfire:troll_leather", "iceandfire:troll_leather_frost"],
         ["iceandfire:troll_leather", "iceandfire:troll_leather_mountain"],
-        ["rarcompat:mimificable", "ramcompat:frost_robe"],
-        ["rarcompat:mimificable", "ramcompat:stink_gland"],
-        ["rarcompat:mimificable", "ramcompat:tendon_lump"],
     ];
 
     add.forEach((addition) => {
