@@ -1194,7 +1194,7 @@
 				type: "structure"
 			}]
 			title: "Find the Platinum Dungeon"
-			x: 6.0d
+			x: 6.5d
 			y: 2.5d
 		}
 		{
@@ -1231,7 +1231,7 @@
 				}
 			]
 			title: "Slay the Aerwhale King"
-			x: 4.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -1263,7 +1263,7 @@
 				}
 			]
 			title: "Nether Gauntlet"
-			x: 8.0d
+			x: 6.5d
 			y: -5.5d
 		}
 		{
@@ -1439,7 +1439,7 @@
 				value: 1L
 			}]
 			x: 7.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["112C59D69077AED4"]
@@ -1559,7 +1559,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["07EF2C1B4D1EA725"]
@@ -1592,8 +1592,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -2478,7 +2478,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -2507,7 +2507,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -2551,7 +2551,7 @@
 				}
 			]
 			title: "Echo Shrine"
-			x: 3.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -2631,6 +2631,80 @@
 			}]
 			x: 4.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: [
+				"The Underworld Arena is a structurally impressive dungeon akin to a Nether Fortress. It houses the exclusive Soul Skeletons and Wither Knights."
+				""
+				"Helvar resides in a large throne room at the heart of its arena and is highly mobile, utilizing the full size of its arena. However, it tires quickly, and landing enough hits will stun it, allowing you to unload your own offensive."
+				""
+				"However, Helvar may not become stunned if the third hit comes while it's attacking, so don't assume that you'll cancel its attack by landing that hit. Also, Helvar attacks by slamming the ground immediately after the stun period ends, so get a feel for how long it lasts."
+				""
+				"Helvar's fight is the epitome of \"the best defense is a good offense.\" Use a low-damage long-range weapon to stun the boss, then switch to a high-damage short-range weapon to get its HP down."
+			]
+			id: "3F3ECBA1DE6F4865"
+			tasks: [{
+				icon: "block_factorys_bosses:underworld_arena_door"
+				id: "6F9CB8EDF8175352"
+				structure: "block_factorys_bosses:underworld_arena"
+				title: "Underworld Arena"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F3ECBA1DE6F4865"]
+			description: [""]
+			hide_until_deps_complete: true
+			id: "589335339A212CB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A842CA1D59C4696"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				icon: "block_factorys_bosses:underworld_arena_key"
+				id: "110EA14818D20318"
+				title: "Helvar, the Underworld Knight"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["20B6859C7A0C1D09"]
+			id: "7B968B83FA1879FE"
+			tasks: [{
+				id: "208B91B622721FB6"
+				item: "fdbosses:eye_of_geburah"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B968B83FA1879FE"]
+			id: "1846B85073A4A191"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05F26201C9C730AF"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/geburah"
+				criterion: ""
+				id: "06DDD9A05289293A"
+				title: "Geburah"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	title: "Dimensional Adventure"

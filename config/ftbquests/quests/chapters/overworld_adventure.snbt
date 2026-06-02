@@ -44,17 +44,12 @@
 				""
 				"The way I've set this up is, directly above the Hunter are the bosses you need to best before unlocking dimensional adventure. You can start with an optional boss or two, but these should be your top priority. You'll need to visit other dimensions if you want gear strong enough to beat some of the Overworld bosses."
 				""
-				"To the left of the Hunter are easier bosses. The least difficult ones, Swampjaw and Umvuthi, are closest to the Hunter's node, and the bosses get harder as the nodes get further."
+				"To the left of the Hunter are easier bosses. The least difficult ones, Swampjaw and Bellringer, are closest to the Hunter's node, and the bosses get harder as the nodes get further."
 				""
 				"To the right of the Hunter are more difficult bosses which you shouldn't attempt without getting comfortable with the modpack and fine-tuning your equipment. Like the other side, their distance from the Hunter is a measure of their difficulty."
 			]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "hunters_return:boomerang"
 				tag: {
 					Damage: 0
@@ -152,7 +147,7 @@
 				}
 			]
 			title: "Lich Tower"
-			x: 1.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -173,7 +168,7 @@
 				value: 1L
 			}]
 			title: "Void Blossom"
-			x: -15.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -197,7 +192,7 @@
 				type: "advancement"
 			}]
 			title: "Ice Maze"
-			x: -14.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -233,7 +228,7 @@
 				value: 1L
 			}]
 			title: "Corrupted Champion"
-			x: 3.0d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -565,7 +560,7 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -6.5d
+			x: -10.5d
 			y: -1.0d
 		}
 		{
@@ -628,7 +623,7 @@
 				value: 1L
 			}]
 			title: "Umvuthi, The Sunbird"
-			x: -3.5d
+			x: -9.0d
 			y: -1.0d
 		}
 		{
@@ -710,7 +705,7 @@
 				value: 1L
 			}]
 			title: "Leviathan"
-			x: 12.0d
+			x: 15.0d
 			y: -4.0d
 		}
 		{
@@ -739,7 +734,7 @@
 				value: 1L
 			}]
 			title: "Ancient Remnant"
-			x: 10.5d
+			x: 13.5d
 			y: -4.0d
 		}
 		{
@@ -768,7 +763,7 @@
 				value: 1L
 			}]
 			title: "The Harbinger"
-			x: 7.5d
+			x: 10.5d
 			y: -4.0d
 		}
 		{
@@ -792,8 +787,8 @@
 				type: "structure"
 			}]
 			title: "Find the Stronghold"
-			x: 12.5d
-			y: 3.0d
+			x: 17.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -879,8 +874,8 @@
 				}
 			]
 			title: "Deep One Bartering"
-			x: 8.0d
-			y: 4.0d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["114699FC353B18CE"]
@@ -1673,7 +1668,7 @@
 			]
 			title: "Diving Style"
 			x: 6.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -1777,8 +1772,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -1820,7 +1815,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["06D1991EE22CF1B3"]
@@ -1843,8 +1838,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -1888,8 +1883,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.5d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1808E3ABC3AF6D82"]
@@ -1902,7 +1897,7 @@
 				value: 1L
 			}]
 			title: "Mother of the Maze"
-			x: -13.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -1933,7 +1928,7 @@
 				value: 1L
 			}]
 			title: "Ghost of Captain Cornelia"
-			x: -14.0d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -1947,7 +1942,7 @@
 				value: 1L
 			}]
 			title: "Eel"
-			x: -14.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -1975,7 +1970,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -12.5d
+			x: -16.5d
 			y: -1.0d
 		}
 		{
@@ -2059,7 +2054,7 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 2.0d
 		}
 		{
@@ -2082,7 +2077,7 @@
 				item: "cataclysm:mech_eye"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: 0.5d
 		}
 		{
@@ -2100,7 +2095,7 @@
 				item: "cataclysm:abyss_eye"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 15.0d
 			y: 0.5d
 		}
 		{
@@ -2117,7 +2112,7 @@
 				item: "cataclysm:desert_eye"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: 0.5d
 		}
 		{
@@ -2134,7 +2129,7 @@
 				item: "cataclysm:cursed_eye"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 16.5d
 			y: 0.5d
 		}
 		{
@@ -2156,7 +2151,7 @@
 				value: 1L
 			}]
 			title: "Swampjaw"
-			x: -2.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -2178,7 +2173,7 @@
 				value: 1L
 			}]
 			title: "Bellringer"
-			x: -5.0d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -2206,7 +2201,7 @@
 				}
 			]
 			title: "Dame Fortuna"
-			x: -8.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -2238,7 +2233,7 @@
 				type: "item"
 			}]
 			title: "Dusk Key"
-			x: 4.5d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -2267,7 +2262,7 @@
 				value: 1L
 			}]
 			title: "Berserker"
-			x: -9.5d
+			x: -12.0d
 			y: -1.0d
 		}
 		{
@@ -2292,7 +2287,7 @@
 				item: "meetyourfight:fossil_bait"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -2329,7 +2324,7 @@
 				title: "Umvuthana Grove"
 				type: "structure"
 			}]
-			x: -3.5d
+			x: -9.0d
 			y: 0.5d
 		}
 		{
@@ -2351,7 +2346,7 @@
 				item: "meetyourfight:haunted_bell"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -2385,7 +2380,7 @@
 				title: "Pink Salt Shrine"
 				type: "structure"
 			}]
-			x: -9.5d
+			x: -12.0d
 			y: 0.5d
 		}
 		{
@@ -2421,7 +2416,7 @@
 				title: "Void Blossom Arena"
 				type: "structure"
 			}]
-			x: -15.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -2447,7 +2442,7 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
+			x: 3.0d
 			y: -2.5d
 		}
 		{
@@ -2484,7 +2479,7 @@
 				title: "Catacombs (Iron's Spellbooks)"
 				type: "structure"
 			}]
-			x: -12.5d
+			x: -16.5d
 			y: 0.5d
 		}
 		{
@@ -2547,7 +2542,7 @@
 				}
 			]
 			title: "Dead King's Spoils"
-			x: -12.5d
+			x: -16.5d
 			y: -2.5d
 		}
 		{
@@ -2581,7 +2576,7 @@
 				title: "Frostmaw's Spawn"
 				type: "structure"
 			}]
-			x: -6.5d
+			x: -10.5d
 			y: 0.5d
 		}
 		{
@@ -2604,7 +2599,7 @@
 				item: "meetyourfight:devils_ante"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
@@ -2622,7 +2617,7 @@
 				item: "meetyourfight:bone_raker"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -2.5d
 		}
 		{
@@ -2644,7 +2639,7 @@
 				item: "meetyourfight:caged_heart"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: -3.5d
 		}
 		{
@@ -2668,7 +2663,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -2686,7 +2681,7 @@
 				item: "meetyourfight:slicers_dice"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
@@ -2704,7 +2699,7 @@
 				item: "meetyourfight:ace_of_iron"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
@@ -2728,7 +2723,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -4.0d
 			y: -2.5d
 		}
 		{
@@ -2756,7 +2751,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -12.0d
 			y: -2.5d
 		}
 		{
@@ -2773,8 +2768,8 @@
 				item: "meetyourfight:spectres_eye"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.5d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4C2CB24F4BB67925"]
@@ -2790,8 +2785,8 @@
 				item: "meetyourfight:spectres_grasp"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1808E3ABC3AF6D82"]
@@ -2808,7 +2803,7 @@
 				item: "aquamirae:shell_horn"
 				type: "item"
 			}]
-			x: -14.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -2830,7 +2825,7 @@
 				value: 1L
 			}]
 			title: "Night Lich"
-			x: 1.5d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -2859,7 +2854,7 @@
 				title: "Dead Tree"
 				type: "structure"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -2898,7 +2893,7 @@
 				}
 			]
 			title: "Bone Staff"
-			x: 3.5d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -2929,7 +2924,7 @@
 				title: "Ruins"
 				type: "structure"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -2974,7 +2969,7 @@
 				}
 			]
 			title: "Necessary Sacrifices"
-			x: 2.5d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -3006,7 +3001,7 @@
 				title: "Lich Prison"
 				type: "structure"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -3061,7 +3056,7 @@
 				title: "Bone Staff"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: -5.5d
 		}
 		{
@@ -3082,7 +3077,7 @@
 				value: 1L
 			}]
 			title: "Rosalyne"
-			x: 4.5d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -3106,7 +3101,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: -3.5d
 		}
 		{
@@ -3124,7 +3119,7 @@
 				item: "meetyourfight:wilted_ideals"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 8.0d
 			y: -3.5d
 		}
 		{
@@ -3141,7 +3136,7 @@
 				item: "meetyourfight:blossoming_mind"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -3159,7 +3154,7 @@
 				item: "meetyourfight:tomb_planter"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -3187,7 +3182,7 @@
 				value: 1L
 			}]
 			title: "Maledictus"
-			x: 13.5d
+			x: 16.5d
 			y: -4.0d
 		}
 		{
@@ -3212,7 +3207,7 @@
 				title: "Sunken City"
 				type: "structure"
 			}]
-			x: 12.0d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -3255,7 +3250,7 @@
 				}
 			]
 			title: "Blessed Amethyst Crab Meat"
-			x: 12.0d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -3287,7 +3282,7 @@
 				item: "cataclysm:abyssal_sacrifice"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 15.0d
 			y: -3.0d
 		}
 		{
@@ -3318,7 +3313,7 @@
 				title: "Cursed Pyramid"
 				type: "structure"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: -1.0d
 		}
 		{
@@ -3341,7 +3336,7 @@
 				item: "cataclysm:sticky_gloves"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 13.5d
 			y: -2.0d
 		}
 		{
@@ -3380,7 +3375,7 @@
 				}
 			]
 			title: "Necklace of the Desert"
-			x: 10.5d
+			x: 13.5d
 			y: -3.0d
 		}
 		{
@@ -3402,7 +3397,7 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: -2.5d
 		}
 		{
@@ -3426,7 +3421,7 @@
 				title: "Ancient Factory"
 				type: "structure"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -3455,7 +3450,7 @@
 				title: "Frosted Prison"
 				type: "structure"
 			}]
-			x: 13.5d
+			x: 16.5d
 			y: -1.0d
 		}
 		{
@@ -3483,7 +3478,7 @@
 				to_observe: "cataclysm:cursed_tombstone"
 				type: "observation"
 			}]
-			x: 13.5d
+			x: 16.5d
 			y: -2.5d
 		}
 		{
@@ -3506,7 +3501,7 @@
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: -5.5d
 		}
 		{
@@ -3529,7 +3524,7 @@
 				item: "cataclysm:wrath_of_the_desert"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 11.0d
 			y: -7.0d
 		}
 		{
@@ -3569,7 +3564,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 10.0d
 			y: -7.0d
 		}
 		{
@@ -3609,7 +3604,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -6.5d
 		}
 		{
@@ -3649,7 +3644,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: -6.5d
 		}
 		{
@@ -3672,7 +3667,7 @@
 				item: "cataclysm:the_immolator"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 8.5d
 			y: -7.5d
 		}
 		{
@@ -3695,7 +3690,7 @@
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 9.5d
 			y: -8.0d
 		}
 		{
@@ -3724,7 +3719,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: -8.0d
 		}
 		{
@@ -3747,7 +3742,7 @@
 				item: "cataclysm:void_assault_shoulder_weapon"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: -8.0d
 		}
 		{
@@ -3771,7 +3766,7 @@
 				item: "cataclysm:gauntlet_of_maelstrom"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 12.5d
 			y: -7.5d
 		}
 		{
@@ -4098,7 +4093,7 @@
 				type: "structure"
 			}]
 			title: "Labyrinth"
-			x: -11.0d
+			x: -15.0d
 			y: 0.5d
 		}
 		{
@@ -4125,7 +4120,7 @@
 				type: "item"
 			}]
 			title: "Chaos Spawner"
-			x: -11.0d
+			x: -15.0d
 			y: -2.5d
 		}
 		{
@@ -4207,7 +4202,7 @@
 				}
 			]
 			title: "Spawner Gear"
-			x: -10.0d
+			x: -14.5d
 			y: -4.0d
 		}
 		{
@@ -4247,7 +4242,7 @@
 				}
 			]
 			title: "Chaos Arsenal"
-			x: -12.0d
+			x: -15.5d
 			y: -4.0d
 		}
 		{
@@ -4281,7 +4276,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.0d
 			y: -1.0d
 		}
 		{
@@ -4328,7 +4323,7 @@
 				}
 			]
 			title: "Sky Arena"
-			x: 14.0d
+			x: 18.0d
 			y: 2.0d
 		}
 		{
@@ -4467,8 +4462,8 @@
 				}
 			]
 			title: "Hollow"
-			x: -11.0d
-			y: -4.5d
+			x: -15.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["49975EE359AD20F3"]
@@ -4492,7 +4487,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: 0.5d
 		}
 		{
@@ -4528,7 +4523,7 @@
 				title: "Acropolis"
 				type: "structure"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -4561,7 +4556,7 @@
 				type: "observation"
 			}]
 			title: "Acropolis Sanctum"
-			x: 9.0d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -4589,7 +4584,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -4616,7 +4611,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -4647,7 +4642,7 @@
 				title: "Temple of Duality"
 				type: "structure"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -4670,7 +4665,7 @@
 				type: "observation"
 			}]
 			title: "Main Room"
-			x: 6.0d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -4729,7 +4724,7 @@
 				}
 			]
 			title: "Duality Puzzle Cheat Sheet"
-			x: 6.0d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -4759,7 +4754,7 @@
 				item: "dungeonnowloading:redstone_idol"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -2.5d
 		}
 		{
@@ -4804,7 +4799,7 @@
 				type: "item"
 			}]
 			title: "Scorcher/Soul Scorcher"
-			x: 5.5d
+			x: 8.5d
 			y: -5.5d
 		}
 		{
@@ -4828,7 +4823,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 9.5d
 			y: -5.5d
 		}
 		{
@@ -4856,8 +4851,323 @@
 				}
 			]
 			title: "Fairkeeper Ouros and Boros"
-			x: 6.0d
+			x: 9.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"The Dragon Tower is an imposing tower found in temperate to moderately warm biomes. The dragon you're looking for will be at the top so feel free to grapple up there, but if you want an experience, try fighting your way to the top."
+				""
+				"As suggested by, well, everything about this tower, the Infernal Dragon relies on fire to defeat its targets. Therefore, bring means of mitigating fire damage; if you've found a Fireward Ring, you're in luck. Or just use a water bucket."
+				""
+				"The dragon also uses a decent amount of physical attacks, which can launch you off the tower. This should be a mild inconvenience at worst with how many tools you're given for preventing fall damage."
+				""
+				"As for means of damaging the dragon, bring a powerful bow or ranged spell to reliably damage it while it's airborne."
+			]
+			id: "654BDF4FF9546D07"
+			tasks: [{
+				icon: "block_factorys_bosses:dragon_banner"
+				id: "17E50684DB1CF4AA"
+				structure: "block_factorys_bosses:dragon_tower"
+				title: "Dragon Tower"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["654BDF4FF9546D07"]
+			id: "4274914ACE496985"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D9E90A1B51C2CE2"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				icon: "block_factorys_bosses:dragon_bone"
+				id: "3ED0332958B8F973"
+				title: "Ashlord, The Infernal Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4274914ACE496985"]
+			id: "60F394F05A80C602"
+			tasks: [
+				{
+					id: "302444107AEC3EE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "block_factorys_bosses:dragon_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "09E6306C238B8E81"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "block_factorys_bosses:dragon_bones_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "310D9CD2B6A3C920"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "block_factorys_bosses:dragon_bones_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AA02FE85230CC8F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "block_factorys_bosses:dragon_bones_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ashlord Armor"
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4274914ACE496985"]
+			id: "1216CC8F19C2CD9E"
+			tasks: [{
+				id: "2F4C29C7FF745490"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:dragon_guard_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Yetis can be found in frigid biomes, idiotically trapped within a cube of ice. Breaking any of the ice blocks currently enclosing it is enough for it to wake up and recklessly attack you."
+				""
+				"All of the Yeti's attacks are some variation of \"manifest ice out of the ground,\" \"shoot ice balls at you,\" or \"launch you into the air.\" The attacks come out frequently, so stay aware of your surroundings and consider using third-person mode."
+				""
+				"Getting hit by the Yeti means your mobility will be severely impacted. If you can acquire an alternative form of movement, it will come in handy here. The most obvious of these is a teleportation spell."
+				""
+				"Because this boss is found out in the open, it's exceedingly easy to manipulate your surroundings and give yourself an edge. Build walls and ceilings to take cover, flatten out the terrain, and place down hot blocks or liquids to keep yourself warm."
+			]
+			id: "36805B8521AA675C"
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "7433E6DA4FE9D1C1"
+				structure: "block_factorys_bosses:yeti_hideout"
+				title: "Yeti \"Hideout\""
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36805B8521AA675C"]
+			id: "19B969C38E46F382"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C148671BEC47C98"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				icon: "minecraft:packed_ice"
+				id: "434B765D1F209BF0"
+				title: "Skor, The Yeti"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19B969C38E46F382"]
+			id: "30F137F36183CEB8"
+			tasks: [{
+				id: "04EC1F6AC0D1C91E"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:ice_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Sand Worms reside within desert ruins marked by pillars, vases, and bones. If you find something like this, I recommend staying away unless you're prepared, since the worm will try to exploit the element of surprise."
+				""
+				"If possible, lure the Sand Worm to somewhere far from any steep drops or oceans, since it has a roar attack which inflicts immense knockback. You can also prepare by becoming immune to poison, perhaps with a Poisonward Ring."
+				""
+				"Another noteworthy attack involves the Sand Worm burrowing and then emerging. When this happens, start sprinting and then dodge as soon as the indicator shows up on the ground. You have to react fast to this in order to not get hit."
+				""
+				"Your playstyle influences the manner in which the Sand Worm attacks. Staying close to it will make it burrow more often, and attacking from afar makes it more likely to use its projectiles and bite attacks."
+			]
+			id: "21F86A0E1FB63D07"
+			tasks: [{
+				icon: "block_factorys_bosses:vase"
+				id: "1EE7FFEB90FF19B6"
+				structure: "block_factorys_bosses:sandworm_nest"
+				title: "Sand Worm Nest"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21F86A0E1FB63D07"]
+			id: "27D2F14602F23A12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CDC87E61C5E8E5F"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			subtitle: "I see sand, not rock!"
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				icon: "block_factorys_bosses:corpse"
+				id: "7198EB1B24FF0D57"
+				title: "Sirok, The Sandworm"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27D2F14602F23A12"]
+			id: "0BC765FC3C28D1E5"
+			tasks: [{
+				id: "0D0926352AF50372"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:sandworm_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			description: [
+				"Chesed is a mass of rocks, crystals, and sculk found in its dedicated dimension. It uses concentrated beams of energy and earth manipulation to attack."
+				""
+				"By interacting with the crystal in the center of its arena, Chesed will tell you everything you need to know about how to defeat it. Clicking the icons in the bottom right will inform you in detail on each mechanic of the boss, and clicking the book in the bottom left gives a briefing for busy people."
+				""
+				"Once you're done reading, use the menu to begin fighting Chesed."
+			]
+			id: "52C22DAE828F441B"
+			tasks: [{
+				id: "63747A275B58FE77"
+				item: "fdbosses:eye_of_chesed"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52C22DAE828F441B"]
+			id: "580FE0FA099B8D6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C936761EEF73060"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/chesed"
+				criterion: ""
+				id: "60732C94330AFE16"
+				title: "Chesed"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49975EE359AD20F3"]
+			id: "620049A327647036"
+			tasks: [{
+				id: "55B10AF17EFDD386"
+				item: "fdbosses:eye_of_malkuth"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["620049A327647036"]
+			id: "1523B768DC9D0F6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35F570FB1250A4A0"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "fdbosses:qliphoth_awakening/malkuth"
+				criterion: ""
+				id: "5E94F7ECAA4CA159"
+				title: "Malkuth"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 5.0d
 		}
 	]
 	title: "Overworld Adventure"
