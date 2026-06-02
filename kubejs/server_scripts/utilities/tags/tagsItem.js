@@ -95,4 +95,7 @@ ServerEvents.tags("item", (event) => {
     add.forEach((addition) => {
         event.add(addition[0], addition[1]);
     });
+
+    event.removeAllTagsFrom("immersiveengineering:raw_uranium");
+    event.removeAllTagsFrom("mekanism:raw_uranium");
 });
