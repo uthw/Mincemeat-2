@@ -151,5 +151,11 @@
     "affix.apotheosis:shield/attribute/light.suffix": "of the Steadfast",
     "affix.apotheosis:sword/attribute/light": "Weightless",
     "affix.apotheosis:sword/attribute/light.suffix": "of Vigor",
-    "chatText.subtitle.success": "Success"
+    "chatText.subtitle.success": "Success",
+    "effect.fdbosses.energized.description": "Grants immunity to Chesed's energy ray attacks and charges nearby ray reflectors.",
+    "effect.fdbosses.chesed_gaze.description": "Causes loss of vision while looking away from Chesed.",
+    "effect.fdbosses.sinner.description": "Committing too many of the currently sinful action results in instant death.",
+    "effect.fdbosses.shocked.description": "Decreases outgoing damage by 25%.",
+    "effect.fdbosses.knight.description": "Indicates an active fight against Malkuth. Replaced by Mark of a Coward during an attempt to flee.",
+    "effect.fdbosses.coward.description": "Causes instant death at the end of the effect's duration."
 }
