@@ -20,7 +20,7 @@
 	#List of small leaf-like plants.
 	"Leaf Like" = ["#minecraft:leaves", "#dynamictrees:foliage", "environmental:.*_hanging_wisteria_leaves", "environmental:cattail_stalk", "environmental:cattail", "biomesoplenty:bramble_leaves", "biomesoplenty:high_grass.*", "biomesoplenty:huge_clover_petal"]
 	#List of small lily pad-like plants.
-	"Pad Like" = ["regions_unexplored:flowering_lily_pad", "biomesoplenty:huge_lily_pad", "environmental:giant_lily_pad", "environmental:large_lily_pad", "natures_spirit:helvola", "natures_spirit:lotus_flower", "natures_spirit:lotus_stem", "biomeswevegone:tiny_lily_pads", "biomeswevegone:flowering_tiny_lily_pads", "reliquary:fertile_lily_pad"]
+	"Pad Like" = ["regions_unexplored:flowering_lily_pad", "biomesoplenty:huge_lily_pad", "environmental:giant_lily_pad", "environmental:large_lily_pad", "natures_spirit:helvola", "natures_spirit:lotus_flower", "natures_spirit:lotus_stem", "biomeswevegone:tiny_lily_pads", "biomeswevegone:flowering_tiny_lily_pads", "reliquary:fertile_lily_pad", "hexerei:flowering_lily_pad"]
 	#List of custom-like plants, use '@' to split template and targets, template string can get from F3+i at target blocks, such as minecraft:tall_grass[half=lower]@#minecraft:tall_flowers[half=lower].
 	"Custom Like" = ["minecraft:vine@teastory:rice_plant"]
 
