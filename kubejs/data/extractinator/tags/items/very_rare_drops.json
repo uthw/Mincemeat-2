@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:diamond",
+        "minecraft:emerald",
+        "minecraft:amethyst_shard",
+        "mekanism:raw_osmium",
+        "lightmanscurrency:coin_iron"
+    ]
+}

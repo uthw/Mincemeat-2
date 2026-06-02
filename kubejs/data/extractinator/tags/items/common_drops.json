@@ -1,0 +1,11 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:raw_iron",
+        "minecraft:raw_copper",
+        "minecraft:raw_gold",
+        "minecraft:coal",
+        "caverns_and_chasms:raw_tin",
+        "caverns_and_chasms:raw_silver"
+    ]
+}

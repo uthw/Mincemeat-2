@@ -1,0 +1,14 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:redstone",
+        "minecraft:lapis_lazuli",
+        "minecraft:quartz",
+        "eidolon:raw_lead",
+        "thermal:raw_nickel",
+        "immersiveengineering:raw_aluminum",
+        "create:raw_zinc",
+        "thermal:sapphire",
+        "lightmanscurrency:coin_copper"
+    ]
+}
