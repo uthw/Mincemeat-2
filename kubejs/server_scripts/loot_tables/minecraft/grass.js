@@ -6,8 +6,8 @@ LootJS.modifiers((event) => {
         .removeLoot("actuallyadditions:flax_seeds")
         .removeLoot("immersiveengineering:seed")
         .removeLoot("occultism:datura_seeds")
-        .removeLoot("actuallyadditions:coffee_beans");
-        // .removeLoot("hexerei:sage_seed")
+        .removeLoot("actuallyadditions:coffee_beans")
+        .removeLoot("hexerei:sage_seed");
 
     event
         .addBlockLootModifier("minecraft:tall_grass")
@@ -16,6 +16,6 @@ LootJS.modifiers((event) => {
         .removeLoot("actuallyadditions:flax_seeds")
         .removeLoot("immersiveengineering:seed")
         .removeLoot("occultism:datura_seeds")
-        .removeLoot("actuallyadditions:coffee_beans");
-        // .removeLoot("hexerei:sage_seed")
+        .removeLoot("actuallyadditions:coffee_beans")
+        .removeLoot("hexerei:sage_seed");
 });
