@@ -1599,7 +1599,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "22516E6AD99117CF"
+				id: "24F88E487CE4E2D5"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -1607,16 +1607,9 @@
 						items: [
 							{
 								Count: 1b
-								id: "itemfilters:mod"
+								id: "itemfilters:tag"
 								tag: {
-									value: "relics"
-								}
-							}
-							{
-								Count: 1b
-								id: "itemfilters:mod"
-								tag: {
-									value: "raccompat"
+									value: "rarcompat:mimificable"
 								}
 							}
 							{
@@ -1624,6 +1617,13 @@
 								id: "itemfilters:mod"
 								tag: {
 									value: "ramcompat"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "raccompat"
 								}
 							}
 						]
