@@ -61,5 +61,5 @@
 		#Should mobs tagged as Post-Nether only spawn after entering the nether. Setting this to false allows Post-Nether mobs to spawn at any time
 		postNether = true
 		#Should mobs tagged as Post-End only spawn after at least one Ender dragon has been defeated. Setting this to false allows Post-End mobs to spawn at any time
-		postEnd = true
+		postEnd = false
 
