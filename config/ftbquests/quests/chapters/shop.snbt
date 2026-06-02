@@ -1006,6 +1006,222 @@
 			x: 9.0d
 			y: 0.0d
 		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_copper"
+			id: "61A94DE949C6C556"
+			rewards: [{
+				id: "5AF2EDA2D8F781F7"
+				item: "lightmanscurrency:coin_chocolate_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46253929ABC7CBF7"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			title: "Chocolate Copper Coin"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_copper"
+			id: "2F6D6550453716F8"
+			rewards: [{
+				count: 32
+				id: "6CC890602AD62CCC"
+				item: "lightmanscurrency:coin_chocolate_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "5875C95E9267910E"
+				item: { Count: 32, id: "lightmanscurrency:coin_copper" }
+				type: "item"
+			}]
+			title: "32x Chocolate Copper Coin"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_iron"
+			id: "0F1E23F79AE72FA7"
+			rewards: [{
+				id: "4FA4C8DD833F53F8"
+				item: "lightmanscurrency:coin_chocolate_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31462976BC94F9A6"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Chocolate Iron Coin"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_iron"
+			id: "6DD47E0ABCBA3E24"
+			rewards: [{
+				count: 32
+				id: "3D4B5DA62C30E926"
+				item: "lightmanscurrency:coin_chocolate_iron"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "785A7B328EC0A280"
+				item: { Count: 32, id: "lightmanscurrency:coin_iron" }
+				type: "item"
+			}]
+			title: "32x Chocolate Iron Coin"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_gold"
+			id: "2A16E36DFF2158D0"
+			rewards: [{
+				id: "0B0E9FF7D7B2B9B3"
+				item: "lightmanscurrency:coin_chocolate_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1070DCB4D2386123"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "Chocolate Gold Coin"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_gold"
+			id: "10D94109341ED800"
+			rewards: [{
+				count: 32
+				id: "232930E755C1D2EA"
+				item: "lightmanscurrency:coin_chocolate_gold"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "2E3E2B769AD3CE74"
+				item: { Count: 32, id: "lightmanscurrency:coin_gold" }
+				type: "item"
+			}]
+			title: "32x Chocolate Gold Coin"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_diamond"
+			id: "58DAD5EAFA8C6EEE"
+			rewards: [{
+				id: "61C45865DADDEC57"
+				item: "lightmanscurrency:coin_chocolate_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "288F42272A6603BA"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "Chocolate Diamond Coin"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_diamond"
+			id: "58D80BDA3E7AE85D"
+			rewards: [{
+				count: 32
+				id: "6FA3F9440E2648C4"
+				item: "lightmanscurrency:coin_chocolate_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "4018460CE5A76B32"
+				item: { Count: 32, id: "lightmanscurrency:coin_diamond" }
+				type: "item"
+			}]
+			title: "32x Chocolate Diamond Coin"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_netherite"
+			id: "489E4CA6BAB69F3C"
+			rewards: [{
+				id: "05DF3E59114FB365"
+				item: "lightmanscurrency:coin_chocolate_netherite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F5A7823156E4A8D"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "Chocolate Netherite Coin"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_netherite"
+			id: "773E434B4F68DB30"
+			rewards: [{
+				count: 32
+				id: "3874B6CB41052FCA"
+				item: "lightmanscurrency:coin_chocolate_netherite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "188FF91FD45166B0"
+				item: { Count: 32, id: "lightmanscurrency:coin_netherite" }
+				type: "item"
+			}]
+			title: "32x Chocolate Netherite Coin"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_emerald"
+			id: "3307706EC720C64A"
+			rewards: [{
+				id: "5706CF4A85A69D74"
+				item: "lightmanscurrency:coin_chocolate_emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77F1689C8E5E5DAB"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Chocolate Emerald Coin"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			icon: "lightmanscurrency:coin_chocolate_emerald"
+			id: "1088DADC9B930741"
+			rewards: [{
+				count: 32
+				id: "715568083DDBF844"
+				item: "lightmanscurrency:coin_chocolate_emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "46F15FCC34326FD0"
+				item: { Count: 32, id: "lightmanscurrency:coin_emerald" }
+				type: "item"
+			}]
+			title: "32x Chocolate Emerald Coin"
+			x: 1.0d
+			y: 8.0d
+		}
 	]
 	title: "Shop"
 }
