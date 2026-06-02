@@ -953,7 +953,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "irons_spellbooks:nature_rune" },
             "minecraft:poisonous_potato",
-            "alexscaves:pewen_branch",
+            "opposing_force:slug_eggs",
         ],
         [
             { output: "celestisynth:celestial_core" },
@@ -1142,23 +1142,12 @@ ServerEvents.recipes((event) => {
             { output: "fdbosses:eye_of_geburah" },
             "minecraft:gold_ingot",
             "malum:soul_stained_steel_ingot"
+        ],
+        [
+            {},
+            "opposing_force:heavy_bone",
+            "alexscaves:heavy_bone"
         ]
-        // [
-        //     { output: "thermal:machine_press" },
-        //     "thermal:constantan_gear",
-        //     "immersiveengineering:component_iron"
-        // ]
-        //     // replace all aluminum with zinc, just for the sake of not adding too many ores
-        //     [{}, "#forge:ingots/aluminum", "#forge:ingots/zinc"],
-        //     [{}, "#forge:plates/aluminum", "#forge:plates/zinc"],
-        //     [{}, "#forge:wires/aluminum", "#forge:wires/iron"],
-        //     [{}, "#forge:rods/aluminum", "#forge:rods/iron"],
-        //     [
-        //         {},
-        //         "immersiveengineering:sheetmetal_aluminum",
-        //         "immersiveengineering:sheetmetal_silver",
-        //     ],
-        //     [{}, "immersiveengineering:"],
     ];
 
     replacements.forEach((replacement) => {
