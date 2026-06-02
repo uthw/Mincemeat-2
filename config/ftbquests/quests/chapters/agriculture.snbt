@@ -168,6 +168,7 @@
 				item: "lightmanscurrency:coin_copper"
 				type: "item"
 			}]
+			subtitle: "Found in pine barrens"
 			tasks: [{
 				id: "0844E3B4023874DF"
 				item: "windswept:ginger_root"
