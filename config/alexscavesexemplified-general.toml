@@ -20,8 +20,6 @@
 	LIQUID_REPLICATION_ENABLED = true
 	#Using a wither star to nullify godly interventions.To allow you to use natures compass and alike to find biomes
 	POWERED_LOCATORS_ENABLED = true
-	#Adds extra targets for mobs
-	ADD_TARGETS_ENABLED = true
 
 ["Candy Cavity"]
 	#Consume blocks when right clicking, and minor interactions with eating food
@@ -36,8 +34,6 @@
 	SUGAR_CRASH_ENABLED = true
 	#Thrown ice cream slightly freezes those that are hit
 	ICED_CREAM_ENABLED = true
-	#Makes the candy cavity freeze outsiders slowly
-	CRYONIC_CAVITY_ENABLED = true
 	#Allows the creation of gelatin with bone blocks
 	BREAKING_CANDY_ENABLED = true
 	#You can make Ice Cream Cones

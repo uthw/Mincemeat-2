@@ -11,13 +11,37 @@
     "botania:falling_star"
   ],
   "entityWhitelist": [
-    "botania:mana_burst"
+    "botania:mana_burst",
+    "fdbosses:chesed",
+    "fdbosses:chesed_kinetic_field",
+    "fdbosses:chesed_mini_ray",
+    "fdbosses:chesed_one_shot_vertical_ray_attack",
+    "fdbosses:chesed_vertical_ray_attack",
+    "fdbosses:earth_shatter",
+    "fdbosses:flying_block",
+    "fdbosses:geburah",
+    "fdbosses:geburah_chain_trap",
+    "fdbosses:geburah_earthquake",
+    "fdbosses:geburah_judgement_ball",
+    "fdbosses:geburah_opening_floor",
+    "fdbosses:justice_hammer",
+    "fdbosses:malkuth_cannon",
+    "fdbosses:malkuth",
+    "fdbosses:malkuth_cannon_projectile",
+    "fdbosses:malkuth_crush",
+    "fdbosses:malkuth_earthquake",
+    "fdbosses:malkuth_fist_chain",
+    "fdbosses:malkuth_floor",
+    "fdbosses:malkuth_giant_sword_slash",
+    "fdbosses:malkuth_platform",
+    "fdbosses:malkuth_slash",
+    "fdbosses:radial_earthquake"
   ],
   "tracingDistance": 128,
   "debugMode": false,
   "sleepDelay": 10,
   "hitboxLimit": 50,
-  "skipMarkerArmorStands": true,
+  "captureRate": 5,
   "tickCulling": true,
   "tickCullingWhitelist": [
     "create:contraption",
@@ -52,5 +76,7 @@
   ],
   "disableF3": false,
   "skipEntityCulling": false,
-  "skipBlockEntityCulling": false
+  "skipBlockEntityCulling": false,
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": false
 }
