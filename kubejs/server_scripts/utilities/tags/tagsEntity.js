@@ -83,9 +83,6 @@ ServerEvents.tags("entity_type", (event) => {
         "ars_nouveau:wilden_boss",
         "aquamirae:maze_mother",
         "aquamirae:captain_cornelia",
-        "mowziesmobs:ferrous_wroughtnaut",
-        "mowziesmobs:frostmaw",
-        "mowziesmobs:umvuthi",
 
         "lost_aether_content:aerwhale_king",
         "aether:valkyrie_queen",
@@ -139,6 +136,16 @@ ServerEvents.tags("entity_type", (event) => {
 
         "dungeonnowloading:fairkeeper_ouros",
         "dungeonnowloading:fairkeeper_boros",
+
+        "fdbosses:chesed",
+        "fdbosses:malkuth",
+        "fdbosses:geburah",
+
+        "block_factorys_bosses:infernal_dragon",
+        "block_factorys_bosses:kraken",
+        "block_factorys_bosses:sandworm",
+        "block_factorys_bosses:underworld_knight",
+        "block_factorys_bosses:yeti"
     ];
 
     bossesAndMinions.forEach((boss) => {

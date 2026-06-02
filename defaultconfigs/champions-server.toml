@@ -111,6 +111,15 @@ entitiesList = [
 	"dungeonnowloading:fairkeeper_ouros",
 	"dungeonnowloading:fairkeeper_boros",
 
+	"fdbosses:chesed",
+	"fdbosses:malkuth",
+	"fdbosses:geburah",
+
+	"block_factorys_bosses:infernal_dragon",
+	"block_factorys_bosses:kraken",
+	"block_factorys_bosses:sandworm",
+	"block_factorys_bosses:underworld_knight",
+	"block_factorys_bosses:yeti"
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST
