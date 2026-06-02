@@ -1060,6 +1060,89 @@ ServerEvents.recipes((event) => {
         [{ output: "thermal:dynamo_stirling" }, "#forge:gears/iron", "#forge:wires/iron"],
         [{ output: "thermal:dynamo_gourmand" }, "#forge:gears/copper", "#forge:wires/copper"],
         [{ output: "thermal:dynamo_lapidary" }, "#forge:gears/gold", "#forge:wires/gold"],
+        [
+            { output: "lightmanscurrency:vending_machine" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum",
+        ],
+        [
+            { output: "lightmanscurrency:vending_machine_large" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum",
+        ],
+        [
+            { output: "lightmanscurrency:coinjar_blue" },
+            "#forge:ingots/brick",
+            "architects_palette:algal_brick",
+        ],
+        [
+            { output: "lightmanscurrency:piggy_bank" },
+            "#forge:ingots/brick",
+            "architects_palette:algal_brick",
+        ],
+        [{ output: "#lightmanscurrency:wallet" }, "minecraft:leather", "farmersdelight:canvas"],
+        [
+            { output: "lightmanscurrency:ticket_machine" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum",
+        ],
+        [{ output: "lightmanscurrency:atm" }, "minecraft:iron_ingot", "#forge:ingots/aluminum"],
+        [
+            { output: "lightmanscurrency:cash_register" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum",
+        ],
+        [
+            { output: "lightmanscurrency:cash_register" },
+            "minecraft:ender_pearl",
+            "irons_spellbooks:arcane_essence",
+        ],
+        [
+            { output: "lightmanscurrency:cash_register" },
+            "minecraft:ender_pearl",
+            "create:item_drain",
+        ],
+        [{ output: "lightmsncurrency:terminal" }, "minecraft:iron_ingot", "#forge:ingots/aluminum"],
+        [
+            { output: "lightmsncurrency:terminal" },
+            "minecraft:ender_eye",
+            "caverns_and_chasms:zirconia",
+        ],
+        [
+            { output: "lightmsncurrency:gem_terminal" },
+            "minecraft:ender_eye",
+            "caverns_and_chasms:zirconia",
+        ],
+        [
+            { output: "lightmanscurrency:item_trader_interface" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum",
+        ],
+        [
+            { output: "lightmanscurrency:tax_block" },
+            "minecraft:ender_pearl",
+            "caverns_and_chasms:spinel",
+        ],
+        [
+            { output: "lightmanscurrency:tax_block" },
+            "minecraft:hopper",
+            "alexscaves:heavyweight",
+        ],
+        [
+            { output: "fdbosses:eye_of_malkuth" },
+            "minecraft:ice",
+            "yungscavebiomes:rare_ice"
+        ],
+        [
+            { output: "fdbosses:eye_of_geburah" },
+            "minecraft:polished_blackstone_bricks",
+            "endergetic:eumus_bricks"
+        ],
+        [
+            { output: "fdbosses:eye_of_geburah" },
+            "minecraft:gold_ingot",
+            "malum:soul_stained_steel_ingot"
+        ]
         // [
         //     { output: "thermal:machine_press" },
         //     "thermal:constantan_gear",

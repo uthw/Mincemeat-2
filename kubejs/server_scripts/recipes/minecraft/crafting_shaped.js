@@ -1661,6 +1661,16 @@ ServerEvents.recipes((event) => {
                 F: "minecraft:lever",
             },
         ],
+        [
+            "lightmanscurrency:trading_core",
+            ["ABA", "ACA", "ADA"],
+            {
+                A: "minecraft:redstone",
+                B: "create:andesite_alloy",
+                C: "create:item_drain",
+                D: "minecraft:repeater"
+            }
+        ],
     ];
 
     recipes.forEach((recipe, index) => {
