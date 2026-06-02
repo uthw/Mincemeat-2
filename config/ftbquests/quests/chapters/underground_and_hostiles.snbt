@@ -1775,6 +1775,279 @@
 			x: -4.5d
 			y: 3.5d
 		}
+		{
+			description: [
+				"These slimy nuisances are found underground and attack by bashing into you like any other unarmed creature."
+				""
+				"Slugs can be found in varying sizes, with each size having a different amount of health. Thankfully, all slugs are slow, predictable, and easy to outrun. "
+				""
+				"However, beware of vile slugs, who are a more saturated green and can inflict Slug Infestation, which causes you to release hostile slugs when hurt."
+				""
+				"That's it for my tips on fighting slugs. What about taming them, I hear you ask? Use slime balls to tame slugs, and slime blocks to increase their size. I don't know who would keep such a foul beast as a pet, but to each their own."
+				""
+				"Also, if you find certain weapons underground, you can use them to your advantage: the Vile Staff summons friendly slugs to do your bidding, and the Vile Boulder inflicts the Slug Infestation effect on hit."
+			]
+			id: "6BE78E4C5B0C3BAC"
+			invisible: true
+			subtitle: "Slippery little bastard!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:slug"
+					}
+				}
+				id: "10D0A790A750245A"
+				observe_type: 5
+				timer: 0L
+				title: "Slug"
+				to_observe: "opposing_force:slug"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			description: ["Hanging Spiders are a special type of spider found staking out prey on cave ceilings. Unluckily for them, evolution hasn't relieved them of their bright glowing eyes, so you can use those to spot them."]
+			id: "73074CA1FA9716A2"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:hanging_spider"
+					}
+				}
+				id: "6EA59BCC8516E9F1"
+				observe_type: 5
+				timer: 0L
+				title: "Hanging Spider"
+				to_observe: "opposing_force:hanging_spider"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Tremblers are hostile cave dwellers who have heavily armored shells and attack by rolling. Wow! Where have I heard that description before? This strategy must be very effective for catching food underground."
+				""
+				"Tremblers drop their shells, which are a niche crafting ingredient and also an building block that isn't quite a full block or vertical slab, and is affected by gravity."
+			]
+			id: "5DDD1107DB214B0A"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:trembler"
+					}
+				}
+				id: "1970F856BC8AB48A"
+				observe_type: 5
+				timer: 0L
+				title: "Trembler"
+				to_observe: "opposing_force:trembler"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"The Rambler is a bony amalgamation of absurd proportions. Four tiny stubs for legs support a massive frame featuring eight arms and three heads."
+				""
+				"Ramblers try and get you buy appearing slow and aimless, and then unleash a flurry of attacks once they get close enough. If you survive this, they'll be stunned and you'll have a window to attack them."
+			]
+			id: "4DAE0246AFF08245"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:rambler"
+					}
+				}
+				id: "2A2B5953626F3368"
+				observe_type: 5
+				timer: 0L
+				title: "Rambler"
+				to_observe: "opposing_force:rambler"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Volts are strange creatures found underground who are capable of flight and producing humorous sounds. They'll attack by hurling large balls of electricity, and can't fly and shoot simultaneously."
+				""
+				"From my observations, the size of these projectiles is simply too great for their own good, and they frequently hit other hostile mobs or themselves, leading to their death."
+				""
+				"If you're hit by a volt's lightning, expect to be inflicted with the Electrified effect, which causes rapid damage when exposed to water. It doesn't rain in caves so it's not a huge deal, but stay away from those underground lakes if you have this effect."
+				""
+				"Volts drop Electric Charges, which can be thrown to create a lightning ball or crafted into some more sophisticated weapons and materials like the Electric Alloy."
+			]
+			id: "3050F34684524923"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:volt"
+					}
+				}
+				id: "300BAA6B8B9500E9"
+				observe_type: 5
+				timer: 0L
+				title: "Volt"
+				to_observe: "opposing_force:volt"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Umber Spiders are terrifying arachnids who thrive in the complete darkness of the deepslate layer. "
+				""
+				"Their attacks inflict Gloom Toxin, which can kill you if you're unprepared. Preparation is easy here though, as the antidote to Gloom Toxin is a well-lit area."
+				""
+				"In addition, Umber Spiders themselves go blind and become unable to continue fighting in high light levels."
+				""
+				"The silk dropped by Umber Spiders can be made into Deepwoven Armor, which decreases the range at which enemies (and Sculk Sensors) can detect you. And it makes you look cool."
+			]
+			id: "5FCA68F9AEBA041D"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:umber_spider"
+					}
+				}
+				id: "34BCDA1AE84A5130"
+				observe_type: 5
+				timer: 0L
+				title: "Umber Spider"
+				to_observe: "opposing_force:umber_spider"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"We all need amethyst on occasion. But, if you've found this entry, it means you picked the wrong amethyst to mine. Welcome to the club."
+				""
+				"Whizzes are pink flying insects with large mandibles. They are unearthed when an Infested Amethyst Block is mined, and dealing non-lethal damage to one will cause more Whizzes to appear. This can balloon into a ridiculous swarm of Whizzes."
+				""
+				"If killed using a Silk Touch-enchanted tool, you'll get a Captured Whizz. It's best to use an Axe or Shovel for this, since the sweeping attacks will help out a lot."
+				""
+				"Captured Whizzes can be released, and if you choose this benevolent option, it will be ever grateful towards you and act like most other tamed animals."
+			]
+			id: "2279EF8FE8D8A647"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:whizz"
+					}
+				}
+				id: "56754EF0EAFBA1C4"
+				observe_type: 5
+				timer: 0L
+				title: "Whizz"
+				to_observe: "opposing_force:whizz"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Dicers are otherworldly creatures, with their native dimension being beyond my knowledge. These angry humanoids prefer charging you and using the scythes on their arms, but also have a deadly laser capable of evaporating you if you don't have a suitable wall."
+				""
+				"Dicers leave behind their futuristic technology, which can craft awesome weapons, like the Blaster which takes Redstone Dust as ammo."
+			]
+			id: "79758A49A7795615"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:dicer"
+					}
+				}
+				id: "67DC69EBB7795209"
+				observe_type: 5
+				timer: 0L
+				title: "Dicer"
+				to_observe: "opposing_force:dicer"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			description: ["Taking a little inspiration from a certain Pokemon, this massive creature attacks by shaking the ground and summoning fire slimes (not to be confused with magma cubes)."]
+			id: "72E7F8DC9DAEE128"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:guzzler"
+					}
+				}
+				id: "71270EBD5421F675"
+				observe_type: 5
+				timer: 0L
+				title: "Guzzler"
+				to_observe: "opposing_force:guzzler"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Frowzies are interesting variants of zombies found in caves with crazed demeanors. They have adapted towards living underground. Much of their face is taken up by their gaping mouth, leaving little room for the other senses."
+				""
+				"They're frailer and weaker than normal zombies, but can close distances quickly and jump towards their targets."
+				""
+				"On the contrary, much like their more famous counterparts, frowzies have a baby variant and burn in the sun, though seeing one outside is uncommon."
+			]
+			id: "34CD4B6E57977448"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:frowzy"
+					}
+				}
+				id: "64DF1ED119A89612"
+				observe_type: 5
+				timer: 0L
+				title: "Frowzy"
+				to_observe: "opposing_force:frowzy"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
 	]
 	title: "Underground and Monsters"
 }

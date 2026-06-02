@@ -599,6 +599,34 @@
 			x: 2.5d
 			y: -1.5d
 		}
+		{
+			description: [
+				"The Skyvern is a hostile worm-like reptile found at the highest reaches of the world. It's formidable, but only has melee attacks, so it's best to stay away and use ranged attacks."
+				""
+				"Skyvern attacks are powerful enough to pierce through shields, so it's advisable to keep a good evasive strategy."
+				""
+				"Skyverns drop parts of their bodies when killed, which are highly coveted and used to craft some of the most interesting equipment I've seen."
+			]
+			id: "70D20CF8E2361AD5"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:skyvern"
+					}
+				}
+				id: "2299347DE1F9DD25"
+				observe_type: 5
+				timer: 0L
+				title: "Skyvern"
+				to_observe: "opposing_force:skyvern"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
 	]
 	title: "The Aether"
 }

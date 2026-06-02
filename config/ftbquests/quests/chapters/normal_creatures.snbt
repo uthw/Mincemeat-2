@@ -1090,6 +1090,28 @@
 			x: 4.0d
 			y: 5.5d
 		}
+		{
+			description: ["These rotten apples are very rarely encountered when harvesting Apple Trees in forests. They individually are frail and have little health, but can form a swarm if you're not prompt about squishing them."]
+			id: "65CF7CBF0D68CB98"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:tart"
+					}
+				}
+				id: "42A69705DDCFBB95"
+				observe_type: 5
+				timer: 0L
+				title: "Tart"
+				to_observe: "opposing_force:tart"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
 	]
 	title: "Temperate Biomes"
 }

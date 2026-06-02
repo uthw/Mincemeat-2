@@ -2051,6 +2051,35 @@
 			x: -5.0d
 			y: 0.0d
 		}
+		{
+			description: [
+				"These big-headed fish swim about in low-elevation caves and deep oceans. They have an implement attached to their mouth resembling a saw which they spin to whittle down their foes."
+				""
+				"Rotating this saw underwater takes a lot of force, so the Terror needs a breather after this phase is done."
+				""
+				"If you want, you can try the Deepling Brute strategy of getting to land and using ranged weapons to take a Terror down. Just don't let it flop around too long."
+			]
+			id: "122397DFF3BD857A"
+			invisible: true
+			subtitle: "GAS"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:terror"
+					}
+				}
+				id: "5FEC141B0417F407"
+				observe_type: 5
+				timer: 0L
+				title: "Terror"
+				to_observe: "opposing_force:terror"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
 	]
 	title: "Aquatic Creatures"
 }
