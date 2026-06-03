@@ -57,7 +57,7 @@ const bossQuestIds = [
 const syncQuestId = "66FF0F6B5508C690"; // Placeholder checkmark quest that can be used by players on old worlds to refresh their boss kill count
 const minBossesForEndAccess = 15;
 
-function refreshBossKillCount(player, shouldTell = true) {
+function refreshBossKillCount(player, shouldTell) {
     let level = player.level;
     let questData = FTBQuests.getData(level, player.uuid);
     let pData = player.persistentData;
@@ -75,10 +75,9 @@ function refreshBossKillCount(player, shouldTell = true) {
     pData.putInt("boss_kills", bossKills);
 
     if (bossKills >= minBossesForEndAccess) {
-        player.tell("The way to the End is now clear.");
-        event.server.runCommandSilent(`kubejs stages add ${player.uuid.toString()} killed_enough_bosses`);
+        level.server.runCommandSilent(`kubejs stages add ${player.username} killed_enough_bosses`);
     } else {
-        event.server.runCommandSilent(`kubejs stages remove ${player.uuid.toString()} killed_enough_bosses`);
+        level.server.runCommandSilent(`kubejs stages remove ${player.username} killed_enough_bosses`);
     }
 }
 
@@ -95,20 +94,19 @@ FTBQuestsEvents.completed((event) => {
             player.tell(`You have now defeated ${bossKills} different bosses.`);
 
             if (bossKills >= minBossesForEndAccess) {
-                // player.tell("The way to the End is now clear.");
                 event.server.runCommandSilent(
-                    `kubejs stages add ${player.uuid.toString()} killed_enough_bosses`,
+                    `kubejs stages add ${player.username} killed_enough_bosses`,
                 );
             }
         });
     } else if (completedQuestId === syncQuestId) {
         event.onlineMembers.forEach((player) => {
-            refreshBossKillCount(player);
+            refreshBossKillCount(player, true);
         });
     }
 });
 
 PlayerEvents.loggedIn(event => {
     let player = event.player;
-    refreshBossKillCount(player, true);
+    refreshBossKillCount(player, false);
 })
