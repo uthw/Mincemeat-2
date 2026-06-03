@@ -1227,9 +1227,15 @@
 			disable_toast: true
 			icon: "enderio:yeta_wrench"
 			id: "66FF0F6B5508C690"
+			rewards: [{
+				description: "You can now click the checkmark again"
+				id: "01E939AF974996B6"
+				title: "Click to Check Again"
+				type: "toast"
+			}]
 			tasks: [{
-				id: "68BF9A8B4041D80A"
-				title: "Refresh Boss Quest Progress"
+				id: "24D3AC6AFB167920"
+				title: "Check Boss Kill Count"
 				type: "checkmark"
 			}]
 			title: "Check Boss Kill Count"
