@@ -560,7 +560,7 @@
 				value: 1L
 			}]
 			title: "Frostmaw"
-			x: -10.5d
+			x: -9.0d
 			y: -1.0d
 		}
 		{
@@ -623,7 +623,7 @@
 				value: 1L
 			}]
 			title: "Umvuthi, The Sunbird"
-			x: -9.0d
+			x: -12.0d
 			y: -1.0d
 		}
 		{
@@ -683,8 +683,8 @@
 				value: 1L
 			}]
 			title: "Guardian of Gaia"
-			x: -2.0d
-			y: 2.0d
+			x: -7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["431AB26EA0ED2433"]
@@ -824,8 +824,8 @@
 				value: 1L
 			}]
 			title: "Wilden Chimera"
-			x: -3.5d
-			y: 2.0d
+			x: -9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["403B8F4A5838932B"]
@@ -1970,7 +1970,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -16.5d
+			x: -18.0d
 			y: -1.0d
 		}
 		{
@@ -2262,7 +2262,7 @@
 				value: 1L
 			}]
 			title: "Berserker"
-			x: -12.0d
+			x: -13.5d
 			y: -1.0d
 		}
 		{
@@ -2324,7 +2324,7 @@
 				title: "Umvuthana Grove"
 				type: "structure"
 			}]
-			x: -9.0d
+			x: -12.0d
 			y: 0.5d
 		}
 		{
@@ -2380,7 +2380,7 @@
 				title: "Pink Salt Shrine"
 				type: "structure"
 			}]
-			x: -12.0d
+			x: -13.5d
 			y: 0.5d
 		}
 		{
@@ -2479,7 +2479,7 @@
 				title: "Catacombs (Iron's Spellbooks)"
 				type: "structure"
 			}]
-			x: -16.5d
+			x: -18.0d
 			y: 0.5d
 		}
 		{
@@ -2542,7 +2542,7 @@
 				}
 			]
 			title: "Dead King's Spoils"
-			x: -16.5d
+			x: -18.0d
 			y: -2.5d
 		}
 		{
@@ -2576,7 +2576,7 @@
 				title: "Frostmaw's Spawn"
 				type: "structure"
 			}]
-			x: -10.5d
+			x: -9.0d
 			y: 0.5d
 		}
 		{
@@ -2751,7 +2751,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.5d
 			y: -2.5d
 		}
 		{
@@ -3068,7 +3068,7 @@
 				table_id: 4519848194868148161L
 				type: "choice"
 			}]
-			subtitle: "Float down the Liffey"
+			subtitle: "And if I tried flying like that, I'd get kicked for cheating!"
 			tasks: [{
 				entity: "meetyourfight:rosalyne"
 				icon: "meetyourfight:violet_bloom"
@@ -3799,7 +3799,7 @@
 				type: "structure"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7D847F3BACE438C7"]
@@ -3827,7 +3827,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["596E627E97F6662D"]
@@ -3848,7 +3848,7 @@
 			}]
 			title: "You Must Believe"
 			x: -5.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -4093,7 +4093,7 @@
 				type: "structure"
 			}]
 			title: "Labyrinth"
-			x: -15.0d
+			x: -16.5d
 			y: 0.5d
 		}
 		{
@@ -4105,6 +4105,7 @@
 				table_id: 4519848194868148161L
 				type: "choice"
 			}]
+			subtitle: "We're Here to Kill Chaos"
 			tasks: [{
 				id: "49A8050B8FB98BE1"
 				item: {
@@ -4120,7 +4121,7 @@
 				type: "item"
 			}]
 			title: "Chaos Spawner"
-			x: -15.0d
+			x: -16.5d
 			y: -2.5d
 		}
 		{
@@ -4202,7 +4203,7 @@
 				}
 			]
 			title: "Spawner Gear"
-			x: -14.5d
+			x: -16.0d
 			y: -4.0d
 		}
 		{
@@ -4242,7 +4243,7 @@
 				}
 			]
 			title: "Chaos Arsenal"
-			x: -15.5d
+			x: -17.0d
 			y: -4.0d
 		}
 		{
@@ -4276,7 +4277,7 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.5d
 			y: -1.0d
 		}
 		{
@@ -4462,7 +4463,7 @@
 				}
 			]
 			title: "Hollow"
-			x: -15.0d
+			x: -16.5d
 			y: -5.5d
 		}
 		{
@@ -4873,7 +4874,7 @@
 				title: "Dragon Tower"
 				type: "structure"
 			}]
-			x: -13.5d
+			x: -15.0d
 			y: 0.5d
 		}
 		{
@@ -4885,6 +4886,7 @@
 				table_id: 4519848194868148161L
 				type: "choice"
 			}]
+			subtitle: "Funk to Funky"
 			tasks: [{
 				entity: "block_factorys_bosses:infernal_dragon"
 				icon: "block_factorys_bosses:dragon_bone"
@@ -4893,7 +4895,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -13.5d
+			x: -15.0d
 			y: -1.0d
 		}
 		{
@@ -4963,7 +4965,7 @@
 				}
 			]
 			title: "Ashlord Armor"
-			x: -14.0d
+			x: -15.5d
 			y: -2.5d
 		}
 		{
@@ -4980,7 +4982,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.5d
 			y: -2.5d
 		}
 		{
@@ -5014,6 +5016,7 @@
 				table_id: 4519848194868148161L
 				type: "choice"
 			}]
+			subtitle: "You could say you dealt... Skors of damage"
 			tasks: [{
 				entity: "block_factorys_bosses:yeti"
 				icon: "minecraft:packed_ice"
@@ -5168,6 +5171,119 @@
 			}]
 			x: 15.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"Don't pay attention to the name of this structure! This is definitely an ordinary ship sailing the seas, manned by Pirate Captains, Pirate Rooks, and Crossbow Pirates."
+				""
+				"I'd recommend keeping your distance from this ship unless you're prepared, since the skeletons are skilled fighters and taking them all down will surely prove challenging, even for an adventurer like yourself! No, I'm serious!"
+			]
+			id: "2D75D2A088DDA18D"
+			subtitle: "Arrrr!"
+			tasks: [{
+				icon: "block_factorys_bosses:anchor"
+				id: "2834B39A88BD835F"
+				structure: "block_factorys_bosses:kraken_ship"
+				title: "Kraken Ship"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D75D2A088DDA18D"]
+			description: [
+				"Slaying the entire skeleton crew will result in a huge kraken coming from under the ship and attacking you! Initially, you'll only be fighting against the tentacles. They'll attack you by slamming the ship one at a time, so the goal here is to cut each one down."
+				""
+				"The tentacles are individually frail and become disabled when killed. If you disable the ones holding the cannon hostage, you'll be able to shoot powerful cannonballs at the tentacles, which can take them down in 2 or 3 hits."
+				""
+				"Once all tentacles have been slain, a new cinematic plays and Nekaryss pulls out all the stops in phase 2. This is more of the same, just watch out for cannonballs hurled by the tentacles. Oh, you'll need to kill the boss by attacking the head this time, which can be done with the provided cannons."
+				""
+				"When killed, Nekaryss drops some of its tentacles. You'll need to take a quick dive to retrieve them."
+			]
+			id: "5EDCEC96DFEEED5E"
+			invisible: true
+			subtitle: "Scallywags Beware"
+			tasks: [{
+				icon: "block_factorys_bosses:kraken_cannon_item"
+				id: "5449F77CBC363598"
+				observe_type: 5
+				timer: 0L
+				title: "Kraken Boss Fight"
+				to_observe: "block_factorys_bosses:kraken_tentacle"
+				type: "observation"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DE7C32A7F8C8E31"]
+			id: "0B39946386301798"
+			tasks: [{
+				id: "70D9754BBA724B86"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:kraken_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DE7C32A7F8C8E31"]
+			id: "17E89B4C6D2A09C9"
+			tasks: [{
+				id: "135DF8A4C8B4E59B"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:undying_tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EDCEC96DFEEED5E"]
+			id: "3DE7C32A7F8C8E31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55AA46E4CE8D6D07"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			subtitle: "Sent to Davy Jones's Locker"
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_kraken"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "block_factorys_bosses:pirate_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7CF3228ED5307D21"
+				title: "Nekaryss, The Kraken"
+				type: "advancement"
+			}]
+			x: -10.5d
+			y: -2.5d
 		}
 	]
 	title: "Overworld Adventure"
