@@ -1112,6 +1112,69 @@
 			x: 4.0d
 			y: 2.5d
 		}
+		{
+			id: "52220E5A8F45C9A9"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:dragon_guard_sword"
+					}
+				}
+				id: "4246AAB2F3605E83"
+				observe_type: 5
+				timer: 0L
+				title: "Ashlord Guard"
+				to_observe: "block_factorys_bosses:dragon_guard_sword"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "2B3047D814DC8668"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:flaming_skeleton_guard_fireball"
+					}
+				}
+				id: "4720AC95CFBA3A36"
+				observe_type: 5
+				timer: 0L
+				title: "Flaming Ashlord Shooter"
+				to_observe: "block_factorys_bosses:flaming_skeleton_guard_fireball"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "06B11054DB5B3C4B"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:flaming_skeleton_guard_sword"
+					}
+				}
+				id: "1560058127DF6265"
+				observe_type: 5
+				timer: 0L
+				title: "Flaming Ashlord Guard"
+				to_observe: "block_factorys_bosses:flaming_skeleton_guard_sword"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
 	]
 	title: "Temperate Biomes"
 }

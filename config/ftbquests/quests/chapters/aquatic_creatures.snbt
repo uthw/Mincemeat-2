@@ -2080,6 +2080,72 @@
 			x: 4.0d
 			y: -2.0d
 		}
+		{
+			description: ["This is the top dog of the Kraken Ship's crew. This skeleton tends to move slower than usual and unloads high-damage attacks with its scimitar."]
+			id: "55FE6310F1BB183D"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:pirate_captain"
+					}
+				}
+				id: "2E878EEADC2DE533"
+				observe_type: 5
+				timer: 0L
+				title: "Pirate Captain"
+				to_observe: "block_factorys_bosses:pirate_captain"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			description: ["These are the scurvy dogs of the Kraken Ship. They wield the same scimitars as their captains and attack in the same manner, but have significantly less health."]
+			id: "4E47CF2AAB8F8A49"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:pirate_rook"
+					}
+				}
+				id: "7C14DF42B8821F95"
+				observe_type: 5
+				timer: 0L
+				title: "Pirate Rook"
+				to_observe: "block_factorys_bosses:pirate_rook"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			description: ["These mid-tier crew members have been fitted out with new clothing and a crossbow to provide ranged support. They lack sufficient trigger discipline though, and can often be seen shooting their own mateys."]
+			id: "60F05489E04F34E1"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:crossbow_pirate"
+					}
+				}
+				id: "4EA2888FC77648F5"
+				observe_type: 5
+				timer: 0L
+				title: "Crossbow Pirate"
+				to_observe: "block_factorys_bosses:crossbow_pirate"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
 	]
 	title: "Aquatic Creatures"
 }

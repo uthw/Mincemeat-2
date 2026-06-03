@@ -1357,6 +1357,50 @@
 			x: 1.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			id: "74A34076DF865D5E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:soul_knight_wither_skeleton"
+					}
+				}
+				id: "20B106B84A3FCB80"
+				observe_type: 5
+				timer: 0L
+				title: "Wither Knight"
+				to_observe: "block_factorys_bosses:soul_knight_wither_skeleton"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			id: "533FCD1A08085475"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "block_factorys_bosses:soul_skeleton"
+					}
+				}
+				id: "4D01DF8C93FA22EA"
+				observe_type: 5
+				timer: 0L
+				title: "Soul Skeleton"
+				to_observe: "block_factorys_bosses:soul_skeleton"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
 	]
 	title: "Nether and End"
 }
