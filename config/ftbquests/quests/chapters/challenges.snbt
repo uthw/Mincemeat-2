@@ -4384,11 +4384,11 @@
 				""
 				"Otherside: Underground Chests"
 				""
-				"Disc 5: Obtained by collecting 9 Disc Fragments. The fragments are found in Ancient Cities."
+				"5: Obtained by collecting 9 Disc Fragments. The fragments are found in Ancient Cities."
 				""
 				"Atlantis: Obtained by collecting 9 Disc Fragments. Fragments are obtained by killing Great Thrashers or through underwater archaeology."
 				""
-				"Black: Created by combining Otherside and Disc 5 in a Crafting Grid."
+				"Black: Created by combining Otherside and 5 in a Crafting Grid."
 				""
 				"Pigstep: Found in Nether Chests"
 				""
@@ -4519,6 +4519,10 @@
 				"Bumblebee: Rare drop from shearing beehives"
 				""
 				"Casa Bossa Nova and Local Forecast - Elevator: same as vanilla discs"
+				""
+				"Slayser: Rare drop from Dicer"
+				""
+				"Waltz of the Slug: Found in dungeon and mineshaft chests"
 				""
 				"{@pagebreak}"
 				"Most discs can also drop from hostile mobs with backpacks."
@@ -5068,6 +5072,16 @@
 				{
 					id: "6E78BB8632C8D964"
 					item: "create_connected:music_disc_interlude"
+					type: "item"
+				}
+				{
+					id: "006D52CDB0839114"
+					item: "opposing_force:slayser_disc"
+					type: "item"
+				}
+				{
+					id: "1A374A7020F7F9AD"
+					item: "opposing_force:waltz_of_the_slug_disc"
 					type: "item"
 				}
 			]
