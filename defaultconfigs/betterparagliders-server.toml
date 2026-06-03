@@ -2,7 +2,7 @@
 [stamina]
 	#How much more/less stamina is consumed from melee attacks (multiplied onto the base amount).
 	#Range: 0.0 ~ 10.0
-	melee_stamina_consumption = 1.0
+	melee_stamina_consumption = 1.2
 	#How much more/less stamina is consumed from two handed attacks  (multiplied onto the base amount).
 	#Range: 0.0 ~ 10.0
 	two_handed_stamina_consumption = 2.0
