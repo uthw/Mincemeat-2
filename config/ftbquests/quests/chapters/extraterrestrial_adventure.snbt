@@ -646,21 +646,12 @@
 				}
 			}
 			id: "520A629F81C286FF"
-			rewards: [
-				{
-					auto: "invisible"
-					id: "325D23DD5A481E11"
-					ignore_reward_blocking: true
-					stage: "end_access"
-					type: "gamestage"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3E5E97F542BB907A"
-					table_id: 4519848194868148161L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E5E97F542BB907A"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
 			subtitle: "and kill the Netherite Monstrosity"
 			tasks: [
 				{
@@ -1326,7 +1317,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["520A629F81C286FF"]
+			dependencies: ["3F79C220D098C816"]
 			id: "29D52E88824CB90D"
 			rewards: [{
 				count: 5
@@ -1340,8 +1331,8 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["29D52E88824CB90D"]
@@ -1375,8 +1366,8 @@
 				type: "structure"
 			}]
 			title: "Find the Stronghold"
-			x: 5.5d
-			y: -1.0d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1943,8 +1934,8 @@
 				type: "structure"
 			}]
 			title: "I guess that works too"
-			x: 6.0d
-			y: 0.5d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
@@ -2705,6 +2696,44 @@
 			}]
 			x: -0.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["520A629F81C286FF"]
+			description: [
+				"&7&oDepending on how much optional content in Overworld Adventure and Dimensional Adventure you've done, this quest may immediately be completed and you can ignore it."
+				""
+				"To reach the end, you'll need to prove your worth beyond taking down the required bosses. Specifically, you need to kill a total of 15 different bosses. With there being more than 45 to choose from at this point, this should be no big deal!"
+				""
+				"There are no restrictions on which bosses you can choose. If you want, pick only overworld bosses."
+				""
+				"&nTips:"
+				""
+				"The bosses I think are easiest are placed immediately to the left of the Hunter in Overworld Adventure."
+				""
+				"Click the checkmark on the Check Boss Kill Count quest in the Shop to check your progress."
+				""
+				"The Forgotten Guardian and Conjurer don't count."
+				""
+				"The Primordial Caves, Forlorn Hollow, and Abyssal Chasm each have 1 boss. Botania and Ars Nouveau each have 1 boss. The Aether has 4 bosses."
+			]
+			id: "3F79C220D098C816"
+			rewards: [{
+				auto: "invisible"
+				id: "31AB5CC16F5A91CC"
+				ignore_reward_blocking: true
+				stage: "end_access"
+				type: "gamestage"
+			}]
+			tasks: [{
+				icon: "graveyard:bone_remains"
+				id: "52457741B439E51C"
+				stage: "killed_enough_bosses"
+				title: "Kill Bosses"
+				type: "gamestage"
+			}]
+			title: "Kill More Bosses?"
+			x: 7.0d
+			y: -2.0d
 		}
 	]
 	title: "Dimensional Adventure"

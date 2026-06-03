@@ -1222,6 +1222,20 @@
 			x: 1.0d
 			y: 8.0d
 		}
+		{
+			description: ["Clicking the checkmark will recount the number of bosses your team has killed. This is mainly useful for checking your progress, but can also be used for backwards compatibility if your world was created before version 0.5.12."]
+			disable_toast: true
+			icon: "enderio:yeta_wrench"
+			id: "66FF0F6B5508C690"
+			tasks: [{
+				id: "68BF9A8B4041D80A"
+				title: "Refresh Boss Quest Progress"
+				type: "checkmark"
+			}]
+			title: "Check Boss Kill Count"
+			x: 7.0d
+			y: -3.0d
+		}
 	]
 	title: "Shop"
 }
