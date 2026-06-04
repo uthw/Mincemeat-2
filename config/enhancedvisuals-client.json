@@ -10,7 +10,7 @@
       "opacity": 1.0,
       "beepSound": "enhancedvisuals:ringing",
       "dust": {
-        "disabled": false,
+        "disabled": true,
         "opacity": 1.0,
         "animationSpeed": 0,
         "scale": {
@@ -31,13 +31,13 @@
       "maxExplosionVolume": 0.5,
       "explosionSoundTime": {
         "min": 0,
-        "minValue": 50,
+        "minValue": 25,
         "max": 20,
-        "maxValue": 200
+        "maxValue": 50
       },
       "blur": {
         "disabled": false,
-        "opacity": 1.0
+        "opacity": 0.24778761
       },
       "maxBlur": {
         "min": 0,
