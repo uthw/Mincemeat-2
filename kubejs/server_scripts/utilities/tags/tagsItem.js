@@ -7,7 +7,7 @@ ServerEvents.tags("item", (event) => {
         // "curios:artifact_bracelet",
         // "curios:artifact_belt",
         // "iceandfire:tempt_hippocampus",
-        "celestisynth:celestial_core_bases"
+        "celestisynth:celestial_core_bases",
     ];
 
     removeAll.forEach((removal) => {
@@ -101,4 +101,20 @@ ServerEvents.tags("item", (event) => {
 
     event.removeAllTagsFrom("immersiveengineering:raw_uranium");
     event.removeAllTagsFrom("mekanism:raw_uranium");
+
+    // This creates a tag with all fishes other than Starcatcher fishes
+    let baseFishes = event
+        .get("minecraft:fishes")
+        .getObjectIds()
+        .map((id) => String(id));
+
+    let starcatcherFishes = event
+        .get("starcatcher:starcaught_fishes")
+        .getObjectIds()
+        .map((id) => String(id));
+
+    // ES5 moment
+    let finalFishes = baseFishes.filter((fish) => !starcatcherFishes.some((f) => f === fish));
+
+    event.add("mincemeat:loot_fishes", finalFishes);
 });
