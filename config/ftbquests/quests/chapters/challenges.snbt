@@ -186,8 +186,8 @@
 				}
 			]
 			title: "Fishing Addiction"
-			x: 6.5d
-			y: 3.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -650,7 +650,7 @@
 			}]
 			title: "Fish Collection"
 			x: 11.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -2198,189 +2198,6 @@
 		}
 		{
 			description: [
-				"Band of Mana/Greater Mana: Allows you to use Mana."
-				""
-				"Band of Aura/Greater Aura: Generates Mana slowly."
-				""
-				"Band of Magnetization/Greater Magnetization: Pulls nearby items to you (uses Mana)."
-				""
-				"Ring of Chordate: Grants Dolphin’s Grace and Conduit Power when in water (uses Mana)."
-				""
-				"Ring of Correction: Switches tools to the one relevant for breaking the block you are looking at. However, it must be a tool from Botania, like Terrasteel."
-				""
-				"Ring of Dexterous Move: Double-tap any movement key to dodge. Works like the normal dodge but does not use feathers."
-				""
-				"Ring of the Mantle: Grants Haste II (uses Mana)."
-				""
-				"Great Fairy Ring: Causes Pixies to spawn around you."
-				""
-				"Ring of Far Reach: Extends your mining and placing range."
-				""
-				"{@pagebreak}"
-				""
-				"Relic Rings"
-				""
-				"There are 3 rings that are obtained from the Dice of Fate, which is dropped by the Guardian of Gaia."
-				""
-				"Ring of Odin: Grants a full row of hearts."
-				""
-				"These other rings seem to do nothing:"
-				""
-				"Ring of Thor: The Terra Shatterer Pickaxe will mine multiple blocks at once."
-				""
-				"Ring of Loki: Allows you to place multiple blocks at once (uses Mana)."
-			]
-			id: "4CB8FBCFE523108B"
-			rewards: [{
-				count: 6
-				id: "34D383146D61C629"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "37F84DC669E50101"
-					item: {
-						Count: 1
-						id: "botania:mana_ring"
-						tag: {
-							mana: 500000
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "128DDB5A9552F7D9"
-					item: {
-						Count: 1
-						id: "botania:mana_ring_greater"
-						tag: {
-							mana: 2000000
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "062412C619C51581"
-					item: "botania:aura_ring"
-					type: "item"
-				}
-				{
-					id: "42C7CEA76219CE40"
-					item: "botania:aura_ring_greater"
-					type: "item"
-				}
-				{
-					id: "596F06DBF7D341C4"
-					item: "botania:magnet_ring"
-					type: "item"
-				}
-				{
-					id: "26F3A732E35DC9F7"
-					item: "botania:magnet_ring_greater"
-					type: "item"
-				}
-				{
-					id: "3D0099013CC61100"
-					item: "botania:water_ring"
-					type: "item"
-				}
-				{
-					id: "0CCEB4136ED32F15"
-					item: "botania:swap_ring"
-					type: "item"
-				}
-				{
-					id: "270CC58E94F78BF0"
-					item: "botania:dodge_ring"
-					type: "item"
-				}
-				{
-					id: "32FCBCFDF1E69529"
-					item: "botania:mining_ring"
-					type: "item"
-				}
-				{
-					id: "7119BB2B40D62DCE"
-					item: {
-						Count: 1
-						id: "botania:pixie_ring"
-						tag: {
-							baubleUUID: [I;
-								-2115127623
-								-1909374202
-								-1888034501
-								733048192
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6A154EA8032E14B7"
-					item: {
-						Count: 1
-						id: "botania:reach_ring"
-						tag: {
-							baubleUUID: [I;
-								154765456
-								-1815196823
-								-1342405640
-								-480842469
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "67A831B897006FF4"
-					item: {
-						Count: 1
-						id: "botania:thor_ring"
-						tag: {
-							soulbindUUID: "c10820e2-cc18-44da-910f-830346170dc2"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "12C09C4864958983"
-					item: {
-						Count: 1
-						id: "botania:odin_ring"
-						tag: {
-							baubleUUID: [I;
-								-1312578491
-								-546618402
-								-1073763801
-								-1511455019
-							]
-							soulbindUUID: "c10820e2-cc18-44da-910f-830346170dc2"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2C14FBB701C33AA0"
-					item: {
-						Count: 1
-						id: "botania:loki_ring"
-						tag: {
-							soulbindUUID: "c10820e2-cc18-44da-910f-830346170dc2"
-							xOrigin: 0
-							yOrigin: -2147483648
-							zOrigin: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Botania Rings Collection"
-			x: 9.5d
-			y: -2.0d
-		}
-		{
-			description: [
 				"You can find many different types of Endermen in various biomes around the world. Many of them drop special Pearls, while some may drop Hoods. You can find these Endermen in the Bestiary."
 				""
 				"The Charged Ender Pearl is a bit different, though, requiring you to defeat 2 bosses to obtain it."
@@ -2489,93 +2306,6 @@
 			title: "Ender Hoods and Pearls Collection"
 			x: 11.0d
 			y: -2.0d
-		}
-		{
-			description: ["Umvuthi, the Sunbird is a boss who is found in the savanna. The sunbird will spawn minions to fight for him. Killing these minons will sometimes drop masks. Umvuthi himself also drops a mask."]
-			id: "2BE06769213C919E"
-			rewards: [{
-				count: 5
-				id: "455EAE0415E47F44"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			subtitle: "Dawn of The Final Day -24 Hours Remain-"
-			tasks: [
-				{
-					id: "7141E94A561E6674"
-					item: {
-						Count: 1
-						id: "mowziesmobs:umvuthana_mask_fury"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "425B67CA97D9BA4D"
-					item: {
-						Count: 1
-						id: "mowziesmobs:umvuthana_mask_rage"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "19416228D2D5F32F"
-					item: {
-						Count: 1
-						id: "mowziesmobs:umvuthana_mask_fear"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "359425024EED28A0"
-					item: {
-						Count: 1
-						id: "mowziesmobs:umvuthana_mask_bliss"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63D514457A766235"
-					item: {
-						Count: 1
-						id: "mowziesmobs:umvuthana_mask_misery"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "408A324700D34605"
-					item: {
-						Count: 1
-						id: "mowziesmobs:umvuthana_mask_faith"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "703393A897C9E923"
-					item: "mowziesmobs:sol_visage"
-					type: "item"
-				}
-			]
-			title: "Umvuthi Mask Collection"
-			x: 11.0d
-			y: 0.0d
 		}
 		{
 			id: "2253D3B2B2DA636C"
@@ -4231,153 +3961,6 @@
 		}
 		{
 			description: [
-				"Virtue: It will make any hit do no damage (after activated it will take a few seconds to recharge)"
-				""
-				"Sin: Thorns but you deal equal damage to what you were hit for"
-				""
-				"Balance: You will not lose more than half of your max hp in a hit. If under half of your HP, you will be left at a half a heart upon taking lethal damage (after activated it will take a few seconds to recharge)"
-				""
-				"Invisibility:"
-			]
-			id: "338D94F454A98C62"
-			rewards: [{
-				count: 2
-				id: "3A764DFB4DC0074C"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "6FD3816C43504F0E"
-					item: "botania:unholy_cloak"
-					type: "item"
-				}
-				{
-					id: "2C3A9B5C4DCF556B"
-					item: "botania:balance_cloak"
-					type: "item"
-				}
-				{
-					id: "4CC5E8D79232A623"
-					item: "botania:invisibility_cloak"
-					type: "item"
-				}
-				{
-					id: "7F55D87647A46BAB"
-					item: "botania:holy_cloak"
-					type: "item"
-				}
-			]
-			title: "Botania Cloaks"
-			x: 9.5d
-			y: -1.0d
-		}
-		{
-			description: [
-				"Crimson: Can't take fire/lava damage"
-				""
-				"Pyroclast: Can't take burning damage"
-				""
-				"Snowflake: Has frost walker and can't be hurt by freezing effect"
-				""
-				"Cirrus: Double Jump"
-				""
-				"Nimbus: Triple Jump"
-			]
-			id: "5FAE713572212B3F"
-			rewards: [{
-				count: 2
-				id: "49438A7AD781E68D"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "248DD9E9A7DC9A87"
-					item: "botania:super_cloud_pendant"
-					type: "item"
-				}
-				{
-					id: "4960129D1677BECB"
-					item: "botania:cloud_pendant"
-					type: "item"
-				}
-				{
-					id: "4257116EE330C5AF"
-					item: "botania:ice_pendant"
-					type: "item"
-				}
-				{
-					id: "0A26F9933EA6F4F1"
-					item: "botania:lava_pendant"
-					type: "item"
-				}
-				{
-					id: "6D1A251A54E110EA"
-					item: "botania:super_lava_pendant"
-					type: "item"
-				}
-			]
-			title: "Botania Necklaces"
-			x: 9.5d
-			y: 0.0d
-		}
-		{
-			description: [
-				"Sojourner's: Makes you a bit faster and jump higher (requires mana)"
-				""
-				"Tectonic: Immune to knockback"
-				""
-				"Planestrider: When sprinting, every 4 seconds you become faster. This stacks until you stop sprinting (requires mana)"
-				""
-				"Globetrotter's: Same as Sojourner's but twice as strong (requires mana)"
-			]
-			id: "30DD3D8D49C4E830"
-			rewards: [{
-				count: 2
-				id: "4926EE284C6D77CD"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4FAD663FE5C0C9F8"
-					item: "botania:super_travel_belt"
-					type: "item"
-				}
-				{
-					id: "4B774406C327491F"
-					item: "botania:speed_up_belt"
-					type: "item"
-				}
-				{
-					id: "24E2BE6526F681EA"
-					item: {
-						Count: 1
-						id: "botania:knockback_belt"
-						tag: {
-							baubleUUID: [I;
-								-1352641915
-								1701334533
-								-1425629183
-								-1060729063
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "028104FE4C90EF39"
-					item: "botania:travel_belt"
-					type: "item"
-				}
-			]
-			title: "Botania Belts"
-			x: 9.5d
-			y: 1.0d
-		}
-		{
-			description: [
 				"Hullabaloo: Ravager killed by Chimpanzee"
 				""
 				"Goat Horn Symphony: Goat killed by Skeleton"
@@ -5183,7 +4766,7 @@
 			]
 			title: "Magic Mushroom Collection"
 			x: 9.5d
-			y: 3.0d
+			y: -1.0d
 		}
 		{
 			id: "5A9A2606485120A5"
@@ -5277,7 +4860,7 @@
 			]
 			title: "Magic Flower Collection"
 			x: 9.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			id: "2D305B392622E8A4"
@@ -9014,7 +8597,7 @@
 			]
 			title: "Stage 5 Dragon Slayer"
 			x: 11.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			id: "4437D8395A0D7D3B"
@@ -9148,7 +8731,7 @@
 				value: 10000L
 			}]
 			x: 11.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "0C80A220510EF467"
@@ -9219,204 +8802,6 @@
 			title: "Oil Baron"
 			x: 12.5d
 			y: 0.0d
-		}
-		{
-			id: "23ED3D7498A71C49"
-			rewards: [{
-				count: 11
-				id: "095BA94951EA5054"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			subtitle: "Congrats, now you can look at the textures"
-			tasks: [
-				{
-					id: "40B204710D322BB9"
-					item: "botania:monocle"
-					type: "item"
-				}
-				{
-					id: "00C0A8390C93767E"
-					item: "botania:cosmetic_black_bowtie"
-					type: "item"
-				}
-				{
-					id: "4462D30F261A5E71"
-					item: "botania:cosmetic_black_tie"
-					type: "item"
-				}
-				{
-					id: "751F863CB2866738"
-					item: "botania:cosmetic_red_glasses"
-					type: "item"
-				}
-				{
-					id: "190F93F4F57B3DAF"
-					item: "botania:cosmetic_puffy_scarf"
-					type: "item"
-				}
-				{
-					id: "51811DF2E0D1D9F4"
-					item: "botania:cosmetic_engineer_goggles"
-					type: "item"
-				}
-				{
-					id: "24B8C19F0076F55D"
-					item: "botania:cosmetic_eyepatch"
-					type: "item"
-				}
-				{
-					id: "3C985D8DAFB66CA5"
-					item: "botania:cosmetic_wicked_eyepatch"
-					type: "item"
-				}
-				{
-					id: "26FBB986AC696933"
-					item: "botania:cosmetic_red_ribbons"
-					type: "item"
-				}
-				{
-					id: "781B716908F6AD4A"
-					item: "botania:cosmetic_pink_flower_bud"
-					type: "item"
-				}
-				{
-					id: "6D791DB65B0E8E05"
-					item: "botania:cosmetic_polka_dotted_bows"
-					type: "item"
-				}
-				{
-					id: "66CDECF3E7CB0FA6"
-					item: "botania:cosmetic_blue_butterfly"
-					type: "item"
-				}
-				{
-					id: "4828274B4268052C"
-					item: "botania:cosmetic_cat_ears"
-					type: "item"
-				}
-				{
-					id: "55088FE3D29E35E6"
-					item: "botania:cosmetic_witch_pin"
-					type: "item"
-				}
-				{
-					id: "7529B40477F866F5"
-					item: "botania:cosmetic_devil_tail"
-					type: "item"
-				}
-				{
-					id: "29D8F9EA31FD2D0F"
-					item: "botania:cosmetic_kamui_eye"
-					type: "item"
-				}
-				{
-					id: "40831DFDEC8E77E8"
-					item: "botania:cosmetic_googly_eyes"
-					type: "item"
-				}
-				{
-					id: "3CAB38F75906737B"
-					item: "botania:cosmetic_four_leaf_clover"
-					type: "item"
-				}
-				{
-					id: "00A4DCF7A97FE01F"
-					item: "botania:cosmetic_clock_eye"
-					type: "item"
-				}
-				{
-					id: "6A7B9E5671D723DA"
-					item: "botania:cosmetic_unicorn_horn"
-					type: "item"
-				}
-				{
-					id: "43C925E8961995FD"
-					item: "botania:cosmetic_devil_horns"
-					type: "item"
-				}
-				{
-					id: "1F3AB4593ABC8768"
-					item: "botania:cosmetic_hyper_plus"
-					type: "item"
-				}
-				{
-					id: "33FF6A8B8392AA33"
-					item: "botania:cosmetic_botanist_emblem"
-					type: "item"
-				}
-				{
-					id: "261C591536744DEE"
-					item: "botania:cosmetic_ancient_mask"
-					type: "item"
-				}
-				{
-					id: "219ADBC32E5175D4"
-					item: "botania:cosmetic_eerie_mask"
-					type: "item"
-				}
-				{
-					id: "1F637FEFFC7913CF"
-					item: "botania:cosmetic_alien_antenna"
-					type: "item"
-				}
-				{
-					id: "0DBB6D40B40C45B2"
-					item: "botania:cosmetic_anaglyph_glasses"
-					type: "item"
-				}
-				{
-					id: "77D860B77A7798F4"
-					item: "botania:cosmetic_orange_shades"
-					type: "item"
-				}
-				{
-					id: "38E526B41F6494C2"
-					item: "botania:cosmetic_groucho_glasses"
-					type: "item"
-				}
-				{
-					id: "301303810EF70585"
-					item: "botania:cosmetic_thick_eyebrows"
-					type: "item"
-				}
-				{
-					id: "2CC96827A65E56FC"
-					item: "botania:cosmetic_lusitanic_shield"
-					type: "item"
-				}
-				{
-					id: "7C47943BB5075B1E"
-					item: "botania:cosmetic_tiny_potato_mask"
-					type: "item"
-				}
-				{
-					id: "7A425CFF6448F7D7"
-					item: "botania:cosmetic_questgiver_mark"
-					type: "item"
-				}
-				{
-					id: "57C86D21973D2665"
-					item: "artifacts:everlasting_beef"
-					type: "item"
-				}
-				{
-					id: "691D2BD69A1E89F3"
-					item: "artifacts:eternal_steak"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					icon: "irons_spellbooks:invisibility_ring"
-					id: "5D99FEBED085DA8B"
-					stat: "minecraft:play_time"
-					type: "stat"
-					value: 1
-				}
-			]
-			title: "Cosmetic Ruler"
-			x: 8.0d
-			y: 3.0d
 		}
 		{
 			description: [
@@ -9678,8 +9063,8 @@
 				}
 			]
 			title: "Workplace Union"
-			x: 12.5d
-			y: 3.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			description: ["Tip: Towers are not the only structures with waystones. You can also find them in villages, Sky Arenas, Strongholds, Castles, and some other structures that're too rare to list here."]
@@ -9698,8 +9083,8 @@
 				value: 100
 			}]
 			title: "Globetrotter"
-			x: 14.0d
-			y: -2.0d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			id: "65BC034FDDDC9435"
@@ -9852,7 +9237,7 @@
 			]
 			title: "Celestial Arsenal"
 			x: 14.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			id: "74AD69B608D606D4"
@@ -13272,7 +12657,7 @@
 			]
 			title: "Master Angler"
 			x: 14.0d
-			y: 0.0d
+			y: -1.0d
 		}
 	]
 	title: "Challenges"
