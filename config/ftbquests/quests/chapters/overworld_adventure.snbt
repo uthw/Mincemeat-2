@@ -5285,6 +5285,28 @@
 			x: -10.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["4F0CB3BF8C85DACC"]
+			id: "68DDCAB318329B93"
+			tasks: [{
+				id: "035B23E0B9888961"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							insulation: [ ]
+						}
+					}
+					id: "opposing_force:moon_shoes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
 	]
 	title: "Overworld Adventure"
 }
