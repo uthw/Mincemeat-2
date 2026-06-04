@@ -207,25 +207,10 @@ ServerEvents.highPriorityData((event) => {
                     item: "create:copper_diving_helmet",
                 },
 
-                // { item: "betternether:cincinnasite_helmet", weight: 15 },
-                // { item: "betternether:cincinnasite_chestplate", weight: 15 },
-                // { item: "betternether:cincinnasite_leggings", weight: 15 },
-                // { item: "betternether:cincinnasite_boots", weight: 15 },
-
-                // { item: "betternether:nether_ruby_helmet", weight: 10 },
-                // { item: "betternether:nether_ruby_chestplate", weight: 10 },
-                // { item: "betternether:nether_ruby_leggings", weight: 10 },
-                // { item: "betternether:nether_ruby_boots", weight: 10 },
-
                 { item: "galosphere:sterling_helmet", weight: 18 },
                 { item: "galosphere:sterling_chestplate", weight: 18 },
                 { item: "galosphere:sterling_leggings", weight: 18 },
                 { item: "galosphere:sterling_boots", weight: 18 },
-
-                // { item: "betternether:flaming_ruby_helmet", weight: 4 },
-                // { item: "betternether:flaming_ruby_chestplate", weight: 4 },
-                // { item: "betternether:flaming_ruby_leggings", weight: 4 },
-                // { item: "betternether:flaming_ruby_boots", weight: 4 },
 
                 { item: "autumnity:snail_shell_chestplate", weight: 10 },
 
@@ -240,6 +225,26 @@ ServerEvents.highPriorityData((event) => {
                 { item: "caverns_and_chasms:sanguine_boots", weight: 3 },
 
                 { item: "quark:forgotten_hat", weight: 15 },
+
+                { item: "opposing_force:wooden_mask", weight: 10, quality: 2 },
+                { item: "opposing_force:wooden_chestplate", weight: 10, quality: 2 },
+                { item: "opposing_force:wooden_cover", weight: 10, quality: 2 },
+                { item: "opposing_force:wooden_boots", weight: 10, quality: 2 },
+
+                { item: "opposing_force:stone_helmet", weight: 15, quality: 3 },
+                { item: "opposing_force:stone_chestplate", weight: 15, quality: 3 },
+                { item: "opposing_force:stone_leggings", weight: 15, quality: 3 },
+                { item: "opposing_force:stone_boots", weight: 15, quality: 3 },
+
+                { item: "opposing_force:bone_helmet", weight: 18, quality: 4 },
+                { item: "opposing_force:bone_chestplate", weight: 18, quality: 4 },
+                { item: "opposing_force:bone_leggings", weight: 18, quality: 4 },
+                { item: "opposing_force:bone_boots", weight: 18, quality: 4 },
+
+                { item: "opposing_force:emerald_mask", weight: 10, quality: 5 },
+                { item: "opposing_force:emerald_chestplate", weight: 10, quality: 5 },
+                { item: "opposing_force:emerald_leggings", weight: 10, quality: 5 },
+                { item: "opposing_force:emerald_boots", weight: 10, quality: 5 },
             ],
         },
         {
@@ -319,10 +324,6 @@ ServerEvents.highPriorityData((event) => {
 
                 { item: "botania:manasteel_sword", weight: 25 },
 
-                // { item: "betternether:cincinnasite_sword", weight: 25 },
-                // { item: "betternether:nether_ruby_sword", weight: 15 },
-                // { item: "betternether:flaming_ruby_sword", weight: 4 },
-
                 { item: "spartanweaponry:studded_club", weight: 25 },
                 { item: "spartanweaponry:studded_cestus", weight: 25 },
 
@@ -331,6 +332,14 @@ ServerEvents.highPriorityData((event) => {
                 { item: "cataclysm:coral_bardiche", weight: 12, quality: 6 },
 
                 { item: "cataclysm:black_steel_sword", weight: 8, quality: 5 },
+
+                { item: "opposing_force:tomahawk", weight: 15 },
+                { item: "opposing_force:emerald_sword", weight: 20 },
+                { item: "opposing_force:bone_sword", weight: 20, quality: 3 },
+                { item: "opposing_force:umber_dagger", weight: 6, quality: 5 },
+
+                { item: "block_factorys_bosses:large_sword", weight: 10, quality: 5 },
+                { item: "block_factory_bosses:dagger", weight: 10 },
             ],
         },
         {
@@ -357,10 +366,6 @@ ServerEvents.highPriorityData((event) => {
                 { item: "mekanismtools:steel_axe", weight: 15 },
 
                 { item: "botania:manasteel_axe", weight: 25 },
-
-                // { item: "betternether:cincinnasite_axe", weight: 25 },
-                // { item: "betternether:nether_ruby_axe", weight: 15 },
-                // { item: "betternether:flaming_ruby_axe", weight: 4 },
 
                 { item: "cataclysm:black_steel_axe", weight: 8, quality: 5 },
             ],
@@ -389,10 +394,6 @@ ServerEvents.highPriorityData((event) => {
                 { item: "mekanismtools:steel_pickaxe", weight: 15 },
 
                 { item: "botania:manasteel_pick", weight: 25 },
-
-                // { item: "betternether:cincinnasite_pickaxe", weight: 25 },
-                // { item: "betternether:nether_ruby_pickaxe", weight: 15 },
-                // { item: "betternether:flaming_ruby_pickaxe", weight: 4 },
 
                 {
                     item: "cataclysm:black_steel_pickaxe",
@@ -425,10 +426,6 @@ ServerEvents.highPriorityData((event) => {
                 { item: "mekanismtools:steel_shovel", weight: 15 },
 
                 { item: "botania:manasteel_shovel", weight: 25 },
-
-                // { item: "betternether:cincinnasite_shovel", weight: 25 },
-                // { item: "betternether:nether_ruby_shovel", weight: 15 },
-                // { item: "betternether:flaming_ruby_shovel", weight: 4 },
 
                 { item: "cataclysm:black_steel_shovel", weight: 8, quality: 5 },
             ],
