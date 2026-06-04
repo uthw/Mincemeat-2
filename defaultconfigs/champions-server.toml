@@ -278,7 +278,7 @@ reflectiveLethal = false
 [affixes.magnetic]
 #Strength of the magnetic pulling effect
 #Range: 0.0 ~ 100.0
-magneticStrength = 0.04
+magneticStrength = 0.02
 
 [affixes.wounding]
 #The percent chance that an attack will wound targets
