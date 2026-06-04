@@ -1671,6 +1671,32 @@ ServerEvents.recipes((event) => {
                 D: "minecraft:repeater"
             }
         ],
+        [
+            "irons_spellbooks:lightning_rune",
+            ["AAA", "ABA", "AAA"],
+            {
+                A: "opposing_force:electric_charge",
+                B: "irons_spellbooks:blank_rune"
+            }
+        ],
+        [
+            "irons_spellbooks:autoloader_crossbow",
+            ["ABA", "CDC", " A "],
+            {
+                A: "#forge:rods/wooden",
+                B: "block_factorys_bosses:kraken_tooth",
+                C: "#forge:string",
+                D: "create:transmitter"
+            }
+        ],
+        [
+            "irons_spellbooks:silver_ring",
+            ["AB ", "B B", " B "],
+            {
+                A: "galosphere:allurite_shard",
+                B: "#forge:ingots/silver"
+            }
+        ]
     ];
 
     recipes.forEach((recipe, index) => {

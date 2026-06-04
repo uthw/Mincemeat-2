@@ -1123,30 +1123,33 @@ ServerEvents.recipes((event) => {
             "minecraft:ender_pearl",
             "caverns_and_chasms:spinel",
         ],
-        [
-            { output: "lightmanscurrency:tax_block" },
-            "minecraft:hopper",
-            "alexscaves:heavyweight",
-        ],
-        [
-            { output: "fdbosses:eye_of_malkuth" },
-            "minecraft:ice",
-            "yungscavebiomes:rare_ice"
-        ],
+        [{ output: "lightmanscurrency:tax_block" }, "minecraft:hopper", "alexscaves:heavyweight"],
+        [{ output: "fdbosses:eye_of_malkuth" }, "minecraft:ice", "yungscavebiomes:rare_ice"],
         [
             { output: "fdbosses:eye_of_geburah" },
             "minecraft:polished_blackstone_bricks",
-            "endergetic:eumus_bricks"
+            "endergetic:eumus_bricks",
         ],
         [
             { output: "fdbosses:eye_of_geburah" },
             "minecraft:gold_ingot",
-            "malum:soul_stained_steel_ingot"
+            "malum:soul_stained_steel_ingot",
+        ],
+        [{}, "opposing_force:heavy_bone", "alexscaves:heavy_bone"],
+        [
+            { mod: "sophisticatedbackpacks" },
+            "minecraft:ender_pearl",
+            "opposing_force:electric_charge",
         ],
         [
-            {},
-            "opposing_force:heavy_bone",
-            "alexscaves:heavy_bone"
+            { mod: "sophisticatedstorage" },
+            "minecraft:ender_pearl",
+            "opposing_force:electric_charge",
+        ],
+        [
+            { output: "irons_spellbooks:portal_frame" },
+            "minecraft:ender_pearl",
+            "opposing_force:dicer_lens"
         ]
     ];
 

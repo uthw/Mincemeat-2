@@ -166,6 +166,7 @@ ServerEvents.recipes((event) => {
                 Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.7f}").strongNBT(),
             ],
         ],
+        ["3x opposing_force:electric_alloy", ["opposing_force:electric_charge", "minecraft:gold_ingot", "#forge:ingots/silver", "minecraft:diamond"]],
     ];
 
     recipes.forEach((recipe) => {
