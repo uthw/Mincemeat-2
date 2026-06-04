@@ -189,7 +189,9 @@
 	    ["minecraft:blaze_rod", 13.0, 0.0, "static", "", true],
 	    ["alexscaves:radiant_essence", 5.5, 0.15, "adaptive", "", true],
 	    ["irons_spellbooks:cinder_essence", 13.0, 0.0, "static", "", true],
-	    ["immersiveengineering:ersatz_leather", 5.0, 5.0, "static", "", true]
+	    ["immersiveengineering:ersatz_leather", 5.0, 5.0, "static", "", true],
+	    ["opposing_force:fire_gel", 8.0, 0.0, "static", "", true],
+	    ["opposing_force:deep_silk", 6.0, 6.0, "static", "", true]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn
