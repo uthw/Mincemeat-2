@@ -62,11 +62,13 @@
 			}
 			icon_scale: 0.8d
 			id: "431C2B8BEE92DD05"
-			rewards: [{
-				id: "57595DA7D778EA8D"
+			rewards: [
+			{
+				count: 1
+				id: "C6392C0B246386D4"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [
@@ -130,12 +132,13 @@
 			]
 			id: "56AF03B473E1802E"
 			min_required_dependencies: 1
-			rewards: [{
+			rewards: [
+			{
 				count: 4
-				id: "5F5796A279B56878"
+				id: "D236598B2BDDC5AE"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Hammer Time"
 			tasks: [
 				{
@@ -432,11 +435,13 @@
 				"Sometimes, you will find a forge container that can be opened by hitting all the latches with a hammer and then opening it with a claw."
 			]
 			id: "29E5ECF00A0F35B4"
-			rewards: [{
-				id: "4BAF8684A8B7677D"
+			rewards: [
+			{
+				count: 1
+				id: "36BE9F52909CEE33"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "tetra:spelunking/ancient_ruins"
@@ -458,11 +463,13 @@
 				"To use bolts, place one where a binding would normally go. Then return to the binding material selection screen and press &6D&r on your keyboard to open the tweak menu. In the menu, you'll see a slider. When you’re done, press &6S&r to exit tweak mode."
 			]
 			id: "0E358250382901F4"
-			rewards: [{
-				id: "364FFFBC2242D29C"
+			rewards: [
+			{
+				count: 1
+				id: "DB2C08CCEE26F44F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "31857E99F88D0D2E"
@@ -550,12 +557,13 @@
 				}
 			}
 			id: "620C830CD840461C"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
-				id: "1B4A0D13EE91C870"
+				id: "36B52FFDDE04DFA3"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "You can mix these with mining speed sockets"
 			tasks: [
 				{
@@ -686,11 +694,13 @@
 				"    &dAmethyst increases the range of tools and weapons&r"
 			]
 			id: "5EC718E0EE6BF4BC"
-			rewards: [{
-				id: "520C1A0562E3A0F2"
+			rewards: [
+			{
+				count: 1
+				id: "CFE4529D5B22F6BD"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Lootboxes"
 			tasks: [
 				{
@@ -739,11 +749,13 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "504FEF17493FD0C4"
-			rewards: [{
-				id: "379CC252CA81B565"
+			rewards: [
+			{
+				count: 1
+				id: "E9A3EFE21DC02726"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				advancement: "tetra:upgrades/sword_upgrade"
 				criterion: ""
@@ -786,12 +798,13 @@
 				}
 			}
 			id: "4A98B0635371C46A"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "1070331D5CD583D3"
+				id: "A518E5F8B56BD977"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					icon: {
@@ -952,12 +965,13 @@
 			dependencies: ["431C2B8BEE92DD05"]
 			description: ["Tetra lets traditional tools be modified into a variety of multi‑tools and weapons. You can even create double‑headed implements by fitting a different head on each end (for example, a pickaxe with an axe head on the opposite side), allowing one item to serve two functions."]
 			id: "3A686777F1FBD28E"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
-				id: "773941F27AE5F761"
+				id: "259B64CB7AA440FA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1097,11 +1111,13 @@
 				}
 			}
 			id: "5A26CD6456C9F556"
-			rewards: [{
-				id: "6DE9535375BE0F35"
+			rewards: [
+			{
+				count: 1
+				id: "FC67C0CB87A9BD97"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					advancement: "tetra:upgrades/bow_upgrade"
@@ -1193,11 +1209,13 @@
 			id: "76849D8818684472"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "3F172324DC4A6B98"
+			rewards: [
+			{
+				count: 1
+				id: "B557F2C3D6E61BA0"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "*Disabled for the time being, maybe permanently"
 			tasks: [{
 				advancement: "tetra:upgrades/shield_upgrade"
@@ -1245,11 +1263,13 @@
 				}
 			}
 			id: "350922773A24AB89"
-			rewards: [{
-				id: "7EABA9A81B1A7BB5"
+			rewards: [
+			{
+				count: 1
+				id: "9BCC506EA2A43FFF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "(𝋧)"
 			tasks: [{
@@ -1319,11 +1339,13 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1C539045E7AC3A89"
-			rewards: [{
-				id: "730907F0D90B9C45"
+			rewards: [
+			{
+				count: 1
+				id: "C7E98D59D587D13C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Big Numbers"
 			tasks: [{
@@ -1375,11 +1397,13 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2BD1D50914CC6435"
-			rewards: [{
-				id: "0E9D774095056B34"
+			rewards: [
+			{
+				count: 1
+				id: "612C84B7A3DE0687"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Spray And Prey"
 			tasks: [{
@@ -1432,11 +1456,13 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5A422A59A4BEA7F5"
-			rewards: [{
-				id: "0EF58FD2E8CF4485"
+			rewards: [
+			{
+				count: 1
+				id: "AA13588F7E6DB188"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Nat 20"
 			tasks: [{
@@ -1488,12 +1514,13 @@
 				"Efficiency reduces the amount of material required to repair your tools. For instance, an Efficiency scroll for a hammer would make it take less iron to repair iron tools."
 			]
 			id: "622EF686F97DE1ED"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "16B3935B3637EABC"
+				id: "9E4418690E9C69AA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "41ACD0DDCF774259"
@@ -1876,11 +1903,13 @@
 			]
 			hide_dependency_lines: true
 			id: "3ECA1E73D2469159"
-			rewards: [{
-				id: "6F1D7E44CF4C762D"
+			rewards: [
+			{
+				count: 1
+				id: "8D7DA68D828C7563"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "rsquare"
 			tasks: [{
 				id: "1D4D3FB49E658C49"
@@ -1924,11 +1953,13 @@
 				}
 			}
 			id: "439CC65415E3FCBE"
-			rewards: [{
-				id: "3EA34998A83FAC30"
+			rewards: [
+			{
+				count: 1
+				id: "74BB4AF5A0196E70"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Your life force is now mine"
 			tasks: [
 				{
@@ -1978,12 +2009,13 @@
 				}
 			}
 			id: "1E52A6B5FF56F70A"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "63DA9CBA7DD8F18B"
+				id: "DEB4F03AF59D8F4B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Don't get hit"
 			tasks: [{
 				id: "2F1C9EED7FB2DBF4"
@@ -2035,11 +2067,13 @@
 				}
 			}
 			id: "5F377241A5561E11"
-			rewards: [{
-				id: "3F33F6F40BD286AE"
+			rewards: [
+			{
+				count: 1
+				id: "C6B281D8719BD70C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Run"
 			tasks: [
 				{
@@ -2106,11 +2140,13 @@
 				}
 			}
 			id: "53A46CBBF12F5CF2"
-			rewards: [{
-				id: "5D98388EC8E80CA1"
+			rewards: [
+			{
+				count: 1
+				id: "B1954D7D8D7762EB"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "701B9E03A5BC6531"
@@ -2183,11 +2219,13 @@
 				}
 			}
 			id: "5729F2DAF5C62B3A"
-			rewards: [{
-				id: "3611717250DF23F7"
+			rewards: [
+			{
+				count: 1
+				id: "083EE9702C32CB16"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "These Swords (no longer) suck and are hard to get."
 			tasks: [
 				{
@@ -2258,11 +2296,13 @@
 				}
 			}
 			id: "4A38473A1C134C97"
-			rewards: [{
-				id: "0336D6B789322E91"
+			rewards: [
+			{
+				count: 1
+				id: "453557325FE37865"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Bragging Rights"
 			tasks: [
 				{
@@ -2342,11 +2382,13 @@
 				}
 			}
 			id: "56BDCA6FA645B29D"
-			rewards: [{
-				id: "7543D7CB5CCB0C37"
+			rewards: [
+			{
+				count: 1
+				id: "A00AD571DD2A5AC8"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Cooler rapiers"
 			tasks: [{
@@ -2419,11 +2461,13 @@
 				}
 			}
 			id: "6A07DEFBB82E3C0C"
-			rewards: [{
-				id: "7661D7A39E0865C8"
+			rewards: [
+			{
+				count: 1
+				id: "DEDFFC9FE7003CD7"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Jetstream Sam can be killed in 11 seconds"
 			tasks: [{
@@ -2492,11 +2536,13 @@
 				}
 			}
 			id: "2351AE16788CA15B"
-			rewards: [{
-				id: "2E176F9685095AAC"
+			rewards: [
+			{
+				count: 1
+				id: "5D9113CC62A50A30"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Player has been eaten by iron Thousand Cold Nights"
 			tasks: [{
@@ -2569,11 +2615,13 @@
 				}
 			}
 			id: "5CF264D45C05EA54"
-			rewards: [{
-				id: "2FC805662ADE71F6"
+			rewards: [
+			{
+				count: 1
+				id: "33BEC50CE545818A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "You no longer need a shield in your off hand"
 			tasks: [
@@ -2673,11 +2721,13 @@
 				}
 			}
 			id: "1A2E00380C03A1FE"
-			rewards: [{
-				id: "575FC10CE97B06D5"
+			rewards: [
+			{
+				count: 1
+				id: "3CF42A09AA96361C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Extra slot"
 			tasks: [
@@ -2746,11 +2796,13 @@
 				}
 			}
 			id: "666B3DF6859860EA"
-			rewards: [{
-				id: "73623EC3083741D9"
+			rewards: [
+			{
+				count: 1
+				id: "A542E3E28EF30D3B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Fast tridents"
 			tasks: [{
@@ -2819,11 +2871,13 @@
 				}
 			}
 			id: "61DC9D549EAD670D"
-			rewards: [{
-				id: "1CA04363134FCC34"
+			rewards: [
+			{
+				count: 1
+				id: "FC65C296D1CDD382"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Stupid armor stat..."
 			tasks: [{
@@ -2887,11 +2941,13 @@
 				}
 			}
 			id: "1CFC11A3153634A7"
-			rewards: [{
-				id: "14898E335A89FA64"
+			rewards: [
+			{
+				count: 1
+				id: "C3789C8B5CB9B106"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "RNG: The sword"
 			tasks: [{
@@ -2963,12 +3019,13 @@
 				}
 			}
 			id: "7182A1AFFACD0FF0"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
-				id: "67605A84D2EAE443"
+				id: "A5E21F34717D4143"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Want to be a lumberjack?"
 			tasks: [
@@ -3107,11 +3164,13 @@
 				}
 			}
 			id: "6DC1952B88446F66"
-			rewards: [{
-				id: "6F9A6856CF28AD67"
+			rewards: [
+			{
+				count: 1
+				id: "1ECFDEC54005B8E4"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "You should know this one"
 			tasks: [
@@ -3210,11 +3269,13 @@
 				}
 			}
 			id: "00B84BF55CA4D7DD"
-			rewards: [{
-				id: "7B81324B7A9F8AA3"
+			rewards: [
+			{
+				count: 1
+				id: "EAEE2F59A8216CAF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "\"Pickaxe\""
 			tasks: [
@@ -3340,11 +3401,13 @@
 				}
 			}
 			id: "20A55CDAB8C7B873"
-			rewards: [{
-				id: "5AD1A7F054597F6D"
+			rewards: [
+			{
+				count: 1
+				id: "E4151BA9DBF55CBE"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "I AM THE GOD OF THUNDER"
 			tasks: [{
@@ -3389,11 +3452,13 @@
 				}
 			}
 			id: "0231DBE01165CAA1"
-			rewards: [{
-				id: "1625326D5615B802"
+			rewards: [
+			{
+				count: 1
+				id: "96DCD6E806442446"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Hungry Axe"
 			tasks: [{
@@ -3439,11 +3504,13 @@
 				}
 			}
 			id: "296AA461B9DA6279"
-			rewards: [{
-				id: "056E6A9A84AC3D9F"
+			rewards: [
+			{
+				count: 1
+				id: "5364FC8F0A052E9C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "He's on fire"
 			tasks: [{
@@ -3480,11 +3547,13 @@
 				}
 			}
 			id: "30A43DDDC76F5300"
-			rewards: [{
-				id: "2BDCC83D145C4559"
+			rewards: [
+			{
+				count: 1
+				id: "80E982456DFBDC48"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Speedrun"
 			tasks: [{
@@ -3529,11 +3598,13 @@
 			]
 			hide_dependency_lines: true
 			id: "60E17C462DA42DFA"
-			rewards: [{
-				id: "52D3780D2FEA2572"
+			rewards: [
+			{
+				count: 1
+				id: "F272363A4A622AC4"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "This adds the largest number of effects in one module"
 			tasks: [{
@@ -3570,11 +3641,13 @@
 				}
 			}
 			id: "0574E5791367F4B8"
-			rewards: [{
-				id: "00CE84CF342FA6D1"
+			rewards: [
+			{
+				count: 1
+				id: "325F07EF012B31E1"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Axe, but actually a Spear"
 			tasks: [{
@@ -3642,11 +3715,13 @@
 				}
 			}
 			id: "2664B1028ED01615"
-			rewards: [{
-				id: "03B2E6938C2FC567"
+			rewards: [
+			{
+				count: 1
+				id: "869B8FFA94928C8B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Hug it out"
 			tasks: [{
@@ -3708,11 +3783,13 @@
 				}
 			}
 			id: "5234FAE0AE7F5987"
-			rewards: [{
-				id: "42C303E28D55EBC8"
+			rewards: [
+			{
+				count: 1
+				id: "DF9FB4AE5A82936A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -3817,11 +3894,13 @@
 				}
 			}
 			id: "3750630675EC8160"
-			rewards: [{
-				id: "110DB9BEF4F03F64"
+			rewards: [
+			{
+				count: 1
+				id: "F71C452FB53D8E3E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "You still can't break the Waystone with this."
 			tasks: [
@@ -3852,11 +3931,13 @@
 				"Once you've made the factory, all you'll need is to check the recipes in JEI for the weapons you're interested in and start gathering materials. There is a bit of waiting involved in the crafting process."
 			]
 			id: "0C036E30FF85F680"
-			rewards: [{
-				id: "19432BBA14656F5B"
+			rewards: [
+			{
+				count: 1
+				id: "A1F4221A1E27053E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -3880,11 +3961,13 @@
 			dependencies: ["0C036E30FF85F680"]
 			description: ["Hint: Solaris and Aqueflora are the easiest ones to get."]
 			id: "319909161072B531"
-			rewards: [{
-				id: "3E6F37DD05E2A96A"
+			rewards: [
+			{
+				count: 1
+				id: "B5DDF9DFCA3BE572"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "1CBB5BBB19066E27"
 				item: {
@@ -4022,12 +4105,13 @@
 			]
 			id: "01B9A707917C50D1"
 			min_width: 300
-			rewards: [{
+			rewards: [
+			{
 				count: 4
-				id: "107BCF1C3310D3A6"
+				id: "0366DA0D154CFB26"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			size: 1.0d
 			tasks: [
 				{
@@ -4328,11 +4412,13 @@
 			hide_dependency_lines: true
 			id: "45662F4F80EC7F01"
 			min_width: 300
-			rewards: [{
-				id: "3FE371777973D19D"
+			rewards: [
+			{
+				count: 1
+				id: "8844E4AA3F9F8C45"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "That's a Lot of Stuff"
 			tasks: [{
@@ -4390,11 +4476,13 @@
 			]
 			hide_dependency_lines: true
 			id: "197E7FAE8F164E98"
-			rewards: [{
-				id: "4D1A445A0BA36E1D"
+			rewards: [
+			{
+				count: 1
+				id: "82741560C9BFF420"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "I need a band-aid"
 			tasks: [{
@@ -4472,11 +4560,13 @@
 				}
 			}
 			id: "5B4F635641CF86F6"
-			rewards: [{
-				id: "4B49DD9748FEA9AC"
+			rewards: [
+			{
+				count: 1
+				id: "E90A2D694F5A16BA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "100 Damage"
 			tasks: [{
@@ -4500,11 +4590,13 @@
 			description: ["The Bastard Blade functions like the Basic Blade but with increased range. Hitting a mob with a Bastard Blade extends its reach by 3 blocks."]
 			hide_dependency_lines: true
 			id: "1C0CE3DD19FB2675"
-			rewards: [{
-				id: "574F3E7F410EBD81"
+			rewards: [
+			{
+				count: 1
+				id: "A838789D03F5269A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Social Distancing"
 			tasks: [{
@@ -4560,11 +4652,13 @@
 			description: ["This blade is similar to a Basic Blade, but it has a charged right-click move that deals much more damage when it hits a target."]
 			hide_dependency_lines: true
 			id: "6763A56101C7D9A2"
-			rewards: [{
-				id: "5C84FDC9F7A9E3D6"
+			rewards: [
+			{
+				count: 1
+				id: "F55AF9326B8DDC89"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Slam Dunk"
 			tasks: [{
@@ -4619,11 +4713,13 @@
 			description: ["Don’t like how slow spears are? This is a faster version of the normal spearhead. It deals slightly less damage and has reduced range, but makes up for it with a powerful effect: it stuns your target for a few seconds, preventing them from moving."]
 			hide_dependency_lines: true
 			id: "626E0045074B4281"
-			rewards: [{
-				id: "0BCD0C0C709E2811"
+			rewards: [
+			{
+				count: 1
+				id: "500DEF83FA905F94"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Speed is KEY"
 			tasks: [{
@@ -4676,11 +4772,13 @@
 			description: ["The long handle makes any polearm two-handed for the upside of more range."]
 			hide_dependency_lines: true
 			id: "4B5ACD60381979DF"
-			rewards: [{
-				id: "036AC0A5306BDD47"
+			rewards: [
+			{
+				count: 1
+				id: "0A45584B1172B578"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Can't touch this"
 			tasks: [{
@@ -4715,11 +4813,13 @@
 			description: ["The light handle makes any spear throwable. Thown spears deal twice their normal damage, but with the downside of not being able to use enchantments."]
 			hide_dependency_lines: true
 			id: "37CA615D515365B0"
-			rewards: [{
-				id: "44D8EB19763BAB3D"
+			rewards: [
+			{
+				count: 1
+				id: "00C95F8409E913E9"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Lawn darts"
 			tasks: [{
@@ -4758,11 +4858,13 @@
 				"[ \"Endsteel is just an upgraded version that deals more damage. It’s obtained by mixing \", { \"text\": \"Ice Maze\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1808E3ABC3AF6D82\" } }, \" ingredients with Forged Steel\" ]"
 			]
 			id: "603300C2785C58E7"
-			rewards: [{
-				id: "3894C917DD9C20A2"
+			rewards: [
+			{
+				count: 1
+				id: "78887525B457F119"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "The \"Forging\" in \"Art of Forging\""
 			tasks: [
 				{
@@ -4801,11 +4903,13 @@
 				"You gain weapon experience by using the item, which is basically anything that affects its durability."
 			]
 			id: "2E62EAECF3C5DCA3"
-			rewards: [{
-				id: "365D1A7343A7B707"
+			rewards: [
+			{
+				count: 1
+				id: "D69C2D474483EEBD"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Level up"
 			tasks: [{
 				icon: {
@@ -4922,11 +5026,13 @@
 			}
 			icon_scale: 1.25d
 			id: "6165446003CDDE90"
-			rewards: [{
-				id: "31692EB6FA23F239"
+			rewards: [
+			{
+				count: 1
+				id: "275EE61E7E71850A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "You got blood on your hands"
 			tasks: [{
@@ -4997,11 +5103,13 @@
 			}
 			icon_scale: 1.25d
 			id: "5B6AD74FD64B04AD"
-			rewards: [{
-				id: "758420222A1F5F5B"
+			rewards: [
+			{
+				count: 1
+				id: "D87C44089D48B0E4"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Blue fire is hotter than orange fire"
 			tasks: [{
@@ -5063,11 +5171,13 @@
 			}
 			icon_scale: 1.25d
 			id: "2C749551F1A478B1"
-			rewards: [{
-				id: "480C2EA5E42B4599"
+			rewards: [
+			{
+				count: 1
+				id: "3AE279A22DC897B7"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [{
 				id: "7D5186B26793DF8E"
@@ -5092,11 +5202,13 @@
 			hide_dependency_lines: true
 			icon_scale: 1.25d
 			id: "1F5F7F66C98E2549"
-			rewards: [{
-				id: "35895BF2EDAC33FF"
+			rewards: [
+			{
+				count: 1
+				id: "61751D7ABF487E6A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Great for eating rice"
 			tasks: [{
@@ -5148,11 +5260,13 @@
 			hide_dependency_lines: true
 			icon_scale: 1.25d
 			id: "5D3B783E55EAC8D3"
-			rewards: [{
-				id: "27FC9A0B6A675951"
+			rewards: [
+			{
+				count: 1
+				id: "70884445C1A16D0B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Poke"
 			tasks: [{
@@ -5203,11 +5317,13 @@
 			hide_dependency_lines: true
 			icon_scale: 1.25d
 			id: "637A7C877D2B8DC6"
-			rewards: [{
-				id: "592D57B903409510"
+			rewards: [
+			{
+				count: 1
+				id: "30A8B6E58E4D7E92"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Aggressive dashing"
 			tasks: [{
@@ -5258,11 +5374,13 @@
 			hide_dependency_lines: true
 			icon_scale: 1.25d
 			id: "753BC3B374903033"
-			rewards: [{
-				id: "6A6F210177F7C8D8"
+			rewards: [
+			{
+				count: 1
+				id: "2061FF45650BE0FA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Bosses hate it"
 			tasks: [{
@@ -5331,11 +5449,13 @@
 			}
 			icon_scale: 1.25d
 			id: "381EAB69B4B3BB42"
-			rewards: [{
-				id: "27BB49DB1AE5364D"
+			rewards: [
+			{
+				count: 1
+				id: "BD2436D738295BB2"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Vampire Spear"
 			tasks: [{
@@ -5363,12 +5483,13 @@
 			hide_dependent_lines: true
 			icon_scale: 1.75d
 			id: "402A99CBDC2DDA24"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
-				id: "11561425815151E7"
+				id: "5BF4254E5F4BBD41"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			size: 1.0d
 			subtitle: "2 handed"
@@ -5515,11 +5636,13 @@
 				}
 			}
 			id: "7F87BD9DDF820097"
-			rewards: [{
-				id: "79E4DFA524705DC6"
+			rewards: [
+			{
+				count: 1
+				id: "0FAA30BBAEBF7683"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "1 handed"
 			tasks: [{
@@ -5582,11 +5705,13 @@
 			}
 			icon_scale: 1.25d
 			id: "40238E155954FC5E"
-			rewards: [{
-				id: "37B3306CB9194279"
+			rewards: [
+			{
+				count: 1
+				id: "2BC47BB11BEDF020"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "Kantana spear"
 			tasks: [{

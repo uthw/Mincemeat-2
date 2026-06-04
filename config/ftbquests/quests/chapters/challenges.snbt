@@ -38,12 +38,13 @@
 			]
 			id: "5655AF1B06C3A71D"
 			rewards: [
-				{
-					count: 3
-					id: "03A002F73AC1EE3A"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
+			{
+				count: 3
+				id: "8FBB0CDA88A4D8DC"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			},
+				
 				{
 					id: "782CD59E0A0A6E92"
 					item: "grapplemod:rocketupgradeitem"
@@ -109,12 +110,13 @@
 			]
 			id: "11C473AD0B887946"
 			rewards: [
-				{
-					count: 3
-					id: "4A9A40AAFBDFD7FE"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
+			{
+				count: 3
+				id: "AFD4C98FF45DF31F"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			},
+				
 				{
 					id: "0E1500115FC09FD9"
 					item: {
@@ -224,12 +226,13 @@
 			id: "10D4F722649641A7"
 			min_width: 300
 			rewards: [
-				{
-					count: 7
-					id: "65038F3AEF340175"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
+			{
+				count: 7
+				id: "1C9943C4B59D9FFE"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			},
+				
 				{
 					exclude_from_claim_all: true
 					id: "7357E46601149C0D"
@@ -484,12 +487,13 @@
 			]
 			id: "6259BC99B2A71D8C"
 			rewards: [
-				{
-					count: 5
-					id: "5575A6633ED5BB56"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
+			{
+				count: 5
+				id: "2B8036FAB5CB2D6B"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			},
+				
 				{
 					exclude_from_claim_all: true
 					id: "63C80EC444384F98"
@@ -608,12 +612,13 @@
 			}
 			id: "42976545EE8CAB9F"
 			rewards: [
-				{
-					count: 3
-					id: "58669DA186AD1DB2"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
+			{
+				count: 3
+				id: "6151EC2A232A84E4"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			},
+				
 				{
 					id: "481FE3D3FF80EA88"
 					item: {
@@ -666,12 +671,13 @@
 			]
 			id: "2AE2DC41F94B92FD"
 			rewards: [
-				{
-					count: 3
-					id: "78E2AD6A977D3F54"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
+			{
+				count: 3
+				id: "36DB2ED36EA3F0D0"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			},
+				
 				{
 					id: "1FD1A595E855E8F1"
 					item: {
@@ -779,12 +785,13 @@
 				"Amphibian Boots: Any > Ocean Chest | Overworld > Swamp Chest"
 			]
 			id: "005103C8476D3ED4"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "1CF82D49172924E0"
-				item: "lightmanscurrency:coin_gold"
+				id: "79DFF64F2B9573E3"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "15927A322A2AE711"
@@ -987,12 +994,13 @@
 				"Drowned Belt: Any > Ocean Chest"
 			]
 			id: "48C6A58B0E6887DE"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
-				id: "02B6B46082C18C6A"
-				item: "lightmanscurrency:coin_gold"
+				id: "0CB8542401C63796"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "0C7200E3C33C8D47"
@@ -1126,12 +1134,13 @@
 				"Reflecting Necklace: Overworld > Ruined Portal | Nether > Chest"
 			]
 			id: "307345F3842B5C0B"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
-				id: "3BD7DAC434AC5B6A"
-				item: "lightmanscurrency:coin_gold"
+				id: "5971DC3DF7C7A34A"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "2561F45C03502EAF"
@@ -1257,12 +1266,13 @@
 				"Ender Hand: End > Chest"
 			]
 			id: "34D4BFC3DA07D74D"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "44884D7715AE6B96"
-				item: "lightmanscurrency:coin_gold"
+				id: "69E667A71A8F834C"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "6A3E2843A45929D3"
@@ -1402,12 +1412,13 @@
 				"Chorus Inhibitor: End > Chest"
 			]
 			id: "02FD04DA5B9E7949"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "1FD49FF2816BAEFB"
-				item: "lightmanscurrency:coin_gold"
+				id: "9FFEFBF7F739B59D"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "0288FFB473638581"
@@ -1480,12 +1491,13 @@
 				"Quiver: Any>Village chests"
 			]
 			id: "0D789D1361D60007"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "21FD390E12E90D0F"
-				item: "lightmanscurrency:coin_gold"
+				id: "E73305645E462044"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "566D6706AB047A47"
@@ -1587,12 +1599,13 @@
 			dependencies: ["1A04B7AF864F4CE9"]
 			description: [""]
 			id: "1342CC63BC0A972C"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "1D8B3302EEB457DC"
-				item: "lightmanscurrency:coin_gold"
+				id: "215987A1A4111C0A"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "3D19396D0085FB5F"
@@ -1659,12 +1672,13 @@
 				"Blazing Flask: Nether > Chest | Overworld > Ruined Portal"
 			]
 			id: "5C6A4AF8D410CC1E"
-			rewards: [{
+			rewards: [
+			{
 				count: 15
-				id: "22B228BC7127E383"
-				item: "lightmanscurrency:coin_gold"
+				id: "17FDA49C4E43E613"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "1464361C8A43EF3C"
@@ -2195,7 +2209,14 @@
 			title: "Relics/Artificts Collection"
 			x: 2.0d
 			y: 0.0d
-		}
+		
+		rewards: [{
+			count: 2
+			id: "3A934000F78B0350"
+			item: "lightmanscurrency:coin_emerald"
+			type: "item"
+		}]
+	}
 		{
 			description: [
 				"You can find many different types of Endermen in various biomes around the world. Many of them drop special Pearls, while some may drop Hoods. You can find these Endermen in the Bestiary."
@@ -2203,12 +2224,13 @@
 				"The Charged Ender Pearl is a bit different, though, requiring you to defeat 2 bosses to obtain it."
 			]
 			id: "605A6D1F5E67F886"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "6E703572855C9A1C"
-				item: "lightmanscurrency:coin_gold"
+				id: "D7D9EDBE9BDDB732"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Endermen are now endangered"
 			tasks: [
 				{
@@ -2309,12 +2331,13 @@
 		}
 		{
 			id: "2253D3B2B2DA636C"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "4138F8486D88A8F4"
-				item: "lightmanscurrency:coin_gold"
+				id: "065075A45D3557C0"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "3AF1CB5AAB51F8A7"
@@ -2431,12 +2454,13 @@
 		}
 		{
 			id: "0D805670B61674C9"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "2D6974E0F0BF5C3A"
-				item: "lightmanscurrency:coin_gold"
+				id: "A781BA102BD49927"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "6FB83642DE03B1E0"
@@ -2594,12 +2618,13 @@
 				"You may also opt for the more difficult but surefire vanilla method of killing mobs with a charged creeper."
 			]
 			id: "6F8708E0E9BEA746"
-			rewards: [{
+			rewards: [
+			{
 				count: 28
-				id: "0FFE96C229657F7D"
-				item: "lightmanscurrency:coin_gold"
+				id: "F074CED7D3AE7B78"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Trophy Hunter"
 			tasks: [
 				{
@@ -2894,12 +2919,13 @@
 				"&lYou can click on the gem to view their stats.&r"
 			]
 			id: "0D2B37062D31582A"
-			rewards: [{
-				count: 21
-				id: "122B9FA0FB362F65"
-				item: "lightmanscurrency:coin_gold"
+			rewards: [
+			{
+				count: 39
+				id: "3FA1FFFB135D536C"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "They aren't rocks, they're minerals"
 			tasks: [
 				{
@@ -3778,12 +3804,13 @@
 		{
 			description: [""]
 			id: "2608140AF0F3A34C"
-			rewards: [{
+			rewards: [
+			{
 				count: 12
-				id: "0AF8CE6B55E339FC"
-				item: "lightmanscurrency:coin_gold"
+				id: "14A23FB0D0785C7C"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Mince Scholar"
 			tasks: [
 				{
@@ -4111,12 +4138,13 @@
 				"Most discs can also drop from hostile mobs with backpacks."
 			]
 			id: "27EEDA571F8E5F2C"
-			rewards: [{
-				count: 55
-				id: "470C0F585BFC2B6B"
-				item: "lightmanscurrency:coin_gold"
+			rewards: [
+			{
+				count: 57
+				id: "E5F31D00C22DBCB9"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Nice vinyl collection!"
 			tasks: [
 				{
@@ -4675,12 +4703,13 @@
 		{
 			description: [""]
 			id: "0C2DF591E0BFC78B"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "260CAED6420EC95A"
-				item: "lightmanscurrency:coin_gold"
+				id: "2D962A8ACF52E0E0"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Living is easy with eyes closed"
 			tasks: [
 				{
@@ -4770,12 +4799,13 @@
 		}
 		{
 			id: "5A9A2606485120A5"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "08D053C4CC7E5EC6"
-				item: "lightmanscurrency:coin_gold"
+				id: "104574F0E2852A73"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "6216E45C2B11E37A"
@@ -4864,12 +4894,13 @@
 		}
 		{
 			id: "2D305B392622E8A4"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "6ADE439FBA1D2981"
-				item: "lightmanscurrency:coin_gold"
+				id: "E3B6A860F1F45817"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Complete the map"
 			tasks: [
 				{
@@ -4985,12 +5016,13 @@
 		}
 		{
 			id: "1AE2ACF59A3E7D62"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "208850596AA57F12"
-				item: "lightmanscurrency:coin_gold"
+				id: "5D3892F0FA434341"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Colorful rocks"
 			tasks: [
 				{
@@ -5153,12 +5185,13 @@
 		}
 		{
 			id: "198796C7C38EE9C6"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "6CEEB731565CD8A1"
-				item: "lightmanscurrency:coin_gold"
+				id: "153A5F1D0F05ABC6"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "211642360983447E"
@@ -5258,12 +5291,13 @@
 				"13126F2ACB305B1E"
 			]
 			id: "56E3CD9678AE676A"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
-				id: "5E0B871A06280613"
-				item: "lightmanscurrency:coin_gold"
+				id: "CDDA23C42AE51B09"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "rsquare"
 			size: 1.25d
 			subtitle: "All these spells and not a single one to make my father come back"
@@ -5438,12 +5472,13 @@
 				"Bombegrante: Found on archwood trees"
 			]
 			id: "4297EF485FF2460D"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
-				id: "0ECA50ECA2C00481"
-				item: "lightmanscurrency:coin_gold"
+				id: "C62628540859742A"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Might be hard to pack these for my flight back home"
 			tasks: [
 				{
@@ -5622,12 +5657,13 @@
 		}
 		{
 			id: "13972F5925689BC8"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
-				id: "7A2AC0EE7D260D85"
-				item: "lightmanscurrency:coin_gold"
+				id: "467248BD4912543D"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -5980,12 +6016,13 @@
 		}
 		{
 			id: "15CFD8039E588275"
-			rewards: [{
+			rewards: [
+			{
 				count: 17
-				id: "19D55B739BAA5FB8"
-				item: "lightmanscurrency:coin_gold"
+				id: "8D55F746966B54FC"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -6341,12 +6378,13 @@
 		}
 		{
 			id: "62CAB25B99701CEA"
-			rewards: [{
+			rewards: [
+			{
 				count: 17
-				id: "55A57B86D31F42CA"
-				item: "lightmanscurrency:coin_gold"
+				id: "8EDDB2696A7F3156"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -6717,12 +6755,13 @@
 		}
 		{
 			id: "26AF04DCEDED99C9"
-			rewards: [{
+			rewards: [
+			{
 				count: 18
-				id: "4D88AFC05C237992"
-				item: "lightmanscurrency:coin_gold"
+				id: "4EDDE54F23ABB5AD"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -7119,12 +7158,13 @@
 		}
 		{
 			id: "1FF051FBC7224CDD"
-			rewards: [{
+			rewards: [
+			{
 				count: 13
-				id: "5C70324EA23BCC8F"
-				item: "lightmanscurrency:coin_gold"
+				id: "294A61DDEEC112A2"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			subtitle: "God's toilet paper"
 			tasks: [
@@ -7402,12 +7442,13 @@
 		}
 		{
 			id: "545AF3FE2B54DB33"
-			rewards: [{
-				count: 14
-				id: "69567CA7F428792F"
-				item: "lightmanscurrency:coin_gold"
+			rewards: [
+			{
+				count: 13
+				id: "17D6A19867AC38A6"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -7694,12 +7735,13 @@
 		}
 		{
 			id: "437E09507C061C8B"
-			rewards: [{
+			rewards: [
+			{
 				count: 15
-				id: "383635723A241DFD"
-				item: "lightmanscurrency:coin_gold"
+				id: "663700BD3F6D5A44"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -8029,12 +8071,13 @@
 		{
 			description: [""]
 			id: "7D511BE14E7C7982"
-			rewards: [{
+			rewards: [
+			{
 				count: 13
-				id: "05BE8E5DC3DB0ABB"
-				item: "lightmanscurrency:coin_gold"
+				id: "03A723BEA36CBC89"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -8332,12 +8375,13 @@
 		{
 			description: ["Most of these spears are made by making the handles out of various types of sticks from the Everbright and Everdawn."]
 			id: "762CE8F51524471D"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "614ACEA45F9491BC"
-				item: "lightmanscurrency:coin_gold"
+				id: "7FAFC9107B7DF343"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "They're actually good now"
 			tasks: [
 				{
@@ -8435,12 +8479,13 @@
 		}
 		{
 			id: "26AAE374F825B6FB"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "61A344BD40B4AA49"
-				item: "lightmanscurrency:coin_gold"
+				id: "606292A9DCAB9A3F"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Meat airlines"
 			tasks: [
 				{
@@ -8547,12 +8592,13 @@
 				}
 			}
 			id: "52435AC327B8A57C"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "6F0B2A3A6E444514"
-				item: "lightmanscurrency:coin_gold"
+				id: "995D142035CAA434"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Make them extinct"
 			tasks: [
 				{
@@ -8601,12 +8647,13 @@
 		}
 		{
 			id: "4437D8395A0D7D3B"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "773C13C8C524D017"
-				item: "lightmanscurrency:coin_gold"
+				id: "1C77C3863AE7FC6B"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "7BCAED10C05EEF0A"
@@ -8735,12 +8782,13 @@
 		}
 		{
 			id: "0C80A220510EF467"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "725487CE2303BE53"
-				item: "lightmanscurrency:coin_gold"
+				id: "56DA30B672A98F5D"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Don't tell the USA"
 			tasks: [
 				{
@@ -8876,12 +8924,13 @@
 				"Engineer: Coffee maker"
 			]
 			id: "230C2C2CE46AE9E0"
-			rewards: [{
+			rewards: [
+			{
 				count: 17
-				id: "26D08C5ABC86B9F2"
-				item: "lightmanscurrency:coin_gold"
+				id: "A6235F86B3C2716D"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "Now that's a diverse economy"
 			tasks: [
 				{
@@ -9069,12 +9118,13 @@
 		{
 			description: ["Tip: Towers are not the only structures with waystones. You can also find them in villages, Sky Arenas, Strongholds, Castles, and some other structures that're too rare to list here."]
 			id: "05C388A2AF035AD5"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
-				id: "5E61033F077DB662"
-				item: "lightmanscurrency:coin_gold"
+				id: "24F7879F2029D2FC"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				icon: "waystones:waystone"
 				id: "34056EC1D67D29E8"
@@ -9088,12 +9138,13 @@
 		}
 		{
 			id: "65BC034FDDDC9435"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "3766D7B0AC973295"
-				item: "lightmanscurrency:coin_gold"
+				id: "5F1DD4ED2BD78933"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "A stellar performance"
 			tasks: [
 				{
@@ -9241,12 +9292,13 @@
 		}
 		{
 			id: "74AD69B608D606D4"
-			rewards: [{
-				count: 14
-				id: "2A81A61D2F737F98"
-				item: "lightmanscurrency:coin_gold"
+			rewards: [
+			{
+				count: 13
+				id: "72FABEFB85A3DD05"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -9568,12 +9620,13 @@
 		}
 		{
 			id: "13126F2ACB305B1E"
-			rewards: [{
+			rewards: [
+			{
 				count: 22
-				id: "7665D035C6A1EAA9"
-				item: "lightmanscurrency:coin_gold"
+				id: "87B591CA919A1691"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			shape: "square"
 			tasks: [
 				{
@@ -10162,12 +10215,13 @@
 				"Labrynth Journals: Labrynth suspicious sand"
 			]
 			id: "724A9EB10E5BA4B1"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "6A4258B4D2C8C19D"
-				item: "lightmanscurrency:coin_gold"
+				id: "92A3A46607FB0A70"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "4749DA217BE6DCA2"
@@ -10422,12 +10476,13 @@
 				"Journal 1 ... Lost One: on lecterns in the Void Cathedral"
 			]
 			id: "6387A25BB246D61C"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
-				id: "606D0CD85CD33CF0"
-				item: "lightmanscurrency:coin_gold"
+				id: "4526A19427264DE0"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "4B0D72B6DF4FC74A"
@@ -11121,12 +11176,13 @@
 				"64B5404C12DECD0D"
 			]
 			id: "02FBEB800AAE7360"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "175267246CF6A821"
-				item: "lightmanscurrency:coin_gold"
+				id: "F078DCF186E8717A"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			subtitle: "If you were a sage, you'd be very inspired"
 			tasks: [{
 				advancement: "iceandfire:iceandfire/root"
@@ -11154,12 +11210,13 @@
 				"Some books, like the Scripture of the Dragon, have multiple editions which you'll have to collect to complete the quest."
 			]
 			id: "64B5404C12DECD0D"
-			rewards: [{
+			rewards: [
+			{
 				count: 29
-				id: "10537CE5AA226E21"
-				item: "lightmanscurrency:coin_gold"
+				id: "775ACC4270B3FFE3"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "57B52B4692F092D0"
@@ -12602,12 +12659,13 @@
 		}
 		{
 			id: "5EEDD0A06B50F306"
-			rewards: [{
+			rewards: [
+			{
 				count: 3
-				id: "1A3E6A92956F419D"
-				item: "lightmanscurrency:coin_gold"
+				id: "30A1BFBDE77DDC5C"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "17126BB001974CAC"

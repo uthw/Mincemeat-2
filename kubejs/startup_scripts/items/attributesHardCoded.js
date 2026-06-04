@@ -211,37 +211,137 @@ let tweaks = [
         attributeName: "minecraft:generic.attack_damage",
         value: 22.5, // originally 13
     },
+    {
+        itemName: "block_factorys_bosses:knight_sword",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 27, // originally 13
+    },
+    {
+        itemName: "opposing_force:spark_blade",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 10, // originally 6
+    },
+    {
+        itemName: "opposing_force:trembling_slammer",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 19, // originally 7
+    },
+    {
+        itemName: "block_factorys_bosses:dragon_skull",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.5,
+        slot: "head",
+    },
+    {
+        itemName: "block_factorys_bosses:dragon_bones_chestplate",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.5,
+        slot: "chest",
+    },
+    {
+        itemName: "block_factorys_bosses:dragon_bones_leggings",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.5,
+        slot: "legs",
+    },
+    {
+        itemName: "block_factorys_bosses:dragon_bones_boots",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.5,
+        slot: "feet",
+    },
+    {
+        itemName: "opposing_force:moon_shoes",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 3.0,
+        slot: "feet",
+    },
+    {
+        itemName: "opposing_force:moon_shoes",
+        attributeName: "minecraft:generic.armor_toughness",
+        value: 1.0,
+        slot: "feet",
+    },
+    {
+        itemName: "block_factorys_bosses:enhanced_shield",
+        attributeName: "betterparagliders:block_stamina_reduction",
+        value: 3.0,
+        slot: "offhand",
+    },
+    {
+        itemName: "block_factorys_bosses:knight_helmet",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.0,
+        slot: "head",
+    },
+    {
+        itemName: "block_factorys_bosses:knight_chestplate",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.0,
+        slot: "chest",
+    },
+    {
+        itemName: "block_factorys_bosses:knight_leggings",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.0,
+        slot: "legs",
+    },
+    {
+        itemName: "block_factorys_bosses:knight_boots",
+        attributeName: "betterparagliders:idle_stamina_regen",
+        value: 1.0,
+        slot: "feet",
+    },
+    {
+        itemName: "block_factorys_bosses:kraken_trident",
+        attributeName: "minecraft:generic.attack_damage",
+        value: 14, // originally 9
+    }
 ];
 
 let $AttributeModifier = Java.loadClass(
     "net.minecraft.world.entity.ai.attributes.AttributeModifier",
 );
+const $UUID = Java.loadClass("java.util.UUID");
 
 let tweakMap = {};
 
 tweaks.forEach((tweak) => {
     // Precompile the attribute modifier
+    let slot = tweak.slot ? tweak.slot.toLowerCase() : "mainhand";
+
     let compiledModifier = new $AttributeModifier(
-        "133a6368-4778-4aa9-9025-fb3cba698200",
+        $UUID.randomUUID().toString(),
         tweak.attributeName,
         tweak.value,
         "ADDITION",
     );
 
+    if (!tweakMap[tweak.itemName]) {
+        tweakMap[tweak.itemName] = [];
+    }
+
     // Put the tweak in a map because maps are faster than arrays
-    tweakMap[tweak.itemName] = {
+    tweakMap[tweak.itemName].push({
         name: tweak.attributeName,
         modifier: compiledModifier,
-    };
+        slot: slot,
+    });
 });
 
 // Only one onEvent is used for performance. The old version did it for each tweak, which was making the world take ~15 seconds longer to load
 ForgeEvents.onEvent("net.minecraftforge.event.ItemAttributeModifierEvent", (event) => {
-    if (event.slotType != "mainhand") return;
+    let itemTweaks = tweakMap[event.itemStack.id];
+    if (!itemTweaks) return;
 
-    let tweak = tweakMap[event.itemStack.id];
-    if (tweak) {
-        event.removeAttribute(tweak.name);
-        event.addModifier(tweak.name, tweak.modifier);
-    }
+    let currentSlot = String(event.slotType).toLowerCase();
+
+    if (event.slotType !== currentSlot) return;
+
+    itemTweaks.forEach((tweak) => {
+        if (currentSlot === tweak.slot) {
+            event.removeAttribute(tweak.name);
+            event.addModifier(tweak.name, tweak.modifier);
+        }
+    });
 });

@@ -210,7 +210,37 @@ ItemEvents.modification((event) => {
             name: "celestisynth:keres",
             damage: 11.5,
         },
+        {
+            name: "opposing_force:laser_blade",
+            damage: 15,
+        },
     ];
+
+    const colors = [
+        "white",
+        "light_gray",
+        "gray",
+        "black",
+        "brown",
+        "red",
+        "orange",
+        "yellow",
+        "lime",
+        "green",
+        "cyan",
+        "light_blue",
+        "blue",
+        "purple",
+        "magenta",
+        "pink",
+        "rainbow",
+    ];
+
+    colors.forEach((color) => {
+        event.modify(`opposing_force:${color}_laser_blade`, (item) => {
+            item.attackDamage = 15;
+        });
+    });
 
     tools.forEach((tool) => {
         event.modify(tool.name, (item) => {

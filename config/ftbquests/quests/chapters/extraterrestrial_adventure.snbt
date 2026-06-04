@@ -18,12 +18,13 @@
 			]
 			icon: "blue_skies:frostbright_vine"
 			id: "0A5059B79780A421"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "5ED2B1E6C26E4098"
+				id: "7787298B0BD24605"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "53D3117B8E33B593"
@@ -50,12 +51,13 @@
 			dependencies: ["0A5059B79780A421"]
 			description: ["You will quickly find that your Overworld tools have hampered efficiency in these dimensions. What could be causing this? A ward? Fatigue? Game design? We'll never know."]
 			id: "0063059B2778D392"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "64DEE844D7CB18D1"
+				id: "D1F6CF3AA2B61F4A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Find the portal hidden away in the Gatekeeper's house"
 			tasks: [{
 				id: "28151A690876E3FE"
@@ -226,12 +228,13 @@
 				}
 			}
 			id: "7DE5018AC92F4971"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "5C339E46E56A91C4"
+				id: "685FDDAF3FE5850B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "056BFA26821A2583"
@@ -296,12 +299,13 @@
 				"You can find &bcells&r in chests scattered throughout the dimensions."
 			]
 			id: "5B9B5EE143598729"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "18C6A3757A09EBF3"
+				id: "2F5E9827F6A2C744"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				count: 4L
 				id: "260A7A22343A69F4"
@@ -328,12 +332,13 @@
 				"The &bPromenade &ris a mystical forest with the remnants of a town. The buildings reach deep underground."
 			]
 			id: "4525CD09B5BCCE1E"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "62BEB139D157692D"
+				id: "B92F43BB2B1A92E7"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				dimension: "minecells:promenade"
 				icon: {
@@ -354,12 +359,13 @@
 			dependencies: ["4525CD09B5BCCE1E"]
 			hide_until_deps_visible: true
 			id: "13AF06207FD0CC28"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "077B8ED55CEA2150"
+				id: "90DD7969FE3AC0E7"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "3F0B848DC0BB554D"
 				item: {
@@ -441,12 +447,13 @@
 				}
 			}
 			id: "0F41407DF2EDE343"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "3D09A26A5F6BAE89"
+				id: "E8B7CC6FDE110761"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				dimension: "minecells:ramparts"
 				id: "3C93D5947BC56956"
@@ -550,12 +557,13 @@
 				id: "minecraft:netherrack"
 			}
 			id: "086E8054D516AFF4"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "34D7BC1031FBBC8B"
+				id: "DF99903398D102A1"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "&4Feel the burn!"
 			tasks: [
 				{
@@ -591,12 +599,13 @@
 			description: ["This is not every structure you can find in the Nether. You can also find familiar overworld structure variants here, but they're not covered by this quest."]
 			icon: "mynethersdelight:powder_cannon"
 			id: "70795731019BA757"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "2606978A2047BBFE"
+				id: "D83D9E0FB359CAE7"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Nether exploration section WIP"
 			tasks: [
 				{
@@ -681,12 +690,13 @@
 			]
 			icon: "aether:aether_portal_frame"
 			id: "044D8690E93C528B"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "4FEB844FE47AB672"
+				id: "1746E1C718A24868"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Can we get much higher?"
 			tasks: [
 				{
@@ -724,12 +734,13 @@
 				id: "ars_nouveau:glyph_slowfall"
 			}
 			id: "44CD780823E04634"
-			rewards: [{
+			rewards: [
+			{
 				count: 11
-				id: "17319A155480C262"
+				id: "38E2453D4684989A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Bring slow falling and enjoy the scenery"
 			tasks: [{
 				dimension: "aether:the_aether"
@@ -812,12 +823,13 @@
 				id: "aether:sentry_stone"
 			}
 			id: "43C5DFBA3E25CC38"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "4D63FA22D95EA0DF"
+				id: "B1EC09832AE71668"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "677890218910EA14"
 				structure: "aether:bronze_dungeon"
@@ -830,12 +842,13 @@
 		{
 			dependencies: ["044D8690E93C528B"]
 			id: "70DBB1A58513B2DB"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "0F72D3A300A644EF"
+				id: "22B4F806909D41B2"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					count: 4L
@@ -911,12 +924,13 @@
 			description: ["&bSilver Dungeons&r are large buildings resembling the Pantheon. You can't miss them."]
 			icon: "aether:angelic_stone"
 			id: "09E342C749BFEEC6"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "3FA7277677375DE0"
+				id: "C984ED48D590F2FA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "1DA28CF5F927A6A4"
 				structure: "aether:silver_dungeon"
@@ -973,12 +987,13 @@
 			dependencies: ["09E342C749BFEEC6"]
 			description: ["&6Valkyries&r are neutral mobs, but even so, their &6Victory Medals&r are quite useful to you, as you'll need them to request an audience with their &bhigher-up&r."]
 			id: "350DB6A4F00CCB15"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "16B1DEF11F5F4184"
+				id: "070A03731CE5753A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "(by killing 10x Valkyrie)"
 			tasks: [{
 				count: 10L
@@ -1020,12 +1035,13 @@
 			]
 			icon: "aether:hellfire_stone"
 			id: "111478A19955F8BF"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "75EEC66A78084241"
+				id: "7B511354834DD69C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "5FFC94ED1EA20411"
 				structure: "aether:gold_dungeon"
@@ -1067,12 +1083,13 @@
 			]
 			icon: "undergarden:catalyst"
 			id: "2F0DFEA28729BEAE"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "0661C330911050FC"
+				id: "1FD6C1072D94A477"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "489AF14AE6264DFF"
@@ -1099,12 +1116,13 @@
 			dependencies: ["2F0DFEA28729BEAE"]
 			description: ["&oSince Vanilla Overworld ores can be found in the Undergarden, and they are easier to find exposed than in the Overworld, the Undergarden is a good place to find diamonds.&r"]
 			id: "40C200D565731AC5"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "6F3DD4C5DB02A650"
+				id: "C36FD7AD0381E4D8"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "0F56AD6A97B89D8F"
@@ -1173,12 +1191,13 @@
 				id: "lost_aether_content:gale_stone"
 			}
 			id: "4A08523EB680EF79"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "60BB4CDDA36E10EF"
+				id: "D6CECBBC306CCA0F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "65224E30F844BF93"
 				structure: "lost_aether_content:platinum_dungeon"
@@ -1261,12 +1280,13 @@
 			dependencies: ["5B32D0F375182CA7"]
 			description: ["Deals a ton of damage to undead creatures, making it a top consideration for fighting undead bosses like the Wither and Maledictus."]
 			id: "2DBDDEE400EB8E8D"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "7502C7D8D2103088"
+				id: "E3D092C2C446B517"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "6C2A1E1EC18F7B03"
 				item: {
@@ -1319,12 +1339,13 @@
 		{
 			dependencies: ["3F79C220D098C816"]
 			id: "29D52E88824CB90D"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "3915A8C26F1C99E1"
+				id: "8B0338ECD854D111"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				count: 8L
 				id: "04677A4FBA9D8B9D"
@@ -1352,12 +1373,13 @@
 				id: "quark:tuff_bricks"
 			}
 			id: "1B06AB14ACC698BD"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "507588EDB157BFDA"
+				id: "CDCE08A9BCF50784"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				icon: "minecraft:stone_bricks"
 				id: "748872855160FDE2"
@@ -1386,12 +1408,13 @@
 				id: "minecraft:end_portal_frame"
 			}
 			id: "112C59D69077AED4"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "2898C14651CF2E97"
+				id: "9B6C43D6E8512BB1"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "533B96E2C67DBE50"
@@ -1538,12 +1561,13 @@
 			]
 			hide_until_deps_visible: true
 			id: "07EF2C1B4D1EA725"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "64BAED78454CEB78"
+				id: "98ADA803FCE1A302"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "1744B9AF2B27D7E0"
 				item: "alexsmobs:mysterious_worm"
@@ -1604,12 +1628,13 @@
 				"Charoite and diopside are roughly neck-and-neck in their viability. The latter is slower but more powerful, and diopside armor trades out some protection for very high toughness."
 			]
 			id: "018BB3C2F0B47B58"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "56B0996793ADCE3E"
+				id: "2E1FBB35EE4CEA05"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "1A987C8EE85A60EE"
@@ -1653,12 +1678,13 @@
 				"Black brewberries, found to grow on mycelium, act as an antidote for poisons that may be in the consumer's body."
 			]
 			id: "0CD2CCC4A4AA9472"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "36601027EF2315C9"
+				id: "2475EC7AF10EE7E2"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Berry nice!"
 			tasks: [
 				{
@@ -1685,12 +1711,13 @@
 			dependencies: ["0063059B2778D392"]
 			id: "74DFDA59CB8BB00E"
 			invisible: true
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "2752901710C9DC77"
+				id: "15E09F00DB4ECC9D"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				icon: "blue_skies:everbright_portal"
@@ -1705,12 +1732,13 @@
 			dependencies: ["0063059B2778D392"]
 			id: "15BB94E145146F70"
 			invisible: true
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "723204B4FFF3C4A0"
+				id: "41A32110A5B2B11F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				icon: "blue_skies:everdawn_portal"
@@ -1729,12 +1757,13 @@
 				"Alternatively, craft the Camel Saddle, allowing you to ride Crystal Camels."
 			]
 			id: "07DFF42EDED14F65"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "242B1614AD8A19A4"
+				id: "3DCEAB888275F4AC"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "0505CE4BC8DAEB52"
@@ -1755,12 +1784,13 @@
 			dependencies: ["15BB94E145146F70"]
 			description: ["Grows into a special tree whose wood can't be burnt, but it is not useful for things normal wood is."]
 			id: "306B76D7A00B733E"
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "77D7D3B826FEA40C"
+				id: "CC11C401BAF11577"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "5C2AD6A84BB8871F"
 				item: "blue_skies:crystal_flower"
@@ -1772,12 +1802,13 @@
 		{
 			dependencies: ["74DFDA59CB8BB00E"]
 			id: "0CE2D21CC9D8E416"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "7EB9DEA5D06ED4D8"
+				id: "38CCE4CF086E9B96"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "73A0A59B0BBF1E1C"
@@ -1807,12 +1838,13 @@
 		{
 			dependencies: ["15BB94E145146F70"]
 			id: "53933AF9287F3491"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "07CEC1544C0B2E36"
+				id: "B9D6F9AEEF5AD56A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "2E0C9523A17333FE"
@@ -1845,12 +1877,13 @@
 			]
 			id: "3F4F90454E3783AA"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				count: 9
-				id: "6B23B47C2F520710"
+				id: "CEEACEC3FF8FA799"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "6C1D96C6286DE8C8"
 				item: {
@@ -1920,12 +1953,13 @@
 			dependencies: ["29D52E88824CB90D"]
 			id: "0B5F5694881857E7"
 			invisible: true
-			rewards: [{
+			rewards: [
+			{
 				count: 5
-				id: "5DA5DAE237EF94FD"
+				id: "6F1B8F82C052CA4F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				icon: "minecraft:nether_bricks"
 				id: "0B7404D4002BBC09"
@@ -1941,12 +1975,13 @@
 			dependencies: ["086E8054D516AFF4"]
 			description: ["The Nether has new biomes waiting to be discovered."]
 			id: "62129193C48A0C03"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "740A5B03B1DF7484"
+				id: "BEF224F53C691137"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Just these two so far"
 			tasks: [
 				{
@@ -1986,12 +2021,13 @@
 				"This means the lamp is more fuel-efficient when combined with insulating armor."
 			]
 			id: "3C25608A0F64D8AB"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "318A8BD8BD21B7E5"
+				id: "434BB30C97F5A46C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "058F275B5FF399A2"
@@ -2036,12 +2072,13 @@
 				"Ruby Shards can also be used for Piglin Bartering."
 			]
 			id: "1689F79F27FAF1AA"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
-				id: "64AAB48775562923"
+				id: "985C7528D156AD64"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "6F8399CD23E51D34"
@@ -2091,12 +2128,13 @@
 			dependencies: ["70795731019BA757"]
 			description: ["The Wraithing Flesh this item demands is dropped by Vessels, a denizen of the Soul Sand Valley. It can also be found in Suspicious Soul Sand."]
 			id: "1C8A056CC8E8A2AF"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "7B5D1FE59F3E40B6"
+				id: "9494807332FAB762"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Found in Chapels"
 			tasks: [{
 				id: "1389F23C52C812D1"
@@ -2129,12 +2167,13 @@
 				"The Shotgun Core can be obtained from Brazier Chests and is used to craft the Shogun Fist. It is upgraded to a Pump-Charge Shotgun with a Treacherous Flame."
 			]
 			id: "5B32D0F375182CA7"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "41B2303754CEA7EB"
+				id: "CF498B3A6FDBE4EA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					icon: {
@@ -2208,12 +2247,13 @@
 				"The redstone signal given is based on how close the source of obstruction is."
 			]
 			id: "3039707E451E2C1C"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "15424140BE941B2F"
+				id: "BFEF46F8DC4ACB2C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "3F808590EAE63D85"
@@ -2251,12 +2291,13 @@
 		{
 			dependencies: ["1689F79F27FAF1AA"]
 			id: "76DF007CCD686E5E"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "29734481BCA1184F"
+				id: "C0038ED7BD2E8CA0"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Sponge, but for lava"
 			tasks: [{
 				id: "2C38BC69BE365599"
@@ -2278,12 +2319,13 @@
 			dependencies: ["1689F79F27FAF1AA"]
 			description: [""]
 			id: "12D8BDF82755B068"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "5BCDEDF3FC3C3ED9"
+				id: "916E45BD32BF2BCF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			subtitle: "Gives fire resistance to nearby players."
 			tasks: [{
 				id: "2A8475C24AB3C60C"
@@ -2313,12 +2355,13 @@
 				"To speed things up, you can use the Blue Aerclouds in the arena to jump and make melee attacks without waiting for it to descend."
 			]
 			id: "170B3DD645FA3EAE"
-			rewards: [{
+			rewards: [
+			{
 				count: 9
-				id: "54007D9BBF79BA8E"
+				id: "82F80647B2769851"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2364,12 +2407,13 @@
 			dependencies: ["74DFDA59CB8BB00E"]
 			description: ["This is your way of smelting items in the Everbright - the cold air is not friendly to regular furnaces."]
 			id: "592D315DEB725D11"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "05E87B92942C945D"
+				id: "CE4DB9B2B1B4168C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "7011C7A536D2F054"
 				item: {
@@ -2390,12 +2434,13 @@
 			dependencies: ["44F41502DDB1A529"]
 			description: ["You've now progressed far enough into the game to obtain a pretty good charm. You can find the other Enigmatic Amulets by defeating bosses in the Overworld - check the information tab for more information."]
 			id: "3E49DFF824488A27"
-			rewards: [{
+			rewards: [
+			{
 				count: 6
-				id: "3AFFE5090D06A55B"
+				id: "F2E532F1B43C6509"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "65088E093B0DB01C"
 				item: {
@@ -2433,12 +2478,13 @@
 				"&7If this boss is too hard for you to figure out intuitively, open an issue saying it's too hard and I will add more tips here. I don't want to fill this space up out of fear of the quest becoming too wordy."
 			]
 			id: "4A534475AE962F18"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "6F2115F5368B9E0F"
+				id: "D2B471506739D9EF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					icon: {
@@ -2505,12 +2551,13 @@
 			dependencies: ["4A534475AE962F18"]
 			description: ["This structure, found in the Deep Dark, can give use to your Void Manuscripts."]
 			id: "5D52726E63AD542E"
-			rewards: [{
+			rewards: [
+			{
 				count: 10
-				id: "72AE1F3ADC098412"
+				id: "1927A32477C45AEF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [
 				{
 					id: "24AA16D6A369171C"
@@ -2555,12 +2602,13 @@
 				"Oh, also, mind the occasional suit of reanimated Netherite armor."
 			]
 			id: "299A6D31CD9AF4B3"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "2F86A9F191BB819F"
+				id: "8FE6AEF58A22669F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				icon: "irons_spellbooks:cinderous_soul_rune"
 				id: "5BF9361721CDD328"
@@ -2575,12 +2623,13 @@
 			dependencies: ["299A6D31CD9AF4B3"]
 			description: ["Once you're done admiring the Citadel, craft yourself a Cinderous Soulcaller (you should have plenty of Cinder Essence by now) and make your way up to the top part of the structure, with the black glass dome. Right click this item to summon your next foe, Tyros."]
 			id: "25DBF3F3678D3A44"
-			rewards: [{
+			rewards: [
+			{
 				count: 7
-				id: "496EB99E19C5908E"
+				id: "0AB579ECAF658713"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			}]
+			},]
 			tasks: [{
 				id: "0A2F7F1D1E14C00D"
 				item: "irons_spellbooks:cinderous_soulcaller"
@@ -2644,7 +2693,14 @@
 			}]
 			x: 6.5d
 			y: -4.5d
-		}
+		
+		rewards: [{
+			count: 5
+			id: "0F0BBE2FCA363F3F"
+			item: "lightmanscurrency:coin_iron"
+			type: "item"
+		}]
+	}
 		{
 			dependencies: ["3F3ECBA1DE6F4865"]
 			description: [""]
@@ -2677,11 +2733,24 @@
 			}]
 			x: 1.5d
 			y: 4.0d
-		}
+		
+		rewards: [{
+			count: 5
+			id: "B1B9B8F094222C2F"
+			item: "lightmanscurrency:coin_iron"
+			type: "item"
+		}]
+	}
 		{
 			dependencies: ["7B968B83FA1879FE"]
 			id: "1846B85073A4A191"
-			rewards: [{
+			rewards: [
+			{
+				count: 5
+				id: "44A1163177A7E451"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			},{
 				exclude_from_claim_all: true
 				id: "05F26201C9C730AF"
 				table_id: 4519848194868148161L
@@ -2717,7 +2786,13 @@
 				"The Primordial Caves, Forlorn Hollow, and Abyssal Chasm each have 1 boss. Botania and Ars Nouveau each have 1 boss. The Aether has 4 bosses."
 			]
 			id: "3F79C220D098C816"
-			rewards: [{
+			rewards: [
+			{
+				count: 5
+				id: "3CF317A2CBE7718F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			},{
 				auto: "invisible"
 				id: "31AB5CC16F5A91CC"
 				ignore_reward_blocking: true
