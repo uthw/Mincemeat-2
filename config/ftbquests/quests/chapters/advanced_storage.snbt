@@ -50,13 +50,12 @@
 			]
 			id: "2B189053BCA54F8D"
 			rewards: [
-			{
-				count: 4
-				id: "B0F25C925425F548"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "61172BA0C7CF4BFA"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "6870F74560655BD7"
 					type: "custom"
@@ -81,13 +80,12 @@
 			]
 			id: "5251048FABCC1731"
 			rewards: [
-			{
-				count: 6
-				id: "8AEA7F11F1AC563D"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 6
+					id: "29549B934EB7F0E7"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "159DFEED7A2B99E7"
 					type: "custom"
@@ -124,13 +122,12 @@
 			description: [""]
 			id: "72996FDB1ECB9BC4"
 			rewards: [
-			{
-				count: 5
-				id: "D951A262FF497001"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 5
+					id: "1AD0456988A9A3BE"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "283F94980A1690DA"
 					type: "custom"
@@ -157,13 +154,12 @@
 			dependencies: ["5251048FABCC1731"]
 			id: "758E2F02A79F9AE1"
 			rewards: [
-			{
-				count: 4
-				id: "A67F59F1E9D7C0D2"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "06766D52F29025C0"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "428EB009562A4C9A"
 					type: "custom"
@@ -183,13 +179,12 @@
 			description: [""]
 			id: "581D9139E23C46AD"
 			rewards: [
-			{
-				count: 5
-				id: "D12CB0B6D134B100"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 5
+					id: "54998B0950F3EF3C"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "1FC3A51CC260FFBF"
 					type: "custom"
@@ -217,13 +212,12 @@
 			description: [""]
 			id: "706D796AEB59679E"
 			rewards: [
-			{
-				count: 4
-				id: "076C07600B22794B"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "076C07600B22794B"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "0CF5B5B1F3BE6244"
 					type: "custom"
@@ -242,13 +236,12 @@
 			dependencies: ["5251048FABCC1731"]
 			description: [""]
 			id: "198EA622D8755FF5"
-			rewards: [
-			{
+			rewards: [{
 				count: 4
-				id: "F9BA5DD45936A3D8"
+				id: "7A086057F0DD0771"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			subtitle: "Import, export, view, and search items, all in one block."
 			tasks: [{
 				id: "393AD7D56665B538"
@@ -262,13 +255,12 @@
 			dependencies: ["198EA622D8755FF5"]
 			id: "319BD115367B8096"
 			rewards: [
-			{
-				count: 4
-				id: "4274FC028D5EA159"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "4274FC028D5EA159"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "33690918821D1B74"
 					type: "custom"
@@ -286,13 +278,12 @@
 			dependencies: ["198EA622D8755FF5"]
 			id: "5E0C50ED9E9A6BA0"
 			rewards: [
-			{
-				count: 4
-				id: "AF93A8AC161DF076"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "7E3C781A4F1C31E3"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "5DE975D24344044E"
 					type: "custom"
@@ -311,13 +302,12 @@
 			dependencies: ["198EA622D8755FF5"]
 			id: "017618231F84986C"
 			rewards: [
-			{
-				count: 4
-				id: "D21B64B604349E5C"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "1032CB8DC14274A4"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "40EA7D1739E68BEE"
 					type: "custom"
@@ -337,13 +327,12 @@
 			description: ["This is useful if you'd like to use something like Storage Drawers."]
 			id: "5F978FBCC74F902E"
 			rewards: [
-			{
-				count: 4
-				id: "2CE9E1AC658AD135"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "2CE9E1AC658AD135"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "1F383EE5C3A9CDAA"
 					type: "custom"
@@ -374,13 +363,12 @@
 				"The pouch acts as an EnderStorage chest, but it's portable. You can set the Pouch's color to be the same as the Ender Chest you shift + Rclick while holding the pouch."
 			]
 			id: "3B8312D8718DC5B4"
-			rewards: [
-			{
+			rewards: [{
 				count: 3
 				id: "1DEECC6FEF9267AC"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			subtitle: "Not to be confused with vanilla Ender Chests"
 			tasks: [
 				{
@@ -405,13 +393,12 @@
 				"These tanks are powerful in that they can transfer liquids between dimensions!"
 			]
 			id: "313E61ACD510E3B2"
-			rewards: [
-			{
+			rewards: [{
 				count: 3
-				id: "E3FE4CEA6B43DCE6"
+				id: "509DFA058EC5316E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			tasks: [{
 				id: "7CFFF0F0CC95F579"
 				item: "enderstorage:ender_tank"
@@ -423,13 +410,12 @@
 		{
 			dependencies: ["3B8312D8718DC5B4"]
 			id: "0CD280401B8BF9BC"
-			rewards: [
-			{
+			rewards: [{
 				count: 6
 				id: "1225EA72A042E44F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			subtitle: "You can use an Ars Nouveau spellbook as an Ender Pouch instead!"
 			tasks: [{
 				id: "4532A2D84CC89D32"
@@ -446,13 +432,12 @@
 				"This adds some settings using the tabs on the right as well as an &eupgrade slot&r."
 			]
 			id: "7AB039C4BFD81737"
-			rewards: [
-			{
+			rewards: [{
 				count: 3
 				id: "42BDC8ED65D7AD55"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			tasks: [{
 				count: 8L
 				id: "2870D2F67968781D"
@@ -466,13 +451,12 @@
 		{
 			id: "335C32B754AFB2DE"
 			rewards: [
-			{
-				count: 4
-				id: "469B08DC93D2036F"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			},
-				
+				{
+					count: 4
+					id: "469B08DC93D2036F"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					id: "3E6EDCD89D3DA5CF"
 					item: "integrateddynamics:on_the_dynamics_of_integration"
@@ -503,13 +487,12 @@
 			]
 			icon: "integrateddynamics:squeezer"
 			id: "5CBB6EA7FB333EA6"
-			rewards: [
-			{
+			rewards: [{
 				count: 6
-				id: "F5E780805E1D1380"
+				id: "60A7F1C37213769C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			tasks: [
 				{
 					id: "6AC7429C4E24AF8D"
@@ -548,13 +531,12 @@
 			description: ["These items can do what you just did, but on their own using energy."]
 			id: "03ED299282E5C76A"
 			optional: true
-			rewards: [
-			{
+			rewards: [{
 				count: 5
-				id: "FCF79FE255D7C426"
+				id: "1054EFF17EA9DBC2"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			subtitle: "(recommended)"
 			tasks: [
 				{
@@ -586,13 +568,12 @@
 				"It doesn't need any energy."
 			]
 			id: "44E53A8A061B85E9"
-			rewards: [
-			{
+			rewards: [{
 				count: 6
 				id: "6357079904007AB8"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -629,13 +610,12 @@
 				"... I wonder what types of automation you can do using this mod?"
 			]
 			id: "4B407F60FF0D3AA2"
-			rewards: [
-			{
+			rewards: [{
 				count: 6
 				id: "070242A69F84E6FA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			tasks: [
 				{
 					id: "31A1171C4657205D"
@@ -689,13 +669,12 @@
 				"Pretty cool, right?"
 			]
 			id: "2268E46AD333F9CD"
-			rewards: [
-			{
+			rewards: [{
 				count: 6
 				id: "53F596EFCA2AC763"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			tasks: [
 				{
 					id: "1BD378ADB28E7531"
@@ -736,13 +715,12 @@
 				"Now, find the Addition operator. Insert your two variable cards, which will bind them into a new one."
 			]
 			id: "054A34E6B912C042"
-			rewards: [
-			{
+			rewards: [{
 				count: 6
-				id: "E8CD4310936CFC7D"
+				id: "10DA33DEC6E216FD"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			tasks: [
 				{
 					id: "0CEA0F9E3F03ABFF"
@@ -785,13 +763,12 @@
 				"The Logic Programmer and Variable Stores are going to be your best friends when you want to do more complex automation."
 			]
 			id: "2BCF1DA646EB606E"
-			rewards: [
-			{
+			rewards: [{
 				count: 5
 				id: "48D1198E4261762A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
-			},]
+			}]
 			subtitle: "*description taken from Integrated Dynamics guidebook because I don't understand this item*"
 			tasks: [
 				{
