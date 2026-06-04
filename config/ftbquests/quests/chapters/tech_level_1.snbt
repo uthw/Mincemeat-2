@@ -632,7 +632,7 @@
 			}]
 			title: "The Brass Age"
 			x: 2.5d
-			y: -8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3DEAE7C404A35245"]
@@ -651,7 +651,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -10.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["0A26B049A30FF9DA"]
@@ -793,8 +793,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.5d
+			x: 4.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0B332B12ED9F9FA8"]
@@ -1693,7 +1693,7 @@
 		{
 			dependencies: ["7A3E1BC754A91448"]
 			description: [
-				"Pretty Pipes is a mod only adds a pipe that can move items around."
+				"Pretty Pipes is a mod which only adds a pipe that can move items around."
 				""
 				"These pipes can be fitted with modules that let it filter, import, export, and more."
 				""
@@ -1938,8 +1938,28 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "323BA25D43A97F32"
-				item: "create_new_age:energiser_t1"
+				id: "4BCD2E0FA314785F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_new_age:basic_energiser"
+							}
+							{
+								Count: 1b
+								id: "create_new_age:advanced_energiser"
+							}
+							{
+								Count: 1b
+								id: "create_new_age:reinforced_energiser"
+							}
+						]
+					}
+				}
+				title: "Energizer"
 				type: "item"
 			}]
 			x: -3.5d
@@ -2671,7 +2691,7 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["2CB2CB53F495DEC9"]
+			dependencies: ["0EC7C83FE1DC7AD0"]
 			description: [
 				"A &dblack hole&r is made when &dcorrupti dust&r and &ddark matter&r are dropped on the ground near each other."
 				""
@@ -2699,8 +2719,8 @@
 				}
 			]
 			title: "Black Hole"
-			x: 1.0d
-			y: -9.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0B332B12ED9F9FA8"]
@@ -3723,6 +3743,153 @@
 			]
 			title: "Storing and Transferring Rotation"
 			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7A3E1BC754A91448"]
+			description: [
+				"A &6redstone contact&r emits a signal only when facing another &6redstone contact&r."
+				""
+				"A &6redstone link&r cleans up your machines by &etransmitting signals&r safely and wirelessly to other links."
+				""
+				"Normal &elevers&r only permit two states: unpowered and powered. &6Analog levers&r can emit &eanything in between&r."
+			]
+			id: "31F4AB431C1EA93C"
+			tasks: [
+				{
+					id: "274980F9019E85C1"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+				{
+					id: "4881696350C7BC4A"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					id: "56D17B94E646FEE8"
+					item: "create:analog_lever"
+					type: "item"
+				}
+				{
+					id: "7F5DE4B1451615AD"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "12E9C462585FC16B"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+			]
+			title: "Redstone Fun"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0A26B049A30FF9DA"]
+			description: ["&eDeployers&r can go fishing, but a fish farm can be hard to build. The &6bobber detector&r helps out &edeployers&r by giving a &eredstone signal&r when a fish is on the line."]
+			id: "427E5AE8662FA833"
+			tasks: [{
+				id: "65463C9F96DC3CC5"
+				item: "bobberdetector:bobber_detector"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2CB2CB53F495DEC9"]
+			description: ["When given to a &eblaze burner&r, these guides teach them how to &eenchant items&r and use &ecooking pots&r."]
+			id: "13CC143112E94AD7"
+			tasks: [
+				{
+					id: "3B40E522BD622D88"
+					item: "create_enchantment_industry:enchanting_guide"
+					type: "item"
+				}
+				{
+					id: "721A4BFE8D6B4CCF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_central_kitchen:cooking_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "6B554AD96B26B34D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_central_kitchen:miners_cooking_guide"
+					}
+					type: "item"
+				}
+			]
+			title: "Blaze Burner Guides"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2A31B4314985CDF6"]
+			id: "02BCE060E5EA514E"
+			tasks: [
+				{
+					id: "33125BC3501A4EA6"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "325DD5427CD29D62"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "1D4FE1775E7EF190"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3DEAE7C404A35245"]
+			description: [
+				"The new precision available to components made with brass allows &enew one-block solutions&r to your redstone worries."
+				""
+				"These &6pulse blocks&r pass redstone signals using &eintervals or delays&r of some sort, depending on the block."
+			]
+			id: "0E7363816A9AFB21"
+			tasks: [
+				{
+					id: "3B36D4426A25651B"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "36D4A1F2973F270F"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "7D121D2E366A21C2"
+					item: "create:pulse_timer"
+					type: "item"
+				}
+				{
+					id: "3EB60870B9DB37D8"
+					item: "create_connected:sequenced_pulse_generator"
+					type: "item"
+				}
+			]
+			title: "Playing with Pulses"
+			x: 3.5d
 			y: -9.5d
 		}
 	]
