@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Mincemeat Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "There are over 450 modded mobs documented in the bestiary! Can you find them all?"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Nature's/Explorer's Compass Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "When you haven't selected anything for a Nature's Compass or Explorer's Compass to locate, it will instead point to the world spawn."
+    }
+}
