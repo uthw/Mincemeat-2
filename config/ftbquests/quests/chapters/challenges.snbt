@@ -597,15 +597,9 @@
 				"2D498CC9F5993FB0"
 			]
 			description: ["[ \"To track progress for this quest, see the \", { \"text\": \"Aquatic Creatures\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3CCF86851C135BA3\" } }, \" chapter\" ]"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "alexsmobs:large_catfish_bucket"
-			}
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "alexsmobs:large_catfish_bucket"
 			id: "42976545EE8CAB9F"
 			rewards: [
 				{
@@ -649,8 +643,8 @@
 				value: 1
 			}]
 			title: "Fish Collection"
-			x: 11.0d
-			y: 1.0d
+			x: 14.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -9242,8 +9236,8 @@
 				}
 			]
 			title: "Celestial Arsenal"
-			x: 14.0d
-			y: -2.0d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			id: "74AD69B608D606D4"
@@ -12663,7 +12657,7 @@
 			]
 			title: "Master Angler"
 			x: 14.0d
-			y: -1.0d
+			y: -2.0d
 		}
 	]
 	title: "Challenges"
