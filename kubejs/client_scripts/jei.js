@@ -114,7 +114,7 @@ JEIEvents.information((event) => {
         },
         {
             item: "enigmaticlegacy:etherium_ore",
-            desc: "Dropped by Ender Guardians and Obsidiliths.",
+            desc: "Dropped by bosses in the End.",
         },
         {
             item: "create:asurine",
