@@ -93,6 +93,7 @@ ServerEvents.tags("item", (event) => {
         ["rarcompat:mimificable", "ramcompat:frost_robe"],
         ["rarcompat:mimificable", "ramcompat:stink_gland"],
         ["rarcompat:mimificable", "ramcompat:tendon_lump"],
+        ["forge:workbench", "vct:hexerei_witch_hazel_crafting_table"],
     ];
 
     add.forEach((addition) => {
