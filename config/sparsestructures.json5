@@ -186,6 +186,14 @@
     {
       "structure": "idas:ars_nouveau/archmages_tower",
       "factor": 1.8
+    },
+    {
+      "structure": "block_factorys_bosses:kraken_ship",
+      "factor": 2
+    },
+    {
+      "structure": "conjurer_illager:theatre",
+      "factor": 1.65
     }
     // add the structures you want to modify in the format:
     // {
