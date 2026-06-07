@@ -2176,12 +2176,6 @@
 			disable_toast: true
 			icon: "artifacts:mimic_spawn_egg"
 			id: "1A04B7AF864F4CE9"
-			rewards: [{
-				count: 2
-				id: "3A934000F78B0350"
-				item: "lightmanscurrency:coin_emerald"
-				type: "item"
-			}]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
