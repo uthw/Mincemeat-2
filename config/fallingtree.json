@@ -17,7 +17,7 @@
     "treeBreaking": true,
     "leavesBreaking": true,
     "leavesBreakingForceRadius": 0,
-    "allowMixedLogs": false,
+    "allowMixedLogs": true,
     "breakNetherTreeWarts": true,
     "breakMangroveRoots": true,
     "searchAreaRadius": -1,
