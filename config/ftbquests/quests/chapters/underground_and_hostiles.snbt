@@ -11,7 +11,7 @@
 		}
 	}
 	id: "086820295300F695"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -1777,7 +1777,7 @@
 		}
 		{
 			description: [
-				"These slimy nuisances are found underground and attack by bashing into you like any other unarmed creature."
+				"These slimy nuisances are found wherever and attack by bashing into you like any other unarmed creature."
 				""
 				"Slugs can be found in varying sizes, with each size having a different amount of health. Thankfully, all slugs are slow, predictable, and easy to outrun. "
 				""

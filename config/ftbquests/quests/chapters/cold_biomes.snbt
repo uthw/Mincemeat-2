@@ -5,7 +5,7 @@
 	group: "2E16C686F58ACDBC"
 	icon: "biomeswevegone:winter_succulent"
 	id: "1949268E8BF9EBB7"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -228,7 +228,7 @@
 				observe_type: 5
 				timer: 0L
 				title: "Tusklin"
-				to_observe: "alexsmobs:tuskin"
+				to_observe: "alexsmobs:tusklin"
 				type: "observation"
 			}]
 			x: -1.0d

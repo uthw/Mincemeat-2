@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "bestiary_tracker"
+	group: "2E16C686F58ACDBC"
+	icon: "ars_nouveau:mimic_scroll"
+	id: "6F672DFAE72A957F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"Clicking the checkmark will print your progress in all bestiary chapters into the chat."
+				""
+				"You won't see your progress for undiscovered chapters."
+			]
+			disable_toast: true
+			icon: "ars_nouveau:mimic_scroll"
+			id: "33CEC3A0CA4B6752"
+			rewards: [{
+				description: "You can now click the checkmark again"
+				id: "1461B6B9B7B66119"
+				title: "Click to Check Again"
+				type: "toast"
+			}]
+			tasks: [{
+				id: "2AB9175BBC94D8C4"
+				title: "Check Bestiary Progress"
+				type: "checkmark"
+			}]
+			title: "Check Bestiary Progress"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Clicking the checkmark will disable the chat messages informing you of your bestiary progress when a new mob is found."
+				""
+				"Disabling this feature will not disable the Check Bestiary Progress quest, and it will still give accurate information."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "fairylights:swallowtail_pennant"
+				tag: {
+					color: 11546150
+				}
+			}
+			id: "6EB79825864A39B7"
+			rewards: [{
+				description: "You can now disable notifications again"
+				id: "0E0CD620453E5604"
+				title: "Click to Disable Again"
+				type: "toast"
+			}]
+			tasks: [{
+				id: "311BF1B906702A65"
+				title: "Disable Bestiary Progress Notifications"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Clicking the checkmark will put messages in your chat telling you your progress in the bestiary when a new mob is found."
+				""
+				"These messages are enabled by default."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "fairylights:swallowtail_pennant"
+				tag: {
+					color: 8439583
+				}
+			}
+			id: "6AD6A0808659B94C"
+			rewards: [{
+				description: "You can now enable notifications again"
+				id: "3375BA6AFB2A4969"
+				title: "Click to Enable Again"
+				type: "toast"
+			}]
+			tasks: [{
+				id: "0CB4B7218BF64653"
+				title: "Enable Bestiary Progress Notifications"
+				type: "checkmark"
+			}]
+			title: "Enable Bestiary Progress Notifications"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"You have come upon this quest because you checked this chapter's .snbt file or turned on editing mode."
+				""
+				"This quest exists so that the chapter is never marked as complete."
+			]
+			id: "7FA6EEC04C7421D1"
+			invisible: true
+			tasks: [{
+				id: "2A24F3310F861CA8"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "&6Bestiary Tracker"
+}
