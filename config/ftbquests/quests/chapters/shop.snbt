@@ -324,6 +324,7 @@
 			id: "41AFA5A90827DE8E"
 			rewards: [{
 				command: "/loot give @p loot mincemeat:level_30_book"
+				elevate_perms: true
 				icon: {
 					Count: 1
 					id: "minecraft:enchanted_book"
@@ -385,7 +386,7 @@
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
-						id: "ensorcellation:magic_protection"
+						id: "reliquary:severing"
 						lvl: 1s
 					}]
 				}
@@ -393,6 +394,17 @@
 			id: "7B73366238FD5D2A"
 			rewards: [{
 				command: "/loot give @p loot mincemeat:level_60_book"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "reliquary:severing"
+							lvl: 9s
+						}]
+					}
+				}
 				id: "6F546B58ACBF7411"
 				type: "command"
 			}]
@@ -420,6 +432,7 @@
 			id: "55A29F71DD647B7D"
 			rewards: [{
 				command: "/loot give @p loot mincemeat:ancient_tome"
+				elevate_perms: true
 				icon: {
 					Count: 1
 					id: "quark:ancient_tome"
@@ -982,6 +995,7 @@
 			id: "0728FF69EF8D0D24"
 			rewards: [{
 				command: "/apoth gem random"
+				elevate_perms: true
 				icon: {
 					Count: 1
 					id: "apotheosis:gem"
