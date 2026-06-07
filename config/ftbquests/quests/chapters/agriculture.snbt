@@ -36,6 +36,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "rusticdelight:wild_coffee"
 			id: "71805D96B1D5B73D"
 			rewards: [{
 				count: 17
@@ -54,6 +55,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "delightful:wild_salmonberries"
 			id: "04E46F0C677D03AD"
 			rewards: [{
 				count: 17
@@ -72,6 +74,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "farmersdelight:wild_cabbages"
 			id: "300F99C030AD21D4"
 			rewards: [{
 				count: 17
@@ -90,6 +93,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "farmersdelight:wild_onions"
 			id: "64D109363C42B7C0"
 			rewards: [{
 				count: 17
@@ -108,6 +112,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "farmersdelight:wild_rice"
 			id: "375C325B0765366D"
 			rewards: [{
 				count: 17
@@ -126,6 +131,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "miners_delight:wild_cave_carrots"
 			id: "030B76431A011336"
 			rewards: [{
 				count: 17
@@ -144,6 +150,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "supplementaries:wild_flax"
 			id: "493527566FAE325B"
 			rewards: [{
 				count: 17
@@ -161,6 +168,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "windswept:wild_ginger"
 			id: "70C26837CEF88353"
 			rewards: [{
 				count: 17
@@ -179,6 +187,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "rusticdelight:wild_bell_peppers"
 			id: "2F538706DF609B78"
 			rewards: [{
 				count: 18
@@ -204,6 +213,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "rusticdelight:wild_cotton"
 			id: "667DD4FDB6E1F92A"
 			rewards: [{
 				count: 17
@@ -240,6 +250,7 @@
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
+			icon: "farmersrespite:wild_tea_bush"
 			id: "049D75FABDF56178"
 			rewards: [{
 				count: 18
