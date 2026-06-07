@@ -1,5 +1,10 @@
 ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHealEvent", (event) => {
     if (event.entity.type === "bosses_of_mass_destruction:void_blossom") {
+        // Don't interfere with the boss heal on player death mechanic
+        if (event.amount > 250) {
+            return;
+        }
+
         event.setAmount(event.amount * 0.25); // Just to make the fight easier
 
         // Normally, the void blossom should not be able to heal above 25, 50, or 75% health, but due to a bug in a different mod, it can heal fully.
