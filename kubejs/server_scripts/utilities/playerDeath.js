@@ -1,3 +1,5 @@
+const $GameRules = Java.loadClass("net.minecraft.world.level.GameRules")
+
 EntityEvents.death("minecraft:player", (event) => {
     // const { x, y, z } = event.player;
     const { entity, player, server } = event;
@@ -11,12 +13,16 @@ EntityEvents.death("minecraft:player", (event) => {
     pData.deathDimension = event.level.dimension.path;
 
     // XP storage
-    const retainedXp = Math.floor(player.xp * 0.75);
-    pData.remove("retainedXp");
-    pData.putInt("retainedXp", retainedXp);
+        let keepInvEnabled = event.server.gameRules.getBoolean($GameRules.RULE_KEEPINVENTORY);
 
-    player.setXpLevel(0);
-    player.setXpProgress(0);
+    if (!keepInvEnabled) {
+        let retainedXp = Math.floor(player.xp * 0.75);
+        pData.remove("retainedXp");
+        pData.putInt("retainedXp", retainedXp);
+
+        player.setXpLevel(0);
+        player.setXp(0);
+    }
 
     // health refill
     let dim = `${event.level.dimension.namespace}:${event.level.dimension.path}`;
@@ -47,8 +53,9 @@ EntityEvents.death("minecraft:player", (event) => {
 
 // TODO Wait for movement before giving a scroll
 PlayerEvents.respawned((event) => {
-    if (event.player.persistentData.contains("retainedXp")) {
-        const restoredXp = event.player.persistentData.getInt("retainedXp");
+    let keepInvEnabled = event.server.gameRules.getBoolean($GameRules.RULE_KEEPINVENTORY);
+    if (event.player.persistentData.contains("retainedXp") && !keepInvEnabled) {
+        let restoredXp = event.player.persistentData.getInt("retainedXp");
         event.player.xp = restoredXp;
         event.player.persistentData.remove("retainedXp");
     }
