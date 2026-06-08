@@ -84,9 +84,9 @@
 	    ["cataclysm:maledictus", -0.5, 12],
 	    ["windswept:chilled", -0.3, 4],
 	    ["block_factorys_bosses:yeti", -0.4, 8],
-		["block_factorys_bosses:infernal_dragon", 0.4, 10],
-		["opposing_force:fire_slime", 0.25, 5],
-		["irons_spellbooks:ice_spider", -0.2, 6]
+	    ["block_factorys_bosses:infernal_dragon", 0.4, 10],
+	    ["opposing_force:fire_slime", 0.25, 5],
+	    ["irons_spellbooks:ice_spider", -0.2, 6]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines entities that are affected by temperature and the climates they can live in
