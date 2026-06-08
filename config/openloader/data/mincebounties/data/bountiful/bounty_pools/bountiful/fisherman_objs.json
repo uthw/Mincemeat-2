@@ -385,7 +385,7 @@
         },
         "miners_delight_squid_obj": {
             "type": "item",
-            "content": "minersdelight:squid",
+            "content": "miners_delight:squid",
             "amount": {
                 "min": 1,
                 "max": 1
@@ -395,7 +395,7 @@
         },
         "miners_delight_glow_squid_obj": {
             "type": "item",
-            "content": "minersdelight:glow_squid",
+            "content": "miners_delight:glow_squid",
             "amount": {
                 "min": 1,
                 "max": 1
