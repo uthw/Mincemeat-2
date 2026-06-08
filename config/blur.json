@@ -7,8 +7,8 @@
     "io.github.darkkronicle.advancedchatcore.chat.AdvancedChatScreen",
     "net.coderbot.iris.gui.screen.ShaderPackScreen"
   ],
-  "fadeTimeMillis": 200,
-  "fadeOutTimeMillis": 200,
+  "fadeTimeMillis": 300,
+  "fadeOutTimeMillis": 0,
   "ease": true,
   "radius": 8,
   "gradientStart": "#000000",
