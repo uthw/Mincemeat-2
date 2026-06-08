@@ -9,32 +9,32 @@ ServerEvents.highPriorityData((event) => {
             operation: "MULTIPLY_BASE",
             values: {
                 common: {
-                    min: 0.2,
+                    min: 0.1,
                     steps: 1,
                     step: 0.0,
                 },
                 uncommon: {
-                    min: 0.25,
+                    min: 0.125,
                     steps: 1,
                     step: 0.0,
                 },
                 rare: {
-                    min: 0.3,
+                    min: 0.15,
                     steps: 1,
                     step: 0.0,
                 },
                 epic: {
-                    min: 0.35,
+                    min: 0.175,
                     steps: 1,
                     step: 0.0,
                 },
                 mythic: {
-                    min: 0.4,
+                    min: 0.2,
                     steps: 1,
                     step: 0.0,
                 },
                 ancient: {
-                    min: 0.3,
+                    min: 0.25,
                     steps: 1,
                     step: 0.0,
                 },
