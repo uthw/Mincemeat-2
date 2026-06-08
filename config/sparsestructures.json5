@@ -173,7 +173,7 @@
     },
     {
       "structure": "iceandfire:mausoleum",
-      "factor": 2
+      "factor": 3
     },
     {
       "structure": "caverns_and_chasms:vault",
@@ -194,6 +194,14 @@
     {
       "structure": "conjurer_illager:theatre",
       "factor": 1.65
+    },
+    {
+      "structure": "iceandfire:gorgon_temple",
+      "factor": 3
+    },
+    {
+      "structure": "iceandfire:graveyard",
+      "factor": 2.5
     }
     // add the structures you want to modify in the format:
     // {
