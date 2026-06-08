@@ -34,9 +34,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "574A978BE0A0D8FE"
-				item: "lightmanscurrency:coin_gold"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Evocation Manuscript"
@@ -64,9 +63,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "1588F98EA7F71ACE"
-				item: "lightmanscurrency:coin_gold"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Aqua Manuscript"
@@ -94,9 +92,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "59B4FC546E6F72FC"
-				item: "lightmanscurrency:coin_gold"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Fire Manuscript"
@@ -124,9 +121,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "1B411DEE46FED288"
-				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Lightning Manuscript"
@@ -154,9 +150,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "59034F6C9C40D199"
-				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Holy Manuscript"
@@ -184,9 +179,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "57523F727E80E243"
-				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Ender Manuscript"
@@ -214,9 +208,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "321EE2B7D962F7C9"
-				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Blood Manuscript"
@@ -244,9 +237,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "6790C62A479399EF"
-				item: { Count: 5, id: "lightmanscurrency:coin_gold" }
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			title: "Nature Manuscript"
@@ -540,11 +532,12 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 4L
 				id: "742DD7CCB4E9D5A6"
-				item: "lightmanscurrency:coin_emerald"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Potion of Recall (1 Emerald)"
+			title: "Potion of Recall (4 Gold)"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -557,12 +550,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 3L
 				id: "2F85476A2BB37C61"
-				item: { Count: 3, id: "lightmanscurrency:coin_emerald" }
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Warp Scroll (3 Emerald)"
+			title: "Warp Scroll (1 Emerald)"
 			x: 1.0d
 			y: -2.0d
 		}
