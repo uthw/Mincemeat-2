@@ -83,7 +83,7 @@ element {
 
 element {
   interactable = true
-  source = {"placeholder":"mcversion"} / {"placeholder":"loaderver"} / 0.5.12
+  source = {"placeholder":"mcversion"} / {"placeholder":"loaderver"} / 0.5.13
   source_mode = direct
   shadow = true
   scale = 1.0
