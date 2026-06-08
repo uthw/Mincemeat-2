@@ -13,7 +13,7 @@
   },
   "smartMusic": {
     "desc:": "Enables smart stopping of music, when the biome changes or player leaves a cave/water/night is over, default = true",
-    "smartMusic": true
+    "smartMusic": false
   },
   "musicConditions": {
     "desc:": "Sets the condition under which music from their respective categories is allowed to play. Required conditions need to be all met, a single matched disallowed conditions prevents it. Possible conditions are: [END, OVERWORLD, NETHER, CAVE, WATER, OTHERDIMENSIONS, NIGHT]",
