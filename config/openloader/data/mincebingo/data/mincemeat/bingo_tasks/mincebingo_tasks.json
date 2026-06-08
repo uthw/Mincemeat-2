@@ -1260,6 +1260,22 @@
                     "type": "bongo.item",
                     "value": {
                         "item": "lightmanscurrency:coin_emerald",
+                        "count": 2
+                    },
+                    "weight": 5
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "lightmanscurrency:coin_emerald",
+                        "count": 3
+                    },
+                    "weight": 5
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "lightmanscurrency:coin_emerald",
                         "count": 4
                     },
                     "weight": 5
@@ -1267,24 +1283,8 @@
                 {
                     "type": "bongo.item",
                     "value": {
-                        "item": "lightmanscurrency:coin_emerald",
-                        "count": 8
-                    },
-                    "weight": 5
-                },
-                {
-                    "type": "bongo.item",
-                    "value": {
-                        "item": "lightmanscurrency:coin_emerald",
-                        "count": 12
-                    },
-                    "weight": 5
-                },
-                {
-                    "type": "bongo.item",
-                    "value": {
                         "item": "lightmanscurrency:coin_diamond",
-                        "count": 2
+                        "count": 1
                     },
                     "weight": 5
                 },
@@ -1297,6 +1297,94 @@
                     "weight": 5
                 }
             ]
+        },
+        {
+            "type": "bongo.entity",
+            "value": "opposing_force:volt",
+            "weight": 5
+        },
+        {
+            "type": "bongo.entity",
+            "value": "opposing_force:umber_spider",
+            "weight": 5
+        },
+        {
+            "type": "bongo.entity",
+            "value": "opposing_force:trembler",
+            "weight": 5
+        },
+        {
+            "type": "bongo.entity",
+            "value": "caverns_and_chasms:grazer",
+            "weight": 5
+        },
+        {
+            "type": "bongo.entity",
+            "value": "block_factorys_bosses:yeti",
+            "weight": 8
+        },
+        {
+            "type": "bongo.entity",
+            "value": "block_factorys_bosses:sandworm",
+            "weight": 8
+        },
+        {
+            "type": "bongo.entity",
+            "value": "block_factorys_bosses:kraken",
+            "weight": 8
+        },
+        {
+            "type": "bongo.entity",
+            "value": "block_factorys_bosses:infernal_dragon",
+            "weight": 8
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "windswept:gingerbread_cookie"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "brewinandchewin:beer"
+            },
+            "weight": 10
+        },
+        {
+            "type": "bongo.group",
+            "weight": 10,
+            "tasks": [
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "farmersrespite:black_tea"
+                    },
+                    "weight": 10
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "farmersrespite:green_tea"
+                    },
+                    "weight": 10
+                },
+                {
+                    "type": "bongo.item",
+                    "value": {
+                        "item": "farmersrespite:yellow_tea"
+                    },
+                    "weight": 10
+                }
+            ]
+        },
+        {
+            "type": "bongo.item",
+            "value": {
+                "item": "farmersrespite:coffee"
+            },
+            "weight": 10
         }
     ]
 }
