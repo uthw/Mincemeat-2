@@ -31,12 +31,6 @@ ItemEvents.tooltip((event) => {
         Text.red("IMPORTANT: Crashes your game if ejected from a dispenser"),
     );
 
-    // #255. These do not work likely due to being overwritten by the mod's custom tooltips.
-    // event.add("traveloptics:forlorn_harbinger_boots", "Wearing a full set replaces other sources of night vision with its own toggleable one. Hold shift for more info.");
-    // event.add("traveloptics:forlorn_harbinger_leggings", "Wearing a full set replaces other sources of night vision with its own toggleable one. Hold shift for more info.");
-    // event.add("traveloptics:forlorn_harbinger_chestplate", "Wearing a full set replaces other sources of night vision with its own toggleable one. Hold shift for more info.");
-    // event.add("traveloptics:forlorn_harbinger_helmet", "Wearing a full set replaces other sources of night vision with its own toggleable one. Hold shift for more info.");
-
     var snakeToTitle = function (s) {
         if (!s) return s;
         if (s.indexOf("_") === -1 && s.indexOf("-") === -1) return s;
@@ -82,12 +76,10 @@ ItemEvents.tooltip((event) => {
         text.add(Text.of("Spell: " + pretty).color("yellow"));
     };
 
-    // Show spell names on scrolls and echoes.
-    event.addAdvanced("irons_spellbooks:scroll", (item, advanced, text) => {
-        addSpellNameTooltip(item, text);
-    });
-
-    event.addAdvanced("#traveloptics:echo_curio", (item, advanced, text) => {
-        addSpellNameTooltip(item, text);
-    });
+    // Show spell names on items with innate spells
+    event.addAdvancedToAll((item, advanced, text) => {
+        if (item.nbt && item.nbt.contains("irons_spellbooks:spell_container")) {
+            addSpellNameTooltip(item, text);
+        }
+    })
 });
