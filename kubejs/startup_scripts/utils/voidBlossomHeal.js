@@ -32,5 +32,8 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHealEvent", (e
         } else if (currentHealth >= threshold) {
             event.setCanceled(true);
         }
+    } else if (event.entity.type === "irons_spellbooks:archevoker") {
+        // The archevoker has been tweaked to have triple the HP. Their healing scales with their max HP, so this lowers it to how it usually is
+        event.setAmount(event.amount * 0.33);
     }
 });
