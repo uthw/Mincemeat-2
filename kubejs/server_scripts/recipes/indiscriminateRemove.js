@@ -199,7 +199,12 @@ ServerEvents.recipes((event) => {
         "rusticdelight:chocolate_coffee",
         "rusticdelight:honey_coffee",
         "rusticdelight:syrup_coffee",
-        "architects_palette:rotten_flesh_block"
+        "architects_palette:rotten_flesh_block",
+        "irons_restrictions:rare_upgrade",
+        "irons_restrictions:epic_upgrade",
+        "irons_restrictions:legendary_upgrade",
+        "irons_restrictions:common_upgrade",
+        "irons_restrictions:uncommon_upgrade",
     ];
 
     toRemove.forEach((item) => {
