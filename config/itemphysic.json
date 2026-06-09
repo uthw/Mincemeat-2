@@ -2,6 +2,7 @@
   "general": {
     "fallSounds": true,
     "disableCactusDamage": true,
+    "vanillaFlowBehavior": false,
     "swimmingItems": {
       "entries": [
         "{id:\"blocktag\",tag:\"minecraft:mineable/axe\"}",
@@ -173,6 +174,7 @@
     "customPickup": false,
     "pickupWhenSneaking": true,
     "pickupNormally": false,
+    "walkOverRange": 1,
     "maximumPickupRange": 5,
     "hitboxIncrease": 0.2,
     "alwaysPickup": {

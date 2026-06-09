@@ -181,6 +181,8 @@
 		enabled = true
 		#Dyed Bock types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower"]
+		#Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
+		block_cleaning_enabled = true
 
 		#This is a map of special blocks that can be cleaned with soap
 		[functional.soap.special_blocks]

@@ -1,13 +1,13 @@
 {
-  "configVersion": 2,
+  "configVersion": 1,
   "blockCategories": [
     {
       "key": "ali:plant_loot",
       "type": "BLOCK",
       "icon": "minecraft:diamond_hoe",
       "hide": false,
-      "blocks": [
-        "#minecraft:crops"
+      "classes": [
+        "net.minecraft.world.level.block.BushBlock"
       ]
     },
     {
@@ -15,7 +15,9 @@
       "type": "BLOCK",
       "icon": "minecraft:diamond_pickaxe",
       "hide": false,
-      "blocks": []
+      "classes": [
+        "net.minecraft.world.level.block.Block"
+      ]
     }
   ],
   "entityCategories": [
@@ -24,7 +26,9 @@
       "type": "ENTITY",
       "icon": "minecraft:skeleton_skull",
       "hide": false,
-      "entityTypes": []
+      "classes": [
+        "net.minecraft.world.entity.Entity"
+      ]
     }
   ],
   "gameplayCategories": [
