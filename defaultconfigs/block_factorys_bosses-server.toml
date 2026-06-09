@@ -17,7 +17,7 @@
 
 ["Base Boss Damages"]
 	#Not all damages sources depends on this variable !
-	"Sandworm Damage" = 10.0
+	"Sandworm Damage" = 15.0
 	"Yeti Damage" = 18.0
 	"Dragon Damage" = 15.0
 	"Knight Damage" = 13.0
