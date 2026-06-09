@@ -1,0 +1,14 @@
+{
+    "dimensions": ["minecraft:the_end"],
+    "min_rarity": "apotheosis:rare",
+    "max_rarity": "apotheosis:rare",
+    "weight": 70,
+    "quality": 10.0,
+    "stack": {
+        "item": "minecraft:netherite_chestplate",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}

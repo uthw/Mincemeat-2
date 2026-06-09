@@ -1,0 +1,10 @@
+{
+    "weight": 50,
+    "quality": 2.5,
+    "stack": {
+        "item": "minecraft:bow"
+    },
+    "min_rarity": "apotheosis:uncommon",
+    "max_rarity": "apotheosis:uncommon",
+    "dimensions": ["minecraft:the_nether"]
+}

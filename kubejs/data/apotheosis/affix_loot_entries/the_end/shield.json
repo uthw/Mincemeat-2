@@ -1,0 +1,10 @@
+{
+    "weight": 50,
+    "quality": 2.5,
+    "stack": {
+        "item": "minecraft:shield"
+    },
+    "min_rarity": "apotheosis:rare",
+    "max_rarity": "apotheosis:rare",
+    "dimensions": ["minecraft:the_end"]
+}

@@ -1,0 +1,10 @@
+{
+    "weight": 100,
+    "quality": 2.5,
+    "stack": {
+        "item": "minecraft:shield"
+    },
+    "min_rarity": "apotheosis:common",
+    "max_rarity": "apotheosis:common",
+    "dimensions": ["minecraft:overworld"]
+}

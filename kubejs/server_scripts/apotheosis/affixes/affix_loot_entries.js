@@ -505,7 +505,7 @@ ServerEvents.highPriorityData((event) => {
                     : "apotheosis:common",
                 max_rarity: entry.max_rarity
                     ? `apotheosis:${entry.max_rarity}`
-                    : "apotheosis:uncommon",
+                    : "apotheosis:common",
             };
 
             let fileName = entry.item.split(":")[1];
