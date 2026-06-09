@@ -375,7 +375,6 @@ ServerEvents.highPriorityData((event) => {
             entries: [
                 { item: "minecraft:iron_pickaxe" },
                 { item: "minecraft:diamond_pickaxe", weight: 25 },
-                { item: "minecraft:netherite_pickaxe", weight: 5, quality: 5 },
 
                 { item: "iceandfire:silver_pickaxe", weight: 38 },
                 { item: "iceandfire:dragonbone_pickaxe", weight: 4 },
