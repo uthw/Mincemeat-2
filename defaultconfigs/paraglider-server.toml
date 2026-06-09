@@ -52,7 +52,7 @@ paragliderInTowersOfTheWild = "DEFAULT"
 	startingStamina = 1000
 	#Stamina Vessels players need to obtain max out stamina. More vessels means lesser stamina increase per vessel.
 	#Range: > 0
-	maxStaminaVessels = 10
+	maxStaminaVessels = 20
 
 [stamina]
 	#Paragliding will consume stamina.
