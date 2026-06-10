@@ -482,5 +482,15 @@
         "when": "onjoin",
         "mob": "eidolon:slimy_slug",
         "result": "deny"
+    },
+    {
+        "when": "despawn",
+        "structure": "traveloptics:aqua_mage_tower",
+        "mob": [
+            "traveloptics:aquamancer",
+            "cataclysm:deepling_brute",
+            "cataclysm:deepling_warlock"
+        ],
+        "result": "deny"
     }
 ]
