@@ -1646,7 +1646,7 @@ ServerEvents.recipes((event) => {
                 B: "minecraft:netherite_ingot",
                 C: "rubinated_nether:ruby",
                 D: "immersive_aircraft:engine",
-                E: "#forge:ingots/obsidian",
+                E: "netherexp:will_o_wisp",
             },
         ],
         [

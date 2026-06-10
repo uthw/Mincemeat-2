@@ -200,7 +200,8 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/hammercrushing_copper",
         "immersiveengineering:crafting/hammercrushing_lead",
         "immersiveengineering:crafting/hammercrushing_uranium",
-        "opposing_force:electric_alloy"
+        "opposing_force:electric_alloy",
+        "immersive_aircraft:nether_engine"
     ];
 
     toRemove.forEach((recipeId) => {
