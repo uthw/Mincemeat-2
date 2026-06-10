@@ -1150,6 +1150,11 @@ ServerEvents.recipes((event) => {
             { output: "irons_spellbooks:portal_frame" },
             "minecraft:ender_pearl",
             "opposing_force:dicer_lens"
+        ],
+        [
+            {},
+            "create:bar_of_chocolate",
+            "#supplementaries:chocolate_bars"
         ]
     ];
 
