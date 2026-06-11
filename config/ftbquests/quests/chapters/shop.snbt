@@ -68,8 +68,8 @@
 				type: "item"
 			}]
 			title: "Aqua Manuscript"
-			x: 1.0d
-			y: 3.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -242,8 +242,8 @@
 				type: "item"
 			}]
 			title: "Nature Manuscript"
-			x: 0.0d
-			y: 3.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			icon: "everycomp:q/alexscaves/pewen_chest"
@@ -1027,7 +1027,7 @@
 			}]
 			title: "Chocolate Copper Coin"
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_copper"
@@ -1046,7 +1046,7 @@
 			}]
 			title: "32x Chocolate Copper Coin"
 			x: 1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_iron"
@@ -1063,7 +1063,7 @@
 			}]
 			title: "Chocolate Iron Coin"
 			x: 0.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_iron"
@@ -1082,7 +1082,7 @@
 			}]
 			title: "32x Chocolate Iron Coin"
 			x: 1.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_gold"
@@ -1099,7 +1099,7 @@
 			}]
 			title: "Chocolate Gold Coin"
 			x: 0.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_gold"
@@ -1118,7 +1118,7 @@
 			}]
 			title: "32x Chocolate Gold Coin"
 			x: 1.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_diamond"
@@ -1135,7 +1135,7 @@
 			}]
 			title: "Chocolate Diamond Coin"
 			x: 0.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_diamond"
@@ -1154,7 +1154,7 @@
 			}]
 			title: "32x Chocolate Diamond Coin"
 			x: 1.0d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_netherite"
@@ -1171,7 +1171,7 @@
 			}]
 			title: "Chocolate Netherite Coin"
 			x: 0.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_netherite"
@@ -1190,7 +1190,7 @@
 			}]
 			title: "32x Chocolate Netherite Coin"
 			x: 1.0d
-			y: 10.0d
+			y: 9.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_emerald"
@@ -1207,7 +1207,7 @@
 			}]
 			title: "Chocolate Emerald Coin"
 			x: 0.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			icon: "lightmanscurrency:coin_chocolate_emerald"
@@ -1226,7 +1226,7 @@
 			}]
 			title: "32x Chocolate Emerald Coin"
 			x: 1.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			description: ["Clicking the checkmark will recount the number of bosses your team has killed. This is mainly useful for checking your progress, but can also be used for backwards compatibility if your world was created before version 0.5.12."]
@@ -1247,6 +1247,35 @@
 			title: "Check Boss Kill Count"
 			x: 7.0d
 			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_restrictions:manuscript"
+				tag: {
+					SchoolId: "irons_spellbooks:ice"
+				}
+			}
+			id: "6AD1E6DA5E0788FA"
+			rewards: [{
+				id: "5FB3230505CC818A"
+				item: {
+					Count: 1
+					id: "irons_restrictions:manuscript"
+					tag: {
+						SchoolId: "irons_spellbooks:ice"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C2C4C115CC1FE8B"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Ice Manuscript"
+			x: -1.0d
+			y: 0.0d
 		}
 	]
 	title: "Shop"
