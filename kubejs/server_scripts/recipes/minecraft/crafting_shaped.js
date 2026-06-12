@@ -779,7 +779,7 @@ ServerEvents.recipes((event) => {
             [" A ", "BCB", " D "],
             {
                 A: "art_of_forging:enigmatic_construct",
-                B: "mynetheresdelight:powder_cannon",
+                B: "mynethersdelight:powder_cannon",
                 C: "enigmaticlegacy:thicc_scroll",
                 D: "apotheosis:epic_material",
             },
@@ -1668,16 +1668,16 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:redstone",
                 B: "create:andesite_alloy",
                 C: "create:item_drain",
-                D: "minecraft:repeater"
-            }
+                D: "minecraft:repeater",
+            },
         ],
         [
             "irons_spellbooks:lightning_rune",
             ["AAA", "ABA", "AAA"],
             {
                 A: "opposing_force:electric_charge",
-                B: "irons_spellbooks:blank_rune"
-            }
+                B: "irons_spellbooks:blank_rune",
+            },
         ],
         [
             "irons_spellbooks:autoloader_crossbow",
@@ -1686,17 +1686,17 @@ ServerEvents.recipes((event) => {
                 A: "#forge:rods/wooden",
                 B: "block_factorys_bosses:kraken_tooth",
                 C: "#forge:string",
-                D: "create:transmitter"
-            }
+                D: "create:transmitter",
+            },
         ],
         [
             "irons_spellbooks:silver_ring",
             ["AB ", "B B", " B "],
             {
                 A: "galosphere:allurite_shard",
-                B: "#forge:ingots/silver"
-            }
-        ]
+                B: "#forge:ingots/silver",
+            },
+        ],
     ];
 
     recipes.forEach((recipe, index) => {

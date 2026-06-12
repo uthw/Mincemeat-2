@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
             "4x forbidden_arcanus:arcane_bone_meal",
             [
                 "forbidden_arcanus:arcane_crystal_dust",
-                "mynetheresdelight:powder_cannon",
+                "mynethersdelight:powder_cannon",
                 "4x minecraft:bone_meal",
             ],
         ],
@@ -166,7 +166,15 @@ ServerEvents.recipes((event) => {
                 Item.of("enigmaticlegacy:enigmatic_amulet", "{AssignedColor:0.7f}").strongNBT(),
             ],
         ],
-        ["3x opposing_force:electric_alloy", ["opposing_force:electric_charge", "minecraft:gold_ingot", "#forge:ingots/silver", "minecraft:diamond"]],
+        [
+            "3x opposing_force:electric_alloy",
+            [
+                "opposing_force:electric_charge",
+                "minecraft:gold_ingot",
+                "#forge:ingots/silver",
+                "minecraft:diamond",
+            ],
+        ],
     ];
 
     recipes.forEach((recipe) => {
