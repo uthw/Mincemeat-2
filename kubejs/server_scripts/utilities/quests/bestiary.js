@@ -4,12 +4,13 @@ const checkProgressId = "33CEC3A0CA4B6752";
 const disableNotifId = "6EB79825864A39B7";
 const enableNotifId = "6AD6A0808659B94C";
 
-function getCompletionForChapter(chapter, player) {
+function getCompletionForChapter(chapter, player, addOne) {
     let questsInChapter = chapter.getQuests();
     let totalQuestsInChapter = questsInChapter.size();
 
     let questData = FTBQuests.getData(player.level, player.uuid);
     let count = 0;
+    if (addOne) count++; // Newly completed quest isn't considered in this function, so add it manually
     questsInChapter.forEach((quest) => {
         if (questData.isCompleted(quest)) {
             count++;
@@ -17,9 +18,10 @@ function getCompletionForChapter(chapter, player) {
     });
 
     let proportion = totalQuestsInChapter === 0 ? 0 : count / totalQuestsInChapter;
-    proportion = Number(String(proportion.toFixed(3))) // Stupid fix for floating point errors
+    proportion *= 100;
+    let strProp = proportion.toFixed(1);
 
-    return { total: totalQuestsInChapter, count: count, proportion: proportion.toFixed(3) * 100 };
+    return { total: totalQuestsInChapter, count: count, proportion: strProp };
 }
 
 FTBQuestsEvents.completed((event) => {
@@ -52,7 +54,7 @@ FTBQuestsEvents.completed((event) => {
             player.tell(Text.of("======= Bestiary Progress =======").color("yellow"));
             group.chapters.forEach((bestiaryChapter) => {
                 if (bestiaryChapter.codeString !== bestiaryTrackerId) {
-                    let completion = getCompletionForChapter(bestiaryChapter, player);
+                    let completion = getCompletionForChapter(bestiaryChapter, player, false);
                     if (completion.count > 0) {
                         player.tell(
                             Text.of(
@@ -71,8 +73,7 @@ FTBQuestsEvents.completed((event) => {
 
         if (player.persistentData.getBoolean("dont_announce_bestiary")) return;
 
-        let completion = getCompletionForChapter(chapter, player);
-        completion.count++; // This quest isn't considered completed currently
+        let completion = getCompletionForChapter(chapter, player, true);
 
         player.tell(
             Text.of(
