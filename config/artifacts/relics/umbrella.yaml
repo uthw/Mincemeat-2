@@ -46,9 +46,9 @@ abilitiesData:
                     upgradeOperation: MULTIPLY_BASE
         shield:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 0
             # Relic level at which the ability becomes unlocked
-            requiredLevel: 5
+            requiredLevel: 255
             # Number of leveling points needed to increase the ability level
             requiredPoints: 1
             stats:

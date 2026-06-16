@@ -3,7 +3,6 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ item: "artifacts:umbrella" }
 		{ item: "artifacts:plastic_drinking_hat" }
 		{ item: "artifacts:novelty_drinking_hat" }
 		{ item: "artifacts:snorkel" }

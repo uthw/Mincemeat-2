@@ -2151,11 +2151,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "4C7D8B8ED8AEC52D"
-					item: "artifacts:umbrella"
-					type: "item"
-				}
 			]
 			title: "Special Relics"
 			x: 3.0d
