@@ -64,6 +64,11 @@ function refreshBossKillCount(player, shouldTell) {
 
     let bossKills = 0;
 
+    let nextMultipleOf5 = Math.ceil(bossQuestIds.length / 5) * 5;
+    for (let i = nextMultipleOf5; i >= 5; i -= 5) {
+        level.server.runCommandSilent(`kubejs stages remove ${player.username} killed_${i}_bosses`);
+    }
+
     bossQuestIds.forEach((questId) => {
         let questObj = FTBQuests.getObject(level, questId);
         if (questData.isCompleted(questObj)) {
@@ -73,6 +78,10 @@ function refreshBossKillCount(player, shouldTell) {
 
     if (shouldTell) player.tell(`You have completed ${bossKills} boss quests!`);
     pData.putInt("boss_kills", bossKills);
+
+    if (bossKills % 5 === 0) {
+        level.server.runCommandSilent(`kubejs stages add ${player.username} killed_${bossKills}_bosses`);
+    }
 
     if (bossKills >= minBossesForEndAccess) {
         level.server.runCommandSilent(`kubejs stages add ${player.username} killed_enough_bosses`);
