@@ -3600,25 +3600,9 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["7592DBF9E856537A"]
-			description: ["You can find this anywhere in the Overworld, but you'll need to have obtained a &5Netherite Pickaxe&r to mine it."]
-			icon: "irons_spellbooks:arcane_debris"
-			id: "2D7950B773192E15"
-			tasks: [{
-				id: "52921442C69593D7"
-				observe_type: 0
-				timer: 0L
-				to_observe: "irons_spellbooks:arcane_debris"
-				type: "observation"
-			}]
-			title: "Arcane Salvage"
-			x: -5.0d
-			y: -8.5d
-		}
-		{
 			dependencies: [
-				"2D7950B773192E15"
 				"6ED5AF6D7BFF56E8"
+				"7592DBF9E856537A"
 			]
 			description: ["The &dUpgrade Orb&r has use as a base for &5school-based upgrades&r for your &5spell books&r, and also as an ingredient in other recipes."]
 			id: "77F900C79C669ABD"
@@ -3633,7 +3617,7 @@
 				item: "irons_spellbooks:upgrade_orb"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -8.5d
 		}
 		{

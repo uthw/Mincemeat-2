@@ -109,8 +109,8 @@ ServerEvents.recipes((event) => {
             output: "apotheosis:sightshelf",
             inputs: ["ABA", "BCD", "ABA"],
             keys: {
-                A: "forbidden_arcanus:deorum_ingot",
-                B: "irons_spellbooks:arcane_salvage",
+                A: "netherexp:will_o_wisp",
+                B: "irons_spellbooks:mithril_scrap",
                 C: "apotheosis:hellshelf",
                 D: "irons_spellbooks:blank_rune",
             },
@@ -121,7 +121,7 @@ ServerEvents.recipes((event) => {
             inputs: [" A ", "BCB", " A "],
             keys: {
                 A: "irons_spellbooks:cinder_essence",
-                B: "minecraft:netherite_scrap",
+                B: "enigmaticlegacy:etherium_ingot",
                 C: "apotheosis:sightshelf",
             },
             id: "apotheosis:sightshelf_t2",
