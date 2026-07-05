@@ -1642,8 +1642,6 @@
 				""
 				"Horse Flute: Overworld > Chest"
 				""
-				"Infinity Ham: Any > Village"
-				""
 				"Spatial Sign: Overworld > (Non-Village) Chest"
 				""
 				"Magic Mirror: Overworld > (Non-Village) Chest"
@@ -2033,35 +2031,6 @@
 								frozenSpottingIconTicksToCheck: 17
 								id: "minecraft:horse"
 							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "560C87A9F5DC9351"
-					item: {
-						Count: 1
-						id: "relics:infinity_ham"
-						tag: {
-							abilities: {
-								autophagy: {
-									points: 0
-									stats: {
-										feed: 0.52423d
-									}
-								}
-								infusion: {
-									points: 0
-									stats: {
-										duration: 2.998d
-									}
-								}
-							}
-							charge: 0
-							leveling: {
-								experience: 10
-							}
-							pieces: 10
 						}
 					}
 					type: "item"
