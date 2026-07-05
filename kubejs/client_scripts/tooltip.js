@@ -30,6 +30,10 @@ ItemEvents.tooltip((event) => {
         "dungeonnowloading:overcharged_redstone_block",
         Text.red("IMPORTANT: Crashes your game if ejected from a dispenser"),
     );
+    event.add(
+        "malum:ring_of_manaweaving",
+        Text.red("Temporarily disabled as this item can crash your game"),
+    );
 
     var snakeToTitle = function (s) {
         if (!s) return s;
@@ -81,5 +85,5 @@ ItemEvents.tooltip((event) => {
         if (item.nbt && item.nbt.contains("irons_spellbooks:spell_container")) {
             addSpellNameTooltip(item, text);
         }
-    })
+    });
 });

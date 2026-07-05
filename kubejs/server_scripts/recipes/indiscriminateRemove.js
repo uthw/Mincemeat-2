@@ -205,6 +205,7 @@ ServerEvents.recipes((event) => {
         "irons_restrictions:legendary_upgrade",
         "irons_restrictions:common_upgrade",
         "irons_restrictions:uncommon_upgrade",
+        "malum:ring_of_manaweaving"
     ];
 
     toRemove.forEach((item) => {
