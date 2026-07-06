@@ -471,7 +471,7 @@
 				"The &6mechanical drill&r breaks the block in front of it when powered. "
 				"The most simple application of this is &ecobblestone generators&r. Simply place the &6drill&r such that it &efaces&r where the &ecobblestone&r will appear."
 				""
-				"There's a lot more you can do with this. You can even build onto your &ecobblestone generator&r. Right click &ecobblestone&r in EMI and see what it can turn into!"
+				"There's a lot more you can do with this. You can even build onto your &ecobblestone generator&r. Right click &ecobblestone&r in JEI and see what it can turn into!"
 			]
 			icon: "create:mechanical_drill"
 			id: "6996A69FC311A78F"
@@ -589,7 +589,7 @@
 				"{@pagebreak}"
 				"Place the &6blaze burner&r under a &ebasin&r."
 				""
-				"The &6blaze&r will provide &eheat&r to your &ebasin&r, unlocking recipes in EMI that claim to &erequire heat&r."
+				"The &6blaze&r will provide &eheat&r to your &ebasin&r, unlocking recipes in JEI that claim to &erequire heat&r."
 			]
 			id: "2CB2CB53F495DEC9"
 			rewards: [{
@@ -896,7 +896,7 @@
 				""
 				"&6Numismatic&r: currency (coins made by the multiservo press)"
 				""
-				"&6Lapidary&r: gems (search &o#gems&r in EMI)"
+				"&6Lapidary&r: gems (search &o$gems&r in JEI)"
 				""
 				"&6Disenchantment&r: enchanted items"
 				""
@@ -986,7 +986,7 @@
 		}
 		{
 			dependencies: ["329604AC74DDA615"]
-			description: ["Search &o&9@thermal&r &omachine&r in EMI to see every machine you can make."]
+			description: ["Search &o&9@thermal&r &omachine&r in JEI to see every machine you can make."]
 			id: "201BC1FF4067A4D2"
 			subtitle: "Scratch the surface"
 			tasks: [{
@@ -2444,7 +2444,7 @@
 			description: [
 				"This machine has a similar premise to the &epulverizer&r, being able to &eincrease the resources&r you can get from one block or item."
 				""
-				"&eIt works on many vanilla Minecraft items&r. You can right click on it in EMI and check the &6SAG Mill&r tab to see what you can do."
+				"&eIt works on many vanilla Minecraft items&r. You can right click on it in JEI and check the &6SAG Mill&r tab to see what you can do."
 			]
 			id: "47542F849F8E385F"
 			rewards: [{

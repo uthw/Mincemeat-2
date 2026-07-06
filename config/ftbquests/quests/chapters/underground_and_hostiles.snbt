@@ -668,7 +668,7 @@
 				""
 				"Your minimap will show a chest icon if a mimic is nearby, so this can be an easy way of sleuthing them out."
 				""
-				"If you want to find what accessories this chest can drop, just look up in the EMI search bar @artifacts."
+				"If you want to find what accessories this chest can drop, search for @artifacts in JEI."
 			]
 			id: "42CE7229A3E5B3FE"
 			invisible: true

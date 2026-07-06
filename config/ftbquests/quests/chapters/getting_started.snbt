@@ -853,14 +853,12 @@
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
 			description: [
-				"&7Note: currently, EMI is not in the modpack due to performance concerns. These shortcuts still work."
-				""
 				"When you open your inventory, you're met with a &dbunch of item icons&r on the right and a &dsearch bar&r on the bottom."
 				""
-				"This is &9EMI&r, this modpack's recipe browser! &9EMI&r is quite similar to JEI."
+				"This is &9JEI&r, this modpack's recipe browser!"
 				""
 				"&2CTRL + F&r: focus on the search bar."
-				"&2CTRL + O&r: hide EMI."
+				"&2CTRL + O&r: hide JEI."
 				"&2r or Mouse 1&r: view recipes for an item."
 				"&2u or Mouse 2&r: view recipes an item is used in."
 				"&m&2CTRL + R&r&m: view recipe tree of an item."
@@ -870,13 +868,13 @@
 				""
 				"-----"
 				""
-				"On the bottom left, there is a button to access &9EMI&r's settings, and a button to view recipe trees for items (in case you're a fan of neat visuals)."
+				"On the bottom left, there is a button to access &9JEI&r's settings, and a button to view recipe trees for items (in case you're a fan of neat visuals)."
 			]
 			id: "2EDABA0479433172"
 			subtitle: "The Recipe Book is out of style!"
 			tasks: [{
 				id: "3C448260626BBAF1"
-				title: "EMI (JEI)"
+				title: "JEI"
 				type: "checkmark"
 			}]
 			x: 0.0d

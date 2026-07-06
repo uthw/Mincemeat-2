@@ -3317,7 +3317,7 @@
 			description: [
 				"The &dscroll forge&r lets you &5make scrolls&r. This lets you have replenishable spells when you put them in your &5spell book&r, which is quite nice!"
 				""
-				"Right click on the &dscroll forge&r in EMI to see how to make various scrolls. This requires a special material known as &dink&r, some of which has been given to you as a reward."
+				"Right click on the &dscroll forge&r in JEI to see how to make various scrolls. This requires a special material known as &dink&r, some of which has been given to you as a reward."
 			]
 			id: "26748536E1E41168"
 			rewards: [
@@ -4376,7 +4376,7 @@
 		}
 		{
 			dependencies: ["565166C1F792A623"]
-			description: ["Search \"broom attachment\" in EMI for more possibilities."]
+			description: ["Search \"broom attachment\" in JEI for more possibilities."]
 			id: "1C36656D4E915F5C"
 			rewards: [{
 				count: 6
@@ -4809,7 +4809,7 @@
 				""
 				"Lastly, grab your &5bound book&r and &5place it on the golden pedestal&r, then watch the magic happen."
 				""
-				"This abstract procedure is the basis of all rituals. You can view a ritual in EMI, apply these steps, and boom."
+				"This abstract procedure is the basis of all rituals. You can view a ritual in JEI, apply these steps, and boom."
 				""
 				"One caveat to the above claim: sometimes, you'll need to &5sacrifice a mob&r or &5use an item&r to get the rituals off the ground."
 			]
@@ -4898,7 +4898,7 @@
 			description: [
 				"This is a piece of what could be a &5powerful storage system&r that runs on &5Occultism&r."
 				""
-				"The creation of a &dbase&r requires the use of a &5ritual&r, the specifics of which are seen in EMI."
+				"The creation of a &dbase&r requires the use of a &5ritual&r, the specifics of which are seen in JEI."
 				""
 				"You'll then need &5another ritual&r to create the &ddimensional matrix&r, and combine the two for your &ddimensional storage controller&r."
 			]
@@ -6019,7 +6019,7 @@
 			description: [
 				"You'll need to supply one of the target sulfur and at least one of the source sulfur. You should plan to bring multiple sources for convenience, though."
 				""
-				"Make sure the target and source are the same tier (use JEI/EMI for this). You can't just convert rotten flesh into netherite, even though it'd be cool if you could. An example of a valid conversion is emerald to diamond."
+				"Make sure the target and source are the same tier (use JEI for this). You can't just convert rotten flesh into netherite, even though it'd be cool if you could. An example of a valid conversion is emerald to diamond."
 				""
 				"Put your source and target into the right pedestal, when wait. If you've done everything right up to this point, a glowing orb will appear over the pedestals."
 				""
