@@ -45,15 +45,6 @@ LootJS.modifiers(event => {
             [Item.of("forbidden_arcanus:orb_of_temporary_flight").withChance(100)]
     );
 
-    // artifacts:umbrella
-    event
-        .addLootTableModifier("mvs:floating_islands")
-        .randomChance(0.05)
-        .addWeightedLoot(
-            [1, 1],
-            [Item.of("artifacts:umbrella").withChance(100)]
-    );
-
     // artifacts:bunny_hoppers
     event
         .addLootTableModifier("mvs:floating_islands")

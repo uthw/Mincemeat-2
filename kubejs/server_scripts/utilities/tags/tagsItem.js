@@ -103,6 +103,7 @@ ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom("immersiveengineering:raw_uranium");
     event.removeAllTagsFrom("mekanism:raw_uranium");
     
+    event.removeAllTagsFrom("artifacts:umbrella")
     event.removeAllTagsFrom("relics:infinity_ham");
 
     // This creates a tag with all fishes other than Starcatcher fishes
