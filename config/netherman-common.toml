@@ -1,0 +1,106 @@
+
+["Azazel Boss Configuration"]
+	#Maximum health of Azazel
+	#Range: 100.0 ~ 10000.0
+	maxHealth = 800.0
+	#Movement speed of Azazel
+	#Range: 0.05 ~ 1.0
+	movementSpeed = 0.2
+	#Knockback resistance (1.0 = completely immune)
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 1.0
+
+["Azazel Attack Damage"]
+	#Damage dealt by the launch explosion attack
+	#Range: 0.0 ~ 100.0
+	launchAttackDamage = 8.0
+	#Damage dealt when pulling players in
+	#Range: 0.0 ~ 100.0
+	pullAttackDamage = 5.0
+	#Damage dealt by the wind knockback attack
+	#Range: 0.0 ~ 100.0
+	windAttackDamage = 5.0
+	#Damage dealt per hit during the wheel dash attack
+	#Range: 0.0 ~ 100.0
+	wheelAttackDamage = 4.0
+
+["Azazel Attack Frequencies"]
+	#Chance (1 in X ticks) for Azazel to perform an active attack. Lower = faster attacks.
+	#Range: 10 ~ 600
+	attackChance = 80
+	#Chance (1 in X ticks) to spawn minions passively while idle.
+	#Range: 100 ~ 2400
+	passiveSummonChance = 600
+
+["Nether Spawner Configuration"]
+	#Radius within which the spawner detects players to activate.
+	#Range: 1.0 ~ 128.0
+	playerDetectionRadius = 20.0
+	#Cooldown (in ticks) for spawning Mini-Bosses (Manipulator, Guardian, Welcomer) [20 ticks = 1 second].
+	#Range: 1200 ~ 1000000
+	miniBossCooldown = 18000
+	#Cooldown (in ticks) for spawning Civilian NPCs (Blacksmith, Doctor, Gilded Golem, Trader).
+	#Range: 1200 ~ 1000000
+	civilianNpcCooldown = 72000
+	#Number of Believers spawned at once.
+	#Range: 1 ~ 20
+	believersSpawnCount = 5
+	#The scatter radius for spawning Believers.
+	#Range: 1.0 ~ 32.0
+	believersSpawnRadius = 6.0
+	#Maximum number of Believers around the spawner before it skips spawning.
+	#Range: 1 ~ 50
+	believersMaxNearby = 5
+	#Cooldown if Believers successfully spawned.
+	#Range: 1200 ~ 1000000
+	believersSuccessCooldown = 72000
+	#Soft cooldown if spawning was skipped because there are too many Believers around.
+	#Range: 20 ~ 72000
+	believersFailCooldown = 600
+
+["Azazel Trophy Mask Configuration"]
+	#Time (in ticks) to regenerate 1 totem charge in the mask [2400 ticks = 2 minutes].
+	#Range: 200 ~ 72000
+	maskRegenCooldown = 2400
+	#Does wearing the Azazel Trophy mask grant fire immunity?
+	maskFireImmunity = true
+
+["Azazel Defense & Melee"]
+	#Radius to trigger close-combat attacks (Launch, Midas)
+	#Range: 1.0 ~ 20.0
+	meleeAttackRadius = 6.0
+	#Chance (0-100%) to perform a melee attack when a player is close
+	#Range: 0 ~ 100
+	meleeAttackChance = 30
+	#Minimum hits required to trigger the defense shield
+	#Range: 1 ~ 100
+	shieldHitsMin = 5
+	#Maximum hits required to trigger the defense shield
+	#Range: 1 ~ 100
+	shieldHitsMax = 20
+
+["Azazel Midas Attack"]
+	#Number of BossUnits spawned during Midas attack
+	#Range: 0 ~ 10
+	midasBossUnitCount = 3
+	#Number of Guardians spawned during Midas attack
+	#Range: 0 ~ 10
+	midasGuardianCount = 2
+	#Fire damage dealt per tick on the fire ring
+	#Range: 0.0 ~ 100.0
+	midasFireDamage = 8.0
+	#Ticks required near the boss to turn an item into gold (40 = 2 seconds)
+	#Range: 1 ~ 600
+	midasGoldTime = 40
+
+["Azazel Prison Attack"]
+	#Radius of the blackstone prison
+	#Range: 2 ~ 15
+	prisonRadius = 5
+	#Time in ticks before the prison breaks (200 = 10 seconds)
+	#Range: 60 ~ 1200
+	prisonDuration = 200
+	#Maximum random height of the prison walls
+	#Range: 3 ~ 15
+	prisonMaxHeight = 6
+
