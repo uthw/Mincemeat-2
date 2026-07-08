@@ -340,7 +340,7 @@ ServerEvents.recipes((event) => {
         [{ output: "create:crushing_wheel" }, "create:andesite_alloy", "#forge:ingots/invar"],
         [{ mod: "grapplemod" }, "minecraft:lead", "#forge:rope"],
         [{ mod: "grapplemod" }, "minecraft:gold_ingot", "thermal:cinnabar"],
-        [{ mod: "grapplemod" }, "minecraft:piston", "immersive_aircraft:engine"],
+        [{ mod: "grapplemod" }, "minecraft:piston", "immersive_aircraft:nether_engine"],
         [{ output: "enigmaticlegacy:ender_rod" }, "#forge:ender_pearls", "alexscaves:sulfur_dust"],
         [{ output: "reliquary:harvest_rod" }, "minecraft:rose_bush", "#botania:petals"],
         [{ output: "reliquary:harvest_rod" }, "minecraft:vine", "environmental:cattail"],
