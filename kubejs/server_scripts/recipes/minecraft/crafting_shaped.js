@@ -1697,6 +1697,14 @@ ServerEvents.recipes((event) => {
                 B: "#forge:ingots/silver",
             },
         ],
+        ["caverns_and_chasms:dismantling_table",
+            ["ABA", "BCB", "ABA"],
+            {
+                A: "aether_redux:sentrite",
+                B: "caverns_and_chasms:spinel",
+                C: "minecraft:smithing_table"
+            }
+        ],
     ];
 
     recipes.forEach((recipe, index) => {

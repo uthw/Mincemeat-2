@@ -201,7 +201,8 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/hammercrushing_lead",
         "immersiveengineering:crafting/hammercrushing_uranium",
         "opposing_force:electric_alloy",
-        "immersive_aircraft:nether_engine"
+        "immersive_aircraft:nether_engine",
+        "caverns_and_chasms:dismantling_table"
     ];
 
     toRemove.forEach((recipeId) => {
