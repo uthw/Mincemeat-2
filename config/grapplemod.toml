@@ -169,10 +169,10 @@ grappleBreakBlocks = "none"
 hookaffectsentities = true
 rope_snap_buffer = 5.0
 default_durability = 6144
-rope_jump_power = 1.0
+rope_jump_power = 2.0
 rope_jump_at_angle = false
 rope_jump_cooldown_s = 0.0
-climb_speed = 0.3
+climb_speed = 0.6
 [options.longfallboots]
 longfallbootsrecipe = false
 [options.enderstaff]
