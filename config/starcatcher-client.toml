@@ -7,9 +7,6 @@ sort = "ALPHABETICAL_DOWN"
 enable_villager_sound = true
 enable_hit_sound = true
 enable_miss_sound = true
-#Whether to use the vanilla partial ticks for minigame smoothing or a custom implementation
-#1.20 partial ticks look ugly so its force enabled, this option does nothing
-vanilla_partial_ticks = true
 #If enabled the new fish notifications will be removed when hovering on the index, instead of only when visiting the specific fish entry
 remove_notif_on_hover = true
 

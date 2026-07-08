@@ -1,4 +1,7 @@
 
+#Due to how Better Paragliders calculates stamina costs, the numbers you enter in this file will not match up with with the numbers in Paragliders's server config.
+#The actual cost will be n(n+1)/2, where n is the value you enter in this config. Note that this formula grows exponentially.
+#For example, if you set a cost to 31, the actual value will be 496, which by default is roughly half your stamina wheel.
 ["General Settings"]
 	#If true, attack stamina costs for the Better Paragliders mod are calculated by the weapon type values below.
 	#If false, Better Paragliders's default formula is used instead, which is based on the weapon's attack damage and reach.
@@ -70,8 +73,14 @@
 	#Range: 0.0 ~ 999.0
 	thrown_weapon_cost = 8.0
 
-["Wall Jump Cost"]
+["Wall-Jump Integration"]
 	#The stamina cost for performing a wall jump. Using a value of 0 will disable this integration.
 	#Range: 0.0 ~ 999.0
 	wall_jump_cost = 20.0
+
+["Combat Roll Integration"]
+	#The stamina cost for performing a dodge roll. Using a value of 0 will disable this integration.
+	#If you use this feature, consider lowering the cooldown in Combat Roll's server config so stamina becomes the main limiting factor.
+	#Range: 0.0 ~ 999.0
+	dodge_roll_cost = 30.0
 
