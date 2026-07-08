@@ -5247,19 +5247,21 @@
 		}
 		{
 			description: [
-				"Normal fire (Most blocks)"
+				"Normal Fire (Most blocks)"
 				""
-				"Soul fire (Soul sand/soil related)"
+				"Soul Fire (Soul sand/soil related)"
 				""
-				"Cupric fire (Copper on fire)"
+				"Cupric Fire (Copper on fire)"
 				""
-				"Dark fire (Zeal lighter in everdawn)"
+				"Dark Fire (Zeal lighter in everdawn)"
 				""
-				"Blue fire (Zeal lighter in Everbright)"
+				"Blue Fire (Zeal lighter in Everbright)"
 				""
-				"Ender fire (End stone)"
+				"Ender Fire (End stone)"
 				""
-				"{ \"text\": \"Spirit fire\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"77219718DABB8F62\" } }"
+				"{ \"text\": \"Spirit Fire\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"77219718DABB8F62\" } }"
+				""
+				"Glowlight Fire (glowstone and most blocks in the Glowstone Canyon)"
 			]
 			id: "7352F20BDCDA2D4C"
 			subtitle: "For all the arsonists out there"
