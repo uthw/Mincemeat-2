@@ -175,6 +175,14 @@ ServerEvents.recipes((event) => {
                 "minecraft:diamond",
             ],
         ],
+        [
+            "32x starcatcher:murkwater_bait",
+            ["minecraft:bone_meal", Item.of("aquaculture:minnow", "{Damage:0}")],
+        ],
+        [
+            "64x starcatcher:murkwater_bait",
+            ["minecraft:bone_meal", Item.of("aquaculture:leech", "{Damage:0}")],
+        ],
     ];
 
     recipes.forEach((recipe) => {
