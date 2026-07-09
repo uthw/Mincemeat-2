@@ -476,12 +476,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "397F3B70A6A7C28B"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Rare Artifact (5 Emerald)"
+			title: "Rare Artifact (1 Emerald)"
 			x: 7.0d
 			y: 1.0d
 		}
@@ -494,12 +493,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 2L
+				count: 3L
 				id: "7DACE113FEB76B27"
-				item: "lightmanscurrency:coin_diamond"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Epic Artifact (2 Diamond)"
+			title: "Epic Artifact (3 Emerald)"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -514,12 +513,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
 				id: "3414D55270DA5572"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Legendary Artifact (8 Diamond)"
+			title: "Legendary Artifact (1 Diamond)"
 			x: 7.0d
 			y: 3.0d
 		}
