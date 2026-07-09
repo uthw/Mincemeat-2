@@ -34,6 +34,8 @@ ItemEvents.tooltip((event) => {
         "malum:ring_of_manaweaving",
         Text.red("Temporarily disabled as this item can crash your game"),
     );
+    event.add("starcatcher:vanilla_bobber", Text.yellow("This item does not work"));
+    event.add("starcatcher:vanilla_hook", Text.yellow("The Vanilla-Flavored Bobber does not work"));
 
     var snakeToTitle = function (s) {
         if (!s) return s;
