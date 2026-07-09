@@ -57,8 +57,8 @@ WorldgenEvents.remove((event) => {
             "celestisynth:zephyr_deposit",
             "celestisynth:wintereis",
 
-            "galosphere:palladium_ore",
-            "galosphere:deepslate_palladium_ore",
+            "galosphere:silver_ore",
+            "galosphere:deepslate_silver_ore",
 
             "malum:brilliant_stone",
             "malum:brilliant_deepslate",
