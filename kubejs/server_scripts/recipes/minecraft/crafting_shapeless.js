@@ -183,6 +183,10 @@ ServerEvents.recipes((event) => {
             "64x starcatcher:murkwater_bait",
             ["minecraft:bone_meal", Item.of("aquaculture:leech", "{Damage:0}")],
         ],
+        [
+            "4x starcatcher:legendary_bait",
+            ["minecraft:bone_meal", "aquaculture:goldfish"]
+        ]
     ];
 
     recipes.forEach((recipe) => {

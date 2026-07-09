@@ -202,7 +202,9 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/hammercrushing_uranium",
         "opposing_force:electric_alloy",
         "immersive_aircraft:nether_engine",
-        "caverns_and_chasms:dismantling_table"
+        "caverns_and_chasms:dismantling_table",
+        "irons_spellbooks:boreal_blade",
+        "aquaculture:gold_nugget_from_gold_fish"
     ];
 
     toRemove.forEach((recipeId) => {
