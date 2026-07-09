@@ -1,18 +1,18 @@
 {
   "modPriorities": [
-    "minecraft",
-    "kubejs",
-    "crafttweaker",
-    "create",
-    "rubinated_nether",
-    "caverns_and_chasms",
-    "thermal",
-    "immersiveengineering",
-    "eidolon",
-    "iceandfire",
-    "galosphere",
-    "occultism",
-    "mekanism"
+      "minecraft",
+      "kubejs",
+      "crafttweaker",
+      "create",
+      "rubinated_nether",
+      "caverns_and_chasms",
+      "eidolon",
+      "thermal",
+      "immersiveengineering",
+      "iceandfire",
+      "galosphere",
+      "occultism",
+      "mekanism"
   ],
   "stoneStrata": [
     "stone",
