@@ -1,6 +1,6 @@
 {
   // default: true
-  "allowReClinging": false,
+  "allowReClinging": true,
   // default: false
   "autoRotation": false,
   // default: true
