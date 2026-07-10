@@ -767,7 +767,7 @@ ServerEvents.recipes((event) => {
         [
             { output: "actuallyadditions:feeder" },
             "minecraft:golden_carrot",
-            "majruszsaccessories:idol_of_fertility",
+            "create:tree_fertilizer",
         ],
         [
             { output: "actuallyadditions:energizer" },

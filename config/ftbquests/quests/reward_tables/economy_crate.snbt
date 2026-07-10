@@ -177,10 +177,6 @@
 		{ item: "minecraft:blast_furnace" }
 		{ count: 8, item: "minecraft:feather", random_bonus: 8 }
 		{ item: "irons_spellbooks:blank_rune" }
-		{ item: "majruszsaccessories:gambling_card" }
-		{ item: "majruszsaccessories:reverse_card" }
-		{ item: "majruszsaccessories:dice", weight: 0.5f }
-		{ item: "majruszsaccessories:owl_feather", weight: 0.5f }
 		{
 			item: {
 				Count: 1
