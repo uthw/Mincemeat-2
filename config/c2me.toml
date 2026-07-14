@@ -19,7 +19,7 @@ version = 3
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
 defaultGlobalExecutorParallelismExpression = "default"
-# (Default: 3) Configures the parallelism of global executor
+# (Default: 5) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [generalOptimizations]
@@ -77,7 +77,7 @@ globalExecutorParallelism = "default"
 	enabled = "default"
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
-	allowThreadedFeatures = "false"
+	allowThreadedFeatures = false
 	# (Default: true) Whether to allow reducing lock radius 
 	# (may cause incompatibility with other mods)
 	reduceLockRadius = "default"
@@ -92,7 +92,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 54) Max render distance allowed in game options
+		# (Default: 61) Max render distance allowed in game options
 		maxViewDistance = "default"
 
 [ioSystem]
@@ -130,7 +130,7 @@ globalExecutorParallelism = "default"
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
-	# (Default: 4) No-tick view distance max concurrent chunk loads 
+	# (Default: 6) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
