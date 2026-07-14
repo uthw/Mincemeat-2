@@ -12,6 +12,9 @@
 	#This value is hardcoded at 10 ticks in base Better Paragliders.
 	#Range: 0 ~ 999
 	stamina_recovery_delay = 0
+	#If true, the stamina cost for blocking a single attack is capped at the amount of stamina remaining.
+	#Disabling this feature will result in players being out of stamina for a long time after blocking powerful attacks.
+	cap_block_stamina_cost = true
 
 ["Weapon Stamina Costs"]
 	#If this feature is enabled, weapon attacks will be calculated by their parent (swing animation type). For example, a wooden sword and netherite sword will both use sword_cost.
