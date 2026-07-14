@@ -81,6 +81,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "ars_additions:has_structure/ruined_portal",
         "#minecraft:has_structure/ruined_portal_ocean"
     );
+    event.remove("ars_additions:has_structure/ruined_portal", "minecraft:river");
 
     event.add("caverns_and_chasms:has_feature/ore_silver", "#minecraft:is_overworld")
 });
