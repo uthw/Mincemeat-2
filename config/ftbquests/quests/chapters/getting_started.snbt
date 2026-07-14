@@ -2829,6 +2829,10 @@
 				""
 				"Here are just a few of the mods and items that can help you build something that truly embraces the modded Minecraft spirit."
 				""
+				"Also, you may have figured this out already, but you can click on logs/planks/saplings in JEI, then check the information tab, to see which biomes you can find them in."
+				""
+				"Be aware that some wood types have been replaced with woods with matching names from other mods so as to not clog up your inventory."
+				""
 				"&o&7Some of the tasks for this quest require you to obtain any item from the specified mod."
 			]
 			icon: "mcwroofs:roofing_hammer"
