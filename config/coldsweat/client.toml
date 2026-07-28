@@ -48,7 +48,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# Show the config menu button in the Options menu
 	# ⌄ 
-	"Enable In-Game Config" = true
+	"Enable In-Game Config" = false
 	#─────────────────────────────────────────────────────────────────────────
 	# The position (offset) of the config button on the screen
 	# ⌄ 
