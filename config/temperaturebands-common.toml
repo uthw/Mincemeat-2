@@ -9,6 +9,7 @@
 	#   Hot through to Freezing then back again.
 	# - If there are any worldgen mods that add biomes with a different 'temperature range' for placement, they should be incorporated within existing bands normally.
 	# - If you want to maintain as much performance as possible, keep this as a power of two.
+	#Default: 2048
 	#Range: 512 ~ 32768
 	bandSize = 2048
 	#
@@ -21,6 +22,7 @@
 	#   simulate a southern hemisphere start instead.
 	# - Note that some world gen mods like Tectonic and Larion seem to have their own idea about initial world spawn and don't use world origin, in these cases you might
 	#   want to use a mod like 'Biome Spawn Point' too.
+	#Default: 0.25
 	#Range: 0.0 ~ 1.0
 	bandPositionShift = 0.25
 	#
@@ -28,26 +30,31 @@
 	# - Increasing will make the coldest and hottest bands larger while reducing others, lowering will have the opposite effect.
 	# - The default value makes hottest/coldest bands a tiny bit smaller than the others.
 	#   Setting this value too high or low might result in some bands not generating at all.
+	#Default: 0.65
 	#Range: 0.3 ~ 1.0
 	tempRange = 0.625
 	#
 	#[tempGradeShift] is used to make the hottest and coldest bands roughly the same size.
 	# - Vanilla temperature has a bias towards cold, this solves that. If e.g. you set it to zero, the coldest band will be larger than all other bands and the hottest
 	#   would be smaller than all others.
+	#Default: -0.05
 	#Range: -0.5 ~ 0.5
 	tempGradeShift = -0.05
 	#
 	#[bandAlgorithm] is the algorithm to use for temperature bands.
 	# - You can configure and read more about each algorithm in their own section below. Recommended to use World Preview if you want to change things.
 	# - Note that there is only 1 algorithm currently, this config is here just in case I add more later.
+	#Default: 1
 	#Range: 1 ~ 1
 	bandAlgorithm = 1
 	#
 	#[noiseFactor] will, when above zero, incorporate original noise generation into temperature bands to help make the shape and edges of bands a bit nicer.
 	# - HIGHLY recommended to keep it on.
-	# - See each algorithm for details on how noiseFactor is used. The unit is arbitrary and very dependent on bandSize. For e.g. 100 is nice for a bandSize of 2048 but
-	#   might be too wild if bandSize is decreased, or too tame if bandSize is increased.
-	#Range: 0 ~ 1000
+	# - When specified as a decimal below 1.0, it is treated as a percentage of bandSize. The default of 5% seems to be a good value for any bandSize.
+	# - When specified as a number of 1 or above, it is a fixed "block number" amount and NOT dependent on bandSize. This is the old behavior (before 2.2.0), if you
+	#   do this you should probably keep it around 5% of whatever your bandSize is - otherwise you might see some weirdness.
+	#Default: 0.05
+	#Range: 0.0 ~ 1000.0
 	noiseFactor = 100
 	#
 	#[distanceFunction] provides a choice in algorithm for calculating distances (currently only used by the default/advanced humidity stuff).
@@ -57,6 +64,7 @@
 	# - Recommended to leave on 1 (octile). While Euclidean distance is only about 3% slower, it doesn't look any better - just "different".
 	#   Although Euclidean might give better smoothness if you're using very high accuracy for humidity and climate sampler. Manhattan distance is about 5%
 	#   faster than octile but looks kinda bad - can be very "noisy" and regularly "skips" biome transitions.
+	#Default: 1
 	#Range: 0 ~ 2
 	distanceFunction = 1
 	#
@@ -80,6 +88,7 @@
 	# - Setting to 2 (to always replace) is only recommended for non-vanilla worldgen because the replacement is *not* a 1:1 recreation of vanilla noise given the same seed.
 	# - This function is particularly useful for many world gen mods like Larion where their original temperature/humidity noises are very "gentle" which results in extremely straight bands.
 	#   For some mods you may want to increase noiseFactor above the defaults.
+	#Default: 1
 	#Range: 0 ~ 2
 	vanillaNoiseOverride = 1
 
@@ -95,11 +104,13 @@
 	#   remaining algo1 features.
 	# - You will want to keep this a fairly small value. Making it too large will result in weirdness, especially if it's too close to the bandSize.
 	# - If you want to maintain as much performance as possible, keep this as a power of two.
+	#Default: 32
 	#Range: 0 ~ 16384
 	bandVariance = 32
 	#
 	#[algo1bandVarianceSteepness] is the "steepness" of band variance.
 	# - Unit is arbitrary, you'll want to experiment and test if you change it. Probably best left alone, though.
+	#Default: 0.2
 	#Range: 0.1 ~ 10.0
 	algo1bandVarianceSteepness = 0.2
 
@@ -138,6 +149,7 @@
 	#[climateSamplerCacheSize] is the size of our custom climate sampler, in megabytes.
 	# - The default of 5Mb can hold almost 50 thousand samples which should be more than enough for any environment.
 	# - Setting to zero will disable caching, which is NOT recommended - you will have much higher CPU *and* memory usage without the cache.
+	#Default: 5
 	#Range: 0 ~ 128
 	climateSamplerCacheSize = 5
 
@@ -154,6 +166,7 @@
 	# - A value of 0 will disable humidity feature entirely, keeping vanilla random noise humidity.
 	# - Do note that with advanced humidity, some worldgen mods may become extremely slow. One example of this is Lithosphere. In these cases it might be best to use
 	#   simple humidity, or at least turning off river influence (Lithosphere in particular doesn't generate many rivers anyway).
+	#Default: 2
 	#Range: 0 ~ 2
 	humidityAlgorithm = 1
 	#
@@ -163,6 +176,7 @@
 	# - For humidity algorithm 1 (bands perpendicular to temperature), it applies some angle via narrowing/widening on the humidity bands - as you approach the cold
 	#   band, lower-humidity biomes will become wider; as you approach the hot band, higher-humidity biomes will become wider.
 	# - Setting to 0.0 will disable this function.
+	#Default: 0.4
 	#Range: 0.0 ~ 1.0
 	humidityTempWeight = 0.4
 
@@ -172,6 +186,7 @@
 	#
 	#[humidityAlgo1MimicScale] will scale the humidity bands, in relation to temperature bands.
 	# - The default of 0.5 for e.g. means that humidity bands will be half as big and twice as frequent as temperature bands (on average).
+	#Default: 0.5
 	#Range: 0.1 ~ 1.0
 	humidityAlgo1MimicScale = 0.5
 
@@ -180,11 +195,12 @@
 	#--------
 	#
 	#[humidityResolution] is the accuracy or "resolution" for calculating the distance from river and/or ocean for a given area, where lower values means more accuracy.
-	# - Represented as a square root, i.e. the default of 3 means each 9x9 area will use the same distance values.
-	# - This is a performance vs accuracy choice but the default of 3 seems decently balanced; values below 3 start to become extremely expensive on CPU/worldgen time
-	#   with only small improvements in smoothness, and values above 3 get a bit too "chunky". The max value of 8 (each 64x64 area having same humidity) results in a
+	# - Represented as a square root, i.e. the default of 4 means each 16x16 area will use the same distance values.
+	# - This is a performance vs accuracy choice but the default of 4 seems decently balanced; values below 4 start to become extremely expensive on CPU/worldgen time
+	#   with only small improvements in smoothness, and values above 4 get a bit too "chunky". The max value of 8 (each 64x64 area having same humidity) results in a
 	#   silly checkerboard look (but is very fast).
-	# - If you change this, be sure to check out "climateSamplerResolution" in the "[climatesampler-world]" section too - these two settings are closely related.
+	# - If you change this, you might want to check out "climateSamplerResolution" in the "[climatesampler-world]" section too - these two settings are closely related.
+	#Default: 4
 	#Range: 1 ~ 8
 	humidityResolution = 3
 	#
@@ -196,6 +212,7 @@
 	#   river distance thresholds intersect. The default 0.4 does this a bit too but not excessively, and it's actually kinda cool :)
 	# - Values at/above 1.0 will effectively double/multiply humidity values. Might be useful if you want a world where rivers count for "more humidity" than oceans.
 	# - Regardless of the value, keeping this enabled has the same cost in performance - so the choice of what influence to use, if any, is purely up to personal taste.
+	#Default: 0.4
 	#Range: 0.0 ~ 5.0
 	humidityRiverInfluence = 0.4
 	#
@@ -206,6 +223,7 @@
 	#   at the expense of worldgen quality (you'll see more "chunkyness" in biome borders). Alternatively, you can try adjusting climatesampler-performance settings
 	#   to *maybe* improve efficiency at the expense of increased CPU/RAM load, which may actually end up reducing throughput/worldgen speed anyway.
 	# - The default value seems decent, but for worldgen mods that create larger landmasses and/or fewer rivers you will probably want to increase this.
+	#Default: 600
 	#Range: 16 ~ 16384
 	humiditySearchDistance = 600
 	#
@@ -214,6 +232,7 @@
 	# - This is not based on the resolution of humidity nor sampler so helps to provide a little random variation to the final result.
 	# - You'll probably want to keep this either fairly low (close to 0.0) or fairly high (close to 1.0), otherwise biome placement becomes very 'noisy', though
 	#   setting higher values might defeat the purpose of using this algorithm at all.
+	#Default: 0.1
 	#Range: 0.0 ~ 1.0
 	humidityBaseNoisePercent = 0.1
 	#
@@ -222,6 +241,7 @@
 	#   temperatures (e.g. Dark Forest).
 	# - This adjustment happens before humidityTempWeight but after everything else.
 	# - Setting to 0.0 will disable this function, though it won't provide any performance benefit and biome transitions will be (subjectively) worse.
+	#Default: 0.3
 	#Range: 0.0 ~ 1.0
 	humidityMiddleWeight = 0.3
 
@@ -232,14 +252,18 @@
 	#
 	#[climateSamplerResolution] is the accuracy or "resolution" for sampling the climate.
 	# - Currently only used by ocean/river search in the advanced humidity algorithm.
-	# - The default of -1 means automatic, which is the cube of humidityResolution. This seems to be the most logical balance between quality and performance - biome edges
+	# - The default of -2 is an automatic "square value of humidityResolution". This seems to be the most logical balance between quality and performance - biome edges
 	#   look natural with sporadic patches of other biomes potential to the nearby humidity/temperature values to make blending a bit more exciting.
+	# - A value of -1 is also possible, which was the old default; corresponds to the "cube value of humidityResolution" but it is VERY inaccurate and NOT recommended.
+	#   It's best to keep this value no higher than the square of humidityResolution, i.e. -2, which results in 16 when humidityResolution is the default 4.
+	# - If setting manually, for best results, keep it as a multiple of humidityResolution. Otherwise there may be weirdness or inaccuracies in biome placement.
 	# - Setting this to a value equal to humidityResolution will provide maximum accuracy but will become VERY expensive on CPU/worldgen time, though that might be desirable
 	#   if you want all biome edges to be smoother and defined with minimal biome 'patches'.
 	# - If you've raised humidityResolution (meaning less accuracy) for some performance, it might be useful to manually set this value to something closer to the new
 	#   humidityResolution rather than leaving on automatic; such a change could result in better overall smoothness without significant efficiency loss. Do note that
-	#   it's pointless to have this value lower than humidityResolution, though - all that will do is burn CPU time for no reason.'
-	#Range: -1 ~ 64
+	#   it's pointless to have this value lower than humidityResolution, though - all that will do is make the CPU work harder for no gain.
+	#Default: -2
+	#Range: -2 ~ 64
 	climateSamplerResolution = -1
 	#
 	#[climateSamplerShortcuts] will, if true, perform some shortcuts during climate sampling to make it much faster.
@@ -250,7 +274,49 @@
 	# - Enabling/disabling does technically result in changed world generation, but it's only in extremely specific circumstances and in tiny areas. Regardless, it will
 	#   still be saved to world config.
 	# - Highly recommended to keep enabled, unless you're using a mod that changes the biome parameters of rivers and/or oceans.
-	# - Note that, even if this is set to false, climate sampling for oceans will always be optimized by checking the continentalness noise only, since it's essentially a
-	#   core rule of ocean vs land.
+	# - This does include compatibility with Custom Biome Parameters, but ONLY if you've changed the weirdness params of Rivers or the continentalness params of Oceans.
+	#   If your parameter changes to rivers/oceans include other parameters, then you must disable this - otherwise it may result in false positives/negatives.
 	climateSamplerShortcuts = true
+
+[bandLimit]
+	#[sectionBandLimit] allows you to set a limit on the temperature bands generated; meaning that a fixed temperature will be used after X number of bands.
+	# - Can be useful for simulating or complementing world borders, and are accurate based on band size. For instance, if bandSize was 2048 (default), bandPositionShift
+	#   is 0.25 (default) and the bandLimitUpperValue was 2, then the upper "border" starts at 4096 blocks North (Z = -4096) - assuming vertical bands are not enabled.
+	#--------
+	#
+	#[bandLimitUpperCount] is used to set the "upper" limit of temperature bands.
+	# - This is for bands in the Northern direction, or the Eastern direction if using vertical temperature bands.
+	# - The default of 0 means disabled (no limit).
+	# - Requires a little bit of math since it DOES consider the current 'bandPositionShift' setting. For example, lets say you're using the default 'bandPositionShift'
+	#   value of 0.25 (where origin is in the temperate zone of 'northern hemisphere'), and you want to simulate a "real earth-like" world where there is only a single
+	#   "hot" band and two "cold" bands at the edges, you would set this value to 2, because the first "cold" band towards the North (or East) is 2 bands away.
+	#Default: 0
+	#Range: > 0
+	bandLimitUpperCount = 0
+	#
+	#[bandLimitUpperValue] is the forced temperature value for the upper temperature band limit.
+	# - This is for bands in the Northern direction, or the Eastern direction if using vertical temperature bands.
+	# - The default of -1.0 means "coldest".
+	# - For the example already given in bandLimitUpperCount, i.e. a value of 2 to simulate 'real-world and northern-hemisphere start', you will want to keep this on -1.0.
+	#Default: -1.0
+	#Range: -1.0 ~ 1.0
+	bandLimitUpperValue = -1.0
+	#
+	#[bandLimitLowerCount] is used to set the "lower" limit of temperature bands.
+	# - This is for bands in the Southern direction, or the Western direction if using vertical temperature bands.
+	# - The default of 0 means disabled (no limit).
+	# - Requires a little bit of math since it DOES consider the current 'bandPositionShift' setting. For example, if following the example already explained in
+	#   'bandLimitUpperCount' (i.e. simulate 'real-world and northern-hemisphere start'), you would set this to 6, because the first "cold" band towards the South (or West)
+	#   is 6 bands away.
+	#Default: 0
+	#Range: > 0
+	bandLimitLowerCount = 0
+	#
+	#[bandLimitLowerValue] is the forced temperature value for the lower temperature band limit.
+	# - This is for bands in the Southern direction, or the Western direction if using vertical temperature bands.
+	# - The default of -1.0 means "coldest".
+	# - For the example already given in bandLimitLowerCount, i.e. a value of 6 to simulate 'real-world and northern-hemisphere start', you will want to keep this on -1.0.
+	#Default: -1.0
+	#Range: -1.0 ~ 1.0
+	bandLimitLowerValue = -1.0
 
