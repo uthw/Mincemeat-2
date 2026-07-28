@@ -29,9 +29,9 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Rat pack spawn chance" = 0.2
 		#Range: > 0
-		"Minimum rat pack size" = 6
+		"Minimum rat pack size" = 2
 		#Range: > 0
-		"Maximum rat pack size" = 10
+		"Maximum rat pack size" = 5
 
 [tweaks]
 	#Chainmail armor increases the user's attack damage
