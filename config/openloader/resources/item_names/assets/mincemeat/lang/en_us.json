@@ -157,5 +157,12 @@
     "effect.fdbosses.sinner.description": "Committing too many of the currently sinful action results in instant death.",
     "effect.fdbosses.shocked.description": "Decreases outgoing damage by 25%.",
     "effect.fdbosses.knight.description": "Indicates an active fight against Malkuth. Replaced by Mark of a Coward during an attempt to flee.",
-    "effect.fdbosses.coward.description": "Causes instant death at the end of the effect's duration."
+    "effect.fdbosses.coward.description": "Causes instant death at the end of the effect's duration.",
+    "effect.sleeprework.liveliness.description": "Slows down the buildup of tiredness.",
+    "effect.sleeprework.drowsiness.description": "Accelerates the buildup of tiredness.",
+    "effect.netherman.manipulation.description": "Causes nearby piglins and zombified piglins to become hostile.",
+    "effect.netherman.fear.description": "This effect is incomprehensible to beings of your plane.",
+    "effect.netherman.excitement.description": "This effect is incomprehensible to beings of your plane.",
+    "effect.netherman.faith.description": "This effect is incomprehensible to beings of your plane.",
+    "effect.netherman.anxiety.description": "This effect is incomprehensible to beings of your plane."
 }
