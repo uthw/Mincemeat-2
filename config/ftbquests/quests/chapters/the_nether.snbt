@@ -1401,6 +1401,28 @@
 			x: -3.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			id: "4F4D87BE6991D88E"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "netherman:ghastly"
+					}
+				}
+				id: "5CD4D01F0EE9F360"
+				observe_type: 5
+				timer: 0L
+				title: "Ghastly"
+				to_observe: "netherman:ghastly"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
 	]
 	title: "Nether and End"
 }

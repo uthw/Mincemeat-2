@@ -145,7 +145,9 @@ ServerEvents.tags("entity_type", (event) => {
         "block_factorys_bosses:kraken",
         "block_factorys_bosses:sandworm",
         "block_factorys_bosses:underworld_knight",
-        "block_factorys_bosses:yeti"
+        "block_factorys_bosses:yeti",
+
+        "netherman:azazel"
     ];
 
     bossesAndMinions.forEach((boss) => {

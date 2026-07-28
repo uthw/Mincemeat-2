@@ -626,8 +626,8 @@
 				}
 			]
 			title: "Explore Nether structures"
-			x: 9.5d
-			y: -3.0d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
@@ -667,8 +667,8 @@
 				}
 			]
 			title: "Find the Soul Blacksmith"
-			x: 8.0d
-			y: -3.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["086E8054D516AFF4"]
@@ -1278,7 +1278,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
@@ -1313,8 +1313,8 @@
 				value: 1L
 			}]
 			title: "Wither"
-			x: 10.5d
-			y: -1.5d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3F79C220D098C816"]
@@ -1331,7 +1331,7 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -1366,7 +1366,7 @@
 				type: "structure"
 			}]
 			title: "Find the Stronghold"
-			x: 5.0d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
@@ -1398,7 +1398,7 @@
 				type: "dimension"
 			}]
 			title: "Go to the End"
-			x: 3.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -1934,7 +1934,7 @@
 				type: "structure"
 			}]
 			title: "I guess that works too"
-			x: 5.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
@@ -2084,7 +2084,7 @@
 				}
 			]
 			title: "Nether Ruby"
-			x: 11.0d
+			x: 11.5d
 			y: -3.5d
 		}
 		{
@@ -2112,8 +2112,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -2197,8 +2197,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -1.0d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1689F79F27FAF1AA"]
@@ -2245,7 +2245,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 13.5d
 			y: -3.5d
 		}
 		{
@@ -2271,7 +2271,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -2.5d
 		}
 		{
@@ -2298,8 +2298,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -2.0d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["044D8690E93C528B"]
@@ -2760,8 +2760,36 @@
 				type: "gamestage"
 			}]
 			title: "Kill More Bosses?"
-			x: 7.0d
-			y: -2.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["086E8054D516AFF4"]
+			description: ["Description forthcoming."]
+			id: "7FCAC33CFFA77295"
+			tasks: [{
+				icon: "netherman:voidnether_mid"
+				id: "677AEA0F6FB741BF"
+				structure: "netherman:mansion_nether"
+				title: "Mansion"
+				type: "structure"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7FCAC33CFFA77295"]
+			id: "0EB8C6816699ABBC"
+			tasks: [{
+				entity: "netherman:azazel"
+				icon: "netherman:azazel_trophy"
+				id: "4A09FF29ECE47198"
+				title: "The Divine Chariot Azazel"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -1.0d
 		}
 	]
 	title: "Dimensional Adventure"

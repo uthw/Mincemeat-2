@@ -90,7 +90,7 @@
 	#Range: 0.0 ~ 100.0
 	midasFireDamage = 8.0
 	#Ticks required near the boss to turn an item into gold (40 = 2 seconds)
-	#Range: 1 ~ 600
+	#Range: 1 ~ 2000
 	midasGoldTime = 40
 
 ["Azazel Prison Attack"]
@@ -103,4 +103,92 @@
 	#Maximum random height of the prison walls
 	#Range: 3 ~ 15
 	prisonMaxHeight = 6
+
+["Azazel Human Configuration"]
+	#Maximum health of Azazel Human
+	#Range: 100.0 ~ 10000.0
+	humanMaxHealth = 1000.0
+	#Movement speed of Azazel Human
+	#Range: 0.05 ~ 1.0
+	humanMovementSpeed = 0.25
+	#Knockback resistance (1.0 = completely immune)
+	#Range: 0.0 ~ 1.0
+	humanKnockbackResistance = 1.0
+
+["Azazel Human Attack Config"]
+	#Damage for the leg stomp attack
+	#Range: 0.0 ~ 200.0
+	humanStompDamage = 25.0
+	#Knockback strength for the leg stomp attack
+	#Range: 0.0 ~ 10.0
+	humanStompKnockback = 1.2
+	#Damage for the first scythe swing
+	#Range: 0.0 ~ 200.0
+	humanScythe1Damage = 15.0
+	#Knockback for the first scythe swing
+	#Range: 0.0 ~ 10.0
+	humanScythe1Knockback = 0.5
+	#Damage for the second scythe swing
+	#Range: 0.0 ~ 200.0
+	humanScythe2Damage = 25.0
+	#Knockback for the second scythe swing
+	#Range: 0.0 ~ 20.0
+	humanScythe2Knockback = 6.0
+	#Damage for the melee spear attack
+	#Range: 0.0 ~ 200.0
+	humanSpearMeleeDamage = 20.0
+	#Knockback for the melee spear attack
+	#Range: 0.0 ~ 20.0
+	humanSpearMeleeKnockback = 8.0
+	#Damage for the mid-range spear push attack
+	#Range: 0.0 ~ 200.0
+	humanSpearMidPushDamage = 10.0
+	#Knockback for the mid-range spear push attack
+	#Range: 0.0 ~ 20.0
+	humanSpearMidPushKnockback = 8.0
+	#Damage for the mid-range spear pull attack
+	#Range: 0.0 ~ 200.0
+	humanSpearMidPullDamage = 20.0
+	#Pull strength for the mid-range spear pull attack
+	#Range: 0.0 ~ 20.0
+	humanSpearMidPullKnockback = 5.0
+	#Damage dealt to players in the path of the charge
+	#Range: 0.0 ~ 200.0
+	humanChargeDamage = 30.0
+	#Knockback for the charge attack
+	#Range: 0.0 ~ 10.0
+	humanChargeKnockback = 1.5
+	#Damage for the scythe splash projectile
+	#Range: 0.0 ~ 200.0
+	humanSplashDamage = 20.0
+	#Damage for the ground spikes
+	#Range: 0.0 ~ 200.0
+	humanSpikeDamage = 10.0
+	#Wither effect duration (in ticks) for ground spikes. 100 = 5 seconds. 0 = disable.
+	#Range: 0 ~ 1200
+	humanSpikeWitherDuration = 100
+	#Maximum distance for melee attacks (blocks)
+	#Range: 1.0 ~ 50.0
+	humanMeleeAttackRadius = 2.0
+	#Maximum distance for mid-range attacks (blocks)
+	#Range: 1.0 ~ 50.0
+	humanMidAttackRadiusMax = 8.0
+	#Minimum distance for long-range attacks (blocks)
+	#Range: 1.0 ~ 50.0
+	humanLongAttackRadiusMin = 6.0
+	#Distance at which boss stops walking and starts attacking (blocks)
+	#Range: 1.0 ~ 50.0
+	humanMovementStopRadius = 8.0
+	#Damage for the flying spike projectiles
+	#Range: 0.0 ~ 200.0
+	humanProjectileSpikeDamage = 10.0
+	#Wither effect duration (in ticks) for flying spike projectiles. 100 = 5 sec.
+	#Range: 0 ~ 1200
+	humanProjectileSpikeWitherDuration = 100
+
+["NPC Doctor Config"]
+	#true = the Doctor will only give potions with effects from vanilla.false = it gives random effects from ANY installed mod
+	doctorVanillaPotionsOnly = false
+	#A list of mod IDs (namespaces) allowed to be given as potions by the Doctor if doctorVanillaPotionsOnly is true.
+	doctorAllowedModNamespaces = ["minecraft"]
 
