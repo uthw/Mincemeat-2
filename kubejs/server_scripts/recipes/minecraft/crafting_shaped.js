@@ -781,7 +781,7 @@ ServerEvents.recipes((event) => {
                 A: "art_of_forging:enigmatic_construct",
                 B: "mynethersdelight:powder_cannon",
                 C: "enigmaticlegacy:thicc_scroll",
-                D: "apotheosis:epic_material",
+                D: "apotheosis:uncommon_material",
             },
         ],
         [
@@ -809,7 +809,7 @@ ServerEvents.recipes((event) => {
             "enchantinginfuser:enchanting_infuser",
             [" A ", "BCB", "CDC"],
             {
-                A: "traveloptics:celestial_shard",
+                A: "bosses_of_mass_destruction:crystal_fruit",
                 B: "irons_spellbooks:magic_cloth",
                 C: "ars_nouveau:sourcestone",
                 D: "minecraft:enchanting_table",
@@ -819,7 +819,7 @@ ServerEvents.recipes((event) => {
             "enchantinginfuser:advanced_enchanting_infuser",
             [" A ", "BCB", "CDC"],
             {
-                A: "bosses_of_mass_destruction:crystal_fruit",
+                A: "forbidden_arcanus:mundabitur_dust",
                 B: "alexscaves:metal_swarf",
                 C: "aether_redux:veridium_ingot",
                 D: "enchantinginfuser:enchanting_infuser",
