@@ -57,7 +57,6 @@ JEIEvents.hideItems((event) => {
         "windswept:glazed_gingerbread_brick_stairs",
         "windswept:glazed_gingerbread_brick_slab",
         "windswept:glazed_gingerbread_brick_wall",
-        /environmental:.*pine(?!cone_golem).*/,
         "environmental:bluebell",
         "v_slab_compat:windswept/gingerbread_brick_vertical_slab",
         "v_slab_compat:windswept/glazed_gingerbread_brick_vertical_slab",
@@ -83,7 +82,21 @@ JEIEvents.hideItems((event) => {
         "starcatcher:true_blue_bottle",
         "starcatcher:withered_bottle",
         "starcatcher:waterlogged_bottle",
+
         "architects_palette:rotten_flesh_block",
+
+        // Unobtainable wood types
+        /environmental:.*pine(?!cone_golem).*/,
+        /environmental:.*willow.*/,
+        /quark:.*azalea.*/,
+        /caverns_and_chasms:.*azalea.*/,
+        /biomeswevegone:.*sakura.*/,
+        /biomeswevegone:.*maple.*/,
+        /biomeswevegone:.*aspen.*/,
+        /biomeswevegone:.*holly.*/,
+        /biomeswevegone:.*witch_hazel.*/,
+        /biomeswevegone:.*mahogany.*/,
+        /biomeswevegone:.*pine.*/,
     ];
 
     items.forEach((item) => {
