@@ -492,5 +492,13 @@
             "cataclysm:deepling_warlock"
         ],
         "result": "deny"
+    },
+    {
+        "mob": "minecraft:wither_skeleton",
+        "structure": "betterfortresses:fortress",
+        "customevent": "replace_with_guzzler",
+        "when": "finalize",
+        "random": 0.15,
+        "result": "deny_with_actions"
     }
 ]

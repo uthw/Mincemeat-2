@@ -1423,6 +1423,28 @@
 			x: 2.5d
 			y: 2.0d
 		}
+		{
+			description: ["Taking a little inspiration from a certain Pokemon, this massive creature attacks by shaking the ground and summoning fire slimes (not to be confused with magma cubes)."]
+			id: "72E7F8DC9DAEE128"
+			invisible: true
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "opposing_force:guzzler"
+					}
+				}
+				id: "71270EBD5421F675"
+				observe_type: 5
+				timer: 0L
+				title: "Guzzler"
+				to_observe: "opposing_force:guzzler"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
 	]
 	title: "Nether and End"
 }

@@ -84,6 +84,9 @@ ServerEvents.tags("worldgen/biome", (event) => {
     event.remove("ars_additions:has_structure/ruined_portal", "minecraft:river");
 
     event.add("caverns_and_chasms:has_feature/ore_silver", "#minecraft:is_overworld")
+
+    event.removeAll("opposing_force:has_monster/dicer");
+    event.removeAll("opposing_force:has_monster/guzzler");
 });
 
 // towers of the wild modded compat with worldgen mods
