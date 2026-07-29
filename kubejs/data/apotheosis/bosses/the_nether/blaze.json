@@ -12,8 +12,8 @@
 	"dimensions": [
 		"minecraft:the_nether"
 	],
-	"min_rarity": "common",
-	"max_rarity": "common",
+	"min_rarity": "uncommon",
+	"max_rarity": "uncommon",
 	"stats": {
 		"common": {
 			"enchant_chance": 0.75,
