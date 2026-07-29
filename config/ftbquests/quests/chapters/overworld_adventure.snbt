@@ -531,15 +531,14 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2150984E9EF5452C"]
+			dependencies: [
+				"2150984E9EF5452C"
+				"36588E4FE773FA05"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Frostmaw only drops an Ancient Axe Head, but it'll also drop its Frost Core if it had it when it died."]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "mowziesmobs:ice_crystal"
 				tag: {
 					Damage: 0
