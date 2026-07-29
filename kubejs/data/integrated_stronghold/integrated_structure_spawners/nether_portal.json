@@ -1,0 +1,16 @@
+{
+  "mobs": [
+      {
+          "name": "minecraft:skeleton",
+          "weight": 10
+      },
+      {
+          "name": "eidolon:giant_skeleton",
+          "weight": 5
+      },
+      {
+          "name": "eidolon:wraith",
+          "weight": 10
+      }
+  ]
+}

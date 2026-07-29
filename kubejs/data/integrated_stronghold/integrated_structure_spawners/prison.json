@@ -1,0 +1,32 @@
+{
+  "mobs": [
+      {
+          "name": "minecraft:skeleton",
+          "weight": 10
+      },
+      {
+          "name": "minecraft:zombie",
+          "weight": 10
+      },
+      {
+          "name": "quark:forgotten",
+          "weight": 5
+      },
+      {
+          "name": "opposing_force:dicer",
+          "weight": 20
+      },
+      {
+          "name": "graveyard:ghoul",
+          "weight": 3
+      },
+      {
+          "name": "graveyard:nightmare",
+          "weight": 3
+      },
+      {
+          "name": "graveyard:acolyte",
+          "weight": 3
+      }
+  ]
+}

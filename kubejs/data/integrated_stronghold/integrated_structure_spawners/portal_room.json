@@ -1,0 +1,12 @@
+{
+  "mobs": [
+      {
+          "name": "quark:forgotten",
+          "weight": 15
+      },
+      {
+          "name": "opposing_force:dicer",
+          "weight": 15
+      }
+  ]
+}

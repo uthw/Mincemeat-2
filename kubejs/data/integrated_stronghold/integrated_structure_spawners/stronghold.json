@@ -1,0 +1,32 @@
+{
+  "mobs": [
+      {
+          "name": "minecraft:skeleton",
+          "weight": 10
+      },
+      {
+          "name": "minecraft:zombie",
+          "weight": 10
+      },
+      {
+          "name": "quark:forgotten",
+          "weight": 5
+      },
+      {
+          "name": "opposing_force:dicer",
+          "weight": 30
+      },
+      {
+          "name": "opposing_force:frowzy",
+          "weight": 10
+      },
+      {
+          "name": "opposing_force:trembler",
+          "weight": 10
+      },
+      {
+          "name": "eidolon:zombie_brute",
+          "weight": 5
+      }
+  ]
+}
