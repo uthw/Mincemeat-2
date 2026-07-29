@@ -294,36 +294,6 @@
 		}
 		{
 			dependencies: ["2BE6B05790E5A2DE"]
-			description: [
-				"Report issues to this modpack's GitHub page first. Do not report mod-related problems to the original mod developer before I confirm it's not related to the modpack."
-				""
-				"Before reporting, be sure of the following things:"
-				""
-				"- You &cdid not add mods&f to the pack, &cespecially&f Optifine."
-				"- The &cpower limit/clock speeds&r on your computer's hardware are set to the default/manufacturer recommended levels."
-				"- Your allocated RAM is between &c6 and 10 GB&r. You typically set this through this instance's settings."
-				""
-				"&dWell, that was a pretty boring secret...&r"
-				"{@pagebreak}"
-				"&dHello!&r"
-				""
-				"Many other quests have other pages with more information like what you see here."
-				""
-				"Another disclaimer: a lot of quests are directly ripped from the &coriginal Mincemeat&r. These may have &cless cohesive descriptions&r or &cinconsistent progression&r design compared to the &cMincemeat 2&r quests. "
-			]
-			id: "5220B018D9E7F614"
-			subtitle: "What could it be?"
-			tasks: [{
-				id: "512B8167BBCB6EB2"
-				title: "Reporting issues"
-				type: "checkmark"
-			}]
-			title: "The first arcane secret"
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2BE6B05790E5A2DE"]
 			description: ["Tip: you can pick some blocks and mobs up and carry them around by sneaking and interacting with them. This includes most tile entities and passive mobs, as long as they aren't too big."]
 			icon: {
 				Count: 1
@@ -529,37 +499,6 @@
 			title: "Tips from a Survivor: #1"
 			x: -2.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["2BE6B05790E5A2DE"]
-			description: [
-				"The pack is far from complete! I'd estimate around 65% right now."
-				""
-				"Quests, recipes, textures, other customization, lots of things aren't done."
-				""
-				"Plus, here's a list of major mods that haven't been ported to 1.20.x &7(and were important in Mincemeat 1)&r"
-				""
-				"- Unqiue Enchantments"
-				"- Astral Sorcery"
-				"- Hats"
-				"- Infernal Expansion"
-				"- Atum 2"
-				"- Fish's Undead Rising"
-				""
-				"I hope this list gets smaller, but it will be a matter of months (maybe even years in Astral Sorcery's case) before it's empty!"
-				""
-				"&7It's been fun for me crossing mods off this list :)&r"
-				""
-				"&7It's been a while since I was last able to remove one of these..."
-			]
-			id: "0744F31452AD387B"
-			tasks: [{
-				id: "6F793B05394C0161"
-				title: "Disclaimer"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["50D43AFA6402629F"]
@@ -877,8 +816,8 @@
 				title: "JEI"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["50D43AFA6402629F"]
@@ -2844,11 +2783,6 @@
 				type: "item"
 			}]
 			tasks: [
-				{
-					id: "516A3B1413812712"
-					item: "rechiseled:chisel"
-					type: "item"
-				}
 				{
 					id: "3B90AE3D65F1ECBA"
 					item: "minecraft:stonecutter"
