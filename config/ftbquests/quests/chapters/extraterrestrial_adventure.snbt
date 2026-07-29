@@ -2780,6 +2780,12 @@
 		{
 			dependencies: ["7FCAC33CFFA77295"]
 			id: "0EB8C6816699ABBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "076272677E2BE847"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
 			tasks: [{
 				entity: "netherman:azazel"
 				icon: "netherman:azazel_trophy"
