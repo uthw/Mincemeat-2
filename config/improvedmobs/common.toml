@@ -220,19 +220,19 @@
 	"Additional Equipment Chance" = 0.35
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Equipment Addition" = 0.24
+	"Equipment Addition" = 0.6
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
 	"Weapon Chance" = 0.05
 	#Adds additional x*difficulty% to base weapon chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Weapon Chance Add" = 0.3
+	"Weapon Chance Add" = 0.6
 	#Base chance for each armor pieces to get enchanted
 	#Range: 0.0 ~ 1.0
 	"Enchanting Chance" = 0.2
 	#Adds additional x*difficulty% to base enchanting chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Enchanting Addition" = 0.2
+	"Enchanting Addition" = 0.4
 	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
 	"Enchanting Calc" = ["0-5-15", "25-10-24", "50-12-28", "75-18-30", "200-22-34", "250-25-38"]
 	#Chance for mobs to have an item in offhand
@@ -288,14 +288,14 @@
 	"Max Magic Resistance" = 0.4
 	#Projectile Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Projectile Damage Increase" = 1.2
+	"Projectile Damage Increase" = 1.5
 	#Projectile damage will be multiplied by maximum of this
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Projectile Damage" = 2.5
+	"Max Projectile Damage" = 4.5
 	#Explosion Damage will be multiplied by 1 + difficulty*0.003*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Explosion Damage Increase" = 1.0
+	"Explosion Damage Increase" = 1.75
 	#Explosion damage will be multiplied by maximum of this
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Explosion Damage" = 1.75
+	"Max Explosion Damage" = 2.0
 

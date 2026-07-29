@@ -54,6 +54,18 @@ const bossQuestIds = [
     "0CB83266473448BA",
 ];
 
+const questsThatAddDifficulty = {
+    "00294FF7CDCA91F0": 20, // Wroughtnaut
+    "4493D9650B5D1F71": 5, // Conjurer
+    "32B58F6F3B729477": 15, // Any 1 everbright, everdawn, or prog overworld boss
+    "73D3852DADAD3259": 25, // Any combination of bosses that'll get you to mine cells
+    "47F8DC09096B0991": 30, // Concierge
+    "520A629F81C286FF": 20, // Netherite Monstrosity
+    "49E8090E1AA53E7F": 15, // Tyros (optional)
+    "3F79C220D098C816": 15, // 15 Bosses
+    "20B6859C7A0C1D09": 30, // Ender Dragon
+};
+
 const syncQuestId = "66FF0F6B5508C690"; // Placeholder checkmark quest that can be used by players on old worlds to refresh their boss kill count
 const minBossesForEndAccess = 15;
 
@@ -80,13 +92,29 @@ function refreshBossKillCount(player, shouldTell) {
     pData.putInt("boss_kills", bossKills);
 
     if (bossKills % 5 === 0) {
-        level.server.runCommandSilent(`kubejs stages add ${player.username} killed_${bossKills}_bosses`);
+        level.server.runCommandSilent(
+            `kubejs stages add ${player.username} killed_${bossKills}_bosses`,
+        );
     }
 
     if (bossKills >= minBossesForEndAccess) {
         level.server.runCommandSilent(`kubejs stages add ${player.username} killed_enough_bosses`);
     } else {
-        level.server.runCommandSilent(`kubejs stages remove ${player.username} killed_enough_bosses`);
+        level.server.runCommandSilent(
+            `kubejs stages remove ${player.username} killed_enough_bosses`,
+        );
+    }
+
+    // Recalculate player's difficulty
+    level.server.runCommandSilent(`sh_difficulty set ${player.username} 0`);
+    for (let questId in questsThatAddDifficulty) {
+        let questObj = FTBQuests.getObject(level, questId);
+        if (questData.isCompleted(questObj)) {
+            let difficultyToAdd = questsThatAddDifficulty[questId];
+            level.server.runCommandSilent(
+                `sh_difficulty add ${player.username} ${difficultyToAdd}`,
+            );
+        }
     }
 }
 
@@ -113,9 +141,18 @@ FTBQuestsEvents.completed((event) => {
             refreshBossKillCount(player, true);
         });
     }
+
+    if (questsThatAddDifficulty[completedQuestId]) {
+        let difficultyToAdd = questsThatAddDifficulty[completedQuestId];
+        event.onlineMembers.forEach((player) => {
+            event.server.runCommandSilent(
+                `sh_difficulty add ${player.username} ${difficultyToAdd}`,
+            );
+        });
+    }
 });
 
-PlayerEvents.loggedIn(event => {
+PlayerEvents.loggedIn((event) => {
     let player = event.player;
     refreshBossKillCount(player, false);
-})
+});

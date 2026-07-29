@@ -1,17 +1,18 @@
 {
-    "startingValue": 0,
+    "startingValue": 5,
     "minValue": 0,
-    "maxValue": 220,
+    "maxValue": 180,
     "changePerSecond": 0.0,
     "mode": {
-        "type": "distance",
+        "type": "average",
         "distance": {
-            "distanceFactor": 0.019
+            "distanceFactor": 0.0
         },
         "average": {
-            "radius": 128
+            "radius": 64
         },
-        "distanceFactor": 0.019
+        "radius": 64,
+        "distanceFactor": 0.0
     },
     "groupBonus": "1 + 1.5 * (areaPlayerCount - 1)",
     "groupBonusRadius": 96,
