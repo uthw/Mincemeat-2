@@ -37,7 +37,6 @@ ServerEvents.recipes((event) => {
         "create:millstone",
         "create:deployer",
         "create:depot",
-        "create:andesite_alloy",
         "darkutils:charm_portal",
         "darkutils:blank_plate",
         "iceandfire:dragon_flute",
@@ -205,7 +204,9 @@ ServerEvents.recipes((event) => {
         "irons_restrictions:legendary_upgrade",
         "irons_restrictions:common_upgrade",
         "irons_restrictions:uncommon_upgrade",
-        "malum:ring_of_manaweaving"
+        "malum:ring_of_manaweaving",
+        "autumnity:syrup_bottle",
+        "autumnity:maple_cookie"
     ];
 
     toRemove.forEach((item) => {
