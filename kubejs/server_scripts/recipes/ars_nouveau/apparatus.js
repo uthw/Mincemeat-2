@@ -273,7 +273,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: "actuallyadditions:coffee_beans",
-            reagent: "neapolitan:adzuki_beans",
+            reagent: "rusticdelight:coffee_beans",
             inputs: ["minecraft:cocoa_beans", "minecraft:blaze_powder", "thermal:basalz_powder"],
         },
         {
