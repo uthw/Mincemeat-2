@@ -1,0 +1,17 @@
+[
+    {
+        "type": "melee_weapon",
+        "name": "gauntlet_of_guard",
+        "stamina_cost": 8
+    },
+    {
+        "type": "melee_weapon",
+        "name": "gauntlet_of_bulwark",
+        "stamina_cost": 8
+    },
+    {
+        "type": "melee_weapon",
+        "name": "gauntlet_of_maelstrom",
+        "stamina_cost": 8
+    }
+]
