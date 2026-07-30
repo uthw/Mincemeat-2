@@ -1749,34 +1749,6 @@
 		}
 		{
 			description: [
-				"Moles are the residents of underground ruins, located inside buildings. Being blind, these cubic mammals depend on their sense of smell. This would give them something in common with their underground contemporaries known as Wardens. "
-				""
-				"Unlike Wardens though, moles are completely docile and even eat pesky silverfish. If you feed these silverfish (in item form) to a mole and tuff dirt is nearby, the mole will burrow into the ground, creating a hole which occasionally generates Mining Pouches."
-				""
-				"I've learned that Mining Pouches are sort of like the bounties offered by villagers on the surface. Collect all the requested items, put them in the pouch, and return them to the hole to receive a reward."
-			]
-			id: "3F632F1140716DBC"
-			invisible: true
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "alexsmobs:tab_icon"
-					tag: {
-						DisplayEntityType: "galosphere:mole"
-					}
-				}
-				id: "7C99B603261A43AB"
-				observe_type: 5
-				timer: 0L
-				title: "Mole"
-				to_observe: "galosphere:mole"
-				type: "observation"
-			}]
-			x: -4.5d
-			y: 3.5d
-		}
-		{
-			description: [
 				"These slimy nuisances are found wherever and attack by bashing into you like any other unarmed creature."
 				""
 				"Slugs can be found in varying sizes, with each size having a different amount of health. Thankfully, all slugs are slow, predictable, and easy to outrun. "
