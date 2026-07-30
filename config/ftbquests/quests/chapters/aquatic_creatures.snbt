@@ -752,24 +752,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["63387AE7F917C7DD"]
-			id: "594C6605006BC746"
-			shape: "rsquare"
-			tasks: [{
-				id: "61D183F42EB8B677"
-				item: {
-					Count: 1
-					id: "alexsmobs:squid_grapple"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
-		}
-		{
 			description: [
 				"This dead fish has come back from the dead and now swims around wrecked ships underwater or chases after people in boats. "
 				""
