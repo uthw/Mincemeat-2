@@ -72,7 +72,7 @@
 	#Range: 0.0 ~ 999.0
 	soul_knife_cost = 0.8
 	#Range: 0.0 ~ 999.0
-	fist_cost = 0.5
+	fist_cost = 4.0
 
 ["Thrown Weapon Cost"]
 	#The default stamina cost for thrown weapons like tridents while right click is held. Using a value of 0 will disable this integration.

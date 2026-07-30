@@ -1,0 +1,12 @@
+[
+    {
+        "type": "melee_weapon",
+        "name": "cestus",
+        "stamina_cost": 1
+    },
+    {
+        "type": "melee_weapon",
+        "name": "studded_cestus",
+        "stamina_cost": 1
+    }
+]   
