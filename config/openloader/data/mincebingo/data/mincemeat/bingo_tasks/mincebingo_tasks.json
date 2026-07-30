@@ -82,13 +82,6 @@
         {
             "type": "bongo.item",
             "value": {
-                "item": "grapplemod:motorupgradeitem"
-            },
-            "weight": 10
-        },
-        {
-            "type": "bongo.item",
-            "value": {
                 "item": "forbidden_arcanus:nipa"
             },
             "weight": 10
