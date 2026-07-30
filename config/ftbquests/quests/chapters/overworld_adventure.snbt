@@ -507,8 +507,12 @@
 				"I would suggest using an Iron Blacksmith Gavel since it's easy to make and deals more than 18 damage on a critical with no setup. Some spells can also exceed 30 damage early game, if you get lucky."
 				""
 				"You'll also want at least iron-tier armor. Any less and you risk being one-tapped by the Wroughtnaut's shockwave or 3-hit combo attacks."
+				"{@pagebreak}"
+				"The Wroughtnaut drops its axe and helmet. You also get an important choice of reward when you beat it for the first time. You'll get to choose a heart container or stamina vessel every time you kill a major boss - make sure to claim it in the quests!"
 				""
-				"The Wroughtnaut drops its axe and helmet. You also get a heart container when you beat it the first time. You'll get a heart container every time you kill a major boss - make sure to claim it in the quests!"
+				"The Wroughtnaut's death causes it to release its power into the world, permanently strengthening your foes. This enhances their health, damage, and equipment, but also makes them drop more XP! "
+				""
+				"Slaying other important bosses will have the same effect, which is indicated by a yellow message in your chat. This only happens once for each boss."
 			]
 			id: "00294FF7CDCA91F0"
 			rewards: [{
