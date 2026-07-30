@@ -183,6 +183,10 @@ JEIEvents.information((event) => {
         {
             item: "malum:astral_weave",
             desc: "Dropped by phantoms killed by spirit-harvesting weapons."
+        },
+        {
+            item: "alexsmobs:lost_tentacle",
+            desc: "May be obtained when a Cachalot Whale kills a Giant Squid."
         }
     ];
 

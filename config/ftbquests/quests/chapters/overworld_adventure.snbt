@@ -5320,7 +5320,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: -4.0d
 		}
 		{
@@ -5343,7 +5343,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: -4.0d
 		}
 		{
@@ -5415,6 +5415,29 @@
 			}]
 			x: 4.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["3DE7C32A7F8C8E31"]
+			id: "58C95D16693CF932"
+			rewards: [{
+				count: 2
+				id: "1DBB3C42DF96EF9C"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F7A030238DB823C"
+				item: {
+					Count: 1
+					id: "alexsmobs:squid_grapple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
 		}
 	]
 	title: "Overworld Adventure"
