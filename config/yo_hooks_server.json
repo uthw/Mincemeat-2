@@ -1,0 +1,6 @@
+{
+  "decreaseSatiety": 1.1,
+  "breakingFragileBlocks": true,
+  "blocksBlacklist": [],
+  "whitelistMode": false
+}
