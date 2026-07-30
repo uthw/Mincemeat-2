@@ -322,7 +322,7 @@ ServerEvents.highPriorityData((event) => {
             name: "metal/iceandfire_ice_dragonsteel",
             durability: 16000,
             primary: 17,
-            effects: { "irons_spellbooks:freeze": 5 },
+            effects: { "secrets_of_forging_revelations:freezing": 5 },
         },
         {
             name: "metal/iceandfire_fire_dragonsteel",
@@ -458,13 +458,13 @@ ServerEvents.highPriorityData((event) => {
                 "undergardenpatch/frostnip": -1,
             },
             effects: {
-                "irons_spellbooks:freeze": 10,
+                "secrets_of_forging_revelations:freezing": 10,
             },
         },
         {
             name: "socket/socket_undergarden_froststeel",
             effects: {
-                "irons_spellbooks:freeze": 5,
+                "secrets_of_forging_revelations:freezing": 5,
             },
         },
         { name: "metal/undergarden_forgotten_metal", durability: 3752 },
@@ -653,7 +653,7 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "socket/permafrost_shard",
             effects: {
-                "irons_spellbooks:freeze": 8,
+                "secrets_of_forging_revelations:freezing": 8,
             },
             toolEfficiency: 0, // nerfing it since it has a lot of effects
         },
@@ -669,12 +669,18 @@ ServerEvents.highPriorityData((event) => {
         {
             name: "rod/frosted_helve",
             effects: {
-                "irons_spellbooks:freeze": 5,
+                "secrets_of_forging_revelations:freezing": 5,
             },
             attributes: {
                 "irons_spellbooks:max_mana": 0,
             },
             durability: 0,
+        },
+        {
+            name: "bone/frozen_bone",
+            effects: {
+                "secrets_of_forging_revelations:freezing": 5,
+            },
         },
 
         // Tetrnomicon 1.6.0
@@ -697,7 +703,7 @@ ServerEvents.highPriorityData((event) => {
             name: "bone/alexsmobs_froststalker_horn",
             durability: 1024,
             effects: {
-                "irons_spellbooks:freeze": 5,
+                "secrets_of_forging_revelations:freezing": 5,
             },
         },
         {

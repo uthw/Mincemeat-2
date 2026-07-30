@@ -1,0 +1,86 @@
+{
+    "replace": true,
+    "slots": ["bow/riser"],
+    "tweakKey": "tetra:bow/extended_rest",
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "durability": 10,
+            "effects": {
+                "multishot": [2, 10]
+            },
+            "extract": {
+                "availableTextures": ["default"],
+                "durability": 0.2,
+                "glyph": {
+                    "textureX": 128,
+                    "textureY": 112
+                },
+                "models": [
+                    {
+                        "location": "tetra:item/module/bow/riser/extended_rest/",
+                        "type": "static"
+                    }
+                ],
+                "primaryEffects": {
+                    "multishot": [0.1, 0.9],
+                    "tetra:draw_speed": 0.03
+                },
+                "secondaryAttributes": {
+                    "tetra:draw_speed": 0.075
+                },
+                "tertiaryEffects": {
+                    "multishot": [0, -1],
+                    "tetra:draw_speed": -0.05
+                }
+            },
+            "integrity": -1,
+            "key": "extended_rest/",
+            "materials": ["tetra:wood/", "tetra:metal/", "tetra:bone/"]
+        },
+        {
+            "durability": 10,
+            "effects": {
+                "multishot": [2, 5],
+                "tetra:draw_speed": 0.25
+            },
+            "extract": {
+                "availableTextures": ["default"],
+                "durability": 0.2,
+                "glyph": {
+                    "textureX": 128,
+                    "textureY": 112
+                },
+                "models": [
+                    {
+                        "location": "tetra:item/module/bow/riser/extended_rest/",
+                        "type": "static"
+                    }
+                ]
+            },
+            "integrity": -1,
+            "key": "extended_rest/",
+            "materials": ["tetra:rod/stick"]
+        },
+        {
+            "durability": 10,
+            "effects": {
+                "multishot": [4, 20]
+            },
+            "glyph": {
+                "textureX": 128,
+                "textureY": 112,
+                "tint": "bolt_glyph"
+            },
+            "integrity": -1,
+            "key": "extended_rest/bolt",
+            "models": [
+                {
+                    "location": "tetra:item/module/bow/riser/extended_rest/bolt",
+                    "tint": "bolt",
+                    "type": "static"
+                }
+            ]
+        }
+    ]
+}
