@@ -856,7 +856,7 @@ ServerEvents.recipes((event) => {
             "quark:soul_bead",
         ],
         [
-            { output: "dragonseeker:epic_dragonseeker" },
+            { output: "iceandfire:epic_dragon_seeker" },
             "minecraft:nether_star",
             "cataclysm:black_steel_ingot",
         ],
@@ -1155,6 +1155,11 @@ ServerEvents.recipes((event) => {
             {},
             "create:bar_of_chocolate",
             "#supplementaries:chocolate_bars"
+        ],
+        [
+            {},
+            "autumnity:syrup_bottle",
+            "rusticdelight:syrup"
         ]
     ];
 

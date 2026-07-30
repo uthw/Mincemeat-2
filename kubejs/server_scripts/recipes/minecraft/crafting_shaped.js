@@ -1289,12 +1289,11 @@ ServerEvents.recipes((event) => {
             },
         ],
         [
-            "dragonseeker:dragonseeker",
-            ["  A", "CB ", "B  "],
+            "iceandfire:dragon_seeker",
+            [" A ", " B ", " B "],
             {
                 A: "#iceandfire:dragon_skulls",
                 B: "caverns_and_chasms:necromium_ingot",
-                C: "alexscaves:bioluminessence",
             },
         ],
         [

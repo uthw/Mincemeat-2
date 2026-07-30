@@ -206,7 +206,8 @@ ServerEvents.recipes((event) => {
         "irons_spellbooks:boreal_blade",
         "aquaculture:gold_nugget_from_gold_fish",
         "create:crafting/materials/andesite_alloy",
-        "create:crafting/materials/andesite_alloy_from_zinc"
+        "create:crafting/materials/andesite_alloy_from_zinc",
+        "iceandfire:dragonseeker"
     ];
 
     toRemove.forEach((recipeId) => {
