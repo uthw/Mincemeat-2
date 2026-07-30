@@ -2913,6 +2913,11 @@
 					title: "Create Copycats"
 					type: "item"
 				}
+				{
+					id: "112E225F004789A9"
+					item: "quark:trowel"
+					type: "item"
+				}
 			]
 			title: "Interior and Exterior Decoration"
 			x: 1.5d
