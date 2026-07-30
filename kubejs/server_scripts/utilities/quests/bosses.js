@@ -148,6 +148,7 @@ FTBQuestsEvents.completed((event) => {
             event.server.runCommandSilent(
                 `sh_difficulty add ${player.username} ${difficultyToAdd}`,
             );
+            player.tell(Text.of("The boss's defeat has empowered your foes...").yellow());
         });
     }
 });
