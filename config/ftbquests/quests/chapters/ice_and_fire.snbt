@@ -69,20 +69,6 @@
 		{
 			description: ["Has a few purposes: crafting and upgrading the bestiary. Can be found in village chests."]
 			id: "28998807CC3D6DF6"
-			rewards: [{
-				count: 3
-				id: "42ACA6D876F9CDFF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "iceandfire:silver_ingot"
-				}
-				type: "item"
-			}]
 			subtitle: "Princess diaries"
 			tasks: [{
 				id: "381314F05EAA5161"
@@ -642,31 +628,25 @@
 				"Adds 20 hunger to your dragon. Dragon hunger decreases very slowly over time but it's still a good idea to check on it every once in a while to make sure it won't starve."
 			]
 			id: "712ADB4D3091E623"
-			rewards: [
-				{
-					id: "7A4467D988966264"
-					type: "custom"
-				}
-				{
-					id: "77F194C5A531DB91"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:mending"
-								lvl: 1s
-							}]
+			rewards: [{
+				id: "77F194C5A531DB91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					type: "item"
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "Looks nutritious."
 			tasks: [{
 				id: "1834AAEC69C594B0"
@@ -2439,7 +2419,6 @@
 		}
 		{
 			dependencies: ["6599F5CE69F334E8"]
-			description: ["Rare drop from ghosts"]
 			id: "69C947520BF94B87"
 			tasks: [{
 				id: "75F87AEF90AF37FF"
@@ -2477,6 +2456,17 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F35C708FA977DE1"]
+			id: "15CE26F16213CD85"
+			tasks: [{
+				id: "0CC0646203C4A31F"
+				item: "iceandfire:dragon_seeker"
+				type: "item"
+			}]
+			x: -3.0d
 			y: 2.0d
 		}
 	]
