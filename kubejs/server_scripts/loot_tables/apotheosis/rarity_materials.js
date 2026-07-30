@@ -19,7 +19,11 @@ function getRarityMatTier(player) {
     // ES5 strikes again
     if (stages.some((stage) => stage === mythicStage)) return "apotheosis:mythic_material";
     if (stages.some((stage) => stage === epicStage)) return "apotheosis:epic_material";
-    if (stages.some((stage) => stage === rareStage)) return "apotheosis:rare_material";
+    if (
+        stages.some((stage) => stage === rareStage) &&
+        stages.some((stage) => stage === uncommonStage)
+    )
+        return "apotheosis:rare_material";
     if (stages.some((stage) => stage === uncommonStage)) return "apotheosis:uncommon_material";
 
     return "apotheosis:common_material";
@@ -128,19 +132,15 @@ EntityEvents.death((event) => {
 });
 
 LootJS.modifiers((event) => {
-    event
-        .addLootTableModifier(/.*chests.*/)
-        .apply((ctxt) => {
-            console.log("Modifying chest loot tables for rarity material drops");
-            let player = ctxt.player;
-            console.log(`Loot context player: ${player}`);
-            if (!player) return;
+    event.addLootTableModifier(/.*chests.*/).apply((ctxt) => {
+        let player = ctxt.player;
+        if (!player) return;
 
-            if (Math.random() > 0.02) return;
+        if (Math.random() > 0.02) return;
 
-            let dropItem = getRarityMatTier(player);
+        let dropItem = getRarityMatTier(player);
 
-            let count = Math.floor(Math.random() * 3) + 1; // 1 to 3 dropped
-            ctxt.addLoot(Item.of(dropItem, count));
-        });
+        let count = Math.floor(Math.random() * 3) + 1; // 1 to 3 dropped
+        ctxt.addLoot(Item.of(dropItem, count));
+    });
 });
