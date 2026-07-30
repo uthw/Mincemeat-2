@@ -578,12 +578,12 @@
 	add_diamond_weapons_to_end_city = true
 	#Chance for Zombies to spawn with Iron Melee Weapons on all difficulties apart from Hard and Hardcore
 	#Range: 0.0 ~ 1.0
-	zombie_with_melee_spawn_chance_normal = 0.05000000074505806
+	zombie_with_melee_spawn_chance_normal = 0.0
 	#Chance for Zombies to spawn with Iron Melee Weapons on Hard or Hardcore difficulty
 	#Range: 0.0 ~ 1.0
-	zombie_with_melee_spawn_chance_hard = 0.25
+	zombie_with_melee_spawn_chance_hard = 0.0
 	#Set to true to disable spawning a Zombie with any weapons from this mod
-	disable_spawning_zombie_with_weapon = false
+	disable_spawning_zombie_with_weapon = true
 	#Chance for Skeletons to spawn with various Longbows on all difficulties apart from Hard and Hardcore
 	#Range: 0.0 ~ 1.0
 	skeleton_with_longbow_spawn_chance_normal = 0
@@ -596,20 +596,20 @@
 	disable_new_head_drops = false
 	#Chance for Piglins and Piglin Brutes to spawn with Golden Melee Weapons on all difficulties apart from Hard and Hardcore
 	#Range: 0.0 ~ 1.0
-	piglin_with_melee_spawn_chance_normal = 0.05000000074505806
+	piglin_with_melee_spawn_chance_normal = 0.0
 	#Chance for Piglins and Piglin Brutes to spawn with Golden Melee Weapons on Hard or Hardcore difficulty
 	#Range: 0.0 ~ 1.0
-	piglin_with_melee_spawn_chance_hard = 0.25
+	piglin_with_melee_spawn_chance_hard = 0.0
 	#Set to true to disable spawning a Piglin or Piglin Brute with any weapons from this mod
-	disable_spawning_piglin_with_weapon = false
+	disable_spawning_piglin_with_weapon = true
 	#Chance for Wither Skeletons to spawn with Stone Melee Weapons on all difficulties apart from Hard and Hardcore
 	#Range: 0.0 ~ 1.0
-	wither_skeleton_with_melee_spawn_chance_normal = 0.05000000074505806
+	wither_skeleton_with_melee_spawn_chance_normal = 0.0
 	#Chance for Wither Skeletons to spawn with Stone Melee Weapons on Hard or Hardcore difficulty
 	#Range: 0.0 ~ 1.0
-	wither_skeleton_with_melee_spawn_chance_hard = 0.25
+	wither_skeleton_with_melee_spawn_chance_hard = 0.0
 	#Set to true to disable spawning a Wither Skeleton with any weapons from this mod
-	disable_spawning_wither_skeleton_with_weapon = false
+	disable_spawning_wither_skeleton_with_weapon = true
 
 [trading]
 	#Set to true to disable Villagers (Weaponsmiths and Fletchers) from trading weapons from this mod
