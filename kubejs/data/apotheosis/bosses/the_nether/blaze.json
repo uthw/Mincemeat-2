@@ -15,7 +15,7 @@
 	"min_rarity": "uncommon",
 	"max_rarity": "uncommon",
 	"stats": {
-		"common": {
+		"uncommon": {
 			"enchant_chance": 0.75,
 			"enchantment_levels": [26, 22, 40, 30],
 			"effects": [{
