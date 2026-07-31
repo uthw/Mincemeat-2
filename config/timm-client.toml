@@ -1,0 +1,13 @@
+
+[general]
+	#Minimum delay (in ticks)
+	#Range: 0 ~ 600
+	minDelay = 120
+	#Maximum delay (in ticks)
+	#Range: 0 ~ 600
+	maxDelay = 300
+	#Print message when skipping
+	printOnSkip = true
+	#Enable debug logging (no GUI entry)
+	debugLog = false
+
