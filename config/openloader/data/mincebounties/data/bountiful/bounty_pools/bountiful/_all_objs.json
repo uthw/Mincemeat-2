@@ -7,7 +7,8 @@
                 "min": 1,
                 "max": 1
             },
-            "unitWorth": 40000
+            "unitWorth": 30000,
+            "rarity": "RARE"
         },
         "forbidden_arcanus_nipa_obj": {
             "type": "item",
@@ -34,7 +35,8 @@
                 "min": 1,
                 "max": 1
             },
-            "unitWorth": 75000
+            "unitWorth": 75000,
+            "rarity": "EPIC"
         },
         "eidolon_zombie_heart_obj": {
             "type": "item",
@@ -61,7 +63,8 @@
                 "min": 1,
                 "max": 2
             },
-            "unitWorth": 100000
+            "unitWorth": 25000,
+            "rarity": "LEGENDARY"
         },
         "forbidden_arcanus_stellarite_piece_obj": {
             "type": "item",
@@ -70,7 +73,8 @@
                 "min": 1,
                 "max": 2
             },
-            "unitWorth": 80000
+            "unitWorth": 40000,
+            "rarity": "LEGENDARY"
         },
         "minecraft_conduit_obj": {
             "type": "item",
@@ -88,7 +92,8 @@
                 "min": 1,
                 "max": 1
             },
-            "unitWorth": 100000
+            "unitWorth": 100000,
+            "rarity": "RARE"
         },
         "neapolitan_chocolate_cake_obj": {
             "type": "item",
@@ -106,7 +111,7 @@
                 "min": 1,
                 "max": 1
             },
-            "unitWorth": 50000
+            "unitWorth": 25000
         },
         "minecraft_diamond_obj": {
             "type": "item",
@@ -479,7 +484,7 @@
         },
         "galosphere_silver_bomb_obj": {
             "type": "item",
-            "content": "galosphere:palladium_bomb",
+            "content": "galosphere:silver_bomb",
             "amount": {
                 "min": 1,
                 "max": 8
