@@ -1,0 +1,36 @@
+{
+    "mobs": [
+        {
+            "name": "alexsmobs:centipede_head",
+            "weight": 10
+        },
+        {
+            "name": "minecraft:skeleton",
+            "weight": 10
+        },
+        {
+            "name": "quark:forgotten",
+            "weight": 5
+        },
+        {
+            "name": "opposing_force:umber_spider",
+            "weight": 5
+        },
+        {
+            "name": "thermal:basalz",
+            "weight": 5
+        },
+        {
+            "name": "opposing_force:trembler",
+            "weight": 5
+        },
+        {
+            "name": "alexsmobs:rocky_roller",
+            "weight": 5
+        },
+        {
+            "name": "opposing_force:volt",
+            "weight": 5
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "mobs": [
+        {
+            "name": "alexsmobs:centipede_head",
+            "weight": 15
+        },
+        {
+            "name": "opposing_force:hanging_spider",
+            "weight": 15
+        },
+        {
+            "name": "opposing_force:umber_spider",
+            "weight": 8
+        },
+        {
+            "name": "opposing_force:volt",
+            "weight": 5
+        }
+    ]
+}

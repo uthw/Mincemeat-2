@@ -1,0 +1,12 @@
+{
+    "mobs": [
+        {
+            "name": "alexsmobs:frilled_shark",
+            "weight": 15
+        },
+        {
+            "name": "opposing_force:terror",
+            "weight": 15
+        }
+    ]
+}
