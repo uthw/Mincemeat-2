@@ -138,20 +138,20 @@
     "dragonLightningMaxSearchCount": 10
   },
   "worldgen": {
-    "dangerousDistanceLimit": 1000.0,
-    "generateFireDragonCaveChance": 0.5,
-    "generateFireDragonRoostChance": 0.5,
-    "generateIceDragonCaveChance": 0.5,
-    "generateIceDragonRoostChance": 0.5,
-    "generateLightningDragonCaveChance": 0.5,
-    "generateLightningDragonRoostChance": 0.5,
-    "generateCyclopsCaveChance": 0.5,
-    "generateGorgonTempleChance": 0.5,
-    "generateGraveYardChance": 0.5,
+    "dangerousDistanceLimit": 1900.0,
+    "generateFireDragonCaveChance": 0.125,
+    "generateFireDragonRoostChance": 0.08,
+    "generateIceDragonCaveChance": 0.125,
+    "generateIceDragonRoostChance": 0.08,
+    "generateLightningDragonCaveChance": 0.125,
+    "generateLightningDragonRoostChance": 0.08,
+    "generateCyclopsCaveChance": 0.25,
+    "generateGorgonTempleChance": 0.1,
+    "generateGraveYardChance": 0.15,
     "generateHydraCaveChance": 0.5,
-    "generateMausoleumChance": 0.5,
-    "generatePixieVillageChance": 0.5,
-    "generateSirenIslandChance": 0.5
+    "generateMausoleumChance": 0.1,
+    "generatePixieVillageChance": 0.025,
+    "generateSirenIslandChance": 0.2
   },
   "misc": {
     "enableDragonSeeker": true,
