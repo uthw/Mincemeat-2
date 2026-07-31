@@ -200,11 +200,15 @@
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
-            "tlc:lost_castle"
+            "tlc:lost_castle",
+            "dungeons_arise_seven_seas:corsair_corvette",
+            "dungeons_arise_seven_seas:pirate_junk",
+            "dungeons_arise_seven_seas:small_yacht",
+            "dungeons_arise_seven_seas:unicorn_galleon"
         ],
         "customevent": "replace_with_executioner",
         "when": "onjoin",
-        "random": 0.8,
+        "random": 0.4,
         "result": "deny_with_actions"
     },
     {
@@ -215,7 +219,11 @@
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
-            "tlc:lost_castle"
+            "tlc:lost_castle",
+            "dungeons_arise_seven_seas:corsair_corvette",
+            "dungeons_arise_seven_seas:pirate_junk",
+            "dungeons_arise_seven_seas:small_yacht",
+            "dungeons_arise_seven_seas:unicorn_galleon"
         ],
         "customevent": "replace_with_fusilier",
         "when": "onjoin",
@@ -230,7 +238,11 @@
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
-            "tlc:lost_castle"
+            "tlc:lost_castle",
+            "dungeons_arise_seven_seas:corsair_corvette",
+            "dungeons_arise_seven_seas:pirate_junk",
+            "dungeons_arise_seven_seas:small_yacht",
+            "dungeons_arise_seven_seas:unicorn_galleon"
         ],
         "customevent": "replace_with_commando",
         "when": "onjoin",
@@ -245,7 +257,11 @@
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
-            "tlc:lost_castle"
+            "tlc:lost_castle",
+            "dungeons_arise_seven_seas:corsair_corvette",
+            "dungeons_arise_seven_seas:pirate_junk",
+            "dungeons_arise_seven_seas:small_yacht",
+            "dungeons_arise_seven_seas:unicorn_galleon"
         ],
         "customevent": "replace_with_griefer",
         "when": "onjoin",
@@ -260,7 +276,11 @@
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
-            "tlc:lost_castle"
+            "tlc:lost_castle",
+            "dungeons_arise_seven_seas:corsair_corvette",
+            "dungeons_arise_seven_seas:pirate_junk",
+            "dungeons_arise_seven_seas:small_yacht",
+            "dungeons_arise_seven_seas:unicorn_galleon"
         ],
         "customevent": "replace_with_trickster",
         "when": "onjoin",
@@ -275,7 +295,11 @@
             "idas:pillager_fortress",
             "nova_structures:illager_hideout",
             "nova_structures:illager_manor",
-            "tlc:lost_castle"
+            "tlc:lost_castle",
+            "dungeons_arise_seven_seas:corsair_corvette",
+            "dungeons_arise_seven_seas:pirate_junk",
+            "dungeons_arise_seven_seas:small_yacht",
+            "dungeons_arise_seven_seas:unicorn_galleon"
         ],
         "customevent": "replace_with_necromancer",
         "when": "onjoin",
