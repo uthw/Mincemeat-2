@@ -1,0 +1,14 @@
+{
+	"durabilityOverlap": {
+		"gold": 312,
+		"diamond": 3120,
+		"iron": 768,
+		"netherite": 6144
+	},
+	"rangeOverlap": {
+		"gold": 21,
+		"diamond": 26,
+		"iron": 17,
+		"netherite": 52
+	}
+}

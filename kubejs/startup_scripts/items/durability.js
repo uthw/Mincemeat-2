@@ -25,11 +25,7 @@ const blacklist = new Set([
 const customDurabilities = {
     "cataclysm:coral_spear": 600,
     "cataclysm:coral_bardiche": 900,
-    "aether:golden_parachute": 1500,
-    "yo_hooks:iron_grappling_hook": 768,
-    "yo_hooks:gold_grappling_hook": 312,
-    "yo_hooks:diamond_grappling_hook": 3120,
-    "yo_hooks:netherite_grappling_hook": 6144,
+    "aether:golden_parachute": 1500
 };
 
 ItemEvents.modification((event) => {
