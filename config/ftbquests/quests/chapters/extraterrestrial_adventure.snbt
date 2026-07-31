@@ -2653,7 +2653,6 @@
 		}
 		{
 			dependencies: ["3F3ECBA1DE6F4865"]
-			description: [""]
 			hide_until_deps_complete: true
 			id: "589335339A212CB1"
 			rewards: [{
@@ -2663,12 +2662,11 @@
 				type: "choice"
 			}]
 			tasks: [{
-				entity: "block_factorys_bosses:underworld_knight"
-				icon: "block_factorys_bosses:underworld_arena_key"
-				id: "110EA14818D20318"
+				advancement: "block_factorys_bosses:kill_underworld_knight"
+				criterion: ""
+				id: "7479A7E2F5536AA2"
 				title: "Helvar, the Underworld Knight"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 5.0d
 			y: -4.5d

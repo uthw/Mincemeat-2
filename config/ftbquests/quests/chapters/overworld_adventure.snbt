@@ -4905,12 +4905,11 @@
 			}]
 			subtitle: "Funk to Funky"
 			tasks: [{
-				entity: "block_factorys_bosses:infernal_dragon"
-				icon: "block_factorys_bosses:dragon_bone"
-				id: "3ED0332958B8F973"
-				title: "Ashlord, The Infernal Dragon"
-				type: "kill"
-				value: 1L
+				advancement: "block_factorys_bosses:kill_dragon"
+				criterion: ""
+				id: "0486BCC0182FF0DB"
+				title: "Ashlord, the Infernal Dragon"
+				type: "advancement"
 			}]
 			x: -15.0d
 			y: -1.0d
@@ -5053,38 +5052,14 @@
 			}]
 			subtitle: "You could say you dealt... Skors of damage"
 			tasks: [{
-				entity: "block_factorys_bosses:yeti"
-				icon: "minecraft:packed_ice"
-				id: "434B765D1F209BF0"
+				advancement: "block_factorys_bosses:kill_yeti"
+				criterion: ""
+				id: "7F28057BE179C22D"
 				title: "Skor, The Yeti"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: -7.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["19B969C38E46F382"]
-			id: "30F137F36183CEB8"
-			rewards: [{
-				count: 2
-				id: "4CF64FC0E4A9CA86"
-				item: "lightmanscurrency:coin_iron"
-				type: "item"
-			}]
-			tasks: [{
-				id: "04EC1F6AC0D1C91E"
-				item: {
-					Count: 1
-					id: "block_factorys_bosses:ice_gauntlet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["67EDF8A2B69A158D"]
@@ -5115,7 +5090,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["21F86A0E1FB63D07"]
+			dependencies: [
+				"21F86A0E1FB63D07"
+				"560EC9592EC6411B"
+			]
+			dependency_requirement: "one_completed"
 			id: "27D2F14602F23A12"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5125,12 +5104,11 @@
 			}]
 			subtitle: "I see sand, not rock!"
 			tasks: [{
-				entity: "block_factorys_bosses:sandworm"
-				icon: "block_factorys_bosses:corpse"
-				id: "7198EB1B24FF0D57"
-				title: "Sirok, The Sandworm"
-				type: "kill"
-				value: 1L
+				advancement: "block_factorys_bosses:kill_sandworm"
+				criterion: ""
+				id: "5D8FE6938B7F9D51"
+				title: "Sirok, the Sandworm"
+				type: "advancement"
 			}]
 			x: -6.0d
 			y: -1.0d
@@ -5371,20 +5349,6 @@
 			tasks: [{
 				advancement: "block_factorys_bosses:kill_kraken"
 				criterion: ""
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"fallen_gems_affixes:augment_capability": {
-							Augments: [{
-								Test: "test"
-							}]
-						}
-					}
-					id: "block_factorys_bosses:pirate_saber"
-					tag: {
-						Damage: 0
-					}
-				}
 				id: "7CF3228ED5307D21"
 				title: "Nekaryss, The Kraken"
 				type: "advancement"
@@ -5442,6 +5406,41 @@
 			}]
 			x: -9.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["19B969C38E46F382"]
+			id: "3FEEE9EF99463FE9"
+			tasks: [{
+				id: "55873FB570A0C4B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "irons_spellbooks:boreal_blade"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frostbite"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
 		}
 	]
 	title: "Overworld Adventure"
