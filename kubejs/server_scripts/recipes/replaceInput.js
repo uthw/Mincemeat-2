@@ -1149,17 +1149,29 @@ ServerEvents.recipes((event) => {
         [
             { output: "irons_spellbooks:portal_frame" },
             "minecraft:ender_pearl",
-            "opposing_force:dicer_lens"
+            "opposing_force:dicer_lens",
+        ],
+        [{}, "create:bar_of_chocolate", "#supplementaries:chocolate_bars"],
+        [{}, "autumnity:syrup_bottle", "rusticdelight:syrup"],
+        [
+            { output: "additionallanterns:netherite_chain" },
+            "minecraft:netherite_ingot",
+            "caverns_and_chasms:netherite_nugget",
         ],
         [
-            {},
-            "create:bar_of_chocolate",
-            "#supplementaries:chocolate_bars"
+            { output: "yo_hooks:gold_grappling_hook" },
+            "minecraft:chain",
+            "additionallanterns:gold_chain",
         ],
         [
-            {},
-            "autumnity:syrup_bottle",
-            "rusticdelight:syrup"
+            { output: "yo_hooks:diamond_grappling_hook" },
+            "minecraft:chain",
+            "additionallanterns:diamond_chain",
+        ],
+        [
+            { output: "yo_hooks:netherite_grappling_hook" },
+            "minecraft:chain",
+            "additionallanterns:netherite_chain",
         ]
     ];
 
