@@ -128,7 +128,7 @@
     "dragonFireAbility": true,
     "dragonIceAbility": true,
     "dragonLightningAbility": true,
-    "dragonSteelBaseDamage": 18.0,
+    "dragonSteelBaseDamage": 13.0,
     "dragonSteelBaseArmor": 11,
     "dragonSteelBaseArmorToughness": 5.0,
     "dragonSteelBaseDurability": 32000,
