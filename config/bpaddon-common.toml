@@ -11,7 +11,7 @@
 	#How long it takes for stamina to begin regenerating after a Better Combat attack, in ticks.
 	#This value is hardcoded at 10 ticks in base Better Paragliders.
 	#Range: 0 ~ 999
-	stamina_recovery_delay = 0
+	stamina_recovery_delay = 3
 	#If true, the stamina cost for blocking a single attack is capped at the amount of stamina remaining.
 	#Disabling this feature will result in players being out of stamina for a long time after blocking powerful attacks.
 	cap_block_stamina_cost = true
@@ -89,5 +89,5 @@
 	#The stamina cost for performing a dodge roll. Using a value of 0 will disable this integration.
 	#If you use this feature, consider lowering the cooldown in Combat Roll's server config so stamina becomes the main limiting factor.
 	#Range: 0.0 ~ 999.0
-	dodge_roll_cost = 30.0
+	dodge_roll_cost = 26.0
 
