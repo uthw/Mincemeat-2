@@ -202,23 +202,7 @@
     {
       "structure": "iceandfire:graveyard",
       "factor": 2.5
-    },
-    {
-      "structure": "netherman:eye_columns",
-      "factor": 3
-    },
-    {
-      "structure": "netherman:gast_chamber",
-      "factor": 3
-    },
-    {
-      "structure": "netherman:gehen_statue",
-      "factor": 3
-    },
-    {
-      "structure": "netherman:mansion_nether",
-      "factor": 3
-    },
+    }
     // add the structures you want to modify in the format:
     // {
     //     "structure": "namespace:structure_name",
