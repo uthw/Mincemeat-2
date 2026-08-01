@@ -692,7 +692,7 @@
 			description: [
 				"These villagers can be found around villages and will attack any hostile mobs (except some mobs like creepers), even boss mobs they have no chance of killing. "
 				""
-				"Guard villagers are affected by distance scaling, meaning they get better gear and deal much more damage the further you stray from spawn. This means guards are competent defenders of their homes."
+				"Guard villagers are affected by health and damage scaling, meaning they get better gear and deal much more damage the further you are into your adventure. This means guards are competent defenders of their homes."
 				""
 				"Another thing about these mobs is that when they die, they have an 80% chance of dropping the gear they have equipped, unless they have modded gear on."
 			]
