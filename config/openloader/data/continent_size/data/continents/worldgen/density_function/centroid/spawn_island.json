@@ -1,8 +1,9 @@
 {
+    "_comment": "This is the spawn island that has been customized.",
     "type": "add",
     "argument1": {
         "type": "minecraft:mul",
-        "argument1": 0.08,
+        "argument1": 0.25,
         "argument2": {
             "type": "minecraft:add",
             "argument1": {
