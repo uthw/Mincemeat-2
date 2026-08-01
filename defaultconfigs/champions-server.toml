@@ -120,8 +120,6 @@ entitiesList = [
 	"block_factorys_bosses:sandworm",
 	"block_factorys_bosses:underworld_knight",
 	"block_factorys_bosses:yeti",
-
-	"netherman:azazel"
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST

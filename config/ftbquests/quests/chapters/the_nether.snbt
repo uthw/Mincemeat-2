@@ -1405,6 +1405,7 @@
 			dependencies: ["086E8054D516AFF4"]
 			id: "4F4D87BE6991D88E"
 			invisible: true
+			optional: true
 			tasks: [{
 				icon: {
 					Count: 1
