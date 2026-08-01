@@ -1988,7 +1988,7 @@
 			]
 			title: "Wasting Time"
 			x: 3.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3276690B1BAE040E"]
@@ -3737,8 +3737,6 @@
 				"- You can see &2where your teammates are on the map&r at any distance if you're in the same dimension as them, and &2their locations show up as in-world markers&r if you're not close."
 				""
 				"&7Tip: right click your teammate's head on the world map to see their XYZ coordinates."
-				""
-				"- You can use the &2/tpa&r and &2/tpahere&r commands to &ateleport&r to your teammates. I think this also works if the player isn't on your team, but I haven't tested it so I'm listing it here."
 			]
 			id: "0B270EFDF0E74726"
 			tasks: [{
@@ -3864,7 +3862,7 @@
 				type: "item"
 			}]
 			title: "Trading Station"
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -3888,7 +3886,7 @@
 				title: "Wallet"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -4159,6 +4157,26 @@
 			}]
 			x: -4.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["3A526671E42ED842"]
+			description: [
+				"Almost all villages have a &2bounty board&r, where residents publish all sorts of requests and are willing to pay handsomely (in coins, if that wasn't obvious) to see them fulfilled."
+				""
+				"Bounty boards can be fitted out with different &2decrees&r, which determine the types of requests that are made."
+			]
+			id: "10433E9FA7E74919"
+			tasks: [{
+				icon: "bountiful:bountyboard"
+				id: "35DA107AED0E92C1"
+				observe_type: 0
+				timer: 0L
+				title: "Village Bounties"
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 3.5d
 		}
 	]
 	title: "Getting Started"
