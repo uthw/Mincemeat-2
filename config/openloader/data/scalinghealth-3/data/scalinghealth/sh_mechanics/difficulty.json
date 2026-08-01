@@ -1,7 +1,7 @@
 {
-    "startingValue": 5,
+    "startingValue": 0,
     "minValue": 0,
-    "maxValue": 180,
+    "maxValue": 400,
     "changePerSecond": 0.0,
     "mode": {
         "type": "average",
@@ -14,7 +14,7 @@
         "radius": 64,
         "distanceFactor": 0.0
     },
-    "groupBonus": "1 + 1.5 * (areaPlayerCount - 1)",
+    "groupBonus": "1 + 0.65 * (areaPlayerCount - 1)",
     "groupBonusRadius": 96,
     "idleMultiplier": 0.25,
     "afkMessage": false,
@@ -36,11 +36,11 @@
                 "dimensions": ["aether:the_aether"]
             },
             {
-                "scale": 0.8,
+                "scale": 1.2,
                 "dimensions": ["minecraft:the_nether"]
             },
             {
-                "scale": 1.4,
+                "scale": 1.2,
                 "dimensions": ["minecraft:the_end"]
             },
             {

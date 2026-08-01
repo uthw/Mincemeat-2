@@ -1,15 +1,15 @@
 {
     "healthMode": {
         "operation": "MULTIPLY_BASE",
-        "scaling_reduction": 0.5
+        "scaling_reduction": 0.05
     },
     "general": {
         "passiveMultiplier": 0.05,
         "hostileMultiplier": 0.35,
         "hostilePotionChance": 0.01,
         "peacefulPotionChance": 0,
-        "damageBoostScale": 0.4,
-        "maxDamageBoost": 30,
+        "damageBoostScale": 0.3,
+        "maxDamageBoost": 50,
         "spawnerModifier": 0.2,
         "xpBoost": 0.06
     },
