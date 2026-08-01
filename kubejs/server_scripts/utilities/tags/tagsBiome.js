@@ -120,6 +120,7 @@ ServerEvents.highPriorityData((event) => {
         },
         {
             key: "regular",
+            remove: ["biomeswevegone:lush_stacks", "biomeswevegone:dead_sea"],
             values: [
                 "#biomeswevegone:plains",
                 "#c:plains",
@@ -140,6 +141,7 @@ ServerEvents.highPriorityData((event) => {
         },
         {
             key: "derelict_grass",
+            remove: ["biomeswevegone:lush_stacks", "biomeswevegone:dead_sea"],
             values: [
                 "#biomeswevegone:plains",
                 "#c:plains",
