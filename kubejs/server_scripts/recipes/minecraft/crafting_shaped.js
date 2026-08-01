@@ -1683,7 +1683,7 @@ ServerEvents.recipes((event) => {
             ["ABA", "CDC", " A "],
             {
                 A: "#forge:rods/wooden",
-                B: "block_factorys_bosses:kraken_tooth",
+                B: "block_factorys_bosses:dragon_bone",
                 C: "#forge:string",
                 D: "create:transmitter",
             },
