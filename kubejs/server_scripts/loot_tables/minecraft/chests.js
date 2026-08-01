@@ -4,4 +4,6 @@ LootJS.modifiers((event) => {
         .removeLoot("enigmaticlegacy:etherium_ore")
         .removeLoot("enigmaticlegacy:eye_of_nebula")
         .removeLoot("artifacts:umbrella");
+
+    event.addLootTableModifier(/.*/).removeLoot(/scalinghealth:.*/);
 });
