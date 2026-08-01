@@ -125,7 +125,7 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# The position of the body temperature icon relative to default
 	# ⌄ 
-	"Body Temperature Icon Offset" = [0, 0]
+	"Body Temperature Icon Offset" = [0, 2]
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the body temperature icon above the hotbar
 	# ⌄ 
@@ -133,11 +133,11 @@
 	#─────────────────────────────────────────────────────────────────────────
 	# Moves the body temperature icon to make way for the advanced readout when a thermometer is equipped
 	# ⌄ 
-	"Move Body Icon For Advanced Info" = true
+	"Move Body Icon For Advanced Info" = false
 	#─────────────────────────────────────────────────────────────────────────
 	# The position of the body temperature readout relative to default
 	# ⌄ 
-	"Body Temperature Readout Offset" = [0, 0]
+	"Body Temperature Readout Offset" = [130, 26]
 	#─────────────────────────────────────────────────────────────────────────
 	# Enables the body temperature readout above the hotbar
 	# ⌄ 
