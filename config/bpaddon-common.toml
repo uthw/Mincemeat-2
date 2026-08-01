@@ -15,6 +15,9 @@
 	#If true, the stamina cost for blocking a single attack is capped at the amount of stamina remaining.
 	#Disabling this feature will result in players being out of stamina for a long time after blocking powerful attacks.
 	cap_block_stamina_cost = true
+	#If true, players will be prevented from dodging and wall jumping when they do not have enough stamina.
+	#Otherwise, doing these actions with low stamina will drain their remaining stamina and make them exhausted.
+	prevent_actions_when_low_stamina = false
 
 ["Weapon Stamina Costs"]
 	#If this feature is enabled, weapon attacks will be calculated by their parent (swing animation type). For example, a wooden sword and netherite sword will both use sword_cost.
