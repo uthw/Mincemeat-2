@@ -4,52 +4,18 @@ ServerEvents.recipes((event) => {
             output: "ars_nouveau:ring_of_lesser_discount",
             reagent: "ars_nouveau:ring_of_potential",
             inputs: [
-                "3x minecraft:diamond",
-                "2x ars_nouveau:sourceberry_bush",
-                "3x blue_skies:pink_brewberry",
+                "minecraft:diamond",
+                "minecraft:diamond",
+                "minecraft:diamond",
+                "ars_nouveau:sourceberry_bush",
+                "ars_nouveau:sourceberry_bush",
+                "blue_skies:pink_brewberry",
+                "blue_skies:pink_brewberry",
+                "blue_skies:pink_brewberry",
             ],
             // Source Cost not provided --> treated as 0
             // keep NBT not provided --> treated as true
         },
-        // {
-        //     output: "naturesaura:wood_stand",
-        //     reagent: "minecraft:stripped_oak_log",
-        //     inputs: ["naturesaura:gold_leaf", "#forge:gems/source"],
-        // },
-        // {
-        //     output: "naturesaura:gold_fiber",
-        //     reagent: "minecraft:grass",
-        //     inputs: ["4x #botania:petals/yellow"],
-        // },
-        // {
-        //     output: "naturesaura:offering_table",
-        //     reagent: "supplementaries:pedestal",
-        //     inputs: [
-        //         "3x naturesaura:infused_iron",
-        //         "ars_nouveau:source_gem",
-        //         "forbidden_arcanus:arcane_crystal",
-        //         "naturesaura:gold_powder",
-        //     ],
-        // },
-        // {
-        //     output: "bloodmagic:blankrune",
-        //     reagent: "bloodmagic:blankslate",
-        //     inputs: [
-        //         "eidolon:pewter_ingot",
-        //         "4x minecraft:deepslate",
-        //         "thermal:apatite",
-        //     ],
-        // },
-        // {
-        //     output: "bloodmagic:alchemytable",
-        //     reagent: "bloodmagic:blankslate",
-        //     inputs: [
-        //         "eidolon:polished_wood_pillar",
-        //         "3x minecraft:deepslate",
-        //         "eidolon:arcane_gold_ingot",
-        //         "ars_nouveau:potion_flask",
-        //     ],
-        // },
         // Enigmatic Legacy recipes
 
         {
@@ -212,8 +178,11 @@ ServerEvents.recipes((event) => {
             reagent: "minecraft:iron_sword",
             inputs: [
                 "aquamirae:ship_graveyard_echo",
-                "3x aquaculture:neptunium_ingot",
-                "2x aquamirae:anglers_fang",
+                "aquaculture:neptunium_ingot",
+                "aquaculture:neptunium_ingot",
+                "aquaculture:neptunium_ingot",
+                "aquamirae:anglers_fang",
+                "aquamirae:anglers_fang",
             ],
         },
         {
@@ -221,9 +190,13 @@ ServerEvents.recipes((event) => {
             reagent: "eidolon:basic_amulet",
             inputs: [
                 "alexsmobs:void_worm_eye",
-                "2x eidolon:pewter_blend",
+                "eidolon:pewter_blend",
+                "eidolon:pewter_blend",
                 "alexsmobs:guster_eye",
-                "4x iceandfire:ectoplasm",
+                "iceandfire:ectoplasm",
+                "iceandfire:ectoplasm",
+                "iceandfire:ectoplasm",
+                "iceandfire:ectoplasm",
             ],
         },
         {
@@ -231,8 +204,13 @@ ServerEvents.recipes((event) => {
             reagent: "forbidden_arcanus:stellarite_piece",
             inputs: [
                 "alexscaves:tough_hide",
-                "3x forbidden_arcanus:xpetrified_orb",
-                "4x botania:elementium_ingot",
+                "forbidden_arcanus:xpetrified_orb",
+                "forbidden_arcanus:xpetrified_orb",
+                "forbidden_arcanus:xpetrified_orb",
+                "botania:elementium_ingot",
+                "botania:elementium_ingot",
+                "botania:elementium_ingot",
+                "botania:elementium_ingot",
             ],
         },
         {
@@ -240,8 +218,13 @@ ServerEvents.recipes((event) => {
             reagent: "forbidden_arcanus:draco_arcanus_helmet",
             inputs: [
                 "forbidden_arcanus:golden_dragon_scale",
-                "3x forbidden_arcanus:silver_dragon_scale",
-                "4x iceandfire:scales/dragon",
+                "forbidden_arcanus:silver_dragon_scale",
+                "forbidden_arcanus:silver_dragon_scale",
+                "forbidden_arcanus:silver_dragon_scale",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
             ],
         },
         {
@@ -249,8 +232,13 @@ ServerEvents.recipes((event) => {
             reagent: "forbidden_arcanus:draco_arcanus_chestplate",
             inputs: [
                 "forbidden_arcanus:golden_dragon_scale",
-                "3x forbidden_arcanus:aquatic_dragon_scale",
-                "4x iceandfire:scales/dragon",
+                "forbidden_arcanus:aquatic_dragon_scale",
+                "forbidden_arcanus:aquatic_dragon_scale",
+                "forbidden_arcanus:aquatic_dragon_scale",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
             ],
         },
         {
@@ -258,8 +246,13 @@ ServerEvents.recipes((event) => {
             reagent: "forbidden_arcanus:draco_arcanus_leggings",
             inputs: [
                 "forbidden_arcanus:golden_dragon_scale",
-                "3x forbidden_arcanus:silver_dragon_scale",
-                "4x iceandfire:scales/dragon",
+                "forbidden_arcanus:silver_dragon_scale",
+                "forbidden_arcanus:silver_dragon_scale",
+                "forbidden_arcanus:silver_dragon_scale",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
             ],
         },
         {
@@ -267,8 +260,13 @@ ServerEvents.recipes((event) => {
             reagent: "forbidden_arcanus:draco_arcanus_boots",
             inputs: [
                 "forbidden_arcanus:golden_dragon_scale",
-                "3x forbidden_arcanus:aquatic_dragon_scale",
-                "4x iceandfire:scales/dragon",
+                "forbidden_arcanus:aquatic_dragon_scale",
+                "forbidden_arcanus:aquatic_dragon_scale",
+                "forbidden_arcanus:aquatic_dragon_scale",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
+                "iceandfire:scales/dragon",
             ],
         },
         {
@@ -279,7 +277,16 @@ ServerEvents.recipes((event) => {
         {
             output: "integrateddynamics:menril_sapling",
             reagent: "#minecraft:saplings",
-            inputs: ["8x forbidden_arcanus:arcane_crystal"],
+            inputs: [
+                "forbidden_arcanus:arcane_crystal",
+                "forbidden_arcanus:arcane_crystal",
+                "forbidden_arcanus:arcane_crystal",
+                "forbidden_arcanus:arcane_crystal",
+                "forbidden_arcanus:arcane_crystal",
+                "forbidden_arcanus:arcane_crystal",
+                "forbidden_arcanus:arcane_crystal",
+                "forbidden_arcanus:arcane_crystal",
+            ],
         },
         {
             output: "reliquary:fertile_lily_pad",
@@ -291,6 +298,24 @@ ServerEvents.recipes((event) => {
                 "ars_nouveau:magebloom",
                 "alexscaves:cycad",
                 "alexscaves:cycad",
+            ],
+        },
+        {
+            output: "apotheosis:uncommon_material",
+            reagent: "rubinated_nether:ruby",
+            inputs: [
+                "apotheosis:common_material",
+                "apotheosis:common_material",
+                "apotheosis:common_material",
+            ],
+        },
+        {
+            output: "apotheosis:rare_material",
+            reagent: "enigmaticlegacy:etherium_nugget",
+            inputs: [
+                "apotheosis:uncommon_material",
+                "apotheosis:uncommon_material",
+                "apotheosis:uncommon_material",
             ],
         },
     ];
@@ -305,7 +330,7 @@ ServerEvents.recipes((event) => {
             recipe.reagent,
             recipe.output,
             sourceCost,
-            keepNBT
+            keepNBT,
         );
     });
 });
