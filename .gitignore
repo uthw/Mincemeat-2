@@ -114,3 +114,7 @@ visual_keybinder/layouts/2.Mouse.layout.txt
 visual_keybinder/layouts/3.Keyboard.layout.txt
 visual_keybinder/layouts/4.Keypad.layout.txt
 visual_keybinder/layouts/5.Function keys.layout.txt
+config/streamsreflowing/
+particular_cache/
+config/leawind_third_person.json
+config/fancymenu/customizablemenus.txt
