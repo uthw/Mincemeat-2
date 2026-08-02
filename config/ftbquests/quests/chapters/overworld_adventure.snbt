@@ -151,7 +151,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["4D8E61449F85F893"]
+			dependencies: [
+				"4D8E61449F85F893"
+				"7F14FC6E922F2903"
+			]
+			dependency_requirement: "one_completed"
 			id: "21D6AB95329A4EEF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1949,7 +1953,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["1F9A394264C7C588"]
+			dependencies: [
+				"1F9A394264C7C588"
+				"672BF3832E9C3D88"
+			]
+			dependency_requirement: "one_completed"
 			id: "34A83BB5D5DEFC82"
 			rewards: [
 				{
