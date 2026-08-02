@@ -1053,7 +1053,7 @@
         {
             "type": "bongo.item",
             "value": {
-                "item": "galosphere:palladium_bomb"
+                "item": "galosphere:silver_bomb"
             },
             "weight": 10
         },
