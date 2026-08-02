@@ -1,0 +1,14 @@
+{
+    "dimensions": ["minecraft:nether"],
+    "min_rarity": "apotheosis:uncommon",
+    "max_rarity": "apotheosis:uncommon",
+    "weight": 1,
+    "quality": 5,
+    "stack": {
+        "item": "minecraft:netherite_axe",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}

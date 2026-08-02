@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "dimensions": ["minecraft:overworld"],
+    "min_rarity": "apotheosis:common",
+    "max_rarity": "apotheosis:common",
+    "weight": 35,
+    "quality": 1,
+    "stack": {
+        "item": "irons_spellbooks:pumpkin_chestplate",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}

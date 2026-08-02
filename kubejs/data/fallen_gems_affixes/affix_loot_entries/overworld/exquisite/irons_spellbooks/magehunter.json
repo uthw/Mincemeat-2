@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "irons_spellbooks"
+        }
+    ],
+    "dimensions": ["minecraft:overworld"],
+    "min_rarity": "apotheosis:common",
+    "max_rarity": "apotheosis:common",
+    "weight": 5,
+    "quality": 3,
+    "stack": {
+        "item": "irons_spellbooks:magehunter",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}

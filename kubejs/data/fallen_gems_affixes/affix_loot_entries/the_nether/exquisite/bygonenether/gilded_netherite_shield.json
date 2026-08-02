@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "bygonenether"
+        }
+    ],
+    "dimensions": ["minecraft:nether"],
+    "min_rarity": "apotheosis:uncommon",
+    "max_rarity": "apotheosis:uncommon",
+    "weight": 10,
+    "quality": 4,
+    "stack": {
+        "item": "bygonenether:gilded_netherite_shield",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}

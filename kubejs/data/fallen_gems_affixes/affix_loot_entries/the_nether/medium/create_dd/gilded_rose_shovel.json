@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create_dd"
+        }
+    ],
+    "dimensions": ["minecraft:nether"],
+    "min_rarity": "apotheosis:uncommon",
+    "max_rarity": "apotheosis:uncommon",
+    "weight": 35,
+    "quality": 1,
+    "stack": {
+        "item": "create_dd:gilded_rose_shovel",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}

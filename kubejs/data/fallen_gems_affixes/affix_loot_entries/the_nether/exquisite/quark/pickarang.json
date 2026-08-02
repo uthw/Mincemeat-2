@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "quark"
+        }
+    ],
+    "dimensions": ["minecraft:nether"],
+    "min_rarity": "apotheosis:uncommon",
+    "max_rarity": "apotheosis:uncommon",
+    "weight": 10,
+    "quality": 4,
+    "stack": {
+        "item": "quark:pickarang",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}
