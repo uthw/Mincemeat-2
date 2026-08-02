@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Temperature Bands Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You will almost always spawn in a temperate biome upon creating a new world with cold biomes to the north and warm biomes to the south. That being said, you can spawn in a freezing mountain range if it runs through the world spawn, but this is very rare!"
+    }
+}

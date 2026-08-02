@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Dimensional Adventure Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The Everbright, Everdawn, and Aether all scale 1:1 with the Overworld, so traveling 100 blocks in these dimensions will equate to 100 blocks in the Overworld. The Undergarden, however, scales 1:4 with the Overworld, so 100 blocks in the Undergarden equates to 400 blocks in the Overworld."
+    }
+}

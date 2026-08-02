@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You don't need to have an arrow in your inventory for Infinity to work."
+    }
+}

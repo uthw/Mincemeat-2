@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Vanilla Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Setting the mouse sensitivity to 0% or 200% will cause the slider to display unique messages."
+    }
+}

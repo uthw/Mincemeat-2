@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "I created the Even Better Paragliders mod specifically for Mincemeat! It makes several other mods in the modpack interact with the stamina system."
+    }
+}

@@ -1,8 +1,8 @@
 {
     "title": {
-        "text": "Corpse Complex Tip",
+        "text": "Mincemeat Tip",
         "bold": true,
-        "color": "yellow"
+        "color": "aqua"
     },
     "tip": {
         "text": "When you die, 25% of your experience will be gone forever with the remaining 75% dropping on the ground. This is different from vanilla Minecraft, where up to around 7 levels' worth of experience is dropped."
