@@ -1,6 +1,6 @@
 {
   "climbSpeed": 0.3,
-  "softHook": false,
+  "softHook": true,
   "stiffness": 0.1,
   "funnyMode": false
 }
