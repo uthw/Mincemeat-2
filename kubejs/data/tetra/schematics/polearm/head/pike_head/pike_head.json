@@ -1,0 +1,35 @@
+{
+    "replace": true,
+    "slots": ["polearm/head"],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/sofr_glyph.png",
+        "textureX": 16
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 2
+        },
+        "secondaryAttributes": {
+            "generic.attack_damage": 1,
+            "generic.attack_speed": -2
+        },
+        "durability": 3,
+        "integrity": -3,
+        "magicCapacity": 1
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:metal/", "tetra:gem/"],
+            "moduleKey": "polearm/pike_head",
+            "toolOffset": 1,
+            "moduleVariant": "pike_head/"
+        },
+        {
+            "materials": ["tetra:wood/", "tetra:stone/", "tetra:bone/"],
+            "moduleKey": "polearm/pike_head",
+            "moduleVariant": "pike_head/"
+        }
+    ]
+}
