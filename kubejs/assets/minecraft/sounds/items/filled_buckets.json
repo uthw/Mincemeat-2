@@ -2,7 +2,6 @@
     "keys": [
         "#c:buckets/entity_water",
         "#c:buckets/water",
-        "#mincemeat:filled_buckets",
         "alexscaves:trilocaris_bucket",
         "caverns_and_chasms:golden_lava_bucket",
         "enderio:vapor_of_levity_bucket",
