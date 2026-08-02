@@ -432,7 +432,7 @@ ServerEvents.highPriorityData((event) => {
                 { weight: 6, stack: { item: "iceandfire:silver_axe" } },
                 { weight: 6, stack: { item: "iceandfire:silver_shovel" } },
                 { weight: 6, stack: { item: "iceandfire:silver_hoe" } },
-                { weight: 6, stack: { item: "delightful:silver_knife" } },
+                { weight: 6, stack: { item: "abnormals_delight:silver_knife" } },
                 { weight: 1, stack: { item: "spartanweaponry:silver_dagger" } },
                 {
                     weight: 1,
@@ -520,7 +520,7 @@ ServerEvents.highPriorityData((event) => {
                 },
                 {
                     weight: 6,
-                    stack: { item: "delightful:silver_knife" },
+                    stack: { item: "abnormals_delight:silver_knife" },
                 },
             ],
             offhands: [
