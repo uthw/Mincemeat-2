@@ -19,7 +19,7 @@ blizzard_wind_amount=16.0
 spore_amount=16.0
 bool
 vanilla_rain_splash=false
-rain_surface_ripples=true
+rain_surface_ripples=false
 vanilla_lightning=false
 rain_splash=true
 vanilla_rain_rendering=false
