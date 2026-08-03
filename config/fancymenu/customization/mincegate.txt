@@ -413,7 +413,7 @@ element {
 
 element {
   interactable = true
-  source = {"placeholder":"mcversion"} / {"placeholder":"loaderver"} / 0.6.0
+  source = {"placeholder":"mcversion"} / {"placeholder":"loaderver"} / 0.6.1
   source_mode = direct
   shadow = true
   enable_scrolling = false
