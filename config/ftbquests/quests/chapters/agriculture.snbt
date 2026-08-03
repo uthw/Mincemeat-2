@@ -245,8 +245,8 @@
 				item: "immersiveengineering:hemp_fiber"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7977CFE487433B9A"]
@@ -389,6 +389,19 @@
 			]
 			x: 8.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7977CFE487433B9A"]
+			icon: "corn_delight:wild_corn"
+			id: "36285070A279604D"
+			subtitle: "Found in flat and temperate biomes"
+			tasks: [{
+				id: "7953267A5F4C6DD1"
+				item: "corn_delight:corn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
 		}
 	]
 	title: "Agriculture"
