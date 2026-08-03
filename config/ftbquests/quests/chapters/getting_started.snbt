@@ -476,33 +476,6 @@
 		{
 			dependencies: ["50D43AFA6402629F"]
 			description: [
-				"&lTorches&r provide a strong, temporary light. Their downside is that they (don't) &cburn out after one hour.&r"
-				""
-				"&7&o(the mod that does this is disabled for the time being)&r&r"
-				""
-				"They're nice for lighting up caves and keeping mobs away while you're building, but you're going to need something like a &llantern&r or &lchandelier&r for permanent light."
-				""
-				"&m&8(torches are ugly and think about how you've degraded this far if you choose to use them in your builds)&r&r"
-			]
-			id: "0A6DBC786BCF967E"
-			rewards: [{
-				count: 11
-				id: "6B1B1A3F113450B2"
-				item: "lightmanscurrency:coin_copper"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6040BD17B8C52FA6"
-				item: "minecraft:torch"
-				type: "item"
-			}]
-			title: "Tips from a Survivor: #1"
-			x: -2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["50D43AFA6402629F"]
-			description: [
 				"There is an &dancient technique&r of increasing your inventory space known as crafting the &lbackpack&r."
 				""
 				"The &lbackpack&r gives you an extra 3 rows of space, like carrying a chest on your back."
@@ -702,8 +675,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["0A6DBC786BCF967E"]
-			description: ["The strength of the foes you fight increases with how far away you are from your world spawn. If you're going on an expedition, be sure to pack your strongest gear!"]
+			dependencies: ["331AF9614A44E780"]
 			id: "3571CB6136F6E3EB"
 			rewards: [{
 				count: 11
@@ -1042,7 +1014,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0A6DBC786BCF967E"]
+			dependencies: ["331AF9614A44E780"]
 			description: [
 				"A useful item that lets you place blocks in the distance."
 				""
@@ -1914,7 +1886,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["0A6DBC786BCF967E"]
+			dependencies: ["331AF9614A44E780"]
 			id: "207D37FD2A45D7AC"
 			rewards: [{
 				count: 12
@@ -3022,7 +2994,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["0A6DBC786BCF967E"]
+			dependencies: ["331AF9614A44E780"]
 			description: [
 				"The Icebox and Boiler change the temperature of waterskins. When a Smokestack is placed above them, they can change the temperature around them."
 				""
@@ -3209,7 +3181,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["0A6DBC786BCF967E"]
+			dependencies: ["50D43AFA6402629F"]
 			description: ["Allows easy access to a crafting table by right clicking while holding this item."]
 			id: "331AF9614A44E780"
 			rewards: [{
@@ -3223,8 +3195,8 @@
 				item: "actuallyadditions:crafter_on_a_stick"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["609E3CBD113337E6"]
@@ -4136,7 +4108,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0A6DBC786BCF967E"]
+			dependencies: ["331AF9614A44E780"]
 			description: [
 				"A fun and practical form of transportation. Iron, diamond, gold, and netherite variations exist, which vary in range and durability."
 				""
@@ -4155,8 +4127,8 @@
 				title: "Grappling Hook"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3A526671E42ED842"]
