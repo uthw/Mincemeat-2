@@ -1,720 +1,11 @@
 JEIEvents.information((event) => {
-    const addSafe = (item, info) => {
+    const addSafe = (target, info) => {
         try {
-            event.addItem(item, info);
+            event.addItem(target, info);
         } catch (err) {}
     };
 
-    addSafe("/aether:(stripped_)?crystal_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Skyfields",
-    ]);
-    addSafe("/aether:(stripped_)?crystal_fruit_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Skyfields",
-    ]);
-    addSafe("/aether:(stripped_)?decorated_holiday_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
-    ]);
-    addSafe("/aether:(stripped_)?golden_oak_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aerlavender Fields, Gilded Grasslands, Gilded Groves, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Woodland",
-    ]);
-    addSafe("/aether:(stripped_)?holiday_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
-    ]);
-    addSafe("/aether:(stripped_)?skyroot_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
-    ]);
-    addSafe(
-        "/aether_redux:(stripped_)?blighted_skyroot_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "The Blight"],
-    );
-    addSafe(
-        "/aether_redux:(stripped_)?blightwillow_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "The Blight"],
-    );
-    addSafe("/aether_redux:(stripped_)?cloudcap_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Cloudcaps",
-    ]);
-    addSafe("/aether_redux:(stripped_)?crystal_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Skyfields",
-    ]);
-    addSafe("/aether_redux:(stripped_)?fieldsproot_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Skyfields",
-    ]);
-    addSafe("/aether_redux:(stripped_)?gilded_oak_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Gilded Grasslands, Gilded Groves",
-    ]);
-    addSafe("/aether_redux:(stripped_)?glacia_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
-    ]);
-    addSafe("/aether_redux:(stripped_)?jellyshroom_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Cloudcaps",
-    ]);
-    addSafe(
-        "/aether_redux:(stripped_)?purple_glacia_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Frosted Forests, Glacial Tundra"],
-    );
-    addSafe(
-        "/aether_redux:(stripped_)?sporing_blightwillow_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "The Blight"],
-    );
-    addSafe(
-        "/ars_elemental:(stripped_)?yellow_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Flashing Forest, Flashing Tree Biome"],
-    );
-    addSafe(
-        "/ars_nouveau:(stripped_)?blue_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Overworld Biome, Archwood Forest, Cascading Forest"],
-    );
-    addSafe(
-        "/ars_nouveau:(stripped_)?green_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Overworld Biome, Archwood Forest, Flourishing Forest"],
-    );
-    addSafe(
-        "/ars_nouveau:(stripped_)?purple_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Overworld Biome, Archwood Forest"],
-    );
-    addSafe("/ars_nouveau:(stripped_)?red_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Overworld Biome, Archwood Forest, Blazing Forest",
-    ]);
-    addSafe("/atmospheric:(stripped_)?aspen_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Parkland",
-    ]);
-    addSafe("/atmospheric:(stripped_)?crustose_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Parkland",
-    ]);
-    addSafe("/atmospheric:(stripped_)?currant_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Kousa Jungle",
-    ]);
-    addSafe("/atmospheric:(stripped_)?dry_laurel_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Parkland, Laurel Forest, Scrubland, Snowy Scrubland",
-    ]);
-    addSafe(
-        "/atmospheric:(stripped_)?flowering_morado_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        [
-            "Found in biomes:",
-            "Aspen Parkland, Rainforest, Rainforest Basin, Scrubland, Snowy Scrubland, Sparse Rainforest, Sparse Rainforest Basin",
-        ],
-    );
-    addSafe("/atmospheric:(stripped_)?green_aspen_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Parkland",
-    ]);
-    addSafe("/atmospheric:(stripped_)?grimwood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Grimwoods",
-    ]);
-    addSafe("/atmospheric:(stripped_)?kousa_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Kousa Jungle",
-    ]);
-    addSafe("/atmospheric:(stripped_)?laurel_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Parkland, Laurel Forest, Scrubland, Snowy Scrubland",
-    ]);
-    addSafe("/atmospheric:(stripped_)?morado_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Parkland, Rainforest, Rainforest Basin, Scrubland, Snowy Scrubland, Sparse Rainforest, Sparse Rainforest Basin",
-    ]);
-    addSafe("/atmospheric:(stripped_)?rosewood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Rainforest, Rainforest Basin, Sparse Rainforest, Sparse Rainforest Basin, Spiny Thicket",
-    ]);
-    addSafe(
-        "/atmospheric:(stripped_)?watchful_aspen_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Aspen Parkland"],
-    );
-    addSafe("/atmospheric:(stripped_)?yucca_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Desert, Dunes, Flourishing Dunes, Rocky Dunes, Scrubland, Snowy Scrubland, Spiny Thicket, Windswept Savanna, Wooded Badlands",
-    ]);
-    addSafe("/autumnity:(stripped_)?maple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/Maple Tree Biome, Any Feature/Spotted Maple Tree/Orange Biome, Any Feature/Spotted Maple Tree/Red Biome, Any Feature/Spotted Maple Tree/Yellow Biome, Maple Forest, Pumpkin Fields",
-    ]);
-    addSafe("/autumnity:(stripped_)?orange_maple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/Spotted Maple Tree/Orange Biome, Maple Forest, Pumpkin Fields",
-    ]);
-    addSafe("/autumnity:(stripped_)?red_maple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/Spotted Maple Tree/Red Biome, Maple Forest, Pumpkin Fields",
-    ]);
-    addSafe("/autumnity:(stripped_)?yellow_maple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/Spotted Maple Tree/Yellow Biome, Maple Forest, Pumpkin Fields",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?araucaria_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Araucaria Savanna",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?aspen_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Boreal, Black Forest, Canadian Shield, Maple Taiga, Weeping Witch Forest",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?baobab_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Baobab Savanna",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?blooming_witch_hazel_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Weeping Witch Forest"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?blue_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Enchanted Tangle"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?blue_spruce_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Eroded Borealis, Frosted Taiga, Rose Fields, Skyris Vale"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?brown_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        [
-            "Found in biomes:",
-            "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
-        ],
-    );
-    addSafe("/biomeswevegone:(stripped_)?cika_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Cika Woods",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?cypress_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Cypress Swamplands, Cypress Wetlands",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?ebony_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Ebony Woods, Forgotten Forest, Fragment Jungle",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?fir_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Black Forest, Canadian Shield, Coniferous Forest, Frosted Coniferous Forest",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?firecracker_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Firecracker Chaparral"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?florus_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Allium Shrubland, Forgotten Forest",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_baobab_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Baobab Savanna"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_indigo_jacaranda_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Amaranth Grassland, Jacaranda Jungle"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_ironwood_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Ironwood Gour, Red Rock Peaks, Red Rock Valley"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_jacaranda_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Amaranth Grassland, Jacaranda Jungle"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_orchard_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Orchard"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_palo_verde_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Atacama Outback, Red Rock Valley, Rugged Badlands, Sierra Badlands"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_skyris_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Skyris Vale"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?flowering_yucca_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Mojave Desert"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?green_apple_skyris_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Skyris Vale"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?green_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Enchanted Tangle"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?holly_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Dacite Ridges, Eroded Borealis",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?holly_berry_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Dacite Ridges, Eroded Borealis"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?imbued_blue_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Enchanted Tangle"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?imbued_green_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Enchanted Tangle"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?indigo_jacaranda_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Amaranth Grassland, Jacaranda Jungle"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?ironwood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Ironwood Gour, Red Rock Peaks, Red Rock Valley",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?jacaranda_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Amaranth Grassland, Jacaranda Jungle",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?mahogany_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Crag Gardens, Fragment Jungle, Tropical Rainforest",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?maple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Forgotten Forest, Maple Taiga",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?orange_birch_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Howling Peaks"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?orange_spruce_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Crimson Tundra"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?orchard_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Orchard",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?palm_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Beach",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?palo_verde_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Atacama Outback, Red Rock Valley, Rugged Badlands, Sierra Badlands"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?pine_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Araucaria Savanna, Black Forest, Canadian Shield, Red Rock Peaks, Red Rock Valley",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?rainbow_eucalyptus_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Crag Gardens, Fragment Jungle"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?red_maple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Maple Taiga",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?red_spruce_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Crimson Tundra, Rose Fields"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?redwood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Redwood Thicket",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?ripe_baobab_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Baobab Savanna"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?ripe_orchard_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Orchard"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?ripe_yucca_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Mojave Desert"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?sakura_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Sakura Grove",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?silver_maple_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Forgotten Forest, Maple Taiga"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?skyris_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Skyris Vale",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?white_mangrove_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "White Mangrove Marshes"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?white_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        [
-            "Found in biomes:",
-            "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
-        ],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?white_sakura_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Sakura Grove"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?willow_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Bayou",
-    ]);
-    addSafe(
-        "/biomeswevegone:(stripped_)?witch_hazel_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Weeping Witch Forest"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?yellow_birch_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Howling Peaks, Overgrowth Woodlands, Temperate Grove"],
-    );
-    addSafe(
-        "/biomeswevegone:(stripped_)?yellow_sakura_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Sakura Grove"],
-    );
-    addSafe("/biomeswevegone:(stripped_)?yucca_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Mojave Desert",
-    ]);
-    addSafe("/biomeswevegone:(stripped_)?zelkova_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Zelkova Forest",
-    ]);
-    addSafe("/blue_skies:(stripped_)?bluebright_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Brisk Meadow, Calming Skies, Frostbitten Forest, Polar Highland",
-    ]);
-    addSafe("/blue_skies:(stripped_)?comet_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
-    ]);
-    addSafe(
-        "/blue_skies:(stripped_)?crescent_fruit_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Crescent Orchard, Unorthodox Valley"],
-    );
-    addSafe("/blue_skies:(stripped_)?dusk_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Moonlit Reservoir, Shaded Woodlands, Unorthodox Valley",
-    ]);
-    addSafe("/blue_skies:(stripped_)?frostbright_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Frostbitten Forest, Frostbitten Forest Clearing",
-    ]);
-    addSafe("/blue_skies:(stripped_)?lunar_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Crystal Roughs, Searing Grassland, Unorthodox Valley",
-    ]);
-    addSafe("/blue_skies:(stripped_)?maple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Searing Grassland, Sunset Maple Forest",
-    ]);
-    addSafe("/blue_skies:(stripped_)?starlit_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
-    ]);
-    addSafe(
-        "/deep_aether:(stripped_)?blue_roseroot_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Aerglow Forest, Blue Aerglow Forest"],
-    );
-    addSafe("/deep_aether:(stripped_)?conberry_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Golden Grove, Golden Heights",
-    ]);
-    addSafe("/deep_aether:(stripped_)?cruderoot_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Yagroot Swamp",
-    ]);
-    addSafe(
-        "/deep_aether:(stripped_)?flowering_blue_roseroot_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Aerglow Forest, Blue Aerglow Forest"],
-    );
-    addSafe(
-        "/deep_aether:(stripped_)?flowering_roseroot_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Aerglow Forest, Mystic Aerglow Forest"],
-    );
-    addSafe("/deep_aether:(stripped_)?roseroot_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
-    ]);
-    addSafe(
-        "/deep_aether:(stripped_)?rotten_roseroot_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest"],
-    );
-    addSafe("/deep_aether:(stripped_)?sunroot_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Golden Grove, Golden Heights",
-    ]);
-    addSafe("/deep_aether:(stripped_)?yagroot_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Yagroot Swamp",
-    ]);
-    addSafe("/ecologics:(stripped_)?azalea_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Lush Caves",
-    ]);
-    addSafe("/ecologics:(stripped_)?coconut_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Beach",
-    ]);
-    addSafe(
-        "/ecologics:(stripped_)?flowering_azalea_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Lush Caves"],
-    );
-    addSafe("/ecologics:(stripped_)?walnut_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Plains",
-    ]);
-    addSafe("/eidolon:(stripped_)?illwood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Spooky Biome",
-    ]);
-    addSafe(
-        "/environmental:(stripped_)?blue_wisteria_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Flower Forest"],
-    );
-    addSafe(
-        "/environmental:(stripped_)?cheerful_plum_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Blossom Valleys, Blossom Woods"],
-    );
-    addSafe("/environmental:(stripped_)?moody_plum_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Blossom Valleys, Blossom Woods",
-    ]);
-    addSafe("/environmental:(stripped_)?pine_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Old Growth Pine Barrens, Pine Barrens, Pine Slopes, Snowy Old Growth Pine Barrens, Snowy Pine Barrens",
-    ]);
-    addSafe(
-        "/environmental:(stripped_)?pink_wisteria_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Flower Forest"],
-    );
-    addSafe("/environmental:(stripped_)?plum_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Blossom Valleys, Blossom Woods",
-    ]);
-    addSafe(
-        "/environmental:(stripped_)?purple_wisteria_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Flower Forest"],
-    );
-    addSafe(
-        "/environmental:(stripped_)?white_wisteria_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Flower Forest"],
-    );
-    addSafe("/environmental:(stripped_)?wisteria_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Flower Forest",
-    ]);
-    addSafe("/forbidden_arcanus:(stripped_)?aurum_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Flower Forest",
-    ]);
-    addSafe(
-        "/forbidden_arcanus:(stripped_)?nuggety_aurum_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Flower Forest"],
-    );
-    addSafe("/iceandfire:(stripped_)?dreadwood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Dread Forest",
-    ]);
-    addSafe(
-        "/integrateddynamics:(stripped_)?menril_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Overworld Biome, Meneglin"],
-    );
-    addSafe("/minecells:(stripped_)?orange_wilted_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Promenade, Ramparts",
-    ]);
-    addSafe("/minecells:(stripped_)?putrid_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Promenade, Ramparts",
-    ]);
-    addSafe("/minecells:(stripped_)?red_wilted_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Promenade, Ramparts",
-    ]);
-    addSafe("/minecells:(stripped_)?wilted_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Promenade, Ramparts",
-    ]);
-    addSafe("/minecells:(stripped_)?wilted_wall_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Promenade",
-    ]);
-    addSafe("/minecraft:(stripped_)?acacia_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Savanna Biome, Badlands, Bamboo Jungle, Beach, Flower Forest, Flowering Savanna, Forest, Jungle, Mangrove Swamp, Old Growth Pine Taiga, Plains, River, Savanna, Savanna Plateau, Snowy Taiga, Sunflower Plains, Taiga, Windswept Savanna",
-    ]);
-    addSafe("/minecraft:(stripped_)?attached_melon_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Desert, Jungle, Mangrove Swamp",
-    ]);
-    addSafe(
-        "/minecraft:(stripped_)?attached_pumpkin_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Birch Forest, Old Growth Birch Forest"],
-    );
-    addSafe("/minecraft:(stripped_)?azalea_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Bamboo Jungle, Beach, Birch Forest, Cherry Grove, Desert, Forest, Jungle, Lukewarm Ocean, Lush Caves, Mangrove Swamp, Old Growth Birch Forest, Plains, River, Savanna, Savanna Plateau, Snowy Plains, Taiga",
-    ]);
-    addSafe("/minecraft:(stripped_)?bamboo_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Bamboo Jungle, Desert, Forest, Jungle, Mangrove Swamp, Plains, River, Savanna, Savanna Plateau",
-    ]);
-    addSafe("/minecraft:(stripped_)?big_dripleaf_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Mushroom Fields",
-    ]);
-    addSafe("/minecraft:(stripped_)?birch_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Badlands, Bamboo Jungle, Beach, Birch Forest, Blossom Valleys, Blossom Woods, Cherry Grove, Flower Forest, Forest, Howling Peaks, Jungle, Kousa Jungle, Mangrove Swamp, Old Growth Birch Forest, Overgrowth Woodlands, Plains, Savanna, Savanna Plateau, Snowy Taiga, Sparse Jungle, Sunflower Plains, Taiga, Temperate Grove, Windswept Savanna, Wooded Badlands",
-    ]);
-    addSafe("/minecraft:(stripped_)?cherry_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Cherry Grove",
-    ]);
-    addSafe("/minecraft:(stripped_)?dark_oak_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Bamboo Jungle, Coconino Meadow, Dark Forest, Forest, Forgotten Forest, Grimwoods, Jungle, Mangrove Swamp, Plains, Pumpkin Valley, River, Savanna, Savanna Plateau, Taiga",
-    ]);
-    addSafe(
-        "/minecraft:(stripped_)?flowering_azalea_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Bamboo Jungle, Jungle, Lush Caves, Savanna Plateau"],
-    );
-    addSafe("/minecraft:(stripped_)?jungle_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Bamboo Jungle, Beach, Crag Gardens, Dark Forest, Desert, Jungle, Lukewarm Ocean, Mangrove Swamp, Savanna, Savanna Plateau",
-    ]);
-    addSafe("/minecraft:(stripped_)?mangrove_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Bamboo Jungle, Cherry Grove, Forest, Jungle, Lukewarm Ocean, Mangrove Swamp, Plains, River, Savanna, Savanna Plateau",
-    ]);
-    addSafe("/minecraft:(stripped_)?melon_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Desert",
-    ]);
-    addSafe("/minecraft:(stripped_)?mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aerglow Forest, Dark Forest, Glowstone Canyon, Marsh, Mushroom Fields, Mystic Aerglow Forest",
-    ]);
-    addSafe("/minecraft:(stripped_)?oak_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Allium Shrubland, Amaranth Grassland, Any Feature/Apple Trees Biome, Any Feature/Rare Chestnut Trees Biome, Any Feature/Rare Holly Trees Biome, Any Savanna Biome, Aspen Parkland, Badlands, Bamboo Jungle, Birch Forest, Blood Mushroom Bog, Blossom Valleys, Blossom Woods, Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Cherry Grove, Chestnut Forest, Coconino Meadow, Crescent Orchard, Crystal Roughs, Cypress Wetlands, Dark Forest, Deep Peeking Ocean, Dense Forest, Firecracker Chaparral, Flower Forest, Flowering Savanna, Forest, Forgotten Forest, Fragment Jungle, Frostbitten Forest, Frostbitten Forest Clearing, Frosty Smogstem Forest, Gronglegrowth, Indigo Mushroom Bog, Ink Mushroom Bog, Jungle, Lavender Fields, Lavender Hills, Mangrove Swamp, Maple Forest, Maple Taiga, Meadow, Midday Shore, Mojave Desert, Moonlit Reservoir, Old Growth Birch Forest, Old Growth Pine Barrens, Old Growth Pine Taiga, Old Growth Spruce Taiga, Orchard, Overgrowth Woodlands, Peeking Ocean, Pine Barrens, Plains, Polar Highland, Prairie, Pumpkin Fields, Pumpkin Valley, Rainforest, Rainforest Basin, River, Savanna, Savanna Plateau, Scrubland, Shaded Woodlands, Sierra Badlands, Slushlands, Smog Spires, Smogstem Forest, Snow Covered Pines, Snowy Chestnut Forest, Snowy Old Growth Pine Barrens, Snowy Pine Barrens, Snowy Plains, Snowy Scrubland, Sparse Rainforest, Sparse Rainforest Basin, Sunflower Plains, Sunset Maple Forest, Swamp, Taiga, Tundra, Unorthodox Valley, Veil Mushroom Bog, White Mangrove Marshes, Wigglewood Forest, Windswept Savanna, Wooded Badlands",
-    ]);
-    addSafe("/minecraft:(stripped_)?pumpkin_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Birch Forest, Old Growth Birch Forest",
-    ]);
-    addSafe("/minecraft:(stripped_)?spruce_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Aspen Boreal, Badlands, Canadian Shield, Cherry Grove, Coniferous Forest, Crimson Tundra, Dacite Ridges, Eroded Borealis, Flower Forest, Forest, Frosted Coniferous Forest, Frosted Taiga, Grove, Howling Peaks, Ice Spikes, Lukewarm Ocean, Maple Taiga, Meadow, Old Growth Pine Taiga, Old Growth Spruce Taiga, Plains, Redwood Thicket, Rose Fields, Skyris Vale, Snowy Plains, Snowy Taiga, Sunflower Plains, Taiga, Tundra, Weeping Witch Forest, Windswept Savanna",
-    ]);
-    addSafe("/minecraft:(stripped_)?warped_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Mushroom Fields",
-    ]);
-    addSafe("/occultism:(stripped_)?otherworld_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Stronghold Biased To",
-    ]);
-    addSafe("/opposing_force:(stripped_)?apple_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/Apple Trees Biome",
-    ]);
-    addSafe(
-        "/opposing_force:(stripped_)?flowering_apple_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Feature/Apple Trees Biome"],
-    );
-    addSafe(
-        "/opposing_force:(stripped_)?flowering_infested_apple_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Feature/Apple Trees Biome"],
-    );
-    addSafe(
-        "/opposing_force:(stripped_)?fruitful_apple_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Feature/Apple Trees Biome"],
-    );
-    addSafe(
-        "/opposing_force:(stripped_)?fruitful_infested_apple_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Feature/Apple Trees Biome"],
-    );
-    addSafe(
-        "/opposing_force:(stripped_)?infested_apple_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Feature/Apple Trees Biome"],
-    );
-    addSafe("/thermal:(stripped_)?rubberwood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Bamboo Jungle, Flower Forest, Or, Sparse Jungle",
-    ]);
-    addSafe(
-        "/undergarden:(stripped_)?blood_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Blood Mushroom Bog"],
-    );
-    addSafe("/undergarden:(stripped_)?grongle_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Gronglegrowth",
-    ]);
-    addSafe(
-        "/undergarden:(stripped_)?indigo_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Indigo Mushroom Bog, Smogstem Forest"],
-    );
-    addSafe("/undergarden:(stripped_)?ink_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Ink Mushroom Bog",
-    ]);
-    addSafe("/undergarden:(stripped_)?smogstem_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Dense Forest, Frosty Smogstem Forest, Indigo Mushroom Bog, Smogstem Forest",
-    ]);
-    addSafe(
-        "/undergarden:(stripped_)?veil_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Veil Mushroom Bog"],
-    );
-    addSafe("/undergarden:(stripped_)?wigglewood_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Dense Forest, Wigglewood Forest",
-    ]);
-    addSafe("/upgrade_aquatic:(stripped_)?river_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/River Tree Biome",
-    ]);
-    addSafe("/windswept:(stripped_)?chestnut_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/Rare Chestnut Trees Biome, Chestnut Forest, Lavender Hills, Snowy Chestnut Forest",
-    ]);
-    addSafe(
-        "/windswept:(stripped_)?flowering_acacia_(log|stem|wood|planks|sapling|hyphae|leaves)/",
-        ["Found in biomes:", "Any Savanna Biome, Flowering Savanna"],
-    );
-    addSafe("/windswept:(stripped_)?holly_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Any Feature/Rare Holly Trees Biome, Any Feature/Rare Snowy Holly Trees Biome, Grove, Pine Barrens, Snowy Pine Barrens, Tundra",
-    ]);
-    addSafe("/windswept:(stripped_)?pine_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Blossom Valleys, Blossom Woods, Old Growth Pine Taiga, Pine Barrens, Snowy Pine Barrens",
-    ]);
-    addSafe("/windswept:(stripped_)?weathered_pine_(log|stem|wood|planks|sapling|hyphae|leaves)/", [
-        "Found in biomes:",
-        "Pine Barrens, Snowy Pine Barrens",
-    ]);
     addSafe("aether:aerogel", ["Found in biomes:", "Cloudcaps, Frosted Forests, Glacial Tundra"]);
-    addSafe("aether:aether_dirt", [
-        "Found in biomes:",
-        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
-    ]);
     addSafe("aether:aether_grass_block", [
         "Found in biomes:",
         "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Luminescent Forest, Mystic Aerglow Forest, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Woodland",
@@ -734,18 +25,6 @@ JEIEvents.information((event) => {
     addSafe("aether:golden_aercloud", [
         "Found in biomes:",
         "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Gilded Grasslands, Gilded Groves, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, Yagroot Swamp",
-    ]);
-    addSafe("aether:holystone", [
-        "Found in biomes:",
-        "Any Mossy Rocks Biome, Cloudcaps, Skyfields, Skyroot Shrublands, The Blight",
-    ]);
-    addSafe("aether:icestone", [
-        "Found in biomes:",
-        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
-    ]);
-    addSafe("aether:mossy_holystone", [
-        "Found in biomes:",
-        "Any Mossy Holystone Ore Biome, Any Mossy Rocks Biome, Skyroot Shrublands",
     ]);
     addSafe("aether:present", [
         "Found in biomes:",
@@ -781,7 +60,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Any Blighted Caves Biome, The Blight",
     ]);
-    addSafe("aether_redux:blightmoss_holystone", ["Found in biomes:", "The Blight"]);
     addSafe("aether_redux:blightshade", [
         "Found in biomes:",
         "Any Blighted Caves Biome, The Blight",
@@ -792,7 +70,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Any Fungal Caves Biome, Cloudcaps",
     ]);
-    addSafe("aether_redux:cloudcap_spores", ["Found in biomes:", "Cloudcaps"]);
     addSafe("aether_redux:corrupted_vines", ["Found in biomes:", "The Blight"]);
     addSafe("aether_redux:corrupted_vines_plant", ["Found in biomes:", "The Blight"]);
     addSafe("aether_redux:daggerbloom", ["Found in biomes:", "Frosted Forests, Glacial Tundra"]);
@@ -811,10 +88,6 @@ JEIEvents.information((event) => {
     addSafe("aether_redux:fungal_growth", [
         "Found in biomes:",
         "Any Fungal Caves Biome, Cloudcaps",
-    ]);
-    addSafe("aether_redux:gilded_holystone", [
-        "Found in biomes:",
-        "Gilded Grasslands, Gilded Groves",
     ]);
     addSafe("aether_redux:gilded_leaf_pile", [
         "Found in biomes:",
@@ -870,7 +143,6 @@ JEIEvents.information((event) => {
     addSafe("alexscaves:curly_fern", ["Found in biomes:", "Primordial Caves"]);
     addSafe("alexscaves:dusk_anemone", ["Found in biomes:", "Abyssal Chasm"]);
     addSafe("alexscaves:flytrap", ["Found in biomes:", "Primordial Caves"]);
-    addSafe("alexscaves:limestone", ["Found in biomes:", "Primordial Caves"]);
     addSafe("alexscaves:metal_swarf", ["Found in biomes:", "Magnetic Caves, Toxic Caves"]);
     addSafe("alexscaves:midnight_anemone", ["Found in biomes:", "Abyssal Chasm"]);
     addSafe("alexscaves:scarlet_neodymium_node", ["Found in biomes:", "Magnetic Caves"]);
@@ -891,11 +163,6 @@ JEIEvents.information((event) => {
         "Aspen Parkland, Flourishing Dunes, Laurel Forest, Spiny Thicket, Wooded Badlands",
     ]);
     addSafe("atmospheric:aloe_vera", ["Found in biomes:", "Dunes, Flourishing Dunes, Rocky Dunes"]);
-    addSafe("atmospheric:arid_sand", ["Found in biomes:", "Flourishing Dunes"]);
-    addSafe("atmospheric:arid_sandstone", [
-        "Found in biomes:",
-        "Dunes, Flourishing Dunes, Petrified Dunes, Rocky Dunes",
-    ]);
     addSafe("atmospheric:arid_sprouts", [
         "Found in biomes:",
         "Dunes, Flourishing Dunes, Petrified Dunes, Rocky Dunes, Scrubland, Snowy Scrubland",
@@ -913,8 +180,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Aspen Parkland, Laurel Forest, Scrubland, Snowy Scrubland",
     ]);
-    addSafe("atmospheric:red_arid_sand", ["Found in biomes:", "Flourishing Dunes"]);
-    addSafe("atmospheric:red_arid_sandstone", ["Found in biomes:", "Petrified Dunes"]);
     addSafe("atmospheric:roasted_yucca_bundle", ["Found in biomes:", "Petrified Dunes"]);
     addSafe("atmospheric:tall_aloe_vera", [
         "Found in biomes:",
@@ -982,14 +247,6 @@ JEIEvents.information((event) => {
         "Black Forest, Canadian Shield, Cika Woods, Coconino Meadow, Coniferous Forest, Dacite Ridges, Dark Forest, Eroded Borealis, Forest, Frosted Coniferous Forest, Howling Peaks, Maple Taiga, Rose Fields, Weeping Witch Forest, Zelkova Forest",
     ]);
     addSafe("biomeswevegone:california_poppy", ["Found in biomes:", "Ironwood Gour, Prairie"]);
-    addSafe("biomeswevegone:cattail", [
-        "Found in biomes:",
-        "Bayou, Crag Gardens, Cypress Swamplands, Cypress Wetlands, White Mangrove Marshes",
-    ]);
-    addSafe("biomeswevegone:cattail_sprout", [
-        "Found in biomes:",
-        "Bayou, Crag Gardens, Cypress Swamplands, Cypress Wetlands, White Mangrove Marshes",
-    ]);
     addSafe("biomeswevegone:clover_patch", [
         "Found in biomes:",
         "Allium Shrubland, Amaranth Grassland, Bamboo Jungle, Birch Forest, Coconino Meadow, Crimson Tundra, Dark Forest, Desert, Forest, Ice Spikes, Jungle, Old Growth Birch Forest, Old Growth Pine Taiga, Old Growth Spruce Taiga, Orchard, Plains, Pumpkin Valley, Sakura Grove, Savanna, Savanna Plateau, Snowy Plains, Snowy Taiga, Sparse Jungle, Sunflower Plains, Taiga, Temperate Grove, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Windswept Savanna",
@@ -1007,10 +264,6 @@ JEIEvents.information((event) => {
     addSafe("biomeswevegone:delphinium", [
         "Found in biomes:",
         "Fragment Jungle, Tropical Rainforest",
-    ]);
-    addSafe("biomeswevegone:fairy_slipper", [
-        "Found in biomes:",
-        "Enchanted Tangle, Forgotten Forest, Overgrowth Woodlands, Skyris Vale",
     ]);
     addSafe("biomeswevegone:firecracker_flower_bush", [
         "Found in biomes:",
@@ -1042,10 +295,6 @@ JEIEvents.information((event) => {
     addSafe("biomeswevegone:green_mushroom", [
         "Found in biomes:",
         "Allium Shrubland, Amaranth Grassland, Araucaria Savanna, Aspen Boreal, Atacama Outback, Baobab Savanna, Black Forest, Cika Woods, Coconino Meadow, Coniferous Forest, Crag Gardens, Cypress Swamplands, Cypress Wetlands, Dacite Ridges, Dacite Shore, Ebony Woods, Enchanted Tangle, Eroded Borealis, Forgotten Forest, Fragment Jungle, Frosted Coniferous Forest, Frosted Taiga, Howling Peaks, Ironwood Gour, Jacaranda Jungle, Maple Taiga, Mojave Desert, Orchard, Overgrowth Woodlands, Pumpkin Valley, Red Rock Peaks, Red Rock Valley, Redwood Thicket, Rose Fields, Sakura Grove, Sierra Badlands, Skyris Vale, Temperate Grove, Tropical Rainforest, Weeping Witch Forest, Zelkova Forest",
-    ]);
-    addSafe("biomeswevegone:green_mushroom_block", [
-        "Found in biomes:",
-        "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
     ]);
     addSafe("biomeswevegone:green_tulip", [
         "Found in biomes:",
@@ -1097,17 +346,12 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Atacama Outback, Mojave Desert, Red Rock Peaks, Red Rock Valley, Rugged Badlands, Windswept Desert",
     ]);
-    addSafe("biomeswevegone:mossy_stone", [
-        "Found in biomes:",
-        "Black Forest, Dacite Ridges, Fragment Jungle, Redwood Thicket, Skyris Vale",
-    ]);
     addSafe("biomeswevegone:orange_amaranth", ["Found in biomes:", "Amaranth Grassland"]);
     addSafe("biomeswevegone:orange_daisy", [
         "Found in biomes:",
         "Aspen Boreal, Bamboo Jungle, Birch Forest, Dark Forest, Desert, Forest, Ice Spikes, Jungle, Old Growth Birch Forest, Old Growth Pine Taiga, Old Growth Spruce Taiga, Plains, Savanna, Savanna Plateau, Snowy Plains, Snowy Taiga, Sparse Jungle, Sunflower Plains, Taiga, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Windswept Savanna",
     ]);
     addSafe("biomeswevegone:osiria_rose", ["Found in biomes:", "Rose Fields"]);
-    addSafe("biomeswevegone:overgrown_stone", ["Found in biomes:", "Fragment Jungle"]);
     addSafe("biomeswevegone:peach_leather_flower", [
         "Found in biomes:",
         "Bayou, Cypress Swamplands, Cypress Wetlands, White Mangrove Marshes",
@@ -1123,7 +367,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Coconino Meadow, Forgotten Forest, Overgrowth Woodlands",
     ]);
-    addSafe("biomeswevegone:prairie_grass", ["Found in biomes:", "Prairie"]);
     addSafe("biomeswevegone:prickly_pear_cactus", [
         "Found in biomes:",
         "Atacama Outback, Mojave Desert, Red Rock Peaks, Red Rock Valley, Rugged Badlands, Windswept Desert",
@@ -1142,10 +385,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Crag Gardens, Enchanted Tangle, Fragment Jungle, Jacaranda Jungle, Tropical Rainforest",
     ]);
-    addSafe("biomeswevegone:rocky_stone", [
-        "Found in biomes:",
-        "Black Forest, Dacite Ridges, Dacite Shore, Fragment Jungle, Howling Peaks, Redwood Thicket, Skyris Vale",
-    ]);
     addSafe("biomeswevegone:rose", [
         "Found in biomes:",
         "Aspen Boreal, Bamboo Jungle, Birch Forest, Crimson Tundra, Dark Forest, Desert, Forest, Forgotten Forest, Ice Spikes, Jungle, Maple Taiga, Old Growth Birch Forest, Old Growth Pine Taiga, Old Growth Spruce Taiga, Overgrowth Woodlands, Plains, Rose Fields, Savanna, Savanna Plateau, Snowy Plains, Snowy Taiga, Sparse Jungle, Sunflower Plains, Taiga, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Windswept Savanna",
@@ -1153,7 +392,7 @@ JEIEvents.information((event) => {
     addSafe("biomeswevegone:rose_petal_block", ["Found in biomes:", "Forgotten Forest"]);
     addSafe("biomeswevegone:shelf_fungi", [
         "Found in biomes:",
-        "Aspen Boreal, Black Forest, Canadian Shield, Firecracker Chaparral, Forgotten Forest, Fragment Jungle, Maple Taiga, Overgrowth Woodlands, Prairie, Weeping Witch Forest, White Mangrove Marshes",
+        "Black Forest, Firecracker Chaparral, Forgotten Forest, Fragment Jungle, Overgrowth Woodlands, Prairie, White Mangrove Marshes",
     ]);
     addSafe("biomeswevegone:shrub", [
         "Found in biomes:",
@@ -1166,7 +405,6 @@ JEIEvents.information((event) => {
         "Mojave Desert, Rainbow Beach, Rugged Badlands",
     ]);
     addSafe("biomeswevegone:tall_pink_allium", ["Found in biomes:", "Allium Shrubland"]);
-    addSafe("biomeswevegone:tall_prairie_grass", ["Found in biomes:", "Prairie"]);
     addSafe("biomeswevegone:tall_white_allium", ["Found in biomes:", "Allium Shrubland"]);
     addSafe("biomeswevegone:tiny_lily_pads", [
         "Found in biomes:",
@@ -1176,17 +414,9 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Bayou, Cypress Swamplands, Cypress Wetlands, White Mangrove Marshes",
     ]);
-    addSafe("biomeswevegone:water_silk", [
-        "Found in biomes:",
-        "Bayou, Crag Gardens, Cypress Swamplands, Cypress Wetlands",
-    ]);
     addSafe("biomeswevegone:weeping_milkcap", [
         "Found in biomes:",
         "Allium Shrubland, Amaranth Grassland, Araucaria Savanna, Aspen Boreal, Atacama Outback, Baobab Savanna, Black Forest, Cika Woods, Coconino Meadow, Coniferous Forest, Crag Gardens, Cypress Swamplands, Cypress Wetlands, Dacite Ridges, Dacite Shore, Ebony Woods, Enchanted Tangle, Eroded Borealis, Forgotten Forest, Fragment Jungle, Frosted Coniferous Forest, Frosted Taiga, Howling Peaks, Ironwood Gour, Jacaranda Jungle, Maple Taiga, Mojave Desert, Orchard, Overgrowth Woodlands, Pumpkin Valley, Red Rock Peaks, Red Rock Valley, Redwood Thicket, Rose Fields, Sakura Grove, Sierra Badlands, Skyris Vale, Temperate Grove, Tropical Rainforest, Weeping Witch Forest, Zelkova Forest",
-    ]);
-    addSafe("biomeswevegone:weeping_milkcap_mushroom_block", [
-        "Found in biomes:",
-        "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
     ]);
     addSafe("biomeswevegone:white_allium", ["Found in biomes:", "Allium Shrubland, Orchard"]);
     addSafe("biomeswevegone:white_allium_flower_bush", ["Found in biomes:", "Allium Shrubland"]);
@@ -1204,8 +434,6 @@ JEIEvents.information((event) => {
         "Atacama Outback, Black Forest, Ironwood Gour, Maple Taiga, Temperate Grove",
     ]);
     addSafe("biomeswevegone:white_sakura_petals", ["Found in biomes:", "Sakura Grove"]);
-    addSafe("biomeswevegone:windswept_sand", ["Found in biomes:", "Windswept Desert"]);
-    addSafe("biomeswevegone:windswept_sandstone", ["Found in biomes:", "Windswept Desert"]);
     addSafe("biomeswevegone:winter_cyclamen", [
         "Found in biomes:",
         "Eroded Borealis, Howling Peaks",
@@ -1221,10 +449,6 @@ JEIEvents.information((event) => {
     addSafe("biomeswevegone:wood_blewit", [
         "Found in biomes:",
         "Allium Shrubland, Amaranth Grassland, Araucaria Savanna, Aspen Boreal, Atacama Outback, Baobab Savanna, Black Forest, Cika Woods, Coconino Meadow, Coniferous Forest, Crag Gardens, Cypress Swamplands, Cypress Wetlands, Dacite Ridges, Dacite Shore, Ebony Woods, Enchanted Tangle, Eroded Borealis, Forgotten Forest, Fragment Jungle, Frosted Coniferous Forest, Frosted Taiga, Howling Peaks, Ironwood Gour, Jacaranda Jungle, Maple Taiga, Mojave Desert, Orchard, Overgrowth Woodlands, Pumpkin Valley, Red Rock Peaks, Red Rock Valley, Redwood Thicket, Rose Fields, Sakura Grove, Sierra Badlands, Skyris Vale, Temperate Grove, Tropical Rainforest, Weeping Witch Forest, Zelkova Forest",
-    ]);
-    addSafe("biomeswevegone:wood_blewit_mushroom_block", [
-        "Found in biomes:",
-        "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
     ]);
     addSafe("biomeswevegone:yellow_daffodil", ["Found in biomes:", "Orchard"]);
     addSafe("biomeswevegone:yellow_sakura_petals", ["Found in biomes:", "Sakura Grove"]);
@@ -1253,27 +477,7 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Brightlands, Brisk Meadow, Frostbitten Forest, Frostbitten Forest Clearing, Snow Covered Pines",
     ]);
-    addSafe("blue_skies:cinderstone", [
-        "Found in biomes:",
-        "Crescent Orchard, Crescent Orchard Lake, Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs, Moonlit Reservoir, Rising Creek, Searing Grassland, Shaded Woodlands, Sunset Maple Forest, Unorthodox Valley",
-    ]);
-    addSafe("blue_skies:coarse_lunar_dirt", [
-        "Found in biomes:",
-        "Crescent Orchard, Crescent Orchard Lake, Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs, Moonlit Reservoir, Rising Creek, Searing Grassland, Shaded Woodlands, Sunset Maple Forest, Unorthodox Valley",
-    ]);
-    addSafe("blue_skies:coarse_turquoise_dirt", [
-        "Found in biomes:",
-        "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
-    ]);
     addSafe("blue_skies:crystal_flower", [
-        "Found in biomes:",
-        "Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs",
-    ]);
-    addSafe("blue_skies:crystal_sand", [
-        "Found in biomes:",
-        "Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs",
-    ]);
-    addSafe("blue_skies:crystal_sandstone", [
         "Found in biomes:",
         "Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs",
     ]);
@@ -1282,10 +486,6 @@ JEIEvents.information((event) => {
         "Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs",
     ]);
     addSafe("blue_skies:dusk_vine", ["Found in biomes:", "Shaded Woodlands"]);
-    addSafe("blue_skies:flare_floret", [
-        "Found in biomes:",
-        "Searing Grassland, Sunset Maple Forest",
-    ]);
     addSafe("blue_skies:frose", ["Found in biomes:", "Brisk Meadow"]);
     addSafe("blue_skies:frostbright_vine", [
         "Found in biomes:",
@@ -1295,18 +495,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Crescent Orchard, Crescent Orchard Lake, Moonlit Reservoir, Searing Grassland, Shaded Woodlands, Sunset Maple Forest",
     ]);
-    addSafe("blue_skies:lunar_cobblestone", [
-        "Found in biomes:",
-        "Moonlit Reservoir, Searing Grassland",
-    ]);
-    addSafe("blue_skies:lunar_dirt", [
-        "Found in biomes:",
-        "Crescent Orchard, Crescent Orchard Lake, Moonlit Reservoir, Shaded Woodlands",
-    ]);
-    addSafe("blue_skies:lunar_dripstone", [
-        "Found in biomes:",
-        "Crescent Orchard, Crescent Orchard Lake, Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs, Moonlit Reservoir, Rising Creek, Searing Grassland, Shaded Woodlands, Sunset Maple Forest, Unorthodox Valley",
-    ]);
     addSafe("blue_skies:lunar_grass", [
         "Found in biomes:",
         "Crescent Orchard, Crescent Orchard Lake, Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs, Moonlit Reservoir, Rising Creek, Searing Grassland, Shaded Woodlands, Sunset Maple Forest, Unorthodox Valley",
@@ -1315,18 +503,12 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Crescent Orchard, Crescent Orchard Lake, Shaded Woodlands",
     ]);
-    addSafe("blue_skies:lunar_stone", ["Found in biomes:", "Searing Grassland, Unorthodox Valley"]);
     addSafe("blue_skies:maple_vine", ["Found in biomes:", "Sunset Maple Forest"]);
     addSafe("blue_skies:midday_bayhop", ["Found in biomes:", "Midday Shore"]);
     addSafe("blue_skies:moonlit_bloom", [
         "Found in biomes:",
         "Crescent Orchard, Crescent Orchard Lake, Moonlit Reservoir, Rising Creek, Shaded Woodlands, Unorthodox Valley",
     ]);
-    addSafe("blue_skies:moonstone_crystal", [
-        "Found in biomes:",
-        "Crystal Dunes, Crystal Dunes Spikes, Snow Covered Pines",
-    ]);
-    addSafe("blue_skies:mossy_lunar_cobblestone", ["Found in biomes:", "Moonlit Reservoir"]);
     addSafe("blue_skies:muckweed", [
         "Found in biomes:",
         "Crescent Orchard, Crescent Orchard Lake, Moonlit Reservoir, Rising Creek, Shaded Woodlands",
@@ -1336,10 +518,6 @@ JEIEvents.information((event) => {
         "Crescent Orchard, Crescent Orchard Lake, Shaded Woodlands, Unorthodox Valley",
     ]);
     addSafe("blue_skies:polar_posy", ["Found in biomes:", "Calming Skies, Polar Highland"]);
-    addSafe("blue_skies:rimestone", [
-        "Found in biomes:",
-        "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
-    ]);
     addSafe("blue_skies:sea_moss_block", [
         "Found in biomes:",
         "Brumble Forest, Deep Peeking Ocean, Peeking Ocean",
@@ -1355,10 +533,6 @@ JEIEvents.information((event) => {
     addSafe("blue_skies:snowcap_mushroom", ["Found in biomes:", "Slushlands"]);
     addSafe("blue_skies:snowcap_pinhead", ["Found in biomes:", "Slushlands"]);
     addSafe("blue_skies:starlit_vine", ["Found in biomes:", "Snow Covered Pines"]);
-    addSafe("blue_skies:sunstone_crystal", [
-        "Found in biomes:",
-        "Searing Grassland, Sunset Maple Forest",
-    ]);
     addSafe("blue_skies:tall_lunar_grass", [
         "Found in biomes:",
         "Moonlit Reservoir, Rising Creek, Shaded Woodlands",
@@ -1371,27 +545,11 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
     ]);
-    addSafe("blue_skies:turquoise_cobblestone", [
-        "Found in biomes:",
-        "Frostbitten Forest, Frostbitten Forest Clearing, Polar Highland, Slushlands",
-    ]);
-    addSafe("blue_skies:turquoise_dirt", [
-        "Found in biomes:",
-        "Frostbitten Forest, Frostbitten Forest Clearing, Polar Highland",
-    ]);
-    addSafe("blue_skies:turquoise_dripstone", [
-        "Found in biomes:",
-        "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
-    ]);
     addSafe("blue_skies:turquoise_grass", [
         "Found in biomes:",
         "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
     ]);
     addSafe("blue_skies:turquoise_grass_block", ["Found in biomes:", "Polar Highland"]);
-    addSafe("blue_skies:turquoise_stone", [
-        "Found in biomes:",
-        "Brightlands, Brisk Meadow, Brumble Forest, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Peeking Ocean, Slushlands, Snow Covered Pines",
-    ]);
     addSafe("blue_skies:umber", [
         "Found in biomes:",
         "Crescent Orchard, Crescent Orchard Lake, Crystal Dunes, Crystal Dunes Spikes, Crystal Roughs, Moonlit Reservoir, Rising Creek, Searing Grassland, Shaded Woodlands, Sunset Maple Forest, Unorthodox Valley",
@@ -1527,19 +685,10 @@ JEIEvents.information((event) => {
     addSafe("buzzier_bees:buttercup", ["Found in biomes:", "Any Feature/Buttercup Biome"]);
     addSafe("buzzier_bees:pink_clover", ["Found in biomes:", "Any Feature/Pink Clover Biome"]);
     addSafe("buzzier_bees:white_clover", ["Found in biomes:", "Any Feature/White Clover Biome"]);
-    addSafe("caverns_and_chasms:fragile_deepslate", [
-        "Found in biomes:",
-        "Any Feature/Fragile Stone Biome",
-    ]);
-    addSafe("caverns_and_chasms:fragile_stone", [
-        "Found in biomes:",
-        "Any Feature/Fragile Stone Biome",
-    ]);
     addSafe("caverns_and_chasms:rhyolite", [
         "Found in biomes:",
         "Allium Shrubland, Amaranth Grassland, Any Feature/Rocky Dirt Biome, Araucaria Savanna, Archwood Forest, Aspen Boreal, Aspen Parkland, Atacama Outback, Badlands, Bamboo Jungle, Baobab Savanna, Basalt Barrera, Bayou, Beach, Birch Forest, Black Forest, Blazing Forest, Blossom Valleys, Blossom Woods, Canadian Shield, Cascading Forest, Cherry Grove, Chestnut Forest, Cika Woods, Coconino Meadow, Cold Ocean, Coniferous Forest, Crag Gardens, Crimson Tundra, Crystal Canyons, Cypress Swamplands, Cypress Wetlands, Dacite Ridges, Dacite Shore, Dark Forest, Dead Sea, Deep Cold Ocean, Deep Frozen Ocean, Deep Lukewarm Ocean, Deep Ocean, Desert, Dread Forest, Dread Plain, Dripstone Caves, Dunes, Ebony Woods, Enchanted Tangle, Eroded Badlands, Eroded Borealis, Firecracker Chaparral, Flashing Forest, Flourishing Dunes, Flourishing Forest, Flower Forest, Flowering Savanna, Forest, Forgotten Forest, Forlorn Hollows, Fragment Jungle, Frosted Coniferous Forest, Frosted Taiga, Frozen Ocean, Frozen Peaks, Frozen River, Glimmering Weald, Grimwoods, Grove, Hot Springs, Howling Peaks, Ice Spikes, Ironwood Gour, Jacaranda Jungle, Jagged Peaks, Jungle, Kousa Jungle, Laurel Forest, Lavender Fields, Lavender Hills, Lichen Caves, Lukewarm Ocean, Lush Caves, Lush Stacks, Magnetic Caves, Mangrove Swamp, Maple Forest, Maple Taiga, Marsh, Meadow, Meneglin, Mojave Desert, Mushroom Fields, Ocean, Old Growth Birch Forest, Old Growth Pine Barrens, Old Growth Pine Taiga, Old Growth Spruce Taiga, Orchard, Overgrowth Woodlands, Petrified Dunes, Pine Barrens, Pine Slopes, Pink Salt Caves, Plains, Prairie, Pumpkin Fields, Pumpkin Valley, Rainbow Beach, Rainforest, Rainforest Basin, Red Rock Peaks, Red Rock Valley, Redwood Thicket, River, Rocky Dunes, Rose Fields, Rugged Badlands, Sakura Grove, Savanna, Savanna Plateau, Scrubland, Shattered Glacier, Sierra Badlands, Skyris Vale, Snowy Beach, Snowy Chestnut Forest, Snowy Old Growth Pine Barrens, Snowy Pine Barrens, Snowy Plains, Snowy Scrubland, Snowy Slopes, Snowy Taiga, Sparse Jungle, Sparse Rainforest, Sparse Rainforest Basin, Spiny Thicket, Stony Peaks, Stony Shore, Strawberry Fields, Sunflower Plains, Swamp, Taiga, Temperate Grove, Tropical Rainforest, Tundra, Warm Ocean, Weeping Witch Forest, White Mangrove Marshes, Willow Swamp, Windswept Desert, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Windswept Savanna, Wooded Badlands, Zelkova Forest",
     ]);
-    addSafe("caverns_and_chasms:rocky_dirt", ["Found in biomes:", "Any Feature/Rocky Dirt Biome"]);
     addSafe("collectorsreap:dragon_bush", ["Found in biomes:", "Any Spawn/Dragon Fruit Biome"]);
     addSafe("collectorsreap:lime_bush", ["Found in biomes:", "Any Spawn/Lime Biome"]);
     addSafe("collectorsreap:pomegranate_bush", ["Found in biomes:", "Any Spawn/Pomegranate Biome"]);
@@ -1547,7 +696,6 @@ JEIEvents.information((event) => {
     addSafe("collectorsreap:warped_roots", ["Found in biomes:", "Any Spawn/Pomegranate Biome"]);
     addSafe("create:asurine", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("create:crimsite", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("create:limestone", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("create:ochrum", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("create:scorchia", ["Found in biomes:", "Any Nether Biome"]);
     addSafe("create:scoria", ["Found in biomes:", "Any Nether Biome, Any Overworld Biome"]);
@@ -1555,10 +703,6 @@ JEIEvents.information((event) => {
     addSafe("create_new_age:magnetite_block", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("deep_aether:aerlavender", ["Found in biomes:", "Aerlavender Fields"]);
     addSafe("deep_aether:aether_cattails", ["Found in biomes:", "Yagroot Swamp"]);
-    addSafe("deep_aether:aether_coarse_dirt", [
-        "Found in biomes:",
-        "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
-    ]);
     addSafe("deep_aether:aether_moss_block", ["Found in biomes:", "Yagroot Swamp"]);
     addSafe("deep_aether:aether_moss_carpet", ["Found in biomes:", "Yagroot Swamp"]);
     addSafe("deep_aether:aether_mud", ["Found in biomes:", "Yagroot Swamp"]);
@@ -1572,7 +716,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
     ]);
-    addSafe("deep_aether:glowing_spores", ["Found in biomes:", "Luminescent Forest"]);
     addSafe("deep_aether:golden_aspess", [
         "Found in biomes:",
         "Any Aether Extra Flowers Biome, Mystic Aerglow Forest",
@@ -1584,10 +727,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
     ]);
-    addSafe("deep_aether:lightcap_mushroom_block", [
-        "Found in biomes:",
-        "Aerglow Forest, Mystic Aerglow Forest",
-    ]);
     addSafe("deep_aether:lightcap_mushrooms", [
         "Found in biomes:",
         "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
@@ -1598,6 +737,7 @@ JEIEvents.information((event) => {
     ]);
     addSafe("deep_aether:mini_golden_grass", ["Found in biomes:", "Golden Grove, Golden Heights"]);
     addSafe("deep_aether:poison", ["Found in biomes:", "Yagroot Swamp"]);
+    addSafe("deep_aether:poison_fluid", ["Found in biomes:", "Yagroot Swamp"]);
     addSafe("deep_aether:radiant_orchid", [
         "Found in biomes:",
         "Aerglow Forest, Blue Aerglow Forest, Luminescent Forest, Mystic Aerglow Forest",
@@ -1617,7 +757,6 @@ JEIEvents.information((event) => {
     ]);
     addSafe("deep_aether:tall_glowing_grass", ["Found in biomes:", "Luminescent Forest"]);
     addSafe("deep_aether:tall_golden_grass", ["Found in biomes:", "Golden Grove, Golden Heights"]);
-    addSafe("deep_aether:virulent_quicksand", ["Found in biomes:", "Yagroot Swamp"]);
     addSafe("deep_aether:yagroot_roots", ["Found in biomes:", "Yagroot Swamp"]);
     addSafe("ecologics:coconut_seedling", ["Found in biomes:", "Beach"]);
     addSafe("ecologics:prickly_pear", ["Found in biomes:", "Desert"]);
@@ -1653,13 +792,7 @@ JEIEvents.information((event) => {
     addSafe("environmental:white_lotus_flower", ["Found in biomes:", "Blossom Valleys"]);
     addSafe("extractinator:silt", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("extractinator:slush", ["Found in biomes:", "Any Snowy Biome"]);
-    addSafe("farmersdelight:sandy_shrub", ["Found in biomes:", "Any Spawn/Dragon Fruit Biome"]);
-    addSafe("forbidden_arcanus:darkstone", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("forbidden_arcanus:gilded_darkstone", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("forbidden_arcanus:petrified_root", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("forbidden_arcanus:runic_darkstone", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("forbidden_arcanus:runic_deepslate", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("forbidden_arcanus:runic_stone", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("forbidden_arcanus:stella_arcanum", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("forbidden_arcanus:yellow_orchid", ["Found in biomes:", "Flower Forest"]);
     addSafe("galosphere:allurite_block", ["Found in biomes:", "Crystal Canyons"]);
@@ -1673,7 +806,6 @@ JEIEvents.information((event) => {
     addSafe("galosphere:lumiere_cluster", ["Found in biomes:", "Crystal Canyons"]);
     addSafe("iceandfire:frost_lily", ["Found in biomes:", "Dread Forest"]);
     addSafe("infernalexp:buried_bone", ["Found in biomes:", "Soul Sand Valley"]);
-    addSafe("infernalexp:dullstone", ["Found in biomes:", "Glowstone Canyon"]);
     addSafe("infernalexp:dullthorns", ["Found in biomes:", "Glowstone Canyon"]);
     addSafe("infernalexp:glowlight_fire", ["Found in biomes:", "Glowstone Canyon"]);
     addSafe("infernalexp:glowsilk_cocoon", ["Found in biomes:", "Glowstone Canyon"]);
@@ -1684,8 +816,6 @@ JEIEvents.information((event) => {
         "Any Overworld Biome, Meneglin",
     ]);
     addSafe("lost_aether_content:pink_aercloud", ["Found in biomes:", "Any Pink Aerclouds Biome"]);
-    addSafe("malum:brilliant_deepslate", ["Found in biomes:", "Any Brilliant Biome"]);
-    addSafe("malum:brilliant_stone", ["Found in biomes:", "Any Brilliant Biome"]);
     addSafe("malum:natural_quartz_cluster", ["Found in biomes:", "Any Quartz Biome"]);
     addSafe("mekanism:block_salt", ["Found in biomes:", "Spawn Ores"]);
     addSafe("minecraft:allium", [
@@ -1694,7 +824,10 @@ JEIEvents.information((event) => {
     ]);
     addSafe("minecraft:amethyst_block", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:amethyst_cluster", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:andesite_slab", ["Found in biomes:", "Flower Forest"]);
+    addSafe("minecraft:andesite", [
+        "Found in biomes:",
+        "Abyssal Chasm, Allium Shrubland, Amaranth Grassland, Any Overworld Biome, Araucaria Savanna, Archwood Forest, Aspen Boreal, Aspen Parkland, Atacama Outback, Badlands, Bamboo Jungle, Baobab Savanna, Basalt Barrera, Bayou, Beach, Birch Forest, Black Forest, Blazing Forest, Blossom Valleys, Blossom Woods, Canadian Shield, Candy Cavity, Cascading Forest, Cherry Grove, Chestnut Forest, Cika Woods, Coconino Meadow, Cold Ocean, Coniferous Forest, Crag Gardens, Crimson Tundra, Crystal Canyons, Cypress Swamplands, Cypress Wetlands, Dacite Ridges, Dacite Shore, Dark Forest, Dead Sea, Deep Cold Ocean, Deep Dark, Deep Frozen Ocean, Deep Lukewarm Ocean, Deep Ocean, Desert, Dread Forest, Dread Plain, Dripstone Caves, Dunes, Ebony Woods, Enchanted Tangle, Eroded Badlands, Eroded Borealis, Firecracker Chaparral, Flashing Forest, Flourishing Dunes, Flourishing Forest, Flower Forest, Flowering Savanna, Forest, Forgotten Forest, Forlorn Hollows, Fragment Jungle, Frosted Caves, Frosted Coniferous Forest, Frosted Taiga, Frozen Ocean, Frozen Peaks, Frozen River, Glimmering Weald, Grimwoods, Grove, Hot Springs, Howling Peaks, Ice Spikes, Ironwood Gour, Jacaranda Jungle, Jagged Peaks, Jungle, Kousa Jungle, Laurel Forest, Lavender Fields, Lavender Hills, Lichen Caves, Lost Caves, Lukewarm Ocean, Lush Caves, Lush Stacks, Magnetic Caves, Mangrove Swamp, Maple Forest, Maple Taiga, Marsh, Meadow, Meneglin, Mojave Desert, Mushroom Fields, Ocean, Old Growth Birch Forest, Old Growth Pine Barrens, Old Growth Pine Taiga, Old Growth Spruce Taiga, Orchard, Overgrowth Woodlands, Petrified Dunes, Pine Barrens, Pine Slopes, Pink Salt Caves, Plains, Prairie, Primordial Caves, Pumpkin Fields, Pumpkin Valley, Rainbow Beach, Rainforest, Rainforest Basin, Red Rock Peaks, Red Rock Valley, Redwood Thicket, River, Rocky Dunes, Rose Fields, Rugged Badlands, Sakura Grove, Savanna, Savanna Plateau, Scrubland, Shattered Glacier, Sierra Badlands, Skyris Vale, Snowy Beach, Snowy Chestnut Forest, Snowy Old Growth Pine Barrens, Snowy Pine Barrens, Snowy Plains, Snowy Scrubland, Snowy Slopes, Snowy Taiga, Sparse Jungle, Sparse Rainforest, Sparse Rainforest Basin, Spiny Thicket, Stony Peaks, Stony Shore, Strawberry Fields, Sunflower Plains, Swamp, Taiga, Temperate Grove, Toxic Caves, Tropical Rainforest, Tundra, Warm Ocean, Weeping Witch Forest, White Mangrove Marshes, Willow Swamp, Windswept Desert, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Windswept Savanna, Wooded Badlands, Zelkova Forest",
+    ]);
     addSafe("minecraft:anvil", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:azalea", [
         "Found in biomes:",
@@ -1708,23 +841,20 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Bamboo Jungle, Cherry Grove, Desert, Forest, Jungle, Mangrove Swamp, Plains, River, Savanna, Savanna Plateau",
     ]);
+    addSafe("minecraft:basalt", [
+        "Found in biomes:",
+        "Any Basalt Ash Biome, Any Nether Biome, Mushroom Fields, Stony Peaks, Windswept Forest, Windswept Gravelly Hills, Windswept Hills",
+    ]);
     addSafe("minecraft:beetroots", ["Found in biomes:", "Desert"]);
     addSafe("minecraft:big_dripleaf", ["Found in biomes:", "Mushroom Fields"]);
     addSafe("minecraft:black_terracotta", ["Found in biomes:", "Stony Peaks"]);
-    addSafe("minecraft:blackstone_slab", [
-        "Found in biomes:",
-        "Flower Forest, Forest, Plains, Savanna, Sunflower Plains",
-    ]);
     addSafe("minecraft:blast_furnace", ["Found in biomes:", "Any Overworld Biome"]);
+    addSafe("minecraft:blue_ice", ["Found in biomes:", "Ice Spikes"]);
     addSafe("minecraft:blue_orchid", ["Found in biomes:", "Marsh, Meneglin"]);
     addSafe("minecraft:bone_block", ["Found in biomes:", "Black Ice Glaciers, Soul Sand Valley"]);
     addSafe("minecraft:brain_coral_block", ["Found in biomes:", "Lukewarm Ocean"]);
     addSafe("minecraft:brewing_stand", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:brown_mushroom", ["Found in biomes:", "Forlorn Hollows, Mangrove Swamp"]);
-    addSafe("minecraft:brown_mushroom_block", [
-        "Found in biomes:",
-        "Dark Forest, Glowstone Canyon, Marsh, Mushroom Fields",
-    ]);
     addSafe("minecraft:brown_terracotta", [
         "Found in biomes:",
         "Eroded Badlands, Ice Spikes, Savanna, Stony Peaks, Wooded Badlands",
@@ -1743,14 +873,10 @@ JEIEvents.information((event) => {
     addSafe("minecraft:candle_cake", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:carrots", ["Found in biomes:", "Desert"]);
     addSafe("minecraft:cartography_table", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:carved_pumpkin", ["Found in biomes:", "Grimwoods"]);
     addSafe("minecraft:cave_vines", ["Found in biomes:", "Bamboo Jungle"]);
     addSafe("minecraft:cave_vines_plant", ["Found in biomes:", "Bamboo Jungle, Mushroom Fields"]);
     addSafe("minecraft:chipped_anvil", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:clay", ["Found in biomes:", "Bamboo Jungle, Desert, Flower Forest"]);
-    addSafe("minecraft:cobbled_deepslate_wall", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:cobblestone", ["Found in biomes:", "Cherry Grove, Mushroom Fields"]);
-    addSafe("minecraft:cobblestone_wall", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:cocoa", ["Found in biomes:", "Desert, Lukewarm Ocean"]);
     addSafe("minecraft:cornflower", [
         "Found in biomes:",
@@ -1801,14 +927,9 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Lukewarm Ocean, Mushroom Fields",
     ]);
-    addSafe("minecraft:deepslate_brick_wall", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:dirt_path", [
+    addSafe("minecraft:diorite", [
         "Found in biomes:",
-        "Bamboo Jungle, Birch Forest, Cherry Grove, Old Growth Birch Forest",
-    ]);
-    addSafe("minecraft:dripstone_block", [
-        "Found in biomes:",
-        "Any Overworld Biome, Dead Sea, Ice Spikes, Jungle, Mushroom Fields, Savanna, Warm Ocean",
+        "Abyssal Chasm, Allium Shrubland, Amaranth Grassland, Any Overworld Biome, Araucaria Savanna, Archwood Forest, Aspen Boreal, Aspen Parkland, Atacama Outback, Badlands, Bamboo Jungle, Baobab Savanna, Basalt Barrera, Bayou, Beach, Birch Forest, Black Forest, Blazing Forest, Blossom Valleys, Blossom Woods, Canadian Shield, Candy Cavity, Cascading Forest, Cherry Grove, Chestnut Forest, Cika Woods, Coconino Meadow, Cold Ocean, Coniferous Forest, Crag Gardens, Crimson Tundra, Crystal Canyons, Cypress Swamplands, Cypress Wetlands, Dacite Ridges, Dacite Shore, Dark Forest, Dead Sea, Deep Cold Ocean, Deep Dark, Deep Frozen Ocean, Deep Lukewarm Ocean, Deep Ocean, Desert, Dread Forest, Dread Plain, Dripstone Caves, Dunes, Ebony Woods, Enchanted Tangle, Eroded Badlands, Eroded Borealis, Firecracker Chaparral, Flashing Forest, Flourishing Dunes, Flourishing Forest, Flower Forest, Flowering Savanna, Forest, Forgotten Forest, Forlorn Hollows, Fragment Jungle, Frosted Caves, Frosted Coniferous Forest, Frosted Taiga, Frozen Ocean, Frozen Peaks, Frozen River, Glimmering Weald, Grimwoods, Grove, Hot Springs, Howling Peaks, Ice Spikes, Ironwood Gour, Jacaranda Jungle, Jagged Peaks, Jungle, Kousa Jungle, Laurel Forest, Lavender Fields, Lavender Hills, Lichen Caves, Lost Caves, Lukewarm Ocean, Lush Caves, Lush Stacks, Magnetic Caves, Mangrove Swamp, Maple Forest, Maple Taiga, Marsh, Meadow, Meneglin, Mojave Desert, Mushroom Fields, Ocean, Old Growth Birch Forest, Old Growth Pine Barrens, Old Growth Pine Taiga, Old Growth Spruce Taiga, Orchard, Overgrowth Woodlands, Petrified Dunes, Pine Barrens, Pine Slopes, Pink Salt Caves, Plains, Prairie, Primordial Caves, Pumpkin Fields, Pumpkin Valley, Rainbow Beach, Rainforest, Rainforest Basin, Red Rock Peaks, Red Rock Valley, Redwood Thicket, River, Rocky Dunes, Rose Fields, Rugged Badlands, Sakura Grove, Savanna, Savanna Plateau, Scrubland, Shattered Glacier, Sierra Badlands, Skyris Vale, Snowy Beach, Snowy Chestnut Forest, Snowy Old Growth Pine Barrens, Snowy Pine Barrens, Snowy Plains, Snowy Scrubland, Snowy Slopes, Snowy Taiga, Sparse Jungle, Sparse Rainforest, Sparse Rainforest Basin, Spiny Thicket, Stony Peaks, Stony Shore, Strawberry Fields, Sunflower Plains, Swamp, Taiga, Temperate Grove, Toxic Caves, Tropical Rainforest, Tundra, Warm Ocean, Weeping Witch Forest, White Mangrove Marshes, Willow Swamp, Windswept Desert, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Windswept Savanna, Wooded Badlands, Zelkova Forest",
     ]);
     addSafe("minecraft:farmland", ["Found in biomes:", "Birch Forest, Old Growth Birch Forest"]);
     addSafe("minecraft:fern", [
@@ -1824,17 +945,21 @@ JEIEvents.information((event) => {
         "Lush Caves, Old Growth Spruce Taiga",
     ]);
     addSafe("minecraft:furnace", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:gilded_blackstone", [
-        "Found in biomes:",
-        "Flower Forest, Mangrove Swamp, River, Swamp, Windswept Hills",
-    ]);
     addSafe("minecraft:glow_lichen", [
         "Found in biomes:",
         "Dark Forest, Mangrove Swamp, Mushroom Fields, Old Growth Pine Taiga, Old Growth Spruce Taiga",
     ]);
+    addSafe("minecraft:granite", [
+        "Found in biomes:",
+        "Abyssal Chasm, Allium Shrubland, Amaranth Grassland, Araucaria Savanna, Archwood Forest, Aspen Boreal, Aspen Parkland, Atacama Outback, Badlands, Bamboo Jungle, Baobab Savanna, Basalt Barrera, Bayou, Beach, Birch Forest, Black Forest, Blazing Forest, Blossom Valleys, Blossom Woods, Canadian Shield, Candy Cavity, Cascading Forest, Cherry Grove, Chestnut Forest, Cika Woods, Coconino Meadow, Cold Ocean, Coniferous Forest, Crag Gardens, Crimson Tundra, Crystal Canyons, Cypress Swamplands, Cypress Wetlands, Dacite Ridges, Dacite Shore, Dark Forest, Dead Sea, Deep Cold Ocean, Deep Dark, Deep Frozen Ocean, Deep Lukewarm Ocean, Deep Ocean, Desert, Dread Forest, Dread Plain, Dripstone Caves, Dunes, Ebony Woods, Enchanted Tangle, Eroded Badlands, Eroded Borealis, Firecracker Chaparral, Flashing Forest, Flourishing Dunes, Flourishing Forest, Flower Forest, Flowering Savanna, Forest, Forgotten Forest, Forlorn Hollows, Fragment Jungle, Frosted Caves, Frosted Coniferous Forest, Frosted Taiga, Frozen Ocean, Frozen Peaks, Frozen River, Glimmering Weald, Grimwoods, Grove, Hot Springs, Howling Peaks, Ice Spikes, Ironwood Gour, Jacaranda Jungle, Jagged Peaks, Jungle, Kousa Jungle, Laurel Forest, Lavender Fields, Lavender Hills, Lichen Caves, Lost Caves, Lukewarm Ocean, Lush Caves, Lush Stacks, Magnetic Caves, Mangrove Swamp, Maple Forest, Maple Taiga, Marsh, Meadow, Meneglin, Mojave Desert, Mushroom Fields, Ocean, Old Growth Birch Forest, Old Growth Pine Barrens, Old Growth Pine Taiga, Old Growth Spruce Taiga, Orchard, Overgrowth Woodlands, Petrified Dunes, Pine Barrens, Pine Slopes, Pink Salt Caves, Plains, Prairie, Primordial Caves, Pumpkin Fields, Pumpkin Valley, Rainbow Beach, Rainforest, Rainforest Basin, Red Rock Peaks, Red Rock Valley, Redwood Thicket, River, Rocky Dunes, Rose Fields, Rugged Badlands, Sakura Grove, Savanna, Savanna Plateau, Scrubland, Shattered Glacier, Sierra Badlands, Skyris Vale, Snowy Beach, Snowy Chestnut Forest, Snowy Old Growth Pine Barrens, Snowy Pine Barrens, Snowy Plains, Snowy Scrubland, Snowy Slopes, Snowy Taiga, Sparse Jungle, Sparse Rainforest, Sparse Rainforest Basin, Spiny Thicket, Stony Peaks, Stony Shore, Strawberry Fields, Sunflower Plains, Swamp, Taiga, Temperate Grove, Toxic Caves, Tropical Rainforest, Tundra, Warm Ocean, Weeping Witch Forest, White Mangrove Marshes, Willow Swamp, Windswept Desert, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Windswept Savanna, Wooded Badlands, Zelkova Forest",
+    ]);
     addSafe("minecraft:grass", [
         "Found in biomes:",
         "Aerglow Forest, Aerlavender Fields, Badlands, Beach, Blossom Valleys, Blossom Woods, Blue Aerglow Forest, Desert, Forest, Laurel Forest, Luminescent Forest, Marsh, Mystic Aerglow Forest, Old Growth Pine Barrens, Pine Barrens, Pine Slopes, Primordial Caves, Promenade, Snowy Old Growth Pine Barrens, Snowy Pine Barrens, Taiga, Windswept Forest, Windswept Gravelly Hills, Yagroot Swamp",
+    ]);
+    addSafe("minecraft:grass_block", [
+        "Found in biomes:",
+        "Badlands, Bamboo Jungle, Bayou, Beach, Birch Forest, Cherry Grove, Cold Ocean, Cypress Swamplands, Cypress Wetlands, Desert, Eroded Badlands, Forest, Frozen Ocean, Frozen River, Grove, Ice Spikes, Jungle, Lukewarm Ocean, Mangrove Swamp, Ocean, Old Growth Birch Forest, Plains, River, Savanna, Savanna Plateau, Snowy Beach, Snowy Plains, Snowy Taiga, Sparse Jungle, Stony Peaks, Taiga, Warm Ocean, White Mangrove Marshes, Windswept Forest, Windswept Gravelly Hills, Windswept Hills, Wooded Badlands",
     ]);
     addSafe("minecraft:gray_bed", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:gray_terracotta", ["Found in biomes:", "Ice Spikes, Savanna, Stony Peaks"]);
@@ -1893,10 +1018,6 @@ JEIEvents.information((event) => {
         "Bamboo Jungle, Beach, Flower Forest, Forest, Jungle, Lukewarm Ocean, Mangrove Swamp, Plains, River, Savanna, Savanna Plateau, Snowy Plains, Snowy Taiga, Taiga",
     ]);
     addSafe("minecraft:medium_amethyst_bud", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:melon", [
-        "Found in biomes:",
-        "Desert, Flourishing Dunes, Jungle, Mangrove Swamp",
-    ]);
     addSafe("minecraft:moss_block", [
         "Found in biomes:",
         "Bamboo Jungle, Beach, Birch Forest, Cherry Grove, Cold Ocean, Dark Forest, Deep Cold Ocean, Deep Ocean, Desert, Fragment Jungle, Lukewarm Ocean, Lush Caves, Lush Stacks, Mushroom Fields, Ocean, Old Growth Birch Forest, Old Growth Spruce Taiga, Overgrowth Woodlands, Primordial Caves, Savanna, Sparse Jungle",
@@ -1905,22 +1026,21 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Bayou, Cypress Swamplands, Cypress Wetlands, Dark Forest, Desert, Firecracker Chaparral, Forgotten Forest, Fragment Jungle, Jungle, Lukewarm Ocean, Lush Caves, Mangrove Swamp, Old Growth Pine Taiga, Old Growth Spruce Taiga, Overgrowth Woodlands, Prairie, Primordial Caves, White Mangrove Marshes",
     ]);
-    addSafe("minecraft:mossy_cobblestone", [
+    addSafe("minecraft:mud", [
         "Found in biomes:",
-        "Bamboo Jungle, Beach, Cherry Grove, Cold Ocean, Deep Cold Ocean, Deep Ocean, Fragment Jungle, Hot Springs, Lukewarm Ocean, Lush Stacks, Mushroom Fields, Ocean, Old Growth Spruce Taiga, Sparse Jungle, Stony Shore",
+        "Any Feature/Mud Disk Biome, Bamboo Jungle, Bayou, Cypress Swamplands, Cypress Wetlands, Dark Forest, Jungle, Old Growth Pine Taiga, Old Growth Spruce Taiga, Swamp, Toxic Caves, White Mangrove Marshes, Windswept Forest, Windswept Gravelly Hills, Windswept Hills",
     ]);
-    addSafe("minecraft:mossy_cobblestone_wall", [
-        "Found in biomes:",
-        "Bamboo Jungle, Cherry Grove, Sparse Jungle",
-    ]);
-    addSafe("minecraft:mud_brick_slab", ["Found in biomes:", "Sunflower Plains"]);
     addSafe("minecraft:muddy_mangrove_roots", [
         "Found in biomes:",
         "Bamboo Jungle, Dark Forest, Forest, Jungle, Lukewarm Ocean, Mangrove Swamp, Old Growth Pine Taiga, Old Growth Spruce Taiga, Plains, River, Savanna, Savanna Plateau",
     ]);
+    addSafe("minecraft:mycelium", [
+        "Found in biomes:",
+        "Dark Forest, Frozen Ocean, Frozen River, Mushroom Fields, Snowy Beach, Snowy Plains, Snowy Taiga, Windswept Forest, Windswept Gravelly Hills",
+    ]);
     addSafe("minecraft:nether_sprouts", ["Found in biomes:", "Mushroom Fields"]);
     addSafe("minecraft:nether_wart_block", ["Found in biomes:", "Mushroom Fields"]);
-    addSafe("minecraft:oak_fence", ["Found in biomes:", "Birch Forest, Old Growth Birch Forest"]);
+    addSafe("minecraft:netherrack", ["Found in biomes:", "Black Ice Glaciers"]);
     addSafe("minecraft:oak_planks", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:ochre_froglight", [
         "Found in biomes:",
@@ -1938,6 +1058,10 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Any Spawn/Lime Biome, Badlands, Bamboo Jungle, Flower Forest, Forest, Meneglin, Pumpkin Fields, Taiga",
     ]);
+    addSafe("minecraft:packed_ice", [
+        "Found in biomes:",
+        "Brightlands, Frosted Caves, Frostfields, Frosty Smogstem Forest, Frozen Peaks, Ice Spikes, Icy Sea, Snow Covered Pines",
+    ]);
     addSafe("minecraft:packed_mud", [
         "Found in biomes:",
         "Badlands, Bamboo Jungle, Birch Forest, Cherry Grove, Desert, Eroded Badlands, Ice Spikes, Jungle, Old Growth Birch Forest, Primordial Caves, Savanna, Sparse Jungle, Stony Peaks, Sunflower Plains, Wooded Badlands",
@@ -1950,31 +1074,26 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Bamboo Jungle, Blossom Valleys, Blossom Woods, Flower Forest",
     ]);
-    addSafe("minecraft:pointed_dripstone", ["Found in biomes:", "Ice Spikes, Savanna"]);
+    addSafe("minecraft:podzol", [
+        "Found in biomes:",
+        "Badlands, Bamboo Jungle, Birch Forest, Dark Forest, Forest, Frozen Ocean, Frozen River, Jungle, Mangrove Swamp, Old Growth Birch Forest, Snowy Beach, Snowy Plains, Snowy Taiga, Taiga",
+    ]);
     addSafe("minecraft:poppy", ["Found in biomes:", "Badlands, Sunflower Plains"]);
     addSafe("minecraft:potatoes", ["Found in biomes:", "Desert"]);
     addSafe("minecraft:powder_snow", ["Found in biomes:", "Frozen Ocean, Snowy Taiga"]);
     addSafe("minecraft:prismarine", ["Found in biomes:", "Mushroom Fields"]);
-    addSafe("minecraft:pumpkin", ["Found in biomes:", "Birch Forest, Old Growth Birch Forest"]);
     addSafe("minecraft:raw_iron_block", ["Found in biomes:", "Warm Ocean"]);
     addSafe("minecraft:red_bed", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:red_mushroom", ["Found in biomes:", "Mushroom Fields"]);
-    addSafe("minecraft:red_mushroom_block", ["Found in biomes:", "Dark Forest"]);
-    addSafe("minecraft:red_sandstone", [
-        "Found in biomes:",
-        "Badlands, Eroded Badlands, Wooded Badlands",
-    ]);
     addSafe("minecraft:red_terracotta", ["Found in biomes:", "Desert, Eroded Badlands"]);
     addSafe("minecraft:red_tulip", [
         "Found in biomes:",
         "Badlands, Blossom Valleys, Blossom Woods, Sunflower Plains",
     ]);
-    addSafe("minecraft:redstone_wire", ["Found in biomes:", "Mushroom Fields"]);
     addSafe("minecraft:rose_bush", [
         "Found in biomes:",
         "Blossom Valleys, Blossom Woods, Lukewarm Ocean, Maple Forest, Rose Fields, Savanna, Sparse Jungle",
     ]);
-    addSafe("minecraft:sandstone", ["Found in biomes:", "Desert"]);
     addSafe("minecraft:sculk", ["Found in biomes:", "Mushroom Fields"]);
     addSafe("minecraft:sculk_catalyst", ["Found in biomes:", "Mushroom Fields"]);
     addSafe("minecraft:sculk_sensor", ["Found in biomes:", "Mushroom Fields"]);
@@ -1988,24 +1107,21 @@ JEIEvents.information((event) => {
     addSafe("minecraft:small_dripleaf", ["Found in biomes:", "Desert, Mushroom Fields, Savanna"]);
     addSafe("minecraft:smithing_table", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:smoker", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:smooth_red_sandstone", [
+    addSafe("minecraft:snow", [
         "Found in biomes:",
-        "Badlands, Eroded Badlands, Wooded Badlands",
+        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Frozen Ocean, Frozen River, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, Snowy Beach, Snowy Plains, Snowy Taiga, The Blight, Yagroot Swamp",
     ]);
-    addSafe("minecraft:smooth_sandstone", ["Found in biomes:", "Desert"]);
     addSafe("minecraft:snow_block", [
         "Found in biomes:",
         "Badlands, Eroded Badlands, Forest, Frozen Peaks, Grove, Meadow, Snowy Plains, Snowy Slopes, Snowy Taiga, Taiga",
     ]);
     addSafe("minecraft:soul_campfire", ["Found in biomes:", "Any Overworld Biome"]);
     addSafe("minecraft:soul_lantern", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:soul_sand", [
-        "Found in biomes:",
-        "Any Nether Biome, Ice Spikes, Increased Soul Stalk, Savanna, Warm Ocean",
-    ]);
     addSafe("minecraft:soul_soil", ["Found in biomes:", "Any Nether Biome"]);
-    addSafe("minecraft:stone_brick_wall", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("minecraft:stone_button", ["Found in biomes:", "Badlands, Desert"]);
+    addSafe("minecraft:structure_void", [
+        "Found in biomes:",
+        "Bamboo Jungle, Desert, Forest, Jungle, Lukewarm Ocean, Mangrove Swamp, Plains, River, Savanna, Savanna Plateau",
+    ]);
     addSafe("minecraft:sugar_cane", [
         "Found in biomes:",
         "Bamboo Jungle, Blossom Valleys, Blossom Woods, Cherry Grove",
@@ -2016,6 +1132,8 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Aerglow Forest, Aerlavender Fields, Beach, Blue Aerglow Forest, Mystic Aerglow Forest, Promenade, Pumpkin Fields, Savanna, Yagroot Swamp",
     ]);
+    addSafe("minecraft:terracotta", ["Found in biomes:", "Badlands, Desert, Eroded Badlands"]);
+    addSafe("minecraft:torch", ["Found in biomes:", "Grimwoods"]);
     addSafe("minecraft:tube_coral_block", ["Found in biomes:", "Lukewarm Ocean"]);
     addSafe("minecraft:twisting_vines", ["Found in biomes:", "Mushroom Fields"]);
     addSafe("minecraft:twisting_vines_plant", ["Found in biomes:", "Mushroom Fields"]);
@@ -2047,14 +1165,9 @@ JEIEvents.information((event) => {
     addSafe("netherexp:basaltic_geyser", ["Found in biomes:", "Basalt Deltas"]);
     addSafe("netherexp:black_ice", ["Found in biomes:", "Black Ice Glaciers"]);
     addSafe("netherexp:bone_rod", ["Found in biomes:", "Black Ice Glaciers, Soul Sand Valley"]);
-    addSafe("netherexp:crimson_sporeshroom", ["Found in biomes:", "Crimson Forest"]);
     addSafe("netherexp:crimson_sprouts", [
         "Found in biomes:",
         "Crimson Forest, Sorrowsquash Pastures",
-    ]);
-    addSafe("netherexp:ecto_soul_sand", [
-        "Found in biomes:",
-        "Black Ice Glaciers, Soul Sand Valley",
     ]);
     addSafe("netherexp:ectoplasm", ["Found in biomes:", "Black Ice Glaciers, Soul Sand Valley"]);
     addSafe("netherexp:pale_soul_slate", [
@@ -2070,13 +1183,10 @@ JEIEvents.information((event) => {
     addSafe("netherexp:soul_swirls", ["Found in biomes:", "Black Ice Glaciers, Soul Sand Valley"]);
     addSafe("netherexp:thin_black_ice", ["Found in biomes:", "Black Ice Glaciers"]);
     addSafe("netherexp:twisting_ivy", ["Found in biomes:", "Warped Forest"]);
-    addSafe("netherexp:warped_sporeshroom", ["Found in biomes:", "Crimson Forest, Warped Forest"]);
     addSafe("netherexp:weeping_ivy", ["Found in biomes:", "Crimson Forest"]);
-    addSafe("occultism:otherworld_leaves_natural", ["Found in biomes:", "Stronghold Biased To"]);
     addSafe("occultism:otherworld_log_natural", ["Found in biomes:", "Stronghold Biased To"]);
     addSafe("occultism:otherworld_sapling_natural", ["Found in biomes:", "Stronghold Biased To"]);
     addSafe("opposing_force:infested_amethyst_block", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("outer_end:ancient_stone", ["Found in biomes:", "Primordial Pools"]);
     addSafe("outer_end:azure_sprouts", ["Found in biomes:", "Azure Forest"]);
     addSafe("outer_end:cobalt_crystal_bud", ["Found in biomes:", "Crystal Crag"]);
     addSafe("outer_end:cobalt_roots", ["Found in biomes:", "Crystal Crag"]);
@@ -2095,7 +1205,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Any Surface Oil Lakes Biome, Any Underground Oil Lakes Biome",
     ]);
-    addSafe("rubinated_nether:rubinated_blackstone", ["Found in biomes:", "Any Nether Biome"]);
     addSafe("rusticdelight:wild_bell_peppers", ["Found in biomes:", "Any Wild Bell Peppers Biome"]);
     addSafe("rusticdelight:wild_coffee", ["Found in biomes:", "Any Wild Coffee Biome"]);
     addSafe("rusticdelight:wild_cotton", ["Found in biomes:", "Any Wild Cotton Biome"]);
@@ -2104,14 +1213,6 @@ JEIEvents.information((event) => {
     addSafe("supplementaries:urn", ["Found in biomes:", "Any Cave Urns Biome"]);
     addSafe("supplementaries:wild_flax", ["Found in biomes:", "Any Wild Flax Biome"]);
     addSafe("tetra:block_geode", ["Found in biomes:", "Any Overworld Biome"]);
-    addSafe("thermal:oil_red_sand", [
-        "Found in biomes:",
-        "And, Any Badlands Biome, Any Overworld Biome, Desert, Or",
-    ]);
-    addSafe("thermal:oil_sand", [
-        "Found in biomes:",
-        "And, Any Badlands Biome, Any Overworld Biome, Desert, Or",
-    ]);
     addSafe("undergarden:amorous_bristle", [
         "Found in biomes:",
         "Dense Forest, Gronglegrowth, Smogstem Forest",
@@ -2186,10 +1287,6 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Ancient Sea, Dense Forest, Forgotten Field, Frostfields, Frosty Smogstem Forest, Gronglegrowth, Icy Sea, Indigo Mushroom Bog, Smogstem Forest, Veil Mushroom Bog, Wigglewood Forest",
     ]);
-    addSafe("undergarden:shiverstone", [
-        "Found in biomes:",
-        "Ancient Sea, Barren Abyss, Blood Mushroom Bog, Dead Sea, Dense Forest, Forgotten Field, Frostfields, Frosty Smogstem Forest, Gronglegrowth, Icy Sea, Indigo Mushroom Bog, Ink Mushroom Bog, Smog Spires, Smogstem Forest, Veil Mushroom Bog, Wigglewood Forest",
-    ]);
     addSafe("undergarden:tall_deepturf", [
         "Found in biomes:",
         "Blood Mushroom Bog, Dense Forest, Indigo Mushroom Bog",
@@ -2218,10 +1315,6 @@ JEIEvents.information((event) => {
     addSafe("windswept:blue_rose", ["Found in biomes:", "Any Feature/Blue Rose Biome"]);
     addSafe("windswept:blue_rose_bush", ["Found in biomes:", "Any Feature/Blue Rose Biome"]);
     addSafe("windswept:dry_moss_block", ["Found in biomes:", "Pine Barrens, Tundra"]);
-    addSafe("windswept:dry_mossy_cobblestone", [
-        "Found in biomes:",
-        "Pine Barrens, Snowy Pine Barrens, Tundra",
-    ]);
     addSafe("windswept:dry_mossy_sprouts", ["Found in biomes:", "Pine Barrens, Tundra"]);
     addSafe("windswept:foxglove", ["Found in biomes:", "Any Taiga Biome"]);
     addSafe("windswept:gelisol", ["Found in biomes:", "Tundra"]);
@@ -2256,9 +1349,439 @@ JEIEvents.information((event) => {
     ]);
     addSafe("windswept:yellow_rose", ["Found in biomes:", "Any Feature/Yellow Rose Biome"]);
     addSafe("windswept:yellow_rose_bush", ["Found in biomes:", "Any Feature/Yellow Rose Biome"]);
-    addSafe("yungscavebiomes:brittle_ancient_sandstone", ["Found in biomes:", "Lost Caves"]);
     addSafe("yungscavebiomes:frost_lily", ["Found in biomes:", "Frosted Caves"]);
-    addSafe("yungscavebiomes:layered_ancient_sandstone", ["Found in biomes:", "Lost Caves"]);
     addSafe("yungscavebiomes:prickly_vines", ["Found in biomes:", "Lost Caves"]);
     addSafe("yungscavebiomes:prickly_vines_plant", ["Found in biomes:", "Lost Caves"]);
+    addSafe(/aether:(stripped_)?golden_oak_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aerlavender Fields, Gilded Grasslands, Gilded Groves, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Woodland",
+    ]);
+    addSafe(/aether:(stripped_)?skyroot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
+    ]);
+    addSafe(/aether_redux:(stripped_)?blighted_skyroot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "The Blight",
+    ]);
+    addSafe(/aether_redux:(stripped_)?blightwillow_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "The Blight",
+    ]);
+    addSafe(/aether_redux:(stripped_)?cloudcap_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Cloudcaps",
+    ]);
+    addSafe(/aether_redux:(stripped_)?crystal_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Skyfields",
+    ]);
+    addSafe(/aether_redux:(stripped_)?fieldsproot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Skyfields",
+    ]);
+    addSafe(/aether_redux:(stripped_)?gilded_oak_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Gilded Grasslands, Gilded Groves",
+    ]);
+    addSafe(/aether_redux:(stripped_)?glacia_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
+    ]);
+    addSafe(/aether_redux:(stripped_)?jellyshroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Cloudcaps",
+    ]);
+    addSafe(/aether_redux:(stripped_)?purple_glacia_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Frosted Forests, Glacial Tundra",
+    ]);
+    addSafe(/aether_redux:(stripped_)?sporing_blightwillow_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "The Blight",
+    ]);
+    addSafe(/ars_elemental:(stripped_)?yellow_archwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Flashing Forest, Flashing Tree Biome",
+    ]);
+    addSafe(/ars_nouveau:(stripped_)?blue_archwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Overworld Biome, Archwood Forest, Cascading Forest",
+    ]);
+    addSafe(/ars_nouveau:(stripped_)?green_archwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Overworld Biome, Archwood Forest, Flourishing Forest",
+    ]);
+    addSafe(/ars_nouveau:(stripped_)?purple_archwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Overworld Biome, Archwood Forest",
+    ]);
+    addSafe(/ars_nouveau:(stripped_)?red_archwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Overworld Biome, Archwood Forest, Blazing Forest",
+    ]);
+    addSafe(/atmospheric:(stripped_)?aspen_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aspen Boreal, Aspen Parkland, Canadian Shield, Maple Taiga, Weeping Witch Forest",
+    ]);
+    addSafe(/atmospheric:(stripped_)?crustose_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aspen Parkland",
+    ]);
+    addSafe(/atmospheric:(stripped_)?grimwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Grimwoods",
+    ]);
+    addSafe(/atmospheric:(stripped_)?kousa_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Kousa Jungle",
+    ]);
+    addSafe(/atmospheric:(stripped_)?laurel_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aspen Parkland, Laurel Forest, Scrubland, Snowy Scrubland",
+    ]);
+    addSafe(/atmospheric:(stripped_)?morado_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aspen Parkland, Rainforest, Rainforest Basin, Scrubland, Snowy Scrubland, Sparse Rainforest, Sparse Rainforest Basin",
+    ]);
+    addSafe(/atmospheric:(stripped_)?rosewood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Rainforest, Rainforest Basin, Sparse Rainforest, Sparse Rainforest Basin, Spiny Thicket",
+    ]);
+    addSafe(/atmospheric:(stripped_)?watchful_aspen_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aspen Boreal, Aspen Parkland, Canadian Shield, Maple Taiga, Weeping Witch Forest",
+    ]);
+    addSafe(/atmospheric:(stripped_)?yucca_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Desert, Dunes, Flourishing Dunes, Rocky Dunes, Scrubland, Snowy Scrubland, Spiny Thicket, Windswept Savanna, Wooded Badlands",
+    ]);
+    addSafe(/autumnity:(stripped_)?maple_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Feature/Maple Tree Biome, Any Feature/Spotted Maple Tree/Orange Biome, Any Feature/Spotted Maple Tree/Red Biome, Any Feature/Spotted Maple Tree/Yellow Biome, Forgotten Forest, Maple Forest, Maple Taiga, Pumpkin Fields",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?aspen_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Black Forest",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?baobab_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Baobab Savanna",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?blue_enchanted_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Enchanted Tangle",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?brown_mushroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?cika_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Cika Woods",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?cypress_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Cypress Swamplands, Cypress Wetlands",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?ebony_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Ebony Woods, Forgotten Forest, Fragment Jungle",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?fir_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Black Forest, Canadian Shield, Coniferous Forest, Frosted Coniferous Forest",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?florus_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Allium Shrubland, Forgotten Forest",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?green_enchanted_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Enchanted Tangle",
+    ]);
+    addSafe(
+        /biomeswevegone:(stripped_)?imbued_blue_enchanted_(log|stem|wood|planks|sapling|hyphae)/,
+        ["Found in biomes:", "Enchanted Tangle"],
+    );
+    addSafe(
+        /biomeswevegone:(stripped_)?imbued_green_enchanted_(log|stem|wood|planks|sapling|hyphae)/,
+        ["Found in biomes:", "Enchanted Tangle"],
+    );
+    addSafe(/biomeswevegone:(stripped_)?ironwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Ironwood Gour, Red Rock Peaks, Red Rock Valley",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?jacaranda_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Amaranth Grassland, Jacaranda Jungle",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?mahogany_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Crag Gardens, Fragment Jungle, Tropical Rainforest",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?palo_verde_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Atacama Outback, Red Rock Valley, Rugged Badlands, Sierra Badlands",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?pine_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Black Forest, Canadian Shield, Red Rock Peaks, Red Rock Valley",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?rainbow_eucalyptus_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Crag Gardens, Fragment Jungle",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?redwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Redwood Thicket",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?sakura_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Sakura Grove",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?skyris_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Skyris Vale",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?white_mangrove_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "White Mangrove Marshes",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?white_mushroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?willow_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Bayou",
+    ]);
+    addSafe(/biomeswevegone:(stripped_)?zelkova_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Zelkova Forest",
+    ]);
+    addSafe(/blue_skies:(stripped_)?bluebright_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Brisk Meadow, Calming Skies, Frostbitten Forest, Polar Highland",
+    ]);
+    addSafe(/blue_skies:(stripped_)?comet_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
+    ]);
+    addSafe(/blue_skies:(stripped_)?crescent_fruit_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Crescent Orchard, Unorthodox Valley",
+    ]);
+    addSafe(/blue_skies:(stripped_)?dusk_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Moonlit Reservoir, Shaded Woodlands, Unorthodox Valley",
+    ]);
+    addSafe(/blue_skies:(stripped_)?frostbright_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Frostbitten Forest, Frostbitten Forest Clearing",
+    ]);
+    addSafe(/blue_skies:(stripped_)?lunar_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Crystal Roughs, Searing Grassland, Unorthodox Valley",
+    ]);
+    addSafe(/blue_skies:(stripped_)?maple_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Searing Grassland, Sunset Maple Forest",
+    ]);
+    addSafe(/blue_skies:(stripped_)?starlit_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Deep Peeking Ocean, Frostbitten Forest, Frostbitten Forest Clearing, Midday Shore, Peeking Ocean, Polar Highland, Slushlands, Snow Covered Pines",
+    ]);
+    addSafe(/deep_aether:(stripped_)?blue_roseroot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aerglow Forest, Blue Aerglow Forest",
+    ]);
+    addSafe(/deep_aether:(stripped_)?conberry_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Golden Grove, Golden Heights",
+    ]);
+    addSafe(/deep_aether:(stripped_)?cruderoot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Yagroot Swamp",
+    ]);
+    addSafe(/deep_aether:(stripped_)?roseroot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
+    ]);
+    addSafe(/deep_aether:(stripped_)?rotten_roseroot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
+    ]);
+    addSafe(/deep_aether:(stripped_)?sunroot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Golden Grove, Golden Heights",
+    ]);
+    addSafe(/deep_aether:(stripped_)?yagroot_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Yagroot Swamp",
+    ]);
+    addSafe(/ecologics:(stripped_)?azalea_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Lush Caves",
+    ]);
+    addSafe(/ecologics:(stripped_)?coconut_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Beach",
+    ]);
+    addSafe(/ecologics:(stripped_)?flowering_azalea_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Lush Caves",
+    ]);
+    addSafe(/ecologics:(stripped_)?walnut_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Plains",
+    ]);
+    addSafe(/eidolon:(stripped_)?illwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Spooky Biome",
+    ]);
+    addSafe(/environmental:(stripped_)?pine_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Old Growth Pine Barrens, Pine Barrens, Pine Slopes, Snowy Old Growth Pine Barrens, Snowy Pine Barrens",
+    ]);
+    addSafe(/environmental:(stripped_)?plum_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Blossom Valleys, Blossom Woods",
+    ]);
+    addSafe(/environmental:(stripped_)?wisteria_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Flower Forest",
+    ]);
+    addSafe(/forbidden_arcanus:(stripped_)?aurum_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Flower Forest",
+    ]);
+    addSafe(/hexerei:(stripped_)?mahogany_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Crag Gardens, Fragment Jungle, Tropical Rainforest",
+    ]);
+    addSafe(/hexerei:(stripped_)?witch_hazel_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Weeping Witch Forest",
+    ]);
+    addSafe(/iceandfire:(stripped_)?dreadwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Dread Forest",
+    ]);
+    addSafe(/integrateddynamics:(stripped_)?menril_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Overworld Biome, Meneglin",
+    ]);
+    addSafe(/minecells:(stripped_)?putrid_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Promenade, Ramparts",
+    ]);
+    addSafe(/minecraft:(stripped_)?acacia_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Savanna Biome, Badlands, Bamboo Jungle, Beach, Flower Forest, Flowering Savanna, Forest, Jungle, Mangrove Swamp, Old Growth Pine Taiga, Plains, River, Savanna, Savanna Plateau, Sunflower Plains, Windswept Savanna",
+    ]);
+    addSafe(/minecraft:(stripped_)?bamboo_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Bamboo Jungle, Desert, Forest, Jungle, Mangrove Swamp, Plains, River, Savanna, Savanna Plateau",
+    ]);
+    addSafe(/minecraft:(stripped_)?big_dripleaf_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Mushroom Fields",
+    ]);
+    addSafe(/minecraft:(stripped_)?birch_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Bamboo Jungle, Birch Forest, Blossom Valleys, Blossom Woods, Forest, Howling Peaks, Jungle, Kousa Jungle, Mangrove Swamp, Old Growth Birch Forest, Overgrowth Woodlands, Snowy Taiga, Sparse Jungle, Taiga, Temperate Grove, Wooded Badlands",
+    ]);
+    addSafe(/minecraft:(stripped_)?cherry_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Cherry Grove",
+    ]);
+    addSafe(/minecraft:(stripped_)?dark_oak_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Bamboo Jungle, Coconino Meadow, Dark Forest, Forest, Forgotten Forest, Grimwoods, Jungle, Mangrove Swamp, Plains, Pumpkin Valley, River, Savanna, Savanna Plateau, Taiga",
+    ]);
+    addSafe(/minecraft:(stripped_)?jungle_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Bamboo Jungle, Crag Gardens, Dark Forest, Desert, Jungle, Lukewarm Ocean, Mangrove Swamp, Savanna, Savanna Plateau",
+    ]);
+    addSafe(/minecraft:(stripped_)?mangrove_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Bamboo Jungle, Cherry Grove, Forest, Jungle, Lukewarm Ocean, Mangrove Swamp, Plains, River, Savanna, Savanna Plateau",
+    ]);
+    addSafe(/minecraft:(stripped_)?mushroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aerglow Forest, Dark Forest, Glowstone Canyon, Marsh, Mushroom Fields, Mystic Aerglow Forest",
+    ]);
+    addSafe(/minecraft:(stripped_)?oak_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Allium Shrubland, Amaranth Grassland, Any Feature/Apple Trees Biome, Any Feature/Rare Chestnut Trees Biome, Any Feature/Rare Holly Trees Biome, Any Savanna Biome, Aspen Parkland, Badlands, Bamboo Jungle, Birch Forest, Blood Mushroom Bog, Blossom Valleys, Blossom Woods, Brightlands, Brisk Meadow, Brumble Forest, Calming Skies, Cherry Grove, Chestnut Forest, Coconino Meadow, Crescent Orchard, Crystal Roughs, Cypress Wetlands, Dark Forest, Deep Peeking Ocean, Dense Forest, Firecracker Chaparral, Flower Forest, Flowering Savanna, Forest, Forgotten Forest, Fragment Jungle, Frostbitten Forest, Frostbitten Forest Clearing, Frosty Smogstem Forest, Gronglegrowth, Indigo Mushroom Bog, Ink Mushroom Bog, Jungle, Lavender Fields, Lavender Hills, Mangrove Swamp, Maple Forest, Maple Taiga, Meadow, Midday Shore, Mojave Desert, Moonlit Reservoir, Old Growth Birch Forest, Old Growth Pine Barrens, Old Growth Pine Taiga, Old Growth Spruce Taiga, Orchard, Overgrowth Woodlands, Peeking Ocean, Pine Barrens, Plains, Polar Highland, Prairie, Pumpkin Fields, Pumpkin Valley, Rainforest, Rainforest Basin, River, Savanna, Savanna Plateau, Scrubland, Shaded Woodlands, Sierra Badlands, Slushlands, Smog Spires, Smogstem Forest, Snow Covered Pines, Snowy Chestnut Forest, Snowy Old Growth Pine Barrens, Snowy Pine Barrens, Snowy Scrubland, Sparse Rainforest, Sparse Rainforest Basin, Sunflower Plains, Sunset Maple Forest, Swamp, Taiga, Tundra, Unorthodox Valley, Veil Mushroom Bog, White Mangrove Marshes, Wigglewood Forest, Windswept Savanna, Wooded Badlands",
+    ]);
+    addSafe(/minecraft:(stripped_)?spruce_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Aspen Boreal, Badlands, Canadian Shield, Cherry Grove, Coniferous Forest, Crimson Tundra, Dacite Ridges, Eroded Borealis, Flower Forest, Forest, Frosted Coniferous Forest, Frosted Taiga, Grove, Howling Peaks, Ice Spikes, Lukewarm Ocean, Maple Taiga, Meadow, Old Growth Pine Taiga, Old Growth Spruce Taiga, Plains, Redwood Thicket, Rose Fields, Skyris Vale, Snowy Plains, Snowy Taiga, Sunflower Plains, Taiga, Tundra, Weeping Witch Forest, Windswept Savanna",
+    ]);
+    addSafe(/minecraft:(stripped_)?warped_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Mushroom Fields",
+    ]);
+    addSafe(/occultism:(stripped_)?otherworld_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Stronghold Biased To",
+    ]);
+    addSafe(/opposing_force:(stripped_)?apple_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Feature/Apple Trees Biome",
+    ]);
+    addSafe(/thermal:(stripped_)?rubberwood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Bamboo Jungle, Flower Forest, Or, Sparse Jungle",
+    ]);
+    addSafe(/undergarden:(stripped_)?blood_mushroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Blood Mushroom Bog",
+    ]);
+    addSafe(/undergarden:(stripped_)?grongle_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Gronglegrowth",
+    ]);
+    addSafe(/undergarden:(stripped_)?indigo_mushroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Indigo Mushroom Bog, Smogstem Forest",
+    ]);
+    addSafe(/undergarden:(stripped_)?ink_mushroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Ink Mushroom Bog",
+    ]);
+    addSafe(/undergarden:(stripped_)?smogstem_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Dense Forest, Frosty Smogstem Forest, Indigo Mushroom Bog, Smogstem Forest",
+    ]);
+    addSafe(/undergarden:(stripped_)?veil_mushroom_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Veil Mushroom Bog",
+    ]);
+    addSafe(/undergarden:(stripped_)?wigglewood_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Dense Forest, Wigglewood Forest",
+    ]);
+    addSafe(/upgrade_aquatic:(stripped_)?river_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Feature/River Tree Biome",
+    ]);
+    addSafe(/windswept:(stripped_)?chestnut_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Feature/Rare Chestnut Trees Biome, Chestnut Forest, Lavender Hills, Snowy Chestnut Forest",
+    ]);
+    addSafe(/windswept:(stripped_)?holly_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Any Feature/Rare Holly Trees Biome, Any Feature/Rare Snowy Holly Trees Biome, Dacite Ridges, Eroded Borealis, Grove, Pine Barrens, Snowy Pine Barrens, Tundra",
+    ]);
+    addSafe(/windswept:(stripped_)?pine_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Araucaria Savanna, Blossom Valleys, Blossom Woods, Old Growth Pine Taiga, Pine Barrens, Snowy Pine Barrens",
+    ]);
+    addSafe(/windswept:(stripped_)?weathered_pine_(log|stem|wood|planks|sapling|hyphae)/, [
+        "Found in biomes:",
+        "Pine Barrens, Snowy Pine Barrens",
+    ]);
 });
