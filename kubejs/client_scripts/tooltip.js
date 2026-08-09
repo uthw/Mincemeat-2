@@ -36,6 +36,9 @@ ItemEvents.tooltip((event) => {
     );
     event.add("starcatcher:vanilla_bobber", Text.yellow("This item does not work"));
     event.add("starcatcher:vanilla_hook", Text.yellow("The Vanilla-Flavored Bobber does not work"));
+    
+    event.add("torchmaster:megatorch", Text.green("Radius: 64 blocks"));
+    event.add("torchmaster:dreadlamp", Text.green("Radius: 64 blocks"));
 
     var snakeToTitle = function (s) {
         if (!s) return s;
