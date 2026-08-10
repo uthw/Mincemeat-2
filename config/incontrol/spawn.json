@@ -524,5 +524,11 @@
         "when": "finalize",
         "random": 0.15,
         "result": "deny_with_actions"
+    },
+    {
+        "when": "onjoin",
+        "mob": "graveyard:skeleton_creeper",
+        "random": 0.7,
+        "result": "deny"
     }
 ]
