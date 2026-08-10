@@ -214,6 +214,10 @@ ItemEvents.modification((event) => {
             name: "opposing_force:laser_blade",
             damage: 15,
         },
+        {
+            name: "block_factorys_bosses:pirate_saber",
+            damage: 8,
+        },
     ];
 
     const colors = [
