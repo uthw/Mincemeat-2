@@ -1,0 +1,39 @@
+{
+    "processors": [
+        {
+            "processor_type": "integrated_api:integrated_block_replace_processor",
+            "input_block": "create:brass_block",
+            "required_mod": "thermal",
+            "output_block": "thermal:nickel_block",
+            "probability": 1.0,
+            "otherwise_block": "create:brass_block"
+        },
+        {
+            "processor_type": "integrated_api:integrated_block_replace_processor",
+            "input_block": "create:brass_casing",
+            "required_mod": "create",
+            "output_block": "create:copper_casing",
+            "probability": 1.0,
+            "otherwise_block": "create:brass_casing"
+        },
+        {
+            "processor_type": "integrated_api:integrated_block_replace_processor",
+            "input_block": "create:crushing_wheel",
+            "required_mod": "create",
+            "output_block": "create:large_cogwheel",
+            "probability": 1.0,
+            "otherwise_block": "create:crushing_wheel"
+        },
+        {
+            "processor_type": "integrated_api:integrated_block_replace_processor",
+            "input_block": "create:mechanical_crafter",
+            "required_mod": "quark",
+            "output_block": "quark:crafter",
+            "probability": 1.0,
+            "otherwise_block": "create:mechanical_crafter"
+        },
+        {
+            "processor_type": "integrated_api:waterlogging_fix_processor"
+        }
+    ]
+}

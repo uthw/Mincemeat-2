@@ -1,0 +1,93 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "block": "create:brass_block",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "thermal:nickel_block"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "create:brass_casing",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "create:copper_casing"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "create:crushing_wheel",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "create:large_cogwheel"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "create:mechanical_crafter",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 1.0
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "quark:crafter"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "idas:waterlogging_fix_processor"
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:gray_wool",
+      "required_mod" : "alexsmobs",
+      "output_block" : "alexsmobs:bison_fur_block",
+      "probability" : 1
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block" : "minecraft:gray_carpet",
+      "required_mod" : "alexsmobs",
+      "output_block" : "alexsmobs:bison_carpet",
+      "probability" : 1
+    },
+    {
+      "processor_type": "integrated_api:spawner_randomizing_processor",
+      "integrated_api_spawner_resourcelocation": "idas:pillager",
+      "valid_block_light_level": {
+        "min_inclusive": 0,
+        "max_inclusive": 7
+      },
+      "delay": 20,
+      "max_nearby_entities": 6,
+      "max_spawn_delay": 800,
+      "min_spawn_delay": 200,
+      "required_player_range": 16,
+      "spawn_count": 4,
+      "spawn_range": 4
+    }
+  ]
+}
