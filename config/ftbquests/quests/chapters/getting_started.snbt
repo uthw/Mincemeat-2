@@ -2321,6 +2321,8 @@
 				"Cogs, briggs, and drakkars are all designed for cold oceans and will move faster in them. Galleys are designed for warmer oceans and will move faster in them. Choose a ship based on what is closest to your base."
 				""
 				"All ships move faster than vanilla boats and can have their speed boosted by holding forward (paddling). They will move for a good while even if you aren't paddling."
+				""
+				"You can also hoist the sail using the H key by default, which will increase your speed."
 			]
 			id: "28B44DDB5378D2E6"
 			rewards: [{
