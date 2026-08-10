@@ -190,6 +190,26 @@
 			disable_toast: true
 			id: "674C7977AFAA3A8E"
 			invisible: true
+			rewards: [{
+				id: "56A5DF32C2F4B61C"
+				item: {
+					Count: 1
+					id: "supplementaries:jar"
+					tag: {
+						BlockEntityTag: {
+							MobHolder: {
+								EntityData: {
+									id: "alexscaves:nuclear_explosion"
+								}
+								Name: "Thank You For Playing"
+								Scale: 0.8333334f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Thanks for playing Mincemeat 2!"
 			tasks: [{
 				icon: "cataclysm:remnant_skull"
 				id: "1FDC876899400706"
