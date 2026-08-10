@@ -31,8 +31,8 @@
 						SchoolId: "irons_spellbooks:evocation"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "574A978BE0A0D8FE"
@@ -61,8 +61,8 @@
 						SchoolId: "traveloptics:aqua"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "1588F98EA7F71ACE"
@@ -91,8 +91,8 @@
 						SchoolId: "irons_spellbooks:fire"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "59B4FC546E6F72FC"
@@ -121,8 +121,8 @@
 						SchoolId: "irons_spellbooks:lightning"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "1B411DEE46FED288"
@@ -151,8 +151,8 @@
 						SchoolId: "irons_spellbooks:holy"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "59034F6C9C40D199"
@@ -181,8 +181,8 @@
 						SchoolId: "irons_spellbooks:ender"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "57523F727E80E243"
@@ -211,8 +211,8 @@
 						SchoolId: "irons_spellbooks:blood"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "321EE2B7D962F7C9"
@@ -241,8 +241,8 @@
 						SchoolId: "irons_spellbooks:nature"
 					}
 				}
-				type: "item"
 				team_reward: false
+				type: "item"
 			}]
 			tasks: [{
 				id: "6790C62A479399EF"
@@ -550,12 +550,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
 				id: "742DD7CCB4E9D5A6"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Potion of Recall (4 Gold)"
+			title: "Potion of Recall (1 Gold)"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -569,11 +568,12 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 3L
 				id: "2F85476A2BB37C61"
-				item: "lightmanscurrency:coin_emerald"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Warp Scroll (1 Emerald)"
+			title: "Warp Scroll (3 Gold)"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -1318,6 +1318,25 @@
 			title: "Ice Manuscript"
 			x: -1.0d
 			y: 0.0d
+		}
+		{
+			icon: "kubejs:grave_scroll"
+			id: "38D88967D95F4333"
+			rewards: [{
+				id: "18B749F703A59220"
+				item: "kubejs:grave_scroll"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				count: 7L
+				id: "5BEB6076B7A00A28"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "Scroll of Memory (7 Iron)"
+			x: -1.0d
+			y: -2.0d
 		}
 	]
 	title: "Shop"
