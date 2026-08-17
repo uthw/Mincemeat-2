@@ -47,7 +47,11 @@
     "immersiveengineering:railgun",
     "reliquary:handgun",
     "create:potato_cannon",
-    "opposing_force:tesla_cannon"
+    "opposing_force:tesla_cannon",
+    "yo_hooks:iron_grappling_hook",
+    "yo_hooks:gold_grappling_hook",
+    "yo_hooks:diamond_grappling_hook",
+    "yo_hooks:netherite_grappling_hook"
   ],
   "use_to_aim_item_patterns": [],
   "use_to_first_person_patterns": [],
