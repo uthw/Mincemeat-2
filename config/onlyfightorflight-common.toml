@@ -53,7 +53,7 @@ sayYesDoIt = true
 	#to never trigger combat effects regardless if you attack them or been attacked by them.
 	#Written the same as blockBlacklist.
 	#
-	mobBlacklist = []
+	mobBlacklist = ["dummmmmmy:target_dummy"]
 
 [Performance]
 	#
