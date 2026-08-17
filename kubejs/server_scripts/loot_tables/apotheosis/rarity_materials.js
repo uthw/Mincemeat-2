@@ -45,7 +45,6 @@ EntityEvents.death((event) => {
     let dropQuantityRange = [0, 0];
 
     let championData = forgeCaps.getCompound("champions:champion");
-    console.log(`championData: ${championData}`);
 
     if (championData && championData.contains("tier")) {
         // It's a champion, drop materials based on its tier
@@ -70,8 +69,6 @@ EntityEvents.death((event) => {
             default:
                 dropQuantityRange = [0, 0];
         }
-
-        console.log(`Champion of tier ${tier} killed by player, dropping rarity materials`);
     } else {
         // Check if it's a boss
         let isBoss = false;
@@ -82,7 +79,6 @@ EntityEvents.death((event) => {
             if (tagKey.location().toString() === "mincemeat:heal_on_player_death") {
                 isBoss = true;
                 dropQuantityRange = [4, 8];
-                console.log("Boss killed by player");
             }
         });
     }
