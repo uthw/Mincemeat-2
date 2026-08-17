@@ -1,6 +1,6 @@
 {
   "longfooted": {
-    "enabled": true,
+    "enabled": false,
     "max_level": 3,
     "min_cost": 12,
     "step_cost": 12,
