@@ -48,7 +48,6 @@
             "l2artifacts:armor_pierce_add",
             "l2artifacts:armor_shred_add",
             "l2artifacts:arrow_velocity_add",
-            "l2artifacts:block_stamina_reduction_add",
             "l2artifacts:cast_time_reduction_add",
             "l2artifacts:casting_movement_speed_add",
             "l2artifacts:cooldown_reduction_add",
@@ -56,13 +55,9 @@
             "l2artifacts:dodge_chance_add",
             "l2artifacts:fire_damage_add",
             "l2artifacts:cold_damage_add",
-            "l2artifacts:idle_stamina_regen_add",
             "l2artifacts:knockback_resistance_add",
             "l2artifacts:mining_speed_add",
-            "l2artifacts:one_handed_stamina_reduction_add",
-            "l2artifacts:range_stamina_reduction_add",
-            "l2artifacts:spell_power_mult",
-            "l2artifacts:two_handed_stamina_reduction_add"
+            "l2artifacts:spell_power_mult"
         ]
     }
 }
