@@ -668,7 +668,7 @@
 				""
 				"Your minimap will show a chest icon if a mimic is nearby, so this can be an easy way of sleuthing them out."
 				""
-				"If you want to find what accessories this chest can drop, search for @artifacts in JEI."
+				"If you want to find what accessories this chest can drop, search for $mimificable in JEI."
 			]
 			id: "42CE7229A3E5B3FE"
 			invisible: true
@@ -1565,7 +1565,7 @@
 		}
 		{
 			description: [
-				"Found in the deepest layer of the Temple of Duality, Ballista Golems are elaborate cubes of stone that fire explosive arrows at their targets. When it reloads, it does so in place, giving you the change to strike."
+				"Found in the deepest layer of the Temple of Duality, Ballista Golems are elaborate cubes of stone that fire explosive arrows at their targets. When it reloads, it does so in place, giving you the chance to strike."
 				""
 				"You can collect it while it sleeps with Silk Touch, like its smaller relative."
 			]
@@ -1610,6 +1610,17 @@
 			y: -4.5d
 		}
 		{
+			description: [
+				"Garholds are dangerous, flying cages found in the Labyrinth. Instead of trying to kill you, they capture adventurers and take them down into the lower parts of the dungeon."
+				""
+				"If you find yourself captured, you'll first want to escape by killing the Garhold. Then, you'll be stuck in a prison cell with at least one monster. Kill the monster(s), then you'll be stuck in a prison cell alone."
+				""
+				"Breaking out of the cell won't work due to the mendstone aura protecting the Labyrinth's integrity. You'll need to do some escape art instead to get out. "
+				""
+				"By far the easiest and least expensive way of going about this is to craft a boat, ride it into the iron bars, and then dismount the boat. This results in you phasing through and ending up on the other side of the wall."
+				""
+				"Alternatively, you can buy a Potion of Recall from the Shop and drink it to exit the Labyrinth entirely."
+			]
 			id: "5F848814B143A8F3"
 			invisible: true
 			tasks: [{
