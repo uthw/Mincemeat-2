@@ -2871,7 +2871,7 @@
 			description: [
 				"This ritual converts nearby capable entities into bound scripts, which can be used to summon familiars."
 				""
-				"Try this ritual near a carbuncle. They're found in forested areas and look kind of like squirrels."
+				"Try this ritual near a starbuncle. They're found in forested areas and look kind of like squirrels."
 				""
 				"Familiars are summoned from your spell book, and dismissed by casting Dispel."
 			]
@@ -2926,8 +2926,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.5d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
@@ -2951,17 +2951,19 @@
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.5d
+			x: 17.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
 			description: [
-				"Drygmys like Wilden Horns (drop it in front of them) and can be found anywhere in the Overworld. You can use the Summon Drygmy ritual to create one yourself or just stumble across one."
+				"Drygmies like Wilden Horns (drop it in front of them) and can be found anywhere in the Overworld. You can use the Summon Drygmy ritual to create one yourself or just stumble across one."
 				""
-				"Interact with Mossy Cobblestone while holding a Drygmy Charm to summon it. Within 10 blocks of this block, the Drygmy will peacefully cause nearby entities to drop their loot tables as if they were killed."
+				"Interact with Mossy Cobblestone while holding a Drygmy Charm to summon it and transform the block into a Drygmy Henge. Using multiple Drygmy Charms on one Drygmy Henge will allow additional little guys to share the space."
 				""
-				"More information about Drygmys is in the Worn Notebook."
+				"If the Henge is provided with Source, Drygmies will peacefully cause nearby entities to drop their loot tables as if they were killed! The only prerequisite is that the mob you want to farm is within 10 blocks of the Drygmy Henge."
+				""
+				"Drygmies also have a happiness system. Having more mobs near the Drygmy Henge will make them work faster, and this is even more effective if you gather unique mobs instead of many of the same mob."
 			]
 			id: "62A650D0391A90B5"
 			rewards: [
@@ -2997,8 +2999,8 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.5d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
@@ -3007,7 +3009,7 @@
 				""
 				"Summoned wixies seek to assist mages in combat, tossing their concoctions at adversaries."
 				""
-				"Wixies are skilled in crafting, and can spend their owner's source to craft items for them."
+				"Wixies are skilled in crafting, and can spend their owner's source to craft items for them. Right click the cauldron with the item you want to craft and put the ingredients into a nearby inventory."
 				""
 				"They can also cook by placing them on a furnace to smelt items, or a cooking pot or crucible. The can cut too by means of a stonecutter or cutting board."
 			]
@@ -3023,8 +3025,8 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -2.5d
+			x: 15.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["013CDE87A0D999C3"]
@@ -3172,8 +3174,8 @@
 				item: "ars_creo:starbuncle_wheel"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -3.5d
+			x: 19.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40A4602377E4E3F2"]
@@ -3206,8 +3208,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: -3.0d
+			x: 16.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2A2B25F44A4AE27B"]
@@ -6247,8 +6249,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: -4.5d
+			x: 17.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["46E96E799794ACFF"]
@@ -6274,7 +6276,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["421227890C2EBBA4"]
@@ -6351,8 +6353,8 @@
 				}
 			]
 			title: "Advanced Item/Fluid/Energy Transport"
-			x: 18.5d
-			y: -2.5d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["421227890C2EBBA4"]
@@ -6377,8 +6379,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: 18.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3D4F3D27DC68EEF3"]
@@ -7803,6 +7805,74 @@
 			}]
 			x: 0.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["62A650D0391A90B5"]
+			description: [
+				"If you don't trust your live specimens to roam freely, you can contain them in jars without compromising the Drygmies' ability to collect their loot."
+				""
+				"Use a Tablet of Containment on a Ritual Brazier with a Containment Jar placed in the vicinity to entrap a nearby mob in the jar. This helps with lag and allows for a more compact setup if you're farming large mobs."
+				""
+				"Some vanilla mobs retain certain behaviors while contained. For example, contained sheep can still be sheared and regrow their fleeces if grass is under the jar. Additionally, cats will (somehow) find and drop gifts for their owners if nearby."
+			]
+			id: "6F60E087C0CE7A2D"
+			tasks: [
+				{
+					id: "045950E3482F5F76"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+				{
+					id: "62E11E99B64BCF46"
+					item: "ars_nouveau:ritual_containment"
+					type: "item"
+				}
+			]
+			title: "Containment"
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D4F3D27DC68EEF3"]
+			description: [
+				"Spell Turrets are like dispensers but for spells. Provide a redstone signal and sufficient source, and they will cast the spell you select for them."
+				""
+				"The spell you give the turret should have Touch or Projectile. They can also use Item Pickup and Place Block if an inventory is adjacent."
+				""
+				"Multiple variants of Spell Turrets exist too. The Enchanted Spell Turret has half the source cost of the ordinary one. Meanwhile, the Timer Spell Turret casts spells on an interval which can be modified by punching, right clicking, or shift right clicking it."
+			]
+			id: "39EF8047B3E32786"
+			tasks: [{
+				id: "2BA5F2BFFABDE90C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:basic_spell_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:timer_spell_turret"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:rotating_spell_turret"
+							}
+						]
+					}
+				}
+				title: "Spell Turret"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
 		}
 	]
 	title: "Supernatural Magic"
