@@ -356,7 +356,7 @@
 			]
 			title: "Shoe Collection"
 			x: 2.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -495,7 +495,7 @@
 			]
 			title: "Belt Collection"
 			x: 0.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -626,7 +626,7 @@
 			]
 			title: "Necklace Collection"
 			x: 1.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -771,7 +771,7 @@
 			]
 			title: "Glove Collection"
 			x: 2.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -849,7 +849,7 @@
 			]
 			title: "Ring Collection"
 			x: 3.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -962,7 +962,7 @@
 			]
 			title: "Back Collection"
 			x: 4.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -1018,7 +1018,7 @@
 			]
 			title: "Hat Collection"
 			x: 1.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1A04B7AF864F4CE9"]
@@ -1510,7 +1510,7 @@
 			]
 			title: "Special Relics"
 			x: 3.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -1539,7 +1539,7 @@
 			}]
 			title: "Relics/Artificts Collection"
 			x: 2.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -9744,7 +9744,7 @@
 			]
 			title: "Archaeology Loremaster"
 			x: -2.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -10459,7 +10459,7 @@
 			]
 			title: "Adventuring Loremaster"
 			x: -3.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -10492,7 +10492,7 @@
 				type: "advancement"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -11945,7 +11945,7 @@
 			]
 			title: "Stronghold Loremaster"
 			x: -1.5d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			id: "5EEDD0A06B50F306"
@@ -12005,6 +12005,70 @@
 			title: "Master Angler"
 			x: 14.0d
 			y: -2.0d
+		}
+		{
+			id: "75D91F102E29D241"
+			rewards: [{
+				description: ""
+				icon: "apotheosis:epic_material"
+				id: "49FC7DDCF1D65F4F"
+				title: "Epic Rarity Unlocked"
+				type: "toast"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "097CF97CBAEB18D2"
+				stage: "killed_all_non_end_bosses"
+				title: "Defeat All Pre-End Bosses"
+				type: "gamestage"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "680C0375FDE0B189"
+			rewards: [{
+				description: ""
+				icon: "apotheosis:mythic_material"
+				id: "16193D8C5B586644"
+				title: "Mythic Rarity Unlocked"
+				type: "toast"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "27B5BBB2AFA56A70"
+				stage: "killed_all_bosses"
+				title: "Defeat All Bosses"
+				type: "gamestage"
+			}]
+			x: 14.0d
+			y: 1.0d
 		}
 	]
 	title: "Challenges"

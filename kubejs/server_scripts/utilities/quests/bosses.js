@@ -54,6 +54,15 @@ const bossQuestIds = [
     "0CB83266473448BA",
 ];
 
+const endBosses = [
+    "20B6859C7A0C1D09", // Ender Dragon
+    "72E1C3F859844F04", // Void Worm
+    "283CD42DB879C756", // Obsidilith
+    "70E9EE74EE5A5D7F", // Ender Guardian
+    "1846B85073A4A191", // Geburah
+    "3C64DA5B6BB4C78A", // Nightwarden
+];
+
 const questsThatAddDifficulty = {
     "00294FF7CDCA91F0": 20, // Wroughtnaut
     "4493D9650B5D1F71": 5, // Conjurer
@@ -75,6 +84,7 @@ function refreshBossKillCount(player, shouldTell) {
     let pData = player.persistentData;
 
     let bossKills = 0;
+    let incompleteBosses = [];
 
     let nextMultipleOf5 = Math.ceil(bossQuestIds.length / 5) * 5;
     for (let i = nextMultipleOf5; i >= 5; i -= 5) {
@@ -85,6 +95,8 @@ function refreshBossKillCount(player, shouldTell) {
         let questObj = FTBQuests.getObject(level, questId);
         if (questData.isCompleted(questObj)) {
             bossKills++;
+        } else {
+            incompleteBosses.push(questId);
         }
     });
 
@@ -95,6 +107,26 @@ function refreshBossKillCount(player, shouldTell) {
         level.server.runCommandSilent(
             `kubejs stages add ${player.username} killed_${bossKills}_bosses`,
         );
+    }
+
+    let hasAllNonEndBosses = incompleteBosses.every((questId) =>
+        endBosses.some((endBossId) => endBossId === questId),
+    );
+
+    if (hasAllNonEndBosses) {
+        level.server.runCommandSilent(
+            `kubejs stages add ${player.username} killed_all_non_end_bosses`,
+        );
+    } else {
+        level.server.runCommandSilent(
+            `kubejs stages remove ${player.username} killed_all_non_end_bosses`,
+        );
+    }
+
+    if (incompleteBosses.length === 0) {
+        level.server.runCommandSilent(`kubejs stages add ${player.username} killed_all_bosses`);
+    } else {
+        level.server.runCommandSilent(`kubejs stages remove ${player.username} killed_all_bosses`);
     }
 
     if (bossKills >= minBossesForEndAccess) {

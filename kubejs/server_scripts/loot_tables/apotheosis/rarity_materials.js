@@ -1,7 +1,7 @@
 // Dynamically drop rarity materials from various sources based on the player's progression through the game
 
-const mythicStage = "placeholder_1";
-const epicStage = "placeholder_2";
+const mythicStage = "killed_all_bosses";
+const epicStage = "killed_all_non_end_bosses";
 const rareStage = "killed_enough_bosses";
 const uncommonStage = "minecells_access";
 
