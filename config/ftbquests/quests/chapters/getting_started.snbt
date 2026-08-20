@@ -797,6 +797,8 @@
 				"These &acompasses&r can guide you to &astructures&r and &abiomes&r."
 				""
 				"Since a lot of the progression revolves around exploring for specific, notable &astructures&r, never let these &acompasses&r leave your backpack!"
+				""
+				"If a &astructure&r or &abiome&r is too small, or you need to visit multiple different ones, use the &aSearch for Next&r feature to look up a different location."
 			]
 			id: "7C2D35E29A7FF6A2"
 			rewards: [{
