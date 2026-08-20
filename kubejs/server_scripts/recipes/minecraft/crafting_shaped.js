@@ -1704,6 +1704,16 @@ ServerEvents.recipes((event) => {
                 C: "minecraft:smithing_table"
             }
         ],
+        [
+            "actuallyadditions:xp_solidifier",
+            ["ABA", "CDC", "ABA"],
+            {
+                A: "#forge:ingots/silver",
+                B: "create_new_age:magnetite_block",
+                C: "thermal:cinnabar",
+                D: "minecraft:hopper"
+            }
+        ]
     ];
 
     recipes.forEach((recipe, index) => {
