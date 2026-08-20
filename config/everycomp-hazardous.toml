@@ -25,12 +25,12 @@
 	#        "biomesoplenty:redwood"		COMMENT: exclude redwood from Wood Mod for any module
 	#    ]
 	#
-	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen", "biomeswevegone:holly", "biomeswevegone:witch_hazel", "biomeswevegone:mahogany", "environmental:willow", "biomeswevegone:pine", "outer_end:.*", "caverns_and_chasms:azalea", "mynethersdelight:powdery", "quark:azalea", "infernalexp:.*", "forbidden_arcanus:fungyss"]
+	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen", "biomeswevegone:holly", "biomeswevegone:witch_hazel", "biomeswevegone:mahogany", "environmental:willow", "biomeswevegone:pine", "outer_end:.*", "caverns_and_chasms:azalea", "mynethersdelight:powdery", "quark:azalea", "infernalexp:.*", "forbidden_arcanus:fungyss", "alexscaves:thornwood"]
 
 [leavestype]
 	#Exclude LeavesType from all of Modules
 	#	The example is same as WoodType's
-	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen", "biomeswevegone:holly", "biomeswevegone:witch_hazel", "biomeswevegone:mahogany", "environmental:willow", "biomeswevegone:pine", "outer_end:.*", "caverns_and_chasms:azalea", "mynethersdelight:powdery", "quark:azalea", "infernalexp:.*", "forbidden_arcanus:fungyss"]
+	blacklist = ["botania:.*", "dungeonnowloading:.*", "cataclysm:.*", "undergarden:.*", "betterarcheology:.*", "netherexp:.*", "blue_skies:.*", ".*aether.*", "iceandfire:.*", "hexcasting:.*", "endergetic:.*", "eidolon:.*", "collectorsreap:.*", "environmental:pine", "biomeswevegone:sakura", "biomeswevegone:maple", "minecells:.*", "biomeswevegone:aspen", "biomeswevegone:holly", "biomeswevegone:witch_hazel", "biomeswevegone:mahogany", "environmental:willow", "biomeswevegone:pine", "outer_end:.*", "caverns_and_chasms:azalea", "mynethersdelight:powdery", "quark:azalea", "infernalexp:.*", "forbidden_arcanus:fungyss", "alexscaves:thornwood"]
 
 [block]
 	#Exclude a specific WoodType/LeavesType block
