@@ -118,3 +118,6 @@ config/streamsreflowing/
 particular_cache/
 config/leawind_third_person.json
 config/fancymenu/customizablemenus.txt
+*.gz
+*cache*
+bivrik/
