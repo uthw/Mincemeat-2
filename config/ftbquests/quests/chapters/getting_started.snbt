@@ -1425,8 +1425,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6C08AF09C8F20F4F"]
@@ -3123,8 +3123,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2F5046E30C8273CB"]
@@ -4153,6 +4153,197 @@
 			}]
 			x: 1.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["1CAD0713BCA3D2EB"]
+			description: [
+				"Building a spawner farm has never been easier with so many extra tools at your disposal."
+				""
+				"&aBamboo Spikes:&r Damages mobs that land on them."
+				""
+				"&aPlayer Damage Plate:&r Damages mobs that land on them. Mobs killed in this way drop XP."
+				""
+				"&aMaim Plate:&r Damages mobs that land on them, but does not kill them."
+				""
+				"&aVector Plate:&r Moves mobs in the direction indicated by the arrow."
+				""
+				"&a[mob type] Filter:&r Only allows certain mobs to pass through it while acting as a solid block to others."
+				""
+				"&aExperience Solidifier:&r Solidifies experience dropped nearby into item form for later use. You can use a Disenchanter to reliquify the experience if you're working with large quantities."
+				""
+				"&aMagnet Upgrade:&r Collects items dropped in a range."
+				"{@pagebreak}"
+				"[ \"If you've read through all this and still aren't feeling the idea of a mob spawner-based setup, try getting help from some \", { \"text\": \"Drygmies\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"62A650D0391A90B5\" } }, \" instead.\" ]"
+			]
+			id: "3139EE00709EFC7F"
+			rewards: [{
+				count: 19
+				id: "1A843DECBB90D2EB"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			subtitle: "Close that YouTube tutorial"
+			tasks: [
+				{
+					id: "00890A57A58B9930"
+					item: "supplementaries:bamboo_spikes"
+					type: "item"
+				}
+				{
+					id: "62A2EC297AB4CB63"
+					item: "darkutils:damage_plate_player"
+					type: "item"
+				}
+				{
+					id: "5898AA0F9C3EF907"
+					item: "darkutils:damage_plate_maim"
+					type: "item"
+				}
+				{
+					id: "424053286B762557"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "darkutils:vector_plate"
+								}
+								{
+									Count: 1b
+									id: "darkutils:vector_plate_fast"
+								}
+								{
+									Count: 1b
+									id: "darkutils:vector_plate_extreme"
+								}
+							]
+						}
+					}
+					title: "Vector Plate"
+					type: "item"
+				}
+				{
+					id: "050C61FC53FCCB5D"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "darkutils:.*filter"
+						}
+					}
+					title: "Mob Type Filter"
+					type: "item"
+				}
+				{
+					id: "3A344FBED0FCC1D8"
+					item: "actuallyadditions:xp_solidifier"
+					type: "item"
+				}
+				{
+					id: "3CF0C8D738A614B2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:magnet_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:magnet_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:advanced_magnet_upgrade"
+								}
+							]
+						}
+					}
+					title: "Magnet Upgrade"
+					type: "item"
+				}
+			]
+			title: "Mob Grinder Utilities"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3139EE00709EFC7F"]
+			description: [
+				"If you don't like the Experience Solidifier, you can use Sophisticated Backpacks to collect the experience from your mob grinder instead."
+				""
+				"You'll need a Pump Upgrade, a Tank Upgrade, and a Magnet Upgrade. With this combination, the Backpack will vacuum XP and items dropped near it, saving you valuable space."
+				""
+				"[ \"The downside to this is you'll have to figure out how to get the XP out of your backpack. This is beyond the scope of this chapter, so I suggest reading \", { \"text\": \"Fluid Transport with Create\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2635DBAEEA555FE2\" } } ]"
+			]
+			id: "49D4A5F8C1671C6E"
+			optional: true
+			rewards: [{
+				count: 14
+				id: "4323AB2160D20C52"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1220BEF94C4B2E55"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:pump_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:advanced_pump_upgrade"
+								}
+							]
+						}
+					}
+					title: "Pump Upgrade"
+					type: "item"
+				}
+				{
+					id: "4C7471D3B4ED858C"
+					item: "sophisticatedbackpacks:tank_upgrade"
+					type: "item"
+				}
+				{
+					id: "771A343AAB22E87F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:magnet_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+								}
+							]
+						}
+					}
+					title: "Magnet Upgrade"
+					type: "item"
+				}
+			]
+			title: "Alternative XP Collection Solution"
+			x: 12.5d
+			y: 0.0d
 		}
 	]
 	title: "Getting Started"
