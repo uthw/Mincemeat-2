@@ -1172,7 +1172,17 @@ ServerEvents.recipes((event) => {
             { output: "yo_hooks:netherite_grappling_hook" },
             "minecraft:chain",
             "additionallanterns:netherite_chain",
-        ]
+        ],
+        [{ mod: "darkutils" }, "#minecraft:fence_gates", "farmersdelight:canvas"],
+        [{ mod: "darkutils" }, "minecraft:sugar", "#forge:ingots/silver"],
+        [{ mod: "darkutils" }, "#forge:slimeballs", "#forge:ingots/tin"],
+        [{ mod: "darkutils" }, "minecraft:snowball", "irons_spellbooks:frozen_bone"],
+        [{ mod: "darkutils" }, "minecraft:flint_and_steel", "quark:bottled_cloud"],
+        [{ mod: "darkutils" }, "minecraft:poisonous_potato", "minecells:infected_flesh"],
+        [{ mod: "darkutils" }, "minecraft:shroomlight", "ars_nouveau:bombegranate_pod"],
+        [{ mod: "darkutils" }, "minecraft:crimson_fungus", "miners_delight:cave_carrot"],
+        [{ mod: "darkutils" }, "minecraft:phantom_membrane", "iceandfire:ectoplasm"],
+        [{ mod: "darkutils" }, "minecraft:ink_sac", "alexsmobs:skreecher_soul"],
     ];
 
     replacements.forEach((replacement) => {

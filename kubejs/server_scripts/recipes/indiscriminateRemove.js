@@ -206,7 +206,8 @@ ServerEvents.recipes((event) => {
         "irons_restrictions:uncommon_upgrade",
         "malum:ring_of_manaweaving",
         "autumnity:syrup_bottle",
-        "autumnity:maple_cookie"
+        "autumnity:maple_cookie",
+        "darkutils:charm_warding"
     ];
 
     toRemove.forEach((item) => {

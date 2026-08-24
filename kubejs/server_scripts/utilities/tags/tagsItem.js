@@ -8,6 +8,7 @@ ServerEvents.tags("item", (event) => {
         // "curios:artifact_belt",
         // "iceandfire:tempt_hippocampus",
         "celestisynth:celestial_core_bases",
+        "darkutils:plate_base"
     ];
 
     removeAll.forEach((removal) => {
@@ -94,6 +95,8 @@ ServerEvents.tags("item", (event) => {
         ["rarcompat:mimificable", "ramcompat:stink_gland"],
         ["rarcompat:mimificable", "ramcompat:tendon_lump"],
         ["forge:workbench", "vct:hexerei_witch_hazel_crafting_table"],
+        ["darkutils:plate_base", "darkutils:blank_plate"],
+        ["darkutils:plate_base", "architects_palette:warpstone"]
     ];
 
     add.forEach((addition) => {
