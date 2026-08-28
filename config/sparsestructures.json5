@@ -202,6 +202,10 @@
     {
       "structure": "iceandfire:graveyard",
       "factor": 2.5
+    },
+    {
+      "structure": "souls_like_bosses:tree_of_light",
+      "factor": 2
     }
     // add the structures you want to modify in the format:
     // {

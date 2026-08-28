@@ -712,7 +712,7 @@
 				value: 1L
 			}]
 			title: "Leviathan"
-			x: 15.0d
+			x: 16.5d
 			y: -4.0d
 		}
 		{
@@ -741,7 +741,7 @@
 				value: 1L
 			}]
 			title: "Ancient Remnant"
-			x: 13.5d
+			x: 15.0d
 			y: -4.0d
 		}
 		{
@@ -770,7 +770,7 @@
 				value: 1L
 			}]
 			title: "The Harbinger"
-			x: 10.5d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -2088,7 +2088,7 @@
 				item: "cataclysm:mech_eye"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: 0.5d
 		}
 		{
@@ -2106,7 +2106,7 @@
 				item: "cataclysm:abyss_eye"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: 0.5d
 		}
 		{
@@ -2123,7 +2123,7 @@
 				item: "cataclysm:desert_eye"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: 0.5d
 		}
 		{
@@ -3218,7 +3218,7 @@
 				title: "Sunken City"
 				type: "structure"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: -1.0d
 		}
 		{
@@ -3261,7 +3261,7 @@
 				}
 			]
 			title: "Blessed Amethyst Crab Meat"
-			x: 15.0d
+			x: 16.5d
 			y: -2.0d
 		}
 		{
@@ -3293,7 +3293,7 @@
 				item: "cataclysm:abyssal_sacrifice"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.5d
 			y: -3.0d
 		}
 		{
@@ -3324,7 +3324,7 @@
 				title: "Cursed Pyramid"
 				type: "structure"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: -1.0d
 		}
 		{
@@ -3347,7 +3347,7 @@
 				item: "cataclysm:sticky_gloves"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -3386,7 +3386,7 @@
 				}
 			]
 			title: "Necklace of the Desert"
-			x: 13.5d
+			x: 15.0d
 			y: -3.0d
 		}
 		{
@@ -3408,7 +3408,7 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: -2.5d
 		}
 		{
@@ -3432,7 +3432,7 @@
 				title: "Ancient Factory"
 				type: "structure"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: -1.0d
 		}
 		{
@@ -3512,7 +3512,7 @@
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: -5.5d
 		}
 		{
@@ -3535,7 +3535,7 @@
 				item: "cataclysm:wrath_of_the_desert"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -7.0d
 		}
 		{
@@ -3575,7 +3575,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: -7.0d
 		}
 		{
@@ -3615,7 +3615,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: -6.5d
 		}
 		{
@@ -3655,7 +3655,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: -6.5d
 		}
 		{
@@ -3678,7 +3678,7 @@
 				item: "cataclysm:the_immolator"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: -7.5d
 		}
 		{
@@ -3701,7 +3701,7 @@
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: -8.0d
 		}
 		{
@@ -3730,7 +3730,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 12.0d
 			y: -8.0d
 		}
 		{
@@ -3753,7 +3753,7 @@
 				item: "cataclysm:void_assault_shoulder_weapon"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: -8.0d
 		}
 		{
@@ -3777,7 +3777,7 @@
 				item: "cataclysm:gauntlet_of_maelstrom"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 14.0d
 			y: -7.5d
 		}
 		{
@@ -4507,7 +4507,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: 0.5d
 		}
 		{
@@ -4543,7 +4543,7 @@
 				title: "Acropolis"
 				type: "structure"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: -1.0d
 		}
 		{
@@ -4576,7 +4576,7 @@
 				type: "observation"
 			}]
 			title: "Acropolis Sanctum"
-			x: 12.0d
+			x: 13.5d
 			y: -3.0d
 		}
 		{
@@ -4604,7 +4604,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: -4.0d
 		}
 		{
@@ -4631,7 +4631,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: -2.0d
 		}
 		{
@@ -4662,7 +4662,7 @@
 				title: "Temple of Duality"
 				type: "structure"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 0.5d
 		}
 		{
@@ -4685,7 +4685,7 @@
 				type: "observation"
 			}]
 			title: "Main Room"
-			x: 9.0d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -4744,7 +4744,7 @@
 				}
 			]
 			title: "Duality Puzzle Cheat Sheet"
-			x: 9.0d
+			x: 10.5d
 			y: 1.5d
 		}
 		{
@@ -4774,7 +4774,7 @@
 				item: "dungeonnowloading:redstone_idol"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: -2.5d
 		}
 		{
@@ -4819,7 +4819,7 @@
 				type: "item"
 			}]
 			title: "Scorcher/Soul Scorcher"
-			x: 8.5d
+			x: 10.0d
 			y: -5.5d
 		}
 		{
@@ -4843,7 +4843,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: -5.5d
 		}
 		{
@@ -4871,7 +4871,7 @@
 				}
 			]
 			title: "Fairkeeper Ouros and Boros"
-			x: 9.0d
+			x: 10.5d
 			y: -4.0d
 		}
 		{
@@ -5472,6 +5472,82 @@
 			}]
 			x: -15.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["67EDF8A2B69A158D"]
+			description: [
+				"In ocean biomes, you can find massive white trees. Climb to the top of the tree to challenge the Nightlord, a knight who wields three swords."
+				""
+				"The Nightlord's attack patterns are quite simple and can be dodged without much difficulty. Watch out for when the boss gives you the darkness effect, since this means it's summoning soul fireballs to launch at you."
+				""
+				"Once you get the Nightlord down to 1 HP, darkness will surround you, marking the start of phase 2. The Nightlord's attack patterns get more intricate here, and you'll want to rely on dodge rolls and other traversal methods to avoid the enhanced attacks."
+			]
+			id: "545A9259D91B2A36"
+			rewards: [{
+				count: 2
+				id: "76F517C4A5C505ED"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:sea_lantern"
+				id: "0B9DAEA2A64C6BB5"
+				structure: "souls_like_bosses:tree_of_light"
+				title: "Tree of Light"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["545A9259D91B2A36"]
+			id: "6CF6F267F94630C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37F5594CFAA30C63"
+				table_id: 4519848194868148161L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "souls_like_bosses:nightlord"
+				icon: "forbidden_arcanus:crescent_moon"
+				id: "37FBF6D913AFA061"
+				title: "The Nightlord"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CF6F267F94630C3"]
+			id: "182C525FE9F05B14"
+			rewards: [{
+				count: 3
+				id: "1DA702B86442FD54"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78CA45A4D1097D68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"fallen_gems_affixes:augment_capability": {
+							Augments: [{
+								Test: "test"
+							}]
+						}
+					}
+					id: "souls_like_bosses:dark_moon_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
 		}
 	]
 	title: "Overworld Adventure"

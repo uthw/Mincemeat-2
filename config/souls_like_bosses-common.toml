@@ -1,0 +1,48 @@
+
+["Mob Settings"]
+
+	["Mob Settings"."Night Lord Settings"]
+		#Multiplies health of the Nightlord.
+		#Applies per phase: phase 1 drains the bar to 1, then he is healed to full
+		#for phase 2. At 1.0 that is 500 per phase, 1000 over the whole fight.
+		#Range: 0.0 ~ 1000.0
+		"Night Lord Health Multiplier" = 0.9
+		#Multiplies damage dealt by the Nightlord.
+		#Range: 0.0 ~ 1000.0
+		"Night Lord Damage Multiplier" = 1.0
+		#Multiplies armor of the Nightlord.
+		#Range: 0.0 ~ 1000.0
+		"Night Lord Armor Multiplier" = 1.0
+		#Multiplies movement speed of the Nightlord.
+		#Range: 0.0 ~ 1000.0
+		"Night Lord Speed Multiplier" = 1.0
+		#How many attacks the Nightlord chains before he takes a breather.
+		#Only applies to phase 2 - in phase 1 he recovers after every attack.
+		#There is also a one in three chance per attack to cut the chain short,
+		#so the average is well below this number. Lower it to make the fight
+		#less relentless.
+		#Range: 1 ~ 20
+		"Night Lord Attacks Per Combo" = 5
+
+["Item Settings"]
+
+	["Item Settings"."Dark Moon Greatsword Settings"]
+		#Melee attack damage of the Dark Moon Greatsword, in half-hearts.
+		#Range: 0.0 ~ 2048.0
+		"Dark Moon Greatsword Damage" = 20.0
+		#How many uses the sword has before it breaks.
+		#Range: 1 ~ 100000
+		"Dark Moon Greatsword Durability" = 16248
+		#Cooldown after the last charge has been spent, in seconds.
+		#Range: 0 ~ 3600
+		"Dark Moon Greatsword Cooldown" = 8
+		#How many light waves can be fired before the cooldown starts.
+		#Each right-click spends one charge.
+		#Range: 1 ~ 64
+		"Dark Moon Greatsword Charges" = 1
+		#Damage of a single light wave, in half-hearts.
+		#Applies to every wave regardless of its element - the element only decides
+		#the extra status effect (fire, poison, slowness) that comes on top.
+		#Range: 0.0 ~ 2048.0
+		"Dark Moon Greatsword Wave Damage" = 7.0
+

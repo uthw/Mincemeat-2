@@ -52,6 +52,7 @@ const bossQuestIds = [
     "1523B768DC9D0F6D",
     "3DE7C32A7F8C8E31",
     "0CB83266473448BA",
+    "6CF6F267F94630C3",
 ];
 
 const endBosses = [

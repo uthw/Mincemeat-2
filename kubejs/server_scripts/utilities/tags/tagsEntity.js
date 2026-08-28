@@ -95,6 +95,8 @@ const bossesAndMinions = [
     "block_factorys_bosses:yeti",
 
     "netherman:azazel",
+
+    "souls_like_bosses:nightlord",
 ];
 
 ServerEvents.tags("entity_type", (event) => {
