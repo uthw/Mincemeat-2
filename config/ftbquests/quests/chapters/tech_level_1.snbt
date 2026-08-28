@@ -3720,6 +3720,42 @@
 					item: "create_connected:brake"
 					type: "item"
 				}
+				{
+					id: "0ECA07BAD538E96C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "petrolsparts:coaxial_gear"
+								}
+								{
+									Count: 1b
+									id: "petrolsparts:large_coaxial_gear"
+								}
+							]
+						}
+					}
+					title: "Coaxial Cogwheel"
+					type: "item"
+				}
+				{
+					id: "6E170F2DA15A501B"
+					item: "petrolsparts:double_cardan_shaft"
+					type: "item"
+				}
+				{
+					id: "2E7517EEDE371DBD"
+					item: "petrolsparts:differential"
+					type: "item"
+				}
+				{
+					id: "72D5D7B61D64A767"
+					item: "petrolsparts:planetary_gearset"
+					type: "item"
+				}
 			]
 			title: "More Wacky Blocks"
 			x: 1.5d
@@ -3744,6 +3780,11 @@
 				{
 					id: "51C3A50653E94F14"
 					item: "create_connected:kinetic_bridge"
+					type: "item"
+				}
+				{
+					id: "4A40255FDB665E79"
+					item: "petrolsparts:hydraulic_transmission"
 					type: "item"
 				}
 			]
@@ -3927,6 +3968,18 @@
 			title: "Playing with Pulses"
 			x: 3.5d
 			y: -9.5d
+		}
+		{
+			dependencies: ["7A3E1BC754A91448"]
+			description: ["Once you get your hands on &ebrass&r, you can use these to move items between locations without having to run cables or conveyors."]
+			id: "367E1C99903CC999"
+			tasks: [{
+				id: "51BAB166B0E01F2D"
+				item: "petrolsparts:pneumatic_tube"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
 		}
 	]
 	title: "Tech Level 1"
