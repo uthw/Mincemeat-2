@@ -1,14 +1,13 @@
 
 #General settings
 [general]
-	#The CurseForge project ID for the modpack
-	#Range: > 0
-	modpackProjectID = 0
-	#The name of the modpack
-	modpackName = "Mincemeat 2"
-	#The version of the modpack
-	modpackVersion = "v0.6.2"
-	#Use the metadata.json to determine the modpack version
-	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
-	useMetadata = false
-
+#The CurseForge project ID for the modpack
+#Range: > 0
+modpackProjectID = 0
+#The name of the modpack
+modpackName = "Mincemeat 2"
+#The version of the modpack
+modpackVersion = "v0.6.3"
+#Use the metadata.json to determine the modpack version
+#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+useMetadata = false
