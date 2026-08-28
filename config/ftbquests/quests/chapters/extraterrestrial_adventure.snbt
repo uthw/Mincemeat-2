@@ -2718,9 +2718,9 @@
 			description: [
 				"&7&oDepending on how much optional content in Overworld Adventure and Dimensional Adventure you've done, this quest may immediately be completed and you can ignore it."
 				""
-				"To reach the end, you'll need to prove your worth beyond taking down the required bosses. Specifically, you need to kill a total of 15 different bosses. With there being more than 45 to choose from at this point, this should be no big deal!"
+				"To reach the end, you'll need to prove your worth beyond taking down the required bosses. Specifically, you need to kill a total of 15 different bosses. With there being more than 50 to choose from at this point, this should be no big deal!"
 				""
-				"There are no restrictions on which bosses you can choose. If you want, pick only overworld bosses."
+				"There are no restrictions on which bosses you can choose. If you want, pick only the easiest overworld bosses, or try and challenge yourself."
 				""
 				"&nTips:"
 				""
@@ -2728,7 +2728,7 @@
 				""
 				"Click the checkmark on the Check Boss Kill Count quest in the Shop to check your progress."
 				""
-				"The Forgotten Guardian and Conjurer don't count."
+				"Magnetron, Forgotten Guardian, and Conjurer don't count."
 				""
 				"The Primordial Caves, Forlorn Hollow, and Abyssal Chasm each have 1 boss. Botania and Ars Nouveau each have 1 boss. The Aether has 4 bosses."
 			]
