@@ -20,13 +20,13 @@
 
 	[paraglider.flying]
 		#Range: > -2147483648
-		staminaDelta = 20
+		staminaDelta = 28
 		#Range: > 0
 		recoveryDelay = 0
 
 	[paraglider.idle]
 		#Range: > -2147483648
-		staminaDelta = 20
+		staminaDelta = 28
 		#Range: > 0
 		recoveryDelay = 0
 
@@ -38,7 +38,7 @@
 
 	[paraglider.on_vehicle]
 		#Range: > -2147483648
-		staminaDelta = 20
+		staminaDelta = 28
 		#Range: > 0
 		recoveryDelay = 0
 
@@ -68,7 +68,7 @@
 
 	[paraglider.underwater]
 		#Range: > -2147483648
-		staminaDelta = 3
+		staminaDelta = 5
 		#Range: > 0
 		recoveryDelay = 0
 
