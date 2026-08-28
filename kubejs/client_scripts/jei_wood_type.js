@@ -1360,10 +1360,10 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Aerglow Forest, Aerlavender Fields, Blue Aerglow Forest, Cloudcaps, Frosted Forests, Gilded Grasslands, Gilded Groves, Glacial Tundra, Golden Grove, Golden Heights, Luminescent Forest, Mystic Aerglow Forest, Skyfields, Skyroot Forest, Skyroot Grove, Skyroot Meadow, Skyroot Shrublands, Skyroot Woodland, The Blight, Yagroot Swamp",
     ]);
-    addSafe(/aether_redux:(stripped_)?blighted_skyroot_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "The Blight",
-    ]);
+    addSafe(
+        /aether_redux:(stripped_)?blighted_skyroot_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "The Blight"],
+    );
     addSafe(/aether_redux:(stripped_)?blightwillow_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
         "The Blight",
@@ -1396,29 +1396,29 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Frosted Forests, Glacial Tundra",
     ]);
-    addSafe(/aether_redux:(stripped_)?sporing_blightwillow_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "The Blight",
-    ]);
-    addSafe(/ars_elemental:(stripped_)?yellow_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Flashing Forest, Flashing Tree Biome",
-    ]);
+    addSafe(
+        /aether_redux:(stripped_)?sporing_blightwillow_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "The Blight"],
+    );
+    addSafe(
+        /ars_elemental:(stripped_)?yellow_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "Flashing Forest, Flashing Tree Biome"],
+    );
     addSafe(/ars_nouveau:(stripped_)?blue_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
-        "Any Overworld Biome, Archwood Forest, Cascading Forest",
+        "=Archwood Forest, Cascading Forest",
     ]);
     addSafe(/ars_nouveau:(stripped_)?green_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
-        "Any Overworld Biome, Archwood Forest, Flourishing Forest",
+        "Archwood Forest, Flourishing Forest",
     ]);
-    addSafe(/ars_nouveau:(stripped_)?purple_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Any Overworld Biome, Archwood Forest",
-    ]);
+    addSafe(
+        /ars_nouveau:(stripped_)?purple_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "Archwood Forest"],
+    );
     addSafe(/ars_nouveau:(stripped_)?red_archwood_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
-        "Any Overworld Biome, Archwood Forest, Blazing Forest",
+        "Archwood Forest, Blazing Forest",
     ]);
     addSafe(/atmospheric:(stripped_)?aspen_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
@@ -1468,14 +1468,17 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Baobab Savanna",
     ]);
-    addSafe(/biomeswevegone:(stripped_)?blue_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Enchanted Tangle",
-    ]);
-    addSafe(/biomeswevegone:(stripped_)?brown_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
-    ]);
+    addSafe(
+        /biomeswevegone:(stripped_)?blue_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "Enchanted Tangle"],
+    );
+    addSafe(
+        /biomeswevegone:(stripped_)?brown_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        [
+            "Found in biomes:",
+            "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
+        ],
+    );
     addSafe(/biomeswevegone:(stripped_)?cika_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
         "Cika Woods",
@@ -1496,10 +1499,10 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Allium Shrubland, Forgotten Forest",
     ]);
-    addSafe(/biomeswevegone:(stripped_)?green_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Enchanted Tangle",
-    ]);
+    addSafe(
+        /biomeswevegone:(stripped_)?green_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "Enchanted Tangle"],
+    );
     addSafe(
         /biomeswevegone:(stripped_)?imbued_blue_enchanted_(log|stem|wood|planks|sapling|hyphae|leaves)/,
         ["Found in biomes:", "Enchanted Tangle"],
@@ -1528,10 +1531,10 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Black Forest, Canadian Shield, Red Rock Peaks, Red Rock Valley",
     ]);
-    addSafe(/biomeswevegone:(stripped_)?rainbow_eucalyptus_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Crag Gardens, Fragment Jungle",
-    ]);
+    addSafe(
+        /biomeswevegone:(stripped_)?rainbow_eucalyptus_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "Crag Gardens, Fragment Jungle"],
+    );
     addSafe(/biomeswevegone:(stripped_)?redwood_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
         "Redwood Thicket",
@@ -1544,14 +1547,17 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Skyris Vale",
     ]);
-    addSafe(/biomeswevegone:(stripped_)?white_mangrove_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "White Mangrove Marshes",
-    ]);
-    addSafe(/biomeswevegone:(stripped_)?white_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
-    ]);
+    addSafe(
+        /biomeswevegone:(stripped_)?white_mangrove_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "White Mangrove Marshes"],
+    );
+    addSafe(
+        /biomeswevegone:(stripped_)?white_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        [
+            "Found in biomes:",
+            "Ebony Woods, Enchanted Tangle, Forgotten Forest, Jacaranda Jungle, Tropical Rainforest, Weeping Witch Forest",
+        ],
+    );
     addSafe(/biomeswevegone:(stripped_)?willow_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
         "Bayou",
@@ -1608,10 +1614,10 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
     ]);
-    addSafe(/deep_aether:(stripped_)?rotten_roseroot_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest",
-    ]);
+    addSafe(
+        /deep_aether:(stripped_)?rotten_roseroot_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "Aerglow Forest, Blue Aerglow Forest, Mystic Aerglow Forest"],
+    );
     addSafe(/deep_aether:(stripped_)?sunroot_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
         "Golden Grove, Golden Heights",
@@ -1744,10 +1750,10 @@ JEIEvents.information((event) => {
         "Found in biomes:",
         "Gronglegrowth",
     ]);
-    addSafe(/undergarden:(stripped_)?indigo_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
-        "Found in biomes:",
-        "Indigo Mushroom Bog, Smogstem Forest",
-    ]);
+    addSafe(
+        /undergarden:(stripped_)?indigo_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/,
+        ["Found in biomes:", "Indigo Mushroom Bog, Smogstem Forest"],
+    );
     addSafe(/undergarden:(stripped_)?ink_mushroom_(log|stem|wood|planks|sapling|hyphae|leaves)/, [
         "Found in biomes:",
         "Ink Mushroom Bog",

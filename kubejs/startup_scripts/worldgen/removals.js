@@ -64,4 +64,6 @@ WorldgenEvents.remove((event) => {
             "malum:brilliant_deepslate",
         ];
     });
+
+    event.removeFeatureById("vegetal_decoration", "ars_nouveau:mixed_archwoods");
 });
