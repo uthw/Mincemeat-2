@@ -1,5 +1,3 @@
-"Have Illagers cross their arms when neutral?" = true
-#Range: -500.0 ~ 100.0
-"Height of the Enchanters helmet" = -15.0
-"Allow new pillager renderer" = true
+#This will make sure any entity id in this list wont render with armor. Example outputs would be "minecraft:vex" and "minecraft:vex","minecraft:witch"
+"Illager Armor BlackList" = []
 
